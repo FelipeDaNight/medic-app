@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --background: #f7f8fa;
+  --background-raised: #ffffff;
+  --foreground: #14181f;
+  --foreground-muted: #565f6e;
+  --foreground-subtle: #8992a1;
+  --border: #e3e6eb;
+  --border-strong: #cbd1db;
+  --brand: #0f6e63;
+  --brand-strong: #0b4f47;
+  --brand-soft: #e4f2ef;
+  --ring: #0f6e63;
+  --card: #ffffff;
+  --overlay: rgba(15, 20, 28, 0.55);
+}
+
+.dark {
+  --background: #0b0f14;
+  --background-raised: #121821;
+  --foreground: #eef1f5;
+  --foreground-muted: #a6afbd;
+  --foreground-subtle: #707a8a;
+  --border: #232b37;
+  --border-strong: #313b49;
+  --brand: #2bb3a1;
+  --brand-strong: #7fdccd;
+  --brand-soft: #10302c;
+  --ring: #2bb3a1;
+  --card: #121821;
+  --overlay: rgba(3, 6, 10, 0.7);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-background-raised: var(--background-raised);
+  --color-foreground: var(--foreground);
+  --color-foreground-muted: var(--foreground-muted);
+  --color-foreground-subtle: var(--foreground-subtle);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-brand: var(--brand);
+  --color-brand-strong: var(--brand-strong);
+  --color-brand-soft: var(--brand-soft);
+  --color-card: var(--card);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--brand);
+  color: white;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 999px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
