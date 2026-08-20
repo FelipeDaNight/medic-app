@@ -4,11 +4,12 @@ import { medications } from "@/data/medications";
 import { diseases } from "@/data/diseases";
 import { updates } from "@/data/updates";
 import { cid10Index } from "@/data/cid10-index";
+import { renameIndex } from "@/data/rename-index";
 import { medicamentosIndex } from "@/data/medicamentos-index";
 import { Callout } from "@/components/ui/callout";
 
 const totalCid10 = cid10Index.length + diseases.length;
-const totalMedIndex = medicamentosIndex.length + medications.length;
+const totalMedIndex = renameIndex.length + medicamentosIndex.length + medications.length;
 
 export const metadata: Metadata = {
   title: "Sobre",
@@ -69,10 +70,19 @@ export default function SobrePage() {
             ficha completa. A camada com ficha completa cresce continuamente.
           </p>
           <p className="mt-2">
-            Para medicamentos, a meta é a mesma, mas a fonte é diferente: a base de dados abertos de
-            medicamentos registrados da ANVISA está com o certificado do servidor inacessível a
-            partir deste ambiente (confirmado por múltiplas tentativas), então o índice de nomes usa
-            hoje uma fonte alternativa — o dataset acadêmico{" "}
+            Para medicamentos, a estrutura ganhou uma terceira camada. A fonte primária do índice
+            passou a ser a{" "}
+            <strong>RENAME — Relação Nacional de Medicamentos Essenciais</strong>, lista oficial do
+            Ministério da Saúde, com {renameIndex.length.toLocaleString("pt-BR")} nomes (denominação
+            genérica/DCB, classe ATC e componente de financiamento — Básico, Estratégico,
+            Especializado ou Hospitalar). A edição 2024 não pôde ser baixada a partir deste
+            ambiente — o servidor bvsms.saude.gov.br bloqueia o acesso automatizado mesmo por
+            múltiplas rotas —, então esta é a <strong>edição 2022</strong> da RENAME, extraída
+            diretamente do PDF oficial (mesma base institucional; a maior parte do elenco não muda
+            de uma edição para outra). Quando a edição 2024 ficar acessível, ela substitui esta.
+          </p>
+          <p className="mt-2">
+            Uma terceira camada, o índice do dataset acadêmico{" "}
             <a
               href="https://github.com/LaCAfe/Bulario2018PT-br"
               target="_blank"
@@ -81,10 +91,12 @@ export default function SobrePage() {
             >
               Bulario2018PT-br
             </a>{" "}
-            (Cunha, dos Santos e Guedes, 2018), com {medicamentosIndex.length.toLocaleString("pt-BR")}{" "}
-            nomes reais de medicamentos coletados do site bulario.com. É uma fonte comunitária, não
-            oficial, e traz apenas o nome — sem princípio ativo, tarja ou posologia verificados. Se a
-            base oficial da ANVISA voltar a ficar acessível, ela substitui esse índice.
+            (Cunha, dos Santos e Guedes, 2018 — {medicamentosIndex.length.toLocaleString("pt-BR")}{" "}
+            nomes coletados do site bulario.com), aparece só como <strong>fallback não verificado</strong>{" "}
+            para nomes comerciais que a RENAME não lista, já que ela é organizada por
+            denominação genérica. É rotulada separadamente na busca e nunca misturada com itens
+            de ficha completa. A ANVISA segue como objetivo de longo prazo caso o acesso ao
+            dataset oficial dela volte a funcionar.
           </p>
         </div>
       </div>

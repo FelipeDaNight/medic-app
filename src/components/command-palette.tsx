@@ -3,14 +3,15 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Fuse from "fuse.js";
-import { Pill, Activity, Newspaper, BookMarked, Tag, Search, CornerDownLeft } from "lucide-react";
+import { Pill, Activity, Newspaper, BookMarked, ClipboardList, Tag, Search, CornerDownLeft } from "lucide-react";
 import type { Medication, Disease, ClinicalUpdate } from "@/data/types";
 import { cid10Index } from "@/data/cid10-index";
+import { renameIndex } from "@/data/rename-index";
 import { medicamentosIndex } from "@/data/medicamentos-index";
 import { normalize } from "@/lib/text";
 
 interface SearchItem {
-  type: "medicamento" | "medicamento-indice" | "doenca" | "doenca-indice" | "atualizacao";
+  type: "medicamento" | "medicamento-rename" | "medicamento-indice" | "doenca" | "doenca-indice" | "atualizacao";
   title: string;
   subtitle: string;
   href: string;
@@ -18,7 +19,8 @@ interface SearchItem {
 
 const TYPE_META = {
   medicamento: { label: "Medicamento", icon: Pill },
-  "medicamento-indice": { label: "Nome (índice)", icon: Tag },
+  "medicamento-rename": { label: "RENAME", icon: ClipboardList },
+  "medicamento-indice": { label: "Nome (não verificado)", icon: Tag },
   doenca: { label: "Doença", icon: Activity },
   "doenca-indice": { label: "CID-10", icon: BookMarked },
   atualizacao: { label: "Atualização", icon: Newspaper },
@@ -70,15 +72,24 @@ export function CommandPalette({
     const curatedMedNames = new Set(
       medications.flatMap((m) => [m.nome, ...m.nomeComercial]).map(normalize)
     );
-    const medIndexItems = medicamentosIndex
+    const renameItems = renameIndex
       .filter((e) => !curatedMedNames.has(normalize(e.nome)))
+      .map((e) => ({
+        type: "medicamento-rename" as const,
+        title: e.nome,
+        subtitle: `${e.categoria} · RENAME (Ministério da Saúde)`,
+        href: `/medicamentos?busca=${encodeURIComponent(e.nome)}`,
+      }));
+    const renameNames = new Set(renameIndex.map((e) => normalize(e.nome)));
+    const medIndexItems = medicamentosIndex
+      .filter((e) => !curatedMedNames.has(normalize(e.nome)) && !renameNames.has(normalize(e.nome)))
       .map((e) => ({
         type: "medicamento-indice" as const,
         title: e.nome,
         subtitle: "Índice de nomes (fonte não oficial)",
         href: `/medicamentos?busca=${encodeURIComponent(e.nome)}`,
       }));
-    return [...meds, ...diseasesItems, ...updatesItems, ...cid10Items, ...medIndexItems];
+    return [...meds, ...diseasesItems, ...updatesItems, ...cid10Items, ...renameItems, ...medIndexItems];
   }, [medications, diseases, updates]);
 
   const fuse = useMemo(

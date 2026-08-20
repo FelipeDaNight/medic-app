@@ -12,13 +12,14 @@ import { medications } from "@/data/medications";
 import { diseases } from "@/data/diseases";
 import { updates } from "@/data/updates";
 import { cid10Index } from "@/data/cid10-index";
+import { renameIndex } from "@/data/rename-index";
 import { medicamentosIndex } from "@/data/medicamentos-index";
 import { HomeHeroSearch } from "@/components/home-hero-search";
 import { UpdateCard } from "@/components/cards/update-card";
 import { EspecialidadeBadge } from "@/components/badges";
 
 const totalCid10 = cid10Index.length + diseases.length;
-const totalMedIndex = medicamentosIndex.length + medications.length;
+const totalMedIndex = renameIndex.length + medicamentosIndex.length + medications.length;
 
 const PILLARS = [
   {

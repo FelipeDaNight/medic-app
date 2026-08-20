@@ -5,6 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { PackageX } from "lucide-react";
 import type { Medication } from "@/data/types";
 import { TARJAS } from "@/data/types";
+import { renameIndex } from "@/data/rename-index";
 import { medicamentosIndex } from "@/data/medicamentos-index";
 import { matches, normalize } from "@/lib/text";
 import { SearchInput } from "@/components/ui/search-input";
@@ -27,10 +28,10 @@ export function MedicationsExplorer({ medications }: { medications: Medication[]
     [medications]
   );
 
-  const curatedNames = useMemo(() => {
-    const names = medications.flatMap((m) => [m.nome, ...m.nomeComercial]).map(normalize);
-    return names;
-  }, [medications]);
+  const curatedNames = useMemo(
+    () => medications.flatMap((m) => [m.nome, ...m.nomeComercial]).map(normalize),
+    [medications]
+  );
 
   const filtered = useMemo(() => {
     return medications
@@ -42,17 +43,29 @@ export function MedicationsExplorer({ medications }: { medications: Medication[]
 
   const tarjaOuCategoriaAtiva = Boolean(tarja || categoria);
 
-  const indexMatches = useMemo(() => {
+  const renameMatches = useMemo(() => {
     if (!query.trim() || tarjaOuCategoriaAtiva) return [];
-    return medicamentosIndex.filter((e) => {
+    return renameIndex.filter((e) => {
       const n = normalize(e.nome);
-      const jaExiste = curatedNames.some((c) => n === c || n.startsWith(`${c} `));
+      const jaExiste = curatedNames.some((c) => n === c || n.startsWith(`${c} `) || c.startsWith(`${n} `));
       return !jaExiste && matches(query, e.nome);
     });
   }, [query, tarjaOuCategoriaAtiva, curatedNames]);
 
+  const renameNames = useMemo(() => renameIndex.map((e) => normalize(e.nome)), []);
+
+  const fallbackMatches = useMemo(() => {
+    if (!query.trim() || tarjaOuCategoriaAtiva) return [];
+    return medicamentosIndex.filter((e) => {
+      const n = normalize(e.nome);
+      const jaCurado = curatedNames.some((c) => n === c || n.startsWith(`${c} `));
+      const jaNoRename = renameNames.some((r) => n === r || n.startsWith(`${r} `) || r.startsWith(`${n} `));
+      return !jaCurado && !jaNoRename && matches(query, e.nome);
+    });
+  }, [query, tarjaOuCategoriaAtiva, curatedNames, renameNames]);
+
   const hasActiveFilters = query || tarja || categoria;
-  const totalEncontrado = filtered.length + indexMatches.length;
+  const totalEncontrado = filtered.length + renameMatches.length + fallbackMatches.length;
 
   return (
     <div>
@@ -78,9 +91,8 @@ export function MedicationsExplorer({ medications }: { medications: Medication[]
 
       <p className="mt-4 text-sm text-foreground-subtle">
         {filtered.length} {filtered.length === 1 ? "medicamento com ficha completa" : "medicamentos com ficha completa"}
-        {indexMatches.length > 0 && (
-          <> · +{indexMatches.length} no índice de nomes{indexMatches.length > MAX_INDEX_RESULTS ? ` (mostrando ${MAX_INDEX_RESULTS})` : ""}</>
-        )}
+        {renameMatches.length > 0 && <> · +{renameMatches.length} no índice RENAME</>}
+        {fallbackMatches.length > 0 && <> · +{fallbackMatches.length} no índice não verificado</>}
       </p>
 
       {totalEncontrado === 0 ? (
@@ -105,18 +117,41 @@ export function MedicationsExplorer({ medications }: { medications: Medication[]
             </div>
           )}
 
-          {indexMatches.length > 0 && (
+          {renameMatches.length > 0 && (
             <div className="mt-8">
               <h2 className="text-sm font-semibold uppercase tracking-wide text-foreground-muted">
-                Índice de nomes (base bulario.com, 2018) — sem ficha completa ainda
+                Índice RENAME 2022 (Ministério da Saúde) — sem ficha completa ainda
               </h2>
               <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                {indexMatches.slice(0, MAX_INDEX_RESULTS).map((entry) => (
+                {renameMatches.slice(0, MAX_INDEX_RESULTS).map((entry) => (
+                  <IndexEntryCard
+                    key={entry.nome}
+                    nome={entry.nome}
+                    badges={[
+                      <Badge key="cat">{entry.categoria}</Badge>,
+                      <Badge key="comp" className="border-dashed">
+                        {entry.componente}
+                      </Badge>,
+                    ]}
+                    nota="No índice oficial RENAME — nome, classe ATC e componente de financiamento verificados; ainda sem ficha clínica completa."
+                  />
+                ))}
+              </div>
+            </div>
+          )}
+
+          {fallbackMatches.length > 0 && (
+            <div className="mt-8">
+              <h2 className="text-sm font-semibold uppercase tracking-wide text-foreground-muted">
+                Índice não verificado (base bulario.com, 2018)
+              </h2>
+              <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {fallbackMatches.slice(0, MAX_INDEX_RESULTS).map((entry) => (
                   <IndexEntryCard
                     key={entry.nome}
                     nome={entry.nome}
                     badges={[<Badge key="fonte">fonte não oficial</Badge>]}
-                    nota="Nome real de medicamento, sem princípio ativo, tarja ou posologia verificados ainda."
+                    nota="Fora da RENAME (provavelmente nome comercial). Sem princípio ativo, tarja ou posologia verificados."
                   />
                 ))}
               </div>
