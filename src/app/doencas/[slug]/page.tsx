@@ -5,11 +5,15 @@ import {
   BookOpen,
   Users,
   Dna,
+  Layers,
   Stethoscope,
   ClipboardList,
+  FlaskConical,
   SplitSquareHorizontal,
   HeartPulse,
+  ShieldAlert,
   TrendingUp,
+  GraduationCap,
   ArrowLeft,
 } from "lucide-react";
 import { diseases } from "@/data/diseases";
@@ -19,6 +23,7 @@ import { Callout } from "@/components/ui/callout";
 import { EspecialidadeBadge, EtiologiaBadge, Badge } from "@/components/badges";
 import { FavoriteButton } from "@/components/favorite-button";
 import { DiseaseCard } from "@/components/cards/disease-card";
+import { ClinicalCaseCard } from "@/components/clinical-case-card";
 
 export function generateStaticParams() {
   return diseases.map((d) => ({ slug: d.slug }));
@@ -89,12 +94,20 @@ export default async function DiseaseDetailPage({
           <p className="text-foreground-muted">{disease.fisiopatologia}</p>
         </DetailSection>
 
+        <DetailSection title="Classificação" icon={Layers}>
+          <p className="text-foreground-muted">{disease.classificacao}</p>
+        </DetailSection>
+
         <DetailSection title="Quadro clínico" icon={Stethoscope}>
           <BulletList items={disease.quadroClinico} />
         </DetailSection>
 
         <DetailSection title="Diagnóstico" icon={ClipboardList}>
           <BulletList items={disease.diagnostico} />
+        </DetailSection>
+
+        <DetailSection title="Exames complementares" icon={FlaskConical}>
+          <BulletList items={disease.examesComplementares} />
         </DetailSection>
 
         <DetailSection title="Diagnóstico diferencial" icon={SplitSquareHorizontal}>
@@ -105,14 +118,39 @@ export default async function DiseaseDetailPage({
           <BulletList items={disease.tratamento} />
         </DetailSection>
 
+        <DetailSection title="Complicações" icon={ShieldAlert}>
+          <BulletList items={disease.complicacoes} />
+        </DetailSection>
+
         <DetailSection title="Prognóstico" icon={TrendingUp}>
           <p className="text-foreground-muted">{disease.prognostico}</p>
         </DetailSection>
       </div>
 
-      <Callout variant="highlight" title="Caso ilustrativo">
-        {disease.casoIlustrativo}
-      </Callout>
+      {disease.redFlags.length > 0 && (
+        <Callout variant="warning" title="Sinais de alarme / red flags">
+          <ul className="space-y-1.5">
+            {disease.redFlags.map((r, i) => (
+              <li key={i}>{r}</li>
+            ))}
+          </ul>
+        </Callout>
+      )}
+
+      {disease.pontosDeProva.length > 0 && (
+        <div className="mt-6">
+          <DetailSection title="Pontos mais cobrados em prova" icon={GraduationCap}>
+            <BulletList items={disease.pontosDeProva} />
+          </DetailSection>
+        </div>
+      )}
+
+      <div className="mt-8">
+        <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-foreground-muted">
+          Pratique com um caso
+        </h2>
+        <ClinicalCaseCard caso={disease.casoClinico} especialidade={disease.especialidade} />
+      </div>
 
       {related.length > 0 && (
         <div className="mt-10">

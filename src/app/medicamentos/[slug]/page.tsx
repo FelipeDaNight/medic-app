@@ -4,12 +4,15 @@ import Link from "next/link";
 import {
   Stethoscope,
   Cog,
+  Waves,
   Pill,
   Ban,
+  Users,
   AlertOctagon,
   Shuffle,
-  ShieldAlert,
+  ClipboardCheck,
   Layers,
+  GraduationCap,
   ArrowLeft,
 } from "lucide-react";
 import { medications } from "@/data/medications";
@@ -73,6 +76,7 @@ export default async function MedicationDetailPage({
       <div className="mt-4 flex flex-wrap gap-1.5">
         <TarjaBadge tarja={medication.tarja} />
         <Badge>{medication.categoria}</Badge>
+        <Badge>ATC {medication.codigoAtc}</Badge>
       </div>
 
       <p className="mt-6 text-lg leading-relaxed text-foreground-muted">{medication.resumo}</p>
@@ -107,8 +111,25 @@ export default async function MedicationDetailPage({
           <p className="text-foreground-muted">{medication.mecanismoAcao}</p>
         </DetailSection>
 
+        <DetailSection title="Farmacocinética" icon={Waves}>
+          <p className="text-foreground-muted">{medication.farmacocinetica}</p>
+        </DetailSection>
+
         <DetailSection title="Posologia usual" icon={Pill}>
           <p className="text-foreground-muted">{medication.posologia}</p>
+        </DetailSection>
+
+        <DetailSection title="Populações especiais" icon={Users}>
+          <div className="space-y-3">
+            <p className="text-foreground-muted">
+              <span className="font-medium text-foreground">Ajuste renal/hepático: </span>
+              {medication.ajusteRenalHepatico}
+            </p>
+            <p className="text-foreground-muted">
+              <span className="font-medium text-foreground">Gestação e lactação: </span>
+              {medication.gestacaoLactacao}
+            </p>
+          </div>
         </DetailSection>
 
         <DetailSection title="Contraindicações" icon={Ban}>
@@ -121,6 +142,10 @@ export default async function MedicationDetailPage({
 
         <DetailSection title="Interações medicamentosas" icon={Shuffle}>
           <BulletList items={medication.interacoes} />
+        </DetailSection>
+
+        <DetailSection title="Monitorização" icon={ClipboardCheck}>
+          <BulletList items={medication.monitorizacao} />
         </DetailSection>
 
         {medication.alertas.length > 0 && (
@@ -138,12 +163,15 @@ export default async function MedicationDetailPage({
             ))}
           </div>
         </DetailSection>
+
+        {medication.pontosDeProva.length > 0 && (
+          <DetailSection title="Pontos mais cobrados em prova" icon={GraduationCap}>
+            <BulletList items={medication.pontosDeProva} />
+          </DetailSection>
+        )}
       </div>
 
       <Callout variant="highlight" title="Lembrete de estudo">
-        <span className="inline-flex items-center gap-1.5">
-          <ShieldAlert className="hidden h-4 w-4" />
-        </span>
         Conteúdo para fins educacionais — sempre confirme doses e contraindicações na bula oficial
         e no contexto clínico do paciente antes de qualquer conduta.
       </Callout>

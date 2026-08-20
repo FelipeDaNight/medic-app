@@ -17,6 +17,7 @@ import { medicamentosIndex } from "@/data/medicamentos-index";
 import { HomeHeroSearch } from "@/components/home-hero-search";
 import { UpdateCard } from "@/components/cards/update-card";
 import { EspecialidadeBadge } from "@/components/badges";
+import { DailyCase } from "@/components/daily-case";
 
 const totalCid10 = cid10Index.length + diseases.length;
 const totalMedIndex = renameIndex.length + medicamentosIndex.length + medications.length;
@@ -126,7 +127,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="border-y border-border bg-background-raised/60">
+      <section className="border-t border-border bg-background-raised/60">
+        <div className="mx-auto max-w-3xl px-4 py-14 sm:px-6">
+          <DailyCase diseases={diseases} />
+        </div>
+      </section>
+
+      <section className="border-y border-border">
         <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
           <h2 className="text-2xl font-semibold tracking-tight text-foreground">Como usar</h2>
           <p className="mt-2 max-w-xl text-foreground-muted">

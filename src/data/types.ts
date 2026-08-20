@@ -35,18 +35,31 @@ export interface Medication {
   nomeComercial: string[];
   principioAtivo: string;
   categoria: string;
+  codigoAtc: string;
   tarja: Tarja;
   formaFarmaceutica: string;
   viaAdministracao: string;
   resumo: string;
   indicacoes: string[];
   mecanismoAcao: string;
+  farmacocinetica: string;
   posologia: string;
+  ajusteRenalHepatico: string;
+  gestacaoLactacao: string;
   contraindicacoes: string[];
   efeitosColaterais: string[];
   interacoes: string[];
+  monitorizacao: string[];
   alertas: string[];
   similares: string[];
+  pontosDeProva: string[];
+}
+
+export interface DiseaseCase {
+  vinheta: string;
+  pergunta: string;
+  raciocinio: string;
+  conduta: string;
 }
 
 export interface Disease {
@@ -60,12 +73,17 @@ export interface Disease {
   definicao: string;
   epidemiologia: string;
   fisiopatologia: string;
+  classificacao: string;
   quadroClinico: string[];
   diagnostico: string[];
+  examesComplementares: string[];
   diagnosticoDiferencial: string[];
   tratamento: string[];
+  complicacoes: string[];
+  redFlags: string[];
   prognostico: string;
-  casoIlustrativo: string;
+  pontosDeProva: string[];
+  casoClinico: DiseaseCase;
 }
 
 export interface ClinicalUpdate {
