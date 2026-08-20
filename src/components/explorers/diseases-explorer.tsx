@@ -12,6 +12,7 @@ import { FilterSelect } from "@/components/ui/filter-select";
 import { EmptyState } from "@/components/ui/empty-state";
 import { DiseaseCard } from "@/components/cards/disease-card";
 import { IndexEntryCard } from "@/components/cards/index-entry-card";
+import { Badge } from "@/components/badges";
 
 const MAX_INDEX_RESULTS = 24;
 
@@ -115,8 +116,13 @@ export function DiseasesExplorer({ diseases }: { diseases: Disease[] }) {
                   <IndexEntryCard
                     key={entry.codigo}
                     nome={entry.nome}
-                    codigo={entry.codigo}
-                    categoria={entry.capitulo}
+                    badges={[
+                      <Badge key="codigo">CID-10 {entry.codigo}</Badge>,
+                      <Badge key="capitulo" className="border-dashed">
+                        {entry.capitulo}
+                      </Badge>,
+                    ]}
+                    nota="No índice CID-10 (DataSUS) — ainda sem ficha de estudo completa."
                   />
                 ))}
               </div>

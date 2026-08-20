@@ -12,11 +12,13 @@ import { medications } from "@/data/medications";
 import { diseases } from "@/data/diseases";
 import { updates } from "@/data/updates";
 import { cid10Index } from "@/data/cid10-index";
+import { medicamentosIndex } from "@/data/medicamentos-index";
 import { HomeHeroSearch } from "@/components/home-hero-search";
 import { UpdateCard } from "@/components/cards/update-card";
 import { EspecialidadeBadge } from "@/components/badges";
 
 const totalCid10 = cid10Index.length + diseases.length;
+const totalMedIndex = medicamentosIndex.length + medications.length;
 
 const PILLARS = [
   {
@@ -24,7 +26,7 @@ const PILLARS = [
     icon: Pill,
     title: "Medicamentos",
     description: "Tarja, categoria, mecanismo de ação, posologia e similares.",
-    countLabel: `${medications.length} medicamentos`,
+    countLabel: `${medications.length} com ficha completa · ${totalMedIndex} no índice de nomes`,
   },
   {
     href: "/doencas",
@@ -86,7 +88,7 @@ export default function Home() {
               <HomeHeroSearch />
             </div>
             <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm text-foreground-subtle">
-              <span>{medications.length} medicamentos catalogados</span>
+              <span>{totalMedIndex} nomes de medicamentos no índice</span>
               <span>{totalCid10} categorias da CID-10 no índice de doenças</span>
               <span>{updates.length} atualizações clínicas</span>
             </div>

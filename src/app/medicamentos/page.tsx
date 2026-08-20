@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { medications } from "@/data/medications";
 import { MedicationsExplorer } from "@/components/explorers/medications-explorer";
 
@@ -18,7 +19,9 @@ export default function MedicamentosPage() {
         </p>
       </div>
       <div className="mt-8">
-        <MedicationsExplorer medications={medications} />
+        <Suspense fallback={null}>
+          <MedicationsExplorer medications={medications} />
+        </Suspense>
       </div>
     </div>
   );
