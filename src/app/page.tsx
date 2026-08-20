@@ -11,9 +11,12 @@ import {
 import { medications } from "@/data/medications";
 import { diseases } from "@/data/diseases";
 import { updates } from "@/data/updates";
+import { cid10Index } from "@/data/cid10-index";
 import { HomeHeroSearch } from "@/components/home-hero-search";
 import { UpdateCard } from "@/components/cards/update-card";
 import { EspecialidadeBadge } from "@/components/badges";
+
+const totalCid10 = cid10Index.length + diseases.length;
 
 const PILLARS = [
   {
@@ -21,24 +24,21 @@ const PILLARS = [
     icon: Pill,
     title: "Medicamentos",
     description: "Tarja, categoria, mecanismo de ação, posologia e similares.",
-    count: medications.length,
-    unit: "medicamentos",
+    countLabel: `${medications.length} medicamentos`,
   },
   {
     href: "/doencas",
     icon: Activity,
     title: "Doenças",
     description: "Etiologia, quadro clínico, diagnóstico, tratamento e casos.",
-    count: diseases.length,
-    unit: "doenças",
+    countLabel: `${diseases.length} com ficha completa · ${totalCid10} no índice CID-10`,
   },
   {
     href: "/atualizacoes",
     icon: Newspaper,
     title: "Atualizações clínicas",
     description: "O que mudou na prática, por importância clínica.",
-    count: updates.length,
-    unit: "atualizações",
+    countLabel: `${updates.length} atualizações`,
   },
 ];
 
@@ -87,7 +87,7 @@ export default function Home() {
             </div>
             <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm text-foreground-subtle">
               <span>{medications.length} medicamentos catalogados</span>
-              <span>{diseases.length} doenças catalogadas</span>
+              <span>{totalCid10} categorias da CID-10 no índice de doenças</span>
               <span>{updates.length} atualizações clínicas</span>
             </div>
           </div>
@@ -111,7 +111,7 @@ export default function Home() {
               </p>
               <div className="mt-5 flex items-center justify-between">
                 <span className="text-sm font-medium text-foreground-subtle">
-                  {pillar.count} {pillar.unit}
+                  {pillar.countLabel}
                 </span>
                 <span className="inline-flex items-center gap-1 text-sm font-medium text-brand">
                   Explorar

@@ -3,11 +3,12 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Fuse from "fuse.js";
-import { Pill, Activity, Newspaper, Search, CornerDownLeft } from "lucide-react";
+import { Pill, Activity, Newspaper, BookMarked, Search, CornerDownLeft } from "lucide-react";
 import type { Medication, Disease, ClinicalUpdate } from "@/data/types";
+import { cid10Index } from "@/data/cid10-index";
 
 interface SearchItem {
-  type: "medicamento" | "doenca" | "atualizacao";
+  type: "medicamento" | "doenca" | "doenca-indice" | "atualizacao";
   title: string;
   subtitle: string;
   href: string;
@@ -16,6 +17,7 @@ interface SearchItem {
 const TYPE_META = {
   medicamento: { label: "Medicamento", icon: Pill },
   doenca: { label: "Doença", icon: Activity },
+  "doenca-indice": { label: "CID-10", icon: BookMarked },
   atualizacao: { label: "Atualização", icon: Newspaper },
 } as const;
 
@@ -53,7 +55,16 @@ export function CommandPalette({
       subtitle: `${u.especialidade} · ${u.fonte}`,
       href: `/atualizacoes/${u.slug}`,
     }));
-    return [...meds, ...diseasesItems, ...updatesItems];
+    const curatedCodes = new Set(diseases.map((d) => d.cid10));
+    const cid10Items = cid10Index
+      .filter((e) => !curatedCodes.has(e.codigo))
+      .map((e) => ({
+        type: "doenca-indice" as const,
+        title: e.nome,
+        subtitle: `CID-10 ${e.codigo} · ${e.capitulo}`,
+        href: `/doencas?busca=${encodeURIComponent(e.nome)}`,
+      }));
+    return [...meds, ...diseasesItems, ...updatesItems, ...cid10Items];
   }, [medications, diseases, updates]);
 
   const fuse = useMemo(

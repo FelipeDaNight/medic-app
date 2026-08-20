@@ -3,7 +3,10 @@ import { ShieldCheck, BookMarked, GraduationCap } from "lucide-react";
 import { medications } from "@/data/medications";
 import { diseases } from "@/data/diseases";
 import { updates } from "@/data/updates";
+import { cid10Index } from "@/data/cid10-index";
 import { Callout } from "@/components/ui/callout";
+
+const totalCid10 = cid10Index.length + diseases.length;
 
 export const metadata: Metadata = {
   title: "Sobre",
@@ -28,8 +31,10 @@ export default function SobrePage() {
         </div>
         <div className="rounded-2xl border border-border bg-card p-5">
           <BookMarked className="h-5 w-5 text-brand" />
-          <p className="mt-3 text-2xl font-semibold text-foreground">{diseases.length}</p>
-          <p className="text-sm text-foreground-subtle">doenças catalogadas</p>
+          <p className="mt-3 text-2xl font-semibold text-foreground">{totalCid10}</p>
+          <p className="text-sm text-foreground-subtle">
+            categorias CID-10 no índice ({diseases.length} com ficha completa)
+          </p>
         </div>
         <div className="rounded-2xl border border-border bg-card p-5">
           <ShieldCheck className="h-5 w-5 text-brand" />
@@ -52,10 +57,18 @@ export default function SobrePage() {
         <div>
           <h2 className="text-lg font-semibold text-foreground">Base de conteúdo</h2>
           <p className="mt-2">
-            A biblioteca começa com uma seleção curada dos temas mais comuns na graduação,
-            organizada para crescer ao longo do tempo. O objetivo não é ser um substituto de
-            bulário oficial ou de diretrizes médicas, e sim um ponto de partida rápido para revisão
-            e estudo.
+            A biblioteca de doenças combina duas camadas: uma seleção curada dos temas mais comuns
+            na graduação, com ficha de estudo completa, e o <strong>índice oficial da CID-10</strong>{" "}
+            (categorias de 3 caracteres, fonte: DataSUS/Ministério da Saúde), que cobre praticamente
+            toda a classificação — {cid10Index.length.toLocaleString("pt-BR")} categorias — para que
+            a busca por nome ou código nunca fique de mãos vazias, mesmo quando o item ainda não tem
+            ficha completa. A camada com ficha completa cresce continuamente.
+          </p>
+          <p className="mt-2">
+            Para medicamentos, a meta é a mesma: complementar a curadoria com a base de dados
+            abertos de medicamentos registrados da ANVISA. Essa importação ainda não foi concluída —
+            o dataset oficial está temporariamente inacessível a partir do ambiente deste projeto —,
+            então por enquanto a lista de medicamentos reflete apenas a curadoria manual.
           </p>
         </div>
       </div>
