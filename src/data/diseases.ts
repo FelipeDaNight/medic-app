@@ -3442,4 +3442,866 @@ export const diseases: Disease[] = [
       { tema: "Antibioticoterapia dirigida e macrolídeo em uso prolongado (ainda sem fichas próprias no site com essa indicação)", fonte: "fonte pendente" },
     ],
   },
+  {
+    slug: "pneumotorax",
+    nome: "Pneumotórax",
+    sinonimos: ["Colapso pulmonar"],
+    cid10: "J93",
+    especialidade: "Pneumologia",
+    etiologia: "Multifatorial",
+    resumo: "Presença de ar no espaço pleural, causando colapso pulmonar parcial ou total, de causa espontânea, traumática ou iatrogênica.",
+    definicao:
+      "Acúmulo de ar no espaço pleural, entre a pleura visceral e a parietal, resultando em perda da pressão negativa intrapleural normal e colapso do parênquima pulmonar subjacente em grau variável.",
+    epidemiologia:
+      "O pneumotórax espontâneo primário (sem doença pulmonar de base aparente) acomete predominantemente homens jovens, altos e magros, muitas vezes tabagistas. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar estrutural de base, mais comumente DPOC.",
+    fisiopatologia:
+      "A entrada de ar no espaço pleural (por ruptura de bolha subpleural no espontâneo primário, por doença pulmonar estrutural no secundário, ou por lesão direta da pleura no traumático/iatrogênico) elimina a pressão negativa que mantém o pulmão expandido, causando colapso pulmonar proporcional ao volume de ar acumulado. No pneumotórax hipertensivo, um mecanismo valvular unidirecional permite entrada progressiva de ar sem saída, aumentando a pressão intrapleural a ponto de deslocar o mediastino e comprometer o retorno venoso.",
+    classificacao:
+      "Classificado em espontâneo primário (sem doença pulmonar de base identificável), espontâneo secundário (doença pulmonar de base, como DPOC ou fibrose cística), traumático e iatrogênico (por procedimentos como punção venosa central ou biópsia pulmonar). O British Thoracic Society classifica o tamanho pela distância entre a margem pulmonar e a parede torácica na radiografia: pequeno (<2 cm) e grande (≥2 cm) ao nível do hilo. O pneumotórax hipertensivo é uma categoria à parte, definida pela repercussão hemodinâmica, e constitui emergência.",
+    quadroClinico: [
+      "Dor torácica pleurítica de início súbito",
+      "Dispneia de intensidade variável, proporcional ao tamanho do pneumotórax e à reserva pulmonar prévia",
+      "Redução ou abolição do murmúrio vesicular e hipertimpanismo à percussão no lado acometido",
+      "No pneumotórax hipertensivo: hipotensão, turgência jugular e desvio da traqueia para o lado contralateral",
+    ],
+    diagnostico: [
+      "Radiografia de tórax evidenciando linha da pleura visceral deslocada da parede torácica, sem trama pulmonar periférica a ela",
+      "Tomografia de tórax em casos duvidosos ou para melhor caracterização, especialmente de pneumotórax pequenos",
+      "O pneumotórax hipertensivo é diagnóstico clínico — não deve aguardar confirmação radiológica para tratamento",
+    ],
+    examesComplementares: [
+      "Radiografia de tórax em inspiração (avalia extensão do colapso e desvio de estruturas mediastinais)",
+      "Tomografia de tórax para pneumotórax pequenos ou de difícil caracterização radiográfica",
+      "Gasometria arterial em pacientes com repercussão respiratória significativa",
+    ],
+    diagnosticoDiferencial: [
+      "Infarto agudo do miocárdio",
+      "Embolia pulmonar",
+      "Bolha enfisematosa gigante (pode mimetizar pneumotórax na radiografia)",
+    ],
+    tratamento: [
+      "Observação clínica em pneumotórax pequeno, primário e assintomático ou pouco sintomático",
+      "Aspiração por agulha ou drenagem torácica em pneumotórax grande ou sintomático",
+      "Descompressão torácica imediata por agulha, seguida de drenagem, no pneumotórax hipertensivo — não deve aguardar confirmação radiológica",
+      "Pleurodese ou abordagem cirúrgica (videotoracoscopia) em casos recorrentes ou persistentes",
+    ],
+    complicacoes: [
+      "Aguda: pneumotórax hipertensivo com colapso cardiovascular, insuficiência respiratória",
+      "Crônica: recorrência (especialmente após primeiro episódio de pneumotórax espontâneo, sobretudo se tabagismo mantido)",
+    ],
+    redFlags: [
+      "Dor torácica súbita associada a hipotensão, turgência jugular e desvio traqueal — pneumotórax hipertensivo, emergência que exige descompressão imediata por agulha antes mesmo de confirmação radiológica",
+    ],
+    prognostico:
+      "Bom na maioria dos casos com tratamento adequado; a taxa de recorrência após um primeiro episódio de pneumotórax espontâneo é significativa, sendo maior em tabagistas persistentes e naqueles com doença pulmonar de base.",
+    pontosDeProva: [
+      "O pneumotórax hipertensivo é diagnóstico clínico, e a descompressão por agulha não deve ser postergada para aguardar radiografia de tórax",
+      "O perfil clássico do pneumotórax espontâneo primário é o homem jovem, alto e magro, frequentemente tabagista, por ruptura de bolhas subpleurais apicais",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 22 anos, alto e magro, tabagista, apresenta dor torácica súbita em pontada à direita e dispneia enquanto jogava futebol. Ausculta com murmúrio vesicular abolido à direita e hipertimpanismo à percussão. Pressão arterial normal, sem desvio de traqueia.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "O perfil do paciente (jovem, alto, magro, tabagista) associado a dor torácica súbita e achados de ausência de murmúrio vesicular com hipertimpanismo é clássico de pneumotórax espontâneo primário. A ausência de repercussão hemodinâmica afasta pneumotórax hipertensivo no momento.",
+      conduta:
+        "Confirmar com radiografia de tórax e avaliar o tamanho do pneumotórax pelos critérios do British Thoracic Society, optando por observação clínica se pequeno e pouco sintomático ou por drenagem/aspiração se grande ou sintomático.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Classificação e critério de tamanho (British Thoracic Society)", fonte: "British Thoracic Society Pleural Disease Guideline, 2010" },
+      { tema: "Fisiopatologia e perfil epidemiológico", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "derrame-pleural",
+    nome: "Derrame pleural",
+    sinonimos: ["Efusão pleural"],
+    cid10: "J90",
+    especialidade: "Pneumologia",
+    etiologia: "Multifatorial",
+    resumo: "Acúmulo anormal de líquido no espaço pleural, classificado em transudato ou exsudato conforme os critérios de Light, com amplo espectro de causas subjacentes.",
+    definicao:
+      "Acúmulo patológico de líquido no espaço pleural, acima da pequena quantidade fisiológica normalmente presente para lubrificação entre as pleuras visceral e parietal, decorrente de desequilíbrio entre produção e reabsorção desse líquido.",
+    epidemiologia:
+      "Causa extremamente comum de investigação pneumológica; insuficiência cardíaca é a causa mais frequente de transudato, enquanto pneumonia (derrame parapneumônico) e neoplasia estão entre as causas mais comuns de exsudato.",
+    fisiopatologia:
+      "Transudatos resultam de alterações sistêmicas na pressão hidrostática ou oncótica (ex.: insuficiência cardíaca, cirrose, síndrome nefrótica), sem doença pleural primária — a pleura permanece normal e o líquido reflete um desequilíbrio de pressões. Exsudatos resultam de aumento da permeabilidade capilar pleural ou de obstrução da drenagem linfática, geralmente por processo inflamatório, infeccioso ou neoplásico envolvendo diretamente a pleura ou o parênquima adjacente.",
+    classificacao:
+      "Classificado por critérios de Light em transudato ou exsudato: é exsudato se pelo menos um dos critérios estiver presente — relação proteína pleural/sérica >0,5, relação LDH pleural/sérica >0,6, ou LDH pleural maior que dois terços do limite superior da normalidade sérica. Essa distinção direciona toda a investigação etiológica subsequente.",
+    quadroClinico: [
+      "Dispneia, proporcional ao volume do derrame",
+      "Dor torácica pleurítica, quando há inflamação pleural associada",
+      "Tosse seca",
+      "Redução do murmúrio vesicular, macicez à percussão e frêmito toracovocal reduzido no lado acometido",
+    ],
+    diagnostico: [
+      "Radiografia de tórax (obliteração do seio costofrênico, opacidade basal com curva de Damoiseau)",
+      "Toracocentese diagnóstica para aplicação dos critérios de Light e direcionamento etiológico",
+      "Ultrassonografia torácica para localização e quantificação, especialmente úteis para guiar a toracocentese",
+    ],
+    examesComplementares: [
+      "Critérios de Light no líquido pleural (proteína, LDH, comparados aos valores séricos simultâneos)",
+      "Citologia oncótica do líquido pleural quando há suspeita de malignidade",
+      "Cultura e Gram do líquido pleural quando há suspeita infecciosa",
+      "pH do líquido pleural (valores baixos sugerem processo complicado, como empiema)",
+    ],
+    diagnosticoDiferencial: [
+      "Espessamento pleural sem líquido livre",
+      "Consolidação pulmonar sem derrame associado",
+    ],
+    tratamento: [
+      "Tratamento da causa de base (ex.: otimização de terapia para insuficiência cardíaca em transudato cardiogênico)",
+      "Toracocentese terapêutica de alívio em derrames volumosos sintomáticos",
+      "Drenagem torácica em derrames complicados (empiema, pH baixo, achados de infecção)",
+      "Pleurodese em derrames recorrentes e refratários, especialmente de causa maligna",
+    ],
+    complicacoes: [
+      "Aguda: insuficiência respiratória em derrames volumosos de instalação rápida",
+      "Crônica: espessamento pleural residual, encarceramento pulmonar em derrames complicados não tratados adequadamente",
+    ],
+    redFlags: [
+      "Derrame pleural associado a febre alta e toxemia — investigar ativamente derrame parapneumônico complicado/empiema, que pode exigir drenagem torácica urgente",
+    ],
+    prognostico:
+      "Depende diretamente da causa de base; transudatos por insuficiência cardíaca respondem bem ao tratamento da doença de base, enquanto derrames malignos tendem a ser recorrentes e associam-se a prognóstico da neoplasia subjacente.",
+    pontosDeProva: [
+      "Os critérios de Light têm alta sensibilidade para exsudato, mas podem classificar erroneamente alguns transudatos (ex.: em uso de diuréticos) como exsudato — a diferença entre albumina sérica e pleural pode ajudar nesses casos duvidosos",
+      "Derrame parapneumônico com pH pleural baixo é sinal de complicação que geralmente exige drenagem, não apenas antibioticoterapia isolada",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 68 anos, com insuficiência cardíaca conhecida, apresenta dispneia progressiva e é encontrado com derrame pleural bilateral à radiografia. Toracocentese: proteína pleural/sérica 0,3; LDH pleural/sérica 0,4.",
+      pergunta: "Qual é a classificação do derrame pelos critérios de Light e a implicação clínica?",
+      raciocinio:
+        "Nenhum dos critérios de Light está presente (relações abaixo dos pontos de corte), classificando o derrame como transudato. Associado ao contexto de insuficiência cardíaca e à bilateralidade, é consistente com derrame cardiogênico, não exigindo investigação etiológica extensa adicional na ausência de sinais atípicos.",
+      conduta:
+        "Otimizar o tratamento da insuficiência cardíaca de base e reavaliar a resposta do derrame ao tratamento clínico, reservando toracocentese terapêutica para alívio sintomático se o derrame for volumoso.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Critérios de Light", fonte: "Light RW et al., critérios diagnósticos clássicos de derrame pleural exsudativo" },
+      { tema: "Fisiopatologia transudato vs. exsudato", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "abscesso-pulmonar",
+    nome: "Abscesso do pulmão e do mediastino",
+    sinonimos: ["Abscesso pulmonar"],
+    cid10: "J85",
+    especialidade: "Pneumologia",
+    etiologia: "Bacteriana",
+    resumo: "Cavitação necrótica do parênquima pulmonar preenchida por material purulento, mais comumente causada por aspiração de flora orofaríngea anaeróbia.",
+    definicao:
+      "Lesão cavitária necrótica do parênquima pulmonar, contendo material purulento, resultante de infecção bacteriana localizada com destruição tecidual, geralmente secundária à aspiração de conteúdo orofaríngeo em pacientes com fatores predisponentes.",
+    epidemiologia:
+      "Mais comum em pacientes com fatores de risco para aspiração (rebaixamento do nível de consciência, distúrbios de deglutição, alcoolismo, doença periodontal). Também pode ocorrer secundariamente à obstrução brônquica (corpo estranho, neoplasia) ou em contexto de imunossupressão.",
+    fisiopatologia:
+      "A aspiração de secreção orofaríngea contendo flora polimicrobiana, predominantemente anaeróbia, para segmentos pulmonares dependentes da gravidade (segmentos posteriores dos lobos superiores ou segmentos superiores dos lobos inferiores, conforme a posição do paciente no momento da aspiração) causa pneumonia necrosante que evolui para cavitação com nível hidroaéreo ao longo de 1-2 semanas.",
+    classificacao:
+      "Classificado em primário (por aspiração, em pulmão previamente normal — a forma mais comum) e secundário (associado a obstrução brônquica, imunossupressão ou disseminação hematogênica). Também classificado por tempo de evolução em agudo (<6 semanas) e crônico (≥6 semanas).",
+    quadroClinico: [
+      "Febre, tosse produtiva e mal-estar de evolução subaguda (dias a semanas)",
+      "Escarro pútrido e fétido, característico do envolvimento anaeróbio",
+      "Perda de peso e sintomas constitucionais em apresentações mais arrastadas",
+      "Dor torácica pleurítica quando há envolvimento pleural adjacente",
+    ],
+    diagnostico: [
+      "Radiografia ou tomografia de tórax evidenciando cavitação com nível hidroaéreo",
+      "Contexto clínico de fatores de risco para aspiração reforça a hipótese diagnóstica",
+      "Cultura de escarro ou de material obtido por broncoscopia, quando indicada, para orientar ajuste da antibioticoterapia",
+    ],
+    examesComplementares: [
+      "Tomografia de tórax: cavitação com nível hidroaéreo, geralmente >2 cm",
+      "Hemograma com leucocitose e provas inflamatórias elevadas",
+      "Broncoscopia em casos atípicos, refratários ao tratamento inicial, ou para excluir obstrução brônquica subjacente",
+    ],
+    diagnosticoDiferencial: [
+      "Neoplasia pulmonar cavitada",
+      "Tuberculose pulmonar cavitária",
+      "Embolia pulmonar séptica",
+      "Granulomatose com poliangiite (cavitações associadas a vasculite)",
+    ],
+    tratamento: [
+      "Antibioticoterapia prolongada com cobertura para anaeróbios (semanas), ajustada conforme resposta clínica e, quando disponível, cultura direcionada",
+      "Drenagem postural e fisioterapia respiratória como medidas adjuvantes",
+      "Drenagem percutânea ou intervenção cirúrgica reservadas para casos refratários ao tratamento clínico ou com complicações",
+    ],
+    complicacoes: [
+      "Aguda: ruptura para o espaço pleural com empiema, hemoptise",
+      "Crônica: abscesso crônico refratário, bronquiectasia localizada residual",
+    ],
+    redFlags: [
+      "Hemoptise volumosa em paciente com abscesso pulmonar conhecido — pode indicar erosão vascular e exigir avaliação urgente",
+    ],
+    prognostico:
+      "Bom na maioria dos casos com antibioticoterapia prolongada adequada, com resolução radiológica podendo levar semanas a meses mesmo após melhora clínica; casos refratários ou complicados podem exigir intervenção invasiva.",
+    pontosDeProva: [
+      "A localização típica do abscesso por aspiração (segmentos posteriores de lobos superiores ou superiores de lobos inferiores) reflete a posição do paciente no momento da aspiração, um ponto clássico de prova",
+      "Escarro pútrido/fétido é sugestivo de infecção por anaeróbios, orientando a escolha de antibioticoterapia com essa cobertura",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 54 anos, com histórico de etilismo importante e episódio de rebaixamento do nível de consciência há 3 semanas, apresenta febre, tosse produtiva com escarro fétido e perda de peso. Tomografia de tórax mostra cavitação com nível hidroaéreo em segmento posterior do lobo superior direito.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e o mecanismo fisiopatológico subjacente?",
+      raciocinio:
+        "O contexto de rebaixamento do nível de consciência por etilismo (fator de risco para aspiração), associado a escarro fétido e cavitação com nível hidroaéreo em localização típica de aspiração, é altamente sugestivo de abscesso pulmonar primário por aspiração de flora orofaríngea anaeróbia.",
+      conduta:
+        "Iniciar antibioticoterapia prolongada com cobertura para anaeróbios, associar fisioterapia respiratória e drenagem postural, e reservar intervenção invasiva para casos refratários ao tratamento clínico.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina-clavulanato", nome: "Amoxicilina + Clavulanato" },
+    ],
+    fontes: [
+      { tema: "Fisiopatologia e localização típica por aspiração", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Antibioticoterapia com cobertura anaeróbia", fonte: "Sanford Guide to Antimicrobial Therapy" },
+    ],
+  },
+  {
+    slug: "sdra",
+    nome: "Síndrome do desconforto respiratório agudo",
+    sinonimos: ["SDRA", "ARDS"],
+    cid10: "J80",
+    especialidade: "Pneumologia",
+    etiologia: "Multifatorial",
+    resumo: "Insuficiência respiratória hipoxêmica aguda por lesão pulmonar difusa e aumento da permeabilidade alveolocapilar, desencadeada por diversas agressões pulmonares diretas ou sistêmicas.",
+    definicao:
+      "Síndrome de insuficiência respiratória aguda hipoxêmica, definida pela combinação de início agudo (até 1 semana de um insulto conhecido), infiltrados bilaterais à imagem torácica não totalmente explicados por sobrecarga de volume ou insuficiência cardíaca, e hipoxemia com relação PaO2/FiO2 reduzida.",
+    epidemiologia:
+      "A sepse é a causa mais comum, seguida por pneumonia grave, aspiração de conteúdo gástrico, trauma grave, pancreatite aguda grave e transfusão maciça. Associa-se a alta mortalidade, especialmente nas formas graves.",
+    fisiopatologia:
+      "Uma agressão pulmonar direta (pneumonia, aspiração) ou indireta/sistêmica (sepse, pancreatite) desencadeia lesão difusa do endotélio capilar e do epitélio alveolar, com aumento da permeabilidade vascular, extravasamento de líquido rico em proteínas para o interstício e alvéolos, formação de membrana hialina e perda de surfactante, resultando em colapso alveolar difuso, redução da complacência pulmonar e hipoxemia refratária por shunt intrapulmonar.",
+    classificacao:
+      "Definição de Berlim (2012): classificada em leve (PaO2/FiO2 entre 201-300 mmHg), moderada (101-200 mmHg) e grave (≤100 mmHg), todas com PEEP ou CPAP ≥5 cmH2O, início agudo (até 1 semana) e infiltrados bilaterais não totalmente explicados por insuficiência cardíaca ou sobrecarga de volume.",
+    quadroClinico: [
+      "Dispneia de início agudo, geralmente dentro de horas a poucos dias do insulto desencadeante",
+      "Taquipneia e uso de musculatura acessória",
+      "Hipoxemia refratária à suplementação de oxigênio em graus variáveis",
+      "Estertores difusos à ausculta pulmonar",
+    ],
+    diagnostico: [
+      "Aplicação dos critérios da Definição de Berlim: tempo de início, imagem, origem do edema e grau de hipoxemia (relação PaO2/FiO2)",
+      "Radiografia ou tomografia de tórax com infiltrados bilaterais",
+      "Exclusão de sobrecarga hídrica/insuficiência cardíaca como explicação predominante para os infiltrados (ecocardiograma quando a diferenciação clínica é incerta)",
+    ],
+    examesComplementares: [
+      "Gasometria arterial com relação PaO2/FiO2 para classificação de gravidade (Berlim)",
+      "Radiografia/tomografia de tórax com infiltrados bilaterais",
+      "Peptídeo natriurético (BNP/NT-proBNP) e/ou ecocardiograma para auxiliar na exclusão de causa cardiogênica quando há dúvida diagnóstica",
+    ],
+    diagnosticoDiferencial: [
+      "Edema pulmonar cardiogênico",
+      "Pneumonia extensa bilateral sem os demais critérios de SDRA",
+      "Hemorragia alveolar difusa",
+    ],
+    tratamento: [
+      "Ventilação mecânica protetora, com volume corrente baixo (aproximadamente 6 mL/kg de peso corporal predito) para limitar lesão pulmonar induzida pelo ventilador",
+      "Tratamento agressivo da causa de base (ex.: controle do foco infeccioso na sepse)",
+      "Posição prona em SDRA moderada a grave, com benefício de sobrevida demonstrado",
+      "Estratégia conservadora de fluidos após estabilização hemodinâmica inicial",
+    ],
+    complicacoes: [
+      "Aguda: hipoxemia refratária, barotrauma associado à ventilação mecânica, disfunção de múltiplos órgãos",
+      "Crônica: fibrose pulmonar residual, redução persistente da capacidade funcional em sobreviventes",
+    ],
+    redFlags: [
+      "Hipoxemia refratária apesar de altas frações inspiradas de oxigênio em paciente com fatores de risco conhecidos — reconhecer precocemente e iniciar estratégia ventilatória protetora",
+    ],
+    prognostico:
+      "Mortalidade significativa, proporcional à gravidade (leve, moderada, grave pela Definição de Berlim) e à disfunção de órgãos associada; sobreviventes podem apresentar sequelas funcionais e cognitivas a longo prazo.",
+    pontosDeProva: [
+      "A ventilação mecânica com volume corrente baixo (estratégia protetora) é a intervenção com maior impacto comprovado na redução de mortalidade na SDRA",
+      "A posição prona melhora a sobrevida especificamente em SDRA moderada a grave, por otimizar a relação ventilação-perfusão",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 45 anos, internada por pancreatite aguda grave, evolui em 48 horas com dispneia importante e hipoxemia progressiva. Radiografia de tórax mostra infiltrados bilaterais difusos. PaO2/FiO2: 130 mmHg em PEEP de 8 cmH2O. Ecocardiograma sem disfunção ventricular significativa.",
+      pergunta: "Qual é a classificação de gravidade desta síndrome pelos critérios de Berlim?",
+      raciocinio:
+        "O início agudo dentro de uma semana de um insulto conhecido (pancreatite grave), os infiltrados bilaterais não explicados por disfunção cardíaca, e a relação PaO2/FiO2 de 130 mmHg com PEEP ≥5 cmH2O preenchem os critérios de Berlim para SDRA moderada.",
+      conduta:
+        "Iniciar ventilação mecânica protetora com volume corrente baixo, considerar posição prona dado o grau moderado a grave de hipoxemia, e manter estratégia conservadora de fluidos após estabilização hemodinâmica.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Definição de Berlim e classificação de gravidade", fonte: "ARDS Definition Task Force, JAMA, 2012 (Definição de Berlim)" },
+      { tema: "Ventilação protetora e posição prona", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "doencas-pulmonares-intersticiais",
+    nome: "Doenças pulmonares intersticiais",
+    sinonimos: ["Pneumopatias intersticiais", "DPI"],
+    cid10: "J84",
+    especialidade: "Pneumologia",
+    etiologia: "Multifatorial",
+    resumo: "Grupo heterogêneo de doenças que acometem o interstício pulmonar, causando inflamação e/ou fibrose progressiva, com destaque para a fibrose pulmonar idiopática entre as formas de pior prognóstico.",
+    definicao:
+      "Grupo heterogêneo de mais de 200 doenças que acometem difusamente o parênquima pulmonar (interstício, alvéolos e vias aéreas de pequeno calibre), causando graus variáveis de inflamação e/ou fibrose, com repercussão restritiva na função pulmonar.",
+    epidemiologia:
+      "A fibrose pulmonar idiopática é a forma mais estudada e uma das de pior prognóstico entre as pneumonias intersticiais idiopáticas, predominando em homens mais velhos, frequentemente ex-tabagistas. Outras formas associam-se a doenças do tecido conjuntivo, exposições ambientais/ocupacionais (pneumonite de hipersensibilidade) ou são de causa não identificada.",
+    fisiopatologia:
+      "Varia conforme o subtipo: na fibrose pulmonar idiopática, acredita-se que microlesões repetidas do epitélio alveolar levem a reparo aberrante com deposição excessiva de colágeno e fibrose progressiva, mais do que um processo primariamente inflamatório. Em formas associadas a doenças autoimunes ou exposições (pneumonite de hipersensibilidade), um processo inflamatório imunomediado predomina, ao menos nas fases iniciais, sendo potencialmente mais responsivo a imunossupressão.",
+    classificacao:
+      "Classificação ATS/ERS por categoria etiológica: pneumonias intersticiais idiopáticas (incluindo fibrose pulmonar idiopática, a mais comum e estudada), doenças intersticiais associadas a doenças do tecido conjuntivo, pneumonite de hipersensibilidade (por exposição a antígenos orgânicos), doenças granulomatosas (sarcoidose) e outras formas (pneumoconioses ocupacionais, induzidas por drogas). O padrão radiológico/histológico de pneumonia intersticial usual (UIP), com faveolamento na tomografia de alta resolução, é característico da fibrose pulmonar idiopática.",
+    quadroClinico: [
+      "Dispneia progressiva aos esforços, de instalação insidiosa ao longo de meses a anos",
+      "Tosse seca persistente",
+      "Baqueteamento digital em formas fibrosantes avançadas, especialmente na fibrose pulmonar idiopática",
+      "Estertores crepitantes finos ('em velcro') nas bases pulmonares à ausculta",
+    ],
+    diagnostico: [
+      "Tomografia de tórax de alta resolução como exame central, com padrões radiológicos específicos orientando a classificação (ex.: padrão UIP com faveolamento na fibrose pulmonar idiopática)",
+      "Prova de função pulmonar com padrão restritivo (redução de capacidade pulmonar total e volumes) e redução da capacidade de difusão de monóxido de carbono (DLCO)",
+      "Investigação etiológica dirigida (sorologias para doença do tecido conjuntivo, história de exposição ambiental/ocupacional) e, em casos selecionados, biópsia pulmonar",
+    ],
+    examesComplementares: [
+      "Tomografia de tórax de alta resolução (padrão UIP, vidro fosco, faveolamento, conforme o subtipo)",
+      "Espirometria e pletismografia: padrão restritivo com redução de capacidade pulmonar total",
+      "DLCO reduzida, refletindo comprometimento da troca gasosa",
+      "Painel de autoanticorpos quando há suspeita de doença do tecido conjuntivo associada",
+    ],
+    diagnosticoDiferencial: [
+      "Insuficiência cardíaca com edema pulmonar crônico",
+      "Infecção pulmonar crônica (tuberculose, micobacterioses atípicas)",
+      "Pneumoconioses ocupacionais",
+    ],
+    tratamento: [
+      "Antifibróticos (ex.: pirfenidona, nintedanibe) especificamente na fibrose pulmonar idiopática, retardando a progressão da perda de função pulmonar",
+      "Corticosteroide (isoladamente ou associado a imunossupressor) em formas predominantemente inflamatórias, como sarcoidose sintomática, pneumonite de hipersensibilidade e algumas doenças associadas a doença do tecido conjuntivo — importante ressalva: corticosteroide não é indicado como tratamento isolado da fibrose pulmonar idiopática, onde não demonstra benefício e pode ser prejudicial",
+      "Afastamento da exposição causal identificada, quando aplicável (ex.: pneumonite de hipersensibilidade ocupacional)",
+      "Oxigenoterapia suplementar e reabilitação pulmonar como medidas de suporte; transplante pulmonar em doença avançada refratária",
+    ],
+    complicacoes: [
+      "Aguda: exacerbação aguda da fibrose pulmonar idiopática (piora respiratória rápida e grave, com alta mortalidade)",
+      "Crônica: insuficiência respiratória progressiva, hipertensão pulmonar secundária, cor pulmonale",
+    ],
+    redFlags: [
+      "Piora respiratória rápida e significativa em paciente com fibrose pulmonar idiopática conhecida — investigar exacerbação aguda, condição grave com alta mortalidade",
+    ],
+    prognostico:
+      "Muito variável conforme o subtipo: a fibrose pulmonar idiopática tem prognóstico reservado, com sobrevida mediana historicamente limitada após o diagnóstico; formas predominantemente inflamatórias e responsivas a corticosteroide/imunossupressão (ex.: muitas pneumonites de hipersensibilidade, sarcoidose) têm prognóstico geralmente mais favorável.",
+    pontosDeProva: [
+      "Corticosteroide isolado não é tratamento eficaz para fibrose pulmonar idiopática — diferente de outras doenças pulmonares intersticiais predominantemente inflamatórias, onde é frequentemente a base do tratamento; essa distinção é um ponto de prova clássico",
+      "O padrão de pneumonia intersticial usual (UIP) com faveolamento na tomografia de alta resolução é a chave radiológica para reconhecer fibrose pulmonar idiopática, muitas vezes dispensando biópsia em casos típicos",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 68 anos, ex-tabagista, relata dispneia progressiva aos esforços e tosse seca há 1 ano. Ausculta com estertores crepitantes finos bibasais. Tomografia de alta resolução mostra faveolamento de predomínio basal e subpleural, sem vidro fosco significativo.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e a implicação terapêutica dessa distinção?",
+      raciocinio:
+        "O padrão tomográfico de faveolamento basal e subpleural, associado a estertores em velcro e ao perfil epidemiológico (homem idoso, ex-tabagista), é característico do padrão de pneumonia intersticial usual, sugerindo fibrose pulmonar idiopática. Essa distinção é crucial porque, ao contrário de outras DPIs, o corticosteroide isolado não é eficaz e pode ser prejudicial nessa condição.",
+      conduta:
+        "Confirmar o padrão radiológico e afastar causas secundárias identificáveis (doença do tecido conjuntivo, exposições), e considerar tratamento antifibrótico (pirfenidona ou nintedanibe) em vez de corticosteroide isolado, dado o diagnóstico provável de fibrose pulmonar idiopática.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "prednisona", nome: "Prednisona" },
+    ],
+    medicamentosNota:
+      "O corticosteroide (como a prednisona) é usado nas formas predominantemente inflamatórias das doenças pulmonares intersticiais (ex.: sarcoidose sintomática, pneumonite de hipersensibilidade). Ele NÃO é eficaz como tratamento isolado da fibrose pulmonar idiopática, cujo tratamento específico são os antifibróticos (pirfenidona, nintedanibe), ainda sem ficha própria no site.",
+    fontes: [
+      { tema: "Classificação ATS/ERS e padrão UIP", fonte: "American Thoracic Society/European Respiratory Society, Classificação das Pneumonias Intersticiais Idiopáticas, 2013" },
+      { tema: "Fisiopatologia e tratamento por subtipo", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Ausência de benefício do corticosteroide isolado na fibrose pulmonar idiopática", fonte: "ATS/ERS/JRS/ALAT Clinical Practice Guideline for Idiopathic Pulmonary Fibrosis, 2015" },
+    ],
+  },
+  {
+    slug: "insuficiencia-respiratoria",
+    nome: "Insuficiência respiratória",
+    sinonimos: ["Falência respiratória"],
+    cid10: "J96",
+    especialidade: "Pneumologia",
+    etiologia: "Multifatorial",
+    resumo: "Incapacidade do sistema respiratório de manter trocas gasosas adequadas, classificada em hipoxêmica (tipo I) ou hipercápnica (tipo II), decorrente de múltiplas causas pulmonares e extrapulmonares.",
+    definicao:
+      "Síndrome caracterizada pela incapacidade do sistema respiratório de manter oxigenação e/ou ventilação adequadas, definida por critérios gasométricos de hipoxemia e/ou hipercapnia, podendo ser aguda ou crônica conforme o tempo de instalação e mecanismos compensatórios.",
+    epidemiologia:
+      "Via final comum de uma ampla variedade de doenças pulmonares (DPOC, SDRA, pneumonia grave) e extrapulmonares (doenças neuromusculares, intoxicações, obesidade grave), sendo causa frequente de admissão em unidades de terapia intensiva.",
+    fisiopatologia:
+      "A insuficiência respiratória hipoxêmica (tipo I) decorre predominantemente de desequilíbrio ventilação-perfusão ou shunt intrapulmonar, como em pneumonia ou SDRA, com hipoxemia sem retenção significativa de CO2. A insuficiência respiratória hipercápnica (tipo II) decorre de falência da bomba ventilatória — redução do drive respiratório central, doença neuromuscular ou fadiga da musculatura respiratória — resultando em hipoventilação alveolar com retenção de CO2, geralmente acompanhada de hipoxemia secundária.",
+    classificacao:
+      "Classificada em tipo I (hipoxêmica: PaO2 <60 mmHg em ar ambiente, com PaCO2 normal ou baixa) e tipo II (hipercápnica: PaCO2 >45-50 mmHg, geralmente acompanhada de hipoxemia). Também classificada quanto ao tempo de instalação em aguda (minutos a horas, sem tempo para compensação renal) e crônica (dias a semanas, com compensação metabólica renal já estabelecida, refletida por bicarbonato elevado compensatório).",
+    quadroClinico: [
+      "Dispneia e taquipneia",
+      "Cianose em hipoxemia significativa",
+      "Confusão mental e sonolência, especialmente na hipercapnia (narcose por CO2)",
+      "Uso de musculatura acessória e, em casos graves, sinais de fadiga respiratória (respiração paradoxal)",
+    ],
+    diagnostico: [
+      "Gasometria arterial é o exame central para confirmação e classificação (tipo I vs. tipo II)",
+      "Identificação da causa de base por história clínica, exame físico e exames de imagem torácica direcionados",
+      "Avaliação do tempo de instalação (aguda vs. crônica) pelo grau de compensação metabólica renal (bicarbonato)",
+    ],
+    examesComplementares: [
+      "Gasometria arterial: PaO2 <60 mmHg define hipoxemia; PaCO2 >45-50 mmHg define hipercapnia",
+      "Oximetria de pulso contínua para monitorização",
+      "Radiografia/tomografia de tórax para investigação etiológica",
+    ],
+    diagnosticoDiferencial: [
+      "Ansiedade/hiperventilação (pode mimetizar taquipneia sem verdadeira insuficiência respiratória)",
+      "Causas cardíacas de dispneia sem falência respiratória primária",
+    ],
+    tratamento: [
+      "Suplementação de oxigênio para correção da hipoxemia, com cautela em retentores crônicos de CO2 (risco de piora da hipercapnia por supressão do drive hipóxico)",
+      "Suporte ventilatório não invasivo ou invasivo conforme gravidade e causa de base",
+      "Tratamento específico da causa subjacente (ex.: antibioticoterapia em pneumonia, broncodilatador em exacerbação de DPOC/asma)",
+    ],
+    complicacoes: [
+      "Aguda: parada cardiorrespiratória por hipoxemia ou acidose respiratória grave não corrigidas",
+      "Crônica: cor pulmonale por hipoxemia crônica sustentada",
+    ],
+    redFlags: [
+      "Rebaixamento do nível de consciência associado a hipercapnia progressiva — sinal de exaustão respiratória iminente, exigindo consideração imediata de suporte ventilatório",
+    ],
+    prognostico:
+      "Depende diretamente da causa de base e da rapidez do reconhecimento e tratamento; insuficiência respiratória aguda não reconhecida e não tratada tem alto risco de progressão para parada cardiorrespiratória.",
+    pontosDeProva: [
+      "Em pacientes retentores crônicos de CO2 (ex.: DPOC avançada), a oxigenoterapia deve ser titulada com cautela, pois a hiperoxigenação pode suprimir o drive respiratório hipóxico e piorar a hipercapnia",
+      "A distinção entre insuficiência respiratória aguda e crônica pelo grau de compensação metabólica (bicarbonato) tem implicação prática direta na urgência e na abordagem terapêutica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 70 anos, com DPOC grave conhecida, é trazido por confusão mental progressiva e sonolência há 1 dia, após piora da tosse produtiva. Gasometria arterial: pH 7,30; PaCO2 68 mmHg; PaO2 52 mmHg; bicarbonato 30 mEq/L.",
+      pergunta: "Qual é a classificação da insuficiência respiratória deste paciente?",
+      raciocinio:
+        "A PaCO2 elevada com PaO2 reduzida caracteriza insuficiência respiratória tipo II (hipercápnica). O bicarbonato já elevado sugere algum grau de compensação metabólica prévia (componente crônico), mas o pH reduzido indica descompensação aguda sobreposta a uma condição crônica.",
+      conduta:
+        "Iniciar suporte ventilatório não invasivo, ofertar oxigênio com cautela e titulação cuidadosa pelo risco de agravar a hipercapnia, tratar a causa desencadeante (provável exacerbação infecciosa de DPOC) e monitorizar de perto sinais de exaustão respiratória.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Classificação tipo I/tipo II e critérios gasométricos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Risco de supressão do drive hipóxico em retentores crônicos de CO2", fonte: "GOLD (Global Initiative for Chronic Obstructive Lung Disease), Relatório 2024" },
+    ],
+  },
+  {
+    slug: "bronquiolite-aguda",
+    nome: "Bronquiolite aguda",
+    sinonimos: ["Bronquiolite viral aguda"],
+    cid10: "J21",
+    especialidade: "Pneumologia",
+    etiologia: "Viral",
+    resumo: "Infecção viral aguda das pequenas vias aéreas, mais comumente pelo vírus sincicial respiratório, e principal causa de hospitalização respiratória em lactentes.",
+    definicao:
+      "Infecção viral aguda das vias aéreas de pequeno calibre (bronquíolos), caracterizada por inflamação, edema e necrose do epitélio, com obstrução ao fluxo aéreo, ocorrendo tipicamente em lactentes menores de 2 anos, com pico entre 2-6 meses de idade.",
+    epidemiologia:
+      "Principal causa de hospitalização por infecção respiratória em lactentes; o vírus sincicial respiratório (VSR) é o agente mais comum, seguido por rinovírus, parainfluenza, metapneumovírus e adenovírus. Ocorre em surtos sazonais, mais comum no outono/inverno em climas temperados.",
+    fisiopatologia:
+      "A infecção viral do epitélio bronquiolar causa necrose celular, edema da submucosa e hipersecreção de muco, resultando em obstrução das vias aéreas de pequeno calibre — que, por seu diâmetro reduzido em lactentes, são desproporcionalmente mais sensíveis a esse estreitamento do que em crianças maiores ou adultos, explicando a maior gravidade nessa faixa etária.",
+    classificacao:
+      "Classificação de gravidade clínica (leve, moderada, grave) baseada em escores clínicos que consideram frequência respiratória, retrações, ausculta e saturação de oxigênio — não há um escore único universalmente padronizado, mas a diretriz da American Academy of Pediatrics orienta a avaliação por esses parâmetros clínicos combinados.",
+    quadroClinico: [
+      "Pródromo de coriza e tosse leve, seguido por taquipneia, sibilância e/ou estertores",
+      "Retrações intercostais/subcostais e batimento de asas nasais em casos moderados a graves",
+      "Dificuldade alimentar, pela taquipneia interferindo na sucção",
+      "Apneia como manifestação possível em lactentes muito jovens, especialmente prematuros",
+    ],
+    diagnostico: [
+      "Diagnóstico predominantemente clínico, baseado em história e exame físico típicos em lactente na faixa etária característica",
+      "Testes virológicos (antígeno ou PCR para VSR e outros vírus respiratórios) não são rotineiramente necessários para o manejo, mas podem auxiliar em decisões de isolamento hospitalar",
+      "Radiografia de tórax não é rotineiramente indicada, reservada para apresentações atípicas ou suspeita de complicação",
+    ],
+    examesComplementares: [
+      "Oximetria de pulso para avaliação de hipoxemia",
+      "Testes virológicos (PCR/antígeno) quando relevantes para coorte/isolamento hospitalar, não para decisão terapêutica de rotina",
+    ],
+    diagnosticoDiferencial: [
+      "Crise de asma/sibilância recorrente em lactente maior",
+      "Pneumonia bacteriana",
+      "Aspiração de corpo estranho",
+      "Insuficiência cardíaca em lactente com cardiopatia congênita",
+    ],
+    tratamento: [
+      "Suporte: manutenção de hidratação e oxigenação adequadas, aspiração de secreções nasais",
+      "Oxigenoterapia suplementar para manter saturação adequada em casos com hipoxemia",
+      "Broncodilatadores e corticosteroides NÃO são recomendados de forma rotineira, pela ausência de benefício consistente demonstrado em ensaios clínicos nessa condição",
+      "Suporte ventilatório (não invasivo ou invasivo) em casos graves com insuficiência respiratória",
+    ],
+    complicacoes: [
+      "Aguda: apneia (especialmente em lactentes jovens/prematuros), insuficiência respiratória",
+      "Crônica: possível associação com maior risco de sibilância recorrente/asma na infância posterior, ainda em debate quanto à causalidade",
+    ],
+    redFlags: [
+      "Apneia, cianose ou sinais de exaustão respiratória em lactente com bronquiolite — indicam gravidade e necessidade de monitorização e suporte respiratório mais intensivos",
+    ],
+    prognostico:
+      "Geralmente autolimitada, com resolução em 1-2 semanas na maioria dos casos; lactentes prematuros, cardiopatas ou com doença pulmonar crônica de base têm maior risco de evolução grave.",
+    pontosDeProva: [
+      "Broncodilatadores e corticosteroides não são recomendados rotineiramente na bronquiolite viral aguda — diferente do manejo da asma, apesar da sibilância presente em ambas, é uma armadilha clássica de prova",
+      "Apneia pode ser a manifestação inicial da bronquiolite em lactentes muito jovens, antes mesmo dos sintomas respiratórios mais evidentes se tornarem proeminentes",
+    ],
+    casoClinico: {
+      vinheta:
+        "Lactente, 3 meses, apresenta coriza há 2 dias, evoluindo com tosse, taquipneia e sibilância difusa à ausculta. Saturação de oxigênio: 94% em ar ambiente. Alimenta-se com dificuldade pela taquipneia.",
+      pergunta: "Qual é a conduta terapêutica mais apropriada?",
+      raciocinio:
+        "O quadro clínico (lactente pequeno, pródromo catarral, taquipneia e sibilância) é típico de bronquiolite viral aguda. Apesar da sibilância, broncodilatadores e corticosteroides não têm benefício comprovado nessa condição e não devem ser usados rotineiramente.",
+      conduta:
+        "Priorizar medidas de suporte: manter hidratação adequada, aspirar secreções nasais, monitorizar saturação de oxigênio e oferecer oxigenoterapia se necessário, evitando broncodilatadores/corticosteroides de rotina.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Epidemiologia e agente etiológico predominante (VSR)", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Recomendação contra uso rotineiro de broncodilatador/corticosteroide", fonte: "American Academy of Pediatrics, Clinical Practice Guideline: The Diagnosis, Management, and Prevention of Bronchiolitis, 2014" },
+    ],
+  },
+  {
+    slug: "crupe-epiglotite",
+    nome: "Laringite obstrutiva aguda (crupe) e epiglotite",
+    sinonimos: ["Crupe", "Laringotraqueobronquite aguda", "Epiglotite aguda"],
+    cid10: "J05",
+    especialidade: "Pneumologia",
+    etiologia: "Multifatorial",
+    resumo: "Duas causas de obstrução aguda de via aérea superior em crianças: o crupe (viral, mais comum e geralmente leve) e a epiglotite (bacteriana, rara e potencialmente fatal).",
+    definicao:
+      "Crupe (laringotraqueobronquite aguda): inflamação viral aguda da laringe e traqueia subglótica, causando estridor característico. Epiglotite aguda: inflamação bacteriana grave e rapidamente progressiva da epiglote e estruturas supraglóticas, constituindo emergência de via aérea, hoje rara em locais com boa cobertura vacinal contra Haemophilus influenzae tipo b.",
+    epidemiologia:
+      "O crupe é comum em crianças entre 6 meses e 3 anos, com pico no outono/inverno, mais frequentemente causado por vírus parainfluenza. A epiglotite tornou-se rara após a introdução da vacina conjugada contra Haemophilus influenzae tipo b, mas pode ocorrer por esse ou outros patógenos em crianças não vacinadas ou, ocasionalmente, em adultos.",
+    fisiopatologia:
+      "No crupe, a infecção viral causa edema inflamatório da mucosa subglótica, região mais estreita da via aérea pediátrica, gerando estridor e tosse característica ('tosse de cachorro/metálica'). Na epiglotite, a infecção bacteriana da epiglote e estruturas supraglóticas causa edema rapidamente progressivo que pode obstruir completamente a via aérea superior em poucas horas.",
+    classificacao:
+      "O crupe é classificado por gravidade clínica pelo Westley Croup Score (baseado em nível de consciência, cianose, estridor, entrada de ar e retrações), com categorias leve, moderada e grave orientando a conduta. A epiglotite não possui um sistema formal de estadiamento de gravidade amplamente usado — é tratada uniformemente como emergência de via aérea desde a suspeita clínica inicial.",
+    quadroClinico: [
+      "Crupe: tosse metálica ('de cachorro'), rouquidão, estridor inspiratório, geralmente após pródromo catarral, com piora tipicamente noturna",
+      "Epiglotite: início abrupto de febre alta, toxemia, disfagia, sialorreia e posição em tripé, com estridor de instalação rápida e progressiva",
+      "Ambos podem apresentar retrações e desconforto respiratório variável conforme a gravidade",
+    ],
+    diagnostico: [
+      "Crupe: diagnóstico clínico, baseado no estridor característico e no contexto epidemiológico, sem necessidade de exames de imagem na maioria dos casos",
+      "Epiglotite: diagnóstico clínico de alta suspeição (criança toxemiada, sialorreia, posição em tripé) — a inspeção direta da orofaringe deve ser evitada até que a via aérea esteja segura, pelo risco de precipitar obstrução completa",
+      "Radiografia cervical lateral pode mostrar o 'sinal do polegar' (epiglote edemaciada) na epiglotite, mas não deve atrasar o manejo da via aérea quando a suspeita clínica é alta",
+    ],
+    examesComplementares: [
+      "Radiografia cervical lateral no crupe (sinal do 'campanário', estreitamento subglótico) — geralmente desnecessária para diagnóstico clínico típico",
+      "Radiografia cervical lateral na epiglotite (sinal do 'polegar') — apenas se a criança estiver estável o suficiente e não atrasar o manejo de via aérea",
+    ],
+    diagnosticoDiferencial: [
+      "Aspiração de corpo estranho em via aérea",
+      "Traqueíte bacteriana",
+      "Abscesso retrofaríngeo/periamigdaliano",
+    ],
+    tratamento: [
+      "Crupe leve a moderado: corticosteroide sistêmico em dose única (reduz gravidade e duração dos sintomas)",
+      "Crupe moderado a grave: adrenalina nebulizada associada ao corticosteroide, com observação pelo risco de efeito rebote",
+      "Epiglotite: manejo imediato e prioritário da via aérea (idealmente em ambiente controlado, como centro cirúrgico, por equipe experiente), seguido de antibioticoterapia intravenosa",
+      "Evitar manipulação da orofaringe/agitar a criança com suspeita de epiglotite antes da via aérea estar seguramente estabelecida",
+    ],
+    complicacoes: [
+      "Crupe: obstrução respiratória grave em casos raros mais intensos",
+      "Epiglotite: obstrução completa da via aérea superior, risco de morte se não reconhecida e tratada rapidamente",
+    ],
+    redFlags: [
+      "Criança toxemiada, com sialorreia, posição em tripé e estridor de instalação rápida — suspeitar de epiglotite e manter a criança calma, evitando qualquer manipulação da via aérea/orofaringe fora de ambiente controlado até a via aérea estar segura",
+    ],
+    prognostico:
+      "O crupe geralmente tem evolução benigna e autolimitada, especialmente com tratamento adequado; a epiglotite, quando reconhecida e tratada precocemente com manejo definitivo de via aérea, também tem bom prognóstico, mas o atraso no reconhecimento pode ser fatal.",
+    pontosDeProva: [
+      "Na suspeita de epiglotite, a inspeção da orofaringe com abaixador de língua deve ser evitada fora de ambiente controlado, pelo risco de precipitar obstrução completa da via aérea por espasmo/edema",
+      "A epiglotite tornou-se rara após a vacinação universal contra Haemophilus influenzae tipo b, mas deve permanecer na lista de diagnósticos diferenciais em crianças não vacinadas com quadro toxêmico agudo de via aérea superior",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menino, 2 anos, não vacinado, apresenta início súbito de febre alta, recusa alimentar, sialorreia e voz abafada, sentado com o corpo inclinado para frente. Extremamente ansioso e taquipneico.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "O início abrupto, febre alta, sialorreia, posição em tripé e ausência de vacinação são altamente sugestivos de epiglotite aguda, uma emergência de via aérea que pode progredir rapidamente para obstrução completa.",
+      conduta:
+        "Manter a criança calma e em posição confortável, evitar qualquer manipulação da orofaringe ou exames que possam agitá-la, e acionar imediatamente equipe experiente para manejo definitivo da via aérea em ambiente controlado, seguido de antibioticoterapia intravenosa.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia e epidemiologia do crupe e da epiglotite", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Westley Croup Score e tratamento do crupe", fonte: "fonte pendente" },
+      { tema: "Manejo da via aérea na epiglotite e antibioticoterapia (dexametasona, adrenalina nebulizada e ceftriaxona ainda sem fichas próprias no site)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "apneia-obstrutiva-do-sono",
+    nome: "Apneia obstrutiva do sono",
+    sinonimos: ["AOS", "Distúrbios do sono (apneia)", "SAHOS"],
+    cid10: "G47",
+    especialidade: "Pneumologia",
+    etiologia: "Multifatorial",
+    resumo: "Episódios recorrentes de colapso parcial ou total da via aérea superior durante o sono, causando hipoxemia intermitente e fragmentação do sono, fortemente associada à obesidade.",
+    definicao:
+      "Distúrbio respiratório do sono caracterizado por episódios recorrentes de obstrução completa (apneia) ou parcial (hipopneia) da via aérea superior durante o sono, apesar do esforço respiratório mantido, resultando em dessaturação intermitente de oxigênio e despertares frequentes que fragmentam a arquitetura do sono.",
+    epidemiologia:
+      "Extremamente prevalente, especialmente subdiagnosticada; a obesidade é o principal fator de risco modificável, junto com anatomia craniofacial predisponente, hipertrofia amigdaliana (mais relevante em crianças) e sexo masculino, embora a prevalência em mulheres aumente após a menopausa.",
+    fisiopatologia:
+      "Durante o sono, o relaxamento fisiológico da musculatura da via aérea superior (especialmente faríngea) é exagerado ou ocorre sobre uma via aérea anatomicamente predisposta ao colapso (por obesidade, retrognatia, hipertrofia amigdaliana), causando obstrução parcial ou completa recorrente, com hipoxemia intermitente, hipercapnia transitória e microdespertares que fragmentam o sono e ativam o sistema simpático repetidamente.",
+    classificacao:
+      "Classificada pelo índice de apneia-hipopneia (IAH, número de eventos por hora de sono) segundo a American Academy of Sleep Medicine: leve (5-15 eventos/hora), moderada (15-30 eventos/hora) e grave (>30 eventos/hora), sempre associado a critérios clínicos (sonolência diurna excessiva ou outros sintomas/comorbidades) para caracterizar a síndrome clinicamente relevante.",
+    quadroClinico: [
+      "Ronco alto e habitual, frequentemente relatado pelo parceiro de cama",
+      "Pausas respiratórias observadas durante o sono, seguidas de engasgos/despertares",
+      "Sonolência diurna excessiva e fadiga",
+      "Cefaleia matinal, dificuldade de concentração e irritabilidade",
+    ],
+    diagnostico: [
+      "Polissonografia (padrão-ouro) para quantificação do índice de apneia-hipopneia e caracterização da gravidade",
+      "Poligrafia respiratória domiciliar como alternativa em pacientes com alta probabilidade pré-teste e sem comorbidades complexas",
+      "Questionários de rastreamento (ex.: STOP-BANG) para triagem inicial do risco",
+    ],
+    examesComplementares: [
+      "Polissonografia com IAH ≥5 eventos/hora associado a sintomas, ou IAH ≥15 mesmo sem sintomas, confirma o diagnóstico",
+      "Oximetria noturna como triagem inicial, menos sensível e específica que a polissonografia completa",
+    ],
+    diagnosticoDiferencial: [
+      "Apneia central do sono (mecanismo distinto, sem esforço respiratório mantido durante os eventos)",
+      "Síndrome de hipoventilação por obesidade",
+      "Insônia primária (sem os eventos obstrutivos característicos)",
+    ],
+    tratamento: [
+      "Pressão positiva contínua em via aérea (CPAP) como tratamento de primeira linha na maioria dos casos moderados a graves",
+      "Perda de peso e mudança de estilo de vida em pacientes com sobrepeso/obesidade associada",
+      "Aparelhos intraorais de avanço mandibular em casos leves a moderados selecionados ou como alternativa ao CPAP",
+      "Cirurgia de via aérea superior (ex.: adenoamigdalectomia em crianças, procedimentos selecionados em adultos) em casos específicos",
+    ],
+    complicacoes: [
+      "Aguda: acidentes por sonolência diurna excessiva (ex.: acidentes automobilísticos)",
+      "Crônica: hipertensão arterial sistêmica, maior risco cardiovascular (incluindo fibrilação atrial e outras arritmias), hipertensão pulmonar em casos graves não tratados",
+    ],
+    redFlags: [
+      "Sonolência diurna excessiva grave com relato de quase-acidentes ao dirigir — orientar sobre o risco e priorizar avaliação e tratamento",
+    ],
+    prognostico:
+      "Bom controle sintomático e redução do risco cardiovascular associado com uso regular e adequado do CPAP; a adesão ao tratamento é o principal determinante do benefício a longo prazo.",
+    pontosDeProva: [
+      "O diagnóstico definitivo depende do índice de apneia-hipopneia à polissonografia, não apenas da impressão clínica de ronco/sonolência, embora questionários de triagem ajudem a priorizar quem investigar",
+      "A apneia obstrutiva do sono é fator de risco independente para hipertensão arterial e fibrilação atrial, relação frequentemente cobrada em prova ao integrar pneumologia e cardiologia",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 48 anos, obeso (IMC 34 kg/m²), relata ronco alto habitual e sonolência diurna importante, com episódios relatados pela esposa de pausas respiratórias durante o sono seguidas de engasgos. Hipertensão de difícil controle apesar de três anti-hipertensivos.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e sua relação com a hipertensão de difícil controle?",
+      raciocinio:
+        "O quadro de ronco alto, pausas respiratórias observadas e sonolência diurna em paciente obeso é altamente sugestivo de apneia obstrutiva do sono, condição associada de forma independente à hipertensão arterial, o que pode explicar a resistência ao tratamento anti-hipertensivo habitual.",
+      conduta:
+        "Solicitar polissonografia para confirmação diagnóstica e classificação de gravidade pelo índice de apneia-hipopneia, orientar perda de peso, e considerar CPAP como tratamento de primeira linha se confirmada apneia moderada a grave.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Classificação por índice de apneia-hipopneia", fonte: "American Academy of Sleep Medicine, Critérios Diagnósticos de Distúrbios do Sono" },
+      { tema: "CPAP como tratamento de primeira linha", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Associação com hipertensão e risco cardiovascular", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "empiema-pleural",
+    nome: "Piotórax (empiema pleural)",
+    sinonimos: ["Empiema pleural", "Piotórax"],
+    cid10: "J86",
+    especialidade: "Pneumologia",
+    etiologia: "Bacteriana",
+    resumo: "Acúmulo de pus no espaço pleural, mais comumente como complicação de pneumonia bacteriana (derrame parapneumônico complicado), exigindo antibioticoterapia associada a drenagem.",
+    definicao:
+      "Presença de líquido purulento franco no espaço pleural, geralmente representando a fase mais avançada de um derrame parapneumônico complicado, embora também possa resultar de trauma torácico, cirurgia ou extensão de infecção de estrutura adjacente.",
+    epidemiologia:
+      "Complicação de uma parcela dos casos de pneumonia bacteriana, sendo mais comum em extremos de idade e em pacientes com comorbidades ou atraso no início da antibioticoterapia apropriada.",
+    fisiopatologia:
+      "Um derrame parapneumônico evolui em três fases: exsudativa (líquido estéril, resposta inicial à inflamação pleural adjacente à pneumonia), fibrinopurulenta (invasão bacteriana do líquido pleural, com deposição de fibrina e formação de loculações) e organização (proliferação de fibroblastos formando uma 'casca' pleural espessa e fixa, o chamado peel pleural). O empiema representa a fase francamente purulenta desse continuum.",
+    classificacao:
+      "Classificação evolutiva em três estágios (American College of Chest Physicians / classificação clássica): exsudativo simples (não complicado), fibrinopurulento (complicado, com loculações e/ou pH baixo) e de organização (formação de peel pleural espesso). Essa classificação orienta diretamente a necessidade e o tipo de drenagem.",
+    quadroClinico: [
+      "Febre persistente ou recorrente apesar de antibioticoterapia para pneumonia",
+      "Dor torácica pleurítica",
+      "Dispneia proporcional ao volume do derrame",
+      "Toxemia e mal-estar geral mais pronunciados que em derrame parapneumônico simples",
+    ],
+    diagnostico: [
+      "Toracocentese com aspecto macroscopicamente purulento do líquido confirma empiema",
+      "pH pleural baixo (<7,2), glicose baixa e LDH muito elevada no líquido pleural indicam derrame complicado, mesmo sem pus macroscópico evidente",
+      "Cultura do líquido pleural para identificação do agente e ajuste da antibioticoterapia",
+    ],
+    examesComplementares: [
+      "Análise do líquido pleural: pH <7,2, glicose <40-60 mg/dL e LDH muito elevada indicam necessidade de drenagem",
+      "Tomografia de tórax para avaliação de loculações e planejamento de drenagem",
+      "Cultura e Gram do líquido pleural",
+    ],
+    diagnosticoDiferencial: [
+      "Derrame parapneumônico simples (não complicado, sem necessidade de drenagem)",
+      "Abscesso pulmonar roto para o espaço pleural",
+      "Derrame pleural maligno secundariamente infectado",
+    ],
+    tratamento: [
+      "Antibioticoterapia sistêmica de amplo espectro, ajustada conforme cultura quando disponível",
+      "Drenagem torácica é essencial na presença de pus franco, pH baixo ou loculações — antibioticoterapia isolada é insuficiente nessas situações",
+      "Fibrinolíticos intrapleurais em casos loculados selecionados, como alternativa a intervenção cirúrgica mais invasiva",
+      "Decorticação cirúrgica (videotoracoscopia ou toracotomia) em empiema organizado com peel pleural espesso, refratário a drenagem simples",
+    ],
+    complicacoes: [
+      "Aguda: sepse, insuficiência respiratória por compressão pulmonar extensa",
+      "Crônica: encarceramento pulmonar por peel pleural espesso não tratado, fístula broncopleural",
+    ],
+    redFlags: [
+      "Febre persistente e piora clínica apesar de antibioticoterapia adequada para pneumonia — investigar ativamente empiema como complicação, especialmente se houver derrame pleural associado",
+    ],
+    prognostico:
+      "Bom com reconhecimento e drenagem precoces; atraso no diagnóstico e tratamento aumenta o risco de organização pleural (peel), com necessidade de intervenção cirúrgica mais extensa e maior morbidade.",
+    pontosDeProva: [
+      "A presença de pH pleural baixo já indica necessidade de drenagem, mesmo antes de o líquido se tornar macroscopicamente purulento — não é necessário aguardar pus franco para intervir",
+      "Antibioticoterapia isolada, sem drenagem adequada, é insuficiente no empiema estabelecido — a drenagem do espaço pleural é etapa essencial do tratamento, não opcional",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 45 anos, em tratamento para pneumonia adquirida na comunidade há 5 dias, mantém febre persistente e piora da dor torácica pleurítica. Radiografia mostra derrame pleural loculado à direita. Toracocentese: líquido turvo, pH 7,05, glicose 30 mg/dL.",
+      pergunta: "Qual é a conduta apropriada diante desses achados?",
+      raciocinio:
+        "A persistência de febre apesar de antibioticoterapia, associada a derrame loculado com pH pleural muito baixo e glicose reduzida, indica derrame parapneumônico complicado/empiema, situação em que a antibioticoterapia isolada é insuficiente.",
+      conduta:
+        "Indicar drenagem torácica sem demora, ajustar a antibioticoterapia conforme cultura do líquido pleural quando disponível, e considerar fibrinolíticos intrapleurais ou abordagem cirúrgica se houver loculações extensas refratárias à drenagem simples.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fases evolutivas do derrame parapneumônico/empiema", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Critérios de pH/glicose para indicação de drenagem", fonte: "American College of Chest Physicians, Consenso sobre Manejo de Derrame Parapneumônico" },
+      { tema: "Antibioticoterapia de amplo espectro dirigida (ainda sem fichas próprias no site com essa indicação)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "bronquite-cronica",
+    nome: "Bronquite crônica",
+    sinonimos: ["Bronquite crônica não especificada"],
+    cid10: "J42",
+    especialidade: "Pneumologia",
+    etiologia: "Multifatorial",
+    resumo: "Definição clínica de tosse produtiva na maioria dos dias por pelo menos três meses ao ano, em dois anos consecutivos, sem outra causa identificável — pode ocorrer com ou sem obstrução ao fluxo aéreo confirmada.",
+    definicao:
+      "Definição clínica (não espirométrica) caracterizada por tosse produtiva presente na maioria dos dias por pelo menos três meses ao ano, durante dois anos consecutivos, na ausência de outra causa identificável para a tosse crônica. É um fenótipo clínico que pode ou não se associar à obstrução ao fluxo aéreo comprovada por espirometria — quando essa obstrução está presente, a condição passa a ser classificada como DPOC.",
+    epidemiologia:
+      "Fortemente associada ao tabagismo, compartilhando os principais fatores de risco da DPOC; pode ocorrer em tabagistas sem obstrução espirométrica demonstrável (bronquite crônica simples) ou como um dos fenótipos clínicos dentro do espectro da DPOC estabelecida.",
+    fisiopatologia:
+      "A exposição crônica a irritantes (mais comumente fumaça de cigarro) causa hipertrofia das glândulas submucosas produtoras de muco e hiperplasia de células caliciformes nas vias aéreas, resultando em hipersecreção crônica de muco e tosse produtiva persistente, com ou sem o componente adicional de limitação ao fluxo aéreo que caracteriza a DPOC.",
+    classificacao:
+      "Não há sistema formal de estadiamento de gravidade específico para a bronquite crônica isolada (diferente da classificação espirométrica GOLD, aplicável quando há obstrução confirmada). A distinção fundamental é clínica: bronquite crônica simples (tosse produtiva crônica sem obstrução espirométrica) versus bronquite crônica como fenótipo de DPOC estabelecida (quando a espirometria confirma VEF1/CVF <0,70 pós-broncodilatador).",
+    quadroClinico: [
+      "Tosse produtiva crônica, presente na maioria dos dias, com expectoração mucoide ou mucopurulenta",
+      "Sintomas mais proeminentes pela manhã em muitos pacientes",
+      "Dispneia associada apenas quando há componente obstrutivo (DPOC) sobreposto",
+      "Exacerbações com aumento de tosse e expectoração, por vezes com infecção respiratória associada",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico pela definição de tosse produtiva na maioria dos dias por ≥3 meses/ano, em ≥2 anos consecutivos",
+      "Espirometria é essencial para determinar se há obstrução associada (definindo a sobreposição com DPOC) ou se a função pulmonar está preservada",
+      "Exclusão de outras causas de tosse crônica (refluxo gastroesofágico, gotejamento pós-nasal, uso de IECA, asma) antes de firmar o diagnóstico",
+    ],
+    examesComplementares: [
+      "Espirometria: normal ou obstrutiva (VEF1/CVF <0,70 pós-broncodilatador, caracterizando sobreposição com DPOC)",
+      "Radiografia de tórax para exclusão de outras causas de tosse crônica",
+    ],
+    diagnosticoDiferencial: [
+      "DPOC estabelecida (quando há obstrução espirométrica confirmada)",
+      "Bronquiectasia",
+      "Doença do refluxo gastroesofágico",
+      "Gotejamento pós-nasal crônico (rinossinusite crônica)",
+      "Tosse induzida por IECA",
+    ],
+    tratamento: [
+      "Cessação do tabagismo, intervenção central independentemente de haver ou não obstrução associada",
+      "Tratamento sintomático da tosse e expectoração conforme necessidade",
+      "Se espirometria confirmar obstrução (sobreposição com DPOC), seguir o tratamento farmacológico específico da DPOC conforme grupo sintomático/de risco",
+      "Investigação e tratamento de causas alternativas/concomitantes de tosse crônica quando identificadas",
+    ],
+    complicacoes: [
+      "Aguda: exacerbações infecciosas com piora de tosse e expectoração",
+      "Crônica: progressão para obstrução ao fluxo aéreo estabelecida (DPOC) em uma parcela dos pacientes, especialmente se o tabagismo for mantido",
+    ],
+    redFlags: [
+      "Mudança no padrão da tosse crônica (hemoptise, perda de peso, piora súbita) — investigar diagnósticos alternativos, incluindo neoplasia pulmonar, antes de atribuir à bronquite crônica simples",
+    ],
+    prognostico:
+      "Bom quando não há obstrução ao fluxo aéreo associada e o tabagismo é cessado; a evolução para DPOC estabelecida está diretamente relacionada à manutenção da exposição ao fator causal, principalmente o tabagismo contínuo.",
+    pontosDeProva: [
+      "Bronquite crônica é uma definição clínica (baseada em tempo e padrão de tosse), enquanto DPOC exige confirmação espirométrica de obstrução — os dois termos não são sinônimos, apesar de frequentemente coexistirem",
+      "Um paciente pode ter bronquite crônica (clinicamente definida) com espirometria normal, sem preencher critérios de DPOC",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 55 anos, tabagista de 25 maços-ano, relata tosse produtiva matinal quase diária há mais de 3 anos, sem dispneia significativa. Espirometria: VEF1/CVF pós-broncodilatador de 0,78 (normal).",
+      pergunta: "Este paciente preenche critérios para DPOC? Por quê?",
+      raciocinio:
+        "O paciente preenche a definição clínica de bronquite crônica (tosse produtiva na maioria dos dias por mais de 3 meses/ano, por mais de 2 anos). No entanto, a espirometria não mostra obstrução ao fluxo aéreo (relação VEF1/CVF ≥0,70), portanto ele não preenche os critérios diagnósticos de DPOC, que exigem confirmação espirométrica.",
+      conduta:
+        "Reforçar fortemente a cessação do tabagismo (para reduzir o risco de progressão futura para obstrução estabelecida), tratar sintomaticamente a tosse/expectoração, e manter reavaliação espirométrica periódica dado o risco de desenvolvimento de DPOC se o tabagismo persistir.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Definição clínica e distinção de DPOC", fonte: "GOLD (Global Initiative for Chronic Obstructive Lung Disease), Relatório 2024" },
+      { tema: "Fisiopatologia (hipertrofia de glândulas submucosas)", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "cancer-de-pulmao",
+    nome: "Neoplasia maligna dos brônquios e dos pulmões",
+    sinonimos: ["Câncer de pulmão", "Carcinoma broncogênico"],
+    cid10: "C34",
+    especialidade: "Pneumologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna originada do epitélio brônquico ou pulmonar, fortemente associada ao tabagismo, classificada histologicamente em pequenas células e não-pequenas células, com grande impacto na mortalidade por câncer.",
+    definicao:
+      "Neoplasia maligna originada do epitélio das vias aéreas ou do parênquima pulmonar, principal causa de morte por câncer em homens e mulheres em muitos países, fortemente associada à exposição cumulativa ao tabagismo.",
+    epidemiologia:
+      "O tabagismo é o principal fator de risco, responsável pela grande maioria dos casos; outros fatores incluem exposição ocupacional (asbesto, radônio) e, em não-tabagistas, mutações genéticas específicas (ex.: EGFR), mais comuns em determinados subgrupos populacionais.",
+    fisiopatologia:
+      "Exposição cumulativa a carcinógenos (principalmente da fumaça do tabaco) causa acúmulo progressivo de mutações genéticas no epitélio respiratório, levando a transformação maligna. O comportamento biológico e a resposta terapêutica variam substancialmente conforme o subtipo histológico e o perfil molecular do tumor (mutações acionáveis, como EGFR, ALK, ROS1, entre outras, relevantes principalmente no adenocarcinoma).",
+    classificacao:
+      "Classificação histológica fundamental em carcinoma de pequenas células (menor proporção, biologicamente mais agressivo e frequentemente disseminado ao diagnóstico) e carcinoma de não-pequenas células (maioria dos casos, incluindo adenocarcinoma, carcinoma escamoso e carcinoma de grandes células). O estadiamento segue o sistema TNM (8ª edição, AJCC/UICC), definindo extensão tumoral, comprometimento linfonodal e presença de metástases, orientando diretamente a estratégia terapêutica.",
+    quadroClinico: [
+      "Tosse persistente ou mudança do padrão de tosse crônica preexistente",
+      "Hemoptise",
+      "Perda de peso e sintomas constitucionais",
+      "Dor torácica, dispneia, rouquidão (por acometimento do nervo laríngeo recorrente) em doença localmente avançada",
+      "Síndromes paraneoplásicas em alguns casos (ex.: hipercalcemia no carcinoma escamoso, síndrome de secreção inapropriada de ADH no carcinoma de pequenas células)",
+    ],
+    diagnostico: [
+      "Tomografia de tórax para caracterização inicial da lesão",
+      "Confirmação histológica por biópsia (broncoscopia, biópsia transtorácica guiada por imagem, ou outra via conforme localização)",
+      "Estadiamento por PET-CT e, quando indicado, avaliação de sistema nervoso central, para definir extensão da doença conforme o sistema TNM",
+    ],
+    examesComplementares: [
+      "Tomografia de tórax com contraste para caracterização da lesão primária e linfonodos",
+      "PET-CT para estadiamento metabólico e pesquisa de doença metastática",
+      "Biópsia com análise histológica e, no adenocarcinoma, painel molecular (EGFR, ALK, ROS1, entre outros) para orientar terapia-alvo quando aplicável",
+      "Ressonância magnética de crânio no estadiamento de casos com potencial doença avançada, pela frequência de metástase cerebral",
+    ],
+    diagnosticoDiferencial: [
+      "Nódulo pulmonar benigno (granuloma, hamartoma)",
+      "Metástase pulmonar de outro sítio primário",
+      "Pneumonia ou abscesso pulmonar (podem mimetizar massa em alguns casos)",
+    ],
+    tratamento: [
+      "Ressecção cirúrgica em doença localizada de não-pequenas células, quando o paciente é candidato cirúrgico",
+      "Quimioterapia, radioterapia, imunoterapia e/ou terapia-alvo (conforme perfil molecular) em doença localmente avançada ou metastática de não-pequenas células",
+      "Quimioterapia associada a radioterapia (frequentemente concomitante) no carcinoma de pequenas células, dada sua alta sensibilidade inicial a esses tratamentos apesar do comportamento agressivo",
+      "Cuidados paliativos integrados desde estágios iniciais em doença avançada, com foco em controle sintomático e qualidade de vida",
+    ],
+    complicacoes: [
+      "Aguda: hemoptise maciça, síndrome da veia cava superior por compressão tumoral",
+      "Crônica: metástases a distância (osso, fígado, sistema nervoso central, glândula adrenal), caquexia neoplásica",
+    ],
+    redFlags: [
+      "Hemoptise maciça ou sinais de síndrome da veia cava superior (edema facial/cervical, distensão venosa cervical) em paciente com massa pulmonar conhecida ou suspeita — emergências oncológicas que exigem avaliação e manejo imediatos",
+    ],
+    prognostico:
+      "Fortemente dependente do estágio ao diagnóstico e do subtipo histológico; a detecção em estágios iniciais associa-se a chance real de cura pela ressecção cirúrgica, enquanto a doença metastática ao diagnóstico (comum, especialmente no carcinoma de pequenas células) tem prognóstico reservado, apesar dos avanços recentes em imunoterapia e terapia-alvo.",
+    pontosDeProva: [
+      "A distinção histológica entre pequenas células e não-pequenas células é central para a escolha terapêutica — o carcinoma de pequenas células raramente é candidato à ressecção cirúrgica, mesmo em estágios aparentemente localizados, pela sua tendência à disseminação precoce",
+      "A pesquisa de mutações acionáveis (EGFR, ALK, ROS1) é particularmente relevante no adenocarcinoma, orientando terapia-alvo com impacto significativo no desfecho de pacientes selecionados",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 68 anos, tabagista de 50 maços-ano, relata mudança no padrão de tosse crônica habitual, com episódios recentes de hemoptise e perda de 8 kg em 3 meses. Tomografia de tórax mostra massa espiculada de 4 cm em lobo superior direito, com linfonodomegalia mediastinal.",
+      pergunta: "Qual é a próxima etapa mais apropriada na investigação deste paciente?",
+      raciocinio:
+        "O perfil de risco (tabagismo importante), os sintomas de alarme (mudança do padrão de tosse, hemoptise, perda de peso) e o achado de massa pulmonar espiculada com linfonodomegalia são altamente sugestivos de neoplasia maligna de pulmão, exigindo confirmação histológica antes de definir a estratégia terapêutica.",
+      conduta:
+        "Obter confirmação histológica por biópsia (broncoscopia ou biópsia guiada por imagem, conforme acessibilidade da lesão), complementar com PET-CT para estadiamento, e, no adenocarcinoma, solicitar painel molecular para orientar potencial terapia-alvo.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Classificação histológica e estadiamento TNM", fonte: "AJCC Cancer Staging Manual, 8ª edição, 2017" },
+      { tema: "Fatores de risco e fisiopatologia molecular", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Estratégias terapêuticas por subtipo histológico", fonte: "fonte pendente" },
+    ],
+  },
 ];

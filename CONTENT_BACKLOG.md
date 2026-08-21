@@ -15,7 +15,7 @@ Fontes:
   está, o único item da lista ainda pendente por esse motivo.
 
 Já documentados com ficha completa (**fora deste backlog**, não repetir):
-- **Doenças (45):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
+- **Doenças (57):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
   · Dengue · COVID-19 · Gastrite · DRGE · Artrite reumatoide · LES · Alzheimer · Anemia
   ferropriva · DRC · Infarto agudo do miocárdio · Angina pectoris · Doença isquêmica
   crônica do coração · Fibrilação e flutter atrial · Parada cardíaca · Febre reumática ·
@@ -25,7 +25,10 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   mellitus tipo 1 · Tireotoxicose (hipertireoidismo) · Tireoidite · Síndrome de Cushing ·
   Hiperparatireoidismo · Insuficiência adrenal · Acromegalia · Hipopituitarismo ·
   Obesidade · Dislipidemia · Coma hipoglicêmico não-diabético · DPOC · Estado de mal
-  asmático · Bronquiectasia
+  asmático · Bronquiectasia · Pneumotórax · Derrame pleural · Abscesso pulmonar · SDRA ·
+  Doenças pulmonares intersticiais · Insuficiência respiratória · Bronquiolite aguda ·
+  Crupe e epiglotite · Apneia obstrutiva do sono · Empiema pleural · Bronquite crônica ·
+  Câncer de pulmão
 - **Medicamentos (21):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
@@ -72,19 +75,19 @@ parênteses, exatamente como aparece no índice.
 13. concluído — Estado de mal asmático (J46)
 14. concluído — Bronquectasia (J47)
 
-### Lote 3 — Pneumologia (restante, 12)
-1. pendente — Pneumotórax (J93)
-2. pendente — Derrame pleural não classificado em outra parte (J90)
-3. pendente — Abscesso do pulmão e do mediastino (J85)
-4. pendente — Síndrome do desconforto respiratório do adulto / SDRA (J80)
-5. pendente — Outras doenças pulmonares intersticiais (J84)
-6. pendente — Insuficiência respiratória (J96)
-7. pendente — Bronquiolite aguda (J21)
-8. pendente — Laringite obstrutiva aguda [crupe] e epiglotite (J05)
-9. pendente — Distúrbios do sono / apneia obstrutiva (G47)
-10. pendente — Piotórax / empiema (J86)
-11. pendente — Bronquite crônica não especificada (J42)
-12. pendente — Neoplasia maligna dos brônquios e dos pulmões (C34)
+### Lote 3 — Pneumologia (restante, 12) — ✅ CONCLUÍDO
+1. concluído — Pneumotórax (J93)
+2. concluído — Derrame pleural não classificado em outra parte (J90)
+3. concluído — Abscesso do pulmão e do mediastino (J85)
+4. concluído — Síndrome do desconforto respiratório do adulto / SDRA (J80)
+5. concluído — Outras doenças pulmonares intersticiais (J84)
+6. concluído — Insuficiência respiratória (J96)
+7. concluído — Bronquiolite aguda (J21)
+8. concluído — Laringite obstrutiva aguda [crupe] e epiglotite (J05)
+9. concluído — Distúrbios do sono / apneia obstrutiva (G47)
+10. concluído — Piotórax / empiema (J86)
+11. concluído — Bronquite crônica não especificada (J42)
+12. concluído — Neoplasia maligna dos brônquios e dos pulmões (C34)
 
 ### Lote 4 — Infectologia (13)
 1. pendente — Doença pelo HIV (B20)
@@ -218,8 +221,9 @@ parênteses, exatamente como aparece no índice.
 8. pendente — Doença inflamatória do útero / DIP (N71)
 9. pendente — Transtornos da menopausa e da perimenopausa (N95)
 
-**Total: 126 doenças pendentes em 10 lotes** (Lote 1, Cardiologia, e Lote 2,
-Endocrinologia+Pneumologia, concluídos — 15 + 14 itens), além das 45 já fichadas.
+**Total: 114 doenças pendentes em 9 lotes** (Lote 1, Cardiologia; Lote 2,
+Endocrinologia+Pneumologia; e Lote 3, Pneumologia, concluídos — 15 + 14 + 12 itens),
+além das 57 já fichadas.
 
 ---
 

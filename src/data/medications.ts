@@ -291,6 +291,7 @@ export const medications: Medication[] = [
     ],
     doencasIndicadas: [
       { slug: "pneumonia-adquirida-na-comunidade", nome: "Pneumonia adquirida na comunidade" },
+      { slug: "abscesso-pulmonar", nome: "Abscesso do pulmão e do mediastino" },
     ],
     fontes: [
       { tema: "Mecanismo de ação (inibição de betalactamase)", fonte: "Goodman & Gilman, 13ª ed." },
@@ -725,6 +726,7 @@ export const medications: Medication[] = [
       { slug: "artrite-reumatoide", nome: "Artrite reumatoide" },
       { slug: "lupus-eritematoso-sistemico", nome: "Lúpus eritematoso sistêmico" },
       { slug: "estado-de-mal-asmatico", nome: "Estado de mal asmático" },
+      { slug: "doencas-pulmonares-intersticiais", nome: "Doenças pulmonares intersticiais" },
     ],
     fontes: [
       { tema: "Mecanismo de ação glicocorticoide", fonte: "Goodman & Gilman, 13ª ed." },
