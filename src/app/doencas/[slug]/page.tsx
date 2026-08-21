@@ -14,6 +14,8 @@ import {
   ShieldAlert,
   TrendingUp,
   GraduationCap,
+  Pill,
+  BookMarked,
   ArrowLeft,
 } from "lucide-react";
 import { diseases } from "@/data/diseases";
@@ -118,6 +120,34 @@ export default async function DiseaseDetailPage({
           <BulletList items={disease.tratamento} />
         </DetailSection>
 
+        <DetailSection
+          title={disease.medicamentosSecaoTitulo ?? "Medicamentos de primeira linha"}
+          icon={Pill}
+        >
+          {disease.medicamentosNota && (
+            <p className="mb-3 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-900 dark:border-amber-900 dark:bg-amber-950 dark:text-amber-200">
+              {disease.medicamentosNota}
+            </p>
+          )}
+          {disease.medicamentosPrimeiraLinha.length > 0 ? (
+            <div className="flex flex-wrap gap-1.5">
+              {disease.medicamentosPrimeiraLinha.map((m) => (
+                <Link
+                  key={m.slug}
+                  href={`/medicamentos/${m.slug}`}
+                  className="inline-flex items-center gap-1 rounded-full border border-brand/20 bg-brand-soft px-2.5 py-1 text-xs font-medium text-brand-strong transition-colors hover:border-brand/40"
+                >
+                  {m.nome}
+                </Link>
+              ))}
+            </div>
+          ) : (
+            <p className="text-sm text-foreground-subtle">
+              Nenhum medicamento de primeira linha para esta doença tem ficha completa no site ainda.
+            </p>
+          )}
+        </DetailSection>
+
         <DetailSection title="Complicações" icon={ShieldAlert}>
           <BulletList items={disease.complicacoes} />
         </DetailSection>
@@ -151,6 +181,23 @@ export default async function DiseaseDetailPage({
         </h2>
         <ClinicalCaseCard caso={disease.casoClinico} especialidade={disease.especialidade} />
       </div>
+
+      {disease.fontes.length > 0 && (
+        <div className="mt-10 rounded-xl border border-border bg-background-raised p-4">
+          <h2 className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-foreground-subtle">
+            <BookMarked className="h-3.5 w-3.5" />
+            Fontes
+          </h2>
+          <dl className="mt-2 space-y-1 text-xs text-foreground-subtle">
+            {disease.fontes.map((f, i) => (
+              <div key={i} className="flex flex-col sm:flex-row sm:gap-1.5">
+                <dt className="shrink-0 font-medium text-foreground-muted">{f.tema}:</dt>
+                <dd className={f.fonte === "fonte pendente" ? "italic" : ""}>{f.fonte}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      )}
 
       {related.length > 0 && (
         <div className="mt-10">

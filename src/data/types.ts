@@ -29,6 +29,16 @@ export const IMPORTANCIAS = ["Alta", "Média", "Baixa"] as const;
 
 export type Importancia = (typeof IMPORTANCIAS)[number];
 
+export interface RelatedLink {
+  slug: string;
+  nome: string;
+}
+
+export interface FonteTema {
+  tema: string;
+  fonte: string;
+}
+
 export interface Medication {
   slug: string;
   nome: string;
@@ -53,6 +63,8 @@ export interface Medication {
   alertas: string[];
   similares: string[];
   pontosDeProva: string[];
+  doencasIndicadas: RelatedLink[];
+  fontes: FonteTema[];
 }
 
 export interface DiseaseCase {
@@ -84,6 +96,10 @@ export interface Disease {
   prognostico: string;
   pontosDeProva: string[];
   casoClinico: DiseaseCase;
+  medicamentosPrimeiraLinha: RelatedLink[];
+  medicamentosSecaoTitulo?: string;
+  medicamentosNota?: string;
+  fontes: FonteTema[];
 }
 
 export interface ClinicalUpdate {

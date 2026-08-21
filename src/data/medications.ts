@@ -51,6 +51,13 @@ export const medications: Medication[] = [
       "N-acetilcisteína é o antídoto específico na intoxicação por paracetamol, repondo glutationa hepática",
       "A hepatotoxicidade da superdosagem decorre do acúmulo do metabólito NAPQI, não do paracetamol em si",
     ],
+    doencasIndicadas: [
+      { slug: "dengue", nome: "Dengue" },
+    ],
+    fontes: [
+      { tema: "Mecanismo de ação e farmacocinética", fonte: "Goodman & Gilman, As Bases Farmacológicas da Terapêutica, 13ª ed." },
+      { tema: "Uso preferencial na dengue (evitar AINEs/AAS)", fonte: "Guia de Manejo Clínico da Dengue, Ministério da Saúde" },
+    ],
   },
   {
     slug: "dipirona-sodica",
@@ -104,6 +111,10 @@ export const medications: Medication[] = [
     pontosDeProva: [
       "É a causa clássica de agranulocitose induzida por fármaco citada em provas — reconhecer sinais precoces (febre, dor de garganta) importa mais que decorar a incidência exata",
       "Contraindicada na deficiência de G6PD pelo risco de hemólise",
+    ],
+    doencasIndicadas: [],
+    fontes: [
+      { tema: "Mecanismo de ação, contraindicações e alertas", fonte: "Goodman & Gilman, 13ª ed." },
     ],
   },
   {
@@ -162,6 +173,10 @@ export const medications: Medication[] = [
       "A 'tríade' AINE + IECA/BRA + diurético é um clássico de prova pelo risco de lesão renal aguda",
       "AINEs devem ser evitados no terceiro trimestre pelo risco de fechamento precoce do ducto arterioso",
     ],
+    doencasIndicadas: [],
+    fontes: [
+      { tema: "Mecanismo de ação e efeitos adversos", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
   },
   {
     slug: "amoxicilina",
@@ -215,6 +230,14 @@ export const medications: Medication[] = [
       "Rash cutâneo em uso de amoxicilina durante mononucleose infecciosa é achado clássico de prova, não indica alergia verdadeira a penicilina",
       "Amoxicilina não é significativamente afetada pela alimentação, diferente de outros antibióticos que exigem jejum",
     ],
+    doencasIndicadas: [
+      { slug: "pneumonia-adquirida-na-comunidade", nome: "Pneumonia adquirida na comunidade" },
+      { slug: "gastrite", nome: "Gastrite" },
+    ],
+    fontes: [
+      { tema: "Mecanismo de ação e farmacocinética", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Uso em PAC ambulatorial e erradicação de H. pylori", fonte: "fonte pendente" },
+    ],
   },
   {
     slug: "amoxicilina-clavulanato",
@@ -265,6 +288,12 @@ export const medications: Medication[] = [
     similares: ["Amoxicilina isolada", "Ampicilina + Sulbactam"],
     pontosDeProva: [
       "O clavulanato é o principal responsável pelo maior risco de hepatotoxicidade colestática e de diarreia em relação à amoxicilina isolada",
+    ],
+    doencasIndicadas: [
+      { slug: "pneumonia-adquirida-na-comunidade", nome: "Pneumonia adquirida na comunidade" },
+    ],
+    fontes: [
+      { tema: "Mecanismo de ação (inibição de betalactamase)", fonte: "Goodman & Gilman, 13ª ed." },
     ],
   },
   {
@@ -318,6 +347,12 @@ export const medications: Medication[] = [
     pontosDeProva: [
       "A meia-vida tecidual longa é o que permite o esquema de 3–5 dias com efeito prolongado, diferente da maioria dos antibióticos",
       "Risco de prolongamento de QT é compartilhado por toda a classe dos macrolídeos",
+    ],
+    doencasIndicadas: [
+      { slug: "pneumonia-adquirida-na-comunidade", nome: "Pneumonia adquirida na comunidade" },
+    ],
+    fontes: [
+      { tema: "Mecanismo de ação e farmacocinética (meia-vida tecidual longa)", fonte: "Goodman & Gilman, 13ª ed." },
     ],
   },
   {
@@ -373,6 +408,13 @@ export const medications: Medication[] = [
       "Apesar da meia-vida plasmática curta, o efeito é prolongado porque a inibição da bomba H+/K+-ATPase é irreversível — só nova síntese de bombas restaura a secreção ácida",
       "Reduz a absorção/ativação do clopidogrel ao inibir o CYP2C19, sua via de ativação — evitar associação quando possível",
     ],
+    doencasIndicadas: [
+      { slug: "gastrite", nome: "Gastrite" },
+      { slug: "drge", nome: "Doença do refluxo gastroesofágico" },
+    ],
+    fontes: [
+      { tema: "Mecanismo de ação e farmacocinética", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
   },
   {
     slug: "losartana-potassica",
@@ -424,6 +466,16 @@ export const medications: Medication[] = [
     pontosDeProva: [
       "Losartana é pró-droga — parte do seu efeito depende da conversão hepática ao metabólito ativo E-3174",
       "BRAs compartilham as mesmas contraindicações gestacionais dos IECA, apesar do mecanismo diferente",
+    ],
+    doencasIndicadas: [
+      { slug: "hipertensao-arterial-sistemica", nome: "Hipertensão arterial sistêmica" },
+      { slug: "insuficiencia-cardiaca", nome: "Insuficiência cardíaca" },
+      { slug: "doenca-renal-cronica", nome: "Doença renal crônica" },
+      { slug: "aneurisma-dissecao-aorta", nome: "Aneurisma e dissecção da aorta" },
+    ],
+    fontes: [
+      { tema: "Mecanismo de ação", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Indicação em HAS, IC e nefropatia diabética/DRC", fonte: "Diretriz Brasileira de Hipertensão Arterial, 2020 / Diretriz de IC SBC, 2021 / KDIGO 2024" },
     ],
   },
   {
@@ -479,6 +531,18 @@ export const medications: Medication[] = [
       "É o único IECA clássico que não é pró-droga — já atua diretamente, ao contrário de enalapril, ramipril e outros",
       "Sua meia-vida curta o torna útil em urgências hipertensivas, mas exige múltiplas doses diárias em manutenção",
     ],
+    doencasIndicadas: [
+      { slug: "hipertensao-arterial-sistemica", nome: "Hipertensão arterial sistêmica" },
+      { slug: "insuficiencia-cardiaca", nome: "Insuficiência cardíaca" },
+      { slug: "doenca-renal-cronica", nome: "Doença renal crônica" },
+      { slug: "infarto-agudo-miocardio", nome: "Infarto agudo do miocárdio" },
+      { slug: "cardiomiopatias", nome: "Cardiomiopatias" },
+      { slug: "aneurisma-dissecao-aorta", nome: "Aneurisma e dissecção da aorta" },
+    ],
+    fontes: [
+      { tema: "Mecanismo de ação", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Indicação em HAS, IC e nefropatia diabética/DRC", fonte: "Diretriz Brasileira de Hipertensão Arterial, 2020 / Diretriz de IC SBC, 2021 / KDIGO 2024" },
+    ],
   },
   {
     slug: "metformina",
@@ -532,6 +596,13 @@ export const medications: Medication[] = [
       "Por não ser metabolizada e depender de eliminação renal exclusiva, o risco de acidose lática está diretamente ligado à função renal",
       "Deve ser suspensa antes de contraste iodado pelo risco combinado de nefrotoxicidade e acidose lática",
     ],
+    doencasIndicadas: [
+      { slug: "diabetes-mellitus-tipo-2", nome: "Diabetes mellitus tipo 2" },
+    ],
+    fontes: [
+      { tema: "Mecanismo de ação e farmacocinética", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Posição como 1ª linha farmacológica no DM2", fonte: "Diretrizes da Sociedade Brasileira de Diabetes, 2023-2024" },
+    ],
   },
   {
     slug: "sinvastatina",
@@ -583,6 +654,15 @@ export const medications: Medication[] = [
     pontosDeProva: [
       "Metabolização pelo CYP3A4 explica a interação clássica com suco de toranja e com inibidores potentes dessa enzima",
       "É contraindicação absoluta na gestação, diferente de outros anti-hipertensivos/cardiovasculares que têm alternativas mais seguras",
+    ],
+    doencasIndicadas: [
+      { slug: "infarto-agudo-miocardio", nome: "Infarto agudo do miocárdio" },
+      { slug: "angina-pectoris", nome: "Angina pectoris" },
+      { slug: "doenca-isquemica-cronica-coracao", nome: "Doença isquêmica crônica do coração" },
+      { slug: "dislipidemia", nome: "Dislipidemia" },
+    ],
+    fontes: [
+      { tema: "Mecanismo de ação", fonte: "Goodman & Gilman, 13ª ed." },
     ],
   },
   {
@@ -640,6 +720,15 @@ export const medications: Medication[] = [
       "Prednisona é pró-droga; em hepatopatas graves prefere-se prednisolona, que já é a forma ativa",
       "A supressão do eixo hipotálamo-hipófise-adrenal com uso prolongado é a razão do desmame obrigatório",
     ],
+    doencasIndicadas: [
+      { slug: "asma", nome: "Asma" },
+      { slug: "artrite-reumatoide", nome: "Artrite reumatoide" },
+      { slug: "lupus-eritematoso-sistemico", nome: "Lúpus eritematoso sistêmico" },
+      { slug: "estado-de-mal-asmatico", nome: "Estado de mal asmático" },
+    ],
+    fontes: [
+      { tema: "Mecanismo de ação glicocorticoide", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
   },
   {
     slug: "salbutamol",
@@ -691,6 +780,15 @@ export const medications: Medication[] = [
     pontosDeProva: [
       "A frequência de uso do salbutamol de resgate é, na prática, um marcador de controle da asma tão importante quanto os sintomas relatados",
       "Em doses altas repetidas pode causar hipocalemia por redistribuição intracelular de potássio",
+    ],
+    doencasIndicadas: [
+      { slug: "asma", nome: "Asma" },
+      { slug: "dpoc", nome: "Doença pulmonar obstrutiva crônica" },
+      { slug: "estado-de-mal-asmatico", nome: "Estado de mal asmático" },
+    ],
+    fontes: [
+      { tema: "Mecanismo de ação β2-agonista", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Uso como resgate e marcador de controle da asma", fonte: "GINA (Global Initiative for Asthma), 2024" },
     ],
   },
   {
@@ -747,6 +845,10 @@ export const medications: Medication[] = [
       "A meia-vida muito longa do diazepam e de seus metabólitos ativos o diferencia de benzodiazepínicos de ação curta, sendo por isso preferido na abstinência alcoólica (efeito mais suave e prolongado)",
       "Deve ser evitado em idosos pelo risco aumentado de acúmulo, sedação prolongada e quedas",
     ],
+    doencasIndicadas: [],
+    fontes: [
+      { tema: "Mecanismo de ação (potencialização GABA-A)", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
   },
   {
     slug: "varfarina-sodica",
@@ -799,6 +901,14 @@ export const medications: Medication[] = [
       "Ao contrário dos anticoagulantes orais diretos, exige monitorização laboratorial contínua pelo INR devido à janela terapêutica estreita e múltiplas interações",
       "Vitamina K é o antídoto específico em sangramento ou INR muito elevado; em sangramento grave, associa-se complexo protrombínico",
     ],
+    doencasIndicadas: [
+      { slug: "fibrilacao-flutter-atrial", nome: "Fibrilação e flutter atrial" },
+      { slug: "trombose-venosa-profunda", nome: "Trombose venosa profunda" },
+      { slug: "embolia-pulmonar", nome: "Embolia pulmonar" },
+    ],
+    fontes: [
+      { tema: "Mecanismo de ação e monitorização por INR", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
   },
   {
     slug: "insulina-nph",
@@ -849,6 +959,14 @@ export const medications: Medication[] = [
     pontosDeProva: [
       "O pico de ação da NPH à noite explica a hipoglicemia noturna e é a base do fenômeno do alvorecer/efeito Somogyi, temas recorrentes em prova",
       "Insulina não atravessa a placenta, por isso é a farmacoterapia de escolha no diabetes gestacional quando a dieta não é suficiente",
+    ],
+    doencasIndicadas: [
+      { slug: "diabetes-mellitus-tipo-2", nome: "Diabetes mellitus tipo 2" },
+      { slug: "diabetes-mellitus-tipo-1", nome: "Diabetes mellitus tipo 1" },
+    ],
+    fontes: [
+      { tema: "Mecanismo de ação e farmacocinética", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Indicação no DM2 com falha de antidiabéticos orais", fonte: "Diretrizes da Sociedade Brasileira de Diabetes, 2023-2024" },
     ],
   },
   {
@@ -905,6 +1023,16 @@ export const medications: Medication[] = [
       "Por ser pró-droga, o início de ação é mais lento que o do captopril, mas a duração mais longa permite posologia mais conveniente",
       "É um dos quatro pilares farmacológicos da IC com fração de ejeção reduzida, junto com betabloqueador, antagonista mineralocorticoide e iSGLT2",
     ],
+    doencasIndicadas: [
+      { slug: "hipertensao-arterial-sistemica", nome: "Hipertensão arterial sistêmica" },
+      { slug: "insuficiencia-cardiaca", nome: "Insuficiência cardíaca" },
+      { slug: "cardiomiopatias", nome: "Cardiomiopatias" },
+      { slug: "infarto-agudo-miocardio", nome: "Infarto agudo do miocárdio" },
+    ],
+    fontes: [
+      { tema: "Mecanismo de ação", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Indicação em HAS e como pilar da IC-FEr", fonte: "Diretriz Brasileira de Hipertensão Arterial, 2020 / Diretriz de IC SBC, 2021" },
+    ],
   },
   {
     slug: "budesonida-inalatoria",
@@ -955,6 +1083,13 @@ export const medications: Medication[] = [
     pontosDeProva: [
       "O extenso efeito de primeira passagem hepática torna a via inalatória muito mais segura sistemicamente do que o corticoide oral para manutenção da asma",
       "Bochecho após o uso reduz candidíase oral e disfonia, os efeitos locais mais comuns",
+    ],
+    doencasIndicadas: [
+      { slug: "asma", nome: "Asma" },
+    ],
+    fontes: [
+      { tema: "Mecanismo de ação corticoide inalatório", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Papel central mesmo em asma leve", fonte: "GINA (Global Initiative for Asthma), 2024" },
     ],
   },
   {
@@ -1011,6 +1146,14 @@ export const medications: Medication[] = [
       "Diferente dos diuréticos de alça/tiazídicos, seu efeito é lento (dias) — usada na IC pelo benefício de mortalidade, não pelo efeito diurético em si",
       "Ginecomastia é efeito adverso limitante de dose característico, por ação antiandrogênica — eplerenona é alternativa com menor incidência",
     ],
+    doencasIndicadas: [
+      { slug: "insuficiencia-cardiaca", nome: "Insuficiência cardíaca" },
+      { slug: "cardiomiopatias", nome: "Cardiomiopatias" },
+    ],
+    fontes: [
+      { tema: "Mecanismo de ação (antagonista mineralocorticoide)", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Benefício de mortalidade como um dos quatro pilares da IC-FEr", fonte: "Diretriz de Insuficiência Cardíaca Crônica, SBC 2021" },
+    ],
   },
   {
     slug: "carvedilol",
@@ -1066,6 +1209,14 @@ export const medications: Medication[] = [
       "O bloqueio alfa-1 adicional confere efeito vasodilatador extra em relação a metoprolol/bisoprolol (beta-1 seletivos), mas também maior risco de hipotensão postural",
       "Betabloqueador nunca deve ser iniciado durante descompensação aguda da IC — somente após estabilização, com titulação lenta",
     ],
+    doencasIndicadas: [
+      { slug: "insuficiencia-cardiaca", nome: "Insuficiência cardíaca" },
+      { slug: "cardiomiopatias", nome: "Cardiomiopatias" },
+    ],
+    fontes: [
+      { tema: "Mecanismo de ação (betabloqueio não seletivo + alfa-1)", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Benefício de mortalidade como um dos quatro pilares da IC-FEr", fonte: "Diretriz de Insuficiência Cardíaca Crônica, SBC 2021" },
+    ],
   },
   {
     slug: "dapagliflozina",
@@ -1119,6 +1270,16 @@ export const medications: Medication[] = [
     pontosDeProva: [
       "O benefício cardiorrenal dos iSGLT2 é independente do efeito glicêmico — por isso são usados na IC e DRC mesmo em pacientes não diabéticos",
       "Cetoacidose diabética euglicêmica é uma armadilha de prova: glicemia normal ou pouco elevada não exclui cetoacidose em uso de iSGLT2",
+    ],
+    doencasIndicadas: [
+      { slug: "diabetes-mellitus-tipo-2", nome: "Diabetes mellitus tipo 2" },
+      { slug: "insuficiencia-cardiaca", nome: "Insuficiência cardíaca" },
+      { slug: "doenca-renal-cronica", nome: "Doença renal crônica" },
+      { slug: "cardiomiopatias", nome: "Cardiomiopatias" },
+    ],
+    fontes: [
+      { tema: "Mecanismo de ação (inibição de SGLT2)", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Benefício em IC e DRC independente do controle glicêmico", fonte: "Diretriz de Insuficiência Cardíaca Crônica, SBC 2021 / KDIGO Clinical Practice Guideline for CKD, 2024" },
     ],
   },
 ];

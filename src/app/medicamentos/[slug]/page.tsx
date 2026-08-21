@@ -13,6 +13,8 @@ import {
   ClipboardCheck,
   Layers,
   GraduationCap,
+  Activity,
+  BookMarked,
   ArrowLeft,
 } from "lucide-react";
 import { medications } from "@/data/medications";
@@ -164,6 +166,27 @@ export default async function MedicationDetailPage({
           </div>
         </DetailSection>
 
+        <DetailSection title="Doenças em que é usado" icon={Activity}>
+          {medication.doencasIndicadas.length > 0 ? (
+            <div className="flex flex-wrap gap-1.5">
+              {medication.doencasIndicadas.map((d) => (
+                <Link
+                  key={d.slug}
+                  href={`/doencas/${d.slug}`}
+                  className="inline-flex items-center gap-1 rounded-full border border-brand/20 bg-brand-soft px-2.5 py-1 text-xs font-medium text-brand-strong transition-colors hover:border-brand/40"
+                >
+                  {d.nome}
+                </Link>
+              ))}
+            </div>
+          ) : (
+            <p className="text-sm text-foreground-subtle">
+              Nenhuma doença com ficha completa no site usa este medicamento como
+              primeira linha ainda.
+            </p>
+          )}
+        </DetailSection>
+
         {medication.pontosDeProva.length > 0 && (
           <DetailSection title="Pontos mais cobrados em prova" icon={GraduationCap}>
             <BulletList items={medication.pontosDeProva} />
@@ -175,6 +198,23 @@ export default async function MedicationDetailPage({
         Conteúdo para fins educacionais — sempre confirme doses e contraindicações na bula oficial
         e no contexto clínico do paciente antes de qualquer conduta.
       </Callout>
+
+      {medication.fontes.length > 0 && (
+        <div className="mt-10 rounded-xl border border-border bg-background-raised p-4">
+          <h2 className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-foreground-subtle">
+            <BookMarked className="h-3.5 w-3.5" />
+            Fontes
+          </h2>
+          <dl className="mt-2 space-y-1 text-xs text-foreground-subtle">
+            {medication.fontes.map((f, i) => (
+              <div key={i} className="flex flex-col sm:flex-row sm:gap-1.5">
+                <dt className="shrink-0 font-medium text-foreground-muted">{f.tema}:</dt>
+                <dd className={f.fonte === "fonte pendente" ? "italic" : ""}>{f.fonte}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      )}
 
       {related.length > 0 && (
         <div className="mt-10">
