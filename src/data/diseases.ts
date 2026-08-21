@@ -5234,4 +5234,1031 @@ export const diseases: Disease[] = [
       { tema: "Antimoniato de meglumina/anfotericina B no tratamento (ainda sem fichas próprias no site)", fonte: "fonte pendente" },
     ],
   },
+  {
+    slug: "cancer-de-esofago",
+    nome: "Neoplasia maligna do esôfago",
+    sinonimos: ["Câncer de esôfago", "Carcinoma esofágico"],
+    cid10: "C15",
+    especialidade: "Gastroenterologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna do esôfago, dividida em dois principais tipos histológicos com fatores de risco distintos: carcinoma escamoso (tabagismo/álcool) e adenocarcinoma (esôfago de Barrett/DRGE crônica).",
+    definicao:
+      "Neoplasia maligna originada do epitélio esofágico, com dois principais subtipos histológicos — carcinoma escamoso e adenocarcinoma — que diferem em epidemiologia, fatores de risco e localização predominante ao longo do órgão.",
+    epidemiologia:
+      "O carcinoma escamoso predomina em regiões com alta prevalência de tabagismo e etilismo, tipicamente no terço médio/superior do esôfago; o adenocarcinoma vem aumentando em incidência em países ocidentais, associado ao esôfago de Barrett secundário à doença do refluxo gastroesofágico crônica, predominando no terço distal.",
+    fisiopatologia:
+      "No carcinoma escamoso, a exposição crônica a carcinógenos (tabaco, álcool) causa displasia progressiva do epitélio escamoso nativo. No adenocarcinoma, o refluxo ácido crônico causa metaplasia intestinal do epitélio escamoso distal (esôfago de Barrett), que pode progredir por displasia de baixo grau, displasia de alto grau, até adenocarcinoma invasivo.",
+    classificacao:
+      "Classificação histológica em carcinoma escamoso e adenocarcinoma, com estadiamento pelo sistema TNM (8ª edição, AJCC/UICC), considerando profundidade de invasão tumoral, comprometimento linfonodal e metástases a distância — determinante central da estratégia terapêutica.",
+    quadroClinico: [
+      "Disfagia progressiva, inicialmente para sólidos e depois também para líquidos, geralmente sintoma tardio",
+      "Perda de peso significativa e não intencional",
+      "Odinofagia (dor à deglutição) em alguns casos",
+      "Rouquidão (invasão do nervo laríngeo recorrente) ou tosse (fístula traqueoesofágica) em doença localmente avançada",
+    ],
+    diagnostico: [
+      "Endoscopia digestiva alta com biópsia é o exame central para diagnóstico histológico",
+      "Ecoendoscopia para avaliação da profundidade de invasão tumoral (estadiamento T)",
+      "Tomografia de tórax/abdome e, quando disponível, PET-CT para pesquisa de doença locorregional e a distância",
+    ],
+    examesComplementares: [
+      "Endoscopia digestiva alta com biópsia",
+      "Ecoendoscopia para estadiamento T/N locorregional",
+      "Tomografia de tórax e abdome com contraste para pesquisa de metástases",
+    ],
+    diagnosticoDiferencial: [
+      "Estenose esofágica benigna (péptica, cáustica)",
+      "Acalasia",
+      "Espasmo esofágico difuso",
+    ],
+    tratamento: [
+      "Ressecção cirúrgica (esofagectomia) em doença localizada, potencialmente curativa, em pacientes candidatos ao procedimento",
+      "Quimioterapia e radioterapia neoadjuvantes (antes da cirurgia) em doença localmente avançada, para reduzir o tumor e melhorar a ressecabilidade",
+      "Quimioterapia paliativa e/ou colocação de prótese esofágica para alívio de disfagia em doença metastática ou irressecável",
+      "Vigilância endoscópica periódica em pacientes com esôfago de Barrett, para detecção precoce de displasia/adenocarcinoma",
+    ],
+    complicacoes: [
+      "Aguda: obstrução esofágica completa, hemorragia digestiva alta por invasão tumoral",
+      "Crônica: fístula traqueoesofágica, disseminação metastática (linfonodos, fígado, pulmão)",
+    ],
+    redFlags: [
+      "Disfagia progressiva associada a perda de peso significativa em paciente com fatores de risco — investigar neoplasia esofágica com endoscopia digestiva alta prioritária",
+    ],
+    prognostico:
+      "Reservado na maioria dos casos, já que o diagnóstico frequentemente ocorre em estágio avançado (a disfagia só surge quando há obstrução significativa da luz esofágica); a detecção precoce por vigilância em pacientes de risco (esôfago de Barrett) melhora substancialmente o prognóstico.",
+    pontosDeProva: [
+      "A disfagia progressiva (sólidos antes de líquidos) é sintoma tardio no câncer de esôfago, pois exige obstrução significativa da luz — por isso o diagnóstico frequentemente ocorre em estágio avançado",
+      "O esôfago de Barrett é a lesão precursora do adenocarcinoma esofágico e justifica vigilância endoscópica periódica em pacientes com DRGE crônica de longa data",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 62 anos, tabagista e etilista importantes, relata disfagia progressiva para sólidos há 2 meses, atualmente também com dificuldade para líquidos, associada a perda de 10 kg no período.",
+      pergunta: "Qual é a conduta diagnóstica mais apropriada?",
+      raciocinio:
+        "A disfagia progressiva (sólidos evoluindo para líquidos) associada a perda de peso significativa em paciente com fatores de risco clássicos (tabagismo e etilismo, associados ao carcinoma escamoso) é altamente sugestiva de neoplasia esofágica.",
+      conduta:
+        "Solicitar endoscopia digestiva alta com biópsia com prioridade para confirmação histológica, e, se confirmado o diagnóstico, complementar com ecoendoscopia e tomografia para estadiamento antes de definir a estratégia terapêutica.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Subtipos histológicos e fatores de risco", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Estadiamento TNM", fonte: "AJCC Cancer Staging Manual, 8ª edição, 2017" },
+      { tema: "Esôfago de Barrett como lesão precursora", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "cancer-de-estomago",
+    nome: "Neoplasia maligna do estômago",
+    sinonimos: ["Câncer gástrico", "Câncer de estômago"],
+    cid10: "C16",
+    especialidade: "Gastroenterologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna do estômago, fortemente associada à infecção crônica por Helicobacter pylori, com diagnóstico frequentemente tardio pela inespecificidade dos sintomas iniciais.",
+    definicao:
+      "Neoplasia maligna originada do epitélio gástrico, na grande maioria adenocarcinoma, associada a fatores de risco ambientais e infecciosos, com dois principais padrões histológicos (intestinal e difuso) de comportamento biológico distinto.",
+    epidemiologia:
+      "A infecção crônica por Helicobacter pylori é o principal fator de risco identificável, atuando através da sequência de gastrite crônica, atrofia gástrica, metaplasia intestinal, displasia e carcinoma (mais relevante para o tipo intestinal). Outros fatores incluem dieta rica em alimentos defumados/salgados, tabagismo e histórico familiar.",
+    fisiopatologia:
+      "No tipo intestinal (Lauren), a sequência carcinogênica passa por gastrite crônica atrófica, metaplasia intestinal e displasia antes do carcinoma invasivo, fortemente ligada à infecção crônica por H. pylori. No tipo difuso, células neoplásicas infiltram a parede gástrica de forma não coesa (células em anel de sinete), sem lesão precursora bem definida, associado a pior prognóstico e, em alguns casos, a mutações genéticas hereditárias específicas (ex.: mutação no gene CDH1).",
+    classificacao:
+      "Classificação de Lauren em tipo intestinal (mais comum, associado a H. pylori, melhor prognóstico relativo) e tipo difuso (infiltrativo, células em anel de sinete, pior prognóstico, mais associado a formas hereditárias). Estadiamento pelo sistema TNM (8ª edição, AJCC/UICC).",
+    quadroClinico: [
+      "Sintomas iniciais inespecíficos: dispepsia, saciedade precoce, desconforto epigástrico vago",
+      "Perda de peso e anorexia em estágios mais avançados",
+      "Hemorragia digestiva (melena, anemia ferropriva) em alguns casos",
+      "Massa epigástrica palpável ou linfonodo supraclavicular (linfonodo de Virchow) em doença avançada",
+    ],
+    diagnostico: [
+      "Endoscopia digestiva alta com biópsia é o exame central para diagnóstico histológico",
+      "Tomografia de abdome/pelve e, quando indicado, ecoendoscopia para estadiamento locorregional",
+      "Investigação e erradicação de H. pylori como parte do manejo, embora não substitua a biópsia diagnóstica",
+    ],
+    examesComplementares: [
+      "Endoscopia digestiva alta com biópsia",
+      "Tomografia de abdome/pelve com contraste para estadiamento",
+      "Ecoendoscopia para avaliação da profundidade de invasão tumoral",
+    ],
+    diagnosticoDiferencial: [
+      "Úlcera péptica gástrica benigna",
+      "Linfoma gástrico (MALT ou difuso de grandes células B)",
+      "Tumor estromal gastrointestinal (GIST)",
+    ],
+    tratamento: [
+      "Gastrectomia (parcial ou total, conforme localização) com linfadenectomia em doença localizada ressecável, potencialmente curativa",
+      "Quimioterapia perioperatória (neoadjuvante e adjuvante) em doença localmente avançada",
+      "Quimioterapia paliativa e/ou terapia-alvo (conforme perfil molecular, ex.: HER2) em doença metastática",
+      "Erradicação de H. pylori quando identificado, tanto no contexto de prevenção quanto associado ao tratamento",
+    ],
+    complicacoes: [
+      "Aguda: hemorragia digestiva alta, perfuração gástrica",
+      "Crônica: obstrução da via de saída gástrica, carcinomatose peritoneal, metástases a distância",
+    ],
+    redFlags: [
+      "Dispepsia de início recente em paciente acima de 45-50 anos, ou dispepsia associada a sinais de alarme (perda de peso, anemia, disfagia, massa palpável) — investigar com endoscopia digestiva alta prioritária, sem tratamento empírico prolongado sem investigação",
+    ],
+    prognostico:
+      "Fortemente dependente do estágio ao diagnóstico; a detecção precoce (mais comum em países com rastreamento sistemático, como o Japão) associa-se a excelente prognóstico, enquanto a doença avançada ao diagnóstico (mais comum em países sem rastreamento populacional, dado o caráter inespecífico dos sintomas iniciais) tem prognóstico reservado.",
+    pontosDeProva: [
+      "A sequência de Correa (gastrite crônica → atrofia → metaplasia intestinal → displasia → carcinoma) descreve a carcinogênese do tipo intestinal, fortemente ligada à infecção por H. pylori",
+      "Dispepsia com sinais de alarme (perda de peso, anemia, disfagia, sangramento, massa palpável) exige investigação endoscópica prioritária, independentemente da idade",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 58 anos, relata dispepsia e saciedade precoce há 3 meses, associadas a perda de peso não intencional de 6 kg. Hemograma mostra anemia microcítica leve.",
+      pergunta: "Qual é a conduta diagnóstica mais apropriada?",
+      raciocinio:
+        "A dispepsia associada a sinais de alarme (perda de peso, anemia) em paciente acima de 45 anos exige investigação endoscópica prioritária, não tratamento empírico prolongado, dado o risco de neoplasia gástrica subjacente.",
+      conduta:
+        "Solicitar endoscopia digestiva alta com biópsia com prioridade, e, se confirmada neoplasia, complementar com tomografia de abdome/pelve para estadiamento antes de definir a estratégia terapêutica.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Classificação de Lauren e sequência de Correa", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Estadiamento TNM", fonte: "AJCC Cancer Staging Manual, 8ª edição, 2017" },
+      { tema: "Sinais de alarme na dispepsia", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "cancer-colorretal",
+    nome: "Neoplasia maligna do cólon",
+    sinonimos: ["Câncer colorretal", "CCR"],
+    cid10: "C18",
+    especialidade: "Gastroenterologia",
+    etiologia: "Neoplásica",
+    resumo: "Uma das neoplasias malignas mais comuns, majoritariamente originada da sequência adenoma-carcinoma, com rastreamento populacional eficaz na redução de mortalidade.",
+    definicao:
+      "Neoplasia maligna originada do epitélio do cólon ou reto, na grande maioria adenocarcinoma, resultante na maior parte dos casos da progressão de pólipos adenomatosos ao longo de anos (sequência adenoma-carcinoma), com uma minoria de casos associada a síndromes hereditárias específicas.",
+    epidemiologia:
+      "Uma das neoplasias malignas mais comuns e uma das principais causas de morte por câncer; fatores de risco incluem idade avançada, histórico familiar, doença inflamatória intestinal de longa data, dieta rica em carne processada e pobre em fibras, obesidade e sedentarismo. Síndromes hereditárias (síndrome de Lynch, polipose adenomatosa familiar) respondem por uma minoria dos casos, mas com risco muito elevado nos portadores.",
+    fisiopatologia:
+      "A sequência adenoma-carcinoma descreve a progressão, ao longo de anos, de mucosa normal para pólipo adenomatoso, displasia progressiva e, eventualmente, carcinoma invasivo, acumulando mutações genéticas sucessivas (incluindo genes como APC, KRAS e TP53 na via clássica). A síndrome de Lynch decorre de mutações germinativas em genes de reparo de DNA (mismatch repair), levando a instabilidade de microssatélites e carcinogênese acelerada.",
+    classificacao:
+      "Estadiamento pelo sistema TNM (8ª edição, AJCC/UICC), considerando profundidade de invasão na parede intestinal, comprometimento linfonodal e metástases a distância — principal determinante da estratégia terapêutica e do prognóstico.",
+    quadroClinico: [
+      "Alteração do hábito intestinal (constipação ou diarreia de início recente)",
+      "Sangramento retal ou sangue oculto nas fezes",
+      "Anemia ferropriva inexplicada, especialmente em homens e mulheres pós-menopausa (associação clássica com neoplasia de cólon direito)",
+      "Dor abdominal e, em casos avançados, obstrução intestinal",
+    ],
+    diagnostico: [
+      "Colonoscopia com biópsia é o exame de escolha para diagnóstico e também permite rastreamento/remoção de pólipos precursores",
+      "Antígeno carcinoembrionário (CEA) não é usado para rastreamento, mas é útil para monitorização de resposta terapêutica e recorrência após tratamento",
+      "Tomografia de abdome/pelve e tórax para estadiamento de doença locorregional e a distância",
+    ],
+    examesComplementares: [
+      "Colonoscopia com biópsia",
+      "CEA sérico (monitorização, não rastreamento nem diagnóstico isolado)",
+      "Tomografia de tórax, abdome e pelve para estadiamento",
+      "Rastreamento populacional: pesquisa de sangue oculto nas fezes ou colonoscopia periódica a partir de idade recomendada em risco padrão",
+    ],
+    diagnosticoDiferencial: [
+      "Doença diverticular",
+      "Doença inflamatória intestinal",
+      "Pólipos benignos sem malignização",
+    ],
+    tratamento: [
+      "Ressecção cirúrgica (colectomia segmentar com linfadenectomia) em doença localizada, potencialmente curativa",
+      "Quimioterapia adjuvante em doença com comprometimento linfonodal ou outros fatores de alto risco",
+      "Quimioterapia associada a radioterapia neoadjuvante em câncer de reto localmente avançado",
+      "Quimioterapia paliativa, com ou sem terapia-alvo (conforme perfil molecular), em doença metastática",
+    ],
+    complicacoes: [
+      "Aguda: obstrução intestinal, perfuração com peritonite, hemorragia digestiva baixa significativa",
+      "Crônica: recorrência locorregional, metástases hepáticas e pulmonares",
+    ],
+    redFlags: [
+      "Anemia ferropriva em homem ou mulher pós-menopausa sem causa ginecológica evidente, ou alteração do hábito intestinal persistente em paciente acima de 45-50 anos — investigar com colonoscopia",
+    ],
+    prognostico:
+      "Fortemente dependente do estágio ao diagnóstico, com excelente prognóstico em doença localizada detectada por rastreamento e prognóstico mais reservado em doença metastática; o rastreamento populacional reduz significativamente a mortalidade ao permitir detecção e remoção de lesões precursoras antes da progressão para carcinoma invasivo.",
+    pontosDeProva: [
+      "Anemia ferropriva inexplicada em homens ou mulheres pós-menopausa é indicação forte de investigação do trato gastrointestinal, incluindo colonoscopia, pela associação clássica com neoplasia de cólon direito",
+      "O CEA não deve ser usado como ferramenta de rastreamento ou diagnóstico isolado — sua utilidade principal é na monitorização de resposta ao tratamento e detecção de recorrência",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 61 anos, pós-menopausa, relata mudança do hábito intestinal (alternância entre constipação e diarreia) há 3 meses. Hemograma mostra anemia ferropriva sem outra causa identificada.",
+      pergunta: "Qual é a conduta diagnóstica mais apropriada?",
+      raciocinio:
+        "A alteração do hábito intestinal associada a anemia ferropriva inexplicada em mulher pós-menopausa é um conjunto de sinais de alarme clássico para neoplasia colorretal, exigindo investigação direta com colonoscopia.",
+      conduta:
+        "Solicitar colonoscopia com biópsia de qualquer lesão suspeita, e, se confirmada neoplasia, complementar com tomografia de tórax, abdome e pelve para estadiamento antes de definir a estratégia terapêutica.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Sequência adenoma-carcinoma e síndromes hereditárias", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Estadiamento TNM", fonte: "AJCC Cancer Staging Manual, 8ª edição, 2017" },
+      { tema: "Papel do CEA na monitorização, não no rastreamento", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "cancer-de-pancreas",
+    nome: "Neoplasia maligna do pâncreas",
+    sinonimos: ["Câncer de pâncreas", "Adenocarcinoma pancreático"],
+    cid10: "C25",
+    especialidade: "Gastroenterologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna agressiva do pâncreas, com diagnóstico frequentemente tardio pela apresentação inespecífica e prognóstico geralmente reservado mesmo com tratamento.",
+    definicao:
+      "Neoplasia maligna originada do pâncreas, na grande maioria adenocarcinoma ductal, com comportamento biológico agressivo e tendência a diagnóstico em estágio avançado devido à localização retroperitoneal e à apresentação clínica inicialmente inespecífica.",
+    epidemiologia:
+      "Fatores de risco incluem tabagismo, obesidade, diabetes mellitus de início recente (pode ser manifestação paraneoplásica precoce), pancreatite crônica e histórico familiar/síndromes genéticas específicas. Entre as neoplasias digestivas, está associada a uma das piores taxas de sobrevida global.",
+    fisiopatologia:
+      "A carcinogênese pancreática progride através de lesões precursoras microscópicas (neoplasia intraepitelial pancreática, PanIN) que acumulam mutações genéticas sucessivas (incluindo KRAS, presente na grande maioria dos casos) até o adenocarcinoma invasivo. O comportamento localmente invasivo precoce (envolvimento de estruturas vasculares peripancreáticas) e a disseminação metastática precoce contribuem para o diagnóstico tardio e o prognóstico reservado.",
+    classificacao:
+      "Estadiamento pelo sistema TNM (8ª edição, AJCC/UICC), com relevância prática destacada para a classificação de ressecabilidade: ressecável, borderline ressecável (envolvimento vascular limitado) e irressecável/metastático — essa classificação orienta diretamente a sequência terapêutica (cirurgia primária vs. terapia neoadjuvante vs. tratamento paliativo).",
+    quadroClinico: [
+      "Dor abdominal (frequentemente em andar superior, podendo irradiar para o dorso) e perda de peso, sintomas mais comuns mas inespecíficos",
+      "Icterícia indolor progressiva quando o tumor acomete a cabeça do pâncreas (obstrução biliar)",
+      "Diabetes mellitus de início recente ou descompensação inexplicada de diabetes prévio, podendo preceder o diagnóstico",
+      "Tromboembolismo venoso recorrente (fenômeno paraneoplásico associado)",
+    ],
+    diagnostico: [
+      "Tomografia de abdome com protocolo específico para pâncreas (trifásico) para caracterização da lesão e avaliação de envolvimento vascular",
+      "Ecoendoscopia com biópsia por agulha fina para confirmação histológica",
+      "CA 19-9 como marcador tumoral de apoio, útil para monitorização, mas não recomendado isoladamente para rastreamento ou diagnóstico (pode estar elevado em outras condições e ausente em parte dos tumores)",
+    ],
+    examesComplementares: [
+      "Tomografia de abdome trifásica (protocolo pâncreas) para caracterização e avaliação de ressecabilidade",
+      "Ecoendoscopia com biópsia por agulha fina",
+      "CA 19-9 sérico (marcador de apoio e monitorização)",
+      "Bilirrubinas e enzimas canaliculares quando há icterícia obstrutiva",
+    ],
+    diagnosticoDiferencial: [
+      "Pancreatite crônica (pode mimetizar massa pancreática em alguns casos)",
+      "Colangiocarcinoma (quando a icterícia obstrutiva é o achado predominante)",
+      "Neoplasias císticas pancreáticas de comportamento distinto (mucinosas vs. serosas)",
+    ],
+    tratamento: [
+      "Ressecção cirúrgica (ex.: duodenopancreatectomia/cirurgia de Whipple para tumores de cabeça de pâncreas) em doença ressecável, única modalidade potencialmente curativa",
+      "Quimioterapia neoadjuvante em doença borderline ressecável, buscando melhorar a taxa de ressecção completa",
+      "Quimioterapia paliativa em doença irressecável/metastática",
+      "Manejo paliativo de sintomas (drenagem biliar para icterícia obstrutiva, controle da dor) em todos os estágios, integrado desde o início",
+    ],
+    complicacoes: [
+      "Aguda: obstrução biliar com colangite associada, trombose venosa",
+      "Crônica: caquexia neoplásica, metástases hepáticas e peritoneais",
+    ],
+    redFlags: [
+      "Icterícia indolor progressiva associada a perda de peso — investigar neoplasia pancreática/periampular com prioridade, mesmo na ausência de dor abdominal significativa",
+    ],
+    prognostico:
+      "Reservado na maioria dos casos, mesmo com tratamento, dado o diagnóstico frequentemente tardio; a ressecção cirúrgica completa em doença localizada oferece a melhor chance de sobrevida prolongada, mas representa a minoria dos casos ao diagnóstico.",
+    pontosDeProva: [
+      "Diabetes mellitus de início recente em paciente sem fatores de risco típicos, especialmente associado a perda de peso, pode ser manifestação paraneoplásica precoce do câncer de pâncreas",
+      "A icterícia indolor progressiva (sem dor associada) é um sinal de alarme clássico que diferencia obstrução biliar por neoplasia de obstrução por cálculo (geralmente dolorosa)",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 64 anos, sem diabetes prévio, é diagnosticado com diabetes mellitus há 2 meses, associado a perda de peso não intencional de 8 kg e icterícia progressiva indolor nas últimas 2 semanas.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e a investigação apropriada?",
+      raciocinio:
+        "A associação de diabetes de início recente, perda de peso significativa e icterícia indolor progressiva é altamente sugestiva de neoplasia de cabeça de pâncreas, com obstrução biliar secundária.",
+      conduta:
+        "Solicitar tomografia de abdome trifásica com protocolo para pâncreas e ecoendoscopia com biópsia para confirmação histológica, avaliando a ressecabilidade da lesão para definir a sequência terapêutica.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia e lesões precursoras (PanIN)", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Classificação de ressecabilidade e estadiamento TNM", fonte: "AJCC Cancer Staging Manual, 8ª edição, 2017" },
+      { tema: "Diabetes de início recente como manifestação paraneoplásica", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "ulcera-peptica",
+    nome: "Úlcera péptica",
+    sinonimos: ["Úlcera gástrica", "Úlcera duodenal"],
+    cid10: "K27",
+    especialidade: "Gastroenterologia",
+    etiologia: "Multifatorial",
+    resumo: "Lesão erosiva da mucosa gastroduodenal que ultrapassa a muscular da mucosa, causada predominantemente por infecção por Helicobacter pylori ou uso de anti-inflamatórios não esteroidais.",
+    definicao:
+      "Solução de continuidade da mucosa gástrica ou duodenal que se estende através da muscular da mucosa, resultante de desequilíbrio entre fatores agressores (ácido gástrico, pepsina, Helicobacter pylori, AINEs) e mecanismos protetores da mucosa.",
+    epidemiologia:
+      "As duas causas mais comuns e amplamente predominantes são a infecção por Helicobacter pylori e o uso de anti-inflamatórios não esteroidais (incluindo AAS em baixas doses); uma minoria de casos não tem causa identificável (úlcera idiopática) ou está associada a condições raras como a síndrome de Zollinger-Ellison.",
+    fisiopatologia:
+      "O Helicobacter pylori coloniza a mucosa gástrica, induzindo inflamação crônica que compromete os mecanismos protetores locais e, em parte dos pacientes, aumenta a secreção ácida. Os AINEs comprometem a proteção da mucosa por inibição da síntese de prostaglandinas (via inibição da COX-1), reduzindo a produção de muco e bicarbonato protetores, independentemente da infecção por H. pylori.",
+    classificacao:
+      "Classificada por localização (gástrica vs. duodenal) e por etiologia predominante (associada a H. pylori, associada a AINE, ou idiopática). A classificação de Forrest, aplicada endoscopicamente em úlceras sangrantes, estratifica o risco de ressangramento (de sangramento ativo, Forrest Ia/Ib, a base limpa sem estigmas, Forrest III) e orienta a necessidade de terapia endoscópica.",
+    quadroClinico: [
+      "Dor ou desconforto epigástrico em queimação, podendo ter relação característica com as refeições (alívio com alimentação na úlcera duodenal, piora na úlcera gástrica, embora essa distinção clássica nem sempre seja confiável na prática)",
+      "Pode ser assintomática, especialmente em usuários crônicos de AINE",
+      "Náuseas e plenitude pós-prandial em alguns casos",
+      "Sintomas de complicação (melena, hematêmese, dor abdominal súbita e intensa) quando há sangramento ou perfuração",
+    ],
+    diagnostico: [
+      "Endoscopia digestiva alta é o exame de escolha para diagnóstico, permitindo biópsia da lesão (especialmente úlceras gástricas, pelo risco de malignidade) e teste para H. pylori",
+      "Testes para H. pylori: teste respiratório da ureia, antígeno fecal, ou teste rápido da urease em biópsia endoscópica",
+      "Investigação de síndrome de Zollinger-Ellison (dosagem de gastrina) em úlceras múltiplas, refratárias ou associadas a diarreia",
+    ],
+    examesComplementares: [
+      "Endoscopia digestiva alta com biópsia (obrigatória em úlceras gástricas, para excluir malignidade)",
+      "Teste respiratório da ureia ou antígeno fecal para H. pylori",
+      "Classificação de Forrest em úlceras sangrantes, para estratificação de risco de ressangramento",
+    ],
+    diagnosticoDiferencial: [
+      "Neoplasia gástrica (especialmente em úlceras gástricas, sempre biopsiadas e reavaliadas endoscopicamente até cicatrização completa)",
+      "Doença do refluxo gastroesofágico",
+      "Dispepsia funcional",
+    ],
+    tratamento: [
+      "Inibidor da bomba de prótons como base do tratamento, para redução da acidez e cicatrização da úlcera",
+      "Erradicação de H. pylori quando identificado, com esquema combinado de antibióticos e IBP",
+      "Suspensão do AINE causal quando possível, ou associação de IBP profilático se o uso for imprescindível",
+      "Terapia endoscópica (hemostasia) em úlceras sangrantes com estigmas de alto risco (Forrest Ia, Ib, IIa)",
+    ],
+    complicacoes: [
+      "Aguda: hemorragia digestiva alta, perfuração com peritonite",
+      "Crônica: estenose pilórica por cicatrização repetida (obstrução da via de saída gástrica)",
+    ],
+    redFlags: [
+      "Dor abdominal súbita e intensa com sinais de irritação peritoneal em paciente com úlcera péptica conhecida — suspeitar de perfuração, emergência cirúrgica",
+      "Hematêmese ou melena associadas a instabilidade hemodinâmica — hemorragia digestiva alta significativa, exigindo estabilização e endoscopia de urgência",
+    ],
+    prognostico:
+      "Excelente com tratamento adequado, incluindo erradicação de H. pylori quando presente, com taxas de cura muito altas e baixo risco de recorrência quando a causa de base é corrigida; úlceras gástricas exigem reavaliação endoscópica até confirmação de cicatrização completa, pelo risco de malignidade subjacente.",
+    pontosDeProva: [
+      "Toda úlcera gástrica deve ser biopsiada e reavaliada endoscopicamente até cicatrização completa, pelo risco de malignidade — diferente da úlcera duodenal, onde a biópsia rotineira não é obrigatória (risco de malignidade muito menor)",
+      "H. pylori e AINEs são as duas causas mais comuns de úlcera péptica e devem ser sistematicamente investigados e corrigidos, já que a erradicação/suspensão reduz drasticamente a recorrência",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 55 anos, em uso crônico de AINE para osteoartrose, relata dor epigástrica em queimação há semanas, com um episódio de fezes escurecidas há 2 dias. Hemoglobina: 10,8 g/dL (previamente normal).",
+      pergunta: "Qual é a conduta diagnóstica e terapêutica mais apropriada?",
+      raciocinio:
+        "O uso crônico de AINE associado a dor epigástrica e melena sugestiva de sangramento digestivo é compatível com úlcera péptica complicada por hemorragia, provavelmente relacionada ao uso do anti-inflamatório.",
+      conduta:
+        "Solicitar endoscopia digestiva alta para diagnóstico, classificação de Forrest e eventual hemostasia endoscópica se houver estigmas de sangramento, suspender o AINE, iniciar inibidor da bomba de prótons, e investigar H. pylori.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "omeprazol", nome: "Omeprazol" },
+    ],
+    fontes: [
+      { tema: "Fisiopatologia por H. pylori e AINEs", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Classificação de Forrest", fonte: "Forrest JA et al., classificação endoscópica de úlceras sangrantes" },
+      { tema: "Necessidade de biópsia e reavaliação em úlcera gástrica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "doenca-alcoolica-do-figado",
+    nome: "Doença alcoólica do fígado",
+    sinonimos: ["Hepatopatia alcoólica"],
+    cid10: "K70",
+    especialidade: "Gastroenterologia",
+    etiologia: "Metabólica",
+    resumo: "Espectro de lesão hepática causada pelo consumo crônico e/ou excessivo de álcool, variando de esteatose reversível a hepatite alcoólica e cirrose estabelecida.",
+    definicao:
+      "Espectro de doença hepática causada pelo consumo de álcool em quantidade e duração suficientes para causar lesão hepatocelular, variando desde esteatose simples (reversível com abstinência) até hepatite alcoólica aguda e cirrose hepática estabelecida.",
+    epidemiologia:
+      "O risco e a gravidade da lesão hepática correlacionam-se com a quantidade e duração do consumo de álcool, embora exista variabilidade individual significativa (fatores genéticos, sexo — mulheres têm maior suscetibilidade para o mesmo volume de álcool — e comorbidades associadas, como obesidade).",
+    fisiopatologia:
+      "O metabolismo hepático do etanol gera acetaldeído (metabólito tóxico) e altera o estado redox celular, favorecendo acúmulo de gordura nos hepatócitos (esteatose). Com exposição contínua, um processo inflamatório se sobrepõe (hepatite alcoólica), podendo evoluir para fibrose progressiva e cirrose com a persistência do consumo, através de ativação de células estelares hepáticas e deposição de colágeno.",
+    classificacao:
+      "Classificada pelo espectro histológico/clínico em esteatose hepática alcoólica (reversível), hepatite alcoólica (aguda, de gravidade variável) e cirrose alcoólica (fibrose avançada estabelecida). A gravidade da hepatite alcoólica aguda é estratificada pela função discriminante de Maddrey, calculada a partir do tempo de protrombina e da bilirrubina, com escore ≥32 definindo forma grave e maior indicação de tratamento específico.",
+    quadroClinico: [
+      "Esteatose: frequentemente assintomática, achado incidental",
+      "Hepatite alcoólica: icterícia de início relativamente rápido, febre, dor em hipocôndrio direito, hepatomegalia dolorosa, em contexto de consumo importante de álcool recente",
+      "Cirrose estabelecida: sinais de doença hepática crônica (telangiectasias, eritema palmar) e de hipertensão portal quando presente (ascite, varizes)",
+    ],
+    diagnostico: [
+      "História detalhada de consumo de álcool (quantidade, duração, padrão) é essencial e frequentemente subestimada pelo paciente",
+      "Relação AST/ALT tipicamente >2 sugere etiologia alcoólica (diferente de outras hepatopatias, onde ALT costuma predominar)",
+      "Biópsia hepática reservada para casos de dúvida diagnóstica ou necessidade de definição de gravidade/estadiamento",
+    ],
+    examesComplementares: [
+      "AST e ALT: elevação geralmente modesta, com relação AST/ALT >2 sugestiva de etiologia alcoólica",
+      "Gama-glutamil transferase (GGT) frequentemente elevada, reforçando a suspeita de consumo de álcool",
+      "Função discriminante de Maddrey em hepatite alcoólica aguda (tempo de protrombina e bilirrubina) para estratificação de gravidade",
+    ],
+    diagnosticoDiferencial: [
+      "Doença hepática gordurosa não alcoólica",
+      "Hepatites virais",
+      "Hepatite induzida por drogas",
+    ],
+    tratamento: [
+      "Abstinência completa de álcool é a intervenção mais importante em todos os estágios, sendo a única capaz de reverter a esteatose e deter a progressão da fibrose",
+      "Suporte nutricional, já que a desnutrição é comum e agrava o prognóstico",
+      "Corticosteroide (prednisolona, preferida à prednisona em hepatopatas pela ausência de necessidade de conversão hepática) em hepatite alcoólica grave (Maddrey ≥32), quando não há contraindicação",
+      "Tratamento das complicações da cirrose quando presente, incluindo rastreamento de varizes esofágicas e carcinoma hepatocelular",
+    ],
+    complicacoes: [
+      "Aguda: hepatite alcoólica grave com insuficiência hepática aguda sobre doença crônica",
+      "Crônica: cirrose hepática e suas complicações (hipertensão portal, ascite, encefalopatia, carcinoma hepatocelular)",
+    ],
+    redFlags: [
+      "Icterícia associada a febre e dor em hipocôndrio direito em paciente com consumo importante de álcool recente — investigar hepatite alcoólica aguda e calcular a função discriminante de Maddrey para avaliar gravidade",
+    ],
+    prognostico:
+      "A esteatose isolada tem excelente prognóstico com abstinência; a hepatite alcoólica grave (Maddrey ≥32) tem mortalidade significativa a curto prazo mesmo com tratamento; a progressão para cirrose está diretamente relacionada à manutenção do consumo de álcool ao longo do tempo.",
+    pontosDeProva: [
+      "A relação AST/ALT >2 é sugestiva (embora não exclusiva) de doença hepática alcoólica, contrastando com a maioria das outras hepatopatias, em que a ALT costuma ser predominante",
+      "A prednisolona é preferida à prednisona no tratamento da hepatite alcoólica grave, já que a prednisona é pró-droga que depende de conversão hepática à forma ativa — conversão que pode estar comprometida em hepatopatia significativa",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 48 anos, com histórico de etilismo importante há anos, apresenta icterícia progressiva, febre baixa e dor em hipocôndrio direito há 1 semana, após episódio de consumo intenso de álcool. AST 180 U/L, ALT 70 U/L, bilirrubina total 8 mg/dL, tempo de protrombina prolongado.",
+      pergunta: "Qual é a hipótese diagnóstica e como avaliar a gravidade deste quadro?",
+      raciocinio:
+        "O contexto de consumo importante de álcool associado a icterícia, febre e dor hepática, com relação AST/ALT >2, é compatível com hepatite alcoólica aguda. A gravidade deve ser avaliada pela função discriminante de Maddrey, calculada a partir do tempo de protrombina e da bilirrubina.",
+      conduta:
+        "Calcular a função discriminante de Maddrey; se ≥32 (forma grave), considerar corticosteroide (prednisolona) na ausência de contraindicações, associado a suporte nutricional e reforço da abstinência alcoólica completa.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Espectro histológico e fisiopatologia", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Função discriminante de Maddrey e indicação de corticosteroide", fonte: "Maddrey WC et al., critério clássico de gravidade da hepatite alcoólica" },
+      { tema: "Prednisolona no tratamento da hepatite alcoólica grave (ainda sem ficha própria no site)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "cirrose-hepatica",
+    nome: "Fibrose e cirrose hepáticas",
+    sinonimos: ["Cirrose hepática"],
+    cid10: "K74",
+    especialidade: "Gastroenterologia",
+    etiologia: "Multifatorial",
+    resumo: "Estágio final e irreversível de fibrose hepática difusa, com distorção da arquitetura normal do fígado em nódulos de regeneração, resultante de diversas doenças hepáticas crônicas.",
+    definicao:
+      "Estágio avançado de fibrose hepática, caracterizado pela substituição difusa do parênquima hepático normal por tecido fibroso e nódulos de regeneração, resultando em disfunção hepatocelular progressiva e hipertensão portal.",
+    epidemiologia:
+      "Causas mais comuns incluem doença hepática alcoólica, hepatites virais crônicas (B e C), doença hepática gordurosa não alcoólica/esteato-hepatite associada à disfunção metabólica, e, menos comumente, doenças autoimunes e metabólicas hereditárias (hemocromatose, doença de Wilson).",
+    fisiopatologia:
+      "A lesão hepatocelular crônica e persistente, independentemente da causa, ativa células estelares hepáticas, que se transformam em miofibroblastos produtores de colágeno, depositando tecido fibroso progressivamente. A distorção da arquitetura vascular hepática resultante aumenta a resistência ao fluxo portal, causando hipertensão portal, com suas consequências clínicas (varizes, ascite, esplenomegalia).",
+    classificacao:
+      "Classificação de Child-Pugh (baseada em bilirrubina, albumina, tempo de protrombina/INR, presença e grau de ascite e de encefalopatia) estratifica em classes A (compensada, melhor prognóstico), B (intermediária) e C (descompensada, pior prognóstico). O escore MELD (baseado em bilirrubina, INR e creatinina) é usado principalmente para priorização em lista de transplante hepático.",
+    quadroClinico: [
+      "Fase compensada: pode ser assintomática ou com sintomas inespecíficos (fadiga, mal-estar)",
+      "Estigmas de hepatopatia crônica: telangiectasias (aranhas vasculares), eritema palmar, ginecomastia",
+      "Descompensação: ascite, icterícia, encefalopatia hepática, hemorragia digestiva por varizes esofágicas",
+      "Esplenomegalia e circulação colateral abdominal (caput medusae) em hipertensão portal estabelecida",
+    ],
+    diagnostico: [
+      "Combinação de achados clínicos, laboratoriais (plaquetopenia, coagulopatia, hipoalbuminemia) e de imagem (nodularidade hepática, esplenomegalia) sustentam o diagnóstico",
+      "Elastografia hepática (não invasiva) ou biópsia hepática para confirmação e quantificação do grau de fibrose",
+      "Investigação etiológica dirigida (sorologias virais, autoanticorpos, ferritina/saturação de transferrina, ceruloplasmina) para identificar a causa de base",
+    ],
+    examesComplementares: [
+      "Plaquetas (trombocitopenia por hiperesplenismo é achado precoce sugestivo de hipertensão portal)",
+      "Albumina e tempo de protrombina/INR (refletem função de síntese hepática)",
+      "Elastografia hepática para quantificação não invasiva de fibrose",
+      "Endoscopia digestiva alta para rastreamento de varizes esofágicas em cirrose estabelecida",
+    ],
+    diagnosticoDiferencial: [
+      "Hipertensão portal não cirrótica (trombose de veia porta, esquistossomose hepatoesplênica)",
+      "Insuficiência cardíaca direita com congestão hepática crônica",
+    ],
+    tratamento: [
+      "Tratamento e controle da causa de base sempre que possível (abstinência alcoólica, antivirais na hepatite viral, controle metabólico na esteato-hepatite)",
+      "Diurético (espironolactona, associada ou não a furosemida) como base do tratamento da ascite por hipertensão portal, refletindo o hiperaldosteronismo secundário característico da cirrose",
+      "Betabloqueador não seletivo e/ou ligadura elástica endoscópica para profilaxia de sangramento por varizes esofágicas de médio/grosso calibre",
+      "Avaliação para transplante hepático em cirrose descompensada (Child-Pugh B/C) ou MELD elevado",
+    ],
+    complicacoes: [
+      "Aguda: hemorragia digestiva alta por ruptura de varizes esofágicas, peritonite bacteriana espontânea, encefalopatia hepática aguda",
+      "Crônica: ascite refratária, síndrome hepatorrenal, carcinoma hepatocelular (exigindo rastreamento periódico em todos os cirróticos)",
+    ],
+    redFlags: [
+      "Hematêmese volumosa em paciente cirrótico conhecido — suspeitar de sangramento varicoso, emergência com necessidade de estabilização hemodinâmica e endoscopia urgente",
+      "Confusão mental de início ou piora recente em cirrótico — investigar encefalopatia hepática e seus fatores precipitantes (infecção, sangramento, constipação, distúrbio eletrolítico)",
+    ],
+    prognostico:
+      "Diretamente relacionado à classificação de Child-Pugh e ao escore MELD; a cirrose compensada (Child A) pode ter sobrevida prolongada, enquanto a cirrose descompensada (Child C) tem prognóstico reservado sem transplante hepático.",
+    pontosDeProva: [
+      "A trombocitopenia é frequentemente o primeiro sinal laboratorial de hipertensão portal em cirrose compensada, precedendo outras alterações mais evidentes de disfunção hepática",
+      "Todos os pacientes cirróticos devem ser incluídos em programa de rastreamento periódico de carcinoma hepatocelular, independentemente da etiologia da cirrose",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 56 anos, com hepatite C crônica não tratada, é encontrado com plaquetas de 90.000/mm³ em exame de rotina, sem outras alterações laboratoriais significativas. Ultrassonografia mostra fígado heterogêneo e nodular, com esplenomegalia leve.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e a conduta subsequente?",
+      raciocinio:
+        "A trombocitopenia associada a fígado nodular e esplenomegalia em paciente com hepatite C crônica de longa data é sugestiva de cirrose hepática já estabelecida, mesmo em fase compensada e com outros parâmetros laboratoriais ainda preservados.",
+      conduta:
+        "Confirmar o grau de fibrose por elastografia hepática, calcular a classificação de Child-Pugh, iniciar rastreamento de varizes esofágicas por endoscopia e de carcinoma hepatocelular por ultrassonografia periódica, e encaminhar para tratamento antiviral da hepatite C.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "espironolactona", nome: "Espironolactona" },
+    ],
+    medicamentosNota:
+      "A espironolactona é usada especificamente para o controle da ascite por hipertensão portal (hiperaldosteronismo secundário). Ela não trata a fibrose hepática em si nem substitui o tratamento da causa de base ou a profilaxia de varizes (betabloqueador não seletivo, ainda sem ficha própria no site).",
+    fontes: [
+      { tema: "Fisiopatologia e ativação de células estelares", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Classificação de Child-Pugh e escore MELD", fonte: "Pugh RN et al. / United Network for Organ Sharing, critérios de MELD para priorização de transplante" },
+      { tema: "Espironolactona no tratamento da ascite cirrótica", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "insuficiencia-hepatica",
+    nome: "Insuficiência hepática",
+    sinonimos: ["Falência hepática", "Insuficiência hepática aguda"],
+    cid10: "K72",
+    especialidade: "Gastroenterologia",
+    etiologia: "Multifatorial",
+    resumo: "Perda grave da função hepática, podendo ser aguda (em fígado previamente normal) ou representar a descompensação de doença hepática crônica de base, com risco de encefalopatia e coagulopatia significativas.",
+    definicao:
+      "Síndrome caracterizada por perda grave da capacidade funcional do fígado, classicamente definida na forma aguda (insuficiência hepática aguda/fulminante) pela combinação de coagulopatia (INR ≥1,5) e encefalopatia hepática de qualquer grau, em paciente sem doença hepática crônica prévia conhecida, com início dos sintomas há menos de 26 semanas.",
+    epidemiologia:
+      "A insuficiência hepática aguda é relativamente rara, com causas variando conforme a região — intoxicação por paracetamol é a causa mais comum em muitos países desenvolvidos, enquanto hepatites virais predominam em outras regiões. A insuficiência hepática crônica descompensada, mais comum, geralmente representa a evolução de cirrose de base já estabelecida.",
+    fisiopatologia:
+      "Na insuficiência hepática aguda, uma agressão hepatocelular maciça e rápida (tóxica, viral, isquêmica, autoimune) supera a capacidade regenerativa do fígado, levando à perda abrupta das funções de síntese (fatores de coagulação, albumina) e de depuração (amônia, toxinas), com consequente coagulopatia e encefalopatia. Na insuficiência hepática crônica descompensada, um fator precipitante (infecção, sangramento, uso de sedativos, distúrbio eletrolítico) desestabiliza uma reserva funcional hepática já cronicamente comprometida pela cirrose de base.",
+    classificacao:
+      "Classificada em insuficiência hepática aguda (sem doença hepática prévia, definida por coagulopatia + encefalopatia em até 26 semanas do início dos sintomas) e insuficiência hepática crônica agudizada/descompensação aguda sobre crônica (fator precipitante desestabilizando cirrose de base já estabelecida) — distinção fundamental, já que a abordagem, o prognóstico e os critérios de transplante diferem entre as duas formas.",
+    quadroClinico: [
+      "Icterícia progressiva",
+      "Encefalopatia hepática: de confusão leve a coma, conforme a gravidade",
+      "Sinais de coagulopatia (sangramentos, equimoses)",
+      "Na descompensação de doença crônica: piora de ascite, encefalopatia ou surgimento de novas complicações sobre um quadro de cirrose já conhecida",
+    ],
+    diagnostico: [
+      "Coagulograma (INR) e avaliação do grau de encefalopatia hepática (critérios de West Haven) são centrais para caracterização e classificação de gravidade",
+      "Investigação etiológica dirigida: dosagem de paracetamol e outras toxinas, sorologias virais, autoanticorpos, conforme suspeita clínica",
+      "Identificação de fator precipitante em pacientes com cirrose de base conhecida (infecção, sangramento, uso de sedativos, distúrbio eletrolítico)",
+    ],
+    examesComplementares: [
+      "INR ≥1,5 associado a encefalopatia hepática de qualquer grau, em paciente sem hepatopatia prévia, define insuficiência hepática aguda",
+      "Amônia sérica (apoio ao diagnóstico de encefalopatia, embora a correlação com gravidade clínica seja imperfeita)",
+      "Dosagem de paracetamol sérico quando há suspeita de intoxicação (causa importante e potencialmente tratável)",
+    ],
+    diagnosticoDiferencial: [
+      "Outras causas de alteração do nível de consciência (intoxicações, distúrbios metabólicos, causas neurológicas primárias)",
+      "Coagulopatia por outras causas (deficiência de vitamina K, coagulação intravascular disseminada)",
+    ],
+    tratamento: [
+      "Suporte intensivo, com monitorização e manejo de complicações (hipoglicemia, edema cerebral, coagulopatia, infecções)",
+      "N-acetilcisteína em insuficiência hepática aguda por intoxicação por paracetamol (antídoto específico), independentemente do tempo decorrido da ingestão em muitos protocolos",
+      "Identificação e correção do fator precipitante em descompensação de doença hepática crônica de base",
+      "Avaliação precoce para transplante hepático de urgência em critérios de mau prognóstico (ex.: critérios de King's College na insuficiência hepática aguda)",
+    ],
+    complicacoes: [
+      "Aguda: edema cerebral com hipertensão intracraniana, coagulopatia grave com sangramento, disfunção de múltiplos órgãos",
+      "Crônica (na forma de descompensação aguda sobre crônica): progressão para insuficiência hepática terminal irreversível sem transplante",
+    ],
+    redFlags: [
+      "Encefalopatia hepática associada a coagulopatia significativa em paciente sem doença hepática prévia conhecida — reconhecer como insuficiência hepática aguda, emergência que exige avaliação imediata para transplante de urgência",
+    ],
+    prognostico:
+      "Variável conforme a causa e a gravidade; a insuficiência hepática aguda por paracetamol, quando tratada precocemente com N-acetilcisteína, tem prognóstico mais favorável que outras etiologias; casos que preenchem critérios de mau prognóstico (ex.: King's College) têm indicação de transplante hepático de urgência, com sobrevida significativamente reduzida sem esse recurso.",
+    pontosDeProva: [
+      "A definição clássica de insuficiência hepática aguda exige ausência de doença hepática prévia — a mesma combinação de coagulopatia e encefalopatia em paciente com cirrose conhecida caracteriza descompensação aguda sobre crônica, entidade com abordagem e prognóstico distintos",
+      "A N-acetilcisteína deve ser considerada na insuficiência hepática aguda por paracetamol mesmo além da janela clássica de 8-10 horas usada para prevenção primária, pelo benefício demonstrado mesmo em apresentações mais tardias com lesão hepática já estabelecida",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 27 anos, sem doença hepática prévia, é trazida por confusão mental progressiva 3 dias após ingestão intencional de grande quantidade de paracetamol. INR: 2,8. Bilirrubina total: 6 mg/dL.",
+      pergunta: "Qual é o diagnóstico e a conduta terapêutica específica imediata?",
+      raciocinio:
+        "A combinação de coagulopatia significativa (INR ≥1,5) e encefalopatia hepática em paciente sem doença hepática prévia, após ingestão de grande quantidade de paracetamol, caracteriza insuficiência hepática aguda por intoxicação paracetamol-induzida.",
+      conduta:
+        "Iniciar N-acetilcisteína imediatamente, independentemente do tempo decorrido da ingestão, dado o quadro de lesão hepática já estabelecida, oferecer suporte intensivo para as complicações, e avaliar critérios de mau prognóstico para indicação precoce de transplante hepático de urgência.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Definição e distinção aguda vs. descompensação crônica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Critérios de King's College para indicação de transplante", fonte: "O'Grady JG et al., critérios de King's College para insuficiência hepática aguda" },
+      { tema: "N-acetilcisteína na intoxicação por paracetamol (ainda sem ficha própria no site com essa indicação)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "pancreatite-aguda",
+    nome: "Pancreatite aguda",
+    sinonimos: ["Pancreatite"],
+    cid10: "K85",
+    especialidade: "Gastroenterologia",
+    etiologia: "Multifatorial",
+    resumo: "Inflamação aguda do pâncreas, mais comumente causada por cálculos biliares ou consumo de álcool, variando de quadro leve autolimitado a formas graves com falência orgânica.",
+    definicao:
+      "Processo inflamatório agudo do pâncreas, com ativação prematura de enzimas digestivas dentro do próprio parênquima pancreático, causando autodigestão tecidual, definido pela presença de pelo menos dois dos três critérios: dor abdominal característica, elevação de enzimas pancreáticas (lipase/amilase) pelo menos três vezes o limite superior da normalidade, e achados de imagem compatíveis.",
+    epidemiologia:
+      "Cálculos biliares (obstrução do ducto pancreático por migração de cálculo) e consumo excessivo de álcool são as duas causas mais comuns, respondendo pela maioria dos casos. Outras causas incluem hipertrigliceridemia grave, medicamentos, procedimentos (pancreatite pós-CPRE) e causas idiopáticas.",
+    fisiopatologia:
+      "A ativação prematura de tripsinogênio em tripsina dentro do parênquima pancreático (em vez de no duodeno, seu local fisiológico de ativação) desencadeia uma cascata de ativação de outras enzimas digestivas, causando autodigestão do tecido pancreático, resposta inflamatória local intensa e, em casos graves, resposta inflamatória sistêmica com potencial de disfunção de múltiplos órgãos.",
+    classificacao:
+      "Classificação de Atlanta revisada (2012) em leve (sem falência orgânica nem complicações locais/sistêmicas), moderadamente grave (falência orgânica transitória, resolvendo em até 48 horas, e/ou complicações locais) e grave (falência orgânica persistente por mais de 48 horas) — determinante central do prognóstico e da intensidade do suporte necessário.",
+    quadroClinico: [
+      "Dor abdominal intensa em andar superior, frequentemente irradiada para o dorso ('em faixa'), de início agudo",
+      "Náuseas e vômitos associados",
+      "Distensão abdominal e redução de ruídos hidroaéreos (íleo paralítico associado)",
+      "Sinais de gravidade em casos avançados: equimose periumbilical (sinal de Cullen) ou em flancos (sinal de Grey-Turner), refletindo hemorragia retroperitoneal",
+    ],
+    diagnostico: [
+      "Pelo menos dois dos três critérios: dor abdominal característica, lipase ou amilase ≥3 vezes o limite superior da normalidade, e achados de imagem compatíveis (tomografia ou ressonância)",
+      "Lipase é preferível à amilase por maior sensibilidade e especificidade, com elevação mais prolongada",
+      "Investigação etiológica: ultrassonografia abdominal para pesquisa de colelitíase, triglicerídeos e histórico de consumo de álcool",
+    ],
+    examesComplementares: [
+      "Lipase sérica ≥3 vezes o limite superior da normalidade (mais sensível/específica que amilase)",
+      "Ultrassonografia abdominal para investigação de etiologia biliar",
+      "Tomografia de abdome com contraste (idealmente após 72 horas, se necessária, para avaliar necrose pancreática) em casos de dúvida diagnóstica ou suspeita de complicações",
+      "Proteína C-reativa e hematócrito seriados como marcadores indiretos de gravidade/hemoconcentração",
+    ],
+    diagnosticoDiferencial: [
+      "Úlcera péptica perfurada",
+      "Colecistite aguda",
+      "Isquemia mesentérica aguda",
+      "Infarto agudo do miocárdio de parede inferior (pode mimetizar dor em andar superior do abdome)",
+    ],
+    tratamento: [
+      "Hidratação venosa vigorosa nas primeiras 24 horas, pilar central do tratamento inicial",
+      "Analgesia adequada para controle da dor",
+      "Suporte nutricional precoce (via oral ou enteral assim que tolerado), preferível à nutrição parenteral quando possível",
+      "Colecistectomia durante a mesma internação em pancreatite biliar leve, para prevenção de recorrência; CPRE de urgência em colangite associada ou obstrução biliar persistente",
+    ],
+    complicacoes: [
+      "Aguda: necrose pancreática (estéril ou infectada), falência orgânica (respiratória, renal, cardiovascular), síndrome compartimental abdominal",
+      "Crônica: pseudocisto pancreático, pancreatite crônica em casos de episódios recorrentes",
+    ],
+    redFlags: [
+      "Sinais de Cullen ou Grey-Turner, hipotensão ou disfunção orgânica associada à dor pancreática — sinais de gravidade que exigem suporte intensivo e reavaliação frequente",
+    ],
+    prognostico:
+      "Bom na maioria dos casos leves, com resolução completa; a forma grave (falência orgânica persistente) associa-se a mortalidade significativa, especialmente quando há necrose pancreática infectada.",
+    pontosDeProva: [
+      "A lipase é preferível à amilase para diagnóstico de pancreatite aguda, por maior sensibilidade e especificidade e por permanecer elevada por mais tempo",
+      "A hidratação venosa vigorosa nas primeiras 24 horas é a intervenção inicial mais importante e com maior impacto no desfecho da pancreatite aguda",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 45 anos, obesa, relata dor abdominal intensa em andar superior, irradiada para o dorso, associada a náuseas e vômitos há 6 horas, após refeição gordurosa. Lipase sérica: 5 vezes o limite superior da normalidade. Ultrassonografia mostra colelitíase.",
+      pergunta: "Qual é o diagnóstico e a conduta inicial mais apropriada?",
+      raciocinio:
+        "A dor característica associada à lipase elevada (≥3 vezes o limite superior) já preenche 2 dos 3 critérios diagnósticos de pancreatite aguda, dispensando necessariamente imagem adicional para confirmação. O achado de colelitíase sugere etiologia biliar.",
+      conduta:
+        "Iniciar hidratação venosa vigorosa, analgesia adequada e jejum inicial com reintrodução precoce da alimentação conforme tolerância, e planejar colecistectomia durante a mesma internação, dada a etiologia biliar identificada.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Critérios diagnósticos e classificação de Atlanta revisada", fonte: "Classificação de Atlanta Revisada, 2012 (Banks PA et al.)" },
+      { tema: "Fisiopatologia da ativação enzimática prematura", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Analgesia específica no tratamento (ainda sem ficha própria no site com essa indicação)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "colelitiase",
+    nome: "Colelitíase",
+    sinonimos: ["Cálculo biliar", "Cálculo de vesícula"],
+    cid10: "K80",
+    especialidade: "Gastroenterologia",
+    etiologia: "Metabólica",
+    resumo: "Presença de cálculos na vesícula biliar, majoritariamente de colesterol, geralmente assintomática mas com risco de complicações como cólica biliar, colecistite e coledocolitíase.",
+    definicao:
+      "Presença de cálculos formados dentro da vesícula biliar, resultantes de desequilíbrio na composição da bile (predominantemente supersaturação de colesterol na maioria dos casos em países ocidentais), podendo permanecer assintomática por toda a vida ou causar sintomas e complicações quando migram ou obstruem o trato biliar.",
+    epidemiologia:
+      "Extremamente comum, com fatores de risco clássicos resumidos informalmente pelos '4 Fs' (female, forty, fertile, fat — sexo feminino, idade em torno de 40 anos, multiparidade/fertilidade e obesidade), embora ocorra em ampla variedade de perfis. A maioria dos portadores de colelitíase permanece assintomática por toda a vida.",
+    fisiopatologia:
+      "Os cálculos de colesterol (predominantes) formam-se quando a bile se torna supersaturada em colesterol em relação à capacidade solubilizadora dos sais biliares e da lecitina, favorecendo a nucleação e o crescimento de cristais. A hipomotilidade da vesícula biliar (favorecida por jejum prolongado, gestação, nutrição parenteral) contribui para a estase biliar que facilita esse processo. Cálculos de pigmento (menos comuns) associam-se a hemólise crônica ou infecção biliar.",
+    classificacao:
+      "Classificados por composição em cálculos de colesterol (predominantes, geralmente radiotransparentes) e cálculos pigmentares (pretos, associados a hemólise crônica; ou marrons, associados a infecção biliar crônica/estase). Clinicamente, a colelitíase é classificada em assintomática (a maioria) e sintomática (cólica biliar) ou complicada (colecistite, coledocolitíase, colangite, pancreatite biliar).",
+    quadroClinico: [
+      "Assintomática na maioria dos casos, achado incidental em exame de imagem",
+      "Cólica biliar: dor em hipocôndrio direito ou epigástrio, de início súbito, geralmente pós-prandial (especialmente após refeições gordurosas), com duração de minutos a poucas horas e resolução espontânea",
+      "Náuseas associadas à dor, sem febre ou sinais de irritação peritoneal (diferente de colecistite)",
+    ],
+    diagnostico: [
+      "Ultrassonografia abdominal é o exame de escolha, com alta sensibilidade e especificidade para identificação de cálculos na vesícula biliar",
+      "Ausência de febre, leucocitose ou sinais de irritação peritoneal ajuda a diferenciar cólica biliar simples de colecistite aguda",
+    ],
+    examesComplementares: [
+      "Ultrassonografia abdominal (exame de escolha, alta acurácia diagnóstica)",
+      "Provas de função hepática e bilirrubinas quando há suspeita de migração de cálculo para o colédoco (coledocolitíase)",
+    ],
+    diagnosticoDiferencial: [
+      "Úlcera péptica",
+      "Colecistite aguda (quando há febre e sinais de irritação peritoneal associados)",
+      "Pancreatite aguda de etiologia biliar",
+    ],
+    tratamento: [
+      "Observação em colelitíase assintomática, sem indicação rotineira de tratamento invasivo",
+      "Colecistectomia eletiva (preferencialmente laparoscópica) em colelitíase sintomática recorrente, para prevenir complicações",
+      "Orientação dietética (redução de gorduras) para minimizar episódios de cólica biliar enquanto aguarda ou não indica cirurgia",
+    ],
+    complicacoes: [
+      "Aguda: colecistite aguda, coledocolitíase com icterícia obstrutiva, colangite, pancreatite aguda biliar",
+      "Crônica: colecistite crônica com vesícula em porcelana (calcificação, associada a maior risco de neoplasia)",
+    ],
+    redFlags: [
+      "Dor biliar associada a febre, icterícia ou sinais de irritação peritoneal — sugere complicação (colecistite, coledocolitíase, colangite), exigindo investigação e conduta distintas da colelitíase simples",
+    ],
+    prognostico:
+      "Excelente na colelitíase assintomática, que na maioria dos casos nunca se torna sintomática; a colecistectomia eletiva em pacientes sintomáticos tem baixa morbidade e previne complicações mais graves.",
+    pontosDeProva: [
+      "A colelitíase assintomática, achado incidental muito comum, geralmente não requer tratamento — a colecistectomia profilática não é indicada rotineiramente nesses casos",
+      "Os '4 Fs' (female, forty, fertile, fat) resumem informalmente o perfil de risco clássico, mas não devem ser usados para excluir a hipótese em pacientes fora desse perfil",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 42 anos, obesa, relata episódios recorrentes de dor em hipocôndrio direito após refeições gordurosas, com duração de cerca de 1 hora e resolução espontânea, sem febre. Ultrassonografia confirma múltiplos cálculos na vesícula biliar, sem espessamento de parede.",
+      pergunta: "Qual é a conduta mais apropriada diante deste quadro?",
+      raciocinio:
+        "O padrão de dor biliar recorrente pós-prandial, sem febre ou sinais de irritação peritoneal, associado à confirmação ultrassonográfica de colelitíase sem espessamento de parede vesicular, caracteriza colelitíase sintomática (cólica biliar), sem sinais de colecistite associada.",
+      conduta:
+        "Indicar colecistectomia eletiva (preferencialmente laparoscópica), dada a recorrência dos sintomas, orientando quanto a medidas dietéticas enquanto aguarda o procedimento.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia da formação de cálculos de colesterol", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Perfil de risco e história natural", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "colecistite",
+    nome: "Colecistite",
+    sinonimos: ["Colecistite aguda"],
+    cid10: "K81",
+    especialidade: "Gastroenterologia",
+    etiologia: "Multifatorial",
+    resumo: "Inflamação aguda da vesícula biliar, na grande maioria dos casos secundária à obstrução do ducto cístico por cálculo, com risco de infecção secundária e complicações se não tratada.",
+    definicao:
+      "Inflamação aguda da parede da vesícula biliar, na grande maioria dos casos (colecistite calculosa) decorrente da obstrução persistente do ducto cístico por um cálculo, com inflamação química inicial seguida frequentemente de infecção bacteriana secundária.",
+    epidemiologia:
+      "É a principal complicação sintomática da colelitíase; a colecistite acalculosa (sem cálculo identificável), menos comum, ocorre predominantemente em pacientes graves internados em unidade de terapia intensiva, com estase biliar e isquemia da vesícula biliar como mecanismos propostos.",
+    fisiopatologia:
+      "A obstrução persistente do ducto cístico por um cálculo impactado impede o esvaziamento da vesícula biliar, causando distensão, aumento da pressão intraluminal e inflamação química da parede pela bile concentrada e estagnada; a infecção bacteriana secundária (frequentemente por bactérias entéricas) se sobrepõe em uma parcela significativa dos casos, podendo progredir para complicações como empiema vesicular, gangrena ou perfuração se não tratada.",
+    classificacao:
+      "Classificada em calculosa (a grande maioria dos casos) e acalculosa (mais rara, em pacientes graves/críticos). Os critérios de Tóquio (atualização de 2018) estratificam a gravidade em grau I (leve), grau II (moderada, com marcadores inflamatórios importantes ou achados locais mais extensos) e grau III (grave, com disfunção orgânica associada), orientando o momento ideal da cirurgia.",
+    quadroClinico: [
+      "Dor persistente em hipocôndrio direito, mais prolongada que a cólica biliar simples (geralmente >6 horas)",
+      "Febre e sinal de Murphy positivo (interrupção da inspiração à palpação do hipocôndrio direito, por dor)",
+      "Náuseas e vômitos associados",
+      "Leucocitose ao hemograma",
+    ],
+    diagnostico: [
+      "Combinação de achados clínicos (dor localizada, sinal de Murphy, febre), laboratoriais (leucocitose, provas inflamatórias elevadas) e de imagem (espessamento de parede vesicular >4 mm, distensão vesicular, líquido pericolecístico) conforme os critérios de Tóquio",
+      "Ultrassonografia abdominal é o exame de imagem inicial de escolha",
+      "Cintilografia biliar (HIDA) reservada para casos de dúvida diagnóstica, quando a ultrassonografia não é conclusiva",
+    ],
+    examesComplementares: [
+      "Ultrassonografia abdominal: espessamento de parede vesicular (>4 mm), distensão, líquido pericolecístico, sinal de Murphy ultrassonográfico",
+      "Hemograma com leucocitose e proteína C-reativa elevada",
+      "Provas de função hepática (avaliação de coledocolitíase/colangite associada quando há icterícia)",
+    ],
+    diagnosticoDiferencial: [
+      "Cólica biliar simples (sem febre nem sinais inflamatórios sistêmicos)",
+      "Úlcera péptica perfurada",
+      "Pancreatite aguda",
+      "Apendicite aguda (especialmente em posições atípicas do apêndice)",
+    ],
+    tratamento: [
+      "Antibioticoterapia empírica com cobertura para flora entérica, associada ao manejo cirúrgico",
+      "Colecistectomia (preferencialmente laparoscópica) precoce, idealmente dentro das primeiras 72 horas do início dos sintomas em pacientes com boas condições clínicas",
+      "Colecistostomia percutânea (drenagem) como alternativa em pacientes com alto risco cirúrgico ou colecistite grave (grau III) instáveis, com colecistectomia postergada",
+      "Analgesia e hidratação de suporte",
+    ],
+    complicacoes: [
+      "Aguda: empiema vesicular, gangrena e perfuração da vesícula biliar, peritonite",
+      "Crônica: fístula colecistoentérica, síndrome de Mirizzi (compressão extrínseca do ducto hepático comum por cálculo impactado no ducto cístico/colo vesicular)",
+    ],
+    redFlags: [
+      "Dor em hipocôndrio direito associada a febre alta, hipotensão e confusão mental — sugere colecistite grave (grau III, critérios de Tóquio) com risco de sepse, exigindo manejo intensivo imediato",
+    ],
+    prognostico:
+      "Bom com tratamento cirúrgico adequado e oportuno, especialmente quando a colecistectomia é realizada precocemente; atraso no diagnóstico e tratamento aumenta o risco de complicações locais graves (gangrena, perfuração).",
+    pontosDeProva: [
+      "A colecistite se diferencia clinicamente da cólica biliar simples pela duração prolongada da dor (>6 horas), febre e sinais inflamatórios sistêmicos — a cólica biliar simples não deve ter febre nem leucocitose associadas",
+      "A colecistectomia precoce (idealmente nas primeiras 72 horas) é preferível à cirurgia tardia na maioria dos pacientes com boas condições clínicas, associando-se a menor morbidade que o tratamento conservador seguido de cirurgia de intervalo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 50 anos, relata dor persistente em hipocôndrio direito há 10 horas, associada a febre (38,5°C) e vômitos. Exame físico com sinal de Murphy positivo. Leucócitos: 15.000/mm³. Ultrassonografia mostra espessamento de parede vesicular de 6 mm e múltiplos cálculos.",
+      pergunta: "Qual é o diagnóstico mais provável e a conduta terapêutica apropriada?",
+      raciocinio:
+        "A dor prolongada (>6 horas), associada a febre, leucocitose, sinal de Murphy positivo e espessamento de parede vesicular à ultrassonografia, preenche os critérios de Tóquio para colecistite aguda, diferenciando-se da cólica biliar simples.",
+      conduta:
+        "Iniciar antibioticoterapia empírica com cobertura para flora entérica, hidratação e analgesia, e programar colecistectomia laparoscópica precoce, idealmente dentro das primeiras 72 horas do início dos sintomas.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina-clavulanato", nome: "Amoxicilina + Clavulanato" },
+    ],
+    fontes: [
+      { tema: "Fisiopatologia e critérios diagnósticos de Tóquio", fonte: "Tokyo Guidelines 2018 for the Diagnosis and Management of Acute Cholecystitis" },
+      { tema: "Momento ideal da colecistectomia", fonte: "Tokyo Guidelines 2018 for the Diagnosis and Management of Acute Cholecystitis" },
+      { tema: "Cobertura antibiótica empírica com amoxicilina-clavulanato", fonte: "Sanford Guide to Antimicrobial Therapy" },
+    ],
+  },
+  {
+    slug: "doenca-de-crohn",
+    nome: "Doença de Crohn",
+    sinonimos: ["Crohn"],
+    cid10: "K50",
+    especialidade: "Gastroenterologia",
+    etiologia: "Autoimune",
+    resumo: "Doença inflamatória intestinal crônica que pode acometer qualquer segmento do trato gastrointestinal de forma transmural e descontínua, com predileção pelo íleo terminal.",
+    definicao:
+      "Doença inflamatória intestinal crônica de etiologia imunomediada, caracterizada por inflamação transmural (acometendo todas as camadas da parede intestinal) que pode afetar qualquer segmento do trato gastrointestinal, da boca ao ânus, de forma tipicamente descontínua ('lesões salteadas').",
+    epidemiologia:
+      "Incidência crescente globalmente, com pico de início entre o final da adolescência e o início da idade adulta; fatores genéticos (predisposição poligênica) e ambientais (tabagismo como fator de risco, diferente da colite ulcerativa) interagem na patogênese.",
+    fisiopatologia:
+      "Uma resposta imune anormal e persistente contra a microbiota intestinal, em indivíduos geneticamente predispostos, causa inflamação transmural crônica com formação de granulomas não caseosos em uma parcela dos casos, fibrose e, ao longo do tempo, complicações estruturais como estenoses e fístulas, decorrentes do acometimento de espessura total da parede intestinal.",
+    classificacao:
+      "Classificação de Montreal considera idade ao diagnóstico, localização (ileal, colônica, ileocolônica, ou alta gastrointestinal isolada) e comportamento da doença (inflamatório não estenosante/não penetrante, estenosante, ou penetrante/fistulizante) — o comportamento evolui frequentemente ao longo do tempo, de inflamatório para estenosante/penetrante.",
+    quadroClinico: [
+      "Dor abdominal, frequentemente em quadrante inferior direito (refletindo o acometimento preferencial do íleo terminal)",
+      "Diarreia crônica, podendo ou não ter sangue (menos comum que na colite ulcerativa)",
+      "Perda de peso e sintomas constitucionais",
+      "Manifestações perianais (fístulas, abscessos, fissuras) e extraintestinais (artrite, eritema nodoso, uveíte) em uma parcela dos pacientes",
+    ],
+    diagnostico: [
+      "Colonoscopia com ileoscopia e biópsias múltiplas, evidenciando lesões descontínuas ('salteadas'), úlceras aftoides, padrão em paralelepípedo ('cobblestone') e, histologicamente, inflamação transmural com granulomas não caseosos em parte dos casos",
+      "Exames de imagem (entero-ressonância ou entero-tomografia) para avaliação de acometimento de intestino delgado não alcançado pela colonoscopia e de complicações (estenoses, fístulas, abscessos)",
+      "Calprotectina fecal elevada como marcador não invasivo de atividade inflamatória intestinal",
+    ],
+    examesComplementares: [
+      "Colonoscopia com ileoscopia e biópsias múltiplas",
+      "Entero-ressonância magnética ou entero-tomografia para avaliação de intestino delgado e complicações estruturais",
+      "Calprotectina fecal (marcador de atividade inflamatória, útil também no seguimento)",
+    ],
+    diagnosticoDiferencial: [
+      "Colite ulcerativa (principal diferencial, distinção por padrão de acometimento e características endoscópicas/histológicas)",
+      "Tuberculose intestinal (importante diferencial em áreas endêmicas, pode mimetizar acometimento ileocecal)",
+      "Colite infecciosa aguda",
+    ],
+    tratamento: [
+      "Corticosteroide sistêmico para indução de remissão em surtos de atividade moderada a grave",
+      "Imunossupressores (ex.: azatioprina) e/ou terapia biológica (anti-TNF e outras classes) para manutenção de remissão e poupança de corticosteroide a longo prazo",
+      "Cessação do tabagismo, fator de risco reconhecido para pior evolução da doença de Crohn (diferente da colite ulcerativa, onde a relação com tabagismo é inversa)",
+      "Abordagem cirúrgica (ressecção segmentar) reservada para complicações (estenose sintomática, fístulas, abscessos refratários), sem intenção curativa, já que a doença pode recorrer em outros segmentos",
+    ],
+    complicacoes: [
+      "Aguda: obstrução intestinal por estenose, abscesso intra-abdominal, megacólon tóxico (menos comum que na colite ulcerativa)",
+      "Crônica: fístulas (entero-entéricas, enterocutâneas, perianais), síndrome do intestino curto após ressecções extensas repetidas, maior risco de neoplasia em segmentos cronicamente inflamados",
+    ],
+    redFlags: [
+      "Distensão abdominal importante associada a febre alta e toxemia em paciente com Crohn conhecido — investigar megacólon tóxico ou abscesso intra-abdominal, complicações graves que exigem avaliação urgente",
+    ],
+    prognostico:
+      "Doença crônica com curso recidivante-remitente; a maioria dos pacientes necessitará de cirurgia em algum momento da vida pela natureza transmural e tendência a complicações estruturais, mas a terapia biológica moderna reduziu significativamente a necessidade de cirurgias repetidas em muitos pacientes.",
+    pontosDeProva: [
+      "O tabagismo piora o curso da doença de Crohn, ao contrário da colite ulcerativa, onde paradoxalmente parece ter algum efeito protetor — distinção clássica de prova entre as duas doenças inflamatórias intestinais",
+      "O acometimento transmural com lesões descontínuas ('salteadas') e possíveis granulomas não caseosos diferencia a doença de Crohn da colite ulcerativa, que acomete apenas mucosa/submucosa de forma contínua a partir do reto",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 24 anos, tabagista, relata dor abdominal em quadrante inferior direito e diarreia sem sangue há 4 meses, associadas a perda de 6 kg. Colonoscopia mostra úlceras aftoides intercaladas com mucosa normal no íleo terminal e cólon direito, com biópsia revelando inflamação transmural e granuloma não caseoso.",
+      pergunta: "Qual é o diagnóstico mais provável e um fator de risco modificável relevante identificado na história?",
+      raciocinio:
+        "O padrão de lesões descontínuas ('salteadas'), acometimento preferencial do íleo terminal, inflamação transmural e granuloma não caseoso na biópsia são achados característicos de doença de Crohn. O tabagismo é um fator de risco reconhecido para pior evolução dessa doença especificamente.",
+      conduta:
+        "Iniciar corticosteroide sistêmico para indução de remissão do surto atual, avaliar necessidade de terapia biológica/imunossupressora para manutenção, e orientar fortemente a cessação do tabagismo, dado seu impacto negativo comprovado no curso da doença de Crohn.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "prednisona", nome: "Prednisona" },
+    ],
+    medicamentosSecaoTitulo: "Medicamento de indução de remissão (crise aguda)",
+    medicamentosNota:
+      "A prednisona é usada para indução de remissão em surtos de atividade moderada a grave, não como terapia de manutenção prolongada (pelo risco de efeitos adversos cumulativos). A manutenção de longo prazo é feita com imunossupressores (ex.: azatioprina) e/ou terapia biológica, evitando corticoide crônico pela toxicidade — ainda sem fichas próprias no site.",
+    fontes: [
+      { tema: "Fisiopatologia e classificação de Montreal", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Papel do tabagismo como fator de risco", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Corticosteroide para indução de remissão", fonte: "ACG Clinical Guideline: Management of Crohn's Disease in Adults, 2018" },
+    ],
+  },
+  {
+    slug: "colite-ulcerativa",
+    nome: "Colite ulcerativa",
+    sinonimos: ["Retocolite ulcerativa"],
+    cid10: "K51",
+    especialidade: "Gastroenterologia",
+    etiologia: "Autoimune",
+    resumo: "Doença inflamatória intestinal crônica limitada ao cólon, com acometimento contínuo da mucosa a partir do reto, causando diarreia sanguinolenta recorrente.",
+    definicao:
+      "Doença inflamatória intestinal crônica de etiologia imunomediada, caracterizada por inflamação limitada à mucosa e submucosa do cólon, sempre envolvendo o reto e estendendo-se proximalmente de forma contínua (sem lesões salteadas), diferente da doença de Crohn.",
+    epidemiologia:
+      "Incidência crescente globalmente, com pico de início em adultos jovens, embora possa ocorrer em qualquer idade; ao contrário da doença de Crohn, o tabagismo parece ter algum efeito protetor (não sendo, porém, motivo para recomendar seu início) e a doença é mais comum em ex-tabagistas e não fumantes.",
+    fisiopatologia:
+      "Uma resposta imune anormal contra antígenos da microbiota intestinal, em indivíduos geneticamente predispostos, causa inflamação contínua limitada à mucosa e submucosa do cólon, iniciando invariavelmente no reto e podendo se estender proximalmente até acometer todo o cólon (pancolite) em casos mais extensos, sem o componente transmural característico da doença de Crohn.",
+    classificacao:
+      "Classificação de Montreal por extensão: proctite (limitada ao reto), colite esquerda (até a flexura esplênica) e colite extensa/pancolite (além da flexura esplênica). A atividade da doença é frequentemente avaliada pelo escore de Mayo (combinando frequência de evacuações, sangramento retal, achados endoscópicos e avaliação global do médico).",
+    quadroClinico: [
+      "Diarreia sanguinolenta recorrente, geralmente com muco associado",
+      "Urgência e tenesmo retal",
+      "Dor abdominal em cólica, tipicamente menos intensa que na doença de Crohn",
+      "Manifestações extraintestinais (artrite, colangite esclerosante primária — associação específica e importante com a colite ulcerativa, eritema nodoso) em alguns pacientes",
+    ],
+    diagnostico: [
+      "Colonoscopia com biópsias, evidenciando inflamação contínua a partir do reto, sem lesões salteadas, limitada à mucosa/submucosa",
+      "Histologia mostrando distorção de criptas, abscessos crípticos e infiltrado inflamatório limitado à mucosa/submucosa (sem granulomas, diferente de Crohn)",
+      "Calprotectina fecal elevada como marcador de atividade inflamatória",
+    ],
+    examesComplementares: [
+      "Colonoscopia com biópsias seriadas",
+      "Calprotectina fecal (atividade inflamatória e seguimento)",
+      "Colangiorressonância em pacientes com alteração de enzimas canaliculares, para rastreamento de colangite esclerosante primária associada",
+    ],
+    diagnosticoDiferencial: [
+      "Doença de Crohn (principal diferencial)",
+      "Colite infecciosa aguda (incluindo colite por Clostridioides difficile)",
+      "Colite isquêmica",
+    ],
+    tratamento: [
+      "Aminossalicilatos (mesalazina) como base do tratamento em doença leve a moderada, tanto para indução quanto manutenção de remissão",
+      "Corticosteroide sistêmico para indução de remissão em surtos moderados a graves, não recomendado para manutenção prolongada",
+      "Imunossupressores e/ou terapia biológica em doença refratária ao corticosteroide ou corticodependente",
+      "Colectomia total (potencialmente curativa, diferente da doença de Crohn) reservada para doença refratária, displasia/neoplasia ou complicações graves como megacólon tóxico",
+    ],
+    complicacoes: [
+      "Aguda: megacólon tóxico (complicação grave e potencialmente fatal, mais característica da colite ulcerativa que da doença de Crohn), hemorragia digestiva baixa significativa",
+      "Crônica: maior risco de câncer colorretal em doença extensa de longa duração (exigindo vigilância colonoscópica periódica), colangite esclerosante primária associada",
+    ],
+    redFlags: [
+      "Distensão abdominal importante, febre e taquicardia em paciente com colite ulcerativa em atividade — suspeitar de megacólon tóxico, emergência com risco de perfuração colônica",
+    ],
+    prognostico:
+      "Curso crônico recidivante-remitente; diferente da doença de Crohn, a colectomia total é potencialmente curativa da doença intestinal (embora não das manifestações extraintestinais associadas, como a colangite esclerosante primária), sendo reservada para casos refratários ou com complicações graves.",
+    pontosDeProva: [
+      "A colectomia total é potencialmente curativa na colite ulcerativa (já que a doença se limita ao cólon), diferente da doença de Crohn, onde a cirurgia não é curativa pelo potencial de recorrência em outros segmentos do trato digestivo",
+      "A associação entre colite ulcerativa e colangite esclerosante primária é uma relação clássica de prova, e todo paciente com colite ulcerativa e alteração de enzimas canaliculares deve ser investigado para essa condição",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 29 anos, não tabagista, relata diarreia sanguinolenta recorrente com muco, urgência retal e dor abdominal em cólica há 3 meses. Colonoscopia mostra inflamação contínua da mucosa desde o reto até o cólon descendente, sem áreas de mucosa normal intercaladas.",
+      pergunta: "Qual é o diagnóstico mais provável e qual associação extraintestinal importante deve ser investigada?",
+      raciocinio:
+        "O padrão de acometimento contínuo da mucosa a partir do reto, sem lesões salteadas, associado a diarreia sanguinolenta, é característico de colite ulcerativa (colite esquerda pela extensão descrita). A colangite esclerosante primária é uma associação extraintestinal clássica e importante dessa doença.",
+      conduta:
+        "Iniciar mesalazina como base do tratamento para indução e manutenção de remissão, avaliar necessidade de corticosteroide se a atividade for moderada a grave, e solicitar avaliação de enzimas canaliculares para rastreamento de colangite esclerosante primária associada.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "prednisona", nome: "Prednisona" },
+    ],
+    medicamentosSecaoTitulo: "Medicamento de indução de remissão (crise aguda)",
+    medicamentosNota:
+      "A prednisona é usada para indução de remissão em surtos moderados a graves, não como terapia de manutenção prolongada. A manutenção de longo prazo é feita com mesalazina (aminossalicilato) e, em casos refratários, imunossupressores/terapia biológica, evitando corticoide crônico pela toxicidade — ainda sem fichas próprias no site.",
+    fontes: [
+      { tema: "Fisiopatologia e classificação de Montreal", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Associação com colangite esclerosante primária", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Corticosteroide para indução de remissão", fonte: "ACG Clinical Guideline: Ulcerative Colitis in Adults, 2019" },
+    ],
+  },
+  {
+    slug: "sindrome-do-colon-irritavel",
+    nome: "Síndrome do cólon irritável",
+    sinonimos: ["Síndrome do intestino irritável", "SII"],
+    cid10: "K58",
+    especialidade: "Gastroenterologia",
+    etiologia: "Multifatorial",
+    resumo: "Distúrbio funcional gastrointestinal crônico caracterizado por dor abdominal recorrente associada a alteração do hábito intestinal, sem doença estrutural identificável.",
+    definicao:
+      "Distúrbio gastrointestinal funcional crônico, caracterizado por dor abdominal recorrente associada a alteração do hábito intestinal (constipação, diarreia ou padrão misto), na ausência de alterações estruturais ou bioquímicas identificáveis que expliquem os sintomas.",
+    epidemiologia:
+      "Um dos distúrbios gastrointestinais mais comuns na prática clínica, mais prevalente em mulheres, frequentemente associado a comorbidades como ansiedade e transtornos do humor, embora a relação causal entre esses fatores e os sintomas intestinais seja complexa e bidirecional.",
+    fisiopatologia:
+      "Fisiopatologia multifatorial, envolvendo alteração da motilidade gastrointestinal, hipersensibilidade visceral (percepção aumentada de estímulos intestinais normais), alterações da microbiota intestinal e desregulação do eixo cérebro-intestino, sem lesão estrutural identificável pelos métodos diagnósticos convencionais.",
+    classificacao:
+      "Diagnóstico baseado nos critérios de Roma IV: dor abdominal recorrente, em média pelo menos 1 dia por semana nos últimos 3 meses, associada a pelo menos dois dos seguintes: relação com a evacuação, mudança na frequência das evacuações, ou mudança na forma/aparência das fezes. Subclassificada conforme o padrão predominante em SII com predomínio de constipação, SII com predomínio de diarreia, SII com padrão misto, ou SII não classificada.",
+    quadroClinico: [
+      "Dor ou desconforto abdominal recorrente, frequentemente aliviado pela evacuação",
+      "Alteração do hábito intestinal (constipação, diarreia, ou alternância entre ambos)",
+      "Distensão abdominal e sensação de evacuação incompleta",
+      "Sintomas frequentemente exacerbados por estresse emocional ou determinados alimentos",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado nos critérios de Roma IV, na ausência de sinais de alarme",
+      "Exames complementares direcionados para excluir diagnósticos orgânicos quando há sinais de alarme (perda de peso, sangramento, anemia, início após os 50 anos, história familiar de neoplasia/doença inflamatória intestinal)",
+      "Em pacientes sem sinais de alarme e que preenchem os critérios de Roma IV, investigação extensa geralmente não é necessária para confirmação diagnóstica",
+    ],
+    examesComplementares: [
+      "Hemograma completo (excluir anemia como sinal de alarme)",
+      "Calprotectina fecal (auxilia a diferenciar de doença inflamatória intestinal quando há dúvida diagnóstica)",
+      "Colonoscopia reservada para pacientes com sinais de alarme ou idade de rastreamento apropriada, não rotineiramente necessária para confirmar SII em pacientes típicos sem sinais de alarme",
+    ],
+    diagnosticoDiferencial: [
+      "Doença inflamatória intestinal",
+      "Doença celíaca",
+      "Intolerância à lactose ou outras intolerâncias alimentares",
+      "Neoplasia colorretal (especialmente quando há sinais de alarme)",
+    ],
+    tratamento: [
+      "Orientação dietética individualizada, incluindo consideração de dieta com restrição de FODMAPs (carboidratos fermentáveis de baixa absorção) em pacientes selecionados",
+      "Antiespasmódicos para controle da dor abdominal em cólica",
+      "Agentes específicos conforme o subtipo predominante: laxativos formadores de bolo/agentes específicos para constipação, antidiarreicos para o subtipo com diarreia",
+      "Abordagem do componente psicológico associado (terapia cognitivo-comportamental, manejo do estresse) quando relevante, dada a relação bidirecional entre sintomas intestinais e fatores emocionais",
+    ],
+    complicacoes: [
+      "Aguda: nenhuma complicação orgânica grave direta é esperada, diferente de doenças estruturais",
+      "Crônica: impacto significativo na qualidade de vida, absenteísmo e uso de serviços de saúde pela natureza recorrente e crônica dos sintomas",
+    ],
+    redFlags: [
+      "Sinais de alarme (perda de peso, sangramento retal, anemia, início dos sintomas após os 50 anos, história familiar de neoplasia colorretal ou doença inflamatória intestinal) não são compatíveis com SII isolada — exigem investigação para excluir doença orgânica antes de firmar esse diagnóstico",
+    ],
+    prognostico:
+      "Doença crônica benigna do ponto de vista estrutural (sem progressão para doença orgânica grave ou aumento de mortalidade), mas com impacto significativo na qualidade de vida; o curso é tipicamente flutuante, com períodos de melhora e piora ao longo do tempo.",
+    pontosDeProva: [
+      "A síndrome do cólon irritável é um diagnóstico baseado em critérios clínicos positivos (Roma IV), não apenas um diagnóstico de exclusão — não é necessário excluir exaustivamente todas as outras causas em pacientes típicos sem sinais de alarme",
+      "A presença de qualquer sinal de alarme deve levar à investigação de causa orgânica antes de atribuir os sintomas à SII, mesmo que o padrão clínico geral seja sugestivo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 32 anos, relata dor abdominal recorrente há 8 meses, quase sempre aliviada pela evacuação, associada a alternância entre períodos de constipação e diarreia. Nega perda de peso, sangramento ou sintomas noturnos. Exame físico e hemograma normais.",
+      pergunta: "Este quadro preenche critérios para síndrome do cólon irritável? Que passo é essencial antes de confirmar o diagnóstico?",
+      raciocinio:
+        "A dor abdominal recorrente associada à evacuação e à alteração do padrão intestinal (padrão misto) preenche os critérios de Roma IV para SII. A ausência de sinais de alarme (perda de peso, sangramento, sintomas noturnos) é importante para não postergar investigação de causas orgânicas quando presentes, mas sua ausência aqui é tranquilizadora.",
+      conduta:
+        "Confirmar a ausência completa de sinais de alarme, considerar calprotectina fecal se houver qualquer dúvida quanto à diferenciação de doença inflamatória intestinal, e iniciar tratamento (orientação dietética, antiespasmódicos conforme sintoma predominante) sem necessidade de investigação extensa adicional.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Critérios diagnósticos de Roma IV", fonte: "Rome IV Diagnostic Criteria for Functional Gastrointestinal Disorders, 2016" },
+      { tema: "Fisiopatologia (hipersensibilidade visceral, eixo cérebro-intestino)", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Antiespasmódicos/laxativos/antidiarreicos no tratamento (ainda sem fichas próprias no site com essa indicação)", fonte: "fonte pendente" },
+    ],
+  },
 ];

@@ -15,7 +15,7 @@ Fontes:
   está, o único item da lista ainda pendente por esse motivo.
 
 Já documentados com ficha completa (**fora deste backlog**, não repetir):
-- **Doenças (70):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
+- **Doenças (84):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
   · Dengue · COVID-19 · Gastrite · DRGE · Artrite reumatoide · LES · Alzheimer · Anemia
   ferropriva · DRC · Infarto agudo do miocárdio · Angina pectoris · Doença isquêmica
   crônica do coração · Fibrilação e flutter atrial · Parada cardíaca · Febre reumática ·
@@ -31,7 +31,10 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   Câncer de pulmão · Doença pelo HIV · Sífilis precoce · Hepatite aguda B · Hepatite
   viral crônica · Chikungunya/zika · Leptospirose · Malária por P. falciparum · Infecção
   meningocócica · Meningite bacteriana · Sepse · Doença de Chagas · Toxoplasmose ·
-  Leishmaniose
+  Leishmaniose · Câncer de esôfago · Câncer de estômago · Câncer colorretal · Câncer de
+  pâncreas · Úlcera péptica · Doença alcoólica do fígado · Cirrose hepática ·
+  Insuficiência hepática · Pancreatite aguda · Colelitíase · Colecistite · Doença de
+  Crohn · Colite ulcerativa · Síndrome do cólon irritável
 - **Medicamentos (21):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
@@ -107,21 +110,21 @@ parênteses, exatamente como aparece no índice.
 12. concluído — Toxoplasmose (B58)
 13. concluído — Leishmaniose (B55)
 
-### Lote 5 — Gastroenterologia (14)
-1. pendente — Neoplasia maligna do esôfago (C15)
-2. pendente — Neoplasia maligna do estômago (C16)
-3. pendente — Neoplasia maligna do cólon / CCR (C18)
-4. pendente — Neoplasia maligna do pâncreas (C25)
-5. pendente — Úlcera péptica (K27)
-6. pendente — Doença alcoólica do fígado (K70)
-7. pendente — Fibrose e cirrose hepáticas (K74)
-8. pendente — Insuficiência hepática (K72)
-9. pendente — Pancreatite aguda (K85)
-10. pendente — Colelitíase (K80)
-11. pendente — Colecistite (K81)
-12. pendente — Doença de Crohn (K50)
-13. pendente — Colite ulcerativa (K51)
-14. pendente — Síndrome do cólon irritável (K58)
+### Lote 5 — Gastroenterologia (14) — ✅ CONCLUÍDO
+1. concluído — Neoplasia maligna do esôfago (C15)
+2. concluído — Neoplasia maligna do estômago (C16)
+3. concluído — Neoplasia maligna do cólon / CCR (C18)
+4. concluído — Neoplasia maligna do pâncreas (C25)
+5. concluído — Úlcera péptica (K27)
+6. concluído — Doença alcoólica do fígado (K70)
+7. concluído — Fibrose e cirrose hepáticas (K74)
+8. concluído — Insuficiência hepática (K72)
+9. concluído — Pancreatite aguda (K85)
+10. concluído — Colelitíase (K80)
+11. concluído — Colecistite (K81)
+12. concluído — Doença de Crohn (K50)
+13. concluído — Colite ulcerativa (K51)
+14. concluído — Síndrome do cólon irritável (K58)
 
 ### Lote 6 — Gastroenterologia (restante, 3) + Reumatologia (9)
 1. pendente — Doença diverticular do intestino (K57)
@@ -224,9 +227,10 @@ parênteses, exatamente como aparece no índice.
 8. pendente — Doença inflamatória do útero / DIP (N71)
 9. pendente — Transtornos da menopausa e da perimenopausa (N95)
 
-**Total: 101 doenças pendentes em 8 lotes** (Lote 1, Cardiologia; Lote 2,
-Endocrinologia+Pneumologia; Lote 3, Pneumologia; e Lote 4, Infectologia, concluídos —
-15 + 14 + 12 + 13 itens), além das 70 já fichadas.
+**Total: 87 doenças pendentes em 7 lotes** (Lote 1, Cardiologia; Lote 2,
+Endocrinologia+Pneumologia; Lote 3, Pneumologia; Lote 4, Infectologia; e Lote 5,
+Gastroenterologia, concluídos — 15 + 14 + 12 + 13 + 14 itens), além das 84 já
+fichadas.
 
 ---
 

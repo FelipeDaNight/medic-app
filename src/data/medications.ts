@@ -293,6 +293,7 @@ export const medications: Medication[] = [
     doencasIndicadas: [
       { slug: "pneumonia-adquirida-na-comunidade", nome: "Pneumonia adquirida na comunidade" },
       { slug: "abscesso-pulmonar", nome: "Abscesso do pulmão e do mediastino" },
+      { slug: "colecistite", nome: "Colecistite" },
     ],
     fontes: [
       { tema: "Mecanismo de ação (inibição de betalactamase)", fonte: "Goodman & Gilman, 13ª ed." },
@@ -413,6 +414,7 @@ export const medications: Medication[] = [
     doencasIndicadas: [
       { slug: "gastrite", nome: "Gastrite" },
       { slug: "drge", nome: "Doença do refluxo gastroesofágico" },
+      { slug: "ulcera-peptica", nome: "Úlcera péptica" },
     ],
     fontes: [
       { tema: "Mecanismo de ação e farmacocinética", fonte: "Goodman & Gilman, 13ª ed." },
@@ -728,6 +730,8 @@ export const medications: Medication[] = [
       { slug: "lupus-eritematoso-sistemico", nome: "Lúpus eritematoso sistêmico" },
       { slug: "estado-de-mal-asmatico", nome: "Estado de mal asmático" },
       { slug: "doencas-pulmonares-intersticiais", nome: "Doenças pulmonares intersticiais" },
+      { slug: "doenca-de-crohn", nome: "Doença de Crohn" },
+      { slug: "colite-ulcerativa", nome: "Colite ulcerativa" },
     ],
     fontes: [
       { tema: "Mecanismo de ação glicocorticoide", fonte: "Goodman & Gilman, 13ª ed." },
@@ -1152,6 +1156,7 @@ export const medications: Medication[] = [
     doencasIndicadas: [
       { slug: "insuficiencia-cardiaca", nome: "Insuficiência cardíaca" },
       { slug: "cardiomiopatias", nome: "Cardiomiopatias" },
+      { slug: "cirrose-hepatica", nome: "Fibrose e cirrose hepáticas" },
     ],
     fontes: [
       { tema: "Mecanismo de ação (antagonista mineralocorticoide)", fonte: "Goodman & Gilman, 13ª ed." },
