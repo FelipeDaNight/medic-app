@@ -4304,4 +4304,934 @@ export const diseases: Disease[] = [
       { tema: "Estratégias terapêuticas por subtipo histológico", fonte: "fonte pendente" },
     ],
   },
+  {
+    slug: "hiv-aids",
+    nome: "Doença pelo HIV",
+    sinonimos: ["HIV", "AIDS", "SIDA"],
+    cid10: "B20",
+    especialidade: "Infectologia",
+    etiologia: "Viral",
+    resumo: "Infecção crônica pelo vírus da imunodeficiência humana, que destrói progressivamente linfócitos T CD4+, levando a imunossupressão progressiva e risco de infecções oportunistas.",
+    definicao:
+      "Infecção crônica causada pelo vírus da imunodeficiência humana (HIV), um retrovírus que infecta e destrói progressivamente linfócitos T CD4+, comprometendo a imunidade celular. A síndrome da imunodeficiência adquirida (AIDS) representa o estágio mais avançado da infecção, definido por contagem de CD4 muito baixa e/ou pela presença de doenças definidoras de AIDS.",
+    epidemiologia:
+      "Transmitido por via sexual, sanguínea (compartilhamento de agulhas, transfusão) e vertical (mãe-filho). A introdução da terapia antirretroviral combinada transformou a infecção pelo HIV em condição crônica controlável, reduzindo drasticamente a mortalidade e a transmissão quando a carga viral está suprimida.",
+    fisiopatologia:
+      "O HIV infecta células que expressam o receptor CD4 (principalmente linfócitos T auxiliares), utilizando a enzima transcriptase reversa para converter seu RNA em DNA proviral, que se integra ao genoma da célula hospedeira. A replicação viral contínua e a ativação imune crônica levam à depleção progressiva de linfócitos T CD4+, comprometendo a imunidade celular e predispondo a infecções oportunistas e neoplasias associadas conforme o grau de imunossupressão se aprofunda.",
+    classificacao:
+      "Classificação do CDC por estágios (1, 2, 3/AIDS) combinando contagem de linfócitos T CD4+ (estágio 3 se <200 células/mm³) e presença de condições definidoras de AIDS (infecções oportunistas específicas, certas neoplasias, encefalopatia pelo HIV, síndrome consumptiva), independentemente da contagem de CD4.",
+    quadroClinico: [
+      "Síndrome retroviral aguda (infecção primária): febre, linfadenopatia, faringite, exantema, mialgia, geralmente 2-4 semanas após exposição",
+      "Fase crônica assintomática, podendo durar anos sem tratamento antes de progressão imunológica significativa",
+      "Manifestações de imunossupressão avançada: infecções oportunistas (pneumocistose, candidíase esofágica, tuberculose, toxoplasmose cerebral), neoplasias associadas (sarcoma de Kaposi, linfomas)",
+      "Síndrome consumptiva (perda de peso involuntária significativa) em doença avançada não tratada",
+    ],
+    diagnostico: [
+      "Teste de triagem combinado de 4ª geração (antígeno p24 + anticorpos anti-HIV), com confirmação por teste complementar (ex.: teste molecular ou Western blot, conforme fluxograma vigente)",
+      "Contagem de linfócitos T CD4+ e carga viral (HIV-RNA) para estadiamento e monitorização",
+      "Investigação de infecções oportunistas conforme o grau de imunossupressão e apresentação clínica",
+    ],
+    examesComplementares: [
+      "Teste de 4ª geração (Ag/Ac combinado) como triagem inicial",
+      "Contagem de linfócitos T CD4+: <200 células/mm³ define estágio 3 (AIDS) pelo CDC",
+      "Carga viral (HIV-RNA) para monitorização de resposta à terapia antirretroviral",
+    ],
+    diagnosticoDiferencial: [
+      "Mononucleose infecciosa (mimetiza a síndrome retroviral aguda)",
+      "Outras causas de linfadenopatia generalizada",
+      "Outras causas de imunodeficiência secundária",
+    ],
+    tratamento: [
+      "Terapia antirretroviral combinada (TARV) para todos os pacientes diagnosticados, independentemente da contagem de CD4, iniciada o mais precocemente possível",
+      "Profilaxia de infecções oportunistas específicas conforme o grau de imunossupressão (ex.: profilaxia para pneumocistose em CD4 muito baixo)",
+      "Monitorização periódica de carga viral e CD4 para avaliar resposta terapêutica e adesão",
+      "Rastreamento e tratamento de comorbidades associadas e de outras infecções sexualmente transmissíveis",
+    ],
+    complicacoes: [
+      "Aguda: síndrome retroviral aguda sintomática, infecções oportunistas agudas em imunossupressão avançada",
+      "Crônica: infecções oportunistas recorrentes, neoplasias associadas ao HIV, complicações cardiovasculares e metabólicas relacionadas tanto à infecção crônica quanto a alguns antirretrovirais",
+    ],
+    redFlags: [
+      "Febre persistente, perda de peso significativa e sintomas neurológicos em paciente com HIV e CD4 muito baixo — investigar ativamente infecções oportunistas do sistema nervoso central (ex.: toxoplasmose cerebral, criptococose)",
+    ],
+    prognostico:
+      "Com terapia antirretroviral adequada e boa adesão, a expectativa de vida se aproxima da população geral, com supressão viral sustentada praticamente eliminando o risco de transmissão sexual (conceito de 'indetectável = intransmissível').",
+    pontosDeProva: [
+      "O conceito 'indetectável = intransmissível' (I=I) resume que a supressão viral sustentada com TARV praticamente elimina o risco de transmissão sexual do HIV, mudança de paradigma na abordagem da doença",
+      "A contagem de CD4 <200 células/mm³ define o estágio 3 (AIDS) pelo CDC independentemente de sintomas, mas a presença de uma doença definidora de AIDS também classifica o paciente nesse estágio mesmo com CD4 mais preservado",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 29 anos, relata febre, faringite, exantema maculopapular e linfadenopatia cervical há 10 dias, cerca de 3 semanas após relação sexual desprotegida. Teste rápido de HIV convencional (apenas anticorpos) resultou negativo.",
+      pergunta: "O teste negativo exclui infecção pelo HIV neste contexto?",
+      raciocinio:
+        "O quadro é sugestivo de síndrome retroviral aguda, que ocorre na 'janela imunológica' antes da soroconversão completa, quando testes baseados apenas em anticorpos podem ser falso-negativos. Testes de 4ª geração (que detectam também o antígeno p24) ou testes moleculares têm maior sensibilidade nesse período.",
+      conduta:
+        "Repetir a investigação com teste de 4ª geração (Ag/Ac combinado) ou carga viral, dada a alta suspeita clínica de síndrome retroviral aguda apesar do teste convencional negativo, e orientar sobre reteste em algumas semanas se persistir a suspeita.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia e ciclo de replicação viral", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Estadiamento CDC e critérios de AIDS", fonte: "CDC, Revised Surveillance Case Definition for HIV Infection, 2014" },
+      { tema: "Terapia antirretroviral combinada (ainda sem fichas próprias no site)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "sifilis-precoce",
+    nome: "Sífilis precoce",
+    sinonimos: ["Sífilis primária", "Sífilis secundária", "Sífilis latente recente"],
+    cid10: "A51",
+    especialidade: "Infectologia",
+    etiologia: "Bacteriana",
+    resumo: "Infecção sexualmente transmissível causada pelo Treponema pallidum, nos estágios iniciais (primária, secundária e latente recente, até 1 ano de infecção).",
+    definicao:
+      "Infecção sistêmica causada pela bactéria espiroqueta Treponema pallidum, transmitida predominantemente por via sexual, classificada como sífilis precoce quando a infecção ocorreu há menos de 1 ano (englobando as formas primária, secundária e latente recente).",
+    epidemiologia:
+      "Infecção sexualmente transmissível de distribuição global, com incidência crescente em diversos países nas últimas décadas; a sífilis congênita (transmissão vertical) permanece um problema de saúde pública relevante, reforçando a importância do rastreamento no pré-natal.",
+    fisiopatologia:
+      "O Treponema pallidum penetra através de mucosas ou pele com solução de continuidade, disseminando-se rapidamente por via linfática e hematogênica. A lesão primária (cancro duro) reflete a resposta imune local no sítio de inoculação; a disseminação sistêmica subsequente causa as manifestações da sífilis secundária, após o que a infecção pode entrar em fase latente (assintomática, detectável apenas por sorologia).",
+    classificacao:
+      "Sífilis primária (cancro duro no sítio de inoculação, geralmente único, indolor), sífilis secundária (disseminação sistêmica, com exantema, lesões mucocutâneas, linfadenopatia generalizada, geralmente semanas após a lesão primária) e sífilis latente recente (sorologia reagente sem sintomas, infecção adquirida há menos de 1 ano). A sífilis latente tardia (>1 ano ou tempo indeterminado) e a sífilis terciária não fazem parte deste grupo precoce.",
+    quadroClinico: [
+      "Sífilis primária: cancro duro — úlcera geralmente única, indolor, de bordas endurecidas, no sítio de inoculação (genital, anal ou oral)",
+      "Sífilis secundária: exantema maculopapular que tipicamente acomete palmas e plantas, condiloma plano, lesões mucosas, linfadenopatia generalizada, sintomas constitucionais leves",
+      "Sífilis latente recente: ausência de sintomas, com sorologia reagente e infecção adquirida há menos de 1 ano",
+    ],
+    diagnostico: [
+      "Combinação de teste treponêmico (ex.: FTA-ABS, TPHA, testes rápidos treponêmicos) e teste não treponêmico (VDRL ou RPR, com titulação)",
+      "Titulação do teste não treponêmico é usada tanto para apoio diagnóstico quanto para monitorização de resposta ao tratamento",
+      "Pesquisa direta do treponema (campo escuro) na lesão de cancro duro, quando disponível, para diagnóstico precoce antes da soroconversão",
+    ],
+    examesComplementares: [
+      "VDRL/RPR (teste não treponêmico) com titulação — a resposta ao tratamento é definida por queda de pelo menos 4 vezes (2 diluições) no título em alguns meses",
+      "Teste treponêmico (FTA-ABS, TPHA ou teste rápido) para confirmação, permanecendo reagente indefinidamente na maioria dos pacientes mesmo após tratamento adequado",
+      "Sorologia para HIV e outras infecções sexualmente transmissíveis (coinfecção frequente)",
+    ],
+    diagnosticoDiferencial: [
+      "Herpes genital (cancro geralmente doloroso, diferente da sífilis primária)",
+      "Cancroide (úlcera genital dolorosa, por Haemophilus ducreyi)",
+      "Outras causas de exantema maculopapular sistêmico (sífilis secundária pode mimetizar diversas erupções)",
+    ],
+    tratamento: [
+      "Penicilina benzatina em dose única intramuscular é o tratamento de escolha para sífilis precoce (primária, secundária e latente recente)",
+      "Dessensibilização e uso de penicilina em gestantes alérgicas, dada a superioridade da penicilina no tratamento da sífilis na gestação (evita falha terapêutica com transmissão vertical)",
+      "Seguimento sorológico com VDRL/RPR seriado para confirmar resposta adequada ao tratamento",
+      "Rastreamento e tratamento de parceiros sexuais",
+    ],
+    complicacoes: [
+      "Aguda: reação de Jarisch-Herxheimer (reação febril autolimitada nas primeiras 24h após o início do tratamento, por lise treponêmica maciça)",
+      "Crônica: progressão para sífilis terciária (cardiovascular, neurológica, gomas) se não tratada adequadamente; sífilis congênita se não tratada na gestação",
+    ],
+    redFlags: [
+      "Gestante com sífilis não tratada ou tratada com esquema não penicilínico — risco significativo de transmissão vertical e sífilis congênita, exigindo tratamento com penicilina mesmo em caso de alergia relatada (via dessensibilização)",
+    ],
+    prognostico:
+      "Excelente com tratamento adequado e precoce nos estágios primário e secundário, com cura completa; a progressão para sífilis terciária, hoje rara em contextos com bom acesso a diagnóstico e tratamento, associa-se a complicações cardiovasculares e neurológicas potencialmente graves.",
+    pontosDeProva: [
+      "A penicilina benzatina é insubstituível no tratamento da sífilis na gestação — mesmo gestantes com alergia relatada devem ser dessensibilizadas e tratadas com penicilina, pois outros esquemas não previnem adequadamente a transmissão vertical",
+      "A reação de Jarisch-Herxheimer (febre, mialgia, piora transitória de lesões após o início do tratamento) não é alergia à penicilina, mas resposta inflamatória à lise maciça de treponemas — diferencial importante de prova",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 26 anos, procura atendimento por exantema maculopapular em tronco, palmas e plantas, associado a linfadenopatia generalizada, 6 semanas após ter notado uma úlcera genital indolor que resolveu espontaneamente.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e a conduta terapêutica?",
+      raciocinio:
+        "A história de úlcera genital indolor autolimitada seguida de exantema envolvendo palmas e plantas, com linfadenopatia generalizada, é o quadro clássico de progressão de sífilis primária para secundária.",
+      conduta:
+        "Confirmar com teste treponêmico e não treponêmico (VDRL/RPR com titulação), tratar com penicilina benzatina em dose única, testar para HIV e outras ISTs, e orientar seguimento sorológico e tratamento de parceiros.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia e classificação por estágios", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Critérios sorológicos e resposta ao tratamento (queda de titulação)", fonte: "CDC Sexually Transmitted Infections Treatment Guidelines, 2021" },
+      { tema: "Penicilina benzatina no tratamento (ainda sem ficha própria no site)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "hepatite-aguda-b",
+    nome: "Hepatite aguda B",
+    sinonimos: ["Hepatite B aguda"],
+    cid10: "B16",
+    especialidade: "Infectologia",
+    etiologia: "Viral",
+    resumo: "Infecção aguda do fígado pelo vírus da hepatite B, na maioria dos adultos autolimitada, mas com risco de cronificação maior quanto mais precoce a idade de aquisição.",
+    definicao:
+      "Infecção aguda do fígado causada pelo vírus da hepatite B (HBV), transmitido por via sexual, parenteral (sangue, compartilhamento de agulhas) e vertical (mãe-filho), definida pela detecção de marcadores sorológicos de infecção recente (HBsAg e anti-HBc IgM reagentes).",
+    epidemiologia:
+      "A probabilidade de cronificação após infecção aguda é inversamente relacionada à idade de aquisição: muito alta em recém-nascidos infectados verticalmente (>90%), e baixa em adultos imunocompetentes infectados (cerca de 5%), que na maioria dos casos eliminam o vírus espontaneamente.",
+    fisiopatologia:
+      "O HBV infecta hepatócitos, e a lesão hepática decorre principalmente da resposta imune do hospedeiro contra células infectadas (lesão imunomediada, não citopática direta do vírus), explicando por que a intensidade da resposta imune influencia tanto a gravidade da hepatite aguda quanto a chance de clareamento viral espontâneo.",
+    classificacao:
+      "Classificada quanto à evolução em autolimitada (resolução espontânea com desenvolvimento de anti-HBs, a maioria dos casos em adultos), fulminante (insuficiência hepática aguda grave, rara mas potencialmente fatal) e progressão para cronicidade (definida por persistência de HBsAg por mais de 6 meses). Os marcadores sorológicos (HBsAg, anti-HBc IgM/IgG, HBeAg, anti-HBs) definem a fase da infecção.",
+    quadroClinico: [
+      "Pode ser assintomática, especialmente em crianças pequenas",
+      "Fase prodrômica com mal-estar, náuseas, anorexia e, por vezes, artralgia (fenômeno imunomediado)",
+      "Icterícia, colúria e acolia fecal na fase ictérica, quando presente",
+      "Dor em hipocôndrio direito e hepatomegalia discreta",
+    ],
+    diagnostico: [
+      "HBsAg reagente confirma infecção pelo vírus B (aguda ou crônica)",
+      "Anti-HBc IgM reagente indica infecção recente/aguda, diferenciando de hepatite B crônica com exacerbação",
+      "Transaminases (ALT/AST) elevadas, frequentemente de forma acentuada na fase aguda sintomática",
+    ],
+    examesComplementares: [
+      "HBsAg e anti-HBc IgM (confirmação de infecção aguda)",
+      "HBeAg (marcador de replicação viral ativa e maior infectividade, quando positivo)",
+      "ALT/AST, bilirrubinas e coagulograma (INR) para avaliação de gravidade e triagem de forma fulminante",
+    ],
+    diagnosticoDiferencial: [
+      "Hepatite aguda por outros vírus (A, C, E)",
+      "Hepatite medicamentosa/tóxica",
+      "Hepatite autoimune",
+    ],
+    tratamento: [
+      "Suporte clínico na maioria dos casos em adultos imunocompetentes, já que a resolução espontânea ocorre na grande maioria — não há indicação rotineira de antiviral específico na hepatite B aguda não complicada",
+      "Monitorização de sinais de gravidade (coagulopatia, encefalopatia) para identificação precoce de forma fulminante",
+      "Terapia antiviral e avaliação para transplante hepático em casos de hepatite fulminante",
+      "Aconselhamento sobre prevenção de transmissão (uso de preservativo, vacinação de contatos suscetíveis)",
+    ],
+    complicacoes: [
+      "Aguda: hepatite fulminante (insuficiência hepática aguda), rara mas grave",
+      "Crônica: progressão para hepatite B crônica em uma minoria dos adultos infectados, com risco a longo prazo de cirrose e carcinoma hepatocelular",
+    ],
+    redFlags: [
+      "Alteração do nível de consciência (encefalopatia) ou coagulopatia significativa (INR elevado) em paciente com hepatite aguda B — sinais de hepatite fulminante, exigindo avaliação urgente para transplante hepático",
+    ],
+    prognostico:
+      "Excelente na maioria dos adultos imunocompetentes, com resolução espontânea e desenvolvimento de imunidade (anti-HBs); o risco de cronificação é maior quanto mais precoce a idade de aquisição da infecção.",
+    pontosDeProva: [
+      "A lesão hepática na hepatite B é predominantemente imunomediada, não por efeito citopático direto do vírus — por isso, paradoxalmente, uma resposta imune mais vigorosa pode causar hepatite mais sintomática, mas também maior chance de clareamento viral",
+      "O risco de cronificação após infecção aguda é inversamente proporcional à idade de aquisição — altíssimo em transmissão vertical, baixo em adultos imunocompetentes",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 32 anos, sem comorbidades, relata mal-estar, náuseas e icterícia progressiva há 1 semana, sem uso de medicamentos ou álcool relevante. Refere relação sexual desprotegida há cerca de 2 meses. HBsAg reagente, anti-HBc IgM reagente, ALT 1200 U/L.",
+      pergunta: "Qual é a conduta apropriada neste momento?",
+      raciocinio:
+        "O quadro clínico e sorológico confirma hepatite aguda B sintomática. Em adulto imunocompetente sem sinais de gravidade (sem coagulopatia ou alteração do nível de consciência), a conduta é predominantemente de suporte, já que a resolução espontânea é esperada na grande maioria dos casos.",
+      conduta:
+        "Monitorizar função hepática e coagulograma para identificar precocemente sinais de evolução fulminante, orientar suporte clínico e repouso relativo, e reavaliar sorologia (HBsAg, anti-HBs) após alguns meses para confirmar resolução ou identificar cronificação.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia imunomediada e risco de cronificação por idade", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Marcadores sorológicos e interpretação", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "hepatite-viral-cronica",
+    nome: "Hepatite viral crônica",
+    sinonimos: ["Hepatite B crônica", "Hepatite C crônica"],
+    cid10: "B18",
+    especialidade: "Infectologia",
+    etiologia: "Viral",
+    resumo: "Infecção persistente pelo vírus da hepatite B ou C por mais de 6 meses, com risco progressivo de fibrose hepática, cirrose e carcinoma hepatocelular ao longo dos anos.",
+    definicao:
+      "Infecção hepática persistente pelo vírus da hepatite B (definida pela permanência de HBsAg por mais de 6 meses) ou pelo vírus da hepatite C (definida pela persistência de HCV-RNA detectável), associada a inflamação hepática contínua e risco progressivo de fibrose.",
+    epidemiologia:
+      "A hepatite C tem alta taxa de cronificação após infecção aguda (a maioria dos infectados não elimina o vírus espontaneamente), enquanto a hepatite B cronifica predominantemente quando adquirida em idade precoce (transmissão vertical ou primeira infância). Ambas são causas importantes de cirrose e carcinoma hepatocelular globalmente.",
+    fisiopatologia:
+      "Na hepatite B crônica, a persistência do vírus e a resposta imune continuamente ativada contra hepatócitos infectados geram lesão hepática recorrente, fibrose progressiva e risco de carcinogênese (inclusive por integração do DNA viral ao genoma do hospedeiro, mecanismo carcinogênico distinto da fibrose). Na hepatite C crônica, a replicação viral persistente sustenta inflamação hepática crônica, com fibrose progressiva ao longo de décadas na ausência de tratamento.",
+    classificacao:
+      "Classificada pelo grau de atividade necroinflamatória e pelo estágio de fibrose hepática, avaliados por biópsia hepática ou métodos não invasivos (elastografia hepática, escores séricos). Na hepatite B crônica, também se distinguem fases conforme HBeAg, carga viral e transaminases (fase imunotolerante, imunoativa, portador inativo, reativação).",
+    quadroClinico: [
+      "Frequentemente assintomática por anos, detectada em rastreamento ou exames de rotina",
+      "Fadiga inespecífica quando sintomática",
+      "Sinais de doença hepática avançada (icterícia, ascite, encefalopatia) apenas em estágios de cirrose já estabelecida",
+      "Manifestações extra-hepáticas ocasionais (ex.: crioglobulinemia associada à hepatite C)",
+    ],
+    diagnostico: [
+      "Hepatite B crônica: HBsAg persistente por mais de 6 meses",
+      "Hepatite C crônica: HCV-RNA detectável, geralmente após triagem inicial positiva com anti-HCV",
+      "Avaliação do grau de fibrose hepática por elastografia hepática, escores não invasivos ou biópsia",
+    ],
+    examesComplementares: [
+      "HBsAg, HBeAg, anti-HBe e carga viral (HBV-DNA) na hepatite B crônica",
+      "Anti-HCV como triagem e HCV-RNA para confirmação de infecção ativa na hepatite C",
+      "Elastografia hepática (avaliação não invasiva de fibrose) e transaminases seriadas",
+    ],
+    diagnosticoDiferencial: [
+      "Doença hepática gordurosa não alcoólica",
+      "Doença hepática alcoólica",
+      "Hepatite autoimune",
+      "Hemocromatose e outras doenças hepáticas metabólicas",
+    ],
+    tratamento: [
+      "Hepatite B crônica: análogos de nucleos(t)ídeos orais (ex.: tenofovir, entecavir) para supressão viral sustentada em pacientes com indicação de tratamento",
+      "Hepatite C crônica: antivirais de ação direta (esquemas orais combinados), com taxas de cura virológica muito altas na maioria dos genótipos",
+      "Rastreamento periódico de carcinoma hepatocelular em pacientes com fibrose avançada/cirrose, independentemente do tratamento antiviral",
+      "Vacinação contra hepatite A e aconselhamento sobre álcool em todos os portadores de hepatopatia crônica",
+    ],
+    complicacoes: [
+      "Aguda: reativação viral em contexto de imunossupressão (mais relevante na hepatite B)",
+      "Crônica: cirrose hepática, carcinoma hepatocelular, hipertensão portal e suas complicações",
+    ],
+    redFlags: [
+      "Início de imunossupressão (ex.: quimioterapia, biológicos) em portador de hepatite B crônica sem profilaxia antiviral adequada — risco de reativação viral grave, por vezes fulminante",
+    ],
+    prognostico:
+      "Variável conforme o grau de fibrose ao diagnóstico e a resposta ao tratamento antiviral; a hepatite C crônica tratada com antivirais de ação direta tem taxas de cura virológica muito altas, enquanto a hepatite B crônica geralmente requer supressão viral prolongada, já que a cura completa (eliminação do HBsAg) é menos frequente.",
+    pontosDeProva: [
+      "Diferente da hepatite C, onde antivirais de ação direta podem curar a infecção na maioria dos casos, o tratamento da hepatite B crônica geralmente suprime a replicação viral sem eliminar completamente o vírus, exigindo terapia prolongada",
+      "Pacientes com hepatite B crônica que iniciarão imunossupressão devem ser avaliados para profilaxia antiviral antes do início do tratamento imunossupressor, pelo risco de reativação viral grave",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 45 anos, assintomática, com HBsAg reagente identificado há mais de 1 ano em exame de rotina, sem tratamento até o momento. Vai iniciar quimioterapia para tratamento oncológico em breve.",
+      pergunta: "Qual é a conduta prioritária antes do início da quimioterapia?",
+      raciocinio:
+        "A persistência de HBsAg por mais de 6 meses confirma hepatite B crônica. O início de quimioterapia imunossupressora em portador de hepatite B crônica sem profilaxia antiviral adequada representa risco significativo de reativação viral, por vezes grave.",
+      conduta:
+        "Avaliar carga viral e função hepática, iniciar profilaxia/tratamento antiviral (análogo de nucleos(t)ídeo) antes do início da quimioterapia, e manter monitorização durante e após o tratamento oncológico.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia e diferenças entre hepatite B e C crônicas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Risco de reativação viral em imunossupressão", fonte: "AASLD Guidance for the Prevention, Diagnosis, and Treatment of Chronic Hepatitis B, 2018" },
+      { tema: "Antivirais orais no tratamento (ainda sem fichas próprias no site)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "chikungunya-zika",
+    nome: "Febres virais transmitidas por mosquitos (chikungunya e zika)",
+    sinonimos: ["Chikungunya", "Zika", "Arboviroses"],
+    cid10: "A92",
+    especialidade: "Infectologia",
+    etiologia: "Viral",
+    resumo: "Arboviroses transmitidas pelo mosquito Aedes aegypti, com febre e exantema semelhantes à dengue, mas com padrões próprios — artralgia intensa e potencialmente crônica no chikungunya, e risco de malformações congênitas no zika.",
+    definicao:
+      "Grupo de arboviroses transmitidas pelo mosquito Aedes aegypti (o mesmo vetor da dengue), incluindo febre de chikungunya (causada por alfavírus) e febre pelo vírus zika (flavivírus), com sobreposição clínica parcial com a dengue, mas com manifestações e complicações características de cada uma.",
+    epidemiologia:
+      "Circulam em áreas com infestação pelo Aedes aegypti, frequentemente em cocirculação com a dengue, tornando o diagnóstico diferencial clínico isolado difícil. O vírus zika ganhou destaque epidemiológico pela associação com microcefalia e outras malformações congênitas quando a infecção ocorre na gestação.",
+    fisiopatologia:
+      "Após a picada do mosquito infectado, o vírus se replica localmente e dissemina-se por via hematogênica. No chikungunya, o vírus tem tropismo por tecido articular e sinovial, explicando a artralgia intensa e por vezes persistente. No zika, o neurotropismo do vírus, especialmente relevante durante a gestação, está implicado na embriopatia e nas malformações do sistema nervoso central fetal.",
+    classificacao:
+      "Chikungunya classificado por fase: aguda (até 14 dias, com febre e artralgia intensa), subaguda (até 3 meses) e crônica (artralgia persistente além de 3 meses, presente em parcela significativa dos pacientes). O zika é predominantemente classificado pela apresentação (sintomática leve vs. assintomática) e pelo contexto de risco (gestante vs. não gestante), dada a relevância da síndrome congênita do zika.",
+    quadroClinico: [
+      "Chikungunya: febre alta de início súbito e artralgia intensa e simétrica, tipicamente em pequenas articulações de mãos e pés, podendo ser incapacitante",
+      "Zika: quadro geralmente mais leve, com febre baixa, exantema maculopapular pruriginoso, conjuntivite não purulenta e artralgia leve",
+      "Ambos podem cursar com cefaleia, mialgia e exantema, sobrepondo-se clinicamente à dengue",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico-epidemiológico em contexto de circulação viral confirmada na região",
+      "Confirmação laboratorial por RT-PCR na fase virêmica inicial ou sorologia (IgM) em fase mais tardia",
+      "Diagnóstico diferencial com dengue é essencial, já que as três arboviroses podem cocircular e compartilham vetor e apresentação inicial semelhante",
+    ],
+    examesComplementares: [
+      "RT-PCR para detecção viral direta nos primeiros dias de sintomas",
+      "Sorologia IgM/IgG específica após a fase virêmica inicial",
+      "Hemograma (menos leucopenia/plaquetopenia marcantes que na dengue, de forma geral)",
+    ],
+    diagnosticoDiferencial: [
+      "Dengue (principal diferencial, mesmo vetor, apresentação inicial semelhante)",
+      "Outras causas de febre exantemática",
+      "Artrite reativa/outras artropatias agudas (no diagnóstico diferencial do chikungunya)",
+    ],
+    tratamento: [
+      "Tratamento sintomático: paracetamol para febre e dor, evitando anti-inflamatórios não esteroidais e ácido acetilsalicílico enquanto a dengue não for excluída, pelo risco de sangramento nessa condição",
+      "Hidratação adequada e repouso",
+      "Analgesia para artralgia intensa no chikungunya, podendo necessitar de abordagem multimodal em casos de dor persistente/crônica",
+      "Acompanhamento obstétrico especializado em gestantes com suspeita/confirmação de zika, pelo risco de síndrome congênita",
+    ],
+    complicacoes: [
+      "Chikungunya: artralgia crônica persistente por meses a anos em parcela significativa dos pacientes",
+      "Zika: síndrome congênita do zika (microcefalia e outras malformações do sistema nervoso central) quando a infecção ocorre na gestação; associação descrita com síndrome de Guillain-Barré",
+    ],
+    redFlags: [
+      "Gestante com quadro sugestivo de zika — encaminhar para acompanhamento obstétrico especializado e monitorização fetal, dado o risco de síndrome congênita",
+      "Sinais de alarme de dengue (dor abdominal intensa, sangramento, hipotensão) devem ser sempre ativamente pesquisados enquanto esse diagnóstico não for excluído, dada a sobreposição clínica inicial",
+    ],
+    prognostico:
+      "Geralmente autolimitado e de bom prognóstico na fase aguda para ambas as infecções; o chikungunya pode deixar sequela articular crônica significativa, enquanto o principal risco do zika está associado à infecção congênita, não à doença aguda em si no adulto não gestante.",
+    pontosDeProva: [
+      "A tríade artralgia intensa e simétrica de pequenas articulações, associada a período de febre alta, favorece chikungunya sobre dengue e zika no diagnóstico diferencial clínico",
+      "Como na dengue, anti-inflamatórios não esteroidais e AAS devem ser evitados no tratamento sintomático dessas arboviroses enquanto a dengue não for excluída, pelo risco de sangramento",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 34 anos, em área com circulação confirmada de chikungunya, apresenta febre alta de início súbito há 3 dias, associada a dor intensa e simétrica em punhos, mãos e tornozelos, dificultando até mesmo tarefas simples.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e qual classe de analgésico deve ser evitada até exclusão de diagnóstico diferencial importante?",
+      raciocinio:
+        "O padrão de artralgia intensa e simétrica de pequenas articulações associado a febre alta, em área de circulação confirmada, é altamente sugestivo de chikungunya. Anti-inflamatórios não esteroidais e AAS devem ser evitados até que a dengue seja excluída, pelo risco de sangramento nessa condição.",
+      conduta:
+        "Tratar sintomaticamente com paracetamol, orientar hidratação e repouso, monitorizar sinais de alarme de dengue enquanto esse diagnóstico não for excluído, e considerar confirmação laboratorial (RT-PCR ou sorologia) conforme o tempo de evolução dos sintomas.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "paracetamol", nome: "Paracetamol" },
+    ],
+    fontes: [
+      { tema: "Fisiopatologia e tropismo viral", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Classificação de fases do chikungunya e síndrome congênita do zika", fonte: "Guia de Vigilância em Saúde, Ministério da Saúde" },
+      { tema: "Uso preferencial de paracetamol e restrição a AINEs/AAS (mesma lógica da dengue)", fonte: "Guia de Manejo Clínico da Dengue, Ministério da Saúde" },
+    ],
+  },
+  {
+    slug: "leptospirose",
+    nome: "Leptospirose",
+    sinonimos: ["Doença de Weil (forma grave)"],
+    cid10: "A27",
+    especialidade: "Infectologia",
+    etiologia: "Bacteriana",
+    resumo: "Zoonose bacteriana transmitida por contato com água ou solo contaminados pela urina de roedores infectados, variando de quadro febril leve a forma grave (doença de Weil) com icterícia, insuficiência renal e hemorragia.",
+    definicao:
+      "Zoonose bacteriana causada por espiroquetas do gênero Leptospira, transmitida ao ser humano principalmente pelo contato de pele com solução de continuidade ou mucosas com água ou solo contaminados pela urina de animais infectados, especialmente roedores.",
+    epidemiologia:
+      "Associada a enchentes e exposição a água contaminada em áreas urbanas com infraestrutura sanitária deficiente, além de exposição ocupacional (agricultores, veterinários, trabalhadores de esgoto). Incidência aumenta sazonalmente em períodos de maior pluviosidade e enchentes.",
+    fisiopatologia:
+      "As leptospiras penetram através de pele lesada ou mucosas, disseminando-se por via hematogênica e alcançando múltiplos órgãos (rim, fígado, pulmão, sistema nervoso central). A lesão tecidual decorre tanto do efeito direto da bactéria (especialmente sobre o endotélio vascular, explicando o componente hemorrágico) quanto da resposta imune do hospedeiro na fase mais tardia da doença.",
+    classificacao:
+      "Classificada em forma anictérica (leve a moderada, a maioria dos casos, autolimitada) e forma ictérica grave, também chamada doença de Weil (icterícia, insuficiência renal aguda e diátese hemorrágica), que representa uma minoria dos casos mas com mortalidade significativa se não tratada adequadamente.",
+    quadroClinico: [
+      "Fase precoce (leptospirêmica): febre de início súbito, mialgia intensa (especialmente em panturrilhas), cefaleia, hiperemia conjuntival sem secreção",
+      "Fase tardia (imune), quando presente: icterícia rubínica (tonalidade avermelhada característica), disfunção renal, manifestações hemorrágicas",
+      "Sufusão hemorrágica conjuntival e, em casos graves, hemoptise e outros sangramentos",
+    ],
+    diagnostico: [
+      "Suspeita clínico-epidemiológica (exposição a água/solo contaminados, especialmente após enchentes) associada aos achados clínicos",
+      "Testes sorológicos (ELISA IgM, teste de aglutinação microscópica — MAT, padrão-ouro mas de resultado mais tardio) para confirmação",
+      "PCR em fase precoce, quando disponível, permite detecção antes da soroconversão",
+    ],
+    examesComplementares: [
+      "ELISA IgM como triagem sorológica inicial",
+      "Teste de aglutinação microscópica (MAT) como padrão-ouro confirmatório",
+      "Função renal (ureia, creatinina), bilirrubinas, transaminases e coagulograma para avaliação de gravidade e triagem da forma ictérica/doença de Weil",
+      "CPK elevada, refletindo o acometimento muscular (mialgia intensa característica)",
+    ],
+    diagnosticoDiferencial: [
+      "Dengue e outras arboviroses (sobreposição clínica na fase febril inicial)",
+      "Hepatites virais (quando há icterícia predominante)",
+      "Malária (em áreas endêmicas sobrepostas)",
+    ],
+    tratamento: [
+      "Doxiciclina oral em casos leves a moderados, ambulatoriais",
+      "Penicilina G cristalina ou ceftriaxona intravenosa em casos graves (doença de Weil), com internação hospitalar",
+      "Suporte intensivo em casos graves: terapia renal substitutiva quando indicada, suporte hemodinâmico e ventilatório conforme necessidade",
+      "Início precoce da antibioticoterapia é importante, idealmente ainda na fase leptospirêmica inicial",
+    ],
+    complicacoes: [
+      "Aguda: insuficiência renal aguda, hemorragia pulmonar maciça (síndrome hemorrágica pulmonar associada à leptospirose), miocardite",
+      "Crônica: uveíte pode ocorrer como manifestação tardia em uma parcela dos pacientes, semanas a meses após a infecção aguda",
+    ],
+    redFlags: [
+      "Icterícia associada a oligúria e sangramento em paciente com quadro febril e história de exposição a água contaminada — sinais de doença de Weil, exigindo internação e suporte intensivo imediatos",
+    ],
+    prognostico:
+      "Excelente na forma anictérica leve, geralmente autolimitada; a forma ictérica grave (doença de Weil) tem mortalidade significativa mesmo com tratamento, sendo maior quanto mais tardio o reconhecimento e início do suporte adequado.",
+    pontosDeProva: [
+      "A mialgia intensa em panturrilhas associada a hiperemia conjuntival sem secreção é um achado clássico e relativamente específico da leptospirose na fase precoce",
+      "A doença de Weil (icterícia + insuficiência renal + hemorragia) representa a minoria dos casos, mas concentra praticamente toda a mortalidade da leptospirose",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 38 anos, trabalhador de limpeza urbana, relata febre súbita, mialgia intensa em panturrilhas e cefaleia há 4 dias, uma semana após período de enchente na região onde trabalha. Ao exame, hiperemia conjuntival bilateral sem secreção.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "A exposição ocupacional a água de enchente, associada à mialgia intensa em panturrilhas e hiperemia conjuntival sem secreção, é um quadro clássico de leptospirose na fase precoce (leptospirêmica).",
+      conduta:
+        "Iniciar antibioticoterapia precocemente (doxiciclina, se ambulatorial e sem sinais de gravidade), solicitar exames para avaliar função renal, hepática e coagulação, e reavaliar de perto sinais de progressão para a forma ictérica grave (doença de Weil).",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia e fases da doença", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Formas clínicas e critérios de gravidade", fonte: "Guia de Vigilância em Saúde, Ministério da Saúde" },
+      { tema: "Doxiciclina/penicilina/ceftriaxona no tratamento (ainda sem fichas próprias no site com essa indicação)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "malaria-falciparum",
+    nome: "Malária por Plasmodium falciparum",
+    sinonimos: ["Malária falciparum", "Malária grave"],
+    cid10: "B50",
+    especialidade: "Infectologia",
+    etiologia: "Parasitária",
+    resumo: "Infecção parasitária transmitida pelo mosquito Anopheles, causada pelo Plasmodium falciparum — a espécie associada às formas mais graves de malária, com risco de complicações potencialmente fatais.",
+    definicao:
+      "Doença parasitária causada pelo protozoário Plasmodium falciparum, transmitido pela picada de fêmeas infectadas do mosquito Anopheles, caracterizada por infecção e destruição de hemácias, sendo a espécie de Plasmodium associada ao maior risco de malária grave/complicada.",
+    epidemiologia:
+      "Endêmica em regiões tropicais, incluindo a região amazônica no Brasil, onde coexiste com outras espécies (P. vivax, mais comum localmente, mas com P. falciparum concentrando a maior parte da gravidade e mortalidade).",
+    fisiopatologia:
+      "O Plasmodium falciparum infecta hemácias de todas as idades (diferente de outras espécies, que preferem hemácias jovens ou maduras especificamente), permitindo parasitemias muito mais elevadas. A citoaderência de hemácias infectadas ao endotélio vascular (sequestro microvascular), característica dessa espécie, obstrui a microcirculação em órgãos como cérebro, rim e placenta, sendo o mecanismo central das formas graves (malária cerebral, insuficiência renal, malária na gestação).",
+    classificacao:
+      "Classificada em malária não complicada e malária grave/complicada, conforme critérios da Organização Mundial da Saúde: parasitemia elevada (>5% das hemácias parasitadas), malária cerebral (rebaixamento do nível de consciência/coma), insuficiência renal aguda, edema pulmonar/SDRA, acidose metabólica grave, hipoglicemia, anemia grave e sangramento espontâneo, entre outros critérios — a presença de qualquer um já define a forma grave.",
+    quadroClinico: [
+      "Febre em picos, associada a calafrios e sudorese, podendo ter padrão cíclico menos regular no P. falciparum que em outras espécies",
+      "Cefaleia, mialgia e mal-estar geral",
+      "Esplenomegalia e, por vezes, hepatomegalia discreta",
+      "Em malária grave: alteração do nível de consciência, dispneia, oligúria, icterícia, sangramento",
+    ],
+    diagnostico: [
+      "Gota espessa e esfregaço sanguíneo (padrão-ouro) para identificação da espécie e quantificação da parasitemia",
+      "Testes rápidos de detecção de antígeno como alternativa quando a microscopia não está prontamente disponível",
+      "Classificação em malária não complicada ou grave conforme critérios da OMS, orientando a via de tratamento (oral vs. parenteral)",
+    ],
+    examesComplementares: [
+      "Gota espessa/esfregaço sanguíneo: identificação de espécie e percentual de parasitemia",
+      "Glicemia (hipoglicemia é achado de gravidade e complicação do próprio tratamento com quinina)",
+      "Função renal, gasometria e lactato para avaliação de disfunção orgânica em suspeita de malária grave",
+    ],
+    diagnosticoDiferencial: [
+      "Dengue e outras arboviroses",
+      "Febre tifoide",
+      "Sepse de outro foco",
+    ],
+    tratamento: [
+      "Terapia combinada baseada em artemisinina (ACT) como tratamento de primeira linha para malária não complicada por P. falciparum",
+      "Artesunato intravenoso para malária grave/complicada, com internação e suporte intensivo conforme disfunções orgânicas presentes",
+      "Correção de complicações associadas (hipoglicemia, anemia grave, insuficiência renal) conforme necessário",
+      "Monitorização de parasitemia seriada para avaliar resposta terapêutica",
+    ],
+    complicacoes: [
+      "Aguda: malária cerebral, insuficiência renal aguda, edema pulmonar/SDRA, hipoglicemia grave, coagulação intravascular disseminada",
+      "Crônica: anemia persistente pós-malária, recorrências em áreas de reexposição",
+    ],
+    redFlags: [
+      "Febre associada a rebaixamento do nível de consciência em paciente com exposição a área endêmica — malária cerebral por P. falciparum é diagnóstico diferencial obrigatório e emergência médica",
+    ],
+    prognostico:
+      "Excelente na malária não complicada com tratamento adequado; a malária grave tem mortalidade significativa mesmo com tratamento, sendo a rapidez do reconhecimento e início da terapia parenteral determinante para o desfecho.",
+    pontosDeProva: [
+      "A citoaderência microvascular de hemácias infectadas por P. falciparum ao endotélio é o mecanismo central das formas graves, incluindo a malária cerebral — mecanismo específico dessa espécie, diferente de outras espécies de Plasmodium",
+      "Qualquer critério de gravidade da OMS (não apenas alteração de consciência) já classifica o caso como malária grave, exigindo tratamento parenteral com artesunato",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 40 anos, retornando de viagem à região amazônica há 10 dias, apresenta febre alta, calafrios e confusão mental progressiva nas últimas horas. Gota espessa confirma Plasmodium falciparum, com parasitemia de 8%.",
+      pergunta: "Este caso é classificado como malária não complicada ou grave, e qual a implicação terapêutica?",
+      raciocinio:
+        "A parasitemia de 8% (acima de 5%) e a alteração do nível de consciência (sugestiva de malária cerebral) já preenchem critérios de malária grave pela OMS, independentemente de outros achados, exigindo tratamento parenteral imediato.",
+      conduta:
+        "Iniciar artesunato intravenoso sem demora, internar em unidade com suporte intensivo disponível, e monitorizar de perto glicemia, função renal e nível de consciência durante o tratamento.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia da citoaderência microvascular", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Critérios de malária grave e tratamento com artesunato", fonte: "World Health Organization, Guidelines for the Treatment of Malaria, 3ª ed., 2015" },
+      { tema: "Terapia combinada com artemisinina (ainda sem ficha própria no site)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "infeccao-meningococica",
+    nome: "Infecção meningocócica",
+    sinonimos: ["Meningococcemia", "Doença meningocócica"],
+    cid10: "A39",
+    especialidade: "Infectologia",
+    etiologia: "Bacteriana",
+    resumo: "Infecção invasiva causada pela Neisseria meningitidis, podendo se manifestar como meningite, meningococcemia (sepse) ou ambas, com potencial de evolução fulminante em poucas horas.",
+    definicao:
+      "Infecção invasiva causada pela bactéria Neisseria meningitidis (meningococo), que pode se manifestar como meningite meningocócica, meningococcemia (sepse meningocócica, com ou sem meningite associada) ou a combinação de ambas, com potencial de progressão extremamente rápida para choque séptico e óbito.",
+    epidemiologia:
+      "Ocorre em surtos e casos esporádicos, com maior incidência em crianças pequenas e adolescentes/adultos jovens; a transmissão ocorre por gotículas respiratórias, e portadores assintomáticos de orofaringe são reservatório importante para transmissão comunitária.",
+    fisiopatologia:
+      "A bactéria coloniza a nasofaringe e, em uma minoria dos colonizados, invade a corrente sanguínea, podendo alcançar as meninges (meningite) e/ou causar bacteremia maciça com liberação de endotoxina, desencadeando resposta inflamatória sistêmica intensa, coagulação intravascular disseminada e lesão endotelial difusa — a base fisiopatológica das petéquias/púrpura e do choque séptico fulminante.",
+    classificacao:
+      "Classificada por apresentação clínica: meningite meningocócica isolada, meningococcemia sem meningite, e a forma combinada (a mais comum). A síndrome de Waterhouse-Friderichsen (meningococcemia fulminante com hemorragia adrenal bilateral e choque refratário) representa a forma mais grave e rapidamente fatal.",
+    quadroClinico: [
+      "Febre de início súbito, cefaleia intensa, mal-estar",
+      "Exantema petequial/purpúrico, característico e de progressão rápida na meningococcemia",
+      "Sinais meníngeos (rigidez de nuca, sinais de Kernig/Brudzinski) quando há meningite associada",
+      "Sinais de choque séptico (hipotensão, extremidades frias, tempo de enchimento capilar prolongado) em casos fulminantes",
+    ],
+    diagnostico: [
+      "Alta suspeição clínica em paciente com febre e exantema petequial/purpúrico de evolução rápida — o tratamento antibiótico empírico não deve ser postergado para confirmação laboratorial",
+      "Hemocultura e cultura de líquido cefalorraquidiano (quando há indicação de punção lombar) para confirmação e identificação do agente",
+      "PCR para Neisseria meningitidis quando disponível, especialmente útil após início de antibioticoterapia",
+    ],
+    examesComplementares: [
+      "Hemocultura antes do início do antibiótico, sem atrasar seu início diante de alta suspeita clínica",
+      "Análise do líquido cefalorraquidiano quando não há contraindicação para punção lombar",
+      "Coagulograma e função renal para avaliação de coagulação intravascular disseminada e disfunção orgânica",
+    ],
+    diagnosticoDiferencial: [
+      "Outras causas de meningite bacteriana",
+      "Outras causas de púrpura febril (incluindo causas não infecciosas, menos prováveis no contexto agudo febril)",
+      "Sepse por outros agentes",
+    ],
+    tratamento: [
+      "Antibioticoterapia empírica imediata (ceftriaxona ou penicilina cristalina) diante de suspeita clínica, sem aguardar confirmação laboratorial",
+      "Suporte hemodinâmico agressivo (fluidos, vasopressores conforme necessidade) em meningococcemia com choque",
+      "Isolamento respiratório (gotículas) nas primeiras 24 horas de antibioticoterapia eficaz",
+      "Quimioprofilaxia para contatos próximos, para reduzir o risco de casos secundários",
+    ],
+    complicacoes: [
+      "Aguda: choque séptico refratário, coagulação intravascular disseminada, síndrome de Waterhouse-Friderichsen, óbito em horas se não tratada",
+      "Crônica: sequelas neurológicas quando há meningite associada, necrose de extremidades (amputações) em casos graves de púrpura fulminante",
+    ],
+    redFlags: [
+      "Febre associada a exantema petequial/purpúrico de progressão rápida — emergência médica absoluta, exigindo antibioticoterapia empírica imediata sem aguardar confirmação diagnóstica",
+    ],
+    prognostico:
+      "Potencialmente fatal em poucas horas se não tratada; mesmo com tratamento adequado, a mortalidade da forma fulminante (síndrome de Waterhouse-Friderichsen) permanece significativa, reforçando a importância do reconhecimento precocíssimo.",
+    pontosDeProva: [
+      "Diante de suspeita clínica de doença meningocócica com exantema petequial/purpúrico, a antibioticoterapia empírica deve ser iniciada imediatamente, mesmo antes de hemocultura ou punção lombar",
+      "A síndrome de Waterhouse-Friderichsen (hemorragia adrenal bilateral com choque refratário) é a manifestação mais temida da meningococcemia fulminante",
+    ],
+    casoClinico: {
+      vinheta:
+        "Adolescente, 16 anos, previamente hígido, apresenta febre alta de início há 6 horas, cefaleia intensa e, na última hora, surgimento de lesões petequiais que rapidamente evoluem para equimoses em tronco e membros. Extremidades frias, tempo de enchimento capilar de 4 segundos.",
+      pergunta: "Qual é a conduta imediata diante deste quadro?",
+      raciocinio:
+        "A combinação de febre de início súbito, exantema petequial/purpúrico de progressão rápida e sinais de choque (extremidades frias, enchimento capilar prolongado) é altamente sugestiva de meningococcemia fulminante, uma emergência com risco de óbito em horas.",
+      conduta:
+        "Iniciar antibioticoterapia empírica imediata (ceftriaxona) sem aguardar confirmação laboratorial, iniciar ressuscitação hemodinâmica agressiva, colher hemocultura antes ou concomitantemente ao antibiótico sem atrasar seu início, e providenciar isolamento respiratório e quimioprofilaxia para contatos próximos.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia e síndrome de Waterhouse-Friderichsen", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Urgência da antibioticoterapia empírica e quimioprofilaxia de contatos", fonte: "Guia de Vigilância em Saúde, Ministério da Saúde" },
+      { tema: "Ceftriaxona/penicilina cristalina no tratamento (ainda sem fichas próprias no site)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "meningite-bacteriana",
+    nome: "Meningite bacteriana",
+    sinonimos: ["Meningite piogênica"],
+    cid10: "G00",
+    especialidade: "Infectologia",
+    etiologia: "Bacteriana",
+    resumo: "Infecção bacteriana aguda das meninges, emergência neurológica com agentes etiológicos que variam conforme a faixa etária, exigindo antibioticoterapia empírica imediata.",
+    definicao:
+      "Infecção bacteriana aguda das meninges (membranas que revestem o cérebro e a medula espinhal) e do líquido cefalorraquidiano, caracterizada por resposta inflamatória purulenta, constituindo emergência neurológica com risco de sequelas graves e morte se o tratamento for postergado.",
+    epidemiologia:
+      "Os agentes etiológicos mais comuns variam conforme a faixa etária: Streptococcus pneumoniae e Neisseria meningitidis predominam em crianças maiores, adolescentes e adultos; Streptococcus agalactiae (grupo B) e Escherichia coli são mais relevantes em neonatos; Listeria monocytogenes é mais relevante em neonatos, idosos e imunossuprimidos.",
+    fisiopatologia:
+      "Bactérias alcançam o espaço subaracnóideo por disseminação hematogênica (a partir de colonização de nasofaringe ou outro foco) ou, mais raramente, por contiguidade (sinusite, otite, trauma craniano). A resposta inflamatória à presença bacteriana e seus produtos no líquido cefalorraquidiano — mais do que a bactéria em si — é responsável por grande parte da lesão neurológica, incluindo edema cerebral, aumento da pressão intracraniana e comprometimento do fluxo sanguíneo cerebral.",
+    classificacao:
+      "Classificação predominantemente etiológica por faixa etária (neonatal, pediátrica, adulto, idoso/imunossuprimido), já que o agente mais provável direciona a escolha do esquema antibiótico empírico inicial antes da identificação do patógeno.",
+    quadroClinico: [
+      "Febre, cefaleia intensa e rigidez de nuca (tríade clássica, nem sempre completa, especialmente em extremos de idade)",
+      "Alteração do nível de consciência, de leve confusão a coma",
+      "Sinais de irritação meníngea (sinais de Kernig e Brudzinski) ao exame físico",
+      "Em neonatos e idosos, apresentação frequentemente atípica, com sintomas mais inespecíficos",
+    ],
+    diagnostico: [
+      "Punção lombar com análise do líquido cefalorraquidiano é o exame central para diagnóstico e identificação do agente",
+      "Padrão típico de meningite bacteriana no LCR: pleocitose com predomínio de neutrófilos (tipicamente >1000 células/mm³), proteína elevada (>100 mg/dL) e glicose reduzida (glicorraquia/glicemia <0,4)",
+      "Tomografia de crânio antes da punção lombar apenas em situações específicas (sinais de hipertensão intracraniana, déficit focal, imunossupressão, convulsão recente), para não atrasar o início do antibiótico nos demais casos",
+    ],
+    examesComplementares: [
+      "Líquido cefalorraquidiano: celularidade, proteína, glicose, Gram e cultura",
+      "Hemoculturas (frequentemente positivas, especialmente antes do início do antibiótico)",
+      "PCR para patógenos específicos quando disponível, particularmente útil após antibioticoterapia já iniciada",
+    ],
+    diagnosticoDiferencial: [
+      "Meningite viral (líquido cefalorraquidiano com predomínio linfocitário, glicose geralmente normal)",
+      "Meningite tuberculosa/fúngica (evolução mais insidiosa, perfil liquórico distinto)",
+      "Hemorragia subaracnóidea (pode mimetizar cefaleia intensa súbita com rigidez de nuca)",
+    ],
+    tratamento: [
+      "Antibioticoterapia empírica intravenosa imediata, sem aguardar resultado da punção lombar quando há atraso previsto para realizá-la, guiada pelo perfil etiológico esperado por faixa etária",
+      "Corticosteroide adjuvante (dexametasona), idealmente administrado antes ou junto da primeira dose de antibiótico, reduz complicações neurológicas em meningite pneumocócica",
+      "Ajuste do esquema antibiótico conforme identificação do agente e perfil de sensibilidade",
+      "Suporte de suas complicações (manejo de hipertensão intracraniana, convulsões, quando presentes)",
+    ],
+    complicacoes: [
+      "Aguda: edema cerebral com hipertensão intracraniana, convulsões, choque séptico",
+      "Crônica: perda auditiva neurossensorial, déficits cognitivos e neurológicos focais, hidrocefalia",
+    ],
+    redFlags: [
+      "Febre, cefaleia e rigidez de nuca associadas a rebaixamento do nível de consciência ou déficit focal — a antibioticoterapia empírica não deve ser postergada para realização de exames de imagem ou mesmo da punção lombar, se houver atraso previsto",
+    ],
+    prognostico:
+      "Mortalidade e risco de sequelas neurológicas significativos mesmo com tratamento adequado, sendo o tempo até o início da antibioticoterapia o principal determinante modificável do desfecho — cada hora de atraso piora o prognóstico.",
+    pontosDeProva: [
+      "O padrão liquórico de meningite bacteriana (neutrofílico, proteína alta, glicose baixa) contrasta com o padrão viral (linfocitário, glicose normal), sendo distinção clássica de prova",
+      "A dexametasona, quando indicada, deve ser administrada antes ou junto com a primeira dose de antibiótico — não depois —, pois seu benefício em reduzir complicações neurológicas está ligado ao momento da administração em relação à lise bacteriana",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 24 anos, previamente hígida, apresenta febre alta, cefaleia intensa e rigidez de nuca há 12 horas, com confusão mental progressiva nas últimas 2 horas. Exame neurológico sem déficit focal.",
+      pergunta: "Qual é a conduta diagnóstica e terapêutica imediata?",
+      raciocinio:
+        "A tríade febre, cefaleia intensa e rigidez de nuca associada a rebaixamento do nível de consciência é altamente sugestiva de meningite bacteriana aguda, uma emergência neurológica. A ausência de déficit focal e de outros sinais de hipertensão intracraniana permite punção lombar imediata sem necessidade de tomografia prévia.",
+      conduta:
+        "Colher hemoculturas e realizar punção lombar imediatamente, iniciar antibioticoterapia empírica intravenosa sem demora (associada a dexametasona antes ou junto da primeira dose), e ajustar o esquema conforme resultado do Gram/cultura do líquido cefalorraquidiano.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia e agentes etiológicos por faixa etária", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Critérios liquóricos e indicação de tomografia antes da punção lombar", fonte: "IDSA Practice Guidelines for the Management of Bacterial Meningitis, 2004" },
+      { tema: "Ceftriaxona/vancomicina/dexametasona no tratamento (ainda sem fichas próprias no site)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "sepse",
+    nome: "Sepse",
+    sinonimos: ["Septicemia", "Choque séptico"],
+    cid10: "A41",
+    especialidade: "Infectologia",
+    etiologia: "Multifatorial",
+    resumo: "Disfunção orgânica potencialmente fatal causada por uma resposta desregulada do hospedeiro à infecção, exigindo reconhecimento e tratamento precoces (antibiótico e ressuscitação volêmica) para reduzir mortalidade.",
+    definicao:
+      "Segundo o Consenso Sepsis-3, sepse é definida como disfunção orgânica com risco de vida causada por uma resposta desregulada do hospedeiro à infecção, operacionalizada clinicamente como aumento agudo de pelo menos 2 pontos no escore SOFA (Sequential Organ Failure Assessment) atribuível à infecção. Choque séptico é o subgrupo de sepse com anormalidades circulatórias, celulares e metabólicas graves o suficiente para aumentar substancialmente a mortalidade.",
+    epidemiologia:
+      "Causa importante de morbimortalidade em pacientes hospitalizados, especialmente em unidades de terapia intensiva; pode se originar de qualquer foco infeccioso (pulmonar, urinário, abdominal, de pele/partes moles, entre outros), com o agente etiológico variando conforme o foco e o contexto (comunitário vs. associado a cuidados de saúde).",
+    fisiopatologia:
+      "A infecção desencadeia uma resposta imune sistêmica desregulada, com liberação maciça de mediadores pró-inflamatórios que causam disfunção endotelial generalizada, vasodilatação inapropriada, aumento da permeabilidade capilar e comprometimento da microcirculação, levando a hipoperfusão tecidual e disfunção de múltiplos órgãos, mesmo à distância do foco infeccioso original.",
+    classificacao:
+      "Pelo Sepsis-3 (2016): sepse (disfunção orgânica com aumento de SOFA ≥2 pontos por infecção) e choque séptico (sepse com necessidade de vasopressor para manter pressão arterial média ≥65 mmHg e lactato >2 mmol/L, apesar de ressuscitação volêmica adequada). O qSOFA (frequência respiratória ≥22 irpm, alteração do nível de consciência, pressão arterial sistólica ≤100 mmHg) é usado como ferramenta rápida de triagem à beira-leito para identificar pacientes com maior risco de desfecho desfavorável, fora da UTI.",
+    quadroClinico: [
+      "Febre ou hipotermia, taquicardia, taquipneia",
+      "Sinais de hipoperfusão: extremidades frias, tempo de enchimento capilar prolongado, alteração do nível de consciência, oligúria",
+      "Sinais e sintomas relacionados ao foco infeccioso primário (ex.: tosse e dispneia em foco pulmonar, dor abdominal em foco intra-abdominal)",
+      "Hipotensão refratária a fluidos no choque séptico estabelecido",
+    ],
+    diagnostico: [
+      "Identificação clínica de infecção suspeita ou confirmada associada a disfunção orgânica aguda (aumento de SOFA ≥2 pontos)",
+      "qSOFA como triagem rápida à beira-leito fora da UTI, para identificar pacientes de maior risco que merecem avaliação mais detalhada",
+      "Lactato sérico elevado (>2 mmol/L) reforça a suspeita de hipoperfusão tecidual, mesmo na ausência de hipotensão franca",
+    ],
+    examesComplementares: [
+      "Lactato sérico: >2 mmol/L sugere hipoperfusão; >4 mmol/L associa-se a maior gravidade e é critério de choque séptico quando associado a necessidade de vasopressor",
+      "Hemoculturas (idealmente antes do início do antibiótico, sem atrasar seu início) e culturas direcionadas ao foco suspeito",
+      "Função renal, hepática, coagulograma e gasometria para cálculo do escore SOFA e avaliação de disfunções orgânicas",
+    ],
+    diagnosticoDiferencial: [
+      "Síndrome da resposta inflamatória sistêmica de causa não infecciosa (pancreatite, trauma, grande queimado)",
+      "Choque de outras etiologias (cardiogênico, hipovolêmico, obstrutivo)",
+    ],
+    tratamento: [
+      "Antibioticoterapia empírica de amplo espectro o mais precocemente possível, idealmente na primeira hora de reconhecimento (conceito de 'hora de ouro'), ajustada posteriormente conforme cultura e foco identificado",
+      "Ressuscitação volêmica com cristaloides como medida inicial para restaurar a perfusão tecidual",
+      "Vasopressores (norepinefrina como primeira escolha) quando a hipotensão persiste apesar de ressuscitação volêmica adequada, caracterizando choque séptico",
+      "Controle do foco infeccioso quando aplicável (drenagem de abscesso, remoção de dispositivo infectado, desbridamento cirúrgico)",
+    ],
+    complicacoes: [
+      "Aguda: disfunção de múltiplos órgãos, coagulação intravascular disseminada, síndrome do desconforto respiratório agudo",
+      "Crônica: síndrome pós-sepse, com fraqueza muscular prolongada, disfunção cognitiva e maior risco de novas infecções em sobreviventes",
+    ],
+    redFlags: [
+      "Hipotensão refratária a fluidos associada a lactato elevado em paciente com infecção suspeita — choque séptico estabelecido, exigindo vasopressor e manejo intensivo imediato",
+    ],
+    prognostico:
+      "Mortalidade significativa, especialmente no choque séptico, fortemente relacionada à precocidade do reconhecimento e do início de antibioticoterapia e ressuscitação adequadas — cada hora de atraso no início do antibiótico associa-se a pior desfecho.",
+    pontosDeProva: [
+      "O qSOFA é uma ferramenta de triagem rápida, não um critério diagnóstico formal de sepse (que depende do SOFA completo) — um qSOFA negativo não exclui sepse, apenas indica menor probabilidade imediata de desfecho desfavorável",
+      "A 'hora de ouro' no início da antibioticoterapia é um dos pilares mais citados em prova sobre sepse, refletindo a relação direta entre atraso terapêutico e aumento de mortalidade",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 68 anos, diabético, é internado por pielonefrite. Após 12 horas, apresenta confusão mental aguda, frequência respiratória de 26 irpm e pressão arterial de 88x52 mmHg. Lactato: 3,8 mmol/L.",
+      pergunta: "Este paciente preenche critérios de sepse/choque séptico? Qual a conduta imediata?",
+      raciocinio:
+        "A infecção urinária confirmada associada a disfunção orgânica aguda (alteração do nível de consciência, hipotensão, taquipneia) e lactato elevado é compatível com sepse; a hipotensão associada ao lactato elevado levanta suspeita de evolução para choque séptico, a depender da resposta à ressuscitação volêmica inicial.",
+      conduta:
+        "Iniciar antibioticoterapia empírica de amplo espectro imediatamente, colher hemoculturas sem atrasar o antibiótico, iniciar ressuscitação volêmica com cristaloides, e considerar vasopressor (norepinefrina) se a hipotensão persistir apesar de fluidos adequados.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Definições de sepse e choque séptico (Sepsis-3)", fonte: "Singer M et al., The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3), JAMA, 2016" },
+      { tema: "Pacotes de tratamento precoce (antibiótico, fluidos, lactato)", fonte: "Surviving Sepsis Campaign: International Guidelines, 2021" },
+      { tema: "Antibioticoterapia empírica e vasopressores (ainda sem fichas próprias no site com essa indicação)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "doenca-de-chagas",
+    nome: "Doença de Chagas",
+    sinonimos: ["Tripanossomíase americana"],
+    cid10: "B57",
+    especialidade: "Infectologia",
+    etiologia: "Parasitária",
+    resumo: "Infecção parasitária crônica causada pelo Trypanosoma cruzi, transmitida principalmente por triatomíneos (barbeiro), com potencial de acometimento cardíaco e digestivo décadas após a infecção inicial.",
+    definicao:
+      "Doença infecciosa parasitária causada pelo protozoário Trypanosoma cruzi, transmitida classicamente pela picada e contato com as fezes de triatomíneos infectados (o 'barbeiro'), além de transmissão oral (alimentos contaminados), transfusional, vertical e por transplante de órgãos, com evolução de uma fase aguda para uma fase crônica que pode durar décadas.",
+    epidemiologia:
+      "Endêmica em áreas rurais da América Latina, incluindo o Brasil, embora a urbanização e a migração tenham levado a casos também em áreas urbanas e em outros continentes; surtos de transmissão oral por alimentos contaminados têm ganhado relevância epidemiológica em algumas regiões.",
+    fisiopatologia:
+      "Após a infecção, o Trypanosoma cruzi se dissemina e invade células de diversos tecidos, incluindo miocárdio e plexos nervosos do tubo digestivo, onde persiste cronicamente. A lesão tecidual crônica na fase cardíaca/digestiva decorre de uma combinação de persistência parasitária de baixo grau e resposta imunoinflamatória crônica, causando destruição progressiva do miocárdio (com fibrose e arritmias) e denervação do plexo mioentérico (causando megaesôfago e megacólon).",
+    classificacao:
+      "Classificada em fase aguda (semanas após a infecção, geralmente oligossintomática ou assintomática) e fase crônica, que se subdivide em forma indeterminada (assintomática, sem alterações cardíacas ou digestivas detectáveis, a mais comum), forma cardíaca (cardiomiopatia chagásica, com arritmias e insuficiência cardíaca) e forma digestiva (megaesôfago, megacólon).",
+    quadroClinico: [
+      "Fase aguda: geralmente assintomática ou com febre inespecífica; sinal de Romaña (edema bipalpebral unilateral) ou chagoma de inoculação quando há porta de entrada cutânea/conjuntival identificável",
+      "Forma indeterminada crônica: assintomática, com sorologia positiva mas sem alterações cardíacas ou digestivas detectáveis nos exames",
+      "Forma cardíaca crônica: palpitações por arritmias, sintomas de insuficiência cardíaca, síncope",
+      "Forma digestiva crônica: disfagia progressiva (megaesôfago), constipação importante (megacólon)",
+    ],
+    diagnostico: [
+      "Fase aguda: pesquisa direta do parasita (exame a fresco de sangue periférico, método de concentração) ou PCR, dada a parasitemia mais elevada nessa fase",
+      "Fase crônica: sorologia (pelo menos dois métodos diferentes reagentes, como ELISA e imunofluorescência indireta), já que a parasitemia é muito baixa e a pesquisa direta tem baixa sensibilidade",
+      "Eletrocardiograma e ecocardiograma para avaliação cardíaca, e estudos radiológicos contrastados (esofagograma, enema opaco) para avaliação digestiva na fase crônica",
+    ],
+    examesComplementares: [
+      "Exame parasitológico direto (fase aguda) ou sorologia com dois métodos distintos (fase crônica)",
+      "Eletrocardiograma (bloqueio de ramo direito associado a hemibloqueio anterior esquerdo é achado clássico da cardiopatia chagásica)",
+      "Ecocardiograma para avaliação de função ventricular e aneurisma de ponta (achado característico)",
+    ],
+    diagnosticoDiferencial: [
+      "Outras cardiomiopatias dilatadas",
+      "Outras causas de megaesôfago/megacólon (acalasia idiopática, doença de Hirschsprung)",
+    ],
+    tratamento: [
+      "Benznidazol como tratamento antiparasitário de escolha, com maior eficácia quando iniciado na fase aguda ou em crianças/jovens na fase crônica recente",
+      "Tratamento sintomático e específico das complicações cardíacas (conforme princípios do tratamento de arritmias e insuficiência cardíaca) e digestivas (dilatação endoscópica, cirurgia em megaesôfago/megacólon avançados) na fase crônica estabelecida",
+      "Acompanhamento cardiológico regular em portadores crônicos, mesmo na forma indeterminada, pela possibilidade de evolução tardia para forma cardíaca",
+    ],
+    complicacoes: [
+      "Aguda: miocardite aguda grave (rara, mas pode ser fatal, especialmente em imunossuprimidos ou transmissão oral com alta carga parasitária)",
+      "Crônica: insuficiência cardíaca progressiva, arritmias malignas e morte súbita, tromboembolismo (por aneurisma de ponta ventricular), megaesôfago/megacólon com suas complicações (aspiração, volvo)",
+    ],
+    redFlags: [
+      "Síncope ou palpitações significativas em paciente com doença de Chagas conhecida — investigar arritmias malignas, que são causa importante de morte súbita nessa condição",
+    ],
+    prognostico:
+      "A maioria dos infectados permanece na forma indeterminada por toda a vida sem repercussão clínica significativa; uma parcela evolui para forma cardíaca ou digestiva ao longo de décadas, sendo a forma cardíaca a de maior impacto na mortalidade, principalmente por morte súbita arrítmica.",
+    pontosDeProva: [
+      "O bloqueio de ramo direito associado a hemibloqueio anterior esquerdo no eletrocardiograma é um achado clássico e sugestivo de cardiopatia chagásica, especialmente em pacientes de área endêmica",
+      "O tratamento com benznidazol tem eficácia muito maior na fase aguda e em crianças/jovens na fase crônica recente do que na fase crônica estabelecida em adultos, onde o benefício sobre a progressão da doença é mais controverso",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 55 anos, natural de área rural endêmica para doença de Chagas, é encaminhado após ECG de rotina mostrar bloqueio de ramo direito associado a hemibloqueio anterior esquerdo. Assintomático, sem queixas cardiovasculares.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e a investigação subsequente apropriada?",
+      raciocinio:
+        "O padrão eletrocardiográfico de bloqueio de ramo direito com hemibloqueio anterior esquerdo, em paciente de área endêmica, é altamente sugestivo de cardiopatia chagásica crônica, mesmo na ausência de sintomas.",
+      conduta:
+        "Confirmar a infecção por sorologia com dois métodos distintos, complementar com ecocardiograma para avaliação de função ventricular e pesquisa de aneurisma de ponta, e manter acompanhamento cardiológico regular dado o risco de progressão e arritmias.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia e formas clínicas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Achados eletrocardiográficos característicos", fonte: "Diretriz da Sociedade Brasileira de Cardiologia sobre Doença de Chagas, 2018" },
+      { tema: "Benznidazol no tratamento (ainda sem ficha própria no site)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "toxoplasmose",
+    nome: "Toxoplasmose",
+    sinonimos: ["Toxoplasmose adquirida", "Neurotoxoplasmose"],
+    cid10: "B58",
+    especialidade: "Infectologia",
+    etiologia: "Parasitária",
+    resumo: "Infecção parasitária causada pelo Toxoplasma gondii, geralmente assintomática ou leve em imunocompetentes, mas potencialmente grave em imunossuprimidos (reativação cerebral) e na transmissão congênita.",
+    definicao:
+      "Infecção causada pelo protozoário Toxoplasma gondii, adquirida por ingestão de oocistos (contato com fezes de felinos) ou cistos teciduais (carne malcozida), geralmente assintomática ou autolimitada em indivíduos imunocompetentes, mas com potencial de doença grave em contextos específicos: reativação em imunossuprimidos e infecção congênita quando adquirida na gestação.",
+    epidemiologia:
+      "Infecção extremamente comum globalmente, com soroprevalência elevada em muitas populações adultas, refletindo a alta frequência de infecção assintomática prévia. A relevância clínica concentra-se em gestantes não imunes (risco de toxoplasmose congênita) e em pacientes imunossuprimidos, especialmente com AIDS avançada (risco de reativação cerebral).",
+    fisiopatologia:
+      "Após a infecção primária, o parasita forma cistos teciduais latentes, principalmente em tecido muscular e sistema nervoso central, controlados pela resposta imune celular do hospedeiro imunocompetente. Em estados de imunossupressão significativa, esses cistos podem reativar, causando encefalite/abscessos cerebrais focais (neurotoxoplasmose). Na gestação, a parasitemia materna durante a infecção aguda pode atravessar a placenta e infectar o feto, com gravidade da doença congênita inversamente relacionada à idade gestacional no momento da infecção (mais grave quanto mais precoce, mas transmissão mais provável quanto mais tardia).",
+    classificacao:
+      "Classificada por contexto clínico: toxoplasmose aguda adquirida em imunocompetente (geralmente assintomática ou oligossintomática), toxoplasmose em imunossuprimido (principalmente reativação com neurotoxoplasmose) e toxoplasmose congênita (transmissão vertical durante infecção materna aguda na gestação).",
+    quadroClinico: [
+      "Imunocompetente: geralmente assintomática; quando sintomática, linfadenopatia cervical, febre baixa e mal-estar, semelhante a uma síndrome mononucleose-like",
+      "Imunossuprimido (neurotoxoplasmose): cefaleia, febre, déficits neurológicos focais, convulsões, alteração do nível de consciência",
+      "Congênita: espectro amplo, de assintomática ao nascimento (com sequelas tardias possíveis) a tétrade clássica grave (coriorretinite, hidrocefalia, calcificações intracranianas, convulsões)",
+    ],
+    diagnostico: [
+      "Sorologia IgG/IgM para triagem e caracterização da fase da infecção",
+      "Teste de avidez de IgG para estimar o período aproximado da infecção, particularmente relevante para datar infecção na gestação",
+      "Neuroimagem (tomografia ou ressonância) mostrando lesões com efeito de massa, tipicamente múltiplas e com realce em anel, na suspeita de neurotoxoplasmose em imunossuprimido",
+    ],
+    examesComplementares: [
+      "Sorologia IgG e IgM para Toxoplasma gondii",
+      "Teste de avidez de IgG (avidez alta sugere infecção mais antiga, útil para datar a infecção na gestação)",
+      "Ressonância magnética de crânio na suspeita de neurotoxoplasmose (lesões com realce em anel, geralmente múltiplas, em núcleos da base e junção corticossubcortical)",
+    ],
+    diagnosticoDiferencial: [
+      "Linfoma primário do sistema nervoso central (principal diferencial de neurotoxoplasmose em paciente com AIDS)",
+      "Mononucleose infecciosa (no diagnóstico diferencial da toxoplasmose aguda em imunocompetente)",
+      "Outras causas de infecção congênita (citomegalovírus, rubéola, sífilis, herpes — grupo TORCH)",
+    ],
+    tratamento: [
+      "Imunocompetente assintomático ou oligossintomático: geralmente não requer tratamento específico, pela evolução benigna autolimitada",
+      "Neurotoxoplasmose em imunossuprimido: combinação de sulfadiazina e pirimetamina (com ácido folínico associado, para reduzir toxicidade hematológica), como esquema de escolha",
+      "Toxoplasmose aguda confirmada na gestação: tratamento específico direcionado a reduzir risco/gravidade de transmissão congênita, conforme protocolo obstétrico especializado",
+      "Profilaxia secundária de neurotoxoplasmose em pacientes com AIDS até recuperação imunológica sustentada com terapia antirretroviral",
+    ],
+    complicacoes: [
+      "Aguda: neurotoxoplasmose com efeito de massa significativo e hipertensão intracraniana em imunossuprimidos",
+      "Crônica: sequelas neurológicas e coriorretinite na toxoplasmose congênita, podendo se manifestar tardiamente mesmo em crianças assintomáticas ao nascimento",
+    ],
+    redFlags: [
+      "Cefaleia, febre e déficit neurológico focal em paciente com AIDS e CD4 muito baixo — suspeitar de neurotoxoplasmose e iniciar investigação e tratamento empírico prontamente, dado o risco de deterioração rápida",
+    ],
+    prognostico:
+      "Excelente na infecção adquirida em imunocompetentes, geralmente autolimitada; a neurotoxoplasmose responde bem ao tratamento específico na maioria dos casos, mas exige diagnóstico e início terapêutico oportunos; a toxoplasmose congênita tem prognóstico variável, desde assintomática até sequelas neurológicas e visuais significativas.",
+    pontosDeProva: [
+      "Em paciente com AIDS e lesão cerebral com efeito de massa, o principal diagnóstico diferencial de neurotoxoplasmose é o linfoma primário do sistema nervoso central — a resposta clínica e radiológica ao tratamento empírico para toxoplasmose em poucas semanas favorece esse diagnóstico e frequentemente evita biópsia cerebral inicial",
+      "O teste de avidez de IgG é fundamental para datar a infecção por toxoplasmose na gestação, distinguindo infecção recente (maior risco fetal se ainda na gestação) de infecção antiga (sem risco de transmissão congênita)",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 34 anos, com AIDS avançada (CD4 de 45 células/mm³) e má adesão à terapia antirretroviral, apresenta cefaleia progressiva, febre e hemiparesia direita de início há 5 dias. Ressonância magnética mostra múltiplas lesões com realce em anel em núcleos da base.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "O contexto de imunossupressão avançada (CD4 muito baixo) associado a déficit neurológico focal e lesões com realce em anel em localização típica é altamente sugestivo de neurotoxoplasmose, embora linfoma primário do sistema nervoso central seja diferencial importante.",
+      conduta:
+        "Iniciar tratamento empírico com sulfadiazina e pirimetamina associadas a ácido folínico, e reavaliar com nova neuroimagem em 1-2 semanas — a resposta clínica e radiológica favorável reforça o diagnóstico de neurotoxoplasmose, reservando biópsia cerebral para os casos sem resposta ao tratamento empírico.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia e reativação em imunossuprimidos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Diagnóstico diferencial com linfoma primário do SNC e resposta ao tratamento empírico", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Sulfadiazina/pirimetamina no tratamento (ainda sem fichas próprias no site)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "leishmaniose",
+    nome: "Leishmaniose",
+    sinonimos: ["Calazar (forma visceral)", "Úlcera de Bauru (forma cutânea)"],
+    cid10: "B55",
+    especialidade: "Infectologia",
+    etiologia: "Parasitária",
+    resumo: "Infecção parasitária transmitida por flebotomíneos, com espectro clínico que varia de lesões cutâneas localizadas a uma forma visceral grave e potencialmente fatal se não tratada.",
+    definicao:
+      "Doença causada por protozoários do gênero Leishmania, transmitidos pela picada de fêmeas infectadas de flebotomíneos, com apresentação clínica variável conforme a espécie do parasita e a resposta imune do hospedeiro, variando de lesões cutâneas localizadas a doença visceral sistêmica grave.",
+    epidemiologia:
+      "Endêmica em diversas regiões do Brasil, com a forma cutânea sendo mais amplamente distribuída e a forma visceral concentrada em áreas endêmicas específicas, associada a maior letalidade quando não tratada, especialmente em crianças pequenas, idosos e imunossuprimidos.",
+    fisiopatologia:
+      "Após a picada do vetor, promastigotas infectam macrófagos e se transformam em amastigotas, que se multiplicam intracelularmente. O comportamento clínico depende do equilíbrio entre a resposta imune celular do hospedeiro e a espécie/virulência do parasita: uma resposta imune celular eficaz tende a limitar a infecção à pele (forma cutânea localizada), enquanto uma resposta inadequada, especialmente com determinadas espécies viscerotrópicas, permite disseminação para o sistema reticuloendotelial (baço, fígado, medula óssea), causando a forma visceral.",
+    classificacao:
+      "Classificada em leishmaniose cutânea (lesões ulceradas localizadas na pele, no sítio da picada), leishmaniose mucocutânea (acometimento secundário de mucosas nasal/oral, potencialmente destrutivo, mais tardio) e leishmaniose visceral (calazar — acometimento sistêmico do sistema reticuloendotelial, forma mais grave e potencialmente fatal se não tratada).",
+    quadroClinico: [
+      "Cutânea: úlcera de bordas elevadas e bem delimitadas, geralmente indolor, no sítio da picada, com evolução lenta",
+      "Mucocutânea: lesões destrutivas de mucosa nasal/oral, geralmente anos após a lesão cutânea inicial não tratada adequadamente",
+      "Visceral: febre prolongada, hepatoesplenomegalia importante, perda de peso, palidez (pancitopenia associada)",
+    ],
+    diagnostico: [
+      "Cutânea/mucocutânea: identificação parasitológica direta (esfregaço, biópsia) ou histopatológico da lesão; testes moleculares quando disponíveis",
+      "Visceral: identificação parasitológica em aspirado de medula óssea ou baço, ou teste rápido sorológico (rK39) como método menos invasivo de triagem",
+      "Hemograma na forma visceral tipicamente mostra pancitopenia, refletindo o acometimento medular/hiperesplenismo",
+    ],
+    examesComplementares: [
+      "Teste rápido rK39 (sorológico) para triagem da leishmaniose visceral",
+      "Aspirado de medula óssea ou baço com identificação parasitológica para confirmação da forma visceral",
+      "Hemograma completo (pancitopenia na forma visceral) e proteínas séricas (hipergamaglobulinemia com inversão da relação albumina/globulina)",
+    ],
+    diagnosticoDiferencial: [
+      "Leishmaniose cutânea: outras causas de úlceras cutâneas crônicas (esporotricose, paracoccidioidomicose, úlceras neoplásicas)",
+      "Leishmaniose visceral: malária, esquistossomose hepatoesplênica, linfomas e leucemias (diagnóstico diferencial de febre prolongada com hepatoesplenomegalia e pancitopenia)",
+    ],
+    tratamento: [
+      "Antimoniato de meglumina como tratamento de primeira linha clássico para leishmaniose cutânea e visceral em muitos contextos",
+      "Anfotericina B (formulação lipossomal preferencialmente) como alternativa, especialmente em gestantes, imunossuprimidos, doença grave ou falha ao antimonial",
+      "Acompanhamento clínico prolongado pós-tratamento para monitorar resposta e possível recidiva, especialmente na forma visceral",
+    ],
+    complicacoes: [
+      "Aguda: pancitopenia grave com risco de infecções secundárias e sangramento na forma visceral não tratada",
+      "Crônica: destruição mutilante de estruturas nasais/orofaríngeas na forma mucocutânea não tratada adequadamente",
+    ],
+    redFlags: [
+      "Febre prolongada associada a hepatoesplenomegalia importante e pancitopenia em área endêmica — investigar ativamente leishmaniose visceral, que é fatal na maioria dos casos não tratados",
+    ],
+    prognostico:
+      "A forma cutânea tem bom prognóstico com tratamento adequado, geralmente com cicatrização completa, embora possa deixar cicatriz. A forma visceral não tratada tem mortalidade muito alta, mas responde bem ao tratamento quando iniciado oportunamente; a forma mucocutânea pode deixar sequelas destrutivas permanentes se o diagnóstico e tratamento forem tardios.",
+    pontosDeProva: [
+      "A combinação de febre prolongada, hepatoesplenomegalia e pancitopenia em área endêmica é a apresentação clássica da leishmaniose visceral (calazar) e deve sempre entrar no diagnóstico diferencial nesse contexto",
+      "A leishmaniose mucocutânea geralmente surge anos após uma lesão cutânea prévia não tratada adequadamente, reforçando a importância do tratamento correto da forma cutânea inicial para prevenir essa complicação tardia",
+    ],
+    casoClinico: {
+      vinheta:
+        "Criança, 4 anos, residente em área endêmica, apresenta febre há 6 semanas, associada a distensão abdominal progressiva e palidez importante. Exame físico revela hepatoesplenomegalia volumosa. Hemograma: pancitopenia.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e o exame confirmatório mais apropriado?",
+      raciocinio:
+        "A combinação de febre prolongada, hepatoesplenomegalia importante e pancitopenia em criança de área endêmica é altamente sugestiva de leishmaniose visceral (calazar). O teste rápido rK39 é um método sorológico rápido e menos invasivo para triagem inicial.",
+      conduta:
+        "Solicitar teste rápido rK39 para triagem sorológica e, se necessário para confirmação definitiva, aspirado de medula óssea com identificação parasitológica; iniciar tratamento (antimoniato de meglumina ou anfotericina B lipossomal, conforme protocolo e gravidade) assim que confirmado.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia e formas clínicas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Diagnóstico e tratamento da leishmaniose visceral", fonte: "Guia de Vigilância em Saúde, Ministério da Saúde" },
+      { tema: "Antimoniato de meglumina/anfotericina B no tratamento (ainda sem fichas próprias no site)", fonte: "fonte pendente" },
+    ],
+  },
 ];

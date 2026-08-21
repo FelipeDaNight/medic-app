@@ -15,7 +15,7 @@ Fontes:
   está, o único item da lista ainda pendente por esse motivo.
 
 Já documentados com ficha completa (**fora deste backlog**, não repetir):
-- **Doenças (57):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
+- **Doenças (70):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
   · Dengue · COVID-19 · Gastrite · DRGE · Artrite reumatoide · LES · Alzheimer · Anemia
   ferropriva · DRC · Infarto agudo do miocárdio · Angina pectoris · Doença isquêmica
   crônica do coração · Fibrilação e flutter atrial · Parada cardíaca · Febre reumática ·
@@ -28,7 +28,10 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   asmático · Bronquiectasia · Pneumotórax · Derrame pleural · Abscesso pulmonar · SDRA ·
   Doenças pulmonares intersticiais · Insuficiência respiratória · Bronquiolite aguda ·
   Crupe e epiglotite · Apneia obstrutiva do sono · Empiema pleural · Bronquite crônica ·
-  Câncer de pulmão
+  Câncer de pulmão · Doença pelo HIV · Sífilis precoce · Hepatite aguda B · Hepatite
+  viral crônica · Chikungunya/zika · Leptospirose · Malária por P. falciparum · Infecção
+  meningocócica · Meningite bacteriana · Sepse · Doença de Chagas · Toxoplasmose ·
+  Leishmaniose
 - **Medicamentos (21):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
@@ -89,20 +92,20 @@ parênteses, exatamente como aparece no índice.
 11. concluído — Bronquite crônica não especificada (J42)
 12. concluído — Neoplasia maligna dos brônquios e dos pulmões (C34)
 
-### Lote 4 — Infectologia (13)
-1. pendente — Doença pelo HIV (B20)
-2. pendente — Sífilis precoce (A51)
-3. pendente — Hepatite aguda B (B16)
-4. pendente — Hepatite viral crônica (B18)
-5. pendente — Outras febres virais transmitidas por mosquitos / chikungunya, zika (A92)
-6. pendente — Leptospirose (A27)
-7. pendente — Malária por Plasmodium falciparum (B50)
-8. pendente — Infecção meningocócica (A39)
-9. pendente — Meningite bacteriana (G00)
-10. pendente — Outras septicemias / sepse (A41)
-11. pendente — Doença de Chagas (B57)
-12. pendente — Toxoplasmose (B58)
-13. pendente — Leishmaniose (B55)
+### Lote 4 — Infectologia (13) — ✅ CONCLUÍDO
+1. concluído — Doença pelo HIV (B20)
+2. concluído — Sífilis precoce (A51)
+3. concluído — Hepatite aguda B (B16)
+4. concluído — Hepatite viral crônica (B18)
+5. concluído — Outras febres virais transmitidas por mosquitos / chikungunya, zika (A92)
+6. concluído — Leptospirose (A27)
+7. concluído — Malária por Plasmodium falciparum (B50)
+8. concluído — Infecção meningocócica (A39)
+9. concluído — Meningite bacteriana (G00)
+10. concluído — Outras septicemias / sepse (A41)
+11. concluído — Doença de Chagas (B57)
+12. concluído — Toxoplasmose (B58)
+13. concluído — Leishmaniose (B55)
 
 ### Lote 5 — Gastroenterologia (14)
 1. pendente — Neoplasia maligna do esôfago (C15)
@@ -221,9 +224,9 @@ parênteses, exatamente como aparece no índice.
 8. pendente — Doença inflamatória do útero / DIP (N71)
 9. pendente — Transtornos da menopausa e da perimenopausa (N95)
 
-**Total: 114 doenças pendentes em 9 lotes** (Lote 1, Cardiologia; Lote 2,
-Endocrinologia+Pneumologia; e Lote 3, Pneumologia, concluídos — 15 + 14 + 12 itens),
-além das 57 já fichadas.
+**Total: 101 doenças pendentes em 8 lotes** (Lote 1, Cardiologia; Lote 2,
+Endocrinologia+Pneumologia; Lote 3, Pneumologia; e Lote 4, Infectologia, concluídos —
+15 + 14 + 12 + 13 itens), além das 70 já fichadas.
 
 ---
 

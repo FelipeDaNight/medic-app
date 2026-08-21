@@ -53,6 +53,7 @@ export const medications: Medication[] = [
     ],
     doencasIndicadas: [
       { slug: "dengue", nome: "Dengue" },
+      { slug: "chikungunya-zika", nome: "Febres virais transmitidas por mosquitos (chikungunya e zika)" },
     ],
     fontes: [
       { tema: "Mecanismo de ação e farmacocinética", fonte: "Goodman & Gilman, As Bases Farmacológicas da Terapêutica, 13ª ed." },
