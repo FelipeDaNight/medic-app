@@ -174,7 +174,12 @@ export const medications: Medication[] = [
       "A 'tríade' AINE + IECA/BRA + diurético é um clássico de prova pelo risco de lesão renal aguda",
       "AINEs devem ser evitados no terceiro trimestre pelo risco de fechamento precoce do ducto arterioso",
     ],
-    doencasIndicadas: [],
+    doencasIndicadas: [
+      { slug: "osteoartrose", nome: "Osteoartrose" },
+      { slug: "gota", nome: "Gota" },
+      { slug: "espondilite-anquilosante", nome: "Espondilite anquilosante" },
+      { slug: "dorsalgia-lombalgia", nome: "Dorsalgia (lombalgia)" },
+    ],
     fontes: [
       { tema: "Mecanismo de ação e efeitos adversos", fonte: "Goodman & Gilman, 13ª ed." },
     ],
@@ -294,6 +299,7 @@ export const medications: Medication[] = [
       { slug: "pneumonia-adquirida-na-comunidade", nome: "Pneumonia adquirida na comunidade" },
       { slug: "abscesso-pulmonar", nome: "Abscesso do pulmão e do mediastino" },
       { slug: "colecistite", nome: "Colecistite" },
+      { slug: "doenca-diverticular", nome: "Doença diverticular do intestino" },
     ],
     fontes: [
       { tema: "Mecanismo de ação (inibição de betalactamase)", fonte: "Goodman & Gilman, 13ª ed." },
@@ -542,6 +548,7 @@ export const medications: Medication[] = [
       { slug: "infarto-agudo-miocardio", nome: "Infarto agudo do miocárdio" },
       { slug: "cardiomiopatias", nome: "Cardiomiopatias" },
       { slug: "aneurisma-dissecao-aorta", nome: "Aneurisma e dissecção da aorta" },
+      { slug: "esclerose-sistemica", nome: "Esclerose sistêmica" },
     ],
     fontes: [
       { tema: "Mecanismo de ação", fonte: "Goodman & Gilman, 13ª ed." },
@@ -732,6 +739,8 @@ export const medications: Medication[] = [
       { slug: "doencas-pulmonares-intersticiais", nome: "Doenças pulmonares intersticiais" },
       { slug: "doenca-de-crohn", nome: "Doença de Crohn" },
       { slug: "colite-ulcerativa", nome: "Colite ulcerativa" },
+      { slug: "dermatopoliomiosite", nome: "Dermatopoliomiosite" },
+      { slug: "poliarterite-nodosa-vasculites", nome: "Poliarterite nodosa e outras vasculites" },
     ],
     fontes: [
       { tema: "Mecanismo de ação glicocorticoide", fonte: "Goodman & Gilman, 13ª ed." },
@@ -1288,6 +1297,507 @@ export const medications: Medication[] = [
     fontes: [
       { tema: "Mecanismo de ação (inibição de SGLT2)", fonte: "Goodman & Gilman, 13ª ed." },
       { tema: "Benefício em IC e DRC independente do controle glicêmico", fonte: "Diretriz de Insuficiência Cardíaca Crônica, SBC 2021 / KDIGO Clinical Practice Guideline for CKD, 2024" },
+    ],
+  },
+  {
+    slug: "levotiroxina-sodica",
+    nome: "Levotiroxina sódica",
+    nomeComercial: ["Synthroid", "Puran T4"],
+    principioAtivo: "Levotiroxina sódica",
+    categoria: "Hormônio tireoidiano",
+    codigoAtc: "H03AA01",
+    tarja: "Tarja vermelha",
+    formaFarmaceutica: "Comprimido",
+    viaAdministracao: "Oral",
+    resumo: "Hormônio tireoidiano sintético, tratamento de reposição de escolha no hipotireoidismo, com meia-vida longa que permite dose única diária.",
+    indicacoes: [
+      "Hipotireoidismo primário e central",
+      "Supressão de TSH em nódulos/carcinoma diferenciado de tireoide selecionados",
+      "Bócio simples eutireoidiano (uso seletivo)",
+    ],
+    mecanismoAcao:
+      "Repõe o hormônio tireoidiano endógeno (T4), que é convertido perifericamente em T3 (forma biologicamente mais ativa) e se liga a receptores nucleares que regulam a transcrição gênica envolvida no metabolismo basal e no desenvolvimento de praticamente todos os tecidos.",
+    farmacocinetica:
+      "Absorção oral variável, reduzida por alimentos e por cálcio, ferro e inibidores da bomba de prótons administrados concomitantemente. Meia-vida longa (cerca de 7 dias), o que permite dose única diária e tolera esquecimentos ocasionais sem grande impacto. Conversão periférica a T3 pelas desiodases teciduais.",
+    posologia:
+      "Adultos: dose inicial de aproximadamente 1,6 mcg/kg/dia por via oral, em jejum, pela manhã; iniciar com doses menores (25–50 mcg/dia) e titulação gradual em idosos e cardiopatas, pelo risco de precipitar isquemia miocárdica com reposição rápida.",
+    ajusteRenalHepatico:
+      "Não requer ajuste renal. Em hepatopatia significativa, iniciar com doses menores e reavaliar TSH com mais frequência.",
+    gestacaoLactacao:
+      "Segura na gestação — a necessidade de dose tipicamente aumenta (cerca de 30-50%) devido ao aumento da globulina ligadora de tiroxina e à transferência placentária; compatível com a lactação em doses habituais.",
+    contraindicacoes: [
+      "Tireotoxicose não tratada",
+      "Insuficiência adrenal não corrigida (deve ser tratada antes, pelo risco de precipitar crise adrenal)",
+      "Infarto agudo do miocárdio recente não estabilizado (cautela, iniciar com doses baixas)",
+    ],
+    efeitosColaterais: [
+      "Sintomas de tireotoxicose por sobredosagem (palpitações, tremor, perda de peso, insônia)",
+      "Arritmias, especialmente em idosos e cardiopatas com dose excessiva",
+      "Redução de densidade mineral óssea com supressão crônica excessiva do TSH",
+    ],
+    interacoes: [
+      "Cálcio, ferro, inibidores da bomba de prótons e colestiramina reduzem a absorção — espaçar a administração em pelo menos 4 horas",
+      "Varfarina: pode potencializar o efeito anticoagulante, exigindo monitorização mais próxima do INR",
+      "Pode aumentar a necessidade de insulina ou hipoglicemiantes orais em diabéticos",
+    ],
+    monitorizacao: [
+      "TSH a cada 6-8 semanas após início ou ajuste de dose, depois anualmente em dose estável",
+    ],
+    alertas: [
+      "Em pacientes com insuficiência adrenal concomitante (ex.: hipopituitarismo), sempre repor glicocorticoide antes de iniciar levotiroxina — a reposição tireoidiana pode acelerar o metabolismo do cortisol residual e precipitar crise adrenal.",
+    ],
+    similares: ["Liotironina (T3, uso seletivo em situações específicas)"],
+    pontosDeProva: [
+      "TSH é o parâmetro central de monitorização no hipotireoidismo primário — não o T4 livre isoladamente, que responde mais lentamente aos ajustes de dose",
+      "Deve ser tomada em jejum, com intervalo de cálcio, ferro e inibidores da bomba de prótons, que reduzem significativamente sua absorção",
+    ],
+    doencasIndicadas: [
+      { slug: "hipotireoidismo", nome: "Hipotireoidismo" },
+      { slug: "tireoidite", nome: "Tireoidite" },
+    ],
+    fontes: [
+      { tema: "Código ATC e dados de posologia/forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
+      { tema: "Mecanismo de ação e farmacocinética", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Monitorização por TSH e ajuste de dose", fonte: "American Thyroid Association, Guidelines for the Treatment of Hypothyroidism, 2014" },
+    ],
+  },
+  {
+    slug: "esquema-ripe",
+    nome: "Esquema RIPE (rifampicina + isoniazida + pirazinamida + etambutol)",
+    nomeComercial: ["Comprimido em dose fixa combinada 4 em 1 (Ministério da Saúde)"],
+    principioAtivo: "Rifampicina + Isoniazida + Pirazinamida + Etambutol",
+    categoria: "Antituberculostáticos (esquema combinado de primeira linha)",
+    codigoAtc: "J04AM06",
+    tarja: "Tarja vermelha",
+    formaFarmaceutica: "Comprimido revestido em dose fixa combinada (150+75+400+275 mg), Componente Estratégico",
+    viaAdministracao: "Oral",
+    resumo: "Esquema padronizado de primeira linha para tuberculose sensível: 2 meses de rifampicina, isoniazida, pirazinamida e etambutol (fase intensiva), seguidos de 4 meses de rifampicina e isoniazida (fase de manutenção).",
+    indicacoes: [
+      "Tuberculose pulmonar e extrapulmonar sensível (fase intensiva, 2 primeiros meses)",
+      "Continuação do tratamento com rifampicina e isoniazida isoladas na fase de manutenção (meses 3-6)",
+    ],
+    mecanismoAcao:
+      "Cada componente atua por mecanismo distinto, combinados para maximizar a eficácia e prevenir seleção de resistência: a rifampicina inibe a RNA polimerase bacteriana dependente de DNA; a isoniazida inibe a síntese de ácidos micólicos da parede celular micobacteriana (pró-droga ativada pela catalase-peroxidase bacteriana); a pirazinamida é ativa principalmente no ambiente ácido intracelular/de necrose caseosa, com mecanismo relacionado à disrupção da membrana bacteriana; o etambutol inibe arabinosil-transferases envolvidas na síntese do arabinogalactano da parede celular.",
+    farmacocinetica:
+      "Boa absorção oral para os quatro componentes. A rifampicina é um potente indutor do citocromo P450 hepático, com implicações importantes para interações medicamentosas. A isoniazida sofre acetilação hepática com polimorfismo genético (acetiladores rápidos/lentos), influenciando eficácia e toxicidade. O etambutol tem eliminação predominantemente renal, exigindo ajuste em insuficiência renal.",
+    posologia:
+      "Dose ajustada por faixa de peso corporal, uma vez ao dia, em jejum: fase intensiva com os quatro fármacos combinados por 2 meses, seguida de fase de manutenção com rifampicina e isoniazida por mais 4 meses, totalizando 6 meses no esquema básico para tuberculose sensível sem comprometimento do sistema nervoso central.",
+    ajusteRenalHepatico:
+      "Etambutol requer ajuste de dose em insuficiência renal (risco de acúmulo e neurite óptica). Monitorização hepática rigorosa é necessária para todos os componentes hepatotóxicos (rifampicina, isoniazida, pirazinamida); reduzir ou ajustar esquema em hepatopatia significativa, individualizando com apoio especializado.",
+    gestacaoLactacao:
+      "O esquema RIPE é considerado seguro e é o tratamento padrão da tuberculose na gestação; suplementação de piridoxina (vitamina B6) é recomendada para reduzir o risco de neuropatia periférica por isoniazida. Compatível com a lactação.",
+    contraindicacoes: [
+      "Hepatopatia grave descompensada (individualizar esquema com apoio especializado)",
+      "Hipersensibilidade conhecida a algum dos componentes",
+    ],
+    efeitosColaterais: [
+      "Hepatotoxicidade (risco compartilhado pelos três componentes hepatotóxicos: rifampicina, isoniazida e pirazinamida)",
+      "Coloração alaranjada de urina, suor e lágrimas pela rifampicina (efeito esperado, não indica toxicidade)",
+      "Neuropatia periférica pela isoniazida (prevenível com suplementação de piridoxina)",
+      "Hiperuricemia e artralgia pela pirazinamida",
+      "Neurite óptica dose-dependente pelo etambutol (redução de acuidade visual e discriminação de cores, geralmente reversível se identificada precocemente)",
+    ],
+    interacoes: [
+      "Rifampicina é potente indutor do CYP450, reduzindo significativamente a eficácia de anticoncepcionais orais, varfarina e diversos outros fármacos metabolizados por essa via",
+      "Isoniazida inibe algumas enzimas hepáticas, podendo aumentar a toxicidade de fármacos como a fenitoína",
+      "Álcool aumenta o risco de hepatotoxicidade do esquema",
+    ],
+    monitorizacao: [
+      "Função hepática (transaminases) periódica, especialmente nas primeiras semanas e em pacientes de maior risco",
+      "Acuidade visual e discriminação de cores durante o uso de etambutol (rastreamento de neurite óptica)",
+      "Ácido úrico sérico (hiperuricemia relacionada à pirazinamida)",
+    ],
+    alertas: [
+      "Orientar o paciente a suspender o tratamento e procurar avaliação imediata diante de icterícia, náuseas persistentes ou dor abdominal, pelo risco de hepatotoxicidade grave.",
+      "A adesão via tratamento diretamente observado (DOT) é essencial — o abandono do tratamento é o principal fator associado ao desenvolvimento de tuberculose multirresistente.",
+    ],
+    similares: ["Esquemas de retratamento com fármacos de segunda linha em falha terapêutica ou multirresistência (Componente Especializado)"],
+    pontosDeProva: [
+      "O tratamento diretamente observado (DOT) e a garantia de adesão são mais determinantes para o desfecho do que a escolha do esquema em si",
+      "A neurite óptica pelo etambutol é dose-dependente e geralmente reversível se identificada precocemente — justifica o acompanhamento periódico de acuidade visual",
+      "A piridoxina (vitamina B6) é usada para prevenir a neuropatia periférica induzida pela isoniazida, especialmente em gestantes, desnutridos, etilistas e diabéticos",
+    ],
+    doencasIndicadas: [
+      { slug: "tuberculose-pulmonar", nome: "Tuberculose pulmonar" },
+    ],
+    fontes: [
+      { tema: "Esquema, duração das fases e posologia por peso", fonte: "Manual de Recomendações para o Controle da Tuberculose no Brasil, Ministério da Saúde" },
+      { tema: "Mecanismo de ação de cada componente", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Código ATC, forma farmacêutica e componente de financiamento (Estratégico)", fonte: "RENAME 2024, Apêndice A" },
+    ],
+  },
+  {
+    slug: "metotrexato",
+    nome: "Metotrexato",
+    nomeComercial: ["Reumatrex"],
+    principioAtivo: "Metotrexato",
+    categoria: "Imunossupressor / antimetabólito (DMARD sintético convencional)",
+    codigoAtc: "L04AX03",
+    tarja: "Tarja preta",
+    formaFarmaceutica: "Comprimido 2,5 mg; solução injetável 25 mg/mL",
+    viaAdministracao: "Oral, subcutânea ou intramuscular (dose semanal)",
+    resumo: "Droga modificadora do curso da doença (DMARD) de primeira linha na artrite reumatoide, usada em dose baixa semanal — regime completamente distinto da dose oncológica alta.",
+    indicacoes: [
+      "Artrite reumatoide",
+      "Artrite psoriásica (especialmente forma poliarticular periférica)",
+      "Dermatopoliomiosite (poupador de corticosteroide)",
+      "Psoríase grave",
+    ],
+    mecanismoAcao:
+      "Inibe a di-hidrofolato redutase, reduzindo a síntese de purinas e pirimidinas dependente de folato. No regime de dose baixa semanal usado em doenças autoimunes, o mecanismo anti-inflamatório predominante é atribuído principalmente ao aumento da liberação de adenosina extracelular, distinto do efeito antimetabólito citotóxico observado em doses oncológicas muito mais altas.",
+    farmacocinetica:
+      "Absorção oral variável e saturável em doses mais altas (a via subcutânea contorna essa limitação). Metabolização parcial hepática, com eliminação predominantemente renal — acumula-se significativamente em insuficiência renal, aumentando o risco de toxicidade.",
+    posologia:
+      "Adultos: 7,5–25 mg por via oral, subcutânea ou intramuscular, uma vez por SEMANA (nunca diariamente), associado a suplementação de ácido fólico nos dias sem metotrexato para reduzir toxicidade.",
+    ajusteRenalHepatico:
+      "Contraindicado ou com dose fortemente reduzida em insuficiência renal significativa, pelo risco de acúmulo e toxicidade grave. Contraindicado em hepatopatia significativa.",
+    gestacaoLactacao:
+      "Teratogênico e abortivo — contraindicado de forma absoluta na gestação, exigindo contracepção eficaz durante o uso e por período definido após a suspensão, tanto em mulheres quanto em homens em tratamento. Contraindicado na lactação.",
+    contraindicacoes: [
+      "Gestação e tentativa de concepção (em ambos os sexos)",
+      "Hepatopatia significativa",
+      "Insuficiência renal significativa",
+      "Consumo abusivo de álcool",
+      "Imunodeficiência significativa",
+    ],
+    efeitosColaterais: [
+      "Hepatotoxicidade, incluindo fibrose hepática com uso crônico",
+      "Mielossupressão",
+      "Estomatite e náuseas",
+      "Pneumonite por hipersensibilidade (rara, mas potencialmente grave)",
+    ],
+    interacoes: [
+      "Anti-inflamatórios não esteroidais podem reduzir a eliminação renal do metotrexato, aumentando seus níveis séricos e toxicidade",
+      "Sulfametoxazol-trimetoprima aumenta o risco de toxicidade hematológica por efeito antifolato aditivo",
+      "Álcool aumenta o risco de hepatotoxicidade",
+    ],
+    monitorizacao: [
+      "Hemograma completo e função hepática/renal antes do início e periodicamente durante o tratamento, especialmente após ajustes de dose",
+    ],
+    alertas: [
+      "A dose é SEMANAL, não diária — erro de posologia (administração diária por engano) já causou toxicidade grave e óbitos, exigindo dupla checagem rigorosa na prescrição e dispensação.",
+      "Suplementar ácido fólico para reduzir efeitos adversos sem comprometer a eficácia terapêutica.",
+    ],
+    similares: ["Leflunomida (DMARD sintético convencional alternativo)"],
+    pontosDeProva: [
+      "A posologia semanal (não diária) é um dos pontos de segurança mais cobrados sobre este medicamento — a confusão já causou intoxicações fatais",
+      "A teratogenicidade exige contracepção eficaz e suspensão do medicamento antes de tentativa de gravidez, tanto em mulheres quanto em homens",
+    ],
+    doencasIndicadas: [
+      { slug: "artrite-reumatoide", nome: "Artrite reumatoide" },
+      { slug: "artropatias-psoriasicas-enteropaticas", nome: "Artropatias psoriásicas e enteropáticas" },
+      { slug: "dermatopoliomiosite", nome: "Dermatopoliomiosite" },
+    ],
+    fontes: [
+      { tema: "Código ATC, forma farmacêutica e componente de financiamento", fonte: "RENAME 2024, Apêndice A" },
+      { tema: "Mecanismo de ação em dose baixa semanal (liberação de adenosina)", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "DMARD de primeira linha na artrite reumatoide", fonte: "American College of Rheumatology Guideline for the Treatment of Rheumatoid Arthritis, 2021" },
+    ],
+  },
+  {
+    slug: "hidroxicloroquina",
+    nome: "Sulfato de hidroxicloroquina",
+    nomeComercial: ["Reuquinol"],
+    principioAtivo: "Sulfato de hidroxicloroquina",
+    categoria: "Antimalárico / imunomodulador (antirreumático)",
+    codigoAtc: "P01BA02",
+    tarja: "Tarja vermelha",
+    formaFarmaceutica: "Comprimido revestido",
+    viaAdministracao: "Oral",
+    resumo: "Base do tratamento do lúpus eritematoso sistêmico na maioria dos pacientes, mantida indefinidamente pelo benefício em reduzir crises e proteger órgãos a longo prazo.",
+    indicacoes: [
+      "Lúpus eritematoso sistêmico (base do tratamento na maioria dos pacientes)",
+      "Artrite reumatoide leve (uso adjuvante)",
+      "Profilaxia e tratamento de malária sensível à cloroquina (uso hoje menos comum, pela resistência)",
+    ],
+    mecanismoAcao:
+      "Acumula-se em organelas ácidas intracelulares (lisossomos), elevando o pH e interferindo no processamento de antígenos e na sinalização de receptores toll-like, reduzindo a ativação imune autoimune. No contexto antimalárico, interfere na desintoxicação do heme pelo parasita.",
+    farmacocinetica:
+      "Boa absorção oral, ampla distribuição tecidual com acúmulo relevante em retina e pele, meia-vida muito longa (semanas), eliminação renal parcial do fármaco inalterado.",
+    posologia:
+      "Adultos: 200–400 mg/dia por via oral, em uma ou duas tomadas, com dose máxima diária ajustada ao peso corporal para reduzir o risco de toxicidade retiniana.",
+    ajusteRenalHepatico:
+      "Ajustar dose com cautela em insuficiência renal significativa, pelo risco de acúmulo. Usar com cautela em hepatopatia.",
+    gestacaoLactacao:
+      "Considerada segura na gestação e mantida em gestantes com LES — a suspensão durante a gravidez associa-se a maior risco de crise da doença. Compatível com a lactação.",
+    contraindicacoes: [
+      "Retinopatia preexistente",
+      "Hipersensibilidade a antimaláricos 4-aminoquinolínicos",
+    ],
+    efeitosColaterais: [
+      "Retinopatia (toxicidade cumulativa dose-dependente — principal risco a longo prazo)",
+      "Náuseas e desconforto gastrointestinal",
+      "Hiperpigmentação cutânea",
+      "Miopatia (rara)",
+    ],
+    interacoes: [
+      "Aumenta os níveis séricos de digoxina",
+      "Cautela com outros fármacos que prolongam o intervalo QT",
+    ],
+    monitorizacao: [
+      "Exame oftalmológico basal e depois anual (a partir de 5 anos de uso, ou antes se houver fatores de risco adicionais) para rastreamento de retinopatia",
+    ],
+    alertas: [
+      "Não suspender abruptamente em paciente com LES estável, mesmo em remissão, salvo por toxicidade — a suspensão associa-se a risco aumentado de crise da doença.",
+    ],
+    similares: ["Cloroquina (mesma classe, maior toxicidade retiniana relativa)"],
+    pontosDeProva: [
+      "A hidroxicloroquina é mantida indefinidamente na maioria dos pacientes com LES, mesmo em remissão, pelo benefício comprovado em reduzir crises e proteger órgãos a longo prazo",
+      "O rastreamento oftalmológico anual é obrigatório pela toxicidade retiniana cumulativa dose-dependente",
+    ],
+    doencasIndicadas: [
+      { slug: "lupus-eritematoso-sistemico", nome: "Lúpus eritematoso sistêmico" },
+    ],
+    fontes: [
+      { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
+      { tema: "Mecanismo de ação e toxicidade retiniana", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Papel como base do tratamento e manutenção mesmo em remissão", fonte: "EULAR Recommendations for the Management of Systemic Lupus Erythematosus, 2019" },
+    ],
+  },
+  {
+    slug: "donepezila",
+    nome: "Donepezila",
+    nomeComercial: ["Eranz"],
+    principioAtivo: "Cloridrato de donepezila",
+    categoria: "Inibidor da acetilcolinesterase (anti-demência)",
+    codigoAtc: "N06DA02",
+    tarja: "Tarja vermelha",
+    formaFarmaceutica: "Comprimido revestido 5 mg e 10 mg, Componente Especializado",
+    viaAdministracao: "Oral",
+    resumo: "Inibidor da acetilcolinesterase de uso mais consolidado no tratamento sintomático da doença de Alzheimer leve a moderada.",
+    indicacoes: [
+      "Doença de Alzheimer leve a moderada",
+      "Doença de Alzheimer moderada a grave (em associação com memantina, conforme protocolo)",
+    ],
+    mecanismoAcao:
+      "Inibe reversivelmente a acetilcolinesterase, aumentando a disponibilidade sináptica de acetilcolina no sistema nervoso central, compensando parcialmente o déficit colinérgico característico da doença de Alzheimer.",
+    farmacocinetica:
+      "Boa absorção oral, meia-vida longa (aproximadamente 70 horas) que permite dose única diária. Metabolização hepática pelas isoenzimas CYP2D6 e CYP3A4, com eliminação renal e fecal.",
+    posologia:
+      "Adultos: iniciar com 5 mg por via oral, uma vez ao dia, à noite, com possível aumento para 10 mg/dia após 4-6 semanas conforme tolerância.",
+    ajusteRenalHepatico:
+      "Usar com cautela em hepatopatia (metabolização predominantemente hepática). Não requer ajuste renal relevante.",
+    gestacaoLactacao:
+      "Uso não indicado para a população em que a gestação seria relevante; dados de segurança limitados nesse contexto.",
+    contraindicacoes: [
+      "Hipersensibilidade a derivados de piperidina",
+      "Doença do nó sinusal ou outros distúrbios significativos de condução cardíaca não avaliados (cautela)",
+    ],
+    efeitosColaterais: [
+      "Náuseas e diarreia",
+      "Insônia",
+      "Cãibras musculares",
+      "Bradicardia (efeito colinérgico)",
+    ],
+    interacoes: [
+      "Efeito aditivo com outros agentes colinérgicos",
+      "Pode antagonizar o efeito de fármacos anticolinérgicos",
+      "Cautela com betabloqueadores e outros bradicardizantes, pelo risco de bradicardia significativa",
+    ],
+    monitorizacao: [
+      "Frequência cardíaca (risco de bradicardia)",
+      "Avaliação cognitiva e funcional periódica para monitorar benefício continuado",
+    ],
+    alertas: [
+      "O efeito é sintomático e modesto, sem modificar a progressão patológica subjacente da doença — orientar expectativas realistas à família do paciente.",
+    ],
+    similares: ["Rivastigmina", "Galantamina"],
+    pontosDeProva: [
+      "Os inibidores da colinesterase têm efeito sintomático modesto, sem modificar o curso patológico subjacente da doença de Alzheimer",
+      "A bradicardia é um efeito colinérgico relevante a monitorizar, especialmente em associação com outros fármacos bradicardizantes",
+    ],
+    doencasIndicadas: [
+      { slug: "doenca-de-alzheimer", nome: "Doença de Alzheimer" },
+    ],
+    fontes: [
+      { tema: "Mecanismo de ação e farmacocinética", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Efeito sintomático sem modificação da progressão da doença", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Código ATC, forma farmacêutica e componente de financiamento (Especializado)", fonte: "RENAME 2024, Apêndice A" },
+    ],
+  },
+  {
+    slug: "memantina",
+    nome: "Memantina",
+    nomeComercial: ["Alois"],
+    principioAtivo: "Cloridrato de memantina",
+    categoria: "Antagonista do receptor NMDA (anti-demência)",
+    codigoAtc: "N06DX01",
+    tarja: "Tarja vermelha",
+    formaFarmaceutica: "Comprimido revestido 10 mg, Componente Especializado",
+    viaAdministracao: "Oral",
+    resumo: "Antagonista do receptor NMDA usado na doença de Alzheimer moderada a grave, com mecanismo distinto e potencialmente complementar aos inibidores da colinesterase.",
+    indicacoes: [
+      "Doença de Alzheimer moderada a grave",
+      "Associação com inibidor da colinesterase em doença mais avançada",
+    ],
+    mecanismoAcao:
+      "Antagonista não competitivo de afinidade baixa a moderada do receptor NMDA de glutamato, reduzindo a excitotoxicidade glutamatérgica crônica associada à neurodegeneração, sem bloquear de forma relevante a transmissão glutamatérgica fisiológica normal (bloqueio voltagem-dependente).",
+    farmacocinetica:
+      "Boa biodisponibilidade oral, eliminação predominantemente renal (grande parte do fármaco inalterado), meia-vida longa (aproximadamente 60-100 horas).",
+    posologia:
+      "Adultos: titulação gradual iniciando com 5 mg/dia por via oral, aumentando semanalmente até a dose-alvo de 20 mg/dia.",
+    ajusteRenalHepatico:
+      "Ajuste de dose necessário em insuficiência renal moderada a grave, pela eliminação predominantemente renal. Não requer ajuste hepático significativo.",
+    gestacaoLactacao:
+      "Dados de segurança limitados; uso não indicado para a população em que a gestação seria relevante.",
+    contraindicacoes: [
+      "Hipersensibilidade ao fármaco",
+    ],
+    efeitosColaterais: [
+      "Tontura",
+      "Cefaleia",
+      "Confusão mental",
+      "Constipação",
+      "Sonolência",
+    ],
+    interacoes: [
+      "Efeito aditivo com outros antagonistas do receptor NMDA",
+      "Fármacos que alcalinizam a urina podem reduzir a eliminação renal da memantina",
+    ],
+    monitorizacao: [
+      "Função renal periódica",
+      "Avaliação cognitiva e funcional para monitorar benefício continuado",
+    ],
+    alertas: [
+      "Assim como os inibidores da colinesterase, o efeito é sintomático, sem modificar a progressão patológica subjacente da doença.",
+    ],
+    similares: [],
+    pontosDeProva: [
+      "O mecanismo distinto dos inibidores da colinesterase (antagonismo NMDA vs. inibição da acetilcolinesterase) permite a associação das duas classes em doença mais avançada, com potencial benefício aditivo",
+    ],
+    doencasIndicadas: [
+      { slug: "doenca-de-alzheimer", nome: "Doença de Alzheimer" },
+    ],
+    fontes: [
+      { tema: "Mecanismo de ação (antagonismo NMDA)", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Uso em associação com inibidor da colinesterase em doença avançada", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Código ATC, forma farmacêutica e componente de financiamento (Especializado)", fonte: "RENAME 2024, Apêndice A" },
+    ],
+  },
+  {
+    slug: "sulfato-ferroso",
+    nome: "Sulfato ferroso",
+    nomeComercial: ["Combiron"],
+    principioAtivo: "Sulfato ferroso",
+    categoria: "Suplemento de ferro (antianêmico)",
+    codigoAtc: "B03AA07",
+    tarja: "Venda livre (MIP)",
+    formaFarmaceutica: "Comprimido revestido, xarope/gotas (apresentação pediátrica)",
+    viaAdministracao: "Oral",
+    resumo: "Reposição de ferro oral de primeira linha para o tratamento e a profilaxia da anemia ferropriva.",
+    indicacoes: [
+      "Anemia ferropriva",
+      "Profilaxia de deficiência de ferro em gestantes e lactentes",
+    ],
+    mecanismoAcao:
+      "Repõe os estoques de ferro necessários para a síntese de hemoglobina, sendo absorvido principalmente no duodeno e jejuno proximal por transportadores específicos, sob regulação primária da hepcidina hepática.",
+    farmacocinetica:
+      "Absorção aumentada em jejum e na presença de vitamina C; reduzida significativamente por alimentos, cálcio, antiácidos e inibidores da bomba de prótons administrados concomitantemente. A regulação da homeostase do ferro ocorre principalmente pela absorção, não pela excreção.",
+    posologia:
+      "Adultos: 60–120 mg de ferro elementar por dia por via oral (variando conforme a apresentação do sal), preferencialmente em jejum, ajustando conforme tolerância gastrointestinal.",
+    ajusteRenalHepatico:
+      "Não requer ajuste renal ou hepático específico em disfunção leve a moderada.",
+    gestacaoLactacao:
+      "Seguro e frequentemente indicado na gestação para profilaxia e tratamento de anemia ferropriva; compatível com a lactação.",
+    contraindicacoes: [
+      "Hemocromatose e outras condições de sobrecarga de ferro",
+      "Anemia não relacionada à deficiência de ferro",
+    ],
+    efeitosColaterais: [
+      "Desconforto gastrointestinal e náuseas",
+      "Constipação",
+      "Fezes escurecidas (efeito esperado, não deve ser confundido com melena)",
+    ],
+    interacoes: [
+      "Reduz a absorção de levotiroxina, tetraciclinas e quinolonas quando administrados concomitantemente — espaçar os horários de administração",
+      "Antiácidos e inibidores da bomba de prótons reduzem a absorção do ferro oral",
+    ],
+    monitorizacao: [
+      "Hemoglobina e contagem de reticulócitos em 2-4 semanas para confirmar resposta terapêutica",
+      "Ferritina sérica para confirmar reposição adequada dos estoques de ferro",
+    ],
+    alertas: [
+      "Fezes escurecidas são um efeito esperado do ferro oral e não devem ser confundidas com sinal de sangramento digestivo.",
+      "A superdosagem acidental em crianças é uma emergência toxicológica grave, pela alta toxicidade do ferro livre em overdose.",
+    ],
+    similares: ["Ferro polimaltosado", "Ferro quelato glicinato"],
+    pontosDeProva: [
+      "A resposta reticulocitária em 5-10 dias é o primeiro sinal objetivo de resposta terapêutica adequada à reposição de ferro",
+      "A intoxicação por ferro é uma emergência toxicológica pediátrica grave, pela alta toxicidade do ferro livre em superdosagem",
+    ],
+    doencasIndicadas: [
+      { slug: "anemia-ferropriva", nome: "Anemia ferropriva" },
+    ],
+    fontes: [
+      { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
+      { tema: "Mecanismo de ação e farmacocinética da absorção de ferro", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "dexametasona",
+    nome: "Dexametasona",
+    nomeComercial: ["Decadron"],
+    principioAtivo: "Dexametasona",
+    categoria: "Corticosteroide sistêmico (glicocorticoide de longa duração)",
+    codigoAtc: "H02AB02",
+    tarja: "Tarja vermelha",
+    formaFarmaceutica: "Comprimido, solução injetável, elixir/solução oral",
+    viaAdministracao: "Oral ou intravenosa/intramuscular",
+    resumo: "Corticosteroide potente de longa duração e atividade mineralocorticoide desprezível, com papel central no tratamento da COVID-19 grave, do crupe e como adjuvante na meningite bacteriana.",
+    indicacoes: [
+      "COVID-19 grave com necessidade de oxigênio suplementar",
+      "Crupe (laringite obstrutiva aguda)",
+      "Adjuvante em meningite bacteriana (redução de complicações neurológicas)",
+      "Edema cerebral vasogênico associado a tumores",
+    ],
+    mecanismoAcao:
+      "Liga-se a receptores glicocorticoides citoplasmáticos, modulando a transcrição gênica para suprimir múltiplas vias inflamatórias (redução de citocinas pró-inflamatórias, migração leucocitária, síntese de prostaglandinas). Tem potência anti-inflamatória muito maior que a hidrocortisona, com atividade mineralocorticoide desprezível.",
+    farmacocinetica:
+      "Boa absorção oral, meia-vida biológica longa (36-72 horas), permitindo dose única diária em muitos contextos. Metabolização hepática.",
+    posologia:
+      "COVID-19 grave: 6 mg por via oral ou intravenosa, uma vez ao dia, por até 10 dias. Crupe: dose única de 0,15-0,6 mg/kg. Meningite bacteriana: iniciada antes ou junto da primeira dose de antibiótico, conforme protocolo específico.",
+    ajusteRenalHepatico:
+      "Geralmente não requer ajuste renal. Usar com cautela em hepatopatia grave.",
+    gestacaoLactacao:
+      "Usar apenas se claramente necessário, avaliando riscos e benefícios; atravessa a placenta de forma menos inativada que outros corticosteroides, propriedade que fundamenta seu uso obstétrico específico para maturação pulmonar fetal (indicação distinta do tratamento de doenças do adulto).",
+    contraindicacoes: [
+      "Infecção fúngica sistêmica não tratada",
+      "Hipersensibilidade ao fármaco",
+    ],
+    efeitosColaterais: [
+      "Hiperglicemia",
+      "Insônia e alterações de humor",
+      "Imunossupressão com maior risco de infecções",
+      "Miopatia com uso prolongado",
+    ],
+    interacoes: [
+      "Reduz a eficácia de vacinas de vírus vivos",
+      "Pode alterar a necessidade de insulina ou hipoglicemiantes orais",
+      "Anti-inflamatórios não esteroidais aumentam o risco de sangramento gastrointestinal quando associados",
+    ],
+    monitorizacao: [
+      "Glicemia durante o uso",
+      "Sinais de infecção secundária",
+    ],
+    alertas: [
+      "No tratamento da COVID-19, o benefício de mortalidade foi demonstrado apenas em pacientes que necessitam de oxigênio suplementar — não deve ser usado rotineiramente em casos leves, contexto em que pode até ser prejudicial.",
+      "Na meningite bacteriana, deve ser administrada antes ou junto com a primeira dose de antibiótico, não depois, para preservar o benefício de redução de complicações neurológicas.",
+    ],
+    similares: ["Betametasona (potência e meia-vida semelhantes)"],
+    pontosDeProva: [
+      "O estudo RECOVERY estabeleceu o benefício de mortalidade da dexametasona na COVID-19 especificamente em pacientes com necessidade de oxigênio suplementar, não em casos leves",
+      "Na meningite bacteriana, o momento da administração (antes ou junto da primeira dose de antibiótico) é determinante para o benefício neurológico observado",
+    ],
+    doencasIndicadas: [
+      { slug: "covid-19", nome: "COVID-19" },
+      { slug: "crupe-epiglotite", nome: "Laringite obstrutiva aguda (crupe) e epiglotite" },
+      { slug: "meningite-bacteriana", nome: "Meningite bacteriana" },
+    ],
+    fontes: [
+      { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
+      { tema: "Mecanismo de ação", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Benefício de mortalidade na COVID-19 em quem necessita de O2", fonte: "RECOVERY Collaborative Group, NEJM, 2021" },
+      { tema: "Timing da administração na meningite bacteriana", fonte: "IDSA Practice Guidelines for the Management of Bacterial Meningitis, 2004" },
     ],
   },
 ];

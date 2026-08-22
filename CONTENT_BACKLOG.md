@@ -15,7 +15,7 @@ Fontes:
   está, o único item da lista ainda pendente por esse motivo.
 
 Já documentados com ficha completa (**fora deste backlog**, não repetir):
-- **Doenças (84):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
+- **Doenças (96):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
   · Dengue · COVID-19 · Gastrite · DRGE · Artrite reumatoide · LES · Alzheimer · Anemia
   ferropriva · DRC · Infarto agudo do miocárdio · Angina pectoris · Doença isquêmica
   crônica do coração · Fibrilação e flutter atrial · Parada cardíaca · Febre reumática ·
@@ -34,11 +34,16 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   Leishmaniose · Câncer de esôfago · Câncer de estômago · Câncer colorretal · Câncer de
   pâncreas · Úlcera péptica · Doença alcoólica do fígado · Cirrose hepática ·
   Insuficiência hepática · Pancreatite aguda · Colelitíase · Colecistite · Doença de
-  Crohn · Colite ulcerativa · Síndrome do cólon irritável
-- **Medicamentos (21):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
+  Crohn · Colite ulcerativa · Síndrome do cólon irritável · Doença diverticular ·
+  Apendicite aguda · Peritonite · Osteoartrose · Gota · Espondilite anquilosante ·
+  Artropatias psoriásicas e enteropáticas · Esclerose sistêmica · Dermatopoliomiosite ·
+  Poliarterite nodosa e outras vasculites · Osteoporose · Dorsalgia (lombalgia)
+- **Medicamentos (29):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
-  Enalapril · Budesonida inalatória · Espironolactona · Carvedilol · Dapagliflozina
+  Enalapril · Budesonida inalatória · Espironolactona · Carvedilol · Dapagliflozina ·
+  Levotiroxina sódica · Esquema RIPE · Metotrexato · Hidroxicloroquina · Donepezila ·
+  Memantina · Sulfato ferroso · Dexametasona
 
 ---
 
@@ -126,19 +131,19 @@ parênteses, exatamente como aparece no índice.
 13. concluído — Colite ulcerativa (K51)
 14. concluído — Síndrome do cólon irritável (K58)
 
-### Lote 6 — Gastroenterologia (restante, 3) + Reumatologia (9)
-1. pendente — Doença diverticular do intestino (K57)
-2. pendente — Apendicite aguda (K35)
-3. pendente — Peritonite (K65)
-4. pendente — Osteoartrose / poliartrose (M15)
-5. pendente — Gota (M10)
-6. pendente — Espondilite anquilosante (M45)
-7. pendente — Artropatias psoriásicas e enteropáticas (M07)
-8. pendente — Esclerose sistêmica (M34)
-9. pendente — Dermatopoliomiosite (M33)
-10. pendente — Poliarterite nodosa e afecções correlatas / vasculites (M30)
-11. pendente — Osteoporose sem fratura patológica (M81)
-12. pendente — Dorsalgia / lombalgia (M54)
+### Lote 6 — Gastroenterologia (restante, 3) + Reumatologia (9) — ✅ CONCLUÍDO
+1. concluído — Doença diverticular do intestino (K57)
+2. concluído — Apendicite aguda (K35)
+3. concluído — Peritonite (K65)
+4. concluído — Osteoartrose / poliartrose (M15)
+5. concluído — Gota (M10)
+6. concluído — Espondilite anquilosante (M45)
+7. concluído — Artropatias psoriásicas e enteropáticas (M07)
+8. concluído — Esclerose sistêmica (M34)
+9. concluído — Dermatopoliomiosite (M33)
+10. concluído — Poliarterite nodosa e afecções correlatas / vasculites (M30)
+11. concluído — Osteoporose sem fratura patológica (M81)
+12. concluído — Dorsalgia / lombalgia (M54)
 
 ### Lote 7 — Neurologia (14)
 1. pendente — Acidente vascular cerebral isquêmico transitório / AIT (G45)
@@ -227,10 +232,10 @@ parênteses, exatamente como aparece no índice.
 8. pendente — Doença inflamatória do útero / DIP (N71)
 9. pendente — Transtornos da menopausa e da perimenopausa (N95)
 
-**Total: 87 doenças pendentes em 7 lotes** (Lote 1, Cardiologia; Lote 2,
-Endocrinologia+Pneumologia; Lote 3, Pneumologia; Lote 4, Infectologia; e Lote 5,
-Gastroenterologia, concluídos — 15 + 14 + 12 + 13 + 14 itens), além das 84 já
-fichadas.
+**Total: 75 doenças pendentes em 6 lotes** (Lote 1, Cardiologia; Lote 2,
+Endocrinologia+Pneumologia; Lote 3, Pneumologia; Lote 4, Infectologia; Lote 5,
+Gastroenterologia; e Lote 6, Gastro restante+Reumatologia, concluídos —
+15 + 14 + 12 + 13 + 14 + 12 itens), além das 96 já fichadas.
 
 ---
 
@@ -274,7 +279,7 @@ consta" e a Ocitocina, que depende do Apêndice B.
 10. pendente — Tiamazol (H03BB02) — ✅ **confirmado**; é a DCB oficial do medicamento comercialmente conhecido como "metimazol" (ajustar schema: tiamazol como nome principal, metimazol como sinônimo)
 11. pendente — Succinato sódico de hidrocortisona (H02AB09)
 12. pendente — Fosfato sódico de prednisolona (H02AB06)
-13. pendente — Dexametasona (H02AB02)
+13. concluído — Dexametasona (H02AB02)
 14. pendente — Insulina análoga de ação prolongada / de ação rápida (A10AE / A10AB)
 15. pendente — Sulfato de magnésio (A06AD04 uso oral; A12CC02 / B05XA05 uso injetável)
 
@@ -293,14 +298,14 @@ consta" e a Ocitocina, que depende do Apêndice B.
 12. pendente — Ivermectina (P02CF01)
 13. pendente — Albendazol (P02CA03)
 14. pendente — Mebendazol — ⛔ **não consta na RENAME 2024** (ausente da seção P completa, 20 itens verificados). Albendazol (P02CA03, item 13 acima) é o antiparasitário de amplo espectro presente no lugar.
-15. pendente — Sulfato de hidroxicloroquina (P01BA02) — já cruza com Reumatologia (LES/AR já fichados)
+15. concluído — Sulfato de hidroxicloroquina (P01BA02) — já cruza com Reumatologia (LES/AR já fichados)
 16. pendente — Cloridrato de clindamicina (J01FF01) — item novo, achado na revalidação (ATC que eu tinha atribuído por engano à doxiciclina)
 17. pendente — Sulfato de morfina (N02AA01) — item novo, achado na revalidação; opioide de referência, alto valor curricular (dor, cuidados paliativos, EAP)
 
 ### Lote 4 — Trato alimentar/digestivo + Sistema nervoso (13) — ✅ todos revalidados
 1. pendente — Mesalazina (A07EC02)
 2. pendente — Cloridrato de ondansetrona (A04AA01)
-3. pendente — Sulfato ferroso (B03AA07) — já cruza com Anemia ferropriva (doença já fichada)
+3. concluído — Sulfato ferroso (B03AA07) — já cruza com Anemia ferropriva (doença já fichada)
 4. pendente — Cianocobalamina / vitamina B12 (B03BA01)
 5. pendente — Loperamida — ⛔ **não consta na RENAME 2024** (não aparece em nenhuma seção A-V verificada). Não há antidiarreico antimotilidade (classe opioide-símile) na lista — a abordagem de primeira linha da RENAME/SUS para diarreia aguda é reposição hidroeletrolítica com sais para reidratação oral (A07CA, já confirmado na tabela), não um substituto farmacológico direto.
 6. pendente — Domperidona — ⛔ **não consta na RENAME 2024** (não aparece em nenhuma seção A-V verificada). Cloridrato de metoclopramida (A03FA01, já confirmado) é o antiemético/procinético presente no lugar.
@@ -323,7 +328,7 @@ consta" e a Ocitocina, que depende do Apêndice B.
 8. pendente — Clobazam (N05BA09)
 9. pendente — Colchicina — ⛔ **não consta na RENAME 2024** (ausente da seção M completa, 14 itens verificados)
 10. pendente — Alopurinol (M04AA01, 100/300mg comprimido, Básico)
-11. pendente — Metotrexato (L04AX03, 25mg/mL solução injetável e 2,5mg comprimido, Especializado) — já cruza com AR/LES (doenças já fichadas)
+11. concluído — Metotrexato (L04AX03, 25mg/mL solução injetável e 2,5mg comprimido, Especializado) — já cruza com AR/LES (doenças já fichadas)
 12. pendente — Cloridrato de naloxona (V03AB15) — item novo, achado na revalidação; antídoto de opioides, alto valor curricular (emergência/toxicologia)
 13. pendente — Flumazenil (V03AB25) — item novo, achado na revalidação; antídoto de benzodiazepínicos, alto valor curricular (emergência/toxicologia)
 
@@ -342,11 +347,27 @@ consta" e a Ocitocina, que depende do Apêndice B.
 10. pendente — Permetrina (P03AC04, 10mg/g e 50mg/g loção, Básico)
 11. pendente — Acetato de hidrocortisona tópica (D07AA02)
 12. pendente — Betametasona / acetato + fosfato dissódico (H02AB01)
-13. pendente — Levotiroxina sódica (H03AA01) — já usada no Hipotireoidismo (doença já fichada), ainda sem ficha própria de medicamento
+13. concluído — Levotiroxina sódica (H03AA01) — já usada no Hipotireoidismo e Tireoidite (doenças já fichadas)
 
-**Total: 86 medicamentos em 6 lotes** (82 originais + 4 itens novos achados durante a
+**Total: 89 medicamentos em 6 lotes** (82 originais + 4 itens novos achados durante a
 revalidação: cloridrato de clindamicina, sulfato de morfina, cloridrato de naloxona,
-flumazenil).
+flumazenil + 3 itens novos abaixo: donepezila, memantina, esquema RIPE).
+
+### Itens adicionados fora da ordem dos lotes — ✅ concluídos e revalidados
+Priorizados a pedido do usuário por já fecharem vínculos cruzados que existiam do lado
+da doença desde a migração inicial das 37 fichas, mas nunca tinham sido itemizados em
+nenhum lote acima. Os três foram posteriormente confirmados pelo usuário contra a
+tabela real do Apêndice A extraída nesta sessão:
+1. concluído — Cloridrato de donepezila, 5mg e 10mg comprimido, Especializado
+   (N06DA02) — ✅ **confirmado contra tabela real** — já usado na Doença de Alzheimer
+   (doença já fichada)
+2. concluído — Cloridrato de memantina, 10mg comprimido, Especializado (N06DX01) — ✅
+   **confirmado contra tabela real** — já usado na Doença de Alzheimer (doença já
+   fichada)
+3. concluído — Esquema RIPE / rifampicina + isoniazida + pirazinamida + etambutol,
+   150+75+400+275mg comprimido, Estratégico (J04AM06, combinação em dose fixa) — ✅
+   **confirmado contra tabela real** — já usado na Tuberculose pulmonar (doença já
+   fichada)
 
 **O Apêndice A da RENAME 2024 agora está coberto por completo (letras A a V + H*
 fitoterápicos), em duas extrações do usuário. Situação final, por status:**

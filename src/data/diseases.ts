@@ -316,10 +316,12 @@ export const diseases: Disease[] = [
       conduta:
         "Iniciar levotiroxina em dose ajustada ao peso, pela manhã em jejum, com reavaliação do TSH em 6–8 semanas para ajuste de dose.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "levotiroxina-sodica", nome: "Levotiroxina sódica" },
+    ],
     fontes: [
       { tema: "Definição, diagnóstico e classificação subclínico/clínico", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
-      { tema: "Posologia e monitorização da levotiroxina", fonte: "fonte pendente — levotiroxina ainda sem ficha própria de medicamento no site" },
+      { tema: "Posologia e monitorização da levotiroxina", fonte: "American Thyroid Association, Guidelines for the Treatment of Hypothyroidism, 2014" },
     ],
   },
   {
@@ -550,7 +552,9 @@ export const diseases: Disease[] = [
       conduta:
         "Solicitar teste rápido molecular para TB e baciloscopia de escarro, associados a radiografia de tórax. Se confirmado, iniciar esquema RIPE, notificação compulsória e investigação de contactantes, preferencialmente com DOT.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "esquema-ripe", nome: "Esquema RIPE (rifampicina + isoniazida + pirazinamida + etambutol)" },
+    ],
     fontes: [
       { tema: "Esquema RIPE, diagnóstico (TRM-TB, baciloscopia) e DOT", fonte: "Manual de Recomendações para o Controle da Tuberculose no Brasil, Ministério da Saúde" },
     ],
@@ -705,7 +709,12 @@ export const diseases: Disease[] = [
       conduta:
         "Internação, oxigenoterapia suplementar, início de dexametasona, e monitorização para sinais de progressão que exijam suporte ventilatório mais avançado.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "dexametasona", nome: "Dexametasona" },
+    ],
+    medicamentosSecaoTitulo: "Medicamento para casos graves (com necessidade de O2)",
+    medicamentosNota:
+      "A dexametasona só demonstrou benefício de mortalidade em pacientes que necessitam de oxigênio suplementar. Não deve ser usada rotineiramente em casos leves, contexto em que pode ser prejudicial.",
     fontes: [
       { tema: "Classificação de gravidade", fonte: "NIH COVID-19 Treatment Guidelines" },
       { tema: "Indicação de corticoide sistêmico em quem necessita de O2 suplementar", fonte: "RECOVERY trial (NEJM, 2021) / NIH COVID-19 Treatment Guidelines" },
@@ -934,10 +943,13 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "prednisona", nome: "Prednisona" },
+      { slug: "metotrexato", nome: "Metotrexato" },
     ],
+    medicamentosNota:
+      "O metotrexato é o DMARD de primeira linha para controle de longo prazo da doença. A prednisona em baixa dose é usada como ponte até o efeito pleno do metotrexato (semanas), não como tratamento isolado.",
     fontes: [
       { tema: "Critérios classificatórios ACR/EULAR 2010 e DAS28", fonte: "American College of Rheumatology / EULAR, critérios classificatórios 2010" },
-      { tema: "Metotrexato como DMARD de 1ª linha (ainda sem ficha própria de medicamento no site)", fonte: "fonte pendente" },
+      { tema: "Metotrexato como DMARD de 1ª linha", fonte: "American College of Rheumatology Guideline for the Treatment of Rheumatoid Arthritis, 2021" },
     ],
   },
   {
@@ -1014,10 +1026,13 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "prednisona", nome: "Prednisona" },
+      { slug: "hidroxicloroquina", nome: "Sulfato de hidroxicloroquina" },
     ],
+    medicamentosNota:
+      "A hidroxicloroquina é a base do tratamento na maioria dos pacientes, mantida indefinidamente mesmo em remissão. A prednisona é usada para controle de crises de atividade, em dose e duração conforme a gravidade do acometimento.",
     fontes: [
       { tema: "Critérios classificatórios EULAR/ACR 2019 e SLEDAI", fonte: "EULAR/ACR, critérios classificatórios 2019" },
-      { tema: "Hidroxicloroquina como base do tratamento (ainda sem ficha própria de medicamento no site)", fonte: "fonte pendente" },
+      { tema: "Hidroxicloroquina como base do tratamento", fonte: "EULAR Recommendations for the Management of Systemic Lupus Erythematosus, 2019" },
     ],
   },
   {
@@ -1089,10 +1104,15 @@ export const diseases: Disease[] = [
       conduta:
         "Iniciar inibidor da colinesterase, orientar a família sobre a natureza progressiva da doença, estruturar suporte multidisciplinar e reavaliar periodicamente a progressão funcional.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "donepezila", nome: "Donepezila" },
+      { slug: "memantina", nome: "Memantina" },
+    ],
+    medicamentosNota:
+      "A donepezila (inibidor da colinesterase) é usada em fases leve a moderada. A memantina (antagonista NMDA) é usada em fases moderada a grave, podendo ser associada à donepezila em doença mais avançada. Não são intercambiáveis nem indicadas indistintamente em qualquer estágio.",
     fontes: [
       { tema: "Estadiamento clínico funcional e escala CDR", fonte: "fonte pendente" },
-      { tema: "Inibidores da colinesterase e memantina (ainda sem ficha própria de medicamento no site)", fonte: "fonte pendente" },
+      { tema: "Uso escalonado de inibidor da colinesterase e memantina por estágio", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
     ],
   },
   {
@@ -1163,10 +1183,12 @@ export const diseases: Disease[] = [
       conduta:
         "Iniciar reposição de ferro oral, investigar e tratar a causa da menorragia, e reavaliar hemoglobina em 4–6 semanas para confirmar resposta ao tratamento.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "sulfato-ferroso", nome: "Sulfato ferroso" },
+    ],
     fontes: [
       { tema: "Pontos de corte de ferritina e saturação de transferrina", fonte: "fonte pendente" },
-      { tema: "Sulfato ferroso como 1ª linha (ainda sem ficha própria de medicamento no site)", fonte: "fonte pendente" },
+      { tema: "Sulfato ferroso como 1ª linha", fonte: "Goodman & Gilman, 13ª ed." },
     ],
   },
   {
@@ -2627,11 +2649,15 @@ export const diseases: Disease[] = [
       conduta:
         "Solicitar captação de iodo radioativo para confirmação diagnóstica, iniciar anti-inflamatório para controle da dor e, se sintomas adrenérgicos significativos, considerar betabloqueador para controle sintomático da fase tireotóxica transitória.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "levotiroxina-sodica", nome: "Levotiroxina sódica" },
+    ],
+    medicamentosSecaoTitulo: "Medicamento para a fase hipotireóidea",
+    medicamentosNota:
+      "A levotiroxina é usada apenas quando a fase hipotireóidea (tardia, em algumas tireoidites) é sintomática ou persistente. O tratamento da dor na fase subaguda (anti-inflamatório/corticosteroide) e o controle da fase tireotóxica transitória (betabloqueador) ainda não têm fichas próprias no site.",
     fontes: [
       { tema: "Classificação etiológica e fases evolutivas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Diagnóstico diferencial com doença de Graves via captação de iodo", fonte: "American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism, 2016" },
-      { tema: "Tratamento farmacológico específico por subtipo (ainda sem fichas próprias no site com essa indicação)", fonte: "fonte pendente" },
     ],
   },
   {
@@ -4008,11 +4034,15 @@ export const diseases: Disease[] = [
       conduta:
         "Manter a criança calma e em posição confortável, evitar qualquer manipulação da orofaringe ou exames que possam agitá-la, e acionar imediatamente equipe experiente para manejo definitivo da via aérea em ambiente controlado, seguido de antibioticoterapia intravenosa.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "dexametasona", nome: "Dexametasona" },
+    ],
+    medicamentosSecaoTitulo: "Medicamento para o crupe (leve a moderado)",
+    medicamentosNota:
+      "A dexametasona em dose única trata o crupe. Ela não trata a epiglotite, cuja prioridade absoluta é a via aérea — a adrenalina nebulizada (crupe moderado a grave) e a ceftriaxona (epiglotite) ainda não têm fichas próprias no site.",
     fontes: [
       { tema: "Fisiopatologia e epidemiologia do crupe e da epiglotite", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Westley Croup Score e tratamento do crupe", fonte: "fonte pendente" },
-      { tema: "Manejo da via aérea na epiglotite e antibioticoterapia (dexametasona, adrenalina nebulizada e ceftriaxona ainda sem fichas próprias no site)", fonte: "fonte pendente" },
     ],
   },
   {
@@ -4946,11 +4976,15 @@ export const diseases: Disease[] = [
       conduta:
         "Colher hemoculturas e realizar punção lombar imediatamente, iniciar antibioticoterapia empírica intravenosa sem demora (associada a dexametasona antes ou junto da primeira dose), e ajustar o esquema conforme resultado do Gram/cultura do líquido cefalorraquidiano.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "dexametasona", nome: "Dexametasona" },
+    ],
+    medicamentosSecaoTitulo: "Medicamento adjuvante (não substitui o antibiótico)",
+    medicamentosNota:
+      "A dexametasona é adjuvante — administrada antes ou junto da primeira dose de antibiótico para reduzir complicações neurológicas, principalmente na meningite pneumocócica. A antibioticoterapia empírica (ceftriaxona ± vancomicina), que é o tratamento central e não pode ser substituída pelo corticosteroide, ainda não tem ficha própria no site.",
     fontes: [
       { tema: "Fisiopatologia e agentes etiológicos por faixa etária", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Critérios liquóricos e indicação de tomografia antes da punção lombar", fonte: "IDSA Practice Guidelines for the Management of Bacterial Meningitis, 2004" },
-      { tema: "Ceftriaxona/vancomicina/dexametasona no tratamento (ainda sem fichas próprias no site)", fonte: "fonte pendente" },
     ],
   },
   {
@@ -6259,6 +6293,909 @@ export const diseases: Disease[] = [
       { tema: "Critérios diagnósticos de Roma IV", fonte: "Rome IV Diagnostic Criteria for Functional Gastrointestinal Disorders, 2016" },
       { tema: "Fisiopatologia (hipersensibilidade visceral, eixo cérebro-intestino)", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Antiespasmódicos/laxativos/antidiarreicos no tratamento (ainda sem fichas próprias no site com essa indicação)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "doenca-diverticular",
+    nome: "Doença diverticular do intestino",
+    sinonimos: ["Diverticulose", "Diverticulite"],
+    cid10: "K57",
+    especialidade: "Gastroenterologia",
+    etiologia: "Multifatorial",
+    resumo: "Presença de divertículos na parede do cólon (diverticulose), geralmente assintomática, com risco de inflamação aguda (diverticulite) em uma minoria dos portadores.",
+    definicao:
+      "Presença de divertículos (herniações da mucosa e submucosa através de pontos de fraqueza na camada muscular) na parede do cólon, mais comumente no sigmoide, denominada diverticulose quando assintomática e diverticulite quando ocorre inflamação/microperfuração aguda de um divertículo.",
+    epidemiologia:
+      "Prevalência crescente com a idade, associada a dieta pobre em fibras e rica em carne vermelha/gordura, sedentarismo e obesidade; a grande maioria dos portadores de diverticulose permanece assintomática por toda a vida.",
+    fisiopatologia:
+      "O aumento da pressão intraluminal do cólon, associado a fraqueza focal da parede muscular (frequentemente em pontos de penetração de vasos retos), favorece a herniação da mucosa formando divertículos, mais comumente no cólon sigmoide. A diverticulite ocorre quando há obstrução do colo de um divertículo por material fecal, levando a proliferação bacteriana local, inflamação e microperfuração contida.",
+    classificacao:
+      "Classificação de Hinchey (para diverticulite complicada, por tomografia): estágio I (abscesso pericólico pequeno e contido), estágio II (abscesso pélvico ou a distância), estágio III (peritonite purulenta generalizada) e estágio IV (peritonite fecal generalizada) — determina diretamente a necessidade e urgência de intervenção cirúrgica.",
+    quadroClinico: [
+      "Diverticulose: geralmente assintomática, achado incidental em colonoscopia ou exame de imagem",
+      "Diverticulite não complicada: dor abdominal em fossa ilíaca esquerda (localização mais comum), febre baixa, alteração do hábito intestinal",
+      "Diverticulite complicada: dor mais intensa, febre alta, sinais de irritação peritoneal quando há perfuração",
+      "Hemorragia diverticular: sangramento indolor, geralmente autolimitado, causa comum de hemorragia digestiva baixa em idosos",
+    ],
+    diagnostico: [
+      "Tomografia de abdome com contraste é o exame de escolha na suspeita de diverticulite aguda, confirmando o diagnóstico e classificando a gravidade (Hinchey)",
+      "Colonoscopia contraindicada na fase aguda da diverticulite (risco de perfuração), reservada para 6-8 semanas após resolução do quadro agudo, para excluir neoplasia associada",
+      "Diverticulose geralmente identificada incidentalmente em colonoscopia de rotina ou exame de imagem",
+    ],
+    examesComplementares: [
+      "Tomografia de abdome com contraste (diagnóstico e classificação de Hinchey na diverticulite aguda)",
+      "Hemograma com leucocitose e proteína C-reativa elevada na diverticulite",
+      "Colonoscopia de intervalo (6-8 semanas após resolução do episódio agudo) para exclusão de neoplasia colônica associada",
+    ],
+    diagnosticoDiferencial: [
+      "Neoplasia colorretal (especialmente importante excluir após diverticulite, pela sobreposição de sintomas)",
+      "Doença inflamatória intestinal",
+      "Apendicite aguda (quando o sigmoide redundante se projeta para a direita) ou colecistite (diverticulite de cólon direito, menos comum)",
+    ],
+    tratamento: [
+      "Diverticulose assintomática: orientação dietética (dieta rica em fibras), sem necessidade de tratamento específico",
+      "Diverticulite aguda não complicada e sem fatores de risco: tratamento ambulatorial com dieta líquida e observação, com antibioticoterapia reservada para casos selecionados (imunossupressão, comorbidades significativas, sinais sistêmicos), refletindo diretrizes atuais que se afastaram do uso rotineiro de antibiótico em todos os casos leves",
+      "Diverticulite complicada (Hinchey II-IV) ou com sinais sistêmicos significativos: antibioticoterapia com cobertura para flora entérica (aeróbios gram-negativos e anaeróbios), associada a drenagem percutânea (abscessos) ou cirurgia (peritonite generalizada)",
+      "Colectomia eletiva considerada em casos de diverticulite recorrente complicada, individualizada conforme o paciente",
+    ],
+    complicacoes: [
+      "Aguda: abscesso pericólico, perfuração com peritonite, formação de fístula (mais comumente colovesical), obstrução intestinal",
+      "Crônica: estenose colônica por episódios recorrentes de inflamação, diverticulite recorrente",
+    ],
+    redFlags: [
+      "Dor abdominal intensa e difusa associada a sinais de irritação peritoneal em paciente com diverticulite conhecida — suspeitar de perfuração livre (Hinchey III/IV), emergência cirúrgica",
+    ],
+    prognostico:
+      "Excelente na diverticulose assintomática; a maioria dos episódios de diverticulite não complicada resolve com tratamento conservador, mas uma parcela dos pacientes apresenta recorrência, e as formas complicadas (Hinchey III/IV) têm maior morbimortalidade e frequentemente exigem cirurgia.",
+    pontosDeProva: [
+      "As diretrizes atuais se afastaram do uso rotineiro de antibiótico em toda diverticulite aguda não complicada — em pacientes selecionados sem fatores de risco, o tratamento conservador sem antibiótico é uma opção validada, mudança de paradigma relevante para prova",
+      "A colonoscopia é contraindicada na fase aguda da diverticulite pelo risco de perfuração, devendo ser realizada 6-8 semanas após a resolução do quadro para exclusão de neoplasia",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 68 anos, relata dor em fossa ilíaca esquerda há 2 dias, associada a febre baixa (37,8°C) e alteração do hábito intestinal. Tomografia de abdome mostra espessamento da parede do sigmoide com divertículos e pequena coleção pericólica contida de 2 cm.",
+      pergunta: "Qual é a classificação de gravidade deste quadro e a conduta apropriada?",
+      raciocinio:
+        "O achado tomográfico de abscesso pericólico pequeno e contido caracteriza diverticulite aguda Hinchey I. Dependendo da presença de fatores de risco e gravidade clínica, o tratamento pode ser conservador, com antibioticoterapia reservada a casos selecionados.",
+      conduta:
+        "Avaliar necessidade de antibioticoterapia conforme fatores de risco e gravidade clínica, manter dieta líquida com progressão conforme tolerância, e programar colonoscopia de intervalo em 6-8 semanas para exclusão de neoplasia associada.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina-clavulanato", nome: "Amoxicilina + Clavulanato" },
+    ],
+    medicamentosNota:
+      "As diretrizes atuais reservam a antibioticoterapia para diverticulite complicada ou com fatores de risco/sinais sistêmicos significativos — em diverticulite não complicada e sem esses fatores, o tratamento conservador sem antibiótico é uma opção validada, e não uma indicação universal.",
+    fontes: [
+      { tema: "Fisiopatologia e classificação de Hinchey", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Manejo seletivo de antibioticoterapia na diverticulite não complicada", fonte: "ACG Clinical Guideline: Diverticulitis, 2021" },
+    ],
+  },
+  {
+    slug: "apendicite-aguda",
+    nome: "Apendicite aguda",
+    sinonimos: ["Apendicite"],
+    cid10: "K35",
+    especialidade: "Gastroenterologia",
+    etiologia: "Multifatorial",
+    resumo: "Inflamação aguda do apêndice vermiforme, causa mais comum de abdome agudo cirúrgico, geralmente por obstrução luminal seguida de proliferação bacteriana.",
+    definicao:
+      "Inflamação aguda do apêndice vermiforme, resultante na maioria dos casos de obstrução da luz apendicular (por fecalito, hiperplasia linfoide ou, mais raramente, corpo estranho ou neoplasia), seguida de distensão, proliferação bacteriana, isquemia da parede e, se não tratada, perfuração.",
+    epidemiologia:
+      "Causa mais comum de abdome agudo cirúrgico, podendo ocorrer em qualquer idade, com maior incidência em crianças maiores, adolescentes e adultos jovens; a hiperplasia linfoide é causa obstrutiva mais comum nessa faixa etária, enquanto fecalitos predominam em adultos mais velhos.",
+    fisiopatologia:
+      "A obstrução da luz apendicular impede a drenagem de secreções, causando distensão progressiva, aumento da pressão intraluminal, comprometimento do fluxo sanguíneo e linfático da parede apendicular, proliferação bacteriana e, se não tratada, progressão para necrose isquêmica e perfuração, com risco de peritonite localizada (abscesso) ou generalizada.",
+    classificacao:
+      "Não há sistema formal de estadiamento amplamente padronizado; classificada clinicamente em não complicada (inflamação simples, sem perfuração) e complicada (perfurada, com abscesso ou peritonite associada), distinção com implicação direta na abordagem terapêutica e no prognóstico.",
+    quadroClinico: [
+      "Dor abdominal que classicamente migra da região periumbilical para a fossa ilíaca direita, tornando-se mais localizada e intensa",
+      "Anorexia, náuseas e vômitos associados",
+      "Febre baixa, geralmente após o início da dor",
+      "Dor à descompressão brusca em ponto de McBurney; sinais de irritação peritoneal em casos mais avançados",
+    ],
+    diagnostico: [
+      "Diagnóstico predominantemente clínico em apresentações típicas, apoiado por escores clínicos (ex.: escore de Alvarado) que combinam sintomas, sinais e leucocitose",
+      "Ultrassonografia ou tomografia de abdome em casos de dúvida diagnóstica, gestantes (preferencialmente ultrassonografia) ou apresentações atípicas",
+      "Leucocitose com desvio à esquerda é achado laboratorial de apoio, embora inespecífico",
+    ],
+    examesComplementares: [
+      "Hemograma com leucocitose (frequente, mas inespecífica)",
+      "Ultrassonografia ou tomografia de abdome: apêndice espessado (diâmetro >6-7 mm), com sinais inflamatórios periapendiculares",
+      "Proteína C-reativa elevada como apoio adicional em casos de dúvida diagnóstica",
+    ],
+    diagnosticoDiferencial: [
+      "Adenite mesentérica (especialmente em crianças, pode mimetizar apendicite)",
+      "Diverticulite de Meckel",
+      "Doença inflamatória pélvica e gravidez ectópica (em mulheres em idade fértil)",
+      "Diverticulite de sigmoide redundante projetando-se para a direita",
+    ],
+    tratamento: [
+      "Apendicectomia (preferencialmente laparoscópica) é o tratamento de escolha na maioria dos casos, incluindo apendicite não complicada",
+      "Tratamento não operatório com antibioticoterapia isolada é uma alternativa validada em pacientes selecionados com apendicite não complicada, embora associado a risco de recorrência e não seja a abordagem padrão universal",
+      "Drenagem percutânea de abscesso seguida de apendicectomia de intervalo em casos de apendicite perfurada com abscesso bem formado",
+      "Antibioticoterapia perioperatória em todos os casos, com cobertura para flora entérica",
+    ],
+    complicacoes: [
+      "Aguda: perfuração com peritonite localizada (abscesso) ou generalizada, sepse",
+      "Crônica: aderências abdominais pós-operatórias (complicação tardia da cirurgia, não da doença em si)",
+    ],
+    redFlags: [
+      "Dor abdominal difusa com rigidez de parede ('abdome em tábua') e febre alta em paciente com quadro sugestivo de apendicite — suspeitar de perfuração com peritonite generalizada, exigindo cirurgia de emergência",
+    ],
+    prognostico:
+      "Excelente com apendicectomia oportuna em apendicite não complicada; o atraso no diagnóstico e tratamento aumenta significativamente o risco de perfuração e suas complicações, que elevam a morbimortalidade.",
+    pontosDeProva: [
+      "A migração clássica da dor de periumbilical para fossa ilíaca direita reflete a transição de dor visceral (inervação autonômica difusa do intestino médio embrionário) para dor somática (irritação peritoneal parietal localizada)",
+      "O tratamento não operatório com antibiótico isolado é uma alternativa validada em casos selecionados de apendicite não complicada, mas a apendicectomia continua sendo o tratamento padrão na maioria dos contextos",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 22 anos, relata dor abdominal iniciada na região periumbilical há 18 horas, que migrou e se intensificou em fossa ilíaca direita, associada a náuseas, anorexia e febre baixa. Exame físico com dor à descompressão brusca em ponto de McBurney.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "O padrão clássico de migração da dor de periumbilical para fossa ilíaca direita, associado a anorexia, náuseas, febre baixa e sinais de irritação peritoneal localizada (McBurney positivo), é altamente sugestivo de apendicite aguda.",
+      conduta:
+        "Confirmar com exame de imagem se houver qualquer dúvida diagnóstica, iniciar antibioticoterapia perioperatória e encaminhar para apendicectomia, preferencialmente por via laparoscópica.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia e migração clássica da dor", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Tratamento não operatório como alternativa em casos selecionados", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "peritonite",
+    nome: "Peritonite",
+    sinonimos: ["Peritonite bacteriana"],
+    cid10: "K65",
+    especialidade: "Gastroenterologia",
+    etiologia: "Multifatorial",
+    resumo: "Inflamação do peritônio, geralmente de causa infecciosa, classificada em primária (espontânea, sem foco intra-abdominal identificável), secundária (por perfuração/foco intra-abdominal) e terciária (persistente após tratamento adequado de peritonite secundária).",
+    definicao:
+      "Processo inflamatório do peritônio, na grande maioria dos casos de origem infecciosa bacteriana, classificado conforme a origem e o mecanismo em primária, secundária e terciária, com implicações diretas na abordagem terapêutica.",
+    epidemiologia:
+      "A peritonite bacteriana espontânea (primária) ocorre predominantemente em pacientes cirróticos com ascite; a peritonite secundária, mais comum, decorre de perfuração de víscera oca (por apendicite, diverticulite, úlcera péptica perfurada, entre outras causas) ou de complicações pós-operatórias.",
+    fisiopatologia:
+      "Na peritonite primária, acredita-se que ocorra translocação bacteriana através da parede intestinal ou disseminação hematogênica para o líquido ascítico, sem fonte identificável de contaminação direta. Na peritonite secundária, a perfuração de uma víscera oca permite contaminação direta da cavidade peritoneal por flora entérica polimicrobiana, desencadeando resposta inflamatória local e, se não controlada, sistêmica.",
+    classificacao:
+      "Classificada em primária/espontânea (sem foco intra-abdominal identificável, tipicamente em cirróticos com ascite), secundária (por perfuração ou contaminação de foco intra-abdominal identificável) e terciária (infecção peritoneal persistente ou recorrente após tratamento adequado de peritonite secundária, frequentemente em pacientes críticos).",
+    quadroClinico: [
+      "Dor abdominal difusa, geralmente intensa, com piora à movimentação",
+      "Rigidez de parede abdominal ('abdome em tábua') e sinais de irritação peritoneal (descompressão brusca dolorosa)",
+      "Febre e taquicardia",
+      "Na peritonite bacteriana espontânea, o quadro pode ser mais sutil, com piora inexplicada da função hepática/renal ou encefalopatia em paciente cirrótico, sem dor abdominal proeminente em uma parcela dos casos",
+    ],
+    diagnostico: [
+      "Peritonite secundária: quadro clínico de abdome agudo associado a exame de imagem (tomografia) identificando a fonte (perfuração, foco inflamatório)",
+      "Peritonite bacteriana espontânea: paracentese diagnóstica com contagem de neutrófilos no líquido ascítico ≥250 células/mm³ confirma o diagnóstico, mesmo na ausência de sintomas clássicos",
+      "Hemoculturas e cultura do líquido peritoneal/ascítico para identificação do agente etiológico",
+    ],
+    examesComplementares: [
+      "Contagem de neutrófilos no líquido ascítico ≥250 células/mm³ (diagnóstico de peritonite bacteriana espontânea)",
+      "Tomografia de abdome com contraste para identificação de foco de peritonite secundária",
+      "Hemograma com leucocitose, lactato e função renal para avaliação de gravidade",
+    ],
+    diagnosticoDiferencial: [
+      "Pancreatite aguda grave (pode mimetizar sinais de irritação peritoneal)",
+      "Isquemia mesentérica",
+      "Ascite não complicada, sem infecção associada",
+    ],
+    tratamento: [
+      "Peritonite secundária: controle cirúrgico do foco (correção da perfuração, drenagem) associado a antibioticoterapia empírica de amplo espectro — a fonte deve ser controlada, já que antibiótico isolado é insuficiente",
+      "Peritonite bacteriana espontânea: antibioticoterapia empírica dirigida aos patógenos mais prováveis (tipicamente bactérias entéricas gram-negativas), sem necessidade de intervenção cirúrgica",
+      "Suporte hemodinâmico e tratamento das disfunções orgânicas associadas em casos graves",
+      "Albumina intravenosa associada ao antibiótico em peritonite bacteriana espontânea em pacientes com maior risco, para redução do risco de síndrome hepatorrenal",
+    ],
+    complicacoes: [
+      "Aguda: choque séptico, disfunção de múltiplos órgãos, síndrome hepatorrenal (na peritonite bacteriana espontânea)",
+      "Crônica: peritonite terciária (infecção persistente/recorrente), aderências abdominais",
+    ],
+    redFlags: [
+      "Piora inexplicada de encefalopatia ou função renal em paciente cirrótico com ascite, mesmo sem dor abdominal proeminente — investigar peritonite bacteriana espontânea com paracentese diagnóstica",
+      "Abdome em tábua com sinais de choque — peritonite secundária grave, emergência cirúrgica com necessidade de controle de foco imediato",
+    ],
+    prognostico:
+      "Variável conforme o tipo e a causa de base; a peritonite secundária com controle cirúrgico precoce da fonte tem prognóstico mais favorável que casos com atraso terapêutico; a peritonite bacteriana espontânea recorrente é comum em cirróticos e associa-se a pior prognóstico hepático global.",
+    pontosDeProva: [
+      "A peritonite bacteriana espontânea é diagnosticada por contagem de neutrófilos no líquido ascítico ≥250 células/mm³, mesmo sem sintomas abdominais clássicos — deve ser ativamente pesquisada em cirróticos com qualquer sinal de descompensação",
+      "Na peritonite secundária, o controle cirúrgico da fonte é indispensável — antibioticoterapia isolada, sem correção do foco, não é suficiente para o tratamento adequado",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 58 anos, cirrótico com ascite volumosa, é internado por confusão mental progressiva nos últimos 2 dias, sem dor abdominal significativa relatada. Paracentese diagnóstica: 450 neutrófilos/mm³ no líquido ascítico.",
+      pergunta: "Qual é o diagnóstico e a conduta terapêutica apropriada?",
+      raciocinio:
+        "A contagem de neutrófilos no líquido ascítico acima de 250 células/mm³ confirma peritonite bacteriana espontânea, mesmo na ausência de dor abdominal proeminente — a encefalopatia pode ser a manifestação predominante nesse contexto.",
+      conduta:
+        "Iniciar antibioticoterapia empírica dirigida aos patógenos entéricos gram-negativos mais prováveis, associar albumina intravenosa conforme critérios de risco para prevenção de síndrome hepatorrenal, e reavaliar a resposta clínica e laboratorial.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Classificação primária/secundária/terciária", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Critério diagnóstico de peritonite bacteriana espontânea (neutrófilos ≥250/mm³)", fonte: "AASLD Practice Guidance: Ascites, Spontaneous Bacterial Peritonitis, 2021" },
+      { tema: "Antibioticoterapia empírica dirigida (ainda sem fichas próprias no site com essa indicação)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "osteoartrose",
+    nome: "Osteoartrose",
+    sinonimos: ["Osteoartrite", "Artrose", "Doença articular degenerativa"],
+    cid10: "M15",
+    especialidade: "Reumatologia",
+    etiologia: "Degenerativa",
+    resumo: "Doença articular degenerativa mais comum, caracterizada por degeneração progressiva da cartilagem articular e remodelamento ósseo subcondral, fortemente associada à idade e à sobrecarga mecânica.",
+    definicao:
+      "Doença articular crônica degenerativa caracterizada por perda progressiva da cartilagem articular, remodelamento do osso subcondral (formação de osteófitos) e alterações inflamatórias secundárias de baixo grau, resultando em dor e limitação funcional.",
+    epidemiologia:
+      "Doença articular mais comum globalmente, com prevalência aumentando acentuadamente com a idade; fatores de risco incluem obesidade, sobrecarga articular repetitiva/ocupacional, trauma articular prévio e predisposição genética. Acomete preferencialmente joelhos, quadris, coluna e pequenas articulações das mãos.",
+    fisiopatologia:
+      "Um desequilíbrio entre síntese e degradação da matriz cartilaginosa, favorecido por fatores mecânicos (sobrecarga, trauma) e biológicos (envelhecimento, predisposição genética), leva à perda progressiva de cartilagem articular. O osso subcondral exposto sofre remodelamento reativo, com formação de osteófitos marginais e esclerose subcondral, enquanto um componente inflamatório sinovial secundário de baixo grau contribui para a dor.",
+    classificacao:
+      "Classificação radiográfica de Kellgren-Lawrence, de grau 0 (sem alterações) a grau 4 (osteoartrose grave, com redução acentuada do espaço articular, osteófitos volumosos e deformidade óssea), amplamente usada para graduar a gravidade estrutural, embora a correlação com a intensidade dos sintomas seja imperfeita.",
+    quadroClinico: [
+      "Dor articular mecânica, que piora com uso/atividade e melhora com repouso (diferente do padrão inflamatório de piora matinal prolongada)",
+      "Rigidez matinal de curta duração (tipicamente <30 minutos), diferente da rigidez prolongada das artrites inflamatórias",
+      "Crepitação articular à movimentação",
+      "Nódulos de Heberden (interfalangeanas distais) e Bouchard (interfalangeanas proximais) nas mãos",
+    ],
+    diagnostico: [
+      "Diagnóstico predominantemente clínico em pacientes com perfil epidemiológico típico e quadro característico",
+      "Radiografia simples da articulação acometida para confirmação e graduação (Kellgren-Lawrence), embora não seja obrigatória para diagnóstico clínico em casos típicos",
+      "Ausência de marcadores inflamatórios sistêmicos significativos, ajudando a diferenciar de artrites inflamatórias",
+    ],
+    examesComplementares: [
+      "Radiografia simples: redução do espaço articular, osteófitos, esclerose subcondral, cistos subcondrais",
+      "Provas de atividade inflamatória (VHS, PCR) tipicamente normais ou apenas discretamente alteradas, diferente das artrites inflamatórias",
+    ],
+    diagnosticoDiferencial: [
+      "Artrite reumatoide e outras artrites inflamatórias",
+      "Gota e outras artrites por cristais",
+      "Necrose avascular",
+    ],
+    tratamento: [
+      "Medidas não farmacológicas como base do tratamento: perda de peso, exercício físico e fortalecimento muscular, fisioterapia",
+      "Anti-inflamatório não esteroidal tópico como opção preferencial quando viável (especialmente em articulações superficiais, como mãos e joelhos), pelo menor risco sistêmico",
+      "Anti-inflamatório não esteroidal oral quando a via tópica é insuficiente ou inviável, respeitando contraindicações e riscos cardiovasculares/gastrointestinais/renais",
+      "Artroplastia (prótese articular) em doença avançada e refratária ao tratamento clínico, com impacto funcional significativo",
+    ],
+    complicacoes: [
+      "Aguda: sinovite reativa aguda em episódios de sobrecarga",
+      "Crônica: deformidade articular progressiva, limitação funcional significativa, necessidade de artroplastia",
+    ],
+    redFlags: [
+      "Dor articular com sinais inflamatórios importantes (calor, rubor, derrame significativo) e febre — reconsiderar diagnóstico de artrite séptica ou por cristais, diferenciais que exigem investigação e conduta distintas",
+    ],
+    prognostico:
+      "Doença crônica e progressiva na maioria dos casos, mas com curso lento e resposta parcial às medidas de controle de fatores modificáveis (peso, atividade física); a artroplastia oferece alívio significativo em doença avançada refratária.",
+    pontosDeProva: [
+      "A rigidez matinal breve (<30 minutos) na osteoartrose contrasta com a rigidez matinal prolongada (>1 hora) típica das artrites inflamatórias como a artrite reumatoide — diferencial clínico clássico de prova",
+      "As diretrizes atuais (ACR 2019) recomendam preferencialmente AINE tópico sobre oral quando viável, e recomendam condicionalmente contra o uso rotineiro de paracetamol isolado pela eficácia limitada demonstrada",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 64 anos, obesa, relata dor em joelhos bilateralmente há 2 anos, pior ao final do dia e após caminhadas longas, com rigidez matinal de cerca de 15 minutos. Exame físico com crepitação à mobilização e nódulos de Heberden nas mãos.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e a conduta terapêutica inicial?",
+      raciocinio:
+        "O padrão de dor mecânica (pior com uso, no final do dia), rigidez matinal breve, crepitação e nódulos de Heberden é característico de osteoartrose, sem sugerir componente inflamatório sistêmico importante.",
+      conduta:
+        "Orientar perda de peso e programa de exercícios/fortalecimento muscular como base do tratamento, considerar AINE tópico para as articulações mais sintomáticas, e reservar AINE oral para casos refratários às medidas iniciais.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "ibuprofeno", nome: "Ibuprofeno" },
+    ],
+    medicamentosNota:
+      "As medidas não farmacológicas (perda de peso, exercício, fisioterapia) são a base do tratamento da osteoartrose. O AINE tópico é preferido ao oral quando viável, pelo menor risco sistêmico; o ibuprofeno listado representa a opção oral, reservada para quando a via tópica é insuficiente.",
+    fontes: [
+      { tema: "Fisiopatologia e classificação de Kellgren-Lawrence", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Recomendações de tratamento farmacológico (AINE tópico preferencial)", fonte: "American College of Rheumatology/Arthritis Foundation Guideline for Management of Osteoarthritis, 2019" },
+    ],
+  },
+  {
+    slug: "gota",
+    nome: "Gota",
+    sinonimos: ["Artrite gotosa"],
+    cid10: "M10",
+    especialidade: "Reumatologia",
+    etiologia: "Metabólica",
+    resumo: "Artrite inflamatória causada pela deposição de cristais de urato monossódico nas articulações, decorrente de hiperuricemia crônica, classicamente acometendo a primeira articulação metatarsofalangeana.",
+    definicao:
+      "Doença metabólica caracterizada pela deposição de cristais de urato monossódico em articulações e tecidos periarticulares, decorrente de hiperuricemia crônica (produção excessiva ou, mais comumente, excreção renal reduzida de ácido úrico), causando episódios recorrentes de artrite inflamatória aguda.",
+    epidemiologia:
+      "Mais comum em homens, com incidência aumentando após a menopausa em mulheres (efeito protetor relativo dos estrogênios na excreção de urato antes desse período); associada a obesidade, síndrome metabólica, consumo de álcool (especialmente cerveja) e determinados alimentos ricos em purinas, além de uso de diuréticos.",
+    fisiopatologia:
+      "A hiperuricemia crônica sustentada favorece a precipitação de cristais de urato monossódico nas articulações, especialmente em locais mais frios (periféricos, como o primeiro pododáctilo). Esses cristais desencadeiam resposta inflamatória aguda intensa, mediada por ativação do inflamassoma NLRP3 em macrófagos, com liberação maciça de citocinas pró-inflamatórias (especialmente IL-1β), explicando a intensidade da dor no ataque agudo.",
+    classificacao:
+      "Evolução em estágios: hiperuricemia assintomática (sem sintomas articulares, não requer tratamento isoladamente na maioria dos casos), gota aguda intermitente (crises recorrentes com períodos assintomáticos entre elas, chamados intercríticos) e gota tofácea crônica (doença estabelecida com depósitos visíveis de urato — tofos — e dano articular estrutural, em casos não tratados adequadamente a longo prazo).",
+    quadroClinico: [
+      "Crise aguda: dor articular intensa e súbita, classicamente na primeira articulação metatarsofalangeana (podagra), com eritema, calor e edema importantes",
+      "Crises frequentemente noturnas, de início abrupto, atingindo intensidade máxima em 12-24 horas",
+      "Tofos (depósitos subcutâneos de urato) em doença crônica não tratada adequadamente, tipicamente em hélice auricular, cotovelos e ao redor de articulações",
+      "Períodos intercríticos assintomáticos entre as crises na fase intermitente",
+    ],
+    diagnostico: [
+      "Identificação de cristais de urato monossódico (birrefringência negativa à luz polarizada) no líquido sinovial é o padrão-ouro diagnóstico",
+      "Ácido úrico sérico elevado sustenta a suspeita, mas pode estar normal durante a crise aguda (não deve ser usado isoladamente para confirmar ou excluir o diagnóstico)",
+      "Critérios de classificação ACR/EULAR (2015) combinam achados clínicos, laboratoriais e de imagem quando a análise do líquido sinovial não está disponível",
+    ],
+    examesComplementares: [
+      "Análise do líquido sinovial com identificação de cristais de urato monossódico (padrão-ouro)",
+      "Ácido úrico sérico (elevado cronicamente, mas pode estar normal na crise aguda)",
+      "Radiografia articular em doença crônica (erosões características 'em saca-bocado', com bordas escleróticas)",
+    ],
+    diagnosticoDiferencial: [
+      "Artrite séptica (diagnóstico diferencial obrigatório em monoartrite aguda, pela gravidade)",
+      "Condrocalcinose/pseudogota (cristais de pirofosfato de cálcio)",
+      "Celulite (quando há eritema e edema periarticular importantes)",
+    ],
+    tratamento: [
+      "Crise aguda: anti-inflamatório não esteroidal, colchicina ou corticosteroide (sistêmico ou intra-articular), conforme perfil do paciente e contraindicações — não se deve iniciar terapia hipouricemiante durante a crise aguda",
+      "Terapia hipouricemiante de manutenção (ex.: alopurinol) indicada em gota recorrente, tofácea ou com dano articular/renal estabelecido, iniciada somente após resolução da crise aguda e mantida indefinidamente",
+      "Profilaxia com colchicina ou AINE em baixa dose nos primeiros meses após início da terapia hipouricemiante, pelo risco de precipitar novas crises durante a fase inicial de redução do urato",
+      "Orientação dietética e de estilo de vida (redução de álcool, purinas, controle de peso) como medida adjuvante",
+    ],
+    complicacoes: [
+      "Aguda: crise gotosa incapacitante",
+      "Crônica: gota tofácea crônica com dano articular estrutural, nefrolitíase por urato, nefropatia por urato",
+    ],
+    redFlags: [
+      "Monoartrite aguda com febre e toxemia — sempre excluir artrite séptica antes de assumir crise de gota, já que ambas podem coexistir e a artrite séptica exige drenagem e antibioticoterapia de emergência",
+    ],
+    prognostico:
+      "Excelente controle das crises agudas com tratamento adequado; a adesão à terapia hipouricemiante de manutenção previne a progressão para gota tofácea crônica e dano articular estrutural, mas a descontinuação frequente do tratamento é um desafio prático comum.",
+    pontosDeProva: [
+      "Não se deve iniciar terapia hipouricemiante (como alopurinol) durante a crise aguda de gota, pois a flutuação do ácido úrico pode prolongar ou agravar a crise — o tratamento hipouricemiante é iniciado após resolução do episódio agudo",
+      "O ácido úrico sérico pode estar normal durante a crise aguda de gota, não devendo ser usado isoladamente para excluir o diagnóstico nesse momento",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 52 anos, obeso, etilista moderado, acorda com dor intensa e súbita no primeiro pododáctilo direito, associada a eritema, calor e edema importantes. Ácido úrico sérico: 6,8 mg/dL (limite superior da normalidade).",
+      pergunta: "O ácido úrico normal/limítrofe exclui o diagnóstico de gota neste momento?",
+      raciocinio:
+        "O quadro é clinicamente muito sugestivo de crise aguda de gota (podagra clássica). O ácido úrico sérico pode estar normal durante a crise aguda, mesmo em pacientes com gota verdadeira, não devendo ser usado isoladamente para excluir o diagnóstico nesse momento.",
+      conduta:
+        "Tratar a crise aguda com anti-inflamatório não esteroidal, colchicina ou corticosteroide conforme perfil do paciente, sem iniciar terapia hipouricemiante nesse momento, e reavaliar ácido úrico e indicação de tratamento de manutenção após resolução da crise.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "ibuprofeno", nome: "Ibuprofeno" },
+    ],
+    medicamentosSecaoTitulo: "Medicamento para a crise aguda",
+    medicamentosNota:
+      "O ibuprofeno (ou outro AINE) é usado no tratamento da crise aguda de gota. A terapia hipouricemiante de manutenção (ex.: alopurinol), indicada em gota recorrente/tofácea e iniciada somente após resolução da crise, ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia e papel do inflamassoma NLRP3", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Estágios da doença e critérios ACR/EULAR 2015", fonte: "ACR/EULAR Classification Criteria for Gout, 2015" },
+      { tema: "Tratamento da crise aguda e terapia hipouricemiante", fonte: "American College of Rheumatology Guideline for the Management of Gout, 2020" },
+    ],
+  },
+  {
+    slug: "espondilite-anquilosante",
+    nome: "Espondilite anquilosante",
+    sinonimos: ["Espondiloartrite axial"],
+    cid10: "M45",
+    especialidade: "Reumatologia",
+    etiologia: "Autoimune",
+    resumo: "Espondiloartrite inflamatória crônica que acomete predominantemente as articulações sacroilíacas e a coluna vertebral, fortemente associada ao HLA-B27, mais comum em homens jovens.",
+    definicao:
+      "Doença inflamatória crônica do grupo das espondiloartrites, caracterizada por acometimento predominante do esqueleto axial (articulações sacroilíacas e coluna vertebral), com potencial de anquilose (fusão óssea) progressiva em casos avançados não tratados.",
+    epidemiologia:
+      "Mais comum em homens, com início tipicamente antes dos 40 anos; fortemente associada à presença do antígeno HLA-B27, embora a maioria dos portadores de HLA-B27 na população geral nunca desenvolva a doença, indicando papel de outros fatores genéticos e ambientais.",
+    fisiopatologia:
+      "Mecanismo não completamente elucidado, mas envolve resposta imune anormal nas ênteses (locais de inserção de tendões e ligamentos no osso) e nas articulações sacroilíacas, com inflamação crônica que evolui para formação óssea reativa (sindesmófitos) e, em casos avançados, fusão vertebral progressiva ('coluna em bambu').",
+    classificacao:
+      "Critérios de Nova York modificados (1984) para espondilite anquilosante estabelecida, exigindo sacroiliíte radiográfica associada a critérios clínicos. Os critérios ASAS (Assessment of SpondyloArthritis International Society) para espondiloartrite axial ampliam o espectro diagnóstico, incluindo formas não radiográficas (sem sacroiliíte visível em radiografia simples, mas com inflamação identificável por ressonância magnética e/ou HLA-B27 positivo associado a características clínicas compatíveis) — permitindo diagnóstico mais precoce.",
+    quadroClinico: [
+      "Dor lombar/glútea inflamatória crônica: início insidioso antes dos 40 anos, piora com repouso e melhora com exercício, rigidez matinal prolongada (>30 minutos)",
+      "Limitação progressiva da mobilidade da coluna vertebral",
+      "Entesite (dor em locais de inserção tendínea, como tendão de Aquiles) e, em alguns casos, artrite periférica de grandes articulações",
+      "Uveíte anterior aguda como manifestação extra-articular mais comum",
+    ],
+    diagnostico: [
+      "Combinação de dor lombar inflamatória crônica, limitação da mobilidade espinhal e evidência de sacroiliíte (radiografia simples ou ressonância magnética)",
+      "HLA-B27 como apoio diagnóstico, especialmente relevante nos critérios ASAS para formas não radiográficas",
+      "Ressonância magnética de articulações sacroilíacas mais sensível que radiografia simples para detecção precoce de inflamação, antes do dano estrutural visível",
+    ],
+    examesComplementares: [
+      "Radiografia de sacroilíacas (sacroiliíte bilateral grau ≥2 ou unilateral grau ≥3, critérios de Nova York modificados)",
+      "Ressonância magnética de sacroilíacas (edema ósseo/inflamação ativa, mais sensível para doença precoce)",
+      "HLA-B27 (positivo na grande maioria dos pacientes, mas não exclusivo nem obrigatório para o diagnóstico)",
+      "Provas de atividade inflamatória (VHS, PCR), frequentemente elevadas mas nem sempre correlacionadas com atividade clínica",
+    ],
+    diagnosticoDiferencial: [
+      "Dor lombar mecânica comum (não inflamatória)",
+      "Outras espondiloartrites (psoriásica, reativa, associada a doença inflamatória intestinal)",
+      "Hiperostose esquelética idiopática difusa (DISH)",
+    ],
+    tratamento: [
+      "Anti-inflamatório não esteroidal como primeira linha farmacológica, com resposta frequentemente significativa e característica da doença",
+      "Exercício físico regular e fisioterapia, componente central do tratamento para manutenção da mobilidade espinhal",
+      "Terapia biológica (anti-TNF ou outras classes) em doença com resposta inadequada a AINEs, especialmente em doença axial ativa persistente",
+      "Encaminhamento oftalmológico urgente em episódios de uveíte anterior aguda (olho vermelho doloroso, fotofobia)",
+    ],
+    complicacoes: [
+      "Aguda: uveíte anterior aguda, fraturas vertebrais (coluna anquilosada e rígida é mais suscetível a fraturas mesmo com trauma de baixa energia)",
+      "Crônica: anquilose vertebral progressiva com limitação funcional significativa, cifose torácica, doença cardiovascular associada (incluindo comprometimento da valva aórtica em casos avançados)",
+    ],
+    redFlags: [
+      "Dor lombar de início antes dos 40 anos, com melhora ao exercício e piora ao repouso, associada a rigidez matinal prolongada — diferenciar ativamente de lombalgia mecânica comum, que tem padrão oposto",
+    ],
+    prognostico:
+      "Variável, mas o diagnóstico e tratamento precoces (incluindo exercício regular e, quando indicado, terapia biológica) melhoram significativamente a função e retardam a progressão estrutural; a doença não tratada pode evoluir para anquilose vertebral significativa ao longo de anos.",
+    pontosDeProva: [
+      "A dor lombar inflamatória (melhora com exercício, piora com repouso, rigidez matinal prolongada) contrasta com o padrão mecânico da lombalgia comum (piora com atividade, melhora com repouso) — distinção fundamental de prova",
+      "A resposta significativa e característica a AINEs é um elemento de apoio diagnóstico na espondiloartrite axial, diferente de muitas outras causas de dor lombar crônica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 26 anos, relata dor lombar baixa e em nádegas há 8 meses, pior pela manhã e após períodos de repouso, com melhora notável ao longo do dia com atividade física. Rigidez matinal de cerca de 1 hora. HLA-B27 positivo.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "O padrão de dor lombar inflamatória (piora com repouso, melhora com exercício, rigidez matinal prolongada) em homem jovem com HLA-B27 positivo é altamente sugestivo de espondiloartrite axial, mesmo que a radiografia de sacroilíacas ainda não mostre alterações estruturais avançadas.",
+      conduta:
+        "Solicitar ressonância magnética de sacroilíacas para pesquisa de inflamação ativa precoce (mais sensível que radiografia simples), iniciar anti-inflamatório não esteroidal como primeira linha, e orientar programa de exercícios regulares para preservação da mobilidade espinhal.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "ibuprofeno", nome: "Ibuprofeno" },
+    ],
+    fontes: [
+      { tema: "Fisiopatologia e associação com HLA-B27", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Critérios de Nova York modificados e critérios ASAS", fonte: "Assessment of SpondyloArthritis International Society (ASAS) Classification Criteria, 2009" },
+      { tema: "AINE como primeira linha farmacológica", fonte: "ASAS-EULAR Recommendations for the Management of Axial Spondyloarthritis, 2016" },
+    ],
+  },
+  {
+    slug: "artropatias-psoriasicas-enteropaticas",
+    nome: "Artropatias psoriásicas e enteropáticas",
+    sinonimos: ["Artrite psoriásica", "Artrite enteropática"],
+    cid10: "M07",
+    especialidade: "Reumatologia",
+    etiologia: "Autoimune",
+    resumo: "Espondiloartrites associadas à psoríase cutânea (artrite psoriásica) ou à doença inflamatória intestinal (artrite enteropática), com espectro variável de acometimento articular periférico e/ou axial.",
+    definicao:
+      "Grupo de espondiloartrites soronegativas associadas a doenças sistêmicas específicas: artrite psoriásica (associada à psoríase cutânea, podendo precedê-la, coincidir ou segui-la) e artrite enteropática (associada à doença inflamatória intestinal, Crohn ou colite ulcerativa), com espectro de acometimento articular periférico, axial ou ambos.",
+    epidemiologia:
+      "A artrite psoriásica acomete uma parcela significativa dos pacientes com psoríase cutânea, podendo a artrite anteceder as lesões de pele em uma minoria dos casos, o que dificulta o diagnóstico inicial. A artrite enteropática ocorre em pacientes com doença inflamatória intestinal estabelecida, com atividade articular periférica frequentemente (mas não sempre) acompanhando a atividade da doença intestinal de base.",
+    fisiopatologia:
+      "Compartilham mecanismos imunomediados com as demais espondiloartrites, com ativação de vias inflamatórias (incluindo o eixo IL-23/IL-17, particularmente relevante na artrite psoriásica) que causam sinovite, entesite e, em casos axiais, sacroiliíte. Na artrite enteropática, acredita-se que a inflamação intestinal crônica contribua para a ativação imune sistêmica que se manifesta também nas articulações.",
+    classificacao:
+      "Artrite psoriásica classificada pelos critérios CASPAR (Classification Criteria for Psoriatic Arthritis), que combinam evidência de psoríase (atual, pessoal ou familiar) com características articulares inflamatórias. Padrões de acometimento articular incluem oligoarticular assimétrico, poliarticular simétrico (mimetizando artrite reumatoide), predominantemente axial, acometimento de interfalangeanas distais e artrite mutilante (forma rara e mais destrutiva). A artrite enteropática é classificada por padrão periférico (tipo 1, oligoarticular, associado a atividade da doença intestinal; tipo 2, poliarticular, com curso mais independente da atividade intestinal) ou axial.",
+    quadroClinico: [
+      "Artrite psoriásica: dor e edema articular periférico (frequentemente assimétrico), dactilite ('dedo em salsicha'), entesite, acometimento de interfalangeanas distais associado a alterações ungueais psoriásicas",
+      "Artrite enteropática: artrite periférica (mono ou oligoarticular, geralmente de grandes articulações de membros inferiores) associada a sintomas de doença inflamatória intestinal ativa ou história prévia dela",
+      "Ambas podem cursar com acometimento axial (dor lombar inflamatória) semelhante ao da espondilite anquilosante",
+      "Lesões cutâneas de psoríase (placas eritematoescamosas) ou sintomas gastrointestinais (diarreia, sangue nas fezes) conforme a condição associada",
+    ],
+    diagnostico: [
+      "Artrite psoriásica: critérios CASPAR, combinando evidência de psoríase com características articulares inflamatórias compatíveis",
+      "Artrite enteropática: contexto de doença inflamatória intestinal estabelecida associado a artrite inflamatória sem outra causa identificada",
+      "Exames de imagem (radiografia, ressonância) para avaliação de dano estrutural e entesite/sacroiliíte quando há suspeita de acometimento axial",
+    ],
+    examesComplementares: [
+      "Fator reumatoide e anti-CCP tipicamente negativos (soronegatividade característica das espondiloartrites)",
+      "Provas de atividade inflamatória (VHS, PCR) frequentemente elevadas em atividade de doença",
+      "Radiografia de mãos/pés em artrite psoriásica avançada (achados característicos incluem erosões associadas a formação óssea nova, padrão distinto de outras artrites erosivas)",
+    ],
+    diagnosticoDiferencial: [
+      "Artrite reumatoide (especialmente na forma poliarticular simétrica de artrite psoriásica)",
+      "Gota (especialmente quando há acometimento de interfalangeanas distais e dactilite)",
+      "Outras espondiloartrites",
+    ],
+    tratamento: [
+      "Anti-inflamatório não esteroidal para controle sintomático de dor e rigidez em doença de atividade leve, usado com cautela e evitado em vigência de atividade da doença inflamatória intestinal na forma enteropática, pelo potencial de exacerbar os sintomas gastrointestinais",
+      "Terapia biológica (anti-TNF e outras classes conforme perfil, incluindo inibidores de IL-17/IL-23 na artrite psoriásica) em doença moderada a grave ou refratária, com benefício frequentemente concomitante sobre as manifestações cutâneas/intestinais associadas",
+      "Metotrexato e outros imunossupressores convencionais em artrite psoriásica periférica, especialmente na forma poliarticular",
+      "Tratamento coordenado com dermatologia (psoríase) ou gastroenterologia (doença inflamatória intestinal) conforme a condição associada",
+    ],
+    complicacoes: [
+      "Aguda: dactilite/entesite incapacitante em crises de atividade",
+      "Crônica: dano articular estrutural e deformidade (especialmente na artrite mutilante, forma rara e grave da artrite psoriásica), limitação funcional progressiva",
+    ],
+    redFlags: [
+      "Uso de anti-inflamatório não esteroidal em paciente com artrite enteropática e doença inflamatória intestinal ativa — risco de exacerbação dos sintomas intestinais, exigindo reavaliação da estratégia analgésica",
+    ],
+    prognostico:
+      "Variável conforme o padrão de acometimento e a resposta ao tratamento; a terapia biológica moderna melhorou significativamente o controle de doença em casos refratários, mas a artrite mutilante e o dano estrutural acumulado em doença não controlada podem causar incapacidade funcional significativa.",
+    pontosDeProva: [
+      "Anti-inflamatórios não esteroidais devem ser usados com cautela na artrite enteropática associada a doença inflamatória intestinal ativa, pelo risco de exacerbar os sintomas gastrointestinais de base — diferencial importante em relação a outras espondiloartrites",
+      "A dactilite ('dedo em salsicha') é um achado característico e relativamente específico da artrite psoriásica, útil para diferenciá-la de outras poliartrites",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 34 anos, com colite ulcerativa conhecida em atividade, relata dor e edema em joelho direito e tornozelo esquerdo há 2 semanas, coincidindo com piora da diarreia sanguinolenta habitual.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e uma consideração importante na escolha do analgésico?",
+      raciocinio:
+        "A artrite periférica oligoarticular assimétrica de grandes articulações, coincidindo temporalmente com atividade da doença inflamatória intestinal de base, é sugestiva de artrite enteropática tipo 1 (associada à atividade intestinal).",
+      conduta:
+        "Evitar anti-inflamatório não esteroidal como analgésico de escolha, pelo risco de exacerbar a atividade da colite ulcerativa, priorizando o controle da doença intestinal de base (que tende a melhorar a artrite associada) e analgesia alternativa conforme necessário.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "metotrexato", nome: "Metotrexato" },
+    ],
+    medicamentosSecaoTitulo: "Medicamento para artrite psoriásica poliarticular periférica",
+    medicamentosNota:
+      "O metotrexato é usado especificamente na forma poliarticular periférica da artrite psoriásica, não no acometimento axial isolado nem como escolha na artrite enteropática. O AINE é usado com cautela nessas condições e evitado durante atividade da doença inflamatória intestinal na forma enteropática. A terapia biológica, para doença moderada a grave ou refratária, ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia e eixo IL-23/IL-17", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Critérios CASPAR e classificação de padrões articulares", fonte: "CASPAR Classification Criteria for Psoriatic Arthritis, 2006" },
+      { tema: "Cautela com AINE na artrite enteropática ativa", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "esclerose-sistemica",
+    nome: "Esclerose sistêmica",
+    sinonimos: ["Esclerodermia"],
+    cid10: "M34",
+    especialidade: "Reumatologia",
+    etiologia: "Autoimune",
+    resumo: "Doença autoimune sistêmica caracterizada por fibrose cutânea e de órgãos internos, vasculopatia e disfunção imunológica, com formas limitada e difusa de gravidade e prognóstico distintos.",
+    definicao:
+      "Doença autoimune sistêmica caracterizada pela tríade de fibrose excessiva de pele e órgãos internos, vasculopatia de pequenos vasos e disfunção imunológica com produção de autoanticorpos específicos, com espectro de gravidade que varia da forma cutânea limitada à forma cutânea difusa.",
+    epidemiologia:
+      "Mais comum em mulheres, com pico de incidência entre 30-50 anos; doença rara em comparação a outras doenças autoimunes reumatológicas, mas com potencial de acometimento multissistêmico grave, particularmente pulmonar, cardíaco e renal na forma difusa.",
+    fisiopatologia:
+      "Uma combinação de lesão endotelial vascular precoce, ativação imune com produção de autoanticorpos específicos e ativação excessiva de fibroblastos leva a deposição descontrolada de colágeno, causando fibrose progressiva de pele e órgãos internos (pulmão, coração, trato gastrointestinal, rins). A vasculopatia de pequenos vasos explica o fenômeno de Raynaud (quase universal na doença) e a crise renal esclerodérmica.",
+    classificacao:
+      "Classificada em forma cutânea limitada (acometimento cutâneo distal a cotovelos/joelhos e face, historicamente descrita pelo acrônimo CREST — calcinose, Raynaud, dismotilidade esofágica, esclerodactilia, telangiectasias — associada a anticorpo anticentrômero) e forma cutânea difusa (acometimento cutâneo mais extenso, incluindo tronco, progressão mais rápida, maior risco de acometimento visceral precoce, incluindo crise renal, associada a anticorpo antitopoisomerase I/Scl-70). Critérios de classificação ACR/EULAR (2013) combinam achados cutâneos, vasculares, sorológicos e viscerais.",
+    quadroClinico: [
+      "Fenômeno de Raynaud, quase universal e frequentemente a manifestação inicial",
+      "Espessamento e endurecimento progressivo da pele (esclerodactilia nas mãos, face com perda de expressividade)",
+      "Dismotilidade esofágica com disfagia e refluxo importante",
+      "Dispneia progressiva por doença pulmonar intersticial ou hipertensão arterial pulmonar, conforme o subtipo",
+    ],
+    diagnostico: [
+      "Critérios de classificação ACR/EULAR (2013), combinando espessamento cutâneo característico, fenômeno de Raynaud, alterações capilaroscópicas, autoanticorpos específicos (anticentrômero, antitopoisomerase I) e acometimento visceral",
+      "Capilaroscopia periungueal (padrão esclerodérmico) como ferramenta de apoio diagnóstico precoce",
+      "Rastreamento sistemático de acometimento visceral (função pulmonar com DLCO, ecocardiograma, função renal) mesmo em pacientes com sintomas cutâneos predominantes, pela relevância prognóstica",
+    ],
+    examesComplementares: [
+      "Anticorpo anticentrômero (forma limitada) e antitopoisomerase I/Scl-70 (forma difusa) como marcadores sorológicos de apoio e de perfil de risco",
+      "Prova de função pulmonar com DLCO e tomografia de tórax de alta resolução (rastreamento de doença pulmonar intersticial)",
+      "Ecocardiograma (rastreamento de hipertensão arterial pulmonar)",
+      "Função renal e pressão arterial monitorizadas de perto, pelo risco de crise renal esclerodérmica",
+    ],
+    diagnosticoDiferencial: [
+      "Outras doenças do tecido conjuntivo com sobreposição (doença mista do tecido conjuntivo)",
+      "Fasciite eosinofílica",
+      "Esclerodermia localizada (morfeia, sem acometimento sistêmico)",
+    ],
+    tratamento: [
+      "Tratamento direcionado a cada manifestação de órgão-alvo, já que não há terapia única que reverta a fibrose sistêmica de forma abrangente",
+      "Bloqueadores de canal de cálcio para fenômeno de Raynaud sintomático",
+      "Inibidor da enzima conversora de angiotensina (IECA) como pilar do tratamento da crise renal esclerodérmica — emergência que exige controle pressórico agressivo e rápido, com o captopril classicamente preferido pela facilidade de titulação rápida (meia-vida curta)",
+      "Imunossupressores (conforme órgão acometido) para doença pulmonar intersticial ou outras manifestações inflamatórias significativas",
+    ],
+    complicacoes: [
+      "Aguda: crise renal esclerodérmica (hipertensão maligna com insuficiência renal aguda), emergência com risco de vida",
+      "Crônica: doença pulmonar intersticial progressiva, hipertensão arterial pulmonar, dismotilidade gastrointestinal grave, calcinose cutânea",
+    ],
+    redFlags: [
+      "Elevação abrupta da pressão arterial associada a piora da função renal em paciente com esclerose sistêmica, especialmente na forma difusa e em fase inicial da doença — reconhecer crise renal esclerodérmica imediatamente e iniciar IECA sem demora, mesmo antes de investigação completa",
+    ],
+    prognostico:
+      "Variável conforme o subtipo: a forma limitada tem curso mais indolente, embora com risco de hipertensão arterial pulmonar tardia; a forma difusa tem maior risco de acometimento visceral grave precoce, incluindo doença pulmonar intersticial rapidamente progressiva e crise renal, sendo historicamente associada a pior prognóstico, embora o reconhecimento e tratamento precoce da crise renal com IECA tenha mudado drasticamente esse desfecho específico.",
+    pontosDeProva: [
+      "O IECA (classicamente o captopril, pela meia-vida curta que permite titulação rápida) é o tratamento de escolha na crise renal esclerodérmica — antes de sua introdução, essa complicação era quase invariavelmente fatal, sendo um dos maiores avanços terapêuticos da reumatologia",
+      "O anticorpo antitopoisomerase I (Scl-70) associa-se à forma difusa e a maior risco de doença pulmonar intersticial, enquanto o anticentrômero associa-se à forma limitada e a maior risco de hipertensão arterial pulmonar isolada tardia",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 45 anos, com esclerose sistêmica forma difusa diagnosticada há 8 meses, é internada com cefaleia intensa, pressão arterial 210x120 mmHg e creatinina em elevação progressiva nos últimos 2 dias.",
+      pergunta: "Qual é a hipótese diagnóstica e a conduta terapêutica imediata?",
+      raciocinio:
+        "A combinação de esclerose sistêmica de forma difusa em fase inicial (maior risco), hipertensão grave de início abrupto e piora aguda da função renal é altamente sugestiva de crise renal esclerodérmica, uma emergência que exige tratamento imediato.",
+      conduta:
+        "Iniciar IECA (captopril) imediatamente, com titulação rápida da dose conforme resposta pressórica, sem aguardar investigação diagnóstica completa, dado o risco de progressão rápida para insuficiência renal irreversível se o tratamento for postergado.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "captopril", nome: "Captopril" },
+    ],
+    medicamentosSecaoTitulo: "Medicamento para crise renal esclerodérmica",
+    medicamentosNota:
+      "O captopril é usado especificamente no tratamento da crise renal esclerodérmica (emergência hipertensiva com insuficiência renal aguda), não para a doença sistêmica em si. O tratamento das demais manifestações (Raynaud, doença pulmonar intersticial) depende de outras classes de medicamentos, ainda sem fichas próprias no site.",
+    fontes: [
+      { tema: "Fisiopatologia e classificação limitada/difusa", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Critérios ACR/EULAR 2013 e autoanticorpos específicos", fonte: "ACR/EULAR Classification Criteria for Systemic Sclerosis, 2013" },
+      { tema: "IECA na crise renal esclerodérmica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "dermatopoliomiosite",
+    nome: "Dermatopoliomiosite",
+    sinonimos: ["Dermatomiosite", "Polimiosite"],
+    cid10: "M33",
+    especialidade: "Reumatologia",
+    etiologia: "Autoimune",
+    resumo: "Miopatias inflamatórias idiopáticas caracterizadas por fraqueza muscular proximal simétrica, com achados cutâneos característicos na dermatomiosite e ausência deles na polimiosite.",
+    definicao:
+      "Grupo de miopatias inflamatórias idiopáticas caracterizadas por inflamação muscular autoimune, causando fraqueza muscular proximal simétrica progressiva; a dermatomiosite se distingue pela presença de achados cutâneos característicos, ausentes na polimiosite.",
+    epidemiologia:
+      "Mais comum em mulheres; a dermatomiosite pode ocorrer em qualquer idade, incluindo uma forma juvenil, enquanto a polimiosite tipicamente acomete adultos. Ambas têm associação reconhecida com neoplasias malignas ocultas, particularmente relevante e mais forte na dermatomiosite do adulto.",
+    fisiopatologia:
+      "Na dermatomiosite, a lesão primária é vascular, com ativação do complemento contra capilares endomisiais mediada por autoanticorpos, causando isquemia muscular e atrofia perifascicular característica. Na polimiosite, um processo de citotoxicidade mediada por linfócitos T CD8+ ataca diretamente as fibras musculares que expressam antígenos de classe I do complexo principal de histocompatibilidade, com padrão de lesão endomisial (dentro dos fascículos), distinto do padrão perivascular da dermatomiosite.",
+    classificacao:
+      "Critérios clássicos de Bohan e Peter (1975) para diagnóstico, combinando fraqueza muscular proximal simétrica, elevação de enzimas musculares, alterações eletromiográficas características, achados histopatológicos na biópsia muscular e, na dermatomiosite, achados cutâneos característicos (heliotropo, pápulas de Gottron).",
+    quadroClinico: [
+      "Fraqueza muscular proximal simétrica progressiva (dificuldade para subir escadas, levantar os braços, levantar-se de cadeiras), geralmente indolor ou com desconforto leve",
+      "Dermatomiosite: heliotropo (coloração violácea nas pálpebras superiores, frequentemente com edema periorbital), pápulas de Gottron (lesões eritematoescamosas sobre articulações interfalangeanas e metacarpofalangeanas)",
+      "Disfagia por acometimento da musculatura estriada da orofaringe/esôfago proximal em casos mais avançados",
+      "Sintomas de doença pulmonar intersticial associada (dispneia, tosse seca) em uma parcela dos pacientes",
+    ],
+    diagnostico: [
+      "Combinação de fraqueza muscular proximal simétrica, enzimas musculares elevadas, alterações eletromiográficas e, quando necessário, biópsia muscular",
+      "Autoanticorpos específicos (ex.: anti-Jo-1, associado à síndrome antissintetase com acometimento pulmonar) auxiliam na caracterização do subtipo e do perfil de risco",
+      "Rastreamento de neoplasia oculta recomendado em adultos com dermatomiosite recém-diagnosticada, dada a associação bem estabelecida",
+    ],
+    examesComplementares: [
+      "Creatinofosfoquinase (CPK) e outras enzimas musculares (aldolase, transaminases, DHL) elevadas",
+      "Eletromiografia com padrão miopático característico",
+      "Biópsia muscular: atrofia perifascicular com inflamação perivascular na dermatomiosite; infiltrado inflamatório endomisial com invasão de fibras musculares não necróticas na polimiosite",
+      "Autoanticorpos miosite-específicos (anti-Jo-1, anti-Mi-2, entre outros) conforme suspeita clínica",
+    ],
+    diagnosticoDiferencial: [
+      "Miopatia induzida por estatina ou outros medicamentos",
+      "Distrofias musculares",
+      "Miosite por corpos de inclusão (mais comum em idosos, com fraqueza assimétrica e distal associada, resposta pior a imunossupressão)",
+    ],
+    tratamento: [
+      "Corticosteroide sistêmico em dose imunossupressora como tratamento de primeira linha para indução",
+      "Imunossupressores poupadores de corticosteroide (ex.: metotrexato, azatioprina) associados precocemente na maioria dos casos, para permitir desmame do corticosteroide e controle a longo prazo",
+      "Investigação e tratamento de neoplasia oculta quando identificada, particularmente relevante na dermatomiosite do adulto",
+      "Fisioterapia para preservação de força e função muscular ao longo do tratamento",
+    ],
+    complicacoes: [
+      "Aguda: disfagia grave com risco de aspiração, fraqueza da musculatura respiratória em casos graves",
+      "Crônica: doença pulmonar intersticial progressiva (especialmente na síndrome antissintetase), calcinose cutânea (mais comum na forma juvenil), neoplasia maligna associada (dermatomiosite do adulto)",
+    ],
+    redFlags: [
+      "Disfagia progressiva ou dispneia de início recente em paciente com miosite inflamatória — investigar acometimento da musculatura orofaríngea/respiratória ou doença pulmonar intersticial associada, ambas com potencial de gravidade significativa",
+    ],
+    prognostico:
+      "Variável conforme resposta ao tratamento imunossupressor e presença de complicações associadas (doença pulmonar intersticial, neoplasia); a maioria dos pacientes responde ao tratamento com melhora significativa da força muscular, mas a recuperação pode ser gradual ao longo de meses.",
+    pontosDeProva: [
+      "A dermatomiosite do adulto tem associação bem estabelecida com neoplasia maligna oculta, justificando rastreamento oncológico direcionado ao diagnóstico, especialmente em pacientes acima de determinada idade",
+      "A distinção histopatológica entre dermatomiosite (inflamação perivascular, atrofia perifascicular) e polimiosite (inflamação endomisial, invasão de fibras não necróticas) reflete mecanismos fisiopatológicos distintos (humoral vs. celular direto)",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 58 anos, relata dificuldade progressiva para subir escadas e pentear o cabelo há 2 meses, associada a coloração violácea nas pálpebras superiores e lesões eritematoescamosas sobre as articulações dos dedos. CPK: 3200 U/L.",
+      pergunta: "Qual é o diagnóstico mais provável e uma investigação adicional importante a ser considerada?",
+      raciocinio:
+        "A fraqueza muscular proximal simétrica associada a heliotropo e pápulas de Gottron, com CPK muito elevada, é diagnóstica de dermatomiosite. Dada a idade da paciente e o diagnóstico recente de dermatomiosite do adulto, o rastreamento de neoplasia oculta é uma consideração importante pela associação bem estabelecida entre as duas condições.",
+      conduta:
+        "Confirmar com eletromiografia e, se necessário, biópsia muscular, iniciar corticosteroide sistêmico em dose imunossupressora associado a imunossupressor poupador de corticosteroide, e realizar rastreamento oncológico direcionado dada a associação com neoplasia oculta.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "prednisona", nome: "Prednisona" },
+      { slug: "metotrexato", nome: "Metotrexato" },
+    ],
+    medicamentosNota:
+      "A prednisona é usada para indução do tratamento. O metotrexato é um dos imunossupressores poupadores de corticosteroide associados precocemente na maioria dos casos, para permitir o desmame do corticosteroide. A azatioprina, outra opção comum na mesma função, ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia e distinção histopatológica dermatomiosite/polimiosite", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Critérios de Bohan e Peter", fonte: "Bohan A, Peter JB, critérios clássicos de diagnóstico de miopatias inflamatórias, 1975" },
+      { tema: "Associação com neoplasia oculta na dermatomiosite do adulto", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "poliarterite-nodosa-vasculites",
+    nome: "Poliarterite nodosa e outras vasculites",
+    sinonimos: ["PAN", "Vasculites sistêmicas"],
+    cid10: "M30",
+    especialidade: "Reumatologia",
+    etiologia: "Autoimune",
+    resumo: "Grupo de doenças caracterizadas por inflamação da parede dos vasos sanguíneos, classificadas pelo calibre do vaso predominantemente acometido, com a poliarterite nodosa clássica afetando artérias de médio calibre.",
+    definicao:
+      "Grupo heterogêneo de doenças caracterizadas por inflamação e necrose da parede de vasos sanguíneos, com a poliarterite nodosa clássica definida como vasculite necrosante de artérias de médio calibre, sem envolvimento de vasos menores (arteríolas, capilares, vênulas) e sem associação com ANCA.",
+    epidemiologia:
+      "Doença rara; historicamente associada à infecção crônica pelo vírus da hepatite B em uma parcela dos casos, embora essa associação tenha se tornado menos comum com a redução da prevalência de hepatite B crônica em muitas populações.",
+    fisiopatologia:
+      "Inflamação transmural necrosante de artérias musculares de médio calibre causa formação de microaneurismas, trombose e estenose segmentar, comprometendo o fluxo sanguíneo para os órgãos supridos por esses vasos (mais comumente rins, trato gastrointestinal, pele, nervos periféricos e músculos), com padrão de acometimento tipicamente multissistêmico e assimétrico.",
+    classificacao:
+      "Classificação de Chapel Hill (nomenclatura consensual das vasculites) organiza as vasculites por calibre predominante do vaso acometido: grandes vasos (arterite de células gigantes, arterite de Takayasu), médios vasos (poliarterite nodosa, doença de Kawasaki) e pequenos vasos (subdivididas em associadas a ANCA — granulomatose com poliangiite, poliangiite microscópica, granulomatose eosinofílica com poliangiite — e não associadas a ANCA, como vasculite por IgA). A poliarterite nodosa clássica é ANCA-negativa, distinção importante em relação às vasculites de pequenos vasos.",
+    quadroClinico: [
+      "Sintomas constitucionais (febre, perda de peso, mal-estar) frequentemente proeminentes",
+      "Mononeurite múltipla (acometimento assimétrico de múltiplos nervos periféricos individuais) é achado característico",
+      "Dor abdominal (isquemia mesentérica), livedo reticular e nódulos subcutâneos dolorosos ao longo de trajetos vasculares",
+      "Hipertensão arterial de início ou piora recente, refletindo acometimento renal vascular (sem glomerulonefrite, diferente das vasculites de pequenos vasos)",
+    ],
+    diagnostico: [
+      "Biópsia de tecido acometido (nervo, músculo, pele) demonstrando vasculite necrosante de vasos de médio calibre é o método diagnóstico preferencial",
+      "Angiografia visceral (mesentérica ou renal) demonstrando microaneurismas e estenoses segmentares quando a biópsia não é acessível ou conclusiva",
+      "Investigação de infecção por hepatite B em todos os casos recém-diagnosticados, pela associação etiológica reconhecida",
+    ],
+    examesComplementares: [
+      "Biópsia de tecido clinicamente acometido (nervo sural, músculo, pele)",
+      "Angiografia visceral: microaneurismas e estenoses segmentares em artérias de médio calibre",
+      "ANCA (tipicamente negativo na poliarterite nodosa clássica, ajudando a diferenciá-la das vasculites de pequenos vasos associadas a ANCA)",
+      "Sorologia para hepatite B",
+    ],
+    diagnosticoDiferencial: [
+      "Vasculites de pequenos vasos associadas a ANCA",
+      "Endocardite infecciosa (pode mimetizar vasculite sistêmica por êmbolos sépticos)",
+      "Neoplasias com síndrome paraneoplásica",
+    ],
+    tratamento: [
+      "Corticosteroide sistêmico em dose imunossupressora como base do tratamento de indução",
+      "Imunossupressor citotóxico (ex.: ciclofosfamida) associado ao corticosteroide em doença grave, com acometimento de órgão-alvo com risco de vida ou de perda funcional significativa",
+      "Tratamento antiviral específico associado ao imunossupressor quando há associação com hepatite B ativa",
+      "Terapia de manutenção com imunossupressor menos tóxico após indução de remissão, para reduzir risco de recidiva e toxicidade cumulativa do tratamento inicial",
+    ],
+    complicacoes: [
+      "Aguda: isquemia mesentérica com perfuração intestinal, infarto renal, acidente vascular cerebral",
+      "Crônica: neuropatia periférica residual, hipertensão arterial secundária, insuficiência renal crônica",
+    ],
+    redFlags: [
+      "Dor abdominal intensa associada a sinais de irritação peritoneal em paciente com vasculite sistêmica conhecida — suspeitar de isquemia mesentérica com risco de perfuração, emergência cirúrgica",
+      "Início súbito de fraqueza ou alteração de sensibilidade em território de nervo periférico específico (mononeurite múltipla) em paciente com sintomas constitucionais — investigar vasculite sistêmica ativamente",
+    ],
+    prognostico:
+      "Sem tratamento, a poliarterite nodosa clássica tem mortalidade muito alta; com tratamento imunossupressor adequado (corticosteroide associado a ciclofosfamida em casos graves), a sobrevida e o controle de doença melhoram substancialmente, embora recidivas possam ocorrer.",
+    pontosDeProva: [
+      "A mononeurite múltipla (acometimento assimétrico de nervos periféricos individuais, diferente da polineuropatia simétrica distal comum) é um achado altamente sugestivo de vasculite sistêmica e deve sempre levantar essa suspeita",
+      "A poliarterite nodosa clássica é ANCA-negativa e não causa glomerulonefrite (diferente das vasculites de pequenos vasos associadas a ANCA), pois poupa capilares glomerulares — a hipertensão decorre de isquemia por acometimento de artérias renais de médio calibre, não de inflamação glomerular direta",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 55 anos, relata febre, perda de peso de 8 kg e dor abdominal difusa há 6 semanas, associados a dormência e fraqueza súbitas no pé direito e, dias depois, na mão esquerda, em territórios de nervos distintos. Hipertensão arterial de início recente.",
+      pergunta: "Qual é o padrão neurológico descrito e qual doença ele sugere fortemente?",
+      raciocinio:
+        "O acometimento assimétrico e sequencial de nervos periféricos individuais em territórios distintos caracteriza mononeurite múltipla, achado altamente sugestivo de vasculite sistêmica, reforçado pelos sintomas constitucionais, dor abdominal e hipertensão de início recente.",
+      conduta:
+        "Investigar com biópsia de nervo/músculo ou angiografia visceral (pesquisa de microaneurismas), solicitar ANCA e sorologia para hepatite B, e iniciar corticosteroide sistêmico associado a imunossupressor citotóxico se confirmado acometimento grave de órgão-alvo.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "prednisona", nome: "Prednisona" },
+    ],
+    medicamentosNota:
+      "A prednisona é a base do tratamento de indução. Em doença grave com acometimento de órgão-alvo, associa-se um imunossupressor citotóxico (ex.: ciclofosfamida), ainda sem ficha própria no site.",
+    fontes: [
+      { tema: "Classificação de Chapel Hill por calibre de vaso", fonte: "2012 Revised International Chapel Hill Consensus Conference Nomenclature of Vasculitides" },
+      { tema: "Fisiopatologia e associação com hepatite B", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Mononeurite múltipla como achado característico", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "osteoporose",
+    nome: "Osteoporose",
+    sinonimos: ["Osteoporose primária"],
+    cid10: "M81",
+    especialidade: "Reumatologia",
+    etiologia: "Metabólica",
+    resumo: "Doença esquelética sistêmica caracterizada por baixa massa óssea e deterioração da microarquitetura óssea, aumentando a fragilidade e o risco de fraturas, mais comum em mulheres pós-menopausa.",
+    definicao:
+      "Doença esquelética sistêmica caracterizada por redução da densidade mineral óssea e deterioração da microarquitetura do tecido ósseo, resultando em maior fragilidade óssea e risco aumentado de fraturas, definida operacionalmente por critério densitométrico (T-score).",
+    epidemiologia:
+      "Mais comum em mulheres pós-menopausa, pela perda acelerada de massa óssea relacionada à queda dos níveis de estrogênio; também ocorre em homens, especialmente idosos, e pode ser secundária a diversas condições (uso crônico de corticosteroide, hipertireoidismo, hipogonadismo, imobilização prolongada).",
+    fisiopatologia:
+      "O osso é constantemente remodelado por um equilíbrio entre reabsorção (osteoclastos) e formação (osteoblastos). Na osteoporose pós-menopausa, a queda do estrogênio remove um importante freio sobre a atividade osteoclástica, acelerando a reabsorção óssea em relação à formação, resultando em perda progressiva de massa óssea e deterioração da microarquitetura trabecular, com consequente fragilidade estrutural.",
+    classificacao:
+      "Classificação da Organização Mundial da Saúde por T-score em densitometria óssea (DXA): normal (T-score ≥ -1,0), osteopenia (T-score entre -1,0 e -2,5) e osteoporose (T-score ≤ -2,5); osteoporose grave/estabelecida quando há fratura por fragilidade associada ao critério densitométrico. Também classificada em primária (pós-menopausa ou senil) e secundária (associada a condições ou medicamentos específicos identificáveis).",
+    quadroClinico: [
+      "Frequentemente assintomática até a ocorrência de uma fratura por fragilidade (trauma de baixa energia)",
+      "Fraturas características: vértebras (podem ser assintomáticas ou causar dor lombar/cifose progressiva), fêmur proximal (quadril) e rádio distal (punho)",
+      "Perda de altura e cifose torácica progressiva em fraturas vertebrais múltiplas não diagnosticadas",
+    ],
+    diagnostico: [
+      "Densitometria óssea (DXA) em colo de fêmur e coluna lombar é o método padrão para diagnóstico e classificação por T-score",
+      "Ferramentas de avaliação de risco de fratura (como o FRAX) auxiliam a estimar o risco absoluto de fratura em 10 anos, integrando fatores clínicos além da densitometria",
+      "Investigação de causas secundárias (função tireoidiana, cálcio, vitamina D, função renal) especialmente em casos atípicos (homens, mulheres jovens, perda óssea desproporcional)",
+    ],
+    examesComplementares: [
+      "Densitometria óssea (DXA): T-score ≤ -2,5 define osteoporose (critério OMS)",
+      "Cálcio, fósforo, vitamina D e função renal (rastreamento de causas secundárias e otimização antes do tratamento)",
+      "Radiografia de coluna quando há suspeita de fratura vertebral assintomática",
+    ],
+    diagnosticoDiferencial: [
+      "Osteomalácia (deficiência de mineralização, diferente da perda quantitativa de massa óssea normalmente mineralizada)",
+      "Mieloma múltiplo e outras causas de fratura patológica",
+      "Osteoporose secundária a causas endócrinas ou medicamentosas",
+    ],
+    tratamento: [
+      "Suplementação adequada de cálcio e vitamina D, medidas de estilo de vida (exercício com sustentação de peso, cessação do tabagismo, redução do consumo de álcool) e prevenção de quedas em todos os pacientes",
+      "Bisfosfonatos como primeira linha farmacológica na maioria dos pacientes com osteoporose estabelecida ou alto risco de fratura",
+      "Terapias alternativas (ex.: denosumabe, teriparatida, terapia de reposição hormonal em contextos específicos) em pacientes com contraindicação ou resposta inadequada aos bisfosfonatos",
+      "Reavaliação periódica com densitometria óssea para monitorização de resposta ao tratamento",
+    ],
+    complicacoes: [
+      "Aguda: fratura de quadril, associada a morbimortalidade significativa em idosos, especialmente nos primeiros meses após o evento",
+      "Crônica: cifose progressiva, dor crônica, perda de independência funcional após fraturas de repetição",
+    ],
+    redFlags: [
+      "Fratura por trauma de baixa energia (fragilidade) em qualquer sítio esquelético — deve sempre levantar suspeita de osteoporose subjacente e motivar investigação e tratamento, mesmo na ausência de diagnóstico prévio",
+    ],
+    prognostico:
+      "O tratamento adequado reduz significativamente o risco de novas fraturas; a fratura de quadril em idosos associa-se a mortalidade e perda de independência funcional significativas nos primeiros meses após o evento, reforçando a importância da prevenção primária e do tratamento precoce.",
+    pontosDeProva: [
+      "O T-score ≤ -2,5 na densitometria óssea é o critério diagnóstico central da osteoporose pela definição da OMS, com osteopenia definida no intervalo entre -1,0 e -2,5",
+      "Uma fratura por fragilidade (trauma de baixa energia) já caracteriza osteoporose estabelecida clinicamente, independentemente do valor de T-score, e deve sempre motivar investigação e tratamento",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 68 anos, pós-menopausa há 18 anos, sofre queda da própria altura e sofre fratura de punho. Densitometria óssea posterior mostra T-score de -2,8 em coluna lombar.",
+      pergunta: "Este quadro caracteriza osteoporose? Qual é a conduta terapêutica de primeira linha?",
+      raciocinio:
+        "A fratura por trauma de baixa energia (queda da própria altura) já caracteriza osteoporose estabelecida clinicamente, achado corroborado pelo T-score de -2,8, abaixo do limiar diagnóstico de -2,5 pela definição da OMS.",
+      conduta:
+        "Iniciar suplementação de cálcio e vitamina D, orientar exercício com sustentação de peso e prevenção de quedas, e iniciar bisfosfonato como tratamento farmacológico de primeira linha, dado o diagnóstico já estabelecido de osteoporose com fratura associada.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Classificação por T-score (critério OMS)", fonte: "Organização Mundial da Saúde, critérios densitométricos de osteoporose" },
+      { tema: "Fisiopatologia da perda óssea pós-menopausa", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Bisfosfonatos como primeira linha farmacológica (ainda sem ficha própria no site)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "dorsalgia-lombalgia",
+    nome: "Dorsalgia (lombalgia)",
+    sinonimos: ["Lombalgia", "Dor lombar"],
+    cid10: "M54",
+    especialidade: "Reumatologia",
+    etiologia: "Multifatorial",
+    resumo: "Dor na região lombar, queixa extremamente comum na prática clínica, majoritariamente de causa mecânica inespecífica e autolimitada, mas exigindo triagem ativa de sinais de alarme.",
+    definicao:
+      "Dor localizada na região lombar da coluna vertebral, podendo ou não irradiar para membros inferiores, classificada quanto à duração (aguda, subaguda, crônica) e à presença ou ausência de sinais de alarme para causas graves subjacentes, sendo a grande maioria dos casos de origem mecânica inespecífica.",
+    epidemiologia:
+      "Uma das queixas musculoesqueléticas mais comuns na prática clínica, afetando a maior parte da população em algum momento da vida; a grande maioria dos episódios é autolimitada e de causa mecânica inespecífica, sem necessidade de investigação extensa.",
+    fisiopatologia:
+      "Na lombalgia mecânica inespecífica (a grande maioria dos casos), a dor origina-se de estruturas musculoesqueléticas da coluna (músculos paravertebrais, ligamentos, articulações facetárias, discos intervertebrais) sem uma causa estrutural específica claramente identificável nos exames de imagem, frequentemente relacionada a esforço físico, má postura ou sobrecarga mecânica. Em uma minoria de casos, causas específicas identificáveis incluem hérnia discal com compressão radicular, estenose do canal vertebral, fratura, infecção, neoplasia ou espondiloartrite.",
+    classificacao:
+      "Classificada por duração em aguda (<4 semanas), subaguda (4-12 semanas) e crônica (>12 semanas). Classificada também por presença de sinais de alarme ('red flags': febre, perda de peso inexplicada, história de câncer, trauma significativo, déficit neurológico progressivo, disfunção de esfíncteres, idade de início atípica) que direcionam a necessidade de investigação adicional imediata, versus lombalgia mecânica inespecífica sem sinais de alarme.",
+    quadroClinico: [
+      "Dor lombar mecânica: piora com atividade/movimento, melhora com repouso, sem irradiação significativa para membros inferiores na maioria dos casos",
+      "Dor irradiada (ciática) quando há compressão radicular associada, seguindo o trajeto do dermátomo correspondente",
+      "Espasmo muscular paravertebral palpável em episódios agudos",
+      "Sinais de alarme quando presentes: febre, perda de peso, dor noturna que não melhora com repouso, déficit neurológico progressivo, disfunção de esfíncteres (síndrome da cauda equina)",
+    ],
+    diagnostico: [
+      "Anamnese e exame físico dirigidos à identificação de sinais de alarme são a etapa central da avaliação inicial",
+      "Exames de imagem NÃO são rotineiramente indicados na lombalgia aguda mecânica inespecífica sem sinais de alarme, pela baixa correlação entre achados de imagem e sintomas e pelo risco de sobreinvestigação/sobretratamento",
+      "Ressonância magnética indicada quando há sinais de alarme, déficit neurológico progressivo, ou dor persistente além de um período razoável de tratamento conservador",
+    ],
+    examesComplementares: [
+      "Ressonância magnética de coluna lombar (reservada para sinais de alarme, déficit neurológico progressivo ou falha de tratamento conservador)",
+      "Radiografia simples em suspeita de fratura ou quando ressonância não está disponível",
+      "Exames laboratoriais (hemograma, VHS/PCR) quando há suspeita de causa infecciosa, inflamatória ou neoplásica",
+    ],
+    diagnosticoDiferencial: [
+      "Hérnia discal com radiculopatia",
+      "Estenose do canal vertebral lombar",
+      "Espondiloartrite axial (quando o padrão é inflamatório, em paciente jovem)",
+      "Causas viscerais referidas (nefrolitíase, aneurisma de aorta abdominal, doença ginecológica)",
+    ],
+    tratamento: [
+      "Manutenção de atividade física dentro do tolerável (evitar repouso prolongado no leito, que piora o desfecho funcional) como orientação central na lombalgia aguda mecânica",
+      "Anti-inflamatório não esteroidal como primeira linha farmacológica para controle da dor, quando não contraindicado",
+      "Fisioterapia e exercícios de fortalecimento em lombalgia subaguda/crônica",
+      "Avaliação para intervenção específica (infiltração, cirurgia) reservada a casos com compressão radicular significativa e refratária, estenose sintomática grave, ou sinais de alarme confirmados",
+    ],
+    complicacoes: [
+      "Aguda: síndrome da cauda equina (compressão significativa das raízes nervosas caudais, com disfunção de esfíncteres e anestesia em sela) — emergência cirúrgica rara mas grave",
+      "Crônica: cronificação da dor com impacto funcional e psicossocial significativo, especialmente quando há fatores de risco psicossociais não abordados",
+    ],
+    redFlags: [
+      "Disfunção de esfíncteres (retenção urinária, incontinência) associada a anestesia em região perineal ('em sela') e fraqueza em membros inferiores — síndrome da cauda equina, emergência cirúrgica que exige ressonância magnética e avaliação neurocirúrgica imediatas",
+      "Dor lombar noturna que não melhora com repouso, associada a perda de peso ou história de câncer — investigar causa neoplásica antes de assumir origem mecânica",
+    ],
+    prognostico:
+      "Excelente na lombalgia aguda mecânica inespecífica, com a maioria dos episódios resolvendo em poucas semanas com tratamento conservador; uma minoria evolui para dor crônica, sendo fatores psicossociais frequentemente mais determinantes para essa cronificação do que achados estruturais de imagem.",
+    pontosDeProva: [
+      "Exames de imagem não são indicados rotineiramente na lombalgia aguda sem sinais de alarme — a correlação entre achados de imagem (como protrusões discais) e sintomas é fraca, e muitos adultos assintomáticos têm alterações significativas em exames de imagem",
+      "A síndrome da cauda equina é uma emergência cirúrgica verdadeira entre as causas de lombalgia — a disfunção de esfíncteres e a anestesia em sela não podem ser subestimadas ou aguardadas",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 35 anos, relata dor lombar após levantar peso no trabalho há 3 dias, sem irradiação para membros inferiores, sem febre, perda de peso ou alteração urinária. Exame neurológico normal.",
+      pergunta: "Qual é a conduta diagnóstica e terapêutica apropriada?",
+      raciocinio:
+        "O quadro é compatível com lombalgia aguda mecânica inespecífica, sem sinais de alarme identificados na história ou exame físico. Nesse cenário, exames de imagem não são indicados rotineiramente, e o tratamento conservador é a conduta apropriada.",
+      conduta:
+        "Orientar manutenção de atividade dentro do tolerável (evitar repouso prolongado), iniciar anti-inflamatório não esteroidal para controle da dor, e reavaliar caso os sintomas persistam além de algumas semanas ou surjam sinais de alarme.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "ibuprofeno", nome: "Ibuprofeno" },
+    ],
+    fontes: [
+      { tema: "Classificação por duração e sinais de alarme", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Recomendação contra imagem rotineira sem sinais de alarme e AINE como primeira linha", fonte: "American College of Physicians Clinical Practice Guideline: Low Back Pain, 2017" },
     ],
   },
 ];
