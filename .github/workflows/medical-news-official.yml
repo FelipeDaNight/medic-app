@@ -1,0 +1,72 @@
+name: Notícias médicas — fontes oficiais (auto-publica)
+
+# Busca só em fontes oficiais restritas (Ministério da Saúde, ANVISA — ver
+# scripts/medical-news/sources/govbr.ts) e publica direto em
+# src/data/updates.ts, sem revisão humana. Essa decisão foi tomada
+# explicitamente pelo usuário do projeto: risco de erro clínico é aceitável
+# só para essa lista curta e curada, nunca para PubMed/sociedades/faculdades
+# (ver o outro workflow, medical-news-review.yml).
+#
+# Requer, nas configurações do repositório:
+# - Settings → Actions → General → Workflow permissions: "Read and write permissions"
+#   + "Allow GitHub Actions to create and approve pull requests"
+# - Secret ANTHROPIC_API_KEY (Settings → Secrets and variables → Actions)
+
+on:
+  schedule:
+    - cron: "0 9 * * *" # diário, 09:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  fetch-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+
+      - name: Buscar e resumir notícias oficiais
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npx tsx scripts/medical-news/run.ts --tier=oficial
+
+      - name: Checar se há mudanças
+        id: git-check
+        run: echo "changed=$(git diff --quiet src/data/updates.ts && echo false || echo true)" >> "$GITHUB_OUTPUT"
+
+      - name: Validar build antes de publicar
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          npx tsc --noEmit
+          npx eslint .
+
+      - name: Abrir PR
+        if: steps.git-check.outputs.changed == 'true'
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Notícias oficiais: novas atualizações (Ministério da Saúde / ANVISA)"
+          title: "🤖 Notícias oficiais automáticas"
+          body: |
+            Gerado automaticamente pelo workflow `medical-news-official.yml`.
+            Fontes: Ministério da Saúde, ANVISA (lista restrita — ver
+            `scripts/medical-news/sources/govbr.ts`).
+
+            Este PR faz merge automático (tier "oficial") — passou por
+            `tsc`/`eslint` mas **não** por revisão humana de conteúdo clínico.
+          branch: bot/noticias-oficiais
+          labels: noticias-automaticas,oficial
+
+      - name: Auto-merge
+        if: steps.git-check.outputs.changed == 'true' && steps.cpr.outputs.pull-request-number
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr merge --auto --squash "${{ steps.cpr.outputs.pull-request-number }}"
