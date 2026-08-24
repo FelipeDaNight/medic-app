@@ -10572,4 +10572,995 @@ export const diseases: Disease[] = [
       { tema: "Uso de dexametasona para edema cerebral vasogênico associado a tumores", fonte: "Goodman & Gilman, 13ª ed." },
     ],
   },
+  {
+    slug: "anemia-deficiencia-vitamina-b12",
+    nome: "Anemia por deficiência de vitamina B12",
+    sinonimos: ["Anemia megaloblástica por deficiência de B12", "Anemia perniciosa"],
+    cid10: "D51",
+    especialidade: "Hematologia",
+    etiologia: "Nutricional",
+    resumo: "Anemia macrocítica por deficiência de cobalamina, cuja causa mais comum é a anemia perniciosa autoimune, com manifestações hematológicas e neurológicas que podem ser irreversíveis se o tratamento for tardio.",
+    definicao:
+      "Anemia megaloblástica resultante de deficiência de vitamina B12 (cobalamina), cofator essencial para a síntese de DNA em células de alta replicação, causando assincronia entre a maturação nuclear e citoplasmática nos precursores hematopoiéticos da medula óssea.",
+    epidemiologia:
+      "Mais frequente em idosos, vegetarianos estritos/veganos sem suplementação, pacientes submetidos a cirurgia bariátrica ou gástrica prévia, e usuários crônicos de metformina ou inibidores de bomba de prótons. A anemia perniciosa, causada por destruição autoimune das células parietais gástricas e/ou anticorpos anti-fator intrínseco, é a causa mais comum de deficiência grave em países desenvolvidos.",
+    fisiopatologia:
+      "A vitamina B12 é cofator essencial da metionina sintase (conversão de homocisteína em metionina, necessária à síntese de timidina e DNA) e da mutase do metilmalonil-CoA. Sua deficiência compromete a síntese de DNA nos precursores hematopoiéticos, gerando eritrócitos grandes e imaturos e hipersegmentação de neutrófilos. Como a B12 também é necessária à síntese de mielina, sua deficiência causa desmielinização das colunas posterior e lateral da medula espinhal (degeneração combinada subaguda), manifestação que pode preceder a anemia e não é revertida pela reposição isolada de folato.",
+    classificacao:
+      "Classificada pela causa da deficiência: anemia perniciosa (autoimune, por gastrite atrófica com destruição de células parietais e/ou anticorpos anti-fator intrínseco), má absorção (doença ileal, ressecção ileal, cirurgia bariátrica), insuficiência pancreática exócrina, uso crônico de metformina ou inibidor de bomba de prótons, e deficiência dietética pura.",
+    quadroClinico: [
+      "Fadiga, palidez e dispneia aos esforços, comuns a qualquer anemia",
+      "Glossite atrófica (língua lisa e dolorosa) e queilite angular",
+      "Parestesias simétricas em mãos e pés, geralmente o primeiro sintoma neurológico",
+      "Ataxia sensorial e perda de propriocepção/sensibilidade vibratória por acometimento da coluna posterior (degeneração combinada subaguda)",
+      "Alterações cognitivas e neuropsiquiátricas, de leves a demência franca em casos avançados",
+      "Icterícia leve por hemólise intramedular decorrente de eritropoiese ineficaz",
+    ],
+    diagnostico: [
+      "Dosagem sérica de vitamina B12 baixa; valores limítrofes exigem dosagem de ácido metilmalônico e homocisteína, que se elevam precocemente na deficiência tecidual",
+      "Hemograma com anemia macrocítica (VCM tipicamente acima de 100 fL) e hipersegmentação de neutrófilos ao esfregaço, achado característico",
+      "Dosagem de anticorpos anti-fator intrínseco e anti-célula parietal quando há suspeita de anemia perniciosa",
+    ],
+    examesComplementares: [
+      "Vitamina B12 sérica < 200 pg/mL sugere deficiência; valores entre 200-300 pg/mL são limítrofes e exigem confirmação com ácido metilmalônico",
+      "Ácido metilmalônico sérico elevado é o marcador mais sensível de deficiência tecidual de B12, útil mesmo com nível sérico limítrofe",
+      "LDH e bilirrubina indireta elevadas refletem a hemólise intramedular da eritropoiese ineficaz",
+      "Anticorpos anti-fator intrínseco (alta especificidade, baixa sensibilidade) e anti-célula parietal (mais sensível, menos específico) para anemia perniciosa",
+    ],
+    diagnosticoDiferencial: [
+      "Deficiência de folato (também causa anemia macrocítica e hipersegmentação de neutrófilos, mas sem manifestações neurológicas)",
+      "Síndrome mielodisplásica (pode causar macrocitose, distinguida por achados displásicos na medula óssea)",
+      "Hipotireoidismo (causa de macrocitose sem megaloblastose verdadeira)",
+      "Doença hepática crônica e etilismo (causas comuns de macrocitose não megaloblástica)",
+    ],
+    tratamento: [
+      "Reposição de vitamina B12 por via intramuscular nas fases iniciais, sobretudo quando há má absorção ou manifestações neurológicas, seguida de manutenção oral ou intramuscular conforme a causa",
+      "Tratamento da causa de base quando identificável (ex.: suspensão ou substituição de metformina/inibidor de bomba de prótons quando forem a causa)",
+      "Reposição concomitante de ferro pode ser necessária, pois a hematopoiese acelerada após o início do tratamento pode revelar deficiência de ferro subjacente",
+      "Nunca tratar empiricamente com ácido fólico isolado quando há suspeita de deficiência de B12 não excluída: corrige a anemia mas mascara e permite a progressão do dano neurológico",
+    ],
+    complicacoes: [
+      "Aguda: hipocalemia por aumento abrupto da hematopoiese após o início do tratamento, com risco de arritmia se não monitorada",
+      "Crônica: degeneração combinada subaguda da medula espinhal com déficit neurológico permanente quando o tratamento é tardio",
+    ],
+    redFlags: [
+      "Sinais de degeneração combinada subaguda (ataxia sensorial, perda de propriocepção, sinal de Babinski) exigem investigação e reposição imediatas, pois o déficit neurológico pode ser irreversível se o tratamento for postergado",
+      "Nunca iniciar ácido fólico isolado sem excluir deficiência de B12 concomitante, pelo risco de mascarar a anemia e permitir a progressão da lesão neurológica",
+    ],
+    prognostico:
+      "A anemia e a maioria das manifestações neurológicas são reversíveis com reposição adequada e precoce; déficits neurológicos presentes há vários meses antes do início do tratamento têm chance significativamente menor de reversão completa.",
+    pontosDeProva: [
+      "Hipersegmentação de neutrófilos (mais de 5 lobos) ao esfregaço de sangue periférico é achado clássico, junto com o VCM elevado",
+      "Nunca repor apenas ácido fólico quando há suspeita de deficiência de B12 não descartada — mascara a anemia mas permite a progressão da degeneração neurológica",
+      "Manifestações neurológicas podem preceder a anemia e ocorrer mesmo com VCM normal, sobretudo se há deficiência concomitante de ferro mascarando a macrocitose",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 68 anos, vegetariano estrito há 20 anos sem suplementação, relata parestesias progressivas em mãos e pés e dificuldade para caminhar em linha reta há 2 meses, além de fadiga.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e o exame inicial mais indicado?",
+      raciocinio:
+        "A combinação de parestesias simétricas, ataxia de marcha e fadiga em paciente com dieta vegetariana estrita sem suplementação sugere fortemente deficiência de vitamina B12, com achados neurológicos compatíveis com degeneração combinada subaguda.",
+      conduta:
+        "Solicitar hemograma completo com esfregaço e dosagem sérica de vitamina B12; se limítrofe, complementar com ácido metilmalônico. Confirmada a deficiência, iniciar reposição de B12, preferencialmente por via intramuscular nas fases iniciais dado o quadro neurológico já estabelecido.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento de primeira linha é a reposição de vitamina B12 (cianocobalamina), ainda sem ficha própria no site — consta como item pendente no backlog de medicamentos.",
+    fontes: [
+      { tema: "Fisiopatologia (papel da B12 na síntese de DNA e mielina) e manifestações neurológicas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Ácido metilmalônico como marcador de deficiência tecidual e risco de mascaramento pelo ácido fólico isolado", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "talassemia",
+    nome: "Talassemia",
+    sinonimos: ["Síndrome talassêmica", "Anemia de Cooley (forma major da beta-talassemia)"],
+    cid10: "D56",
+    especialidade: "Hematologia",
+    etiologia: "Genética",
+    resumo: "Grupo de anemias hemolíticas hereditárias por síntese reduzida ou ausente de uma das cadeias de globina, com espectro clínico que vai do traço assintomático até a dependência transfusional grave.",
+    definicao:
+      "Doença genética hereditária, autossômica recessiva, causada por mutações que reduzem ou abolem a síntese de cadeias de globina alfa ou beta, gerando desequilíbrio na produção de hemoglobina, eritropoiese ineficaz e hemólise.",
+    epidemiologia:
+      "Mais prevalente em populações de origem mediterrânea, do Oriente Médio, do Sul e Sudeste Asiático e de partes da África, refletindo a vantagem seletiva heterozigota contra a malária. A beta-talassemia maior manifesta-se tipicamente nos primeiros dois anos de vida, quando a produção de hemoglobina fetal declina.",
+    fisiopatologia:
+      "Na beta-talassemia, a redução da síntese de cadeias beta causa acúmulo relativo de cadeias alfa livres, que precipitam nos precursores eritroides, causando eritropoiese ineficaz intramedular e hemólise periférica das poucas hemácias que atingem a circulação. A eritropoiese ineficaz maciça estimula expansão medular compensatória (deformidades ósseas características) e absorção intestinal aumentada de ferro, somada à sobrecarga transfusional, levando à hemocromatose secundária. Na alfa-talassemia, o mecanismo é análogo, com déficit de cadeias alfa e acúmulo de cadeias beta ou gama em excesso.",
+    classificacao:
+      "Classificada pela cadeia de globina afetada (alfa ou beta) e pela gravidade clínica: traço talassêmico (heterozigoto, geralmente assintomático), talassemia intermediária (fenótipo intermediário, transfusão ocasional) e talassemia maior (homozigota ou heterozigota composta, dependência transfusional regular desde a infância).",
+    quadroClinico: [
+      "Palidez, icterícia leve e esplenomegalia progressiva por hemólise crônica e hematopoiese extramedular",
+      "Deformidades ósseas características (fácies talassêmica, com proeminência frontal e malar) por expansão medular compensatória na forma maior não tratada adequadamente",
+      "Atraso de crescimento e desenvolvimento na infância na forma maior",
+      "Fadiga e intolerância aos esforços proporcionais ao grau de anemia",
+      "Traço talassêmico é tipicamente assintomático, identificado incidentalmente por microcitose desproporcional ao grau de anemia",
+    ],
+    diagnostico: [
+      "Eletroforese de hemoglobina demonstrando elevação de hemoglobina A2 e/ou hemoglobina fetal, confirmando o diagnóstico de beta-talassemia",
+      "Hemograma com anemia microcítica e hipocrômica com índice de Mentzer (VCM/número de hemácias) tipicamente abaixo de 13, sugerindo talassemia em vez de deficiência de ferro (que tende a ser acima de 13)",
+      "Estudo molecular/genético para identificação de mutações específicas, sobretudo na alfa-talassemia (que não altera a eletroforese de hemoglobina convencional)",
+    ],
+    examesComplementares: [
+      "Hemograma com VCM desproporcionalmente baixo em relação ao grau de anemia e contagem de hemácias normal ou elevada",
+      "Eletroforese de hemoglobina com hemoglobina A2 > 3,5% sugerindo traço beta-talassêmico",
+      "Ferritina sérica para diferenciar de deficiência de ferro e para monitorização de sobrecarga de ferro em pacientes transfundidos",
+      "Ressonância magnética cardíaca e hepática (T2*) para quantificação da sobrecarga de ferro em pacientes com talassemia maior em regime transfusional crônico",
+    ],
+    diagnosticoDiferencial: [
+      "Anemia ferropriva (também causa microcitose, distinguida pela ferritina baixa e ausência de elevação de hemoglobina A2)",
+      "Anemia de doença crônica (microcitose leve, ferritina normal ou elevada)",
+      "Anemia sideroblástica (microcitose com ferro sérico elevado)",
+    ],
+    tratamento: [
+      "Talassemia maior: regime transfusional crônico regular para manter hemoglobina adequada e suprimir a eritropoiese ineficaz medular",
+      "Terapia quelante de ferro (deferoxamina, deferasirox ou deferiprona) obrigatória em pacientes cronicamente transfundidos, para prevenir hemocromatose secundária cardíaca, hepática e endócrina",
+      "Ácido fólico como suplementação de suporte pela demanda aumentada da eritropoiese acelerada",
+      "Esplenectomia em casos selecionados com hiperesplenismo significativo e necessidade transfusional crescente",
+      "Transplante de células-tronco hematopoiéticas é a única modalidade potencialmente curativa, reservada a casos selecionados, idealmente na infância",
+      "Traço talassêmico e formas intermediárias leves geralmente não necessitam de tratamento específico além de orientação genética",
+    ],
+    complicacoes: [
+      "Aguda: crise aplásica transitória (frequentemente desencadeada por infecção pelo parvovírus B19) e complicações transfusionais agudas",
+      "Crônica: hemocromatose secundária (cardiomiopatia, cirrose hepática, diabetes, hipogonadismo) por sobrecarga de ferro transfusional e absortiva, deformidades ósseas e osteoporose, hematopoiese extramedular sintomática",
+    ],
+    redFlags: [
+      "Sinais de cardiomiopatia (dispneia, arritmia) em paciente cronicamente transfundido sugerem sobrecarga de ferro miocárdica e exigem intensificação da quelação e avaliação cardiológica urgente",
+      "Febre em paciente esplenectomizado deve ser tratada como potencial sepse fulminante por bactéria encapsulada até prova em contrário",
+    ],
+    prognostico:
+      "O traço talassêmico tem expectativa de vida normal. A talassemia maior, sem tratamento adequado, historicamente levava a óbito na infância/adolescência por complicações da anemia grave e da sobrecarga de ferro; com regime transfusional e quelação adequados, a sobrevida e qualidade de vida melhoraram substancialmente, e o transplante de células-tronco hematopoiéticas pode ser curativo.",
+    pontosDeProva: [
+      "Índice de Mentzer (VCM dividido pelo número de hemácias) abaixo de 13 favorece talassemia; acima de 13 favorece deficiência de ferro — ferramenta de triagem clássica cobrada em prova",
+      "Hemoglobina A2 elevada na eletroforese confirma traço beta-talassêmico, mas a eletroforese é normal na alfa-talassemia (diagnóstico exige estudo molecular)",
+      "A quelação de ferro é obrigatória e não opcional em pacientes cronicamente transfundidos — a hemocromatose secundária, não a anemia em si, é a principal causa de morbimortalidade tardia",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menina, 3 anos, de origem mediterrânea, com palidez progressiva, abdome distendido por esplenomegalia e fácies com proeminência frontal e malar, sem resposta a suplementação empírica de ferro.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e o exame confirmatório?",
+      raciocinio:
+        "Anemia microcítica grave não responsiva a ferro, com esplenomegalia e alterações ósseas características em criança pequena de origem étnica de risco, sugere fortemente beta-talassemia maior.",
+      conduta:
+        "Solicitar eletroforese de hemoglobina (esperando hemoglobina fetal e A2 elevadas) e ferritina sérica; confirmado o diagnóstico, iniciar regime transfusional regular associado a terapia quelante de ferro desde o início do suporte transfusional crônico.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O manejo depende de suporte transfusional crônico e terapia quelante de ferro (ex.: deferasirox, deferoxamina), nenhum ainda com ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia da eritropoiese ineficaz e classificação por gravidade clínica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Índice de Mentzer e necessidade obrigatória de quelação de ferro em regime transfusional crônico", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "transtornos-falciformes",
+    nome: "Transtornos falciformes (doença falciforme)",
+    sinonimos: ["Anemia falciforme", "Drepanocitose"],
+    cid10: "D57",
+    especialidade: "Hematologia",
+    etiologia: "Genética",
+    resumo: "Doença hemolítica hereditária causada por hemoglobina S anômala, que polimeriza sob hipóxia e deforma as hemácias, causando hemólise crônica e episódios recorrentes de vaso-oclusão dolorosa.",
+    definicao:
+      "Hemoglobinopatia hereditária autossômica recessiva causada por uma mutação pontual no gene da beta-globina, produzindo a hemoglobina S, que polimeriza reversivelmente sob condições de baixa tensão de oxigênio, deformando o eritrócito em forma de foice.",
+    epidemiologia:
+      "Mais prevalente em populações de ascendência africana, refletindo a vantagem seletiva heterozigota (traço falciforme) contra a malária grave. No Brasil, é a doença hematológica hereditária mais comum, rastreada universalmente pelo teste do pezinho neonatal.",
+    fisiopatologia:
+      "Sob desoxigenação, a hemoglobina S polimeriza, formando fibras rígidas que deformam a hemácia em foice. As hemácias falcizadas têm sobrevida reduzida (hemólise crônica extravascular e intravascular) e aderem anormalmente ao endotélio vascular, obstruindo a microcirculação (vaso-oclusão), causando isquemia tecidual e dor. Ciclos repetidos de falcização e desfalcização danificam progressivamente a membrana eritrocitária e o endotélio vascular, contribuindo para vasculopatia crônica e disfunção orgânica progressiva.",
+    classificacao:
+      "Classificada pelo genótipo: homozigose para hemoglobina S (HbSS, forma mais grave, anemia falciforme clássica), heterozigose composta com hemoglobina C (HbSC, geralmente mais branda) ou com beta-talassemia (HbS/beta-tal, gravidade variável conforme o tipo de mutação beta-talassêmica associada), e o traço falciforme (heterozigoto simples HbAS, geralmente assintomático).",
+    quadroClinico: [
+      "Crises vaso-oclusivas dolorosas recorrentes, tipicamente em ossos longos, tórax e abdome, desencadeadas por desidratação, hipóxia, infecção ou frio",
+      "Anemia hemolítica crônica com icterícia e palidez",
+      "Síndrome torácica aguda (dor torácica, febre, infiltrado pulmonar novo), complicação grave e potencialmente fatal",
+      "Autoesplenectomia funcional progressiva na infância por infartos esplênicos repetidos, aumentando o risco de infecção por bactérias encapsuladas",
+      "Priapismo, úlceras de perna crônicas e retinopatia proliferativa como manifestações de vasculopatia crônica",
+    ],
+    diagnostico: [
+      "Eletroforese de hemoglobina ou cromatografia líquida de alta performance demonstrando predomínio de hemoglobina S, exame confirmatório",
+      "Triagem neonatal universal (teste do pezinho) permite diagnóstico e início de profilaxia antes do início das manifestações clínicas graves",
+      "Esfregaço de sangue periférico com hemácias em foice (drepanócitos) e corpos de Howell-Jolly, sugerindo asplenia funcional",
+    ],
+    examesComplementares: [
+      "Eletroforese de hemoglobina com hemoglobina S predominante (mais de 80-90% na forma homozigota HbSS) confirma o diagnóstico",
+      "Hemograma com anemia normocítica/normocrômica moderada a grave e reticulocitose compensatória",
+      "Doppler transcraniano seriado em crianças, usado para rastrear risco de acidente vascular cerebral e indicar profilaxia transfusional quando alterado",
+    ],
+    diagnosticoDiferencial: [
+      "Outras hemoglobinopatias (talassemias, hemoglobina C) — distinguidas por eletroforese",
+      "Osteomielite (pode mimetizar crise vaso-oclusiva óssea, distinção às vezes difícil e clinicamente relevante)",
+      "Outras causas de síndrome torácica aguda (pneumonia, embolia pulmonar) em paciente com doença falciforme conhecida",
+    ],
+    tratamento: [
+      "Hidroxiureia como terapia modificadora de doença de primeira linha, aumentando a produção de hemoglobina fetal, que interfere na polimerização da hemoglobina S e reduz a frequência de crises vaso-oclusivas e síndrome torácica aguda",
+      "Hidratação vigorosa, analgesia adequada (incluindo opioides) e oxigenoterapia durante crises vaso-oclusivas agudas",
+      "Profilaxia com penicilina oral na infância e vacinação ampliada contra bactérias encapsuladas, dada a asplenia funcional",
+      "Transfusão de hemácias (simples ou exsanguineotransfusão parcial) em complicações graves como síndrome torácica aguda grave e acidente vascular cerebral",
+      "Transplante de células-tronco hematopoiéticas é a única modalidade potencialmente curativa, reservado a casos selecionados",
+    ],
+    complicacoes: [
+      "Aguda: crise vaso-oclusiva dolorosa, síndrome torácica aguda, sequestro esplênico agudo (sobretudo em crianças pequenas), acidente vascular cerebral isquêmico, priapismo agudo",
+      "Crônica: nefropatia falciforme, retinopatia proliferativa, úlceras de perna crônicas, necrose avascular óssea (sobretudo de cabeça femoral), hipertensão pulmonar",
+    ],
+    redFlags: [
+      "Dor torácica com febre e novo infiltrado pulmonar em paciente com doença falciforme define síndrome torácica aguda, condição potencialmente fatal que exige internação e manejo urgente",
+      "Priapismo prolongado (mais de 4 horas) é emergência urológica, com risco de disfunção erétil permanente se não tratado prontamente",
+      "Déficit neurológico focal, mesmo transitório, exige investigação urgente de acidente vascular cerebral, complicação particularmente comum em crianças com doença falciforme não tratada com profilaxia adequada",
+    ],
+    prognostico:
+      "A sobrevida melhorou substancialmente com triagem neonatal, profilaxia antibiótica, vacinação e uso disseminado de hidroxiureia, mas a doença ainda cursa com morbidade cumulativa significativa por lesão de múltiplos órgãos ao longo da vida, e a expectativa de vida permanece reduzida em relação à população geral.",
+    pontosDeProva: [
+      "A síndrome torácica aguda é a principal causa de morte em adultos com doença falciforme e exige alto índice de suspeição diante de dor torácica e febre",
+      "A hidroxiureia atua aumentando a hemoglobina fetal, que interfere na polimerização da hemoglobina S — mecanismo central e frequentemente cobrado",
+      "A asplenia funcional progressiva desde a infância torna a profilaxia com penicilina e a vacinação contra bactérias encapsuladas medidas essenciais, não opcionais",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menino, 6 anos, com diagnóstico conhecido de doença falciforme (HbSS), é trazido ao pronto-socorro com dor torácica, febre de 38,5°C e taquipneia há 1 dia.",
+      pergunta: "Qual a principal hipótese diagnóstica e a conduta imediata?",
+      raciocinio:
+        "Dor torácica associada a febre em criança com doença falciforme conhecida define síndrome torácica aguda até prova em contrário, complicação potencialmente fatal que exige investigação e tratamento imediatos.",
+      conduta:
+        "Solicitar radiografia de tórax e hemograma com urgência, iniciar oxigenoterapia, hidratação cuidadosa, analgesia e antibioticoterapia empírica cobrindo patógenos típicos e atípicos; considerar transfusão de hemácias se hipoxemia ou piora clínica.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "A hidroxiureia é a terapia modificadora de doença de primeira linha, ainda sem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia da polimerização da hemoglobina S e vaso-oclusão", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Síndrome torácica aguda como principal causa de morte em adultos e mecanismo da hidroxiureia", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "anemia-hemolitica-adquirida",
+    nome: "Anemia hemolítica adquirida",
+    sinonimos: ["Anemia hemolítica autoimune", "AHAI"],
+    cid10: "D59",
+    especialidade: "Hematologia",
+    etiologia: "Autoimune",
+    resumo: "Anemia hemolítica adquirida causada por destruição prematura de hemácias, mais comumente por mecanismo autoimune (anticorpos anti-hemácia), respondendo tipicamente a corticosteroide em sua forma por anticorpo quente.",
+    definicao:
+      "Anemia resultante de destruição acelerada de hemácias previamente normais, por mecanismo extrínseco adquirido, mais comumente autoimune (produção de autoanticorpos dirigidos contra antígenos da membrana eritrocitária), mas também associada a fármacos, infecções, próteses valvares mecânicas e microangiopatias.",
+    epidemiologia:
+      "A anemia hemolítica autoimune por anticorpo quente (IgG) é a forma mais comum, podendo ser idiopática ou secundária a doenças linfoproliferativas (leucemia linfocítica crônica, linfomas), lúpus eritematoso sistêmico ou fármacos. A forma por anticorpo frio (IgM), menos comum, associa-se a infecções (Mycoplasma pneumoniae, mononucleose) ou doenças linfoproliferativas.",
+    fisiopatologia:
+      "Na forma por anticorpo quente, autoanticorpos IgG ligam-se à membrana eritrocitária em temperatura corporal e promovem destruição extravascular predominantemente esplênica, por fagocitose mediada por receptores Fc de macrófagos. Na forma por anticorpo frio, autoanticorpos IgM ligam-se em temperaturas mais baixas (extremidades), ativando o complemento e causando hemólise predominantemente intravascular e aglutinação eritrocitária.",
+    classificacao:
+      "Classificada pelo tipo de anticorpo envolvido: anemia hemolítica autoimune por anticorpo quente (IgG, a mais comum) e por anticorpo frio (IgM, incluindo a doença das aglutininas frias), além das formas induzidas por fármacos e das causas não imunomediadas (mecânica por prótese valvar, microangiopática).",
+    quadroClinico: [
+      "Palidez, icterícia e fadiga de início geralmente subagudo",
+      "Esplenomegalia, sobretudo na forma por anticorpo quente (sítio principal de destruição extravascular)",
+      "Urina escura (hemoglobinúria) na hemólise intravascular significativa, mais típica da forma por anticorpo frio",
+      "Fenômeno de Raynaud e acrocianose desencadeados pelo frio na doença das aglutininas frias",
+    ],
+    diagnostico: [
+      "Teste de antiglobulina direta (Coombs direto) positivo confirma o mecanismo imunomediado e ajuda a distinguir o tipo de anticorpo (IgG isolado ou complemento C3)",
+      "Evidência laboratorial de hemólise: reticulocitose, LDH elevada, haptoglobina reduzida e bilirrubina indireta elevada",
+      "Esfregaço de sangue periférico com esferócitos na forma por anticorpo quente, sugerindo perda de membrana por fagocitose parcial esplênica",
+    ],
+    examesComplementares: [
+      "Coombs direto positivo para IgG isolada (típico de anticorpo quente) ou para complemento C3 isolado (típico de anticorpo frio)",
+      "Haptoglobina sérica indetectável ou muito reduzida e LDH elevada indicam hemólise ativa",
+      "Reticulócitos elevados (geralmente acima de 2-3%) refletem a resposta medular compensatória à hemólise",
+    ],
+    diagnosticoDiferencial: [
+      "Anemia hemolítica hereditária (esferocitose hereditária, deficiência de G6PD) — Coombs direto negativo",
+      "Púrpura trombocitopênica trombótica e outras microangiopatias trombóticas (hemólise mecânica, Coombs negativo, esquizócitos ao esfregaço)",
+      "Hemólise induzida por fármacos (relação temporal com nova medicação, geralmente reversível com a suspensão)",
+    ],
+    tratamento: [
+      "Corticosteroide sistêmico (prednisona) em doses altas é o tratamento de primeira linha para a anemia hemolítica autoimune por anticorpo quente, com resposta geralmente observada nas primeiras 1-3 semanas",
+      "Esplenectomia ou rituximabe são considerados em casos refratários ou recidivantes após redução da dose de corticosteroide",
+      "A forma por anticorpo frio responde mal a corticosteroide e esplenectomia; o manejo baseia-se em evitar exposição ao frio e, em casos graves, rituximabe",
+      "Tratamento da causa de base quando secundária a doença linfoproliferativa, lúpus ou fármaco",
+      "Transfusão de hemácias quando necessária por anemia sintomática grave, reconhecendo a dificuldade de prova cruzada nesses pacientes",
+    ],
+    complicacoes: [
+      "Aguda: hemólise maciça com risco de instabilidade hemodinâmica e insuficiência renal aguda na hemólise intravascular intensa",
+      "Crônica: colelitíase por cálculos de bilirrubinato (pigmentares) decorrente da hemólise crônica, dependência de corticosteroide em casos refratários",
+    ],
+    redFlags: [
+      "Queda rápida de hemoglobina com sinais de instabilidade hemodinâmica exige transfusão e investigação/tratamento imediatos, apesar da dificuldade de compatibilidade sanguínea nesses casos",
+      "Hemólise em paciente com leucemia linfocítica crônica ou outra neoplasia linfoproliferativa conhecida deve ser investigada e tratada prontamente, podendo ser a manifestação inicial de recidiva",
+    ],
+    prognostico:
+      "A forma por anticorpo quente idiopática geralmente responde bem ao corticosteroide, com boa parte dos pacientes alcançando remissão ou controle prolongado; formas secundárias têm prognóstico atrelado ao controle da doença de base. A forma por anticorpo frio tende a ter curso mais crônico e resposta terapêutica mais limitada.",
+    pontosDeProva: [
+      "O Coombs direto positivo é o exame que define o mecanismo autoimune e distingue de causas hereditárias de hemólise",
+      "Esferócitos ao esfregaço na anemia hemolítica adquirida sugerem mecanismo por anticorpo quente com destruição esplênica parcial, não esferocitose hereditária",
+      "A forma por anticorpo frio responde mal a corticosteroide, ao contrário da forma por anticorpo quente — distinção terapêutica classicamente cobrada",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 45 anos, com leucemia linfocítica crônica em acompanhamento, desenvolve icterícia, fadiga intensa e urina escura ao longo de 1 semana.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Icterícia associada a evidência clínica de hemólise em paciente com doença linfoproliferativa conhecida sugere anemia hemolítica autoimune secundária, mecanismo comum de descompensação nessa população.",
+      conduta:
+        "Solicitar hemograma, reticulócitos, LDH, haptoglobina, bilirrubinas e teste de Coombs direto; confirmado o mecanismo autoimune por anticorpo quente, iniciar corticosteroide sistêmico em dose alta e reavaliar a atividade da doença de base.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "prednisona", nome: "Prednisona" },
+    ],
+    fontes: [
+      { tema: "Fisiopatologia por tipo de anticorpo e distinção quente vs. frio", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Corticosteroide como primeira linha na forma por anticorpo quente", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "anemias-aplasticas",
+    nome: "Anemias aplásticas",
+    sinonimos: ["Aplasia medular", "Anemia aplástica adquirida"],
+    cid10: "D61",
+    especialidade: "Hematologia",
+    etiologia: "Idiopática",
+    resumo: "Falência medular caracterizada por pancitopenia com medula óssea hipocelular, mais comumente de mecanismo autoimune idiopático, com risco de complicações hemorrágicas e infecciosas graves proporcional à profundidade da citopenia.",
+    definicao:
+      "Síndrome de falência da medula óssea caracterizada por pancitopenia (anemia, leucopenia e trombocitopenia) associada a hipocelularidade medular, sem infiltração por células anômalas, resultante de destruição ou supressão das células-tronco hematopoiéticas.",
+    epidemiologia:
+      "A maioria dos casos adquiridos é idiopática, presumivelmente por mecanismo autoimune com ataque de linfócitos T citotóxicos às células-tronco hematopoiéticas. Causas secundárias identificáveis incluem exposição a certos fármacos e produtos químicos, radiação, infecções virais (hepatite viral não-A-E) e doenças autoimunes. Formas hereditárias (ex.: anemia de Fanconi) devem ser consideradas em pacientes jovens com anomalias congênitas associadas.",
+    fisiopatologia:
+      "Na forma idiopática, acredita-se que linfócitos T citotóxicos ativados destruam as células-tronco hematopoiéticas, levando à depleção progressiva do compartimento medular e substituição por tecido adiposo, sem infiltração neoplásica. O resultado é produção insuficiente das três linhagens celulares (eritroide, mieloide e megacariocítica), causando pancitopenia periférica proporcional à gravidade da falência medular.",
+    classificacao:
+      "Classificada por gravidade conforme critérios hematológicos padronizados (contagem de neutrófilos, plaquetas, reticulócitos e celularidade medular): anemia aplástica moderada, grave e muito grave — esta última definida por neutropenia profunda (abaixo de 200/mm³), com risco infeccioso extremamente elevado.",
+    quadroClinico: [
+      "Fadiga e palidez por anemia",
+      "Sangramentos mucocutâneos (petéquias, equimoses, sangramento gengival) por trombocitopenia",
+      "Infecções recorrentes ou graves por neutropenia",
+      "Ausência de esplenomegalia e de linfadenopatia, achado que ajuda a distinguir de doenças infiltrativas/neoplásicas da medula",
+    ],
+    diagnostico: [
+      "Hemograma completo evidenciando pancitopenia com reticulocitopenia (resposta medular inadequada à anemia)",
+      "Biópsia de medula óssea demonstrando hipocelularidade acentuada (medula predominantemente substituída por gordura) sem infiltração por células anômalas, exame definidor do diagnóstico",
+      "Investigação de causas secundárias (histórico medicamentoso, sorologias virais) e de hemoglobinúria paroxística noturna por citometria de fluxo, condição frequentemente associada",
+    ],
+    examesComplementares: [
+      "Biópsia de medula óssea com celularidade tipicamente abaixo de 25% do esperado para a idade, achado central para o diagnóstico e classificação de gravidade",
+      "Contagem absoluta de neutrófilos abaixo de 500/mm³ (grave) ou abaixo de 200/mm³ (muito grave) define categorias de risco infeccioso e orienta urgência terapêutica",
+      "Citometria de fluxo para clones de hemoglobinúria paroxística noturna, frequentemente presentes concomitantemente",
+    ],
+    diagnosticoDiferencial: [
+      "Síndrome mielodisplásica hipoplásica (pode mimetizar aplasia medular, distinguida por achados displásicos e citogenética)",
+      "Leucemia aguda hipoplásica (fase inicial pode simular aplasia antes da expansão blástica evidente)",
+      "Mielofibrose (geralmente com esplenomegalia e dacriócitos, ausentes na aplasia medular clássica)",
+    ],
+    tratamento: [
+      "Transplante alogênico de células-tronco hematopoiéticas de doador aparentado compatível é o tratamento de escolha em pacientes jovens, com potencial curativo",
+      "Terapia imunossupressora combinada (globulina antitimocítica e ciclosporina) é a alternativa para pacientes sem doador compatível ou não candidatos a transplante",
+      "Suporte transfusional criterioso (hemácias e plaquetas) e profilaxia/tratamento agressivo de infecções enquanto a resposta ao tratamento definitivo não se estabelece",
+      "Fatores de crescimento hematopoiético e eltrombopague podem ser usados como adjuvantes em casos refratários",
+    ],
+    complicacoes: [
+      "Aguda: sangramento grave por trombocitopenia profunda, sepse por neutropenia febril",
+      "Crônica: sobrecarga de ferro por transfusões repetidas, evolução para síndrome mielodisplásica ou leucemia aguda em uma minoria de casos, mesmo após tratamento imunossupressor",
+    ],
+    redFlags: [
+      "Neutropenia profunda (abaixo de 200/mm³) associada a febre configura neutropenia febril, emergência que exige antibioticoterapia empírica de amplo espectro imediata",
+      "Sangramento mucocutâneo espontâneo com plaquetas muito baixas exige suporte transfusional e avaliação hematológica urgente",
+    ],
+    prognostico:
+      "Sem tratamento, a anemia aplástica grave tem mortalidade elevada por infecção ou sangramento. Com transplante de células-tronco hematopoiéticas em pacientes jovens com doador compatível, as taxas de cura são altas; a terapia imunossupressora oferece resposta na maioria dos pacientes, mas com risco de recidiva e de evolução clonal tardia (síndrome mielodisplásica, leucemia aguda, hemoglobinúria paroxística noturna).",
+    pontosDeProva: [
+      "A ausência de esplenomegalia e de infiltração medular por células anômalas distingue a anemia aplástica de doenças infiltrativas/neoplásicas — achado central para o raciocínio diagnóstico",
+      "A contagem absoluta de neutrófilos define a gravidade e orienta a urgência terapêutica, sendo o parâmetro mais associado ao risco de morte por infecção",
+      "A hemoglobinúria paroxística noturna é uma associação clássica e frequentemente cobrada com a aplasia medular idiopática",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 22 anos, previamente hígido, procura atendimento por fadiga, gengivorragia e episódios febris recorrentes há 3 semanas. Exame físico sem esplenomegalia ou linfadenopatia.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e o exame definidor?",
+      raciocinio:
+        "Pancitopenia com sangramento e infecções recorrentes, sem esplenomegalia ou linfadenopatia, em adulto jovem previamente hígido, sugere fortemente aplasia medular, devendo-se afastar causas secundárias identificáveis.",
+      conduta:
+        "Solicitar hemograma completo com reticulócitos e biópsia de medula óssea para confirmar hipocelularidade e excluir infiltração neoplásica; avaliar elegibilidade para transplante alogênico de células-tronco hematopoiéticas conforme idade e disponibilidade de doador compatível.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende de transplante de células-tronco hematopoiéticas ou de imunossupressores específicos (globulina antitimocítica, ciclosporina), nenhum ainda com ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia autoimune e classificação de gravidade por contagem de neutrófilos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Associação com hemoglobinúria paroxística noturna e risco de evolução clonal tardia", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "coagulacao-intravascular-disseminada",
+    nome: "Coagulação intravascular disseminada",
+    sinonimos: ["CIVD", "Coagulopatia de consumo"],
+    cid10: "D65",
+    especialidade: "Hematologia",
+    etiologia: "Multifatorial",
+    resumo: "Síndrome adquirida de ativação sistêmica descontrolada da coagulação, secundária a uma doença grave de base, que consome fatores de coagulação e plaquetas e causa simultaneamente trombose microvascular e sangramento.",
+    definicao:
+      "Síndrome adquirida caracterizada por ativação sistêmica e descontrolada da cascata de coagulação, gerando trombina em excesso, deposição de fibrina na microcirculação e consumo de plaquetas e fatores de coagulação, resultando paradoxalmente em fenômenos trombóticos microvasculares e sangramento simultâneos.",
+    epidemiologia:
+      "Sempre secundária a uma condição desencadeante grave, mais comumente sepse (sobretudo por bactérias Gram-negativas), trauma grave, complicações obstétricas (descolamento prematuro de placenta, embolia de líquido amniótico), neoplasias (sobretudo leucemia promielocítica aguda) e queimaduras extensas.",
+    fisiopatologia:
+      "O evento desencadeante (endotoxina bacteriana, fator tecidual liberado por trauma/placenta/células tumorais) ativa maciçamente a cascata de coagulação, gerando trombina de forma sistêmica e descontrolada. A trombina converte fibrinogênio em fibrina, que se deposita na microcirculação de múltiplos órgãos, causando isquemia microvascular e disfunção orgânica, ao mesmo tempo em que consome plaquetas e fatores de coagulação em ritmo superior à capacidade de reposição hepática/medular, resultando em tendência hemorrágica concomitante. A fibrinólise secundária reativa contribui ainda mais para o sangramento.",
+    classificacao:
+      "Classificada quanto à apresentação em aguda/descompensada (predomínio hemorrágico, tipicamente em sepse grave e complicações obstétricas) e crônica/compensada (predomínio trombótico com sangramento discreto, mais associada a neoplasias sólidas). Escores diagnósticos padronizados (como o da Sociedade Internacional de Trombose e Hemostasia) combinam contagem de plaquetas, D-dímero, tempo de protrombina e fibrinogênio para quantificar a probabilidade diagnóstica.",
+    quadroClinico: [
+      "Sangramento em múltiplos sítios simultâneos (locais de punção venosa, mucosas, sítios cirúrgicos), achado altamente sugestivo no contexto clínico apropriado",
+      "Petéquias, equimoses difusas e, em casos graves, púrpura fulminante com necrose cutânea",
+      "Sinais de trombose microvascular com disfunção orgânica progressiva (insuficiência renal, hepática, respiratória)",
+      "Instabilidade hemodinâmica frequentemente associada à condição desencadeante de base (sepse, choque obstétrico)",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico-laboratorial no contexto de uma condição desencadeante conhecida, sem um único exame confirmatório isolado",
+      "Escore diagnóstico da Sociedade Internacional de Trombose e Hemostasia combinando plaquetopenia, D-dímero elevado, prolongamento do tempo de protrombina e fibrinogênio baixo",
+      "Esfregaço de sangue periférico frequentemente evidenciando esquizócitos por lesão mecânica das hemácias na microcirculação trombosada",
+    ],
+    examesComplementares: [
+      "Plaquetopenia progressiva, frequentemente abaixo de 100.000/mm³, com tendência de queda em dosagens seriadas",
+      "D-dímero acentuadamente elevado, refletindo a fibrinólise secundária à formação intensa de fibrina",
+      "Tempo de protrombina e tempo de tromboplastina parcial ativada prolongados, e fibrinogênio reduzido (embora possa estar inicialmente normal/elevado por ser proteína de fase aguda)",
+    ],
+    diagnosticoDiferencial: [
+      "Doença hepática grave (também causa coagulopatia e plaquetopenia, mas sem o consumo dinâmico característico e sem D-dímero tão acentuadamente elevado)",
+      "Púrpura trombocitopênica trombótica e síndrome hemolítico-urêmica (microangiopatias trombóticas com coagulograma tipicamente normal, ao contrário da CIVD)",
+      "Trombocitopenia induzida por heparina (contexto de exposição à heparina, sem o consumo global de fatores de coagulação)",
+    ],
+    tratamento: [
+      "Tratamento agressivo e imediato da condição desencadeante de base é a medida mais importante e a única capaz de reverter o processo (ex.: antibioticoterapia e controle de foco na sepse, esvaziamento uterino nas complicações obstétricas)",
+      "Suporte transfusional guiado por sangramento ativo e parâmetros laboratoriais: plasma fresco congelado para repor fatores de coagulação, concentrado de plaquetas para plaquetopenia significativa com sangramento, crioprecipitado quando o fibrinogênio está muito baixo",
+      "Heparina em doses baixas pode ser considerada em casos com predomínio trombótico evidente (ex.: púrpura fulminante), sob avaliação hematológica especializada",
+    ],
+    complicacoes: [
+      "Aguda: sangramento com risco de vida, choque hemorrágico, disfunção de múltiplos órgãos por microtrombose",
+      "Crônica: sequelas de isquemia de órgãos-alvo em sobreviventes de quadros graves e prolongados",
+    ],
+    redFlags: [
+      "Sangramento simultâneo em múltiplos sítios em paciente gravemente enfermo (sepse, trauma, complicação obstétrica) deve levantar suspeita imediata de CIVD e motivar avaliação laboratorial urgente",
+      "Púrpura fulminante com necrose cutânea progressiva é manifestação grave que exige suporte intensivo e tratamento imediato da causa de base",
+    ],
+    prognostico:
+      "O prognóstico está diretamente ligado à gravidade e à reversibilidade da condição desencadeante — a CIVD por si só é marcador de gravidade e associa-se a aumento significativo da mortalidade na doença de base (sobretudo sepse grave), mas tende a resolver-se completamente quando a causa primária é controlada com sucesso.",
+    pontosDeProva: [
+      "A CIVD nunca é uma doença primária — sempre exige a identificação e o tratamento agressivo da condição desencadeante, sem a qual a reposição de fatores de coagulação isoladamente não resolve o quadro",
+      "A combinação de plaquetopenia, D-dímero muito elevado e fibrinogênio baixo, no contexto clínico apropriado, é o padrão laboratorial clássico cobrado em prova",
+      "A leucemia promielocítica aguda é uma causa neoplásica classicamente associada à CIVD, exigindo atenção redobrada ao iniciar quimioterapia (risco de agravamento agudo da coagulopatia)",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 32 anos, no puerpério imediato após descolamento prematuro de placenta, apresenta sangramento vaginal maciço associado a sangramento em sítios de punção venosa e petéquias difusas.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta prioritária?",
+      raciocinio:
+        "Sangramento em múltiplos sítios simultâneos no contexto de uma complicação obstétrica grave conhecida por desencadear liberação maciça de fator tecidual é altamente sugestivo de coagulação intravascular disseminada.",
+      conduta:
+        "Solicitar coagulograma completo, contagem de plaquetas, fibrinogênio e D-dímero com urgência; iniciar suporte transfusional guiado pelos parâmetros laboratoriais e pelo sangramento ativo, e tratar imediatamente a causa obstétrica de base.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende do manejo da causa de base e de suporte transfusional (plasma fresco congelado, plaquetas, crioprecipitado), que não correspondem a fichas de medicamento individuais no site.",
+    fontes: [
+      { tema: "Fisiopatologia (ativação sistêmica da coagulação e consumo de fatores) e causas desencadeantes", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Escore diagnóstico da Sociedade Internacional de Trombose e Hemostasia", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "hemofilia-a",
+    nome: "Hemofilia A (deficiência hereditária do fator VIII)",
+    sinonimos: ["Hemofilia clássica"],
+    cid10: "D66",
+    especialidade: "Hematologia",
+    etiologia: "Genética",
+    resumo: "Coagulopatia hereditária ligada ao X causada por deficiência do fator VIII, com sangramento característico em articulações e tecidos moles, cuja gravidade se correlaciona diretamente com o nível residual do fator.",
+    definicao:
+      "Distúrbio hereditário da coagulação, de herança recessiva ligada ao cromossomo X, causado por deficiência quantitativa ou qualitativa do fator VIII, componente essencial da via intrínseca da cascata de coagulação.",
+    epidemiologia:
+      "Praticamente restrita ao sexo masculino, dado o padrão de herança ligado ao X (mulheres são tipicamente portadoras assintomáticas ou oligossintomáticas). É a coagulopatia hereditária grave mais comum, com aproximadamente um terço dos casos surgindo por mutação nova, sem história familiar prévia.",
+    fisiopatologia:
+      "A deficiência do fator VIII compromete a formação do complexo tenase na via intrínseca da coagulação, reduzindo a geração de trombina e a formação de um coágulo de fibrina estável, embora a hemostasia primária (função plaquetária) permaneça preservada. Isso resulta em sangramento tardio, mas prolongado e frequentemente recorrente no mesmo local (sobretudo articulações), diferente do sangramento mucocutâneo imediato típico dos distúrbios de hemostasia primária.",
+    classificacao:
+      "Classificada por gravidade conforme a atividade residual do fator VIII: grave (menos de 1%, sangramento espontâneo frequente), moderada (1-5%, sangramento após trauma leve) e leve (mais de 5%, sangramento apenas após trauma significativo ou cirurgia).",
+    quadroClinico: [
+      "Hemartrose recorrente, mais comumente em joelhos, cotovelos e tornozelos, manifestação característica e mais comum na forma grave",
+      "Hematomas musculares profundos, por vezes com compressão neurovascular associada",
+      "Sangramento prolongado após procedimentos invasivos, extrações dentárias ou cirurgias",
+      "Sangramento intracraniano espontâneo ou pós-traumático, complicação grave possível mesmo com trauma aparentemente trivial",
+    ],
+    diagnostico: [
+      "Tempo de tromboplastina parcial ativada prolongado com tempo de protrombina normal, padrão sugestivo de deficiência de fator da via intrínseca",
+      "Dosagem da atividade do fator VIII confirmando a deficiência e definindo a gravidade",
+      "História familiar de sangramento ligada ao sexo masculino reforça a suspeita, embora sua ausência não exclua o diagnóstico (mutação nova)",
+    ],
+    examesComplementares: [
+      "Tempo de tromboplastina parcial ativada prolongado, corrigido em estudo de mistura com plasma normal (afastando inibidor)",
+      "Atividade do fator VIII abaixo de 1% define a forma grave, entre 1-5% a moderada e acima de 5% a leve",
+      "Pesquisa de inibidor do fator VIII (anticorpo anti-fator VIII) em pacientes com resposta inadequada à reposição, complicação relevante do tratamento",
+    ],
+    diagnosticoDiferencial: [
+      "Doença de von Willebrand (também pode prolongar o TTPa, mas tipicamente com sangramento mucocutâneo predominante e herança autossômica)",
+      "Hemofilia B (deficiência de fator IX, clinicamente indistinguível sem dosagem específica dos fatores)",
+      "Deficiência adquirida de fator VIII por autoanticorpo (hemofilia adquirida), geralmente em adultos sem história pessoal ou familiar prévia",
+    ],
+    tratamento: [
+      "Reposição do fator VIII (concentrado derivado de plasma ou recombinante) é o tratamento central, usado sob demanda em sangramentos agudos ou em regime profilático regular nas formas graves para prevenir hemartroses recorrentes e artropatia hemofílica",
+      "Desmopressina pode ser usada em casos leves selecionados, por estimular a liberação endógena de fator VIII armazenado",
+      "Ácido tranexâmico como adjuvante em sangramentos mucosos (ex.: procedimentos odontológicos)",
+      "Evitar ácido acetilsalicílico e anti-inflamatórios não esteroidais, que comprometem adicionalmente a hemostasia",
+    ],
+    complicacoes: [
+      "Aguda: sangramento intracraniano, compressão neurovascular por hematoma muscular profundo",
+      "Crônica: artropatia hemofílica degenerativa por hemartroses recorrentes não tratadas adequadamente, desenvolvimento de inibidor do fator VIII (aloanticorpo neutralizante que compromete a eficácia da reposição)",
+    ],
+    redFlags: [
+      "Cefaleia após trauma craniano, mesmo leve, em paciente hemofílico exige investigação de imagem urgente e reposição imediata do fator antes mesmo da confirmação diagnóstica, dado o risco de hemorragia intracraniana",
+      "Sangramento não responsivo à reposição habitual do fator VIII deve levantar suspeita de desenvolvimento de inibidor",
+    ],
+    prognostico:
+      "Com diagnóstico precoce, profilaxia regular e acesso a concentrados de fator VIII, a expectativa de vida e a qualidade de vida aproximam-se da população geral, com prevenção efetiva da artropatia hemofílica crônica. O desenvolvimento de inibidor do fator VIII permanece o principal desafio terapêutico em uma parcela dos pacientes.",
+    pontosDeProva: [
+      "TTPa prolongado com TP normal é o padrão laboratorial clássico da hemofilia — corrigido no estudo de mistura, distinguindo deficiência de fator de presença de inibidor",
+      "A gravidade clínica correlaciona-se diretamente com o nível residual de fator VIII, distinção central para orientar a conduta (profilaxia vs. tratamento sob demanda)",
+      "A hemartrose recorrente no mesmo local ('articulação-alvo') é achado característico que diferencia clinicamente hemofilia de distúrbios de hemostasia primária",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menino, 4 anos, sem diagnóstico prévio, apresenta hemartrose de joelho após trauma leve durante brincadeira, com histórico de sangramento prolongado após queda semanas antes.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a investigação inicial?",
+      raciocinio:
+        "Hemartrose desproporcional ao trauma, associada a episódio prévio de sangramento prolongado, em criança do sexo masculino, sugere fortemente coagulopatia hereditária ligada ao X, mais comumente hemofilia A.",
+      conduta:
+        "Solicitar coagulograma (TTPa prolongado esperado, TP normal) e dosagem da atividade do fator VIII; confirmado o diagnóstico, iniciar reposição do fator VIII para tratamento do episódio agudo e avaliar indicação de profilaxia regular conforme a gravidade.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento de primeira linha é a reposição do fator VIII (concentrado plasmático ou recombinante), ainda sem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia, classificação por gravidade e padrão de sangramento", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Desenvolvimento de inibidor do fator VIII como principal complicação do tratamento", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "purpura-afeccoes-hemorragicas",
+    nome: "Púrpura e outras afecções hemorrágicas",
+    sinonimos: ["Púrpura trombocitopênica imune (PTI)", "Trombocitopenia imune primária"],
+    cid10: "D69",
+    especialidade: "Hematologia",
+    etiologia: "Autoimune",
+    resumo: "Categoria que engloba distúrbios purpúricos e trombocitopênicos diversos, cujo principal representante estudável é a púrpura trombocitopênica imune, causada por destruição autoimune de plaquetas.",
+    definicao:
+      "Categoria diagnóstica que reúne púrpuras vasculares, trombocitopenias imunomediadas e outras afecções hemorrágicas não coagulopáticas. A entidade mais relevante clinicamente é a púrpura trombocitopênica imune (PTI), trombocitopenia isolada causada por destruição imunomediada de plaquetas e supressão da sua produção medular.",
+    epidemiologia:
+      "A PTI pode ocorrer em qualquer idade, com um pico em crianças (frequentemente pós-infecciosa, autolimitada) e outro em adultos, sobretudo mulheres jovens (forma mais frequentemente crônica). Pode ser primária (idiopática) ou secundária a lúpus eritematoso sistêmico, infecção pelo HIV, hepatite C ou linfoma.",
+    fisiopatologia:
+      "Autoanticorpos (geralmente IgG) dirigidos contra glicoproteínas da membrana plaquetária (GPIIb/IIIa, GPIb/IX) opsonizam as plaquetas, que são removidas prematuramente pelo sistema reticuloendotelial esplênico. Há também comprometimento da megacariopoiese medular pelos mesmos autoanticorpos, contribuindo para a trombocitopenia por produção insuficiente além do consumo periférico aumentado.",
+    classificacao:
+      "A PTI é classificada quanto à duração em recém-diagnosticada (até 3 meses), persistente (3-12 meses) e crônica (acima de 12 meses), e quanto à causa em primária (isolada) ou secundária a outra condição autoimune, infecciosa ou linfoproliferativa identificável.",
+    quadroClinico: [
+      "Petéquias e equimoses espontâneas, predominando em membros inferiores",
+      "Sangramento mucoso (gengivorragia, epistaxe, menorragia) proporcional à profundidade da trombocitopenia",
+      "Ausência de esplenomegalia palpável na maioria dos casos de PTI primária, achado que auxilia a distinguir de causas secundárias infiltrativas",
+      "Em crianças, frequentemente antecedido por infecção viral recente, com curso tipicamente autolimitado",
+    ],
+    diagnostico: [
+      "Diagnóstico de exclusão: trombocitopenia isolada (demais linhagens normais) sem outra causa identificável após investigação apropriada",
+      "Esfregaço de sangue periférico para confirmar trombocitopenia verdadeira (excluir pseudotrombocitopenia por agregação plaquetária in vitro) e afastar esquizócitos sugestivos de microangiopatia",
+      "Sorologias para HIV e hepatite C, e investigação de lúpus eritematoso sistêmico quando clinicamente pertinente, para excluir causas secundárias",
+    ],
+    examesComplementares: [
+      "Contagem de plaquetas tipicamente abaixo de 100.000/mm³ para definir trombocitopenia, com risco de sangramento espontâneo significativo abaixo de 10.000-20.000/mm³",
+      "Tempo de protrombina e tempo de tromboplastina parcial ativada normais, distinguindo de coagulopatias associadas",
+      "Biópsia de medula óssea reservada a casos atípicos (idade avançada, outras citopenias associadas, resposta inadequada ao tratamento), tipicamente mostrando megacariócitos normais ou aumentados",
+    ],
+    diagnosticoDiferencial: [
+      "Trombocitopenia induzida por fármacos (relação temporal com nova medicação)",
+      "Púrpura trombocitopênica trombótica e síndrome hemolítico-urêmica (associadas a anemia hemolítica microangiopática e esquizócitos, ausentes na PTI)",
+      "Síndromes mielodisplásicas e infiltração medular neoplásica (geralmente com outras citopenias associadas)",
+      "Pseudotrombocitopenia por agregação plaquetária in vitro induzida pelo anticoagulante do tubo de coleta",
+    ],
+    tratamento: [
+      "Observação clínica sem tratamento específico em pacientes assintomáticos ou com sangramento mínimo e plaquetas acima de 30.000/mm³, sobretudo em crianças com curso tipicamente autolimitado",
+      "Corticosteroide sistêmico (prednisona) é o tratamento de primeira linha para PTI sintomática ou com trombocitopenia grave, promovendo redução da destruição plaquetária mediada por anticorpos",
+      "Imunoglobulina intravenosa como alternativa ou adjuvante quando é necessária elevação rápida da contagem de plaquetas (ex.: sangramento ativo, procedimento urgente)",
+      "Agonistas do receptor de trombopoetina, rituximabe ou esplenectomia são considerados em casos crônicos refratários ao corticosteroide",
+    ],
+    complicacoes: [
+      "Aguda: sangramento intracraniano espontâneo, complicação rara mas grave, sobretudo com plaquetas muito baixas",
+      "Crônica: dependência de corticosteroide com seus próprios efeitos adversos, evolução para forma crônica refratária em uma parcela dos adultos",
+    ],
+    redFlags: [
+      "Cefaleia intensa ou alteração do nível de consciência em paciente com trombocitopenia grave exige investigação imediata de hemorragia intracraniana",
+      "Sangramento mucoso ativo e progressivo (epistaxe não controlada, hematúria macroscópica) com plaquetas muito baixas exige tratamento imediato, não apenas observação",
+    ],
+    prognostico:
+      "Em crianças, a PTI é tipicamente autolimitada, com resolução espontânea na maioria dos casos em semanas a poucos meses. Em adultos, tende a seguir curso mais crônico, mas a maioria responde ao menos parcialmente ao corticosteroide, com hemorragia intracraniana fatal sendo uma complicação rara.",
+    pontosDeProva: [
+      "A PTI é diagnóstico de exclusão: trombocitopenia isolada sem outra causa identificável, com demais linhagens normais",
+      "Em crianças, o curso é tipicamente autolimitado e frequentemente não requer tratamento; em adultos, o corticosteroide é a primeira linha quando há indicação de tratar",
+      "A ausência de esplenomegalia é esperada na PTI primária — sua presença deve motivar investigação de causa secundária infiltrativa ou linfoproliferativa",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 28 anos, previamente hígida, procura atendimento por petéquias difusas em membros inferiores e gengivorragia há 4 dias, sem outros sintomas sistêmicos.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a investigação inicial?",
+      raciocinio:
+        "Trombocitopenia isolada com sangramento mucocutâneo em adulto jovem sem outros achados sistêmicos, na ausência de causa medicamentosa ou infecciosa evidente, sugere fortemente púrpura trombocitopênica imune primária.",
+      conduta:
+        "Solicitar hemograma completo com esfregaço para confirmar trombocitopenia isolada, coagulograma normal e sorologias para HIV e hepatite C; se confirmada PTI sintomática com plaquetas significativamente baixas, iniciar corticosteroide sistêmico.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "prednisona", nome: "Prednisona" },
+    ],
+    medicamentosSecaoTitulo: "Medicamento de primeira linha para a púrpura trombocitopênica imune (não se aplica às demais afecções desta categoria)",
+    medicamentosNota:
+      "A prednisona é primeira linha especificamente para a púrpura trombocitopênica imune (PTI), a entidade mais relevante desta categoria diagnóstica ampla. Outras afecções incluídas em D69 (púrpuras vasculares não imunes, trombocitopenias de outras causas) podem exigir condutas distintas.",
+    fontes: [
+      { tema: "Fisiopatologia autoimune (destruição plaquetária e comprometimento da megacariopoiese)", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Corticosteroide como primeira linha e curso autolimitado em crianças", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "agranulocitose",
+    nome: "Agranulocitose",
+    sinonimos: ["Neutropenia grave", "Agranulocitose induzida por fármaco"],
+    cid10: "D70",
+    especialidade: "Hematologia",
+    etiologia: "Multifatorial",
+    resumo: "Neutropenia grave e abrupta, mais comumente induzida por fármacos, que expõe o paciente a risco elevado de infecção bacteriana fulminante, exigindo reconhecimento e suspensão imediata do agente causador.",
+    definicao:
+      "Redução acentuada e abrupta da contagem absoluta de neutrófilos, geralmente definida como abaixo de 500/mm³, comprometendo gravemente a capacidade de defesa contra infecções bacterianas e fúngicas.",
+    epidemiologia:
+      "A causa mais comum é a reação idiossincrática a fármacos (antitireoidianos como o tiamazol, alguns antibióticos, antipsicóticos como a clozapina, entre outros), podendo ocorrer a qualquer momento do tratamento, mas classicamente nas primeiras semanas a meses de uso. Também pode ser autoimune, associada a infecções virais ou parte de síndromes de falência medular mais amplas.",
+    fisiopatologia:
+      "Nas formas induzidas por fármaco, o mecanismo mais comum é imunomediado (formação de anticorpos contra neutrófilos ou seus precursores na presença do fármaco/metabólito) ou toxicidade direta sobre os precursores mieloides na medula óssea, levando à interrupção abrupta da produção ou à destruição periférica acelerada dos neutrófilos circulantes.",
+    classificacao:
+      "Classificada por gravidade conforme a contagem absoluta de neutrófilos: leve (1000-1500/mm³), moderada (500-1000/mm³) e grave/agranulocitose propriamente dita (abaixo de 500/mm³, com risco infeccioso acentuadamente maior abaixo de 100/mm³).",
+    quadroClinico: [
+      "Febre é frequentemente o primeiro e único sinal, já que a resposta inflamatória local (formação de pus, sinais clássicos de infecção) fica comprometida pela ausência de neutrófilos",
+      "Úlceras orais dolorosas, faringite e outras infecções de mucosas são apresentações comuns e características",
+      "Sinais de infecção sistêmica grave (sepse) podem evoluir rapidamente, dado o comprometimento da primeira linha de defesa imunológica",
+    ],
+    diagnostico: [
+      "Hemograma completo com contagem absoluta de neutrófilos abaixo de 500/mm³, com as demais linhagens habitualmente preservadas nas formas induzidas por fármaco (achado isolado, ao contrário da pancitopenia da aplasia medular)",
+      "História medicamentosa detalhada e cronologia de início dos sintomas em relação ao início de novos fármacos é essencial para identificar o agente causador",
+      "Biópsia de medula óssea reservada a casos de causa não esclarecida, mostrando tipicamente parada de maturação da linhagem mieloide nas formas induzidas por fármaco",
+    ],
+    examesComplementares: [
+      "Contagem absoluta de neutrófilos abaixo de 100/mm³ define o maior risco de infecção grave e orienta a necessidade de isolamento protetor e antibioticoterapia precoce",
+      "Hemoculturas antes do início da antibioticoterapia empírica em todo paciente neutropênico febril",
+      "Provas de função hepática e outros exames conforme o fármaco suspeito, para avaliar toxicidade associada",
+    ],
+    diagnosticoDiferencial: [
+      "Aplasia medular (pancitopenia com as três linhagens comprometidas, não apenas neutrófilos)",
+      "Síndrome mielodisplásica (neutropenia com achados displásicos associados)",
+      "Neutropenia por sequestro esplênico em hiperesplenismo (geralmente acompanhada de outras citopenias leves e esplenomegalia)",
+    ],
+    tratamento: [
+      "Suspensão imediata do fármaco suspeito é a medida mais importante e geralmente suficiente para reversão nas formas induzidas por fármaco",
+      "Antibioticoterapia empírica de amplo espectro imediata diante de febre em paciente neutropênico grave, sem aguardar confirmação microbiológica",
+      "Fator estimulador de colônias de granulócitos (G-CSF) pode acelerar a recuperação da contagem de neutrófilos em casos graves",
+      "Isolamento protetor e precauções para redução do risco infeccioso enquanto a contagem de neutrófilos permanece criticamente baixa",
+    ],
+    complicacoes: [
+      "Aguda: sepse fulminante e choque séptico, dada a ausência da primeira linha de defesa imunológica",
+      "Crônica: recorrência em caso de reexposição inadvertida ao mesmo fármaco causador",
+    ],
+    redFlags: [
+      "Febre em paciente com neutropenia grave é considerada emergência médica (neutropenia febril) até prova em contrário, exigindo antibioticoterapia empírica imediata, mesmo sem foco infeccioso evidente",
+      "Ausência de sinais inflamatórios clássicos (pus, eritema evidente) não afasta infecção grave em paciente neutropênico — a resposta inflamatória fica mascarada pela ausência de neutrófilos",
+    ],
+    prognostico:
+      "Com suspensão precoce do fármaco causador e suporte adequado (incluindo antibioticoterapia empírica imediata em caso de febre), a recuperação da contagem de neutrófilos geralmente ocorre em 1-3 semanas e o prognóstico é bom; atraso no reconhecimento e tratamento de infecção associada eleva significativamente a mortalidade.",
+    pontosDeProva: [
+      "Febre pode ser o único sinal de infecção grave em paciente neutropênico, pela ausência de resposta inflamatória local — nunca esperar sinais clássicos de infecção para agir",
+      "A suspensão do fármaco causador é a intervenção mais importante e frequentemente cobrada como primeira conduta diante de agranulocitose induzida por fármaco",
+      "Antitireoidianos (tiamazol, propiltiouracila) e clozapina são causas classicamente cobradas de agranulocitose induzida por fármaco",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 34 anos, em uso de tiamazol para hipertireoidismo há 6 semanas, procura atendimento por febre de 39°C e dor de garganta intensa, sem outros sintomas.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "Febre e faringite dolorosa em paciente em uso de antitireoidiano conhecido por causar agranulocitose idiossincrática sugere fortemente essa complicação, exigindo hemograma imediato para confirmação.",
+      conduta:
+        "Solicitar hemograma completo com urgência; confirmada neutropenia grave, suspender imediatamente o tiamazol, coletar hemoculturas e iniciar antibioticoterapia empírica de amplo espectro sem aguardar resultados microbiológicos.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento central é a suspensão do fármaco causador (não uma nova medicação) e antibioticoterapia empírica ampla; o fator estimulador de colônias de granulócitos, quando usado, ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia imunomediada e principais fármacos causadores", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Conduta na neutropenia febril", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "doenca-de-hodgkin",
+    nome: "Doença de Hodgkin (linfoma de Hodgkin)",
+    sinonimos: ["Linfoma de Hodgkin"],
+    cid10: "C81",
+    especialidade: "Hematologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna do tecido linfoide caracterizada pela presença das células de Reed-Sternberg, com distribuição etária bimodal e um dos linfomas com maior potencial de cura mesmo em estágios avançados.",
+    definicao:
+      "Neoplasia maligna do sistema linfático definida histologicamente pela presença de células de Reed-Sternberg (células gigantes binucleadas características) em meio a um infiltrado inflamatório reativo predominante, distinguindo-a dos linfomas não-Hodgkin.",
+    epidemiologia:
+      "Apresenta distribuição etária bimodal característica, com um pico em adultos jovens (entre 15 e 35 anos) e outro em idosos acima de 55 anos. Associação com infecção prévia pelo vírus Epstein-Barr é descrita em parcela significativa dos casos, sobretudo no subtipo de celularidade mista.",
+    fisiopatologia:
+      "As células de Reed-Sternberg, derivadas de linfócitos B do centro germinativo que sofreram transformação neoplásica, constituem uma minoria das células no tecido acometido, mas orquestram um microambiente inflamatório reativo intenso (linfócitos, eosinófilos, histiócitos, fibrose) que compõe a maior parte do volume tumoral e é responsável por boa parte da resposta inflamatória sistêmica (sintomas B) característica da doença.",
+    classificacao:
+      "Classificada histologicamente em clássico (subtipos esclerose nodular — o mais comum, predomínio linfocitário, celularidade mista e depleção linfocitária) e o subtipo predomínio linfocitário nodular, biologicamente distinto. O estadiamento segue o sistema de Ann Arbor (estágios I a IV, conforme o número e a localização de cadeias linfonodais acometidas e presença de doença extranodal), com subclassificação A/B conforme ausência ou presença de sintomas sistêmicos.",
+    quadroClinico: [
+      "Linfadenopatia indolor, mais comumente cervical ou supraclavicular, de crescimento progressivo",
+      "Sintomas B: febre, sudorese noturna profusa e perda de peso não intencional maior que 10% em 6 meses, com valor prognóstico importante",
+      "Prurido generalizado sem lesão cutânea primária, sintoma característico embora inespecífico",
+      "Dor linfonodal desencadeada pela ingestão de álcool, achado raro mas classicamente descrito",
+    ],
+    diagnostico: [
+      "Biópsia excisional de linfonodo acometido, com identificação histopatológica das células de Reed-Sternberg em imuno-histoquímica característica (CD15 e CD30 positivos), exame confirmatório essencial",
+      "Estadiamento pelo sistema de Ann Arbor com PET-CT, exame de escolha para avaliação da extensão da doença e resposta ao tratamento",
+      "Biópsia de medula óssea reservada a casos com citopenias inexplicadas ou doença avançada",
+    ],
+    examesComplementares: [
+      "PET-CT com FDG para estadiamento inicial e avaliação de resposta ao tratamento (critérios de Deauville), com maior sensibilidade que a tomografia convencional para atividade metabólica tumoral",
+      "Hemograma completo, VHS e função hepática/renal como parte da avaliação inicial de gravidade e para monitorização durante o tratamento",
+      "Sorologia para HIV e hepatites virais antes do início da quimioterapia, por implicações terapêuticas e de segurança",
+    ],
+    diagnosticoDiferencial: [
+      "Linfoma não-Hodgkin (distinguido pela ausência de células de Reed-Sternberg e por padrão imuno-histoquímico diferente)",
+      "Mononucleose infecciosa e outras linfadenopatias reativas infecciosas (geralmente autolimitadas, sem os achados histopatológicos característicos)",
+      "Sarcoidose (pode causar linfadenopatia hilar/mediastinal, distinguida por biópsia mostrando granulomas não caseosos)",
+    ],
+    tratamento: [
+      "Poliquimioterapia combinada (esquema ABVD — doxorrubicina, bleomicina, vimblastina e dacarbazina) é o tratamento padrão na maioria dos estágios, com número de ciclos ajustado conforme estágio e resposta",
+      "Radioterapia de campo envolvido é associada à quimioterapia em estágios iniciais selecionados, para consolidação",
+      "Transplante autólogo de células-tronco hematopoiéticas é considerado em casos recidivados ou refratários à primeira linha",
+      "Terapias-alvo (anticorpo anti-CD30 conjugado, inibidores de checkpoint imunológico) são opções em recidiva após falha de tratamentos convencionais",
+    ],
+    complicacoes: [
+      "Aguda: mielossupressão e toxicidade de órgão associadas à quimioterapia (cardiotoxicidade pela doxorrubicina, toxicidade pulmonar pela bleomicina)",
+      "Crônica: neoplasias secundárias (leucemia mieloide aguda, tumores sólidos induzidos por radioterapia/quimioterapia) e infertilidade, complicações tardias relevantes dado o excelente prognóstico a longo prazo da doença de base",
+    ],
+    redFlags: [
+      "Sintomas B associados a linfadenopatia de crescimento rápido devem acelerar a investigação diagnóstica e o estadiamento, dado o valor prognóstico desses sintomas",
+      "Massa mediastinal volumosa (bulky) ao diagnóstico pode causar síndrome de veia cava superior e exige atenção especial ao início do tratamento",
+    ],
+    prognostico:
+      "É um dos cânceres com maior potencial de cura na oncologia, mesmo em estágios avançados, com taxas de sobrevida global em 5 anos superiores a 80-90% na maioria dos subtipos e estágios quando tratado adequadamente com os protocolos atuais.",
+    pontosDeProva: [
+      "A presença de células de Reed-Sternberg em meio a um infiltrado inflamatório reativo predominante é o achado histopatológico definidor e mais cobrado sobre esta doença",
+      "A distribuição etária bimodal (adultos jovens e idosos) é um achado epidemiológico característico e frequentemente cobrado",
+      "É um dos linfomas com melhor prognóstico e maior potencial de cura, mesmo em estágio avançado — distinção importante em relação a muitos linfomas não-Hodgkin",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 24 anos, com linfonodo cervical indolor de crescimento progressivo há 2 meses, associado a febre intermitente, sudorese noturna e perda de 6 kg no período.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e o exame confirmatório?",
+      raciocinio:
+        "Linfadenopatia cervical indolor progressiva associada a sintomas B (febre, sudorese noturna, perda de peso) em adulto jovem é altamente sugestiva de linfoma, sendo a doença de Hodgkin uma hipótese central nessa faixa etária.",
+      conduta:
+        "Solicitar biópsia excisional do linfonodo acometido para confirmação histopatológica (identificação de células de Reed-Sternberg); confirmado o diagnóstico, complementar com PET-CT para estadiamento pelo sistema de Ann Arbor antes de definir o esquema de quimioterapia.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento padrão é o esquema de poliquimioterapia ABVD (doxorrubicina, bleomicina, vimblastina, dacarbazina), nenhum desses fármacos ainda com ficha própria no site.",
+    fontes: [
+      { tema: "Achado histopatológico definidor (células de Reed-Sternberg) e distribuição etária bimodal", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Estadiamento de Ann Arbor e esquema de quimioterapia ABVD", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "linfoma-nao-hodgkin-difuso",
+    nome: "Linfoma não-Hodgkin difuso",
+    sinonimos: ["Linfoma difuso de grandes células B"],
+    cid10: "C83",
+    especialidade: "Hematologia",
+    etiologia: "Neoplásica",
+    resumo: "Grupo heterogêneo de neoplasias linfoides malignas com padrão de crescimento difuso, cujo representante mais comum é o linfoma difuso de grandes células B, agressivo mas potencialmente curável com poliquimioterapia combinada.",
+    definicao:
+      "Neoplasia maligna do tecido linfoide, de origem predominantemente de linfócitos B, caracterizada por padrão de crescimento difuso (em oposição ao padrão nodular/folicular de outros linfomas) e ausência das células de Reed-Sternberg características da doença de Hodgkin.",
+    epidemiologia:
+      "O linfoma difuso de grandes células B é o subtipo mais comum de linfoma não-Hodgkin no mundo, podendo surgir de novo ou por transformação de um linfoma indolente prévio (ex.: linfoma folicular). Incidência aumenta com a idade, com pico em torno da sétima década de vida, embora possa ocorrer em qualquer faixa etária.",
+    fisiopatologia:
+      "Resulta do acúmulo progressivo de alterações genéticas em linfócitos B durante seu desenvolvimento no centro germinativo, incluindo translocações cromossômicas envolvendo genes reguladores da proliferação e sobrevivência celular (ex.: rearranjos de MYC, BCL2, BCL6 em subtipos de alto risco), resultando em proliferação clonal descontrolada com padrão histológico de crescimento difuso, substituindo a arquitetura linfonodal normal.",
+    classificacao:
+      "Classificado pela Organização Mundial da Saúde em múltiplos subtipos histológicos e moleculares, sendo o linfoma difuso de grandes células B o mais comum e o protótipo do grupo. O índice prognóstico internacional (IPI), baseado em idade, estadiamento, LDH sérica, estado funcional e número de sítios extranodais, estratifica o risco e orienta a intensidade terapêutica.",
+    quadroClinico: [
+      "Linfadenopatia de crescimento rápido, ao contrário do crescimento tipicamente indolente de linfomas de baixo grau",
+      "Sintomas B (febre, sudorese noturna, perda de peso) presentes em parcela significativa dos casos, refletindo a natureza agressiva da doença",
+      "Massas extranodais podem ser a apresentação inicial (trato gastrointestinal, sistema nervoso central, pele, entre outros sítios), diferente do padrão predominantemente nodal da doença de Hodgkin",
+      "Sintomas compressivos ou obstrutivos conforme a localização da massa tumoral",
+    ],
+    diagnostico: [
+      "Biópsia excisional (preferível à biópsia por agulha) do linfonodo ou sítio extranodal acometido, com imuno-histoquímica confirmando linhagem B e padrão de crescimento difuso, exame definidor",
+      "Estadiamento com PET-CT segundo o sistema de Ann Arbor modificado (classificação de Lugano)",
+      "Cálculo do índice prognóstico internacional (IPI) para estratificação de risco e definição da intensidade terapêutica",
+    ],
+    examesComplementares: [
+      "LDH sérica elevada reflete a alta taxa de proliferação celular e é componente do índice prognóstico internacional",
+      "PET-CT para estadiamento inicial e avaliação da resposta ao tratamento pelos critérios de Lugano",
+      "Biópsia de medula óssea para avaliação de infiltração medular como parte do estadiamento completo",
+    ],
+    diagnosticoDiferencial: [
+      "Doença de Hodgkin (ausência das células de Reed-Sternberg e padrão imuno-histoquímico diferente distinguem o linfoma não-Hodgkin)",
+      "Linfomas não-Hodgkin indolentes (linfoma folicular, linfoma de zona marginal), com crescimento mais lento e conduta terapêutica distinta",
+      "Linfadenopatia reativa infecciosa (geralmente com crescimento mais rápido de resolução e sem os achados histopatológicos característicos)",
+    ],
+    tratamento: [
+      "Esquema R-CHOP (rituximabe associado à ciclofosfamida, doxorrubicina, vincristina e prednisona) é o tratamento padrão de primeira linha, com potencial curativo em boa parte dos pacientes",
+      "Radioterapia de consolidação em sítios de doença volumosa (bulky) selecionados",
+      "Transplante autólogo de células-tronco hematopoiéticas é considerado em recidiva, para pacientes elegíveis e quimiossensíveis",
+      "Terapias com células T com receptor de antígeno quimérico (CAR-T) são opção em casos refratários a múltiplas linhas de tratamento",
+    ],
+    complicacoes: [
+      "Aguda: síndrome de lise tumoral no início do tratamento, sobretudo em doenças de alta carga tumoral, exigindo profilaxia (hidratação, alopurinol/rasburicase)",
+      "Crônica: cardiotoxicidade pela doxorrubicina, neuropatia periférica pela vincristina, neoplasias secundárias tardias",
+    ],
+    redFlags: [
+      "Linfadenopatia de crescimento rápido associada a sintomas B exige investigação diagnóstica acelerada, dado o comportamento agressivo típico deste grupo de linfomas",
+      "Sinais de síndrome de lise tumoral (hipercalemia, hiperfosfatemia, hiperuricemia, lesão renal aguda) ao iniciar o tratamento em doença de alta carga tumoral exigem monitorização e profilaxia rigorosas",
+    ],
+    prognostico:
+      "Apesar de biologicamente agressivo, o linfoma difuso de grandes células B é potencialmente curável, com aproximadamente 60-70% dos pacientes alcançando remissão duradoura com R-CHOP, variando conforme o índice prognóstico internacional ao diagnóstico.",
+    pontosDeProva: [
+      "O crescimento rápido, ao contrário do curso indolente de outros linfomas não-Hodgkin, é uma característica central que orienta tanto a urgência diagnóstica quanto o potencial curativo com tratamento intensivo imediato",
+      "A adição do rituximabe (anti-CD20) ao esquema CHOP (formando o R-CHOP) representa um marco histórico que melhorou substancialmente a sobrevida nessa doença",
+      "A síndrome de lise tumoral é uma complicação precoce clássica do início do tratamento em linfomas de alta carga tumoral e alto índice proliferativo, exigindo profilaxia antecipada",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 62 anos, procura atendimento por massa cervical de crescimento rápido nas últimas 3 semanas, associada a febre vespertina e perda de 8 kg no período.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta diagnóstica prioritária?",
+      raciocinio:
+        "Linfadenopatia de crescimento rápido associada a sintomas B sugere linfoma agressivo, sendo o linfoma difuso de grandes células B o subtipo mais comum nessa apresentação em adultos.",
+      conduta:
+        "Solicitar biópsia excisional do linfonodo com urgência para diagnóstico histopatológico e imuno-histoquímico; confirmado o diagnóstico, complementar com PET-CT para estadiamento e LDH para cálculo do índice prognóstico internacional antes de iniciar R-CHOP.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "prednisona", nome: "Prednisona" },
+    ],
+    medicamentosSecaoTitulo: "Componente do esquema de quimioterapia R-CHOP (não trata isoladamente)",
+    medicamentosNota:
+      "A prednisona é apenas um dos componentes do esquema combinado R-CHOP (com rituximabe, ciclofosfamida, doxorrubicina e vincristina), nenhum dos quais ainda tem ficha própria no site. O tratamento eficaz depende da combinação completa, não da prednisona isoladamente.",
+    fontes: [
+      { tema: "Fisiopatologia (alterações genéticas do centro germinativo) e classificação pela OMS", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Esquema R-CHOP e índice prognóstico internacional", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "leucemia-mieloide",
+    nome: "Leucemia mieloide",
+    sinonimos: ["Leucemia mieloide aguda", "Leucemia mieloide crônica"],
+    cid10: "C92",
+    especialidade: "Hematologia",
+    etiologia: "Neoplásica",
+    resumo: "Categoria que engloba a leucemia mieloide aguda, de curso agressivo e apresentação por falência medular, e a leucemia mieloide crônica, de curso indolente associada ao cromossomo Filadélfia.",
+    definicao:
+      "Categoria diagnóstica que reúne neoplasias malignas clonais originadas de precursores da linhagem mieloide, incluindo a leucemia mieloide aguda (proliferação de blastos mieloides imaturos com bloqueio de maturação) e a leucemia mieloide crônica (proliferação clonal de granulócitos maduros e seus precursores, associada à translocação BCR-ABL1).",
+    epidemiologia:
+      "A leucemia mieloide aguda é mais comum em adultos, com incidência crescente com a idade, podendo ser de novo ou secundária a quimioterapia/radioterapia prévia ou a uma síndrome mielodisplásica preexistente. A leucemia mieloide crônica ocorre predominantemente em adultos de meia-idade, universalmente associada à translocação (9;22), o cromossomo Filadélfia.",
+    fisiopatologia:
+      "Na leucemia mieloide aguda, uma alteração genética adquirida em um precursor mieloide bloqueia sua maturação normal, resultando em acúmulo de blastos imaturos na medula óssea que substituem progressivamente a hematopoiese normal, causando falência medular (anemia, trombocitopenia, neutropenia funcional apesar de leucocitose). Na leucemia mieloide crônica, a translocação (9;22) gera o gene de fusão BCR-ABL1, que codifica uma tirosina-quinase constitutivamente ativa, conferindo vantagem proliferativa aos granulócitos, que se acumulam de forma predominantemente madura e funcional na fase crônica da doença.",
+    classificacao:
+      "A leucemia mieloide aguda é classificada pela Organização Mundial da Saúde conforme alterações citogenéticas e moleculares recorrentes, substituindo a antiga classificação puramente morfológica FAB. A leucemia mieloide crônica evolui em três fases reconhecidas: crônica (a mais comum ao diagnóstico, indolente), acelerada e crise blástica (transformação para leucemia aguda, com prognóstico sombrio).",
+    quadroClinico: [
+      "Leucemia mieloide aguda: fadiga, palidez, sangramento e febre por falência medular (anemia, trombocitopenia, neutropenia funcional), de instalação geralmente rápida; hipertrofia gengival e lesões cutâneas (cloromas) em subtipos específicos",
+      "Leucemia mieloide crônica: frequentemente assintomática ao diagnóstico, identificada por leucocitose incidental; quando sintomática, fadiga, saciedade precoce e desconforto no hipocôndrio esquerdo por esplenomegalia significativa",
+      "Sintomas constitucionais (sudorese noturna, perda de peso) mais proeminentes na fase acelerada/crise blástica da forma crônica",
+    ],
+    diagnostico: [
+      "Leucemia mieloide aguda: mielograma com 20% ou mais de blastos mieloides na medula óssea (ou menos, com alteração citogenética definidora específica), critério diagnóstico central",
+      "Leucemia mieloide crônica: identificação da translocação (9;22)/cromossomo Filadélfia ou do transcrito BCR-ABL1 por citogenética ou biologia molecular, confirmando o diagnóstico",
+      "Imunofenotipagem por citometria de fluxo para caracterização da linhagem e subtipo na leucemia aguda",
+    ],
+    examesComplementares: [
+      "Hemograma com leucocitose importante (leucemia mieloide crônica) ou citopenias associadas a blastos circulantes (leucemia mieloide aguda)",
+      "Mielograma e biópsia de medula óssea com citogenética e biologia molecular, exames centrais para diagnóstico, classificação de risco e monitorização de resposta",
+      "PCR quantitativo para BCR-ABL1 na leucemia mieloide crônica, usado para monitorização seriada da resposta molecular ao tratamento",
+    ],
+    diagnosticoDiferencial: [
+      "Reação leucemoide (leucocitose reativa por infecção grave, distinguida pela ausência de blastos significativos e de alterações citogenéticas clonais)",
+      "Síndrome mielodisplásica (citopenias com displasia, sem os critérios de blastose da leucemia aguda)",
+      "Outras neoplasias mieloproliferativas crônicas (policitemia vera, trombocitemia essencial), distinguidas pela ausência do cromossomo Filadélfia",
+    ],
+    tratamento: [
+      "Leucemia mieloide aguda: quimioterapia de indução intensiva (esquema clássico com citarabina e antraciclina) seguida de terapia de consolidação, com transplante alogênico de células-tronco hematopoiéticas em casos de risco intermediário/alto; ácido all-trans retinoico é tratamento específico e altamente eficaz no subtipo promielocítico agudo",
+      "Leucemia mieloide crônica: inibidores de tirosina-quinase (ex.: imatinibe) direcionados contra a proteína BCR-ABL1 revolucionaram o tratamento, permitindo controle de longo prazo da doença na fase crônica na grande maioria dos pacientes",
+      "Transplante alogênico de células-tronco hematopoiéticas reservado a falha aos inibidores de tirosina-quinase ou progressão para fase acelerada/crise blástica",
+    ],
+    complicacoes: [
+      "Aguda: síndrome de lise tumoral e coagulação intravascular disseminada (sobretudo na leucemia promielocítica aguda) no início do tratamento da forma aguda",
+      "Crônica: transformação da leucemia mieloide crônica para fase acelerada e crise blástica quando não tratada ou com resposta inadequada aos inibidores de tirosina-quinase",
+    ],
+    redFlags: [
+      "Contagem de leucócitos extremamente elevada (hiperleucocitose) na leucemia aguda pode causar leucostase com risco de acidente vascular cerebral e insuficiência respiratória, exigindo tratamento citorredutor urgente",
+      "Sinais de coagulopatia (sangramento, equimoses) ao diagnóstico de leucemia aguda devem levantar suspeita do subtipo promielocítico, associado a coagulação intravascular disseminada grave desde a apresentação",
+    ],
+    prognostico:
+      "A leucemia mieloide aguda tem prognóstico variável conforme idade e perfil citogenético/molecular, sendo potencialmente curável com quimioterapia intensiva e, quando indicado, transplante alogênico; o subtipo promielocítico agudo tratado com ácido all-trans retinoico tem prognóstico excelente. A leucemia mieloide crônica, antes universalmente fatal em poucos anos sem tratamento, tornou-se uma doença crônica controlável com expectativa de vida próxima à população geral na era dos inibidores de tirosina-quinase.",
+    pontosDeProva: [
+      "O cromossomo Filadélfia (translocação 9;22, gene de fusão BCR-ABL1) é praticamente universal na leucemia mieloide crônica e o alvo direto dos inibidores de tirosina-quinase, um dos maiores marcos da oncologia de precisão",
+      "O ácido all-trans retinoico é tratamento específico e altamente eficaz na leucemia promielocítica aguda, subtipo classicamente associado a coagulopatia grave (CIVD) desde a apresentação",
+      "A hiperleucocitose extrema na leucemia aguda pode causar leucostase sintomática, uma emergência oncológica que exige tratamento citorredutor imediato",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 55 anos, com fadiga progressiva e saciedade precoce há 3 meses. Exame físico revela esplenomegalia volumosa. Hemograma mostra leucocitose acentuada com predomínio de granulócitos em diversos estágios de maturação.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e o exame confirmatório?",
+      raciocinio:
+        "Leucocitose com predomínio de granulócitos em vários estágios de maturação, associada a esplenomegalia volumosa e curso insidioso, é altamente sugestiva de leucemia mieloide crônica.",
+      conduta:
+        "Solicitar pesquisa do cromossomo Filadélfia/transcrito BCR-ABL1 por citogenética ou biologia molecular para confirmação diagnóstica; confirmado o diagnóstico, iniciar inibidor de tirosina-quinase como tratamento de primeira linha.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende de quimioterapia intensiva combinada (leucemia aguda) ou de inibidores de tirosina-quinase como o imatinibe (leucemia crônica), nenhum ainda com ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia (bloqueio de maturação na forma aguda; BCR-ABL1 na forma crônica) e classificação por fases", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Inibidores de tirosina-quinase como tratamento de primeira linha na leucemia mieloide crônica", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "leucemia-linfoide",
+    nome: "Leucemia linfoide",
+    sinonimos: ["Leucemia linfoblástica aguda", "Leucemia linfocítica crônica"],
+    cid10: "C91",
+    especialidade: "Hematologia",
+    etiologia: "Neoplásica",
+    resumo: "Categoria que engloba a leucemia linfoblástica aguda, predominante na infância e de curso agressivo, e a leucemia linfocítica crônica, tipicamente indolente e mais comum em idosos.",
+    definicao:
+      "Categoria diagnóstica que reúne neoplasias malignas clonais da linhagem linfoide, incluindo a leucemia linfoblástica aguda (proliferação de linfoblastos imaturos com bloqueio de maturação, predominantemente de linhagem B) e a leucemia linfocítica crônica (acúmulo progressivo de linfócitos B maduros, porém funcionalmente incompetentes, imunofenotipicamente distintos).",
+    epidemiologia:
+      "A leucemia linfoblástica aguda é a neoplasia maligna mais comum na infância, com pico entre 2 e 5 anos, embora também ocorra em adultos com prognóstico geralmente pior. A leucemia linfocítica crônica é a leucemia mais comum em adultos no mundo ocidental, predominando em idosos, frequentemente descoberta incidentalmente por linfocitose em exame de rotina.",
+    fisiopatologia:
+      "Na leucemia linfoblástica aguda, alterações genéticas adquiridas em precursores linfoides bloqueiam sua maturação normal, levando ao acúmulo de linfoblastos na medula óssea que substituem progressivamente a hematopoiese normal, causando falência medular. Na leucemia linfocítica crônica, linfócitos B monoclonais de aparência madura, porém com sinalização anti-apoptótica desregulada, acumulam-se progressivamente no sangue, medula óssea e órgãos linfoides, com função imunológica comprometida apesar do número elevado de células circulantes.",
+    classificacao:
+      "A leucemia linfoblástica aguda é classificada por linhagem (B ou T) e por alterações citogenéticas/moleculares recorrentes de valor prognóstico (ex.: translocação BCR-ABL1, associada a pior prognóstico). A leucemia linfocítica crônica é estadiada clinicamente pelos sistemas de Rai (0 a IV, nos Estados Unidos) ou de Binet (A a C, na Europa), com base no número de sítios linfoides acometidos e presença de citopenias.",
+    quadroClinico: [
+      "Leucemia linfoblástica aguda: fadiga, palidez, sangramento e febre por falência medular, dor óssea (sobretudo em crianças, por infiltração medular), linfadenopatia e hepatoesplenomegalia",
+      "Leucemia linfocítica crônica: frequentemente assintomática ao diagnóstico; quando sintomática, linfadenopatia generalizada indolor, fadiga e infecções recorrentes por hipogamaglobulinemia funcional",
+      "Sintomas B (febre, sudorese noturna, perda de peso) podem ocorrer em ambas as formas, mais proeminentes em doença avançada",
+    ],
+    diagnostico: [
+      "Leucemia linfoblástica aguda: mielograma com 20% ou mais de linfoblastos na medula óssea, com imunofenotipagem por citometria de fluxo definindo a linhagem (B ou T), critério diagnóstico central",
+      "Leucemia linfocítica crônica: linfocitose B monoclonal persistente no sangue periférico (tipicamente acima de 5.000/mm³) com imunofenótipo característico (CD5, CD19, CD23 positivos) por citometria de fluxo, sem necessidade obrigatória de biópsia de medula óssea para o diagnóstico",
+      "Avaliação citogenética/molecular para estratificação de risco em ambas as formas, com implicação direta na escolha terapêutica",
+    ],
+    examesComplementares: [
+      "Hemograma com blastos circulantes e citopenias (leucemia aguda) ou linfocitose isolada com células maduras (leucemia crônica)",
+      "Imunofenotipagem por citometria de fluxo, exame central para diferenciar linhagem e confirmar clonalidade em ambas as formas",
+      "Estudo citogenético/molecular (ex.: pesquisa de BCR-ABL1 na leucemia linfoblástica aguda; deleção 17p/mutação TP53 na leucemia linfocítica crônica), com forte valor prognóstico e implicação terapêutica",
+    ],
+    diagnosticoDiferencial: [
+      "Reação leucemoide linfocitária e linfocitose reativa por infecção viral (geralmente policlonal, distinguida da linfocitose monoclonal por citometria de fluxo)",
+      "Linfoma de pequenos linfócitos (biologicamente idêntico à leucemia linfocítica crônica, distinguido apenas pela predominância de acometimento nodal sobre o sanguíneo)",
+      "Outras leucemias agudas (mieloide), distinguidas por imunofenotipagem",
+    ],
+    tratamento: [
+      "Leucemia linfoblástica aguda: quimioterapia combinada multifásica intensiva (indução, consolidação e manutenção), com esquemas de indução classicamente incluindo vincristina e corticosteroide (prednisona ou dexametasona), além de profilaxia do sistema nervoso central; inibidor de tirosina-quinase é acrescentado quando há translocação BCR-ABL1 positiva",
+      "Leucemia linfocítica crônica: observação vigilante ('watch and wait') em doença assintomática de baixo risco, dado que o tratamento precoce não demonstrou benefício de sobrevida nesses casos; tratamento sistêmico (inibidores de via de sinalização do receptor de células B, como ibrutinibe, ou imunoquimioterapia) reservado a doença sintomática ou de alto risco",
+      "Transplante alogênico de células-tronco hematopoiéticas considerado em casos de alto risco ou recidiva na leucemia linfoblástica aguda",
+    ],
+    complicacoes: [
+      "Aguda: síndrome de lise tumoral no início do tratamento da leucemia linfoblástica aguda, sobretudo em doença de alta carga tumoral",
+      "Crônica: hipogamaglobulinemia progressiva com infecções recorrentes e transformação para linfoma agressivo (síndrome de Richter) na leucemia linfocítica crônica",
+    ],
+    redFlags: [
+      "Dor óssea associada a citopenias em criança deve levantar suspeita de leucemia aguda e motivar investigação hematológica prioritária, não ser atribuída precocemente a causas musculoesqueléticas benignas",
+      "Aumento súbito de linfonodo ou surgimento de sintomas B em paciente com leucemia linfocítica crônica estável deve levantar suspeita de transformação para linfoma agressivo (síndrome de Richter), exigindo biópsia imediata",
+    ],
+    prognostico:
+      "A leucemia linfoblástica aguda tem excelente prognóstico em crianças, com taxas de cura superiores a 85-90% nos protocolos atuais, mas prognóstico mais reservado em adultos. A leucemia linfocítica crônica tem curso tipicamente indolente por muitos anos em doença de baixo risco, embora um subgrupo com alterações citogenéticas de alto risco (ex.: deleção 17p) apresente comportamento mais agressivo e resposta terapêutica mais limitada.",
+    pontosDeProva: [
+      "A leucemia linfoblástica aguda é a neoplasia maligna mais comum na infância, com prognóstico excelente nessa faixa etária, ao contrário do prognóstico mais reservado em adultos",
+      "A observação vigilante ('watch and wait') é conduta apropriada e frequentemente cobrada na leucemia linfocítica crônica assintomática de baixo risco, pois o tratamento precoce não demonstrou benefício de sobrevida nesses casos",
+      "A síndrome de Richter (transformação da leucemia linfocítica crônica em linfoma agressivo) deve ser suspeitada diante de crescimento linfonodal assimétrico rápido ou sintomas B novos em paciente com doença previamente estável",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menino, 4 anos, com palidez progressiva, dor óssea em membros inferiores e febre intermitente há 3 semanas. Hemograma mostra pancitopenia com presença de blastos no sangue periférico.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Pancitopenia com blastos circulantes, dor óssea e febre em criança pequena é altamente sugestiva de leucemia linfoblástica aguda, a neoplasia maligna mais comum nessa faixa etária.",
+      conduta:
+        "Solicitar mielograma com imunofenotipagem por citometria de fluxo para confirmação diagnóstica e definição da linhagem; confirmado o diagnóstico, iniciar quimioterapia de indução multifásica, incluindo vincristina e corticosteroide, junto com profilaxia do sistema nervoso central.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "prednisona", nome: "Prednisona" },
+    ],
+    medicamentosSecaoTitulo: "Componente do esquema de indução na leucemia linfoblástica aguda (não trata isoladamente, e não se aplica à leucemia linfocítica crônica)",
+    medicamentosNota:
+      "A prednisona integra o esquema de indução multifásico da leucemia linfoblástica aguda (associada a vincristina e outros agentes ainda sem ficha própria no site), não sendo tratamento isolado nem se aplicando à leucemia linfocítica crônica, cujo manejo é distinto.",
+    fontes: [
+      { tema: "Fisiopatologia (bloqueio de maturação na forma aguda; sinalização anti-apoptótica na forma crônica) e epidemiologia por faixa etária", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Estadiamento de Rai/Binet e conduta de observação vigilante na leucemia linfocítica crônica de baixo risco", fonte: "fonte pendente" },
+    ],
+  },
 ];

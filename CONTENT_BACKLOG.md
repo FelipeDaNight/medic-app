@@ -15,7 +15,7 @@ Fontes:
   está, o único item da lista ainda pendente por esse motivo.
 
 Já documentados com ficha completa (**fora deste backlog**, não repetir):
-- **Doenças (143):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
+- **Doenças (156):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
   · Dengue · COVID-19 · Gastrite · DRGE · Artrite reumatoide · LES · Alzheimer · Anemia
   ferropriva · DRC · Infarto agudo do miocárdio · Angina pectoris · Doença isquêmica
   crônica do coração · Fibrilação e flutter atrial · Parada cardíaca · Febre reumática ·
@@ -54,7 +54,12 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   Hemorragia intracerebral (AVC hemorrágico) · Epilepsia · Estado de mal
   epiléptico · Enxaqueca · Doença de Parkinson · Esclerose múltipla ·
   Miastenia gravis · Síndrome de Guillain-Barré · Paralisia de Bell ·
-  Hidrocefalia · Demência vascular · Neoplasia maligna do encéfalo
+  Hidrocefalia · Demência vascular · Neoplasia maligna do encéfalo · Anemia
+  por deficiência de vitamina B12 · Talassemia · Transtornos falciformes ·
+  Anemia hemolítica adquirida · Anemias aplásticas · Coagulação
+  intravascular disseminada · Hemofilia A · Púrpura e outras afecções
+  hemorrágicas · Agranulocitose · Doença de Hodgkin · Linfoma não-Hodgkin
+  difuso · Leucemia mieloide · Leucemia linfoide
 - **Medicamentos (29):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
@@ -239,20 +244,20 @@ especialidade.
 13. concluído — Demência vascular (F01)
 14. concluído — Neoplasia maligna do encéfalo (C71)
 
-### Lote 11 — Hematologia (13)
-1. pendente — Anemia por deficiência de vitamina B12 (D51)
-2. pendente — Talassemia (D56)
-3. pendente — Transtornos falciformes (D57)
-4. pendente — Anemia hemolítica adquirida (D59)
-5. pendente — Outras anemias aplásticas (D61)
-6. pendente — Coagulação intravascular disseminada (D65)
-7. pendente — Deficiência hereditária do fator VIII / hemofilia A (D66)
-8. pendente — Púrpura e outras afecções hemorrágicas (D69)
-9. pendente — Agranulocitose (D70)
-10. pendente — Doença de Hodgkin (C81)
-11. pendente — Linfoma não-Hodgkin difuso (C83)
-12. pendente — Leucemia mielóide (C92)
-13. pendente — Leucemia linfóide (C91)
+### Lote 11 — Hematologia (13) — ✅ CONCLUÍDO
+1. concluído — Anemia por deficiência de vitamina B12 (D51)
+2. concluído — Talassemia (D56)
+3. concluído — Transtornos falciformes (D57)
+4. concluído — Anemia hemolítica adquirida (D59)
+5. concluído — Outras anemias aplásticas (D61)
+6. concluído — Coagulação intravascular disseminada (D65)
+7. concluído — Deficiência hereditária do fator VIII / hemofilia A (D66)
+8. concluído — Púrpura e outras afecções hemorrágicas (D69)
+9. concluído — Agranulocitose (D70)
+10. concluído — Doença de Hodgkin (C81)
+11. concluído — Linfoma não-Hodgkin difuso (C83)
+12. concluído — Leucemia mielóide (C92)
+13. concluído — Leucemia linfóide (C91)
 
 ### Lote 12 — Nefrologia (6) + Urologia (6)
 1. pendente — Síndrome nefrítica aguda (N00)
@@ -310,10 +315,11 @@ especialidade.
 8. pendente — Doença inflamatória do útero / DIP (N71)
 9. pendente — Transtornos da menopausa e da perimenopausa (N95)
 
-**Total: 61 doenças pendentes em 5 lotes** (Lotes 1-6, Lotes 7-9 Oftalmologia e
-Lote 10 Neurologia todos concluídos — 15 + 14 + 12 + 13 + 14 + 12 + 33 + 14
-itens), além das 143 já fichadas. **Oftalmologia e Neurologia fechadas por
-completo. Próxima prioridade: Lote 11 (Hematologia, 13 itens).**
+**Total: 48 doenças pendentes em 4 lotes** (Lotes 1-6, Lotes 7-9 Oftalmologia,
+Lote 10 Neurologia e Lote 11 Hematologia todos concluídos — 15 + 14 + 12 +
+13 + 14 + 12 + 33 + 14 + 13 itens), além das 156 já fichadas. **Oftalmologia,
+Neurologia e Hematologia fechadas por completo. Próxima prioridade: Lote 12
+(Nefrologia + Urologia, 12 itens).**
 
 ---
 

@@ -746,6 +746,10 @@ export const medications: Medication[] = [
       { slug: "dermatopoliomiosite", nome: "Dermatopoliomiosite" },
       { slug: "poliarterite-nodosa-vasculites", nome: "Poliarterite nodosa e outras vasculites" },
       { slug: "paralisia-de-bell", nome: "Paralisia de Bell (paralisia facial periférica idiopática)" },
+      { slug: "anemia-hemolitica-adquirida", nome: "Anemia hemolítica adquirida" },
+      { slug: "purpura-afeccoes-hemorragicas", nome: "Púrpura e outras afecções hemorrágicas" },
+      { slug: "linfoma-nao-hodgkin-difuso", nome: "Linfoma não-Hodgkin difuso" },
+      { slug: "leucemia-linfoide", nome: "Leucemia linfoide" },
     ],
     fontes: [
       { tema: "Mecanismo de ação glicocorticoide", fonte: "Goodman & Gilman, 13ª ed." },
