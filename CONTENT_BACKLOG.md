@@ -15,7 +15,7 @@ Fontes:
   está, o único item da lista ainda pendente por esse motivo.
 
 Já documentados com ficha completa (**fora deste backlog**, não repetir):
-- **Doenças (118):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
+- **Doenças (143):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
   · Dengue · COVID-19 · Gastrite · DRGE · Artrite reumatoide · LES · Alzheimer · Anemia
   ferropriva · DRC · Infarto agudo do miocárdio · Angina pectoris · Doença isquêmica
   crônica do coração · Fibrilação e flutter atrial · Parada cardíaca · Febre reumática ·
@@ -45,7 +45,16 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   diabética e DMRI · Celulite orbitária · Endoftalmite e corpo estranho
   intraocular · Uveíte posterior e toxoplasmose ocular · Outros transtornos da
   coróide · Cicatrizes e opacidades da córnea · Ceratocone · Hifema e
-  transtornos da íris · Hemorragia vítrea
+  transtornos da íris · Hemorragia vítrea · Outras cataratas · Afacia e
+  subluxação do cristalino · Neurite óptica · Papiledema e atrofia óptica ·
+  Estrabismo paralítico · Outros estrabismos · Transtornos do movimento
+  binocular · Erros de refração e da acomodação · Ambliopia, diplopia e
+  outros distúrbios visuais · Cegueira e visão subnormal · Nistagmo · Ataque
+  isquêmico transitório (AIT) · Infarto cerebral (AVC isquêmico) ·
+  Hemorragia intracerebral (AVC hemorrágico) · Epilepsia · Estado de mal
+  epiléptico · Enxaqueca · Doença de Parkinson · Esclerose múltipla ·
+  Miastenia gravis · Síndrome de Guillain-Barré · Paralisia de Bell ·
+  Hidrocefalia · Demência vascular · Neoplasia maligna do encéfalo
 - **Medicamentos (29):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
@@ -199,34 +208,36 @@ especialidade.
 10. concluído — Outros transtornos da íris e do corpo ciliar / hifema (H21)
 11. concluído — Transtornos do humor vítreo / hemorragia vítrea (H43)
 
-### Lote 9 — Oftalmologia C: cristalino restante, nervo óptico, motilidade e refração (11)
-1. pendente — Outras cataratas / congênita, secundária, traumática (H26)
-2. pendente — Outros transtornos do cristalino / afacia, subluxação (H27)
-3. pendente — Neurite óptica (H46)
-4. pendente — Outros transtornos do nervo óptico e das vias ópticas / papiledema, atrofia óptica (H47)
-5. pendente — Estrabismo paralítico (H49)
-6. pendente — Outros estrabismos (H50)
-7. pendente — Outros transtornos do movimento binocular (H51)
-8. pendente — Transtornos da refração e da acomodação / miopia, hipermetropia, astigmatismo, presbiopia (H52)
-9. pendente — Distúrbios visuais / ambliopia, diplopia, hemianopsia (H53)
-10. pendente — Cegueira e visão subnormal (H54)
-11. pendente — Nistagmo e outros movimentos irregulares do olho (H55)
+### Lote 9 — Oftalmologia C: cristalino restante, nervo óptico, motilidade e refração (11) — ✅ CONCLUÍDO
+1. concluído — Outras cataratas / congênita, secundária, traumática (H26)
+2. concluído — Outros transtornos do cristalino / afacia, subluxação (H27)
+3. concluído — Neurite óptica (H46)
+4. concluído — Outros transtornos do nervo óptico e das vias ópticas / papiledema, atrofia óptica (H47)
+5. concluído — Estrabismo paralítico (H49)
+6. concluído — Outros estrabismos (H50)
+7. concluído — Outros transtornos do movimento binocular (H51)
+8. concluído — Transtornos da refração e da acomodação / miopia, hipermetropia, astigmatismo, presbiopia (H52)
+9. concluído — Distúrbios visuais / ambliopia, diplopia, hemianopsia (H53)
+10. concluído — Cegueira e visão subnormal (H54)
+11. concluído — Nistagmo e outros movimentos irregulares do olho (H55)
 
-### Lote 10 — Neurologia (14)
-1. pendente — Acidente vascular cerebral isquêmico transitório / AIT (G45)
-2. pendente — Infarto cerebral / AVC isquêmico (I63)
-3. pendente — Hemorragia intracerebral / AVC hemorrágico (I61)
-4. pendente — Epilepsia (G40)
-5. pendente — Estado de mal epiléptico (G41)
-6. pendente — Enxaqueca (G43)
-7. pendente — Doença de Parkinson (G20)
-8. pendente — Esclerose múltipla (G35)
-9. pendente — Miastenia gravis (G70)
-10. pendente — Polineuropatia inflamatória / Guillain-Barré (G61)
-11. pendente — Transtornos do nervo facial / paralisia de Bell (G51)
-12. pendente — Hidrocefalia (G91)
-13. pendente — Demência vascular (F01)
-14. pendente — Neoplasia maligna do encéfalo (C71)
+**Oftalmologia 100% documentada: 33/33 doenças (Lotes 7, 8 e 9).**
+
+### Lote 10 — Neurologia (14) — ✅ CONCLUÍDO
+1. concluído — Acidente vascular cerebral isquêmico transitório / AIT (G45)
+2. concluído — Infarto cerebral / AVC isquêmico (I63)
+3. concluído — Hemorragia intracerebral / AVC hemorrágico (I61)
+4. concluído — Epilepsia (G40)
+5. concluído — Estado de mal epiléptico (G41)
+6. concluído — Enxaqueca (G43)
+7. concluído — Doença de Parkinson (G20)
+8. concluído — Esclerose múltipla (G35)
+9. concluído — Miastenia gravis (G70)
+10. concluído — Polineuropatia inflamatória / Guillain-Barré (G61)
+11. concluído — Transtornos do nervo facial / paralisia de Bell (G51)
+12. concluído — Hidrocefalia (G91)
+13. concluído — Demência vascular (F01)
+14. concluído — Neoplasia maligna do encéfalo (C71)
 
 ### Lote 11 — Hematologia (13)
 1. pendente — Anemia por deficiência de vitamina B12 (D51)
@@ -299,12 +310,10 @@ especialidade.
 8. pendente — Doença inflamatória do útero / DIP (N71)
 9. pendente — Transtornos da menopausa e da perimenopausa (N95)
 
-**Total: 86 doenças pendentes em 7 lotes** (Lote 1, Cardiologia; Lote 2,
-Endocrinologia+Pneumologia; Lote 3, Pneumologia; Lote 4, Infectologia; Lote 5,
-Gastroenterologia; Lote 6, Gastro restante+Reumatologia; Lote 7, Oftalmologia A;
-e Lote 8, Oftalmologia B, concluídos — 15 + 14 + 12 + 13 + 14 + 12 + 11 + 11
-itens), além das 118 já fichadas. **Próxima prioridade: Lote 9 (Oftalmologia C,
-11 itens), antes de Neurologia e das demais.**
+**Total: 61 doenças pendentes em 5 lotes** (Lotes 1-6, Lotes 7-9 Oftalmologia e
+Lote 10 Neurologia todos concluídos — 15 + 14 + 12 + 13 + 14 + 12 + 33 + 14
+itens), além das 143 já fichadas. **Oftalmologia e Neurologia fechadas por
+completo. Próxima prioridade: Lote 11 (Hematologia, 13 itens).**
 
 ---
 

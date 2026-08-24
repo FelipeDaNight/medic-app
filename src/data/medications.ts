@@ -180,6 +180,7 @@ export const medications: Medication[] = [
       { slug: "espondilite-anquilosante", nome: "Espondilite anquilosante" },
       { slug: "dorsalgia-lombalgia", nome: "Dorsalgia (lombalgia)" },
       { slug: "episclerite-esclerite", nome: "Episclerite e esclerite" },
+      { slug: "enxaqueca", nome: "Enxaqueca" },
     ],
     fontes: [
       { tema: "Mecanismo de ação e efeitos adversos", fonte: "Goodman & Gilman, 13ª ed." },
@@ -672,6 +673,8 @@ export const medications: Medication[] = [
       { slug: "angina-pectoris", nome: "Angina pectoris" },
       { slug: "doenca-isquemica-cronica-coracao", nome: "Doença isquêmica crônica do coração" },
       { slug: "dislipidemia", nome: "Dislipidemia" },
+      { slug: "ait-ataque-isquemico-transitorio", nome: "Ataque isquêmico transitório (AIT)" },
+      { slug: "avc-isquemico-infarto-cerebral", nome: "Infarto cerebral (AVC isquêmico)" },
     ],
     fontes: [
       { tema: "Mecanismo de ação", fonte: "Goodman & Gilman, 13ª ed." },
@@ -742,6 +745,7 @@ export const medications: Medication[] = [
       { slug: "colite-ulcerativa", nome: "Colite ulcerativa" },
       { slug: "dermatopoliomiosite", nome: "Dermatopoliomiosite" },
       { slug: "poliarterite-nodosa-vasculites", nome: "Poliarterite nodosa e outras vasculites" },
+      { slug: "paralisia-de-bell", nome: "Paralisia de Bell (paralisia facial periférica idiopática)" },
     ],
     fontes: [
       { tema: "Mecanismo de ação glicocorticoide", fonte: "Goodman & Gilman, 13ª ed." },
@@ -862,7 +866,9 @@ export const medications: Medication[] = [
       "A meia-vida muito longa do diazepam e de seus metabólitos ativos o diferencia de benzodiazepínicos de ação curta, sendo por isso preferido na abstinência alcoólica (efeito mais suave e prolongado)",
       "Deve ser evitado em idosos pelo risco aumentado de acúmulo, sedação prolongada e quedas",
     ],
-    doencasIndicadas: [],
+    doencasIndicadas: [
+      { slug: "estado-de-mal-epileptico", nome: "Estado de mal epiléptico" },
+    ],
     fontes: [
       { tema: "Mecanismo de ação (potencialização GABA-A)", fonte: "Goodman & Gilman, 13ª ed." },
     ],
@@ -1793,6 +1799,7 @@ export const medications: Medication[] = [
       { slug: "covid-19", nome: "COVID-19" },
       { slug: "crupe-epiglotite", nome: "Laringite obstrutiva aguda (crupe) e epiglotite" },
       { slug: "meningite-bacteriana", nome: "Meningite bacteriana" },
+      { slug: "neoplasia-maligna-encefalo", nome: "Neoplasia maligna do encéfalo" },
     ],
     fontes: [
       { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },

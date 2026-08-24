@@ -8771,4 +8771,1805 @@ export const diseases: Disease[] = [
       { tema: "Papel da ultrassonografia ocular na exclusão de descolamento de retina associado", fonte: "American Academy of Ophthalmology, Preferred Practice Pattern: Posterior Vitreous Detachment, Retinal Breaks, and Lattice Degeneration" },
     ],
   },
+  {
+    slug: "outras-cataratas",
+    nome: "Outras cataratas (congênita, secundária e traumática)",
+    sinonimos: [],
+    cid10: "H26",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Cataratas não relacionadas à idade — congênita (presente ao nascimento ou na infância), secundária (a outra doença ocular ou uso de corticosteroide) e traumática — com implicações diagnósticas e de urgência distintas da catarata senil.",
+    definicao:
+      "Opacificação do cristalino de causa distinta do envelhecimento fisiológico: catarata congênita (presente ao nascimento ou desenvolvida na infância precoce), catarata secundária (a doenças oculares como uveíte crônica, ou ao uso prolongado de corticosteroide, sistêmico ou tópico) e catarata traumática (por trauma ocular contuso ou penetrante).",
+    epidemiologia:
+      "Catarata congênita é uma causa importante de cegueira infantil evitável, com etiologias variando entre genética (hereditária), infecciosa (infecções congênitas do grupo TORCH, sobretudo rubéola congênita) e metabólica (galactosemia). Catarata secundária ao uso de corticosteroide é dose e tempo-dependente, ocorrendo com qualquer via de administração prolongada. Catarata traumática pode ocorrer em qualquer idade após trauma ocular significativo.",
+    fisiopatologia:
+      "Na catarata congênita, a opacificação resulta de alteração no desenvolvimento embrionário/pós-natal precoce do cristalino, por mutação genética, infecção intrauterina ou distúrbio metabólico que compromete a transparência das fibras cristalinianas em formação. Na catarata por corticosteroide, o mecanismo mais aceito envolve alteração do metabolismo das proteínas cristalinianas, favorecendo tipicamente a opacificação subcapsular posterior. Na catarata traumática, a ruptura direta da cápsula do cristalino (trauma penetrante) ou a concussão do tecido cristaliniano (trauma contuso) desencadeia opacificação, que pode ser imediata ou de instalação mais tardia.",
+    classificacao:
+      "Classificada por causa em congênita (subdividida por etiologia: genética, infecciosa/TORCH, metabólica), secundária (a corticosteroide, uveíte crônica, diabetes) e traumática (por trauma penetrante ou contuso). A catarata congênita também é classificada pela morfologia (nuclear, polar, lamelar), relevante para o risco de ambliopia associado.",
+    quadroClinico: [
+      "Catarata congênita: leucocoria (reflexo pupilar branco, em vez do reflexo vermelho normal) é o achado de alerta mais importante, por vezes notado pelos pais em fotografias com flash",
+      "Catarata secundária a corticosteroide: embaçamento visual progressivo em paciente com uso prolongado de corticosteroide identificável na história",
+      "Catarata traumática: opacificação do cristalino de instalação aguda ou subaguda após trauma ocular relatado, podendo estar associada a outras lesões oculares traumáticas",
+    ],
+    diagnostico: [
+      "Teste do reflexo vermelho (teste do olhinho) é o rastreio universal para catarata congênita, devendo ser realizado em todo recém-nascido antes da alta da maternidade",
+      "Biomicroscopia com lâmpada de fenda para caracterizar o tipo e a localização da opacidade em qualquer forma de catarata",
+    ],
+    examesComplementares: [
+      "Investigação para infecções congênitas (sorologias TORCH) e triagem metabólica (galactosemia) em catarata congênita, sobretudo quando bilateral",
+      "Biometria ocular no pré-operatório para cálculo da lente intraocular, com particularidades técnicas na catarata congênita pelo crescimento ocular ainda em curso",
+    ],
+    diagnosticoDiferencial: [
+      "Retinoblastoma (principal diagnóstico diferencial de leucocoria na infância — sempre deve ser ativamente excluído, dada a gravidade)",
+      "Persistência de vasculatura fetal primária (outra causa de leucocoria congênita, de mecanismo distinto)",
+      "Catarata senil (quando a catarata secundária ocorre em paciente idoso, a distinção etiológica depende da história de exposição a corticosteroide ou doença ocular associada)",
+    ],
+    tratamento: [
+      "Catarata congênita significativa: cirurgia precoce (idealmente nas primeiras semanas de vida em casos bilaterais densos) é essencial para prevenir ambliopia por privação, seguida de reabilitação visual (correção óptica e, frequentemente, terapia de oclusão)",
+      "Catarata secundária a corticosteroide: minimizar ou suspender o corticosteroide quando clinicamente possível; cirurgia de facoemulsificação quando a catarata compromete significativamente a função visual, de forma semelhante à catarata senil",
+      "Catarata traumática: avaliação cuidadosa de lesões oculares associadas antes de definir o momento cirúrgico; cirurgia frequentemente mais complexa pela possível instabilidade zonular/capsular associada ao trauma",
+    ],
+    complicacoes: [
+      "Aguda: glaucoma secundário em catarata traumática com ruptura capsular extensa",
+      "Crônica: ambliopia por privação visual irreversível em catarata congênita não tratada dentro da janela crítica do desenvolvimento visual — a complicação mais grave e evitável dessa forma específica",
+    ],
+    redFlags: [
+      "Leucocoria em lactente — sempre investigar ativamente retinoblastoma antes de assumir catarata congênita isolada, dada a gravidade potencial do diagnóstico diferencial",
+      "Catarata congênita bilateral densa não operada dentro das primeiras semanas a poucos meses de vida — janela crítica para prevenir ambliopia por privação, com impacto visual permanente se perdida",
+    ],
+    prognostico:
+      "Excelente na catarata congênita unilateral ou bilateral operada precocemente e com reabilitação visual adequada, ainda que exigindo acompanhamento intensivo para tratamento da ambliopia associada. Bom na catarata secundária e traumática após cirurgia, dependendo da extensão de lesões oculares associadas no caso traumático.",
+    pontosDeProva: [
+      "Leucocoria em lactente exige exclusão ativa de retinoblastoma antes de qualquer outra hipótese, incluindo catarata congênita",
+      "O teste do reflexo vermelho (teste do olhinho) é o rastreio universal obrigatório para catarata congênita em todo recém-nascido — não depende de sintomas visuais relatados, já que o lactente não consegue relatá-los",
+      "Catarata congênita bilateral densa tem janela cirúrgica muito estreita (semanas) para evitar ambliopia por privação — diferente da urgência da catarata senil, que é eletiva",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido de 6 semanas é levado ao pediatra pelos pais, que notaram um reflexo esbranquiçado na pupila direita em fotos tiradas com flash.",
+      pergunta: "Qual a principal preocupação diagnóstica e a conduta imediata?",
+      raciocinio:
+        "Leucocoria em lactente é um achado de alerta que exige avaliação oftalmológica urgente, com dois principais diagnósticos diferenciais a excluir: catarata congênita e retinoblastoma, sendo este último o mais grave e que não pode ser negligenciado.",
+      conduta:
+        "Encaminhamento oftalmológico de urgência para exame com dilatação pupilar, avaliando a necessidade de exames de imagem para excluir retinoblastoma; se confirmada catarata congênita densa bilateral, planejar cirurgia precoce para prevenir ambliopia por privação.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Classificação etiológica e importância do teste do reflexo vermelho", fonte: "Vaughan & Asbury's General Ophthalmology, 19ª ed." },
+      { tema: "Janela cirúrgica crítica na catarata congênita e risco de ambliopia por privação", fonte: "American Academy of Ophthalmology, Preferred Practice Pattern: Pediatric Cataract" },
+    ],
+  },
+  {
+    slug: "afacia-subluxacao-cristalino",
+    nome: "Afacia e subluxação do cristalino",
+    sinonimos: ["Luxação do cristalino", "Ectopia lentis"],
+    cid10: "H27",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Afacia é a ausência do cristalino (geralmente pós-cirúrgica); subluxação/luxação é o deslocamento do cristalino de sua posição normal — achado com associações sistêmicas importantes, sobretudo síndrome de Marfan.",
+    definicao:
+      "Afacia é a ausência do cristalino do olho, mais comumente após remoção cirúrgica (extração de catarata sem implante de lente intraocular) ou, mais raramente, por luxação completa/trauma. Subluxação do cristalino (ectopia lentis) é o deslocamento parcial do cristalino de sua posição anatômica normal por comprometimento das fibras zonulares que o sustentam; luxação é o deslocamento completo.",
+    epidemiologia:
+      "Afacia hoje é rara como condição isolada persistente, já que a maioria das cirurgias de catarata inclui implante de lente intraocular. Subluxação/luxação do cristalino está classicamente associada a síndromes genéticas do tecido conjuntivo (síndrome de Marfan, síndrome de Weill-Marchesani, homocistinúria), além de trauma ocular contuso como causa adquirida importante.",
+    fisiopatologia:
+      "Na subluxação/luxação, há comprometimento estrutural das fibras zonulares (que suspendem o cristalino ao corpo ciliar), seja por fragilidade intrínseca do tecido conjuntivo (nas síndromes genéticas associadas, como mutações da fibrilina-1 na síndrome de Marfan) ou por ruptura traumática direta das fibras zonulares em trauma contuso significativo. Na afacia pós-cirúrgica, a ausência do cristalino elimina uma fonte importante de poder refrativo do olho, exigindo correção óptica compensatória significativa.",
+    classificacao:
+      "Subluxação/luxação classificada por grau de deslocamento (subluxação leve a luxação completa, inclusive para a câmara anterior ou para a cavidade vítrea) e por causa (genética/sindrômica vs. traumática adquirida). Afacia classificada simplesmente pela presença ou ausência de suporte capsular residual, relevante para a técnica de correção óptica secundária possível.",
+    quadroClinico: [
+      "Afacia: hipermetropia importante não corrigida (o olho perde grande parte de seu poder refrativo sem o cristalino), com baixa acuidade visual significativa até a correção óptica adequada",
+      "Subluxação do cristalino: astigmatismo irregular flutuante, diplopia monocular, e por vezes visualização direta da borda do cristalino deslocado (iridodonese — tremor da íris à movimentação ocular, por perda de suporte)",
+      "Luxação completa para a câmara vítrea: pode ser assintomática por período prolongado, ou causar inflamação e glaucoma secundário",
+    ],
+    diagnostico: [
+      "Biomicroscopia com lâmpada de fenda e pupila dilatada para visualizar a posição do cristalino e o grau de deslocamento",
+      "Investigação sistêmica ativa (avaliação de estatura, envergadura, achados cardiovasculares) quando há subluxação bilateral ou em paciente jovem, buscando síndrome de Marfan ou outras causas genéticas",
+    ],
+    examesComplementares: [
+      "Biomicroscopia com pupila dilatada para avaliar zônulas e posição do cristalino",
+      "Ecocardiograma e avaliação cardiovascular quando há suspeita de síndrome de Marfan, dado o risco de complicações aórticas potencialmente fatais associadas",
+      "Dosagem de homocisteína quando há suspeita de homocistinúria (subluxação tipicamente inferior, diferente do padrão superior mais típico da síndrome de Marfan)",
+    ],
+    diagnosticoDiferencial: [
+      "Catarata simples sem deslocamento associado (opacidade sem comprometimento zonular)",
+      "Coloboma de cristalino (defeito congênito localizado, não deslocamento verdadeiro)",
+    ],
+    tratamento: [
+      "Afacia: correção óptica com óculos de alto poder, lentes de contato, ou implante secundário de lente intraocular (fixada à esclera ou à íris quando não há suporte capsular adequado)",
+      "Subluxação leve, assintomática: observação e correção óptica conservadora podem ser suficientes",
+      "Subluxação significativa/luxação com comprometimento visual importante: remoção cirúrgica do cristalino deslocado com implante de lente intraocular por técnica especializada (fixação escleral ou iriana)",
+      "Investigação e manejo conjunto da doença sistêmica de base quando identificada (acompanhamento cardiovascular regular na síndrome de Marfan, por exemplo)",
+    ],
+    complicacoes: [
+      "Aguda: glaucoma agudo por bloqueio pupilar quando o cristalino luxado obstrui a passagem do humor aquoso",
+      "Crônica: uveíte crônica e dano endotelial corneano por contato prolongado do cristalino luxado com estruturas adjacentes",
+    ],
+    redFlags: [
+      "Subluxação bilateral do cristalino em paciente jovem, magro e alto — investigar síndrome de Marfan, dado o risco associado de dissecção/aneurisma de aorta, uma condição sistêmica potencialmente fatal que exige acompanhamento cardiovascular ativo",
+      "Luxação do cristalino para a câmara anterior com dor e hiperemia associadas — risco de glaucoma agudo por bloqueio pupilar, exigindo intervenção oftalmológica urgente",
+    ],
+    prognostico:
+      "Bom na maioria dos casos com correção óptica ou cirúrgica adequada. Nos casos associados a síndromes sistêmicas (Marfan, homocistinúria), o prognóstico visual depende do manejo oftalmológico, mas o prognóstico geral do paciente depende criticamente do diagnóstico e acompanhamento da doença sistêmica de base.",
+    pontosDeProva: [
+      "Subluxação do cristalino em paciente jovem deve sempre levantar suspeita de síndrome de Marfan — a subluxação típica é superior e temporal na síndrome de Marfan, enquanto é tipicamente inferior na homocistinúria, uma distinção clássica de prova",
+      "O achado ocular pode ser a primeira manifestação identificada de uma síndrome sistêmica grave (Marfan) — reforça a importância de investigação sistêmica sempre que subluxação de cristalino for identificada, especialmente em jovens",
+    ],
+    casoClinico: {
+      vinheta:
+        "Adolescente, 15 anos, alto e magro, com envergadura dos braços desproporcionalmente maior que a altura, é encontrado com subluxação bilateral do cristalino em direção súpero-temporal durante exame oftalmológico de rotina.",
+      pergunta: "Qual a principal suspeita diagnóstica sistêmica e a conduta?",
+      raciocinio:
+        "Subluxação bilateral do cristalino em direção súpero-temporal, associada a hábito corporal marfanoide (alto, magro, envergadura aumentada), é um achado clássico de síndrome de Marfan, uma doença do tecido conjuntivo com risco sistêmico importante, sobretudo cardiovascular.",
+      conduta:
+        "Encaminhamento para avaliação cardiológica com ecocardiograma para investigar dilatação/dissecção de aorta, além de avaliação genética, dado o risco potencialmente fatal associado à síndrome de Marfan se não identificada e acompanhada adequadamente.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Associações sistêmicas (Marfan, homocistinúria) e padrão de deslocamento", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+      { tema: "Risco cardiovascular associado à síndrome de Marfan", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "neurite-optica",
+    nome: "Neurite óptica",
+    sinonimos: [],
+    cid10: "H46",
+    especialidade: "Oftalmologia",
+    etiologia: "Autoimune",
+    resumo: "Inflamação desmielinizante do nervo óptico, causa importante de perda visual súbita em adultos jovens — fortemente associada à esclerose múltipla, com implicações prognósticas relevantes.",
+    definicao:
+      "Inflamação desmielinizante do nervo óptico, causando perda visual súbita, tipicamente unilateral, associada a dor à movimentação ocular, mais comum em adultos jovens e fortemente associada à esclerose múltipla como primeira manifestação ou evento subsequente da doença.",
+    epidemiologia:
+      "Mais comum em mulheres jovens (entre 20 e 40 anos). É frequentemente a manifestação inicial da esclerose múltipla, e o risco de conversão para esclerose múltipla clinicamente definida após um episódio de neurite óptica isolada aumenta substancialmente na presença de lesões de substância branca compatíveis à ressonância magnética cerebral.",
+    fisiopatologia:
+      "Processo inflamatório autoimune desmielinizante acomete o nervo óptico, de forma análoga às placas de desmielinização encontradas na esclerose múltipla em outras localizações do sistema nervoso central. A inflamação e desmielinização comprometem a condução do impulso nervoso visual, causando perda de acuidade visual e de sensibilidade a contraste e cores, tipicamente com recuperação parcial a completa ao longo de semanas a meses pela remielinização.",
+    classificacao:
+      "Classificada quanto à localização em anterior (papilite, com edema de disco óptico visível à fundoscopia) e retrobulbar (mais comum, com disco óptico de aparência normal na fase aguda, apesar da perda visual — resumida na máxima clássica 'o paciente não vê nada e o médico não vê nada'). Também classificada quanto à associação etiológica: idiopática/associada à esclerose múltipla (a mais comum) versus associada a outras causas (neuromielite óptica, infecciosa, tóxica-nutricional).",
+    quadroClinico: [
+      "Perda de acuidade visual subaguda (piora ao longo de horas a poucos dias), tipicamente unilateral",
+      "Dor à movimentação ocular, presente na grande maioria dos casos e um achado relativamente característico",
+      "Discromatopsia (alteração da percepção de cores, sobretudo vermelho) desproporcional à perda de acuidade visual",
+      "Defeito pupilar aferente relativo (pupila de Marcus Gunn) no olho afetado, achado objetivo importante ao exame",
+      "Fenômeno de Uhthoff (piora transitória dos sintomas visuais com aumento da temperatura corporal, como durante exercício ou febre) pode ocorrer mesmo após a resolução do episódio agudo",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico apoiado no quadro característico (perda visual subaguda unilateral com dor à movimentação ocular e defeito pupilar aferente relativo)",
+      "Ressonância magnética de crânio e órbitas com contraste é essencial não apenas para confirmar a inflamação do nervo óptico, mas principalmente para avaliar lesões de substância branca sugestivas de esclerose múltipla, com implicação prognóstica direta",
+    ],
+    examesComplementares: [
+      "Ressonância magnética de crânio e órbitas com contraste (avalia tanto o nervo óptico quanto lesões desmielinizantes cerebrais associadas)",
+      "Campimetria computadorizada, tipicamente mostrando escotoma central ou cecocentral",
+      "Investigação para neuromielite óptica (anticorpo anti-aquaporina-4) em casos bilaterais, muito graves, ou com pouca recuperação, já que o manejo e prognóstico diferem significativamente da neurite óptica típica associada a esclerose múltipla",
+    ],
+    diagnosticoDiferencial: [
+      "Neuropatia óptica isquêmica anterior não arterítica (mais comum em idosos, geralmente indolor, com fatores de risco vascular)",
+      "Papiledema por hipertensão intracraniana (tipicamente bilateral, sem dor à movimentação ocular nem perda visual central proeminente na fase inicial)",
+      "Neuromielite óptica (neurite óptica mais grave, frequentemente bilateral ou recorrente, com pior recuperação e associada a mielite transversa)",
+    ],
+    tratamento: [
+      "Corticosteroide intravenoso em altas doses (metilprednisolona) é o tratamento de escolha em casos com perda visual significativa, acelerando a recuperação visual, embora sem alterar o prognóstico visual final em longo prazo (classe/via de administração ainda sem ficha própria de medicamento no site)",
+      "Corticosteroide oral isolado em dose convencional (não em pulsoterapia) é classicamente contraindicado como tratamento inicial da neurite óptica, por associação com maior taxa de recorrência demonstrada em estudo clínico de referência — distinção importante da conduta em outras causas de uveíte/inflamação ocular",
+      "Investigação e, quando indicado, início de terapia modificadora de doença para esclerose múltipla em pacientes com lesões de substância branca compatíveis à ressonância magnética, conduzida em conjunto com neurologia",
+    ],
+    complicacoes: [
+      "Aguda: perda visual severa transitória, com possibilidade de sequela visual residual mesmo após tratamento (mais comum em casos graves ou atípicos)",
+      "Crônica: conversão para esclerose múltipla clinicamente definida em uma proporção significativa dos pacientes, sobretudo naqueles com lesões de substância branca já presentes na ressonância inicial",
+    ],
+    redFlags: [
+      "Neurite óptica bilateral simultânea, ou com recuperação visual pobre/incompleta — considerar neuromielite óptica em vez de neurite óptica típica associada a esclerose múltipla, com implicações terapêuticas e prognósticas distintas",
+      "Ausência de dor à movimentação ocular ou perda visual indolor em paciente idoso com fatores de risco vascular — reconsiderar o diagnóstico em favor de neuropatia óptica isquêmica, não neurite óptica típica",
+    ],
+    prognostico:
+      "Geralmente favorável para a recuperação visual do episódio agudo, com melhora substancial (frequentemente quase completa) ao longo de semanas a poucos meses na maioria dos pacientes, mesmo sem tratamento. O prognóstico em longo prazo é determinado principalmente pelo risco de conversão para esclerose múltipla, que aumenta proporcionalmente ao número de lesões de substância branca identificadas na ressonância magnética inicial.",
+    pontosDeProva: [
+      "Dor à movimentação ocular associada a perda visual subaguda unilateral é a combinação mais cobrada para sugerir neurite óptica",
+      "Corticosteroide oral isolado (não em pulsoterapia intravenosa) é contraindicado como tratamento inicial da neurite óptica por aumentar o risco de recorrência — achado clássico de um estudo de referência amplamente cobrado em prova",
+      "A presença de lesões de substância branca na ressonância magnética no momento do episódio de neurite óptica é o principal preditor de conversão futura para esclerose múltipla clinicamente definida",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 29 anos, relata perda visual progressiva no olho esquerdo ao longo dos últimos 3 dias, associada a dor ao movimentar o olho. Ao exame, nota-se defeito pupilar aferente relativo à esquerda e discromatopsia desproporcional à perda de acuidade visual.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a investigação prioritária?",
+      raciocinio:
+        "Perda visual subaguda unilateral com dor à movimentação ocular, defeito pupilar aferente relativo e discromatopsia desproporcional são o quadro clássico de neurite óptica, mais comum em mulheres jovens dessa faixa etária, com forte associação a esclerose múltipla.",
+      conduta:
+        "Solicitar ressonância magnética de crânio e órbitas com contraste, tanto para confirmar a inflamação do nervo óptico quanto para avaliar lesões de substância branca sugestivas de esclerose múltipla, que determinam o risco de conversão futura e orientam a necessidade de terapia modificadora de doença em conjunto com neurologia; considerar pulsoterapia com corticosteroide intravenoso se a perda visual for significativa.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Quadro clínico, associação com esclerose múltipla e conduta terapêutica", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+      { tema: "Contraindicação de corticosteroide oral isolado como tratamento inicial (risco de recorrência) — achado do Optic Neuritis Treatment Trial (ONTT)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "papiledema-atrofia-optica",
+    nome: "Papiledema e atrofia óptica",
+    sinonimos: ["Edema de disco óptico"],
+    cid10: "H47",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Papiledema é o edema do disco óptico por hipertensão intracraniana, achado de alto valor localizatório e de urgência; atrofia óptica é a via final comum de dano ao nervo óptico de qualquer causa.",
+    definicao:
+      "Papiledema é o edema do disco óptico especificamente causado por elevação da pressão intracraniana, transmitida ao nervo óptico através do espaço subaracnóideo que o envolve — termo reservado para essa etiologia específica, distinto de outras causas de edema de disco óptico. Atrofia óptica é a palidez e afinamento do disco óptico resultante da perda de axônios do nervo óptico, representando a via final comum de dano crônico ao nervo óptico por praticamente qualquer causa.",
+    epidemiologia:
+      "Papiledema ocorre em qualquer condição que eleve a pressão intracraniana: hipertensão intracraniana idiopática (mais comum em mulheres jovens com obesidade), tumores do sistema nervoso central, trombose de seio venoso cerebral, hidrocefalia, entre outras. Atrofia óptica pode resultar de qualquer neuropatia óptica crônica ou repetida (glaucoma, neurite óptica recorrente, compressão tumoral, isquemia, entre muitas outras causas).",
+    fisiopatologia:
+      "No papiledema, a elevação da pressão intracraniana é transmitida através do espaço subaracnóideo perióptico até a lâmina crivosa, comprometendo o transporte axoplasmático normal dentro das fibras do nervo óptico na região do disco, causando edema visível à fundoscopia — tipicamente bilateral, já que a pressão intracraniana afeta ambos os nervos ópticos igualmente. Na atrofia óptica, a perda progressiva e irreversível de axônios do nervo óptico (por qualquer mecanismo de dano prévio) resulta em afinamento e palidez do disco à fundoscopia, refletindo a perda estrutural já estabelecida.",
+    classificacao:
+      "Papiledema classificado por gravidade conforme a escala de Frisén (graus 0 a 5, de normal a edema muito avançado com hemorragias e exsudatos peripapilares). Atrofia óptica classificada por padrão (difusa vs. setorial) e por causa (glaucomatosa, pós-inflamatória, compressiva, isquêmica, hereditária), distinção relevante porque o padrão de afinamento pode sugerir a causa de base.",
+    quadroClinico: [
+      "Papiledema: frequentemente assintomático em relação à visão nas fases iniciais (a acuidade visual central é tipicamente preservada até fases avançadas), mas associado a sintomas de hipertensão intracraniana — cefaleia (pior ao deitar/pela manhã, piora com manobra de Valsalva), náuseas e vômitos, e obscurecimentos visuais transitórios (episódios de escurecimento visual breve, tipicamente ao mudar de posição)",
+      "Papiledema crônico não tratado: pode eventualmente evoluir para perda de campo visual periférico e, em fases avançadas, perda de acuidade visual central, refletindo dano axonal já estabelecido",
+      "Atrofia óptica: perda visual estável (não progressiva, a menos que a causa de base ainda esteja ativa), com disco óptico pálido à fundoscopia, sem sinais inflamatórios ou de edema agudo",
+    ],
+    diagnostico: [
+      "Fundoscopia é essencial para ambos: edema de disco bilateral com bordas borradas no papiledema; palidez e afinamento do disco na atrofia óptica",
+      "Diante de papiledema, neuroimagem urgente (tomografia ou ressonância de crânio) é mandatória antes de qualquer punção lombar, para excluir lesão expansiva que contraindique o procedimento pelo risco de herniação",
+      "Investigação da causa de base é essencial na atrofia óptica, já que o achado por si só não define a etiologia",
+    ],
+    examesComplementares: [
+      "Neuroimagem (tomografia ou ressonância magnética de crânio, com venografia quando há suspeita de trombose de seio venoso) antes de qualquer punção lombar em paciente com papiledema",
+      "Punção lombar com medida da pressão de abertura, após exclusão de lesão expansiva por neuroimagem, essencial para o diagnóstico de hipertensão intracraniana idiopática",
+      "Tomografia de coerência óptica (OCT) de nervo óptico para quantificação objetiva do edema no papiledema e do afinamento na atrofia óptica",
+      "Campimetria computadorizada seriada para monitorar a progressão do dano funcional em ambas as condições",
+    ],
+    diagnosticoDiferencial: [
+      "Pseudopapiledema (drusas de disco óptico, uma variante anatômica benigna que pode mimetizar papiledema à fundoscopia, mas sem hipertensão intracraniana associada)",
+      "Neurite óptica (edema de disco unilateral tipicamente, com dor e perda visual central proeminente, diferente do papiledema bilateral e frequentemente indolor)",
+      "Neuropatia óptica isquêmica anterior (edema de disco geralmente unilateral, sem os sintomas sistêmicos de hipertensão intracraniana)",
+    ],
+    tratamento: [
+      "Papiledema: tratamento dirigido à causa da hipertensão intracraniana de base — na hipertensão intracraniana idiopática, perda de peso e acetazolamida são a primeira linha (classe de medicamento ainda sem ficha própria no site); tratamento cirúrgico/específico quando há lesão expansiva ou trombose venosa identificada; derivação liquórica ou fenestração da bainha do nervo óptico em casos refratários com risco visual iminente",
+      "Atrofia óptica: não há tratamento capaz de reverter a perda axonal já estabelecida — o foco é identificar e tratar a causa de base para prevenir progressão adicional, e reabilitação visual quando há perda funcional significativa",
+    ],
+    complicacoes: [
+      "Aguda: herniação cerebral se punção lombar for realizada antes de excluir lesão expansiva por neuroimagem em paciente com papiledema — erro potencialmente fatal e evitável",
+      "Crônica: perda visual permanente e irreversível por atrofia óptica secundária a papiledema crônico não tratado (hipertensão intracraniana mantida por tempo prolongado)",
+    ],
+    redFlags: [
+      "Papiledema com cefaleia, náuseas/vômitos e obscurecimentos visuais transitórios — investigação neurológica urgente com neuroimagem antes de qualquer punção lombar, pelo risco de herniação em caso de lesão expansiva não identificada",
+      "Papiledema com perda progressiva de acuidade visual central — sinaliza dano axonal já significativo e risco de evolução para atrofia óptica permanente, exigindo tratamento mais agressivo da hipertensão intracraniana de base",
+    ],
+    prognostico:
+      "No papiledema, o prognóstico visual é excelente quando a causa de base é identificada e tratada precocemente, mas pode evoluir para perda visual permanente por atrofia óptica secundária se a hipertensão intracraniana permanecer não controlada por período prolongado. A atrofia óptica já estabelecida representa dano permanente e irreversível, independentemente da causa original.",
+    pontosDeProva: [
+      "Neuroimagem é sempre obrigatória antes de punção lombar em paciente com papiledema, para excluir lesão expansiva que contraindique o procedimento pelo risco de herniação — um dos erros mais perigosos e mais cobrados nessa área",
+      "Papiledema verdadeiro é bilateral (reflete pressão intracraniana elevada transmitida a ambos os nervos ópticos) — edema de disco unilateral sugere outra causa (neurite óptica, neuropatia isquêmica), não papiledema verdadeiro",
+      "Atrofia óptica representa dano axonal permanente e irreversível, seja qual for a causa — reforça a importância de identificar e tratar precocemente qualquer neuropatia óptica antes que evolua para esse estágio final",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 27 anos, obesa, relata cefaleia holocraniana pior pela manhã e ao se abaixar, associada a episódios breves de escurecimento visual ao levantar-se rapidamente, há 3 semanas. Fundoscopia revela edema de disco óptico bilateral com bordas borradas.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta antes de qualquer procedimento diagnóstico invasivo?",
+      raciocinio:
+        "Cefaleia postural, obscurecimentos visuais transitórios e papiledema bilateral em mulher jovem obesa são o quadro clássico de hipertensão intracraniana idiopática. Antes de confirmar esse diagnóstico com punção lombar, é obrigatório excluir uma lesão expansiva intracraniana por neuroimagem, pelo risco de herniação se a punção for realizada nessa situação.",
+      conduta:
+        "Solicitar tomografia ou ressonância magnética de crânio (com venografia, para excluir trombose de seio venoso) antes de qualquer punção lombar; se a neuroimagem for normal, prosseguir com punção lombar para medir a pressão de abertura e confirmar hipertensão intracraniana idiopática, iniciando perda de peso e acetazolamida como primeira linha terapêutica.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia do papiledema e necessidade de neuroimagem antes de punção lombar", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Classificação de gravidade (escala de Frisén) e conduta na hipertensão intracraniana idiopática", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+    ],
+  },
+  {
+    slug: "estrabismo-paralitico",
+    nome: "Estrabismo paralítico",
+    sinonimos: ["Paralisia oculomotora"],
+    cid10: "H49",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Desalinhamento ocular por paralisia de um ou mais nervos cranianos oculomotores (III, IV ou VI), causando diplopia de início súbito — investigação da causa de base é sempre obrigatória, incluindo causas potencialmente graves.",
+    definicao:
+      "Desalinhamento ocular resultante da paralisia ou paresia de um ou mais músculos extraoculares, por comprometimento de sua inervação pelos nervos cranianos oculomotores (III par — oculomotor, IV par — troclear, VI par — abducente), causando diplopia (visão dupla) de início tipicamente súbito, diferente do estrabismo concomitante crônico da infância.",
+    epidemiologia:
+      "Em adultos, as causas mais comuns incluem doença microvascular (diabetes, hipertensão — causando mononeuropatia isquêmica dos nervos cranianos, mais comumente o III e o VI pares), trauma, tumores e aneurismas (sobretudo de artéria comunicante posterior, comprimindo o III par). Em crianças, trauma e tumores do sistema nervoso central são causas relativamente mais proeminentes.",
+    fisiopatologia:
+      "O comprometimento de um nervo craniano oculomotor — por isquemia (mononeuropatia microvascular diabética/hipertensiva, tipicamente poupando a pupila), compressão (aneurisma, tumor, tipicamente acometendo a pupila quando envolve o III par) ou trauma — interrompe a inervação normal de um ou mais músculos extraoculares, causando desequilíbrio da força muscular ocular e desalinhamento dos eixos visuais, com diplopia resultante da estimulação de pontos retinianos não correspondentes nos dois olhos.",
+    classificacao:
+      "Classificado pelo nervo craniano acometido: paralisia do III par (ptose, midríase quando há acometimento pupilar, e limitação da adução/elevação/depressão do olho), paralisia do IV par (dificuldade de olhar para baixo e para dentro, compensada classicamente por inclinação compensatória da cabeça) e paralisia do VI par (limitação da abdução, o nervo mais longo e mais vulnerável a efeitos inespecíficos de hipertensão intracraniana). Também classificado quanto à causa em microvascular/isquêmica (poupa pupila, tipicamente resolve em semanas a meses) e compressiva/estrutural (frequentemente acomete a pupila no III par, exigindo investigação urgente).",
+    quadroClinico: [
+      "Diplopia binocular de início súbito (desaparece quando um dos olhos é ocluído — achado que a distingue de diplopia monocular, de causa oftalmológica local, não neurológica)",
+      "Paralisia do III par: ptose, olho desviado para baixo e para fora ('down and out'), com ou sem midríase associada (achado crucial para diferenciar causa compressiva de microvascular)",
+      "Paralisia do IV par: dificuldade para descer escadas ou ler (que exigem olhar para baixo e para dentro), com inclinação compensatória da cabeça para o lado oposto",
+      "Paralisia do VI par: limitação da abdução do olho acometido, com esotropia (desvio para dentro) mais evidente no olhar para o lado da paralisia",
+    ],
+    diagnostico: [
+      "Exame da motilidade ocular extrínseca detalhado para identificar o padrão específico de limitação, apontando o nervo craniano acometido",
+      "Avaliação pupilar é o passo mais crítico na paralisia do III par: pupila poupada (reativa, sem midríase) sugere causa microvascular/isquêmica; pupila acometida (midríase, pouco reativa) sugere causa compressiva (aneurisma), exigindo investigação de imagem urgente",
+    ],
+    examesComplementares: [
+      "Neuroimagem urgente (angiotomografia ou angiorressonância) em paralisia do III par com acometimento pupilar, ou em qualquer paralisia oculomotora com outros sinais neurológicos associados, para excluir aneurisma ou lesão compressiva",
+      "Investigação de fatores de risco vascular (glicemia, pressão arterial, perfil lipídico) em suspeita de causa microvascular, sobretudo em paralisia do III par com pupila poupada em paciente de meia-idade/idoso",
+      "Velocidade de hemossedimentação (VHS) e proteína C reativa em idosos, para excluir arterite de células gigantes como causa rara mas tratável",
+    ],
+    diagnosticoDiferencial: [
+      "Estrabismo concomitante da infância (crônico, sem diplopia relatada pela criança, que suprime a imagem do olho desviado)",
+      "Miastenia gravis (pode mimetizar qualquer padrão de paralisia oculomotora, tipicamente com flutuação ao longo do dia e fadigabilidade, sem acometimento pupilar)",
+      "Oftalmopatia de Graves (limitação da motilidade por infiltração/fibrose muscular, não paralisia neurogênica verdadeira, geralmente com proptose associada)",
+    ],
+    tratamento: [
+      "Paralisia do III par com pupila acometida — emergência: investigação e tratamento imediatos da causa compressiva (aneurisma), incluindo intervenção neurocirúrgica/endovascular quando indicada",
+      "Paralisia microvascular (pupila poupada): observação, com resolução espontânea esperada em semanas a poucos meses na maioria dos casos, e controle otimizado dos fatores de risco vascular de base (diabetes, hipertensão)",
+      "Uso de oclusor ou prisma para alívio sintomático da diplopia enquanto se aguarda resolução espontânea ou se define o tratamento definitivo",
+      "Correção cirúrgica dos músculos extraoculares reservada a casos com paralisia persistente sem recuperação espontânea, após período de observação adequado",
+    ],
+    complicacoes: [
+      "Aguda: ruptura de aneurisma não diagnosticado a tempo em paralisia do III par com acometimento pupilar não investigada adequadamente — risco de hemorragia subaracnóidea catastrófica",
+      "Crônica: diplopia persistente e desconforto funcional significativo em paralisias sem recuperação espontânea completa",
+    ],
+    redFlags: [
+      "Paralisia do III par com midríase (pupila dilatada e pouco reativa) — aneurisma compressivo (classicamente de artéria comunicante posterior) até prova em contrário, exigindo neuroimagem vascular urgente",
+      "Paralisia oculomotora de qualquer nervo associada a outros sinais neurológicos (cefaleia intensa, alteração do nível de consciência, outros déficits de nervos cranianos) — investigação neurológica urgente para causa estrutural",
+      "Progressão de paralisia inicialmente incompleta para completa, ou envolvimento sequencial de múltiplos nervos cranianos — sugere processo expansivo ou infiltrativo em curso, não uma mononeuropatia isquêmica isolada",
+    ],
+    prognostico:
+      "Excelente na paralisia microvascular isolada, com resolução espontânea completa na grande maioria dos casos em até 3 meses. Variável na paralisia compressiva/estrutural, dependendo do tratamento oportuno da causa de base — potencialmente grave se houver atraso diagnóstico em caso de aneurisma.",
+    pontosDeProva: [
+      "'A pupila poupada é boa notícia' — a regra mnemônica mais cobrada em paralisia do III par: pupila poupada sugere causa microvascular benigna e autolimitada; pupila acometida sugere aneurisma compressivo, uma emergência",
+      "Diplopia binocular (que desaparece à oclusão de um olho) indica causa neuro-oftalmológica verdadeira; diplopia monocular (persiste com um olho ocluído) indica causa oftalmológica local (catarata, irregularidade corneana), não paralisia de nervo craniano",
+      "O VI par craniano, por seu longo trajeto intracraniano, é classicamente mais vulnerável a efeitos inespecíficos de hipertensão intracraniana — sua paralisia isolada nem sempre indica lesão localizada no próprio trajeto do nervo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 58 anos, diabético e hipertenso de longa data, apresenta diplopia de início há 2 dias, com ptose e desvio do olho direito para baixo e para fora. A pupila direita está isocórica e fotorreagente, idêntica à esquerda.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta?",
+      raciocinio:
+        "Paralisia do III par com pupila poupada (isocórica e reativa), em paciente com fatores de risco vascular importantes (diabetes, hipertensão de longa data), é altamente sugestiva de mononeuropatia microvascular isquêmica, um quadro benigno e autolimitado, diferente de uma causa compressiva.",
+      conduta:
+        "Otimizar o controle dos fatores de risco vascular de base (glicemia, pressão arterial), orientar sobre a expectativa de resolução espontânea em semanas a poucos meses, e considerar uso de oclusor para alívio sintomático da diplopia enquanto aguarda a recuperação; reavaliar e ampliar a investigação se não houver melhora no prazo esperado.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Diferenciação entre causa microvascular (pupila poupada) e compressiva (pupila acometida) na paralisia do III par", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Padrões clínicos por nervo craniano acometido", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+    ],
+  },
+  {
+    slug: "outros-estrabismos",
+    nome: "Outros estrabismos (concomitantes)",
+    sinonimos: ["Estrabismo infantil", "Esotropia", "Exotropia"],
+    cid10: "H50",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Desalinhamento ocular constante em todas as posições do olhar (concomitante), tipicamente de início na infância — diagnóstico e tratamento precoces são essenciais para prevenir ambliopia permanente.",
+    definicao:
+      "Desalinhamento dos eixos visuais dos dois olhos que se mantém constante (o mesmo ângulo de desvio) em todas as posições do olhar, diferente do estrabismo paralítico, cujo ângulo varia conforme a direção do olhar. Classificado quanto à direção do desvio em esotropia (desvio para dentro, o tipo mais comum na infância) e exotropia (desvio para fora).",
+    epidemiologia:
+      "É uma das condições oftalmológicas mais comuns na infância, com início tipicamente antes dos 5-6 anos de idade. Fatores de risco incluem história familiar, erros refrativos significativos (sobretudo hipermetropia alta, associada a esotropia acomodativa) e prematuridade.",
+    fisiopatologia:
+      "O mecanismo exato do estrabismo concomitante idiopático permanece incompletamente compreendido, envolvendo provavelmente um desequilíbrio no desenvolvimento da fusão binocular normal, por vezes desencadeado ou agravado por um erro refrativo não corrigido (na esotropia acomodativa, o esforço acomodativo excessivo para compensar hipermetropia não corrigida desencadeia convergência excessiva associada). Uma vez estabelecido o estrabismo na infância, o cérebro tende a suprimir a imagem proveniente do olho desviado para evitar diplopia, o que pode levar a ambliopia (desenvolvimento visual inadequado) no olho cronicamente suprimido se não tratado a tempo.",
+    classificacao:
+      "Classificado pela direção do desvio (esotropia, exotropia, hipertropia/hipotropia verticais) e pela causa quando identificável (acomodativa, por erro refrativo; sensorial, secundária a baixa visão em um olho por outra causa oftalmológica; idiopática, a mais comum). Também classificado por constância (constante vs. intermitente) e por olho acometido (unilateral constante vs. alternante).",
+    quadroClinico: [
+      "Desvio ocular visível, constante em todas as direções do olhar, tipicamente identificado pelos pais ou no rastreio pediátrico de rotina",
+      "Ausência de queixa de diplopia pela própria criança na maioria dos casos, pela supressão adaptativa da imagem do olho desviado",
+      "Tortícolo compensatório ocasional em alguns padrões específicos de estrabismo",
+      "Sinais de ambliopia (quando já instalada) podem ser sutis e não percebidos pela família até o rastreio visual formal",
+    ],
+    diagnostico: [
+      "Teste do reflexo corneano à luz (teste de Hirschberg) e cover test são os exames clínicos centrais para identificar e quantificar o desvio",
+      "Refração cicloplégica (com colírio ciclopégico para paralisar temporariamente a acomodação) é essencial para identificar erro refrativo associado, sobretudo hipermetropia significativa na esotropia acomodativa",
+      "Avaliação da acuidade visual de cada olho separadamente para rastrear ambliopia associada",
+    ],
+    examesComplementares: [
+      "Refração cicloplégica para quantificação precisa do erro refrativo",
+      "Fundoscopia para excluir causas sensoriais de estrabismo (catarata congênita, retinoblastoma, cicatriz retiniana) que comprometam a visão em um olho e secundariamente causem o desvio",
+    ],
+    diagnosticoDiferencial: [
+      "Pseudoestrabismo (aparência de desvio por características anatômicas faciais, como prega epicântica proeminente, sem desvio real ao cover test — muito comum e importante de diferenciar para evitar investigação/tratamento desnecessários)",
+      "Estrabismo paralítico (desvio que varia conforme a posição do olhar, diferente do padrão constante do estrabismo concomitante)",
+      "Estrabismo sensorial secundário a doença ocular que causa baixa visão unilateral (catarata congênita, retinoblastoma) — sempre excluída por fundoscopia antes de assumir causa idiopática",
+    ],
+    tratamento: [
+      "Correção óptica completa do erro refrativo (óculos) é o primeiro passo e pode resolver completamente a esotropia puramente acomodativa",
+      "Tratamento da ambliopia associada (quando presente), tipicamente com oclusão do olho de melhor visão para forçar o desenvolvimento visual do olho ambliope, é prioritário e deve ser feito antes ou concomitantemente à correção cirúrgica do desvio",
+      "Correção cirúrgica dos músculos extraoculares indicada quando o desvio persiste apesar da correção óptica adequada e do tratamento de eventual ambliopia, visando alinhamento ocular e potencial de fusão binocular",
+    ],
+    complicacoes: [
+      "Crônica: ambliopia permanente no olho cronicamente suprimido se o estrabismo não for diagnosticado e tratado dentro da janela crítica do desenvolvimento visual (aproximadamente até os 7-9 anos de idade) — a complicação mais importante e evitável",
+    ],
+    redFlags: [
+      "Estrabismo de início recente em criança maior ou adolescente, sobretudo se associado a outros sintomas neurológicos — reconsiderar estrabismo paralítico ou causa neurológica, não estrabismo concomitante idiopático típico da primeira infância",
+      "Leucocoria associada ao estrabismo — sempre excluir retinoblastoma e catarata congênita como causa sensorial de base antes de assumir estrabismo idiopático",
+    ],
+    prognostico:
+      "Excelente quando diagnosticado e tratado dentro da janela crítica do desenvolvimento visual, com boa resposta à correção óptica, tratamento da ambliopia e, quando indicada, cirurgia de alinhamento. O atraso no diagnóstico é o principal determinante de sequela visual permanente (ambliopia).",
+    pontosDeProva: [
+      "Pseudoestrabismo (por prega epicântica proeminente, comum em lactentes) deve ser diferenciado do estrabismo verdadeiro pelo cover test — é uma armadilha clássica de exame físico",
+      "Toda criança com leucocoria associada a estrabismo precisa de fundoscopia para excluir retinoblastoma antes de qualquer outra consideração diagnóstica",
+      "A janela crítica para tratamento da ambliopia associada ao estrabismo é limitada (aproximadamente até os 7-9 anos) — quanto mais precoce o diagnóstico e tratamento, melhor o prognóstico visual definitivo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menina, 3 anos, é levada ao pediatra pelos pais, que notaram que o olho direito 'vira para dentro' às vezes, mais perceptível quando ela está cansada. Ao exame, cover test confirma esotropia intermitente do olho direito.",
+      pergunta: "Qual a conduta apropriada?",
+      raciocinio:
+        "Esotropia intermitente identificada por cover test em criança pequena requer avaliação oftalmológica completa, incluindo refração cicloplégica (para investigar componente acomodativo) e fundoscopia (para excluir causa sensorial), dado o risco de ambliopia se não tratada dentro da janela crítica do desenvolvimento visual.",
+      conduta:
+        "Encaminhamento oftalmológico pediátrico para refração cicloplégica e fundoscopia; se houver hipermetropia significativa, prescrever correção óptica completa como primeira medida, que pode resolver o componente acomodativo do desvio; acompanhar a resposta e considerar cirurgia se o desvio persistir apesar da correção adequada.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Classificação, fisiopatologia da esotropia acomodativa e conduta terapêutica", fonte: "American Academy of Ophthalmology, Preferred Practice Pattern: Esotropia and Exotropia" },
+      { tema: "Janela crítica do desenvolvimento visual e risco de ambliopia", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+    ],
+  },
+  {
+    slug: "transtornos-movimento-binocular",
+    nome: "Outros transtornos do movimento binocular",
+    sinonimos: ["Insuficiência de convergência", "Heteroforia sintomática"],
+    cid10: "H51",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Alterações sutis da coordenação binocular sem desvio manifesto constante — a insuficiência de convergência é a mais comum na prática, causando desconforto visual e cefaleia associados a leitura/trabalho de perto.",
+    definicao:
+      "Grupo de condições caracterizadas por dificuldade na coordenação fina dos movimentos oculares binoculares sem um desvio ocular manifesto e constante como no estrabismo, incluindo a insuficiência de convergência (dificuldade para manter a convergência ocular durante tarefas de visão de perto) e as heteroforias sintomáticas (desvios latentes, controlados pela fusão binocular na maior parte do tempo, mas que causam sintomas quando o mecanismo de compensação é sobrecarregado).",
+    epidemiologia:
+      "Insuficiência de convergência é relativamente comum, sobretudo em crianças em idade escolar e adultos jovens com demanda visual intensa de perto (leitura, uso de telas), podendo ser confundida com transtorno de déficit de atenção pela sobreposição de sintomas de dificuldade de concentração durante a leitura.",
+    fisiopatologia:
+      "Na insuficiência de convergência, há uma incapacidade de manter adequadamente a convergência dos eixos visuais durante tarefas prolongadas de visão de perto, levando a esforço muscular extraocular excessivo e fadiga. Nas heteroforias, existe um desvio latente dos eixos visuais que é normalmente compensado pelo mecanismo de fusão binocular cortical; quando esse mecanismo compensatório é sobrecarregado (fadiga, tarefas visuais prolongadas), os sintomas se manifestam.",
+    classificacao:
+      "Classificada em insuficiência de convergência (a mais comum e mais relevante clinicamente), excesso de convergência, insuficiência de divergência e heteroforias (desvios latentes classificados por direção, de forma análoga aos estrabismos manifestos, mas compensados a maior parte do tempo).",
+    quadroClinico: [
+      "Desconforto visual (astenopia), cefaleia frontal e visão borrada ou dupla intermitente associados a tarefas visuais de perto prolongadas (leitura, telas), tipicamente aliviados com o repouso visual",
+      "Dificuldade de concentração durante a leitura, que pode ser confundida com transtorno de déficit de atenção/hiperatividade",
+      "Ausência de desvio ocular constante e visível ao exame simples, diferente do estrabismo manifesto",
+    ],
+    diagnostico: [
+      "Medida do ponto próximo de convergência (distância mínima em que a convergência ainda é mantida sem diplopia), tipicamente aumentada na insuficiência de convergência",
+      "Avaliação ortóptica completa com testes específicos de vergência e cover test para heteroforias",
+    ],
+    examesComplementares: [
+      "Refração completa para excluir erro refrativo não corrigido como causa contribuinte dos sintomas",
+      "Avaliação ortóptica formal com testes de amplitude de vergência fusional",
+    ],
+    diagnosticoDiferencial: [
+      "Erro refrativo não corrigido (causa sintomas semelhantes de astenopia, mas sem a alteração específica de convergência)",
+      "Transtorno de déficit de atenção/hiperatividade (sobreposição de sintomas de dificuldade de concentração na leitura — importante não atribuir automaticamente à insuficiência de convergência sem avaliação ortóptica adequada, nem o inverso)",
+      "Estrabismo intermitente manifesto (desvio ocasionalmente visível ao exame, diferente da heteroforia puramente latente)",
+    ],
+    tratamento: [
+      "Terapia ortóptica (exercícios de convergência, como o uso de régua de leitura ou exercícios com prismas) é o tratamento de primeira linha para insuficiência de convergência sintomática, com boa evidência de eficácia",
+      "Correção óptica de qualquer erro refrativo associado",
+      "Prismas em óculos podem ser usados em casos selecionados de heteroforia sintomática refratária à terapia ortóptica",
+    ],
+    complicacoes: [
+      "Crônica: impacto no desempenho escolar/acadêmico quando não reconhecido e tratado, pela associação entre os sintomas e dificuldade sustentada de leitura",
+    ],
+    redFlags: [
+      "Diplopia de início súbito e recente, diferente do padrão crônico e relacionado a tarefas de perto da insuficiência de convergência — reconsiderar causa neurológica aguda (paralisia de nervo craniano), não um transtorno de vergência binocular crônico",
+    ],
+    prognostico:
+      "Excelente na maioria dos casos de insuficiência de convergência com terapia ortóptica dirigida, com boa resposta aos exercícios de convergência na maior parte dos pacientes.",
+    pontosDeProva: [
+      "Insuficiência de convergência pode mimetizar ou se sobrepor a queixas de transtorno de déficit de atenção durante a leitura — deve ser ativamente considerada e investigada com avaliação ortóptica antes de atribuir os sintomas exclusivamente a causas comportamentais/atencionais",
+      "Terapia ortóptica com exercícios de convergência é o tratamento de primeira linha com boa evidência para insuficiência de convergência sintomática, diferente de outras condições oftalmológicas que exigem intervenção óptica ou cirúrgica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menino, 10 anos, com bom desempenho escolar prévio, passa a apresentar dificuldade de concentração durante a leitura, cefaleia frontal e visão borrada intermitente ao ler por períodos prolongados, sem esses sintomas em outras atividades.",
+      pergunta: "Qual a hipótese diagnóstica a ser investigada antes de considerar transtorno de déficit de atenção?",
+      raciocinio:
+        "Sintomas de dificuldade de concentração especificamente durante a leitura, associados a cefaleia e visão borrada relacionadas a tarefas de perto, sugerem insuficiência de convergência como causa a ser ativamente excluída antes de atribuir o quadro a um transtorno de déficit de atenção.",
+      conduta:
+        "Encaminhamento para avaliação oftalmológica/ortóptica com medida do ponto próximo de convergência e refração completa; se confirmada insuficiência de convergência, iniciar terapia ortóptica com exercícios de convergência como tratamento de primeira linha.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia da insuficiência de convergência e sobreposição sintomática com TDAH", fonte: "fonte pendente" },
+      { tema: "Eficácia da terapia ortóptica com exercícios de convergência", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+    ],
+  },
+  {
+    slug: "erros-refrativos",
+    nome: "Erros de refração e da acomodação",
+    sinonimos: ["Miopia", "Hipermetropia", "Astigmatismo", "Presbiopia"],
+    cid10: "H52",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Miopia, hipermetropia, astigmatismo e presbiopia — as condições oftalmológicas mais prevalentes de todas, causadoras da grande maioria das consultas por baixa visão corrigível com óculos.",
+    definicao:
+      "Alterações na forma como a luz é focalizada pelo sistema óptico do olho na retina: miopia (o foco se forma antes da retina, tipicamente por olho mais alongado, causando dificuldade para enxergar de longe), hipermetropia (o foco se forma atrás da retina, causando esforço acomodativo compensatório, mais sintomático de perto), astigmatismo (curvatura corneana irregular, causando foco distorcido em diferentes eixos) e presbiopia (perda relacionada à idade da capacidade de acomodação do cristalino, causando dificuldade progressiva para foco de perto a partir geralmente da quarta década de vida).",
+    epidemiologia:
+      "Coletivamente, são as condições oftalmológicas mais prevalentes na população mundial. A prevalência de miopia tem aumentado significativamente nas últimas décadas, sobretudo em populações urbanas e associada a maior tempo de atividades de perto e menor exposição a luz natural na infância. Presbiopia é universal, acometendo virtualmente toda a população a partir de determinada idade.",
+    fisiopatologia:
+      "Na miopia, o comprimento axial do olho é desproporcionalmente maior em relação ao seu poder refrativo (ou, mais raramente, o poder refrativo é excessivo para um comprimento axial normal), fazendo a imagem focar antes da retina. Na hipermetropia, ocorre o oposto — olho relativamente mais curto ou poder refrativo insuficiente, com foco atrás da retina, meso compensado por acomodação em graus leves a moderados. No astigmatismo, a córnea (mais comumente) tem curvatura diferente em meridianos distintos, gerando múltiplos pontos focais em vez de um único ponto nítido. Na presbiopia, o cristalino perde progressivamente sua elasticidade relacionada à idade, reduzindo a amplitude de acomodação disponível para foco de perto.",
+    classificacao:
+      "Classificados pelo tipo de erro (miopia, hipermetropia, astigmatismo, presbiopia, podendo coexistir mais de um no mesmo olho) e pela magnitude (leve, moderado, alto/elevado), sendo miopia e hipermetropia de alto grau associadas a maior risco de complicações oculares específicas (descolamento de retina na miopia alta; glaucoma de ângulo fechado na hipermetropia alta, por câmara anterior mais rasa).",
+    quadroClinico: [
+      "Miopia: dificuldade para enxergar objetos distantes, com boa visão de perto preservada",
+      "Hipermetropia: dificuldade variável conforme o grau — leve pode ser assintomática em jovens (compensada por acomodação), mas causa fadiga visual e cefaleia com esforço prolongado de perto, sobretudo com o avançar da idade",
+      "Astigmatismo: borramento visual em todas as distâncias, por vezes descrito como distorção ou 'fantasmas' de imagem",
+      "Presbiopia: dificuldade progressiva para foco de perto (leitura, uso de celular), tipicamente notada a partir dos 40-45 anos, com necessidade de afastar o material de leitura para enxergar com nitidez",
+    ],
+    diagnostico: [
+      "Refração (subjetiva e, quando indicado, cicloplégica em crianças) é o exame central para quantificar e caracterizar o erro refrativo",
+      "Acuidade visual com e sem correção óptica para documentar o grau de comprometimento e a resposta à correção",
+    ],
+    examesComplementares: [
+      "Refração subjetiva e objetiva (autorrefratômetro)",
+      "Topografia corneana em casos de astigmatismo irregular ou suspeita de ceratocone associado",
+      "Biometria e comprimento axial em miopia de alto grau, para monitorização de risco de complicações retinianas associadas",
+    ],
+    diagnosticoDiferencial: [
+      "Ambliopia (baixa visão que não melhora completamente mesmo com correção óptica adequada, diferente do erro refrativo simples plenamente corrigível)",
+      "Ceratocone (astigmatismo irregular progressivo, com topografia corneana característica, diferente do astigmatismo regular comum)",
+      "Catarata (embaçamento visual que não é totalmente corrigido por lentes, com opacidade visível do cristalino à biomicroscopia)",
+    ],
+    tratamento: [
+      "Correção óptica com óculos ou lentes de contato é o tratamento de primeira linha para todos os erros refrativos, sendo altamente eficaz e de baixo risco",
+      "Cirurgia refrativa a laser (como LASIK ou PRK) é uma opção eletiva para pacientes selecionados que desejam reduzir a dependência de óculos/lentes de contato, após avaliação cuidadosa de elegibilidade (topografia corneana normal, espessura corneana adequada, refração estável)",
+      "Óculos multifocais/bifocais ou lentes de contato específicas para correção da presbiopia associada a outros erros refrativos coexistentes",
+      "Monitorização oftalmológica periódica em miopia de alto grau, dado o maior risco de complicações retinianas (descolamento de retina, degeneração macular miópica) ao longo da vida",
+    ],
+    complicacoes: [
+      "Crônica: miopia de alto grau aumenta significativamente o risco de descolamento de retina regmatogênico e de degeneração macular miópica ao longo da vida; hipermetropia alta aumenta o risco de glaucoma de ângulo fechado, pela câmara anterior mais rasa",
+    ],
+    redFlags: [
+      "Miopia de progressão muito rápida na infância — considerar acompanhamento mais intensivo e discussão sobre estratégias de controle de progressão (tempo ao ar livre, correções ópticas específicas), dado o risco cumulativo de complicações associado a graus mais altos na vida adulta",
+      "Baixa visão que não melhora completamente com a melhor correção óptica testada — investigar ambliopia ou outra causa orgânica associada, não assumir que é apenas um erro refrativo não corrigido adequadamente",
+    ],
+    prognostico:
+      "Excelente na grande maioria dos casos, com correção óptica simples proporcionando visão funcional plena. O prognóstico de longo prazo em miopia e hipermetropia de alto grau está mais relacionado ao risco de complicações oculares associadas (retinianas ou de glaucoma, respectivamente) do que à própria qualidade visual corrigida.",
+    pontosDeProva: [
+      "Miopia de alto grau é um fator de risco reconhecido e importante para descolamento de retina regmatogênico, pela maior fragilidade retiniana periférica associada ao alongamento axial do olho",
+      "Hipermetropia de alto grau, por sua câmara anterior tipicamente mais rasa, é um fator de risco para glaucoma de ângulo fechado — associação inversa e frequentemente confundida com a de miopia e descolamento de retina",
+      "Presbiopia é uma alteração fisiológica universal relacionada à idade, não uma doença — importante diferenciá-la de embaçamento visual patológico ao orientar pacientes de meia-idade",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 44 anos, sem queixas visuais para longe, relata dificuldade progressiva para ler letras pequenas e uso de celular nos últimos meses, precisando afastar o material de leitura para enxergar com nitidez.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta?",
+      raciocinio:
+        "Dificuldade progressiva e específica para foco de perto, com boa visão de longe preservada, em paciente na faixa etária típica (a partir dos 40-45 anos), é o quadro clássico de presbiopia, uma alteração fisiológica esperada relacionada à idade, não uma doença ocular.",
+      conduta:
+        "Realizar refração completa para confirmar presbiopia e excluir outros erros refrativos associados, e prescrever correção óptica para perto (óculos de leitura ou lentes multifocais, conforme a preferência e necessidade da paciente).",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia dos erros refrativos e associação com complicações oculares (miopia alta e descolamento de retina; hipermetropia alta e glaucoma de ângulo fechado)", fonte: "Vaughan & Asbury's General Ophthalmology, 19ª ed." },
+      { tema: "Prevalência crescente de miopia e fatores ambientais associados", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "ambliopia-diplopia-disturbios-visuais",
+    nome: "Ambliopia, diplopia e outros distúrbios visuais",
+    sinonimos: ["Olho preguiçoso"],
+    cid10: "H53",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Ambliopia é a redução do desenvolvimento visual por privação/desuso na infância, potencialmente reversível apenas dentro de uma janela crítica — a causa mais comum de baixa visão unilateral evitável em crianças.",
+    definicao:
+      "Ambliopia é a redução da acuidade visual em um (mais comumente) ou ambos os olhos, não explicada completamente por uma anormalidade estrutural ocular identificável e não totalmente corrigível apenas com lentes, resultante de desenvolvimento visual cortical inadequado durante o período crítico da infância. Diplopia é a percepção de duas imagens de um único objeto, podendo ser binocular (desaparece com oclusão de um olho — causa neuro-oftalmológica) ou monocular (persiste com um olho ocluído — causa oftalmológica local, como astigmatismo irregular ou catarata).",
+    epidemiologia:
+      "Ambliopia é a causa mais comum de baixa visão unilateral evitável em crianças, com prevalência estimada em torno de 2 a 3% da população, resultante mais comumente de estrabismo, erro refrativo assimétrico entre os olhos (anisometropia) ou privação visual por opacidade de meios (catarata congênita, ptose significativa).",
+    fisiopatologia:
+      "Durante o período crítico do desenvolvimento visual (que se estende aproximadamente até os 7-9 anos de idade, com maior plasticidade nos primeiros anos), qualquer condição que impeça a formação de uma imagem retiniana nítida e bem correspondente entre os dois olhos (estrabismo, erro refrativo assimétrico não corrigido, opacidade de meios) resulta em desenvolvimento cortical visual inadequado para o olho afetado, com o córtex visual passando a favorecer preferencialmente as vias do olho não afetado — um processo de plasticidade neural que, se não revertido dentro da janela crítica, causa déficit visual permanente mesmo após a correção da causa original.",
+    classificacao:
+      "Ambliopia classificada por mecanismo em estrábica (por supressão da imagem do olho desviado), anisometrópica (por erro refrativo significativamente assimétrico entre os olhos, favorecendo o desenvolvimento do olho com melhor foco) e por privação (a mais grave e de pior prognóstico, por opacidade de meios impedindo completamente a formação de imagem nítida, como na catarata congênita densa). Diplopia classificada em binocular e monocular, distinção fundamental para direcionar a investigação.",
+    quadroClinico: [
+      "Ambliopia: tipicamente assintomática do ponto de vista da criança (que não percebe a diferença, já que nunca desenvolveu visão normal naquele olho), sendo detectada por rastreio visual formal ou por achados incidentais (estrabismo visível, diferença de reação ao ocluir cada olho separadamente)",
+      "Diplopia binocular: desaparece quando um dos olhos é ocluído, geralmente de início súbito quando de causa neurológica adquirida",
+      "Diplopia monocular: persiste mesmo com o olho contralateral ocluído, geralmente descrita como uma 'imagem fantasma' sobreposta, associada a causas oftalmológicas locais",
+    ],
+    diagnostico: [
+      "Rastreio visual formal (medida de acuidade visual de cada olho separadamente) é essencial em toda criança, mesmo assintomática, pela natureza tipicamente silenciosa da ambliopia",
+      "Diferenciação entre diplopia monocular e binocular pela simples oclusão alternada de cada olho é o passo diagnóstico inicial mais importante diante de uma queixa de visão dupla",
+    ],
+    examesComplementares: [
+      "Refração cicloplégica para identificar anisometropia como causa de ambliopia",
+      "Exame oftalmológico completo (incluindo fundoscopia) para excluir causas de privação (catarata, ptose significativa, opacidade corneana)",
+    ],
+    diagnosticoDiferencial: [
+      "Erro refrativo simples não corrigido (melhora completamente com a correção óptica adequada, diferente da ambliopia, que não melhora totalmente mesmo com a melhor correção)",
+      "Neurite óptica ou outra neuropatia óptica (causa de baixa visão que não é ambliopia, geralmente com início identificável em criança maior/adulto, não desde a infância precoce)",
+    ],
+    tratamento: [
+      "Correção do erro refrativo (óculos) é o primeiro passo em toda ambliopia, podendo por si só melhorar parcial ou completamente a acuidade visual em casos de anisometropia",
+      "Terapia de oclusão (tampão no olho de melhor visão, forçando o uso e desenvolvimento do olho ambliope) é o tratamento clássico e mais eficaz, com duração e regime dependentes da gravidade e idade da criança",
+      "Tratamento da causa de base de privação (cirurgia de catarata congênita, correção de ptose significativa) deve ser feito o mais precocemente possível, já que o tempo de privação é diretamente proporcional à gravidade da ambliopia resultante",
+      "Diplopia monocular: correção do erro refrativo/astigmatismo irregular ou tratamento da causa oftalmológica local identificada (por exemplo, cirurgia de catarata)",
+      "Diplopia binocular: tratamento dirigido à causa neuro-oftalmológica de base identificada",
+    ],
+    complicacoes: [
+      "Crônica: ambliopia permanente e irreversível se não tratada dentro da janela crítica do desenvolvimento visual — a principal e mais evitável causa de baixa visão unilateral permanente em adultos jovens",
+    ],
+    redFlags: [
+      "Ausência de rastreio visual formal em criança em idade pré-escolar — a ambliopia é frequentemente assintomática e não seria detectada sem avaliação ativa da acuidade visual de cada olho separadamente",
+      "Diagnóstico e início de tratamento da ambliopia após o encerramento da janela crítica do desenvolvimento visual — chance de reversão significativamente reduzida, reforçando a importância do rastreio precoce",
+    ],
+    prognostico:
+      "Excelente quando diagnosticada e tratada dentro da janela crítica do desenvolvimento visual, sobretudo quanto mais precocemente iniciado o tratamento. Reservado (com potencial de déficit visual permanente) quando o diagnóstico ocorre tardiamente, após o fechamento da janela de plasticidade neural.",
+    pontosDeProva: [
+      "A ambliopia é, por definição, silenciosa para a própria criança — nunca depende de queixa espontânea, e sim de rastreio visual ativo, reforçando a importância da avaliação oftalmológica pediátrica de rotina",
+      "A distinção entre diplopia monocular (persiste com oclusão do olho contralateral, causa oftalmológica local) e binocular (desaparece com oclusão de qualquer um dos olhos, causa neuro-oftalmológica) é o primeiro e mais importante passo diagnóstico diante de uma queixa de visão dupla",
+      "A ambliopia por privação (catarata congênita densa, ptose significativa) é a forma mais grave e de pior prognóstico, exigindo correção da causa de base o mais precocemente possível",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menino, 5 anos, é levado para avaliação oftalmológica de rotina pré-escolar. Ao testar a acuidade visual de cada olho separadamente, nota-se acuidade visual significativamente reduzida no olho esquerdo em comparação ao direito, sem queixas prévias da criança ou dos pais.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta?",
+      raciocinio:
+        "Redução assintomática e unilateral da acuidade visual detectada apenas por rastreio formal, sem queixa prévia da criança, é o quadro típico de ambliopia — condição tipicamente silenciosa, daí a importância desse tipo de avaliação de rotina.",
+      conduta:
+        "Investigar a causa (refração cicloplégica para anisometropia, exame oftalmológico completo para excluir estrabismo ou opacidade de meios) e iniciar tratamento apropriado o quanto antes — correção óptica e, se necessário, terapia de oclusão do olho de melhor visão — dado que a eficácia do tratamento depende diretamente da proximidade com a janela crítica do desenvolvimento visual.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia, classificação e janela crítica do desenvolvimento visual na ambliopia", fonte: "American Academy of Ophthalmology, Preferred Practice Pattern: Amblyopia" },
+      { tema: "Diferenciação entre diplopia monocular e binocular", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+    ],
+  },
+  {
+    slug: "cegueira-visao-subnormal",
+    nome: "Cegueira e visão subnormal",
+    sinonimos: ["Baixa visão", "Deficiência visual"],
+    cid10: "H54",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Categorias funcionais de comprometimento visual grave, definidas por critérios de acuidade visual e campo visual — resultado final de múltiplas doenças oculares, com foco terapêutico voltado à reabilitação visual.",
+    definicao:
+      "Classificação funcional do grau de comprometimento visual, definida por critérios padronizados de acuidade visual central (medida no melhor olho, com a melhor correção óptica possível) e/ou de extensão do campo visual, distinguindo visão subnormal (baixa visão) de cegueira legal, sendo esta última definida por critérios ainda mais restritivos de acuidade visual e/ou campo visual residual.",
+    epidemiologia:
+      "É o desfecho final comum de múltiplas doenças oculares não tratadas, tratadas tardiamente, ou refratárias ao tratamento disponível — catarata não operada, glaucoma avançado, retinopatia diabética, degeneração macular relacionada à idade e erros refrativos não corrigidos estão entre as causas mais prevalentes de cegueira e baixa visão evitáveis no mundo.",
+    fisiopatologia:
+      "Não representa uma entidade fisiopatológica única, mas sim uma categoria funcional que resulta do dano cumulativo de qualquer doença ocular ou da via visual (retina, nervo óptico, vias ópticas centrais) suficientemente grave para comprometer a acuidade visual e/ou o campo visual abaixo dos limiares definidos, seja por doença primária não tratada, tratamento tardio, ou ausência de tratamento eficaz disponível para a condição de base.",
+    classificacao:
+      "Classificada pela Organização Mundial da Saúde em categorias de comprometimento visual conforme a acuidade visual no melhor olho com a melhor correção possível, com termos que vão de visão normal a cegueira, e critérios adicionais para restrição significativa de campo visual (independentemente da acuidade central). A distinção entre causas evitáveis (tratáveis ou preveníveis, como catarata e erros refrativos não corrigidos) e não evitáveis (dano irreversível já estabelecido) orienta as prioridades de saúde pública.",
+    quadroClinico: [
+      "Dificuldade funcional variável conforme o grau e o padrão de comprometimento visual (central vs. periférico), impactando atividades cotidianas como leitura, mobilidade e reconhecimento facial",
+      "O quadro clínico específico depende inteiramente da doença de base causadora — não há um conjunto de sintomas próprio dessa classificação funcional",
+    ],
+    diagnostico: [
+      "Medida padronizada da acuidade visual (com a melhor correção óptica possível) e do campo visual são os critérios objetivos que definem a categoria de comprometimento visual",
+      "Identificação da causa de base subjacente é sempre necessária, tanto para eventual tratamento específico quanto para orientar o prognóstico e a estratégia de reabilitação",
+    ],
+    examesComplementares: [
+      "Acuidade visual com melhor correção óptica (critério central de classificação)",
+      "Campimetria computadorizada quando há suspeita de comprometimento significativo do campo visual",
+      "Investigação completa da causa oftalmológica de base, conforme a suspeita clínica",
+    ],
+    diagnosticoDiferencial: [
+      "Não se aplica no sentido tradicional, já que se trata de uma categoria funcional e não de uma doença específica — o diagnóstico diferencial relevante é sempre o da causa de base (catarata, glaucoma, retinopatia diabética, DMRI, erro refrativo não corrigido, entre outras)",
+    ],
+    tratamento: [
+      "Tratamento específico da causa de base sempre que disponível e ainda passível de reverter ou deter a progressão (cirurgia de catarata, controle de glaucoma, tratamento de retinopatia diabética/DMRI, correção de erro refrativo)",
+      "Reabilitação visual (auxílios ópticos para baixa visão, treinamento de orientação e mobilidade, tecnologia assistiva) é fundamental quando o dano visual já é permanente e não passível de reversão pelo tratamento da causa de base",
+      "Suporte psicossocial e orientação vocacional/educacional são componentes importantes do manejo integral, sobretudo em perda visual de início na infância ou na vida adulta produtiva",
+    ],
+    complicacoes: [
+      "Crônica: impacto funcional, psicossocial e socioeconômico significativo e cumulativo quando a causa de base não é identificada e tratada precocemente",
+    ],
+    redFlags: [
+      "Causa de base potencialmente tratável ou evitável (catarata, erro refrativo não corrigido, glaucoma em fase ainda controlável) classificada erroneamente como perda visual definitiva sem investigação e tentativa de tratamento adequados — sempre investigar e tratar a causa antes de assumir irreversibilidade",
+    ],
+    prognostico:
+      "Extremamente variável, dependendo inteiramente da causa de base: excelente reversibilidade quando a causa é tratável e identificada a tempo (catarata, erro refrativo), e prognóstico permanente quando o dano estrutural já está estabelecido e irreversível (glaucoma avançado, atrofia óptica, DMRI avançada).",
+    pontosDeProva: [
+      "Uma parcela substancial da cegueira e baixa visão no mundo é evitável — catarata não operada e erro refrativo não corrigido estão entre as causas mais comuns e mais facilmente tratáveis, reforçando a importância do acesso a cuidados oftalmológicos básicos",
+      "A classificação de comprometimento visual é funcional (baseada em acuidade visual e campo visual), não etiológica — sempre é necessário identificar a causa de base para definir o potencial de tratamento e a estratégia de reabilitação",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 68 anos, de uma comunidade rural com acesso limitado a cuidados de saúde, apresenta baixa visão bilateral progressiva há anos, nunca avaliada por oftalmologista, atualmente com dificuldade importante para atividades cotidianas.",
+      pergunta: "Qual a conduta inicial mais apropriada antes de assumir perda visual definitiva?",
+      raciocinio:
+        "Baixa visão progressiva de longa data sem avaliação oftalmológica prévia, em contexto de acesso limitado a cuidados de saúde, levanta a possibilidade real de uma causa tratável e comum (catarata, erro refrativo não corrigido) nunca ter sido diagnosticada ou tratada.",
+      conduta:
+        "Realizar avaliação oftalmológica completa, incluindo refração e biomicroscopia, antes de qualquer conclusão sobre irreversibilidade — catarata e erros refrativos não corrigidos são causas altamente tratáveis e comuns de baixa visão nessa população, e devem ser ativamente excluídas ou tratadas antes de encaminhar para reabilitação de baixa visão.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Classificação de comprometimento visual e principais causas evitáveis no mundo", fonte: "fonte pendente" },
+      { tema: "Papel da reabilitação visual em perda visual permanente", fonte: "Vaughan & Asbury's General Ophthalmology, 19ª ed." },
+    ],
+  },
+  {
+    slug: "nistagmo",
+    nome: "Nistagmo e outros movimentos irregulares do olho",
+    sinonimos: [],
+    cid10: "H55",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Movimento ocular rítmico e involuntário, congênito ou adquirido — a distinção entre essas duas formas orienta toda a investigação e é o ponto central da avaliação clínica.",
+    definicao:
+      "Movimento ocular rítmico, repetitivo e involuntário, que pode ser congênito (presente desde os primeiros meses de vida) ou adquirido (de início em qualquer idade posterior, geralmente sinalizando doença neurológica ou vestibular de base), classificado quanto ao padrão do movimento (pendular, com velocidade igual em ambas as direções, ou em solavanco/jerk, com uma fase rápida e uma lenta).",
+    epidemiologia:
+      "Nistagmo congênito geralmente se manifesta nos primeiros meses de vida, podendo ser idiopático (isolado) ou associado a outras condições oculares congênitas (albinismo, acromatopsia, catarata congênita, hipoplasia do nervo óptico). Nistagmo adquirido no adulto é sempre um achado que exige investigação neurológica, dada a associação frequente com doença do tronco encefálico, cerebelo ou do sistema vestibular.",
+    fisiopatologia:
+      "No nistagmo congênito, acredita-se em uma alteração no desenvolvimento dos mecanismos neurais de fixação e estabilização ocular nos primeiros meses de vida, por vezes associada a comprometimento sensorial visual congênito de base (o próprio comprometimento da visão nos primeiros meses pode contribuir para o desenvolvimento do nistagmo). No nistagmo adquirido, uma lesão estrutural ou funcional das vias vestibulares, cerebelares ou do tronco encefálico que controlam a estabilização do olhar resulta no padrão de movimento ocular rítmico, cujas características específicas (direção, padrão) frequentemente ajudam a localizar a lesão dentro do sistema nervoso central.",
+    classificacao:
+      "Classificado quanto ao início em congênito (primeiros meses de vida) e adquirido (qualquer idade posterior). Classificado quanto ao padrão de movimento em pendular (velocidade simétrica nas duas direções) e em solavanco/jerk (fase rápida e lenta assimétricas, com a direção do nistagmo definida convencionalmente pela fase rápida). Nistagmo adquirido subclassificado conforme a localização neuroanatômica sugerida pelo padrão específico (por exemplo, nistagmo vertical batendo para baixo sugerindo lesão de junção cervicomedular/cerebelar).",
+    quadroClinico: [
+      "Nistagmo congênito: geralmente bem tolerado subjetivamente (o paciente não percebe oscilopsia, ou percepção de que o ambiente está se movendo, apesar do movimento ocular objetivamente visível), frequentemente associado a uma 'posição de bloqueio' onde a amplitude do nistagmo diminui e a acuidade visual melhora",
+      "Nistagmo adquirido: frequentemente associado a oscilopsia (percepção subjetiva de que o ambiente está se movendo), o que o distingue clinicamente do nistagmo congênito, além de outros sintomas neurológicos ou vestibulares associados (vertigem, ataxia, diplopia) conforme a causa de base",
+    ],
+    diagnostico: [
+      "Caracterização detalhada do padrão do nistagmo (direção, se pendular ou em solavanco, se varia com a posição do olhar ou da cabeça) é essencial tanto para diferenciar congênito de adquirido quanto para sugerir a localização neuroanatômica no caso adquirido",
+      "Investigação neurológica completa é sempre indicada em nistagmo de início adquirido, dada a associação frequente com doença estrutural do sistema nervoso central",
+    ],
+    examesComplementares: [
+      "Ressonância magnética de crânio (com atenção a fossa posterior/tronco encefálico e cerebelo) em todo nistagmo adquirido, para investigar lesão estrutural de base",
+      "Avaliação oftalmológica completa em nistagmo congênito, para identificar condições oculares associadas (albinismo, hipoplasia do nervo óptico, acromatopsia, catarata congênita)",
+      "Avaliação otoneurológica quando há suspeita de componente vestibular periférico associado",
+    ],
+    diagnosticoDiferencial: [
+      "Opsoclonus (movimentos oculares caóticos e multidirecionais, distintos do padrão rítmico do nistagmo, associados a diferentes causas, incluindo síndromes paraneoplásicas)",
+      "Movimentos oculares voluntários rítmicos (raros, mas que podem mimetizar nistagmo em avaliação superficial)",
+    ],
+    tratamento: [
+      "Nistagmo congênito: correção óptica de erros refrativos associados; em casos selecionados com posição de bloqueio significativa e tortícolo compensatório importante, cirurgia dos músculos extraoculares pode reduzir a necessidade dessa posição compensatória",
+      "Nistagmo adquirido: tratamento dirigido à causa neurológica ou vestibular de base identificada; tratamento farmacológico sintomático (conforme a causa) pode ser considerado em casos selecionados para reduzir a oscilopsia incapacitante",
+    ],
+    complicacoes: [
+      "Crônica: baixa acuidade visual associada ao nistagmo congênito quando há condição ocular de base significativa concomitante (albinismo, hipoplasia do nervo óptico); impacto funcional da oscilopsia persistente no nistagmo adquirido não tratável",
+    ],
+    redFlags: [
+      "Nistagmo de início na vida adulta (adquirido) — sempre investigação neurológica ativa, dada a associação frequente e potencialmente grave com doença estrutural do sistema nervoso central (tumor, doença desmielinizante, doença vascular)",
+      "Nistagmo associado a outros sinais neurológicos focais (ataxia, diplopia, disartria) — reforça a necessidade de investigação neurológica urgente para localizar e caracterizar a lesão de base",
+    ],
+    prognostico:
+      "No nistagmo congênito isolado, o prognóstico visual funcional é geralmente bom, sobretudo quando não há condição ocular associada significativa. No nistagmo adquirido, o prognóstico depende inteiramente da causa neurológica de base identificada e de sua tratabilidade.",
+    pontosDeProva: [
+      "A presença de oscilopsia (percepção de que o ambiente está se movendo) é um achado importante que sugere nistagmo adquirido, diferente do nistagmo congênito, tipicamente bem tolerado subjetivamente apesar do movimento ocular objetivo",
+      "Todo nistagmo de início na vida adulta deve ser considerado adquirido até prova em contrário e investigado neurologicamente — não deve ser atribuído a uma variante idiopática sem essa investigação",
+      "A 'posição de bloqueio' (posição da cabeça onde a amplitude do nistagmo congênito diminui e a visão melhora) explica por que crianças com nistagmo congênito frequentemente adotam uma inclinação característica da cabeça",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 45 anos, relata início de movimentos oculares involuntários e sensação de que o ambiente está 'tremendo' (oscilopsia) há 2 semanas, associados a desequilíbrio para caminhar.",
+      pergunta: "Qual a principal preocupação diagnóstica e a conduta?",
+      raciocinio:
+        "Nistagmo de início recente na vida adulta, associado a oscilopsia e desequilíbrio, é um nistagmo adquirido até prova em contrário, achado que exige investigação neurológica ativa para lesão estrutural do sistema nervoso central, sobretudo de fossa posterior/cerebelo.",
+      conduta:
+        "Encaminhamento neurológico urgente com ressonância magnética de crânio, com atenção especial à fossa posterior e ao tronco encefálico, para investigar a causa estrutural de base do nistagmo adquirido e do desequilíbrio associado.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Classificação congênito vs. adquirido e valor localizatório do padrão de nistagmo", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+      { tema: "Associação de nistagmo adquirido com doença neurológica estrutural", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "ait-ataque-isquemico-transitorio",
+    nome: "Ataque isquêmico transitório (AIT)",
+    sinonimos: ["AIT", "Isquemia cerebral transitória"],
+    cid10: "G45",
+    especialidade: "Neurologia",
+    etiologia: "Multifatorial",
+    resumo: "Episódio transitório de disfunção neurológica focal por isquemia cerebral, sem infarto estabelecido — um alerta de altíssimo risco de AVC iminente, exigindo investigação e conduta com a mesma urgência de um evento já estabelecido.",
+    definicao:
+      "Episódio transitório de disfunção neurológica focal causado por isquemia cerebral, medular ou retiniana, sem evidência de infarto agudo em exame de imagem (definição tecidual atual, que substituiu o antigo critério puramente temporal de duração menor que 24 horas).",
+    epidemiologia:
+      "O risco de AVC estabelecido após um AIT é maior nos primeiros dias após o evento, concentrando-se predominantemente na primeira semana — daí a classificação do AIT como uma emergência médica equivalente a um AVC em termos de urgência de investigação e tratamento, não um evento benigno a ser investigado ambulatorialmente com calma.",
+    fisiopatologia:
+      "Mecanismo idêntico ao do AVC isquêmico estabelecido (embolia de origem cardíaca ou arterial, doença aterosclerótica de grandes vasos, doença de pequenos vasos), diferindo apenas pela resolução completa do déficit antes que ocorra infarto tecidual permanente, geralmente por reperfusão espontânea rápida (lise do êmbolo ou resolução do vasoespasmo/hipoperfusão transitória).",
+    classificacao:
+      "Não há mais classificação baseada em duração (o antigo critério de menos de 24 horas foi abandonado) — a definição atual é tecidual, baseada na ausência de infarto em imagem, independentemente da duração dos sintomas. O escore ABCD2 (idade, pressão arterial, achados clínicos, duração, diabetes) é usado para estratificar o risco de AVC subsequente e orientar a urgência da investigação.",
+    quadroClinico: [
+      "Déficit neurológico focal de início súbito, com resolução completa em minutos a poucas horas (por definição, sem infarto residual em imagem)",
+      "Sintomas variam conforme o território vascular acometido: fraqueza/dormência unilateral, alteração de fala (disartria/afasia), amaurose fugaz (perda visual monocular transitória, quando há acometimento da circulação retiniana), ataxia, entre outros",
+      "Resolução completa dos sintomas é a regra, mas não deve ser interpretada como tranquilizadora — o risco de AVC subsequente permanece alto",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico pela história do episódio transitório, mas exige confirmação por neuroimagem para excluir infarto estabelecido (que reclassificaria o evento como AVC, não AIT) e para iniciar a investigação etiológica imediatamente",
+      "Estratificação de risco pelo escore ABCD2 para definir a urgência da investigação e conduta (internação vs. investigação ambulatorial acelerada)",
+    ],
+    examesComplementares: [
+      "Ressonância magnética de crânio com sequência de difusão (mais sensível que tomografia para identificar infarto agudo, mesmo pequeno) é o exame de escolha quando disponível",
+      "Avaliação vascular (ultrassom Doppler de carótidas e vertebrais, angiotomografia ou angiorressonância) para identificar estenose significativa como fonte do evento",
+      "Avaliação cardíaca (eletrocardiograma, ecocardiograma, monitorização de ritmo prolongada) para investigar fonte embólica cardíaca, sobretudo fibrilação atrial",
+    ],
+    diagnosticoDiferencial: [
+      "Enxaqueca com aura (sintomas neurológicos transitórios, mas tipicamente com progressão mais lenta e características visuais positivas, diferente do déficit negativo súbito do AIT)",
+      "Crise epiléptica focal com paralisia de Todd (déficit motor pós-ictal transitório, contexto de crise convulsiva observada ou relatada)",
+      "Hipoglicemia (pode mimetizar déficit focal transitório, facilmente excluída/tratada com glicemia capilar)",
+    ],
+    tratamento: [
+      "Antiagregação plaquetária (classe de medicamento ainda sem ficha própria de uso agudo no site) é a base do tratamento imediato na maioria dos casos não cardioembólicos",
+      "Anticoagulação quando há fonte cardioembólica identificada (fibrilação atrial, por exemplo), com a varfarina entre as opções terapêuticas já documentadas no site para essa indicação",
+      "Estatina de alta potência como parte do pacote de prevenção secundária, independentemente do nível basal de LDL, reduzindo o risco de eventos vasculares recorrentes",
+      "Controle rigoroso de fatores de risco vascular (hipertensão, diabetes, tabagismo) e investigação/tratamento cirúrgico de estenose carotídea significativa quando identificada",
+    ],
+    complicacoes: [
+      "Aguda: AVC isquêmico estabelecido nos dias seguintes ao AIT — a complicação mais temida e o motivo da urgência investigativa equivalente a um AVC já estabelecido",
+    ],
+    redFlags: [
+      "Escore ABCD2 elevado (idade ≥60 anos, pressão arterial elevada, déficit motor/de fala, duração prolongada, diabetes) — indica risco muito alto de AVC nos dias seguintes e justifica internação para investigação e início imediato de tratamento",
+      "Múltiplos episódios de AIT em curto intervalo de tempo ('AIT em crescendo') — sinaliza instabilidade hemodinâmica ou trombótica ativa, com risco iminente de AVC estabelecido",
+    ],
+    prognostico:
+      "O AIT em si não deixa sequela neurológica permanente por definição, mas representa um marcador de altíssimo risco para AVC subsequente, concentrado principalmente na primeira semana após o evento — a intervenção precoce e agressiva (investigação e tratamento iniciados em caráter de urgência) reduz substancialmente esse risco.",
+    pontosDeProva: [
+      "A definição atual de AIT é tecidual (ausência de infarto em imagem), não mais temporal (menos de 24 horas) — mudança conceitual importante em relação a definições mais antigas",
+      "O risco de AVC após AIT é maior justamente nos primeiros dias — por isso o AIT deve ser investigado e tratado com a mesma urgência de um AVC estabelecido, nunca como um evento benigno a ser avaliado com calma ambulatorialmente",
+      "O escore ABCD2 é a ferramenta clássica de estratificação de risco cobrada para decidir a urgência da investigação e da internação",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 67 anos, hipertenso, relata episódio de fraqueza no braço e na perna esquerdos e dificuldade para falar, com duração de cerca de 20 minutos e resolução espontânea completa antes de chegar ao pronto-socorro.",
+      pergunta: "Qual a conduta apropriada diante desse quadro, apesar da resolução completa dos sintomas?",
+      raciocinio:
+        "Resolução completa dos sintomas não torna o quadro benigno — trata-se de um ataque isquêmico transitório, com risco elevado de AVC estabelecido nos dias seguintes, concentrado principalmente na primeira semana após o evento.",
+      conduta:
+        "Internação para investigação urgente (ressonância magnética com difusão, avaliação vascular carotídea, avaliação cardíaca para fonte embólica) e início imediato de antiagregação plaquetária e estatina de alta potência, com a mesma urgência que seria dada a um AVC já estabelecido.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "sinvastatina", nome: "Sinvastatina" },
+    ],
+    medicamentosSecaoTitulo: "Medicamento para prevenção secundária (não trata o evento agudo)",
+    medicamentosNota:
+      "A sinvastatina cobre apenas a prevenção secundária de eventos vasculares recorrentes. O tratamento agudo de primeira linha é a antiagregação plaquetária (AAS/clopidogrel) e, quando há fonte cardioembólica, anticoagulação — classes ainda sem ficha própria específica para essa indicação no site.",
+    fontes: [
+      { tema: "Definição tecidual atual e uso do escore ABCD2", fonte: "American Heart Association/American Stroke Association Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack" },
+      { tema: "Estatina de alta potência na prevenção secundária independente do LDL basal", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "avc-isquemico-infarto-cerebral",
+    nome: "Infarto cerebral (AVC isquêmico)",
+    sinonimos: ["AVC isquêmico", "Acidente vascular cerebral isquêmico"],
+    cid10: "I63",
+    especialidade: "Neurologia",
+    etiologia: "Multifatorial",
+    resumo: "Infarto de tecido cerebral por interrupção do fluxo sanguíneo, principal causa de incapacidade neurológica adquirida em adultos — o tratamento é extremamente tempo-dependente ('tempo é cérebro').",
+    definicao:
+      "Infarto (morte tecidual) de uma área do encéfalo resultante da interrupção do fluxo sanguíneo arterial, causando déficit neurológico focal correspondente ao território vascular acometido, com potencial de sequela permanente proporcional à extensão e localização da lesão e ao tempo até a reperfusão.",
+    epidemiologia:
+      "É uma das principais causas de morte e a principal causa de incapacidade neurológica adquirida em adultos no mundo. Os principais mecanismos etiológicos incluem doença aterosclerótica de grandes vasos, doença de pequenos vasos (lacunar, associada a hipertensão crônica) e embolia de origem cardíaca (sobretudo por fibrilação atrial).",
+    fisiopatologia:
+      "A interrupção do fluxo sanguíneo arterial (por trombose local sobre placa aterosclerótica, embolia de origem cardíaca ou arterial, ou oclusão de pequenos vasos perfurantes) priva o tecido cerebral de oxigênio e glicose, iniciando uma cascata isquêmica com falência energética, despolarização anóxica, excitotoxicidade por glutamato e, progressivamente, morte celular (necrose no núcleo isquêmico central, com uma zona de penumbra ao redor que permanece potencialmente salvável por um período limitado se o fluxo for restaurado a tempo).",
+    classificacao:
+      "Classificado etiologicamente pelo sistema TOAST em aterotrombótico (grandes vasos), cardioembólico, lacunar (pequenos vasos), de outra causa determinada (dissecção arterial, estados de hipercoagulabilidade, entre outras) e de causa indeterminada. Também classificado pela extensão e território vascular acometido (circulação anterior vs. posterior), relevante para o quadro clínico e as opções terapêuticas.",
+    quadroClinico: [
+      "Déficit neurológico focal de início súbito, cujo padrão específico depende do território vascular acometido: fraqueza e/ou dormência unilateral (face, braço, perna), alteração de fala (disartria ou afasia), desvio do olhar conjugado, ataxia, ou alteração de campo visual",
+      "Sintomas de circulação posterior (vertebrobasilar): vertigem, diplopia, ataxia, disartria, podendo ser mais sutis e confundidos com causas periféricas/vestibulares",
+      "Cefaleia, náusea e rebaixamento do nível de consciência são menos proeminentes que na hemorragia intracerebral, mas podem ocorrer em infartos extensos",
+    ],
+    diagnostico: [
+      "Reconhecimento rápido dos sinais de alarme pela população geral e por profissionais de saúde (escalas simplificadas como FAST — face, arm, speech, time) é essencial para acionamento precoce do sistema de emergência, dado que o tratamento é extremamente tempo-dependente",
+      "Tomografia de crânio sem contraste é o exame inicial obrigatório e urgente em todo paciente com suspeita de AVC, tendo como objetivo principal excluir hemorragia antes de qualquer decisão sobre trombólise, já que o quadro clínico isoladamente não distingue com segurança AVC isquêmico de hemorrágico",
+    ],
+    examesComplementares: [
+      "Tomografia de crânio sem contraste, exame inicial obrigatório para excluir hemorragia antes de trombólise",
+      "Angiotomografia de crânio e pescoço quando há suspeita de oclusão de grande vaso, para avaliar elegibilidade para trombectomia mecânica",
+      "Ressonância magnética com difusão para confirmação e delimitação do infarto quando a tomografia inicial é inconclusiva",
+      "Investigação etiológica completa (ecocardiograma, monitorização de ritmo cardíaco, avaliação vascular cervical) para definir a estratégia de prevenção secundária",
+    ],
+    diagnosticoDiferencial: [
+      "Hemorragia intracerebral (clinicamente pode ser indistinguível do AVC isquêmico — a distinção depende da tomografia de crânio, etapa obrigatória antes de qualquer tratamento trombolítico)",
+      "Crise epiléptica focal com paralisia de Todd pós-ictal",
+      "Hipoglicemia (sempre excluída rapidamente com glicemia capilar, por mimetizar déficit focal e ser prontamente reversível)",
+      "Enxaqueca com aura prolongada",
+    ],
+    tratamento: [
+      "Trombólise intravenosa dentro da janela terapêutica estabelecida (classicamente até 4,5 horas do início dos sintomas, em pacientes elegíveis sem contraindicações) é o tratamento de reperfusão de primeira linha (classe de medicamento trombolítico ainda sem ficha própria no site)",
+      "Trombectomia mecânica em casos selecionados com oclusão de grande vaso confirmada, podendo ser realizada em janela de tempo mais ampla que a trombólise isolada conforme critérios de imagem",
+      "Controle cuidadoso da pressão arterial na fase aguda, com metas específicas que diferem conforme o paciente seja ou não candidato à trombólise",
+      "Antiagregação plaquetária (quando a trombólise não é indicada ou após sua janela de segurança) e estatina de alta potência como parte do tratamento e da prevenção secundária desde a fase aguda",
+      "Reabilitação multiprofissional precoce (fisioterapia, fonoaudiologia, terapia ocupacional) para maximizar a recuperação funcional",
+    ],
+    complicacoes: [
+      "Aguda: transformação hemorrágica do infarto (mais comum em infartos extensos ou após trombólise), edema cerebral com risco de herniação em infartos extensos ('infarto maligno'), convulsões",
+      "Crônica: déficit neurológico permanente proporcional à extensão e localização da lesão, espasticidade, disfagia com risco de pneumonia aspirativa, depressão pós-AVC",
+    ],
+    redFlags: [
+      "Qualquer déficit neurológico focal de início súbito — deve ser tratado como AVC até prova em contrário, com acionamento imediato do sistema de emergência, dado que o benefício da trombólise é diretamente proporcional à rapidez do tratamento ('tempo é cérebro')",
+      "Rebaixamento progressivo do nível de consciência ou sinais de herniação em infarto extenso — pode exigir craniectomia descompressiva de urgência em casos selecionados de infarto maligno",
+    ],
+    prognostico:
+      "Extremamente variável, dependendo da extensão e localização do infarto, do tempo até o tratamento de reperfusão, e de comorbidades associadas. O tratamento precoce (trombólise e/ou trombectomia dentro das janelas terapêuticas) melhora substancialmente o desfecho funcional, reforçando a importância crítica do reconhecimento e encaminhamento rápidos.",
+    pontosDeProva: [
+      "'Tempo é cérebro' — a eficácia da trombólise e da trombectomia é diretamente dependente do tempo decorrido desde o início dos sintomas, tornando o reconhecimento e o transporte rápidos tão importantes quanto o tratamento em si",
+      "Tomografia de crânio sem contraste é sempre o primeiro exame, com o objetivo primário de excluir hemorragia — o quadro clínico isoladamente não distingue com segurança AVC isquêmico de hemorrágico",
+      "O sistema de classificação TOAST (aterotrombótico, cardioembólico, lacunar, outra causa, indeterminado) organiza a investigação etiológica e orienta a estratégia específica de prevenção secundária",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 72 anos, é trazida ao pronto-socorro por familiares que notaram, há 1 hora, desvio da comissura labial, fraqueza no braço direito e dificuldade importante para falar.",
+      pergunta: "Qual a conduta imediata prioritária?",
+      raciocinio:
+        "Déficit neurológico focal de início súbito é AVC até prova em contrário, e o tratamento é extremamente tempo-dependente — a prioridade absoluta é a tomografia de crânio sem contraste urgente para excluir hemorragia e definir elegibilidade para trombólise dentro da janela terapêutica.",
+      conduta:
+        "Acionamento imediato do protocolo de AVC, tomografia de crânio sem contraste de urgência para excluir hemorragia, e, se confirmado AVC isquêmico dentro da janela terapêutica e sem contraindicações, iniciar trombólise intravenosa o mais rapidamente possível, avaliando também elegibilidade para trombectomia mecânica se houver oclusão de grande vaso.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "sinvastatina", nome: "Sinvastatina" },
+    ],
+    medicamentosSecaoTitulo: "Medicamento para prevenção secundária (não trata o evento agudo)",
+    medicamentosNota:
+      "A sinvastatina cobre apenas a prevenção secundária de novos eventos vasculares. O tratamento agudo de reperfusão (trombolítico) e a antiagregação/anticoagulação de fase aguda ainda não têm ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia, classificação TOAST e conduta de reperfusão tempo-dependente", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Estatina de alta potência na prevenção secundária desde a fase aguda", fonte: "American Heart Association/American Stroke Association Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack" },
+    ],
+  },
+  {
+    slug: "hemorragia-intracerebral",
+    nome: "Hemorragia intracerebral (AVC hemorrágico)",
+    sinonimos: ["AVC hemorrágico", "Hematoma intraparenquimatoso"],
+    cid10: "I61",
+    especialidade: "Neurologia",
+    etiologia: "Multifatorial",
+    resumo: "Sangramento espontâneo dentro do parênquima cerebral, mais comumente por hipertensão arterial crônica — quadro de maior gravidade e mortalidade aguda que o AVC isquêmico, com manejo inicial completamente distinto.",
+    definicao:
+      "Extravasamento espontâneo de sangue para o interior do parênquima cerebral, formando um hematoma que causa dano tecidual direto (efeito de massa e destruição mecânica) e, frequentemente, edema perilesional progressivo nos dias seguintes, distinto do AVC isquêmico tanto na fisiopatologia quanto no manejo agudo.",
+    epidemiologia:
+      "A hipertensão arterial crônica não controlada é o principal fator de risco e a causa mais comum, tipicamente acometendo estruturas profundas (gânglios da base, tálamo, ponte, cerebelo) por ruptura de pequenas artérias perfurantes cronicamente lesadas. A angiopatia amiloide cerebral é uma causa importante em idosos, tipicamente com hemorragias lobares (corticais) recorrentes. Uso de anticoagulantes e malformações vasculares (aneurismas, malformações arteriovenosas) são outras causas relevantes.",
+    fisiopatologia:
+      "A ruptura de um vaso sanguíneo cerebral (mais comumente pequenas artérias perfurantes cronicamente lesadas pela hipertensão) libera sangue diretamente no parênquima, causando dano tecidual mecânico imediato pelo efeito de massa do hematoma, seguido de uma fase de expansão do hematoma nas primeiras horas em uma proporção significativa dos casos, e de edema perilesional progressivo nos dias subsequentes, ambos contribuindo para a deterioração neurológica que pode ocorrer mesmo após a estabilização inicial.",
+    classificacao:
+      "Classificada pela localização em profunda (gânglios da base, tálamo, ponte, cerebelo — tipicamente associada a hipertensão crônica) e lobar/cortical (mais associada a angiopatia amiloide em idosos ou a malformações vasculares em pacientes mais jovens). Escalas de gravidade (como o escore ICH) combinam volume do hematoma, localização, nível de consciência e idade para estimar prognóstico.",
+    quadroClinico: [
+      "Déficit neurológico focal de início súbito, frequentemente com progressão ao longo de minutos a horas (diferente da instalação mais estática do déficit isquêmico), refletindo a expansão do hematoma",
+      "Cefaleia intensa, náusea/vômitos e rebaixamento do nível de consciência são mais proeminentes e mais precoces que no AVC isquêmico, refletindo o efeito de massa agudo",
+      "Elevação da pressão arterial frequentemente muito acentuada no momento do evento",
+    ],
+    diagnostico: [
+      "Tomografia de crânio sem contraste é o exame diagnóstico central e imediato, identificando a hiperdensidade característica do sangue agudo e permitindo a distinção definitiva com o AVC isquêmico, que não pode ser feita com segurança apenas pela clínica",
+      "Investigação da causa de base (controle de pressão arterial, uso de anticoagulante, avaliação para malformação vascular subjacente em pacientes jovens ou com localização atípica)",
+    ],
+    examesComplementares: [
+      "Tomografia de crânio sem contraste (exame inicial obrigatório e definidor)",
+      "Angiotomografia com sinal de 'spot' (extravasamento de contraste dentro do hematoma), quando disponível, para identificar pacientes com maior risco de expansão do hematoma",
+      "Investigação de coagulopatia e uso de anticoagulante/antiagregante, essencial para orientar reversão imediata quando aplicável",
+      "Angiografia ou angiorressonância em pacientes jovens, sem hipertensão conhecida, ou com hemorragia de localização atípica, para investigar malformação vascular subjacente",
+    ],
+    diagnosticoDiferencial: [
+      "AVC isquêmico (indistinguível clinicamente com segurança sem tomografia — a distinção é sempre feita por imagem, nunca apenas pela apresentação clínica)",
+      "Hemorragia subaracnóidea (cefaleia clássica em 'trovoada', sangue predominantemente no espaço subaracnóideo em vez de intraparenquimatoso à tomografia)",
+      "Tumor cerebral com sangramento intratumoral (história mais insidiosa prévia ao evento agudo, achados de imagem sugestivos de lesão de base)",
+    ],
+    tratamento: [
+      "Reversão imediata de anticoagulação quando presente é prioridade absoluta e tempo-dependente, já que reduz o risco de expansão do hematoma",
+      "Controle intensivo da pressão arterial na fase aguda, com metas específicas mais rigorosas que no AVC isquêmico, visando reduzir o risco de expansão do hematoma",
+      "Monitorização neurológica intensiva, com avaliação seriada do nível de consciência para detectar precocemente sinais de deterioração",
+      "Intervenção neurocirúrgica (evacuação do hematoma, ventriculostomia para hidrocefalia obstrutiva associada, craniectomia descompressiva) reservada a casos selecionados conforme volume, localização e nível de consciência",
+    ],
+    complicacoes: [
+      "Aguda: expansão do hematoma nas primeiras horas, hidrocefalia obstrutiva (sobretudo em hemorragias com extensão intraventricular ou de fossa posterior), herniação cerebral em hematomas extensos",
+      "Crônica: déficit neurológico permanente proporcional ao volume e localização do hematoma, recorrência (sobretudo na angiopatia amiloide cerebral, com risco de hemorragias lobares repetidas)",
+    ],
+    redFlags: [
+      "Uso de anticoagulante em paciente com hemorragia intracerebral — reversão imediata é prioridade absoluta e tempo-dependente, antes mesmo de considerações sobre intervenção cirúrgica",
+      "Deterioração progressiva do nível de consciência nas primeiras horas — sinaliza expansão do hematoma ou hidrocefalia obstrutiva em desenvolvimento, exigindo reavaliação de imagem e possível intervenção neurocirúrgica urgente",
+      "Hemorragia lobar recorrente em paciente idoso sem hipertensão significativa — sugere angiopatia amiloide cerebral, com implicações para decisões futuras sobre anticoagulação/antiagregação",
+    ],
+    prognostico:
+      "Reservado, com mortalidade aguda mais alta que a do AVC isquêmico, proporcional ao volume do hematoma, à localização (hemorragias de tronco encefálico e as com extensão intraventricular têm pior prognóstico) e ao nível de consciência na apresentação. Sobreviventes frequentemente apresentam déficit neurológico residual significativo, embora uma recuperação funcional relevante seja possível em casos com hematomas menores e tratamento oportuno.",
+    pontosDeProva: [
+      "A distinção entre AVC isquêmico e hemorrágico não pode ser feita com segurança apenas pela clínica — a tomografia de crânio sem contraste é sempre obrigatória e definidora antes de qualquer decisão terapêutica",
+      "Reversão de anticoagulação é prioridade tempo-dependente na hemorragia intracerebral, reduzindo o risco de expansão do hematoma nas primeiras horas — um dos poucos momentos em que a rapidez da reversão muda diretamente o desfecho",
+      "Hipertensão crônica não controlada é a causa mais comum de hemorragia intracerebral profunda (gânglios da base, tálamo, ponte, cerebelo); angiopatia amiloide cerebral é a causa clássica de hemorragia lobar recorrente em idosos",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 61 anos, hipertenso com controle irregular, é encontrado por familiares com cefaleia intensa súbita, vômitos e rebaixamento progressivo do nível de consciência ao longo de 30 minutos, associados a hemiparesia esquerda.",
+      pergunta: "Qual a conduta diagnóstica imediata e por que ela é indispensável antes de qualquer tratamento específico?",
+      raciocinio:
+        "O quadro de cefaleia intensa, vômitos e deterioração progressiva do nível de consciência associados a déficit focal sugere hemorragia intracerebral, mas essa distinção do AVC isquêmico não pode ser feita com segurança apenas pela clínica — a tomografia de crânio sem contraste é obrigatória e definidora antes de qualquer decisão terapêutica, já que os tratamentos das duas condições são completamente diferentes (e a trombólise seria contraindicada e perigosa em caso de hemorragia).",
+      conduta:
+        "Tomografia de crânio sem contraste de urgência para confirmar o diagnóstico; se confirmada hemorragia intracerebral, controle intensivo da pressão arterial, investigação e reversão imediata de qualquer anticoagulação em uso, e monitorização neurológica intensiva com avaliação para intervenção neurocirúrgica conforme volume e evolução do hematoma.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia, causas por localização e conduta na fase aguda", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Prioridade de reversão de anticoagulação e controle pressórico intensivo", fonte: "American Heart Association/American Stroke Association Guideline for the Management of Spontaneous Intracerebral Hemorrhage" },
+    ],
+  },
+  {
+    slug: "epilepsia",
+    nome: "Epilepsia",
+    sinonimos: ["Transtorno convulsivo crônico"],
+    cid10: "G40",
+    especialidade: "Neurologia",
+    etiologia: "Multifatorial",
+    resumo: "Tendência duradoura a crises epilépticas recorrentes e não provocadas, por descargas neuronais excessivas e síncronas — diagnóstico clínico predominantemente baseado na história, com tratamento individualizado por tipo de crise.",
+    definicao:
+      "Doença cerebral caracterizada por uma predisposição duradoura a gerar crises epilépticas (descargas neuronais excessivas e síncronas causando manifestações clínicas paroxísticas), definida operacionalmente por pelo menos duas crises não provocadas com intervalo maior que 24 horas, ou uma única crise não provocada associada a risco de recorrência similar ao de pacientes com duas crises (por exemplo, na presença de lesão estrutural epileptogênica identificada).",
+    epidemiologia:
+      "Uma das doenças neurológicas crônicas mais prevalentes em todas as faixas etárias. As causas variam amplamente por idade: causas estruturais/genéticas e malformações são mais relevantes na infância; trauma e causas idiopáticas/genéticas no adulto jovem; doença cerebrovascular, tumores e doenças neurodegenerativas ganham importância crescente em idosos, que representam a faixa etária com incidência de início mais rapidamente crescente.",
+    fisiopatologia:
+      "Um desequilíbrio entre mecanismos excitatórios (glutamatérgicos) e inibitórios (GABAérgicos) em uma população neuronal, seja por alteração genética de canais iônicos, lesão estrutural (cicatriz cortical, malformação, tumor), ou distúrbio metabólico, permite a geração de descargas elétricas excessivas e sincronizadas que se propagam e geram a manifestação clínica da crise, cuja semiologia depende da área cortical de origem e do padrão de propagação.",
+    classificacao:
+      "Crises classificadas quanto ao início em focais (originadas em uma rede neuronal localizada em um hemisfério, podendo evoluir para bilateral tônico-clônica) e generalizadas (envolvendo redes neuronais distribuídas bilateralmente desde o início). Também classificadas por manter ou não a consciência preservada durante a crise focal. Etiologicamente classificada em estrutural, genética, infecciosa, metabólica, imune ou de causa desconhecida.",
+    quadroClinico: [
+      "Crise focal com consciência preservada: sintomas motores, sensitivos, autonômicos ou psíquicos localizados, sem perda de consciência",
+      "Crise focal com consciência alterada: automatismos (movimentos repetitivos sem propósito, como mastigação ou manipulação de objetos), confusão pós-ictal",
+      "Crise tônico-clônica generalizada: perda súbita de consciência, fase tônica (rigidez) seguida de fase clônica (abalos rítmicos), podendo haver liberação esfincteriana e mordedura de língua, com confusão pós-ictal prolongada característica",
+      "Crise de ausência (tipo de crise generalizada, mais comum na infância): breve interrupção da consciência sem queda, sem confusão pós-ictal significativa, podendo ser confundida com desatenção",
+    ],
+    diagnostico: [
+      "Diagnóstico predominantemente clínico, baseado em uma história detalhada do evento (idealmente com relato de testemunha), incluindo pródromos, semiologia da crise, e estado pós-ictal",
+      "Eletroencefalograma apoia o diagnóstico e ajuda a classificar o tipo de epilepsia, mas um EEG normal entre crises não exclui o diagnóstico, já que a sensibilidade de um único exame é limitada",
+    ],
+    examesComplementares: [
+      "Eletroencefalograma (idealmente com privação de sono ou prolongado, para aumentar a sensibilidade de detecção de atividade epileptiforme)",
+      "Ressonância magnética de crânio para investigar lesão estrutural epileptogênica, exame de escolha na investigação etiológica",
+      "Exames laboratoriais (glicemia, eletrólitos, função renal/hepática) para excluir causas metabólicas de crise em contexto agudo, sobretudo na primeira crise",
+    ],
+    diagnosticoDiferencial: [
+      "Síncope (perda de consciência transitória por hipoperfusão cerebral global, pode ter abalos mioclônicos breves que mimetizam crise, mas com recuperação mais rápida e sem confusão pós-ictal prolongada típica)",
+      "Crise não epiléptica psicogênica (semiologia atípica, sem correlato eletroencefalográfico durante o evento, frequentemente com duração mais prolongada e variável)",
+      "Distúrbios do movimento paroxísticos e enxaqueca com aura em determinados contextos",
+    ],
+    tratamento: [
+      "Fármaco antiepiléptico é a base do tratamento, escolhido conforme o tipo de crise/síndrome epiléptica, comorbidades e perfil de efeitos adversos (classes de medicamento antiepiléptico de manutenção ainda sem ficha própria no site)",
+      "Monoterapia é preferida inicialmente, com boa resposta na maioria dos pacientes; politerapia reservada a casos refratários à monoterapia otimizada",
+      "Tratamento cirúrgico (ressecção de foco epileptogênico) considerado em epilepsia focal refratária a múltiplos fármacos antiepilépticos, quando um foco bem definido é identificado",
+      "Orientação sobre restrições de segurança (direção veicular, atividades de risco) conforme legislação e controle de crises",
+    ],
+    complicacoes: [
+      "Aguda: estado de mal epiléptico (crise prolongada ou crises repetidas sem recuperação completa entre elas) e morte súbita inesperada na epilepsia (SUDEP), mais associada a crises tônico-clônicas generalizadas não controladas",
+      "Crônica: impacto psicossocial significativo, comorbidade com depressão e ansiedade, e restrições funcionais (direção, algumas profissões) enquanto as crises não estiverem controladas",
+    ],
+    redFlags: [
+      "Crise prolongada (mais de 5 minutos) ou crises repetidas sem recuperação completa da consciência entre elas — configura estado de mal epiléptico, emergência que exige tratamento imediato",
+      "Primeira crise em adulto com febre, rigidez de nuca ou outros sinais de infecção do sistema nervoso central — investigar meningite/encefalite antes de assumir epilepsia idiopática",
+      "Crises focais de início recente em paciente idoso, sobretudo com outros sinais neurológicos associados — investigar ativamente lesão estrutural (tumor, AVC) como causa de base",
+    ],
+    prognostico:
+      "Variável: uma proporção substancial dos pacientes alcança controle completo das crises com o primeiro ou segundo fármaco antiepiléptico tentado. Uma minoria evolui com epilepsia refratária, exigindo politerapia ou avaliação para tratamento cirúrgico. O risco de morte súbita inesperada (SUDEP), embora incomum em termos absolutos, é uma preocupação real em pacientes com crises tônico-clônicas generalizadas não controladas.",
+    pontosDeProva: [
+      "Um EEG normal entre crises NÃO exclui epilepsia — a sensibilidade de um único exame é limitada, e o diagnóstico permanece predominantemente clínico, baseado na história do evento",
+      "A distinção entre crise focal e generalizada, e entre epilepsia e síncope ou crise psicogênica não epiléptica, depende primariamente de uma história detalhada e bem colhida do evento, idealmente com relato de testemunha",
+      "Crises tônico-clônicas generalizadas não controladas são o principal fator de risco para morte súbita inesperada na epilepsia (SUDEP) — reforça a importância de otimizar o controle de crises, não apenas reduzir sua frequência",
+    ],
+    casoClinico: {
+      vinheta:
+        "Adolescente, 16 anos, é trazido por ter apresentado, segundo testemunhas, perda súbita de consciência com rigidez generalizada seguida de abalos rítmicos dos quatro membros, durando cerca de 2 minutos, com confusão e sonolência por 30 minutos após o evento.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a investigação inicial apropriada?",
+      raciocinio:
+        "A semiologia descrita (perda de consciência, fase tônica seguida de fase clônica, confusão pós-ictal prolongada) é característica de uma crise tônico-clônica generalizada, achado que, se recorrente e não provocado, define epilepsia.",
+      conduta:
+        "Solicitar eletroencefalograma e ressonância magnética de crânio para investigar etiologia e apoiar a classificação do tipo de epilepsia; se confirmada crise não provocada com risco significativo de recorrência, iniciar fármaco antiepiléptico apropriado ao tipo de crise identificado.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Definição operacional, classificação de crises e conduta terapêutica", fonte: "International League Against Epilepsy (ILAE), Classificação de Crises Epilépticas e Epilepsias, 2017" },
+      { tema: "Risco de morte súbita inesperada na epilepsia (SUDEP)", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "estado-de-mal-epileptico",
+    nome: "Estado de mal epiléptico",
+    sinonimos: ["Status epilepticus"],
+    cid10: "G41",
+    especialidade: "Neurologia",
+    etiologia: "Multifatorial",
+    resumo: "Crise epiléptica prolongada ou crises repetidas sem recuperação completa entre elas — emergência neurológica com tratamento em etapas cronometradas, já que a duração da crise é diretamente proporcional ao dano neuronal e à refratariedade.",
+    definicao:
+      "Crise epiléptica que se prolonga além do tempo em que a maioria das crises do mesmo tipo cessaria espontaneamente (operacionalmente definido como 5 minutos para crises tônico-clônicas generalizadas), ou crises repetidas sem recuperação completa da consciência entre elas, configurando uma emergência neurológica com risco de dano neuronal permanente proporcional à duração.",
+    epidemiologia:
+      "Pode ocorrer como primeira manifestação de epilepsia, como descompensação de epilepsia previamente conhecida (mais comumente por suspensão abrupta ou irregularidade no uso do fármaco antiepiléptico), ou secundário a uma agressão aguda do sistema nervoso central (AVC, infecção, distúrbio metabólico, abstinência alcoólica, entre outras).",
+    fisiopatologia:
+      "A persistência da atividade epiléptica além do tempo usual de autolimitação reflete uma falha nos mecanismos inibitórios normais de terminação da crise, com internalização progressiva de receptores GABA-A sinápticos (reduzindo a eficácia dos benzodiazepínicos quanto mais prolongada a crise) e ativação sustentada de mecanismos excitatórios, criando um ciclo que perpetua a atividade elétrica anômala e causa dano neuronal excitotóxico proporcional à duração não tratada.",
+    classificacao:
+      "Classificado em convulsivo (com manifestações motoras evidentes, como abalos tônico-clônicos) e não convulsivo (alteração do nível de consciência sustentada sem manifestações motoras proeminentes, diagnóstico mais desafiador, exigindo eletroencefalograma para confirmação). Também classificado por estágio de refratariedade: inicial, estabelecido (refratário à primeira linha) e refratário/superrefratário (persistente apesar de múltiplas linhas de tratamento).",
+    quadroClinico: [
+      "Convulsivo: atividade motora tônico-clônica generalizada contínua ou repetida sem recuperação completa da consciência entre os episódios",
+      "Não convulsivo: alteração do nível de consciência (confusão, sonolência, coma) sustentada e inexplicada por outra causa, sem os movimentos motores evidentes do tipo convulsivo — diagnóstico exige alto grau de suspeição e confirmação eletroencefalográfica",
+      "Sinais de comprometimento sistêmico secundário à atividade convulsiva prolongada: hipertermia, acidose, rabdomiólise",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico imediato no tipo convulsivo, pela observação direta da atividade motora prolongada ou repetida sem recuperação",
+      "Eletroencefalograma contínuo é essencial para diagnosticar o estado de mal não convulsivo e para confirmar a resolução eletrográfica da crise no tipo convulsivo tratado, já que a cessação dos movimentos motores nem sempre significa cessação da atividade elétrica",
+    ],
+    examesComplementares: [
+      "Eletroencefalograma contínuo, sobretudo em pacientes que permanecem com alteração do nível de consciência após cessação aparente dos movimentos motores",
+      "Glicemia capilar imediata (para excluir e tratar hipoglicemia, causa rapidamente reversível de crise prolongada)",
+      "Eletrólitos, função renal/hepática, dosagem de nível sérico de fármaco antiepiléptico (quando o paciente já faz uso) e exame toxicológico conforme suspeita etiológica",
+      "Neuroimagem e, quando indicado, punção lombar para investigar causa estrutural ou infecciosa de base",
+    ],
+    diagnosticoDiferencial: [
+      "Crise psicogênica não epiléptica prolongada (pode mimetizar estado de mal convulsivo, mas sem correlato eletrográfico correspondente)",
+      "Distúrbios do movimento paroxísticos prolongados",
+      "Rebaixamento do nível de consciência por outras causas (metabólica, tóxica, estrutural) no estado de mal não convulsivo",
+    ],
+    tratamento: [
+      "Benzodiazepínico (diazepam ou lorazepam por via intravenosa) é o tratamento de primeira linha, devendo ser administrado o mais rapidamente possível — a eficácia do benzodiazepínico diminui quanto mais prolongada a crise, reforçando a urgência da primeira dose",
+      "Se a crise persistir após a dose adequada de benzodiazepínico, fármaco antiepiléptico de segunda linha por via intravenosa (fenitoína, ácido valproico ou levetiracetam, conforme disponibilidade e perfil do paciente) é iniciado imediatamente na sequência, sem aguardar prazo adicional",
+      "Estado de mal refratário (persistente apesar das duas primeiras linhas) exige anestesia geral com infusão contínua de agente anestésico e monitorização eletroencefalográfica contínua em ambiente de terapia intensiva",
+      "Investigação e tratamento simultâneos da causa de base precipitante, sobretudo em primeiro episódio ou quando não há epilepsia prévia conhecida",
+    ],
+    complicacoes: [
+      "Aguda: dano neuronal excitotóxico permanente proporcional à duração da crise não controlada, rabdomiólise, aspiração, arritmias cardíacas, hipertermia grave",
+      "Crônica: déficit cognitivo residual em casos de estado de mal prolongado e refratário, sobretudo quando o tratamento é tardio",
+    ],
+    redFlags: [
+      "Crise convulsiva com duração maior que 5 minutos — já configura estado de mal epiléptico operacionalmente e exige tratamento imediato com benzodiazepínico, sem aguardar cessação espontânea",
+      "Alteração do nível de consciência persistente e inexplicada, sem outra causa evidente, após aparente cessação de uma crise convulsiva — investigar ativamente estado de mal não convulsivo com eletroencefalograma",
+      "Falha de resposta ao benzodiazepínico e ao fármaco antiepiléptico de segunda linha — estado de mal refratário, exigindo escalonamento imediato para anestesia geral em terapia intensiva",
+    ],
+    prognostico:
+      "Diretamente relacionado à duração da crise até o início do tratamento eficaz e à causa de base — quanto mais precoce e adequado o tratamento, melhor o prognóstico neurológico. Estado de mal refratário/superrefratário carrega risco substancial de mortalidade e sequela neurológica permanente.",
+    pontosDeProva: [
+      "A eficácia do benzodiazepínico diminui progressivamente quanto mais prolongada a crise (por internalização de receptores GABA-A) — reforça por que a primeira dose deve ser administrada o mais rápido possível, sem hesitação",
+      "Estado de mal não convulsivo é uma armadilha diagnóstica real: um paciente pode permanecer com atividade epiléptica contínua mesmo sem movimentos motores evidentes, exigindo eletroencefalograma para confirmação diante de rebaixamento de consciência inexplicado",
+      "O tratamento segue uma sequência cronometrada e escalonada (benzodiazepínico → antiepiléptico de segunda linha → anestesia geral) sem pausas prolongadas de reavaliação entre as etapas quando a crise persiste",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 34 anos, com epilepsia conhecida em uso irregular do fármaco antiepiléptico, é trazida ao pronto-socorro em crise tônico-clônica generalizada contínua há 8 minutos.",
+      pergunta: "Qual a conduta imediata?",
+      raciocinio:
+        "Crise convulsiva com duração maior que 5 minutos já configura estado de mal epiléptico, uma emergência neurológica na qual a eficácia do tratamento é inversamente proporcional ao tempo decorrido — a primeira linha terapêutica deve ser administrada imediatamente, sem aguardar mais tempo de observação.",
+      conduta:
+        "Administrar benzodiazepínico (diazepam) por via intravenosa imediatamente, associado a medidas de suporte (proteção de via aérea, glicemia capilar); se a crise persistir apesar da dose adequada, iniciar sem demora fármaco antiepiléptico de segunda linha por via intravenosa, investigando concomitantemente a causa da irregularidade no tratamento de base.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "diazepam", nome: "Diazepam" },
+    ],
+    fontes: [
+      { tema: "Definição operacional, fisiopatologia e sequência terapêutica escalonada", fonte: "American Epilepsy Society, Guideline for the Evaluation and Management of Status Epilepticus" },
+      { tema: "Diazepam intravenoso como benzodiazepínico de primeira linha", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "enxaqueca",
+    nome: "Enxaqueca",
+    sinonimos: ["Migrânea"],
+    cid10: "G43",
+    especialidade: "Neurologia",
+    etiologia: "Multifatorial",
+    resumo: "Cefaleia primária recorrente, incapacitante, com fisiopatologia neurovascular — uma das principais causas de incapacidade entre doenças neurológicas, com tratamento dividido entre abortivo (crise) e profilático (prevenção).",
+    definicao:
+      "Cefaleia primária recorrente, tipicamente unilateral, pulsátil, de intensidade moderada a grave, associada a náusea/vômitos e fotofobia/fonofobia, podendo ser precedida por aura (sintomas neurológicos focais transitórios, mais comumente visuais) em uma parcela dos pacientes.",
+    epidemiologia:
+      "Uma das cefaleias primárias mais prevalentes, mais comum em mulheres, com pico de incidência entre a segunda e a quarta décadas de vida. É consistentemente listada entre as principais causas de anos vividos com incapacidade entre todas as doenças neurológicas.",
+    fisiopatologia:
+      "O mecanismo envolve ativação do sistema trigeminovascular, com liberação de neuropeptídeos vasoativos (incluindo o peptídeo relacionado ao gene da calcitonina, CGRP) que promovem vasodilatação e inflamação neurogênica das meninges, além de disfunção de núcleos troncoencefálicos moduladores da dor. A aura, quando presente, é atribuída a uma onda de depressão alastrante cortical (despolarização neuronal seguida de supressão da atividade, propagando-se lentamente pelo córtex).",
+    classificacao:
+      "Classificada em enxaqueca sem aura (a forma mais comum) e com aura (sintomas neurológicos focais transitórios, tipicamente visuais, precedendo ou acompanhando a cefaleia). Também classificada quanto à frequência em episódica e crônica (cefaleia presente em 15 dias ou mais por mês, por mais de 3 meses, com características de enxaqueca em pelo menos 8 desses dias).",
+    quadroClinico: [
+      "Cefaleia unilateral (podendo alternar de lado entre episódios), pulsátil, de intensidade moderada a grave, piorando com atividade física rotineira",
+      "Náusea e/ou vômitos associados, e fotofobia/fonofobia, levando o paciente a buscar ambiente escuro e silencioso",
+      "Aura, quando presente, tipicamente visual (escotomas cintilantes, linhas em zigue-zague progredindo pelo campo visual ao longo de minutos), podendo também ser sensitiva ou de linguagem, sempre com instalação e resolução graduais ao longo de minutos (diferente do início súbito de um evento vascular)",
+      "Duração típica do episódio de 4 a 72 horas sem tratamento eficaz",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico, baseado em critérios bem estabelecidos (frequência, características da dor, sintomas associados, presença ou ausência de aura), sem necessidade de exame de imagem de rotina quando o quadro é típico e o exame neurológico é normal",
+      "Diário de cefaleia pode auxiliar na caracterização de padrão, gatilhos e frequência, sobretudo antes de decidir sobre tratamento profilático",
+    ],
+    examesComplementares: [
+      "Neuroimagem (ressonância magnética preferencialmente) reservada a casos com sinais de alarme ('red flags' de cefaleia secundária) ou apresentação atípica, não indicada rotineiramente em enxaqueca típica com exame neurológico normal",
+    ],
+    diagnosticoDiferencial: [
+      "Cefaleia tensional (geralmente bilateral, em aperto, sem os sintomas associados proeminentes de náusea/fotofobia da enxaqueca)",
+      "Cefaleia em salvas (dor excruciante, estritamente unilateral periorbitária, com sintomas autonômicos ipsilaterais proeminentes, padrão temporal distinto)",
+      "Hemorragia subaracnóidea e outras cefaleias secundárias graves (a serem sempre excluídas diante de sinais de alarme, como início em trovoada, febre, rigidez de nuca ou déficit neurológico focal persistente)",
+    ],
+    tratamento: [
+      "Tratamento abortivo da crise: analgésico simples ou anti-inflamatório não esteroidal como primeira linha em crises leves a moderadas, em ambiente calmo e escuro",
+      "Triptano (agonista serotoninérgico específico) é a primeira linha para crises moderadas a graves ou refratárias a analgésicos simples (classe de medicamento ainda sem ficha própria no site)",
+      "Tratamento profilático (uso diário contínuo) indicado quando há frequência elevada de crises ou impacto funcional significativo, incluindo betabloqueadores, anticonvulsivantes específicos ou anticorpos monoclonais anti-CGRP, conforme o perfil do paciente",
+      "Identificação e manejo de gatilhos individuais (privação de sono, jejum prolongado, determinados alimentos, estresse) como medida complementar não farmacológica",
+    ],
+    complicacoes: [
+      "Crônica: cronificação (transformação de enxaqueca episódica em crônica), frequentemente associada ao uso excessivo de analgésicos ('cefaleia por uso excessivo de medicação'), e impacto funcional/psicossocial significativo pela recorrência e incapacidade associada",
+    ],
+    redFlags: [
+      "Cefaleia de início súbito e intensidade máxima em segundos ('cefaleia em trovoada') — investigar hemorragia subaracnóidea, não assumir enxaqueca atípica",
+      "Mudança no padrão habitual de uma enxaqueca previamente estável, cefaleia progressivamente pior, ou início após os 50 anos — sinais de alarme que exigem investigação de causa secundária antes de atribuir a uma enxaqueca simples",
+      "Aura atípica (motora, prolongada além de uma hora, ou não totalmente reversível) — reconsiderar diagnóstico e investigar causa vascular",
+    ],
+    prognostico:
+      "Geralmente crônica e recorrente ao longo da vida, com flutuação de frequência e intensidade, mas sem risco estrutural direto na enxaqueca primária típica sem sinais de alarme. Boa resposta ao tratamento abortivo e profilático adequados na maioria dos pacientes, embora uma parcela evolua para a forma crônica, sobretudo na presença de uso excessivo de medicação analgésica.",
+    pontosDeProva: [
+      "Aura tem instalação e resolução graduais ao longo de minutos — diferente do início súbito característico de um evento vascular (AVC/AIT), distinção fundamental no diagnóstico diferencial",
+      "'Cefaleia em trovoada' (início súbito, intensidade máxima em segundos) nunca deve ser atribuída a enxaqueca sem excluir ativamente hemorragia subaracnóidea",
+      "O uso excessivo de analgésicos para tratar crises frequentes pode paradoxalmente cronificar a cefaleia ('cefaleia por uso excessivo de medicação') — armadilha terapêutica clássica a ser evitada",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 28 anos, relata episódios recorrentes de cefaleia pulsátil unilateral, de forte intensidade, associada a náusea e fotofobia, com duração de cerca de 1 dia, precedidos por visão de linhas brilhantes em zigue-zague que se expandem lentamente pelo campo visual ao longo de 20 minutos antes da dor começar.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta para a crise atual?",
+      raciocinio:
+        "O quadro descrito, com aura visual de instalação gradual (linhas em zigue-zague progredindo ao longo de minutos) seguida de cefaleia pulsátil unilateral com náusea e fotofobia, é o quadro clássico de enxaqueca com aura.",
+      conduta:
+        "Para a crise atual, iniciar analgésico/anti-inflamatório em ambiente calmo e escuro; considerar triptano se a resposta for insuficiente. Avaliar necessidade de tratamento profilático conforme a frequência e o impacto funcional dos episódios, além de orientar sobre identificação de possíveis gatilhos individuais.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "ibuprofeno", nome: "Ibuprofeno" },
+    ],
+    medicamentosSecaoTitulo: "Medicamento abortivo para crises leves a moderadas",
+    medicamentosNota:
+      "O ibuprofeno cobre o tratamento abortivo de crises leves a moderadas. Crises moderadas a graves ou refratárias têm no triptano a primeira linha específica, e o tratamento profilático (betabloqueador, anticonvulsivante, anti-CGRP) ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia neurovascular e mecanismo da aura (depressão alastrante cortical)", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Classificação e critérios diagnósticos", fonte: "International Classification of Headache Disorders (ICHD-3), International Headache Society" },
+    ],
+  },
+  {
+    slug: "doenca-de-parkinson",
+    nome: "Doença de Parkinson",
+    sinonimos: ["Parkinsonismo idiopático"],
+    cid10: "G20",
+    especialidade: "Neurologia",
+    etiologia: "Degenerativa",
+    resumo: "Doença neurodegenerativa progressiva por perda de neurônios dopaminérgicos da substância negra, causando a tríade clássica de bradicinesia, rigidez e tremor de repouso — segunda doença neurodegenerativa mais comum, atrás apenas da doença de Alzheimer.",
+    definicao:
+      "Doença neurodegenerativa progressiva caracterizada pela perda de neurônios dopaminérgicos da substância negra do mesencéfalo, causando um distúrbio do movimento definido pela combinação de bradicinesia (lentidão dos movimentos) associada a rigidez muscular e/ou tremor de repouso, frequentemente acompanhados de sintomas não motores significativos ao longo da evolução da doença.",
+    epidemiologia:
+      "É a segunda doença neurodegenerativa mais comum, atrás apenas da doença de Alzheimer, com prevalência e incidência crescentes com o envelhecimento, sendo incomum antes dos 50 anos (quando presente, chamada de Parkinson de início precoce).",
+    fisiopatologia:
+      "Perda progressiva de neurônios dopaminérgicos da substância negra pars compacta, associada ao acúmulo intracelular de agregados da proteína alfa-sinucleína (corpos de Lewy), reduz a disponibilidade de dopamina nos circuitos dos gânglios da base responsáveis pelo controle do movimento voluntário, gerando os sintomas motores cardinais da doença. A causa exata da neurodegeneração permanece incompletamente compreendida, envolvendo provavelmente interação entre fatores genéticos de suscetibilidade e fatores ambientais.",
+    classificacao:
+      "Classificada clinicamente conforme o sintoma motor predominante em forma tremor-dominante e forma acinético-rígida (com bradicinesia e rigidez mais proeminentes que o tremor), esta última geralmente associada a progressão mais rápida. Estadiamento de gravidade classicamente descrito pela escala de Hoehn e Yahr, de acometimento unilateral inicial (estágio 1) a comprometimento bilateral com perda de independência funcional em estágios avançados.",
+    quadroClinico: [
+      "Bradicinesia: lentidão progressiva dos movimentos voluntários, com redução da amplitude em movimentos repetitivos — achado motor cardinal e obrigatório para o diagnóstico",
+      "Tremor de repouso (tipicamente em 'contar moedas'), que diminui ou desaparece com o movimento voluntário do membro, diferente de outros tipos de tremor",
+      "Rigidez muscular, classicamente descrita como rigidez em 'roda denteada' quando associada a tremor sobreposto",
+      "Instabilidade postural e alterações de marcha (marcha em pequenos passos, festinação, redução do balanço dos braços) em fases mais avançadas",
+      "Sintomas não motores significativos ao longo da evolução: hiposmia (frequentemente precede os sintomas motores em anos), constipação, transtorno comportamental do sono REM, depressão, e, em fases avançadas, comprometimento cognitivo",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico, baseado na presença de bradicinesia associada a tremor de repouso e/ou rigidez, com resposta favorável e sustentada à levodopa reforçando a confirmação diagnóstica",
+      "Ausência de sinais de alarme para parkinsonismo atípico (progressão muito rápida, quedas precoces e proeminentes, disautonomia importante e precoce, resposta pobre à levodopa) é importante para sustentar o diagnóstico de doença de Parkinson idiopática, em vez de síndromes parkinsonianas atípicas",
+    ],
+    examesComplementares: [
+      "Diagnóstico é predominantemente clínico — exames de imagem não são necessários rotineiramente para confirmação, sendo reservados para excluir diagnósticos alternativos em apresentações atípicas",
+      "Ressonância magnética de crânio pode ser considerada para excluir parkinsonismo secundário (vascular, hidrocefalia de pressão normal) em apresentações atípicas",
+    ],
+    diagnosticoDiferencial: [
+      "Tremor essencial (tremor de ação/postural, não de repouso, tipicamente afetando as mãos simetricamente desde o início, sem os demais sinais cardinais)",
+      "Parkinsonismo induzido por medicamento (uso de antipsicóticos ou outros bloqueadores dopaminérgicos, geralmente com melhora após suspensão do agente causador)",
+      "Parkinsonismo atípico/síndromes 'Parkinson-plus' (paralisia supranuclear progressiva, atrofia de múltiplos sistemas — progressão mais rápida, sinais adicionais e resposta pobre à levodopa)",
+      "Parkinsonismo vascular (história de eventos cerebrovasculares, predomínio de sintomas em membros inferiores, marcha característica)",
+    ],
+    tratamento: [
+      "Levodopa associada a um inibidor da descarboxilase periférica é o tratamento sintomático mais eficaz disponível, sobretudo para bradicinesia e rigidez, embora não modifique a progressão da neurodegeneração de base (classe de medicamento ainda sem ficha própria no site)",
+      "Agonistas dopaminérgicos e inibidores da monoaminoxidase-B são opções, sobretudo em pacientes mais jovens, para retardar o início do uso de levodopa e suas complicações motoras de longo prazo (flutuações e discinesias)",
+      "Fisioterapia, fonoaudiologia e terapia ocupacional têm papel importante complementar ao tratamento farmacológico, sobretudo em fases mais avançadas",
+      "Estimulação cerebral profunda considerada em casos selecionados com flutuações motoras significativas refratárias a ajustes farmacológicos, em pacientes sem contraindicações",
+    ],
+    complicacoes: [
+      "Crônica: flutuações motoras e discinesias induzidas por levodopa após anos de uso, quedas e fraturas associadas à instabilidade postural em fases avançadas, comprometimento cognitivo (demência associada à doença de Parkinson) em uma proporção significativa de pacientes com doença de longa duração",
+    ],
+    redFlags: [
+      "Progressão muito rápida, quedas precoces e proeminentes já nos primeiros anos, ou disautonomia grave e precoce (hipotensão ortostática importante, disfunção urinária significativa) — sugerem parkinsonismo atípico ('Parkinson-plus'), não doença de Parkinson idiopática típica",
+      "Resposta pobre ou ausente à levodopa em dose adequada — reconsiderar o diagnóstico, já que a boa resposta é esperada e reforça o diagnóstico de doença de Parkinson idiopática",
+    ],
+    prognostico:
+      "Doença crônica e progressiva ao longo de décadas, sem cura disponível atualmente, mas com boa resposta sintomática ao tratamento farmacológico por muitos anos, permitindo qualidade de vida preservada por período prolongado. A progressão para comprometimento funcional e cognitivo significativo ocorre tipicamente após muitos anos de evolução, sendo mais rápida na forma acinético-rígida que na tremor-dominante.",
+    pontosDeProva: [
+      "Bradicinesia é o achado motor cardinal obrigatório para o diagnóstico — tremor de repouso isolado, sem bradicinesia associada, não caracteriza doença de Parkinson",
+      "Boa resposta sustentada à levodopa é um forte indício a favor do diagnóstico de doença de Parkinson idiopática, e sua ausência deve levantar suspeita de parkinsonismo atípico",
+      "Sintomas não motores (hiposmia, transtorno comportamental do sono REM, constipação) frequentemente precedem os sintomas motores cardinais em anos — achados prodrômicos cada vez mais reconhecidos e cobrados",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 64 anos, é levado pela esposa por lentidão progressiva dos movimentos e tremor na mão direita há 8 meses, que ela descreve como pior quando ele está parado e sentado assistindo TV, melhorando quando ele pega algum objeto.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta?",
+      raciocinio:
+        "A combinação de bradicinesia (lentidão dos movimentos) com tremor que piora em repouso e melhora com o movimento voluntário é o quadro clássico da doença de Parkinson, distinto de outros tipos de tremor (como o tremor essencial, que é de ação, não de repouso).",
+      conduta:
+        "Confirmar o diagnóstico clinicamente, avaliando a presença de rigidez associada e excluindo sinais de alarme para parkinsonismo atípico; iniciar tratamento sintomático (levodopa ou, em pacientes mais jovens, considerar inicialmente agonista dopaminérgico ou inibidor da MAO-B) e encaminhar para acompanhamento multiprofissional (fisioterapia, fonoaudiologia).",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia (perda dopaminérgica, corpos de Lewy) e critérios diagnósticos clínicos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Sintomas não motores prodrômicos e classificação por subtipo motor", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "esclerose-multipla",
+    nome: "Esclerose múltipla",
+    sinonimos: [],
+    cid10: "G35",
+    especialidade: "Neurologia",
+    etiologia: "Autoimune",
+    resumo: "Doença autoimune desmielinizante do sistema nervoso central, disseminada no espaço e no tempo — principal causa de incapacidade neurológica não traumática em adultos jovens, com neurite óptica como manifestação clássica inicial.",
+    definicao:
+      "Doença inflamatória autoimune desmielinizante crônica do sistema nervoso central, caracterizada por lesões (placas) disseminadas tanto no espaço (múltiplas localizações no encéfalo e/ou medula espinhal) quanto no tempo (surgindo em momentos distintos), causando uma ampla variedade de sintomas neurológicos conforme a localização das lesões.",
+    epidemiologia:
+      "Mais comum em mulheres jovens (entre 20 e 40 anos), com prevalência crescente conforme a distância do equador (gradiente latitudinal), sugerindo papel de fatores ambientais (como exposição a vitamina D/luz solar) somados à predisposição genética.",
+    fisiopatologia:
+      "Processo autoimune direcionado contra a bainha de mielina dos axônios do sistema nervoso central, com infiltração de linfócitos T autorreativos através da barreira hematoencefálica, causando desmielinização focal (placas) e, com a progressão da doença, dano axonal cumulativo que se correlaciona mais diretamente com a incapacidade neurológica permanente do que a própria desmielinização isolada.",
+    classificacao:
+      "Classificada em remitente-recorrente (a forma mais comum ao diagnóstico, com surtos bem definidos seguidos de recuperação parcial ou completa), secundariamente progressiva (evolução tardia de uma parcela dos casos remitentes-recorrentes, com piora progressiva independente de surtos) e primariamente progressiva (piora progressiva desde o início, sem surtos bem definidos, forma menos comum).",
+    quadroClinico: [
+      "Neurite óptica (perda visual subaguda unilateral com dor à movimentação ocular) é uma manifestação inicial clássica",
+      "Sintomas sensitivos (parestesias, sinal de Lhermitte — sensação de choque elétrico descendo pela coluna à flexão do pescoço), fraqueza em um ou mais membros, ataxia e alterações de coordenação",
+      "Disfunção vesical/intestinal e disfunção sexual, mais proeminentes com a progressão da doença",
+      "Fadiga significativa e desproporcional à atividade, um dos sintomas mais incapacitantes relatados pelos pacientes",
+      "Fenômeno de Uhthoff (piora transitória dos sintomas neurológicos com elevação da temperatura corporal) é um achado característico, embora não exclusivo da esclerose múltipla",
+    ],
+    diagnostico: [
+      "Diagnóstico baseado nos critérios de McDonald, que integram achados clínicos (surtos) com evidência de disseminação no espaço e no tempo por ressonância magnética e, quando necessário, análise do líquido cefalorraquidiano",
+      "Ressonância magnética de crânio e medula com contraste é o exame central, identificando lesões características (frequentemente periventriculares, justacorticais, infratentoriais e medulares) e captação de contraste em lesões ativas recentes",
+    ],
+    examesComplementares: [
+      "Ressonância magnética de crânio e medula espinhal com contraste (exame central para diagnóstico e monitorização)",
+      "Análise do líquido cefalorraquidiano, buscando bandas oligoclonais (síntese intratecal de imunoglobulina), apoiando o diagnóstico quando os critérios de imagem são insuficientes isoladamente",
+      "Potenciais evocados visuais em casos selecionados, para documentar desmielinização subclínica da via óptica",
+    ],
+    diagnosticoDiferencial: [
+      "Neuromielite óptica (quadro clinicamente semelhante, mas com curso e tratamento distintos, diferenciada por sorologia específica — anticorpo anti-aquaporina-4)",
+      "Doenças reumatológicas com acometimento do sistema nervoso central (lúpus eritematoso sistêmico, síndrome de Sjögren)",
+      "Deficiência de vitamina B12 e outras causas de mielopatia",
+      "Doença cerebrovascular de pequenos vasos em pacientes mais velhos com lesões de substância branca inespecíficas à ressonância",
+    ],
+    tratamento: [
+      "Surto agudo com impacto funcional significativo: corticosteroide intravenoso em altas doses para acelerar a recuperação do surto (classe/via de administração ainda sem ficha própria específica no site)",
+      "Terapia modificadora de doença de uso contínuo é a base do tratamento em longo prazo, reduzindo a frequência de surtos e a progressão de lesões, com opções variando conforme o perfil de atividade e gravidade da doença (classes ainda sem ficha própria no site)",
+      "Tratamento sintomático dirigido a manifestações específicas (espasticidade, disfunção vesical, fadiga, dor neuropática) conforme necessidade individual",
+      "Reabilitação multiprofissional (fisioterapia, terapia ocupacional) como parte integral do manejo em longo prazo",
+    ],
+    complicacoes: [
+      "Aguda: déficit neurológico transitório significativo durante surtos, com recuperação parcial ou completa na maioria dos casos, sobretudo nas fases iniciais da doença",
+      "Crônica: acúmulo progressivo de incapacidade neurológica ao longo dos anos, sobretudo na transição para a forma secundariamente progressiva, com impacto motor, cognitivo e funcional cumulativo",
+    ],
+    redFlags: [
+      "Surto com comprometimento motor ou visual significativo — indicação de corticosteroide intravenoso em altas doses para acelerar a recuperação funcional",
+      "Sintomas atípicos para esclerose múltipla clássica (idade de início muito precoce ou tardia, curso primariamente progressivo desde o início em paciente jovem) — reforça a necessidade de excluir diagnósticos diferenciais antes de firmar o diagnóstico",
+    ],
+    prognostico:
+      "Extremamente variável entre pacientes: uma parcela mantém baixa atividade de doença e função preservada por décadas com tratamento adequado, enquanto outra parcela evolui com acúmulo progressivo de incapacidade, sobretudo após a transição para a forma secundariamente progressiva. O início precoce de terapia modificadora de doença está associado a melhor prognóstico funcional em longo prazo.",
+    pontosDeProva: [
+      "O diagnóstico exige disseminação no espaço E no tempo — um único episódio ou uma única lesão, por mais sugestiva que seja, não é suficiente para o diagnóstico definitivo sem essa disseminação demonstrada",
+      "Neurite óptica é uma manifestação inicial clássica e frequentemente a porta de entrada diagnóstica da esclerose múltipla, reforçando a importância de investigar lesões de substância branca na ressonância magnética diante desse quadro",
+      "O dano axonal, não apenas a desmielinização, é o que mais se correlaciona com a incapacidade neurológica permanente acumulada ao longo da doença",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 26 anos, procura atendimento por perda visual no olho direito com dor à movimentação ocular há 4 dias. Refere um episódio de dormência na perna esquerda que durou cerca de 3 semanas e resolveu espontaneamente há 8 meses, não investigado na época.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a investigação prioritária?",
+      raciocinio:
+        "O episódio atual de neurite óptica associado a um episódio prévio de sintoma neurológico focal (dormência em membro) em localização e momento distintos sugere disseminação no espaço e no tempo, achado central para a suspeita de esclerose múltipla.",
+      conduta:
+        "Solicitar ressonância magnética de crânio e medula espinhal com contraste para avaliar disseminação de lesões no espaço e no tempo conforme os critérios de McDonald, e considerar análise do líquido cefalorraquidiano para bandas oligoclonais se a imagem for insuficiente para confirmação diagnóstica isolada.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Critérios diagnósticos de McDonald e classificação por curso clínico", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Papel do dano axonal na incapacidade permanente", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "miastenia-gravis",
+    nome: "Miastenia gravis",
+    sinonimos: [],
+    cid10: "G70",
+    especialidade: "Neurologia",
+    etiologia: "Autoimune",
+    resumo: "Doença autoimune da junção neuromuscular por anticorpos contra o receptor de acetilcolina, causando fraqueza muscular flutuante e fatigável — a crise miastênica com insuficiência respiratória é a complicação mais temida.",
+    definicao:
+      "Doença autoimune da junção neuromuscular, na qual autoanticorpos (mais comumente contra o receptor de acetilcolina, e menos comumente contra outras proteínas da junção neuromuscular, como a tirosina-quinase músculo-específica) comprometem a transmissão neuromuscular, causando fraqueza muscular esquelética flutuante que tipicamente piora ao longo do dia e com esforço repetido (fatigabilidade).",
+    epidemiologia:
+      "Apresenta distribuição bimodal por idade e sexo: mulheres jovens (segunda e terceira décadas) e homens mais velhos (sexta e sétima décadas) são os grupos mais acometidos. Associação com timoma (tumor do timo) é encontrada em uma parcela significativa dos pacientes, sobretudo naqueles com anticorpo anti-receptor de acetilcolina positivo.",
+    fisiopatologia:
+      "Autoanticorpos contra o receptor de acetilcolina na membrana pós-sináptica da junção neuromuscular reduzem o número de receptores funcionais disponíveis (por degradação acelerada, bloqueio direto do sítio de ligação, ou dano complemento-mediado à membrana pós-sináptica), comprometendo progressivamente a transmissão do impulso nervoso ao músculo à medida que a estimulação repetida esgota a reserva de segurança da transmissão neuromuscular — mecanismo que explica a fatigabilidade característica.",
+    classificacao:
+      "Classificada conforme a distribuição em ocular (limitada aos músculos extraoculares e palpebrais, causando ptose e diplopia) e generalizada (acometendo também musculatura bulbar, de membros e respiratória). Também classificada pelo tipo de anticorpo predominante (anti-receptor de acetilcolina, a maioria; anti-MuSK, um subgrupo com características clínicas e de resposta terapêutica distintas).",
+    quadroClinico: [
+      "Ptose palpebral e diplopia flutuantes, frequentemente os sintomas iniciais, piorando ao longo do dia e com fadiga",
+      "Fraqueza bulbar: disartria, disfagia e fadiga à mastigação, piorando ao longo de uma refeição",
+      "Fraqueza proximal de membros, tipicamente poupando a sensibilidade e os reflexos (achados que ajudam a diferenciar de outras causas neuromusculares)",
+      "Crise miastênica: fraqueza da musculatura respiratória grave o suficiente para exigir suporte ventilatório — a manifestação mais grave e temida da doença",
+    ],
+    diagnostico: [
+      "Dosagem de anticorpo anti-receptor de acetilcolina (positivo na maioria dos pacientes com forma generalizada) é o exame confirmatório mais utilizado",
+      "Teste do gelo (aplicação de gelo sobre a pálpebra ptótica, com melhora transitória da ptose) é um teste simples à beira do leito com boa relação custo-benefício em contexto de recursos limitados",
+      "Eletroneuromiografia com estimulação repetitiva, demonstrando decremento da resposta muscular com estimulação sucessiva, apoia o diagnóstico quando a sorologia é negativa ou inconclusiva",
+    ],
+    examesComplementares: [
+      "Anticorpo anti-receptor de acetilcolina (e anti-MuSK quando o primeiro é negativo em quadro clinicamente compatível)",
+      "Eletroneuromiografia com estimulação repetitiva e/ou fibra única",
+      "Tomografia computadorizada de tórax para investigar timoma, indicada em todo paciente com diagnóstico confirmado, dada a associação frequente",
+    ],
+    diagnosticoDiferencial: [
+      "Síndrome miastênica de Lambert-Eaton (também da junção neuromuscular, mas com mecanismo pré-sináptico, associação frequente com neoplasia — sobretudo carcinoma pulmonar de pequenas células —, e padrão de fraqueza que tipicamente melhora com esforço repetido, ao contrário da miastenia gravis)",
+      "Botulismo (bloqueio pré-sináptico da liberação de acetilcolina, com quadro agudo e frequentemente associado a disautonomia)",
+      "Síndrome de Guillain-Barré (fraqueza ascendente, mas com padrão evolutivo, reflexos e achados liquóricos distintos)",
+      "Paralisia oculomotora isolada de causa neurológica estrutural, quando a apresentação é puramente ocular",
+    ],
+    tratamento: [
+      "Inibidor da acetilcolinesterase (piridostigmina) é o tratamento sintomático de primeira linha, prolongando a disponibilidade de acetilcolina na fenda sináptica (classe de medicamento ainda sem ficha própria no site)",
+      "Imunossupressão (corticosteroide sistêmico e, frequentemente, agentes poupadores de corticosteroide) indicada em casos com controle inadequado apenas com piridostigmina ou na forma generalizada moderada a grave",
+      "Timectomia indicada em pacientes com timoma confirmado e considerada mesmo na ausência de timoma em pacientes selecionados com miastenia generalizada e anticorpo anti-receptor de acetilcolina positivo, podendo melhorar o controle da doença em longo prazo",
+      "Crise miastênica: suporte ventilatório quando necessário, associado a plasmaférese ou imunoglobulina intravenosa para tratamento rápido da exacerbação grave",
+    ],
+    complicacoes: [
+      "Aguda: crise miastênica com insuficiência respiratória, exigindo suporte ventilatório de urgência — a complicação mais grave e temida da doença",
+      "Crônica: efeitos adversos cumulativos do uso prolongado de imunossupressores quando necessários para controle da doença",
+    ],
+    redFlags: [
+      "Fraqueza respiratória progressiva ou dificuldade importante para deglutir secreções — sinais de crise miastênica iminente, exigindo monitorização respiratória rigorosa (capacidade vital, força inspiratória negativa) e preparação para suporte ventilatório",
+      "Uso concomitante de medicamentos que podem piorar a transmissão neuromuscular (certos antibióticos, betabloqueadores, entre outros) em paciente miastênico — sempre revisar a lista de medicamentos antes de prescrever novos fármacos",
+    ],
+    prognostico:
+      "Bom na maioria dos pacientes com tratamento adequado, com controle satisfatório dos sintomas e expectativa de vida próxima à da população geral. A crise miastênica, quando ocorre, é uma emergência com risco de vida, mas geralmente reversível com suporte ventilatório e tratamento imunomodulador oportunos.",
+    pontosDeProva: [
+      "Fraqueza flutuante que piora ao longo do dia e com esforço repetido (fatigabilidade), poupando sensibilidade e reflexos, é o padrão clínico central que distingue a miastenia gravis de outras causas de fraqueza muscular",
+      "O teste do gelo (melhora da ptose com aplicação de gelo) é um teste simples e útil à beira do leito para apoiar a suspeita diagnóstica em qualquer ambiente",
+      "Timoma deve ser sempre investigado (tomografia de tórax) em todo paciente com diagnóstico confirmado de miastenia gravis, dada a associação frequente e a implicação terapêutica (timectomia)",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 29 anos, relata ptose palpebral bilateral e visão dupla que pioram ao longo do dia e melhoram com o repouso, além de dificuldade para mastigar ao final das refeições, há 2 meses.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a investigação inicial?",
+      raciocinio:
+        "Fraqueza muscular flutuante (ptose e diplopia que pioram ao longo do dia) associada a fadiga à mastigação é o padrão clínico clássico de miastenia gravis, uma doença autoimune da junção neuromuscular.",
+      conduta:
+        "Solicitar dosagem de anticorpo anti-receptor de acetilcolina e considerar eletroneuromiografia com estimulação repetitiva para confirmação diagnóstica; se confirmado o diagnóstico, solicitar tomografia de tórax para investigar timoma e iniciar piridostigmina como tratamento sintomático de primeira linha.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia, associação com timoma e conduta terapêutica escalonada", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Teste do gelo como ferramenta diagnóstica à beira do leito", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "sindrome-guillain-barre",
+    nome: "Polineuropatia inflamatória aguda (síndrome de Guillain-Barré)",
+    sinonimos: ["Síndrome de Guillain-Barré", "Polirradiculoneurite aguda"],
+    cid10: "G61",
+    especialidade: "Neurologia",
+    etiologia: "Autoimune",
+    resumo: "Polineuropatia autoimune aguda, frequentemente pós-infecciosa, causando fraqueza ascendente progressiva — a principal causa de paralisia flácida aguda generalizada, com risco real de insuficiência respiratória.",
+    definicao:
+      "Polineuropatia inflamatória aguda de mecanismo autoimune, tipicamente desencadeada por uma resposta imune cruzada após uma infecção prévia (mimetismo molecular), causando fraqueza motora progressiva e simétrica, tipicamente ascendente, com redução ou abolição dos reflexos tendinosos profundos.",
+    epidemiologia:
+      "É a principal causa de paralisia flácida aguda generalizada em países onde a poliomielite foi erradicada. Cerca de dois terços dos casos são precedidos, nas semanas anteriores, por uma infecção identificável — mais comumente gastrointestinal (Campylobacter jejuni, associado a uma variante axonal mais grave) ou respiratória.",
+    fisiopatologia:
+      "Uma resposta imune desencadeada contra antígenos do patógeno precedente reage de forma cruzada com componentes da mielina ou dos próprios axônios dos nervos periféricos (mimetismo molecular), causando desmielinização segmentar (na forma clássica e mais comum, a polineuropatia desmielinizante inflamatória aguda) ou dano axonal direto (em variantes menos comuns, mas geralmente mais graves, como a neuropatia axonal motora aguda, mais associada à infecção por Campylobacter jejuni).",
+    classificacao:
+      "Classificada em subtipos conforme o padrão eletrofisiológico e clínico predominante: polineuropatia desmielinizante inflamatória aguda (a forma clássica e mais comum), neuropatia axonal motora aguda e neuropatia axonal sensitivo-motora aguda (variantes axonais, geralmente mais graves), e síndrome de Miller Fisher (variante rara com a tríade de oftalmoplegia, ataxia e arreflexia, tipicamente sem fraqueza de membros proeminente).",
+    quadroClinico: [
+      "Fraqueza motora progressiva, tipicamente simétrica e ascendente (iniciando em membros inferiores e progredindo para membros superiores e, em casos graves, musculatura bulbar e respiratória)",
+      "Redução ou abolição dos reflexos tendinosos profundos, achado praticamente universal e importante para a suspeita diagnóstica",
+      "Sintomas sensitivos (parestesias, dor) frequentemente presentes, mas geralmente menos proeminentes que o comprometimento motor",
+      "Disautonomia (labilidade de pressão arterial e frequência cardíaca, íleo paralítico, retenção urinária) pode ocorrer e exige monitorização cuidadosa",
+      "Progressão tipicamente ao longo de dias a poucas semanas, com nadir da fraqueza geralmente dentro de 2 a 4 semanas do início",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico apoiado pelo padrão de fraqueza ascendente com arreflexia, história de infecção precedente nas semanas anteriores, e confirmado por análise do líquido cefalorraquidiano e eletroneuromiografia",
+      "Análise do líquido cefalorraquidiano tipicamente mostra dissociação albumino-citológica (proteína elevada com celularidade normal ou pouco alterada), achado característico embora possa estar ausente na primeira semana de sintomas",
+    ],
+    examesComplementares: [
+      "Análise do líquido cefalorraquidiano, buscando a dissociação albumino-citológica característica",
+      "Eletroneuromiografia, demonstrando padrão desmielinizante (latências prolongadas, bloqueio de condução) ou axonal conforme o subtipo",
+      "Monitorização seriada da capacidade vital forçada e da força inspiratória negativa, essenciais para antecipar a necessidade de suporte ventilatório antes que ocorra falência respiratória franca",
+    ],
+    diagnosticoDiferencial: [
+      "Mielopatia aguda (nível sensitivo bem definido e disfunção esfincteriana mais precoce e proeminente, diferente do padrão da síndrome de Guillain-Barré)",
+      "Miastenia gravis (fraqueza flutuante e fatigável, sem alteração sensitiva nem abolição de reflexos)",
+      "Botulismo (padrão descendente, não ascendente, com disautonomia proeminente e pupilas frequentemente comprometidas)",
+      "Neuropatia por porfiria aguda ou por intoxicação (contexto clínico e história diferentes)",
+    ],
+    tratamento: [
+      "Imunoglobulina intravenosa ou plasmaférese são as opções terapêuticas específicas de primeira linha, com eficácia semelhante entre si quando iniciadas precocemente (idealmente dentro das primeiras duas semanas de sintomas) — classes ainda sem ficha própria no site",
+      "Corticosteroide sistêmico isolado não é eficaz na síndrome de Guillain-Barré (diferente de outras neuropatias inflamatórias), distinção importante do tratamento de outras condições autoimunes",
+      "Monitorização respiratória seriada rigorosa (capacidade vital forçada) para identificar precocemente a necessidade de suporte ventilatório, antes que ocorra falência respiratória estabelecida",
+      "Manejo de disautonomia quando presente, e profilaxia de trombose venosa profunda, dada a imobilidade prolongada em casos com fraqueza significativa",
+    ],
+    complicacoes: [
+      "Aguda: insuficiência respiratória por fraqueza da musculatura respiratória, exigindo ventilação mecânica em uma proporção significativa dos pacientes; disautonomia com risco de arritmias e instabilidade hemodinâmica",
+      "Crônica: fraqueza residual e fadiga persistente em uma parcela dos pacientes, embora a maioria apresente recuperação funcional substancial ao longo de meses",
+    ],
+    redFlags: [
+      "Progressão rápida da fraqueza com comprometimento da musculatura respiratória ou bulbar (dificuldade para deglutir, voz fraca) — monitorização respiratória intensiva e preparação antecipada para suporte ventilatório, antes que ocorra falência respiratória franca",
+      "Instabilidade autonômica significativa (flutuações importantes de pressão arterial e frequência cardíaca) — exige monitorização cardiovascular contínua em ambiente de terapia intensiva",
+    ],
+    prognostico:
+      "A maioria dos pacientes apresenta recuperação funcional substancial ao longo de semanas a meses, embora a recuperação completa possa levar até um ano ou mais em casos mais graves. Uma minoria evolui com déficit residual permanente, mais associado às variantes axonais e a casos com necessidade de ventilação mecânica prolongada. A mortalidade, embora incomum com tratamento e suporte adequados, existe e está mais associada a complicações respiratórias e disautonômicas.",
+    pontosDeProva: [
+      "Fraqueza ascendente com arreflexia é o padrão clínico central mais cobrado — a abolição dos reflexos tendinosos é praticamente universal e um achado-chave para a suspeita diagnóstica",
+      "Dissociação albumino-citológica no líquido cefalorraquidiano (proteína elevada, celularidade normal) é o achado laboratorial clássico, mas pode estar ausente na primeira semana — sua ausência inicial não exclui o diagnóstico",
+      "Corticosteroide isolado não funciona na síndrome de Guillain-Barré — distinção importante de outras neuropatias inflamatórias e um ponto clássico de prova",
+      "A monitorização seriada da função respiratória é tão importante quanto o tratamento imunomodulador específico, pela necessidade de antecipar e não apenas reagir à insuficiência respiratória",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 42 anos, com quadro de diarreia há 3 semanas, atualmente resolvido, procura atendimento por fraqueza progressiva nas pernas há 4 dias, agora também notando fraqueza nos braços. Ao exame, reflexos patelares e aquileus estão abolidos bilateralmente.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta prioritária?",
+      raciocinio:
+        "Fraqueza ascendente progressiva com abolição de reflexos, precedida por um episódio de diarreia nas semanas anteriores (sugerindo possível infecção por Campylobacter jejuni), é o quadro clássico de síndrome de Guillain-Barré.",
+      conduta:
+        "Internação para monitorização seriada da função respiratória (capacidade vital forçada) e progressão da fraqueza, análise do líquido cefalorraquidiano e eletroneuromiografia para confirmação diagnóstica, e início precoce de imunoglobulina intravenosa ou plasmaférese assim que o diagnóstico for confirmado.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia (mimetismo molecular), subtipos e associação com Campylobacter jejuni", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Ineficácia do corticosteroide isolado e eficácia de imunoglobulina/plasmaférese", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "paralisia-de-bell",
+    nome: "Paralisia de Bell (paralisia facial periférica idiopática)",
+    sinonimos: ["Paralisia facial periférica idiopática"],
+    cid10: "G51",
+    especialidade: "Neurologia",
+    etiologia: "Idiopática",
+    resumo: "Paralisia facial periférica aguda idiopática, provavelmente relacionada a reativação viral (herpes simples) com inflamação e compressão do nervo facial em seu trajeto ósseo — corticosteroide oral precoce é o tratamento de primeira linha com maior benefício comprovado.",
+    definicao:
+      "Paralisia ou paresia facial periférica aguda, unilateral, de causa idiopática (embora fortemente associada a reativação do vírus herpes simples tipo 1 em uma parcela significativa dos casos), acometendo todos os ramos do nervo facial de um lado, diferenciando-se da paralisia facial central pela ausência de poupança da musculatura frontal.",
+    epidemiologia:
+      "É a causa mais comum de paralisia facial periférica aguda, podendo ocorrer em qualquer idade, com fatores de risco descritos incluindo diabetes, gravidez (sobretudo no terceiro trimestre e puerpério imediato) e infecção respiratória viral recente.",
+    fisiopatologia:
+      "Acredita-se que a reativação do vírus herpes simples tipo 1 latente no gânglio geniculado do nervo facial desencadeie um processo inflamatório e edema do nervo dentro de seu trajeto ósseo estreito no canal facial (porção petrosa do osso temporal), causando compressão mecânica secundária que compromete a condução nervosa — o espaço anatômico limitado do canal ósseo é o que transforma uma inflamação viral relativamente comum em um comprometimento funcional significativo do nervo.",
+    classificacao:
+      "Não há um sistema de classificação etiológica formal, já que por definição é idiopática (diagnóstico de exclusão), mas é classificada por gravidade através de escalas clínicas (como a escala de House-Brackmann), que graduam a função facial de normal a paralisia completa e são usadas para acompanhar a evolução e orientar o prognóstico.",
+    quadroClinico: [
+      "Paralisia facial periférica unilateral de início agudo (horas a 1-2 dias), acometendo toda a hemiface, incluindo a musculatura frontal (testa) — achado que a diferencia da paralisia facial central, na qual a musculatura frontal é poupada por inervação cortical bilateral",
+      "Incapacidade de fechar completamente o olho do lado acometido (lagoftalmo), com risco de exposição corneana associado",
+      "Alteração do paladar nos dois terços anteriores da língua e hiperacusia (som mais alto que o normal no ouvido do lado afetado) podem ocorrer, dependendo do nível da lesão ao longo do trajeto do nervo",
+      "Dor retroauricular pode preceder ou acompanhar o início da paralisia em uma parcela dos pacientes",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico, pela apresentação típica de paralisia facial periférica aguda unilateral com acometimento da musculatura frontal, na ausência de outros achados neurológicos ou sistêmicos que sugiram causa alternativa",
+      "Exame cuidadoso deve sempre confirmar o acometimento da musculatura frontal (testa) para diferenciar paralisia periférica de central, distinção fundamental que muda completamente a investigação e as implicações",
+    ],
+    examesComplementares: [
+      "Geralmente nenhum exame complementar é necessário em apresentação típica",
+      "Sorologia para doença de Lyme em áreas endêmicas, ressonância magnética em casos atípicos, bilaterais, recorrentes ou com progressão além de 3 semanas, e investigação para outras causas (otite, colesteatoma, tumor de parótida, síndrome de Ramsay Hunt) quando há achados atípicos associados",
+    ],
+    diagnosticoDiferencial: [
+      "AVC (paralisia facial central, com poupança da musculatura frontal, tipicamente associada a outros déficits neurológicos focais)",
+      "Síndrome de Ramsay Hunt (paralisia facial periférica associada a vesículas no conduto auditivo externo/pavilhão auricular, por reativação do vírus varicela-zoster, geralmente com pior prognóstico que a paralisia de Bell clássica)",
+      "Doença de Lyme (paralisia facial periférica, por vezes bilateral, em contexto epidemiológico compatível)",
+      "Tumor de parótida ou colesteatoma (paralisia de instalação mais insidiosa e progressiva, não aguda, frequentemente com outros achados associados)",
+    ],
+    tratamento: [
+      "Corticosteroide oral, iniciado o mais precocemente possível (idealmente dentro de 72 horas do início dos sintomas), é o tratamento de primeira linha com o maior benefício comprovado sobre a recuperação funcional completa",
+      "Antiviral associado ao corticosteroide pode ser considerado em casos mais graves, embora sua eficácia isolada seja menos consistente que a do corticosteroide na literatura",
+      "Proteção ocular (lubrificante e, se necessário, oclusão noturna) é essencial enquanto houver lagoftalmo, para prevenir ceratopatia por exposição — uma complicação evitável e muitas vezes negligenciada",
+      "Fisioterapia facial pode ser considerada como coadjuvante, sobretudo em casos com recuperação incompleta",
+    ],
+    complicacoes: [
+      "Aguda: ceratopatia de exposição por lagoftalmo não protegido adequadamente, podendo evoluir para úlcera de córnea se negligenciada",
+      "Crônica: sincinesia facial (contração involuntária de um grupo muscular ao tentar mover outro, por regeneração aberrante das fibras nervosas) e paralisia residual em uma minoria dos casos, mais frequentes quando a paralisia inicial foi completa",
+    ],
+    redFlags: [
+      "Poupança da musculatura frontal (paciente consegue enrugar a testa normalmente do lado 'afetado') — sinaliza paralisia facial central, não periférica, e exige investigação urgente para AVC, não o diagnóstico de paralisia de Bell",
+      "Vesículas no conduto auditivo externo ou pavilhão auricular associadas à paralisia facial — síndrome de Ramsay Hunt, com prognóstico pior que a paralisia de Bell e indicação adicional de tratamento antiviral",
+      "Ausência de melhora após 3 meses, ou paralisia facial bilateral/recorrente — reconsiderar o diagnóstico e investigar causas alternativas (doença de Lyme, tumor, sarcoidose)",
+    ],
+    prognostico:
+      "Geralmente favorável, com a maioria dos pacientes apresentando recuperação completa ou quase completa em semanas a poucos meses, sobretudo quando o corticosteroide é iniciado precocemente. Uma minoria, mais frequentemente aqueles com paralisia inicial completa, evolui com sequela residual (fraqueza residual, sincinesia).",
+    pontosDeProva: [
+      "A distinção entre poupança (paralisia central) e acometimento (paralisia periférica) da musculatura frontal é o achado de exame físico mais cobrado e mais importante na avaliação de qualquer paralisia facial aguda",
+      "Corticosteroide oral iniciado precocemente (idealmente até 72 horas) é o tratamento com maior benefício comprovado sobre a recuperação completa — atraso no início reduz sua eficácia",
+      "Proteção ocular é uma medida simples, mas essencial, para prevenir uma complicação evitável (ceratopatia por exposição) enquanto persiste o lagoftalmo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 34 anos, acorda com desvio da comissura labial e incapacidade de fechar completamente o olho direito. Ao exame, não consegue enrugar a testa do lado direito, e a hemiface direita está completamente flácida.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "Paralisia facial aguda unilateral com acometimento da musculatura frontal (incapacidade de enrugar a testa) confirma o padrão de paralisia facial periférica, não central, sendo a paralisia de Bell a causa mais comum e mais provável nesse contexto agudo e idiopático.",
+      conduta:
+        "Iniciar corticosteroide oral o mais rapidamente possível, dado o maior benefício quando administrado precocemente, e orientar proteção ocular rigorosa (lubrificante e oclusão noturna) enquanto houver incapacidade de fechamento palpebral completo, para prevenir lesão corneana por exposição.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "prednisona", nome: "Prednisona" },
+    ],
+    fontes: [
+      { tema: "Fisiopatologia (reativação viral, compressão no canal facial) e distinção periférica vs. central", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Benefício do corticosteroide precoce sobre a recuperação funcional", fonte: "American Academy of Neurology, Practice Guideline: Steroids and Antivirals for Bell Palsy" },
+    ],
+  },
+  {
+    slug: "hidrocefalia",
+    nome: "Hidrocefalia",
+    sinonimos: [],
+    cid10: "G91",
+    especialidade: "Neurologia",
+    etiologia: "Multifatorial",
+    resumo: "Acúmulo excessivo de líquido cefalorraquidiano nos ventrículos cerebrais, por produção excessiva, obstrução da circulação ou absorção deficiente — quadro clínico e urgência variam enormemente conforme a velocidade de instalação e a idade do paciente.",
+    definicao:
+      "Acúmulo excessivo de líquido cefalorraquidiano dentro do sistema ventricular cerebral, resultante de um desequilíbrio entre produção, circulação e absorção desse líquido, causando dilatação ventricular e, conforme a velocidade de instalação e a complacência craniana (aberta em lactentes, fechada em crianças maiores e adultos), um espectro de manifestações clínicas que vai de assintomático a uma emergência neurológica aguda.",
+    epidemiologia:
+      "Pode ser congênita (por malformações como estenose do aqueduto cerebral) ou adquirida, sendo nesse caso mais comum secundária a hemorragia intraventricular (sobretudo em prematuros extremos), meningite, tumores obstruindo a circulação liquórica, ou trauma. A hidrocefalia de pressão normal é uma forma específica mais comum em idosos.",
+    fisiopatologia:
+      "Classificada mecanicamente em obstrutiva (não comunicante), quando há um bloqueio físico da circulação do líquido cefalorraquidiano dentro do sistema ventricular (por exemplo, estenose do aqueduto cerebral, tumor comprimindo uma via de drenagem), e comunicante, quando a obstrução ocorre fora do sistema ventricular, tipicamente por comprometimento da absorção nas granulações aracnóideas (por exemplo, após hemorragia subaracnóidea ou meningite, que causam fibrose e obstrução da reabsorção liquórica).",
+    classificacao:
+      "Classificada quanto ao mecanismo em obstrutiva/não comunicante e comunicante (conforme descrito acima), e quanto à velocidade de instalação em aguda (manifestação como emergência neurológica franca) e crônica (incluindo a hidrocefalia de pressão normal do idoso, com a tríade clássica de alteração de marcha, incontinência urinária e declínio cognitivo, apesar de pressão intracraniana normal na maior parte do tempo).",
+    quadroClinico: [
+      "Em lactentes (com suturas cranianas ainda abertas): aumento progressivo do perímetro cefálico, fontanela abaulada e tensa, olhar em 'sol poente' (desvio dos olhos para baixo) em casos avançados",
+      "Em crianças maiores e adultos (hidrocefalia aguda): cefaleia, náusea/vômitos, rebaixamento do nível de consciência, sinais de hipertensão intracraniana, podendo evoluir rapidamente para deterioração neurológica grave se não tratada",
+      "Hidrocefalia de pressão normal (idosos): tríade clássica de distúrbio de marcha (tipicamente o achado mais precoce e proeminente, com marcha de base alargada e passos curtos), incontinência urinária e declínio cognitivo, de instalação insidiosa ao longo de meses",
+    ],
+    diagnostico: [
+      "Neuroimagem (tomografia ou ressonância magnética de crânio) demonstrando dilatação ventricular é o elemento central do diagnóstico em qualquer forma de hidrocefalia",
+      "Na hidrocefalia de pressão normal, a resposta clínica a uma punção lombar de alto volume (retirada de grande quantidade de líquido cefalorraquidiano com melhora transitória da marcha) apoia o diagnóstico e ajuda a prever a resposta a uma eventual derivação ventriculoperitoneal definitiva",
+    ],
+    examesComplementares: [
+      "Tomografia ou ressonância magnética de crânio, demonstrando dilatação ventricular e, quando possível, o nível e a causa da obstrução",
+      "Punção lombar com medida da pressão de abertura (contraindicada quando há suspeita de lesão obstrutiva com risco de herniação, situação em que a neuroimagem deve preceder qualquer punção)",
+      "Teste de punção lombar de alto volume (tap test) na investigação de hidrocefalia de pressão normal",
+    ],
+    diagnosticoDiferencial: [
+      "Atrofia cerebral (dilatação ventricular ex vacuo, secundária à perda de parênquima cerebral, não por acúmulo patológico de líquido cefalorraquidiano — distinção importante, sobretudo em idosos)",
+      "Demências neurodegenerativas (na hidrocefalia de pressão normal, o declínio cognitivo pode ser confundido com doença de Alzheimer isoladamente, mas a presença proeminente de distúrbio de marcha precoce e incontinência urinária deve levantar a suspeita alternativa)",
+      "Lesões expansivas intracranianas causando hidrocefalia obstrutiva secundária, que devem ser sempre pesquisadas na neuroimagem",
+    ],
+    tratamento: [
+      "Derivação ventriculoperitoneal (ou outras formas de derivação liquórica) é o tratamento definitivo na maioria dos casos de hidrocefalia sintomática, desviando o excesso de líquido cefalorraquidiano para outra cavidade corporal onde possa ser absorvido",
+      "Ventriculostomia (drenagem ventricular externa) como medida temporária de urgência em hidrocefalia aguda com risco iminente de herniação, antes de uma solução definitiva",
+      "Terceiro-ventriculostomia endoscópica é uma alternativa cirúrgica em casos selecionados de hidrocefalia obstrutiva, criando uma via alternativa de circulação liquórica sem necessidade de dispositivo de derivação permanente",
+      "Tratamento da causa de base (ressecção de tumor obstrutivo, controle de infecção) sempre que aplicável e associado ao tratamento da hidrocefalia em si",
+    ],
+    complicacoes: [
+      "Aguda: herniação cerebral e morte em hidrocefalia aguda obstrutiva não tratada a tempo",
+      "Crônica: disfunção ou infecção do dispositivo de derivação ventriculoperitoneal (complicações comuns e recorrentes ao longo da vida de pacientes com derivação permanente, exigindo revisão cirúrgica), déficit cognitivo residual mesmo após tratamento em casos de longa evolução",
+    ],
+    redFlags: [
+      "Cefaleia, vômitos e rebaixamento do nível de consciência de instalação relativamente rápida — hidrocefalia aguda com risco de herniação, exigindo neuroimagem urgente e, frequentemente, intervenção neurocirúrgica de urgência",
+      "Aumento anormal e progressivo do perímetro cefálico em lactente — investigação de hidrocefalia mesmo na ausência de outros sinais evidentes, dada a maior sutileza do quadro nessa faixa etária",
+      "Tríade de distúrbio de marcha, incontinência urinária e declínio cognitivo em idoso — investigar ativamente hidrocefalia de pressão normal, uma causa potencialmente tratável e reversível de declínio funcional, frequentemente subdiagnosticada como demência primária",
+    ],
+    prognostico:
+      "Variável conforme a causa, a velocidade de instalação e a precocidade do tratamento: excelente na hidrocefalia aguda tratada rapidamente com derivação; reservado quando há atraso diagnóstico com dano neurológico já estabelecido. Na hidrocefalia de pressão normal, a resposta ao tratamento cirúrgico é geralmente melhor quando o distúrbio de marcha é o sintoma predominante e o tratamento é iniciado antes que o declínio cognitivo esteja avançado.",
+    pontosDeProva: [
+      "A tríade clássica da hidrocefalia de pressão normal (distúrbio de marcha, incontinência urinária, declínio cognitivo) é uma causa potencialmente tratável e reversível de declínio funcional em idosos, frequentemente confundida com demência primária — deve ser ativamente considerada nesse contexto",
+      "Neuroimagem deve sempre preceder punção lombar quando há suspeita de hidrocefalia obstrutiva com risco de herniação — o mesmo princípio de segurança já aplicado a qualquer suspeita de hipertensão intracraniana",
+      "O distúrbio de marcha é tipicamente o achado mais precoce e proeminente na hidrocefalia de pressão normal, e sua presença antes do declínio cognitivo avançado é um bom sinal prognóstico para resposta à derivação cirúrgica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 74 anos, é levado por familiares devido a declínio cognitivo progressivo nos últimos 6 meses, associado a alteração da marcha (passos curtos, base alargada) que precedeu o declínio cognitivo em vários meses, e episódios recentes de incontinência urinária.",
+      pergunta: "Qual a hipótese diagnóstica a ser ativamente investigada antes de assumir demência primária?",
+      raciocinio:
+        "A combinação da tríade de distúrbio de marcha (de instalação mais precoce), incontinência urinária e declínio cognitivo em um idoso é o quadro clássico de hidrocefalia de pressão normal, uma causa potencialmente tratável e reversível de declínio funcional, que não deve ser confundida automaticamente com uma demência neurodegenerativa primária.",
+      conduta:
+        "Solicitar neuroimagem (tomografia ou ressonância magnética de crânio) para avaliar dilatação ventricular, e considerar teste de punção lombar de alto volume para avaliar resposta clínica transitória, apoiando a decisão sobre derivação ventriculoperitoneal, que pode melhorar significativamente o quadro se realizada antes de declínio cognitivo avançado.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Classificação mecanicista (obstrutiva vs. comunicante) e tríade da hidrocefalia de pressão normal", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Papel do tap test na predição de resposta à derivação", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "demencia-vascular",
+    nome: "Demência vascular",
+    sinonimos: ["Demência por múltiplos infartos"],
+    cid10: "F01",
+    especialidade: "Neurologia",
+    etiologia: "Multifatorial",
+    resumo: "Segunda causa mais comum de demência (atrás da doença de Alzheimer), resultante de dano cerebrovascular cumulativo — curso tipicamente em degraus, diferente da progressão gradual e contínua do Alzheimer.",
+    definicao:
+      "Síndrome demencial resultante de dano cerebrovascular cumulativo ao encéfalo, seja por múltiplos infartos cerebrais (grandes ou pequenos, incluindo lacunares), por um infarto único estrategicamente localizado, ou por doença isquêmica crônica de pequenos vasos com lesão extensa de substância branca, causando comprometimento cognitivo significativo o suficiente para interferir na independência funcional.",
+    epidemiologia:
+      "É a segunda causa mais comum de demência, atrás apenas da doença de Alzheimer, compartilhando os mesmos fatores de risco vascular (hipertensão, diabetes, dislipidemia, tabagismo, fibrilação atrial) das demais doenças cerebrovasculares. Frequentemente coexiste com patologia de Alzheimer concomitante (demência mista), tornando a distinção diagnóstica pura nem sempre possível na prática clínica.",
+    fisiopatologia:
+      "O dano cerebrovascular cumulativo — seja por múltiplos infartos corticais/subcorticais, um infarto único em uma localização estrategicamente crítica para a cognição (como o tálamo), ou doença extensa de pequenos vasos com desmielinização isquêmica crônica da substância branca — interrompe circuitos neuronais relevantes para funções cognitivas, com o padrão e a gravidade do comprometimento dependendo diretamente da localização e extensão total do dano acumulado, não de um mecanismo degenerativo primário como no Alzheimer.",
+    classificacao:
+      "Classificada conforme o mecanismo predominante em demência por múltiplos infartos (grandes vasos), demência por infarto estratégico único, e demência vascular subcortical (por doença extensa de pequenos vasos, com lesão difusa de substância branca — a forma mais comum na prática atual). Frequentemente classificada também quanto à coexistência com patologia de Alzheimer (demência mista), reconhecendo que a distinção pura nem sempre é possível clinicamente.",
+    quadroClinico: [
+      "Curso tipicamente em degraus (piora abrupta associada a um novo evento vascular, seguida de período de relativa estabilidade), diferente da progressão gradual e contínua característica da doença de Alzheimer — embora a forma subcortical de pequenos vasos possa ter curso mais insidioso e progressivo, menos nitidamente em degraus",
+      "Comprometimento predominante de funções executivas e velocidade de processamento (mais proeminente que o comprometimento de memória isolado, que é mais típico do Alzheimer nas fases iniciais)",
+      "Sinais neurológicos focais associados (relacionados aos infartos prévios) frequentemente presentes ao exame, diferente do exame neurológico tipicamente normal nas fases iniciais do Alzheimer",
+      "Alteração de marcha e sintomas de liberação piramidal são comuns na forma subcortical de pequenos vasos",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico apoiado por história de eventos cerebrovasculares prévios (ou fatores de risco vascular significativos) e pelo padrão cognitivo (predomínio de disfunção executiva sobre memória) e evolutivo (em degraus) compatível",
+      "Neuroimagem demonstrando lesões vasculares (infartos corticais/subcorticais ou lesão extensa de substância branca) compatíveis com a extensão do comprometimento cognitivo observado é essencial para apoiar o diagnóstico",
+    ],
+    examesComplementares: [
+      "Ressonância magnética de crânio, demonstrando infartos prévios (corticais, subcorticais, lacunares) ou lesão extensa de substância branca de origem isquêmica crônica",
+      "Avaliação neuropsicológica formal, tipicamente demonstrando padrão de comprometimento executivo mais proeminente que o de memória, diferente do padrão amnéstico típico do Alzheimer",
+      "Investigação de fatores de risco vascular (perfil lipídico, glicemia, avaliação cardiovascular) como parte da avaliação etiológica e da estratégia de prevenção de novos eventos",
+    ],
+    diagnosticoDiferencial: [
+      "Doença de Alzheimer (progressão gradual e contínua, com comprometimento de memória mais proeminente nas fases iniciais, e neuroimagem tipicamente sem lesões vasculares significativas correspondentes)",
+      "Demência mista (coexistência de patologia vascular e de Alzheimer, cada vez mais reconhecida como comum na prática clínica, especialmente em idosos)",
+      "Hidrocefalia de pressão normal (tríade específica de distúrbio de marcha, incontinência e declínio cognitivo, potencialmente reversível com derivação cirúrgica)",
+    ],
+    tratamento: [
+      "Controle rigoroso dos fatores de risco vascular (hipertensão, diabetes, dislipidemia) é a intervenção central, visando prevenir novos eventos cerebrovasculares e a progressão adicional do dano cognitivo cumulativo — utilizando os medicamentos já indicados para cada fator de risco de base (anti-hipertensivos, estatina, controle glicêmico)",
+      "Antiagregação plaquetária conforme indicação da doença cerebrovascular de base, quando aplicável",
+      "Inibidores da colinesterase e outros medicamentos usados na doença de Alzheimer têm evidência mais limitada e inconsistente especificamente na demência vascular pura, sendo mais frequentemente considerados quando há componente misto de Alzheimer concomitante",
+      "Suporte multiprofissional (terapia ocupacional, orientação a cuidadores) semelhante ao empregado em outras síndromes demenciais",
+    ],
+    complicacoes: [
+      "Crônica: progressão do comprometimento cognitivo e funcional a cada novo evento cerebrovascular, com perda cumulativa de independência ao longo do tempo; maior risco de quedas e de outras complicações relacionadas à doença cerebrovascular de base",
+    ],
+    redFlags: [
+      "Declínio cognitivo em degraus associado a novo déficit neurológico focal — sinaliza novo evento cerebrovascular agudo sobreposto, justificando investigação e manejo agudo apropriados, não apenas atribuição à progressão esperada da demência de base",
+    ],
+    prognostico:
+      "Variável, dependente diretamente do controle dos fatores de risco vascular e da prevenção de novos eventos cerebrovasculares — ao contrário do Alzheimer, cuja progressão é relativamente previsível independentemente de intervenção nos fatores de risco vascular, a demência vascular tem potencial de estabilização relativa quando a doença cerebrovascular de base é bem controlada, embora o dano já estabelecido seja permanente.",
+    pontosDeProva: [
+      "O curso em degraus (piora associada a eventos vasculares distintos, com platôs de relativa estabilidade entre eles) é o padrão evolutivo clássico que diferencia a demência vascular da progressão gradual e contínua do Alzheimer",
+      "Comprometimento de função executiva mais proeminente que o de memória é o padrão neuropsicológico mais associado à demência vascular, diferente do padrão amnéstico predominante do Alzheimer",
+      "Demência mista (vascular + Alzheimer) é cada vez mais reconhecida como uma apresentação comum, não uma exceção rara — a distinção pura entre as duas entidades nem sempre é possível ou clinicamente relevante para o manejo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 76 anos, hipertenso e diabético de longa data, com história de dois AVCs isquêmicos prévios, apresenta declínio cognitivo que a família descreve como tendo piorado em 'degraus', associado a cada um dos eventos vasculares, com relativa estabilidade entre eles. A avaliação neuropsicológica mostra comprometimento executivo mais proeminente que de memória.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta terapêutica central?",
+      raciocinio:
+        "Declínio cognitivo em degraus, associado temporalmente a eventos cerebrovasculares conhecidos, com padrão neuropsicológico de predomínio executivo sobre a memória, é o quadro clássico de demência vascular, diferente da progressão gradual e contínua esperada na doença de Alzheimer.",
+      conduta:
+        "Otimizar o controle dos fatores de risco vascular de base (pressão arterial, glicemia, considerar antiagregação plaquetária conforme indicação), visando prevenir novos eventos cerebrovasculares e conter a progressão adicional do comprometimento cognitivo cumulativo, além de suporte multiprofissional para o paciente e a família.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Classificação, padrão evolutivo em degraus e perfil neuropsicológico", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Evidência limitada de inibidores da colinesterase especificamente na demência vascular pura", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-encefalo",
+    nome: "Neoplasia maligna do encéfalo",
+    sinonimos: ["Tumor cerebral maligno", "Glioma"],
+    cid10: "C71",
+    especialidade: "Neurologia",
+    etiologia: "Neoplásica",
+    resumo: "Tumores malignos primários (gliomas, sobretudo o glioblastoma) ou metastáticos do encéfalo — o edema perilesional frequentemente contribui tanto ou mais que o próprio tumor para os sintomas, sendo alvo direto de tratamento com corticosteroide.",
+    definicao:
+      "Neoplasia maligna originada no tecido encefálico (tumor primário, mais comumente um glioma) ou disseminada a partir de um câncer sistêmico (metástase cerebral, na verdade mais frequente que os tumores primários malignos em conjunto), causando sintomas por efeito de massa direto, edema perilesional associado, ou irritação cortical focal (crises epilépticas).",
+    epidemiologia:
+      "Metástases cerebrais são mais comuns que tumores primários malignos do encéfalo, originando-se mais frequentemente de câncer de pulmão, mama e melanoma. Entre os tumores primários, o glioblastoma é o tumor cerebral primário maligno mais comum e mais agressivo em adultos, com prognóstico historicamente reservado apesar do tratamento multimodal.",
+    fisiopatologia:
+      "O crescimento tumoral expansivo dentro do compartimento craniano fechado gera efeito de massa direto sobre estruturas adjacentes, além de desencadear edema vasogênico perilesional significativo (por ruptura da barreira hematoencefálica na vascularização tumoral anômala), que frequentemente contribui tanto ou mais que o volume do próprio tumor para os sintomas e para a elevação da pressão intracraniana. A irritação da atividade elétrica cortical adjacente ao tumor pode desencadear crises epilépticas focais, por vezes a manifestação inicial da doença.",
+    classificacao:
+      "Tumores primários classificados histologicamente (gliomas — incluindo o glioblastoma, o mais agressivo — meningiomas, geralmente benignos mas incluídos no diagnóstico diferencial de massa intracraniana, entre outros) e por grau de malignidade conforme critérios da Organização Mundial da Saúde. Metástases classificadas conforme o sítio primário de origem, sendo frequentemente múltiplas ao diagnóstico.",
+    quadroClinico: [
+      "Cefaleia, tipicamente pior pela manhã e associada a náusea, refletindo elevação da pressão intracraniana pelo efeito de massa e edema associado",
+      "Déficit neurológico focal progressivo, cuja natureza depende diretamente da localização do tumor (fraqueza, alteração de linguagem, alteração de campo visual, entre outros)",
+      "Crise epiléptica de início recente em adulto sem história prévia de epilepsia é uma forma de apresentação relativamente comum e importante de ser reconhecida",
+      "Alteração cognitiva e de personalidade, sobretudo em tumores de localização frontal",
+      "Sinais de hipertensão intracraniana em fases mais avançadas (papiledema, rebaixamento do nível de consciência)",
+    ],
+    diagnostico: [
+      "Ressonância magnética de crânio com contraste é o exame central para caracterizar a lesão (localização, padrão de realce, edema associado) e orientar a suspeita entre tumor primário e metástase",
+      "Biópsia estereotáxica ou ressecção cirúrgica com análise histopatológica é necessária para confirmação diagnóstica definitiva e classificação molecular/histológica precisa, que orienta diretamente o tratamento e o prognóstico",
+    ],
+    examesComplementares: [
+      "Ressonância magnética de crânio com contraste (exame de escolha para caracterização inicial da lesão)",
+      "Investigação de sítio primário (tomografia de tórax/abdome, entre outros conforme suspeita) quando os achados de imagem sugerem metástase, sobretudo se múltiplas lesões",
+      "Biópsia ou ressecção cirúrgica com análise histopatológica e molecular para diagnóstico definitivo, graduação e orientação terapêutica",
+    ],
+    diagnosticoDiferencial: [
+      "Abscesso cerebral (pode ter aparência de imagem semelhante a um tumor, distinção auxiliada por sequências específicas de ressonância e contexto clínico de infecção)",
+      "Lesão desmielinizante tumefativa (pode mimetizar tumor à imagem convencional em casos raros de esclerose múltipla atípica)",
+      "AVC subagudo (em fase de reabsorção, pode ocasionalmente mimetizar lesão expansiva à imagem)",
+    ],
+    tratamento: [
+      "Corticosteroide (dexametasona) é usado para reduzir o edema vasogênico perilesional, proporcionando melhora sintomática frequentemente rápida e significativa, embora não trate o tumor propriamente dito",
+      "Ressecção cirúrgica máxima segura é o primeiro passo do tratamento definitivo na maioria dos tumores primários e em metástases sintomáticas/acessíveis, tanto para alívio de sintomas quanto para obtenção de diagnóstico histológico preciso",
+      "Radioterapia (de todo o encéfalo ou estereotáxica, conforme o número e tamanho das lesões) e quimioterapia/terapia sistêmica dirigida, conforme o tipo histológico/molecular do tumor primário ou o tipo de câncer de origem no caso de metástase",
+      "Fármaco antiepiléptico quando há crises associadas, mas não indicado profilaticamente na ausência de crise prévia",
+    ],
+    complicacoes: [
+      "Aguda: herniação cerebral por efeito de massa e edema não controlados, crise epiléptica recorrente ou estado de mal epiléptico",
+      "Crônica: déficit neurológico progressivo conforme o crescimento tumoral, deterioração cognitiva, e recidiva após tratamento inicial (particularmente comum e esperada no glioblastoma, apesar do tratamento multimodal)",
+    ],
+    redFlags: [
+      "Cefaleia progressiva, pior pela manhã, associada a náusea e sinais neurológicos focais novos — investigação de imagem urgente para excluir lesão expansiva intracraniana",
+      "Primeira crise epiléptica em adulto, sobretudo com déficit neurológico focal associado ou idade mais avançada — sempre investigar lesão estrutural, incluindo neoplásica, antes de assumir epilepsia idiopática",
+      "Sinais de hipertensão intracraniana com deterioração do nível de consciência — risco de herniação iminente, exigindo intervenção urgente (corticosteroide, medidas para reduzir pressão intracraniana, e avaliação neurocirúrgica)",
+    ],
+    prognostico:
+      "Extremamente variável conforme o tipo histológico/molecular: meningiomas (geralmente benignos) têm excelente prognóstico após ressecção completa; o glioblastoma, o tumor primário maligno mais comum em adultos, mantém prognóstico reservado mesmo com tratamento multimodal agressivo (cirurgia, radioterapia e quimioterapia), com recidiva praticamente universal. O prognóstico de metástases cerebrais depende fortemente do controle do tumor primário sistêmico e do número/localização das lesões cerebrais.",
+    pontosDeProva: [
+      "Metástases cerebrais são coletivamente mais comuns que tumores primários malignos do encéfalo — sempre considerar e investigar um sítio primário sistêmico, sobretudo pulmão, mama e melanoma, diante de lesão(ões) cerebral(is) suspeita(s)",
+      "O edema perilesional frequentemente contribui tanto ou mais que o próprio volume tumoral para os sintomas — por isso o corticosteroide (dexametasona) proporciona melhora sintomática rápida sem tratar o tumor em si, distinção importante para não confundir resposta sintomática com resposta oncológica",
+      "Crise epiléptica de início recente em adulto sem epilepsia prévia deve sempre levantar suspeita de lesão estrutural, incluindo neoplásica, e nunca ser tratada como epilepsia idiopática sem investigação de imagem adequada",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 58 anos, com história de câncer de mama tratado há 3 anos, apresenta cefaleia progressiva há 3 semanas, pior pela manhã, associada a um episódio de crise convulsiva focal com generalização secundária ontem.",
+      pergunta: "Qual a principal hipótese diagnóstica e a investigação prioritária?",
+      raciocinio:
+        "Cefaleia progressiva pior pela manhã associada a crise epiléptica de início recente, em paciente com história prévia de câncer de mama, levanta forte suspeita de metástase cerebral, dado que metástases são a causa mais comum de lesão expansiva intracraniana nesse contexto de neoplasia sistêmica conhecida.",
+      conduta:
+        "Solicitar ressonância magnética de crânio com contraste com urgência para caracterizar a(s) lesão(ões); se confirmada(s) lesão(ões) compatível(is) com metástase, iniciar corticosteroide (dexametasona) para controle do edema perilesional e dos sintomas associados, e encaminhar para avaliação oncológica multidisciplinar para definição de tratamento local (cirurgia/radioterapia) e sistêmico.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "dexametasona", nome: "Dexametasona" },
+    ],
+    medicamentosSecaoTitulo: "Medicamento para controle do edema perilesional (não trata o tumor)",
+    medicamentosNota:
+      "A dexametasona controla o edema vasogênico perilesional e alivia sintomas rapidamente, mas não trata o tumor em si. O tratamento oncológico definitivo (cirurgia, radioterapia, quimioterapia/terapia sistêmica) ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Epidemiologia (metástases vs. tumores primários) e fisiopatologia do edema perilesional", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Uso de dexametasona para edema cerebral vasogênico associado a tumores", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
 ];
