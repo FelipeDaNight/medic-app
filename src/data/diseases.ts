@@ -11563,4 +11563,912 @@ export const diseases: Disease[] = [
       { tema: "Estadiamento de Rai/Binet e conduta de observação vigilante na leucemia linfocítica crônica de baixo risco", fonte: "fonte pendente" },
     ],
   },
+  {
+    slug: "sindrome-nefritica-aguda",
+    nome: "Síndrome nefrítica aguda",
+    sinonimos: ["Glomerulonefrite aguda", "Glomerulonefrite pós-estreptocócica"],
+    cid10: "N00",
+    especialidade: "Nefrologia",
+    etiologia: "Autoimune",
+    resumo: "Síndrome glomerular aguda caracterizada por hematúria, hipertensão e edema, cuja causa mais comum em crianças é a glomerulonefrite pós-estreptocócica, de mecanismo imunomediado por depósito de complexos imunes.",
+    definicao:
+      "Síndrome clínica decorrente de inflamação glomerular aguda, caracterizada pela tríade clássica de hematúria (frequentemente macroscópica, com urina cor de \"coca-cola\"), hipertensão arterial e edema, refletindo redução aguda da taxa de filtração glomerular.",
+    epidemiologia:
+      "A glomerulonefrite pós-estreptocócica, causa mais comum em crianças, ocorre tipicamente 1-3 semanas após faringite ou impetigo por estreptococo beta-hemolítico do grupo A nefritogênico, com pico de incidência entre 5-12 anos. Em adultos, outras causas (nefropatia por IgA, glomerulonefrite associada a vasculites) tornam-se proporcionalmente mais relevantes.",
+    fisiopatologia:
+      "Depósito de complexos imunes (antígeno estreptocócico-anticorpo) na membrana basal glomerular ativa o complemento e desencadeia infiltração inflamatória glomerular, reduzindo a taxa de filtração glomerular e causando retenção de sódio e água (responsável pelo edema e hipertensão) e extravasamento de hemácias para o espaço urinário (hematúria), com formação característica de cilindros hemáticos.",
+    classificacao:
+      "Classificada etiologicamente em pós-infecciosa (mais comumente pós-estreptocócica), por nefropatia por IgA, e associada a doenças sistêmicas (lúpus, vasculites ANCA-associadas, síndrome de Goodpasture), estas últimas caracteristicamente com evolução mais agressiva (glomerulonefrite rapidamente progressiva).",
+    quadroClinico: [
+      "Hematúria macroscópica, com urina de coloração escurecida (\"cor de coca-cola\" ou \"chá\"), achado de apresentação frequente",
+      "Edema periorbital matinal, progredindo para edema generalizado em casos mais intensos",
+      "Hipertensão arterial de início agudo, por retenção de sódio e água",
+      "Oligúria proporcional à redução da taxa de filtração glomerular",
+      "Histórico de infecção de vias aéreas superiores ou pele nas 1-3 semanas anteriores, no caso pós-estreptocócico",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico apoiado em urina tipo I com hematúria dismórfica e cilindros hemáticos, achado que localiza o sangramento à origem glomerular",
+      "Dosagem de complemento sérico (C3 tipicamente reduzido, C4 normal) na forma pós-estreptocócica, normalizando-se em 6-8 semanas",
+      "Título de anticorpos anti-estreptolisina O (ASLO) ou anti-DNAse B elevado, confirmando infecção estreptocócica recente",
+    ],
+    examesComplementares: [
+      "Urina tipo I com hematúria dismórfica e cilindros hemáticos, achado semiológico central para localizar a lesão ao glomérulo",
+      "Complemento C3 reduzido na fase aguda da forma pós-estreptocócica, com normalização esperada em até 8 semanas — sua persistência após esse prazo sugere outra etiologia",
+      "Função renal (ureia, creatinina) para avaliar o grau de comprometimento da filtração glomerular",
+      "Biópsia renal reservada a casos atípicos, prolongados ou com sinais de gravidade (evolução rapidamente progressiva), não indicada rotineiramente na forma pós-estreptocócica típica em criança",
+    ],
+    diagnosticoDiferencial: [
+      "Síndrome nefrótica (edema mais proeminente com proteinúria maciça, sem a hematúria dismórfica predominante)",
+      "Nefropatia por IgA (hematúria macroscópica recorrente concomitante a infecções de vias aéreas superiores, sem o intervalo de latência típico da forma pós-estreptocócica)",
+      "Glomerulonefrite rapidamente progressiva (perda de função renal em dias a semanas, exigindo investigação e biópsia urgentes)",
+    ],
+    tratamento: [
+      "Tratamento predominantemente de suporte na forma pós-estreptocócica: restrição de sódio e líquidos, diuréticos para controle do edema e da hipertensão",
+      "Anti-hipertensivos quando necessário para controle pressórico além das medidas de restrição",
+      "Antibioticoterapia para erradicar o foco estreptocócico residual, se ainda presente, embora não altere o curso da glomerulonefrite já estabelecida",
+      "Diálise reservada a casos com complicações graves (hipercalemia refratária, sobrecarga volêmica não responsiva, uremia sintomática)",
+    ],
+    complicacoes: [
+      "Aguda: encefalopatia hipertensiva, edema agudo de pulmão por sobrecarga volêmica, hipercalemia",
+      "Crônica: evolução para doença renal crônica é rara na forma pós-estreptocócica típica em crianças, mas mais comum em adultos ou em formas associadas a doença sistêmica subjacente",
+    ],
+    redFlags: [
+      "Hipertensão grave associada a cefaleia intensa, alteração visual ou convulsão sugere encefalopatia hipertensiva, exigindo tratamento anti-hipertensivo urgente",
+      "Perda rápida e progressiva da função renal em dias a semanas sugere glomerulonefrite rapidamente progressiva, exigindo investigação e biópsia renal urgentes, distinta do curso autolimitado esperado na forma pós-estreptocócica",
+    ],
+    prognostico:
+      "Na forma pós-estreptocócica em crianças, o prognóstico é excelente, com recuperação completa da função renal na grande maioria dos casos em semanas. Em adultos e em formas associadas a doença sistêmica, o prognóstico é mais reservado, com maior risco de evolução para doença renal crônica.",
+    pontosDeProva: [
+      "O complemento C3 reduzido, normalizando em 6-8 semanas, é achado laboratorial característico da glomerulonefrite pós-estreptocócica — sua persistência além desse prazo deve motivar investigação de outra causa",
+      "O intervalo de latência entre a infecção estreptocócica e o início dos sintomas renais (1-3 semanas) é um dado histórico central para o diagnóstico e frequentemente cobrado",
+      "Cilindros hemáticos na urina localizam o sangramento à origem glomerular, distinguindo de causas urológicas de hematúria",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menino, 7 anos, apresenta urina escurecida, edema periorbital e pressão arterial elevada 2 semanas após um episódio de faringite não tratada.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a investigação inicial?",
+      raciocinio:
+        "A tríade de hematúria, edema e hipertensão, com intervalo de latência típico após faringite em criança, é altamente sugestiva de glomerulonefrite pós-estreptocócica.",
+      conduta:
+        "Solicitar urina tipo I (esperando hematúria dismórfica e cilindros hemáticos), complemento C3 (esperando redução) e título de ASLO; iniciar tratamento de suporte com restrição de sódio e líquidos e controle da pressão arterial.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é predominantemente de suporte (restrição de sódio/líquidos, diuréticos e anti-hipertensivos conforme necessidade individual), sem um medicamento específico único de primeira linha para a doença em si.",
+    fontes: [
+      { tema: "Fisiopatologia (depósito de complexos imunes) e intervalo de latência pós-estreptocócico", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Cinética do complemento C3 e indicação de biópsia renal", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "sindrome-nefrotica",
+    nome: "Síndrome nefrótica",
+    sinonimos: ["Nefrose", "Doença de lesões mínimas (causa mais comum na infância)"],
+    cid10: "N04",
+    especialidade: "Nefrologia",
+    etiologia: "Autoimune",
+    resumo: "Síndrome glomerular definida por proteinúria maciça, hipoalbuminemia, edema e hiperlipidemia, cuja causa mais comum em crianças (doença de lesões mínimas) responde tipicamente bem a corticosteroide.",
+    definicao:
+      "Síndrome clínica resultante de aumento acentuado da permeabilidade glomerular a proteínas, definida classicamente por proteinúria maciça (≥3,5 g/24h em adultos), hipoalbuminemia, edema e hiperlipidemia secundária.",
+    epidemiologia:
+      "A doença de lesões mínimas é a causa mais comum de síndrome nefrótica em crianças, geralmente entre 2-6 anos. Em adultos, a glomeruloesclerose segmentar e focal e a nefropatia membranosa tornam-se causas proporcionalmente mais frequentes, exigindo biópsia renal para diagnóstico etiológico definitivo.",
+    fisiopatologia:
+      "Lesão dos podócitos (células epiteliais viscerais glomerulares) compromete a barreira de filtração glomerular normalmente seletiva a proteínas, permitindo perda maciça de albumina e outras proteínas na urina. A hipoalbuminemia resultante reduz a pressão oncótica plasmática, favorecendo extravasamento de líquido para o interstício (edema), enquanto o fígado responde à perda proteica aumentando a síntese de lipoproteínas, causando hiperlipidemia.",
+    classificacao:
+      "Classificada histologicamente por biópsia renal (indicada em adultos e em crianças com apresentação atípica): doença de lesões mínimas (achado histológico mínimo à microscopia óptica, resposta tipicamente excelente a corticosteroide), glomeruloesclerose segmentar e focal, nefropatia membranosa, e formas secundárias a diabetes, lúpus, amiloidose ou neoplasias.",
+    quadroClinico: [
+      "Edema progressivo, tipicamente iniciando periorbital pela manhã e evoluindo para anasarca em casos intensos",
+      "Espuma na urina, refletindo a proteinúria maciça",
+      "Ganho de peso rápido por retenção hídrica",
+      "Maior suscetibilidade a infecções (sobretudo por perda urinária de imunoglobulinas) e a fenômenos tromboembólicos (por perda de fatores anticoagulantes naturais e hemoconcentração)",
+    ],
+    diagnostico: [
+      "Proteinúria maciça em amostra de 24 horas (≥3,5 g/24h em adultos) ou relação proteína/creatinina urinária elevada, critério diagnóstico central",
+      "Hipoalbuminemia sérica e hiperlipidemia associadas completam o quadro laboratorial clássico",
+      "Biópsia renal indicada em adultos e em crianças com apresentação atípica (resposta inadequada ao corticosteroide, hematúria significativa, complemento baixo) para definição histológica",
+    ],
+    examesComplementares: [
+      "Proteinúria de 24 horas ≥3,5 g ou relação proteína/creatinina urinária ≥3,5, definindo a faixa nefrótica",
+      "Albumina sérica tipicamente abaixo de 3 g/dL",
+      "Perfil lipídico com hipercolesterolemia significativa, secundária à síntese hepática compensatória",
+    ],
+    diagnosticoDiferencial: [
+      "Síndrome nefrítica (hematúria dismórfica e hipertensão mais proeminentes, proteinúria tipicamente menos maciça)",
+      "Insuficiência cardíaca e cirrose hepática (também causam edema, distinguidas pela ausência de proteinúria maciça)",
+      "Causas secundárias de proteinúria maciça (diabetes mellitus, lúpus eritematoso sistêmico, amiloidose), sempre a serem investigadas conforme o contexto clínico",
+    ],
+    tratamento: [
+      "Corticosteroide sistêmico (prednisona) é o tratamento de primeira linha na doença de lesões mínimas, com resposta completa esperada na grande maioria das crianças em 4-8 semanas",
+      "Inibidor da enzima conversora de angiotensina ou bloqueador do receptor de angiotensina (ex.: losartana) reduz a proteinúria por efeito hemodinâmico intrarrenal, sendo usado como adjuvante em praticamente todas as causas de síndrome nefrótica, independentemente da etiologia histológica",
+      "Restrição de sódio e diuréticos para controle do edema",
+      "Estatina para a dislipidemia associada, quando persistente",
+      "Anticoagulação profilática considerada em casos de proteinúria muito grave e prolongada, pelo risco elevado de trombose",
+      "Imunossupressores adicionais (inibidores de calcineurina, rituximabe) reservados a casos corticorresistentes ou corticodependentes",
+    ],
+    complicacoes: [
+      "Aguda: trombose venosa (incluindo trombose de veia renal), infecção por perda urinária de imunoglobulinas (risco aumentado de peritonite bacteriana espontânea e infecções por bactérias encapsuladas)",
+      "Crônica: doença renal crônica progressiva nas formas histológicas menos responsivas ao tratamento (glomeruloesclerose segmentar e focal, nefropatia membranosa)",
+    ],
+    redFlags: [
+      "Dor abdominal aguda com febre em criança com síndrome nefrótica deve levantar suspeita de peritonite bacteriana espontânea, complicação grave favorecida pela perda urinária de imunoglobulinas",
+      "Dor em flanco associada a hematúria macroscópica súbita sugere trombose de veia renal, complicação trombótica característica da síndrome nefrótica",
+    ],
+    prognostico:
+      "A doença de lesões mínimas tem excelente prognóstico, com a maioria das crianças respondendo completamente ao corticosteroide, embora recidivas sejam comuns. Outras causas histológicas, mais frequentes em adultos, têm prognóstico mais variável e maior risco de progressão para doença renal crônica.",
+    pontosDeProva: [
+      "A doença de lesões mínimas é a causa mais comum de síndrome nefrótica em crianças e tem resposta classicamente excelente ao corticosteroide — associação central e muito cobrada",
+      "O inibidor da ECA/bloqueador do receptor de angiotensina reduz a proteinúria por mecanismo hemodinâmico intrarrenal, sendo usado como adjuvante independentemente da causa histológica de base",
+      "O estado de hipercoagulabilidade da síndrome nefrótica (por perda urinária de antitrombina III, entre outros fatores) é uma associação clinicamente relevante e frequentemente cobrada",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menino, 4 anos, com edema periorbital progressivo há 5 dias, evoluindo para edema de membros inferiores e escroto, com urina espumosa.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Edema progressivo com urina espumosa em criança pequena sugere síndrome nefrótica, sendo a doença de lesões mínimas a causa mais provável nessa faixa etária.",
+      conduta:
+        "Confirmar proteinúria maciça e hipoalbuminemia; iniciar corticosteroide sistêmico como tratamento empírico de primeira linha, reservando biópsia renal para casos de resposta inadequada ou apresentação atípica.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "prednisona", nome: "Prednisona" },
+      { slug: "losartana-potassica", nome: "Losartana potássica" },
+    ],
+    medicamentosSecaoTitulo: "Corticosteroide (doença de lesões mínimas) e bloqueador do receptor de angiotensina (redução da proteinúria, adjuvante em todas as causas)",
+    medicamentosNota:
+      "A prednisona é primeira linha especificamente para a doença de lesões mínimas, a causa mais comum em crianças; outras causas histológicas (mais comuns em adultos) podem não responder ao corticosteroide isoladamente. A losartana atua reduzindo a proteinúria por mecanismo hemodinâmico, sendo usada como adjuvante independentemente da causa de base.",
+    fontes: [
+      { tema: "Fisiopatologia (lesão podocitária) e definição laboratorial", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Corticosteroide na doença de lesões mínimas e efeito antiproteinúrico do bloqueio do sistema renina-angiotensina", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "insuficiencia-renal-aguda",
+    nome: "Insuficiência renal aguda",
+    sinonimos: ["Lesão renal aguda", "IRA"],
+    cid10: "N17",
+    especialidade: "Nefrologia",
+    etiologia: "Multifatorial",
+    resumo: "Declínio abrupto da função renal, classificado etiologicamente em pré-renal, renal intrínseca e pós-renal, cuja causa mais comum globalmente é a hipoperfusão renal (pré-renal).",
+    definicao:
+      "Síndrome caracterizada por declínio abrupto (horas a dias) da taxa de filtração glomerular, resultando em retenção de produtos nitrogenados (ureia, creatinina) e, frequentemente, em distúrbios do equilíbrio hidroeletrolítico e ácido-base.",
+    epidemiologia:
+      "Comum em pacientes hospitalizados, sobretudo em unidades de terapia intensiva, onde a sepse é a causa mais frequente. Fatores de risco incluem idade avançada, doença renal crônica prévia, uso de nefrotoxinas (contraste iodado, aminoglicosídeos, anti-inflamatórios não esteroidais) e cirurgias de grande porte.",
+    fisiopatologia:
+      "Na forma pré-renal, a hipoperfusão renal (por hipovolemia, insuficiência cardíaca ou vasodilatação sistêmica) reduz a pressão de filtração glomerular sem lesão estrutural do parênquima, sendo potencialmente reversível com a restauração da perfusão. Na forma renal intrínseca, há lesão direta do parênquima (necrose tubular aguda mais comumente, por isquemia prolongada ou nefrotoxinas; também glomerulonefrites e nefrites intersticiais). Na forma pós-renal, a obstrução do trato urinário aumenta a pressão retrógrada, reduzindo a filtração glomerular; se prolongada e não corrigida, pode evoluir para lesão estrutural permanente.",
+    classificacao:
+      "Classificada etiologicamente em pré-renal, renal (intrínseca) e pós-renal (obstrutiva), e estadiada por gravidade conforme os critérios KDIGO, com base na elevação da creatinina sérica e/ou redução do débito urinário.",
+    quadroClinico: [
+      "Oligúria (frequentemente, embora possa haver formas não oligúricas) ou anúria em casos graves ou obstrutivos completos",
+      "Sinais de sobrecarga volêmica (edema, dispneia) quando há retenção significativa de sódio e água",
+      "Manifestações de uremia em casos avançados (náusea, confusão mental, pericardite urêmica)",
+      "Sinais da causa de base frequentemente predominam o quadro clínico (hipovolemia, sepse, obstrução urinária)",
+    ],
+    diagnostico: [
+      "Elevação da creatinina sérica e/ou redução do débito urinário conforme critérios KDIGO, definindo o diagnóstico e a gravidade",
+      "Investigação etiológica sistemática: avaliação de volemia e uso de nefrotoxinas, exame de urina (sedimento, proteinúria), e ultrassonografia renal para excluir causa obstrutiva",
+      "Fração de excreção de sódio auxilia na distinção entre causa pré-renal (tipicamente abaixo de 1%) e necrose tubular aguda estabelecida (tipicamente acima de 2%)",
+    ],
+    examesComplementares: [
+      "Critérios KDIGO: elevação da creatinina sérica ≥0,3 mg/dL em 48 horas, ou ≥1,5 vez o valor basal em 7 dias, ou débito urinário <0,5 mL/kg/h por 6 horas, definindo estágios 1 a 3 de gravidade",
+      "Fração de excreção de sódio abaixo de 1% sugere causa pré-renal; acima de 2% sugere necrose tubular aguda estabelecida",
+      "Ultrassonografia renal para avaliar hidronefrose (causa obstrutiva) e tamanho/ecogenicidade renal (sugerindo cronicidade se rins reduzidos)",
+      "Potássio sérico seriado, dado o risco de hipercalemia com repercussão cardíaca potencialmente fatal",
+    ],
+    diagnosticoDiferencial: [
+      "Doença renal crônica agudizada ou de base (avaliada por história prévia, tamanho renal reduzido à ultrassonografia e anemia normocítica associada)",
+      "Síndrome hepatorrenal em pacientes com cirrose avançada e ascite",
+      "Glomerulonefrite rapidamente progressiva, quando o sedimento urinário mostra hematúria dismórfica e cilindros hemáticos",
+    ],
+    tratamento: [
+      "Correção da causa de base: reposição volêmica na forma pré-renal, suspensão de nefrotoxinas, desobstrução urinária (sondagem vesical, nefrostomia) na forma pós-renal",
+      "Ajuste de dose de medicações de eliminação renal e evitar novas nefrotoxinas durante o episódio",
+      "Correção de distúrbios hidroeletrolíticos e ácido-base associados, com atenção especial ao manejo da hipercalemia",
+      "Terapia renal substitutiva (diálise) indicada em casos refratários com sobrecarga volêmica grave, hipercalemia refratária, acidose grave ou uremia sintomática",
+    ],
+    complicacoes: [
+      "Aguda: hipercalemia com risco de arritmia fatal, sobrecarga volêmica com edema agudo de pulmão, acidose metabólica grave, pericardite urêmica",
+      "Crônica: evolução para doença renal crônica em uma parcela dos pacientes, sobretudo após episódios graves ou prolongados de necrose tubular aguda",
+    ],
+    redFlags: [
+      "Hipercalemia significativa com alterações eletrocardiográficas (ondas T apiculadas, alargamento do QRS) é emergência que exige tratamento imediato, independentemente da causa de base da insuficiência renal",
+      "Anúria completa deve levantar suspeita imediata de causa obstrutiva bilateral ou necrose cortical grave, exigindo investigação de imagem urgente",
+    ],
+    prognostico:
+      "O prognóstico depende fortemente da causa de base e da gravidade: a forma pré-renal e a pós-renal, quando corrigidas prontamente, têm alta taxa de recuperação completa da função renal; a necrose tubular aguda estabelecida tem recuperação mais lenta e parcial, e uma parcela dos pacientes evolui para necessidade de diálise crônica ou doença renal crônica permanente.",
+    pontosDeProva: [
+      "A fração de excreção de sódio é ferramenta clássica para diferenciar causa pré-renal de necrose tubular aguda estabelecida, sendo frequentemente cobrada em prova",
+      "Os critérios KDIGO definem a lesão renal aguda por elevação da creatinina e/ou redução do débito urinário, parâmetros que devem ser lembrados em conjunto",
+      "A hipercalemia é a complicação mais imediatamente ameaçadora à vida e deve ser ativamente monitorada e tratada, independentemente da etiologia de base",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 70 anos, internado por pneumonia grave, evolui com queda do débito urinário e elevação da creatinina sérica de 0,9 para 2,1 mg/dL em 48 horas, em uso de aminoglicosídeo.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Elevação aguda da creatinina em paciente com sepse e uso de nefrotoxina (aminoglicosídeo) sugere insuficiência renal aguda multifatorial, com componentes pré-renal (sepse) e nefrotóxico direto.",
+      conduta:
+        "Avaliar volemia e otimizar perfusão renal, suspender ou ajustar a dose do aminoglicosídeo, monitorar potássio sérico seriadamente e investigar causa obstrutiva com ultrassonografia renal se a causa não for evidente.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende da correção da causa de base (reposição volêmica, suspensão de nefrotoxinas, desobstrução urinária) e, quando indicado, de terapia renal substitutiva — não há um medicamento específico de primeira linha para a insuficiência renal aguda em si.",
+    fontes: [
+      { tema: "Classificação etiológica (pré-renal, renal, pós-renal) e critérios KDIGO", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Fração de excreção de sódio na distinção pré-renal vs. necrose tubular aguda", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "nefrolitiase",
+    nome: "Calculose do rim e do ureter (nefrolitíase)",
+    sinonimos: ["Litíase renal", "Cálculo renal"],
+    cid10: "N20",
+    especialidade: "Urologia",
+    etiologia: "Metabólica",
+    resumo: "Formação de cálculos no trato urinário superior, mais comumente de cálcio (oxalato de cálcio), por supersaturação urinária de solutos litogênicos, com dor tipicamente desencadeada pela migração do cálculo pelo ureter.",
+    definicao:
+      "Formação de concreções sólidas (cálculos) no sistema coletor renal ou nos ureteres, resultantes da precipitação e cristalização de solutos presentes na urina em concentração supersaturada, mais comumente sais de cálcio (oxalato ou fosfato).",
+    epidemiologia:
+      "Mais comum em homens entre 30-50 anos, com fatores de risco incluindo baixa ingesta hídrica, dieta rica em sódio e proteína animal, obesidade e histórico familiar. Os cálculos de oxalato de cálcio são os mais frequentes, seguidos por ácido úrico, estruvita (associados a infecção urinária por bactérias produtoras de urease) e cistina (causa hereditária rara).",
+    fisiopatologia:
+      "A supersaturação urinária de solutos litogênicos (cálcio, oxalato, ácido úrico, entre outros) em relação a inibidores naturais da cristalização (citrato, magnésio) favorece a nucleação e o crescimento de cristais, que se agregam formando o cálculo. A migração do cálculo pelo ureter obstrui o fluxo urinário, aumentando a pressão retrógrada no sistema coletor e distendendo a cápsula renal, o que desencadeia a dor característica.",
+    classificacao:
+      "Classificada pela composição química do cálculo (oxalato de cálcio, o mais comum; fosfato de cálcio; ácido úrico, associado a urina persistentemente ácida; estruvita, associada a infecção urinária por bactérias produtoras de urease; cistina, de causa hereditária), com implicação direta na estratégia de prevenção de recorrência.",
+    quadroClinico: [
+      "Dor lombar ou em flanco de início súbito, tipicamente em cólica, podendo irradiar para a virilha conforme o cálculo migra pelo ureter",
+      "Hematúria macroscópica ou microscópica, presente na maioria dos episódios sintomáticos",
+      "Náusea e vômitos associados à intensidade da dor",
+      "Cálculos pequenos e assintomáticos podem ser achado incidental em exames de imagem",
+    ],
+    diagnostico: [
+      "Tomografia computadorizada de abdome sem contraste é o exame de escolha para confirmação diagnóstica, localização e determinação do tamanho do cálculo",
+      "Ultrassonografia renal como alternativa inicial, sobretudo em gestantes e crianças, para evitar exposição à radiação, embora com menor sensibilidade para cálculos ureterais pequenos",
+      "Análise da composição do cálculo eliminado ou removido, quando disponível, para orientar a estratégia de prevenção de recorrência",
+    ],
+    examesComplementares: [
+      "Tomografia sem contraste detecta a grande maioria dos cálculos, incluindo os radiotransparentes ao raio-X simples (ex.: ácido úrico)",
+      "Urina tipo I com hematúria (microscópica ou macroscópica) na maioria dos casos sintomáticos",
+      "Dosagem de cálcio, ácido úrico e função renal, além de investigação metabólica em pacientes com litíase recorrente, para identificar fatores de risco corrigíveis",
+    ],
+    diagnosticoDiferencial: [
+      "Pielonefrite aguda (pode coexistir com nefrolitíase obstrutiva; febre e outros sinais sistêmicos de infecção sugerem essa associação, uma emergência urológica)",
+      "Apendicite aguda e outras causas de abdome agudo, sobretudo quando a dor é predominantemente abdominal",
+      "Dissecção ou aneurisma de aorta abdominal em pacientes idosos com fatores de risco vascular, diagnóstico diferencial importante a não perder",
+    ],
+    tratamento: [
+      "Analgesia adequada durante episódios sintomáticos (cólica nefrética), detalhada na ficha específica dessa condição",
+      "Terapia expulsiva medicamentosa com alfabloqueador para cálculos ureterais distais selecionados, facilitando a passagem espontânea",
+      "Litotripsia extracorpórea por ondas de choque, ureteroscopia ou nefrolitotomia percutânea conforme o tamanho, a localização e a composição do cálculo, quando a passagem espontânea não é esperada ou já não ocorreu",
+      "Medidas de prevenção de recorrência orientadas pela composição do cálculo: aumento da ingesta hídrica para todos os tipos, restrição de sódio e proteína animal, e medidas específicas conforme a composição identificada",
+    ],
+    complicacoes: [
+      "Aguda: obstrução urinária completa com hidronefrose, pielonefrite obstrutiva (emergência urológica que exige desobstrução urgente associada a antibioticoterapia)",
+      "Crônica: perda progressiva de função renal por obstrução recorrente ou prolongada não tratada, formação de novos cálculos em pacientes não aderentes a medidas preventivas",
+    ],
+    redFlags: [
+      "Febre associada a dor em flanco e obstrução urinária define pielonefrite obstrutiva, emergência urológica que exige desobstrução urgente (cateter duplo J ou nefrostomia) associada a antibioticoterapia, sob risco de sepse",
+      "Anúria em paciente com rim único ou obstrução bilateral exige desobstrução urgente para evitar lesão renal permanente",
+    ],
+    prognostico:
+      "A maioria dos cálculos pequenos (geralmente até 5-6 mm) passa espontaneamente com analgesia e hidratação adequadas. Cálculos maiores frequentemente exigem intervenção urológica. Sem medidas preventivas, a recorrência é comum, ocorrendo em uma proporção substancial dos pacientes ao longo da vida.",
+    pontosDeProva: [
+      "A tomografia sem contraste é o exame de escolha para diagnóstico de nefrolitíase, superando o raio-X simples mesmo para cálculos radiotransparentes como os de ácido úrico",
+      "A febre associada a obstrução urinária por cálculo define uma emergência urológica (pielonefrite obstrutiva) que exige desobstrução urgente, não apenas antibioticoterapia isolada",
+      "Cálculos de estruvita associam-se a infecção urinária crônica por bactérias produtoras de urease (ex.: Proteus), formando os característicos cálculos coraliformes",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 38 anos, apresenta dor súbita e intensa em flanco direito, irradiando para a virilha, associada a hematúria macroscópica, sem febre.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e o exame de escolha para confirmação?",
+      raciocinio:
+        "Dor em cólica de início súbito em flanco com irradiação para a virilha e hematúria associada é o quadro clássico de nefrolitíase com migração ureteral do cálculo.",
+      conduta:
+        "Solicitar tomografia computadorizada de abdome sem contraste para confirmar e localizar o cálculo; na ausência de sinais de infecção ou obstrução completa, tratar a dor conforme o protocolo de cólica nefrética e orientar hidratação para favorecer a eliminação espontânea.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "A analgesia durante a crise dolorosa (cólica nefrética) tem ficha própria com o vínculo medicamentoso correspondente; a terapia expulsiva com alfabloqueador e o tratamento definitivo (litotripsia, ureteroscopia) ainda não têm ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia da supersaturação urinária e classificação por composição do cálculo", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Tomografia sem contraste como exame de escolha e conduta na pielonefrite obstrutiva", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "nefrite-tubulo-intersticial-aguda",
+    nome: "Nefrite túbulo-intersticial aguda",
+    sinonimos: ["Nefrite intersticial aguda", "NIA"],
+    cid10: "N10",
+    especialidade: "Nefrologia",
+    etiologia: "Multifatorial",
+    resumo: "Inflamação aguda do interstício e túbulos renais, mais comumente uma reação de hipersensibilidade a fármacos, causando lesão renal aguda potencialmente reversível com a suspensão do agente causador.",
+    definicao:
+      "Inflamação aguda do interstício renal e dos túbulos, poupando tipicamente os glomérulos, resultando em lesão renal aguda de mecanismo predominantemente imunomediado.",
+    epidemiologia:
+      "A causa mais comum é a reação de hipersensibilidade a fármacos, sobretudo antibióticos (beta-lactâmicos, sulfonamidas), anti-inflamatórios não esteroidais e inibidores de bomba de prótons, podendo ocorrer dias a semanas após o início do fármaco. Outras causas incluem infecções e doenças autoimunes sistêmicas.",
+    fisiopatologia:
+      "O fármaco (ou seu metabólito) atua como hapteno, desencadeando uma reação de hipersensibilidade predominantemente mediada por células T contra estruturas do interstício e túbulos renais, com infiltrado inflamatório (frequentemente rico em eosinófilos nas formas induzidas por fármaco) que compromete a função tubular e, secundariamente, a filtração glomerular.",
+    classificacao:
+      "Classificada etiologicamente em induzida por fármacos (a mais comum), infecciosa, associada a doenças autoimunes sistêmicas (síndrome de Sjögren, lúpus, sarcoidose) e idiopática, incluindo formas associadas a uveíte (síndrome TINU).",
+    quadroClinico: [
+      "Elevação assintomática da creatinina sérica é a apresentação mais comum, frequentemente identificada em exames de rotina",
+      "Tríade clássica de febre, exantema cutâneo e eosinofilia periférica ocorre em uma minoria dos casos induzidos por fármaco, mas é altamente sugestiva quando presente",
+      "Artralgia e sintomas constitucionais leves podem acompanhar o quadro",
+    ],
+    diagnostico: [
+      "Suspeita clínica baseada na relação temporal entre início de novo fármaco e elevação da creatinina sérica",
+      "Urina tipo I com piúria estéril e, ocasionalmente, eosinofilúria, achados sugestivos embora não universalmente sensíveis ou específicos",
+      "Biópsia renal é o exame definitivo, mostrando infiltrado inflamatório intersticial (frequentemente com eosinófilos) com preservação relativa dos glomérulos, reservada a casos de diagnóstico incerto ou função renal não recuperada após suspensão do fármaco suspeito",
+    ],
+    examesComplementares: [
+      "Eosinofilia periférica presente em parcela dos casos induzidos por fármaco, achado de apoio embora inconstante",
+      "Urina tipo I com piúria estéril (leucócitos sem crescimento bacteriano em urocultura), sugerindo processo inflamatório não infeccioso",
+      "Biópsia renal com infiltrado inflamatório intersticial e tubulite, exame definidor quando realizado",
+    ],
+    diagnosticoDiferencial: [
+      "Necrose tubular aguda (geralmente associada a evento isquêmico ou nefrotóxico direto, sem o infiltrado inflamatório eosinofílico característico)",
+      "Pielonefrite aguda (piúria com urocultura positiva, distinguindo de piúria estéril)",
+      "Glomerulonefrite (hematúria dismórfica e cilindros hemáticos predominam, ao contrário do sedimento urinário da nefrite intersticial)",
+    ],
+    tratamento: [
+      "Suspensão imediata do fármaco suspeito é a medida mais importante e frequentemente suficiente para recuperação da função renal",
+      "Corticosteroide sistêmico (prednisona) é considerado em casos com função renal não recuperada após a suspensão do fármaco, sobretudo quando a biópsia confirma inflamação intersticial significativa",
+      "Suporte à função renal, incluindo terapia renal substitutiva temporária em casos graves, enquanto se aguarda recuperação",
+    ],
+    complicacoes: [
+      "Aguda: lesão renal aguda que pode exigir diálise temporária em casos graves",
+      "Crônica: fibrose intersticial residual com perda permanente de função renal em uma parcela dos casos, sobretudo quando o diagnóstico e a suspensão do fármaco são tardios",
+    ],
+    redFlags: [
+      "Elevação da creatinina após início recente de um novo fármaco, mesmo sem os achados clássicos de hipersensibilidade (febre, exantema, eosinofilia), deve levantar suspeita de nefrite intersticial induzida por fármaco e motivar reavaliação da necessidade daquele medicamento",
+    ],
+    prognostico:
+      "A maioria dos pacientes recupera a função renal, total ou parcialmente, após a suspensão do fármaco causador, geralmente ao longo de semanas a poucos meses. Diagnóstico e suspensão tardios do agente causador aumentam o risco de fibrose intersticial residual e perda permanente de função renal.",
+    pontosDeProva: [
+      "A suspensão do fármaco causador é a intervenção mais importante e deve ser a primeira conduta diante de suspeita de nefrite intersticial induzida por fármaco, antes mesmo de considerar corticosteroide",
+      "A tríade de febre, exantema e eosinofilia, quando presente, é altamente sugestiva de reação de hipersensibilidade a fármaco, mas sua ausência não exclui o diagnóstico",
+      "A piúria estéril (leucocitúria sem crescimento bacteriano) é achado de apoio importante que distingue de infecção urinária verdadeira",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 55 anos, em uso de omeprazol iniciado há 3 semanas, apresenta elevação assintomática da creatinina sérica de 0,8 para 2,0 mg/dL em exame de rotina.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Elevação da creatinina temporalmente relacionada ao início de um inibidor de bomba de prótons, fármaco classicamente associado a essa reação, sugere nefrite túbulo-intersticial aguda induzida por fármaco.",
+      conduta:
+        "Suspender o omeprazol e reavaliar a função renal seriadamente; se não houver recuperação em algumas semanas, considerar biópsia renal e avaliar indicação de corticosteroide sistêmico.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "prednisona", nome: "Prednisona" },
+    ],
+    medicamentosSecaoTitulo: "Considerado em casos sem recuperação após a suspensão do fármaco causador (não substitui essa suspensão)",
+    medicamentosNota:
+      "A medida mais importante é sempre a suspensão do fármaco causador; a prednisona é reservada a casos em que a função renal não se recupera adequadamente apenas com a suspensão.",
+    fontes: [
+      { tema: "Fisiopatologia da reação de hipersensibilidade e principais fármacos causadores", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Papel do corticosteroide em casos sem recuperação após suspensão do fármaco", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "colica-nefretica",
+    nome: "Cólica nefrética",
+    sinonimos: ["Cólica renal"],
+    cid10: "N23",
+    especialidade: "Urologia",
+    etiologia: "Metabólica",
+    resumo: "Síndrome dolorosa aguda causada pela distensão do sistema coletor renal e do ureter, mais comumente pela migração de um cálculo urinário, com anti-inflamatórios não esteroidais como analgesia de primeira linha.",
+    definicao:
+      "Síndrome de dor lombar ou em flanco aguda e intensa, tipicamente em cólica, resultante da distensão aguda do sistema coletor renal e/ou do ureter, mais comumente causada pela obstrução parcial ou completa por um cálculo urinário em migração.",
+    epidemiologia:
+      "Ocorre predominantemente em adultos jovens a de meia-idade, com os mesmos fatores de risco da nefrolitíase (baixa ingesta hídrica, dieta rica em sódio e proteína animal). É uma das causas mais comuns de dor abdominal/lombar aguda intensa levando a atendimento de urgência.",
+    fisiopatologia:
+      "A obstrução aguda do fluxo urinário pelo cálculo em migração aumenta rapidamente a pressão dentro do sistema coletor e da cápsula renal, ativando terminações nociceptivas por distensão capsular. A liberação local de prostaglandinas contribui tanto para a dor quanto para o aumento transitório do fluxo sanguíneo renal e da pressão intrapiélica, o que fundamenta o benefício analgésico específico dos anti-inflamatórios não esteroidais nesse contexto (além do efeito analgésico geral).",
+    classificacao:
+      "A gravidade e a conduta são orientadas principalmente pelo tamanho e pela localização do cálculo causador (identificados por exame de imagem), não havendo um sistema de estadiamento formal específico para a cólica em si — a classificação relevante é a da nefrolitíase subjacente.",
+    quadroClinico: [
+      "Dor lombar ou em flanco de início súbito e intensidade rapidamente crescente, tipicamente em cólica (com períodos de exacerbação e alívio parcial)",
+      "Irradiação da dor para a virilha ou genitália conforme o cálculo migra em direção à bexiga",
+      "Náusea e vômitos associados, frequentemente proeminentes",
+      "Agitação e incapacidade de encontrar posição confortável, achado semiológico característico que distingue de dor de origem peritoneal (em que o paciente tende a ficar imóvel)",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico apoiado por exame de imagem (tomografia sem contraste, exame de escolha) confirmando o cálculo obstrutivo e sua localização",
+      "Urina tipo I com hematúria (microscópica ou macroscópica) na maioria dos episódios",
+      "Avaliação de sinais de infecção associada (febre, leucocitose), cuja presença muda completamente a urgência e a conduta",
+    ],
+    examesComplementares: [
+      "Tomografia computadorizada de abdome sem contraste confirma o cálculo, seu tamanho e localização, orientando a probabilidade de passagem espontânea",
+      "Urina tipo I com hematúria na maioria dos casos, embora sua ausência não exclua o diagnóstico",
+      "Hemograma e proteína C-reativa quando há suspeita de infecção associada, situação que caracteriza uma emergência urológica",
+    ],
+    diagnosticoDiferencial: [
+      "Pielonefrite aguda (febre e sinais sistêmicos de infecção predominam, embora possa coexistir com obstrução por cálculo)",
+      "Apendicite aguda, quando a dor é predominantemente em flanco/fossa ilíaca direita",
+      "Dissecção ou aneurisma de aorta abdominal em pacientes idosos com fatores de risco vascular, diagnóstico diferencial que não pode ser perdido",
+    ],
+    tratamento: [
+      "Anti-inflamatório não esteroidal (ex.: ibuprofeno) é a analgesia de primeira linha para a cólica nefrética, com eficácia analgésica pelo menos equivalente e frequentemente superior à dos opioides, além de menor incidência de efeitos adversos",
+      "Opioides reservados a dor não controlada com anti-inflamatório isolado ou quando este é contraindicado (ex.: insuficiência renal significativa)",
+      "Hidratação adequada, sem necessidade de hiper-hidratação agressiva (que não acelera a eliminação do cálculo e pode piorar a dor pela distensão adicional do sistema coletor)",
+      "Tratamento definitivo do cálculo causador (terapia expulsiva, litotripsia, ureteroscopia) conforme detalhado na ficha de nefrolitíase",
+    ],
+    complicacoes: [
+      "Aguda: obstrução urinária completa com hidronefrose progressiva, pielonefrite obstrutiva quando há infecção associada à obstrução (emergência urológica)",
+      "Crônica: episódios recorrentes em pacientes com litíase de repetição não aderentes a medidas preventivas",
+    ],
+    redFlags: [
+      "Febre associada à cólica nefrética define pielonefrite obstrutiva até prova em contrário, emergência urológica que exige desobstrução urgente e antibioticoterapia, sob risco de sepse",
+      "Dor refratária à analgesia adequada ou anúria associada exige reavaliação urgente para excluir obstrução completa ou complicação",
+    ],
+    prognostico:
+      "A maioria dos episódios de cólica nefrética por cálculos pequenos resolve-se com analgesia adequada e passagem espontânea do cálculo em dias a poucas semanas. O prognóstico piora significativamente quando há infecção associada à obstrução, situação que exige intervenção urgente.",
+    pontosDeProva: [
+      "Os anti-inflamatórios não esteroidais são analgesia de primeira linha na cólica nefrética, com eficácia comparável ou superior aos opioides — distinção terapêutica frequentemente cobrada e contraintuitiva para quem assume opioide como padrão-ouro em dor intensa",
+      "A agitação do paciente, incapaz de encontrar posição confortável, é achado semiológico clássico que distingue a dor cólica renal de dor peritoneal (na qual o paciente evita se mover)",
+      "Febre associada à cólica nefrética redefine o quadro como emergência urológica (pielonefrite obstrutiva), mudando drasticamente a urgência da conduta",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 42 anos, chega ao pronto-socorro agitado, incapaz de ficar parado, com dor intensa em flanco esquerdo irradiando para a virilha, sem febre.",
+      pergunta: "Qual a conduta analgésica inicial mais apropriada?",
+      raciocinio:
+        "O quadro é típico de cólica nefrética por migração de cálculo ureteral; na ausência de contraindicação renal, o anti-inflamatório não esteroidal é a primeira escolha analgésica, com eficácia pelo menos equivalente à dos opioides.",
+      conduta:
+        "Administrar anti-inflamatório não esteroidal para analgesia, solicitar tomografia sem contraste para confirmar e localizar o cálculo, e reavaliar a necessidade de intervenção urológica conforme o tamanho encontrado.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "ibuprofeno", nome: "Ibuprofeno" },
+    ],
+    medicamentosSecaoTitulo: "Analgesia de primeira linha na crise dolorosa (não trata o cálculo causador)",
+    medicamentosNota:
+      "O ibuprofeno (representante dos anti-inflamatórios não esteroidais) controla a dor da crise, mas não substitui o tratamento definitivo do cálculo causador, abordado na ficha de nefrolitíase.",
+    fontes: [
+      { tema: "Fisiopatologia da dor por distensão capsular e papel das prostaglandinas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Anti-inflamatório não esteroidal como analgesia de primeira linha, com eficácia comparável ou superior a opioides", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "hiperplasia-prostatica-benigna",
+    nome: "Hiperplasia da próstata (HPB)",
+    sinonimos: ["Hiperplasia prostática benigna", "HPB"],
+    cid10: "N40",
+    especialidade: "Urologia",
+    etiologia: "Idiopática",
+    resumo: "Crescimento não maligno da zona de transição prostática relacionado ao envelhecimento, causando sintomas obstrutivos e irritativos do trato urinário inferior por compressão uretral.",
+    definicao:
+      "Aumento não neoplásico do volume prostático por hiperplasia estromal e epitelial da zona de transição da próstata, associado ao envelhecimento e a alterações no equilíbrio hormonal androgênico, causando obstrução mecânica progressiva do colo vesical e da uretra prostática.",
+    epidemiologia:
+      "Extremamente comum com o envelhecimento masculino, com prevalência histológica que ultrapassa 50% dos homens acima de 60 anos e mais de 80% acima de 80 anos, embora nem todos os portadores histológicos desenvolvam sintomas clinicamente significativos.",
+    fisiopatologia:
+      "A di-hidrotestosterona, metabólito ativo da testosterona formado pela enzima 5-alfa-redutase, estimula a proliferação estromal e epitelial da zona de transição prostática. O crescimento glandular comprime mecanicamente a uretra prostática (componente estático), enquanto o aumento do tônus da musculatura lisa do estroma prostático e do colo vesical, mediado por receptores alfa-1 adrenérgicos, contribui com um componente dinâmico adicional de obstrução.",
+    classificacao:
+      "Não há um sistema de estadiamento anatômico formal amplamente usado; a gravidade sintomática é avaliada e acompanhada pelo Escore Internacional de Sintomas Prostáticos (IPSS), que classifica os sintomas em leves, moderados e graves conforme a pontuação obtida.",
+    quadroClinico: [
+      "Sintomas obstrutivos: jato urinário fraco, hesitação miccional, esvaziamento vesical incompleto, gotejamento terminal",
+      "Sintomas irritativos: urgência miccional, polaciúria (incluindo noctúria), que frequentemente incomodam mais o paciente que os sintomas obstrutivos",
+      "Toque retal com próstata aumentada de forma simétrica, de consistência fibroelástica, sem nódulos endurecidos (achado que ajuda a diferenciar clinicamente de neoplasia prostática)",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado em sintomas do trato urinário inferior e toque retal compatível, complementado pelo Escore Internacional de Sintomas Prostáticos (IPSS) para quantificar gravidade e monitorar resposta ao tratamento",
+      "Exame de urina e função renal para excluir complicações e diagnósticos diferenciais",
+      "PSA sérico auxilia na estratificação de risco de crescimento prostático e no rastreamento concomitante de neoplasia prostática, interpretado sempre em conjunto com o toque retal",
+    ],
+    examesComplementares: [
+      "Escore Internacional de Sintomas Prostáticos (IPSS): pontuação de 0-7 sugere sintomas leves, 8-19 moderados e 20-35 graves, orientando a intensidade da intervenção",
+      "PSA sérico elevado pode refletir tanto o volume prostático aumentado pela HPB quanto levantar suspeita de neoplasia prostática concomitante, exigindo interpretação conjunta com o toque retal",
+      "Ultrassonografia de vias urinárias com medida do resíduo pós-miccional para avaliar o impacto funcional da obstrução",
+    ],
+    diagnosticoDiferencial: [
+      "Neoplasia maligna da próstata (nódulo endurecido e assimétrico ao toque retal, PSA desproporcionalmente elevado)",
+      "Estenose de uretra (história de instrumentação prévia ou infecção uretral)",
+      "Bexiga hiperativa e outras causas de sintomas irritativos isolados sem componente obstrutivo",
+    ],
+    tratamento: [
+      "Alfabloqueador seletivo relaxa a musculatura lisa do colo vesical e da cápsula prostática, proporcionando alívio sintomático relativamente rápido do componente dinâmico da obstrução",
+      "Inibidor da 5-alfa-redutase reduz o volume prostático ao longo de meses, sendo mais indicado em próstatas significativamente aumentadas, podendo ser combinado ao alfabloqueador",
+      "Tratamento cirúrgico (ressecção transuretral da próstata, entre outras técnicas) reservado a sintomas refratários ao tratamento clínico ou a complicações (retenção urinária recorrente, infecção urinária de repetição, insuficiência renal obstrutiva)",
+    ],
+    complicacoes: [
+      "Aguda: retenção urinária aguda, por vezes precipitada por descongestionantes, anticolinérgicos ou consumo excessivo de álcool",
+      "Crônica: infecção urinária de repetição, formação de divertículos vesicais, hidronefrose bilateral e insuficiência renal obstrutiva em casos avançados não tratados",
+    ],
+    redFlags: [
+      "Retenção urinária aguda completa é emergência urológica que exige sondagem vesical de alívio imediata",
+      "Sinais de insuficiência renal obstrutiva (elevação da creatinina, hidronefrose bilateral) exigem desobstrução urgente do trato urinário",
+      "Nódulo endurecido ao toque retal ou PSA muito elevado deve motivar investigação urgente de neoplasia prostática antes de assumir HPB isoladamente",
+    ],
+    prognostico:
+      "A HPB tem curso tipicamente lento e progressivo ao longo de décadas; a maioria dos pacientes obtém controle sintomático satisfatório com tratamento clínico, reservando-se a cirurgia para uma minoria com sintomas refratários ou complicações estabelecidas.",
+    pontosDeProva: [
+      "O alfabloqueador alivia o componente dinâmico (tônus muscular) da obstrução, enquanto o inibidor da 5-alfa-redutase reduz o componente estático (volume glandular) ao longo do tempo — mecanismos complementares frequentemente cobrados",
+      "O toque retal na HPB revela aumento simétrico e fibroelástico, diferente do nódulo endurecido e assimétrico característico da neoplasia prostática — distinção semiológica central",
+      "A retenção urinária aguda pode ser precipitada por medicamentos com efeito anticolinérgico ou simpaticomimético (descongestionantes), achado prático relevante na anamnese",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 68 anos, relata jato urinário fraco, hesitação miccional e necessidade de urinar 4 vezes por noite há 1 ano. Toque retal revela próstata aumentada, simétrica e fibroelástica, sem nódulos.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Sintomas obstrutivos e irritativos do trato urinário inferior associados a próstata aumentada, simétrica e sem nódulos ao toque retal são compatíveis com hiperplasia prostática benigna, sem sinais de alarme para neoplasia.",
+      conduta:
+        "Aplicar o Escore Internacional de Sintomas Prostáticos para quantificar a gravidade, solicitar PSA e função renal, e iniciar alfabloqueador para alívio sintomático inicial, considerando inibidor da 5-alfa-redutase se a próstata for significativamente aumentada.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento de primeira linha é o alfabloqueador seletivo (ex.: tansulosina) e, em próstatas maiores, o inibidor da 5-alfa-redutase (finasterida) — este último consta como item pendente no backlog de medicamentos; nenhum ainda tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia (componentes estático e dinâmico da obstrução) e mecanismo dos dois grupos farmacológicos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Escore Internacional de Sintomas Prostáticos (IPSS)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "cistite-itu",
+    nome: "Cistite (infecção do trato urinário baixo)",
+    sinonimos: ["ITU baixa", "Infecção urinária não complicada"],
+    cid10: "N30",
+    especialidade: "Urologia",
+    etiologia: "Bacteriana",
+    resumo: "Infecção bacteriana da bexiga, mais comumente por Escherichia coli, uma das infecções bacterianas mais frequentes em mulheres, com diagnóstico predominantemente clínico em casos não complicados.",
+    definicao:
+      "Infecção bacteriana da mucosa vesical, causando inflamação e sintomas urinários irritativos, classicamente causada por bactérias de origem entérica que ascendem pela uretra.",
+    epidemiologia:
+      "Muito mais comum em mulheres, pela uretra mais curta e proximidade anatômica com o períneo, com uma proporção significativa das mulheres apresentando pelo menos um episódio ao longo da vida. Escherichia coli é responsável pela grande maioria dos casos, seguida por outras enterobactérias e por Staphylococcus saprophyticus em mulheres jovens sexualmente ativas.",
+    fisiopatologia:
+      "Bactérias de origem entérica colonizam a região periuretral e ascendem pela uretra até a bexiga, onde aderem ao urotélio por meio de fímbrias e outros fatores de virulência, desencadeando resposta inflamatória local que causa os sintomas irritativos característicos (disúria, urgência, polaciúria).",
+    classificacao:
+      "Classificada em não complicada (mulher sem anormalidades estruturais ou funcionais do trato urinário, fora da gestação) e complicada (homens, gestantes, presença de sonda vesical, anormalidades estruturais, imunossupressão), distinção que orienta diretamente a duração do tratamento e a necessidade de investigação adicional.",
+    quadroClinico: [
+      "Disúria (dor ou ardor à micção), sintoma cardinal",
+      "Urgência e frequência miccional aumentada (polaciúria)",
+      "Dor suprapúbica, por vezes presente",
+      "Hematúria macroscópica ocasional (cistite hemorrágica)",
+      "Ausência de febre alta e dor lombar, achados que, quando presentes, sugerem progressão para pielonefrite (infecção do trato urinário alto)",
+    ],
+    diagnostico: [
+      "Diagnóstico predominantemente clínico em mulheres com sintomas típicos e sem fatores de complicação, dispensando exames complementares na maioria dos casos",
+      "Urina tipo I com piúria e, frequentemente, nitrito positivo (sugerindo bactérias que reduzem nitrato a nitrito, como as enterobactérias)",
+      "Urocultura reservada a casos de dúvida diagnóstica, falha terapêutica, recorrência, ou toda infecção urinária considerada complicada",
+    ],
+    examesComplementares: [
+      "Urina tipo I com piúria (leucocitúria) e, frequentemente, nitrito positivo, achados de apoio ao diagnóstico clínico",
+      "Urocultura com contagem de colônias, exame confirmatório reservado a casos complicados, recorrentes ou de resposta inadequada ao tratamento empírico inicial",
+    ],
+    diagnosticoDiferencial: [
+      "Pielonefrite aguda (febre, dor lombar e comprometimento do estado geral associados, indicando acometimento do trato urinário superior)",
+      "Vaginite e cervicite (podem causar sintomas urinários irritativos sobrepostos, distinguidas por exame ginecológico e características do corrimento)",
+      "Síndrome uretral aguda e cistite intersticial (sintomas urinários crônicos ou recorrentes sem confirmação bacteriológica)",
+    ],
+    tratamento: [
+      "Antibioticoterapia empírica de curta duração para cistite não complicada, guiada pelo padrão local de sensibilidade bacteriana",
+      "Analgésico urinário sintomático pode ser usado por curto período para alívio da disúria enquanto o antibiótico faz efeito",
+      "Investigação urológica adicional (imagem, avaliação de resíduo pós-miccional) indicada em casos de infecção recorrente ou complicada",
+      "Hidratação adequada como medida geral de suporte",
+    ],
+    complicacoes: [
+      "Aguda: progressão para pielonefrite quando não tratada ou tratada inadequadamente, sobretudo em pacientes com fatores de complicação",
+      "Crônica: infecção urinária de repetição, por vezes associada a anormalidades estruturais subjacentes não investigadas",
+    ],
+    redFlags: [
+      "Febre, dor lombar e comprometimento do estado geral associados aos sintomas urinários indicam progressão para pielonefrite, exigindo reavaliação da gravidade e, frequentemente, tratamento mais prolongado ou parenteral",
+      "Sintomas urinários em homens, gestantes ou pacientes com sonda vesical devem sempre ser considerados infecção complicada, com investigação e conduta terapêutica distintas da cistite simples em mulher não gestante",
+    ],
+    prognostico:
+      "A cistite não complicada tem excelente prognóstico, com resolução completa dos sintomas na grande maioria dos casos após antibioticoterapia adequada de curta duração. Infecções recorrentes ou complicadas exigem investigação adicional para identificar fatores predisponentes corrigíveis.",
+    pontosDeProva: [
+      "A distinção entre infecção urinária não complicada e complicada é central para definir a duração do tratamento e a necessidade de investigação adicional — homens, gestantes e usuários de sonda vesical são sempre considerados complicados",
+      "A presença de febre e dor lombar redefine o quadro como pielonefrite (infecção do trato urinário alto), com implicações terapêuticas distintas da cistite simples",
+      "Staphylococcus saprophyticus é causa característica de cistite em mulheres jovens sexualmente ativas, segunda causa mais comum depois de Escherichia coli nesse grupo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 26 anos, sexualmente ativa, sem comorbidades, relata disúria e urgência miccional há 2 dias, sem febre ou dor lombar.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Sintomas urinários irritativos típicos, sem febre ou dor lombar, em mulher jovem sem fatores de complicação, são compatíveis com cistite não complicada, cujo diagnóstico é predominantemente clínico.",
+      conduta:
+        "Iniciar antibioticoterapia empírica de curta duração conforme o padrão local de sensibilidade, sem necessidade de urocultura de rotina neste cenário não complicado.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os antibióticos de primeira linha para cistite não complicada (nitrofurantoína, sulfametoxazol-trimetoprima, fosfomicina) ainda não têm ficha própria no site.",
+    fontes: [
+      { tema: "Epidemiologia (predomínio em mulheres) e principais agentes etiológicos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Distinção entre infecção urinária complicada e não complicada", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "torcao-testicular",
+    nome: "Torção do testículo",
+    sinonimos: ["Torção testicular", "Torção do cordão espermático"],
+    cid10: "N44",
+    especialidade: "Urologia",
+    etiologia: "Idiopática",
+    resumo: "Emergência urológica causada pela rotação do cordão espermático sobre seu próprio eixo, comprometendo o suprimento sanguíneo testicular, com viabilidade do órgão dependente diretamente do tempo até a correção cirúrgica.",
+    definicao:
+      "Torção do cordão espermático sobre seu próprio eixo dentro da bolsa escrotal, comprometendo progressivamente o fluxo sanguíneo arterial e venoso testicular, configurando emergência urológica com risco de perda do órgão.",
+    epidemiologia:
+      "Ocorre predominantemente em adolescentes e adultos jovens, com um pico de incidência entre 12-18 anos, embora possa ocorrer em qualquer idade, incluindo o período neonatal. Associa-se frequentemente a uma anomalia anatômica predisponente (deformidade em \"badalo de sino\", que permite mobilidade excessiva do testículo dentro da túnica vaginal).",
+    fisiopatologia:
+      "A fixação inadequada do testículo dentro da túnica vaginal (deformidade em badalo de sino) permite rotação excessiva do órgão sobre o cordão espermático, comprometendo primeiro a drenagem venosa (de parede mais complacente) e, progressivamente, o fluxo arterial, levando a congestão, isquemia e, se não corrigida, infarto hemorrágico e necrose testicular irreversível.",
+    classificacao:
+      "Não há sistema de estadiamento formal amplamente usado; a decisão terapêutica é guiada principalmente pelo tempo decorrido desde o início dos sintomas, dado que a viabilidade testicular declina progressivamente e de forma tempo-dependente após o início da torção.",
+    quadroClinico: [
+      "Dor testicular ou escrotal de início súbito e intensidade grave, podendo irradiar para a região inguinal ou abdominal baixa",
+      "Náusea e vômitos associados, frequentes pela intensidade da dor",
+      "Testículo afetado tipicamente elevado e com posição horizontalizada, com ausência do reflexo cremastérico ipsilateral, achado de exame físico característico",
+      "Edema e eritema escrotal, que se instalam progressivamente com a evolução do quadro",
+    ],
+    diagnostico: [
+      "Diagnóstico predominantemente clínico diante de dor testicular aguda com ausência de reflexo cremastérico ipsilateral — a suspeita clínica não deve aguardar confirmação de imagem quando há alta probabilidade pré-teste, dado o caráter tempo-dependente da viabilidade testicular",
+      "Ultrassonografia com Doppler colorido demonstra ausência ou redução do fluxo sanguíneo testicular, exame confirmatório quando disponível sem atraso significativo na conduta",
+      "Exploração cirúrgica escrotal imediata indicada quando a suspeita clínica é alta, mesmo sem confirmação de imagem, dado que o atraso diagnóstico compromete diretamente a viabilidade do órgão",
+    ],
+    examesComplementares: [
+      "Ultrassonografia com Doppler colorido evidenciando ausência ou redução acentuada do fluxo sanguíneo intratesticular em comparação ao lado contralateral",
+      "Urina tipo I geralmente normal, achado que ajuda a distinguir de causas infecciosas (epididimite/orquite), embora sua normalidade não seja obrigatória para excluir torção",
+    ],
+    diagnosticoDiferencial: [
+      "Epididimite/orquite aguda (dor de início mais gradual, reflexo cremastérico tipicamente preservado, frequentemente com piúria associada)",
+      "Torção do apêndice testicular (dor geralmente mais localizada e de menor intensidade, podendo haver o sinal do 'ponto azul' à inspeção)",
+      "Hérnia inguinoescrotal encarcerada (massa redutível previamente identificável na história, distinção por exame físico e imagem)",
+    ],
+    tratamento: [
+      "Exploração cirúrgica escrotal de urgência com destorção manual e fixação (orquidopexia) do testículo afetado e, por prevenção, também do contralateral, dada a predisposição anatômica frequentemente bilateral",
+      "Orquiectomia indicada quando o testículo já se apresenta inviável (necrótico) no momento da exploração cirúrgica",
+      "A viabilidade testicular é altamente tempo-dependente: intervenção nas primeiras 6 horas do início dos sintomas associa-se a taxas de salvamento testicular muito superiores às de intervenções tardias",
+    ],
+    complicacoes: [
+      "Aguda: necrose testicular irreversível quando a correção cirúrgica é tardia",
+      "Crônica: atrofia testicular tardia mesmo após destorção bem-sucedida, subfertilidade e impacto psicológico, sobretudo em casos de orquiectomia",
+    ],
+    redFlags: [
+      "Dor testicular aguda e intensa de início súbito deve ser tratada como torção testicular até prova em contrário, com exploração cirúrgica de urgência não devendo ser postergada para aguardar exames complementares quando a suspeita clínica é alta",
+      "Cada hora de atraso na correção cirúrgica reduz progressivamente a chance de salvamento do testículo, tornando o reconhecimento e o encaminhamento imediatos decisivos para o desfecho",
+    ],
+    prognostico:
+      "A taxa de salvamento testicular é superior a 90% quando a correção cirúrgica ocorre nas primeiras 6 horas do início dos sintomas, caindo drasticamente após 12-24 horas de evolução, com necrose praticamente certa após esse período prolongado.",
+    pontosDeProva: [
+      "A viabilidade testicular é diretamente tempo-dependente — a torção testicular é uma das poucas verdadeiras emergências cirúrgicas em urologia, e o atraso diagnóstico é o principal determinante de perda do órgão",
+      "A ausência do reflexo cremastérico ipsilateral é o achado de exame físico mais sensível para torção testicular, embora sua presença não a exclua com certeza absoluta",
+      "A fixação cirúrgica (orquidopexia) do testículo contralateral é realizada por prevenção, dada a predisposição anatômica frequentemente bilateral (deformidade em badalo de sino)",
+    ],
+    casoClinico: {
+      vinheta:
+        "Adolescente, 14 anos, apresenta dor testicular direita súbita e intensa há 2 horas, associada a náusea. Exame físico revela testículo direito elevado e horizontalizado, com reflexo cremastérico ausente.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "Dor testicular súbita e intensa com testículo elevado, horizontalizado e reflexo cremastérico ausente é o quadro clássico de torção testicular, emergência cirúrgica tempo-dependente.",
+      conduta:
+        "Encaminhar imediatamente para exploração cirúrgica escrotal de urgência, sem aguardar confirmação por ultrassonografia se isso implicar atraso significativo, dado que cada hora reduz a chance de salvamento do testículo.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é cirúrgico de urgência (destorção e orquidopexia); não há tratamento medicamentoso específico para esta condição.",
+    fontes: [
+      { tema: "Fisiopatologia (deformidade em badalo de sino) e tempo-dependência da viabilidade testicular", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Ausência do reflexo cremastérico como achado semiológico e taxas de salvamento por tempo de evolução", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-prostata",
+    nome: "Neoplasia maligna da próstata",
+    sinonimos: ["Câncer de próstata", "Adenocarcinoma de próstata"],
+    cid10: "C61",
+    especialidade: "Urologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna mais comum do trato geniturinário masculino, tipicamente originada na zona periférica da próstata, com curso frequentemente indolente mas potencial de doença agressiva e metastática, sobretudo óssea.",
+    definicao:
+      "Neoplasia maligna originada mais comumente das células epiteliais glandulares da zona periférica da próstata (adenocarcinoma na grande maioria dos casos), com comportamento biológico que varia de indolente e de crescimento lento até formas agressivas com potencial metastático significativo.",
+    epidemiologia:
+      "É uma das neoplasias malignas mais comuns em homens, com incidência crescente após os 50 anos. Fatores de risco incluem idade avançada, histórico familiar e ascendência africana. O rastreamento populacional com PSA é controverso, pelo risco de sobrediagnóstico de tumores clinicamente indolentes.",
+    fisiopatologia:
+      "Alterações genéticas adquiridas em células epiteliais glandulares, mais comumente na zona periférica da próstata (diferente da zona de transição, sítio típico da hiperplasia benigna), levam à proliferação neoplásica descontrolada. O crescimento tumoral é tipicamente dependente de andrógenos em suas fases iniciais, base racional da terapia de privação androgênica em doença avançada, embora a doença possa eventualmente progredir para um estado de resistência à castração.",
+    classificacao:
+      "Classificado histologicamente pelo escore de Gleason (soma dos dois padrões arquiteturais mais representativos da biópsia, de 6 a 10, refletindo o grau de diferenciação tumoral) e estadiado pelo sistema TNM, que juntos, associados ao PSA, definem grupos de risco que orientam a estratégia terapêutica.",
+    quadroClinico: [
+      "Frequentemente assintomático em estágios iniciais, identificado por elevação do PSA ou achado no toque retal em exame de rotina",
+      "Sintomas obstrutivos do trato urinário inferior podem ocorrer em doença localmente avançada, semelhantes aos da hiperplasia benigna",
+      "Dor óssea, sobretudo em coluna vertebral e pelve, é manifestação característica de doença metastática, o sítio mais comum de disseminação à distância",
+      "Nódulo endurecido e assimétrico ao toque retal, achado sugestivo mas nem sempre presente, sobretudo em tumores de zona periférica em fase inicial",
+    ],
+    diagnostico: [
+      "PSA sérico elevado e/ou nódulo suspeito ao toque retal motivam biópsia prostática guiada por imagem, exame confirmatório e definidor do escore de Gleason",
+      "Ressonância magnética multiparamétrica da próstata auxilia na localização de áreas suspeitas antes da biópsia, aumentando a acurácia diagnóstica",
+      "Cintilografia óssea e/ou PET-CT específico para estadiamento em pacientes com doença de risco intermediário/alto, dada a propensão à disseminação óssea",
+    ],
+    examesComplementares: [
+      "PSA sérico, embora inespecífico (também elevado na HPB e em prostatites), é ferramenta central de rastreamento e monitorização, interpretado sempre em conjunto com o toque retal e a cinética de variação ao longo do tempo",
+      "Escore de Gleason na biópsia (soma dos dois padrões predominantes, variando de 6 a 10) é o principal determinante do grau de agressividade tumoral",
+      "Fosfatase alcalina elevada pode sugerir metástase óssea em doença avançada",
+    ],
+    diagnosticoDiferencial: [
+      "Hiperplasia prostática benigna (aumento simétrico e fibroelástico ao toque retal, sem nódulo endurecido, embora possa coexistir e ambos elevar o PSA)",
+      "Prostatite (pode elevar o PSA transitoriamente, distinguida por sintomas inflamatórios agudos e resposta a antibioticoterapia)",
+      "Outras causas de dor óssea em idosos (osteoartrose, osteoporose com fratura), quando a apresentação inicial é por sintomas ósseos",
+    ],
+    tratamento: [
+      "Vigilância ativa com PSA e biópsias seriadas em tumores de baixo risco, evitando tratamento imediato e seus efeitos adversos em doença de crescimento lento e baixo potencial de progressão",
+      "Prostatectomia radical ou radioterapia (externa ou braquiterapia) com intenção curativa em doença localizada de risco intermediário a alto",
+      "Terapia de privação androgênica (cirúrgica ou farmacológica, com análogos de LHRH ou antiandrógenos) como tratamento sistêmico central em doença avançada ou metastática, explorando a dependência androgênica do tumor",
+      "Quimioterapia e agentes mais recentes direcionados são reservados a doença resistente à castração, estágio mais avançado de progressão",
+    ],
+    complicacoes: [
+      "Aguda: retenção urinária por obstrução tumoral localmente avançada, compressão medular por metástase vertebral (emergência oncológica)",
+      "Crônica: metástases ósseas dolorosas e com risco de fratura patológica, efeitos adversos de longo prazo da terapia de privação androgênica (osteoporose, síndrome metabólica, disfunção sexual)",
+    ],
+    redFlags: [
+      "Dor lombar associada a fraqueza em membros inferiores ou disfunção esfincteriana em paciente com câncer de próstata conhecido sugere compressão medular por metástase vertebral, emergência oncológica que exige investigação e tratamento imediatos",
+      "Elevação progressiva do PSA após tratamento definitivo (prostatectomia ou radioterapia) sugere recidiva bioquímica, exigindo investigação e reavaliação terapêutica",
+    ],
+    prognostico:
+      "Extremamente variável conforme o grupo de risco ao diagnóstico: tumores de baixo risco, localizados, têm excelente prognóstico a longo prazo mesmo com vigilância ativa; doença metastática, embora geralmente incurável, frequentemente responde bem e por período prolongado à terapia de privação androgênica antes de eventual progressão para resistência à castração.",
+    pontosDeProva: [
+      "O escore de Gleason, calculado pela soma dos dois padrões arquiteturais predominantes na biópsia, é o principal determinante histológico de agressividade e deve ser lembrado como uma soma, não um valor único",
+      "A dependência androgênica do tumor é a base racional da terapia de privação androgênica em doença avançada, mecanismo terapêutico central e frequentemente cobrado",
+      "A vigilância ativa é conduta apropriada e cada vez mais recomendada em tumores de baixo risco, refletindo o reconhecimento do sobretratamento histórico dessa neoplasia frequentemente indolente",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 68 anos, assintomático, apresenta PSA de 8,5 ng/mL em exame de rotina, com nódulo endurecido palpável no lobo direito da próstata ao toque retal.",
+      pergunta: "Qual a conduta diagnóstica mais apropriada?",
+      raciocinio:
+        "PSA elevado associado a nódulo endurecido ao toque retal levanta suspeita significativa de neoplasia maligna de próstata, justificando investigação histológica confirmatória.",
+      conduta:
+        "Solicitar ressonância magnética multiparamétrica da próstata para localizar áreas suspeitas e encaminhar para biópsia prostática guiada por imagem, com definição do escore de Gleason caso confirmado o diagnóstico.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento sistêmico em doença avançada depende de terapia de privação androgênica (análogos de LHRH, antiandrógenos), ainda sem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia (dependência androgênica) e classificação por escore de Gleason/TNM", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Vigilância ativa em doença de baixo risco e terapia de privação androgênica em doença avançada", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-bexiga",
+    nome: "Neoplasia maligna da bexiga",
+    sinonimos: ["Câncer de bexiga", "Carcinoma urotelial"],
+    cid10: "C67",
+    especialidade: "Urologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna do urotélio vesical, fortemente associada ao tabagismo, cujo sinal de apresentação mais comum e mais importante é a hematúria macroscópica indolor.",
+    definicao:
+      "Neoplasia maligna originada mais comumente do urotélio (epitélio de transição) que reveste a bexiga, com o carcinoma urotelial correspondendo à grande maioria dos casos.",
+    epidemiologia:
+      "Mais comum em homens e em idosos, com o tabagismo sendo o principal fator de risco identificável, respondendo por uma proporção substancial dos casos. Exposição ocupacional a aminas aromáticas (indústria química, corantes) é outro fator de risco reconhecido.",
+    fisiopatologia:
+      "Carcinógenos (componentes do tabaco, aminas aromáticas) são excretados na urina e permanecem em contato prolongado com o urotélio vesical, promovendo alterações genéticas cumulativas nas células uroteliais que levam à transformação neoplásica. O tumor pode se apresentar como lesão superficial (não invasiva da musculatura) ou invadir a camada muscular própria, distinção com implicação prognóstica e terapêutica fundamental.",
+    classificacao:
+      "Classificado histologicamente (carcinoma urotelial na grande maioria dos casos) e estadiado pelo sistema TNM, com a distinção mais clinicamente relevante sendo entre doença não músculo-invasiva (superficial) e músculo-invasiva, que determina radicalmente a estratégia terapêutica.",
+    quadroClinico: [
+      "Hematúria macroscópica indolor, intermitente, é o sinal de apresentação mais comum e mais importante, devendo sempre motivar investigação urológica em pacientes de risco",
+      "Sintomas irritativos vesicais (urgência, polaciúria, disúria) podem ocorrer, sobretudo em doença mais extensa ou carcinoma in situ",
+      "Dor pélvica e sintomas obstrutivos ureterais em doença localmente avançada",
+    ],
+    diagnostico: [
+      "Cistoscopia com biópsia é o exame de escolha para visualização direta, biópsia e definição do estadiamento local do tumor",
+      "Citologia urinária pode identificar células neoplásicas, com maior sensibilidade para tumores de alto grau e carcinoma in situ",
+      "Tomografia com urografia para avaliar o trato urinário superior e excluir doença sincrônica, além de estadiamento de doença avançada",
+    ],
+    examesComplementares: [
+      "Cistoscopia com biópsia, exame definidor para confirmação histológica e avaliação da profundidade de invasão (não músculo-invasiva vs. músculo-invasiva)",
+      "Citologia urinária como exame complementar não invasivo, mais sensível para tumores de alto grau",
+      "Tomografia computadorizada de abdome e pelve com contraste para estadiamento locorregional e à distância em doença confirmada",
+    ],
+    diagnosticoDiferencial: [
+      "Infecção urinária e nefrolitíase (causas benignas comuns de hematúria, devendo ser excluídas ou tratadas antes de assumir hematúria persistente como benigna)",
+      "Neoplasia renal ou ureteral (hematúria de origem no trato urinário superior, distinguida por imagem e cistoscopia normal)",
+      "Cistite actínica ou hemorrágica de outras causas em pacientes com fatores de risco correspondentes (radioterapia pélvica prévia, uso de ciclofosfamida)",
+    ],
+    tratamento: [
+      "Ressecção transuretral do tumor vesical é o tratamento inicial tanto diagnóstico quanto terapêutico para doença não músculo-invasiva",
+      "Instilação intravesical de agentes imunoterápicos ou quimioterápicos após a ressecção, em tumores não músculo-invasivos de risco intermediário/alto, para reduzir recidiva e progressão",
+      "Cistectomia radical com derivação urinária é o tratamento padrão para doença músculo-invasiva localizada, frequentemente associada a quimioterapia neoadjuvante",
+      "Quimioterapia sistêmica e imunoterapia (inibidores de checkpoint) em doença metastática",
+    ],
+    complicacoes: [
+      "Aguda: hematúria maciça com risco de retenção urinária por coágulos",
+      "Crônica: recidiva e progressão tumoral em doença não músculo-invasiva não adequadamente vigiada e tratada, complicações da derivação urinária após cistectomia radical",
+    ],
+    redFlags: [
+      "Hematúria macroscópica indolor em qualquer paciente, sobretudo tabagista ou idoso, deve sempre motivar investigação urológica completa, mesmo que o episódio seja único e autolimitado",
+      "Sinais de invasão muscular ou doença localmente avançada (dor pélvica, sintomas obstrutivos ureterais) mudam radicalmente a estratégia terapêutica em relação à doença superficial",
+    ],
+    prognostico:
+      "A doença não músculo-invasiva tem bom prognóstico geral, mas com alta taxa de recidiva local, exigindo vigilância cistoscópica prolongada. A doença músculo-invasiva tem prognóstico mais reservado, ainda que potencialmente curável com cistectomia radical e tratamento multimodal; doença metastática tem prognóstico significativamente pior.",
+    pontosDeProva: [
+      "A hematúria macroscópica indolor é o sinal de alarme clássico e mais cobrado do câncer de bexiga, e nunca deve ser atribuída a uma causa benigna sem investigação completa em paciente de risco",
+      "A distinção entre doença não músculo-invasiva e músculo-invasiva é o determinante mais importante da estratégia terapêutica, não apenas o estadiamento TNM isoladamente",
+      "O tabagismo é o principal fator de risco modificável identificável para esta neoplasia, achado epidemiológico central",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 65 anos, tabagista há 40 anos, relata episódio único de hematúria macroscópica indolor há 1 semana, sem outros sintomas urinários.",
+      pergunta: "Qual a conduta diagnóstica apropriada?",
+      raciocinio:
+        "Hematúria macroscópica indolor em paciente tabagista idoso é sinal de alarme clássico para neoplasia urotelial e exige investigação completa, mesmo sendo um episódio único.",
+      conduta:
+        "Solicitar cistoscopia com biópsia para avaliação direta da bexiga, citologia urinária e tomografia com urografia para avaliar concomitantemente o trato urinário superior.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende de ressecção transuretral, instilação intravesical de agentes específicos, cistectomia radical ou quimioterapia sistêmica, nenhum correspondendo a uma ficha de medicamento individual já documentada no site.",
+    fontes: [
+      { tema: "Fatores de risco (tabagismo) e distinção entre doença não músculo-invasiva e músculo-invasiva", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Hematúria macroscópica indolor como sinal de apresentação mais comum", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-rim",
+    nome: "Neoplasia maligna do rim",
+    sinonimos: ["Câncer de rim", "Carcinoma de células renais"],
+    cid10: "C64",
+    especialidade: "Urologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna renal mais comum em adultos, o carcinoma de células renais é frequentemente descoberto incidentalmente em exames de imagem, com a tríade clássica de hematúria, dor em flanco e massa palpável hoje sendo apresentação rara de doença avançada.",
+    definicao:
+      "Neoplasia maligna originada mais comumente do epitélio tubular renal, sendo o carcinoma de células renais (subtipo de células claras o mais frequente) o tipo histológico predominante em adultos.",
+    epidemiologia:
+      "Mais comum em homens de meia-idade a idosos, com fatores de risco incluindo tabagismo, obesidade, hipertensão arterial e doença renal cística adquirida em pacientes em diálise crônica. A crescente utilização de exames de imagem abdominal por outras indicações tem aumentado a detecção incidental de tumores renais pequenos e assintomáticos.",
+    fisiopatologia:
+      "Alterações genéticas adquiridas (mais caracteristicamente envolvendo o gene supressor tumoral VHL no subtipo de células claras, também mutado na forma hereditária associada à síndrome de von Hippel-Lindau) levam à ativação de vias de sinalização angiogênicas, conferindo ao carcinoma de células renais um caráter tipicamente muito vascularizado, o que fundamenta a eficácia de terapias antiangiogênicas em doença avançada.",
+    classificacao:
+      "Classificado histologicamente (célula clara, o subtipo mais comum; papilífero; cromófobo, entre outros) e estadiado pelo sistema TNM, considerando tamanho tumoral, invasão de estruturas adjacentes (veia renal, veia cava inferior, gordura perirrenal) e presença de metástases.",
+    quadroClinico: [
+      "Frequentemente assintomático, descoberto incidentalmente em exame de imagem realizado por outra indicação — apresentação mais comum atualmente",
+      "A tríade clássica de hematúria, dor em flanco e massa palpável ocorre em uma minoria dos casos, geralmente refletindo doença já avançada",
+      "Síndromes paraneoplásicas (hipercalcemia, policitemia, hipertensão, febre de origem indeterminada, disfunção hepática não metastática) podem ser a manifestação inicial, achado característico desta neoplasia",
+      "Sintomas constitucionais (perda de peso, fadiga) em doença avançada",
+    ],
+    diagnostico: [
+      "Tomografia computadorizada de abdome com contraste, exame central para caracterização de massa renal, avaliação de realce (sugerindo vascularização tumoral) e estadiamento locorregional",
+      "Ressonância magnética como alternativa em pacientes com contraindicação ao contraste iodado, e para melhor avaliação de invasão da veia renal/cava inferior",
+      "Biópsia percutânea reservada a casos selecionados (dúvida diagnóstica, planejamento de terapia sistêmica sem cirurgia prévia), já que a maioria dos casos é tratada cirurgicamente sem confirmação histológica prévia",
+    ],
+    examesComplementares: [
+      "Tomografia com contraste demonstrando massa renal sólida com realce, achado central que diferencia de cisto renal simples benigno",
+      "Cálcio sérico, hemograma completo (rastreando policitemia paraneoplásica) e provas de função hepática como parte da avaliação de síndromes paraneoplásicas associadas",
+      "Tomografia de tórax para rastreamento de metástases pulmonares, sítio mais comum de disseminação à distância",
+    ],
+    diagnosticoDiferencial: [
+      "Cisto renal simples (parede fina, sem septações ou realce ao contraste, achado extremamente comum e geralmente benigno)",
+      "Angiomiolipoma renal (tumor benigno com componente de gordura macroscópica característico à tomografia)",
+      "Abscesso renal (contexto clínico infeccioso, febre e leucocitose associadas)",
+    ],
+    tratamento: [
+      "Nefrectomia parcial (poupadora de néfrons) preferida sempre que tecnicamente viável para tumores localizados, sobretudo os menores, preservando função renal",
+      "Nefrectomia radical reservada a tumores maiores ou centralmente localizados não candidatos à cirurgia poupadora",
+      "Vigilância ativa é opção considerada em massas renais pequenas incidentais em pacientes idosos ou com comorbidades significativas, dado o crescimento frequentemente lento",
+      "Terapias sistêmicas antiangiogênicas e imunoterapia (inibidores de checkpoint) em doença metastática, refletindo o caráter altamente vascularizado característico do carcinoma de células renais",
+    ],
+    complicacoes: [
+      "Aguda: hemorragia significativa em tumores volumosos com ruptura espontânea",
+      "Crônica: metástases à distância (pulmão, osso, cérebro), progressão de síndromes paraneoplásicas não controladas até o tratamento do tumor primário",
+    ],
+    redFlags: [
+      "A tríade clássica de hematúria, dor em flanco e massa palpável, quando presente, geralmente indica doença já avançada e deve motivar investigação e estadiamento imediatos",
+      "Síndrome paraneoplásica inexplicada (hipercalcemia, policitemia) em paciente de risco deve motivar investigação de neoplasia renal oculta",
+    ],
+    prognostico:
+      "Tumores localizados e tratados cirurgicamente têm excelente prognóstico, com taxas de sobrevida em 5 anos elevadas. O prognóstico piora significativamente com doença metastática ao diagnóstico, embora as terapias sistêmicas modernas (antiangiogênicas, imunoterapia) tenham melhorado substancialmente os desfechos nessa fase da doença.",
+    pontosDeProva: [
+      "O carcinoma de células renais é classicamente associado a síndromes paraneoplásicas (hipercalcemia, policitemia, hipertensão), podendo ser a manifestação inicial antes de qualquer sintoma urológico direto",
+      "A tríade clássica de hematúria, dor em flanco e massa palpável é, na verdade, uma apresentação rara e tardia na era atual de detecção incidental por imagem — armadilha clássica de prova",
+      "A mutação do gene VHL, presente tanto na forma esporádica quanto na forma hereditária (síndrome de von Hippel-Lindau), fundamenta o caráter altamente vascularizado do tumor e a eficácia das terapias antiangiogênicas",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 62 anos, tabagista, é submetido a tomografia de abdome por outra indicação, sendo identificada massa sólida de 4 cm no rim direito com realce ao contraste, achado incidental.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "Massa renal sólida com realce ao contraste em paciente de risco é altamente suspeita de carcinoma de células renais, mesmo na ausência de qualquer sintoma urológico.",
+      conduta:
+        "Completar o estadiamento com tomografia de tórax para rastreamento de metástase pulmonar e encaminhar para avaliação cirúrgica, com preferência por nefrectomia parcial poupadora de néfrons dado o tamanho do tumor.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento de doença localizada é cirúrgico; a terapia sistêmica em doença metastática depende de antiangiogênicos e imunoterapia, nenhum ainda com ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia (via VHL e caráter vascularizado) e síndromes paraneoplásicas associadas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Tríade clássica como apresentação tardia e papel da detecção incidental por imagem", fonte: "fonte pendente" },
+    ],
+  },
 ];

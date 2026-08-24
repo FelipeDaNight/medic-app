@@ -181,6 +181,7 @@ export const medications: Medication[] = [
       { slug: "dorsalgia-lombalgia", nome: "Dorsalgia (lombalgia)" },
       { slug: "episclerite-esclerite", nome: "Episclerite e esclerite" },
       { slug: "enxaqueca", nome: "Enxaqueca" },
+      { slug: "colica-nefretica", nome: "Cólica nefrética" },
     ],
     fontes: [
       { tema: "Mecanismo de ação e efeitos adversos", fonte: "Goodman & Gilman, 13ª ed." },
@@ -484,6 +485,7 @@ export const medications: Medication[] = [
       { slug: "insuficiencia-cardiaca", nome: "Insuficiência cardíaca" },
       { slug: "doenca-renal-cronica", nome: "Doença renal crônica" },
       { slug: "aneurisma-dissecao-aorta", nome: "Aneurisma e dissecção da aorta" },
+      { slug: "sindrome-nefrotica", nome: "Síndrome nefrótica" },
     ],
     fontes: [
       { tema: "Mecanismo de ação", fonte: "Goodman & Gilman, 13ª ed." },
@@ -750,6 +752,8 @@ export const medications: Medication[] = [
       { slug: "purpura-afeccoes-hemorragicas", nome: "Púrpura e outras afecções hemorrágicas" },
       { slug: "linfoma-nao-hodgkin-difuso", nome: "Linfoma não-Hodgkin difuso" },
       { slug: "leucemia-linfoide", nome: "Leucemia linfoide" },
+      { slug: "sindrome-nefrotica", nome: "Síndrome nefrótica" },
+      { slug: "nefrite-tubulo-intersticial-aguda", nome: "Nefrite túbulo-intersticial aguda" },
     ],
     fontes: [
       { tema: "Mecanismo de ação glicocorticoide", fonte: "Goodman & Gilman, 13ª ed." },

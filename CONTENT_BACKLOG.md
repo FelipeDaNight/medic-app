@@ -15,7 +15,7 @@ Fontes:
   está, o único item da lista ainda pendente por esse motivo.
 
 Já documentados com ficha completa (**fora deste backlog**, não repetir):
-- **Doenças (156):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
+- **Doenças (168):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
   · Dengue · COVID-19 · Gastrite · DRGE · Artrite reumatoide · LES · Alzheimer · Anemia
   ferropriva · DRC · Infarto agudo do miocárdio · Angina pectoris · Doença isquêmica
   crônica do coração · Fibrilação e flutter atrial · Parada cardíaca · Febre reumática ·
@@ -59,7 +59,11 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   Anemia hemolítica adquirida · Anemias aplásticas · Coagulação
   intravascular disseminada · Hemofilia A · Púrpura e outras afecções
   hemorrágicas · Agranulocitose · Doença de Hodgkin · Linfoma não-Hodgkin
-  difuso · Leucemia mieloide · Leucemia linfoide
+  difuso · Leucemia mieloide · Leucemia linfoide · Síndrome nefrítica aguda ·
+  Síndrome nefrótica · Insuficiência renal aguda · Nefrolitíase · Nefrite
+  túbulo-intersticial aguda · Cólica nefrética · Hiperplasia prostática
+  benigna · Cistite/ITU · Torção do testículo · Neoplasia maligna da
+  próstata · Neoplasia maligna da bexiga · Neoplasia maligna do rim
 - **Medicamentos (29):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
@@ -259,19 +263,19 @@ especialidade.
 12. concluído — Leucemia mielóide (C92)
 13. concluído — Leucemia linfóide (C91)
 
-### Lote 12 — Nefrologia (6) + Urologia (6)
-1. pendente — Síndrome nefrítica aguda (N00)
-2. pendente — Síndrome nefrótica (N04)
-3. pendente — Insuficiência renal aguda (N17)
-4. pendente — Calculose do rim e do ureter / nefrolitíase (N20)
-5. pendente — Nefrite túbulo-intersticial aguda (N10)
-6. pendente — Cólica nefrética (N23)
-7. pendente — Hiperplasia da próstata / HPB (N40)
-8. pendente — Cistite / ITU (N30)
-9. pendente — Torção do testículo (N44)
-10. pendente — Neoplasia maligna da próstata (C61)
-11. pendente — Neoplasia maligna da bexiga (C67)
-12. pendente — Neoplasia maligna do rim (C64)
+### Lote 12 — Nefrologia (6) + Urologia (6) — ✅ CONCLUÍDO
+1. concluído — Síndrome nefrítica aguda (N00)
+2. concluído — Síndrome nefrótica (N04)
+3. concluído — Insuficiência renal aguda (N17)
+4. concluído — Calculose do rim e do ureter / nefrolitíase (N20)
+5. concluído — Nefrite túbulo-intersticial aguda (N10)
+6. concluído — Cólica nefrética (N23)
+7. concluído — Hiperplasia da próstata / HPB (N40)
+8. concluído — Cistite / ITU (N30)
+9. concluído — Torção do testículo (N44)
+10. concluído — Neoplasia maligna da próstata (C61)
+11. concluído — Neoplasia maligna da bexiga (C67)
+12. concluído — Neoplasia maligna do rim (C64)
 
 ### Lote 13 — Psiquiatria (13)
 1. pendente — Episódios depressivos (F32)
@@ -315,11 +319,11 @@ especialidade.
 8. pendente — Doença inflamatória do útero / DIP (N71)
 9. pendente — Transtornos da menopausa e da perimenopausa (N95)
 
-**Total: 48 doenças pendentes em 4 lotes** (Lotes 1-6, Lotes 7-9 Oftalmologia,
-Lote 10 Neurologia e Lote 11 Hematologia todos concluídos — 15 + 14 + 12 +
-13 + 14 + 12 + 33 + 14 + 13 itens), além das 156 já fichadas. **Oftalmologia,
-Neurologia e Hematologia fechadas por completo. Próxima prioridade: Lote 12
-(Nefrologia + Urologia, 12 itens).**
+**Total: 36 doenças pendentes em 3 lotes** (Lotes 1-6, Lotes 7-9 Oftalmologia,
+Lote 10 Neurologia, Lote 11 Hematologia e Lote 12 Nefrologia+Urologia todos
+concluídos — 15 + 14 + 12 + 13 + 14 + 12 + 33 + 14 + 13 + 12 itens), além das
+168 já fichadas. **Oftalmologia, Neurologia, Hematologia e Nefrologia+Urologia
+fechadas por completo. Próxima prioridade: Lote 13 (Psiquiatria, 13 itens).**
 
 ---
 
