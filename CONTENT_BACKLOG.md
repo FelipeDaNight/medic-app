@@ -15,7 +15,7 @@ Fontes:
   está, o único item da lista ainda pendente por esse motivo.
 
 Já documentados com ficha completa (**fora deste backlog**, não repetir):
-- **Doenças (107):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
+- **Doenças (118):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
   · Dengue · COVID-19 · Gastrite · DRGE · Artrite reumatoide · LES · Alzheimer · Anemia
   ferropriva · DRC · Infarto agudo do miocárdio · Angina pectoris · Doença isquêmica
   crônica do coração · Fibrilação e flutter atrial · Parada cardíaca · Febre reumática ·
@@ -40,7 +40,12 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   Poliarterite nodosa e outras vasculites · Osteoporose · Dorsalgia (lombalgia) ·
   Conjuntivite · Hordéolo e calázio · Ceratite · Catarata senil · Glaucoma ·
   Blefarite · Entrópio/ectrópio/ptose · Olho seco e dacriocistite · Pterígio e
-  pinguécula · Episclerite e esclerite · Iridociclite (uveíte anterior)
+  pinguécula · Episclerite e esclerite · Iridociclite (uveíte anterior) ·
+  Descolamento de retina · Oclusões vasculares da retina · Retinopatia
+  diabética e DMRI · Celulite orbitária · Endoftalmite e corpo estranho
+  intraocular · Uveíte posterior e toxoplasmose ocular · Outros transtornos da
+  coróide · Cicatrizes e opacidades da córnea · Ceratocone · Hifema e
+  transtornos da íris · Hemorragia vítrea
 - **Medicamentos (29):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
@@ -181,18 +186,18 @@ especialidade.
 10. concluído — Transtornos da esclerótica / episclerite, esclerite (H15)
 11. concluído — Iridociclite / uveíte anterior (H20)
 
-### Lote 8 — Oftalmologia B: segmento posterior e emergências (11)
-1. pendente — Descolamentos e defeitos da retina (H33)
-2. pendente — Oclusões vasculares da retina (H34)
-3. pendente — Outros transtornos da retina / retinopatia diabética, DMRI (H35)
-4. pendente — Transtornos da órbita / celulite orbitária (H05)
-5. pendente — Transtornos do globo ocular / endoftalmite, corpo estranho intraocular (H44)
-6. pendente — Inflamação coriorretiniana / uveíte posterior, toxoplasmose ocular (H30)
-7. pendente — Outros transtornos da coróide (H31)
-8. pendente — Cicatrizes e opacidades da córnea (H17)
-9. pendente — Outros transtornos da córnea / ceratocone (H18)
-10. pendente — Outros transtornos da íris e do corpo ciliar / hifema (H21)
-11. pendente — Transtornos do humor vítreo / hemorragia vítrea (H43)
+### Lote 8 — Oftalmologia B: segmento posterior e emergências (11) — ✅ CONCLUÍDO
+1. concluído — Descolamentos e defeitos da retina (H33)
+2. concluído — Oclusões vasculares da retina (H34)
+3. concluído — Outros transtornos da retina / retinopatia diabética, DMRI (H35)
+4. concluído — Transtornos da órbita / celulite orbitária (H05)
+5. concluído — Transtornos do globo ocular / endoftalmite, corpo estranho intraocular (H44)
+6. concluído — Inflamação coriorretiniana / uveíte posterior, toxoplasmose ocular (H30)
+7. concluído — Outros transtornos da coróide (H31)
+8. concluído — Cicatrizes e opacidades da córnea (H17)
+9. concluído — Outros transtornos da córnea / ceratocone (H18)
+10. concluído — Outros transtornos da íris e do corpo ciliar / hifema (H21)
+11. concluído — Transtornos do humor vítreo / hemorragia vítrea (H43)
 
 ### Lote 9 — Oftalmologia C: cristalino restante, nervo óptico, motilidade e refração (11)
 1. pendente — Outras cataratas / congênita, secundária, traumática (H26)
@@ -294,12 +299,12 @@ especialidade.
 8. pendente — Doença inflamatória do útero / DIP (N71)
 9. pendente — Transtornos da menopausa e da perimenopausa (N95)
 
-**Total: 97 doenças pendentes em 8 lotes** (Lote 1, Cardiologia; Lote 2,
+**Total: 86 doenças pendentes em 7 lotes** (Lote 1, Cardiologia; Lote 2,
 Endocrinologia+Pneumologia; Lote 3, Pneumologia; Lote 4, Infectologia; Lote 5,
-Gastroenterologia; Lote 6, Gastro restante+Reumatologia; e Lote 7, Oftalmologia A,
-concluídos — 15 + 14 + 12 + 13 + 14 + 12 + 11 itens), além das 107 já fichadas.
-**Próxima prioridade: Lotes 8-9 (Oftalmologia B e C, 22 itens), antes de
-Neurologia e das demais.**
+Gastroenterologia; Lote 6, Gastro restante+Reumatologia; Lote 7, Oftalmologia A;
+e Lote 8, Oftalmologia B, concluídos — 15 + 14 + 12 + 13 + 14 + 12 + 11 + 11
+itens), além das 118 já fichadas. **Próxima prioridade: Lote 9 (Oftalmologia C,
+11 itens), antes de Neurologia e das demais.**
 
 ---
 

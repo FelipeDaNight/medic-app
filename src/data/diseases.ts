@@ -7984,4 +7984,791 @@ export const diseases: Disease[] = [
       { tema: "Associação com HLA-B27 e espondiloartrites", fonte: "American Academy of Ophthalmology, Preferred Practice Pattern: Uveitis" },
     ],
   },
+  {
+    slug: "descolamento-retina",
+    nome: "Descolamento e outros defeitos da retina",
+    sinonimos: ["Descolamento de retina"],
+    cid10: "H33",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Separação da retina neurossensorial do epitélio pigmentar subjacente — emergência oftalmológica, já que o tempo até o tratamento determina diretamente o prognóstico visual.",
+    definicao:
+      "Separação da retina neurossensorial do epitélio pigmentar retiniano subjacente, interrompendo o suprimento metabólico da retina e causando perda visual progressiva na área acometida se não corrigida cirurgicamente em tempo hábil.",
+    epidemiologia:
+      "A forma regmatogênica é a mais comum, com fatores de risco incluindo miopia alta, cirurgia de catarata prévia, trauma ocular e história familiar. Descolamento tracional é mais associado à retinopatia diabética proliferativa avançada; o exsudativo é mais raro, associado a doenças inflamatórias ou neoplásicas da coróide.",
+    fisiopatologia:
+      "No descolamento regmatogênico (o mais comum), uma ruptura (rasgo) na retina neurossensorial, geralmente favorecida por degeneração e liquefação do vítreo relacionada à idade ou à miopia, permite a passagem de vítreo liquefeito para o espaço sub-retiniano, descolando progressivamente a retina. No descolamento tracional, membranas fibrovasculares (como na retinopatia diabética proliferativa) tracionam mecanicamente a retina, descolando-a sem ruptura primária. No descolamento exsudativo, acúmulo de líquido sub-retiniano ocorre por doença da coróide ou epitélio pigmentar (inflamatória, neoplásica), sem ruptura nem tração.",
+    classificacao:
+      "Classificado em regmatogênico (por ruptura retiniana, o mais comum), tracional (por membranas fibrovasculares, associado a retinopatia diabética proliferativa) e exsudativo (por doença coroideana/inflamatória, sem ruptura ou tração). A localização (envolvendo ou não a mácula) é o principal determinante prognóstico dentro de cada tipo.",
+    quadroClinico: [
+      "Fotopsias (flashes de luz), tipicamente de início súbito, por tração vítreo-retiniana",
+      "Miodesopsias (moscas volantes) de início ou piora súbita, podendo indicar hemorragia vítrea associada à ruptura retiniana",
+      "Escotoma (sombra ou 'cortina') no campo visual periférico, que progride em direção ao centro conforme o descolamento avança",
+      "Perda de acuidade visual central quando a mácula é acometida — divisor prognóstico fundamental para a urgência do tratamento",
+    ],
+    diagnostico: [
+      "Fundoscopia com pupila dilatada é o exame central para visualizar diretamente a retina descolada e identificar rupturas",
+      "Ultrassonografia ocular (modo B) quando há opacidade de meios (catarata densa, hemorragia vítrea) que impede a visualização direta da retina",
+    ],
+    examesComplementares: [
+      "Oftalmoscopia indireta binocular com depressão escleral, padrão-ouro para mapear a extensão do descolamento e localizar todas as rupturas retinianas",
+      "Ultrassonografia ocular (modo B) na presença de opacidade de meios",
+      "Tomografia de coerência óptica (OCT) para avaliar envolvimento macular em casos limítrofes",
+    ],
+    diagnosticoDiferencial: [
+      "Descolamento do vítreo posterior isolado (sem ruptura ou descolamento retiniano — fotopsias/miodesopsias semelhantes, mas sem defeito de campo visual)",
+      "Retinosquise degenerativa (separação das camadas da própria retina, curso mais estável e menos urgente)",
+      "Enxaqueca com aura visual (fotopsias bilaterais, tipicamente com escotoma cintilante migrando ao longo de minutos, sem defeito de campo fixo)",
+    ],
+    tratamento: [
+      "Correção cirúrgica é o tratamento definitivo em praticamente todos os casos regmatogênicos e tracionais, com técnicas incluindo vitrectomia, introflexão escleral (retinopexia por indentação) ou retinopexia pneumática, conforme características do descolamento",
+      "Descolamento exsudativo: tratamento dirigido à causa de base (doença coroideana/inflamatória subjacente), sem indicação cirúrgica direta na maioria dos casos",
+      "Urgência da intervenção cirúrgica é maior quando a mácula ainda está aplicada ('macula-on'), já que o prognóstico visual piora significativamente após o descolamento macular ('macula-off')",
+    ],
+    complicacoes: [
+      "Aguda: extensão do descolamento para a mácula, com perda de acuidade visual central que pode ser permanente mesmo após cirurgia bem-sucedida",
+      "Crônica: proliferação vitreorretiniana (formação de membranas cicatriciais que tracionam e podem causar redescolamento, principal causa de falha cirúrgica)",
+    ],
+    redFlags: [
+      "Fotopsias e miodesopsias de início súbito, especialmente associadas a sombra/cortina no campo visual — avaliação oftalmológica de urgência com fundoscopia dilatada, pelo risco de progressão para envolvimento macular",
+      "Defeito de campo visual que progride rapidamente em direção ao centro — sinaliza descolamento se aproximando da mácula, com janela de tempo limitada para preservar o prognóstico visual",
+    ],
+    prognostico:
+      "Excelente quando a mácula ainda está aplicada no momento da cirurgia ('macula-on'), com taxas altas de reaplicação anatômica e bom retorno funcional. Quando a mácula já está descolada ('macula-off'), a acuidade visual final tende a ser pior mesmo com reaplicação cirúrgica bem-sucedida, e quanto maior o tempo de descolamento macular, pior o prognóstico visual final.",
+    pontosDeProva: [
+      "Fotopsias e miodesopsias de início súbito são o par de sintomas mais cobrado para suspeitar de descolamento de retina/ruptura retiniana",
+      "O status macular ('macula-on' vs. 'macula-off') no momento da cirurgia é o principal determinante prognóstico — daí a urgência real em encaminhar antes que a mácula descole",
+      "Descolamento tracional (retinopatia diabética proliferativa) e regmatogênico têm mecanismos e às vezes condutas diferentes, mas ambos requerem avaliação cirúrgica especializada",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 58 anos, míope alto, relata início súbito de flashes de luz no olho esquerdo há 2 dias, seguido por sensação de 'cortina' cobrindo a parte inferior do campo visual nas últimas horas.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "Fotopsias seguidas de defeito de campo visual em progressão ('cortina'), em paciente com miopia alta (fator de risco conhecido), é o quadro clássico de descolamento de retina regmatogênico, com a mácula ainda potencialmente aplicada dado o acometimento inferior recente (a sombra costuma progredir do quadrante correspondente à ruptura em direção à mácula).",
+      conduta:
+        "Encaminhamento oftalmológico de urgência (mesmo dia) para fundoscopia com pupila dilatada e oftalmoscopia indireta, visando confirmar o diagnóstico e indicar correção cirúrgica antes que o descolamento progrida para envolvimento macular.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Classificação por mecanismo e fisiopatologia", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+      { tema: "Prognóstico conforme status macular ('macula-on' vs. 'macula-off')", fonte: "American Academy of Ophthalmology, Preferred Practice Pattern: Posterior Vitreous Detachment, Retinal Breaks, and Lattice Degeneration" },
+    ],
+  },
+  {
+    slug: "oclusoes-vasculares-retina",
+    nome: "Oclusões vasculares da retina",
+    sinonimos: ["Oclusão de artéria central da retina", "Oclusão de veia central da retina"],
+    cid10: "H34",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Obstrução aguda da circulação arterial ou venosa retiniana, causando perda visual súbita — a oclusão arterial é considerada um equivalente de AVC e exige avaliação vascular sistêmica imediata.",
+    definicao:
+      "Obstrução do fluxo sanguíneo na artéria ou na veia central da retina (ou seus ramos), causando isquemia (na oclusão arterial) ou congestão e edema (na oclusão venosa) do território retiniano correspondente, com perda visual súbita e indolor.",
+    epidemiologia:
+      "Compartilha os mesmos fatores de risco cardiovasculares das doenças vasculares sistêmicas: hipertensão arterial, diabetes, dislipidemia, tabagismo e fibrilação atrial (fonte embólica) para a oclusão arterial; hipertensão, glaucoma e estados de hipercoagulabilidade para a oclusão venosa. A oclusão de veia central é a segunda causa vascular retiniana mais comum de perda visual, atrás apenas da retinopatia diabética.",
+    fisiopatologia:
+      "Na oclusão arterial, um êmbolo (mais comumente de origem carotídea ou cardíaca) ou trombose local interrompe o fluxo sanguíneo retiniano, causando infarto isquêmico da retina interna em minutos a poucas horas — analogamente a um AVC isquêmico, mas restrito à retina. Na oclusão venosa, trombose no local de cruzamento arteriovenoso (mais comum na oclusão de ramo, por compressão da veia pela arteríola esclerótica adjacente) ou na própria veia central causa aumento da pressão venosa retrógrada, com hemorragias, edema macular e, em casos graves, isquemia retiniana secundária que pode desencadear neovascularização.",
+    classificacao:
+      "Classificada quanto ao vaso acometido em arterial (central ou de ramo) e venosa (central ou de ramo), e quanto à oclusão venosa, em não isquêmica (a maioria, melhor prognóstico) e isquêmica (maior risco de neovascularização e glaucoma neovascular secundário).",
+    quadroClinico: [
+      "Perda visual súbita, indolor, unilateral — achado central em ambos os tipos",
+      "Oclusão arterial: perda visual profunda e imediata (frequentemente contagem de dedos ou pior), podendo haver história de amaurose fugaz (perda visual transitória prévia) como sinal de alerta",
+      "Oclusão venosa: perda visual de magnitude variável, frequentemente menos súbita e severa que a arterial, podendo ser percebida ao acordar",
+    ],
+    diagnostico: [
+      "Fundoscopia é essencial: na oclusão arterial, observa-se retina esbranquiçada/edemaciada com 'mancha vermelho-cereja' na região macular; na oclusão venosa, observam-se hemorragias retinianas difusas ('retina em explosão de tomate'), veias dilatadas e tortuosas, e edema de disco óptico",
+      "Investigação sistêmica ativa e imediata é obrigatória na oclusão arterial, análoga à investigação de um AVC — a retina funciona como uma 'janela' para o sistema vascular cerebral",
+    ],
+    examesComplementares: [
+      "Avaliação carotídea (ultrassom Doppler de carótidas) e cardíaca (ecocardiograma, holter para fibrilação atrial) na oclusão arterial, para identificar fonte embólica",
+      "Velocidade de hemossedimentação (VHS) e proteína C reativa urgentes em idoso com oclusão arterial, para excluir arterite de células gigantes, causa tratável e potencialmente bilateral se não tratada a tempo",
+      "Angiofluoresceinografia para diferenciar oclusão venosa isquêmica de não isquêmica e guiar a necessidade de tratamento com anti-VEGF ou laser",
+    ],
+    diagnosticoDiferencial: [
+      "Neuropatia óptica isquêmica anterior (perda visual súbita também, mas com edema de disco óptico e sem os achados retinianos característicos de oclusão vascular)",
+      "Descolamento de retina (perda visual progressiva com escotoma em cortina, não súbita e completa como na oclusão arterial)",
+      "Arterite de células gigantes (causa sistêmica tratável de oclusão arterial em idosos — precisa ser ativamente excluída)",
+    ],
+    tratamento: [
+      "Oclusão arterial central: emergência com janela terapêutica muito estreita (poucas horas); medidas para tentar deslocar o êmbolo (massagem ocular, redução da pressão intraocular) têm eficácia limitada e incerta; o foco real e mais importante é a investigação e prevenção secundária de novo evento vascular (incluindo cerebral), de forma análoga ao manejo pós-AVC",
+      "Oclusão venosa com edema macular: injeção intravítrea de anti-VEGF é o tratamento de primeira linha atual para preservar/recuperar a visão central",
+      "Oclusão venosa isquêmica com neovascularização: fotocoagulação a laser panretiniana para prevenir glaucoma neovascular",
+      "Controle rigoroso dos fatores de risco cardiovasculares sistêmicos (hipertensão, diabetes, dislipidemia) é essencial em ambos os tipos, tratando a doença de base com os medicamentos já indicados para ela",
+    ],
+    complicacoes: [
+      "Aguda: perda visual permanente e profunda na oclusão arterial não revertida na janela terapêutica inicial",
+      "Crônica: glaucoma neovascular secundário à isquemia retiniana extensa (mais comum na oclusão venosa isquêmica), com prognóstico visual reservado",
+    ],
+    redFlags: [
+      "Perda visual súbita e indolor em paciente idoso — sempre investigar arterite de células gigantes (VHS/PCR urgentes, sintomas associados como cefaleia temporal, claudicação de mandíbula) pelo risco de acometimento do olho contralateral se não tratada com corticosteroide imediatamente",
+      "Amaurose fugaz recorrente prévia à perda visual definitiva — equivalente a um ataque isquêmico transitório retiniano, exige investigação vascular urgente para prevenir evento maior (AVC)",
+    ],
+    prognostico:
+      "Reservado na oclusão arterial central, com recuperação visual significativa sendo rara mesmo com tratamento precoce, dada a baixa tolerância da retina à isquemia. Mais variável na oclusão venosa, com boa resposta ao anti-VEGF em muitos casos de edema macular, mas risco de sequelas visuais e neovasculares na forma isquêmica.",
+    pontosDeProva: [
+      "A oclusão de artéria central da retina é funcionalmente um 'AVC da retina' — exige a mesma urgência de investigação de fonte embólica/vascular sistêmica que um AVC verdadeiro",
+      "Mancha vermelho-cereja macular é o achado clássico de fundoscopia na oclusão arterial central; hemorragias difusas em 'explosão de tomate' são o achado clássico da oclusão venosa central",
+      "Arterite de células gigantes deve ser sempre excluída em idoso com perda visual súbita, pelo risco real e evitável de acometimento bilateral se não tratada com corticosteroide de urgência",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 74 anos, hipertensa, relata perda visual súbita e indolor no olho direito ao acordar. Refere um episódio de 'visão escurecendo' por cerca de um minuto na semana anterior, que melhorou espontaneamente.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta?",
+      raciocinio:
+        "Perda visual súbita e indolor precedida por um episódio de amaurose fugaz é altamente sugestiva de oclusão da artéria central da retina de causa embólica, funcionando como um evento vascular equivalente a um AVC.",
+      conduta:
+        "Encaminhamento oftalmológico e vascular de urgência para confirmação fundoscópica e investigação imediata de fonte embólica (ultrassom de carótidas, avaliação cardíaca), com condução análoga à investigação pós-AVC, além de exames laboratoriais urgentes (VHS/PCR) para excluir arterite de células gigantes dada a idade da paciente.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia e achados de fundoscopia por tipo de oclusão", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+      { tema: "Oclusão arterial como equivalente de AVC e necessidade de investigação vascular sistêmica", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "retinopatia-diabetica-dmri",
+    nome: "Retinopatia diabética e degeneração macular relacionada à idade",
+    sinonimos: ["DMRI", "Retinopatia diabética"],
+    cid10: "H35",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "As duas principais causas de perda visual crônica em adultos nos países desenvolvidos: a retinopatia diabética (complicação microvascular do diabetes) e a degeneração macular relacionada à idade (DMRI, degenerativa).",
+    definicao:
+      "Retinopatia diabética é uma complicação microvascular crônica do diabetes mellitus, causando dano progressivo aos vasos retinianos. Degeneração macular relacionada à idade (DMRI) é uma doença degenerativa progressiva da mácula associada ao envelhecimento, causando perda da visão central.",
+    epidemiologia:
+      "Retinopatia diabética é uma das principais causas de cegueira evitável em adultos em idade produtiva, com risco proporcional ao tempo de doença e ao controle glicêmico. DMRI é a principal causa de perda visual central irreversível em idosos nos países desenvolvidos, com prevalência crescente com a idade.",
+    fisiopatologia:
+      "Na retinopatia diabética, a hiperglicemia crônica causa dano microvascular progressivo (espessamento da membrana basal capilar, perda de pericitos), levando a microaneurismas, exsudatos, hemorragias e, em fases avançadas, isquemia retiniana que desencadeia neovascularização (retinopatia diabética proliferativa) e risco de hemorragia vítrea e descolamento tracional. Na DMRI, ocorre acúmulo de material extracelular (drusas) sob o epitélio pigmentar retiniano na forma seca (atrófica, mais comum e de progressão mais lenta), ou neovascularização coroideana anômala na forma úmida (exsudativa, menos comum mas responsável pela maioria dos casos de perda visual grave e rápida por DMRI).",
+    classificacao:
+      "Retinopatia diabética classificada em não proliferativa (leve, moderada, grave, conforme achados de fundoscopia) e proliferativa (presença de neovascularização, a forma mais grave, com maior risco de complicações que ameaçam a visão). Edema macular diabético pode ocorrer em qualquer estágio e é a causa mais comum de perda visual na retinopatia diabética. DMRI classificada em seca/atrófica (a mais comum, progressão lenta) e úmida/exsudativa (menos comum, mas responsável pela maior parte da perda visual grave e súbita associada à doença).",
+    quadroClinico: [
+      "Retinopatia diabética não proliferativa: frequentemente assintomática nas fases iniciais, daí a importância do rastreio anual em todo diabético",
+      "Edema macular diabético: embaçamento visual central progressivo, principal causa sintomática de perda visual na retinopatia diabética",
+      "Retinopatia diabética proliferativa: risco de perda visual súbita por hemorragia vítrea (miodesopsias abruptas, sombras) ou descolamento de retina tracional",
+      "DMRI seca: perda visual central gradual e progressiva ao longo de anos, com escotoma central relativo",
+      "DMRI úmida: perda visual central mais rápida (dias a semanas), frequentemente com metamorfopsia (distorção de linhas retas) como sintoma de alerta precoce",
+    ],
+    diagnostico: [
+      "Fundoscopia com pupila dilatada é essencial para ambas: rastreio anual obrigatório em todo paciente diabético (mesmo assintomático) e avaliação de rotina em idosos para DMRI",
+      "Grade de Amsler como ferramenta simples de automonitorização para detectar metamorfopsia precoce sugestiva de conversão para DMRI úmida",
+    ],
+    examesComplementares: [
+      "Tomografia de coerência óptica (OCT) para quantificar edema macular diabético e para diagnóstico e monitorização da DMRI (seca vs. úmida)",
+      "Angiofluoresceinografia para mapear áreas de isquemia e neovascularização na retinopatia diabética proliferativa, e para caracterizar a neovascularização coroideana na DMRI úmida",
+      "Angiografia com indocianina verde em casos selecionados de DMRI úmida para melhor caracterização da neovascularização coroideana",
+    ],
+    diagnosticoDiferencial: [
+      "Oclusão de veia central/ramo da retina (hemorragias mais confluentes e agudas, história e fundoscopia distintas)",
+      "Retinopatia hipertensiva (achados de fundoscopia relacionados a hipertensão, sem os microaneurismas característicos do diabetes)",
+      "Outras maculopatias (buraco macular, membrana epirretiniana) no diagnóstico diferencial de metamorfopsia isolada",
+    ],
+    tratamento: [
+      "Retinopatia diabética: controle glicêmico rigoroso e controle de pressão arterial e lipídios são a base da prevenção e da desaceleração da progressão (ver Diabetes mellitus tipo 2/tipo 1 para o tratamento farmacológico sistêmico de base)",
+      "Edema macular diabético e retinopatia diabética proliferativa: injeção intravítrea de anti-VEGF é o tratamento de primeira linha atual; fotocoagulação a laser panretiniana reservada a casos proliferativos refratários ou de maior risco",
+      "DMRI seca: suplementação vitamínica antioxidante específica (fórmula tipo AREDS2) pode reduzir o risco de progressão em estágios intermediários/avançados selecionados; sem tratamento capaz de reverter a atrofia já estabelecida",
+      "DMRI úmida: injeção intravítrea de anti-VEGF é o tratamento de primeira linha, podendo estabilizar ou melhorar a visão quando iniciado precocemente",
+    ],
+    complicacoes: [
+      "Aguda: hemorragia vítrea e descolamento de retina tracional na retinopatia diabética proliferativa avançada",
+      "Crônica: cegueira legal irreversível em ambas as condições quando não tratadas ou diagnosticadas tardiamente — a principal causa evitável de perda visual permanente em adultos (diabetes) e idosos (DMRI) nos países desenvolvidos",
+    ],
+    redFlags: [
+      "Diabético que nunca realizou fundoscopia de rastreio — a retinopatia diabética é frequentemente assintomática até fases avançadas, justificando rastreio anual obrigatório independente de sintomas",
+      "Metamorfopsia de início recente em paciente idoso — sinal de alerta para conversão de DMRI seca para úmida, exigindo avaliação oftalmológica urgente, já que o tratamento precoce com anti-VEGF muda significativamente o prognóstico visual",
+      "Miodesopsias abruptas e numerosas em diabético de longa data — suspeitar de hemorragia vítrea por retinopatia proliferativa",
+    ],
+    prognostico:
+      "Na retinopatia diabética, o prognóstico visual é bom quando há rastreio regular e tratamento oportuno do edema macular e das formas proliferativas; sem isso, é uma das principais causas de cegueira evitável. Na DMRI, a forma seca tem progressão lenta mas geralmente sem tratamento capaz de reverter a perda já estabelecida; a forma úmida, quando tratada precocemente com anti-VEGF, frequentemente estabiliza ou até recupera parte da visão perdida, mas a perda visual pode ser rápida e significativa se o tratamento for tardio.",
+    pontosDeProva: [
+      "Todo paciente diabético deve realizar fundoscopia de rastreio anual, mesmo sem sintomas visuais — a retinopatia diabética é classicamente assintomática até fases avançadas",
+      "Metamorfopsia (distorção de linhas retas, testável pela grade de Amsler) é o sintoma de alerta mais cobrado para conversão de DMRI seca para úmida",
+      "Anti-VEGF intravítreo revolucionou o tratamento tanto do edema macular diabético/retinopatia proliferativa quanto da DMRI úmida — é hoje a primeira linha para ambas as condições exsudativas/proliferativas",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 78 anos, relata que linhas retas (como o batente de portas) têm parecido 'onduladas' há alguns dias, com leve embaçamento central no olho esquerdo. Não tem diabetes.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta?",
+      raciocinio:
+        "Metamorfopsia de início recente em paciente idosa, sem diabetes, é o sintoma de alerta clássico para conversão de degeneração macular relacionada à idade da forma seca para a forma úmida (neovascular), que exige tratamento rápido para preservar a visão central.",
+      conduta:
+        "Encaminhamento oftalmológico urgente para tomografia de coerência óptica e, se confirmada neovascularização coroideana, iniciar injeção intravítrea de anti-VEGF o quanto antes, já que o prognóstico visual depende diretamente da rapidez do tratamento.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Classificação e fisiopatologia da retinopatia diabética", fonte: "American Academy of Ophthalmology, Preferred Practice Pattern: Diabetic Retinopathy" },
+      { tema: "Classificação seca/úmida e tratamento da DMRI", fonte: "American Academy of Ophthalmology, Preferred Practice Pattern: Age-Related Macular Degeneration" },
+    ],
+  },
+  {
+    slug: "celulite-orbitaria",
+    nome: "Celulite orbitária",
+    sinonimos: ["Infecção orbitária"],
+    cid10: "H05",
+    especialidade: "Oftalmologia",
+    etiologia: "Bacteriana",
+    resumo: "Infecção bacteriana dos tecidos moles posteriores ao septo orbitário, geralmente por extensão de sinusite — emergência oftalmológica com risco de perda visual e complicações intracranianas.",
+    definicao:
+      "Infecção bacteriana dos tecidos moles da órbita posteriores ao septo orbitário, tipicamente secundária à extensão de sinusite bacteriana adjacente (mais comumente etmoidal), distinta e mais grave que a celulite pré-septal (infecção limitada às pálpebras e tecidos anteriores ao septo).",
+    epidemiologia:
+      "Mais comum em crianças, geralmente como complicação de sinusite bacteriana aguda, sobretudo etmoidal (a fina lâmina papirácea que separa o seio etmoidal da órbita facilita a disseminação direta da infecção).",
+    fisiopatologia:
+      "A infecção bacteriana dos seios paranasais (mais comumente por Streptococcus pneumoniae, Staphylococcus aureus, Haemophilus influenzae e, em infecções polimicrobianas, anaeróbios) estende-se diretamente para a órbita através da fina lâmina papirácea do seio etmoidal ou por via hematogênica/trombose de veias oftálmicas, causando inflamação e infecção dos tecidos moles orbitários posteriores ao septo, com risco de compressão do nervo óptico e dos músculos extraoculares.",
+    classificacao:
+      "Didaticamente distinguida da celulite pré-septal (anterior ao septo orbitário, mais branda, sem proptose ou limitação da motilidade ocular) pela localização posterior ao septo. Pode ser subclassificada conforme a presença de abscesso subperiosteal ou orbitário associado, achado que frequentemente exige drenagem cirúrgica além da antibioticoterapia.",
+    quadroClinico: [
+      "Proptose (protrusão do globo ocular)",
+      "Limitação dolorosa da motilidade ocular (oftalmoplegia), achado-chave que diferencia de celulite pré-septal",
+      "Edema e hiperemia palpebral importantes, calor local",
+      "Dor ocular, febre e comprometimento do estado geral",
+      "Diminuição da acuidade visual e alteração da percepção de cores quando há compressão do nervo óptico — sinal de gravidade",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico pela presença de proptose e limitação da motilidade ocular associadas a sinais infecciosos, distinguindo de celulite pré-septal",
+      "Tomografia computadorizada de órbitas e seios paranasais com contraste é essencial para confirmar a extensão posterior ao septo, identificar abscesso subperiosteal/orbitário e avaliar extensão intracraniana",
+    ],
+    examesComplementares: [
+      "Tomografia computadorizada de órbitas e seios paranasais com contraste (exame de escolha para avaliar extensão e complicações)",
+      "Hemograma e hemoculturas, sobretudo em quadros com toxemia sistêmica importante",
+      "Avaliação otorrinolaringológica conjunta, dada a origem sinusal na maioria dos casos",
+    ],
+    diagnosticoDiferencial: [
+      "Celulite pré-septal (sem proptose ou limitação da motilidade ocular, quadro mais brando)",
+      "Tumor orbitário (proptose de instalação mais lenta, geralmente sem sinais infecciosos agudos)",
+      "Doença de Graves com oftalmopatia (proptose bilateral mais comum, sem sinais infecciosos)",
+    ],
+    tratamento: [
+      "Internação hospitalar e antibioticoterapia intravenosa de amplo espectro é a conduta padrão, dado o risco de complicações graves — celulite orbitária verdadeira não deve ser tratada apenas com antibiótico oral ambulatorial (classe de antibiótico intravenoso de amplo espectro ainda sem ficha própria de medicamento no site)",
+      "Drenagem cirúrgica indicada quando há abscesso subperiosteal ou orbitário significativo, ou quando não há melhora com antibioticoterapia isolada em 24 a 48 horas",
+      "Avaliação e tratamento conjunto da sinusite de base, frequentemente com abordagem otorrinolaringológica",
+    ],
+    complicacoes: [
+      "Aguda: perda visual por compressão do nervo óptico ou síndrome compartimental orbitária; trombose do seio cavernoso e meningite por extensão intracraniana da infecção — complicações potencialmente fatais",
+      "Crônica: fibrose orbitária residual com limitação permanente da motilidade ocular em casos graves ou tratados tardiamente",
+    ],
+    redFlags: [
+      "Limitação da motilidade ocular, diminuição da acuidade visual ou alteração da percepção de cores — sinais de compressão do nervo óptico, exigindo intervenção (incluindo cirúrgica) imediata para preservar a visão",
+      "Alteração do nível de consciência, cefaleia intensa ou sinais meníngeos associados — suspeitar de trombose de seio cavernoso ou extensão intracraniana, emergências com risco de vida",
+      "Ausência de melhora clínica após 24-48 horas de antibioticoterapia intravenosa adequada — reavaliar imagem para abscesso não drenado",
+    ],
+    prognostico:
+      "Bom quando tratada precocemente com antibioticoterapia intravenosa e, quando indicada, drenagem cirúrgica oportuna. O atraso no diagnóstico ou tratamento aumenta significativamente o risco de perda visual permanente e de complicações intracranianas potencialmente fatais.",
+    pontosDeProva: [
+      "A limitação da motilidade ocular (oftalmoplegia) e a proptose são os achados que diferenciam celulite orbitária (posterior ao septo, grave) de celulite pré-septal (anterior, mais branda) — distinção clínica central e muito cobrada",
+      "A lâmina papirácea do seio etmoidal, extremamente fina, é a via de disseminação mais comum da sinusite para a órbita, explicando por que a celulite orbitária é predominantemente uma complicação de sinusite etmoidal",
+      "Celulite orbitária é uma emergência com risco de perda visual e de complicações intracranianas potencialmente fatais (trombose de seio cavernoso, meningite) — sempre trata-se com internação e antibiótico intravenoso, nunca ambulatorialmente",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menino, 7 anos, com quadro de sinusite há 5 dias, desenvolve edema palpebral importante, proptose e dificuldade para movimentar o olho direito, associados a febre de 38,9°C.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "Proptose e limitação da motilidade ocular associadas a sinusite recente e febre são achados que definem celulite orbitária (posterior ao septo), diferente de uma celulite pré-septal mais branda, e configuram emergência oftalmológica.",
+      conduta:
+        "Internação hospitalar imediata para antibioticoterapia intravenosa de amplo espectro, tomografia computadorizada de órbitas e seios paranasais com contraste para avaliar extensão e eventual abscesso, e avaliação otorrinolaringológica e oftalmológica conjuntas.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia, via de disseminação e diferenciação de celulite pré-septal", fonte: "Vaughan & Asbury's General Ophthalmology, 19ª ed." },
+      { tema: "Conduta com antibioticoterapia intravenosa e critérios de drenagem cirúrgica", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "endoftalmite-corpo-estranho-intraocular",
+    nome: "Endoftalmite e corpo estranho intraocular",
+    sinonimos: ["Infecção intraocular"],
+    cid10: "H44",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Endoftalmite é a infecção grave do interior do globo ocular, geralmente pós-cirúrgica ou pós-traumática — emergência oftalmológica com alto risco de perda visual irreversível se não tratada rapidamente.",
+    definicao:
+      "Endoftalmite é a inflamação/infecção grave dos tecidos intraoculares (câmaras anterior e posterior, vítreo), geralmente de causa bacteriana ou fúngica, mais comumente secundária a cirurgia intraocular recente (sobretudo facoemulsificação) ou a trauma ocular penetrante, por vezes com corpo estranho intraocular retido.",
+    epidemiologia:
+      "A endoftalmite pós-operatória é rara, mas é a complicação infecciosa mais temida da cirurgia de catarata, dada a altíssima frequência desse procedimento. Endoftalmite pós-traumática tem incidência maior quando há corpo estranho intraocular retido, sobretudo de origem orgânica/vegetal.",
+    fisiopatologia:
+      "Na endoftalmite pós-operatória, microrganismos da própria flora periocular do paciente (mais comumente estafilococos coagulase-negativos) contaminam o interior do olho durante a cirurgia, proliferando no ambiente intraocular nos dias seguintes. Na endoftalmite pós-traumática, a ruptura da integridade do globo ocular permite entrada direta de microrganismos do ambiente, com maior gravidade e pior prognóstico quando há corpo estranho retido (que serve como nicho persistente de infecção) ou contaminação por material vegetal/orgânico (associado a fungos e a curso mais agressivo).",
+    classificacao:
+      "Classificada por momento e via de instalação em pós-operatória (aguda, nos primeiros dias após cirurgia, ou tardia, semanas a meses depois, geralmente por organismos menos virulentos), pós-traumática e endógena (mais rara, por disseminação hematogênica a partir de foco infeccioso sistêmico em paciente imunocomprometido ou com bacteremia/fungemia).",
+    quadroClinico: [
+      "Dor ocular importante, de início e piora rápidos",
+      "Diminuição significativa e rápida da acuidade visual",
+      "Hiperemia ocular intensa, hipópio (nível de pus na câmara anterior) em casos avançados",
+      "Turvação vítrea importante, dificultando ou impedindo a visualização do fundo de olho",
+      "Histórico recente de cirurgia intraocular ou trauma penetrante é o dado de anamnese mais relevante",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico de alta suspeição em paciente com dor e perda visual rápidas após cirurgia intraocular recente ou trauma penetrante",
+      "Coleta de amostra intraocular (aspirado de vítreo e/ou humor aquoso) para cultura e coloração de Gram é essencial para identificar o agente e guiar o tratamento antimicrobiano específico",
+      "Investigação radiológica (radiografia ou tomografia computadorizada de órbita) para localizar corpo estranho intraocular quando há história de trauma compatível",
+    ],
+    examesComplementares: [
+      "Cultura e Gram de aspirado vítreo/humor aquoso (padrão para confirmação microbiológica e ajuste terapêutico)",
+      "Tomografia computadorizada de órbita para localizar corpo estranho intraocular radiopaco, quando suspeitado",
+      "Ultrassonografia ocular quando a opacidade dos meios impede a visualização direta do segmento posterior",
+    ],
+    diagnosticoDiferencial: [
+      "Uveíte pós-operatória inflamatória estéril (sem microrganismo isolado, resposta inflamatória sem infecção verdadeira, quadro geralmente menos grave)",
+      "Hemorragia vítrea isolada (sem os sinais inflamatórios/infecciosos característicos da endoftalmite)",
+      "Descolamento de retina pós-operatório (perda visual também associada a cirurgia recente, mas sem dor importante nem hipópio)",
+    ],
+    tratamento: [
+      "Injeção intravítrea imediata de antibiótico de amplo espectro é o tratamento de primeira linha na suspeita de endoftalmite pós-operatória, feita idealmente logo após a coleta de material para cultura, sem aguardar o resultado (classe de antibiótico intravítreo ainda sem ficha própria de medicamento no site)",
+      "Vitrectomia (remoção cirúrgica do vítreo infectado) indicada em casos com perda visual grave já instalada ou resposta inadequada ao tratamento intravítreo isolado",
+      "Remoção cirúrgica de corpo estranho intraocular retido é indicada na maioria dos casos, associada a antibioticoterapia, dado o risco de infecção persistente e toxicidade tecidual (sobretudo em corpos estranhos metálicos com potencial de siderose ocular)",
+    ],
+    complicacoes: [
+      "Aguda: perda visual grave e rápida, podendo evoluir para perda total da percepção de luz em horas a dias se o tratamento for tardio ou inadequado",
+      "Crônica: phthisis bulbi (atrofia e desorganização final do globo ocular) em casos graves não controlados",
+    ],
+    redFlags: [
+      "Dor ocular importante e queda rápida da acuidade visual nos primeiros dias após cirurgia intraocular — suspeitar de endoftalmite pós-operatória, emergência que exige coleta de material e injeção intravítrea de antibiótico sem demora",
+      "Trauma ocular penetrante com suspeita de corpo estranho intraocular retido — investigação de imagem obrigatória, mesmo sem sinais infecciosos imediatos, pelo risco de endoftalmite tardia e toxicidade tecidual direta do material retido",
+    ],
+    prognostico:
+      "Reservado mesmo com tratamento adequado, sobretudo na endoftalmite pós-traumática e naquela por organismos mais virulentos — o tempo entre o início dos sintomas e o tratamento é o principal determinante do desfecho visual final. A endoftalmite pós-operatória tratada precocemente com injeção intravítrea tem prognóstico relativamente melhor que a pós-traumática.",
+    pontosDeProva: [
+      "Dor e perda visual rápidas e importantes após cirurgia intraocular recente devem sempre levantar suspeita de endoftalmite — é a complicação infecciosa mais temida da cirurgia de catarata, apesar de rara",
+      "A coleta de material intraocular para cultura deve ser feita antes, mas sem atrasar, o início da injeção intravítrea de antibiótico — o tempo até o tratamento é crítico para o prognóstico visual",
+      "Corpo estranho intraocular metálico retido pode causar siderose ocular por toxicidade direta, independentemente de infecção — reforça a indicação de remoção cirúrgica na maioria dos casos",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 71 anos, submetida a facoemulsificação com sucesso há 3 dias, retorna com dor ocular importante, hiperemia intensa e queda rápida da acuidade visual no olho operado.",
+      pergunta: "Qual a principal preocupação diagnóstica e a conduta imediata?",
+      raciocinio:
+        "Dor importante e queda rápida da acuidade visual nos primeiros dias após cirurgia de catarata são altamente sugestivas de endoftalmite pós-operatória, a complicação infecciosa mais temida desse procedimento, exigindo ação imediata para preservar a visão.",
+      conduta:
+        "Encaminhamento oftalmológico de emergência para coleta de aspirado vítreo/humor aquoso para cultura e Gram, seguida de injeção intravítrea imediata de antibiótico de amplo espectro sem aguardar o resultado da cultura, dado o risco de perda visual rápida e progressiva.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia e classificação por momento/via de instalação", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+      { tema: "Conduta com injeção intravítrea imediata e indicação de vitrectomia", fonte: "American Academy of Ophthalmology, Preferred Practice Pattern: Endophthalmitis" },
+    ],
+  },
+  {
+    slug: "uveite-posterior-toxoplasmose-ocular",
+    nome: "Uveíte posterior e toxoplasmose ocular",
+    sinonimos: ["Coriorretinite toxoplásmica", "Uveíte posterior"],
+    cid10: "H30",
+    especialidade: "Oftalmologia",
+    etiologia: "Parasitária",
+    resumo: "Inflamação da coróide e retina adjacente; a toxoplasmose ocular é a causa infecciosa mais comum de uveíte posterior no mundo, classicamente reativando a partir de cicatrizes coriorretinianas congênitas.",
+    definicao:
+      "Inflamação da coróide (camada vascular do olho) associada a comprometimento da retina adjacente (coriorretinite), de causa infecciosa (mais comumente por Toxoplasma gondii) ou não infecciosa (associada a doenças autoimunes sistêmicas), causando lesões focais características ao exame de fundo de olho.",
+    epidemiologia:
+      "A toxoplasmose ocular é a causa infecciosa mais comum de uveíte posterior em todo o mundo, incluindo no Brasil, onde a prevalência de infecção por Toxoplasma gondii é elevada. A maioria dos casos resulta de reativação de uma lesão coriorretiniana previamente cicatrizada, adquirida por transmissão congênita ou por infecção pós-natal.",
+    fisiopatologia:
+      "A infecção por Toxoplasma gondii (congênita, transplacentária, ou adquirida pós-natalmente pela ingestão de oocistos ou cistos teciduais) estabelece cistos teciduais latentes na retina. A reativação desses cistos, por motivos não totalmente esclarecidos (podendo estar relacionada a imunossupressão ou fatores locais), causa necrose retiniana focal com inflamação coriorretiniana intensa adjacente a uma cicatriz pigmentada preexistente — achado característico ('lesão satélite' junto a uma cicatriz antiga).",
+    classificacao:
+      "Classificada quanto à origem em congênita (transmissão transplacentária, geralmente bilateral e mais grave) e adquirida (pós-natal, geralmente unilateral). Também classificada quanto à atividade em ativa (foco inflamatório com turvação vítrea sobrejacente) e inativa/cicatricial (lesão pigmentada estável, sem sinais inflamatórios).",
+    quadroClinico: [
+      "Turvação visual e miodesopsias, por inflamação e turvação do vítreo sobrejacente à lesão retiniana ativa",
+      "Fotofobia e, por vezes, dor ocular leve a moderada associada a uveíte anterior concomitante (reação inflamatória de câmara anterior associada, comum na toxoplasmose ocular)",
+      "Escotoma correspondente à localização da lesão, mais perceptível quando próxima à mácula ou ao nervo óptico",
+      "Lesão focal branco-amarelada, com bordas mal definidas, tipicamente adjacente a uma cicatriz pigmentada antiga ao exame de fundo de olho",
+    ],
+    diagnostico: [
+      "Diagnóstico primariamente clínico, pelo achado característico de lesão coriorretiniana ativa adjacente a uma cicatriz pigmentada preexistente ('lesão satélite'), em contexto epidemiológico compatível",
+      "Sorologia para toxoplasmose (IgG positivo) apoia o diagnóstico, mas não confirma atividade ocular por si só, já que a soroprevalência populacional é alta — a interpretação deve ser sempre conjunta ao quadro clínico/fundoscópico",
+    ],
+    examesComplementares: [
+      "Sorologia para toxoplasmose (IgG e IgM)",
+      "Investigação para imunossupressão de base (incluindo sorologia para HIV) em casos atípicos, multifocais, bilaterais ou de curso mais grave que o habitual",
+      "Angiofluoresceinografia em casos selecionados para melhor delimitar a extensão da lesão ativa",
+    ],
+    diagnosticoDiferencial: [
+      "Outras uveítes posteriores infecciosas (citomegalovírus, sobretudo em imunocomprometidos; sífilis; tuberculose)",
+      "Uveíte posterior não infecciosa associada a doença autoimune sistêmica (sarcoidose, doença de Behçet)",
+      "Linfoma intraocular (diagnóstico diferencial importante em idosos com uveíte posterior atípica refratária ao tratamento habitual)",
+    ],
+    tratamento: [
+      "Tratamento antiparasitário sistêmico combinado (classicamente pirimetamina, sulfadiazina e ácido folínico, com corticosteroide sistêmico associado quando há lesão que ameace a visão) é a base do tratamento em lesões ativas significativas, sobretudo próximas à mácula, ao nervo óptico ou a vasos retinianos maiores (classes de medicamento ainda sem ficha própria no site)",
+      "Lesões pequenas e periféricas, distantes de estruturas visualmente críticas, podem ser observadas sem tratamento sistêmico em pacientes imunocompetentes, dada a tendência a cicatrização espontânea",
+      "Corticosteroide tópico e cicloplégico quando há uveíte anterior associada",
+    ],
+    complicacoes: [
+      "Aguda: perda visual quando a lesão ativa acomete diretamente a mácula, o nervo óptico ou vasos retinianos maiores (com risco de oclusão vascular associada)",
+      "Crônica: recorrências múltiplas ao longo da vida a partir da mesma cicatriz ou de novas cicatrizes, cada uma com potencial de deixar sequela visual adicional",
+    ],
+    redFlags: [
+      "Lesão coriorretiniana ativa próxima à mácula, ao nervo óptico ou a vasos retinianos calibrosos — risco imediato de perda visual, exigindo tratamento sistêmico sem demora, diferente de lesões periféricas que podem ser apenas observadas",
+      "Quadro atípico, multifocal, bilateral ou particularmente grave — investigar imunossupressão de base, incluindo infecção por HIV",
+    ],
+    prognostico:
+      "Bom na maioria das lesões periféricas isoladas, com cicatrização espontânea e impacto visual mínimo. Reservado quando a lesão acomete estruturas centrais (mácula, nervo óptico), com risco de perda visual permanente proporcional à localização e ao número de recorrências ao longo da vida.",
+    pontosDeProva: [
+      "A lesão ativa adjacente a uma cicatriz pigmentada antiga ('lesão satélite') é o achado fundoscópico clássico e mais cobrado da toxoplasmose ocular reativada",
+      "Sorologia IgG positiva para toxoplasmose apenas confirma exposição prévia — não confirma que a lesão ocular ativa observada seja realmente toxoplásmica, dada a alta soroprevalência populacional",
+      "Toxoplasmose ocular é a causa infecciosa mais comum de uveíte posterior no mundo, incluindo no Brasil — deve ser a primeira hipótese considerada nesse contexto",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 24 anos, previamente hígido, relata miodesopsias e turvação visual no olho esquerdo há 1 semana. Ao exame de fundo de olho, observa-se lesão coriorretiniana branco-amarelada ativa, adjacente a uma cicatriz pigmentada antiga, com turvação vítrea sobrejacente.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta?",
+      raciocinio:
+        "O achado de lesão coriorretiniana ativa adjacente a uma cicatriz pigmentada preexistente é o padrão clássico de reativação de toxoplasmose ocular, a causa infecciosa mais comum de uveíte posterior.",
+      conduta:
+        "Solicitar sorologia para toxoplasmose como apoio diagnóstico, avaliar a proximidade da lesão a estruturas centrais (mácula, nervo óptico, vasos maiores) para decidir sobre tratamento antiparasitário sistêmico combinado versus apenas observação em caso de lesão periférica isolada.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia, achado de lesão satélite e conduta", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+      { tema: "Toxoplasmose ocular como causa infecciosa mais comum de uveíte posterior", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "outros-transtornos-coroide",
+    nome: "Outros transtornos da coróide",
+    sinonimos: ["Coriorretinopatia serosa central", "Nevo de coróide"],
+    cid10: "H31",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Grupo heterogêneo de condições da coróide, das quais a coriorretinopatia serosa central (acúmulo idiopático de líquido sub-retiniano, associado a estresse/corticosteroide) e o nevo de coróide (lesão pigmentada benigna) são as mais relevantes na prática.",
+    definicao:
+      "Grupo heterogêneo de condições que acometem a coróide (camada vascular entre a retina e a esclera), incluindo a coriorretinopatia serosa central (acúmulo idiopático de líquido sob a retina, por disfunção do epitélio pigmentar), o nevo de coróide (lesão pigmentada benigna, achado incidental comum) e o descolamento de coróide (geralmente secundário a hipotonia ocular pós-cirúrgica ou inflamação).",
+    epidemiologia:
+      "A coriorretinopatia serosa central acomete predominantemente homens jovens a de meia-idade, classicamente associada a estresse psicológico e ao uso de corticosteroide (sistêmico, tópico ou até inalatório) como principal fator de risco identificável. Nevo de coróide é um achado extremamente comum e geralmente incidental em exames de rotina, com risco muito baixo de transformação maligna para melanoma de coróide.",
+    fisiopatologia:
+      "Na coriorretinopatia serosa central, há disfunção focal do epitélio pigmentar retiniano, com aumento da permeabilidade da coriocapilar subjacente, levando ao acúmulo de líquido seroso entre o epitélio pigmentar e a retina neurossensorial — o corticosteroide, em qualquer via de administração, é um fator de risco bem estabelecido para desencadear ou agravar episódios. O nevo de coróide resulta da proliferação benigna e estável de melanócitos coroideanos.",
+    classificacao:
+      "Coriorretinopatia serosa central classificada em aguda (a mais comum, tipicamente autolimitada em meses) e crônica (recorrente ou persistente, com maior risco de dano permanente ao epitélio pigmentar e à visão central). Nevo de coróide acompanhado por características de risco para transformação em melanoma (espessura, presença de líquido sub-retiniano, sintomas, entre outras), usadas para definir a frequência de monitorização.",
+    quadroClinico: [
+      "Coriorretinopatia serosa central: embaçamento visual central unilateral, metamorfopsia leve e micropsia (objetos parecendo menores) são sintomas relativamente característicos",
+      "Nevo de coróide: tipicamente assintomático, achado incidental em fundoscopia de rotina",
+      "Descolamento de coróide: geralmente assintomático quando pequeno; quando extenso, pode causar embaçamento visual e, raramente, dor por elevação da pressão intraocular",
+    ],
+    diagnostico: [
+      "Fundoscopia e tomografia de coerência óptica (OCT) para identificar o líquido sub-retiniano na coriorretinopatia serosa central",
+      "Investigação ativa de uso de corticosteroide (qualquer via) e de fatores de estresse psicológico na anamnese da coriorretinopatia serosa central",
+      "Documentação fotográfica seriada do nevo de coróide para monitorar crescimento ao longo do tempo",
+    ],
+    examesComplementares: [
+      "Tomografia de coerência óptica (OCT) para confirmar e quantificar o líquido sub-retiniano na coriorretinopatia serosa central",
+      "Angiofluoresceinografia, mostrando classicamente um ponto de extravasamento focal ('smokestack' ou em mancha) na coriorretinopatia serosa central ativa",
+      "Ecografia ocular (modo B) para nevo de coróide, medindo espessura e monitorando crescimento",
+    ],
+    diagnosticoDiferencial: [
+      "Degeneração macular relacionada à idade, forma úmida (mais comum em idosos, com neovascularização coroideana, diferente do simples acúmulo seroso)",
+      "Melanoma de coróide (diagnóstico diferencial obrigatório de nevo de coróide com características de risco)",
+      "Descolamento de retina exsudativo de outras causas",
+    ],
+    tratamento: [
+      "Coriorretinopatia serosa central aguda: observação é apropriada na maioria dos casos, já que a resolução espontânea ocorre na maioria das vezes em semanas a poucos meses; suspensão do corticosteroide (quando identificado como fator desencadeante) é a medida mais importante",
+      "Coriorretinopatia serosa central crônica ou recorrente: fotocoagulação a laser focal ou terapia fotodinâmica podem ser consideradas em casos persistentes",
+      "Nevo de coróide: observação com monitorização periódica (fotografia e ecografia seriadas) é a conduta padrão na ausência de características de risco para malignidade",
+      "Descolamento de coróide: tratamento dirigido à causa de base (correção de hipotonia, controle de inflamação associada)",
+    ],
+    complicacoes: [
+      "Crônica: atrofia do epitélio pigmentar retiniano e perda visual central permanente em casos recorrentes ou crônicos de coriorretinopatia serosa central não controlados",
+    ],
+    redFlags: [
+      "Nevo de coróide com crescimento documentado, líquido sub-retiniano associado ou sintomas visuais novos — características de risco para transformação em melanoma de coróide, exigindo encaminhamento para oncologia ocular",
+      "Coriorretinopatia serosa central recorrente em uso continuado de corticosteroide — reforça a necessidade de suspender ou minimizar o corticosteroide sempre que clinicamente possível",
+    ],
+    prognostico:
+      "Excelente na coriorretinopatia serosa central aguda, com resolução espontânea completa na maioria dos casos. Reservado nas formas crônicas/recorrentes, com risco de dano permanente ao epitélio pigmentar. Nevo de coróide sem características de risco tem prognóstico excelente, com risco de transformação maligna muito baixo ao longo da vida.",
+    pontosDeProva: [
+      "Corticosteroide (por qualquer via — sistêmica, tópica, inalatória, intranasal) é o fator de risco mais cobrado e clinicamente mais acionável para coriorretinopatia serosa central — sempre perguntar ativamente sobre uso de corticosteroide",
+      "Micropsia associada a metamorfopsia em homem jovem com embaçamento visual central unilateral é um padrão clássico sugestivo de coriorretinopatia serosa central",
+      "Todo nevo de coróide deve ser documentado e acompanhado, já que características de crescimento ou líquido associado mudam a conduta para investigação de melanoma",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 38 anos, em uso de corticosteroide oral para tratamento de uma dermatite, relata embaçamento visual central unilateral e percepção de que os objetos parecem 'menores' com o olho afetado, há 2 semanas, em um período de grande estresse no trabalho.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta?",
+      raciocinio:
+        "Embaçamento visual central unilateral com micropsia, em homem jovem com uso de corticosteroide e período de estresse significativo (os dois principais fatores de risco reconhecidos), é o quadro clássico de coriorretinopatia serosa central.",
+      conduta:
+        "Encaminhar para avaliação oftalmológica com tomografia de coerência óptica para confirmar o líquido sub-retiniano, orientar suspensão ou redução do corticosteroide sempre que clinicamente possível em conjunto com o médico prescritor, e manter conduta expectante na maioria dos casos agudos, dada a alta taxa de resolução espontânea.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia e associação com corticosteroide na coriorretinopatia serosa central", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+      { tema: "Conduta de monitorização do nevo de coróide e sinais de risco para melanoma", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "cicatrizes-opacidades-cornea",
+    nome: "Cicatrizes e opacidades da córnea",
+    sinonimos: ["Leucoma corneano"],
+    cid10: "H17",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Opacificação permanente da córnea, sequela de trauma, infecção (ceratite prévia) ou outras agressões corneanas — causa importante de baixa visual evitável, tratável com transplante de córnea quando significativa.",
+    definicao:
+      "Opacificação permanente e localizada da córnea, resultante da cicatrização de uma lesão corneana prévia (trauma, ceratite infecciosa, queimadura química ou cirúrgica), com impacto visual proporcional à densidade, extensão e localização da opacidade em relação ao eixo visual.",
+    epidemiologia:
+      "É uma causa importante de baixa visão e cegueira evitável, sobretudo em regiões com maior incidência de trauma ocular e de ceratites infecciosas não tratadas adequadamente (incluindo a ceratite herpética recorrente, causa clássica de cicatrizes corneanas centrais recorrentes).",
+    fisiopatologia:
+      "Após uma lesão que rompe a integridade e a organização regular das lamelas de colágeno estromais (infecção, trauma, queimadura), o processo de reparo tecidual resulta em deposição de colágeno desorganizado e fibrose, que dispersa a luz de forma diferente do estroma corneano normal e transparente, causando a opacidade visível clinicamente como uma mancha esbranquiçada (leucoma) ou mais sutil (nébula, mácula, conforme a densidade).",
+    classificacao:
+      "Classificada pela densidade da opacidade em nébula (opacidade leve e semitransparente), mácula (opacidade mais densa, mas ainda permitindo alguma visualização de detalhes da íris) e leucoma (opacidade densa e esbranquiçada, obscurecendo completamente os detalhes subjacentes da íris). Também classificada pela localização em relação ao eixo visual central, principal determinante do impacto funcional.",
+    quadroClinico: [
+      "Opacidade corneana visível ao exame externo, de extensão e densidade variáveis",
+      "Redução da acuidade visual proporcional à densidade da opacidade e à sua localização em relação ao eixo visual central — opacidades periféricas podem ser assintomáticas",
+      "Astigmatismo irregular induzido pela cicatriz, contribuindo para a redução da qualidade visual mesmo quando a opacidade não está exatamente no eixo visual",
+      "História pregressa de trauma ocular, ceratite (sobretudo herpética recorrente) ou queimadura química/térmica é o dado de anamnese mais relevante",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico pela biomicroscopia com lâmpada de fenda, caracterizando densidade, extensão e localização da opacidade",
+      "Investigação da causa de base (história de trauma, episódios recorrentes de ceratite herpética, queimadura prévia) orienta o risco de recorrência e a estratégia de manejo",
+    ],
+    examesComplementares: [
+      "Topografia corneana para quantificar o astigmatismo irregular associado",
+      "Paquimetria e microscopia especular quando há indicação de transplante de córnea, para avaliar espessura e contagem de células endoteliais antes da cirurgia",
+    ],
+    diagnosticoDiferencial: [
+      "Ceratocone (opacidade e afinamento corneano progressivos de causa degenerativa, não cicatricial, ainda que possa haver cicatriz sobreposta em casos avançados)",
+      "Distrofias corneanas hereditárias (opacidades bilaterais, simétricas, sem história de trauma/infecção prévia)",
+      "Catarata (opacidade do cristalino, não da córnea — diferenciável à biomicroscopia)",
+    ],
+    tratamento: [
+      "Correção óptica com lentes de contato rígidas gás-permeáveis pode melhorar a acuidade visual em opacidades com astigmatismo irregular associado, mascarando parcialmente a irregularidade da superfície",
+      "Transplante de córnea (ceratoplastia, penetrante ou lamelar conforme a profundidade do acometimento) é o tratamento definitivo quando a opacidade compromete significativamente a visão e não há resposta satisfatória a correção óptica conservadora",
+      "Tratamento e prevenção da causa de base (antiviral supressivo em ceratite herpética recorrente, por exemplo) para reduzir o risco de novas cicatrizes",
+    ],
+    complicacoes: [
+      "Crônica: rejeição do enxerto após transplante de córnea, principal complicação de longo prazo do tratamento cirúrgico definitivo, exigindo monitorização e uso prolongado de corticosteroide tópico",
+    ],
+    redFlags: [
+      "Opacidade corneana central de instalação recente com dor e hiperemia associadas — sugere ceratite ativa em curso, não uma cicatriz estável, e exige avaliação e tratamento da infecção ativa antes de considerar a opacidade como sequela definitiva",
+    ],
+    prognostico:
+      "Variável conforme localização e densidade: opacidades periféricas fora do eixo visual costumam ter impacto funcional mínimo; opacidades centrais densas causam redução visual significativa, mas frequentemente respondem bem ao transplante de córnea quando bem indicado e sem doença de base ativa não controlada.",
+    pontosDeProva: [
+      "A localização da opacidade em relação ao eixo visual central, mais do que sua extensão absoluta, é o principal determinante do impacto funcional na visão",
+      "Ceratite herpética recorrente é uma causa clássica de cicatrizes corneanas centrais recorrentes — a supressão antiviral crônica é uma estratégia para reduzir novas recorrências e cicatrizes adicionais",
+      "Transplante de córnea é altamente eficaz para opacidades visualmente significativas, mas a rejeição do enxerto é a principal complicação de longo prazo a monitorar",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 34 anos, com história de múltiplos episódios de ceratite herpética no olho direito ao longo dos últimos 10 anos, apresenta opacidade corneana central densa e esbranquiçada, com acuidade visual significativamente reduzida nesse olho.",
+      pergunta: "Qual a conduta mais apropriada?",
+      raciocinio:
+        "Opacidade corneana central densa (leucoma) secundária a episódios recorrentes de ceratite herpética, com impacto visual significativo, é uma indicação clássica de transplante de córnea, já que a opacidade central não responde a tratamento conservador.",
+      conduta:
+        "Encaminhar para avaliação de transplante de córnea (ceratoplastia), associada à manutenção de terapia antiviral supressiva de longo prazo para reduzir o risco de novas recorrências de ceratite herpética que possam comprometer o enxerto.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Classificação por densidade e fisiopatologia da cicatrização corneana", fonte: "Vaughan & Asbury's General Ophthalmology, 19ª ed." },
+      { tema: "Indicação e complicações do transplante de córnea", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+    ],
+  },
+  {
+    slug: "ceratocone",
+    nome: "Ceratocone e outros transtornos da córnea",
+    sinonimos: ["Ectasia corneana"],
+    cid10: "H18",
+    especialidade: "Oftalmologia",
+    etiologia: "Degenerativa",
+    resumo: "Ceratocone é uma ectasia corneana progressiva, com afinamento e protrusão cônica da córnea, tipicamente iniciando na adolescência — causa de astigmatismo irregular progressivo e indicação clássica de crosslinking corneano.",
+    definicao:
+      "Doença corneana progressiva caracterizada por afinamento estromal e protrusão cônica anômala da córnea, geralmente bilateral (embora frequentemente assimétrica), causando astigmatismo irregular progressivo e redução da acuidade visual não totalmente corrigível com óculos.",
+    epidemiologia:
+      "Tipicamente inicia-se na adolescência ou início da vida adulta, com progressão ao longo de anos até estabilizar geralmente por volta da terceira ou quarta década de vida. Associado a coçar ocular crônico/vigoroso, atopia e certas condições genéticas (como síndrome de Down), além de história familiar em uma parcela dos casos.",
+    fisiopatologia:
+      "Há afinamento progressivo do estroma corneano por alteração na organização e nas propriedades biomecânicas das fibras de colágeno, cuja causa exata permanece incompletamente compreendida, mas envolve provavelmente fatores genéticos predisponentes combinados a fatores mecânicos (o coçar ocular crônico é fortemente associado e considerado um fator agravante/desencadeante importante). O afinamento progressivo permite que a pressão intraocular normal deforme a córnea em uma configuração cônica irregular, gerando astigmatismo irregular crescente.",
+    classificacao:
+      "Classificado por gravidade/estágio conforme parâmetros topográficos e paquimétricos (curvatura corneana, espessura mínima), de formas leves e subclínicas a formas avançadas com afinamento extremo e cicatrizes centrais. Hidropsia aguda é uma complicação classificada à parte, correspondendo à ruptura aguda da membrana de Descemet em casos avançados.",
+    quadroClinico: [
+      "Piora progressiva da acuidade visual ao longo de meses a anos, tipicamente iniciando na adolescência",
+      "Astigmatismo irregular de correção difícil com óculos, frequentemente necessitando trocas frequentes de grau",
+      "Fotofobia e halos ao redor de luzes",
+      "Coçar ocular crônico é um achado frequente na história e um fator de risco reconhecido para progressão",
+      "Hidropsia aguda (complicação): dor ocular súbita, hiperemia intensa e opacificação corneana abrupta, por ruptura aguda da membrana de Descemet",
+    ],
+    diagnostico: [
+      "Topografia/tomografia corneana computadorizada é o exame central para diagnóstico e estadiamento, identificando o padrão característico de curvatura irregular e afinamento focal",
+      "Retinoscopia com reflexo em 'tesoura' é um achado clássico sugestivo ao exame, embora menos sensível que a topografia computadorizada",
+    ],
+    examesComplementares: [
+      "Topografia/tomografia corneana computadorizada (Scheimpflug), exame de escolha para diagnóstico, estadiamento e monitorização de progressão",
+      "Paquimetria corneana para quantificar o afinamento estromal, relevante para indicação de crosslinking",
+    ],
+    diagnosticoDiferencial: [
+      "Astigmatismo regular comum (sem o padrão de irregularidade e progressão característico do ceratocone à topografia)",
+      "Degeneração marginal pelúcida (variante relacionada, com afinamento em localização inferior periférica distinta)",
+      "Ectasia corneana pós-cirurgia refrativa (história de cirurgia a laser prévia, mecanismo relacionado mas etiologia iatrogênica)",
+    ],
+    tratamento: [
+      "Correção óptica com óculos nas fases iniciais; lentes de contato rígidas gás-permeáveis (ou lentes esclerais) nas fases intermediárias a avançadas, quando os óculos não corrigem satisfatoriamente o astigmatismo irregular",
+      "Crosslinking corneano (fortalecimento das ligações do colágeno estromal por aplicação de riboflavina e luz ultravioleta) é o tratamento indicado para deter a progressão documentada da doença, sendo mais eficaz quanto mais precocemente realizado",
+      "Transplante de córnea (ceratoplastia) reservado a casos avançados com afinamento extremo, cicatriz central significativa ou intolerância a lentes de contato",
+      "Orientação enfática para cessar o hábito de coçar os olhos, medida simples com impacto real na progressão",
+    ],
+    complicacoes: [
+      "Aguda: hidropsia aguda, com edema corneano súbito e dor, que geralmente resolve com cicatrização em semanas a meses, mas pode deixar opacidade residual",
+      "Crônica: progressão até necessidade de transplante de córnea em uma parcela dos casos não estabilizados a tempo com crosslinking",
+    ],
+    redFlags: [
+      "Adolescente ou adulto jovem com troca frequente e progressiva de grau de óculos, especialmente com astigmatismo de difícil correção — investigar ceratocone com topografia corneana antes de simplesmente aumentar o grau repetidamente",
+      "Dor ocular súbita e opacificação corneana abrupta em paciente com ceratocone conhecido — hidropsia aguda, geralmente manejada de forma conservadora, mas que exige avaliação oftalmológica para confirmar o diagnóstico e excluir outras causas",
+    ],
+    prognostico:
+      "Variável: a doença tende a estabilizar espontaneamente por volta da terceira/quarta década de vida na maioria dos pacientes. Com diagnóstico precoce e crosslinking oportuno, a progressão pode ser efetivamente detida na maior parte dos casos, evitando a necessidade de transplante de córnea no futuro.",
+    pontosDeProva: [
+      "Troca frequente e progressiva de grau de óculos em adolescente, sobretudo com astigmatismo de correção difícil, deve levantar suspeita ativa de ceratocone",
+      "Coçar ocular crônico é um fator de risco modificável importante para progressão do ceratocone — orientação para cessar esse hábito faz parte do tratamento",
+      "Crosslinking corneano é indicado para deter a progressão (não para reverter o afinamento já estabelecido) — quanto mais precoce, maior a eficácia em preservar a córnea sem necessidade de transplante",
+    ],
+    casoClinico: {
+      vinheta:
+        "Adolescente, 16 anos, com hábito de coçar os olhos frequentemente por prurido alérgico, relata necessidade de trocar o grau dos óculos três vezes no último ano, com astigmatismo de difícil correção relatado pelo oftalmologista anterior.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta?",
+      raciocinio:
+        "Troca frequente e progressiva de grau em adolescente, com astigmatismo de correção difícil e hábito de coçar os olhos (fator de risco reconhecido), é altamente sugestiva de ceratocone.",
+      conduta:
+        "Solicitar topografia/tomografia corneana computadorizada para confirmar o diagnóstico e estadiar a doença; se houver progressão documentada, indicar crosslinking corneano para deter a evolução, além de orientar enfaticamente a cessação do hábito de coçar os olhos.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia, fatores de risco e história natural", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+      { tema: "Indicação e mecanismo do crosslinking corneano", fonte: "American Academy of Ophthalmology, Preferred Practice Pattern: Corneal Ectasia" },
+    ],
+  },
+  {
+    slug: "hifema-transtornos-iris",
+    nome: "Hifema e outros transtornos da íris e do corpo ciliar",
+    sinonimos: ["Hemorragia de câmara anterior"],
+    cid10: "H21",
+    especialidade: "Oftalmologia",
+    etiologia: "Traumática",
+    resumo: "Hifema é o acúmulo de sangue na câmara anterior do olho, mais comumente por trauma contuso — requer monitorização ativa da pressão intraocular e do ressangramento, que pode ser mais grave que o sangramento inicial.",
+    definicao:
+      "Hifema é a presença de sangue na câmara anterior do olho, visível como um nível líquido entre o sangue (que se deposita por gravidade) e o humor aquoso, mais comumente resultante de trauma ocular contuso que rompe vasos da íris ou do corpo ciliar.",
+    epidemiologia:
+      "Mais comum em crianças e adultos jovens, geralmente associado a trauma esportivo ou acidental. Hifema espontâneo (sem trauma) é mais raro e levanta suspeita de neovascularização da íris, discrasia sanguínea ou uso de anticoagulante.",
+    fisiopatologia:
+      "O trauma contuso ocular causa uma onda de compressão e descompressão rápida do globo ocular, rompendo vasos sanguíneos da íris ou do corpo ciliar na base do ângulo iridocorneano, com sangramento para a câmara anterior. O ressangramento (mais comum entre o segundo e o quinto dia após o trauma inicial) ocorre pela lise e retração do coágulo inicial antes da cicatrização vascular completa, e tende a ser mais volumoso e de pior prognóstico que o sangramento inicial.",
+    classificacao:
+      "Classificado por grau conforme a proporção da câmara anterior preenchida por sangue, de microscópico (células circulantes sem nível visível) a grau IV/'bola preta' (câmara anterior totalmente preenchida por sangue coagulado escurecido), sendo o risco de complicações (glaucoma secundário, impregnação hemática da córnea) proporcional ao grau e à duração do hifema.",
+    quadroClinico: [
+      "Nível de sangue visível na câmara anterior, mais evidente com o paciente sentado (deposição por gravidade)",
+      "Dor ocular e fotofobia, de intensidade proporcional ao trauma associado e à elevação da pressão intraocular",
+      "Diminuição da acuidade visual proporcional ao grau do hifema",
+      "História de trauma ocular contuso recente na maioria dos casos",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico direto pela visualização do nível de sangue na câmara anterior à lâmpada de fenda",
+      "Avaliação cuidadosa para excluir lesões oculares associadas mais graves (ruptura do globo ocular, luxação do cristalino, lesões do segmento posterior), que podem estar mascaradas pelo próprio hifema",
+    ],
+    examesComplementares: [
+      "Tonometria seriada (medida repetida da pressão intraocular), essencial no acompanhamento, pelo risco de elevação da pressão pela obstrução do escoamento do humor aquoso pelo sangue",
+      "Investigação para hemoglobinopatia falciforme em pacientes de risco epidemiológico, já que hemácias falcizadas obstruem mais facilmente a malha trabecular, aumentando o risco de complicações mesmo com hifemas pequenos",
+      "Ultrassonografia ocular quando a opacidade do hifema impede a avaliação direta do segmento posterior, para excluir lesões associadas",
+    ],
+    diagnosticoDiferencial: [
+      "Hipópio (nível de pus, não sangue, na câmara anterior — de causa infecciosa/inflamatória, não traumática)",
+      "Hifema espontâneo por neovascularização da íris (rubeosis iridis, associada a isquemia retiniana crônica como na retinopatia diabética proliferativa ou em oclusões vasculares)",
+      "Discrasias sanguíneas ou uso de anticoagulante como causa de hifema espontâneo ou desproporcional ao trauma relatado",
+    ],
+    tratamento: [
+      "Repouso relativo com elevação da cabeceira, para favorecer a deposição do sangue por gravidade e reduzir o risco de ressangramento",
+      "Proteção ocular física (uso de protetor rígido, sem oclusão compressiva) para evitar novo trauma durante a fase de cicatrização vascular",
+      "Monitorização seriada da pressão intraocular, com tratamento hipotensor ocular tópico ou sistêmico se houver elevação significativa",
+      "Cicloplégico tópico para conforto e redução do risco de sinéquias; corticosteroide tópico em casos selecionados para reduzir inflamação associada",
+      "Evacuação cirúrgica do hifema reservada a casos com pressão intraocular refratária ao tratamento clínico, impregnação hemática corneana iminente, ou hifema total persistente por vários dias",
+    ],
+    complicacoes: [
+      "Aguda: ressangramento (mais comum entre o segundo e o quinto dia), tipicamente mais volumoso e de pior prognóstico que o sangramento inicial; elevação aguda da pressão intraocular por obstrução do escoamento do humor aquoso",
+      "Crônica: impregnação hemática da córnea (depósito de produtos de degradação do sangue no estroma corneano, causando opacidade permanente) em hifemas volumosos ou de longa duração associados a pressão intraocular elevada persistente",
+    ],
+    redFlags: [
+      "Elevação importante da pressão intraocular associada a hifema, sobretudo em paciente com hemoglobinopatia falciforme (ou traço falciforme) — risco maior de dano ao nervo óptico mesmo com pressões moderadamente elevadas, exigindo manejo mais agressivo",
+      "Ressangramento entre o segundo e o quinto dia após o trauma inicial — geralmente mais grave que o hifema inicial, com maior risco de complicações",
+      "Hifema espontâneo, sem história de trauma — investigar causa sistêmica (discrasia sanguínea, uso de anticoagulante, neovascularização ocular de base)",
+    ],
+    prognostico:
+      "Bom na maioria dos hifemas traumáticos de pequeno a moderado volume, com resolução completa em dias a poucas semanas e sem sequelas visuais quando não há complicações. Reservado em hifemas volumosos, recorrentes (ressangramento) ou associados a pressão intraocular persistentemente elevada, com risco de dano ao nervo óptico e impregnação hemática corneana permanente.",
+    pontosDeProva: [
+      "O ressangramento (entre o 2º e o 5º dia após o trauma) tende a ser mais grave que o sangramento inicial — é o período de maior vigilância no acompanhamento do hifema",
+      "Pacientes com hemoglobinopatia falciforme (mesmo traço falciforme) têm maior risco de dano ao nervo óptico com hifema, mesmo com elevações modestas da pressão intraocular — investigação ativa recomendada em populações de risco",
+      "Hifema espontâneo, sem trauma, deve sempre levantar suspeita de causa sistêmica ou de neovascularização ocular de base, não ser assumido como traumático por padrão",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menino, 12 anos, atingido por uma bola durante jogo de futebol, apresenta dor ocular, fotofobia e nível de sangue visível na câmara anterior do olho direito ao exame.",
+      pergunta: "Qual a conduta inicial e o principal risco a monitorar nos dias seguintes?",
+      raciocinio:
+        "O quadro é compatível com hifema traumático por trauma contuso ocular direto. O principal risco nos dias seguintes é o ressangramento, que classicamente ocorre entre o segundo e o quinto dia após o trauma e tende a ser mais grave que o episódio inicial.",
+      conduta:
+        "Orientar repouso relativo com elevação da cabeceira, proteção ocular física, e monitorização seriada da pressão intraocular nos dias seguintes, com atenção especial ao período de maior risco de ressangramento (2º ao 5º dia).",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia, classificação por grau e risco de ressangramento", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+      { tema: "Maior risco de dano ao nervo óptico em portadores de hemoglobinopatia falciforme", fonte: "American Academy of Ophthalmology, Preferred Practice Pattern: Traumatic Hyphema" },
+    ],
+  },
+  {
+    slug: "hemorragia-vitrea",
+    nome: "Hemorragia vítrea e outros transtornos do humor vítreo",
+    sinonimos: ["Hemovítreo"],
+    cid10: "H43",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Extravasamento de sangue para a cavidade vítrea, mais comumente por retinopatia diabética proliferativa, descolamento do vítreo posterior com ruptura retiniana associada, ou trauma — causa comum de perda visual súbita indolor.",
+    definicao:
+      "Presença de sangue na cavidade vítrea, resultante de sangramento de vasos retinianos anômalos (neovascularização), ruptura de vaso retiniano normal associada a tração vítreo-retiniana, ou trauma ocular, causando graus variáveis de obscurecimento visual conforme a quantidade de sangue.",
+    epidemiologia:
+      "A retinopatia diabética proliferativa é a causa mais comum de hemorragia vítrea em adultos de meia-idade; em pacientes mais velhos sem diabetes, o descolamento do vítreo posterior com ruptura retiniana associada é uma causa importante; em jovens, o trauma é a causa predominante.",
+    fisiopatologia:
+      "Na retinopatia diabética proliferativa, vasos neoformados anômalos e friáveis na superfície retiniana rompem-se facilmente, sangrando para a cavidade vítrea. No descolamento do vítreo posterior, a tração sobre um vaso retiniano normal durante o processo de separação do vítreo da retina pode causar sua ruptura e sangramento, frequentemente associado a uma ruptura retiniana concomitante que precisa ser ativamente investigada. Em trauma, o sangramento pode originar-se de qualquer estrutura vascular intraocular lesada pelo impacto.",
+    classificacao:
+      "Não há um sistema de estadiamento formal amplamente usado; a hemorragia vítrea é descrita pela densidade/extensão (leve, com visualização parcial do fundo de olho, a densa, impedindo completamente a visualização) e sempre investigada quanto à causa de base subjacente, que determina a conduta.",
+    quadroClinico: [
+      "Miodesopsias de início súbito, descritas classicamente como 'chuva de fuligem' ou pontos escuros múltiplos",
+      "Perda visual súbita e indolor, de magnitude proporcional à densidade do sangramento — de leve embaçamento a perda visual profunda em hemorragias densas",
+      "Ausência de dor ou hiperemia significativa na maioria dos casos, exceto quando há trauma associado",
+    ],
+    diagnostico: [
+      "Fundoscopia com pupila dilatada para tentar visualizar a origem do sangramento e identificar a causa de base",
+      "Ultrassonografia ocular (modo B) quando a densidade do sangramento impede a visualização direta da retina, essencial para excluir descolamento de retina associado, que muda completamente a urgência do encaminhamento",
+    ],
+    examesComplementares: [
+      "Ultrassonografia ocular (modo B), exame-chave quando a hemorragia impede visualização direta, para excluir descolamento de retina e orientar a urgência da intervenção",
+      "Investigação para retinopatia diabética (glicemia, hemoglobina glicada) quando a causa não é evidente ou não há diagnóstico prévio de diabetes",
+    ],
+    diagnosticoDiferencial: [
+      "Descolamento de retina isolado sem hemorragia significativa (miodesopsias também presentes, mas com defeito de campo visual em cortina mais característico)",
+      "Uveíte posterior com turvação vítrea inflamatória (sem o padrão de 'chuva de fuligem' hemorrágico típico)",
+      "Enxaqueca com aura (fotopsias bilaterais transitórias, sem miodesopsias persistentes nem achado à fundoscopia)",
+    ],
+    tratamento: [
+      "Observação com elevação da cabeceira (para favorecer a sedimentação do sangue por gravidade, melhorando temporariamente a visualização) é apropriada em hemorragias leves a moderadas sem evidência de descolamento de retina associado, aguardando reabsorção espontânea ao longo de semanas",
+      "Tratamento da causa de base é essencial: fotocoagulação a laser panretiniana ou injeção intravítrea de anti-VEGF na retinopatia diabética proliferativa; reparo da ruptura retiniana quando identificada",
+      "Vitrectomia indicada em hemorragia densa e persistente sem sinais de reabsorção espontânea após período de observação, ou quando há suspeita de descolamento de retina associado que precise de correção cirúrgica direta",
+    ],
+    complicacoes: [
+      "Aguda: descolamento de retina associado não identificado a tempo pela dificuldade de visualização direta através do sangue — reforça a importância da ultrassonografia quando a fundoscopia é inconclusiva",
+      "Crônica: hemossiderose ocular (toxicidade tecidual pelo depósito prolongado de produtos de degradação do sangue) em hemorragias densas e persistentes por longos períodos sem reabsorção ou intervenção",
+    ],
+    redFlags: [
+      "Miodesopsias súbitas tipo 'chuva de fuligem' associadas a fotopsias — investigar ativamente ruptura ou descolamento de retina associado com ultrassonografia, mesmo quando a fundoscopia direta é inconclusiva",
+      "Ausência de reabsorção espontânea após período razoável de observação — reavaliar a necessidade de vitrectomia, sobretudo pelo risco de descolamento de retina oculto pela hemorragia",
+    ],
+    prognostico:
+      "Variável conforme a causa de base: hemorragias por descolamento do vítreo posterior isolado (sem ruptura retiniana) geralmente reabsorvem espontaneamente com bom prognóstico visual; hemorragias por retinopatia diabética proliferativa têm prognóstico dependente do controle da doença de base e da resposta ao tratamento com laser/anti-VEGF; hemorragias associadas a descolamento de retina não identificado e tratado a tempo têm prognóstico reservado.",
+    pontosDeProva: [
+      "Toda hemorragia vítrea que impede a visualização direta da retina exige ultrassonografia ocular para excluir descolamento de retina associado antes de simplesmente observar aguardando reabsorção espontânea",
+      "Retinopatia diabética proliferativa é a causa mais comum de hemorragia vítrea em adultos de meia-idade — sempre investigar diabetes não diagnosticado quando a causa não é evidente",
+      "'Chuva de fuligem' é a descrição clássica cobrada para o sintoma de miodesopsias da hemorragia vítrea aguda",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 55 anos, diabético de longa data com mau controle glicêmico, relata início súbito de múltiplos pontos escuros móveis na visão do olho direito, descritos como uma 'chuva de fuligem', sem dor associada.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta?",
+      raciocinio:
+        "Miodesopsias súbitas em 'chuva de fuligem', sem dor, em paciente diabético de longa data com mau controle, sugerem fortemente hemorragia vítrea secundária a retinopatia diabética proliferativa, a causa mais comum nessa faixa etária e contexto clínico.",
+      conduta:
+        "Encaminhamento oftalmológico para fundoscopia dilatada e, se a hemorragia impedir visualização adequada, ultrassonografia ocular para excluir descolamento de retina associado; uma vez confirmada a causa, iniciar tratamento da retinopatia diabética proliferativa de base (fotocoagulação a laser panretiniana ou anti-VEGF) além do controle glicêmico rigoroso.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Causas mais comuns por faixa etária e conduta diagnóstica", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+      { tema: "Papel da ultrassonografia ocular na exclusão de descolamento de retina associado", fonte: "American Academy of Ophthalmology, Preferred Practice Pattern: Posterior Vitreous Detachment, Retinal Breaks, and Lattice Degeneration" },
+    ],
+  },
 ];
