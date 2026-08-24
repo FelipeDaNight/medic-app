@@ -145,7 +145,66 @@ parênteses, exatamente como aparece no índice.
 11. concluído — Osteoporose sem fratura patológica (M81)
 12. concluído — Dorsalgia / lombalgia (M54)
 
-### Lote 7 — Neurologia (14)
+### ⭐ PRIORIDADE ATUAL — Oftalmologia (33, em 3 lotes)
+
+A pedido do usuário, Oftalmologia passa a ser a próxima especialidade a ser fechada por
+completo, antes de Neurologia e das demais abaixo. Mapeamento feito diretamente contra
+o capítulo "Doenças do olho e anexos" (H00–H59) de `src/data/cid10-index.ts` — **47
+categorias oficiais de 3 caracteres no total**, das quais **33 são fichas de doença
+autônomas** (listadas nos 3 lotes abaixo) e **14 foram propositalmente excluídas**, pelo
+mesmo critério já usado nas demais especialidades (nenhum lote anterior fichou uma
+categoria puramente administrativa/cruzada):
+- 12 categorias "em doenças classificadas em outra parte" (H03, H06, H13, H19, H22,
+  H28, H32, H36, H42, H45, H48, H58) — são manifestações oculares de doenças já
+  cobertas (ou a cobrir) em outras especialidades (ex.: retinopatia diabética como
+  complicação do DM, já fichado em Endocrinologia), não entidades autônomas.
+- 2 categorias catch-all sem conteúdo clínico específico (H57 "Outros transtornos do
+  olho e anexos", H59 "pós-procedimento não classificados em outra parte").
+
+Nenhuma ficha de Oftalmologia existe hoje no site (confirmado: zero ocorrências de
+`especialidade: "Oftalmologia"` em `diseases.ts`) — este é o primeiro conteúdo da
+especialidade.
+
+### Lote 7 — Oftalmologia A: segmento anterior comum (11)
+1. pendente — Conjuntivite (H10)
+2. pendente — Hordéolo e calázio (H00)
+3. pendente — Ceratite (H16)
+4. pendente — Catarata senil (H25)
+5. pendente — Glaucoma (H40)
+6. pendente — Outras inflamações da pálpebra / blefarite (H01)
+7. pendente — Outros transtornos da pálpebra / entrópio, ectrópio, ptose (H02)
+8. pendente — Transtornos do aparelho lacrimal / olho seco, dacriocistite (H04)
+9. pendente — Outros transtornos da conjuntiva / pterígio, pinguécula (H11)
+10. pendente — Transtornos da esclerótica / episclerite, esclerite (H15)
+11. pendente — Iridociclite / uveíte anterior (H20)
+
+### Lote 8 — Oftalmologia B: segmento posterior e emergências (11)
+1. pendente — Descolamentos e defeitos da retina (H33)
+2. pendente — Oclusões vasculares da retina (H34)
+3. pendente — Outros transtornos da retina / retinopatia diabética, DMRI (H35)
+4. pendente — Transtornos da órbita / celulite orbitária (H05)
+5. pendente — Transtornos do globo ocular / endoftalmite, corpo estranho intraocular (H44)
+6. pendente — Inflamação coriorretiniana / uveíte posterior, toxoplasmose ocular (H30)
+7. pendente — Outros transtornos da coróide (H31)
+8. pendente — Cicatrizes e opacidades da córnea (H17)
+9. pendente — Outros transtornos da córnea / ceratocone (H18)
+10. pendente — Outros transtornos da íris e do corpo ciliar / hifema (H21)
+11. pendente — Transtornos do humor vítreo / hemorragia vítrea (H43)
+
+### Lote 9 — Oftalmologia C: cristalino restante, nervo óptico, motilidade e refração (11)
+1. pendente — Outras cataratas / congênita, secundária, traumática (H26)
+2. pendente — Outros transtornos do cristalino / afacia, subluxação (H27)
+3. pendente — Neurite óptica (H46)
+4. pendente — Outros transtornos do nervo óptico e das vias ópticas / papiledema, atrofia óptica (H47)
+5. pendente — Estrabismo paralítico (H49)
+6. pendente — Outros estrabismos (H50)
+7. pendente — Outros transtornos do movimento binocular (H51)
+8. pendente — Transtornos da refração e da acomodação / miopia, hipermetropia, astigmatismo, presbiopia (H52)
+9. pendente — Distúrbios visuais / ambliopia, diplopia, hemianopsia (H53)
+10. pendente — Cegueira e visão subnormal (H54)
+11. pendente — Nistagmo e outros movimentos irregulares do olho (H55)
+
+### Lote 10 — Neurologia (14)
 1. pendente — Acidente vascular cerebral isquêmico transitório / AIT (G45)
 2. pendente — Infarto cerebral / AVC isquêmico (I63)
 3. pendente — Hemorragia intracerebral / AVC hemorrágico (I61)
@@ -161,7 +220,7 @@ parênteses, exatamente como aparece no índice.
 13. pendente — Demência vascular (F01)
 14. pendente — Neoplasia maligna do encéfalo (C71)
 
-### Lote 8 — Hematologia (13)
+### Lote 11 — Hematologia (13)
 1. pendente — Anemia por deficiência de vitamina B12 (D51)
 2. pendente — Talassemia (D56)
 3. pendente — Transtornos falciformes (D57)
@@ -176,7 +235,7 @@ parênteses, exatamente como aparece no índice.
 12. pendente — Leucemia mielóide (C92)
 13. pendente — Leucemia linfóide (C91)
 
-### Lote 9 — Nefrologia (6) + Urologia (6)
+### Lote 12 — Nefrologia (6) + Urologia (6)
 1. pendente — Síndrome nefrítica aguda (N00)
 2. pendente — Síndrome nefrótica (N04)
 3. pendente — Insuficiência renal aguda (N17)
@@ -190,7 +249,7 @@ parênteses, exatamente como aparece no índice.
 11. pendente — Neoplasia maligna da bexiga (C67)
 12. pendente — Neoplasia maligna do rim (C64)
 
-### Lote 10 — Psiquiatria (13)
+### Lote 13 — Psiquiatria (13)
 1. pendente — Episódios depressivos (F32)
 2. pendente — Transtorno depressivo recorrente (F33)
 3. pendente — Transtorno afetivo bipolar (F31)
@@ -205,7 +264,7 @@ parênteses, exatamente como aparece no índice.
 12. pendente — Delirium não induzido pelo álcool (F05)
 13. pendente — Transtornos hipercinéticos / TDAH (F90)
 
-### Lote 11 — Dermatologia (11) + início Ginecologia/Obstetrícia (3)
+### Lote 14 — Dermatologia (11) + início Ginecologia/Obstetrícia (3)
 1. pendente — Psoríase (L40)
 2. pendente — Dermatite atópica (L20)
 3. pendente — Melanoma maligno da pele (C43)
@@ -221,7 +280,7 @@ parênteses, exatamente como aparece no índice.
 13. pendente — Eclâmpsia (O15)
 14. pendente — Diabetes mellitus na gravidez / gestacional (O24)
 
-### Lote 12 — Ginecologia/Obstetrícia (restante, 9)
+### Lote 15 — Ginecologia/Obstetrícia (restante, 9)
 1. pendente — Gravidez ectópica (O00)
 2. pendente — Aborto espontâneo (O03)
 3. pendente — Endometriose (N80)
@@ -232,10 +291,11 @@ parênteses, exatamente como aparece no índice.
 8. pendente — Doença inflamatória do útero / DIP (N71)
 9. pendente — Transtornos da menopausa e da perimenopausa (N95)
 
-**Total: 75 doenças pendentes em 6 lotes** (Lote 1, Cardiologia; Lote 2,
+**Total: 108 doenças pendentes em 9 lotes** (Lote 1, Cardiologia; Lote 2,
 Endocrinologia+Pneumologia; Lote 3, Pneumologia; Lote 4, Infectologia; Lote 5,
 Gastroenterologia; e Lote 6, Gastro restante+Reumatologia, concluídos —
-15 + 14 + 12 + 13 + 14 + 12 itens), além das 96 já fichadas.
+15 + 14 + 12 + 13 + 14 + 12 itens), além das 96 já fichadas. **Próxima prioridade:
+Lotes 7-9 (Oftalmologia, 33 itens), antes de Neurologia e das demais.**
 
 ---
 
