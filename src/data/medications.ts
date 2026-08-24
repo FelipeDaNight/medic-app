@@ -179,6 +179,7 @@ export const medications: Medication[] = [
       { slug: "gota", nome: "Gota" },
       { slug: "espondilite-anquilosante", nome: "Espondilite anquilosante" },
       { slug: "dorsalgia-lombalgia", nome: "Dorsalgia (lombalgia)" },
+      { slug: "episclerite-esclerite", nome: "Episclerite e esclerite" },
     ],
     fontes: [
       { tema: "Mecanismo de ação e efeitos adversos", fonte: "Goodman & Gilman, 13ª ed." },

@@ -7198,4 +7198,790 @@ export const diseases: Disease[] = [
       { tema: "Recomendação contra imagem rotineira sem sinais de alarme e AINE como primeira linha", fonte: "American College of Physicians Clinical Practice Guideline: Low Back Pain, 2017" },
     ],
   },
+  {
+    slug: "conjuntivite",
+    nome: "Conjuntivite",
+    sinonimos: ["Olho vermelho agudo"],
+    cid10: "H10",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Inflamação da conjuntiva de causa viral, bacteriana ou alérgica — motivo extremamente comum de consulta por olho vermelho, geralmente autolimitada.",
+    definicao:
+      "Processo inflamatório da conjuntiva (membrana mucosa que reveste a superfície interna das pálpebras e a esclera visível), de etiologia infecciosa (viral ou bacteriana) ou alérgica, caracterizado por hiperemia conjuntival associada a secreção ocular de características variáveis conforme a causa.",
+    epidemiologia:
+      "Uma das causas mais comuns de olho vermelho na atenção primária e no pronto-atendimento oftalmológico. A conjuntivite viral (frequentemente por adenovírus) é a causa infecciosa mais comum em adultos; a conjuntivite bacteriana é mais frequente em crianças. A conjuntivite alérgica tem caráter sazonal ou perene, associada a atopia.",
+    fisiopatologia:
+      "Na conjuntivite viral, o adenovírus (o agente mais comum) infecta diretamente o epitélio conjuntival, gerando resposta inflamatória linfocitária intensa e alta contagiosidade por contato direto ou fômites. Na conjuntivite bacteriana, bactérias (Staphylococcus aureus, Streptococcus pneumoniae, Haemophilus influenzae em crianças; Neisseria gonorrhoeae na forma hiperaguda) colonizam e invadem a superfície conjuntival, gerando exsudato purulento pela resposta neutrofílica. Na conjuntivite alérgica, alérgenos desencadeiam degranulação de mastócitos mediada por IgE (hipersensibilidade tipo I), liberando histamina e outros mediadores responsáveis pelo prurido característico.",
+    classificacao:
+      "Classificada por etiologia: viral (a mais comum em adultos, tipicamente adenoviral), bacteriana (mais comum em crianças, secreção purulenta), alérgica (sazonal ou perene) e formas específicas de maior gravidade, como a conjuntivite neonatal e a conjuntivite hiperaguda gonocócica. Não há um sistema de estadiamento formal amplamente usado — a classificação é fundamentalmente etiológica.",
+    quadroClinico: [
+      "Hiperemia conjuntival (olho vermelho), uni ou bilateral",
+      "Secreção aquosa/serosa na viral; purulenta ou mucopurulenta na bacteriana (pálpebras podem 'grudar' ao acordar); aquosa com prurido intenso na alérgica",
+      "Prurido ocular proeminente sugere etiologia alérgica",
+      "Adenopatia pré-auricular palpável sugere etiologia viral",
+      "Quemose (edema conjuntival), presente em qualquer etiologia, mais intensa na alérgica e na forma hiperaguda gonocócica",
+      "Ausência de dor ocular importante, fotofobia intensa ou baixa acuidade visual significativa — a presença desses achados aponta para diagnóstico diferencial mais grave",
+    ],
+    diagnostico: [
+      "Diagnóstico primariamente clínico, baseado nas características da secreção, sintomas associados (prurido, adenopatia) e contexto epidemiológico (contato com outras pessoas com quadro semelhante, sazonalidade alérgica)",
+      "Cultura e antibiograma da secreção reservados a casos refratários, neonatos ou suspeita de conjuntivite gonocócica",
+    ],
+    examesComplementares: [
+      "Exame com lâmpada de fenda, quando disponível, para avaliar a córnea e excluir comprometimento corneano associado",
+      "Cultura de secreção ocular na conjuntivite neonatal, em casos hiperagudos ou refratários ao tratamento empírico",
+      "Teste com fluoresceína para excluir lesão corneana quando há dor ou fotofobia desproporcionais ao quadro conjuntival",
+    ],
+    diagnosticoDiferencial: [
+      "Ceratite (compromete a córnea, com dor e fotofobia mais intensas e risco à visão)",
+      "Uveíte anterior / iridociclite (dor mais intensa, miose, fotofobia, hiperemia perilímbica)",
+      "Glaucoma agudo de ângulo fechado (dor intensa, náusea, midríase média fixa — emergência)",
+      "Episclerite / esclerite (hiperemia localizada, tipicamente sem secreção)",
+    ],
+    tratamento: [
+      "Conjuntivite viral: tratamento de suporte (compressas frias, lubrificantes oculares); quadro autolimitado em 1 a 3 semanas; evitar corticosteroide tópico sem avaliação oftalmológica, pelo risco de prolongar a replicação viral",
+      "Conjuntivite bacteriana: colírio antibiótico tópico de amplo espectro (classe ainda sem ficha própria de medicamento no site); a maioria dos casos também é autolimitada, mas o tratamento acelera a resolução e reduz a transmissão",
+      "Conjuntivite alérgica: anti-histamínico tópico e/ou compressas frias; evitar o alérgeno identificado quando possível",
+      "Higiene rigorosa das mãos e não compartilhar toalhas/objetos de uso pessoal — a conjuntivite viral é altamente contagiosa",
+    ],
+    complicacoes: [
+      "Aguda: ceratoconjuntivite epidêmica (adenoviral), com infiltrados corneanos subepiteliais causando fotofobia e turvação visual prolongadas",
+      "Crônica: conjuntivite alérgica não tratada pode evoluir com alterações conjuntivais crônicas, como papilas gigantes na ceratoconjuntivite vernal",
+    ],
+    redFlags: [
+      "Dor ocular intensa, fotofobia importante ou diminuição da acuidade visual — sugerem comprometimento corneano ou uveal, não conjuntivite isolada, e exigem avaliação oftalmológica",
+      "Secreção purulenta abundante de início hiperagudo (menos de 24h), especialmente em neonato ou adulto sexualmente ativo — suspeitar de conjuntivite gonocócica, capaz de perfurar a córnea rapidamente; emergência oftalmológica",
+      "Uso de lentes de contato associado a dor e hiperemia — maior risco de ceratite bacteriana (incluindo por Pseudomonas), não conjuntivite simples",
+    ],
+    prognostico:
+      "Excelente na grande maioria dos casos, com resolução completa em dias a poucas semanas. A conjuntivite viral pode cursar com fotofobia e turvação visual residual por semanas a meses quando há acometimento corneano associado (ceratoconjuntivite epidêmica).",
+    pontosDeProva: [
+      "Prurido intenso sugere etiologia alérgica; secreção purulenta sugere bacteriana; adenopatia pré-auricular sugere viral — é a tríade mais cobrada para diferenciar as três causas mais comuns",
+      "Dor importante, fotofobia intensa e queda de acuidade visual NÃO são típicas de conjuntivite isolada — sempre reconsiderar o diagnóstico e pensar em ceratite, uveíte ou glaucoma agudo",
+      "Conjuntivite gonocócica é hiperaguda e pode perfurar a córnea em horas — diagnóstico diferencial obrigatório em neonato com conjuntivite purulenta importante ou adulto sexualmente ativo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Estudante universitário, 22 anos, procura atendimento por olho vermelho bilateral há 2 dias, com secreção aquosa abundante e sensação de areia nos olhos. Refere que o colega de quarto teve quadro semelhante na semana anterior. Ao exame, nota-se linfonodo pré-auricular palpável à direita.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e qual a conduta?",
+      raciocinio:
+        "Secreção aquosa, contexto de contato com outra pessoa com quadro semelhante e adenopatia pré-auricular são achados clássicos de conjuntivite viral, a causa infecciosa mais comum em adultos.",
+      conduta:
+        "Tratamento de suporte com compressas frias e lubrificantes oculares, orientação sobre a natureza autolimitada e altamente contagiosa do quadro (higiene das mãos, evitar compartilhar objetos pessoais), e retorno se surgir dor importante, fotofobia ou queda de visão.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Classificação etiológica e quadro clínico diferencial", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+      { tema: "Conduta terapêutica por etiologia", fonte: "American Academy of Ophthalmology, Preferred Practice Pattern: Conjunctivitis" },
+    ],
+  },
+  {
+    slug: "hordeolo-calazio",
+    nome: "Hordéolo e calázio",
+    sinonimos: ["Terçol"],
+    cid10: "H00",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Lesões nodulares palpebrais comuns: o hordéolo é uma infecção bacteriana aguda e dolorosa; o calázio é uma inflamação granulomatosa crônica por obstrução de glândula, geralmente indolor.",
+    definicao:
+      "Hordéolo é uma infecção bacteriana aguda de uma glândula palpebral (glândula de Zeis/Moll no hordéolo externo, glândula de Meibômio no interno), formando um nódulo dolorido e hiperemiado. Calázio é uma inflamação granulomatosa crônica por obstrução de uma glândula de Meibômio, formando um nódulo indolor de crescimento lento, sem sinais infecciosos agudos.",
+    epidemiologia:
+      "Condições extremamente comuns na prática oftalmológica e de atenção primária, em qualquer faixa etária. Blefarite crônica e disfunção das glândulas de Meibômio são fatores predisponentes para ambos.",
+    fisiopatologia:
+      "O hordéolo resulta de infecção bacteriana aguda (tipicamente por Staphylococcus aureus) de uma glândula palpebral, com resposta inflamatória aguda supurativa. O calázio resulta da obstrução do ducto de uma glândula de Meibômio, com extravasamento de secreção sebácea (lipídica) para o tecido adjacente, desencadeando reação inflamatória granulomatosa crônica de corpo estranho — sem infecção bacteriana ativa, ainda que possa evoluir a partir de um hordéolo interno não resolvido.",
+    classificacao:
+      "Hordéolo classificado em externo (glândula de Zeis ou Moll, na base do cílio) e interno (glândula de Meibômio, mais profundo e geralmente mais doloroso). Calázio é considerado uma entidade distinta, crônica e não infecciosa, embora didaticamente agrupado com o hordéolo por acometerem estruturas semelhantes. Não há sistema de estadiamento formal para nenhuma das duas condições.",
+    quadroClinico: [
+      "Hordéolo: nódulo palpebral doloroso, hiperemiado, de início agudo, por vezes com ponto de drenagem purulenta visível",
+      "Calázio: nódulo palpebral indolor (ou pouco doloroso), de crescimento lento ao longo de semanas, sem hiperemia importante",
+      "Ambos podem causar sensação de peso ou desconforto palpebral leve; visão geralmente preservada, salvo calázios muito grandes causando astigmatismo induzido por compressão da córnea",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico, pela inspeção e palpação da lesão palpebral e pelo tempo de evolução e presença ou ausência de dor/sinais inflamatórios agudos",
+    ],
+    examesComplementares: [
+      "Geralmente nenhum exame complementar é necessário",
+      "Biópsia excisional indicada em calázio recorrente no mesmo local, especialmente em pacientes idosos, para excluir carcinoma sebáceo (diagnóstico diferencial importante e potencialmente grave)",
+    ],
+    diagnosticoDiferencial: [
+      "Carcinoma sebáceo da pálpebra (mimetiza calázio recorrente, sobretudo em idosos — sempre suspeitar em lesão que recorre no mesmo local)",
+      "Celulite pré-septal (quando há disseminação da infecção além da glândula, com edema palpebral mais extenso)",
+      "Blefarite (inflamação difusa da margem palpebral, sem nódulo focal)",
+    ],
+    tratamento: [
+      "Hordéolo: compressas mornas repetidas ao longo do dia, que favorecem a drenagem espontânea; pomada oftálmica antibiótica tópica (classe ainda sem ficha própria de medicamento no site) em casos com celulite associada",
+      "Calázio: compressas mornas como primeira linha; se persistente após algumas semanas, incisão e curetagem cirúrgica ou infiltração intralesional de corticosteroide são opções de segunda linha",
+      "Manejo da blefarite/disfunção de Meibômio de base reduz recorrências em ambas as condições",
+    ],
+    complicacoes: [
+      "Aguda: celulite pré-septal por disseminação da infecção do hordéolo",
+      "Crônica: calázios recorrentes podem causar astigmatismo induzido por compressão mecânica da córnea, e calázio recorrente no mesmo local levanta suspeita de carcinoma sebáceo",
+    ],
+    redFlags: [
+      "Calázio recorrente repetidamente no mesmo local, sobretudo em paciente idoso — biópsia para excluir carcinoma sebáceo, que classicamente mimetiza essa apresentação",
+      "Edema palpebral extenso, dor importante, febre ou limitação da motilidade ocular — sugerem celulite pré-septal ou orbitária, não hordéolo/calázio simples",
+    ],
+    prognostico:
+      "Excelente na maioria dos casos: hordéolo geralmente resolve em poucos dias a uma semana com tratamento conservador; calázio pode levar semanas a meses para resolução espontânea, mas responde bem à intervenção cirúrgica quando persistente.",
+    pontosDeProva: [
+      "Hordéolo é agudo, doloroso e infeccioso; calázio é crônico, indolor e inflamatório não infeccioso — essa distinção é o ponto mais cobrado",
+      "Calázio recorrente no mesmo local em paciente idoso deve sempre levantar suspeita de carcinoma sebáceo, um diagnóstico diferencial clássico e potencialmente grave",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 34 anos, apresenta nódulo na pálpebra superior direita há 3 semanas, indolor, de crescimento lento, sem hiperemia significativa. Nega dor ou secreção purulenta.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Nódulo palpebral indolor, de evolução lenta e sem sinais inflamatórios agudos é típico de calázio (inflamação granulomatosa crônica por obstrução de glândula de Meibômio), diferente do hordéolo, que seria agudo e doloroso.",
+      conduta:
+        "Iniciar compressas mornas repetidas como primeira linha; se não houver resolução em algumas semanas, encaminhar para incisão e curetagem ou infiltração intralesional de corticosteroide.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Diferenciação fisiopatológica hordéolo vs. calázio e conduta", fonte: "Vaughan & Asbury's General Ophthalmology, 19ª ed." },
+      { tema: "Carcinoma sebáceo como diagnóstico diferencial de calázio recorrente", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+    ],
+  },
+  {
+    slug: "ceratite",
+    nome: "Ceratite",
+    sinonimos: ["Inflamação da córnea"],
+    cid10: "H16",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Inflamação da córnea de causa infecciosa (bacteriana, viral, fúngica ou por Acanthamoeba) ou não infecciosa, com potencial de ameaçar a visão — diagnóstico diferencial obrigatório de olho vermelho doloroso.",
+    definicao:
+      "Processo inflamatório da córnea, de etiologia infecciosa (bacteriana, viral — sobretudo herpética —, fúngica ou por protozoário Acanthamoeba) ou não infecciosa (exposição, autoimune), caracterizado por dor, fotofobia, hiperemia perilímbica e, frequentemente, defeito epitelial ou infiltrado corneano visível.",
+    epidemiologia:
+      "O uso de lentes de contato é o principal fator de risco para ceratite bacteriana e por Acanthamoeba em países desenvolvidos. A ceratite herpética (por herpes simples) é uma causa importante de cegueira corneana evitável em todo o mundo. Trauma ocular e uso de corticosteroide tópico sem supervisão também são fatores de risco relevantes.",
+    fisiopatologia:
+      "Na ceratite bacteriana, a ruptura da barreira epitelial corneana (trauma, lente de contato) permite invasão bacteriana com necrose estromal rapidamente progressiva, sobretudo por Pseudomonas aeruginosa. Na ceratite herpética, o vírus herpes simples estabelece latência no gânglio trigeminal e reativa periodicamente, causando lesões dendríticas epiteliais características por replicação viral direta. Na ceratite por Acanthamoeba (associada a lentes de contato e exposição à água contaminada), o protozoário invade o estroma corneano, causando dor desproporcional ao achado inicial ao exame. A ceratite fúngica geralmente segue trauma com material vegetal.",
+    classificacao:
+      "Classificada por etiologia (bacteriana, viral/herpética, fúngica, por Acanthamoeba, não infecciosa/exposição) e por camada acometida (epitelial, estromal). Não há sistema de estadiamento formal amplamente usado — a classificação etiológica é a mais relevante para conduta.",
+    quadroClinico: [
+      "Dor ocular importante, geralmente desproporcional ao achado visual inicial",
+      "Fotofobia intensa e lacrimejamento reflexo",
+      "Hiperemia perilímbica (mais concentrada ao redor da córnea do que na periferia conjuntival)",
+      "Infiltrado ou opacidade corneana visível, por vezes com hipópio (nível de pus na câmara anterior) em casos bacterianos graves",
+      "Diminuição da acuidade visual proporcional à localização e extensão da lesão",
+      "Lesão dendrítica característica na ceratite herpética epitelial",
+    ],
+    diagnostico: [
+      "Exame com lâmpada de fenda é essencial para caracterizar o infiltrado/defeito epitelial e orientar a suspeita etiológica",
+      "Coloração com fluoresceína para delimitar defeitos epiteliais, incluindo o padrão dendrítico característico da ceratite herpética",
+      "Raspado corneano com cultura e coloração (Gram, KOH) indicado em infiltrados centrais ou de rápida progressão, para guiar terapia antimicrobiana dirigida",
+    ],
+    examesComplementares: [
+      "Cultura de raspado corneano (bacteriana, fúngica) — obrigatória antes de iniciar antibiótico tópico fortificado em infiltrados significativos",
+      "Microscopia confocal ou cultura específica quando há suspeita de Acanthamoeba (uso de lente de contato, dor desproporcional, resposta inadequada a antibiótico convencional)",
+    ],
+    diagnosticoDiferencial: [
+      "Conjuntivite (dor e fotofobia bem menos intensas, sem infiltrado corneano)",
+      "Uveíte anterior / iridociclite (dor e fotofobia semelhantes, mas sem defeito epitelial ou infiltrado estromal à lâmpada de fenda)",
+      "Glaucoma agudo de ângulo fechado (dor intensa associada a náusea e midríase média fixa)",
+      "Corpo estranho corneano (história de trauma, sensação de corpo estranho localizada)",
+    ],
+    tratamento: [
+      "Ceratite bacteriana: colírio antibiótico tópico fortificado de amplo espectro, guiado por cultura quando possível — emergência oftalmológica, tratamento iniciado sem aguardar resultado de cultura em casos graves (classe de medicamento ainda sem ficha própria no site)",
+      "Ceratite herpética epitelial: antiviral tópico ou oral (aciclovir ou similar); corticosteroide tópico contraindicado na forma epitelial ativa, pelo risco de piora",
+      "Ceratite fúngica: antifúngico tópico específico, tratamento prolongado",
+      "Ceratite por Acanthamoeba: tratamento prolongado com antissépticos tópicos específicos (biguanidas/diamidinas), frequentemente de difícil manejo",
+      "Suspensão do uso de lentes de contato em qualquer ceratite associada a seu uso",
+    ],
+    complicacoes: [
+      "Aguda: perfuração corneana em ceratite bacteriana grave não tratada a tempo, sobretudo por Pseudomonas",
+      "Crônica: cicatriz corneana (leucoma) com redução permanente da acuidade visual, podendo exigir transplante de córnea",
+    ],
+    redFlags: [
+      "Infiltrado corneano central, hipópio ou dor intensa em usuário de lente de contato — ceratite bacteriana potencialmente grave, encaminhamento oftalmológico urgente",
+      "Dor desproporcional ao achado inicial em usuário de lente de contato com exposição a água (piscina, torneira, lago) — suspeitar de Acanthamoeba",
+      "Lesão dendrítica com uso concomitante de corticosteroide tópico — a ceratite herpética pode ser dramaticamente agravada pelo corticosteroide não indicado",
+    ],
+    prognostico:
+      "Variável conforme etiologia e tempo até o tratamento: ceratite bacteriana tratada precocemente tem bom prognóstico visual, mas pode evoluir para perfuração e perda visual permanente se houver atraso; a ceratite herpética tende a recorrer ao longo da vida e é causa importante de cegueira corneana evitável quando mal manejada.",
+    pontosDeProva: [
+      "Dor ocular importante e desproporcional, com hiperemia perilímbica, distingue ceratite de conjuntivite simples — é o ponto-chave para não subestimar um olho vermelho doloroso",
+      "Corticosteroide tópico é contraindicado na ceratite herpética epitelial ativa — pode agravar dramaticamente a lesão",
+      "Usuário de lente de contato com ceratite deve sempre suspender o uso e ser considerado de maior risco para Pseudomonas e Acanthamoeba",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 28 anos, usuário de lentes de contato, procura atendimento por dor ocular intensa, fotofobia e hiperemia no olho direito há 2 dias. Refere ter dormido com as lentes na noite anterior a um episódio de natação em piscina.",
+      pergunta: "Qual a principal preocupação diagnóstica e a conduta imediata?",
+      raciocinio:
+        "Uso de lente de contato associado a exposição à água e dor ocular intensa desproporcional levanta suspeita de ceratite infecciosa, incluindo a possibilidade de Acanthamoeba além das causas bacterianas mais comuns — quadro que exige avaliação oftalmológica urgente com lâmpada de fenda.",
+      conduta:
+        "Suspender imediatamente o uso das lentes de contato, encaminhar para avaliação oftalmológica urgente com lâmpada de fenda e, se houver infiltrado corneano, coletar raspado para cultura antes de iniciar tratamento antimicrobiano tópico dirigido.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Etiologia, fatores de risco e fisiopatologia por tipo", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+      { tema: "Contraindicação de corticosteroide na ceratite herpética epitelial ativa", fonte: "American Academy of Ophthalmology, Preferred Practice Pattern: Bacterial Keratitis" },
+    ],
+  },
+  {
+    slug: "catarata-senil",
+    nome: "Catarata senil",
+    sinonimos: ["Catarata relacionada à idade"],
+    cid10: "H25",
+    especialidade: "Oftalmologia",
+    etiologia: "Degenerativa",
+    resumo: "Opacificação progressiva do cristalino relacionada ao envelhecimento — principal causa de baixa visual reversível no mundo, tratada cirurgicamente quando compromete a função visual.",
+    definicao:
+      "Opacificação progressiva e gradual do cristalino associada ao envelhecimento, causando embaçamento visual progressivo, sem dor ou hiperemia ocular associada.",
+    epidemiologia:
+      "É a principal causa de cegueira reversível no mundo e uma das causas mais comuns de baixa acuidade visual em idosos. A prevalência aumenta progressivamente com a idade, sendo praticamente universal em graus variados após os 80 anos.",
+    fisiopatologia:
+      "Com o envelhecimento, ocorre acúmulo de proteínas cristalinas modificadas e agregadas (por oxidação e outras alterações bioquímicas cumulativas) nas fibras do cristalino, resultando em perda da transparência e formação de opacidades que dispersam a luz incidente, degradando progressivamente a qualidade da imagem retiniana.",
+    classificacao:
+      "Classificada morfologicamente conforme a localização da opacidade no cristalino: nuclear (mais associada a miopização progressiva e dificuldade para enxergar à distância), cortical (opacidades em cunha na periferia do córtex) e subcapsular posterior (mais sintomática em ambientes com muita luz, comum em usuários crônicos de corticosteroide e em diabéticos). É comum a coexistência de mais de um tipo morfológico no mesmo olho.",
+    quadroClinico: [
+      "Embaçamento visual progressivo e indolor, geralmente bilateral mas frequentemente assimétrico",
+      "Dificuldade visual maior em ambientes de luz intensa (mais típico da subcapsular posterior) ou para leitura/visão de longe, conforme o tipo morfológico predominante",
+      "Percepção de halos ao redor de luzes, sobretudo à noite",
+      "Alteração na percepção de cores (tons amarelados/acastanhados) em cataratas avançadas",
+      "Ausência de dor, hiperemia ou fotofobia — achados que, se presentes, sugerem outra etiologia associada",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico pela biomicroscopia com lâmpada de fenda, identificando a opacidade do cristalino e seu padrão morfológico",
+      "Avaliação da acuidade visual corrigida é essencial para quantificar o impacto funcional e orientar a indicação cirúrgica",
+    ],
+    examesComplementares: [
+      "Biomicroscopia com lâmpada de fenda para caracterizar tipo e densidade da opacidade",
+      "Biometria ocular (ultrassom ou óptica) no pré-operatório, para cálculo do poder da lente intraocular a ser implantada",
+      "Exame de fundo de olho antes da cirurgia, quando possível, para excluir doenças retinianas associadas que possam limitar o ganho visual esperado",
+    ],
+    diagnosticoDiferencial: [
+      "Degeneração macular relacionada à idade (perda visual central específica, com metamorfopsia, em vez de embaçamento global)",
+      "Retinopatia diabética (história de diabetes, alterações no fundo de olho)",
+      "Glaucoma (perda de campo visual periférico, não embaçamento central típico da catarata)",
+    ],
+    tratamento: [
+      "Atualização de correção óptica (óculos) enquanto a catarata é incipiente e não compromete significativamente a função visual",
+      "Cirurgia de facoemulsificação com implante de lente intraocular é o tratamento definitivo, indicada quando a catarata compromete a função visual e a qualidade de vida do paciente — não há tratamento clínico/medicamentoso capaz de reverter ou deter a progressão da opacificação",
+    ],
+    complicacoes: [
+      "Crônica: catarata hipermadura pode evoluir com glaucoma facolítico (obstrução do escoamento do humor aquoso por proteínas do cristalino) ou facomórfico (bloqueio pupilar por aumento do volume do cristalino), ambos emergências oftalmológicas",
+      "Pós-operatória: opacificação da cápsula posterior (a complicação tardia mais comum após cirurgia de catarata, tratada facilmente com capsulotomia a laser)",
+    ],
+    redFlags: [
+      "Dor ocular importante associada a catarata avançada — sugere glaucoma facomórfico ou facolítico, complicações que exigem intervenção oftalmológica urgente",
+      "Perda visual súbita ou assimétrica desproporcional à progressão lenta esperada da catarata — investigar outra causa concomitante antes de atribuir a piora só à catarata",
+    ],
+    prognostico:
+      "Excelente após cirurgia, com a grande maioria dos pacientes recuperando boa acuidade visual, desde que não haja doença ocular associada limitante (como degeneração macular avançada ou retinopatia diabética grave). Sem cirurgia, a progressão é lenta mas constante, podendo levar à cegueira.",
+    pontosDeProva: [
+      "Catarata é a principal causa de cegueira reversível no mundo — cirurgia de facoemulsificação é altamente eficaz e um dos procedimentos cirúrgicos mais realizados globalmente",
+      "Não existe tratamento medicamentoso ou colírio capaz de reverter ou deter a progressão da catarata — só a cirurgia é definitiva",
+      "Opacificação da cápsula posterior é a complicação tardia mais comum da cirurgia de catarata, facilmente resolvida com capsulotomia a YAG laser",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 74 anos, relata piora progressiva da visão nos últimos 2 anos, bilateral, sem dor ou hiperemia, com maior dificuldade para dirigir à noite por halos ao redor de faróis.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta?",
+      raciocinio:
+        "Embaçamento visual progressivo, indolor, bilateral, com halos noturnos, em paciente idosa, é o quadro clássico de catarata senil.",
+      conduta:
+        "Encaminhar para avaliação oftalmológica com biomicroscopia para confirmar o diagnóstico e avaliar o grau de comprometimento funcional; se a catarata estiver impactando significativamente a qualidade de vida, indicar cirurgia de facoemulsificação com implante de lente intraocular.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia e classificação morfológica", fonte: "Vaughan & Asbury's General Ophthalmology, 19ª ed." },
+      { tema: "Catarata como principal causa de cegueira reversível no mundo", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "glaucoma",
+    nome: "Glaucoma",
+    sinonimos: ["Neuropatia óptica glaucomatosa"],
+    cid10: "H40",
+    especialidade: "Oftalmologia",
+    etiologia: "Degenerativa",
+    resumo: "Neuropatia óptica progressiva, frequentemente (mas não sempre) associada a pressão intraocular elevada — principal causa de cegueira irreversível no mundo, por isso o rastreio é essencial.",
+    definicao:
+      "Grupo de neuropatias ópticas progressivas caracterizadas por perda de fibras do nervo óptico e alterações características do disco óptico (escavação aumentada), associadas a perda de campo visual progressiva, tipicamente periférica antes de acometer a visão central. A pressão intraocular elevada é o principal fator de risco modificável, mas o glaucoma pode ocorrer com pressão intraocular normal (glaucoma de pressão normal).",
+    epidemiologia:
+      "É a principal causa de cegueira irreversível no mundo. O glaucoma primário de ângulo aberto é a forma mais comum, de curso insidioso e assintomático até fases avançadas — daí a importância do rastreio em grupos de risco (idade avançada, história familiar, etnia negra, miopia alta).",
+    fisiopatologia:
+      "No glaucoma de ângulo aberto, há resistência aumentada à drenagem do humor aquoso através da malha trabecular, mesmo com o ângulo iridocorneano anatomicamente aberto, levando a elevação crônica e geralmente assintomática da pressão intraocular. Essa pressão elevada (ou, em alguns casos, uma vulnerabilidade intrínseca do nervo óptico mesmo sem pressão elevada) causa dano progressivo às células ganglionares da retina e suas fibras, com escavação progressiva do disco óptico e perda de campo visual correspondente, tipicamente iniciando na periferia.",
+    classificacao:
+      "Classificado principalmente em glaucoma primário de ângulo aberto (a forma mais comum, crônica e assintomática até fase avançada), glaucoma primário de ângulo fechado (agudo ou crônico, por bloqueio mecânico da drenagem do humor aquoso) e formas secundárias (associadas a outras doenças oculares, uso de corticosteroide, trauma, neovascularização). O glaucoma agudo de ângulo fechado é uma emergência oftalmológica distinta da forma crônica, com quadro clínico e conduta completamente diferentes.",
+    quadroClinico: [
+      "Glaucoma primário de ângulo aberto: assintomático na grande maioria dos casos até fase avançada, quando o paciente já perdeu campo visual periférico significativo — raramente percebido pelo próprio paciente antes disso",
+      "Glaucoma agudo de ângulo fechado (apresentação distinta e urgente): dor ocular intensa de início súbito, hiperemia, náusea e vômitos, halos coloridos ao redor de luzes, córnea com edema (aspecto embaçado) e pupila em midríase média fixa",
+      "Perda de campo visual periférico progressiva e irreversível na forma crônica, evoluindo para visão 'em túnel' em fases avançadas se não tratada",
+    ],
+    diagnostico: [
+      "Tonometria (medida da pressão intraocular) — pressão elevada é o principal fator de risco, mas seu valor isolado não confirma nem exclui o diagnóstico",
+      "Avaliação do disco óptico (fundoscopia ou tomografia de coerência óptica) buscando escavação aumentada e assimetria entre os olhos",
+      "Campimetria (perimetria computadorizada) para documentar e monitorar a perda de campo visual característica",
+      "Gonioscopia para diferenciar ângulo aberto de ângulo fechado, definindo a classificação e a conduta",
+    ],
+    examesComplementares: [
+      "Tonometria de aplanação (padrão-ouro para medida da pressão intraocular)",
+      "Tomografia de coerência óptica (OCT) de nervo óptico e camada de fibras nervosas da retina, para detecção e monitorização objetiva da progressão",
+      "Campimetria computadorizada seriada para acompanhar a progressão funcional ao longo do tempo",
+    ],
+    diagnosticoDiferencial: [
+      "Neuropatia óptica isquêmica anterior não arterítica (perda visual súbita, disco óptico edemaciado na fase aguda, não escavado)",
+      "Neurite óptica (mais comum em jovens, com dor à movimentação ocular)",
+      "Outras causas de perda de campo visual, incluindo lesões compressivas da via óptica",
+    ],
+    tratamento: [
+      "Glaucoma crônico (ângulo aberto): colírios hipotensores oculares como primeira linha (classes ainda sem ficha própria de medicamento no site, como betabloqueadores tópicos, análogos de prostaglandina e inibidores da anidrase carbônica), com objetivo de reduzir a pressão intraocular e deter a progressão do dano",
+      "Trabeculoplastia a laser ou cirurgia filtrante (trabeculectomia) reservadas a casos refratários ao tratamento clínico ou com progressão apesar do tratamento",
+      "Glaucoma agudo de ângulo fechado: emergência oftalmológica — redução imediata da pressão intraocular com medicação tópica/sistêmica e iridotomia a laser definitiva assim que possível",
+    ],
+    complicacoes: [
+      "Aguda (na crise de ângulo fechado): perda visual permanente em horas se não tratada a tempo, pelo dano isquêmico agudo ao nervo óptico",
+      "Crônica: cegueira irreversível progressiva na forma de ângulo aberto não tratada ou não controlada adequadamente",
+    ],
+    redFlags: [
+      "Dor ocular súbita e intensa com náusea, vômitos e halos coloridos ao redor de luzes — glaucoma agudo de ângulo fechado, emergência oftalmológica com risco de perda visual permanente em horas",
+      "Perda de campo visual periférico assimétrica em paciente com fatores de risco (idade avançada, história familiar) — rastreio ativo necessário, pois o paciente frequentemente não percebe a perda até fase avançada",
+    ],
+    prognostico:
+      "O dano ao nervo óptico já estabelecido é irreversível, mas o tratamento adequado (redução da pressão intraocular) é eficaz para deter ou retardar significativamente a progressão na maioria dos pacientes. O diagnóstico precoce por rastreio é determinante para o prognóstico visual em longo prazo, já que a forma crônica é assintomática até fase avançada.",
+    pontosDeProva: [
+      "O glaucoma primário de ângulo aberto é assintomático até fase avançada — é a principal causa de cegueira irreversível evitável no mundo justamente por isso, reforçando a importância do rastreio em grupos de risco",
+      "Glaucoma agudo de ângulo fechado é uma emergência oftalmológica verdadeira: dor ocular intensa + midríase média fixa + halos coloridos + náusea/vômitos — não confundir com enxaqueca ou quadro gastrointestinal",
+      "O dano ao nervo óptico já estabelecido no glaucoma é irreversível — o tratamento visa deter a progressão, não recuperar a visão já perdida",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 68 anos, sem queixas visuais, é encontrado em exame oftalmológico de rotina com escavação de disco óptico aumentada e assimétrica entre os olhos, e pressão intraocular de 26 mmHg em ambos os olhos.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta?",
+      raciocinio:
+        "Escavação aumentada e assimétrica do disco óptico associada a pressão intraocular elevada, em paciente assintomático, é o quadro clássico de glaucoma primário de ângulo aberto — corretamente detectado apenas por rastreio de rotina, já que é tipicamente assintomático até fase avançada.",
+      conduta:
+        "Confirmar o diagnóstico com campimetria computadorizada e gonioscopia (para classificar o ângulo), e iniciar colírio hipotensor ocular como primeira linha para reduzir a pressão intraocular e deter a progressão do dano ao nervo óptico.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia, classificação e conduta por tipo", fonte: "American Academy of Ophthalmology, Preferred Practice Pattern: Primary Open-Angle Glaucoma" },
+      { tema: "Glaucoma como principal causa de cegueira irreversível no mundo", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "blefarite",
+    nome: "Blefarite",
+    sinonimos: ["Inflamação da margem palpebral"],
+    cid10: "H01",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Inflamação crônica da margem palpebral, extremamente comum, geralmente associada a disfunção das glândulas de Meibômio ou colonização estafilocócica — causa frequente de irritação ocular crônica.",
+    definicao:
+      "Inflamação crônica bilateral da margem palpebral, classicamente dividida em anterior (acometendo a base dos cílios) e posterior (acometendo as glândulas de Meibômio), frequentemente coexistindo com olho seco e sendo uma causa comum de irritação ocular crônica recorrente.",
+    epidemiologia:
+      "Condição extremamente comum, sobretudo em adultos e idosos, frequentemente subdiagnosticada por ser confundida com outras causas de olho vermelho/irritado. Associada a rosácea, dermatite seborreica e disfunção das glândulas de Meibômio.",
+    fisiopatologia:
+      "Na blefarite anterior estafilocócica, há colonização bacteriana da base dos cílios com resposta inflamatória local. Na blefarite seborreica, há disfunção das glândulas sebáceas adjacentes com descamação aumentada. Na blefarite posterior (a forma mais comum), há disfunção das glândulas de Meibômio, com espessamento e obstrução da secreção lipídica meibomiana, alterando a composição do filme lacrimal e favorecendo evaporação excessiva (associação frequente com olho seco evaporativo).",
+    classificacao:
+      "Classificada em anterior (estafilocócica ou seborreica, acometendo a base dos cílios) e posterior (disfunção das glândulas de Meibômio, a forma mais prevalente), podendo coexistir. Também classificada quanto à cronicidade, sendo tipicamente uma condição crônica e recorrente, sem cura definitiva, apenas controle dos sintomas.",
+    quadroClinico: [
+      "Irritação ocular crônica, sensação de queimação ou corpo estranho, geralmente bilateral e pior pela manhã",
+      "Crostas e descamação na base dos cílios (mais evidente na forma anterior)",
+      "Hiperemia da margem palpebral",
+      "Sintomas de olho seco associados (sensação de secura, flutuação visual) são comuns pela alteração do filme lacrimal",
+      "Curso crônico com exacerbações e remissões, sem resolução espontânea definitiva",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico, pela inspeção da margem palpebral e base dos cílios à lâmpada de fenda",
+      "Expressão manual das glândulas de Meibômio para avaliar a qualidade da secreção (espessada/obstruída na disfunção meibomiana)",
+    ],
+    examesComplementares: [
+      "Exame com lâmpada de fenda da margem palpebral, cílios e filme lacrimal",
+      "Teste de tempo de ruptura do filme lacrimal (break-up time) quando há olho seco associado",
+    ],
+    diagnosticoDiferencial: [
+      "Conjuntivite (mais aguda, com secreção mais abundante e hiperemia conjuntival difusa)",
+      "Olho seco isolado (sem os achados de margem palpebral característicos da blefarite, embora frequentemente coexistam)",
+      "Dermatite de contato periocular",
+    ],
+    tratamento: [
+      "Higiene palpebral diária (compressas mornas seguidas de limpeza mecânica da margem palpebral) é a base do tratamento em todas as formas",
+      "Lubrificantes oculares (lágrimas artificiais) para os sintomas de olho seco associado",
+      "Pomada oftálmica antibiótica tópica na base dos cílios em casos com componente estafilocócico importante (classe ainda sem ficha própria de medicamento no site)",
+      "Tratamento de rosácea ou dermatite seborreica de base, quando presentes, contribui para o controle da blefarite",
+    ],
+    complicacoes: [
+      "Crônica: olho seco evaporativo persistente, calázios de repetição, e em casos graves e prolongados, alterações da superfície corneana",
+    ],
+    redFlags: [
+      "Blefarite assimétrica ou unilateral persistente e refratária ao tratamento, especialmente em idoso — considerar carcinoma sebáceo como diagnóstico diferencial, já que pode mimetizar blefarite crônica",
+    ],
+    prognostico:
+      "Condição crônica e recorrente, sem cura definitiva — o tratamento visa controle sintomático e prevenção de complicações (olho seco, calázios), com boa resposta à higiene palpebral consistente na maioria dos pacientes, ainda que exigindo manutenção contínua.",
+    pontosDeProva: [
+      "Blefarite é uma das causas mais comuns e mais subdiagnosticadas de irritação ocular crônica — deve ser ativamente pesquisada em pacientes com queixas oculares inespecíficas persistentes",
+      "Higiene palpebral é a base do tratamento em qualquer forma de blefarite, e precisa ser mantida cronicamente, já que não há cura definitiva",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 58 anos, com rosácea facial conhecida, relata irritação ocular crônica bilateral há meses, pior ao acordar, com crostas nos cílios e sensação de olho seco.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta?",
+      raciocinio:
+        "Irritação ocular crônica bilateral com crostas nos cílios, pior pela manhã, associada a rosácea (condição classicamente associada a disfunção das glândulas de Meibômio), é compatível com blefarite crônica.",
+      conduta:
+        "Orientar higiene palpebral diária (compressas mornas e limpeza mecânica da margem palpebral) como base do tratamento, associar lubrificante ocular para os sintomas de olho seco, e considerar tratamento dermatológico da rosácea de base.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Classificação anterior/posterior e fisiopatologia da disfunção meibomiana", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+    ],
+  },
+  {
+    slug: "entropio-ectropio-ptose",
+    nome: "Entrópio, ectrópio e ptose palpebral",
+    sinonimos: ["Malposições palpebrais"],
+    cid10: "H02",
+    especialidade: "Oftalmologia",
+    etiologia: "Degenerativa",
+    resumo: "Malposições da pálpebra (entrópio: margem voltada para dentro; ectrópio: margem voltada para fora; ptose: queda da pálpebra superior) — predominantemente relacionadas ao envelhecimento, mas com causas paralíticas e congênitas importantes.",
+    definicao:
+      "Entrópio é a rotação da margem palpebral (geralmente inferior) para dentro, em direção ao globo ocular, com os cílios entrando em contato com a córnea. Ectrópio é a rotação da margem palpebral (geralmente inferior) para fora, afastando-se do globo ocular. Ptose é a queda da pálpebra superior abaixo de sua posição normal, podendo obstruir parcialmente o eixo visual.",
+    epidemiologia:
+      "Entrópio e ectrópio involucionais (relacionados ao envelhecimento, por frouxidão dos tecidos de sustentação palpebral) são as formas mais comuns em idosos. Ptose pode ser congênita (a partir do nascimento) ou adquirida — sendo, entre as adquiridas, a forma aponeurótica relacionada à idade a mais comum, além das formas paralíticas (comprometimento do III par craniano) e miogênicas (miastenia gravis).",
+    fisiopatologia:
+      "No entrópio e ectrópio involucionais, a frouxidão progressiva dos ligamentos cantais e do músculo orbicular relacionada ao envelhecimento permite a rotação anômala da margem palpebral. Causas cicatriciais (trauma, queimadura, cirurgia prévia) também podem causar ambas as malposições por retração tecidual. Na ptose aponeurótica (a forma adquirida mais comum), há desinserção ou afinamento da aponeurose do músculo levantador da pálpebra superior relacionada à idade; na ptose paralítica, há comprometimento da inervação do III par craniano; na miogênica, há disfunção da junção neuromuscular (miastenia gravis) ou miopatia do próprio músculo levantador.",
+    classificacao:
+      "Entrópio e ectrópio classificados quanto à causa em involucional (a mais comum, relacionada à idade), cicatricial, paralítico (no ectrópio, por paralisia facial) e espástico. Ptose classificada em congênita e adquirida, sendo esta subdividida em aponeurótica (a mais comum), paralítica (III par), miogênica (miastenia gravis, distrofias musculares) e mecânica (por massa palpebral).",
+    quadroClinico: [
+      "Entrópio: irritação ocular crônica, sensação de corpo estranho e hiperemia pelo contato dos cílios com a córnea (triquíase secundária)",
+      "Ectrópio: olho vermelho crônico, lacrimejamento excessivo (epífora) por má aposição do ponto lacrimal, e exposição corneana em casos mais graves",
+      "Ptose: queda visível da pálpebra superior, podendo causar obstrução do campo visual superior quando significativa; posição compensatória de elevação do queixo em casos bilaterais importantes",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico pela inspeção da posição palpebral em repouso e durante a movimentação ocular",
+      "Na ptose, medida da distância margem-reflexo e da função do músculo levantador são essenciais para classificar a gravidade e orientar a conduta cirúrgica",
+      "Investigação de causa paralítica (avaliação do III par craniano) ou miogênica (teste para miastenia gravis) quando a ptose é de início recente ou variável ao longo do dia",
+    ],
+    examesComplementares: [
+      "Exame com lâmpada de fenda para avaliar exposição corneana associada ao ectrópio ou triquíase associada ao entrópio",
+      "Teste do gelo ou dosagem de anticorpo anti-receptor de acetilcolina quando há suspeita de ptose por miastenia gravis",
+      "Neuroimagem quando há suspeita de paralisia do III par craniano de causa compressiva (aneurisma), sobretudo se houver midríase associada",
+    ],
+    diagnosticoDiferencial: [
+      "Dermatocalase (excesso de pele palpebral que mimetiza ptose sem comprometimento real do músculo levantador)",
+      "Blefaroespasmo (contração involuntária do orbicular, mimetizando fechamento palpebral)",
+      "Paralisia do III par craniano (ptose associada a midríase e limitação da motilidade ocular — sinal de alarme para causa compressiva)",
+    ],
+    tratamento: [
+      "Entrópio e ectrópio: correção cirúrgica é o tratamento definitivo quando sintomático, encurtando ou realinhando os tecidos de sustentação palpebral; lubrificação ocular como medida temporária de suporte",
+      "Ptose: correção cirúrgica (cirurgia do músculo levantador ou suspensão frontal, conforme a função residual do levantador) quando há obstrução visual ou impacto estético significativo; tratamento da causa de base quando identificável (por exemplo, manejo clínico da miastenia gravis na ptose miogênica)",
+    ],
+    complicacoes: [
+      "Aguda: exposição corneana com risco de úlcera de córnea em ectrópio grave não tratado",
+      "Crônica: ambliopia em crianças com ptose congênita significativa não corrigida em tempo hábil, pela privação visual no período crítico do desenvolvimento",
+    ],
+    redFlags: [
+      "Ptose de início súbito associada a midríase e limitação da motilidade ocular — suspeitar de paralisia do III par craniano por aneurisma compressivo, emergência neurológica",
+      "Ptose variável ao longo do dia, piorando com fadiga — investigar miastenia gravis",
+      "Ptose congênita significativa não corrigida na infância — risco de ambliopia por privação, com janela de tempo limitada para correção eficaz",
+    ],
+    prognostico:
+      "Excelente após correção cirúrgica na maioria dos casos de entrópio, ectrópio e ptose aponeurótica/congênita. O prognóstico da ptose paralítica ou miogênica depende do controle da doença de base.",
+    pontosDeProva: [
+      "Ptose associada a midríase (pupila dilatada) é um sinal de alarme para paralisia do III par por causa compressiva (aneurisma) e exige investigação urgente — diferente da ptose com pupila poupada, mais sugestiva de causa microvascular/isquêmica",
+      "Ptose congênita significativa não corrigida em tempo hábil pode causar ambliopia por privação — a correção cirúrgica na infância não é só estética",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 45 anos, apresenta ptose palpebral direita de início há 6 horas, associada a pupila direita dilatada e dificuldade para movimentar o olho para dentro e para cima.",
+      pergunta: "Qual a principal preocupação diagnóstica e a conduta imediata?",
+      raciocinio:
+        "Ptose de início agudo associada a midríase e limitação da motilidade ocular é o quadro clássico de paralisia do III par craniano com acometimento pupilar, que levanta suspeita de causa compressiva (classicamente aneurisma de artéria comunicante posterior) até prova em contrário.",
+      conduta:
+        "Encaminhamento neurológico/neurocirúrgico urgente com neuroimagem (angiotomografia ou angiorressonância) para investigar causa compressiva, dada a gravidade potencial e a necessidade de intervenção rápida se confirmado aneurisma.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Classificação e fisiopatologia de entrópio, ectrópio e ptose", fonte: "Vaughan & Asbury's General Ophthalmology, 19ª ed." },
+      { tema: "Ptose com midríase como sinal de alarme para aneurisma compressivo do III par", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "olho-seco-dacriocistite",
+    nome: "Olho seco e dacriocistite",
+    sinonimos: ["Síndrome do olho seco", "Xeroftalmia"],
+    cid10: "H04",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Olho seco é a alteração da quantidade ou qualidade do filme lacrimal, condição extremamente comum; dacriocistite é a infecção do saco lacrimal por obstrução do ducto nasolacrimal — apresentações distintas do aparelho lacrimal.",
+    definicao:
+      "Olho seco (doença da superfície ocular multifatorial) resulta de deficiência na produção lacrimal (aquodeficiente) ou de evaporação excessiva do filme lacrimal (evaporativo, mais comumente por disfunção das glândulas de Meibômio), causando instabilidade do filme lacrimal e sintomas crônicos de desconforto ocular. Dacriocistite é a infecção aguda ou crônica do saco lacrimal, geralmente secundária à obstrução do ducto nasolacrimal.",
+    epidemiologia:
+      "Olho seco é uma condição extremamente prevalente, mais comum em mulheres e com prevalência crescente com a idade; associado a doenças autoimunes (síndrome de Sjögren), uso de certos medicamentos e uso prolongado de telas. Dacriocistite é mais comum em lactentes (obstrução congênita do ducto nasolacrimal) e em adultos idosos, sobretudo mulheres, por estreitamento involutivo do ducto.",
+    fisiopatologia:
+      "No olho seco aquodeficiente, há produção lacrimal reduzida pela glândula lacrimal principal, frequentemente por processo autoimune (síndrome de Sjögren) ou envelhecimento glandular. No olho seco evaporativo (a forma mais comum), a disfunção das glândulas de Meibômio compromete a camada lipídica do filme lacrimal, permitindo evaporação excessiva da camada aquosa subjacente. Em ambos os casos, a instabilidade do filme lacrimal expõe a superfície ocular a hiperosmolaridade e inflamação crônica, perpetuando o quadro. Na dacriocistite, a obstrução do ducto nasolacrimal causa estase de lágrima no saco lacrimal, favorecendo colonização e infecção bacteriana secundária (tipicamente por Staphylococcus aureus e Streptococcus pneumoniae).",
+    classificacao:
+      "Olho seco classificado em aquodeficiente e evaporativo (frequentemente com componentes mistos). Dacriocistite classificada em aguda (infecção franca, dolorosa) e crônica (obstrução com secreção intermitente, sem sinais inflamatórios agudos), e também quanto à idiopatia (congênita em lactentes vs. involutiva em adultos).",
+    quadroClinico: [
+      "Olho seco: sensação de areia/corpo estranho, queimação, flutuação da qualidade visual ao longo do dia, e paradoxalmente lacrimejamento reflexo em alguns casos (olho seco reflexo)",
+      "Dacriocistite aguda: dor, hiperemia e edema na região do saco lacrimal (canto interno do olho, abaixo do tendão cantal medial), podendo haver secreção purulenta à expressão da região",
+      "Dacriocistite crônica: epífora (lacrimejamento constante) com secreção mucopurulenta intermitente à expressão do saco lacrimal, sem os sinais inflamatórios agudos importantes",
+    ],
+    diagnostico: [
+      "Olho seco: diagnóstico clínico apoiado em questionários de sintomas e testes objetivos do filme lacrimal",
+      "Dacriocistite: diagnóstico clínico pela inspeção e palpação da região do saco lacrimal, com expressão manual para observar refluxo de secreção",
+    ],
+    examesComplementares: [
+      "Teste de Schirmer (mede produção lacrimal aquosa) e tempo de ruptura do filme lacrimal (break-up time) para caracterizar o olho seco",
+      "Coloração da superfície ocular com corantes vitais (fluoresceína, verde de lissamina) para avaliar dano epitelial associado ao olho seco",
+      "Cultura de secreção do saco lacrimal em dacriocistite recorrente ou refratária, para guiar antibioticoterapia dirigida",
+    ],
+    diagnosticoDiferencial: [
+      "Blefarite (frequentemente coexiste com olho seco evaporativo, mas com achados de margem palpebral próprios)",
+      "Conjuntivite alérgica (prurido proeminente, em vez do desconforto/queimação típico do olho seco)",
+      "Celulite pré-septal (no caso da dacriocistite aguda, quando há dúvida sobre extensão da infecção além do saco lacrimal)",
+    ],
+    tratamento: [
+      "Olho seco: lubrificantes oculares (lágrimas artificiais) como primeira linha; medidas ambientais (umidificação, pausas em uso de telas); tratamento da blefarite/disfunção meibomiana de base quando presente; casos refratários podem necessitar de anti-inflamatório tópico específico ou tampões lacrimais",
+      "Dacriocistite aguda: antibiótico sistêmico (a infecção do saco lacrimal tem risco de disseminação para celulite orbitária) associado a compressas mornas; drenagem cirúrgica se houver abscesso formado",
+      "Dacriocistite crônica/obstrução do ducto nasolacrimal: dacriocistorrinostomia (cirurgia para criar via alternativa de drenagem) é o tratamento definitivo em casos persistentes",
+      "Obstrução congênita do ducto nasolacrimal em lactentes: massagem do saco lacrimal e observação, já que a maioria resolve espontaneamente no primeiro ano de vida; sondagem reservada a casos persistentes",
+    ],
+    complicacoes: [
+      "Aguda: celulite orbitária secundária à disseminação de dacriocistite aguda não tratada — emergência oftalmológica",
+      "Crônica: dano à superfície ocular (ceratopatia por exposição/instabilidade do filme lacrimal) em olho seco grave não controlado",
+    ],
+    redFlags: [
+      "Edema, hiperemia e dor na região do saco lacrimal associados a proptose, limitação da motilidade ocular ou febre — suspeitar de extensão para celulite orbitária, emergência que exige internação e antibiótico intravenoso",
+      "Olho seco grave com dano corneano importante à coloração com fluoresceína — risco de ceratopatia por exposição e infecção secundária se não tratado adequadamente",
+    ],
+    prognostico:
+      "Olho seco é uma condição crônica, controlável mas raramente curável definitivamente, exigindo tratamento de manutenção contínuo. Dacriocistite aguda tem bom prognóstico com antibioticoterapia oportuna; a obstrução crônica de base geralmente necessita de correção cirúrgica definitiva para resolução permanente.",
+    pontosDeProva: [
+      "Olho seco evaporativo por disfunção de Meibômio é mais comum que o aquodeficiente puro — a distinção orienta o tratamento (lubrificante isolado vs. manejo da disfunção meibomiana associada)",
+      "Dacriocistite aguda tem risco real de evoluir para celulite orbitária — não deve ser subestimada como uma simples infecção localizada",
+      "Obstrução congênita do ducto nasolacrimal resolve espontaneamente na maioria dos lactentes no primeiro ano de vida — massagem e observação são a conduta inicial, não sondagem imediata",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 62 anos, com diagnóstico prévio de síndrome de Sjögren, relata sensação crônica de areia nos olhos, queimação e flutuação visual ao longo do dia, há vários meses.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Sintomas crônicos de desconforto ocular em paciente com síndrome de Sjögren (doença autoimune classicamente associada a olho seco aquodeficiente por comprometimento da glândula lacrimal) são compatíveis com olho seco.",
+      conduta:
+        "Iniciar lubrificantes oculares (lágrimas artificiais) como primeira linha, orientar medidas ambientais de suporte, e considerar avaliação oftalmológica com teste de Schirmer e coloração da superfície ocular para quantificar a gravidade e guiar necessidade de tratamento adicional.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Classificação e fisiopatologia do olho seco (aquodeficiente vs. evaporativo)", fonte: "TFOS DEWS II (Tear Film & Ocular Surface Society, Dry Eye WorkShop II), 2017" },
+      { tema: "Fisiopatologia e conduta na dacriocistite", fonte: "Vaughan & Asbury's General Ophthalmology, 19ª ed." },
+    ],
+  },
+  {
+    slug: "pterigio-pinguecula",
+    nome: "Pterígio e pinguécula",
+    sinonimos: ["Carne crescida"],
+    cid10: "H11",
+    especialidade: "Oftalmologia",
+    etiologia: "Degenerativa",
+    resumo: "Alterações conjuntivais degenerativas associadas à exposição solar crônica: a pinguécula é um espessamento amarelado limitado à conjuntiva; o pterígio é um crescimento fibrovascular que pode invadir a córnea.",
+    definicao:
+      "Pinguécula é um espessamento nodular amarelado, benigno, da conjuntiva bulbar adjacente ao limbo (mais comumente nasal), sem invasão corneana. Pterígio é um crescimento fibrovascular triangular da conjuntiva que se estende sobre a córnea, tipicamente na região nasal, podendo progredir e comprometer a visão se atingir o eixo visual central.",
+    epidemiologia:
+      "Ambas as condições estão fortemente associadas à exposição solar (radiação ultravioleta) crônica, sendo mais prevalentes em populações que vivem próximas ao equador e em pessoas com maior exposição ocupacional ao sol, vento e poeira.",
+    fisiopatologia:
+      "A exposição crônica à radiação ultravioleta causa degeneração elastótica do colágeno conjuntival subepitelial, formando o depósito característico da pinguécula. No pterígio, além dessa degeneração, há proliferação fibrovascular que invade a córnea a partir do limbo, com potencial para induzir astigmatismo por tração mecânica quando se aproxima do eixo visual.",
+    classificacao:
+      "Pinguécula não tem sistema de classificação formal amplamente usado, sendo definida pela localização (tipicamente nasal ou temporal) e tamanho. Pterígio é classificado por grau de invasão corneana (da margem limbar até proximidade progressiva do eixo visual) e por atividade (inativo/atrófico vs. ativo/vascularizado e de crescimento progressivo).",
+    quadroClinico: [
+      "Pinguécula: lesão amarelada, elevada, geralmente assintomática, podendo causar irritação leve ou hiperemia localizada (pingueculite) em episódios de inflamação",
+      "Pterígio: lesão triangular fibrovascular avançando sobre a córnea a partir do limbo nasal (mais comum) ou temporal, podendo causar irritação crônica, hiperemia, e, quando avançado, astigmatismo induzido ou redução da acuidade visual",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico pela inspeção direta e biomicroscopia com lâmpada de fenda, caracterizando localização, tamanho e grau de invasão corneana",
+    ],
+    examesComplementares: [
+      "Topografia corneana quando há suspeita de astigmatismo induzido por pterígio significativo, para quantificar o impacto refracional antes de decisão cirúrgica",
+      "Fotografia seriada para documentar e monitorar a progressão ao longo do tempo",
+    ],
+    diagnosticoDiferencial: [
+      "Neoplasia intraepitelial conjuntival/carcinoma espinocelular conjuntival (lesão atípica, de crescimento mais rápido ou com características incomuns deve ser biopsiada para excluir esse diagnóstico)",
+      "Pseudopterígio (aderência conjuntival à córnea secundária a trauma ou queimadura prévia, que mimetiza o pterígio verdadeiro mas tem causa e história distintas)",
+    ],
+    tratamento: [
+      "Proteção contra radiação ultravioleta (óculos de sol com proteção UV, chapéu) é a medida preventiva mais importante para ambas as condições e para deter a progressão",
+      "Lubrificantes oculares para o desconforto associado à pinguécula ou ao pterígio inativo",
+      "Corticosteroide tópico de curta duração em episódios de pingueculite/inflamação aguda",
+      "Excisão cirúrgica do pterígio indicada quando há progressão significativa em direção ao eixo visual, astigmatismo induzido relevante, desconforto crônico importante ou por razões estéticas",
+    ],
+    complicacoes: [
+      "Crônica: astigmatismo induzido e redução da acuidade visual em pterígio avançado que atinge o eixo visual central; recidiva do pterígio após excisão cirúrgica, mais comum em pacientes jovens e sem uso de técnicas cirúrgicas adjuvantes",
+    ],
+    redFlags: [
+      "Lesão conjuntival de crescimento rápido, atípica, com vascularização irregular ou sangramento — biopsiar para excluir neoplasia intraepitelial conjuntival ou carcinoma espinocelular, que podem mimetizar pterígio/pinguécula",
+    ],
+    prognostico:
+      "Excelente na maioria dos casos, com progressão lenta ou estabilização espontânea. Quando indicada, a excisão cirúrgica do pterígio tem bom resultado, ainda que com risco de recidiva, especialmente em pacientes mais jovens.",
+    pontosDeProva: [
+      "Proteção UV é a medida mais eficaz tanto para prevenir quanto para deter a progressão de pterígio e pinguécula — reforça a importância da orientação preventiva em populações de maior exposição solar",
+      "Pterígio de crescimento atípico ou muito rápido não deve ser assumido automaticamente como benigno — sempre considerar neoplasia intraepitelial conjuntival como diagnóstico diferencial",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 52 anos, agricultor, apresenta lesão triangular fibrovascular na conjuntiva nasal do olho direito, avançando em direção à córnea, com irritação ocular crônica leve.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta?",
+      raciocinio:
+        "Lesão fibrovascular triangular avançando do limbo nasal sobre a córnea, em paciente com alta exposição solar ocupacional, é o quadro clássico de pterígio.",
+      conduta:
+        "Orientar proteção ocular contra radiação ultravioleta (óculos de sol, chapéu) como medida central para deter a progressão, prescrever lubrificante ocular para o desconforto, e encaminhar para avaliação da necessidade de excisão cirúrgica caso a lesão continue progredindo em direção ao eixo visual.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Fisiopatologia associada à radiação ultravioleta e classificação", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+    ],
+  },
+  {
+    slug: "episclerite-esclerite",
+    nome: "Episclerite e esclerite",
+    sinonimos: [],
+    cid10: "H15",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Inflamações da esclera e do tecido episcleral: a episclerite é benigna e geralmente idiopática; a esclerite é mais dolorosa e frequentemente associada a doença autoimune sistêmica subjacente.",
+    definicao:
+      "Episclerite é a inflamação do tecido episcleral (camada entre a conjuntiva e a esclera), geralmente idiopática, autolimitada e benigna. Esclerite é a inflamação da própria esclera, mais dolorosa, potencialmente destrutiva para a integridade do globo ocular, e frequentemente associada a doença autoimune sistêmica (artrite reumatoide, granulomatose com poliangeíte, entre outras).",
+    epidemiologia:
+      "Episclerite é relativamente comum e tipicamente idiopática (a causa identificável, quando presente, é menos comum que na esclerite). Esclerite é mais rara, e cerca de metade dos casos está associada a uma doença autoimune sistêmica subjacente, sendo a artrite reumatoide a associação mais frequente.",
+    fisiopatologia:
+      "Na episclerite, há inflamação superficial do tecido episcleral, geralmente sem mecanismo autoimune sistêmico identificável na maioria dos casos. Na esclerite, o processo inflamatório é mais profundo, acometendo a esclera propriamente dita, com mecanismo frequentemente imunomediado (vasculite de pequenos vasos ou processo granulomatoso), podendo levar a afinamento e, em casos graves, perfuração escleral.",
+    classificacao:
+      "Episclerite classificada em simples (setorial ou difusa, mais comum) e nodular. Esclerite classificada em anterior (não necrotizante — a forma mais comum e menos grave —, e necrotizante, com ou sem inflamação, a forma mais grave e associada a maior risco de perda visual) e posterior (mais rara, de diagnóstico mais difícil por não ser visível externamente).",
+    quadroClinico: [
+      "Episclerite: hiperemia setorial ou difusa, desconforto leve a moderado, sem dor importante à palpação, sem fotofobia significativa, geralmente autolimitada em 1 a 3 semanas",
+      "Esclerite: dor ocular intensa, característica por piorar à palpação do globo ocular e por vezes irradiando para a face/cabeça, hiperemia com tonalidade violácea (diferente do vermelho vivo da episclerite), fotofobia e lacrimejamento",
+      "Esclerite necrotizante: afinamento visível da esclera, podendo expor a coróide subjacente (aspecto azulado) em casos avançados",
+    ],
+    diagnostico: [
+      "Diferenciação clínica entre episclerite e esclerite é essencial: teste de instilação de fenilefrina tópica (vasoconstritor) — a hiperemia da episclerite branqueia com fenilefrina, enquanto a da esclerite não branqueia significativamente, por acometer vasos mais profundos",
+      "Investigação sistêmica ativa (história e exames direcionados) em todo paciente com esclerite, dada a alta frequência de associação com doença autoimune subjacente",
+    ],
+    examesComplementares: [
+      "Teste de branqueamento com fenilefrina tópica para diferenciar episclerite de esclerite",
+      "Investigação laboratorial para doença autoimune sistêmica na esclerite (fator reumatoide, ANCA, entre outros conforme suspeita clínica)",
+      "Ecografia ocular (modo B) em suspeita de esclerite posterior, já que não é visível ao exame externo",
+    ],
+    diagnosticoDiferencial: [
+      "Conjuntivite (hiperemia difusa com secreção, sem a dor característica da esclerite nem o padrão setorial típico da episclerite)",
+      "Uveíte anterior / iridociclite (dor e fotofobia semelhantes à esclerite, mas com hiperemia perilímbica e alterações de câmara anterior à lâmpada de fenda, não hiperemia escleral)",
+    ],
+    tratamento: [
+      "Episclerite: geralmente autolimitada; lubrificantes oculares para conforto, ou anti-inflamatório não esteroidal oral em casos mais sintomáticos ou recorrentes",
+      "Esclerite não necrotizante leve a moderada: anti-inflamatório não esteroidal oral como primeira linha",
+      "Esclerite grave, necrotizante ou refratária: corticosteroide sistêmico e, frequentemente, imunossupressor poupador de corticosteroide, sobretudo quando há doença autoimune sistêmica associada — tratamento conduzido em conjunto com reumatologia (classes de imunossupressor sistêmico ainda sem ficha própria de medicamento no site)",
+      "Investigação e tratamento da doença autoimune sistêmica de base, quando identificada, é essencial para o controle da esclerite e para reduzir o risco de complicações oculares e sistêmicas",
+    ],
+    complicacoes: [
+      "Aguda: perfuração escleral em esclerite necrotizante grave não tratada a tempo — emergência com risco de perda do globo ocular",
+      "Crônica: afinamento escleral permanente, ceratite periférica associada, e catarata ou glaucoma secundários ao uso prolongado de corticosteroide sistêmico no tratamento",
+    ],
+    redFlags: [
+      "Dor ocular intensa que piora à palpação do globo ocular, com hiperemia violácea — sugere esclerite, não episclerite, e exige investigação de doença autoimune sistêmica associada",
+      "Afinamento escleral visível com exposição da coróide subjacente (aspecto azulado) — esclerite necrotizante, risco de perfuração, emergência oftalmológica",
+      "Esclerite associada a sintomas sistêmicos (artralgia, lesões cutâneas, sintomas respiratórios/renais) — reforça a necessidade de investigação de vasculite sistêmica (como granulomatose com poliangeíte)",
+    ],
+    prognostico:
+      "Episclerite tem excelente prognóstico, geralmente autolimitada e sem sequelas. Esclerite tem prognóstico mais reservado, dependente do controle da doença autoimune sistêmica associada — a forma necrotizante carrega risco real de perda visual e mesmo de perda do globo ocular se não tratada agressivamente.",
+    pontosDeProva: [
+      "O teste de branqueamento com fenilefrina tópica é o achado mais cobrado para diferenciar episclerite (branqueia) de esclerite (não branqueia) à beira do leito",
+      "Cerca de metade dos casos de esclerite está associada a doença autoimune sistêmica, mais comumente artrite reumatoide — todo paciente com esclerite deve ser investigado sistemicamente",
+      "Esclerite necrotizante é uma emergência oftalmológica com risco de perfuração do globo ocular, exigindo tratamento sistêmico agressivo, não apenas tópico",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 54 anos, com artrite reumatoide de longa data, apresenta dor ocular intensa há 3 dias, que piora ao tocar o olho, com hiperemia de tonalidade violácea. A instilação de colírio vasoconstritor não branqueia significativamente a hiperemia.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta?",
+      raciocinio:
+        "Dor ocular intensa que piora à palpação, hiperemia violácea que não branqueia com vasoconstritor tópico, em paciente com artrite reumatoide de base, é o quadro clássico de esclerite associada a doença autoimune sistêmica.",
+      conduta:
+        "Encaminhamento oftalmológico urgente para confirmação diagnóstica e classificação (necrotizante vs. não necrotizante), com avaliação conjunta da reumatologia para otimizar o controle da doença de base; iniciar anti-inflamatório não esteroidal oral se a forma for não necrotizante leve a moderada, ou corticosteroide sistêmico/imunossupressor se houver critérios de gravidade.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "ibuprofeno", nome: "Ibuprofeno" },
+    ],
+    medicamentosSecaoTitulo: "Medicamento oral para episclerite sintomática e esclerite não necrotizante leve",
+    medicamentosNota:
+      "O ibuprofeno cobre apenas o tratamento anti-inflamatório oral de primeira linha para episclerite mais sintomática ou esclerite não necrotizante leve a moderada. Esclerite necrotizante ou refratária exige corticosteroide sistêmico e, frequentemente, imunossupressor poupador de corticosteroide — classes ainda sem ficha própria no site.",
+    fontes: [
+      { tema: "Diferenciação clínica episclerite vs. esclerite e teste da fenilefrina", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+      { tema: "Frequência de associação com doença autoimune sistêmica (~metade dos casos de esclerite)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "iridociclite-uveite-anterior",
+    nome: "Iridociclite (uveíte anterior)",
+    sinonimos: ["Uveíte anterior", "Irite"],
+    cid10: "H20",
+    especialidade: "Oftalmologia",
+    etiologia: "Multifatorial",
+    resumo: "Inflamação da íris e do corpo ciliar, causa importante de olho vermelho doloroso — idiopática na maior parte dos casos, mas com associações autoimunes (HLA-B27) e infecciosas relevantes.",
+    definicao:
+      "Inflamação da íris e do corpo ciliar (segmento anterior da úvea), caracterizada por dor ocular, fotofobia e hiperemia perilímbica, com achados característicos de células e flare (proteína) na câmara anterior ao exame com lâmpada de fenda.",
+    epidemiologia:
+      "Cerca de metade dos casos é idiopática. Entre as causas identificáveis, a associação com o antígeno HLA-B27 (presente em espondiloartrites como espondilite anquilosante e artrite reativa, e em doença inflamatória intestinal) é a mais frequente. Causas infecciosas (herpética, tuberculose, sífilis) e traumáticas também são relevantes.",
+    fisiopatologia:
+      "Na uveíte anterior associada a HLA-B27, acredita-se em um mecanismo de resposta imune aberrante direcionada a componentes teciduais oculares, análogo ao mecanismo proposto para o acometimento articular nas espondiloartrites associadas. Na uveíte infecciosa, o agente (vírus herpético, Mycobacterium tuberculosis, Treponema pallidum) invade diretamente o trato uveal ou desencadeia resposta imune secundária à sua presença. Em ambos os mecanismos, o resultado é quebra da barreira hemato-aquosa, com extravasamento de células inflamatórias e proteína para a câmara anterior.",
+    classificacao:
+      "Classificada quanto à evolução em aguda (até 3 meses) e crônica (mais de 3 meses, ou recorrente); quanto à etiologia em idiopática, associada a HLA-B27, infecciosa, traumática e associada a outras doenças sistêmicas (sarcoidose, doença de Behçet, artrite idiopática juvenil, entre outras); e quanto ao padrão em granulomatosa (precipitados ceráticos grandes, tipo 'gordura de carneiro', mais associada a causas como sarcoidose e tuberculose) e não granulomatosa (precipitados finos, mais associada a HLA-B27 e causa idiopática).",
+    quadroClinico: [
+      "Dor ocular, geralmente de início gradual ao longo de horas a poucos dias (diferente da dor mais súbita do glaucoma agudo)",
+      "Fotofobia importante, frequentemente com fotofobia consensual (dor no olho afetado ao incidir luz no olho contralateral, achado relativamente específico)",
+      "Hiperemia perilímbica (mais concentrada ao redor da córnea)",
+      "Miose (pupila contraída) no olho afetado, por espasmo do músculo esfíncter da íris",
+      "Visão turva leve a moderada; dor à acomodação (espasmo ciliar)",
+      "Sinais sistêmicos associados quando há doença de base identificável (dor lombar inflamatória na espondiloartrite associada a HLA-B27, por exemplo)",
+    ],
+    diagnostico: [
+      "Exame com lâmpada de fenda demonstrando células e flare na câmara anterior é o achado definidor",
+      "Investigação de causa sistêmica direcionada pela história e pelo padrão do achado (granulomatoso vs. não granulomatoso, uni vs. bilateral, recorrência) — não é indicado investigar exaustivamente todo primeiro episódio unilateral não granulomatoso, dada a alta frequência de causa idiopática",
+    ],
+    examesComplementares: [
+      "Biomicroscopia com lâmpada de fenda para graduar células e flare na câmara anterior",
+      "Tipagem HLA-B27 e investigação de espondiloartrite (radiografia de sacroilíacas, avaliação reumatológica) em casos recorrentes, bilaterais ou com sintomas sistêmicos sugestivos",
+      "Sorologias para sífilis e investigação para tuberculose latente/ativa em casos com padrão granulomatoso ou fatores de risco epidemiológicos",
+    ],
+    diagnosticoDiferencial: [
+      "Conjuntivite (sem dor importante nem miose, sem células/flare na câmara anterior)",
+      "Ceratite (defeito epitelial ou infiltrado corneano visível à lâmpada de fenda, achado ausente na uveíte anterior isolada)",
+      "Glaucoma agudo de ângulo fechado (midríase média fixa, em vez de miose, e pressão intraocular muito elevada)",
+    ],
+    tratamento: [
+      "Corticosteroide tópico é o tratamento de primeira linha para controlar a inflamação da câmara anterior (classe ainda sem ficha própria de medicamento no site)",
+      "Cicloplégico/midriático tópico associado, para aliviar a dor por espasmo ciliar e prevenir sinéquias (aderências entre a íris e o cristalino)",
+      "Tratamento da causa de base quando identificada (por exemplo, terapia antiviral na uveíte herpética, tratamento específico na tuberculose ou sífilis)",
+      "Casos recorrentes ou crônicos associados a doença sistêmica podem necessitar de imunossupressão sistêmica em conjunto com reumatologia, quando refratários ao tratamento tópico isolado",
+    ],
+    complicacoes: [
+      "Aguda: sinéquias posteriores (aderências entre a íris e o cristalino), que podem levar a bloqueio pupilar e glaucoma secundário agudo se extensas",
+      "Crônica: catarata secundária (favorecida também pelo uso prolongado de corticosteroide), glaucoma secundário crônico, e edema macular cistoide em casos recorrentes ou mal controlados",
+    ],
+    redFlags: [
+      "Hipópio (nível de pus na câmara anterior) — sugere uveíte mais grave, por vezes associada a doença de Behçet ou infecção, exigindo investigação e conduta mais agressivas",
+      "Uveíte recorrente ou bilateral com sintomas sistêmicos (dor lombar inflamatória, lesões orais/genitais, diarreia crônica) — investigar espondiloartrite associada a HLA-B27, doença de Behçet ou doença inflamatória intestinal",
+      "Dor ocular importante com pressão intraocular elevada na vigência de uveíte — risco de glaucoma secundário por sinéquias, requer manejo oftalmológico ativo",
+    ],
+    prognostico:
+      "Bom na maioria dos episódios agudos isolados, com resolução completa em semanas com tratamento adequado. Casos recorrentes ou crônicos, especialmente quando associados a doença sistêmica mal controlada, carregam maior risco de complicações cumulativas (catarata, glaucoma secundário, edema macular) e de perda visual permanente.",
+    pontosDeProva: [
+      "Miose e fotofobia consensual (dor no olho afetado ao iluminar o olho contralateral) são achados clássicos e relativamente específicos de uveíte anterior, ajudando a diferenciá-la de outras causas de olho vermelho doloroso",
+      "Cerca de metade dos casos de uveíte anterior é idiopática — não é necessário investigar exaustivamente todo primeiro episódio unilateral não granulomatoso e não recorrente",
+      "Uveíte anterior recorrente ou bilateral, sobretudo com sintomas sistêmicos, deve levantar suspeita ativa de espondiloartrite associada a HLA-B27 — associação clássica e frequentemente cobrada",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 27 anos, com história de dor lombar inflamatória crônica (pior pela manhã, melhora com atividade), procura atendimento por dor ocular, fotofobia e hiperemia perilímbica de início há 2 dias no olho esquerdo. Ao exame, pupila esquerda em miose e achado de células e flare na câmara anterior.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a associação sistêmica a investigar?",
+      raciocinio:
+        "Dor ocular com miose, fotofobia e células/flare na câmara anterior confirmam uveíte anterior. A associação com dor lombar inflamatória crônica em homem jovem sugere fortemente espondiloartrite associada a HLA-B27 (como espondilite anquilosante) como causa de base.",
+      conduta:
+        "Iniciar corticosteroide tópico e cicloplégico para tratar o episódio agudo e prevenir sinéquias, e encaminhar para avaliação reumatológica com investigação de espondiloartrite (tipagem HLA-B27, radiografia de sacroilíacas), dado o forte padrão sugestivo pela história associada.",
+    },
+    medicamentosPrimeiraLinha: [],
+    fontes: [
+      { tema: "Classificação, causas associadas e achados clínicos", fonte: "Kanski's Clinical Ophthalmology, 9ª ed." },
+      { tema: "Associação com HLA-B27 e espondiloartrites", fonte: "American Academy of Ophthalmology, Preferred Practice Pattern: Uveitis" },
+    ],
+  },
 ];

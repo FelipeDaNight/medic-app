@@ -15,7 +15,7 @@ Fontes:
   está, o único item da lista ainda pendente por esse motivo.
 
 Já documentados com ficha completa (**fora deste backlog**, não repetir):
-- **Doenças (96):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
+- **Doenças (107):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
   · Dengue · COVID-19 · Gastrite · DRGE · Artrite reumatoide · LES · Alzheimer · Anemia
   ferropriva · DRC · Infarto agudo do miocárdio · Angina pectoris · Doença isquêmica
   crônica do coração · Fibrilação e flutter atrial · Parada cardíaca · Febre reumática ·
@@ -37,7 +37,10 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   Crohn · Colite ulcerativa · Síndrome do cólon irritável · Doença diverticular ·
   Apendicite aguda · Peritonite · Osteoartrose · Gota · Espondilite anquilosante ·
   Artropatias psoriásicas e enteropáticas · Esclerose sistêmica · Dermatopoliomiosite ·
-  Poliarterite nodosa e outras vasculites · Osteoporose · Dorsalgia (lombalgia)
+  Poliarterite nodosa e outras vasculites · Osteoporose · Dorsalgia (lombalgia) ·
+  Conjuntivite · Hordéolo e calázio · Ceratite · Catarata senil · Glaucoma ·
+  Blefarite · Entrópio/ectrópio/ptose · Olho seco e dacriocistite · Pterígio e
+  pinguécula · Episclerite e esclerite · Iridociclite (uveíte anterior)
 - **Medicamentos (29):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
@@ -165,18 +168,18 @@ Nenhuma ficha de Oftalmologia existe hoje no site (confirmado: zero ocorrências
 `especialidade: "Oftalmologia"` em `diseases.ts`) — este é o primeiro conteúdo da
 especialidade.
 
-### Lote 7 — Oftalmologia A: segmento anterior comum (11)
-1. pendente — Conjuntivite (H10)
-2. pendente — Hordéolo e calázio (H00)
-3. pendente — Ceratite (H16)
-4. pendente — Catarata senil (H25)
-5. pendente — Glaucoma (H40)
-6. pendente — Outras inflamações da pálpebra / blefarite (H01)
-7. pendente — Outros transtornos da pálpebra / entrópio, ectrópio, ptose (H02)
-8. pendente — Transtornos do aparelho lacrimal / olho seco, dacriocistite (H04)
-9. pendente — Outros transtornos da conjuntiva / pterígio, pinguécula (H11)
-10. pendente — Transtornos da esclerótica / episclerite, esclerite (H15)
-11. pendente — Iridociclite / uveíte anterior (H20)
+### Lote 7 — Oftalmologia A: segmento anterior comum (11) — ✅ CONCLUÍDO
+1. concluído — Conjuntivite (H10)
+2. concluído — Hordéolo e calázio (H00)
+3. concluído — Ceratite (H16)
+4. concluído — Catarata senil (H25)
+5. concluído — Glaucoma (H40)
+6. concluído — Outras inflamações da pálpebra / blefarite (H01)
+7. concluído — Outros transtornos da pálpebra / entrópio, ectrópio, ptose (H02)
+8. concluído — Transtornos do aparelho lacrimal / olho seco, dacriocistite (H04)
+9. concluído — Outros transtornos da conjuntiva / pterígio, pinguécula (H11)
+10. concluído — Transtornos da esclerótica / episclerite, esclerite (H15)
+11. concluído — Iridociclite / uveíte anterior (H20)
 
 ### Lote 8 — Oftalmologia B: segmento posterior e emergências (11)
 1. pendente — Descolamentos e defeitos da retina (H33)
@@ -291,11 +294,12 @@ especialidade.
 8. pendente — Doença inflamatória do útero / DIP (N71)
 9. pendente — Transtornos da menopausa e da perimenopausa (N95)
 
-**Total: 108 doenças pendentes em 9 lotes** (Lote 1, Cardiologia; Lote 2,
+**Total: 97 doenças pendentes em 8 lotes** (Lote 1, Cardiologia; Lote 2,
 Endocrinologia+Pneumologia; Lote 3, Pneumologia; Lote 4, Infectologia; Lote 5,
-Gastroenterologia; e Lote 6, Gastro restante+Reumatologia, concluídos —
-15 + 14 + 12 + 13 + 14 + 12 itens), além das 96 já fichadas. **Próxima prioridade:
-Lotes 7-9 (Oftalmologia, 33 itens), antes de Neurologia e das demais.**
+Gastroenterologia; Lote 6, Gastro restante+Reumatologia; e Lote 7, Oftalmologia A,
+concluídos — 15 + 14 + 12 + 13 + 14 + 12 + 11 itens), além das 107 já fichadas.
+**Próxima prioridade: Lotes 8-9 (Oftalmologia B e C, 22 itens), antes de
+Neurologia e das demais.**
 
 ---
 
