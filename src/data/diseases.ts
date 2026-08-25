@@ -18918,4 +18918,992 @@ export const diseases: Disease[] = [
       { tema: "Etiologias mais comuns do poli-hidrâmnio e indicações de amniorredução", fonte: "SMFM Consult Series #46, Evaluation and Management of Polyhydramnios, 2018" },
     ],
   },
+  {
+    slug: "ruptura-prematura-membranas",
+    nome: "Ruptura prematura de membranas",
+    sinonimos: ["Amniorrexe prematura", "RPM"],
+    cid10: "O42",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Rotura das membranas corioamnióticas antes do início do trabalho de parto, cuja conduta depende criticamente da idade gestacional, equilibrando o risco de infecção intra-amniótica com os riscos da prematuridade.",
+    definicao:
+      "Rotura espontânea das membranas corioamnióticas antes do início do trabalho de parto, classificada como pré-termo quando ocorre antes de 37 semanas de gestação e a termo quando ocorre a partir de 37 semanas.",
+    epidemiologia:
+      "A ruptura prematura de membranas a termo complica uma proporção significativa dos partos e tem evolução tipicamente favorável; a forma pré-termo, embora menos comum, é responsável por uma parcela substancial dos partos pré-termo, sendo fator de risco reconhecido a infecção do trato genital inferior.",
+    fisiopatologia:
+      "Decorre de enfraquecimento estrutural das membranas corioamnióticas por processo inflamatório/infeccioso subclínico (mais implicado na ruptura pré-termo, frequentemente por ascensão de microrganismos do trato genital inferior) ou por estresse mecânico normal ao termo, quando a maturação fisiológica das membranas já ocorreu; a ruptura expõe a cavidade amniótica ao ambiente vaginal, criando via de ascensão bacteriana e risco de corioamnionite.",
+    classificacao:
+      "Classificada por idade gestacional em ruptura prematura de membranas a termo (≥37 semanas) e pré-termo (antes de 37 semanas, subdividida conforme a distância do termo, com prognóstico e conduta variando conforme a viabilidade fetal e o risco de prematuridade extrema).",
+    quadroClinico: [
+      "Perda súbita de líquido claro pela vagina, relato materno mais comum e que motiva a avaliação",
+      "Perda contínua ou intermitente de líquido, achado que reforça a suspeita quando o relato inicial é menos característico",
+      "Sinais de corioamnionite (febre, taquicardia materna e fetal, sensibilidade uterina, líquido amniótico fétido) quando há infecção intra-amniótica associada, achado que exige conduta imediata independentemente da idade gestacional",
+    ],
+    diagnostico: [
+      "Exame especular estéril confirmando a presença de líquido amniótico no fundo de saco vaginal ou extravasando pelo orifício cervical externo, exame de primeira linha",
+      "Testes complementares (nitrazina, cristalização em folha de samambaia, ou testes imunológicos específicos de proteínas do líquido amniótico) quando o diagnóstico visual não é conclusivo",
+    ],
+    examesComplementares: [
+      "Ultrassonografia obstétrica para avaliação do volume de líquido amniótico residual, achado de oligoidrâmnio reforçando a suspeita diagnóstica quando o exame especular é inconclusivo",
+      "Cultura para estreptococo do grupo B, exame de rotina que orienta a profilaxia intraparto quando o parto está próximo",
+    ],
+    diagnosticoDiferencial: [
+      "Incontinência urinária, causa comum de perda de líquido vaginal que pode ser confundida com ruptura de membranas, distinguida pelas características do líquido e pelos testes diagnósticos específicos",
+      "Corrimento vaginal fisiológico aumentado da gestação, distinguido pela ausência de líquido claro fluindo pelo orifício cervical ao exame especular",
+    ],
+    tratamento: [
+      "A termo: indução do parto na maioria dos protocolos, dado que o risco de infecção aumenta com o tempo decorrido desde a ruptura sem benefício adicional relevante em aguardar o trabalho de parto espontâneo",
+      "Pré-termo distante do termo, sem sinais de infecção: conduta expectante hospitalar com antibioticoterapia profilática (para prolongamento da latência e redução de morbidade infecciosa neonatal) e corticosteroide antenatal para maturação pulmonar fetal",
+      "Qualquer idade gestacional com sinais de corioamnionite, sofrimento fetal ou trabalho de parto estabelecido: interrupção da gestação independentemente da idade gestacional, dado que os riscos infecciosos superam os benefícios de prolongar a latência",
+      "Profilaxia antibiótica intraparto para estreptococo do grupo B conforme resultado de cultura ou fatores de risco",
+    ],
+    complicacoes: [
+      "Aguda: corioamnionite, prolapso de cordão umbilical (mais comum quando há apresentação fetal anômala associada), descolamento prematuro de placenta",
+      "Crônica/neonatal: hipoplasia pulmonar fetal quando a ruptura ocorre muito precocemente e é seguida de oligoidrâmnio grave e prolongado, e morbidade relacionada à prematuridade quando a ruptura é pré-termo",
+    ],
+    redFlags: [
+      "Sinais de corioamnionite (febre materna, taquicardia fetal, sensibilidade uterina) exigem interrupção da gestação independentemente da idade gestacional, dado o risco de sepse materna e fetal",
+      "Ruptura de membranas muito precoce (segundo trimestre) carrega risco significativo de hipoplasia pulmonar fetal quando seguida de oligoidrâmnio grave e prolongado",
+    ],
+    prognostico:
+      "Excelente na ruptura a termo com conduta apropriada; na forma pré-termo, o prognóstico depende diretamente da idade gestacional no momento da ruptura, sendo a principal tensão clínica o equilíbrio entre o risco infeccioso de prolongar a gestação e os riscos da prematuridade em antecipar o parto.",
+    pontosDeProva: [
+      "Na ruptura a termo, a indução do parto é preferida à conduta expectante prolongada, dado que o risco infeccioso aumenta com o tempo sem benefício adicional relevante",
+      "Na ruptura pré-termo remota do termo sem sinais de infecção, a conduta expectante hospitalar com antibioticoprofilaxia e corticosteroide antenatal busca prolongar a gestação com segurança",
+      "Sinais de corioamnionite são indicação de interrupção da gestação independentemente da idade gestacional — a infecção sempre supera a prematuridade como risco prioritário nesse cenário",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 29 anos, 32 semanas, relata perda súbita de líquido claro pela vagina há 2 horas. Exame especular estéril confirma líquido amniótico no fundo de saco vaginal. Ausência de febre, taquicardia materna/fetal ou sensibilidade uterina.",
+      pergunta: "Qual a conduta apropriada nesse momento?",
+      raciocinio:
+        "Ruptura prematura de membranas pré-termo, remota do termo, sem sinais de infecção, é candidata a conduta expectante hospitalar visando prolongar a gestação com segurança até maior maturidade fetal.",
+      conduta:
+        "Internar para conduta expectante com monitorização materna e fetal, iniciar antibioticoterapia profilática para prolongamento da latência e administrar corticosteroide antenatal para maturação pulmonar fetal.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O corticosteroide antenatal e a antibioticoterapia profilática de latência ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Fisiopatologia inflamatória/infecciosa da ruptura pré-termo e classificação por idade gestacional", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Conduta expectante com antibioticoprofilaxia e corticosteroide na ruptura pré-termo remota do termo", fonte: "ACOG Practice Bulletin No. 217, Prelabor Rupture of Membranes, 2020" },
+    ],
+  },
+  {
+    slug: "placenta-previa",
+    nome: "Placenta prévia",
+    sinonimos: ["Inserção baixa da placenta"],
+    cid10: "O44",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Implantação da placenta total ou parcialmente sobre o orifício cervical interno, causa clássica de sangramento indolor no terceiro trimestre e indicação absoluta de cesariana quando a placenta recobre o colo ao termo.",
+    definicao:
+      "Implantação da placenta no segmento uterino inferior, recobrindo total ou parcialmente o orifício cervical interno, classicamente identificada e monitorizada por ultrassonografia ao longo da gestação, dado que uma proporção relevante dos casos identificados precocemente se resolve espontaneamente pela migração placentária relativa que ocorre com o crescimento do segmento uterino inferior.",
+    epidemiologia:
+      "Fatores de risco incluem cesariana prévia (com risco aumentando proporcionalmente ao número de cesarianas anteriores), idade materna avançada, multiparidade, tabagismo e gestação múltipla; o risco de placenta prévia recorrente aumenta significativamente em gestações subsequentes após um episódio prévio.",
+    fisiopatologia:
+      "A implantação placentária no segmento uterino inferior, ao invés do fundo uterino, resulta em vasos placentários sobrepostos ao orifício cervical interno; à medida que o colo se apaga e dilata no final da gestação ou no início do trabalho de parto, esses vasos placentários sofrem cisalhamento, causando sangramento agudo, tipicamente indolor por não haver o componente de contração/isquemia associado ao descolamento prematuro de placenta.",
+    classificacao:
+      "Classificada conforme a relação com o orifício cervical interno em placenta prévia (recobrindo total ou parcialmente o orifício) e placenta de inserção baixa (borda placentária próxima, mas não recobrindo o orifício interno), terminologia atual que substituiu classificações anteriores mais granulares (total, parcial, marginal).",
+    quadroClinico: [
+      "Sangramento vaginal indolor no segundo ou terceiro trimestre, achado clássico e mais característico, frequentemente o primeiro episódio autolimitado seguido de recorrências",
+      "Ausência de dor abdominal ou hipertonia uterina associada ao sangramento, achado que a distingue do descolamento prematuro de placenta",
+      "Apresentação fetal anômala associada com frequência, dado que a placenta de inserção baixa ocupa espaço no segmento uterino inferior",
+    ],
+    diagnostico: [
+      "Ultrassonografia transvaginal (segura mesmo na presença de placenta prévia, ao contrário do que se poderia presumir, e mais acurada que a via transabdominal), exame de escolha para diagnóstico e classificação",
+      "Toque vaginal digital é contraindicado diante de sangramento no terceiro trimestre até que a localização placentária seja confirmada por ultrassonografia, pelo risco de provocar hemorragia significativa",
+    ],
+    examesComplementares: [
+      "Ultrassonografia seriada de reavaliação ao longo da gestação, dado o fenômeno de migração placentária relativa que pode resolver o diagnóstico inicial de placenta prévia/inserção baixa identificado precocemente",
+      "Avaliação para acretismo placentário (Doppler, ressonância magnética em casos selecionados) em gestantes com placenta prévia e cesariana(s) prévia(s), combinação que aumenta substancialmente esse risco",
+    ],
+    diagnosticoDiferencial: [
+      "Descolamento prematuro de placenta, principal diagnóstico diferencial de sangramento no terceiro trimestre, distinguido pela presença de dor e hipertonia uterina, ausentes na placenta prévia não complicada",
+      "Rotura de vasa prévia, causa mais rara de sangramento indolor associada a vasos fetais desprotegidos sobre o orifício cervical, com risco de exsanguinação fetal rápida",
+      "Sangramento de origem cervical (cervicite, pólipo, neoplasia cervical), causas menos comuns mas que devem ser consideradas quando a placenta tem localização normal",
+    ],
+    tratamento: [
+      "Conduta expectante hospitalar ou ambulatorial (conforme gravidade e recorrência do sangramento) em gestante estável e distante do termo, visando prolongar a gestação com segurança",
+      "Cesariana eletiva programada, via de parto obrigatória quando a placenta permanece recobrindo o orifício cervical interno próximo ao termo, dado que o parto vaginal é contraindicado nessa situação",
+      "Cesariana de urgência indicada diante de sangramento significativo e persistente, independentemente da idade gestacional, quando o risco materno/fetal de aguardar supera o benefício de prolongar a gestação",
+      "Corticosteroide antenatal para maturação pulmonar fetal quando há risco de parto pré-termo antecipado",
+    ],
+    complicacoes: [
+      "Aguda: hemorragia significativa podendo exigir transfusão, parto pré-termo iatrogênico por sangramento não controlado",
+      "Crônica/associada: acretismo placentário, complicação grave particularmente associada à combinação de placenta prévia com cesariana(s) prévia(s), com risco de hemorragia maciça no parto",
+    ],
+    redFlags: [
+      "Toque vaginal digital nunca deve ser realizado diante de sangramento no terceiro trimestre antes da confirmação ultrassonográfica da localização placentária, pelo risco de hemorragia grave",
+      "A combinação de placenta prévia com cesariana(s) prévia(s) deve motivar investigação ativa para acretismo placentário, dado o risco substancialmente aumentado dessa associação",
+    ],
+    prognostico:
+      "Favorável com diagnóstico e planejamento cirúrgico adequados (cesariana eletiva programada), mas o risco de hemorragia significativa permanece a principal preocupação, especialmente quando há acretismo placentário associado.",
+    pontosDeProva: [
+      "Sangramento indolor no terceiro trimestre é o achado clássico que distingue a placenta prévia do descolamento prematuro de placenta (doloroso, com hipertonia uterina)",
+      "Toque vaginal é contraindicado até confirmação ultrassonográfica da localização placentária diante de sangramento no terceiro trimestre",
+      "Cesariana prévia é o principal fator de risco tanto para placenta prévia quanto, quando associada a ela, para acretismo placentário",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 34 anos, com duas cesarianas anteriores, 32 semanas, apresenta episódio de sangramento vaginal indolor. Ultrassonografia transvaginal confirma placenta recobrindo totalmente o orifício cervical interno.",
+      pergunta: "Qual a preocupação adicional que deve ser investigada nesse contexto?",
+      raciocinio:
+        "A combinação de placenta prévia com duas cesarianas anteriores é fator de risco significativo para acretismo placentário, complicação que exige investigação e planejamento cirúrgico específico adicional pelo risco de hemorragia maciça.",
+      conduta:
+        "Solicitar avaliação de imagem dirigida para investigação de acretismo placentário (Doppler/ressonância magnética conforme disponibilidade); planejar cesariana eletiva programada com equipe e recursos preparados para eventual hemorragia significativa.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O manejo é obstétrico/cirúrgico (conduta expectante e cesariana programada); o corticosteroide antenatal, quando indicado, ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia do sangramento por cisalhamento vascular e terminologia atual de classificação", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Contraindicação do toque vaginal e associação com acretismo placentário em cesariana prévia", fonte: "ACOG Obstetric Care Consensus No. 7, Placenta Accreta Spectrum, 2018" },
+    ],
+  },
+  {
+    slug: "descolamento-prematuro-placenta",
+    nome: "Descolamento prematuro de placenta",
+    sinonimos: ["Abruptio placentae", "DPP"],
+    cid10: "O45",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Separação prematura da placenta normalmente inserida da parede uterina antes do parto, emergência obstétrica caracterizada por dor abdominal, hipertonia uterina e sangramento (por vezes oculto), com risco significativo de sofrimento fetal e coagulopatia materna.",
+    definicao:
+      "Separação parcial ou completa da placenta normalmente implantada da parede uterina antes do nascimento do feto, interrompendo a troca materno-fetal na área descolada e comprometendo a oxigenação fetal proporcionalmente à extensão do descolamento.",
+    epidemiologia:
+      "Principais fatores de risco incluem hipertensão (crônica ou pré-eclâmpsia), trauma abdominal materno, tabagismo, uso de cocaína, ruptura prematura de membranas, gestação múltipla e descolamento prematuro de placenta em gestação anterior (fator de risco para recorrência significativo).",
+    fisiopatologia:
+      "A hemorragia na decídua basal (interface entre placenta e útero), tipicamente decorrente de lesão vascular (mais comumente relacionada a doença hipertensiva ou trauma), causa formação de hematoma retroplacentário que progressivamente separa a placenta da parede uterina; a extensão do descolamento determina diretamente o grau de comprometimento da troca materno-fetal e o risco de coagulopatia materna por liberação de tromboplastina tecidual na circulação materna.",
+    classificacao:
+      "Classificado por gravidade (leve, moderado, grave, conforme extensão do descolamento e repercussão materna/fetal) e por tipo de sangramento (hemorragia externa/revelada, quando o sangue dissseca até o colo e exterioriza-se; ou hemorragia oculta, quando o sangue permanece retido atrás da placenta, potencialmente subestimando a gravidade real pela ausência de sangramento visível proporcional).",
+    quadroClinico: [
+      "Dor abdominal/lombar de início súbito, associada a sangramento vaginal (revelado) em graus variáveis, achado que contrasta com o sangramento tipicamente indolor da placenta prévia",
+      "Hipertonia uterina (útero endurecido e doloroso à palpação, sem relaxamento entre as contrações), achado característico ao exame físico",
+      "Sofrimento fetal agudo (alterações da frequência cardíaca fetal) proporcional à extensão do descolamento, podendo evoluir para óbito fetal em descolamentos extensos",
+      "Sinais de choque hipovolêmico desproporcionais ao sangramento vaginal visível sugerem hemorragia oculta significativa",
+    ],
+    diagnostico: [
+      "Diagnóstico primariamente clínico, pela combinação de dor abdominal súbita, hipertonia uterina e sangramento vaginal (quando presente) em gestante com fatores de risco",
+      "Ultrassonografia pode identificar hematoma retroplacentário em alguns casos, mas sua sensibilidade é limitada, não devendo sua ausência excluir o diagnóstico diante de quadro clínico compatível",
+    ],
+    examesComplementares: [
+      "Cardiotocografia contínua para monitorização do bem-estar fetal, exame essencial dado o risco de sofrimento fetal agudo proporcional à extensão do descolamento",
+      "Coagulograma completo (incluindo fibrinogênio), exame fundamental para identificação precoce de coagulação intravascular disseminada, complicação materna grave associada a descolamentos extensos",
+    ],
+    diagnosticoDiferencial: [
+      "Placenta prévia, principal diagnóstico diferencial de sangramento no terceiro trimestre, distinguida pela ausência de dor e hipertonia uterina",
+      "Trabalho de parto verdadeiro, distinguido pelo padrão de contrações intermitentes com relaxamento uterino entre elas, ausente na hipertonia sustentada do descolamento",
+      "Rotura uterina, emergência obstétrica com apresentação clínica que pode se sobrepor, mais comum em gestante com cicatriz uterina prévia",
+    ],
+    tratamento: [
+      "Descolamento leve, feto pré-termo e estável, sem sofrimento fetal: conduta expectante hospitalar com monitorização rigorosa e contínua materna e fetal, individualizada conforme gravidade",
+      "Descolamento moderado a grave, sofrimento fetal ou instabilidade materna: interrupção imediata da gestação (cesariana de urgência na maioria dos casos, ou parto vaginal rápido se iminente e as condições permitirem), independentemente da idade gestacional",
+      "Suporte hemodinâmico agressivo (reposição volêmica, hemoderivados) e correção de coagulopatia quando presente, medidas essenciais no manejo materno concomitante à resolução obstétrica",
+    ],
+    complicacoes: [
+      "Aguda: coagulação intravascular disseminada materna, choque hipovolêmico, óbito fetal em descolamentos extensos, útero de Couvelaire (infiltração hemorrágica miometrial)",
+      "Crônica: risco significativo de recorrência em gestação futura para mulheres com história de descolamento prematuro de placenta prévio",
+    ],
+    redFlags: [
+      "Sinais de choque hipovolêmico desproporcionais ao sangramento vaginal externo visível devem levantar suspeita de hemorragia oculta significativa retida atrás da placenta",
+      "Dor abdominal súbita e intensa associada a hipertonia uterina em gestante com fator de risco (hipertensão, trauma) é emergência obstétrica até prova em contrário",
+    ],
+    prognostico:
+      "Reservado, proporcional à extensão do descolamento; descolamentos extensos carregam risco significativo de morbimortalidade materna (coagulopatia, hemorragia) e fetal (sofrimento fetal agudo, óbito), exigindo reconhecimento e conduta imediatos para otimizar o desfecho.",
+    pontosDeProva: [
+      "Dor abdominal e hipertonia uterina distinguem o descolamento prematuro de placenta da placenta prévia, cujo sangramento é classicamente indolor",
+      "A hemorragia pode ser oculta (retida atrás da placenta), potencialmente subestimando a gravidade real quando avaliada apenas pelo sangramento vaginal visível",
+      "Coagulação intravascular disseminada é complicação materna grave associada a descolamentos extensos, pela liberação de tromboplastina tecidual placentária na circulação materna",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 31 anos, hipertensa crônica, 34 semanas, apresenta dor abdominal súbita e intensa associada a sangramento vaginal escuro. Exame revela útero endurecido e doloroso à palpação, sem relaxamento entre os episódios de dor. Cardiotocografia mostra desacelerações da frequência cardíaca fetal.",
+      pergunta: "Qual o diagnóstico mais provável e a conduta imediata?",
+      raciocinio:
+        "Dor abdominal súbita, hipertonia uterina e sangramento em gestante hipertensa (fator de risco reconhecido), associados a sofrimento fetal à cardiotocografia, são compatíveis com descolamento prematuro de placenta, exigindo interrupção imediata da gestação.",
+      conduta:
+        "Proceder à interrupção imediata da gestação (cesariana de urgência dado o sofrimento fetal associado), com suporte hemodinâmico materno concomitante e avaliação de coagulograma para exclusão de coagulopatia associada.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é obstétrico (interrupção da gestação) e de suporte hemodinâmico (reposição volêmica, hemoderivados); não há tratamento medicamentoso específico documentável no site.",
+    fontes: [
+      { tema: "Fisiopatologia do hematoma retroplacentário e classificação por tipo de hemorragia", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Conduta conforme gravidade e risco de coagulação intravascular disseminada", fonte: "Brandt JS, Ananth CV. Placental abruption at near-term and term gestations: pathophysiology, epidemiology, diagnosis, and management. American Journal of Obstetrics & Gynecology, 2023" },
+    ],
+  },
+  {
+    slug: "gravidez-prolongada-pos-termo",
+    nome: "Gravidez prolongada (pós-termo)",
+    sinonimos: ["Gestação pós-termo", "Gravidez pós-data"],
+    cid10: "O48",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Gestação que se estende além de 42 semanas completas, associada a risco aumentado de complicações placentárias e fetais, motivando indução do parto programada antes de se atingir esse limiar na prática obstétrica atual.",
+    definicao:
+      "Gestação que ultrapassa 42 semanas completas (294 dias) a partir da data da última menstruação ou de datação por ultrassonografia precoce, distinta do termo tardio (41 a 41 semanas e 6 dias), categoria intermediária que já concentra atenção clínica na prática atual.",
+    epidemiologia:
+      "Acomete uma minoria das gestações quando a datação é precisa, com a maioria das gestações antes consideradas pós-termo, na prática atual, sendo reclassificadas ou antecipadas por indução eletiva ao redor de 41 semanas, dada a evidência de benefício dessa conduta.",
+    fisiopatologia:
+      "A causa exata da gravidez prolongada frequentemente não é identificada, mas a placenta, ao ultrapassar sua janela funcional ideal, pode desenvolver insuficiência relativa progressiva (senescência placentária), comprometendo a troca materno-fetal e o volume de líquido amniótico (com tendência a oligoidrâmnio progressivo), enquanto o crescimento fetal contínuo aumenta o risco de macrossomia e de desproporção céfalo-pélvica.",
+    classificacao:
+      "Classificada temporalmente em termo precoce (37-38 semanas e 6 dias), termo pleno (39-40 semanas e 6 dias), termo tardio (41-41 semanas e 6 dias) e pós-termo (a partir de 42 semanas), terminologia padronizada que orienta a conduta obstétrica conforme o risco crescente associado a cada categoria.",
+    quadroClinico: [
+      "Tipicamente assintomática do ponto de vista materno até que se atinja a idade gestacional de interesse, sendo a principal preocupação clínica os riscos fetais/placentários crescentes",
+      "Redução progressiva do volume de líquido amniótico (oligoidrâmnio) pode ser identificada na vigilância seriada, achado que reforça a indicação de antecipação do parto",
+      "Sinais de sofrimento fetal crônico (redução de movimentos fetais) podem ser relatados pela paciente e devem motivar avaliação imediata",
+    ],
+    diagnostico: [
+      "Datação gestacional precisa e confiável, idealmente estabelecida por ultrassonografia do primeiro trimestre, etapa fundamental para o diagnóstico correto, dado que erros de datação são causa comum de diagnóstico incorreto de pós-termo",
+      "Vigilância fetal seriada (cardiotocografia, perfil biofísico fetal, avaliação do volume de líquido amniótico) a partir do termo tardio, para monitorização do bem-estar fetal enquanto se aguarda ou se planeja o parto",
+    ],
+    examesComplementares: [
+      "Perfil biofísico fetal e avaliação do índice de líquido amniótico seriados, exames centrais da vigilância antenatal intensificada nessa faixa gestacional",
+      "Doppler de artéria umbilical em casos com suspeita de insuficiência placentária associada",
+    ],
+    diagnosticoDiferencial: [
+      "Erro de datação gestacional, principal causa de diagnóstico incorreto de gravidez prolongada, reforçando a importância da datação precisa e precoce",
+    ],
+    tratamento: [
+      "Indução eletiva do parto ao redor de 41 semanas, conduta atualmente recomendada e associada a redução de desfechos adversos perinatais e de necessidade de cesariana em comparação à conduta expectante prolongada até 42 semanas",
+      "Vigilância fetal intensificada (duas vezes por semana) para gestantes que optam por aguardar além de 41 semanas antes da indução, enquanto se aguarda o momento programado",
+      "Interrupção imediata da gestação diante de qualquer sinal de comprometimento do bem-estar fetal identificado na vigilância seriada, independentemente da idade gestacional exata",
+    ],
+    complicacoes: [
+      "Aguda: macrossomia fetal com risco de distocia de ombro, síndrome de aspiração meconial (risco aumentado pela maior frequência de eliminação de mecônio em gestações prolongadas), oligoidrâmnio com risco de compressão de cordão umbilical",
+      "Crônica: insuficiência placentária progressiva com risco de restrição de crescimento fetal tardia e de óbito fetal, risco que motiva a recomendação atual de indução ao redor de 41 semanas",
+    ],
+    redFlags: [
+      "Redução de movimentos fetais relatada pela gestante em idade gestacional avançada deve motivar avaliação imediata do bem-estar fetal, dado o risco crescente de insuficiência placentária",
+      "Datação gestacional imprecisa é a principal armadilha diagnóstica — reforça a importância de sempre buscar confirmar a idade gestacional por ultrassonografia precoce quando disponível",
+    ],
+    prognostico:
+      "Favorável na maioria dos casos com vigilância adequada e indução programada no momento apropriado; o risco de desfechos adversos perinatais aumenta progressivamente a partir do termo tardio, justificando a atenção clínica intensificada nessa fase da gestação.",
+    pontosDeProva: [
+      "A indução eletiva do parto ao redor de 41 semanas é atualmente recomendada, tendo demonstrado redução de desfechos adversos perinatais e de taxa de cesariana em comparação à conduta expectante até 42 semanas",
+      "Erro de datação gestacional é causa comum de diagnóstico incorreto de gravidez prolongada, reforçando a importância da datação precoce e precisa",
+      "A insuficiência placentária progressiva (senescência) é o mecanismo fisiopatológico central que conecta a gravidez prolongada aos riscos de oligoidrâmnio e comprometimento do bem-estar fetal",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 27 anos, com datação precisa por ultrassonografia do primeiro trimestre, atinge 41 semanas de gestação sem sinais de trabalho de parto espontâneo. Vigilância fetal seriada permanece normal até o momento.",
+      pergunta: "Qual a conduta recomendada nesse momento?",
+      raciocinio:
+        "Gestação atingindo 41 semanas com datação confiável é indicação para indução eletiva do parto, conduta atualmente recomendada por reduzir desfechos adversos perinatais em comparação à conduta expectante prolongada até 42 semanas.",
+      conduta:
+        "Programar indução eletiva do trabalho de parto; caso a paciente opte por aguardar, instituir vigilância fetal intensificada (duas vezes por semana) até o momento da indução ou do início espontâneo do trabalho de parto.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O manejo é obstétrico (indução do parto); os agentes indutores (ocitocina, misoprostol, dinoprostona) ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Classificação temporal padronizada e fisiopatologia da senescência placentária", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Benefício da indução eletiva ao redor de 41 semanas em comparação à conduta expectante", fonte: "ACOG Practice Bulletin No. 146, Management of Late-Term and Postterm Pregnancies, 2014 (reafirmado em 2024)" },
+    ],
+  },
+  {
+    slug: "trabalho-parto-pre-termo",
+    nome: "Trabalho de parto pré-termo",
+    sinonimos: ["Parto prematuro ameaçado", "TPP"],
+    cid10: "O60",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Contrações uterinas regulares associadas a modificações cervicais progressivas antes de 37 semanas de gestação, principal causa de morbimortalidade neonatal em gestações sem malformação estrutural associada.",
+    definicao:
+      "Presença de contrações uterinas regulares (geralmente definidas como quatro ou mais em 20 minutos, ou oito ou mais em uma hora) associadas a modificações cervicais progressivas (dilatação e/ou apagamento) antes de completar 37 semanas de gestação.",
+    epidemiologia:
+      "Complica uma proporção significativa das gestações e é a principal causa de morbimortalidade neonatal não relacionada a malformações congênitas; fatores de risco incluem parto pré-termo em gestação anterior (fator de risco mais significativo), gestação múltipla, infecção do trato genital ou urinário, colo curto identificado por ultrassonografia e sangramento vaginal no início da gestação.",
+    fisiopatologia:
+      "Múltiplas vias fisiopatológicas convergem para o desencadeamento do trabalho de parto pré-termo, incluindo infecção/inflamação intra-amniótica ou sistêmica (via mais estudada e associada aos casos mais precoces), isquemia útero-placentária, sobredistensão uterina (gestação múltipla, poli-hidrâmnio) e ativação prematura do eixo hipotálamo-hipófise-adrenal materno-fetal; essas vias convergem para a produção de prostaglandinas e ocitocina, desencadeando contratilidade uterina e remodelamento cervical antes do termo.",
+    classificacao:
+      "Classificado por idade gestacional em pré-termo extremo (antes de 28 semanas), muito pré-termo (28 a 31 semanas e 6 dias), pré-termo moderado (32 a 33 semanas e 6 dias) e pré-termo tardio (34 a 36 semanas e 6 dias), categorização que orienta o prognóstico neonatal e as intervenções indicadas.",
+    quadroClinico: [
+      "Contrações uterinas regulares e dolorosas, sintoma de apresentação mais comum, por vezes inicialmente confundidas com contrações de Braxton-Hicks (irregulares e indolores, que não representam trabalho de parto verdadeiro)",
+      "Dor lombar surda e persistente, pressão pélvica e aumento de secreção vaginal, sintomas menos específicos que podem preceder as contrações regulares",
+      "Modificação cervical progressiva (dilatação e/ou apagamento) ao exame, achado que confirma o diagnóstico quando associado às contrações",
+    ],
+    diagnostico: [
+      "Avaliação clínica das contrações uterinas e do exame cervical seriado, demonstrando modificação progressiva",
+      "Medida do comprimento cervical por ultrassonografia transvaginal, exame complementar que auxilia na estratificação de risco, com colo curto (abaixo de determinado limiar) associado a maior risco de parto pré-termo iminente",
+      "Fibronectina fetal (quando disponível), teste com alto valor preditivo negativo, útil para identificar gestantes com baixo risco de parto pré-termo iminente e evitar intervenções desnecessárias",
+    ],
+    examesComplementares: [
+      "Urocultura e rastreamento de infecções do trato genital (incluindo estreptococo do grupo B), dado o papel da infecção como via fisiopatológica relevante e a necessidade de profilaxia intraparto quando aplicável",
+      "Cardiotocografia para avaliação do bem-estar fetal e da frequência e intensidade das contrações",
+    ],
+    diagnosticoDiferencial: [
+      "Contrações de Braxton-Hicks, contrações irregulares e indolores sem modificação cervical associada, que não configuram trabalho de parto verdadeiro",
+      "Infecção do trato urinário, que pode causar contrações uterinas reflexas sem verdadeiro trabalho de parto, mas que também é fator de risco para trabalho de parto pré-termo verdadeiro",
+    ],
+    tratamento: [
+      "Corticosteroide antenatal (betametasona ou dexametasona), intervenção mais eficaz para redução de morbimortalidade neonatal, administrado entre 24 e 34 semanas quando o parto pré-termo é iminente",
+      "Sulfato de magnésio para neuroproteção fetal quando o parto é iminente antes de 32 semanas, reduzindo o risco de paralisia cerebral",
+      "Tocólise (com agentes como nifedipina ou indometacina) para prolongamento de curto prazo do parto, permitindo tempo suficiente para completar o curso de corticosteroide antenatal e, quando indicado, transferência para centro com suporte neonatal adequado",
+      "Profilaxia antibiótica intraparto para estreptococo do grupo B conforme indicação",
+    ],
+    complicacoes: [
+      "Aguda: parto pré-termo efetivo com morbidade neonatal proporcional à idade gestacional (síndrome do desconforto respiratório, hemorragia intraventricular, enterocolite necrosante)",
+      "Crônica: sequelas do neurodesenvolvimento em prematuros extremos, principal preocupação a longo prazo relacionada à prematuridade",
+    ],
+    redFlags: [
+      "Trabalho de parto pré-termo antes de 32 semanas com parto iminente é indicação de sulfato de magnésio para neuroproteção fetal, além do corticosteroide antenatal",
+      "Colo curto identificado por ultrassonografia em gestante assintomática com história de parto pré-termo anterior deve motivar consideração de progesterona profilática e vigilância intensificada",
+    ],
+    prognostico:
+      "Variável e diretamente proporcional à idade gestacional no momento do parto; a administração oportuna de corticosteroide antenatal e, quando indicado, sulfato de magnésio, tem impacto significativo na redução da morbimortalidade neonatal associada à prematuridade.",
+    pontosDeProva: [
+      "O corticosteroide antenatal é a intervenção isolada mais eficaz para redução da morbimortalidade neonatal no trabalho de parto pré-termo, devendo ser administrado sempre que o parto pré-termo é iminente entre 24 e 34 semanas",
+      "Sulfato de magnésio para neuroproteção fetal é indicado especificamente quando o parto pré-termo é iminente antes de 32 semanas, reduzindo o risco de paralisia cerebral",
+      "A tocólise tem papel de prolongamento de curto prazo (para completar o corticosteroide antenatal ou transferência), não de prevenção definitiva do parto pré-termo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 26 anos, 30 semanas, apresenta contrações uterinas regulares e dolorosas a cada 5 minutos há 2 horas. Exame cervical revela dilatação de 3 cm e apagamento de 80%.",
+      pergunta: "Qual a conduta terapêutica imediata prioritária?",
+      raciocinio:
+        "Trabalho de parto pré-termo estabelecido com modificação cervical significativa antes de 32 semanas é indicação para administração imediata de corticosteroide antenatal e de sulfato de magnésio para neuroproteção fetal, dado o risco iminente de parto pré-termo nessa idade gestacional.",
+      conduta:
+        "Administrar corticosteroide antenatal e sulfato de magnésio para neuroproteção fetal; considerar tocólise de curto prazo para permitir a ação do corticosteroide; iniciar profilaxia para estreptococo do grupo B conforme indicação.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O corticosteroide antenatal, o sulfato de magnésio para neuroproteção e os agentes tocolíticos ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Vias fisiopatológicas convergentes e classificação por idade gestacional", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Indicações de corticosteroide antenatal, sulfato de magnésio para neuroproteção e tocólise", fonte: "ACOG Practice Bulletin No. 234, Prediction and Prevention of Spontaneous Preterm Birth, 2021" },
+    ],
+  },
+  {
+    slug: "distocia-funcional-anormalidades-contracao-progressao",
+    nome: "Distócia funcional (anormalidades da contração e progressão do parto)",
+    sinonimos: ["Parada de progressão", "Trabalho de parto disfuncional"],
+    cid10: "O62-O63",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Progressão anormal do trabalho de parto por contratilidade uterina inadequada ou por dilatação/descida mais lentas que o esperado, principal indicação de cesariana em nulíparas na ausência de outras complicações.",
+    definicao:
+      "Anormalidade da progressão do trabalho de parto decorrente de disfunção da contratilidade uterina (hipoatividade ou incoordenação) ou de dilatação cervical/descida fetal mais lentas que os padrões esperados para a fase do trabalho de parto, avaliada com base em curvas de referência estabelecidas (partograma).",
+    epidemiologia:
+      "Uma das indicações mais comuns de cesariana, especialmente em nulíparas, com fatores de risco incluindo macrossomia fetal, desproporção céfalo-pélvica relativa, malposição fetal (occipito-posterior), analgesia peridural (associada a discreto prolongamento da segunda fase) e obesidade materna.",
+    fisiopatologia:
+      "A progressão normal do trabalho de parto depende da interação adequada entre a força das contrações uterinas (potência), o tamanho e a posição fetal (passageiro) e as dimensões e configuração da pelve materna (passagem); a distócia funcional resulta de desequilíbrio nesses três componentes, mais comumente por contratilidade uterina insuficiente (hipoatividade), mas também por malposição fetal que aumenta o diâmetro efetivo de apresentação.",
+    classificacao:
+      "Classificada em fase latente prolongada (dilatação lenta na fase inicial), parada secundária da dilatação (fase ativa), e parada de descida (segunda fase), cada uma com critérios temporais específicos conforme a paridade da gestante para definir o diagnóstico de distócia verdadeira.",
+    quadroClinico: [
+      "Progressão da dilatação cervical e/ou da descida fetal mais lenta que o esperado ao exame seriado, achado central que define a condição",
+      "Contrações uterinas de intensidade ou frequência inadequadas à monitorização (avaliadas clinicamente ou por tocodinamômetro), quando a causa é hipoatividade uterina",
+      "Fadiga materna e ansiedade associadas à prolongação do trabalho de parto",
+    ],
+    diagnostico: [
+      "Avaliação seriada da dilatação cervical e da descida fetal por exame de toque, comparada aos padrões esperados de progressão conforme a fase do trabalho de parto e a paridade",
+      "Avaliação da adequação das contrações uterinas, clinicamente ou por monitorização com cateter de pressão intrauterina em casos selecionados, para diferenciar hipoatividade uterina verdadeira de outras causas de distócia",
+    ],
+    examesComplementares: [
+      "Avaliação clínica da pelve materna e estimativa do peso fetal, para investigação de desproporção céfalo-pélvica como causa contribuinte",
+      "Avaliação da posição fetal (occipito-anterior versus occipito-posterior/transversa), dado seu impacto na progressão da descida",
+    ],
+    diagnosticoDiferencial: [
+      "Falso trabalho de parto, distinguido pela ausência de modificação cervical progressiva verdadeira antes de considerar o diagnóstico de distócia",
+      "Desproporção céfalo-pélvica verdadeira (ver ficha específica), quando a causa é mecânica e não meramente funcional/contrátil",
+    ],
+    tratamento: [
+      "Amniotomia e/ou ocitocina para aumento da contratilidade uterina, tratamento de primeira linha quando a causa identificada é hipoatividade uterina, na ausência de contraindicações",
+      "Suporte e posicionamento materno (deambulação, mudanças de posição) como medidas coadjuvantes, especialmente úteis em malposição fetal",
+      "Cesariana indicada quando não há progressão adequada apesar de contratilidade uterina otimizada (aumentada com ocitocina) por tempo suficiente, ou quando há sinais de comprometimento materno/fetal",
+    ],
+    complicacoes: [
+      "Aguda: corioamnionite (pelo tempo prolongado de trabalho de parto, especialmente com membranas rotas), sofrimento fetal por trabalho de parto prolongado",
+      "Crônica: hemorragia pós-parto (útero fatigado por hiperestimulação prolongada), maior risco de infecção puerperal após trabalho de parto prolongado seguido de cesariana",
+    ],
+    redFlags: [
+      "Ausência de progressão apesar de contratilidade uterina adequada e otimizada por tempo suficiente é indicação de cesariana, não devendo se prolongar a tentativa de parto vaginal indefinidamente",
+      "Sinais de sofrimento fetal associados à distócia mudam imediatamente a prioridade para resolução do parto, independentemente da causa da distócia",
+    ],
+    prognostico:
+      "Favorável na maioria dos casos com manejo apropriado (aumento da contratilidade com ocitocina quando indicado, ou cesariana quando necessário); o diagnóstico correto da causa (contrátil versus mecânica) é central para a escolha terapêutica apropriada.",
+    pontosDeProva: [
+      "A distócia funcional é uma das principais indicações de cesariana em nulíparas, especialmente quando a causa é hipoatividade uterina não responsiva à ocitocina",
+      "O diagnóstico de distócia depende da comparação com curvas de progressão esperadas conforme a paridade — os critérios temporais diferem entre nulíparas e multíparas",
+      "Amniotomia e ocitocina são o tratamento de primeira linha para hipoatividade uterina, antes de se considerar a cesariana por falha de progressão",
+    ],
+    casoClinico: {
+      vinheta:
+        "Primigesta, 24 anos, em trabalho de parto há 8 horas, com dilatação estacionada em 6 cm há 3 horas apesar de contrações regulares. Avaliação da contratilidade uterina sugere atividade uterina inadequada.",
+      pergunta: "Qual a conduta terapêutica apropriada nesse momento?",
+      raciocinio:
+        "Parada secundária da dilatação associada a contratilidade uterina inadequada caracteriza distócia funcional por hipoatividade uterina, que deve ser tratada com aumento da contratilidade antes de se considerar a cesariana por falha de progressão.",
+      conduta:
+        "Iniciar ou otimizar infusão de ocitocina para aumentar a contratilidade uterina; reavaliar a progressão da dilatação após período adequado de contratilidade otimizada antes de indicar cesariana.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "A ocitocina, tratamento de primeira linha para hipoatividade uterina, ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Modelo de potência-passageiro-passagem e classificação por fase do trabalho de parto", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Critérios diagnósticos de distócia por paridade e manejo com ocitocina", fonte: "ACOG Obstetric Care Consensus No. 1, Safe Prevention of the Primary Cesarean Delivery, 2014" },
+    ],
+  },
+  {
+    slug: "distocia-mecanica-desproporcao-cefalo-pelvica",
+    nome: "Distócia mecânica (desproporção céfalo-pélvica e malapresentação)",
+    sinonimos: ["Desproporção céfalo-pélvica", "DCP"],
+    cid10: "O64-O66",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Incompatibilidade mecânica entre as dimensões da apresentação fetal e a pelve materna, ou malposição fetal persistente, impedindo a progressão do parto vaginal independentemente da adequação da contratilidade uterina.",
+    definicao:
+      "Impedimento mecânico à progressão do trabalho de parto decorrente de incompatibilidade entre o tamanho/posição da apresentação fetal e as dimensões/configuração da pelve materna (desproporção céfalo-pélvica verdadeira), ou de malposição fetal persistente (occipito-posterior persistente, apresentação de face/fronte) que aumenta o diâmetro efetivo de apresentação.",
+    epidemiologia:
+      "Fatores de risco para desproporção céfalo-pélvica incluem macrossomia fetal (frequentemente associada a diabetes materno), pelve materna de conformação desfavorável (mais comum em estatura materna baixa) e malposição fetal persistente; a distinção entre distócia funcional (contrátil) e mecânica é essencial, pois esta última não responde ao aumento da contratilidade uterina.",
+    fisiopatologia:
+      "Ao contrário da distócia funcional, na qual a contratilidade uterina é o fator limitante, a distócia mecânica decorre de incompatibilidade estrutural real entre a apresentação fetal e o canal de parto — mesmo com contratilidade uterina ótima, a progressão não ocorre porque a cabeça fetal (ou outra parte apresentada) não consegue transpor mecanicamente a pelve materna nas dimensões e configuração apresentadas.",
+    classificacao:
+      "Classificada em desproporção céfalo-pélvica verdadeira (incompatibilidade de dimensões absolutas) e malposição fetal (occipito-posterior persistente, apresentação defletida de face ou fronte), sendo esta última potencialmente reversível com manobras específicas, ao contrário da desproporção verdadeira.",
+    quadroClinico: [
+      "Ausência de descida da apresentação fetal apesar de dilatação cervical completa e contratilidade uterina adequada, achado que diferencia a distócia mecânica da funcional",
+      "Moldagem excessiva do polo cefálico fetal e formação de bossa serossanguínea proeminente, achados que podem sugerir desproporção significativa",
+      "Occipício persistentemente posterior ao toque vaginal, achado de malposição que frequentemente se associa a trabalho de parto mais prolongado e doloroso",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico por exclusão, estabelecido quando não há progressão da descida fetal apesar de contratilidade uterina documentadamente adequada por tempo suficiente",
+      "Avaliação da posição fetal por exame de toque vaginal cuidadoso, identificando malposição (occipito-posterior, defletida) como causa potencialmente reversível",
+    ],
+    examesComplementares: [
+      "Estimativa de peso fetal (clínica ou por ultrassonografia) para avaliação de suspeita de macrossomia contribuindo para a desproporção",
+      "Pelvimetria clínica, de valor preditivo limitado isoladamente, mas que pode complementar a avaliação global",
+    ],
+    diagnosticoDiferencial: [
+      "Distócia funcional por hipoatividade uterina, principal diagnóstico diferencial, distinguida pela resposta à otimização da contratilidade com ocitocina (a distócia mecânica não responde a essa intervenção)",
+    ],
+    tratamento: [
+      "Manobras de rotação manual ou reposicionamento materno em malposição fetal (occipito-posterior), podendo resolver a distócia sem necessidade de cesariana quando bem-sucedidas",
+      "Parto instrumental (fórceps ou vácuo-extrator) em casos selecionados de malposição ou descida insuficiente na segunda fase, quando critérios de segurança são atendidos",
+      "Cesariana, tratamento definitivo para desproporção céfalo-pélvica verdadeira, dado que essa condição não se resolve com aumento da contratilidade uterina nem, geralmente, com manobras de reposicionamento",
+    ],
+    complicacoes: [
+      "Aguda: sofrimento fetal por trabalho de parto prolongado, trauma de parto (fratura de clavícula, lesão de plexo braquial) em tentativas de parto vaginal diante de desproporção não reconhecida, rotura uterina em casos extremos",
+      "Crônica: lesões do assoalho pélvico materno associadas a partos instrumentais complexos",
+    ],
+    redFlags: [
+      "Ausência de descida fetal apesar de contratilidade uterina documentadamente adequada por tempo suficiente indica distócia mecânica, não devendo se insistir em aumentar ainda mais a contratilidade",
+      "Suspeita de macrossomia fetal significativa (especialmente em gestante diabética) deve ser discutida quanto à via de parto antes do início do trabalho de parto",
+    ],
+    prognostico:
+      "Favorável com reconhecimento oportuno e escolha apropriada da via de parto; a tentativa prolongada de parto vaginal diante de desproporção céfalo-pélvica verdadeira não reconhecida aumenta o risco de complicações tanto maternas quanto fetais.",
+    pontosDeProva: [
+      "A distinção entre distócia funcional (responde à ocitocina) e distócia mecânica (não responde) é central para a conduta apropriada — insistir em aumentar a contratilidade diante de distócia mecânica verdadeira não resolve o problema",
+      "Malposição fetal (occipito-posterior, apresentação defletida) é potencialmente reversível com manobras específicas, ao contrário da desproporção céfalo-pélvica verdadeira",
+      "Cesariana é o tratamento definitivo para desproporção céfalo-pélvica verdadeira",
+    ],
+    casoClinico: {
+      vinheta:
+        "Primigesta, 30 anos, com dilatação cervical completa há 3 horas e contratilidade uterina adequada e otimizada, apresenta ausência de progressão da descida fetal. Exame revela occipício fetal persistentemente posterior.",
+      pergunta: "Qual a conduta apropriada diante dessa distócia?",
+      raciocinio:
+        "Ausência de descida apesar de contratilidade adequada, associada a malposição occipito-posterior persistente, caracteriza distócia mecânica por malposição fetal, potencialmente reversível com manobra de rotação antes de se considerar cesariana.",
+      conduta:
+        "Tentar manobra de rotação manual ou reposicionamento materno para correção da malposição; se malsucedida ou não factível, considerar parto instrumental (se critérios atendidos) ou cesariana.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso para a distócia mecânica; o manejo é por manobras, parto instrumental ou cesariana.",
+    fontes: [
+      { tema: "Modelo de potência-passageiro-passagem e distinção entre distócia funcional e mecânica", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Manejo da malposição occipito-posterior e critérios para parto instrumental", fonte: "ACOG Practice Bulletin No. 219, Operative Vaginal Birth, 2020" },
+    ],
+  },
+  {
+    slug: "sofrimento-fetal-intraparto",
+    nome: "Sofrimento fetal intraparto",
+    sinonimos: ["Estado fetal não tranquilizador", "Hipóxia fetal intraparto"],
+    cid10: "O68",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Comprometimento da oxigenação fetal durante o trabalho de parto, identificado por alterações características da cardiotocografia, exigindo intervenção imediata para prevenção de lesão hipóxico-isquêmica fetal.",
+    definicao:
+      "Estado de comprometimento da troca gasosa e da oxigenação fetal durante o trabalho de parto, identificado por padrões anormais na monitorização da frequência cardíaca fetal (cardiotocografia), terminologia atualmente substituída na literatura por 'padrão de frequência cardíaca fetal categoria II ou III' ou 'estado fetal não tranquilizador', refletindo a natureza probabilística (não binária) da interpretação desses traçados.",
+    epidemiologia:
+      "Pode ocorrer em qualquer trabalho de parto, mas o risco é maior em gestações com fatores de risco preexistentes (restrição de crescimento fetal, oligoidrâmnio, pré-eclâmpsia) ou em complicações intraparto agudas (descolamento prematuro de placenta, prolapso de cordão, hiperestimulação uterina).",
+    fisiopatologia:
+      "As contrações uterinas normalmente causam redução transitória e bem tolerada do fluxo sanguíneo útero-placentário; quando há redução da reserva placentária (insuficiência placentária crônica) ou um evento agudo que compromete abruptamente a oxigenação (compressão de cordão, descolamento de placenta, hiperestimulação uterina por excesso de ocitocina), o feto pode não tolerar adequadamente esse estresse hipóxico intermitente, desenvolvendo acidose progressiva identificável pelos padrões anormais de frequência cardíaca fetal.",
+    classificacao:
+      "Classificado pelo sistema de três categorias da frequência cardíaca fetal: categoria I (normal, tranquilizador), categoria II (indeterminado, requerendo avaliação e vigilância contínua) e categoria III (anormal, associado a risco significativo de acidemia fetal, exigindo intervenção imediata).",
+    quadroClinico: [
+      "Alterações da frequência cardíaca fetal identificadas à cardiotocografia (desacelerações tardias ou variáveis recorrentes, bradicardia fetal, redução da variabilidade), achado central e definidor",
+      "Líquido amniótico meconial pode estar presente concomitantemente, embora não seja, isoladamente, indicador confiável de sofrimento fetal",
+      "Ausência de sintomas maternos específicos na maioria dos casos, sendo o achado primariamente identificado pela monitorização fetal contínua",
+    ],
+    diagnostico: [
+      "Interpretação sistemática da cardiotocografia segundo o sistema de três categorias, considerando linha de base, variabilidade, presença/tipo de acelerações e desacelerações",
+      "Reavaliação de possíveis causas reversíveis (posição materna, hiperestimulação uterina, hipotensão materna) diante de padrão categoria II ou III, antes ou concomitantemente à decisão de resolução do parto",
+    ],
+    examesComplementares: [
+      "Estimulação do couro cabeludo fetal, manobra que, se resultar em aceleração da frequência cardíaca fetal, é tranquilizadora quanto ao estado ácido-base fetal",
+      "Gasometria de couro cabeludo fetal (quando disponível) para avaliação direta do status ácido-base em casos selecionados de dúvida diagnóstica",
+    ],
+    diagnosticoDiferencial: [
+      "Artefato de monitorização (captação inadequada do sinal), que pode mimetizar anormalidades verdadeiras e deve ser excluído antes de se assumir sofrimento fetal verdadeiro",
+      "Padrão categoria II transitório e autolimitado, que se resolve com medidas de reanimação intrauterina, distinto de um padrão persistente ou que evolui para categoria III",
+    ],
+    tratamento: [
+      "Medidas de reanimação intrauterina: reposicionamento materno em decúbito lateral, correção de hipotensão materna, suspensão de ocitocina em uso, administração de oxigênio suplementar e, quando indicado, amnioinfusão para alívio de compressão de cordão",
+      "Tocólise aguda (com agente de ação rápida) em casos de hiperestimulação uterina significativa associada a padrão anormal, para redução imediata da atividade uterina",
+      "Resolução imediata do parto (cesariana de urgência ou parto instrumental, se as condições permitirem) diante de padrão categoria III persistente ou de padrão categoria II não responsivo às medidas de reanimação intrauterina",
+    ],
+    complicacoes: [
+      "Aguda: acidose metabólica fetal progressiva, encefalopatia hipóxico-isquêmica neonatal em casos graves e não revertidos a tempo",
+      "Crônica: sequelas neurológicas permanentes em casos de hipóxia intraparto grave e prolongada não reconhecida ou não tratada oportunamente",
+    ],
+    redFlags: [
+      "Padrão de frequência cardíaca fetal categoria III (bradicardia mantida, ou variabilidade ausente associada a desacelerações recorrentes) exige resolução imediata do parto, sem tempo para medidas de reanimação prolongadas",
+      "Padrão categoria II que não responde às medidas de reanimação intrauterina em tempo razoável deve motivar reavaliação urgente da via e do momento de resolução do parto",
+    ],
+    prognostico:
+      "Favorável quando reconhecido e tratado prontamente, com a maioria dos padrões categoria II respondendo às medidas de reanimação intrauterina; o prognóstico neurológico neonatal está diretamente relacionado à duração e à gravidade da hipóxia intraparto quando esta efetivamente ocorre e não é revertida a tempo.",
+    pontosDeProva: [
+      "O sistema de três categorias (I, II, III) da frequência cardíaca fetal é a estrutura padronizada atual para interpretação da cardiotocografia intraparto",
+      "Medidas de reanimação intrauterina (reposicionamento, correção de hipotensão, suspensão de ocitocina, oxigênio) são a primeira linha de conduta diante de padrão categoria II antes de se decidir por resolução imediata",
+      "Padrão categoria III exige resolução imediata do parto, sem tempo para tentativas prolongadas de reanimação intrauterina",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante em trabalho de parto, com infusão de ocitocina em curso, apresenta desacelerações variáveis recorrentes associadas a taquissistolia uterina à cardiotocografia.",
+      pergunta: "Qual a conduta imediata apropriada?",
+      raciocinio:
+        "Desacelerações variáveis recorrentes associadas a taquissistolia uterina sugerem hiperestimulação uterina secundária à ocitocina como causa reversível do padrão anormal, devendo ser corrigida antes de se considerar intervenção mais invasiva.",
+      conduta:
+        "Suspender ou reduzir a infusão de ocitocina, reposicionar a paciente em decúbito lateral e considerar tocólise aguda se a taquissistolia persistir; reavaliar o traçado da frequência cardíaca fetal após essas medidas.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os agentes tocolíticos de ação rápida usados na reanimação intrauterina ainda não têm ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia da hipóxia intraparto e sistema de três categorias da frequência cardíaca fetal", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Medidas de reanimação intrauterina e critérios de resolução imediata do parto", fonte: "ACOG Practice Bulletin No. 106, Intrapartum Fetal Heart Rate Monitoring, 2009" },
+    ],
+  },
+  {
+    slug: "complicacoes-cordao-umbilical-prolapso",
+    nome: "Complicações do cordão umbilical (prolapso de cordão)",
+    sinonimos: ["Prolapso de cordão umbilical", "Procidência de cordão"],
+    cid10: "O69",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Descida do cordão umbilical à frente ou ao lado da apresentação fetal após a ruptura das membranas, emergência obstétrica com risco de compressão do cordão e comprometimento agudo e grave da oxigenação fetal.",
+    definicao:
+      "Deslocamento do cordão umbilical para além da apresentação fetal, atingindo ou ultrapassando o orifício cervical, geralmente após a ruptura das membranas amnióticas, criando risco de compressão do cordão entre a apresentação fetal e a pelve materna durante as contrações ou a descida fetal.",
+    epidemiologia:
+      "Complicação relativamente rara, mas de alta gravidade quando ocorre; fatores de risco incluem apresentação fetal anômala (pélvica incompleta, situação transversa), polidrâmnio, gestação múltipla, ruptura artificial de membranas com apresentação fetal ainda não encaixada, e prematuridade.",
+    fisiopatologia:
+      "Quando a apresentação fetal não está adequadamente encaixada na pelve materna no momento da ruptura das membranas, o espaço criado permite que o cordão umbilical seja arrastado pelo fluxo de líquido amniótico para além da apresentação; a compressão subsequente do cordão entre a apresentação fetal e a pelve materna (ou sua exposição ao ambiente externo mais frio, causando vasoespasmo) compromete abruptamente o fluxo sanguíneo umbilical e, consequentemente, a oxigenação fetal.",
+    classificacao:
+      "Classificado em prolapso franco/manifesto (cordão visível ou palpável além da apresentação fetal, exteriorizando-se pela vagina) e prolapso oculto (cordão adjacente à apresentação fetal, mas não ultrapassando-a, mais difícil de diagnosticar clinicamente).",
+    quadroClinico: [
+      "Bradicardia fetal súbita e prolongada, ou desacelerações variáveis graves de início abrupto, imediatamente após a ruptura de membranas (espontânea ou artificial), achado mais frequentemente associado",
+      "Palpação ou visualização do cordão umbilical na vagina ou exteriorizado, achado diagnóstico direto quando presente (prolapso franco)",
+      "Ausência de sinais maternos específicos, sendo o quadro definido pela repercussão fetal aguda",
+    ],
+    diagnostico: [
+      "Exame de toque vaginal imediato diante de alteração aguda e súbita da frequência cardíaca fetal após ruptura de membranas, identificando o cordão pulsátil no canal de parto quando presente",
+      "Confirmação visual do cordão exteriorizado na vagina em casos de prolapso franco evidente",
+    ],
+    examesComplementares: [
+      "Cardiotocografia contínua, demonstrando o padrão característico de bradicardia/desaceleração súbita e sustentada associada ao evento",
+    ],
+    diagnosticoDiferencial: [
+      "Descolamento prematuro de placenta, outra causa de deterioração aguda do padrão de frequência cardíaca fetal, distinguida pela ausência de cordão palpável ao toque vaginal e pela presença de dor/hipertonia uterina associada",
+      "Rotura uterina, diagnóstico diferencial de deterioração fetal aguda, mais comum em gestante com cicatriz uterina prévia",
+    ],
+    tratamento: [
+      "Elevação manual da apresentação fetal através do toque vaginal, mantendo a mão na vagina para aliviar a compressão do cordão até a resolução cirúrgica do parto, medida imediata e central do manejo",
+      "Posicionamento materno em decúbito genupeitoral ou Trendelenburg acentuado, para reduzir adicionalmente a pressão da apresentação fetal sobre o cordão",
+      "Cesariana de urgência imediata, via de parto de escolha na grande maioria dos casos, dado que o tempo entre o diagnóstico e o parto está diretamente relacionado ao desfecho neonatal",
+      "Enchimento vesical retrógrado (instilação de solução salina na bexiga materna) como manobra adjuvante em alguns protocolos para elevar adicionalmente a apresentação fetal durante o transporte para a cesariana",
+    ],
+    complicacoes: [
+      "Aguda: hipóxia fetal grave e acidose metabólica progressiva pela compressão sustentada do cordão, óbito fetal quando o intervalo até o parto é prolongado",
+      "Crônica: sequelas neurológicas hipóxico-isquêmicas neonatais quando o evento não é revertido a tempo",
+    ],
+    redFlags: [
+      "Bradicardia fetal súbita e sustentada imediatamente após ruptura de membranas deve motivar toque vaginal imediato para exclusão de prolapso de cordão, dado que o tempo é o determinante mais crítico do desfecho",
+      "O prolapso de cordão é sempre uma emergência que exige resolução do parto o mais rapidamente possível — a manutenção manual da elevação da apresentação fetal nunca deve ser interrompida até o parto",
+    ],
+    prognostico:
+      "Diretamente relacionado ao intervalo entre o diagnóstico e a resolução do parto; quando reconhecido e tratado imediatamente (elevação manual mantida até cesariana de urgência), o prognóstico fetal pode ser excelente, mas atrasos no reconhecimento ou na resolução aumentam substancialmente o risco de hipóxia grave e óbito fetal.",
+    pontosDeProva: [
+      "Bradicardia fetal súbita após ruptura de membranas é o sinal de alerta mais característico que deve motivar toque vaginal imediato para exclusão de prolapso de cordão",
+      "A elevação manual da apresentação fetal deve ser mantida continuamente desde o diagnóstico até a resolução cirúrgica do parto, sem interrupção",
+      "O tempo entre diagnóstico e parto é o determinante mais crítico do desfecho neonatal no prolapso de cordão",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante em trabalho de parto, apresentação pélvica, é submetida a ruptura artificial de membranas. Imediatamente após o procedimento, a cardiotocografia registra bradicardia fetal súbita e sustentada.",
+      pergunta: "Qual a conduta imediata?",
+      raciocinio:
+        "Bradicardia fetal súbita imediatamente após ruptura de membranas, especialmente em apresentação pélvica (fator de risco reconhecido), é altamente sugestiva de prolapso de cordão, exigindo confirmação imediata por toque vaginal.",
+      conduta:
+        "Realizar toque vaginal imediato; se confirmado prolapso de cordão, manter elevação manual contínua da apresentação fetal, posicionar a paciente em decúbito genupeitoral/Trendelenburg e proceder à cesariana de urgência imediata.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso para o prolapso de cordão; o manejo é por manobras físicas de emergência seguidas de resolução cirúrgica imediata do parto.",
+    fontes: [
+      { tema: "Fisiopatologia da compressão do cordão e fatores de risco associados", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Manobras de emergência (elevação manual, enchimento vesical) e conduta de resolução imediata", fonte: "RCOG Green-top Guideline No. 50, Umbilical Cord Prolapse, 2014" },
+    ],
+  },
+  {
+    slug: "laceracoes-traumatismos-obstetricos-parto",
+    nome: "Lacerações e traumatismos obstétricos do parto",
+    sinonimos: ["Lacerações perineais", "Lacerações de trajeto"],
+    cid10: "O70-O71",
+    especialidade: "Ginecologia",
+    etiologia: "Traumática",
+    resumo: "Traumatismos do trajeto genital materno decorrentes da passagem fetal pelo canal de parto, classificados por grau de extensão anatômica, com as lacerações perineais de terceiro e quarto graus carregando risco significativo de disfunção do assoalho pélvico a longo prazo.",
+    definicao:
+      "Lesões traumáticas do trajeto genital materno (períneo, vagina, colo uterino, ou mais raramente o próprio útero) ocorrendo durante o parto vaginal, classificadas por localização e, no caso das lacerações perineais, por um sistema de graduação padronizado conforme a profundidade e as estruturas anatômicas envolvidas.",
+    epidemiologia:
+      "Lacerações perineais de algum grau ocorrem na maioria dos partos vaginais, sendo a maioria de primeiro e segundo graus; lacerações de terceiro e quarto graus (envolvendo o esfíncter anal) são menos comuns, mas de maior relevância clínica pelo risco de disfunção anorretal a longo prazo, com fatores de risco incluindo primiparidade, parto instrumental (especialmente fórceps), macrossomia fetal e episiotomia mediana.",
+    fisiopatologia:
+      "A distensão progressiva do períneo durante a descida e a expulsão fetal pode exceder a capacidade de distensão do tecido, especialmente quando há fatores agravantes (macrossomia, parto instrumental, distensão rápida na segunda fase); quando a distensão excede esse limite, ocorre laceração espontânea, cuja extensão e profundidade determinam o grau de comprometimento das estruturas anatômicas subjacentes, incluindo potencialmente o complexo esfincteriano anal e a mucosa retal.",
+    classificacao:
+      "Lacerações perineais classificadas em quatro graus: primeiro grau (pele e mucosa vaginal apenas), segundo grau (também envolvendo a musculatura perineal, sem atingir o esfíncter anal), terceiro grau (envolvendo o esfíncter anal, subdividido conforme a extensão do comprometimento esfincteriano) e quarto grau (extensão através do esfíncter anal e da mucosa retal); lacerações cervicais e vaginais altas classificadas separadamente por localização.",
+    quadroClinico: [
+      "Sangramento genital visível imediatamente após o parto, achado que motiva a inspeção cuidadosa do trajeto",
+      "Dor perineal, mais intensa e prolongada proporcionalmente ao grau da laceração",
+      "Lacerações de terceiro/quarto grau não reconhecidas e não reparadas adequadamente podem manifestar-se tardiamente por incontinência anal ou fecal",
+    ],
+    diagnostico: [
+      "Inspeção sistemática e completa do trajeto genital (períneo, vagina, colo uterino) imediatamente após todo parto vaginal, incluindo toque retal para avaliação da integridade do esfíncter anal, etapa essencial para não subdiagnosticar lacerações de terceiro/quarto grau",
+      "Classificação do grau da laceração conforme o sistema padronizado, determinando a técnica de reparo apropriada",
+    ],
+    examesComplementares: [
+      "Ultrassonografia endoanal em casos selecionados de suspeita de lesão esfincteriana não totalmente esclarecida ao exame físico, ou no seguimento de lacerações de terceiro/quarto grau",
+    ],
+    diagnosticoDiferencial: [
+      "Hematoma perineal/vulvar, distinto de laceração verdadeira por não haver solução de continuidade da mucosa, mas que também requer avaliação e por vezes intervenção",
+      "Rotura uterina, diagnóstico diferencial relevante de sangramento pós-parto significativo quando a inspeção do trajeto inferior não explica o volume de sangramento",
+    ],
+    tratamento: [
+      "Reparo cirúrgico primário por sutura em camadas, técnica padrão para lacerações de todos os graus, com técnica específica adaptada para lacerações de terceiro/quarto grau, exigindo reaproximação cuidadosa do complexo esfincteriano",
+      "Analgesia apropriada e cuidados perineais pós-parto (higiene, gelo local) para conforto e cicatrização adequada",
+      "Antibioticoprofilaxia perioperatória em lacerações de terceiro/quarto grau, reduzindo o risco de complicações infecciosas e de deiscência",
+    ],
+    complicacoes: [
+      "Aguda: hemorragia significativa quando a laceração não é reconhecida e reparada prontamente, hematoma perineal",
+      "Crônica: incontinência anal/fecal e dispareunia, principalmente após lacerações de terceiro/quarto grau, especialmente quando o reparo inicial é inadequado ou há deiscência",
+    ],
+    redFlags: [
+      "Toque retal de rotina após todo parto vaginal é essencial para não subdiagnosticar lacerações de terceiro/quarto grau, que podem não ser evidentes à inspeção vaginal isolada",
+      "Sangramento pós-parto significativo não explicado por atonia uterina deve motivar inspeção cuidadosa e completa de todo o trajeto genital, incluindo lacerações cervicais altas",
+    ],
+    prognostico:
+      "Excelente para lacerações de primeiro e segundo graus com reparo adequado; lacerações de terceiro e quarto graus têm prognóstico mais reservado quanto à função anorretal a longo prazo, mesmo com reparo tecnicamente adequado, justificando aconselhamento e seguimento específicos dessas pacientes.",
+    pontosDeProva: [
+      "O toque retal é etapa obrigatória do exame pós-parto para não subdiagnosticar lacerações de terceiro/quarto grau que comprometem o esfíncter anal",
+      "Lacerações de terceiro e quarto grau carregam risco significativo de incontinência anal/fecal a longo prazo, mesmo com reparo tecnicamente adequado",
+      "Parto instrumental (especialmente fórceps) e macrossomia fetal são os principais fatores de risco modificáveis/identificáveis para lacerações de alto grau",
+    ],
+    casoClinico: {
+      vinheta:
+        "Primípara, 26 anos, após parto vaginal com uso de fórceps por período expulsivo prolongado, apresenta laceração perineal visível à inspeção. Toque retal revela descontinuidade do esfíncter anal externo, sem lesão da mucosa retal.",
+      pergunta: "Qual a classificação dessa laceração e a conduta apropriada?",
+      raciocinio:
+        "Laceração envolvendo o esfíncter anal sem atingir a mucosa retal caracteriza laceração perineal de terceiro grau, exigindo reparo cirúrgico técnico específico para reaproximação adequada do complexo esfincteriano.",
+      conduta:
+        "Proceder ao reparo cirúrgico em camadas com técnica específica para reaproximação do esfíncter anal, associar antibioticoprofilaxia perioperatória e orientar seguimento específico para avaliação da função anorretal a longo prazo.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é cirúrgico (reparo por sutura); a antibioticoprofilaxia perioperatória específica ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia da distensão perineal e sistema de graduação por extensão anatômica", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Técnica de reparo e antibioticoprofilaxia em lacerações de terceiro/quarto grau", fonte: "ACOG Practice Bulletin No. 198, Prevention and Management of Obstetric Lacerations at Vaginal Delivery, 2018" },
+    ],
+  },
+  {
+    slug: "hemorragia-pos-parto",
+    nome: "Hemorragia pós-parto",
+    sinonimos: ["HPP", "Hemorragia puerperal"],
+    cid10: "O72",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Sangramento excessivo após o parto, principal causa evitável de mortalidade materna em todo o mundo, cuja etiologia é organizada mnemonicamente pelos '4 Ts' — tônus, trauma, tecido e trombina.",
+    definicao:
+      "Perda sanguínea cumulativa igual ou superior a 1000 mL, ou perda sanguínea acompanhada de sinais/sintomas de hipovolemia, dentro de 24 horas após o parto (definição atualizada que unificou os critérios antes diferentes para parto vaginal e cesariana), classificada em primária (dentro de 24 horas) e secundária (de 24 horas até 12 semanas pós-parto).",
+    epidemiologia:
+      "Uma das principais causas de mortalidade materna globalmente, e a principal causa evitável quando reconhecida e tratada prontamente; fatores de risco incluem trabalho de parto prolongado, macrossomia fetal, gestação múltipla, poli-hidrâmnio, corioamnionite, uso prolongado de ocitocina e história de hemorragia pós-parto anterior, embora uma proporção significativa dos casos ocorra em gestantes sem fatores de risco identificáveis.",
+    fisiopatologia:
+      "A etiologia é classicamente organizada pelo mnemônico dos '4 Ts': Tônus (atonia uterina, causa mais comum, correspondendo à maioria dos casos, na qual o útero não se contrai adequadamente após a dequitação para comprimir os vasos do sítio placentário), Trauma (lacerações do trajeto genital, rotura uterina), Tecido (retenção de fragmentos placentários ou de membranas, impedindo a contração uterina completa) e Trombina (coagulopatias, congênitas ou adquiridas, incluindo a coagulopatia de consumo secundária a outras complicações obstétricas).",
+    classificacao:
+      "Classificada temporalmente em primária (dentro de 24 horas pós-parto, a maioria dos casos, mais comumente por atonia uterina) e secundária (de 24 horas até 12 semanas pós-parto, mais comumente por retenção de tecido placentário ou infecção); também classificada etiologicamente pelos '4 Ts'.",
+    quadroClinico: [
+      "Sangramento vaginal excessivo e contínuo após o parto, achado central e definidor",
+      "Útero amolecido e mal contraído à palpação abdominal (globo de segurança de Pinard ausente ou inadequado) na atonia uterina, achado de exame físico central",
+      "Sinais de instabilidade hemodinâmica (taquicardia, hipotensão) proporcionais ao volume de perda sanguínea, podendo ser mascarados inicialmente pelas adaptações fisiológicas da gestação",
+    ],
+    diagnostico: [
+      "Quantificação objetiva da perda sanguínea (por métodos gravimétricos ou visuais calibrados), preferível à estimativa visual isolada, que tende a subestimar significativamente o volume real perdido",
+      "Exame sistemático dirigido aos '4 Ts' para identificação da causa: palpação uterina (tônus), inspeção completa do trajeto (trauma), revisão da placenta e cavidade uterina (tecido) e avaliação da coagulação (trombina)",
+    ],
+    examesComplementares: [
+      "Hemograma e coagulograma completo (incluindo fibrinogênio), exames essenciais para avaliação da gravidade e identificação de coagulopatia associada",
+      "Ultrassonografia pélvica em casos selecionados de suspeita de retenção de tecido placentário não evidente ao exame físico",
+    ],
+    diagnosticoDiferencial: [
+      "As quatro categorias etiológicas (tônus, trauma, tecido, trombina) devem ser sistematicamente investigadas e não são mutuamente excludentes — mais de uma pode contribuir simultaneamente para o sangramento",
+    ],
+    tratamento: [
+      "Massagem uterina bimanual e ocitocina, medidas de primeira linha para atonia uterina, a causa mais comum",
+      "Agentes uterotônicos de segunda linha (ergometrina, misoprostol, carbetocina) quando a ocitocina isolada é insuficiente para restaurar o tônus uterino adequado",
+      "Reparo cirúrgico de lacerações identificadas, remoção de tecido placentário retido, e correção de coagulopatia (hemoderivados, ácido tranexâmico) conforme a causa identificada",
+      "Medidas escalonadas para atonia refratária: tamponamento uterino com balão, suturas compressivas uterinas, embolização de artérias uterinas, e, em última instância, histerectomia de urgência para controle definitivo da hemorragia",
+    ],
+    complicacoes: [
+      "Aguda: choque hipovolêmico, coagulação intravascular disseminada, síndrome de Sheehan (necrose hipofisária isquêmica por hipotensão grave e prolongada)",
+      "Crônica: anemia significativa no puerpério, necessidade de histerectomia com perda definitiva da fertilidade em casos extremos refratários",
+    ],
+    redFlags: [
+      "A estimativa visual da perda sanguínea tende a subestimar significativamente o volume real, reforçando a importância da quantificação objetiva para reconhecimento oportuno da gravidade",
+      "Atonia uterina refratária às medidas farmacológicas de primeira e segunda linha deve motivar escalonamento rápido para medidas mecânicas/cirúrgicas, sem atraso, dado o risco de deterioração hemodinâmica progressiva",
+    ],
+    prognostico:
+      "Excelente quando reconhecida e tratada prontamente com abordagem sistemática e escalonada; permanece, no entanto, uma das principais causas de mortalidade materna evitável globalmente, quando o reconhecimento ou o tratamento são tardios ou inadequados.",
+    pontosDeProva: [
+      "O mnemônico dos '4 Ts' (Tônus, Trauma, Tecido, Trombina) organiza sistematicamente a investigação etiológica da hemorragia pós-parto, sendo a atonia uterina (Tônus) a causa mais comum",
+      "A estimativa visual de perda sanguínea subestima sistematicamente o volume real, reforçando a necessidade de quantificação objetiva",
+      "O manejo é escalonado: massagem uterina e ocitocina primeiro, uterotônicos de segunda linha em seguida, e medidas mecânicas/cirúrgicas progressivamente mais invasivas para atonia refratária",
+    ],
+    casoClinico: {
+      vinheta:
+        "Puérpera, 29 anos, apresenta sangramento vaginal volumoso e contínuo 30 minutos após parto vaginal. Ao exame, útero amolecido e mal contraído à palpação abdominal.",
+      pergunta: "Qual a causa mais provável e a conduta imediata?",
+      raciocinio:
+        "Sangramento pós-parto associado a útero amolecido e mal contraído à palpação é altamente sugestivo de atonia uterina, causa mais comum de hemorragia pós-parto, que responde inicialmente a massagem uterina e uterotônicos.",
+      conduta:
+        "Realizar massagem uterina bimanual e administrar ocitocina imediatamente; se resposta inadequada, escalonar para uterotônicos de segunda linha e, se ainda refratário, para medidas mecânicas (tamponamento com balão) ou cirúrgicas.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os agentes uterotônicos (ocitocina, ergometrina, misoprostol, carbetocina) e o ácido tranexâmico ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Mnemônico dos 4 Ts e organização etiológica da hemorragia pós-parto", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Definição atualizada, quantificação objetiva e manejo escalonado", fonte: "ACOG Practice Bulletin No. 183, Postpartum Hemorrhage, 2017" },
+    ],
+  },
+  {
+    slug: "infeccao-puerperal",
+    nome: "Infecção puerperal (endometrite pós-parto)",
+    sinonimos: ["Endometrite puerperal", "Febre puerperal"],
+    cid10: "O85-O86",
+    especialidade: "Ginecologia",
+    etiologia: "Bacteriana",
+    resumo: "Infecção polimicrobiana do trato genital no puerpério, mais comumente endometrite, com risco significativamente maior após cesariana do que após parto vaginal, respondendo bem à antibioticoterapia empírica de amplo espectro.",
+    definicao:
+      "Infecção do trato genital ocorrendo no período puerperal, mais comumente na forma de endometrite (infecção da decídua e do miométrio), classicamente definida clinicamente por febre puerperal (temperatura ≥38°C após as primeiras 24 horas pós-parto, em pelo menos duas ocasições) associada a outros sinais de infecção uterina.",
+    epidemiologia:
+      "O risco é substancialmente maior após cesariana do que após parto vaginal, dado o trauma cirúrgico adicional e a exposição da cavidade uterina; fatores de risco adicionais incluem trabalho de parto prolongado, ruptura prolongada de membranas, múltiplos toques vaginais durante o trabalho de parto e corioamnionite intraparto.",
+    fisiopatologia:
+      "Infecção polimicrobiana ascendente por flora do trato genital inferior (aeróbios e anaeróbios, incluindo estreptococos, Escherichia coli e anaeróbios), favorecida pelo trauma tecidual do parto (especialmente cesariana) e por fatores que aumentam a exposição da cavidade uterina a esses microrganismos (trabalho de parto prolongado, ruptura prolongada de membranas, múltiplos exames vaginais).",
+    classificacao:
+      "Classificada por localização/extensão em endometrite (a mais comum, restrita ao útero), infecção de sítio cirúrgico (após cesariana), e, em casos mais graves e menos comuns, infecção estendendo-se aos paramétrios (parametrite) ou tromboflebite pélvica séptica.",
+    quadroClinico: [
+      "Febre puerperal (≥38°C após as primeiras 24 horas), achado central e definidor",
+      "Sensibilidade uterina à palpação abdominal e ao exame bimanual, achado característico da endometrite",
+      "Lóquios com odor fétido em uma proporção dos casos, embora essa característica não seja universal nem obrigatória para o diagnóstico",
+      "Taquicardia materna proporcional à gravidade do quadro infeccioso",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico, pela combinação de febre puerperal, sensibilidade uterina e exclusão de outras causas de febre no puerpério (mastite, infecção do trato urinário, infecção de sítio cirúrgico, tromboembolismo)",
+      "Hemograma com leucocitose, achado de apoio, embora inespecífico, dado que uma leucocitose leve é esperada fisiologicamente no puerpério imediato",
+    ],
+    examesComplementares: [
+      "Hemocultura em casos de febre alta ou sinais de sepse, para identificação do agente e ajuste da antibioticoterapia quando necessário",
+      "Ultrassonografia pélvica quando há suspeita de retenção de tecido placentário associada ou de coleção/abscesso pélvico",
+    ],
+    diagnosticoDiferencial: [
+      "Mastite puerperal, infecção urinária e infecção de sítio cirúrgico (após cesariana), causas alternativas de febre no puerpério que devem ser ativamente excluídas pelo exame físico dirigido",
+      "Tromboembolismo venoso, causa de febre baixa e taquicardia no puerpério que deve ser considerada especialmente na ausência de achados uterinos característicos",
+    ],
+    tratamento: [
+      "Antibioticoterapia empírica de amplo espectro cobrindo aeróbios e anaeróbios (classicamente associação de clindamicina e gentamicina, ou esquemas alternativos de amplo espectro), tratamento de escolha até resolução dos sintomas e da febre",
+      "Manutenção da antibioticoterapia intravenosa até a paciente permanecer afebril e clinicamente estável por período determinado, geralmente sem necessidade de completar curso oral adicional na maioria dos protocolos atuais para endometrite não complicada",
+    ],
+    complicacoes: [
+      "Aguda: abscesso pélvico, sepse quando não tratada prontamente",
+      "Crônica: tromboflebite pélvica séptica em casos refratários à antibioticoterapia isolada, complicação rara mas que exige consideração de anticoagulação associada",
+    ],
+    redFlags: [
+      "Febre puerperal que não responde à antibioticoterapia empírica adequada em 48-72 horas deve motivar investigação para complicações (abscesso pélvico, tromboflebite pélvica séptica, retenção de tecido não diagnosticada)",
+      "Sinais de sepse (hipotensão, taquicardia significativa, alteração do estado mental) exigem manejo agressivo imediato além da antibioticoterapia isolada",
+    ],
+    prognostico:
+      "Excelente com antibioticoterapia empírica adequada e oportuna, com a maioria das pacientes respondendo dentro de 48 a 72 horas; complicações como abscesso pélvico ou tromboflebite pélvica séptica são incomuns mas exigem reconhecimento e manejo específico adicional quando presentes.",
+    pontosDeProva: [
+      "O risco de infecção puerperal é substancialmente maior após cesariana do que após parto vaginal, refletindo o trauma cirúrgico adicional",
+      "A antibioticoterapia empírica deve cobrir tanto aeróbios quanto anaeróbios, dada a natureza polimicrobiana da infecção",
+      "Febre que não responde à antibioticoterapia adequada em 48-72 horas deve motivar investigação para complicações como abscesso pélvico ou tromboflebite pélvica séptica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Puérpera, 27 anos, no terceiro dia após cesariana, apresenta febre de 38,5°C, sensibilidade uterina significativa à palpação e lóquios com odor fétido.",
+      pergunta: "Qual o diagnóstico mais provável e o tratamento indicado?",
+      raciocinio:
+        "Febre puerperal associada a sensibilidade uterina e lóquios fétidos após cesariana é altamente sugestiva de endometrite puerperal, infecção polimicrobiana que requer cobertura antibiótica de amplo espectro.",
+      conduta:
+        "Iniciar antibioticoterapia empírica intravenosa de amplo espectro cobrindo aeróbios e anaeróbios; manter até a paciente permanecer afebril e clinicamente estável por período adequado.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O esquema antibiótico empírico padrão (clindamicina associada a gentamicina, ou alternativas de amplo espectro) ainda não tem seus componentes documentados como ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia polimicrobiana ascendente e maior risco após cesariana", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Esquema antibiótico empírico de escolha e duração do tratamento", fonte: "Mackeen AD et al., Antibiotic regimens for postpartum endometritis, Cochrane Database of Systematic Reviews, 2015" },
+    ],
+  },
+  {
+    slug: "embolia-liquido-amniotico",
+    nome: "Embolia de líquido amniótico",
+    sinonimos: ["Síndrome anafilactoide da gravidez"],
+    cid10: "O88",
+    especialidade: "Ginecologia",
+    etiologia: "Idiopática",
+    resumo: "Complicação obstétrica catastrófica e imprevisível, na qual a entrada de líquido amniótico na circulação materna desencadeia colapso cardiovascular súbito e coagulopatia grave, com alta letalidade mesmo com manejo imediato.",
+    definicao:
+      "Síndrome clínica rara e potencialmente catastrófica caracterizada por colapso cardiovascular súbito, insuficiência respiratória aguda e coagulopatia grave, ocorrendo tipicamente durante o trabalho de parto, o parto, ou logo após, decorrente de uma resposta sistêmica anômala à entrada de líquido amniótico e material fetal na circulação materna.",
+    epidemiologia:
+      "Extremamente rara, mas associada a alta taxa de mortalidade materna quando ocorre, sendo uma das principais causas de morte materna súbita relacionada ao parto nos países desenvolvidos; não existem fatores de risco consistentemente identificados que permitam predição ou prevenção, embora idade materna avançada e cesariana tenham sido associadas em alguns estudos.",
+    fisiopatologia:
+      "O mecanismo exato permanece incompletamente elucidado, mas a hipótese mais aceita atualmente propõe uma resposta inflamatória sistêmica anômala (semelhante à anafilaxia, daí o termo alternativo 'síndrome anafilactoide da gravidez') à entrada de líquido amniótico e material fetal na circulação materna, em vez de uma embolização mecânica obstrutiva simples como o nome sugere; essa resposta desencadeia colapso cardiovascular abrupto (por disfunção ventricular direita aguda seguida de esquerda) e coagulopatia de consumo grave e rápida.",
+    classificacao:
+      "Não possui subclassificação estabelecida; é definida clinicamente pela tríade de colapso cardiovascular súbito, insuficiência respiratória e coagulopatia, com o diagnóstico sendo essencialmente clínico e por exclusão de outras causas.",
+    quadroClinico: [
+      "Colapso cardiovascular súbito (hipotensão grave, parada cardíaca) durante o trabalho de parto, o parto, ou nos primeiros minutos/horas pós-parto, achado de apresentação mais dramático",
+      "Insuficiência respiratória aguda com hipóxia grave, frequentemente concomitante ao colapso cardiovascular",
+      "Coagulopatia de consumo grave e de instalação rápida, manifestando-se por hemorragia maciça e difusa",
+      "Alteração aguda do estado mental ou convulsões podem preceder ou acompanhar o colapso cardiovascular em alguns casos",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico, pela apresentação característica (colapso cardiovascular súbito, insuficiência respiratória, coagulopatia) no contexto temporal do parto, após exclusão de outras causas de deterioração aguda materna",
+      "Não existe exame laboratorial ou de imagem específico e definitivo para confirmação em tempo real — o diagnóstico permanece eminentemente clínico diante da urgência da situação",
+    ],
+    examesComplementares: [
+      "Coagulograma completo seriado, essencial para monitorização e orientação da reposição de hemoderivados diante da coagulopatia de consumo rápida e progressiva",
+      "Gasometria arterial para avaliação da gravidade da insuficiência respiratória",
+    ],
+    diagnosticoDiferencial: [
+      "Embolia pulmonar tromboembólica, tromboembolismo venoso maciço, distinguido por não apresentar coagulopatia de consumo tão precoce e grave",
+      "Choque hemorrágico por outras causas obstétricas (hemorragia pós-parto maciça, rotura uterina), que também podem cursar com colapso cardiovascular mas tipicamente com sangramento visível precedendo a instabilidade",
+      "Anafilaxia por outras causas (medicamentosa), diagnóstico diferencial relevante dado o mecanismo fisiopatológico proposto semelhante",
+    ],
+    tratamento: [
+      "Suporte hemodinâmico e respiratório imediato e agressivo (ressuscitação cardiopulmonar quando indicada, suporte ventilatório, vasopressores), medida central e mais determinante do desfecho",
+      "Correção agressiva da coagulopatia com reposição maciça de hemoderivados (concentrado de hemácias, plasma fresco congelado, crioprecipitado, plaquetas) conforme a gravidade e a evolução do coagulograma",
+      "Parto imediato (se a embolia ocorre anteparto e o feto ainda está in utero) para otimizar as chances de ressuscitação materna e de sobrevida fetal, geralmente por cesariana perimortem quando há parada cardíaca materna",
+    ],
+    complicacoes: [
+      "Aguda: parada cardiorrespiratória, coagulação intravascular disseminada maciça, óbito materno e/ou fetal, sendo a mortalidade materna elevada mesmo com manejo imediato e adequado",
+      "Crônica: sequelas neurológicas hipóxico-isquêmicas em sobreviventes que apresentaram parada cardiorrespiratória prolongada",
+    ],
+    redFlags: [
+      "Colapso cardiovascular súbito e inexplicado durante o trabalho de parto ou logo após o parto deve sempre incluir embolia de líquido amniótico no diagnóstico diferencial imediato, dado que o reconhecimento precoce é essencial para o início do suporte agressivo",
+      "A coagulopatia de consumo se instala rapidamente e de forma desproporcional a outras causas de choque, exigindo reposição extremamente agressiva e precoce de hemoderivados",
+    ],
+    prognostico:
+      "Reservado, com mortalidade materna elevada mesmo com manejo imediato e adequado, refletindo a gravidade intrínseca e a imprevisibilidade da síndrome; entre as sobreviventes, sequelas neurológicas são comuns quando houve parada cardiorrespiratória prolongada.",
+    pontosDeProva: [
+      "O mecanismo fisiopatológico atual proposto é uma resposta inflamatória sistêmica anômala tipo anafilactoide, não uma obstrução mecânica embólica simples, apesar do nome tradicional da condição",
+      "A tríade de colapso cardiovascular súbito, insuficiência respiratória aguda e coagulopatia de consumo rápida é a apresentação clínica característica",
+      "Não existem fatores de risco consistentemente identificados que permitam prever ou prevenir a embolia de líquido amniótico, tornando o reconhecimento clínico imediato essencial",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 34 anos, em trabalho de parto ativo, subitamente desenvolve dispneia intensa, hipotensão grave e perda de consciência, seguidas rapidamente por sangramento vaginal maciço e difuso.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "Colapso cardiovascular súbito com insuficiência respiratória seguido rapidamente de coagulopatia de consumo, no contexto do trabalho de parto ativo, é altamente sugestivo de embolia de líquido amniótico, exigindo suporte agressivo imediato.",
+      conduta:
+        "Iniciar suporte hemodinâmico e respiratório agressivo imediato (incluindo ressuscitação cardiopulmonar se necessário), reposição maciça de hemoderivados guiada por coagulograma seriado, e considerar cesariana perimortem/parto imediato conforme a situação clínica.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O manejo é de suporte intensivo (hemodinâmico, respiratório, hemoderivados); não há tratamento medicamentoso específico e dirigido documentável no site.",
+    fontes: [
+      { tema: "Hipótese fisiopatológica anafilactoide e apresentação clínica característica", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Manejo de suporte agressivo e reposição de hemoderivados na coagulopatia associada", fonte: "SMFM Consult Series #9, Amniotic Fluid Embolism, 2016" },
+    ],
+  },
+  {
+    slug: "mastite-puerperal-afeccoes-mama-lactacao",
+    nome: "Mastite puerperal e outras afecções da mama e lactação",
+    sinonimos: ["Mastite lactacional", "Ingurgitamento mamário"],
+    cid10: "O91-O92",
+    especialidade: "Ginecologia",
+    etiologia: "Bacteriana",
+    resumo: "Espectro de afecções mamárias no puerpério associadas à lactação — do ingurgitamento fisiológico à mastite infecciosa e ao abscesso mamário —, cujo reconhecimento precoce e manejo apropriado, incluindo a manutenção da amamentação, previnem a progressão para quadros mais graves.",
+    definicao:
+      "Espectro de condições mamárias relacionadas à lactação no puerpério, incluindo o ingurgitamento mamário (distensão fisiológica dolorosa por acúmulo de leite, sem infecção), a mastite puerperal (infecção do tecido mamário, mais comumente por Staphylococcus aureus através de fissuras mamilares) e o abscesso mamário (complicação supurativa localizada da mastite não resolvida).",
+    epidemiologia:
+      "A mastite puerperal acomete uma proporção significativa das lactantes, principalmente nas primeiras semanas pós-parto; principais fatores de risco incluem fissuras ou traumatismo mamilar (porta de entrada bacteriana), esvaziamento mamário incompleto ou infrequente, e técnica de amamentação inadequada.",
+    fisiopatologia:
+      "O ingurgitamento mamário resulta do acúmulo de leite por drenagem inadequada, sem processo infeccioso; a mastite decorre da entrada de bactérias (mais comumente Staphylococcus aureus da pele/orofaringe do lactente) através de fissuras mamilares, com proliferação bacteriana favorecida pela estase láctea associada ao esvaziamento inadequado; quando a infecção não é tratada ou não responde ao tratamento inicial, pode evoluir para abscesso mamário, coleção purulenta localizada que geralmente requer drenagem.",
+    classificacao:
+      "Classificada em ingurgitamento mamário (fisiológico, bilateral, sem sinais infecciosos sistêmicos), mastite (unilateral na maioria dos casos, com sinais inflamatórios locais e frequentemente sintomas sistêmicos) e abscesso mamário (complicação localizada e supurativa da mastite não resolvida, caracterizada por massa flutuante).",
+    quadroClinico: [
+      "Ingurgitamento: mamas distendidas, dolorosas e bilateralmente simétricas, sem eritema significativo ou febre",
+      "Mastite: área localizada de eritema, calor, dor e endurecimento mamário, tipicamente unilateral, frequentemente associada a febre, calafrios e mal-estar sistêmico do tipo gripal",
+      "Abscesso mamário: massa flutuante palpável e dolorosa, geralmente em paciente com mastite prévia sem resposta adequada ao tratamento antibiótico inicial",
+    ],
+    diagnostico: [
+      "Diagnóstico eminentemente clínico, pela combinação de sintomas locais mamários e sistêmicos, com diferenciação entre ingurgitamento (sem sinais infecciosos) e mastite (com sinais infecciosos e frequentemente febre)",
+      "Palpação cuidadosa para identificação de área de flutuação sugestiva de abscesso em paciente com mastite não responsiva ao tratamento inicial",
+    ],
+    examesComplementares: [
+      "Ultrassonografia mamária, exame de escolha para confirmação e caracterização de suspeita de abscesso mamário quando a flutuação não é claramente identificável ao exame físico",
+      "Cultura do leite materno em casos recorrentes ou refratários ao tratamento antibiótico empírico inicial",
+    ],
+    diagnosticoDiferencial: [
+      "Carcinoma inflamatório de mama, diagnóstico diferencial relevante e importante quando os sintomas não respondem ao tratamento apropriado para mastite dentro do prazo esperado, exigindo investigação adicional",
+      "Galactocele, coleção cística de leite não infectada, distinguida da mastite pela ausência de sinais inflamatórios significativos",
+    ],
+    tratamento: [
+      "Ingurgitamento: esvaziamento mamário frequente (amamentação ou ordenha), compressas e analgesia simples, sem necessidade de antibioticoterapia",
+      "Mastite: antibioticoterapia dirigida a Staphylococcus aureus (incluindo cobertura para cepas resistentes à meticilina conforme o perfil epidemiológico local), associada à manutenção da amamentação/esvaziamento mamário frequente do lado acometido, medida importante tanto para o tratamento quanto para prevenção de progressão a abscesso",
+      "Abscesso mamário: drenagem (por aspiração guiada por ultrassonografia ou incisão cirúrgica conforme o tamanho e a localização) associada a antibioticoterapia, sendo a drenagem essencial e não substituível apenas pelo tratamento antibiótico isolado",
+    ],
+    complicacoes: [
+      "Aguda: abscesso mamário quando a mastite não é tratada adequadamente ou não responde ao tratamento inicial",
+      "Crônica: interrupção precoce e não desejada da amamentação quando o manejo não orienta adequadamente a manutenção do esvaziamento mamário durante o tratamento",
+    ],
+    redFlags: [
+      "A amamentação deve ser mantida (não interrompida) durante o tratamento da mastite, tanto pela ausência de risco ao lactente quanto pela importância do esvaziamento mamário na resolução do quadro — orientação frequentemente mal compreendida na prática clínica",
+      "Sintomas de mastite que não respondem à antibioticoterapia apropriada dentro do prazo esperado devem motivar investigação para abscesso mamário ou, mais raramente, para carcinoma inflamatório de mama",
+    ],
+    prognostico:
+      "Excelente com reconhecimento e tratamento apropriados, incluindo a manutenção do esvaziamento mamário; a progressão para abscesso é evitável na maioria dos casos com tratamento antibiótico precoce e adequado da mastite, e mesmo quando ocorre, responde bem à drenagem associada a antibioticoterapia.",
+    pontosDeProva: [
+      "A amamentação deve ser mantida durante o tratamento da mastite — não é contraindicada, e o esvaziamento mamário é parte importante da resolução do quadro",
+      "Staphylococcus aureus é o agente etiológico mais comum da mastite puerperal, entrando através de fissuras mamilares",
+      "Abscesso mamário sempre requer drenagem associada à antibioticoterapia — o tratamento antibiótico isolado não é suficiente para resolução de uma coleção já estabelecida",
+    ],
+    casoClinico: {
+      vinheta:
+        "Puérpera, 30 anos, lactante há 3 semanas, apresenta área de eritema, calor e dor na mama esquerda, associada a febre de 38,7°C e calafrios, com fissura mamilar visível no mesmo lado.",
+      pergunta: "Qual o diagnóstico mais provável e a orientação quanto à amamentação?",
+      raciocinio:
+        "Eritema localizado unilateral com febre e calafrios, associado a fissura mamilar (porta de entrada bacteriana), é característico de mastite puerperal infecciosa, exigindo antibioticoterapia dirigida a Staphylococcus aureus.",
+      conduta:
+        "Prescrever antibioticoterapia apropriada e orientar explicitamente a manutenção da amamentação/esvaziamento mamário frequente do lado acometido, medida importante tanto terapêutica quanto preventiva de progressão a abscesso.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina-clavulanato", nome: "Amoxicilina + clavulanato" },
+    ],
+    medicamentosNota:
+      "A amoxicilina + clavulanato é uma opção com cobertura adequada para Staphylococcus aureus sensível; cepas resistentes à meticilina, quando prevalentes no perfil local, exigem antimicrobianos alternativos ainda não documentados no site.",
+    fontes: [
+      { tema: "Fisiopatologia da estase láctea e entrada bacteriana por fissura mamilar", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Manutenção da amamentação durante o tratamento e indicação de drenagem no abscesso", fonte: "Academy of Breastfeeding Medicine Clinical Protocol #36, The Mastitis Spectrum, 2022" },
+    ],
+  },
 ];

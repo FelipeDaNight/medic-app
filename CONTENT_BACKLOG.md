@@ -15,7 +15,7 @@ Fontes:
   está, o único item da lista ainda pendente por esse motivo.
 
 Já documentados com ficha completa (**fora deste backlog**, não repetir):
-- **Doenças (256):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
+- **Doenças (270):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
   · Dengue · COVID-19 · Gastrite · DRGE · Artrite reumatoide · LES · Alzheimer · Anemia
   ferropriva · DRC · Infarto agudo do miocárdio · Angina pectoris · Doença isquêmica
   crônica do coração · Fibrilação e flutter atrial · Parada cardíaca · Febre reumática ·
@@ -104,7 +104,15 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   venosas na gravidez (TVP gestacional) · Infecções do trato geniturinário
   na gravidez · Gestação múltipla e suas complicações · Apresentação fetal
   anômala · Distúrbios do volume de líquido amniótico (poli-hidrâmnio e
-  oligoidrâmnio)
+  oligoidrâmnio) · Ruptura prematura de membranas · Placenta prévia ·
+  Descolamento prematuro de placenta · Gravidez prolongada (pós-termo) ·
+  Trabalho de parto pré-termo · Distócia funcional (anormalidades da
+  contração e progressão) · Distócia mecânica (desproporção céfalo-pélvica
+  e malapresentação) · Sofrimento fetal intraparto · Complicações do
+  cordão umbilical (prolapso de cordão) · Lacerações e traumatismos
+  obstétricos do parto · Hemorragia pós-parto · Infecção puerperal
+  (endometrite pós-parto) · Embolia de líquido amniótico · Mastite
+  puerperal e outras afecções da mama e lactação
 - **Medicamentos (29):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
@@ -456,21 +464,21 @@ agrupadas em uma única ficha.
 12. concluído — Apresentação fetal anômala (O32)
 13. concluído — Distúrbios do volume de líquido amniótico / poli-oligoidrâmnio (O40+O41)
 
-### Lote 20 — GO D: Trabalho de parto, parto e puerpério (14)
-1. pendente — Ruptura prematura de membranas (O42)
-2. pendente — Placenta prévia (O44)
-3. pendente — Descolamento prematuro de placenta (O45)
-4. pendente — Gravidez prolongada / pós-termo (O48)
-5. pendente — Trabalho de parto pré-termo (O60)
-6. pendente — Distócia funcional / anormalidades da contração e progressão (O62+O63)
-7. pendente — Distócia mecânica / desproporção céfalo-pélvica, malapresentação (O64-O66)
-8. pendente — Sofrimento fetal intraparto (O68)
-9. pendente — Complicações do cordão umbilical / prolapso de cordão (O69)
-10. pendente — Lacerações e traumatismos obstétricos do parto (O70+O71)
-11. pendente — Hemorragia pós-parto (O72)
-12. pendente — Infecção puerperal (O85+O86)
-13. pendente — Embolia de líquido amniótico (O88)
-14. pendente — Mastite puerperal e outras afecções da mama/lactação (O91+O92)
+### Lote 20 — GO D: Trabalho de parto, parto e puerpério (14) — ✅ CONCLUÍDO
+1. concluído — Ruptura prematura de membranas (O42)
+2. concluído — Placenta prévia (O44)
+3. concluído — Descolamento prematuro de placenta (O45)
+4. concluído — Gravidez prolongada / pós-termo (O48)
+5. concluído — Trabalho de parto pré-termo (O60)
+6. concluído — Distócia funcional / anormalidades da contração e progressão (O62+O63)
+7. concluído — Distócia mecânica / desproporção céfalo-pélvica, malapresentação (O64-O66)
+8. concluído — Sofrimento fetal intraparto (O68)
+9. concluído — Complicações do cordão umbilical / prolapso de cordão (O69)
+10. concluído — Lacerações e traumatismos obstétricos do parto (O70+O71)
+11. concluído — Hemorragia pós-parto (O72)
+12. concluído — Infecção puerperal (O85+O86)
+13. concluído — Embolia de líquido amniótico (O88)
+14. concluído — Mastite puerperal e outras afecções da mama/lactação (O91+O92)
 
 ### Lote 21 — Dermatologia (11)
 1. pendente — Psoríase (L40)
@@ -485,13 +493,12 @@ agrupadas em uma única ficha.
 10. pendente — Dermatite alérgica de contato (L23)
 11. pendente — Abscesso cutâneo, furúnculo e antraz (L02)
 
-**Total: 25 doenças pendentes em 2 lotes** (Lotes 1-13, Lotes 14-16
-(Otorrinolaringologia completa) e Lotes 17-19 (GO A, GO B e GO C) todos
-concluídos, além das 256 já fichadas. **Oftalmologia, Neurologia,
-Hematologia, Nefrologia+Urologia, Psiquiatria e Otorrinolaringologia
-fechadas por completo. Próxima prioridade: Lote 20 (GO D — trabalho de
-parto, parto e puerpério, 14 itens), que fecha por completo a
-Ginecologia/Obstetrícia, antes de retomar Dermatologia (Lote 21).**
+**Total: 11 doenças pendentes em 1 lote** (Lotes 1-13, Lotes 14-16
+(Otorrinolaringologia completa) e Lotes 17-20 (GO A, GO B, GO C e GO D)
+todos concluídos, além das 270 já fichadas. **Oftalmologia, Neurologia,
+Hematologia, Nefrologia+Urologia, Psiquiatria, Otorrinolaringologia e
+Ginecologia/Obstetrícia fechadas por completo. Próxima prioridade: Lote 21
+(Dermatologia, 11 itens), última especialidade pendente no backlog atual.**
 
 ---
 

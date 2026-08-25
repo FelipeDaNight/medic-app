@@ -312,6 +312,7 @@ export const medications: Medication[] = [
       { slug: "colecistite", nome: "Colecistite" },
       { slug: "doenca-diverticular", nome: "Doença diverticular do intestino" },
       { slug: "abscesso-periamigdaliano", nome: "Abscesso periamigdaliano" },
+      { slug: "mastite-puerperal-afeccoes-mama-lactacao", nome: "Mastite puerperal e outras afecções da mama e lactação" },
     ],
     fontes: [
       { tema: "Mecanismo de ação (inibição de betalactamase)", fonte: "Goodman & Gilman, 13ª ed." },
