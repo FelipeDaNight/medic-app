@@ -15,7 +15,7 @@ Fontes:
   está, o único item da lista ainda pendente por esse motivo.
 
 Já documentados com ficha completa (**fora deste backlog**, não repetir):
-- **Doenças (211):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
+- **Doenças (218):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
   · Dengue · COVID-19 · Gastrite · DRGE · Artrite reumatoide · LES · Alzheimer · Anemia
   ferropriva · DRC · Infarto agudo do miocárdio · Angina pectoris · Doença isquêmica
   crônica do coração · Fibrilação e flutter atrial · Parada cardíaca · Febre reumática ·
@@ -81,7 +81,11 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   faringite crônicas · Sinusite crônica · Pólipo nasal · Desvio de septo
   nasal · Hipertrofia de amígdalas e adenoides · Abscesso periamigdaliano ·
   Laringite e laringotraqueíte crônicas · Doenças das cordas vocais e da
-  laringe · Abscesso retrofaríngeo
+  laringe · Abscesso retrofaríngeo · Neoplasia maligna da cavidade oral ·
+  Neoplasia maligna das glândulas salivares · Neoplasia maligna da
+  orofaringe e tonsila · Neoplasia maligna da nasofaringe · Neoplasia
+  maligna da hipofaringe · Neoplasia maligna nasossinusal · Neoplasia
+  maligna da laringe
 - **Medicamentos (29):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
@@ -363,14 +367,16 @@ CID descrevem a mesma entidade clínica.
 14. concluído — Doenças das cordas vocais e da laringe NCOP / nódulos, paralisia de prega vocal (J38)
 15. concluído — Outras doenças das vias aéreas superiores / abscesso retrofaríngeo (J39)
 
-### Lote 16 — ORL C: Neoplasias malignas de cabeça e pescoço (7)
-1. pendente — Neoplasia maligna da cavidade oral (C00-C06)
-2. pendente — Neoplasia maligna das glândulas salivares (C07-C08)
-3. pendente — Neoplasia maligna da orofaringe e tonsila (C09-C10)
-4. pendente — Neoplasia maligna da nasofaringe (C11)
-5. pendente — Neoplasia maligna da hipofaringe (C12-C13)
-6. pendente — Neoplasia maligna nasossinusal / cavidade nasal e seios paranasais (C30-C31)
-7. pendente — Neoplasia maligna da laringe (C32)
+### Lote 16 — ORL C: Neoplasias malignas de cabeça e pescoço (7) — ✅ CONCLUÍDO
+1. concluído — Neoplasia maligna da cavidade oral (C00-C06)
+2. concluído — Neoplasia maligna das glândulas salivares (C07-C08)
+3. concluído — Neoplasia maligna da orofaringe e tonsila (C09-C10)
+4. concluído — Neoplasia maligna da nasofaringe (C11)
+5. concluído — Neoplasia maligna da hipofaringe (C12-C13)
+6. concluído — Neoplasia maligna nasossinusal / cavidade nasal e seios paranasais (C30-C31)
+7. concluído — Neoplasia maligna da laringe (C32)
+
+**Otorrinolaringologia 100% documentada: 37/37 doenças (Lotes 14, 15 e 16).**
 
 ### ⭐ PRIORIDADE ATUAL — Ginecologia e Obstetrícia (52, em 4 lotes)
 
@@ -460,13 +466,13 @@ agrupadas em uma única ficha.
 10. pendente — Dermatite alérgica de contato (L23)
 11. pendente — Abscesso cutâneo, furúnculo e antraz (L02)
 
-**Total: 70 doenças pendentes em 6 lotes** (Lotes 1-13, Lote 14 (ORL A — Ouvido)
-e Lote 15 (ORL B — Nariz e garganta) todos concluídos, além das 211 já
-fichadas. **Oftalmologia, Neurologia, Hematologia, Nefrologia+Urologia e
-Psiquiatria fechadas por completo. Próxima prioridade: Lote 16 (ORL C —
-neoplasias de cabeça e pescoço, 7 itens), que fecha Otorrinolaringologia por
-completo, seguido dos Lotes 17-20 (Ginecologia/Obstetrícia completa) antes de
-retomar Dermatologia (Lote 21).**
+**Total: 63 doenças pendentes em 5 lotes** (Lotes 1-13 e Lotes 14-16
+(Otorrinolaringologia completa) todos concluídos, além das 218 já fichadas.
+**Oftalmologia, Neurologia, Hematologia, Nefrologia+Urologia, Psiquiatria e
+Otorrinolaringologia fechadas por completo. Próxima prioridade: Lote 17
+(GO A — Ginecologia benigna e inflamatória, 13 itens), seguido dos Lotes
+18-20 (Ginecologia/Obstetrícia restante) antes de retomar Dermatologia
+(Lote 21).**
 
 ---
 

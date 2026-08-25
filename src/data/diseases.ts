@@ -15655,4 +15655,521 @@ export const diseases: Disease[] = [
       { tema: "Torcicolo como achado característico e conduta na mediastinite descendente necrosante", fonte: "fonte pendente" },
     ],
   },
+  {
+    slug: "neoplasia-maligna-cavidade-oral",
+    nome: "Neoplasia maligna da cavidade oral",
+    sinonimos: ["Câncer de boca", "Carcinoma epidermoide de cavidade oral"],
+    cid10: "C00",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna que acomete lábio, língua, gengiva, assoalho da boca e palato, fortemente associada ao tabagismo e etilismo combinados, cujo sinal de alarme mais importante é a úlcera que não cicatriza.",
+    definicao:
+      "Neoplasia maligna originada mais comumente do epitélio escamoso que reveste os lábios, a língua (dois terços anteriores), a gengiva, o assoalho da boca e o palato duro, sendo o carcinoma epidermoide (espinocelular) o tipo histológico predominante.",
+    epidemiologia:
+      "O tabagismo e o etilismo são os principais fatores de risco, com efeito sinérgico marcante quando combinados (o risco combinado é muito superior à soma dos riscos individuais). A infecção pelo papilomavírus humano tem papel menos proeminente na cavidade oral que na orofaringe, onde é causa reconhecida de um subtipo distinto.",
+    fisiopatologia:
+      "A exposição crônica a carcinógenos do tabaco e ao efeito irritante/solvente do álcool sobre a mucosa oral promove acúmulo progressivo de alterações genéticas no epitélio escamoso, frequentemente precedido por lesões potencialmente malignas identificáveis (leucoplasia, eritroplasia), que evoluem através de displasia progressiva até a transformação carcinomatosa invasiva.",
+    classificacao:
+      "Classificada pela subsite anatômico específico (lábio, língua oral, gengiva, assoalho da boca, palato duro, mucosa jugal) e estadiada pelo sistema TNM, com o tamanho tumoral, a profundidade de invasão e a presença de metástase linfonodal cervical sendo os principais determinantes prognósticos.",
+    quadroClinico: [
+      "Úlcera ou lesão oral que não cicatriza após 2-3 semanas, achado de alarme mais importante e mais cobrado",
+      "Massa ou espessamento palpável na mucosa oral, por vezes indolor nas fases iniciais",
+      "Dor oral persistente, sangramento intraoral espontâneo e dificuldade de mastigação/deglutição em fases mais avançadas",
+      "Massa cervical palpável quando há metástase linfonodal já estabelecida ao diagnóstico",
+    ],
+    diagnostico: [
+      "Biópsia da lesão suspeita é o exame definidor, obrigatória diante de qualquer úlcera oral persistente além de 2-3 semanas sem causa identificável evidente",
+      "Exame completo da cavidade oral e palpação cervical bilateral para avaliação de linfadenopatia associada em toda avaliação",
+      "Tomografia computadorizada ou ressonância magnética de cabeça e pescoço para estadiamento locorregional após confirmação histológica",
+    ],
+    examesComplementares: [
+      "Biópsia incisional ou excisional da lesão suspeita, exame confirmatório e definidor do tipo histológico",
+      "Tomografia computadorizada de pescoço com contraste para avaliação de extensão local e presença de linfadenopatia cervical metastática",
+      "Tomografia de tórax para rastreamento de metástase pulmonar em casos de doença localmente avançada",
+    ],
+    diagnosticoDiferencial: [
+      "Lesões potencialmente malignas (leucoplasia, eritroplasia), que podem preceder o carcinoma invasivo e exigem biópsia para exclusão de malignidade já estabelecida",
+      "Úlcera aftosa recorrente e outras lesões orais benignas (geralmente cicatrizam em 1-2 semanas, ao contrário da lesão maligna persistente)",
+      "Infecções orais específicas (candidíase, herpes) quando a apresentação inicial é atípica",
+    ],
+    tratamento: [
+      "Ressecção cirúrgica com margens oncológicas adequadas é o tratamento primário na maioria dos casos localizados",
+      "Esvaziamento cervical (linfadenectomia) associado quando há evidência ou alto risco de metástase linfonodal cervical",
+      "Radioterapia adjuvante indicada conforme fatores de risco patológicos (margens comprometidas, invasão perineural, múltiplos linfonodos acometidos)",
+      "Quimioterapia associada à radioterapia (quimiorradioterapia) considerada em doença localmente avançada ou como tratamento definitivo em pacientes não candidatos à cirurgia",
+    ],
+    complicacoes: [
+      "Aguda: sangramento e infecção no pós-operatório de ressecções extensas",
+      "Crônica: comprometimento funcional significativo da fala, mastigação e deglutição após ressecções extensas, recidiva locorregional, metástase à distância (mais comumente pulmonar) em doença avançada",
+    ],
+    redFlags: [
+      "Úlcera ou lesão oral que não cicatriza após 2-3 semanas deve sempre ser biopsiada, independentemente da aparência inicial, dado o risco de malignidade subjacente",
+      "Massa cervical palpável em paciente com fatores de risco (tabagismo, etilismo) deve motivar busca ativa de um sítio primário na cavidade oral e demais regiões de cabeça e pescoço",
+    ],
+    prognostico:
+      "O prognóstico depende fortemente do estádio ao diagnóstico, com doença localizada tratada precocemente apresentando taxas de sobrevida significativamente melhores que a doença avançada com metástase linfonodal cervical já estabelecida, reforçando a importância do diagnóstico e encaminhamento precoces diante de lesões suspeitas.",
+    pontosDeProva: [
+      "O efeito sinérgico entre tabagismo e etilismo eleva o risco de câncer de cavidade oral muito além da soma dos riscos individuais — conceito central e frequentemente cobrado",
+      "Toda úlcera oral persistente além de 2-3 semanas exige biópsia, independentemente da aparência clínica inicial",
+      "A presença de metástase linfonodal cervical ao diagnóstico é o fator prognóstico mais importante, reforçando a relevância do diagnóstico precoce",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 58 anos, tabagista e etilista de longa data, apresenta úlcera na borda lateral da língua há 5 semanas, indolor, que não cicatrizou apesar de medidas de higiene oral.",
+      pergunta: "Qual a conduta diagnóstica obrigatória?",
+      raciocinio:
+        "Úlcera oral persistente além de 2-3 semanas em paciente com os principais fatores de risco combinados (tabagismo e etilismo) exige exclusão obrigatória de neoplasia maligna.",
+      conduta:
+        "Realizar biópsia da lesão com urgência; se confirmado carcinoma, complementar com tomografia de pescoço para estadiamento locorregional e planejamento do tratamento cirúrgico.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende de cirurgia, radioterapia e/ou quimioterapia, nenhum correspondendo a uma ficha de medicamento individual já documentada no site.",
+    fontes: [
+      { tema: "Fatores de risco (efeito sinérgico tabagismo-etilismo) e progressão de lesões potencialmente malignas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Importância prognóstica da metástase linfonodal cervical ao diagnóstico", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-glandulas-salivares",
+    nome: "Neoplasia maligna das glândulas salivares",
+    sinonimos: ["Câncer de parótida", "Carcinoma mucoepidermoide"],
+    cid10: "C07",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna mais comumente originada na glândula parótida, com o risco de malignidade sendo inversamente proporcional ao tamanho da glândula acometida, e a paralisia facial associada sendo sinal de alto risco.",
+    definicao:
+      "Neoplasia maligna originada mais comumente na glândula parótida (a maior das glândulas salivares maiores), seguida pela glândula submandibular e pelas glândulas salivares menores espalhadas pela mucosa oral e orofaríngea, com o carcinoma mucoepidermoide sendo o tipo histológico maligno mais comum.",
+    epidemiologia:
+      "Contraintuitivamente, a proporção de tumores malignos entre todas as massas de glândula salivar é inversamente proporcional ao tamanho da glândula: a maioria das massas parotídeas (a maior glândula) é benigna, enquanto uma proporção maior das massas em glândulas salivares menores (as menores estruturas) é maligna.",
+    fisiopatologia:
+      "Alterações genéticas adquiridas nas células dos ductos ou acinos glandulares salivares levam à proliferação neoplásica descontrolada; a proximidade anatômica do nervo facial ao seu trajeto intraparotídeo confere significado clínico especial aos tumores malignos dessa glândula, dado o risco de invasão direta do nervo em tumores agressivos.",
+    classificacao:
+      "Classificada histologicamente (carcinoma mucoepidermoide, o tipo maligno mais comum; carcinoma adenoide cístico, notável pela tendência à invasão perineural e recidiva tardia mesmo anos após o tratamento; entre outros subtipos) e pela glândula de origem (parótida, submandibular, sublingual, glândulas salivares menores).",
+    quadroClinico: [
+      "Massa indolor de crescimento lento na região da glândula acometida, achado de apresentação mais comum",
+      "Crescimento rápido, dor associada, ou fixação da massa a estruturas adjacentes sugerem malignidade em vez de tumor benigno",
+      "Paralisia facial associada a massa parotídea é sinal de alto risco, sugerindo invasão direta do nervo facial pelo tumor maligno",
+      "Trismo em casos de invasão da musculatura pterigóidea adjacente em tumores localmente avançados",
+    ],
+    diagnostico: [
+      "Punção aspirativa por agulha fina é o exame inicial de escolha para caracterização citológica da massa antes de qualquer intervenção cirúrgica",
+      "Ressonância magnética é o exame de imagem de escolha para delimitar a extensão da massa e sua relação com estruturas adjacentes, incluindo o trajeto do nervo facial",
+      "Biópsia excisional completa (não apenas incisional, pelo risco de disseminação tumoral ao longo do trajeto de biópsia) reservada a casos de dúvida diagnóstica persistente após punção aspirativa",
+    ],
+    examesComplementares: [
+      "Punção aspirativa por agulha fina, exame inicial de escolha, com boa acurácia para distinguir lesão benigna de maligna e orientar o planejamento cirúrgico",
+      "Ressonância magnética de glândulas salivares para avaliação detalhada da extensão tumoral e relação com o nervo facial na parótida",
+    ],
+    diagnosticoDiferencial: [
+      "Adenoma pleomórfico e outros tumores benignos de glândula salivar (a causa mais comum de massa parotídea, distinguida por crescimento lento, ausência de dor e de paralisia facial)",
+      "Linfadenopatia intraparotídea reativa ou neoplásica (distinguida por características de imagem e punção aspirativa)",
+      "Cisto de glândula salivar ou sialoadenite crônica (contexto clínico e características de imagem distintas)",
+    ],
+    tratamento: [
+      "Ressecção cirúrgica é o tratamento primário na maioria dos casos, com a extensão da cirurgia (parotidectomia parcial vs. total, com ou sem preservação do nervo facial) determinada pela extensão e agressividade do tumor",
+      "Preservação do nervo facial é priorizada sempre que oncologicamente segura, dado seu impacto funcional e estético significativo",
+      "Radioterapia adjuvante indicada em tumores de alto grau, margens comprometidas, invasão perineural ou metástase linfonodal cervical",
+    ],
+    complicacoes: [
+      "Aguda: paralisia facial temporária ou permanente após cirurgia, mesmo quando o nervo é preservado anatomicamente",
+      "Crônica: síndrome de Frey (sudorese facial gustatória, por regeneração aberrante de fibras nervosas parassimpáticas após cirurgia), recidiva local tardia característica do carcinoma adenoide cístico mesmo anos após o tratamento inicial",
+    ],
+    redFlags: [
+      "Paralisia facial associada a massa de glândula salivar é sinal de alto risco para malignidade com invasão do nervo facial, achado que nunca ocorre em tumores benignos e exige investigação e tratamento oncológico prioritários",
+      "Crescimento rápido ou dor associada a massa de glândula salivar previamente estável e indolor sugerem transformação maligna ou tumor maligno de novo",
+    ],
+    prognostico:
+      "O prognóstico varia amplamente conforme o tipo histológico e o estádio: tumores de baixo grau localizados têm excelente prognóstico após ressecção completa, enquanto o carcinoma adenoide cístico, apesar de crescimento geralmente lento, tem tendência characterísitca à recidiva local tardia e metástase à distância mesmo décadas após o tratamento inicial, exigindo acompanhamento muito prolongado.",
+    pontosDeProva: [
+      "O risco de malignidade é inversamente proporcional ao tamanho da glândula salivar acometida — a maioria dos tumores de parótida é benigna, mas a maioria dos tumores de glândulas salivares menores é maligna, relação contraintuitiva e frequentemente cobrada",
+      "A paralisia facial associada a massa parotídea é sinal patognomônico de malignidade com invasão do nervo, nunca ocorrendo em tumores benignos",
+      "O carcinoma adenoide cístico tem tendência característica à invasão perineural e à recidiva tardia, exigindo acompanhamento prolongado mesmo após tratamento aparentemente bem-sucedido",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 52 anos, apresenta massa na região parotídea direita com crescimento progressivo nos últimos 3 meses, associada a fraqueza da hemiface direita de início recente.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "A associação de massa parotídea de crescimento progressivo com paralisia facial ipsilateral é sinal de alto risco para neoplasia maligna com invasão do nervo facial, achado que nunca ocorre em tumores benignos.",
+      conduta:
+        "Solicitar punção aspirativa por agulha fina e ressonância magnética para caracterização da massa e avaliação da extensão; encaminhar para avaliação cirúrgica oncológica com urgência dado o sinal de alto risco identificado.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é cirúrgico, com radioterapia adjuvante em casos selecionados; não há tratamento medicamentoso de primeira linha documentado no site para esta neoplasia.",
+    fontes: [
+      { tema: "Relação inversa entre tamanho glandular e risco de malignidade, e significado da paralisia facial", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Comportamento característico do carcinoma adenoide cístico (invasão perineural, recidiva tardia)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-orofaringe-tonsila",
+    nome: "Neoplasia maligna da orofaringe e tonsila",
+    sinonimos: ["Câncer de orofaringe", "Câncer de amígdala"],
+    cid10: "C09",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna da orofaringe (incluindo a tonsila palatina), com incidência crescente nas últimas décadas atribuída à infecção pelo papilomavírus humano, subtipo com perfil epidemiológico e prognóstico distintos do câncer relacionado ao tabaco/álcool.",
+    definicao:
+      "Neoplasia maligna originada na orofaringe, região que inclui a base da língua, a tonsila palatina, o palato mole e a parede posterior da faringe, sendo o carcinoma epidermoide o tipo histológico predominante, hoje reconhecido em duas categorias etiológicas distintas.",
+    epidemiologia:
+      "Historicamente associada a tabagismo e etilismo (padrão semelhante ao câncer de cavidade oral), mas com incidência crescente nas últimas décadas de uma forma distinta associada à infecção pelo papilomavírus humano (sobretudo o subtipo 16), tipicamente acometendo homens mais jovens, muitas vezes sem os fatores de risco clássicos de tabagismo/etilismo.",
+    fisiopatologia:
+      "Na forma associada ao tabagismo/etilismo, o mecanismo carcinogênico é análogo ao do câncer de cavidade oral, por acúmulo de alterações genéticas induzidas pelos carcinógenos. Na forma associada ao papilomavírus humano, as oncoproteínas virais E6 e E7 inativam as proteínas supressoras tumorais p53 e Rb, respectivamente, promovendo proliferação celular descontrolada por uma via molecular distinta, o que confere a esse subtipo comportamento biológico e resposta terapêutica diferentes, geralmente mais favoráveis.",
+    classificacao:
+      "Classificada quanto ao status do papilomavírus humano (positivo, com prognóstico geralmente mais favorável mesmo em estádios avançados, ou negativo, associado ao padrão clássico de tabagismo/etilismo), distinção incorporada ao sistema de estadiamento TNM mais recente pela sua forte implicação prognóstica.",
+    quadroClinico: [
+      "Massa cervical assintomática é frequentemente a primeira manifestação, sobretudo na forma associada ao papilomavírus humano, refletindo metástase linfonodal precoce mesmo com tumor primário pequeno e pouco sintomático",
+      "Odinofagia, otalgia referida (via nervo glossofaríngeo) e sensação de corpo estranho na garganta",
+      "Disfagia progressiva em tumores mais volumosos",
+      "Trismo em casos de invasão da musculatura pterigóidea adjacente",
+    ],
+    diagnostico: [
+      "Exame físico da orofaringe e palpação cervical cuidadosa em todo paciente com massa cervical inexplicada, sobretudo em homens de meia-idade",
+      "Biópsia da lesão primária (quando visível) ou biópsia de linfonodo cervical quando o tumor primário não é evidente ao exame inicial",
+      "Teste de p16 (marcador substituto para infecção pelo papilomavírus humano de alto risco) realizado rotineiramente no tecido tumoral, com forte implicação prognóstica e no estadiamento",
+    ],
+    examesComplementares: [
+      "Biópsia com determinação do status de p16/papilomavírus humano, exame que orienta tanto o estadiamento quanto o prognóstico esperado",
+      "Tomografia computadorizada ou ressonância magnética de cabeça e pescoço para avaliação da extensão local e linfonodal",
+      "PET-CT para avaliação de doença primária oculta (quando há metástase cervical sem sítio primário evidente) e para estadiamento de doença à distância",
+    ],
+    diagnosticoDiferencial: [
+      "Linfadenopatia cervical reativa por infecção (contexto clínico agudo, geralmente autolimitado, distinto da massa persistente da neoplasia)",
+      "Linfoma (biópsia excisional do linfonodo, quando indicada, distingue pelo perfil imuno-histoquímico)",
+      "Outras neoplasias primárias de cabeça e pescoço com metástase cervical (investigação sistemática de todos os sítios possíveis quando o primário não é evidente)",
+    ],
+    tratamento: [
+      "Quimiorradioterapia definitiva é frequentemente o tratamento primário, sobretudo em tumores da base da língua e da tonsila, preservando a função de deglutição e fala em comparação à cirurgia extensa",
+      "Ressecção cirúrgica (incluindo técnicas minimamente invasivas transorais) é alternativa em casos selecionados, sobretudo tumores menores e mais acessíveis",
+      "Esvaziamento cervical associado quando há metástase linfonodal significativa não completamente respondida ao tratamento primário",
+      "Estratégias de desintensificação do tratamento estão sendo investigadas especificamente para tumores associados ao papilomavírus humano, dado seu prognóstico mais favorável, buscando reduzir a toxicidade sem comprometer o controle oncológico",
+    ],
+    complicacoes: [
+      "Aguda: mucosite e disfagia significativas durante a quimiorradioterapia, exigindo suporte nutricional em muitos casos",
+      "Crônica: xerostomia (boca seca) permanente por lesão das glândulas salivares pela radioterapia, disfagia crônica, fibrose cervical",
+    ],
+    redFlags: [
+      "Massa cervical persistente e indolor em adulto, sobretudo homem de meia-idade, deve sempre motivar investigação de neoplasia de cabeça e pescoço com exame cuidadoso da orofaringe, mesmo na ausência de fatores de risco clássicos de tabagismo/etilismo",
+    ],
+    prognostico:
+      "O prognóstico é significativamente melhor na doença associada ao papilomavírus humano em comparação à forma clássica associada a tabagismo/etilismo, mesmo em estádios locorregionalmente avançados, refletindo diferenças biológicas fundamentais entre os dois subtipos.",
+    pontosDeProva: [
+      "A incidência crescente de câncer de orofaringe associado ao papilomavírus humano, tipicamente em homens mais jovens sem os fatores de risco clássicos, é mudança epidemiológica importante e frequentemente cobrada",
+      "O status de p16/papilomavírus humano é o fator prognóstico mais importante nesta neoplasia, superando até mesmo o estadiamento TNM tradicional isoladamente",
+      "Massa cervical assintomática como primeira manifestação, mesmo com tumor primário pequeno, é característica da forma associada ao papilomavírus humano, refletindo seu comportamento metastático linfonodal precoce",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 48 anos, não tabagista e sem etilismo significativo, procura atendimento por massa cervical indolor de crescimento progressivo há 2 meses, sem outros sintomas.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a investigação apropriada?",
+      raciocinio:
+        "Massa cervical persistente e indolor em homem de meia-idade, mesmo sem os fatores de risco clássicos, deve levantar suspeita de neoplasia de orofaringe associada ao papilomavírus humano, cujo perfil epidemiológico difere do câncer de cabeça e pescoço clássico.",
+      conduta:
+        "Realizar exame cuidadoso da orofaringe (incluindo palpação da base da língua e das tonsilas) e biópsia de qualquer lesão identificada, ou do linfonodo cervical se o primário não for evidente; determinar o status de p16 no tecido obtido.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é quimiorradioterapia ou cirurgia, sem um medicamento específico documentado no site para esta neoplasia.",
+    fontes: [
+      { tema: "Epidemiologia e fisiopatologia distintas dos subtipos associado ao HPV vs. tabagismo/etilismo", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Status de p16 como fator prognóstico e estratégias de desintensificação terapêutica", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-nasofaringe",
+    nome: "Neoplasia maligna da nasofaringe",
+    sinonimos: ["Câncer de nasofaringe", "Carcinoma de nasofaringe"],
+    cid10: "C11",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna com distribuição geográfica marcadamente desigual e forte associação com o vírus Epstein-Barr, frequentemente diagnosticada em estádio avançado por sua localização anatômica de difícil acesso e sintomas iniciais inespecíficos.",
+    definicao:
+      "Neoplasia maligna originada no epitélio que reveste a nasofaringe, região anatômica de acesso limitado ao exame físico direto, com o carcinoma indiferenciado (também chamado de tipo III da Organização Mundial da Saúde) sendo o subtipo histológico predominante nas regiões de alta incidência.",
+    epidemiologia:
+      "Apresenta distribuição geográfica marcadamente desigual, com incidência muito mais elevada no sul da China e no sudeste asiático que na maior parte do mundo ocidental, refletindo uma combinação de fatores genéticos populacionais, dietéticos (consumo de peixe salgado processado) e, fundamentalmente, a infecção pelo vírus Epstein-Barr, praticamente universal nos casos das regiões de alta incidência.",
+    fisiopatologia:
+      "O vírus Epstein-Barr estabelece infecção latente nas células epiteliais nasofaríngeas, com suas proteínas latentes contribuindo para a transformação neoplásica ao longo do tempo, em interação com fatores genéticos de suscetibilidade populacional e exposições dietéticas/ambientais específicas. A localização anatômica profunda e de difícil visualização direta da nasofaringe frequentemente atrasa o diagnóstico até que o tumor já tenha se disseminado para linfonodos cervicais ou invadido estruturas adjacentes.",
+    classificacao:
+      "Classificada histologicamente pela Organização Mundial da Saúde em carcinoma de células escamosas queratinizante (tipo I, menos associado ao vírus Epstein-Barr), não queratinizante diferenciado (tipo II) e não queratinizante indiferenciado (tipo III, o mais comum nas regiões de alta incidência e fortemente associado ao vírus Epstein-Barr).",
+    quadroClinico: [
+      "Massa cervical assintomática, frequentemente a manifestação inicial mais comum, refletindo o rico suprimento linfático da nasofaringe e a tendência a metástase linfonodal precoce",
+      "Obstrução nasal unilateral e epistaxe recorrente, sintomas locais que podem ser sutis nas fases iniciais",
+      "Otite média serosa unilateral persistente em adulto (por obstrução tumoral da tuba auditiva na nasofaringe), achado que deve sempre motivar exame cuidadoso dessa região",
+      "Sintomas neurológicos (diplopia, neuralgia do trigêmeo) em casos de invasão da base do crânio e comprometimento de nervos cranianos, refletindo doença localmente avançada",
+    ],
+    diagnostico: [
+      "Nasofibroscopia com biópsia da lesão é o exame central para confirmação diagnóstica",
+      "Sorologia para o vírus Epstein-Barr (anticorpos IgA anti-antígeno da cápsula viral) e carga viral de DNA do vírus Epstein-Barr no plasma auxiliam no diagnóstico e na monitorização da resposta ao tratamento e detecção precoce de recidiva",
+      "Ressonância magnética de nasofaringe e base do crânio é o exame de escolha para avaliar extensão local, incluindo possível invasão da base do crânio",
+    ],
+    examesComplementares: [
+      "Nasofibroscopia com biópsia, exame confirmatório e definidor do subtipo histológico",
+      "Carga viral de DNA do vírus Epstein-Barr no plasma, biomarcador útil tanto ao diagnóstico quanto para monitorização longitudinal da resposta terapêutica e detecção de recidiva",
+      "Ressonância magnética de nasofaringe e base do crânio para avaliação detalhada da extensão local, incluindo estruturas neurais adjacentes",
+    ],
+    diagnosticoDiferencial: [
+      "Hipertrofia adenoideana benigna (mais comum em crianças, sem os sinais de alarme de sangramento ou invasão estrutural)",
+      "Linfoma de nasofaringe (distinguido por biópsia e perfil imuno-histoquímico)",
+      "Outras causas de otite média serosa unilateral persistente em adulto, sempre exigindo exclusão de massa nasofaríngea antes de serem atribuídas a causas benignas",
+    ],
+    tratamento: [
+      "Radioterapia é o tratamento primário e central para a maioria dos casos, dada a localização anatômica de difícil acesso cirúrgico e a alta radiossensibilidade do carcinoma indiferenciado",
+      "Quimioterapia concomitante à radioterapia (quimiorradioterapia) é acrescentada em doença localmente avançada, com benefício estabelecido de sobrevida",
+      "Quimioterapia de indução antes da quimiorradioterapia é considerada em casos selecionados de doença avançada",
+      "Cirurgia tem papel limitado, reservada principalmente ao tratamento de doença residual/recidivada em linfonodos cervicais após radioterapia",
+    ],
+    complicacoes: [
+      "Aguda: mucosite intensa durante a radioterapia, dada a proximidade de múltiplas estruturas sensíveis",
+      "Crônica: xerostomia permanente, hipopituitarismo por radiação da base do crânio, paralisia de nervos cranianos por invasão tumoral ou sequela de tratamento, otite média serosa crônica",
+    ],
+    redFlags: [
+      "Otite média serosa unilateral persistente em adulto, sobretudo em população de risco (ascendência asiática), deve sempre motivar exame da nasofaringe para excluir massa obstrutiva, incluindo neoplasia",
+      "Sintomas neurológicos (diplopia, neuralgia facial) associados a massa nasofaríngea sugerem invasão da base do crânio, indicando doença localmente avançada que exige avaliação de imagem detalhada urgente",
+    ],
+    prognostico:
+      "O carcinoma indiferenciado de nasofaringe é altamente radiossensível, com boas taxas de controle locorregional mesmo em doença avançada quando tratado com quimiorradioterapia adequada; a carga viral de DNA do vírus Epstein-Barr no plasma é útil para monitorização prognóstica e detecção precoce de recidiva.",
+    pontosDeProva: [
+      "A distribuição geográfica marcadamente desigual (alta incidência no sul da China e sudeste asiático) e a associação quase universal com o vírus Epstein-Barr nessas regiões são achados epidemiológicos centrais e frequentemente cobrados",
+      "Otite média serosa unilateral persistente em adulto é sinal de alarme clássico que exige exame da nasofaringe para excluir massa obstrutiva",
+      "A radioterapia, não a cirurgia, é o tratamento primário central, dada a alta radiossensibilidade do tumor e a localização anatômica de difícil acesso cirúrgico",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 45 anos, de ascendência asiática, apresenta massa cervical indolor há 2 meses, associada a obstrução nasal unilateral direita e otite média serosa persistente do mesmo lado.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a investigação apropriada?",
+      raciocinio:
+        "A combinação de massa cervical, obstrução nasal unilateral e otite média serosa unilateral persistente em paciente de população de risco é altamente sugestiva de neoplasia maligna de nasofaringe.",
+      conduta:
+        "Realizar nasofibroscopia com biópsia da nasofaringe para confirmação diagnóstica; solicitar sorologia e carga viral do vírus Epstein-Barr, e ressonância magnética de nasofaringe e base do crânio para estadiamento local.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é radioterapia associada a quimioterapia em doença avançada; não há tratamento medicamentoso específico documentado no site para esta neoplasia.",
+    fontes: [
+      { tema: "Distribuição geográfica, associação com vírus Epstein-Barr e classificação histológica da OMS", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Carga viral de DNA do EBV como biomarcador prognóstico e radioterapia como tratamento primário", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-hipofaringe",
+    nome: "Neoplasia maligna da hipofaringe",
+    sinonimos: ["Câncer de hipofaringe", "Câncer de seio piriforme"],
+    cid10: "C12",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna da porção mais inferior da faringe, frequentemente diagnosticada em estádio avançado pela ausência de sintomas específicos nas fases iniciais, com o pior prognóstico entre as neoplasias malignas de cabeça e pescoço.",
+    definicao:
+      "Neoplasia maligna originada na hipofaringe, segmento da faringe situado entre a orofaringe e o esôfago, compreendendo o seio piriforme (sítio mais comum), a parede posterior da hipofaringe e a região pós-cricoide, com o carcinoma epidermoide sendo o tipo histológico predominante.",
+    epidemiologia:
+      "Fortemente associada a tabagismo e etilismo intensos e prolongados, com perfil de risco semelhante ao câncer de laringe e cavidade oral; a síndrome de Plummer-Vinson (associação de disfagia, anemia ferropriva e membranas esofágicas) é fator de risco específico e classicamente associado ao carcinoma da região pós-cricoide, sobretudo em mulheres.",
+    fisiopatologia:
+      "A exposição crônica a carcinógenos do tabaco e do álcool promove transformação neoplásica progressiva do epitélio escamoso hipofaríngeo; a ausência de sintomas específicos nas fases iniciais (a hipofaringe tem capacidade funcional de reserva significativa antes que sintomas obstrutivos se manifestem) contribui para o diagnóstico frequentemente tardio, com doença já avançada e metástase linfonodal cervical extensa e bilateral estabelecida ao diagnóstico na maioria dos casos.",
+    classificacao:
+      "Classificada pelo subsite anatômico específico (seio piriforme, o mais comum; parede posterior; região pós-cricoide, esta última associada à síndrome de Plummer-Vinson) e estadiada pelo sistema TNM, com a extensão frequentemente avançada ao diagnóstico sendo característica marcante desta neoplasia.",
+    quadroClinico: [
+      "Disfagia progressiva, sintoma mais comum, porém frequentemente tardio dada a capacidade funcional de reserva da região",
+      "Odinofagia e otalgia referida (via nervo vago), sintomas inespecíficos que podem ser inicialmente atribuídos a outras causas",
+      "Massa cervical, frequentemente bilateral, é comum já ao diagnóstico, refletindo a rica drenagem linfática da região e o diagnóstico tipicamente tardio",
+      "Rouquidão em casos de invasão da laringe adjacente, e perda de peso significativa associada à disfagia prolongada",
+    ],
+    diagnostico: [
+      "Nasofibroscopia/laringoscopia com biópsia da lesão é o exame central para confirmação diagnóstica",
+      "Tomografia computadorizada ou ressonância magnética de pescoço para avaliação da extensão local e linfonodal, frequentemente já extensa ao diagnóstico",
+      "Endoscopia digestiva alta associada para avaliação do esôfago, dado o risco aumentado de segundo tumor primário sincrônico no trato aerodigestivo superior nesses pacientes",
+    ],
+    examesComplementares: [
+      "Nasofibroscopia/laringoscopia com biópsia, exame confirmatório da lesão hipofaríngea",
+      "Tomografia computadorizada de pescoço e tórax para estadiamento locorregional e rastreamento de metástase pulmonar, frequente dado o estádio avançado habitual ao diagnóstico",
+    ],
+    diagnosticoDiferencial: [
+      "Neoplasia laríngea com extensão à hipofaringe (distinção que pode ser desafiadora em tumores volumosos que acometem ambas as regiões)",
+      "Divertículo de Zenker e outras causas benignas de disfagia (contexto clínico e achados de imagem distintos)",
+      "Estenose esofágica cervical (avaliada por endoscopia digestiva)",
+    ],
+    tratamento: [
+      "Quimiorradioterapia definitiva é frequentemente preferida como estratégia de preservação de órgão, evitando a laringectomia total em casos selecionados",
+      "Laringofaringectomia (remoção da laringe e da hipofaringe) associada a esvaziamento cervical é indicada em doença muito avançada ou refratária ao tratamento não cirúrgico, exigindo reconstrução e traqueostomia definitiva",
+      "Esvaziamento cervical bilateral frequentemente necessário dada a alta frequência de metástase linfonodal bilateral ao diagnóstico",
+    ],
+    complicacoes: [
+      "Aguda: obstrução da via aérea ou disfagia grave exigindo suporte nutricional (gastrostomia) durante o tratamento",
+      "Crônica: disfagia permanente, perda da fala laríngea normal após laringofaringectomia (exigindo reabilitação vocal alternativa), recidiva locorregional frequente dado o estádio avançado habitual ao diagnóstico",
+    ],
+    redFlags: [
+      "Disfagia progressiva associada a perda de peso significativa em paciente tabagista/etilista deve motivar investigação endoscópica urgente para excluir neoplasia hipofaríngea, mesmo na ausência de outros sintomas específicos",
+      "Massa cervical bilateral ao diagnóstico é achado comum nesta neoplasia e reflete doença já avançada, não devendo ser interpretada como achado incidental benigno",
+    ],
+    prognostico:
+      "Tem o pior prognóstico entre as neoplasias malignas de cabeça e pescoço, refletindo o diagnóstico tipicamente tardio em estádio avançado com metástase linfonodal extensa, frequentemente bilateral, já estabelecida ao diagnóstico.",
+    pontosDeProva: [
+      "O câncer de hipofaringe tem o pior prognóstico entre as neoplasias malignas de cabeça e pescoço, pela combinação de diagnóstico tardio e alta frequência de metástase linfonodal bilateral já ao diagnóstico",
+      "A síndrome de Plummer-Vinson (disfagia, anemia ferropriva, membranas esofágicas) é fator de risco específico e classicamente associado ao carcinoma pós-cricoide, sobretudo em mulheres",
+      "O risco de segundo tumor primário sincrônico no trato aerodigestivo superior justifica a investigação endoscópica completa (incluindo esôfago) em todo paciente diagnosticado",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 62 anos, tabagista e etilista intensos, apresenta disfagia progressiva e perda de 8 kg nos últimos 3 meses, associada a massa cervical bilateral palpável.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "Disfagia progressiva com perda de peso significativa e massa cervical bilateral em paciente tabagista/etilista intenso é altamente sugestiva de neoplasia hipofaríngea em estádio avançado, apresentação característica desta neoplasia.",
+      conduta:
+        "Realizar nasofibroscopia/laringoscopia com biópsia para confirmação diagnóstica, complementada por tomografia de pescoço e tórax para estadiamento; encaminhar para avaliação de quimiorradioterapia definitiva como estratégia de preservação de órgão.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é quimiorradioterapia ou cirurgia radical (laringofaringectomia), sem um medicamento específico documentado no site para esta neoplasia.",
+    fontes: [
+      { tema: "Fatores de risco (tabagismo, etilismo, síndrome de Plummer-Vinson) e diagnóstico tipicamente tardio", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Pior prognóstico entre as neoplasias de cabeça e pescoço e risco de segundo tumor primário sincrônico", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-nasossinusal",
+    nome: "Neoplasia maligna nasossinusal (cavidade nasal e seios paranasais)",
+    sinonimos: ["Câncer nasossinusal", "Câncer de seio etmoidal"],
+    cid10: "C30",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna rara originada na cavidade nasal ou nos seios paranasais, associada a exposições ocupacionais específicas, cujos sintomas iniciais são facilmente confundidos com sinusite crônica benigna, retardando o diagnóstico.",
+    definicao:
+      "Neoplasia maligna originada na cavidade nasal ou em um dos seios paranasais (mais comumente o seio maxilar), com o carcinoma epidermoide sendo o tipo histológico mais comum, embora adenocarcinomas e outros subtipos histológicos também ocorram, alguns deles com associações ocupacionais específicas bem estabelecidas.",
+    epidemiologia:
+      "É uma neoplasia relativamente rara entre os tumores de cabeça e pescoço, com associações ocupacionais bem documentadas: exposição à poeira de madeira (trabalhadores de marcenaria e mobiliário) é fator de risco específico e bem estabelecido para o adenocarcinoma da cavidade nasal e do seio etmoidal, enquanto a exposição a compostos de níquel está associada a maior risco de carcinoma epidermoide nasossinusal.",
+    fisiopatologia:
+      "A exposição crônica e prolongada a carcinógenos ocupacionais específicos (poeira de madeira, compostos de níquel, entre outros) promove transformação neoplásica progressiva do epitélio que reveste a cavidade nasal e os seios paranasais; a localização anatômica profunda e a similaridade inicial dos sintomas com condições inflamatórias benignas comuns (sinusite crônica) frequentemente atrasam o reconhecimento e o diagnóstico até que a doença já tenha se tornado localmente avançada, com potencial invasão de estruturas críticas adjacentes (órbita, base do crânio anterior).",
+    classificacao:
+      "Classificada pelo subsítio de origem (cavidade nasal, seio maxilar — o mais comum entre os seios —, seio etmoidal, entre outros mais raros) e histologicamente (carcinoma epidermoide, adenocarcinoma — este associado à exposição à poeira de madeira —, estesioneuroblastoma — tumor neuroendócrino originado do epitélio olfatório, entidade distinta e rara desta região).",
+    quadroClinico: [
+      "Obstrução nasal unilateral persistente e epistaxe recorrente, sintomas que se sobrepõem inicialmente aos de sinusite crônica benigna, contribuindo para o atraso diagnóstico",
+      "Dor facial ou dentária persistente, por vezes atribuída inicialmente a causa odontogênica",
+      "Proptose, diplopia ou outros sintomas orbitários em casos de invasão da órbita adjacente, indicando doença localmente avançada",
+      "Massa facial visível ou palpável e anestesia facial (por invasão do nervo infraorbitário) em estádios mais avançados",
+    ],
+    diagnostico: [
+      "Nasofibroscopia com biópsia da lesão é o exame central para confirmação diagnóstica",
+      "Investigação de história ocupacional detalhada (exposição a poeira de madeira, compostos de níquel) é etapa relevante da anamnese",
+      "Tomografia computadorizada e ressonância magnética de seios paranasais são complementares e essenciais para avaliar extensão local, incluindo possível invasão orbitária ou da base do crânio anterior",
+    ],
+    examesComplementares: [
+      "Nasofibroscopia com biópsia, exame confirmatório e definidor do tipo histológico",
+      "Tomografia computadorizada (melhor para avaliação óssea) e ressonância magnética (melhor para avaliação de partes moles e extensão intracraniana/orbitária) de seios paranasais, exames complementares essenciais para o estadiamento",
+    ],
+    diagnosticoDiferencial: [
+      "Sinusite crônica benigna (a principal armadilha diagnóstica, dada a sobreposição inicial de sintomas; persistência ou assimetria dos sintomas deve motivar investigação adicional)",
+      "Pólipo nasal (geralmente bilateral, distinto da apresentação tipicamente unilateral da neoplasia)",
+      "Papiloma invertido (lesão benigna localmente agressiva com potencial de malignização, unilateral, exigindo biópsia para diferenciação)",
+    ],
+    tratamento: [
+      "Ressecção cirúrgica é o tratamento primário na maioria dos casos, com a abordagem (endoscópica ou aberta, conforme a extensão) determinada pela localização e extensão tumoral",
+      "Radioterapia adjuvante indicada conforme fatores de risco patológicos (margens comprometidas, invasão perineural, tipo histológico de alto grau)",
+      "Abordagem multidisciplinar (craniofacial, quando há extensão à base do crânio anterior) necessária em casos de doença localmente avançada",
+    ],
+    complicacoes: [
+      "Aguda: sangramento significativo em ressecções extensas com envolvimento de estruturas vasculares adjacentes",
+      "Crônica: comprometimento visual permanente por invasão orbitária, fístula liquórica em casos de ressecção com extensão à base do crânio anterior, recidiva local dada a proximidade com estruturas críticas que limitam margens cirúrgicas amplas",
+    ],
+    redFlags: [
+      "Obstrução nasal unilateral persistente ou assimétrica, associada a epistaxe recorrente, deve sempre motivar investigação para excluir neoplasia nasossinusal, sobretudo quando não responde ao tratamento habitual de sinusite",
+      "Sintomas orbitários (proptose, diplopia) associados a sintomas nasossinusais indicam doença localmente avançada com invasão orbitária, exigindo avaliação de imagem urgente",
+    ],
+    prognostico:
+      "O prognóstico depende fortemente da extensão ao diagnóstico e da proximidade a estruturas críticas (órbita, base do crânio), que frequentemente limitam a extensão da ressecção cirúrgica possível; o diagnóstico tardio, comum dada a sobreposição inicial de sintomas com sinusite benigna, contribui para um prognóstico geralmente mais reservado que outras neoplasias de cabeça e pescoço em estádio equivalente.",
+    pontosDeProva: [
+      "A exposição ocupacional à poeira de madeira é fator de risco específico e classicamente associado ao adenocarcinoma da cavidade nasal e do seio etmoidal, associação frequentemente cobrada",
+      "A sobreposição inicial de sintomas com sinusite crônica benigna é a principal razão para o diagnóstico tardio desta neoplasia, reforçando a importância de investigar assimetria ou persistência atípica dos sintomas",
+      "O estesioneuroblastoma é um tumor neuroendócrino raro e distinto originado do epitélio olfatório na cavidade nasal superior, com comportamento biológico próprio",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 55 anos, marceneiro há 25 anos, apresenta obstrução nasal unilateral direita persistente e episódios recorrentes de epistaxe há 4 meses, sem resposta a tratamento para sinusite.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "Obstrução nasal unilateral persistente com epistaxe recorrente, refratária a tratamento habitual, em trabalhador com exposição ocupacional prolongada à poeira de madeira, deve levantar forte suspeita de neoplasia nasossinusal, sobretudo adenocarcinoma.",
+      conduta:
+        "Realizar nasofibroscopia com biópsia da lesão para confirmação diagnóstica, complementada por tomografia computadorizada e ressonância magnética de seios paranasais para avaliar extensão local antes do planejamento cirúrgico.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é cirúrgico, com radioterapia adjuvante em casos selecionados; não há tratamento medicamentoso específico documentado no site para esta neoplasia.",
+    fontes: [
+      { tema: "Associações ocupacionais específicas (poeira de madeira, compostos de níquel) e classificação histológica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Sobreposição de sintomas com sinusite benigna e diagnóstico tipicamente tardio", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-laringe",
+    nome: "Neoplasia maligna da laringe",
+    sinonimos: ["Câncer de laringe", "Câncer de glote"],
+    cid10: "C32",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna de cabeça e pescoço mais comum, fortemente associada ao tabagismo, cujo sintoma cardinal (rouquidão persistente) permite diagnóstico precoce quando a lesão está na glote, região com excelente prognóstico se tratada a tempo.",
+    definicao:
+      "Neoplasia maligna originada no epitélio escamoso da laringe, mais comumente na região glótica (pregas vocais), sendo o carcinoma epidermoide o tipo histológico predominante, fortemente relacionado à exposição ao tabaco.",
+    epidemiologia:
+      "É a neoplasia maligna mais comum entre os tumores de cabeça e pescoço, com forte predomínio no sexo masculino e associação causal robusta e bem estabelecida com o tabagismo, com o etilismo atuando como fator de risco sinérgico adicional.",
+    fisiopatologia:
+      "A exposição crônica a carcinógenos do tabaco sobre o epitélio laríngeo promove acúmulo progressivo de alterações genéticas, frequentemente precedido por lesões potencialmente malignas identificáveis (leucoplasia, displasia) nas pregas vocais antes da transformação em carcinoma invasivo. A localização glótica tem a vantagem diagnóstica de causar rouquidão precocemente, mesmo com lesões muito pequenas, dada a importância funcional das pregas vocais para a fonação normal.",
+    classificacao:
+      "Classificada pela localização anatômica: supraglótica (acima das pregas vocais, tendendo a se manifestar mais tardiamente com sintomas menos específicos e maior tendência a metástase linfonodal precoce, dada a rica drenagem linfática dessa região), glótica (a mais comum, com excelente chance de diagnóstico precoce pela rouquidão precoce e drenagem linfática mais pobre, associada a menor risco de metástase linfonodal precoce) e subglótica (a mais rara).",
+    quadroClinico: [
+      "Rouquidão persistente e progressiva é o sintoma cardinal, sobretudo nos tumores glóticos, onde surge precocemente mesmo com lesões pequenas",
+      "Disfagia, odinofagia e otalgia referida em tumores supraglóticos, frequentemente diagnosticados mais tardiamente pela ausência de sintomas vocais precoces",
+      "Estridor e dificuldade respiratória em tumores volumosos que obstruem significativamente a via aérea",
+      "Massa cervical palpável, mais comum em tumores supraglóticos pela maior tendência a metástase linfonodal precoce em comparação aos tumores glóticos",
+    ],
+    diagnostico: [
+      "Laringoscopia com biópsia da lesão é o exame central e obrigatório diante de rouquidão persistente além de três semanas, sobretudo em tabagistas",
+      "Videoestroboscopia auxilia na avaliação detalhada da mobilidade das pregas vocais e da extensão superficial da lesão",
+      "Tomografia computadorizada ou ressonância magnética de laringe para avaliação da extensão local, incluindo possível invasão da cartilagem laríngea",
+    ],
+    examesComplementares: [
+      "Laringoscopia com biópsia, exame confirmatório e definidor do subtipo histológico e da localização precisa",
+      "Tomografia computadorizada de pescoço para avaliação de invasão cartilaginosa e extensão linfonodal, relevante para o estadiamento e planejamento terapêutico",
+    ],
+    diagnosticoDiferencial: [
+      "Laringite crônica (inflamação difusa sem lesão focal, embora a laringoscopia seja sempre necessária para essa distinção com segurança)",
+      "Nódulos ou pólipos de prega vocal (lesões benignas, distinguidas histologicamente da lesão maligna após biópsia)",
+      "Papilomatose laríngea (lesões múltiplas de aspecto verrucoso associadas ao papilomavírus humano, com potencial de malignização em casos raros e prolongados)",
+    ],
+    tratamento: [
+      "Radioterapia isolada é frequentemente o tratamento de escolha para tumores glóticos precoces, com excelentes taxas de controle e preservação da qualidade vocal",
+      "Cirurgia (que pode variar de ressecção endoscópica a laringectomia parcial ou total, conforme a extensão) é opção para tumores em diferentes estádios, com preservação da laringe priorizada sempre que oncologicamente segura",
+      "Quimiorradioterapia como estratégia de preservação de órgão em doença localmente avançada, evitando a laringectomia total quando possível",
+      "Laringectomia total, associada a esvaziamento cervical quando indicado, reservada a doença muito avançada ou refratária às estratégias de preservação de órgão, exigindo reabilitação vocal alternativa (voz esofágica, prótese traqueoesofágica ou laringe eletrônica) e traqueostomia definitiva",
+    ],
+    complicacoes: [
+      "Aguda: obstrução da via aérea em tumores volumosos, podendo exigir traqueostomia de urgência",
+      "Crônica: perda da fala laríngea normal após laringectomia total, disfagia e aspiração em casos de cirurgia parcial extensa, recidiva locorregional",
+    ],
+    redFlags: [
+      "Rouquidão persistente além de três semanas, sobretudo em tabagista, exige laringoscopia obrigatória para exclusão desta neoplasia, nunca devendo ser atribuída empiricamente a causa benigna sem essa investigação",
+      "Estridor associado a massa laríngea conhecida sugere obstrução significativa da via aérea, exigindo avaliação e manejo urgentes da via aérea",
+    ],
+    prognostico:
+      "O câncer de laringe glótico em estádio inicial tem um dos melhores prognósticos entre todas as neoplasias malignas de cabeça e pescoço, com excelentes taxas de cura e preservação vocal quando diagnosticado precocemente, refletindo diretamente a vantagem diagnóstica da rouquidão precoce nessa localização. Tumores supraglóticos, diagnosticados mais tardiamente, têm prognóstico mais reservado.",
+    pontosDeProva: [
+      "A localização glótica tem o melhor prognóstico entre os subtipos de câncer de laringe, precisamente porque causa rouquidão precocemente mesmo com lesões pequenas, permitindo diagnóstico em estádio inicial — relação estrutura-função central e frequentemente cobrada",
+      "Toda rouquidão persistente além de três semanas, sobretudo em tabagista, exige laringoscopia obrigatória — a mesma regra fundamental já destacada na laringite crônica e nas doenças de cordas vocais",
+      "Tumores supraglóticos têm maior tendência a metástase linfonodal precoce que os glóticos, refletindo a diferença de drenagem linfática entre essas duas regiões anatômicas da laringe",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 63 anos, tabagista há 45 anos, apresenta rouquidão progressiva há 1 mês, sem outros sintomas associados.",
+      pergunta: "Qual a conduta diagnóstica obrigatória e a implicação prognóstica da localização mais provável?",
+      raciocinio:
+        "Rouquidão persistente além de três semanas em tabagista de longa data exige exclusão obrigatória de neoplasia laríngea; a apresentação precoce com rouquidão isolada sugere possível localização glótica, associada a melhor prognóstico se confirmada em estádio inicial.",
+      conduta:
+        "Encaminhar para laringoscopia com biópsia de qualquer lesão identificada; se confirmado carcinoma glótico em estádio inicial, discutir radioterapia isolada como opção de excelente controle oncológico com preservação vocal.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende de radioterapia e/ou cirurgia conforme a localização e o estádio; não há tratamento medicamentoso específico documentado no site para esta neoplasia.",
+    fontes: [
+      { tema: "Classificação anatômica (supraglote, glote, subglote) e relação com drenagem linfática e prognóstico", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Excelente prognóstico do carcinoma glótico precoce e obrigatoriedade de laringoscopia na rouquidão persistente", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
 ];
