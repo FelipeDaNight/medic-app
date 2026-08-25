@@ -19897,13 +19897,808 @@ export const diseases: Disease[] = [
         "Prescrever antibioticoterapia apropriada e orientar explicitamente a manutenção da amamentação/esvaziamento mamário frequente do lado acometido, medida importante tanto terapêutica quanto preventiva de progressão a abscesso.",
     },
     medicamentosPrimeiraLinha: [
-      { slug: "amoxicilina-clavulanato", nome: "Amoxicilina + clavulanato" },
+      { slug: "amoxicilina-clavulanato", nome: "Amoxicilina + Clavulanato" },
     ],
     medicamentosNota:
       "A amoxicilina + clavulanato é uma opção com cobertura adequada para Staphylococcus aureus sensível; cepas resistentes à meticilina, quando prevalentes no perfil local, exigem antimicrobianos alternativos ainda não documentados no site.",
     fontes: [
       { tema: "Fisiopatologia da estase láctea e entrada bacteriana por fissura mamilar", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Manutenção da amamentação durante o tratamento e indicação de drenagem no abscesso", fonte: "Academy of Breastfeeding Medicine Clinical Protocol #36, The Mastitis Spectrum, 2022" },
+    ],
+  },
+  {
+    slug: "psoriase",
+    nome: "Psoríase",
+    sinonimos: ["Psoríase em placas", "Psoríase vulgar"],
+    cid10: "L40",
+    especialidade: "Dermatologia",
+    etiologia: "Autoimune",
+    resumo: "Doença inflamatória crônica imunomediada da pele, caracterizada por placas eritemato-descamativas bem delimitadas decorrentes de hiperproliferação queratinocítica, com associação reconhecida a artrite psoriásica e síndrome metabólica.",
+    definicao:
+      "Doença inflamatória crônica e recidivante da pele, de base imunomediada, caracterizada por hiperproliferação e diferenciação anormal dos queratinócitos, resultando em placas eritematosas bem delimitadas recobertas por escamas prateadas características.",
+    epidemiologia:
+      "Acomete uma proporção significativa da população mundial, com distribuição bimodal de início (pico entre 20-30 anos e outro entre 50-60 anos); forte componente genético (associação com HLA-Cw6), com aproximadamente um terço dos pacientes relatando história familiar positiva.",
+    fisiopatologia:
+      "Ativação anômala do sistema imune inato e adaptativo na pele, com papel central do eixo IL-23/Th17: células dendríticas ativadas estimulam linfócitos T helper 17, que produzem IL-17 e outras citocinas pró-inflamatórias, promovendo hiperproliferação queratinocítica acelerada (turnover epidérmico reduzido de semanas para poucos dias) e inflamação dérmica sustentada, resultando nas placas características.",
+    classificacao:
+      "Classificada clinicamente em psoríase em placas (a forma mais comum, cerca de 90% dos casos), gutata (pequenas lesões em gotas, frequentemente pós-infecção estreptocócica, mais comum em jovens), invertida (dobras cutâneas), pustulosa e eritrodérmica (formas generalizadas e mais graves); também graduada por extensão de superfície corporal acometida para orientar a escolha terapêutica.",
+    quadroClinico: [
+      "Placas eritematosas bem delimitadas, recobertas por escamas prateadas espessas, tipicamente distribuídas em superfícies extensoras (cotovelos, joelhos), couro cabeludo e região lombossacra",
+      "Sinal de Auspitz (pontos de sangramento puntiforme ao remover a escama), achado característico decorrente da fragilidade dos capilares dérmicos superficiais elongados",
+      "Comprometimento ungueal (pitting, onicólise) em uma proporção significativa dos pacientes",
+      "Prurido variável, presente em muitos pacientes, embora não seja o sintoma mais característico da doença",
+    ],
+    diagnostico: [
+      "Diagnóstico eminentemente clínico, pela morfologia e distribuição características das lesões",
+      "Biópsia cutânea reservada para casos atípicos ou de diagnóstico duvidoso, mostrando hiperqueratose paraqueratósica, acantose e infiltrado inflamatório característicos",
+    ],
+    examesComplementares: [
+      "Avaliação de comorbidades associadas (síndrome metabólica, doença cardiovascular), dado o reconhecimento crescente da psoríase como doença sistêmica com impacto além da pele",
+      "Rastreamento ativo de sintomas articulares em toda consulta, dado que a artrite psoriásica acomete uma proporção significativa dos pacientes e pode preceder, coincidir ou suceder as manifestações cutâneas",
+    ],
+    diagnosticoDiferencial: [
+      "Dermatite seborreica, especialmente quando há acometimento de couro cabeludo, distinguida pelas escamas mais untuosas e amareladas (versus escamas secas e prateadas da psoríase)",
+      "Eczema/dermatite atópica, distinguido pela distribuição tipicamente flexural (versus extensora na psoríase) e por prurido geralmente mais proeminente",
+      "Tinea corporis, distinguida por bordas ativas e crescimento centrífugo característicos, confirmada por exame micológico quando há dúvida",
+    ],
+    tratamento: [
+      "Doença leve a moderada: corticosteroides tópicos de média a alta potência, análogos da vitamina D tópicos, tratamento de primeira linha para a maioria dos pacientes",
+      "Fototerapia (UVB de banda estreita), opção eficaz para doença moderada não controlada com terapia tópica isolada",
+      "Doença moderada a grave ou com artrite psoriásica associada: terapia sistêmica (metotrexato, ou agentes biológicos inibidores de TNF-alfa, IL-17 ou IL-23), reservada para casos mais extensos ou refratários",
+    ],
+    complicacoes: [
+      "Aguda: eritrodermia psoriásica (forma generalizada grave, com risco de descompensação hemodinâmica e térmica), psoríase pustulosa generalizada",
+      "Crônica: artrite psoriásica, síndrome metabólica e risco cardiovascular aumentado, impacto psicossocial significativo pela visibilidade das lesões",
+    ],
+    redFlags: [
+      "Sintomas articulares (dor, edema, rigidez matinal) em paciente com psoríase devem ser ativamente investigados, dado que a artrite psoriásica pode causar dano articular irreversível se não tratada precocemente",
+      "Eritrodermia psoriásica é emergência dermatológica pelo risco de descompensação hemodinâmica e térmica associada ao comprometimento cutâneo extenso",
+    ],
+    prognostico:
+      "Doença crônica sem cura definitiva, mas com excelente controle sintomático disponível através do amplo arsenal terapêutico atual (tópico, fototerapia, sistêmico convencional e biológico), permitindo qualidade de vida próxima à normal na maioria dos pacientes tratados adequadamente.",
+    pontosDeProva: [
+      "O eixo IL-23/Th17 é o mecanismo imunológico central da psoríase, sendo também o alvo terapêutico dos agentes biológicos mais modernos",
+      "A artrite psoriásica acomete uma proporção significativa dos pacientes com psoríase cutânea e deve ser ativamente rastreada em toda consulta",
+      "O sinal de Auspitz (sangramento puntiforme ao remover a escama) reflete a elongação e fragilidade dos capilares dérmicos superficiais características da doença",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 28 anos, apresenta placas eritematosas bem delimitadas recobertas por escamas prateadas espessas em cotovelos e joelhos há 6 meses, associadas a alterações ungueais (pitting).",
+      pergunta: "Qual o diagnóstico mais provável e qual comorbidade deve ser ativamente rastreada?",
+      raciocinio:
+        "Placas eritemato-descamativas em superfícies extensoras associadas a alterações ungueais são características de psoríase; a presença de acometimento ungueal reforça a necessidade de rastrear ativamente sintomas articulares, dado o risco aumentado de artrite psoriásica associada.",
+      conduta:
+        "Confirmar o diagnóstico clinicamente; iniciar tratamento tópico de primeira linha (corticosteroide tópico/análogo de vitamina D); investigar ativamente sintomas articulares em cada consulta de seguimento.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os corticosteroides tópicos, análogos da vitamina D e agentes sistêmicos/biológicos, tratamentos de primeira linha conforme a gravidade, ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Fisiopatologia do eixo IL-23/Th17 e classificação clínica", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Escalonamento terapêutico e rastreamento de artrite psoriásica associada", fonte: "AAD-NPF Guidelines of Care for the Management of Psoriasis and Psoriatic Arthritis, 2019" },
+    ],
+  },
+  {
+    slug: "dermatite-atopica",
+    nome: "Dermatite atópica",
+    sinonimos: ["Eczema atópico", "Eczema constitucional"],
+    cid10: "L20",
+    especialidade: "Dermatologia",
+    etiologia: "Multifatorial",
+    resumo: "Doença inflamatória crônica e pruriginosa da pele, decorrente de disfunção da barreira cutânea associada a desregulação imunológica tipo 2, frequentemente associada a outras condições atópicas (asma, rinite alérgica).",
+    definicao:
+      "Doença inflamatória crônica e recidivante da pele, caracterizada por prurido intenso e lesões eczematosas de distribuição tipicamente flexural, decorrente da combinação de disfunção estrutural da barreira cutânea e desregulação imunológica do tipo 2 (Th2).",
+    epidemiologia:
+      "Mais comum em crianças, com início na maioria dos casos antes dos 5 anos de idade e frequente remissão parcial ou completa até a adolescência, embora uma proporção persista ou recorra na vida adulta; associação frequente com outras condições da 'marcha atópica' (asma, rinite alérgica), refletindo predisposição imunológica compartilhada.",
+    fisiopatologia:
+      "Mutações no gene da filagrina (proteína estrutural essencial da barreira epidérmica) comprometem a função de barreira cutânea, aumentando a perda transepidérmica de água e facilitando a penetração de alérgenos e irritantes; essa disfunção de barreira, somada a uma resposta imunológica predominantemente Th2 (com produção de IL-4, IL-13 e IL-31, esta última diretamente implicada no prurido característico), perpetua o ciclo de inflamação e coceira-lesão.",
+    classificacao:
+      "Classificada por faixa etária conforme a distribuição típica das lesões: fase infantil (face, couro cabeludo, superfícies extensoras), fase da infância tardia/adulta (superfícies flexurais — fossas antecubitais e poplíteas, pescoço); também classificada por gravidade (leve, moderada, grave) para orientar a escolha terapêutica.",
+    quadroClinico: [
+      "Prurido intenso, sintoma mais proeminente e frequentemente desproporcional à aparência visual das lesões, motor central do ciclo coceira-lesão",
+      "Lesões eczematosas (eritema, pápulas, vesículas em fase aguda; liquenificação em fase crônica pelo coçar repetitivo) de distribuição flexural característica em crianças maiores e adultos",
+      "Pele seca (xerose) generalizada, achado constante que reflete a disfunção de barreira subjacente",
+      "Escoriações e liquenificação secundárias ao ato repetitivo de coçar, achados de cronicidade",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico, baseado em critérios estabelecidos considerando prurido, morfologia e distribuição típica das lesões, cronicidade/recidiva e história pessoal ou familiar de atopia",
+      "Não há exame laboratorial confirmatório específico; a IgE sérica pode estar elevada mas não é necessária nem suficiente para o diagnóstico",
+    ],
+    examesComplementares: [
+      "Testes de alergia (cutâneos ou IgE específica) em casos selecionados quando há suspeita de gatilho alergênico específico contribuindo para exacerbações",
+      "Cultura de lesões com suspeita de infecção secundária (mais comumente por Staphylococcus aureus), dado que a pele lesada é mais suscetível a colonização/infecção bacteriana",
+    ],
+    diagnosticoDiferencial: [
+      "Dermatite de contato (alérgica ou irritativa), distinguida por relação temporal com exposição a substância específica e distribuição correspondente à área de contato",
+      "Psoríase, distinguida pela distribuição tipicamente extensora (versus flexural) e por escamas mais espessas e prateadas",
+      "Escabiose, distinguida pela distribuição característica (espaços interdigitais, região genital) e pela identificação do ácaro/lesões patognomônicas",
+    ],
+    tratamento: [
+      "Hidratação cutânea regular e intensiva com emolientes, medida fundamental de base para restauração da função de barreira, indicada em todos os graus de gravidade",
+      "Corticosteroides tópicos, tratamento anti-inflamatório de primeira linha para exacerbações, com potência ajustada à gravidade e à localização da lesão",
+      "Inibidores tópicos de calcineurina como alternativa/complemento aos corticosteroides tópicos, particularmente úteis em áreas sensíveis (face, dobras) onde o uso prolongado de corticosteroide é mais preocupante",
+      "Terapia sistêmica (imunossupressores convencionais ou agentes biológicos direcionados à via Th2, como o dupilumabe) reservada para casos moderados a graves refratários ao tratamento tópico",
+    ],
+    complicacoes: [
+      "Aguda: infecção secundária (impetiginização) por Staphylococcus aureus ou, mais raramente, eczema herpético (infecção disseminada por vírus herpes simples, emergência dermatológica)",
+      "Crônica: liquenificação, impacto significativo na qualidade de vida e no sono pelo prurido crônico, progressão da marcha atópica para asma/rinite alérgica em alguns pacientes",
+    ],
+    redFlags: [
+      "Vesículas monomórficas dolorosas com aspecto em 'saca-bocado' associadas a mal-estar sistêmico em paciente com dermatite atópica sugerem eczema herpético, emergência dermatológica que exige tratamento antiviral imediato",
+      "Lesões com secreção purulenta e crostas melicéricas sugerem infecção bacteriana secundária, exigindo tratamento antimicrobiano além das medidas habituais",
+    ],
+    prognostico:
+      "Favorável na maioria das crianças, com remissão parcial ou completa até a adolescência; casos que persistem ou iniciam na vida adulta tendem a ter curso mais crônico, mas o amplo arsenal terapêutico atual permite bom controle sintomático na maioria dos pacientes.",
+    pontosDeProva: [
+      "Mutações no gene da filagrina comprometem a barreira cutânea e são o principal substrato genético reconhecido da dermatite atópica",
+      "A distribuição das lesões muda conforme a idade: face/extensora na infância precoce, flexural (fossas antecubitais/poplíteas) em crianças maiores e adultos",
+      "A hidratação cutânea regular com emolientes é medida de base fundamental, independentemente da gravidade, e não substituível apenas pelo tratamento anti-inflamatório",
+    ],
+    casoClinico: {
+      vinheta:
+        "Criança, 4 anos, com história de asma, apresenta lesões eczematosas pruriginosas nas fossas antecubitais e poplíteas há vários meses, com períodos de melhora e piora.",
+      pergunta: "Qual o diagnóstico mais provável e a conduta terapêutica de base?",
+      raciocinio:
+        "Lesões eczematosas pruriginosas de distribuição flexural, com curso crônico e recidivante, em criança com história pessoal de outra condição atópica (asma), são características de dermatite atópica, refletindo a predisposição imunológica compartilhada da marcha atópica.",
+      conduta:
+        "Iniciar hidratação cutânea intensiva e regular com emolientes como medida de base; prescrever corticosteroide tópico de potência apropriada para as exacerbações; orientar a família sobre a natureza crônica e recidivante da condição.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os emolientes, corticosteroides tópicos, inibidores tópicos de calcineurina e agentes biológicos (dupilumabe) ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Fisiopatologia da disfunção de barreira (filagrina) e desregulação Th2", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Escalonamento terapêutico e reconhecimento de complicações infecciosas (eczema herpético)", fonte: "AAD Guidelines of Care for the Management of Atopic Dermatitis, 2014" },
+    ],
+  },
+  {
+    slug: "melanoma-maligno-pele",
+    nome: "Melanoma maligno da pele",
+    sinonimos: ["Melanoma cutâneo"],
+    cid10: "C43",
+    especialidade: "Dermatologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna originada dos melanócitos, a mais letal das neoplasias cutâneas comuns pelo seu potencial precoce de disseminação metastática, mas altamente curável quando detectada e excisada em fase inicial.",
+    definicao:
+      "Neoplasia maligna originada da transformação dos melanócitos (células produtoras de melanina), capaz de invasão local precoce e disseminação metastática linfática e hematogênica, sendo o prognóstico diretamente determinado pela profundidade de invasão vertical no momento do diagnóstico.",
+    epidemiologia:
+      "Incidência crescente nas últimas décadas, associada principalmente à exposição à radiação ultravioleta (exposição solar intensa intermitente, especialmente com queimaduras solares na infância, e uso de câmaras de bronzeamento artificial); outros fatores de risco incluem fototipo cutâneo claro, múltiplos nevos melanocíticos ou nevos atípicos, história pessoal ou familiar de melanoma e imunossupressão.",
+    fisiopatologia:
+      "A radiação ultravioleta induz dano direto ao DNA dos melanócitos (mutações características, incluindo em genes como BRAF, presente em uma proporção substancial dos casos), promovendo transformação maligna; o melanoma progride tipicamente através de uma fase de crescimento radial inicial (confinada à epiderme e derme papilar superficial, com excelente prognóstico se excisada nessa fase) para uma fase de crescimento vertical (invasão dérmica mais profunda, com acesso a vasos linfáticos e sanguíneos e risco substancialmente maior de metástase).",
+    classificacao:
+      "Classificado histologicamente em extensivo superficial (o subtipo mais comum), nodular (crescimento vertical precoce, sem fase radial reconhecível, geralmente diagnosticado em estádio mais avançado), lentigo maligno (em áreas cronicamente fotoexpostas de idosos) e acral lentiginoso (palmas, plantas, subungueal, o subtipo predominante em pessoas de pele mais escura); estadiado pelo sistema TNM, com a espessura de Breslow (profundidade de invasão vertical em milímetros) sendo o fator prognóstico histológico isolado mais importante.",
+    quadroClinico: [
+      "Lesão pigmentada com características de alarme segundo a regra ABCDE: Assimetria, Bordas irregulares, Coloração variegada, Diâmetro maior que 6 mm, Evolução/mudança ao longo do tempo",
+      "Sinal do 'patinho feio' (lesão pigmentada que se destaca visualmente das demais lesões pigmentadas do mesmo paciente), heurística clínica complementar útil de rastreamento",
+      "Sangramento, ulceração ou prurido em lesão pigmentada pré-existente, achados que reforçam a suspeita de transformação maligna",
+      "Linfonodo regional palpável em doença com disseminação linfática já estabelecida",
+    ],
+    diagnostico: [
+      "Biópsia excisional completa da lesão suspeita (com margens estreitas apropriadas para diagnóstico, não excisão terapêutica ampla nesse momento), exame confirmatório e que permite determinar a espessura de Breslow, fator prognóstico central",
+      "Dermatoscopia como ferramenta auxiliar de triagem para aumentar a acurácia da seleção de lesões para biópsia",
+    ],
+    examesComplementares: [
+      "Biópsia de linfonodo sentinela, indicada conforme a espessura de Breslow e outras características histológicas, para estadiamento e identificação de disseminação linfática subclínica",
+      "Teste para mutação BRAF em doença metastática, com implicação terapêutica direta (indicação de terapia-alvo dirigida) quando positivo",
+    ],
+    diagnosticoDiferencial: [
+      "Nevo melanocítico atípico (displásico), lesão benigna que pode compartilhar características morfológicas preocupantes, distinguida definitivamente apenas por biópsia quando há dúvida",
+      "Ceratose seborreica pigmentada, lesão benigna comum que pode mimetizar melanoma, geralmente distinguida clinicamente por dermatoscopia experiente",
+      "Carcinoma basocelular pigmentado, distinguido histologicamente quando há dúvida diagnóstica clínica",
+    ],
+    tratamento: [
+      "Excisão cirúrgica ampla com margens determinadas pela espessura de Breslow, tratamento definitivo para doença localizada, associada a biópsia de linfonodo sentinela quando indicada",
+      "Imunoterapia (inibidores de checkpoint imunológico) e, quando aplicável, terapia-alvo dirigida à mutação BRAF, tratamentos sistêmicos que revolucionaram o prognóstico da doença metastática nas últimas décadas",
+      "Linfadenectomia terapêutica reservada para doença linfonodal clinicamente evidente ou biópsia de linfonodo sentinela positiva, conforme protocolos atuais",
+    ],
+    complicacoes: [
+      "Aguda: sangramento e ulceração da lesão primária",
+      "Crônica: metástase a distância (pulmão, fígado, encéfalo, osso), principal determinante de mortalidade, refletindo o potencial de disseminação hematogênica precoce característico dessa neoplasia",
+    ],
+    redFlags: [
+      "Qualquer lesão pigmentada com características ABCDE ou com mudança recente documentada deve ser prontamente avaliada e, quando indicado, biopsiada, dado o potencial de disseminação metastática precoce se não tratada em fase inicial",
+      "Melanoma nodular carece da fase de crescimento radial reconhecível das demais formas, podendo ser diagnosticado tardiamente pela ausência do sinal de alarme visual gradual — deve ser especificamente considerado diante de lesão pigmentada elevada de crescimento rápido",
+    ],
+    prognostico:
+      "Excelente (sobrevida próxima de 100% em 5 anos) quando diagnosticado e excisado em fase inicial (fina espessura de Breslow, sem disseminação linfática); o prognóstico piora progressivamente com o aumento da espessura de Breslow e a presença de disseminação linfonodal ou metastática, refletindo a importância central do diagnóstico precoce.",
+    pontosDeProva: [
+      "A espessura de Breslow (profundidade de invasão vertical) é o fator prognóstico histológico isolado mais importante do melanoma",
+      "A regra ABCDE (Assimetria, Bordas, Cor, Diâmetro, Evolução) é a heurística clínica padrão de rastreamento de lesões pigmentadas suspeitas",
+      "O melanoma nodular carece de fase de crescimento radial reconhecível, podendo ser diagnosticado em estádio mais avançado pela ausência desse sinal de alarme gradual",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 55 anos, fototipo claro, apresenta lesão pigmentada no dorso com bordas irregulares, coloração variegada (marrom e preta) e diâmetro de 8 mm, que o paciente relata ter mudado de aspecto nos últimos meses.",
+      pergunta: "Qual a conduta diagnóstica apropriada?",
+      raciocinio:
+        "Lesão pigmentada preenchendo múltiplos critérios ABCDE (bordas irregulares, coloração variegada, diâmetro maior que 6 mm, evolução relatada) é altamente suspeita de melanoma, exigindo biópsia excisional completa para confirmação histológica e determinação da espessura de Breslow.",
+      conduta:
+        "Realizar biópsia excisional completa da lesão com margens estreitas apropriadas para diagnóstico; conforme a espessura de Breslow confirmada, planejar excisão ampla definitiva e considerar biópsia de linfonodo sentinela.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é cirúrgico, com imunoterapia e terapia-alvo (anti-BRAF) reservadas para doença avançada/metastática; nenhum desses componentes ainda tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia da progressão radial-vertical e classificação histológica", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Regra ABCDE, espessura de Breslow como fator prognóstico e papel da imunoterapia/terapia-alvo", fonte: "NCCN Clinical Practice Guidelines in Oncology, Cutaneous Melanoma" },
+    ],
+  },
+  {
+    slug: "outras-neoplasias-malignas-pele-basocelular-espinocelular",
+    nome: "Outras neoplasias malignas da pele (carcinoma basocelular e espinocelular)",
+    sinonimos: ["Carcinoma basocelular", "Carcinoma espinocelular", "Câncer de pele não melanoma"],
+    cid10: "C44",
+    especialidade: "Dermatologia",
+    etiologia: "Neoplásica",
+    resumo: "As neoplasias malignas cutâneas mais comuns, originadas de queratinócitos, associadas à exposição solar cumulativa, com comportamento biológico muito menos agressivo que o melanoma e excelente prognóstico quando tratadas adequadamente.",
+    definicao:
+      "Grupo de neoplasias malignas cutâneas não melanocíticas originadas de queratinócitos, compreendendo o carcinoma basocelular (originado da camada basal da epiderme, o mais comum e de comportamento localmente invasivo, mas raramente metastático) e o carcinoma espinocelular (originado de queratinócitos suprabasais, com maior, embora ainda relativamente baixo, potencial metastático que o basocelular).",
+    epidemiologia:
+      "As neoplasias malignas mais comuns em humanos, com o carcinoma basocelular sendo consideravelmente mais frequente que o espinocelular; ambos fortemente associados à exposição cumulativa à radiação ultravioleta ao longo da vida, sendo mais comuns em pessoas de pele clara, idade avançada e com história de exposição solar ocupacional/recreacional significativa.",
+    fisiopatologia:
+      "O dano actínico cumulativo ao DNA dos queratinócitos, acumulado ao longo de décadas de exposição solar, leva a mutações que ativam vias oncogênicas (via Hedgehog no carcinoma basocelular, mutações de p53 e outras em ambos os tipos); o carcinoma espinocelular frequentemente surge sobre lesões precursoras identificáveis (ceratose actínica), enquanto o basocelular tipicamente surge de novo, sem lesão precursora reconhecível.",
+    classificacao:
+      "Carcinoma basocelular subdividido morfologicamente em nodular (o mais comum, lesão perolada com telangiectasias), superficial e esclerodermiforme (mais infiltrativo e de margens menos definidas); carcinoma espinocelular subdividido em in situ (doença de Bowen, restrito à epiderme) e invasivo, este último com potencial metastático, ainda que baixo, particularmente relevante em lesões de lábio, orelha ou em pacientes imunossuprimidos.",
+    quadroClinico: [
+      "Carcinoma basocelular: pápula ou nódulo perolado, translúcido, com telangiectasias superficiais visíveis e, frequentemente, ulceração central ('úlcera roedora'), tipicamente em áreas fotoexpostas (face, especialmente nariz e região periorbital)",
+      "Carcinoma espinocelular: pápula ou placa eritematosa, hiperqueratósica ou ulcerada, de crescimento mais rápido que o basocelular, também predominantemente em áreas fotoexpostas",
+      "Ambos: crescimento lento e progressivo na maioria dos casos, com ulceração e sangramento ocasional à medida que a lesão aumenta de tamanho",
+    ],
+    diagnostico: [
+      "Biópsia cutânea (incisional ou excisional conforme o tamanho da lesão), exame confirmatório definitivo que também orienta o subtipo histológico e a agressividade",
+      "Dermatoscopia como ferramenta auxiliar de triagem, identificando padrões característicos de cada tipo tumoral",
+    ],
+    examesComplementares: [
+      "Avaliação linfonodal regional em carcinoma espinocelular de alto risco (lesões grandes, localização em lábio/orelha, ou em pacientes imunossuprimidos), dado o maior potencial metastático relativo nessas situações",
+    ],
+    diagnosticoDiferencial: [
+      "Ceratose actínica, lesão precursora do carcinoma espinocelular, distinguida pela ausência de invasão à biópsia quando há dúvida clínica",
+      "Nevo melanocítico ou ceratose seborreica, lesões benignas que podem mimetizar clinicamente o carcinoma basocelular nodular, distinguidas por biópsia quando há dúvida",
+      "Melanoma amelanótico (não pigmentado), diagnóstico diferencial importante de lesão nodular não pigmentada, exigindo biópsia para exclusão definitiva",
+    ],
+    tratamento: [
+      "Excisão cirúrgica com margens apropriadas, tratamento padrão para a maioria das lesões, com excelente taxa de cura",
+      "Cirurgia micrográfica de Mohs, técnica de escolha para lesões em áreas de alto risco estético/funcional (face) ou de subtipo histológico mais agressivo, permitindo máxima preservação tecidual com controle completo das margens",
+      "Terapias alternativas (curetagem e eletrodissecção, criocirurgia, terapia fotodinâmica, imiquimode tópico) para lesões superficiais selecionadas de baixo risco",
+      "Terapia sistêmica (inibidores da via Hedgehog no basocelular avançado, imunoterapia no espinocelular avançado/metastático) reservada para os raros casos de doença localmente avançada ou metastática",
+    ],
+    complicacoes: [
+      "Aguda: sangramento e ulceração da lesão",
+      "Crônica: invasão local extensa e destrutiva quando não tratada por longo período (especialmente carcinoma basocelular esclerodermiforme), metástase (rara, mas mais relevante no carcinoma espinocelular de alto risco)",
+    ],
+    redFlags: [
+      "Lesão espinocelular em lábio, orelha, ou em paciente imunossuprimido carrega risco metastático relativamente maior e deve ser tratada com margem de segurança e vigilância apropriadas",
+      "Lesão de crescimento rápido, ulcerada e não pigmentada deve sempre incluir melanoma amelanótico no diagnóstico diferencial antes de se assumir tratamento como carcinoma basocelular/espinocelular",
+    ],
+    prognostico:
+      "Excelente para a grande maioria dos casos com excisão adequada, dado o comportamento biológico muito menos agressivo que o melanoma; o carcinoma basocelular raramente metastatiza, e mesmo o carcinoma espinocelular, quando tratado em fase inicial, tem prognóstico muito favorável.",
+    pontosDeProva: [
+      "O carcinoma basocelular tipicamente surge de novo sem lesão precursora, enquanto o carcinoma espinocelular frequentemente surge sobre ceratose actínica preexistente",
+      "Cirurgia micrográfica de Mohs é a técnica de escolha para lesões em áreas de alto risco estético/funcional, permitindo controle completo de margens com máxima preservação tecidual",
+      "Apesar de serem as neoplasias malignas mais comuns, ambas têm comportamento biológico muito menos agressivo que o melanoma, com potencial metastático baixo (especialmente o basocelular)",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 68 anos, agricultor com história de exposição solar ocupacional significativa, apresenta pápula perolada com telangiectasias visíveis e ulceração central na região nasal, de crescimento lento há 1 ano.",
+      pergunta: "Qual o diagnóstico mais provável e a conduta apropriada?",
+      raciocinio:
+        "Pápula perolada com telangiectasias e ulceração central ('úlcera roedora') em área fotoexposta, com crescimento lento em paciente com exposição solar ocupacional significativa, é característica de carcinoma basocelular.",
+      conduta:
+        "Realizar biópsia para confirmação histológica; dado a localização em área de alto risco estético/funcional (região nasal), considerar cirurgia micrográfica de Mohs para excisão com controle completo de margens e máxima preservação tecidual.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é cirúrgico (excisão, cirurgia de Mohs); o imiquimode tópico e as terapias sistêmicas para doença avançada ainda não têm ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia do dano actínico cumulativo e diferenças entre os subtipos", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Indicações de cirurgia micrográfica de Mohs e estratificação de risco no carcinoma espinocelular", fonte: "NCCN Clinical Practice Guidelines in Oncology, Basal Cell Skin Cancer / Squamous Cell Skin Cancer" },
+    ],
+  },
+  {
+    slug: "impetigo",
+    nome: "Impetigo",
+    sinonimos: ["Impetigo contagioso"],
+    cid10: "L01",
+    especialidade: "Dermatologia",
+    etiologia: "Bacteriana",
+    resumo: "Infecção bacteriana superficial e altamente contagiosa da pele, mais comum em crianças, causada por Staphylococcus aureus e/ou Streptococcus pyogenes, classicamente apresentando lesões com crostas melicéricas características.",
+    definicao:
+      "Infecção bacteriana superficial da epiderme, altamente contagiosa, causada mais comumente por Staphylococcus aureus e, em menor proporção, por Streptococcus pyogenes (isoladamente ou em coinfecção), classificada em não bolhoso (a forma mais comum) e bolhoso (mediado por toxina esfoliativa estafilocócica).",
+    epidemiologia:
+      "Mais comum em crianças em idade pré-escolar e escolar, com maior incidência em climas quentes e úmidos e em condições de aglomeração e higiene precária, que facilitam a transmissão por contato direto ou por fômites.",
+    fisiopatologia:
+      "A forma não bolhosa resulta da invasão bacteriana direta da epiderme através de solução de continuidade cutânea preexistente (picada de inseto, escoriação, lesão traumática menor), com resposta inflamatória local levando à formação da lesão característica; a forma bolhosa é mediada por toxinas esfoliativas produzidas por cepas específicas de Staphylococcus aureus, que clivam a desmogleína 1 na camada superficial da epiderme, causando a formação de bolhas flácidas superficiais sem necessidade de porta de entrada preexistente.",
+    classificacao:
+      "Classificado em não bolhoso (a forma mais comum, cerca de 70% dos casos, com lesões papulovesiculares que evoluem para crostas melicéricas características) e bolhoso (bolhas flácidas superficiais que se rompem facilmente, deixando colarete descamativo, mais comum em neonatos e lactentes).",
+    quadroClinico: [
+      "Impetigo não bolhoso: pápulas ou vesículas que evoluem rapidamente para pústulas e depois para lesões com crostas espessas, aderentes e de coloração amarelo-dourada (crostas melicéricas), tipicamente em face e extremidades",
+      "Impetigo bolhoso: bolhas flácidas superficiais que se rompem facilmente, deixando erosão superficial com colarete descamativo residual, sem crosta espessa característica",
+      "Lesões geralmente não dolorosas e com prurido variável, sem sintomas sistêmicos significativos na maioria dos casos não complicados",
+    ],
+    diagnostico: [
+      "Diagnóstico eminentemente clínico, pela morfologia característica das lesões (crostas melicéricas no tipo não bolhoso, bolhas flácidas no tipo bolhoso)",
+      "Cultura de secreção da lesão em casos recorrentes, refratários ao tratamento empírico inicial, ou quando há suspeita de infecção por cepa resistente",
+    ],
+    examesComplementares: [
+      "Nenhum exame complementar é rotineiramente necessário para o diagnóstico na maioria dos casos típicos e não complicados",
+    ],
+    diagnosticoDiferencial: [
+      "Herpes simples cutâneo, distinguido pela morfologia vesicular agrupada sobre base eritematosa e pela dor característica, ao contrário das crostas indolores do impetigo",
+      "Dermatite atópica com infecção secundária (impetiginização), distinguida pela história prévia de eczema crônico no local acometido",
+      "Varicela, distinguida pela distribuição mais difusa e pelo aspecto de lesões em diferentes estágios evolutivos simultaneamente",
+    ],
+    tratamento: [
+      "Mupirocina tópica, tratamento de primeira linha para doença localizada e não extensa, com boa eficácia e mínima exposição sistêmica",
+      "Antibioticoterapia oral (cobrindo Staphylococcus aureus e Streptococcus pyogenes) reservada para doença mais extensa, numerosas lesões, ou falha do tratamento tópico",
+      "Medidas de higiene (lavagem das lesões, corte de unhas, evitar compartilhamento de toalhas/roupas) para reduzir a autoinoculação e a transmissão a contactantes",
+    ],
+    complicacoes: [
+      "Aguda: extensão e disseminação local das lesões por autoinoculação (coçar e tocar outras áreas)",
+      "Rara, mas relevante: glomerulonefrite pós-estreptocócica quando a etiologia envolve cepas nefritogênicas de Streptococcus pyogenes, complicação sistêmica tardia que reforça a importância do reconhecimento e tratamento adequados",
+    ],
+    redFlags: [
+      "Impetigo por Streptococcus pyogenes carrega risco, ainda que incomum, de glomerulonefrite pós-estreptocócica como sequela tardia, não prevenível pelo tratamento antibiótico da pele (ao contrário da febre reumática após faringite estreptocócica)",
+      "Extensão rápida das lesões associada a sinais sistêmicos (febre, mal-estar) deve motivar reavaliação para celulite ou infecção mais profunda sobreposta",
+    ],
+    prognostico:
+      "Excelente com tratamento apropriado, com resolução completa na grande maioria dos casos sem sequelas; a principal preocupação de longo prazo é a rara mas reconhecida associação com glomerulonefrite pós-estreptocócica quando a etiologia é estreptocócica.",
+    pontosDeProva: [
+      "Crostas melicéricas (amarelo-douradas) são o achado morfológico clássico e mais característico do impetigo não bolhoso",
+      "O impetigo bolhoso é mediado por toxina esfoliativa estafilocócica (clivagem da desmogleína 1), não exigindo porta de entrada traumática preexistente, ao contrário da forma não bolhosa",
+      "Ao contrário da faringite estreptocócica, o tratamento antibiótico do impetigo não previne a glomerulonefrite pós-estreptocócica, embora previna a transmissão a contactantes",
+    ],
+    casoClinico: {
+      vinheta:
+        "Criança, 5 anos, apresenta lesões papulovesiculares na região perioral que evoluíram para crostas espessas de coloração amarelo-dourada nos últimos 3 dias, sem febre ou outros sintomas sistêmicos.",
+      pergunta: "Qual o diagnóstico mais provável e o tratamento de primeira linha?",
+      raciocinio:
+        "Lesões evoluindo para crostas melicéricas características, sem sintomas sistêmicos, em criança em idade escolar são compatíveis com impetigo não bolhoso, quadro de doença localizada que responde bem ao tratamento tópico.",
+      conduta:
+        "Prescrever mupirocina tópica para as lesões, orientar medidas de higiene para reduzir autoinoculação e transmissão a contactantes; reservar antibioticoterapia oral para casos mais extensos ou refratários.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina-clavulanato", nome: "Amoxicilina + Clavulanato" },
+    ],
+    medicamentosSecaoTitulo: "Opção oral para doença extensa ou refratária ao tratamento tópico (mupirocina tópica é a primeira linha para doença localizada)",
+    medicamentosNota:
+      "A mupirocina tópica, tratamento de primeira linha para a maioria dos casos localizados, ainda não tem ficha própria documentada no site; a amoxicilina + clavulanato é opção oral razoável quando há indicação de tratamento sistêmico.",
+    fontes: [
+      { tema: "Fisiopatologia da toxina esfoliativa no impetigo bolhoso e classificação clínica", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Tratamento de primeira linha e associação com glomerulonefrite pós-estreptocócica", fonte: "IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections, 2014" },
+    ],
+  },
+  {
+    slug: "celulite-flegmao",
+    nome: "Celulite e flegmão",
+    sinonimos: ["Celulite bacteriana", "Erisipela"],
+    cid10: "L03",
+    especialidade: "Dermatologia",
+    etiologia: "Bacteriana",
+    resumo: "Infecção bacteriana aguda da derme profunda e do tecido subcutâneo, mais comumente causada por estreptococos ou Staphylococcus aureus, manifestando-se como área de eritema, calor e edema mal delimitados, tipicamente em membros inferiores.",
+    definicao:
+      "Infecção bacteriana aguda que acomete a derme profunda e o tecido subcutâneo, distinta da erisipela (infecção mais superficial, restrita à derme superior e aos vasos linfáticos dérmicos, com lesão mais elevada e nitidamente demarcada), embora ambas frequentemente sejam consideradas em conjunto na prática clínica pela sobreposição de apresentação e tratamento.",
+    epidemiologia:
+      "Extremamente comum, com fatores de risco incluindo solução de continuidade cutânea prévia (ferida, picada de inseto, tinea pedis interdigital), edema linfático ou venoso crônico, obesidade e imunossupressão; recorrência é comum em pacientes com fatores predisponentes não corrigidos (linfedema, insuficiência venosa crônica).",
+    fisiopatologia:
+      "Bactérias (mais comumente estreptococos beta-hemolíticos do grupo A e Staphylococcus aureus) penetram através de solução de continuidade na barreira cutânea e se disseminam pela derme e tecido subcutâneo, desencadeando resposta inflamatória local intensa (eritema, calor, edema, dor) sem, tipicamente, formação de coleção purulenta localizada (o que distingue a celulite do abscesso).",
+    classificacao:
+      "Classificada em purulenta (associada a drenagem purulenta, abscesso concomitante, ou lesão penetrante, mais associada a Staphylococcus aureus, incluindo cepas resistentes à meticilina) e não purulenta (a apresentação mais comum, sem essas características, mais associada a estreptococos); a erisipela é considerada uma forma mais superficial e circunscrita dentro desse espectro.",
+    quadroClinico: [
+      "Área de eritema, calor, edema e dor de bordas mal definidas (celulite) ou nitidamente demarcadas e elevadas (erisipela), tipicamente em membros inferiores",
+      "Linfangite (estrias eritematosas lineares) e linfadenopatia regional associadas em uma proporção dos casos, refletindo disseminação pelos vasos linfáticos",
+      "Febre e mal-estar sistêmico podem acompanhar quadros mais extensos, embora uma proporção significativa dos casos permaneça afebril",
+    ],
+    diagnostico: [
+      "Diagnóstico eminentemente clínico, pela combinação de eritema, calor, edema e dor de instalação aguda, geralmente sem necessidade de exames complementares em casos típicos e não complicados",
+      "Identificação da porta de entrada (ferida, tinea pedis interdigital) quando presente, relevante tanto para o diagnóstico quanto para orientar medidas preventivas de recorrência",
+    ],
+    examesComplementares: [
+      "Hemocultura reservada para pacientes com sinais sistêmicos significativos, imunossupressão, ou suspeita de bacteremia, dado que a maioria dos casos localizados e não complicados não requer essa investigação",
+      "Cultura de secreção purulenta, quando presente, para orientar ajuste da antibioticoterapia conforme sensibilidade",
+    ],
+    diagnosticoDiferencial: [
+      "Trombose venosa profunda, principal diagnóstico diferencial de edema e dor unilateral de membro inferior, distinguida pela ausência de eritema/calor tão proeminentes e confirmada por ultrassonografia com Doppler quando há dúvida",
+      "Dermatite de estase venosa, condição crônica que pode mimetizar celulite mas sem instalação aguda e sem resposta a antibioticoterapia",
+      "Fasciíte necrosante, diagnóstico diferencial crítico e de emergência absoluta, sugerido por dor desproporcional ao exame físico, bolhas hemorrágicas, crepitação, e deterioração sistêmica rápida",
+    ],
+    tratamento: [
+      "Celulite não purulenta: antibioticoterapia empírica dirigida a estreptococos (e cobertura adicional para Staphylococcus aureus conforme gravidade e fatores de risco), como amoxicilina/amoxicilina-clavulanato em casos leves a moderados",
+      "Celulite purulenta ou com fatores de risco para Staphylococcus aureus resistente à meticilina: antibioticoterapia com cobertura específica adicional conforme perfil de resistência local",
+      "Elevação do membro acometido, medida adjuvante que auxilia na redução do edema e acelera a resolução",
+      "Tratamento de condições predisponentes identificadas (tinea pedis interdigital, insuficiência venosa) para redução do risco de recorrência",
+    ],
+    complicacoes: [
+      "Aguda: abscesso subjacente, bacteremia/sepse em casos mais extensos ou em pacientes imunossuprimidos, fasciíte necrosante (rara, mas com evolução potencialmente fatal)",
+      "Crônica: episódios recorrentes em pacientes com fatores predisponentes não corrigidos, podendo levar a dano linfático progressivo e linfedema crônico secundário",
+    ],
+    redFlags: [
+      "Dor desproporcional ao exame físico, bolhas hemorrágicas, crepitação ou deterioração sistêmica rápida devem motivar suspeita imediata de fasciíte necrosante, emergência cirúrgica com necessidade de desbridamento imediato",
+      "Sinais sistêmicos significativos (febre alta, taquicardia, hipotensão) associados à celulite devem motivar avaliação para bacteremia e consideração de tratamento hospitalar com antibioticoterapia intravenosa",
+    ],
+    prognostico:
+      "Excelente com antibioticoterapia apropriada na maioria dos casos, com resolução completa; a recorrência é comum quando fatores predisponentes (linfedema, insuficiência venosa, tinea pedis) não são identificados e tratados concomitantemente.",
+    pontosDeProva: [
+      "A celulite acomete a derme profunda e o subcutâneo, enquanto a erisipela é mais superficial (derme superior e linfáticos dérmicos), explicando a borda mais nitidamente demarcada e elevada desta última",
+      "Celulite purulenta é mais associada a Staphylococcus aureus (incluindo cepas resistentes à meticilina), enquanto a forma não purulenta é mais associada a estreptococos",
+      "Dor desproporcional ao exame físico é o sinal de alerta mais importante para diferenciação precoce de fasciíte necrosante",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 55 anos, diabético, apresenta área de eritema, calor e edema de bordas mal definidas na perna direita, associada a febre baixa, há 2 dias. Identifica-se tinea pedis interdigital no mesmo membro.",
+      pergunta: "Qual o diagnóstico mais provável, a provável porta de entrada e o tratamento indicado?",
+      raciocinio:
+        "Eritema, calor e edema de instalação aguda em membro inferior, associados a porta de entrada identificável (tinea pedis interdigital), são característicos de celulite bacteriana não purulenta, mais comumente por estreptococos.",
+      conduta:
+        "Iniciar antibioticoterapia empírica dirigida a estreptococos; tratar concomitantemente a tinea pedis interdigital para reduzir o risco de recorrência; orientar elevação do membro acometido.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina-clavulanato", nome: "Amoxicilina + Clavulanato" },
+    ],
+    medicamentosNota:
+      "A amoxicilina + clavulanato é opção razoável para celulite não purulenta leve a moderada; esquemas com cobertura específica para Staphylococcus aureus resistente à meticilina, quando indicados, ainda não têm ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia e distinção entre celulite e erisipela por profundidade de acometimento", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Classificação purulenta versus não purulenta e escolha antibiótica empírica", fonte: "IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections, 2014" },
+    ],
+  },
+  {
+    slug: "urticaria",
+    nome: "Urticária",
+    sinonimos: ["Urticária aguda", "Urticária crônica"],
+    cid10: "L50",
+    especialidade: "Dermatologia",
+    etiologia: "Multifatorial",
+    resumo: "Erupção cutânea pruriginosa caracterizada por pápulas e placas eritematosas evanescentes (urticas), decorrente da degranulação de mastócitos dérmicos, classificada em aguda (a maioria, autolimitada) e crônica (persistindo além de 6 semanas).",
+    definicao:
+      "Erupção cutânea caracterizada por lesões papulosas ou em placa, eritematosas ou de coloração da pele, pruriginosas, de caráter evanescente (cada lesão individual dura tipicamente menos de 24 horas, embora novas lesões continuem a surgir), classificada em aguda (duração até 6 semanas) e crônica (além de 6 semanas).",
+    epidemiologia:
+      "Acomete uma proporção significativa da população ao longo da vida, com a forma aguda sendo consideravelmente mais comum que a crônica; na urticária aguda, causas identificáveis incluem infecções virais (a mais comum, especialmente em crianças), alimentos, medicamentos e picadas de inseto, enquanto na urticária crônica espontânea, a maioria dos casos permanece sem causa externa identificável.",
+    fisiopatologia:
+      "A lesão urticariforme resulta da degranulação de mastócitos dérmicos, com liberação de histamina e outros mediadores inflamatórios que causam vasodilatação e aumento da permeabilidade vascular (formando a pápula/placa edematosa) e estimulação de terminações nervosas sensoriais (causando o prurido característico); a degranulação pode ser desencadeada por mecanismo IgE-mediado (alérgeno específico), por ativação direta não imunológica dos mastócitos, ou, na urticária crônica espontânea, por autoanticorpos contra o receptor de IgE ou contra a própria IgE em uma proporção significativa dos casos.",
+    classificacao:
+      "Classificada temporalmente em aguda (até 6 semanas de duração, a mais comum) e crônica (além de 6 semanas, subdividida em espontânea, quando não há gatilho externo identificável, e induzível, quando há gatilho físico específico como frio, pressão, ou exercício).",
+    quadroClinico: [
+      "Pápulas ou placas eritematosas, pruriginosas, de tamanho e forma variáveis, com caráter migratório e evanescente característico (lesões individuais resolvem em menos de 24 horas sem deixar marca residual)",
+      "Angioedema associado em uma proporção dos casos, caracterizado por edema mais profundo (derme profunda/subcutâneo), tipicamente acometendo face, lábios ou extremidades, geralmente sem prurido significativo",
+      "Ausência de descamação ou alteração de coloração residual após resolução de cada lesão individual, achado que distingue a urticária verdadeira de outras erupções cutâneas",
+    ],
+    diagnostico: [
+      "Diagnóstico eminentemente clínico, pela morfologia e pelo caráter evanescente característico das lesões",
+      "Investigação etiológica direcionada pela história clínica na urticária aguda (exposição a alimento, medicamento, infecção recente); na urticária crônica espontânea, investigação extensa geralmente não identifica causa específica e não é rotineiramente recomendada além de uma avaliação básica",
+    ],
+    examesComplementares: [
+      "Testes de alergia (cutâneos ou IgE específica) reservados para casos com história sugestiva de gatilho alergênico específico, não indicados rotineiramente na urticária crônica espontânea sem gatilho suspeito",
+      "Biópsia cutânea reservada para lesões atípicas (persistindo além de 24 horas, deixando hiperpigmentação residual, ou associadas a dor em vez de prurido), para exclusão de vasculite urticariforme",
+    ],
+    diagnosticoDiferencial: [
+      "Vasculite urticariforme, diagnóstico diferencial importante quando as lesões persistem além de 24 horas, são dolorosas em vez de pruriginosas, ou deixam hiperpigmentação residual, achados que devem motivar biópsia",
+      "Eritema multiforme, distinguido pela morfologia em alvo característica e pela distribuição típica em extremidades",
+      "Dermatite de contato, distinguida pela distribuição correspondente à área de exposição e pela ausência do caráter evanescente característico da urticária",
+    ],
+    tratamento: [
+      "Anti-histamínicos H1 de segunda geração (não sedantes), tratamento de primeira linha tanto para urticária aguda quanto crônica, podendo ter a dose aumentada (até 4 vezes a dose padrão) em casos refratários à dose habitual",
+      "Identificação e remoção do gatilho identificado, quando aplicável (medicamento, alimento específico)",
+      "Omalizumabe (anticorpo monoclonal anti-IgE), tratamento de segunda linha eficaz para urticária crônica espontânea refratária a doses otimizadas de anti-histamínico",
+      "Corticosteroide sistêmico em curto prazo reservado para exacerbações agudas graves, não recomendado para uso crônico continuado pelo perfil de efeitos adversos",
+    ],
+    complicacoes: [
+      "Aguda: angioedema envolvendo estruturas de via aérea superior (raro, mas potencialmente fatal quando ocorre), anafilaxia quando a urticária é parte de uma reação alérgica sistêmica mais ampla",
+      "Crônica: impacto significativo na qualidade de vida e no sono pelo prurido persistente na forma crônica",
+    ],
+    redFlags: [
+      "Lesões que persistem além de 24 horas, são dolorosas (em vez de pruriginosas), ou deixam hiperpigmentação residual não são urticária típica e devem motivar investigação para vasculite urticariforme",
+      "Angioedema envolvendo língua, lábios ou via aérea superior, especialmente com dificuldade respiratória associada, é emergência que exige avaliação e tratamento imediatos para exclusão de anafilaxia",
+    ],
+    prognostico:
+      "Excelente para a urticária aguda, com resolução completa em dias a poucas semanas na maioria dos casos; a urticária crônica espontânea tem curso mais prolongado e variável, mas a maioria dos casos eventualmente entra em remissão espontânea ao longo de meses a poucos anos, com bom controle sintomático disponível através do tratamento escalonado.",
+    pontosDeProva: [
+      "O caráter evanescente (cada lesão individual dura menos de 24 horas, sem deixar marca residual) é a característica definidora que distingue a urticária verdadeira de outras erupções, incluindo a vasculite urticariforme",
+      "Anti-histamínicos H1 de segunda geração são o tratamento de primeira linha, podendo ter a dose aumentada até 4 vezes antes de se considerar tratamento de segunda linha",
+      "Na urticária crônica espontânea, autoanticorpos contra o receptor de IgE ou contra a própria IgE explicam uma proporção significativa dos casos sem gatilho externo identificável",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 34 anos, apresenta pápulas eritematosas pruriginosas, migratórias, que surgem e desaparecem ao longo do dia (cada lesão durando poucas horas), há 8 semanas, sem gatilho identificável.",
+      pergunta: "Qual a classificação desse quadro e o tratamento de primeira linha?",
+      raciocinio:
+        "Lesões urticariformes evanescentes persistindo além de 6 semanas, sem gatilho externo identificável, caracterizam urticária crônica espontânea, quadro que responde ao mesmo tratamento de primeira linha da forma aguda.",
+      conduta:
+        "Iniciar anti-histamínico H1 de segunda geração em dose padrão, com possibilidade de aumento de dose (até 4 vezes) se resposta inadequada; considerar omalizumabe caso permaneça refratária.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os anti-histamínicos H1 de segunda geração, tratamento de primeira linha, e o omalizumabe, opção de segunda linha, ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Fisiopatologia da degranulação mastocitária e mecanismos na urticária crônica espontânea", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Escalonamento terapêutico (anti-histamínico em dose aumentada, omalizumabe) e critérios diagnósticos temporais", fonte: "EAACI/GA²LEN/EuroGuiDerm/APAAACI Guideline for the Definition, Classification, Diagnosis, and Management of Urticaria, 2022" },
+    ],
+  },
+  {
+    slug: "penfigo",
+    nome: "Pênfigo",
+    sinonimos: ["Pênfigo vulgar", "Pênfigo foliáceo"],
+    cid10: "L10",
+    especialidade: "Dermatologia",
+    etiologia: "Autoimune",
+    resumo: "Grupo de doenças bolhosas autoimunes graves da pele e mucosas, causadas por autoanticorpos contra proteínas de adesão intercelular dos queratinócitos (desmogleínas), com o pênfigo vulgar sendo a forma mais comum e potencialmente fatal se não tratada.",
+    definicao:
+      "Grupo de doenças bolhosas autoimunes raras, causadas por autoanticorpos IgG dirigidos contra desmogleínas (proteínas desmossômicas responsáveis pela adesão entre queratinócitos), resultando em perda da coesão intercelular epidérmica (acantólise) e formação de bolhas intraepidérmicas flácidas e frágeis.",
+    epidemiologia:
+      "Doença rara, mas potencialmente fatal se não tratada, com pico de incidência entre a quinta e sexta décadas de vida; sem predileção de sexo marcante, com variação de incidência geográfica (mais comum em algumas populações mediterrâneas e judaicas, refletindo predisposição genética associada a determinados haplótipos HLA).",
+    fisiopatologia:
+      "Autoanticorpos IgG dirigidos contra a desmogleína 3 (predominantemente, no pênfigo vulgar com acometimento mucoso) e/ou desmogleína 1 (predominantemente, no pênfigo foliáceo, forma mais superficial e sem acometimento mucoso significativo) rompem a adesão desmossômica entre queratinócitos, causando acantólise (perda de coesão celular) e formação de bolhas intraepidérmicas flácidas, que se rompem facilmente pela fragilidade do teto da bolha.",
+    classificacao:
+      "Classificado principalmente em pênfigo vulgar (a forma mais comum e mais grave, com acometimento mucoso proeminente, frequentemente a primeira manifestação, decorrente de anticorpos anti-desmogleína 3, por vezes também anti-desmogleína 1) e pênfigo foliáceo (mais superficial, restrito à pele, sem acometimento mucoso, decorrente de anticorpos anti-desmogleína 1 isolados).",
+    quadroClinico: [
+      "Pênfigo vulgar: erosões orais dolorosas, frequentemente a manifestação inicial e por vezes isolada por meses antes do acometimento cutâneo, seguidas de bolhas cutâneas flácidas e frágeis que se rompem rapidamente, deixando erosões dolorosas",
+      "Sinal de Nikolsky positivo (descolamento da epiderme aparentemente normal com pressão lateral tangencial), achado característico que reflete a fragilidade da adesão intraepidérmica",
+      "Pênfigo foliáceo: erosões e crostas superficiais, sem bolhas íntegras evidentes (pela extrema superficialidade e fragilidade da bolha) e sem acometimento de mucosas",
+    ],
+    diagnostico: [
+      "Biópsia cutânea com histopatologia mostrando acantólise e bolha intraepidérmica em nível característico para cada subtipo (suprabasal no pênfigo vulgar, subcórneo no foliáceo)",
+      "Imunofluorescência direta de pele perilesional, exame confirmatório padrão-ouro, demonstrando depósito de IgG (e frequentemente C3) no padrão intercelular epidérmico ('em favo de mel' ou 'em rede de pesca')",
+    ],
+    examesComplementares: [
+      "Imunofluorescência indireta e ELISA para anticorpos anti-desmogleína 1 e 3 séricos, exames que auxiliam tanto no diagnóstico quanto na monitorização da atividade da doença e da resposta terapêutica ao longo do tempo",
+    ],
+    diagnosticoDiferencial: [
+      "Penfigoide bolhoso, principal diagnóstico diferencial bolhoso autoimune, distinguido por bolhas tensas (não flácidas), acometimento mucoso menos proeminente, e depósito de anticorpos na membrana basal (não intercelular) à imunofluorescência",
+      "Eritema multiforme e síndrome de Stevens-Johnson, diagnósticos diferenciais de lesões mucocutâneas erosivas, distinguidos por contexto clínico (frequentemente relacionado a medicamento ou infecção) e achados histopatológicos distintos",
+      "Estomatite aftosa recorrente, diagnóstico diferencial das erosões orais isoladas, distinguida pela ausência de acantólise à biópsia quando há dúvida",
+    ],
+    tratamento: [
+      "Corticosteroide sistêmico em dose alta, tratamento de primeira linha para controle inicial da atividade da doença, historicamente associado a redução significativa da mortalidade antes considerada muito elevada",
+      "Rituximabe (anticorpo monoclonal anti-CD20), atualmente recomendado como tratamento de primeira linha em associação ao corticosteroide para a maioria dos pacientes, por permitir remissão mais duradoura e redução da dose cumulativa de corticosteroide necessária",
+      "Imunossupressores poupadores de corticosteroide (azatioprina, micofenolato de mofetila) como alternativa ou complemento em casos selecionados",
+      "Cuidados de suporte para as lesões mucocutâneas extensas (analgesia, prevenção de infecção secundária), especialmente relevantes na doença mais extensa",
+    ],
+    complicacoes: [
+      "Aguda: infecção secundária das erosões extensas, distúrbios hidroeletrolíticos em doença muito extensa (perda de função de barreira cutânea semelhante a grande queimado)",
+      "Crônica: complicações relacionadas ao uso prolongado de corticosteroide sistêmico e imunossupressores quando necessários por período prolongado",
+    ],
+    redFlags: [
+      "Erosões orais dolorosas persistentes e inexplicadas devem incluir pênfigo vulgar no diagnóstico diferencial, dado que frequentemente precedem o acometimento cutâneo por semanas a meses",
+      "Doença extensa e não tratada carrega risco de mortalidade significativo (historicamente elevado antes da disponibilidade de corticosteroide sistêmico e, mais recentemente, rituximabe), refletindo a gravidade potencial da condição",
+    ],
+    prognostico:
+      "Substancialmente melhorado com o tratamento moderno (corticosteroide associado a rituximabe), permitindo remissão prolongada ou completa em uma proporção significativa dos pacientes; antes da era do corticosteroide sistêmico, a mortalidade era muito elevada, refletindo a gravidade intrínseca da doença não tratada.",
+    pontosDeProva: [
+      "O sinal de Nikolsky positivo reflete a fragilidade da adesão intraepidérmica e é característico (embora não exclusivo) do pênfigo",
+      "Pênfigo vulgar (anti-desmogleína 3, acometimento mucoso proeminente) e pênfigo foliáceo (anti-desmogleína 1, sem acometimento mucoso) são as duas formas principais, distinguidas pelo alvo antigênico e pelo nível da bolha",
+      "Rituximabe é atualmente recomendado como tratamento de primeira linha associado ao corticosteroide, não apenas como opção de resgate para casos refratários",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 52 anos, apresenta erosões orais dolorosas persistentes há 2 meses, seguidas do surgimento de bolhas cutâneas flácidas que se rompem facilmente, deixando erosões dolorosas no tronco.",
+      pergunta: "Qual o diagnóstico mais provável e o exame confirmatório de escolha?",
+      raciocinio:
+        "Erosões orais precedendo bolhas cutâneas flácidas e frágeis é o padrão clássico de apresentação do pênfigo vulgar, devendo ser confirmado por biópsia com imunofluorescência direta demonstrando o padrão intercelular característico.",
+      conduta:
+        "Realizar biópsia de pele perilesional para imunofluorescência direta e histopatologia convencional para confirmação diagnóstica; iniciar corticosteroide sistêmico em dose alta associado a rituximabe conforme confirmação.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "prednisona", nome: "Prednisona" },
+    ],
+    medicamentosSecaoTitulo: "Componente corticoide do tratamento de primeira linha (associado a rituximabe na maioria dos protocolos atuais)",
+    medicamentosNota:
+      "O rituximabe, hoje recomendado em associação ao corticosteroide como tratamento de primeira linha, ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia dos autoanticorpos anti-desmogleína e distinção entre pênfigo vulgar e foliáceo", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Rituximabe como tratamento de primeira linha associado ao corticosteroide", fonte: "Joly P et al., First-line rituximab combined with short-term prednisone versus prednisone alone for the treatment of pemphigus, The Lancet, 2017" },
+    ],
+  },
+  {
+    slug: "dermatite-seborreica",
+    nome: "Dermatite seborreica",
+    sinonimos: ["Caspa", "Eczema seborreico"],
+    cid10: "L21",
+    especialidade: "Dermatologia",
+    etiologia: "Multifatorial",
+    resumo: "Dermatose inflamatória crônica comum, associada à proliferação da levedura Malassezia em áreas ricas em glândulas sebáceas, causando descamação e eritema em couro cabeludo, face e outras regiões seborreicas.",
+    definicao:
+      "Dermatose inflamatória crônica e recidivante que acomete áreas ricas em glândulas sebáceas (couro cabeludo, face, especialmente sulcos nasolabiais e sobrancelhas, e região pré-esternal), caracterizada por eritema e descamação untuosa amarelada, associada à proliferação do fungo comensal Malassezia.",
+    epidemiologia:
+      "Extremamente comum, com distribuição bimodal: forma infantil (crosta láctea, tipicamente autolimitada nos primeiros meses de vida) e forma do adulto (mais crônica e recidivante, com pico entre 30-60 anos); mais prevalente e frequentemente mais grave em pacientes imunossuprimidos, particularmente naqueles vivendo com HIV, e em pacientes com doença de Parkinson.",
+    fisiopatologia:
+      "A levedura lipofílica Malassezia, componente normal da flora cutânea, prolifera em resposta à produção de sebo nas áreas seborreicas, e seus metabólitos (ácidos graxos livres gerados pela lipase fúngica atuando sobre os lipídios sebáceos) desencadeiam resposta inflamatória cutânea em indivíduos predispostos, embora a quantidade absoluta de Malassezia não se correlacione diretamente com a gravidade clínica, sugerindo papel adicional de suscetibilidade imunológica individual.",
+    classificacao:
+      "Classificada por faixa etária em forma infantil (crosta láctea, geralmente autolimitada) e forma do adulto (crônica e recidivante); também descrita por localização (couro cabeludo, facial, do tronco), com variação na gravidade e na resposta terapêutica conforme o sítio acometido.",
+    quadroClinico: [
+      "Descamação untuosa, amarelada, sobre base eritematosa, tipicamente em couro cabeludo (caspa quando leve, sem eritema significativo), sulcos nasolabiais, sobrancelhas e região pré-esternal",
+      "Prurido variável, geralmente leve a moderado, menos proeminente que na dermatite atópica",
+      "Crosta láctea na forma infantil, tipicamente autolimitada e resolvendo espontaneamente nos primeiros meses de vida sem necessidade de tratamento agressivo",
+      "Curso crônico e recidivante na forma adulta, com exacerbações frequentemente associadas a estresse, mudanças climáticas e certas estações do ano",
+    ],
+    diagnostico: [
+      "Diagnóstico eminentemente clínico, pela distribuição característica (áreas seborreicas) e pela morfologia da descamação (untuosa e amarelada)",
+      "Biópsia cutânea raramente necessária, reservada para casos atípicos ou refratários ao tratamento onde há dúvida diagnóstica",
+    ],
+    examesComplementares: [
+      "Considerar rastreamento para HIV em casos de dermatite seborreica extensa, atípica ou refratária, especialmente em adultos jovens sem outros fatores de risco identificados, dado a associação reconhecida com imunossupressão",
+    ],
+    diagnosticoDiferencial: [
+      "Psoríase de couro cabeludo, distinguida pelas escamas mais espessas e prateadas (versus untuosas e amareladas na dermatite seborreica), embora sobreposição clínica seja comum ('sebopsoríase')",
+      "Dermatite atópica, distinguida pela distribuição tipicamente flexural e pelo prurido geralmente mais proeminente",
+      "Tinea capitis, distinguida pela presença de alopecia e confirmada por exame micológico quando há dúvida diagnóstica",
+    ],
+    tratamento: [
+      "Antifúngicos tópicos (cetoconazol ou outros derivados azólicos em xampu ou creme), tratamento de primeira linha, dirigido à redução da colonização por Malassezia",
+      "Corticosteroide tópico de baixa potência para controle da inflamação em exacerbações agudas, geralmente em curso curto pelo risco de efeitos adversos locais com uso prolongado em face",
+      "Xampus com agentes queratolíticos (ácido salicílico, alcatrão) como opção adjuvante para couro cabeludo com descamação mais espessa",
+    ],
+    complicacoes: [
+      "Aguda: infecção secundária bacteriana das lesões escoriadas pelo coçar",
+      "Crônica: impacto estético e psicossocial pela cronicidade e visibilidade das lesões faciais, curso recidivante ao longo da vida na forma adulta",
+    ],
+    redFlags: [
+      "Dermatite seborreica súbita, extensa ou atípica em adulto jovem sem fatores de risco conhecidos deve motivar consideração de rastreamento para HIV, dado que a doença pode ser mais grave e extensa em contexto de imunossupressão",
+    ],
+    prognostico:
+      "Excelente controle sintomático com tratamento tópico apropriado, embora a doença tenha caráter crônico e recidivante na forma adulta, exigindo manutenção intermitente do tratamento; a forma infantil (crosta láctea) tipicamente resolve espontaneamente sem necessidade de tratamento prolongado.",
+    pontosDeProva: [
+      "A levedura Malassezia tem papel central na fisiopatologia, mas a quantidade absoluta do fungo não se correlaciona diretamente com a gravidade clínica, sugerindo suscetibilidade individual adicional",
+      "Dermatite seborreica extensa e atípica em adulto jovem deve levantar suspeita de imunossupressão subjacente, particularmente infecção por HIV",
+      "Antifúngicos tópicos (não apenas corticosteroides) são o tratamento de primeira linha, refletindo o papel etiológico central da Malassezia",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 35 anos, apresenta descamação untuosa e amarelada em couro cabeludo, sulcos nasolabiais e sobrancelhas, com prurido leve, há vários meses, com períodos de melhora e piora.",
+      pergunta: "Qual o diagnóstico mais provável e o tratamento de primeira linha?",
+      raciocinio:
+        "Descamação untuosa e amarelada em distribuição característica de áreas seborreicas (couro cabeludo, sulcos nasolabiais, sobrancelhas), com curso crônico e recidivante, é compatível com dermatite seborreica do adulto.",
+      conduta:
+        "Prescrever antifúngico tópico (cetoconazol em xampu/creme) como tratamento de primeira linha; associar corticosteroide tópico de baixa potência em curso curto para as exacerbações mais inflamatórias.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os antifúngicos tópicos (cetoconazol) e os corticosteroides tópicos de baixa potência, tratamentos de primeira linha, ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Papel da Malassezia e fisiopatologia da resposta inflamatória cutânea", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Associação com imunossupressão/HIV e tratamento antifúngico tópico de primeira linha", fonte: "American Family Physician, Diagnosis and Treatment of Seborrheic Dermatitis, 2015" },
+    ],
+  },
+  {
+    slug: "dermatite-alergica-contato",
+    nome: "Dermatite alérgica de contato",
+    sinonimos: ["Eczema de contato alérgico"],
+    cid10: "L23",
+    especialidade: "Dermatologia",
+    etiologia: "Multifatorial",
+    resumo: "Reação de hipersensibilidade tipo IV (mediada por células T) da pele a um alérgeno específico de contato, causando lesão eczematosa pruriginosa restrita à área de exposição, com o níquel sendo um dos alérgenos mais comuns identificados.",
+    definicao:
+      "Reação inflamatória cutânea decorrente de hipersensibilidade tipo IV (retardada, mediada por linfócitos T) a um alérgeno específico após contato direto com a pele, exigindo sensibilização prévia (exposição inicial sem reação clínica, seguida de exposições subsequentes que desencadeiam a resposta inflamatória).",
+    epidemiologia:
+      "Extremamente comum, com alérgenos frequentes incluindo níquel (joias, fivelas), fragrâncias e conservantes em cosméticos, látex, e plantas (como a hera venenosa em populações com exposição); o níquel é classicamente um dos alérgenos de contato mais comumente identificados em testes de contato (patch tests) em diversas populações.",
+    fisiopatologia:
+      "Após exposição inicial (fase de sensibilização), o alérgeno (geralmente um hapteno de baixo peso molecular) penetra a epiderme e é processado por células de Langerhans, que o apresentam a linfócitos T virgens nos linfonodos regionais, gerando células de memória; em exposições subsequentes (fase de eliciação), essas células T de memória são reativadas na pele, desencadeando uma resposta inflamatória mediada por citocinas que se manifesta clinicamente após 24 a 72 horas da reexposição.",
+    classificacao:
+      "Classificada quanto ao padrão temporal em aguda (eritema, vesiculação, exsudação, em exposição recente ou intensa) e crônica (liquenificação, descamação, em exposição repetida de baixo grau); também categorizada pelo alérgeno identificado (níquel, fragrâncias, látex, plantas, entre outros) quando investigada.",
+    quadroClinico: [
+      "Lesão eczematosa pruriginosa (eritema, vesículas em fase aguda; liquenificação em fase crônica) restrita e bem correlacionada com a área de contato com o alérgeno, achado central que orienta a suspeita etiológica",
+      "Distribuição geométrica ou com bordas nitidamente demarcadas correspondendo ao objeto ou substância de contato (por exemplo, faixa circular no pulso por relógio contendo níquel), achado característico que auxilia a diferenciação de outras dermatoses",
+      "Latência de 24 a 72 horas entre a reexposição ao alérgeno e o surgimento das lesões, refletindo a natureza retardada (tipo IV) da reação",
+    ],
+    diagnostico: [
+      "Anamnese detalhada de exposições ocupacionais, cosméticas e de contato, correlacionando temporalmente com o surgimento e a distribuição das lesões",
+      "Teste de contato (patch test), exame padrão-ouro para identificação do(s) alérgeno(s) específico(s) responsável(is), particularmente indicado em casos crônicos, recorrentes, ou quando a causa não é evidente pela história clínica",
+    ],
+    examesComplementares: [
+      "Bateria padronizada de alérgenos comuns no teste de contato, permitindo triagem sistemática mesmo quando o alérgeno suspeito não é evidente pela anamnese isolada",
+    ],
+    diagnosticoDiferencial: [
+      "Dermatite de contato irritativa, mecanismo não imunológico (lesão química/física direta, sem necessidade de sensibilização prévia), mais comum que a forma alérgica mas distinguida principalmente pela história de exposição e pela ausência de latência de sensibilização",
+      "Dermatite atópica, distinguida pela distribuição tipicamente flexural (não correspondente a um padrão de contato específico) e por história pessoal/familiar de atopia",
+      "Tinea corporis, distinguida por bordas ativas com crescimento centrífugo e confirmada por exame micológico quando há dúvida",
+    ],
+    tratamento: [
+      "Identificação e evitação do alérgeno causal, medida mais importante e definitiva, sem a qual o tratamento sintomático isolado tende a ser apenas paliativo com recorrências frequentes",
+      "Corticosteroide tópico, tratamento anti-inflamatório de primeira linha para as lesões agudas e crônicas, com potência ajustada à localização e gravidade",
+      "Corticosteroide sistêmico em curto curso reservado para casos extensos ou graves (como dermatite de contato alérgica generalizada por planta), quando o tratamento tópico isolado é insuficiente",
+    ],
+    complicacoes: [
+      "Aguda: infecção secundária de lesões escoriadas pelo coçar",
+      "Crônica: liquenificação e impacto na qualidade de vida quando a exposição ao alérgeno não identificado ou não evitável é contínua, resultando em dermatite persistente",
+    ],
+    redFlags: [
+      "A falha em identificar e evitar o alérgeno causal resulta em recorrência contínua da dermatite apesar do tratamento anti-inflamatório repetido, reforçando a importância central do teste de contato em casos crônicos ou recorrentes",
+      "Dermatite de contato ocupacional não reconhecida pode levar a exposição continuada e cronificação, com impacto na capacidade laboral do paciente",
+    ],
+    prognostico:
+      "Excelente quando o alérgeno causal é identificado e efetivamente evitado, com resolução completa das lesões; a persistência da exposição ao alérgeno não identificado resulta em curso crônico e recidivante, mesmo com tratamento anti-inflamatório sintomático repetido.",
+    pontosDeProva: [
+      "A dermatite alérgica de contato é uma reação de hipersensibilidade tipo IV (mediada por células T, retardada), exigindo sensibilização prévia, ao contrário da dermatite de contato irritativa (mecanismo não imunológico direto)",
+      "O teste de contato (patch test) é o exame padrão-ouro para identificação do alérgeno específico responsável, especialmente relevante em casos crônicos ou recorrentes",
+      "A distribuição geométrica ou nitidamente demarcada correspondendo ao objeto de contato é a pista clínica mais característica para a suspeita diagnóstica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 29 anos, apresenta lesão eczematosa pruriginosa em faixa circular no pulso, correspondendo exatamente à área de contato com um relógio, com início cerca de 2 dias após começar a usar o acessório novo.",
+      pergunta: "Qual o diagnóstico mais provável e a conduta terapêutica e investigativa apropriada?",
+      raciocinio:
+        "Lesão eczematosa com distribuição geométrica correspondendo precisamente à área de contato com um objeto metálico, com latência de dias após a exposição, é característica de dermatite alérgica de contato, com o níquel sendo um alérgeno comumente implicado em relógios e joias.",
+      conduta:
+        "Orientar a suspensão do uso do relógio (evitação do alérgeno suspeito); prescrever corticosteroide tópico para as lesões; considerar teste de contato (patch test) para confirmação do alérgeno específico se houver recorrência com outros itens metálicos.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os corticosteroides tópicos, tratamento de primeira linha, ainda não têm ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia da hipersensibilidade tipo IV (sensibilização e eliciação)", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Papel do teste de contato (patch test) e alérgenos mais comuns (níquel)", fonte: "North American Contact Dermatitis Group Patch Test Results, 2021-2022" },
+    ],
+  },
+  {
+    slug: "abscesso-cutaneo-furunculo-antraz",
+    nome: "Abscesso cutâneo, furúnculo e antraz",
+    sinonimos: ["Furunculose", "Carbúnculo cutâneo"],
+    cid10: "L02",
+    especialidade: "Dermatologia",
+    etiologia: "Bacteriana",
+    resumo: "Infecções piogênicas cutâneas localizadas centradas em folículos pilosos (furúnculo, antraz) ou em tecido mole (abscesso), causadas predominantemente por Staphylococcus aureus, cujo tratamento primário é a drenagem, com antibioticoterapia adjuvante em casos selecionados.",
+    definicao:
+      "Espectro de infecções piogênicas localizadas da pele: furúnculo (infecção profunda de um único folículo piloso com necrose e formação de coleção purulenta central), antraz/carbúnculo (coalescência de múltiplos furúnculos adjacentes, formando massa inflamatória com múltiplos pontos de drenagem) e abscesso cutâneo (coleção purulenta localizada na derme/subcutâneo, não necessariamente centrada em folículo piloso).",
+    epidemiologia:
+      "Extremamente comuns, com Staphylococcus aureus (incluindo cepas resistentes à meticilina adquiridas na comunidade, cuja prevalência tem aumentado significativamente) sendo o agente etiológico predominante; fatores de risco incluem obesidade, diabetes mellitus, hiperidrose, fricção cutânea em áreas intertriginosas e colonização nasal por Staphylococcus aureus.",
+    fisiopatologia:
+      "A infecção se inicia tipicamente na unidade pilossebácea (furúnculo) ou em local de solução de continuidade cutânea (abscesso), com proliferação bacteriana levando à formação de coleção purulenta circundada por tecido inflamado; o antraz resulta da extensão da infecção através do tecido subcutâneo conectando múltiplos folículos adjacentes, formando uma massa com múltiplos trajetos de drenagem à superfície.",
+    classificacao:
+      "Classificado em furúnculo (folículo único), antraz/carbúnculo (múltiplos folículos coalescentes, tipicamente em região de pele espessa como nuca e dorso, associado a maior repercussão sistêmica) e abscesso cutâneo (coleção purulenta não necessariamente folicular); também classificado quanto à presença de sinais sistêmicos de infecção, que orientam a necessidade de antibioticoterapia adjuvante à drenagem.",
+    quadroClinico: [
+      "Nódulo eritematoso, doloroso e flutuante, evoluindo para coleção purulenta central com ponto de drenagem espontânea, achado característico do furúnculo e do abscesso",
+      "Antraz: massa inflamatória maior e mais dolorosa que o furúnculo isolado, com múltiplos pontos de drenagem purulenta na superfície, frequentemente acompanhada de febre e mal-estar sistêmico mais proeminentes que nas lesões isoladas",
+      "Furunculose recorrente (múltiplos episódios) sugere colonização nasal persistente por Staphylococcus aureus ou fator predisponente sistêmico não corrigido (diabetes, obesidade)",
+    ],
+    diagnostico: [
+      "Diagnóstico eminentemente clínico, pela identificação de nódulo/massa flutuante e dolorosa com sinais inflamatórios característicos",
+      "Cultura de secreção purulenta, particularmente relevante em lesões recorrentes, extensas, ou com sinais sistêmicos significativos, para identificação de cepas resistentes e orientação da antibioticoterapia quando indicada",
+    ],
+    examesComplementares: [
+      "Rastreamento de diabetes mellitus em casos de furunculose recorrente sem outro fator predisponente identificado",
+      "Cultura de swab nasal para colonização por Staphylococcus aureus em casos de furunculose recorrente, para orientar medidas de descolonização quando indicado",
+    ],
+    diagnosticoDiferencial: [
+      "Cisto epidermoide inflamado, lesão cística benigna que pode se inflamar e mimetizar abscesso, distinguida pela presença de ponto central (poro) e conteúdo caseoso característico quando não infectado",
+      "Hidradenite supurativa, condição crônica recorrente de abscessos em áreas intertriginosas (axilas, região inguinal), distinguida pelo padrão recorrente característico e pela formação de trajetos fistulosos e cicatrizes",
+    ],
+    tratamento: [
+      "Incisão e drenagem, tratamento primário e mais importante para abscesso e furúnculo com coleção purulenta madura, sendo a antibioticoterapia isolada insuficiente sem a drenagem mecânica da coleção",
+      "Antibioticoterapia sistêmica adjuvante à drenagem indicada em lesões extensas, múltiplas, com celulite circundante significativa, sinais sistêmicos de infecção, ou em pacientes imunocomprometidos, com cobertura considerando a possibilidade de Staphylococcus aureus resistente à meticilina conforme o perfil epidemiológico local",
+      "Compressas mornas como medida adjuvante para acelerar a maturação e drenagem espontânea de lesões ainda não flutuantes",
+      "Descolonização nasal (mupirocina intranasal) e medidas de higiene em casos de furunculose recorrente associada a colonização persistente por Staphylococcus aureus",
+    ],
+    complicacoes: [
+      "Aguda: celulite circundante, bacteremia/sepse em casos extensos ou em pacientes imunocomprometidos",
+      "Crônica: furunculose recorrente quando fatores predisponentes (colonização nasal, diabetes, obesidade) não são identificados e corrigidos",
+    ],
+    redFlags: [
+      "Antraz com sinais sistêmicos significativos (febre alta, mal-estar importante) exige avaliação para necessidade de antibioticoterapia sistêmica além da drenagem, diferentemente do furúnculo isolado não complicado",
+      "Furunculose recorrente deve motivar investigação de fatores predisponentes (diabetes, colonização nasal por Staphylococcus aureus) para prevenção de novos episódios",
+    ],
+    prognostico:
+      "Excelente com drenagem apropriada, isolada ou associada a antibioticoterapia quando indicada, com resolução completa na grande maioria dos casos; a recorrência é a principal preocupação de longo prazo quando fatores predisponentes não são identificados e corrigidos.",
+    pontosDeProva: [
+      "A incisão e drenagem é o tratamento primário e mais importante para abscesso/furúnculo com coleção purulenta madura — antibioticoterapia isolada sem drenagem é insuficiente para lesões já flutuantes",
+      "Staphylococcus aureus resistente à meticilina adquirido na comunidade é uma causa cada vez mais prevalente, devendo ser considerado na escolha da antibioticoterapia adjuvante quando indicada",
+      "Furunculose recorrente deve motivar investigação de colonização nasal persistente por Staphylococcus aureus e de diabetes mellitus subjacente",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 40 anos, obeso, apresenta nódulo doloroso e flutuante na nuca há 4 dias, que evoluiu para massa maior com múltiplos pontos de drenagem purulenta na superfície, associada a febre de 38,3°C.",
+      pergunta: "Qual o diagnóstico mais provável e a conduta terapêutica apropriada?",
+      raciocinio:
+        "Massa inflamatória com múltiplos pontos de drenagem purulenta, maior e mais sintomática que um furúnculo isolado, associada a febre, é característica de antraz/carbúnculo, exigindo drenagem associada a antibioticoterapia sistêmica dada a repercussão sistêmica presente.",
+      conduta:
+        "Realizar incisão e drenagem da coleção; associar antibioticoterapia sistêmica dado o sinal sistêmico de infecção (febre); investigar diabetes mellitus como possível fator predisponente dado o contexto de obesidade.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina-clavulanato", nome: "Amoxicilina + Clavulanato" },
+    ],
+    medicamentosSecaoTitulo: "Antibioticoterapia adjuvante à drenagem quando indicada (drenagem é o tratamento primário)",
+    medicamentosNota:
+      "A amoxicilina + clavulanato é uma opção quando há indicação de antibioticoterapia adjuvante; esquemas com cobertura específica para Staphylococcus aureus resistente à meticilina, quando o perfil local exige, ainda não têm ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia da infecção pilossebácea e classificação furúnculo/antraz/abscesso", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Indicação de drenagem como tratamento primário e critérios para antibioticoterapia adjuvante", fonte: "IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections, 2014" },
     ],
   },
 ];

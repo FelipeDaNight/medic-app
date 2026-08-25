@@ -313,6 +313,9 @@ export const medications: Medication[] = [
       { slug: "doenca-diverticular", nome: "Doença diverticular do intestino" },
       { slug: "abscesso-periamigdaliano", nome: "Abscesso periamigdaliano" },
       { slug: "mastite-puerperal-afeccoes-mama-lactacao", nome: "Mastite puerperal e outras afecções da mama e lactação" },
+      { slug: "impetigo", nome: "Impetigo" },
+      { slug: "celulite-flegmao", nome: "Celulite e flegmão" },
+      { slug: "abscesso-cutaneo-furunculo-antraz", nome: "Abscesso cutâneo, furúnculo e antraz" },
     ],
     fontes: [
       { tema: "Mecanismo de ação (inibição de betalactamase)", fonte: "Goodman & Gilman, 13ª ed." },
@@ -766,6 +769,7 @@ export const medications: Medication[] = [
       { slug: "nefrite-tubulo-intersticial-aguda", nome: "Nefrite túbulo-intersticial aguda" },
       { slug: "transtornos-funcao-vestibular", nome: "Transtornos da função vestibular" },
       { slug: "polipo-nasal", nome: "Pólipo nasal" },
+      { slug: "penfigo", nome: "Pênfigo" },
     ],
     fontes: [
       { tema: "Mecanismo de ação glicocorticoide", fonte: "Goodman & Gilman, 13ª ed." },

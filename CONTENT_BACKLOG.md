@@ -15,7 +15,7 @@ Fontes:
   está, o único item da lista ainda pendente por esse motivo.
 
 Já documentados com ficha completa (**fora deste backlog**, não repetir):
-- **Doenças (270):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
+- **Doenças (281):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
   · Dengue · COVID-19 · Gastrite · DRGE · Artrite reumatoide · LES · Alzheimer · Anemia
   ferropriva · DRC · Infarto agudo do miocárdio · Angina pectoris · Doença isquêmica
   crônica do coração · Fibrilação e flutter atrial · Parada cardíaca · Febre reumática ·
@@ -112,7 +112,11 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   cordão umbilical (prolapso de cordão) · Lacerações e traumatismos
   obstétricos do parto · Hemorragia pós-parto · Infecção puerperal
   (endometrite pós-parto) · Embolia de líquido amniótico · Mastite
-  puerperal e outras afecções da mama e lactação
+  puerperal e outras afecções da mama e lactação · Psoríase · Dermatite
+  atópica · Melanoma maligno da pele · Outras neoplasias malignas da pele
+  (basocelular e espinocelular) · Impetigo · Celulite e flegmão ·
+  Urticária · Pênfigo · Dermatite seborreica · Dermatite alérgica de
+  contato · Abscesso cutâneo, furúnculo e antraz
 - **Medicamentos (29):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
@@ -480,25 +484,29 @@ agrupadas em uma única ficha.
 13. concluído — Embolia de líquido amniótico (O88)
 14. concluído — Mastite puerperal e outras afecções da mama/lactação (O91+O92)
 
-### Lote 21 — Dermatologia (11)
-1. pendente — Psoríase (L40)
-2. pendente — Dermatite atópica (L20)
-3. pendente — Melanoma maligno da pele (C43)
-4. pendente — Outras neoplasias malignas da pele / basocelular, espinocelular (C44)
-5. pendente — Impetigo (L01)
-6. pendente — Celulite / flegmão (L03)
-7. pendente — Urticária (L50)
-8. pendente — Pênfigo (L10)
-9. pendente — Dermatite seborreica (L21)
-10. pendente — Dermatite alérgica de contato (L23)
-11. pendente — Abscesso cutâneo, furúnculo e antraz (L02)
+### Lote 21 — Dermatologia (11) — ✅ CONCLUÍDO
+1. concluído — Psoríase (L40)
+2. concluído — Dermatite atópica (L20)
+3. concluído — Melanoma maligno da pele (C43)
+4. concluído — Outras neoplasias malignas da pele / basocelular, espinocelular (C44)
+5. concluído — Impetigo (L01)
+6. concluído — Celulite / flegmão (L03)
+7. concluído — Urticária (L50)
+8. concluído — Pênfigo (L10)
+9. concluído — Dermatite seborreica (L21)
+10. concluído — Dermatite alérgica de contato (L23)
+11. concluído — Abscesso cutâneo, furúnculo e antraz (L02)
 
-**Total: 11 doenças pendentes em 1 lote** (Lotes 1-13, Lotes 14-16
-(Otorrinolaringologia completa) e Lotes 17-20 (GO A, GO B, GO C e GO D)
-todos concluídos, além das 270 já fichadas. **Oftalmologia, Neurologia,
-Hematologia, Nefrologia+Urologia, Psiquiatria, Otorrinolaringologia e
-Ginecologia/Obstetrícia fechadas por completo. Próxima prioridade: Lote 21
-(Dermatologia, 11 itens), última especialidade pendente no backlog atual.**
+**Total: 0 doenças pendentes — todos os 21 lotes concluídos, 281 doenças
+fichadas.** Oftalmologia, Neurologia, Hematologia, Nefrologia+Urologia,
+Psiquiatria, Otorrinolaringologia, Ginecologia/Obstetrícia e Dermatologia
+estão todas fechadas por completo. **Não há próximo lote de doenças
+pendente no backlog atual** — qualquer novo lote exigirá extrair novas
+categorias CID-10 de `cid10-index.ts` (especialidades ainda não
+mapeadas: Cardiologia/Pneumologia/Gastroenterologia/etc. restantes fora
+dos lotes já listados, ou expansão de especialidades já fechadas para
+CID-10 mais raros) seguindo a mesma metodologia usada para Oftalmologia,
+ORL e GO.**
 
 ---
 
