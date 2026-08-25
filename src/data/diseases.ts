@@ -16172,4 +16172,966 @@ export const diseases: Disease[] = [
       { tema: "Excelente prognóstico do carcinoma glótico precoce e obrigatoriedade de laringoscopia na rouquidão persistente", fonte: "Goodman & Gilman, 13ª ed." },
     ],
   },
+  {
+    slug: "doenca-inflamatoria-pelvica",
+    nome: "Doença inflamatória pélvica (salpingite e ooforite)",
+    sinonimos: ["DIP", "Salpingite"],
+    cid10: "N70",
+    especialidade: "Ginecologia",
+    etiologia: "Bacteriana",
+    resumo: "Infecção polimicrobiana ascendente do trato genital superior feminino, mais comumente causada por infecção sexualmente transmissível não tratada, cuja principal complicação tardia é a infertilidade por fator tubário.",
+    definicao:
+      "Infecção do trato genital superior feminino, englobando qualquer combinação de endometrite, salpingite, abscesso tubo-ovariano e peritonite pélvica, resultante da ascensão de microrganismos a partir do colo uterino ou da vagina.",
+    epidemiologia:
+      "Mais comum em mulheres jovens sexualmente ativas, com fatores de risco incluindo múltiplos parceiros sexuais, ausência de método de barreira e histórico prévio de infecção sexualmente transmissível; Chlamydia trachomatis e Neisseria gonorrhoeae são os agentes classicamente implicados, embora a infecção seja tipicamente polimicrobiana, incluindo também flora vaginal endógena aeróbia e anaeróbia.",
+    fisiopatologia:
+      "Microrganismos do trato genital inferior (mais comumente adquiridos por via sexual) ascendem através do canal cervical até o endométrio e as tubas uterinas, desencadeando resposta inflamatória que pode progredir de endometrite isolada até salpingite, formação de abscesso tubo-ovariano e, em casos graves, peritonite pélvica generalizada. O dano inflamatório repetido ou extenso ao epitélio tubário compromete permanentemente sua função ciliar e sua patência, base fisiopatológica da infertilidade por fator tubário e do risco aumentado de gravidez ectópica em episódios subsequentes.",
+    classificacao:
+      "Classificada por gravidade em leve a moderada (tratamento ambulatorial possível) e grave (necessidade de internação), esta última definida por critérios como febre alta, náusea/vômitos importantes, abscesso tubo-ovariano ou falha do tratamento ambulatorial, além de gestação, imunossupressão ou impossibilidade de exclusão de emergência cirúrgica.",
+    quadroClinico: [
+      "Dor pélvica ou abdominal baixa, geralmente bilateral, de início subagudo, frequentemente iniciando ou piorando durante ou logo após a menstruação",
+      "Dor à mobilização do colo uterino e à palpação anexial bilateral ao exame ginecológico, achado central para a suspeita clínica",
+      "Febre, corrimento vaginal purulento ou anormal e sangramento uterino intermenstrual associados em muitos casos",
+      "Dispareunia (dor durante a relação sexual) é sintoma comum e frequentemente relatado",
+    ],
+    diagnostico: [
+      "Diagnóstico predominantemente clínico, dado que exames complementares têm sensibilidade limitada; critérios mínimos amplamente aceitos incluem dor à mobilização cervical, dor uterina ou dor anexial em mulher sexualmente ativa com risco, sem outra causa identificável",
+      "Testes de amplificação de ácido nucleico (NAAT) para Chlamydia trachomatis e Neisseria gonorrhoeae em amostra endocervical ou vaginal, para identificação do agente e rastreamento de parceiros",
+      "Ultrassonografia transvaginal reservada a casos de suspeita de abscesso tubo-ovariano ou quando o diagnóstico clínico é incerto",
+    ],
+    examesComplementares: [
+      "Testes de amplificação de ácido nucleico (NAAT) para Chlamydia trachomatis e Neisseria gonorrhoeae, exame de escolha para identificação etiológica",
+      "Ultrassonografia transvaginal demonstrando espessamento e dilatação tubária ou coleção tubo-ovariana em casos mais avançados",
+      "Proteína C-reativa e velocidade de hemossedimentação elevadas como marcadores inespecíficos de apoio à suspeita clínica",
+    ],
+    diagnosticoDiferencial: [
+      "Gravidez ectópica (sempre excluída com teste de gravidez em toda mulher em idade fértil com dor pélvica aguda, antes de assumir DIP)",
+      "Apendicite aguda (dor tipicamente unilateral à direita, sem os achados de mobilização cervical dolorosa característicos da DIP)",
+      "Cisto ovariano roto ou torção anexial (dor tipicamente unilateral e de início mais agudo, sem os sinais sistêmicos infecciosos proeminentes)",
+    ],
+    tratamento: [
+      "Antibioticoterapia empírica de amplo espectro cobrindo Chlamydia trachomatis, Neisseria gonorrhoeae e flora polimicrobiana anaeróbia/aeróbia deve ser iniciada assim que o diagnóstico clínico é considerado, sem aguardar confirmação laboratorial, dado o risco de sequelas com o atraso terapêutico",
+      "Tratamento ambulatorial é apropriado para a maioria dos casos leves a moderados, com reavaliação clínica em 72 horas para confirmar resposta adequada",
+      "Internação hospitalar indicada em casos graves, abscesso tubo-ovariano, gestação, impossibilidade de exclusão de emergência cirúrgica, ou falha do tratamento ambulatorial",
+      "Tratamento e rastreamento de parceiros sexuais é essencial para prevenir reinfecção",
+    ],
+    complicacoes: [
+      "Aguda: abscesso tubo-ovariano com risco de ruptura e peritonite generalizada, síndrome de Fitz-Hugh-Curtis (perihepatite por disseminação peritoneal da infecção, causando dor no quadrante superior direito)",
+      "Crônica: infertilidade por fator tubário, gravidez ectópica em gestações subsequentes (pelo dano ciliar tubário residual) e dor pélvica crônica, todas com risco cumulativo a cada episódio recorrente de DIP",
+    ],
+    redFlags: [
+      "Massa anexial palpável associada a febre alta e comprometimento do estado geral sugere abscesso tubo-ovariano, exigindo investigação de imagem e, por vezes, drenagem além da antibioticoterapia",
+      "Dor no quadrante superior direito associada a DIP sugere síndrome de Fitz-Hugh-Curtis (perihepatite), não devendo ser confundida com patologia biliar primária",
+    ],
+    prognostico:
+      "Com tratamento antibiótico precoce e adequado, a maioria dos episódios agudos resolve sem sequelas importantes; entretanto, o risco de infertilidade por fator tubário e de gravidez ectópica aumenta cumulativamente a cada episódio de DIP, reforçando a importância do diagnóstico e tratamento precoces mesmo em quadros leves.",
+    pontosDeProva: [
+      "O tratamento antibiótico empírico deve ser iniciado assim que a suspeita clínica é razoável, sem aguardar confirmação laboratorial, dado que o atraso terapêutico aumenta diretamente o risco de sequelas tubárias permanentes",
+      "O risco de infertilidade por fator tubário e de gravidez ectópica aumenta cumulativamente a cada episódio de DIP — conceito central sobre a gravidade de longo prazo desta condição frequentemente subestimada",
+      "A síndrome de Fitz-Hugh-Curtis (perihepatite associada à DIP) é causa importante e frequentemente cobrada de dor no quadrante superior direito em mulher jovem sexualmente ativa",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 24 anos, sexualmente ativa, apresenta dor pélvica bilateral há 4 dias, associada a corrimento vaginal purulento e febre baixa, com dor importante à mobilização do colo uterino ao exame.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "Dor pélvica bilateral com dor à mobilização cervical, corrimento purulento e febre em mulher jovem sexualmente ativa são achados característicos de doença inflamatória pélvica.",
+      conduta:
+        "Excluir gravidez com teste imediato; coletar amostra para NAAT de Chlamydia/gonococo; iniciar antibioticoterapia empírica de amplo espectro sem aguardar resultado laboratorial, dado o risco de sequelas tubárias com o atraso terapêutico.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O esquema antibiótico empírico de amplo espectro recomendado (associando cobertura para Chlamydia, gonococo e anaeróbios) ainda não tem seus componentes individuais documentados como ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia da ascensão polimicrobiana e dano tubário ciliar", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Síndrome de Fitz-Hugh-Curtis e critérios mínimos de diagnóstico clínico", fonte: "CDC Sexually Transmitted Infections Treatment Guidelines, 2021" },
+    ],
+  },
+  {
+    slug: "cervicite",
+    nome: "Cervicite (doença inflamatória do colo do útero)",
+    sinonimos: ["Cervicite mucopurulenta"],
+    cid10: "N72",
+    especialidade: "Ginecologia",
+    etiologia: "Bacteriana",
+    resumo: "Inflamação do colo uterino, mais comumente causada por infecção sexualmente transmissível (Chlamydia trachomatis ou Neisseria gonorrhoeae), frequentemente assintomática mas com potencial de ascender e causar doença inflamatória pélvica se não tratada.",
+    definicao:
+      "Inflamação do epitélio cervical, mais comumente de etiologia infecciosa sexualmente transmissível, podendo também ser causada por irritação química ou mecânica não infecciosa em uma minoria dos casos.",
+    epidemiologia:
+      "Mais comum em mulheres jovens sexualmente ativas, compartilhando os mesmos fatores de risco da doença inflamatória pélvica, da qual representa frequentemente a etapa inicial da infecção ascendente quando não tratada adequadamente.",
+    fisiopatologia:
+      "Microrganismos sexualmente transmissíveis (mais comumente Chlamydia trachomatis e Neisseria gonorrhoeae) infectam o epitélio colunar endocervical, desencadeando resposta inflamatória local com produção de secreção mucopurulenta característica; a ausência de tratamento permite a ascensão desses microrganismos ao trato genital superior, evoluindo para doença inflamatória pélvica.",
+    classificacao:
+      "Classificada etiologicamente em infecciosa (a mais comum e clinicamente mais relevante, por Chlamydia trachomatis, Neisseria gonorrhoeae, ou menos comumente Trichomonas vaginalis e vírus herpes simples) e não infecciosa (irritação química por produtos de higiene íntima, dispositivo intrauterino, ou causas alérgicas).",
+    quadroClinico: [
+      "Frequentemente assintomática, sobretudo quando causada por Chlamydia trachomatis, achado que reforça a importância do rastreamento em populações de risco",
+      "Corrimento vaginal mucopurulento quando sintomática, achado característico ao exame especular",
+      "Sangramento intermenstrual ou pós-coital (sinusorragia), refletindo a friabilidade da mucosa cervical inflamada",
+      "Colo uterino friável e eritematoso ao exame especular, sangrando facilmente ao toque com a espátula ou swab",
+    ],
+    diagnostico: [
+      "Exame especular demonstrando secreção mucopurulenta endocervical e colo friável, achados sugestivos que motivam testagem",
+      "Testes de amplificação de ácido nucleico (NAAT) para Chlamydia trachomatis e Neisseria gonorrhoeae, exame confirmatório e definidor da conduta terapêutica",
+      "Rastreamento em populações de risco mesmo na ausência de sintomas, dado o caráter frequentemente assintomático da infecção por clamídia",
+    ],
+    examesComplementares: [
+      "Testes de amplificação de ácido nucleico (NAAT) para Chlamydia trachomatis e Neisseria gonorrhoeae, exame de escolha para confirmação etiológica",
+      "Exame a fresco e cultura para Trichomonas vaginalis quando há suspeita clínica dessa etiologia alternativa",
+    ],
+    diagnosticoDiferencial: [
+      "Vaginite (candidíase, vaginose bacteriana, tricomoníase), que pode coexistir e causar corrimento sobreposto, distinguida por características específicas do corrimento e do pH vaginal",
+      "Ectopia cervical fisiológica (tecido colunar exposto na ectocérvice, variante normal sem processo inflamatório verdadeiro)",
+      "Pólipo cervical (causa de sangramento intermenstrual/pós-coital, distinguido por visualização direta da lesão polipoide)",
+    ],
+    tratamento: [
+      "Tratamento empírico para Chlamydia trachomatis e Neisseria gonorrhoeae frequentemente iniciado antes mesmo do resultado do NAAT em populações de alto risco, dado o potencial de ascensão e o desafio de garantir retorno para tratamento",
+      "Tratamento e rastreamento de parceiros sexuais é essencial para prevenir reinfecção",
+      "Abstinência sexual até completar o tratamento e a resolução dos sintomas, para prevenir transmissão e reinfecção",
+    ],
+    complicacoes: [
+      "Aguda: sangramento intermenstrual recorrente pela friabilidade cervical",
+      "Crônica: progressão para doença inflamatória pélvica quando não tratada adequadamente, com todas as suas potenciais sequelas reprodutivas",
+    ],
+    redFlags: [
+      "Cervicite não tratada em mulher sexualmente ativa deve ser encarada como risco direto de progressão para doença inflamatória pélvica, reforçando a importância do tratamento mesmo em casos assintomáticos identificados por rastreamento",
+      "Dor pélvica ou febre associadas a cervicite sugerem já ascensão da infecção ao trato genital superior, redefinindo o quadro como doença inflamatória pélvica",
+    ],
+    prognostico:
+      "Excelente prognóstico quando tratada precocemente, com resolução completa e prevenção de complicações ascendentes; o caráter frequentemente assintomático da infecção por clamídia é o principal obstáculo ao tratamento oportuno.",
+    pontosDeProva: [
+      "A cervicite por Chlamydia trachomatis é frequentemente assintomática, reforçando a importância do rastreamento ativo em populações de risco, não apenas do diagnóstico baseado em sintomas",
+      "O tratamento de parceiros sexuais é parte essencial e obrigatória do manejo, para prevenir o ciclo de reinfecção",
+      "A cervicite não tratada é a etapa inicial da progressão para doença inflamatória pélvica, reforçando por que mesmo casos assintomáticos identificados em rastreamento devem ser tratados",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 22 anos, assintomática, é identificada com corrimento mucopurulento endocervical durante exame ginecológico de rotina, com colo friável ao toque com a espátula.",
+      pergunta: "Qual a conduta diagnóstica e terapêutica apropriada?",
+      raciocinio:
+        "Corrimento mucopurulento endocervical e colo friável, mesmo em paciente assintomática, são achados sugestivos de cervicite infecciosa, justificando testagem para as principais infecções sexualmente transmissíveis causadoras.",
+      conduta:
+        "Coletar amostra endocervical para NAAT de Chlamydia trachomatis e Neisseria gonorrhoeae; considerar tratamento empírico dado o contexto de risco, e orientar rastreamento e tratamento do(s) parceiro(s) sexual(is).",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento antibiótico dirigido a Chlamydia trachomatis/Neisseria gonorrhoeae ainda não tem seus componentes documentados como ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia infecciosa e progressão para doença inflamatória pélvica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Caráter assintomático da infecção por clamídia e importância do rastreamento", fonte: "USPSTF, Screening for Chlamydia and Gonorrhea: Recommendation Statement, 2021" },
+    ],
+  },
+  {
+    slug: "bartolinite",
+    nome: "Bartolinite (abscesso e cisto da glândula de Bartholin)",
+    sinonimos: ["Cisto de Bartholin", "Abscesso de Bartholin"],
+    cid10: "N75",
+    especialidade: "Ginecologia",
+    etiologia: "Bacteriana",
+    resumo: "Obstrução do ducto da glândula de Bartholin com acúmulo de secreção (cisto) ou infecção secundária (abscesso), causando tumoração dolorosa unilateral na região posterolateral da vulva.",
+    definicao:
+      "Afecção da glândula de Bartholin (glândula vestibular maior, localizada bilateralmente na região posterolateral do intróito vaginal) decorrente de obstrução do seu ducto excretor, podendo evoluir para cisto simples ou, na presença de infecção secundária, para abscesso.",
+    epidemiologia:
+      "Afecção ginecológica benigna comum, mais frequente em mulheres em idade reprodutiva (entre 20 e 30 anos), sendo rara antes da menarca e após a menopausa, período em que a glândula sofre atrofia fisiológica.",
+    fisiopatologia:
+      "A obstrução do ducto excretor da glândula de Bartholin, geralmente por edema, trauma local ou espessamento de secreção, impede a drenagem normal, levando ao acúmulo progressivo de líquido e formação do cisto; a infecção secundária desse conteúdo estagnado, por flora polimicrobiana ou menos comumente por Neisseria gonorrhoeae/Chlamydia trachomatis, resulta em abscesso, com dor intensa e sinais flogísticos.",
+    classificacao:
+      "Classificada em cisto simples (obstrução sem infecção, geralmente assintomático ou com desconforto leve) e abscesso (infecção secundária, com dor intensa, eritema e calor local), sendo esta última a apresentação que mais frequentemente motiva atendimento de urgência.",
+    quadroClinico: [
+      "Tumoração unilateral dolorosa na região posterolateral da vulva, achado característico que motiva a procura por atendimento",
+      "Dor que se intensifica com a deambulação, o sentar-se e a relação sexual, refletindo a localização da glândula",
+      "Eritema, calor e flutuação local no abscesso, sinais de processo infeccioso agudo",
+      "Cisto simples frequentemente assintomático ou com desconforto leve, achado incidental ao exame ginecológico",
+    ],
+    diagnostico: [
+      "Diagnóstico eminentemente clínico, pela inspeção e palpação de tumoração característica na região posterolateral do intróito vaginal",
+      "Diferenciação entre cisto simples (sem sinais flogísticos) e abscesso (dor intensa, eritema, calor e flutuação) orienta a conduta terapêutica",
+    ],
+    examesComplementares: [
+      "Cultura de secreção quando há drenagem do abscesso, para orientar antibioticoterapia dirigida em casos recorrentes ou refratários",
+      "Biópsia da parede do cisto/abscesso em mulheres acima de 40 anos ou em massas persistentes após tratamento, para exclusão de neoplasia da glândula de Bartholin (rara, mas relevante nessa faixa etária)",
+    ],
+    diagnosticoDiferencial: [
+      "Cisto sebáceo vulvar, distinguido pela localização não restrita à região posterolateral típica da glândula de Bartholin",
+      "Lipoma vulvar, lesão de consistência mais firme e sem sinais flogísticos",
+      "Neoplasia da glândula de Bartholin (rara), suspeitada em massa persistente ou recorrente em mulher acima de 40 anos, motivando biópsia",
+    ],
+    tratamento: [
+      "Cisto pequeno e assintomático: conduta expectante, sem necessidade de intervenção",
+      "Abscesso ou cisto sintomático: incisão e drenagem constituem o tratamento primário; a colocação de cateter de Word ou marsupialização reduz a taxa de recorrência em comparação à drenagem simples",
+      "Antibioticoterapia sistêmica reservada para casos com celulite circundante extensa, sinais de infecção sistêmica, ou em pacientes imunocomprometidas",
+    ],
+    complicacoes: [
+      "Aguda: celulite vulvar circundante, ruptura espontânea do abscesso",
+      "Crônica: recorrência do cisto/abscesso, mais comum após drenagem simples sem marsupialização ou cateter de Word",
+    ],
+    redFlags: [
+      "Massa da glândula de Bartholin persistente, endurecida ou recorrente em mulher acima de 40 anos deve motivar biópsia para exclusão de neoplasia, dado que essa é uma apresentação atípica para a faixa etária habitual da afecção benigna",
+      "Sinais de celulite extensa ou toxemia sistêmica associados ao abscesso sugerem necessidade de antibioticoterapia sistêmica além da drenagem",
+    ],
+    prognostico:
+      "Excelente para o cisto simples e para o abscesso adequadamente drenado, com resolução completa; a recorrência é a principal limitação da drenagem simples isolada, sendo reduzida por técnicas que mantêm um trajeto de drenagem aberto (cateter de Word, marsupialização).",
+    pontosDeProva: [
+      "A glândula de Bartholin é bilateral e localiza-se na região posterolateral do intróito vaginal; massa nessa topografia específica é a chave diagnóstica",
+      "Cateter de Word ou marsupialização reduzem a recorrência em comparação à incisão e drenagem simples, por manterem um trajeto de drenagem",
+      "Massa persistente ou recorrente da glândula de Bartholin em mulher acima de 40 anos exige biópsia para exclusão de neoplasia, incomum antes dessa idade",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 26 anos, procura atendimento por tumoração dolorosa e progressiva na região posterolateral da vulva há 2 dias, com dificuldade para deambular. Ao exame: massa flutuante, eritematosa e dolorosa à palpação.",
+      pergunta: "Qual o diagnóstico e a conduta terapêutica de escolha?",
+      raciocinio:
+        "Tumoração dolorosa, flutuante e eritematosa na região posterolateral típica da glândula de Bartholin, com evolução aguda, caracteriza abscesso, que requer drenagem para resolução.",
+      conduta:
+        "Realizar incisão e drenagem do abscesso, preferencialmente com colocação de cateter de Word para manter trajeto de drenagem aberto e reduzir risco de recorrência; antibioticoterapia sistêmica reservada para celulite extensa associada.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é procedimento cirúrgico (drenagem); a antibioticoterapia sistêmica, quando indicada, ainda não tem seus componentes documentados como ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia da obstrução ductal e formação de cisto/abscesso", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Cateter de Word e marsupialização como estratégias de redução de recorrência", fonte: "American Family Physician, Bartholin Duct Cyst and Gland Abscess: Office Management, 2019" },
+    ],
+  },
+  {
+    slug: "vaginite-vulvite",
+    nome: "Vaginite e vulvite (candidíase, vaginose bacteriana e tricomoníase)",
+    sinonimos: ["Corrimento vaginal", "Candidíase vulvovaginal", "Vaginose bacteriana"],
+    cid10: "N76",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Inflamação da vagina e/ou vulva, cujas três principais causas infecciosas — candidíase vulvovaginal, vaginose bacteriana e tricomoníase — apresentam características de corrimento e pH vaginal distintas, orientando o diagnóstico diferencial e o tratamento.",
+    definicao:
+      "Processo inflamatório da mucosa vaginal e/ou vulvar, de etiologia predominantemente infecciosa, sendo candidíase vulvovaginal, vaginose bacteriana e tricomoníase as três causas mais prevalentes, cada uma com fisiopatologia, quadro clínico e tratamento distintos.",
+    epidemiologia:
+      "Motivo extremamente comum de consulta ginecológica; a candidíase vulvovaginal acomete até 75% das mulheres ao menos uma vez na vida, a vaginose bacteriana é a causa mais comum de corrimento vaginal em mulheres em idade reprodutiva, e a tricomoníase é a infecção sexualmente transmissível não viral mais prevalente globalmente.",
+    fisiopatologia:
+      "Candidíase vulvovaginal: proliferação de Candida albicans (mais comumente) favorecida por fatores como uso de antibióticos, diabetes, gestação e imunossupressão, causando inflamação e prurido intensos. Vaginose bacteriana: disbiose vaginal com substituição da flora lactobacilar protetora por bactérias anaeróbias (Gardnerella vaginalis e outras), sem processo inflamatório verdadeiro (daí o termo 'vaginose', não 'vaginite'). Tricomoníase: infecção sexualmente transmissível pelo protozoário flagelado Trichomonas vaginalis, causando resposta inflamatória vaginal e cervical característica ('colo em morango').",
+    classificacao:
+      "Classificada pela etiologia em candidíase vulvovaginal (corrimento branco grumoso, prurido intenso, pH vaginal normal), vaginose bacteriana (corrimento acinzentado, odor fétido tipo 'peixe', pH elevado) e tricomoníase (corrimento amarelo-esverdeado espumoso, prurido, pH elevado, colo em aspecto de morango).",
+    quadroClinico: [
+      "Candidíase: prurido vulvovaginal intenso, corrimento branco espesso e grumoso ('leite coalhado'), eritema vulvar, sem odor característico",
+      "Vaginose bacteriana: corrimento acinzentado, fino e homogêneo, com odor fétido característico ('peixe podre'), tipicamente sem prurido ou inflamação significativa",
+      "Tricomoníase: corrimento amarelo-esverdeado, espumoso, com odor desagradável, associado a prurido, disúria e, por vezes, colo uterino com aspecto petequial ('colo em morango')",
+    ],
+    diagnostico: [
+      "Exame do corrimento vaginal a fresco (microscopia): pseudo-hifas na candidíase, 'clue cells' (células epiteliais recobertas por bactérias) na vaginose bacteriana, e protozoários móveis flagelados na tricomoníase",
+      "Teste do odor com hidróxido de potássio (whiff test) positivo (odor de peixe) na vaginose bacteriana",
+      "Medida do pH vaginal: normal (< 4,5) na candidíase, elevado (> 4,5) na vaginose bacteriana e na tricomoníase",
+      "Critérios de Amsel para vaginose bacteriana (corrimento característico, pH > 4,5, whiff test positivo, clue cells) — três dos quatro critérios confirmam o diagnóstico",
+    ],
+    examesComplementares: [
+      "Teste de amplificação de ácido nucleico (NAAT) para Trichomonas vaginalis quando disponível, exame de maior sensibilidade que a microscopia a fresco",
+      "Cultura para Candida em casos recorrentes ou refratários ao tratamento empírico, para identificação de espécies não-albicans e teste de sensibilidade",
+    ],
+    diagnosticoDiferencial: [
+      "Cervicite (por Chlamydia trachomatis ou Neisseria gonorrhoeae), que também causa corrimento mas de origem endocervical, não vaginal",
+      "Vaginite atrófica (pós-menopausa), decorrente de hipoestrogenismo, sem processo infeccioso",
+      "Dermatite de contato vulvar, causa não infecciosa de prurido e eritema vulvar",
+    ],
+    tratamento: [
+      "Candidíase vulvovaginal: antifúngicos tópicos (imidazólicos) ou fluconazol oral em dose única, tratamento de escolha para episódios não complicados",
+      "Vaginose bacteriana: metronidazol oral ou tópico, ou clindamicina tópica; parceiros sexuais não requerem tratamento rotineiro",
+      "Tricomoníase: metronidazol oral em dose única, com tratamento obrigatório do(s) parceiro(s) sexual(is), dado seu caráter de infecção sexualmente transmissível",
+    ],
+    complicacoes: [
+      "Aguda: desconforto e impacto na qualidade de vida e na atividade sexual",
+      "Crônica: candidíase vulvovaginal recorrente (≥ 4 episódios/ano); vaginose bacteriana e tricomoníase não tratadas aumentam o risco de doença inflamatória pélvica e de complicações obstétricas (parto prematuro)",
+    ],
+    redFlags: [
+      "Vaginose bacteriana e tricomoníase na gestação associam-se a maior risco de trabalho de parto prematuro e ruptura prematura de membranas, reforçando a importância do diagnóstico e tratamento adequados nesse contexto",
+      "Candidíase vulvovaginal recorrente ou refratária deve levantar suspeita de diabetes mellitus não diagnosticado ou imunossupressão subjacente",
+    ],
+    prognostico:
+      "Excelente para os três quadros com tratamento apropriado; a recorrência é a principal limitação, especialmente na candidíase vulvovaginal, exigindo por vezes investigação de fatores predisponentes e esquemas de manutenção.",
+    pontosDeProva: [
+      "Vaginose bacteriana é uma disbiose, não uma inflamação verdadeira — por isso o sufixo '-ose' em vez de '-ite', distinção conceitual frequentemente cobrada",
+      "Os critérios de Amsel (corrimento característico, pH > 4,5, whiff test positivo, clue cells) definem o diagnóstico de vaginose bacteriana quando 3 de 4 estão presentes",
+      "Tricomoníase é infecção sexualmente transmissível e exige tratamento do parceiro; candidíase e vaginose bacteriana, em geral, não exigem tratamento rotineiro do parceiro",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 29 anos, relata corrimento vaginal acinzentado, de odor fétido, sem prurido significativo, há 4 dias. Exame a fresco revela células epiteliais recobertas por bactérias; pH vaginal medido em 5,2.",
+      pergunta: "Qual o diagnóstico mais provável e o tratamento indicado?",
+      raciocinio:
+        "Corrimento acinzentado, odor fétido, ausência de prurido significativo, pH elevado e presença de clue cells ao exame a fresco preenchem os critérios de Amsel, confirmando vaginose bacteriana.",
+      conduta:
+        "Prescrever metronidazol oral; parceiro sexual não requer tratamento rotineiro nessa condição.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os antifúngicos tópicos, o fluconazol e o metronidazol, medicamentos de escolha para as três etiologias, ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Critérios de Amsel e fisiopatologia diferencial das três etiologias", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Esquemas terapêuticos de primeira linha para cada etiologia", fonte: "CDC Sexually Transmitted Infections Treatment Guidelines, 2021" },
+    ],
+  },
+  {
+    slug: "endometriose",
+    nome: "Endometriose",
+    sinonimos: [],
+    cid10: "N80",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Presença de tecido endometrial funcionante fora da cavidade uterina, mais comumente nos ovários e no peritônio pélvico, causando dismenorreia progressiva, dor pélvica crônica e infertilidade.",
+    definicao:
+      "Doença ginecológica benigna, porém frequentemente incapacitante, definida pela presença e proliferação de tecido histologicamente semelhante ao endométrio (glândulas e estroma) fora da cavidade uterina, respondendo aos estímulos hormonais cíclicos do ciclo menstrual.",
+    epidemiologia:
+      "Acomete estimadamente 10% das mulheres em idade reprodutiva, sendo consideravelmente mais prevalente (20-50%) entre mulheres investigadas por infertilidade ou dor pélvica crônica; diagnóstico frequentemente tardio, com atraso médio de vários anos entre o início dos sintomas e a confirmação.",
+    fisiopatologia:
+      "A teoria mais aceita é a da menstruação retrógrada, na qual fragmentos endometriais refluem pelas tubas uterinas durante a menstruação e se implantam no peritônio pélvico e superfícies ovarianas; esses implantes respondem aos hormônios ovarianos cíclicos, sangrando localmente a cada ciclo e desencadeando inflamação crônica, formação de aderências e fibrose, que geram a dor característica e comprometem a fertilidade.",
+    classificacao:
+      "Classificada topograficamente em endometriose peritoneal superficial, endometrioma ovariano (cisto ovariano contendo conteúdo hemático espesso, tipo 'chocolate') e endometriose profunda infiltrativa (invadindo estruturas como septo retovaginal, ligamentos uterossacros, bexiga ou intestino); também estadiada cirurgicamente (I a IV) conforme extensão e aderências.",
+    quadroClinico: [
+      "Dismenorreia progressiva e de início mais tardio (não desde a menarca), que se intensifica ano após ano, achado que a distingue da dismenorreia primária",
+      "Dor pélvica crônica não restrita ao período menstrual, refletindo a inflamação e as aderências estabelecidas",
+      "Dispareunia de profundidade, especialmente associada a implantes no septo retovaginal ou ligamentos uterossacros",
+      "Infertilidade, motivo frequente de investigação que revela a doença, decorrente de distorção anatômica, aderências e ambiente peritoneal inflamatório inóspito",
+      "Sintomas cíclicos intestinais ou urinários (disquezia, hematoquezia cíclica, disúria) quando há acometimento de intestino ou bexiga",
+    ],
+    diagnostico: [
+      "Suspeita clínica pela combinação de dismenorreia progressiva, dispareunia profunda e infertilidade, em paciente com exame físico por vezes revelando nodularidade dolorosa em fundo de saco posterior",
+      "Ultrassonografia transvaginal com preparo intestinal, exame de primeira linha para identificação de endometriomas e, com operador experiente, de doença profunda infiltrativa",
+      "Laparoscopia com biópsia e confirmação histológica, padrão-ouro diagnóstico definitivo, reservada quando o diagnóstico permanece incerto ou há indicação cirúrgica concomitante",
+    ],
+    examesComplementares: [
+      "Ressonância magnética pélvica, exame de escolha para mapeamento pré-operatório detalhado da endometriose profunda infiltrativa",
+      "CA-125 sérico, pode estar elevado mas tem baixa especificidade, não sendo utilizado como exame diagnóstico isolado",
+    ],
+    diagnosticoDiferencial: [
+      "Dismenorreia primária, distinguida pelo início desde a menarca e ausência de piora progressiva ao longo dos anos",
+      "Doença inflamatória pélvica crônica, com história de infecção e achados inflamatórios distintos à investigação",
+      "Síndrome do intestino irritável, quando predominam sintomas intestinais cíclicos, podendo coexistir com endometriose intestinal",
+    ],
+    tratamento: [
+      "Tratamento hormonal de primeira linha: contraceptivos combinados contínuos ou progestagênios isolados, que suprimem a menstruação e reduzem o estímulo cíclico aos implantes",
+      "Análogos do GnRH, opção de segunda linha por indução de estado hipoestrogênico, com uso limitado no tempo pelo risco de perda de massa óssea",
+      "Tratamento cirúrgico (laparoscópico, com excisão ou ablação dos implantes) indicado em doença refratária ao tratamento clínico, endometriomas volumosos ou quando a fertilidade é objetivo prioritário",
+      "Manejo multidisciplinar da dor crônica e suporte à fertilidade (incluindo técnicas de reprodução assistida) conforme o objetivo reprodutivo da paciente",
+    ],
+    complicacoes: [
+      "Aguda: rotura de endometrioma com abdome agudo, achado incomum mas relevante no diagnóstico diferencial de dor pélvica aguda",
+      "Crônica: infertilidade, dor pélvica crônica incapacitante, aderências pélvicas extensas, e raro risco de transformação maligna em endometriomas de longa data (carcinoma de células claras/endometrioide de ovário)",
+    ],
+    redFlags: [
+      "Dismenorreia progressiva de início tardio (não desde a menarca) é o achado clínico mais discriminativo para diferenciar endometriose de dismenorreia primária",
+      "Massa anexial em mulher com história compatível de endometriose deve ser investigada considerando tanto endometrioma quanto, mais raramente, neoplasia ovariana associada",
+    ],
+    prognostico:
+      "Doença crônica sem cura definitiva fora da remoção cirúrgica completa (nem sempre possível), com tendência a recorrência dos sintomas após interrupção do tratamento hormonal supressivo; o impacto na fertilidade é variável e depende do estágio e da extensão da doença.",
+    pontosDeProva: [
+      "Dismenorreia que piora progressivamente ao longo dos anos, com início mais tardio que a menarca, é o padrão clássico que diferencia a endometriose da dismenorreia primária",
+      "A teoria da menstruação retrógrada é a explicação fisiopatológica mais aceita para a implantação ectópica do tecido endometrial",
+      "Laparoscopia com confirmação histológica é o padrão-ouro diagnóstico, mas a suspeita clínica isoladamente já justifica início de tratamento hormonal empírico",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 27 anos, relata dismenorreia que se iniciou aos 20 anos e piorou progressivamente, associada a dispareunia de profundidade e infertilidade há 2 anos. Ultrassonografia transvaginal identifica cisto ovariano com conteúdo homogêneo hipoecoico espesso.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Dismenorreia progressiva de início tardio, dispareunia profunda, infertilidade e cisto ovariano com aspecto sugestivo de conteúdo hemático espesso ('em vidro fosco') compõem quadro clássico de endometriose com endometrioma ovariano.",
+      conduta:
+        "Considerar tratamento hormonal supressivo (contraceptivo combinado contínuo ou progestagênio) para controle sintomático; discutir laparoscopia diagnóstico-terapêutica e opções de preservação/tratamento da fertilidade dado o desejo reprodutivo.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "ibuprofeno", nome: "Ibuprofeno" },
+    ],
+    medicamentosSecaoTitulo: "Analgesia sintomática (tratamento hormonal supressivo é a base terapêutica)",
+    medicamentosNota:
+      "Os contraceptivos hormonais combinados, progestagênios e análogos do GnRH, base do tratamento supressivo, ainda não têm suas fichas próprias documentadas no site; o ibuprofeno oferece apenas alívio sintomático da dor associada.",
+    fontes: [
+      { tema: "Fisiopatologia da menstruação retrógrada e classificação topográfica", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Estratégias terapêuticas hormonais e cirúrgicas conforme objetivo reprodutivo", fonte: "ACOG Practice Bulletin No. 114, Management of Endometriosis" },
+    ],
+  },
+  {
+    slug: "prolapso-genital-feminino",
+    nome: "Prolapso de órgãos pélvicos (prolapso genital feminino)",
+    sinonimos: ["Prolapso uterino", "Cistocele", "Retocele"],
+    cid10: "N81",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Descida dos órgãos pélvicos (bexiga, útero e/ou reto) através da vagina, decorrente do enfraquecimento do assoalho pélvico, causando sensação de peso vaginal, protrusão e disfunção urinária ou intestinal associada.",
+    definicao:
+      "Herniação de um ou mais órgãos pélvicos (bexiga — cistocele; útero ou cúpula vaginal pós-histerectomia; reto — retocele; intestino delgado — enterocele) através da parede vaginal, decorrente de enfraquecimento estrutural do assoalho pélvico e de seu aparato de suporte ligamentar e fascial.",
+    epidemiologia:
+      "Afecção altamente prevalente, aumentando progressivamente com a idade; principais fatores de risco incluem multiparidade e parto vaginal (especialmente instrumentalizado), obesidade, tosse crônica, constipação crônica com esforço evacuatório repetido, e deficiência estrogênica pós-menopausa.",
+    fisiopatologia:
+      "O parto vaginal, o envelhecimento e o hipoestrogenismo pós-menopausa lesam e enfraquecem progressivamente o complexo de suporte do assoalho pélvico (músculo levantador do ânus, fáscia endopélvica e ligamentos uterossacros/cardinais); a perda desse suporte permite a descida progressiva dos órgãos pélvicos através do hiato genital, agravada por fatores que cronicamente aumentam a pressão intra-abdominal (obesidade, tosse crônica, esforço evacuatório).",
+    classificacao:
+      "Classificado pelo compartimento acometido em anterior (cistocele — bexiga), apical (prolapso uterino ou de cúpula vaginal) e posterior (retocele, enterocele), e graduado clinicamente pelo sistema POP-Q (Pelvic Organ Prolapse Quantification) de 0 a IV conforme o grau de descida em relação ao hímen.",
+    quadroClinico: [
+      "Sensação de peso ou pressão vaginal, sintoma mais comumente relatado e que piora ao longo do dia e com esforço físico",
+      "Percepção de protrusão ou 'bola' na vagina, achado que motiva a procura por atendimento em casos mais avançados",
+      "Sintomas urinários associados (incontinência urinária de esforço, urgência, esvaziamento incompleto) quando há cistocele significativa",
+      "Sintomas intestinais associados (dificuldade evacuatória, necessidade de digitação vaginal para completar evacuação) quando há retocele",
+      "Dispareunia e impacto na função sexual, em casos mais avançados",
+    ],
+    diagnostico: [
+      "Exame físico ginecológico com a paciente em manobra de Valsalva, permitindo visualizar e graduar o prolapso conforme o sistema POP-Q",
+      "Anamnese dirigida a sintomas urinários e intestinais associados, que orientam a abordagem terapêutica multidisciplinar",
+    ],
+    examesComplementares: [
+      "Estudo urodinâmico quando há sintomas urinários associados relevantes, especialmente no planejamento pré-operatório",
+      "Ultrassonografia pélvica para avaliação de patologia uterina/anexial concomitante quando indicado",
+    ],
+    diagnosticoDiferencial: [
+      "Cisto ou massa vaginal, distinguida pela ausência de relação com o esforço e pela característica anatômica localizada da lesão",
+      "Alongamento hipertrófico do colo uterino sem prolapso verdadeiro do corpo uterino, diferenciado ao exame com tração",
+    ],
+    tratamento: [
+      "Assintomático ou leve: conduta expectante com orientação sobre fatores de risco modificáveis (controle de peso, tratamento de tosse/constipação crônicas)",
+      "Fisioterapia do assoalho pélvico (exercícios de Kegel), primeira linha para prolapsos leves a moderados e para prevenção de progressão",
+      "Pessário vaginal, opção não cirúrgica eficaz para controle sintomático, especialmente em pacientes que não desejam ou não têm condições clínicas para cirurgia",
+      "Correção cirúrgica (diversas técnicas conforme o compartimento acometido) indicada em prolapsos sintomáticos avançados refratários a medidas conservadoras",
+      "Estrogênio tópico vaginal como terapia adjuvante em mulheres pós-menopausa, para melhora do trofismo tecidual local",
+    ],
+    complicacoes: [
+      "Aguda: ulceração e sangramento da mucosa vaginal exposta em prolapsos muito avançados exteriorizados",
+      "Crônica: retenção urinária, infecções urinárias de repetição, impacto significativo na qualidade de vida e na função sexual",
+    ],
+    redFlags: [
+      "Prolapso avançado (grau III-IV) com exteriorização completa e ulceração da mucosa expõe a paciente a risco de infecção e sangramento, exigindo abordagem mais urgente",
+      "Retenção urinária aguda associada a prolapso avançado é uma indicação de manejo imediato, seja com pessário seja com correção cirúrgica",
+    ],
+    prognostico:
+      "Bom com tratamento apropriado ao grau e aos sintomas, seja conservador seja cirúrgico; a taxa de recorrência após correção cirúrgica não é desprezível, especialmente quando os fatores de risco (obesidade, tosse crônica) não são simultaneamente controlados.",
+    pontosDeProva: [
+      "O sistema POP-Q é o método padronizado de graduação do prolapso (0 a IV), fundamental para descrição objetiva e comparação evolutiva",
+      "Cistocele (compartimento anterior), prolapso uterino/de cúpula (apical) e retocele (compartimento posterior) são os três compartimentos classicamente descritos",
+      "Fisioterapia do assoalho pélvico e pessário vaginal são as opções não cirúrgicas de primeira linha antes de se considerar correção operatória",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 58 anos, multípara com 4 partos vaginais, relata sensação de peso vaginal progressiva e percepção de 'bola' na vagina há 6 meses, que piora ao final do dia e com esforço físico.",
+      pergunta: "Qual a conduta diagnóstica e terapêutica inicial?",
+      raciocinio:
+        "Sensação de peso vaginal e percepção de protrusão em mulher multípara com múltiplos partos vaginais (principal fator de risco) sugerem prolapso de órgãos pélvicos, devendo ser graduado ao exame físico com manobra de Valsalva.",
+      conduta:
+        "Realizar exame ginecológico com graduação POP-Q; iniciar fisioterapia do assoalho pélvico e discutir opção de pessário vaginal conforme o grau encontrado e a preferência da paciente, reservando correção cirúrgica para casos refratários ou mais avançados.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento de base é não farmacológico (fisioterapia, pessário) ou cirúrgico; o estrogênio tópico vaginal adjuvante ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia do enfraquecimento do assoalho pélvico e fatores de risco", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Sistema de graduação POP-Q e opções terapêuticas conservadoras", fonte: "Bump RC et al., The Standardization of Terminology of Female Pelvic Organ Prolapse and Pelvic Floor Dysfunction, American Journal of Obstetrics and Gynecology, 1996" },
+    ],
+  },
+  {
+    slug: "cistos-ovarianos-torcao-anexial",
+    nome: "Cistos ovarianos e torção anexial",
+    sinonimos: ["Cisto de ovário", "Torção de ovário"],
+    cid10: "N83",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Formações císticas ovarianas, na maioria funcionais e benignas, cuja principal complicação aguda é a torção anexial — emergência cirúrgica caracterizada por dor pélvica súbita e intensa que ameaça a viabilidade do ovário.",
+    definicao:
+      "Cistos ovarianos são coleções líquidas dentro ou sobre o ovário, mais comumente de natureza funcional (cisto folicular ou de corpo lúteo, decorrentes do próprio ciclo ovulatório); a torção anexial é a rotação do ovário (e frequentemente da tuba) sobre seu pedículo vascular, comprometendo o fluxo sanguíneo e configurando emergência cirúrgica.",
+    epidemiologia:
+      "Cistos funcionais são extremamente comuns em mulheres em idade reprodutiva, na maioria assintomáticos e de resolução espontânea; a torção anexial, embora menos comum, é uma das principais causas ginecológicas de abdome agudo, sendo mais frequente em cistos ou massas ovarianas acima de 5 cm.",
+    fisiopatologia:
+      "Cistos funcionais resultam da falha de reabsorção do folículo dominante (cisto folicular) ou de involução anômala do corpo lúteo (cisto de corpo lúteo) após a ovulação. A torção anexial ocorre quando o ovário aumentado de volume (por cisto, tumor benigno como teratoma, ou hiperestimulação ovariana) roda sobre seu pedículo, comprimindo primeiro a drenagem venosa e linfática (gerando edema progressivo, que agrava ainda mais a rotação) e, se não revertida, o fluxo arterial, levando a isquemia e necrose ovariana.",
+    classificacao:
+      "Cistos classificados em funcionais (folicular, de corpo lúteo — a maioria) e neoplásicos (benignos como o teratoma maduro/cisto dermoide, ou malignos); a torção anexial é classificada conforme o grau de comprometimento vascular (parcial ou completa) e a viabilidade tecidual observada na cirurgia.",
+    quadroClinico: [
+      "Cisto funcional: frequentemente assintomático, achado incidental; quando sintomático, causa desconforto pélvico leve ou dor com a ovulação (Mittelschmerz)",
+      "Torção anexial: dor pélvica ou abdominal baixa de início súbito e intensidade progressiva, unilateral, frequentemente associada a náuseas e vômitos, achado que caracteriza abdome agudo ginecológico",
+      "Dor de caráter intermitente na torção anexial pode refletir episódios de torção e detorção espontânea parcial, um padrão que não deve tranquilizar quanto à gravidade",
+      "Massa anexial dolorosa à palpação no exame físico na torção anexial",
+    ],
+    diagnostico: [
+      "Ultrassonografia pélvica transvaginal com Doppler colorido, exame de primeira linha, identificando massa ovariana aumentada e permitindo avaliar o fluxo sanguíneo (embora fluxo Doppler preservado NÃO exclua torção, dado o padrão intermitente do comprometimento vascular)",
+      "A suspeita clínica de torção anexial (dor súbita e intensa associada a massa anexial) justifica indicação cirúrgica mesmo com achados de imagem não totalmente conclusivos, dada a urgência em preservar a viabilidade ovariana",
+    ],
+    examesComplementares: [
+      "Beta-hCG sérico para exclusão de gestação ectópica como diagnóstico diferencial de dor pélvica aguda com massa anexial",
+      "Hemograma e marcadores tumorais (CA-125) quando há suspeita de neoplasia associada, sem retardar a conduta cirúrgica em caso de torção",
+    ],
+    diagnosticoDiferencial: [
+      "Gestação ectópica, diagnóstico diferencial obrigatório de dor pélvica aguda com massa anexial em mulher em idade reprodutiva, excluído pelo beta-hCG",
+      "Apendicite aguda, especialmente quando a torção acomete o anexo direito",
+      "Doença inflamatória pélvica, distinguida por febre, corrimento vaginal e outros achados infecciosos associados",
+      "Rotura de cisto ovariano (hemorrágico), causando dor aguda mas sem a massa persistente característica da torção",
+    ],
+    tratamento: [
+      "Cisto funcional assintomático: conduta expectante com reavaliação ultrassonográfica em 6-8 semanas, dado o alto potencial de resolução espontânea",
+      "Torção anexial: cirurgia de urgência (preferencialmente laparoscópica), com detorção e preservação ovariana sempre que houver viabilidade tecidual, mesmo quando o aspecto intraoperatório inicial parece desfavorável — o ovário tem notável capacidade de recuperação após detorção",
+      "Ooforectomia reservada para casos de necrose ovariana inequívoca ou massa com características suspeitas de malignidade",
+    ],
+    complicacoes: [
+      "Aguda: necrose ovariana irreversível por torção prolongada não tratada, com perda definitiva do ovário",
+      "Crônica: infertilidade quando há perda bilateral de tecido ovariano funcional (situação rara)",
+    ],
+    redFlags: [
+      "Dor pélvica aguda súbita e intensa associada a massa anexial deve ser tratada como possível torção até prova em contrário, dado que o atraso no diagnóstico compromete diretamente a viabilidade ovariana",
+      "Fluxo Doppler preservado ao ultrassom NÃO exclui torção anexial, armadilha diagnóstica importante que não deve postergar a conduta cirúrgica quando a suspeita clínica é forte",
+    ],
+    prognostico:
+      "Excelente para cistos funcionais, com resolução espontânea na grande maioria dos casos; na torção anexial, o prognóstico de preservação ovariana depende diretamente da rapidez do diagnóstico e da intervenção cirúrgica, sendo tempo-dependente.",
+    pontosDeProva: [
+      "A detorção com preservação ovariana é preferível à ooforectomia mesmo quando o ovário parece necrótico à inspeção inicial, pela notável capacidade de recuperação tecidual após restabelecimento do fluxo",
+      "Fluxo Doppler normal não exclui torção anexial — a torção é frequentemente intermitente, com episódios de detorção espontânea parcial",
+      "Cistos ovarianos acima de 5 cm são o principal fator de risco para torção anexial",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 24 anos, procura o pronto-socorro com dor pélvica súbita e intensa em fossa ilíaca direita há 3 horas, associada a náuseas e vômitos. Ultrassonografia identifica massa ovariana direita de 7 cm com fluxo Doppler preservado.",
+      pergunta: "O fluxo Doppler preservado exclui o diagnóstico de torção anexial?",
+      raciocinio:
+        "Não. A torção anexial é frequentemente intermitente, e o fluxo Doppler pode permanecer preservado mesmo na vigência de torção, não devendo ser usado isoladamente para excluir o diagnóstico diante de quadro clínico fortemente sugestivo.",
+      conduta:
+        "Indicar exploração cirúrgica de urgência (preferencialmente laparoscópica) dada a forte suspeita clínica, com objetivo de detorção e preservação ovariana.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O manejo é expectante (cisto funcional) ou cirúrgico de urgência (torção anexial); não há tratamento medicamentoso de primeira linha documentável para nenhuma das duas condições.",
+    fontes: [
+      { tema: "Fisiopatologia da torção anexial e comprometimento vascular progressivo", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Limitações do Doppler no diagnóstico e conduta de preservação ovariana", fonte: "ACOG Committee Opinion No. 783, Adnexal Torsion in Adolescents, 2019" },
+    ],
+  },
+  {
+    slug: "polipos-trato-genital-feminino",
+    nome: "Pólipos do trato genital feminino (endometrial e cervical)",
+    sinonimos: ["Pólipo endometrial", "Pólipo cervical"],
+    cid10: "N84",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Crescimentos hiperplásicos benignos e localizados da mucosa endometrial ou cervical, causa comum de sangramento uterino anormal e de sangramento intermenstrual/pós-coital, respectivamente.",
+    definicao:
+      "Proliferações focais benignas de tecido glandular e estromal originadas da mucosa endometrial (pólipo endometrial) ou do epitélio endocervical (pólipo cervical), projetando-se para a cavidade uterina ou para o canal cervical/vagina.",
+    epidemiologia:
+      "Pólipos endometriais são achados comuns, com prevalência crescente com a idade até a menopausa, sendo frequentemente encontrados na investigação de sangramento uterino anormal ou infertilidade; pólipos cervicais são mais comuns em multíparas na quarta e quinta décadas de vida.",
+    fisiopatologia:
+      "Ambos resultam de proliferação hiperplásica focal do tecido glandular e estromal, com resposta exagerada e localizada ao estímulo estrogênico; pólipos endometriais originam-se da camada basal do endométrio e projetam-se na cavidade uterina, enquanto pólipos cervicais originam-se do epitélio colunar endocervical e se exteriorizam pelo orifício externo do colo.",
+    classificacao:
+      "Classificados pela localização em endometrial (intracavitário) e cervical (endocervical, exteriorizando-se pelo orifício externo); a esmagadora maioria de ambos os tipos é benigna, com transformação maligna rara, mais associada a pólipos endometriais em mulheres na pós-menopausa.",
+    quadroClinico: [
+      "Sangramento uterino anormal (intermenstrual, pós-coital ou pós-menopausa) é a manifestação mais comum de ambos os tipos de pólipo",
+      "Pólipo endometrial pode ser assintomático, achado incidental em ultrassonografia ou investigação de infertilidade",
+      "Pólipo cervical frequentemente visível diretamente ao exame especular, como lesão avermelhada, pediculada, exteriorizando-se pelo orifício externo do colo",
+      "Corrimento vaginal associado quando há infecção secundária ou necrose da superfície do pólipo",
+    ],
+    diagnostico: [
+      "Pólipo cervical: diagnóstico visual direto ao exame especular",
+      "Pólipo endometrial: suspeitado pela ultrassonografia transvaginal (espessamento endometrial focal) e confirmado pela histeroscopia com biópsia dirigida, exame padrão-ouro que permite também a remoção terapêutica no mesmo procedimento",
+    ],
+    examesComplementares: [
+      "Ultrassonografia com infusão salina (histerossonografia), método sensível para delinear pólipos endometriais na cavidade uterina",
+      "Exame histopatológico de toda peça removida (pólipo endometrial ou cervical), obrigatório para exclusão de malignidade, particularmente relevante em mulheres na pós-menopausa",
+    ],
+    diagnosticoDiferencial: [
+      "Miomatose uterina submucosa, outra causa comum de sangramento uterino anormal e de achado intracavitário, distinguida por características ecográficas e histológicas",
+      "Hiperplasia endometrial, distinguida por acometer difusamente o endométrio em vez de formar lesão focal",
+      "Carcinoma endometrial, diagnóstico diferencial obrigatório em sangramento pós-menopausa, excluído pela biópsia",
+    ],
+    tratamento: [
+      "Pólipo cervical: remoção simples por torção/avulsão em consultório, com envio obrigatório do material para análise histopatológica",
+      "Pólipo endometrial sintomático ou em mulher na pós-menopausa: polipectomia histeroscópica, procedimento minimamente invasivo que permite ressecção completa dirigida e envio para histopatológico",
+      "Pólipo endometrial assintomático e pequeno em mulher jovem: conduta expectante pode ser considerada, dado o potencial de resolução espontânea, exceto quando há infertilidade associada",
+    ],
+    complicacoes: [
+      "Aguda: sangramento agudo pela superfície do pólipo, ocasionalmente necessitando de intervenção não eletiva",
+      "Crônica: infertilidade (pólipo endometrial), raro potencial de transformação maligna (mais relevante em pólipos endometriais na pós-menopausa)",
+    ],
+    redFlags: [
+      "Sangramento pós-menopausa associado a pólipo endometrial exige biópsia obrigatória e exclusão rigorosa de malignidade, mesmo com aspecto macroscópico benigno",
+      "Pólipo endometrial em investigação de infertilidade deve ser removido, dado seu impacto reconhecido na receptividade endometrial e nas taxas de implantação",
+    ],
+    prognostico:
+      "Excelente na esmagadora maioria dos casos, com resolução completa após remoção e histopatológico confirmando benignidade; a recorrência de novos pólipos é possível e não indica necessariamente falha do tratamento anterior.",
+    pontosDeProva: [
+      "Histeroscopia é simultaneamente o método diagnóstico padrão-ouro e a modalidade terapêutica de escolha para pólipo endometrial, permitindo biópsia dirigida e ressecção completa no mesmo procedimento",
+      "Todo material de polipectomia (endometrial ou cervical) deve ser enviado para histopatológico, independentemente do aspecto macroscópico benigno",
+      "Sangramento pós-menopausa com pólipo endometrial identificado exige exclusão obrigatória de malignidade antes de se atribuir o sangramento unicamente ao pólipo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 52 anos, na pós-menopausa há 2 anos, relata episódio de sangramento vaginal. Ultrassonografia transvaginal identifica espessamento endometrial focal de 1,5 cm compatível com pólipo.",
+      pergunta: "Qual a conduta apropriada diante desse achado?",
+      raciocinio:
+        "Sangramento pós-menopausa é sempre um sinal de alarme que exige investigação para exclusão de malignidade endometrial, independentemente do achado ultrassonográfico sugerir uma lesão aparentemente benigna como o pólipo.",
+      conduta:
+        "Indicar histeroscopia com polipectomia e biópsia dirigida, com envio obrigatório do material para exame histopatológico para exclusão definitiva de malignidade.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é procedimental (remoção/polipectomia); não há tratamento medicamentoso de primeira linha documentável para pólipos do trato genital feminino.",
+    fontes: [
+      { tema: "Fisiopatologia hiperplásica focal e classificação por localização", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Indicação de biópsia obrigatória e conduta em sangramento pós-menopausa", fonte: "ACOG Committee Opinion No. 734, The Role of Transvaginal Ultrasonography in Evaluating the Endometrium of Women With Postmenopausal Bleeding" },
+    ],
+  },
+  {
+    slug: "miomatose-uterina",
+    nome: "Miomatose uterina (leiomioma uterino)",
+    sinonimos: ["Mioma uterino", "Fibroma uterino", "Leiomioma"],
+    cid10: "N85",
+    especialidade: "Ginecologia",
+    etiologia: "Neoplásica",
+    resumo: "Tumor benigno de músculo liso uterino, extremamente comum em mulheres em idade reprodutiva, causa frequente de sangramento uterino anormal, dor pélvica e infertilidade conforme sua localização e tamanho.",
+    definicao:
+      "Neoplasia benigna monoclonal derivada do músculo liso do miométrio, o tumor pélvico mais comum em mulheres, com crescimento hormônio-dependente (estrogênio e progesterona) e regressão característica após a menopausa.",
+    epidemiologia:
+      "Extremamente prevalente, acometendo até 70-80% das mulheres até os 50 anos (achados clínicos ou apenas por imagem/patologia), com maior incidência em mulheres negras, que apresentam miomas mais numerosos, volumosos e sintomáticos em idade mais precoce.",
+    fisiopatologia:
+      "Origina-se de mutação somática em uma única célula de músculo liso miometrial, que prolifera clonalmente sob estímulo dos hormônios ovarianos (estrogênio e progesterona); o crescimento é tipicamente lento, com tendência a estabilização ou regressão após a menopausa pela queda dos níveis hormonais circulantes.",
+    classificacao:
+      "Classificado pela localização segundo o sistema FIGO em submucoso (tipos 0-2, projeta-se para a cavidade uterina, maior impacto em sangramento e fertilidade), intramural (tipo 3-4, dentro da parede miometrial) e subseroso (tipos 5-7, projeta-se para a superfície externa do útero, podendo ser pediculado).",
+    quadroClinico: [
+      "Sangramento uterino anormal (menorragia/hipermenorreia), sintoma mais comum, especialmente associado a miomas submucosos e intramurais que distorcem a cavidade",
+      "Dor pélvica ou sensação de peso, e sintomas compressivos (urinários — polaciúria; intestinais — constipação) em miomas volumosos",
+      "Infertilidade ou perda gestacional recorrente, mais associada a miomas submucosos que distorcem a cavidade endometrial",
+      "Frequentemente assintomático, achado incidental ao exame físico (útero aumentado e irregular) ou à ultrassonografia de rotina",
+    ],
+    diagnostico: [
+      "Exame físico bimanual revelando útero aumentado de volume, de contorno irregular e consistência firme",
+      "Ultrassonografia pélvica/transvaginal, exame de primeira linha para confirmação diagnóstica, mapeamento e classificação FIGO dos miomas",
+    ],
+    examesComplementares: [
+      "Ressonância magnética pélvica, exame de maior acurácia para mapeamento pré-operatório detalhado em úteros com múltiplos miomas ou planejamento de miomectomia complexa",
+      "Histeroscopia diagnóstica para avaliação direta e planejamento terapêutico de miomas submucosos",
+      "Hemograma para avaliação de anemia ferropriva secundária ao sangramento crônico",
+    ],
+    diagnosticoDiferencial: [
+      "Adenomiose, outra causa comum de aumento uterino e sangramento anormal, distinguida por características de imagem específicas (espessamento e heterogeneidade miometrial difusa versus lesão focal bem delimitada do mioma)",
+      "Sarcoma uterino (leiomiossarcoma), neoplasia maligna rara, suspeitada em crescimento tumoral rápido incomum, especialmente na pós-menopausa",
+      "Massa anexial (ovariana), distinguida pela relação anatômica com o útero à ultrassonografia",
+    ],
+    tratamento: [
+      "Assintomático: conduta expectante com acompanhamento clínico e ultrassonográfico periódico",
+      "Sintomático, tratamento clínico: contraceptivos hormonais combinados ou sistema intrauterino liberador de levonorgestrel para controle do sangramento, e análogos do GnRH como preparo pré-operatório para redução volumétrica",
+      "Miomectomia (histeroscópica, laparoscópica ou aberta, conforme localização e tamanho), tratamento cirúrgico conservador de escolha para mulheres com desejo reprodutivo",
+      "Histerectomia, tratamento definitivo indicado em mulheres sem desejo reprodutivo com sintomas refratários ou miomatose volumosa sintomática",
+      "Embolização das artérias uterinas, alternativa minimamente invasiva não cirúrgica para controle de sintomas em pacientes selecionadas",
+    ],
+    complicacoes: [
+      "Aguda: degeneração aguda do mioma (necrobiose asséptica, mais comum na gestação) com dor intensa localizada, torção de mioma subseroso pediculado",
+      "Crônica: anemia ferropriva por sangramento crônico, infertilidade, complicações obstétricas (apresentação anômala, trabalho de parto prematuro) quando há mioma volumoso na gestação",
+    ],
+    redFlags: [
+      "Crescimento tumoral rápido e incomum, particularmente na pós-menopausa (período de esperada regressão hormônio-dependente), deve levantar suspeita de sarcoma uterino e motivar investigação adicional",
+      "Anemia ferropriva significativa secundária a sangramento crônico por miomatose exige correção e consideração de tratamento definitivo mais precoce",
+    ],
+    prognostico:
+      "Excelente em termos de benignidade e de resposta ao tratamento conforme o objetivo da paciente (controle sintomático, preservação de fertilidade ou tratamento definitivo); a regressão espontânea após a menopausa é a evolução natural esperada da doença não tratada.",
+    pontosDeProva: [
+      "A classificação FIGO por localização (submucoso, intramural, subseroso) é o principal determinante do impacto sobre sangramento e fertilidade, e orienta a escolha terapêutica",
+      "O crescimento dos miomas é hormônio-dependente, com tendência a regressão espontânea após a menopausa — crescimento nessa fase é sinal de alarme para sarcoma",
+      "Miomectomia preserva a fertilidade e é a opção cirúrgica de escolha para mulheres com desejo reprodutivo; histerectomia é reservada a quem não deseja mais engravidar",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 38 anos, nuligesta com desejo reprodutivo, relata menorragia progressiva há 1 ano associada a fadiga. Exame físico revela útero aumentado e irregular; ultrassonografia identifica mioma submucoso de 3 cm.",
+      pergunta: "Qual a conduta terapêutica mais apropriada considerando o desejo reprodutivo da paciente?",
+      raciocinio:
+        "Mioma submucoso é a localização com maior impacto sobre sangramento e fertilidade por distorcer a cavidade endometrial; em paciente com desejo reprodutivo, o tratamento conservador que preserva o útero é preferível ao definitivo.",
+      conduta:
+        "Indicar miomectomia histeroscópica, procedimento conservador apropriado para mioma submucoso, que trata o sangramento e preserva o potencial reprodutivo; investigar e corrigir anemia associada.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os contraceptivos hormonais combinados, o sistema intrauterino liberador de levonorgestrel e os análogos do GnRH, utilizados no manejo clínico, ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Fisiopatologia hormônio-dependente e classificação FIGO por localização", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Opções terapêuticas conforme desejo reprodutivo e sinais de alarme para sarcoma", fonte: "ACOG Practice Bulletin No. 228, Management of Symptomatic Uterine Leiomyomas, 2021" },
+    ],
+  },
+  {
+    slug: "displasia-cervical-nic",
+    nome: "Displasia cervical (neoplasia intraepitelial cervical — NIC)",
+    sinonimos: ["NIC", "Lesão intraepitelial escamosa", "Displasia do colo do útero"],
+    cid10: "N87",
+    especialidade: "Ginecologia",
+    etiologia: "Viral",
+    resumo: "Alterações pré-malignas do epitélio escamoso do colo uterino causadas por infecção persistente pelo papilomavírus humano (HPV) oncogênico, identificadas por rastreamento citológico e classificadas por grau de risco de progressão para carcinoma invasor.",
+    definicao:
+      "Espectro de alterações displásicas do epitélio escamoso cervical, precursoras do carcinoma cervical invasor, causadas por infecção persistente por subtipos oncogênicos do papilomavírus humano (HPV), principalmente os subtipos 16 e 18.",
+    epidemiologia:
+      "A infecção por HPV é extremamente comum e, na maioria das mulheres, transitória e autolimitada; a persistência da infecção por subtipos oncogênicos, fator determinante para progressão a displasia, ocorre em uma minoria, sendo mais provável em imunossuprimidas (incluindo pessoas vivendo com HIV) e tabagistas.",
+    fisiopatologia:
+      "A infecção persistente por HPV oncogênico permite a integração do DNA viral ao genoma da célula hospedeira, com expressão das oncoproteínas virais E6 e E7, que inativam respectivamente as proteínas supressoras tumorais p53 e Rb, promovendo proliferação celular descontrolada e progressiva desorganização da arquitetura epitelial, da camada basal em direção à superfície conforme o grau da lesão.",
+    classificacao:
+      "Classificada citologicamente em lesão intraepitelial escamosa de baixo grau (LSIL, geralmente correspondente à NIC 1, com alto potencial de regressão espontânea) e de alto grau (HSIL, correspondente à NIC 2/3, com maior risco de progressão para carcinoma invasor se não tratada); histologicamente graduada de NIC 1 a NIC 3 conforme a proporção da espessura epitelial acometida.",
+    quadroClinico: [
+      "Tipicamente assintomática, sendo identificada exclusivamente por rastreamento citológico de rotina (exame Papanicolau), o que reforça a importância do programa de rastreamento populacional",
+      "Ausência de sintomas específicos que diferenciem a displasia cervical de um colo uterino normal ao exame especular na maioria dos casos",
+    ],
+    diagnostico: [
+      "Citologia oncótica (Papanicolau) como exame de rastreamento primário, identificando anormalidades celulares que motivam investigação adicional",
+      "Colposcopia com biópsia dirigida das áreas anormais, exame confirmatório que estabelece o diagnóstico histológico definitivo do grau da lesão",
+      "Teste de DNA-HPV, com papel crescente tanto no rastreamento primário quanto na triagem (genotipagem) de citologias alteradas",
+    ],
+    examesComplementares: [
+      "Curetagem endocervical quando a zona de transformação não é completamente visualizada à colposcopia, para avaliação do canal endocervical",
+      "Conização (biópsia em cone) diagnóstico-terapêutica quando há discordância entre citologia, colposcopia e biópsia, ou suspeita de doença mais avançada não totalmente amostrada",
+    ],
+    diagnosticoDiferencial: [
+      "Metaplasia escamosa fisiológica da zona de transformação, alteração normal que pode ser confundida com displasia à colposcopia inexperiente",
+      "Cervicite, causa de alterações inflamatórias que podem gerar citologia atípica sem displasia verdadeira",
+      "Carcinoma cervical invasor microinvasivo, diagnóstico diferencial histológico que a biópsia/conização deve excluir",
+    ],
+    tratamento: [
+      "NIC 1 (LSIL): conduta expectante com repetição da citologia/colposcopia em intervalo definido, dado o alto potencial de regressão espontânea, especialmente em mulheres jovens",
+      "NIC 2/3 (HSIL): tratamento excisional (exérese da zona de transformação por cirurgia de alta frequência — CAF/LEEP, ou conização a frio), removendo a lesão e permitindo confirmação histológica completa das margens",
+      "Vacinação contra HPV como estratégia de prevenção primária, reduzindo a incidência de infecção pelos subtipos oncogênicos mais prevalentes antes mesmo do desenvolvimento de displasia",
+    ],
+    complicacoes: [
+      "Aguda: sangramento e, raramente, estenose cervical após procedimento excisional",
+      "Crônica: progressão para carcinoma cervical invasor quando NIC 2/3 não é tratada adequadamente; risco obstétrico de incompetência istmocervical e parto prematuro após conizações extensas ou repetidas",
+    ],
+    redFlags: [
+      "HSIL (NIC 2/3) não tratada carrega risco significativo de progressão para carcinoma invasor, justificando a indicação de tratamento excisional em vez de apenas seguimento expectante",
+      "Discordância entre citologia sugestiva de lesão de alto grau e biópsia normal/discordante deve motivar investigação adicional (conização diagnóstica) para excluir lesão não amostrada",
+    ],
+    prognostico:
+      "Excelente com rastreamento e tratamento apropriados, sendo o câncer cervical uma das neoplasias mais preveníveis quando o programa de rastreamento é seguido; NIC 1 tem alta taxa de regressão espontânea, enquanto NIC 2/3 tratada adequadamente tem excelente controle da progressão.",
+    pontosDeProva: [
+      "As oncoproteínas E6 e E7 do HPV inativam p53 e Rb, respectivamente — mecanismo molecular central e frequentemente cobrado da carcinogênese cervical",
+      "NIC 1/LSIL tem alto potencial de regressão espontânea e pode ser conduzida de forma expectante; NIC 2-3/HSIL geralmente requer tratamento excisional pelo maior risco de progressão",
+      "A citologia é exame de rastreamento; a colposcopia com biópsia é que confirma o diagnóstico histológico definitivo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 29 anos, assintomática, apresenta citologia de rastreamento com resultado de lesão intraepitelial escamosa de alto grau (HSIL).",
+      pergunta: "Qual a conduta diagnóstica subsequente apropriada?",
+      raciocinio:
+        "Resultado citológico de HSIL indica risco significativo de lesão de alto grau (NIC 2/3) subjacente, com maior potencial de progressão para carcinoma invasor, exigindo confirmação histológica antes de decisão terapêutica.",
+      conduta:
+        "Encaminhar para colposcopia com biópsia dirigida das áreas anormais para confirmação histológica; caso confirmado NIC 2/3, proceder a tratamento excisional (CAF/LEEP ou conização).",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é procedimental (excisão) ou expectante conforme o grau; a vacina contra HPV, estratégia de prevenção primária, ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Mecanismo molecular das oncoproteínas E6/E7 e classificação citológica/histológica", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Condutas conforme grau da lesão (LSIL vs. HSIL) e papel do teste de DNA-HPV", fonte: "2019 ASCCP Risk-Based Management Consensus Guidelines for Abnormal Cervical Cancer Screening Tests and Cancer Precursors" },
+    ],
+  },
+  {
+    slug: "liquen-escleroso-distrofias-vulvares",
+    nome: "Líquen escleroso e outras distrofias vulvares",
+    sinonimos: ["Líquen escleroso vulvar", "Distrofia vulvar"],
+    cid10: "N90",
+    especialidade: "Ginecologia",
+    etiologia: "Autoimune",
+    resumo: "Dermatose crônica inflamatória vulvar, provavelmente de base autoimune, causando prurido intenso, atrofia e cicatrização progressiva da pele vulvar, com pequeno mas relevante risco de transformação em carcinoma espinocelular de vulva.",
+    definicao:
+      "Doença dermatológica crônica inflamatória que acomete preferencialmente a pele vulvar e perianal, caracterizada por afinamento e esclerose progressiva do epitélio, associada a distorção arquitetural da anatomia vulvar em casos avançados.",
+    epidemiologia:
+      "Pode ocorrer em qualquer idade, mas apresenta distribuição bimodal, com picos em meninas pré-púberes e em mulheres na pós-menopausa; associação reconhecida com outras doenças autoimunes (tireoidite, vitiligo), reforçando a hipótese etiológica autoimune.",
+    fisiopatologia:
+      "Processo inflamatório crônico de provável base autoimune, com infiltrado linfocitário na derme superficial que leva a homogeneização e esclerose do colágeno dérmico e progressivo afinamento epidérmico; a inflamação crônica e o remodelamento tecidual repetido criam também o substrato para o pequeno mas real risco de transformação em carcinoma espinocelular vulvar.",
+    classificacao:
+      "O líquen escleroso é a distrofia vulvar mais relevante clinicamente dentro do espectro mais amplo de dermatoses vulvares crônicas, sendo distinguido de outras dermatoses vulvares (líquen simples crônico, líquen plano) por características histopatológicas específicas.",
+    quadroClinico: [
+      "Prurido vulvar crônico e intenso, sintoma mais proeminente e frequentemente de longa data antes do diagnóstico",
+      "Placas brancas e atróficas ('em papel de cigarro'), classicamente distribuídas em padrão 'em ampulheta ou em fivela' ao redor da vulva e do ânus",
+      "Fragilidade cutânea com fissuras, equimoses e sangramento local por trauma mínimo, refletindo o afinamento epitelial",
+      "Distorção arquitetural progressiva (fusão de pequenos lábios, estenose de intróito) em doença avançada não tratada, causando dispareunia significativa",
+    ],
+    diagnostico: [
+      "Suspeita clínica pelo aspecto característico das lesões (placas brancas atróficas em distribuição vulvar/perianal) associado a prurido crônico",
+      "Biópsia vulvar confirmatória, particularmente recomendada antes de iniciar tratamento e obrigatória diante de qualquer área suspeita (ulceração, espessamento focal, sangramento) para exclusão de transformação maligna",
+    ],
+    examesComplementares: [
+      "Investigação de doenças autoimunes associadas (função tireoidiana) quando clinicamente indicado, dada a associação reconhecida",
+    ],
+    diagnosticoDiferencial: [
+      "Líquen simples crônico (dermatite crônica por coçadura), distinguido histologicamente e pela ausência da esclerose característica",
+      "Líquen plano vulvar, distinguido por características clínicas e histopatológicas próprias, podendo por vezes coexistir",
+      "Vitiligo vulvar, distinguido pela ausência de atrofia e esclerose, apresentando apenas despigmentação",
+      "Carcinoma espinocelular vulvar inicial, diagnóstico diferencial obrigatório diante de qualquer área de espessamento, ulceração ou massa focal em contexto de líquen escleroso de longa data",
+    ],
+    tratamento: [
+      "Corticosteroide tópico de alta potência, tratamento de primeira linha, eficaz no controle do prurido e na prevenção da progressão da esclerose e da distorção arquitetural quando usado adequadamente",
+      "Terapia de manutenção em longo prazo com corticosteroide tópico em menor frequência, dado o caráter crônico e recidivante da doença",
+      "Cirurgia reservada para correção de sinéquias/estenose significativas causando disfunção, ou para excisão de áreas suspeitas de transformação maligna",
+    ],
+    complicacoes: [
+      "Aguda: fissuras e sangramento por trauma mínimo em pele fragilizada",
+      "Crônica: distorção arquitetural vulvar progressiva com dispareunia, e transformação em carcinoma espinocelular de vulva em uma minoria (mas clinicamente relevante) dos casos não tratados adequadamente ao longo do tempo",
+    ],
+    redFlags: [
+      "Qualquer área de espessamento, ulceração persistente ou massa focal em paciente com líquen escleroso de longa data exige biópsia imediata para exclusão de carcinoma espinocelular vulvar",
+      "Líquen escleroso não tratado ou tratado inadequadamente evolui com maior risco de distorção arquitetural irreversível e de transformação maligna, reforçando a importância do tratamento e do seguimento a longo prazo",
+    ],
+    prognostico:
+      "Doença crônica sem cura, mas com excelente controle sintomático e prevenção de progressão arquitetural com corticoterapia tópica de manutenção adequada; o seguimento a longo prazo é necessário pelo risco, ainda que pequeno, de transformação maligna.",
+    pontosDeProva: [
+      "Corticosteroide tópico de alta potência é o tratamento de primeira linha do líquen escleroso vulvar, eficaz tanto no controle sintomático quanto na prevenção de sequelas arquiteturais",
+      "O líquen escleroso vulvar tem distribuição bimodal (meninas pré-púberes e mulheres na pós-menopausa) e associação com outras doenças autoimunes",
+      "Toda área atípica (ulceração, espessamento focal) em paciente com líquen escleroso deve ser biopsiada pelo risco, ainda que pequeno, de carcinoma espinocelular vulvar associado",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 68 anos, relata prurido vulvar intenso e crônico há 2 anos. Exame revela placas brancas e atróficas em distribuição simétrica ao redor da vulva e do ânus, com fusão parcial dos pequenos lábios.",
+      pergunta: "Qual o diagnóstico mais provável e a conduta inicial?",
+      raciocinio:
+        "Placas brancas atróficas em distribuição característica ao redor da vulva e do ânus, associadas a prurido crônico e distorção arquitetural (fusão labial), são altamente sugestivas de líquen escleroso vulvar, mais prevalente nessa faixa etária.",
+      conduta:
+        "Confirmar o diagnóstico com biópsia vulvar e iniciar corticosteroide tópico de alta potência; orientar sobre a necessidade de seguimento a longo prazo pelo risco, ainda que pequeno, de transformação maligna.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O corticosteroide tópico de alta potência, tratamento de primeira linha, ainda não tem ficha própria documentada no site (os corticosteroides sistêmicos já documentados não são a formulação indicada para esta condição).",
+    fontes: [
+      { tema: "Fisiopatologia autoimune e distribuição bimodal característica", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Corticoterapia tópica como tratamento de primeira linha e seguimento pelo risco de malignização", fonte: "ISSVD, Lichen Sclerosus — Practical Guide to Diagnosis and Management, 2024" },
+    ],
+  },
+  {
+    slug: "amenorreia",
+    nome: "Amenorreia (primária e secundária)",
+    sinonimos: [],
+    cid10: "N91",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Ausência de menstruação, classificada em primária (nunca houve menarca) ou secundária (interrupção da menstruação em mulher previamente menstruada), com investigação etiológica organizada segundo o nível do eixo hipotálamo-hipófise-ovário-útero comprometido.",
+    definicao:
+      "Ausência de menstruação, definida como primária quando a menarca não ocorreu até os 15 anos (ou até os 13 anos na ausência de caracteres sexuais secundários) ou secundária quando há ausência de menstruação por 3 ciclos habituais ou 6 meses em mulher previamente menstruada.",
+    epidemiologia:
+      "A gestação é, disparadamente, a causa mais comum de amenorreia secundária em mulheres em idade reprodutiva e deve ser sempre excluída antes de qualquer investigação adicional; a amenorreia primária é bem menos comum e mais associada a causas genéticas/anatômicas.",
+    fisiopatologia:
+      "A menstruação depende da integridade funcional de quatro níveis: hipotálamo (secreção pulsátil de GnRH), hipófise (secreção de LH/FSH), ovário (produção hormonal cíclica e ovulação) e trato de saída (útero/endométrio responsivo e via anatômica patente); um distúrbio em qualquer um desses níveis pode resultar em amenorreia, sendo essa organização por nível a base do raciocínio diagnóstico.",
+    classificacao:
+      "Classificada em primária e secundária conforme já tenha ocorrido menarca; e, quanto à etiologia, organizada por compartimento do eixo reprodutivo: hipotalâmica (funcional, por estresse/exercício/baixo peso), hipofisária (hiperprolactinemia, tumores), ovariana (síndrome dos ovários policísticos, insuficiência ovariana primária) e uterina/de trato de saída (síndrome de Asherman, agenesia mülleriana, himen imperfurado).",
+    quadroClinico: [
+      "Ausência de menstruação como queixa principal, com contexto e sintomas associados variando conforme a etiologia subjacente",
+      "Sinais de hiperandrogenismo (hirsutismo, acne) sugerem síndrome dos ovários policísticos como etiologia",
+      "Galactorreia associada sugere hiperprolactinemia como causa",
+      "Fogachos e sintomas de hipoestrogenismo em mulher jovem sugerem insuficiência ovariana primária",
+      "Ausência de caracteres sexuais secundários na amenorreia primária direciona a investigação para causas genéticas ou hipogonadotróficas",
+    ],
+    diagnostico: [
+      "Teste de gravidez (beta-hCG) como primeiro passo obrigatório em toda mulher em idade reprodutiva com amenorreia secundária, antes de qualquer outra investigação",
+      "Dosagem de prolactina e TSH, exames de triagem inicial para hiperprolactinemia e disfunção tireoidiana, causas endócrinas comuns e tratáveis",
+      "Dosagem de FSH/LH, para diferenciar causas hipergonadotróficas (falência ovariana, FSH elevado) de hipogonadotróficas (disfunção hipotalâmica/hipofisária, FSH baixo/normal)",
+      "Teste de progesterona (avaliação de sangramento de escape após administração de progestagênio), auxilia a avaliar a integridade do trato de saída e o status estrogênico",
+    ],
+    examesComplementares: [
+      "Ultrassonografia pélvica para avaliação de anatomia uterina/ovariana e exclusão de causas anatômicas",
+      "Ressonância magnética de sela túrcica quando há hiperprolactinemia significativa, para investigação de adenoma hipofisário",
+      "Cariótipo em amenorreia primária com suspeita de causa genética (disgenesia gonadal, síndrome de Turner)",
+    ],
+    diagnosticoDiferencial: [
+      "Gestação, principal diagnóstico diferencial e causa mais comum de amenorreia secundária, sempre excluída em primeiro lugar",
+      "Síndrome dos ovários policísticos, causa comum de amenorreia/oligomenorreia associada a hiperandrogenismo",
+      "Insuficiência ovariana primária, distinguida por FSH elevado em mulher jovem com sintomas de hipoestrogenismo",
+    ],
+    tratamento: [
+      "Dirigido à causa de base identificada na investigação (por exemplo: agonista dopaminérgico para hiperprolactinemia, reposição hormonal em insuficiência ovariana primária, manejo de peso/estresse na amenorreia hipotalâmica funcional)",
+      "Reposição estrogênica indicada em causas hipoestrogênicas prolongadas para proteção óssea e cardiovascular, independentemente do desejo de fertilidade imediato",
+      "Correção cirúrgica em causas anatômicas do trato de saída quando aplicável (por exemplo, himen imperfurado)",
+    ],
+    complicacoes: [
+      "Aguda: ansiedade e impacto psicológico relacionados à incerteza diagnóstica e, quando aplicável, à infertilidade associada",
+      "Crônica: osteoporose precoce e risco cardiovascular aumentado em estados hipoestrogênicos prolongados não tratados; infertilidade conforme a causa de base",
+    ],
+    redFlags: [
+      "Teste de gravidez sempre deve ser o primeiro exame solicitado em amenorreia secundária, independentemente da história sexual relatada, para evitar atraso ou erro diagnóstico grave",
+      "Amenorreia associada a cefaleia e alterações visuais sugere massa hipofisária/hipotalâmica compressiva, exigindo investigação de imagem urgente",
+    ],
+    prognostico:
+      "Variável e diretamente dependente da causa de base identificada; muitas causas (hiperprolactinemia, amenorreia hipotalâmica funcional) são tratáveis com reversão completa da função menstrual e reprodutiva.",
+    pontosDeProva: [
+      "A investigação da amenorreia é organizada por nível do eixo reprodutivo (hipotálamo, hipófise, ovário, trato de saída), estrutura que orienta toda a sequência diagnóstica",
+      "Teste de gravidez é sempre o primeiro exame na amenorreia secundária, antes de qualquer dosagem hormonal",
+      "FSH elevado indica causa ovariana (hipergonadotrófica); FSH baixo/normal aponta para causa hipotalâmica ou hipofisária (hipogonadotrófica)",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 24 anos, previamente com ciclos regulares, relata ausência de menstruação há 4 meses, associada a galactorreia. Teste de gravidez é negativo.",
+      pergunta: "Qual a próxima etapa diagnóstica mais apropriada?",
+      raciocinio:
+        "Amenorreia secundária com galactorreia associada, na ausência de gestação, é altamente sugestiva de hiperprolactinemia como etiologia, devendo direcionar a investigação hormonal subsequente.",
+      conduta:
+        "Solicitar dosagem sérica de prolactina e TSH; caso confirmada hiperprolactinemia significativa, complementar com ressonância magnética de sela túrcica para investigação de adenoma hipofisário.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende inteiramente da causa de base identificada (agonistas dopaminérgicos, reposição hormonal, entre outros), nenhuma das quais ainda tem ficha própria documentada no site especificamente para esta indicação.",
+    fontes: [
+      { tema: "Organização diagnóstica por nível do eixo hipotálamo-hipófise-ovário-útero", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Algoritmo de investigação hormonal e principais etiologias tratáveis", fonte: "Klein DA et al., Amenorrhea: A Systematic Approach to Diagnosis and Management, American Family Physician, 2019" },
+    ],
+  },
+  {
+    slug: "sangramento-uterino-anormal",
+    nome: "Sangramento uterino anormal (incluindo menorragia)",
+    sinonimos: ["Menorragia", "Hipermenorreia", "Sangramento uterino disfuncional"],
+    cid10: "N92-N93",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Alteração do padrão menstrual normal em frequência, duração, regularidade ou volume, cuja investigação etiológica é organizada pelo sistema PALM-COEIN, distinguindo causas estruturais de causas não estruturais.",
+    definicao:
+      "Sangramento uterino que se desvia do padrão menstrual normal em qualquer um de seus parâmetros — frequência, regularidade, duração ou volume —, incluindo a menorragia (fluxo menstrual excessivo em volume e/ou duração, porém com regularidade e frequência mantidas).",
+    epidemiologia:
+      "Motivo extremamente comum de consulta ginecológica em todas as faixas etárias reprodutivas, com etiologia variando conforme a idade: causas estruturais e neoplásicas ganham relevância crescente com o avançar da idade, enquanto causas ovulatórias/hormonais predominam em adolescentes e no período peri-menopausa.",
+    fisiopatologia:
+      "Pode decorrer de lesões estruturais do útero (pólipos, miomas, adenomiose, malignidade) que interferem mecanicamente na hemostasia endometrial local, ou de causas não estruturais, mais comumente a anovulação (falha na produção cíclica organizada de progesterona, levando a proliferação endometrial descontrolada e sangramento irregular e imprevisível por descamação desorganizada).",
+    classificacao:
+      "Classificado pelo sistema PALM-COEIN da International Federation of Gynecology and Obstetrics (FIGO): causas estruturais — Pólipo, Adenomiose, Leiomioma, Malignidade/hiperplasia; e causas não estruturais — Coagulopatia, disfunção Ovulatória, Endometrial (disfunção primária da hemostasia local), Iatrogênica (anticoagulantes, dispositivos), e Não classificada.",
+    quadroClinico: [
+      "Menorragia (fluxo menstrual volumoso e/ou prolongado, com ciclos regulares), padrão mais associado a causas estruturais (mioma, adenomiose, pólipo) ou coagulopatias",
+      "Sangramento intermenstrual, mais associado a pólipos, cervicite ou lesão estrutural focal",
+      "Sangramento irregular e imprevisível em frequência e volume, padrão característico da disfunção ovulatória (anovulação)",
+      "Sintomas de anemia (fadiga, palidez, dispneia aos esforços) quando o sangramento é volumoso e crônico",
+    ],
+    diagnostico: [
+      "Anamnese detalhada do padrão de sangramento (frequência, duração, volume, regularidade) e teste de gravidez, sempre o primeiro passo na investigação",
+      "Ultrassonografia pélvica/transvaginal, exame de primeira linha para avaliação estrutural (identificação de pólipos, miomas, espessamento endometrial sugestivo de adenomiose ou hiperplasia)",
+      "Biópsia endometrial obrigatória em mulheres acima de 45 anos ou com fatores de risco para carcinoma endometrial (obesidade, anovulação crônica) mesmo em idade mais jovem, para exclusão de malignidade/hiperplasia",
+    ],
+    examesComplementares: [
+      "Hemograma completo para avaliação do grau de anemia secundária",
+      "Rastreamento de coagulopatia (incluindo doença de von Willebrand) em adolescentes com menorragia desde a menarca, população em que essa etiologia é proporcionalmente mais relevante",
+      "Histeroscopia com biópsia dirigida quando a ultrassonografia sugere lesão intracavitária focal (pólipo, mioma submucoso)",
+    ],
+    diagnosticoDiferencial: [
+      "Gestação e suas complicações (ameaça de abortamento, gestação ectópica), sempre excluídas antes de se atribuir o sangramento a causa ginecológica não gestacional",
+      "Cervicite ou lesão cervical, causa de sangramento intermenstrual/pós-coital de origem cervical e não uterina propriamente dita",
+      "Distúrbios tireoidianos, causa endócrina sistêmica que pode alterar o padrão menstrual",
+    ],
+    tratamento: [
+      "Tratamento dirigido à causa estrutural identificada quando presente (polipectomia, miomectomia, conforme já detalhado nas respectivas fichas)",
+      "Anti-inflamatório não esteroidal (como o ibuprofeno) durante o período menstrual, reduzindo o volume de sangramento por inibição da síntese de prostaglandinas endometriais, opção de primeira linha para menorragia sem causa estrutural significativa",
+      "Contraceptivos hormonais combinados ou sistema intrauterino liberador de levonorgestrel, opções eficazes de controle do sangramento em causas não estruturais/ovulatórias",
+      "Correção de coagulopatia subjacente quando identificada como causa",
+    ],
+    complicacoes: [
+      "Aguda: sangramento uterino anormal agudo volumoso pode requerer manejo hormonal em altas doses ou, raramente, intervenção cirúrgica de urgência para controle",
+      "Crônica: anemia ferropriva significativa, impacto relevante na qualidade de vida",
+    ],
+    redFlags: [
+      "Sangramento uterino anormal em mulher acima de 45 anos, ou mais jovem com fatores de risco para hiperplasia/carcinoma endometrial, exige biópsia endometrial obrigatória antes de se assumir causa benigna",
+      "Sangramento volumoso agudo com instabilidade hemodinâmica associada é emergência que requer manejo hospitalar imediato",
+    ],
+    prognostico:
+      "Geralmente bom com tratamento dirigido à causa identificada; o sistema PALM-COEIN, ao organizar sistematicamente a investigação, favorece diagnóstico etiológico preciso e tratamento direcionado eficaz na maioria dos casos.",
+    pontosDeProva: [
+      "O sistema PALM-COEIN (Pólipo, Adenomiose, Leiomioma, Malignidade — estruturais; Coagulopatia, disfunção Ovulatória, Endometrial, Iatrogênica, Não classificada — não estruturais) é a estrutura padronizada e amplamente cobrada para organizar a investigação etiológica",
+      "Biópsia endometrial é obrigatória em mulheres acima de 45 anos com sangramento uterino anormal para exclusão de hiperplasia/carcinoma endometrial",
+      "AINEs reduzem o volume de sangramento menstrual por inibição da síntese de prostaglandinas endometriais, sendo opção de primeira linha em menorragia sem causa estrutural",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 42 anos, relata menorragia progressiva há 8 meses, com ciclos regulares mas fluxo volumoso e prolongado, associada a fadiga. Teste de gravidez negativo.",
+      pergunta: "Qual a investigação inicial mais apropriada?",
+      raciocinio:
+        "Menorragia com ciclos regulares (frequência e regularidade preservadas, apenas volume/duração alterados) sugere causa estrutural (PALM) mais do que disfunção ovulatória; a idade acima de 45 anos (ou próxima) reforça a necessidade de excluir malignidade/hiperplasia endometrial.",
+      conduta:
+        "Solicitar ultrassonografia transvaginal para avaliação estrutural (pólipo, mioma, adenomiose) e biópsia endometrial para exclusão de hiperplasia/malignidade, além de hemograma para quantificar a anemia associada.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "ibuprofeno", nome: "Ibuprofeno" },
+    ],
+    medicamentosSecaoTitulo: "Redução do volume de sangramento (tratamento hormonal dirigido à causa é frequentemente necessário em associação)",
+    medicamentosNota:
+      "Os contraceptivos hormonais combinados e o sistema intrauterino liberador de levonorgestrel, opções eficazes de controle do sangramento, ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Sistema de classificação PALM-COEIN da FIGO", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Indicação de biópsia endometrial por idade/fator de risco e opções terapêuticas por etiologia", fonte: "ACOG Practice Bulletin No. 128, Diagnosis of Abnormal Uterine Bleeding in Reproductive-Aged Women, 2012" },
+    ],
+  },
 ];

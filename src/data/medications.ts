@@ -182,6 +182,8 @@ export const medications: Medication[] = [
       { slug: "episclerite-esclerite", nome: "Episclerite e esclerite" },
       { slug: "enxaqueca", nome: "Enxaqueca" },
       { slug: "colica-nefretica", nome: "Cólica nefrética" },
+      { slug: "endometriose", nome: "Endometriose" },
+      { slug: "sangramento-uterino-anormal", nome: "Sangramento uterino anormal (incluindo menorragia)" },
     ],
     fontes: [
       { tema: "Mecanismo de ação e efeitos adversos", fonte: "Goodman & Gilman, 13ª ed." },

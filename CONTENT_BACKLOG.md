@@ -15,7 +15,7 @@ Fontes:
   está, o único item da lista ainda pendente por esse motivo.
 
 Já documentados com ficha completa (**fora deste backlog**, não repetir):
-- **Doenças (218):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
+- **Doenças (231):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
   · Dengue · COVID-19 · Gastrite · DRGE · Artrite reumatoide · LES · Alzheimer · Anemia
   ferropriva · DRC · Infarto agudo do miocárdio · Angina pectoris · Doença isquêmica
   crônica do coração · Fibrilação e flutter atrial · Parada cardíaca · Febre reumática ·
@@ -85,7 +85,12 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   Neoplasia maligna das glândulas salivares · Neoplasia maligna da
   orofaringe e tonsila · Neoplasia maligna da nasofaringe · Neoplasia
   maligna da hipofaringe · Neoplasia maligna nasossinusal · Neoplasia
-  maligna da laringe
+  maligna da laringe · Doença inflamatória pélvica (salpingite e ooforite)
+  · Cervicite · Bartolinite · Vaginite e vulvite · Endometriose · Prolapso
+  de órgãos pélvicos · Cistos ovarianos e torção anexial · Pólipos do
+  trato genital feminino · Miomatose uterina · Displasia cervical (NIC) ·
+  Líquen escleroso e outras distrofias vulvares · Amenorreia · Sangramento
+  uterino anormal (incluindo menorragia)
 - **Medicamentos (29):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
@@ -393,20 +398,20 @@ adjacentes que descrevem a mesma entidade clínica sob o espectro de gravidade
 O14 e eclâmpsia O15, que permanecem fichas próprias de alto valor de prova) foram
 agrupadas em uma única ficha.
 
-### Lote 17 — GO A: Ginecologia benigna e inflamatória (13)
-1. pendente — Doença inflamatória pélvica / salpingite, ooforite (N70+N71) *(já estava no Lote 15 como N71)*
-2. pendente — Cervicite / doença inflamatória do colo do útero (N72)
-3. pendente — Bartolinite / doenças da glândula de Bartholin (N75)
-4. pendente — Vaginite e vulvite / candidíase, vaginose bacteriana, tricomoníase (N76)
-5. pendente — Endometriose (N80) *(já estava no Lote 15)*
-6. pendente — Prolapso genital feminino (N81)
-7. pendente — Cistos ovarianos funcionais e torção anexial (N83)
-8. pendente — Pólipos do trato genital feminino (N84)
-9. pendente — Miomatose uterina (N85) *(já estava no Lote 15)*
-10. pendente — Displasia cervical / NIC (N87)
-11. pendente — Líquen escleroso e distrofias vulvares (N90)
-12. pendente — Amenorreia (N91)
-13. pendente — Sangramento uterino anormal / menorragia (N92+N93)
+### Lote 17 — GO A: Ginecologia benigna e inflamatória (13) — ✅ CONCLUÍDO
+1. concluído — Doença inflamatória pélvica / salpingite, ooforite (N70+N71) *(já estava no Lote 15 como N71)*
+2. concluído — Cervicite / doença inflamatória do colo do útero (N72)
+3. concluído — Bartolinite / doenças da glândula de Bartholin (N75)
+4. concluído — Vaginite e vulvite / candidíase, vaginose bacteriana, tricomoníase (N76)
+5. concluído — Endometriose (N80) *(já estava no Lote 15)*
+6. concluído — Prolapso genital feminino (N81)
+7. concluído — Cistos ovarianos funcionais e torção anexial (N83)
+8. concluído — Pólipos do trato genital feminino (N84)
+9. concluído — Miomatose uterina (N85) *(já estava no Lote 15)*
+10. concluído — Displasia cervical / NIC (N87)
+11. concluído — Líquen escleroso e distrofias vulvares (N90)
+12. concluído — Amenorreia (N91)
+13. concluído — Sangramento uterino anormal / menorragia (N92+N93)
 
 ### Lote 18 — GO B: Ginecologia funcional, menopausa e oncologia ginecológica (12)
 1. pendente — Dismenorreia e síndrome pré-menstrual (N94)
@@ -466,13 +471,13 @@ agrupadas em uma única ficha.
 10. pendente — Dermatite alérgica de contato (L23)
 11. pendente — Abscesso cutâneo, furúnculo e antraz (L02)
 
-**Total: 63 doenças pendentes em 5 lotes** (Lotes 1-13 e Lotes 14-16
-(Otorrinolaringologia completa) todos concluídos, além das 218 já fichadas.
-**Oftalmologia, Neurologia, Hematologia, Nefrologia+Urologia, Psiquiatria e
-Otorrinolaringologia fechadas por completo. Próxima prioridade: Lote 17
-(GO A — Ginecologia benigna e inflamatória, 13 itens), seguido dos Lotes
-18-20 (Ginecologia/Obstetrícia restante) antes de retomar Dermatologia
-(Lote 21).**
+**Total: 50 doenças pendentes em 4 lotes** (Lotes 1-13, Lotes 14-16
+(Otorrinolaringologia completa) e Lote 17 (GO A) todos concluídos, além das
+231 já fichadas. **Oftalmologia, Neurologia, Hematologia, Nefrologia+Urologia,
+Psiquiatria e Otorrinolaringologia fechadas por completo. Próxima
+prioridade: Lote 18 (GO B — Ginecologia funcional, menopausa e oncologia
+ginecológica, 12 itens), seguido dos Lotes 19-20 (Obstetrícia) antes de
+retomar Dermatologia (Lote 21).**
 
 ---
 
