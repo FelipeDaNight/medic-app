@@ -243,6 +243,9 @@ export const medications: Medication[] = [
       { slug: "pneumonia-adquirida-na-comunidade", nome: "Pneumonia adquirida na comunidade" },
       { slug: "gastrite", nome: "Gastrite" },
       { slug: "otite-media-aguda-supurativa", nome: "Otite média aguda supurativa e crônica" },
+      { slug: "sinusite-aguda", nome: "Sinusite aguda" },
+      { slug: "faringite-aguda", nome: "Faringite aguda" },
+      { slug: "amigdalite-aguda", nome: "Amigdalite aguda" },
     ],
     fontes: [
       { tema: "Mecanismo de ação e farmacocinética", fonte: "Goodman & Gilman, 13ª ed." },
@@ -304,6 +307,7 @@ export const medications: Medication[] = [
       { slug: "abscesso-pulmonar", nome: "Abscesso do pulmão e do mediastino" },
       { slug: "colecistite", nome: "Colecistite" },
       { slug: "doenca-diverticular", nome: "Doença diverticular do intestino" },
+      { slug: "abscesso-periamigdaliano", nome: "Abscesso periamigdaliano" },
     ],
     fontes: [
       { tema: "Mecanismo de ação (inibição de betalactamase)", fonte: "Goodman & Gilman, 13ª ed." },
@@ -756,6 +760,7 @@ export const medications: Medication[] = [
       { slug: "sindrome-nefrotica", nome: "Síndrome nefrótica" },
       { slug: "nefrite-tubulo-intersticial-aguda", nome: "Nefrite túbulo-intersticial aguda" },
       { slug: "transtornos-funcao-vestibular", nome: "Transtornos da função vestibular" },
+      { slug: "polipo-nasal", nome: "Pólipo nasal" },
     ],
     fontes: [
       { tema: "Mecanismo de ação glicocorticoide", fonte: "Goodman & Gilman, 13ª ed." },

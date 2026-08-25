@@ -14543,4 +14543,1116 @@ export const diseases: Disease[] = [
       { tema: "Investigação do zumbido pulsátil e papel da terapia de habituação sonora", fonte: "fonte pendente" },
     ],
   },
+  {
+    slug: "nasofaringite-aguda",
+    nome: "Nasofaringite aguda (resfriado comum)",
+    sinonimos: ["Resfriado comum", "Rinofaringite aguda"],
+    cid10: "J00",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Viral",
+    resumo: "Infecção viral autolimitada das vias aéreas superiores, causa mais frequente de consulta médica por doença aguda, com tratamento exclusivamente sintomático.",
+    definicao:
+      "Infecção viral aguda e autolimitada da mucosa nasal e da nasofaringe, mais comumente causada por rinovírus, mas também por coronavírus, vírus sincicial respiratório e outros vírus respiratórios.",
+    epidemiologia:
+      "É a doença infecciosa aguda mais comum em todas as faixas etárias, com adultos apresentando em média de 2 a 4 episódios por ano e crianças pequenas ainda mais, refletindo a grande diversidade de sorotipos virais circulantes e a imunidade tipo-específica limitada.",
+    fisiopatologia:
+      "O vírus infecta as células epiteliais ciliadas da mucosa nasal, desencadeando resposta inflamatória local (liberação de mediadores como bradicinina e histamina) responsável pelos sintomas característicos de obstrução nasal, rinorreia e espirros, sem invasão tecidual profunda significativa na maioria dos casos.",
+    classificacao:
+      "Não há sistema de estadiamento formal; a condição é autolimitada e classificada apenas pela presença ou ausência de complicações secundárias (sinusite bacteriana secundária, otite média aguda).",
+    quadroClinico: [
+      "Rinorreia (inicialmente clara, podendo tornar-se espessa e amarelada/esverdeada nos dias seguintes, sem que isso indique necessariamente infecção bacteriana secundária)",
+      "Obstrução nasal, espirros e prurido nasal",
+      "Odinofagia leve e tosse, frequentemente presentes",
+      "Febre baixa ou ausente em adultos, mais comum e mais alta em crianças pequenas",
+      "Sintomas tipicamente atingem pico em 2-3 dias e resolvem-se em 7-10 dias",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico, baseado no quadro característico e autolimitado, sem necessidade de exames complementares na maioria dos casos",
+      "A mudança de coloração da secreção nasal para amarelada ou esverdeada durante o curso natural da doença é comum e não indica, por si só, infecção bacteriana secundária",
+    ],
+    examesComplementares: [
+      "Não são indicados exames complementares de rotina; a investigação é reservada a casos de suspeita de complicação bacteriana secundária (sinusite, otite média) com piora após período inicial de melhora",
+    ],
+    diagnosticoDiferencial: [
+      "Rinite alérgica (sintomas recorrentes ou persistentes, associados a exposição a alérgenos identificáveis, sem o curso autolimitado típico da infecção viral)",
+      "Sinusite bacteriana aguda (piora dos sintomas após período inicial de melhora, ou persistência além de 10 dias sem melhora, sugerindo complicação bacteriana secundária)",
+      "Influenza (sintomas sistêmicos mais intensos, incluindo febre alta, mialgia e mal-estar importante, geralmente ausentes ou leves no resfriado comum)",
+    ],
+    tratamento: [
+      "Tratamento exclusivamente sintomático: analgésicos/antitérmicos, descongestionantes e hidratação adequada",
+      "Repouso e medidas de suporte geral, com resolução espontânea esperada em 7-10 dias",
+      "Antibióticos não têm papel algum no tratamento, dada a etiologia viral, e seu uso indiscriminado contribui para resistência bacteriana sem benefício clínico",
+    ],
+    complicacoes: [
+      "Aguda: sinusite bacteriana aguda secundária, otite média aguda secundária (sobretudo em crianças pequenas), exacerbação de asma em pacientes asmáticos",
+      "Crônica: não há complicações crônicas diretamente atribuíveis ao resfriado comum não complicado",
+    ],
+    redFlags: [
+      "Piora dos sintomas após período inicial de melhora (padrão 'duplo pico') sugere complicação bacteriana secundária, como sinusite aguda, exigindo reavaliação",
+      "Febre alta persistente além de poucos dias ou sintomas sistêmicos importantes devem levantar suspeita de diagnóstico alternativo (influenza, outra infecção), não sendo típicos do resfriado comum não complicado",
+    ],
+    prognostico:
+      "Excelente prognóstico, com resolução espontânea completa na grande maioria dos casos em 7-10 dias, sem sequelas.",
+    pontosDeProva: [
+      "A mudança de coloração da secreção nasal (de clara para amarelada/esverdeada) é parte do curso natural da infecção viral e não indica, isoladamente, necessidade de antibiótico — equívoco comum na prática clínica e frequentemente cobrado",
+      "Antibióticos não têm indicação no resfriado comum não complicado, dada sua etiologia exclusivamente viral",
+      "O padrão de piora após melhora inicial ('duplo pico') é o sinal mais confiável de complicação bacteriana secundária, distinto do curso monofásico esperado da infecção viral simples",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 26 anos, apresenta rinorreia, espirros e obstrução nasal há 2 dias, sem febre, com leve dor de garganta associada.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "Quadro catarral leve, de início recente e sem sinais de gravidade, é típico de nasofaringite viral aguda (resfriado comum), condição autolimitada que não requer investigação adicional.",
+      conduta:
+        "Orientar tratamento sintomático (analgésico, descongestionante, hidratação) e repouso, esclarecendo que antibióticos não têm papel nesta condição viral, com expectativa de resolução em cerca de uma semana.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é exclusivamente sintomático (analgésicos, descongestionantes); não há tratamento antiviral específico indicado para o resfriado comum.",
+    fontes: [
+      { tema: "Etiologia viral (rinovírus predominante) e curso natural da doença", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Ausência de indicação de antibiótico e sinais de complicação bacteriana secundária", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "sinusite-aguda",
+    nome: "Sinusite aguda",
+    sinonimos: ["Rinossinusite aguda"],
+    cid10: "J01",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Viral",
+    resumo: "Inflamação aguda dos seios paranasais, na maioria das vezes de causa viral e autolimitada, com antibiótico reservado aos casos com critérios clínicos sugestivos de infecção bacteriana secundária.",
+    definicao:
+      "Inflamação aguda (com duração inferior a 4 semanas) da mucosa que reveste um ou mais seios paranasais, na grande maioria dos casos de etiologia viral e secundária a uma infecção de vias aéreas superiores precedente, com apenas uma minoria evoluindo para infecção bacteriana secundária.",
+    epidemiologia:
+      "Extremamente comum, geralmente precedida por uma infecção viral de vias aéreas superiores; apenas uma pequena fração dos casos (estimada em cerca de 0,5-2%) evolui para sinusite bacteriana aguda verdadeira, o que tem implicação direta e importante na decisão de tratar ou não com antibiótico.",
+    fisiopatologia:
+      "A infecção viral de vias aéreas superiores causa edema da mucosa nasal e dos óstios de drenagem dos seios paranasais, comprometendo a ventilação e a drenagem normais dessas cavidades. O acúmulo de secreção nos seios obstruídos cria um ambiente favorável, em uma minoria dos casos, à superinfecção bacteriana secundária (mais comumente por Streptococcus pneumoniae, Haemophilus influenzae não tipável e Moraxella catarrhalis).",
+    classificacao:
+      "Classificada quanto à duração em aguda (menos de 4 semanas), subaguda (4-12 semanas) e crônica (mais de 12 semanas, ficha própria neste site), e quanto à etiologia em viral (a grande maioria dos casos agudos) e bacteriana (minoria, identificada por critérios clínicos específicos).",
+    quadroClinico: [
+      "Congestão e obstrução nasal, associadas a secreção nasal purulenta ou pressão/dor facial",
+      "Dor ou pressão facial que piora tipicamente ao inclinar a cabeça para frente",
+      "Hiposmia ou anosmia transitória",
+      "Tosse, frequentemente pior à noite pelo gotejamento pós-nasal",
+      "Febre, quando presente, geralmente baixa na forma viral e mais alta quando há infecção bacteriana secundária",
+    ],
+    diagnostico: [
+      "Diagnóstico predominantemente clínico; a distinção entre causa viral e bacteriana é feita por critérios clínicos, não por exame de imagem de rotina",
+      "Critérios sugestivos de sinusite bacteriana secundária: sintomas persistentes sem melhora além de 10 dias, piora dos sintomas após melhora inicial ('duplo pico'), ou sintomas graves de início (febre alta ≥39°C associada a secreção purulenta e dor facial por pelo menos 3-4 dias consecutivos)",
+      "Exame de imagem (tomografia de seios paranasais) reservado a casos de suspeita de complicação (extensão orbitária ou intracraniana) ou de sinusite recorrente/crônica, não indicado rotineiramente na sinusite aguda simples",
+    ],
+    examesComplementares: [
+      "Não são indicados exames de imagem de rotina na sinusite aguda não complicada, dado que o diagnóstico e a decisão terapêutica são clínicos",
+      "Tomografia computadorizada de seios paranasais reservada a suspeita de complicação orbitária/intracraniana ou a casos recorrentes/crônicos",
+    ],
+    diagnosticoDiferencial: [
+      "Resfriado comum não complicado (sintomas mais leves e sem os critérios específicos sugestivos de acometimento sinusal bacteriano)",
+      "Rinite alérgica (sintomas recorrentes associados a exposição alergênica, geralmente sem dor facial ou febre)",
+      "Cefaleia primária (enxaqueca, cefaleia tensional), quando a dor facial é o sintoma predominante sem os demais achados de sinusite",
+    ],
+    tratamento: [
+      "Tratamento sintomático (analgésicos, descongestionantes, irrigação nasal com solução salina) é a conduta inicial apropriada para a grande maioria dos casos, de etiologia viral",
+      "Amoxicilina é o antibiótico de primeira linha quando os critérios clínicos de sinusite bacteriana são preenchidos (sintomas persistentes além de 10 dias sem melhora, piora após melhora inicial, ou quadro grave de início)",
+      "Corticosteroide nasal tópico pode ser considerado como adjuvante para alívio sintomático, sobretudo em pacientes com componente alérgico associado",
+      "Reavaliação e ampliação do espectro antibiótico (amoxicilina com clavulanato) considerada em caso de falha terapêutica após 72 horas de amoxicilina isolada",
+    ],
+    complicacoes: [
+      "Aguda: celulite orbitária ou periorbitária por extensão direta da infecção sinusal (mais comum em crianças, complicação do seio etmoidal), trombose de seio cavernoso e complicações intracranianas em casos raros e graves",
+      "Crônica: evolução para sinusite crônica em casos de tratamento inadequado ou obstrução persistente da drenagem sinusal",
+    ],
+    redFlags: [
+      "Edema periorbitário, proptose ou limitação da motilidade ocular associados à sinusite (sobretudo etmoidal) sugerem extensão orbitária, exigindo investigação de imagem e tratamento urgentes",
+      "Cefaleia intensa, alteração do nível de consciência ou sinais neurológicos focais associados à sinusite sugerem complicação intracraniana, exigindo avaliação de imagem imediata",
+    ],
+    prognostico:
+      "Excelente prognóstico na forma viral, com resolução espontânea na maioria dos casos em 7-10 dias. A forma bacteriana, quando tratada adequadamente, também tem bom prognóstico, com complicações graves sendo raras.",
+    pontosDeProva: [
+      "Apenas uma pequena minoria (cerca de 0,5-2%) das sinusites agudas é de causa bacteriana — a maioria não deve ser tratada com antibiótico, distinção central e frequentemente cobrada",
+      "Os critérios clínicos para sinusite bacteriana (persistência além de 10 dias, piora após melhora inicial, ou gravidade de início) substituem a necessidade de exame de imagem para a decisão terapêutica na maioria dos casos",
+      "A celulite orbitária por extensão do seio etmoidal é a complicação mais temida em crianças e exige reconhecimento e tratamento urgentes",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 34 anos, apresenta congestão nasal, dor facial e secreção purulenta há 12 dias, sem sinais de melhora, com febre baixa associada.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "Sintomas persistentes além de 10 dias sem sinais de melhora preenchem critério clínico para sinusite bacteriana aguda, justificando o início de antibioticoterapia.",
+      conduta:
+        "Iniciar amoxicilina como antibiótico de primeira linha, associada a tratamento sintomático (analgésico, irrigação nasal salina), com reavaliação em 72 horas para verificar resposta terapêutica.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina", nome: "Amoxicilina" },
+    ],
+    medicamentosSecaoTitulo: "Reservado aos casos com critérios clínicos de infecção bacteriana secundária (não indicado na maioria dos casos, de etiologia viral)",
+    medicamentosNota:
+      "A amoxicilina só deve ser usada quando critérios clínicos específicos sugerem sinusite bacteriana; a maioria dos casos de sinusite aguda é viral e responde apenas a tratamento sintomático.",
+    fontes: [
+      { tema: "Fisiopatologia (obstrução do óstio sinusal pós-viral) e proporção de causa bacteriana", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Critérios clínicos para diferenciar sinusite viral de bacteriana e amoxicilina como primeira linha", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "faringite-aguda",
+    nome: "Faringite aguda",
+    sinonimos: ["Dor de garganta aguda"],
+    cid10: "J02",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Viral",
+    resumo: "Inflamação aguda da faringe, na maioria das vezes viral, cuja causa bacteriana mais importante (estreptococo do grupo A) exige identificação e tratamento antibiótico para prevenir febre reumática.",
+    definicao:
+      "Inflamação aguda da mucosa faríngea, causando dor de garganta, mais comumente de etiologia viral, mas com o Streptococcus pyogenes (estreptococo beta-hemolítico do grupo A) representando a causa bacteriana mais importante pela possibilidade de complicações não supurativas graves.",
+    epidemiologia:
+      "A faringite estreptocócica é mais comum em crianças entre 5-15 anos, sendo incomum antes dos 3 anos; picos de incidência ocorrem no final do inverno e início da primavera. As causas virais predominam amplamente em todas as faixas etárias e ao longo de todo o ano.",
+    fisiopatologia:
+      "Na faringite viral, o vírus infecta diretamente a mucosa faríngea, causando inflamação local autolimitada. Na faringite estreptocócica, a bactéria adere ao epitélio faríngeo e desencadeia resposta inflamatória local intensa; a importância clínica dessa infecção reside na possibilidade de o sistema imune, ao produzir anticorpos contra antígenos estreptocócicos, gerar reação cruzada com tecidos próprios (miocárdio, válvulas cardíacas, articulações), desencadeando febre reumática semanas após a infecção faríngea, mesmo após sua resolução clínica.",
+    classificacao:
+      "Classificada etiologicamente em viral (a grande maioria dos casos) e bacteriana, sendo a faringite estreptocócica por Streptococcus pyogenes a forma bacteriana mais clinicamente relevante pelo potencial de complicações não supurativas (febre reumática, glomerulonefrite pós-estreptocócica).",
+    quadroClinico: [
+      "Dor de garganta de início agudo, frequentemente associada a odinofagia",
+      "Na faringite estreptocócica: febre, exsudato tonsilar/faríngeo, linfadenopatia cervical anterior dolorosa e ausência de tosse, sintomas que compõem os critérios de Centor",
+      "Na faringite viral: frequentemente acompanhada de coriza, tosse, rouquidão e conjuntivite, sintomas que sugerem etiologia viral e tornam a causa estreptocócica menos provável",
+      "Exantema escarlatiniforme (pele em lixa) pode acompanhar a faringite estreptocócica em uma minoria dos casos (escarlatina)",
+    ],
+    diagnostico: [
+      "Critérios de Centor modificados (febre, exsudato tonsilar, linfadenopatia cervical anterior dolorosa, ausência de tosse) estimam a probabilidade de faringite estreptocócica e orientam a necessidade de testagem",
+      "Teste rápido de detecção de antígeno estreptocócico ou cultura de orofaringe confirma o diagnóstico em pacientes com critérios de Centor sugestivos, antes de iniciar antibioticoterapia",
+      "A faringite viral é diagnosticada clinicamente pela presença de sintomas catarrais associados, geralmente dispensando testagem adicional",
+    ],
+    examesComplementares: [
+      "Teste rápido de detecção de antígeno estreptocócico (alta especificidade, sensibilidade variável) ou cultura de orofaringe (padrão-ouro, porém com resultado mais demorado) para confirmação da faringite estreptocócica",
+      "Critérios de Centor modificados como ferramenta clínica de estratificação de probabilidade pré-teste, orientando quem deve ser testado",
+    ],
+    diagnosticoDiferencial: [
+      "Mononucleose infecciosa (faringite exsudativa associada a linfadenopatia generalizada, esplenomegalia e fadiga importante, em adolescentes e adultos jovens)",
+      "Amigdalite aguda (quando o acometimento tonsilar predomina sobre o faríngeo difuso, considerada ficha própria neste site)",
+      "Abscesso periamigdaliano (assimetria tonsilar significativa, trismo e voz abafada, sinais de gravidade que diferenciam de faringite não complicada)",
+    ],
+    tratamento: [
+      "Faringite viral: tratamento exclusivamente sintomático (analgésico, hidratação), sem indicação de antibiótico",
+      "Faringite estreptocócica confirmada: amoxicilina é o antibiótico de primeira linha, com objetivo principal de prevenir a febre reumática (o alívio sintomático mais rápido é benefício secundário)",
+      "Analgesia com anti-inflamatório ou analgésico simples para controle da dor, independentemente da etiologia identificada",
+      "Tratamento antibiótico deve idealmente ser iniciado dentro de 9 dias do início dos sintomas para manter a eficácia na prevenção da febre reumática",
+    ],
+    complicacoes: [
+      "Aguda: abscesso periamigdaliano ou retrofaríngeo por extensão da infecção estreptocócica",
+      "Crônica: febre reumática (semanas após a infecção faríngea não tratada ou tratada tardiamente) e glomerulonefrite pós-estreptocócica, ambas complicações não supurativas imunomediadas da faringite estreptocócica não adequadamente tratada",
+    ],
+    redFlags: [
+      "Trismo, voz abafada ('voz de batata quente') e assimetria tonsilar associados à faringite sugerem abscesso periamigdaliano, exigindo avaliação urgente",
+      "Faringite não tratada em criança com fatores de risco para febre reumática (histórico familiar, região de alta prevalência) reforça a importância de testagem e tratamento adequados para prevenção dessa complicação",
+    ],
+    prognostico:
+      "Excelente prognóstico na forma viral, com resolução espontânea em poucos dias. A faringite estreptocócica, quando tratada adequadamente dentro da janela terapêutica, tem excelente prognóstico com prevenção eficaz da febre reumática.",
+    pontosDeProva: [
+      "O principal objetivo do tratamento antibiótico da faringite estreptocócica é a prevenção da febre reumática, não apenas o alívio sintomático mais rápido — distinção conceitual central e frequentemente cobrada",
+      "Os critérios de Centor modificados (febre, exsudato, linfadenopatia cervical anterior dolorosa, ausência de tosse) orientam quem deve ser testado para estreptococo, evitando testagem e tratamento desnecessários em faringites virais",
+      "A presença de tosse, coriza e conjuntivite associadas à faringite torna a etiologia viral muito mais provável que a estreptocócica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menino, 8 anos, apresenta febre de 38,9°C, dor de garganta intensa, exsudato tonsilar bilateral e linfonodos cervicais anteriores dolorosos, sem tosse.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "A presença de febre, exsudato tonsilar, linfadenopatia cervical anterior dolorosa e ausência de tosse preenche critérios de Centor altamente sugestivos de faringite estreptocócica.",
+      conduta:
+        "Solicitar teste rápido de antígeno estreptocócico ou cultura de orofaringe para confirmação; se positivo, iniciar amoxicilina, com o objetivo principal de prevenir febre reumática.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina", nome: "Amoxicilina" },
+    ],
+    medicamentosSecaoTitulo: "Indicado apenas na faringite estreptocócica confirmada (não na faringite viral, a causa mais comum)",
+    medicamentosNota:
+      "A amoxicilina só deve ser usada após confirmação (teste rápido ou cultura) de faringite estreptocócica; a maioria dos casos de faringite aguda é viral e não se beneficia de antibiótico.",
+    fontes: [
+      { tema: "Fisiopatologia da reação cruzada imunomediada e complicações não supurativas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Critérios de Centor modificados e amoxicilina para prevenção de febre reumática", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "amigdalite-aguda",
+    nome: "Amigdalite aguda",
+    sinonimos: ["Tonsilite aguda"],
+    cid10: "J03",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Bacteriana",
+    resumo: "Inflamação aguda das tonsilas palatinas, de etiologia viral ou bacteriana (estreptococo do grupo A sendo a causa bacteriana mais relevante), com quadro clínico e princípios de manejo sobrepostos aos da faringite aguda.",
+    definicao:
+      "Inflamação aguda das tonsilas palatinas, estruturas linfoides localizadas na orofaringe, compartilhando com a faringite aguda a mesma dicotomia etiológica principal (viral, mais comum, ou bacteriana por Streptococcus pyogenes, clinicamente mais relevante).",
+    epidemiologia:
+      "Mais comum em crianças e adolescentes, população em que o tecido tonsilar é proporcionalmente maior e mais ativo imunologicamente; a amigdalite estreptocócica segue o mesmo padrão epidemiológico da faringite estreptocócica, com pico entre 5-15 anos.",
+    fisiopatologia:
+      "O tecido tonsilar, rico em folículos linfoides, responde à infecção viral ou bacteriana com hiperplasia e exsudação, causando o aumento de volume e a presença de exsudato característicos. Na amigdalite estreptocócica, a mesma preocupação com reação cruzada imunomediada (febre reumática, glomerulonefrite pós-estreptocócica) aplicada à faringite estreptocócica é válida, dado tratar-se essencialmente da mesma infecção acometendo predominantemente o tecido tonsilar.",
+    classificacao:
+      "Classificada etiologicamente em viral e bacteriana (estreptocócica), e quanto à recorrência em amigdalite aguda isolada e amigdalite recorrente (múltiplos episódios documentados ao longo de 1-2 anos, relevante para a decisão de indicar amigdalectomia eletiva).",
+    quadroClinico: [
+      "Odinofagia intensa, por vezes com disfagia associada pelo aumento de volume tonsilar",
+      "Tonsilas hiperemiadas e aumentadas de volume, com ou sem exsudato purulento visível na superfície",
+      "Febre e mal-estar, mais proeminentes na forma bacteriana",
+      "Halitose e voz abafada em casos de aumento tonsilar significativo",
+      "Linfadenopatia cervical anterior dolorosa, achado compartilhado com a faringite estreptocócica",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico pela visualização direta das tonsilas aumentadas, hiperemiadas, com ou sem exsudato",
+      "Aplicação dos critérios de Centor modificados e teste rápido de antígeno estreptocócico ou cultura de orofaringe, seguindo os mesmos princípios da faringite aguda, para identificar casos com indicação de antibiótico",
+      "Avaliação de assimetria tonsilar significativa, trismo ou desvio da úvula, achados que sugerem abscesso periamigdaliano e mudam completamente a conduta",
+    ],
+    examesComplementares: [
+      "Teste rápido de antígeno estreptocócico ou cultura de orofaringe para confirmação de etiologia bacteriana antes de iniciar antibioticoterapia",
+      "Hemograma completo com atipia linfocitária e sorologia específica quando há suspeita de mononucleose infecciosa, sobretudo em adolescentes com amigdalite exsudativa associada a linfadenopatia generalizada",
+    ],
+    diagnosticoDiferencial: [
+      "Mononucleose infecciosa (amigdalite exsudativa importante associada a linfadenopatia generalizada e esplenomegalia, podendo mimetizar amigdalite estreptocócica)",
+      "Abscesso periamigdaliano (assimetria tonsilar acentuada, trismo e desvio da úvula, sinal de complicação supurativa que exige drenagem)",
+      "Difteria (rara em populações vacinadas, mas deve ser considerada diante de pseudomembrana acinzentada aderente que sangra ao ser removida)",
+    ],
+    tratamento: [
+      "Amigdalite viral: tratamento sintomático (analgésico, hidratação), sem indicação de antibiótico",
+      "Amigdalite estreptocócica confirmada: amoxicilina como antibiótico de primeira linha, seguindo os mesmos princípios e objetivos (incluindo prevenção de febre reumática) da faringite estreptocócica",
+      "Amigdalectomia eletiva considerada em casos de amigdalite recorrente documentada (geralmente definida como um número significativo de episódios bem documentados ao longo de 1-2 anos) ou de hipertrofia tonsilar obstrutiva",
+    ],
+    complicacoes: [
+      "Aguda: abscesso periamigdaliano, a complicação supurativa mais comum, exigindo drenagem além do antibiótico",
+      "Crônica: amigdalite recorrente com impacto significativo em faltas escolares/laborais, febre reumática e glomerulonefrite pós-estreptocócica quando a forma bacteriana não é tratada adequadamente",
+    ],
+    redFlags: [
+      "Assimetria tonsilar significativa associada a trismo, desvio da úvula e voz abafada define abscesso periamigdaliano, exigindo avaliação e drenagem urgentes, não apenas antibioticoterapia isolada",
+      "Estridor ou dificuldade respiratória associados a amigdalite grave, sobretudo em crianças pequenas, exigem avaliação urgente da via aérea",
+    ],
+    prognostico:
+      "Excelente prognóstico na maioria dos casos, sejam virais ou bacterianos tratados adequadamente. A amigdalite recorrente, quando tratada com amigdalectomia eletiva em casos bem selecionados, tem boa resposta com redução significativa da frequência de episódios.",
+    pontosDeProva: [
+      "A amigdalite e a faringite aguda compartilham a mesma dicotomia etiológica (viral vs. estreptocócica) e os mesmos princípios de manejo, incluindo a importância da amoxicilina na prevenção de febre reumática",
+      "Assimetria tonsilar com desvio da úvula e trismo é sinal de alarme para abscesso periamigdaliano, distinto da amigdalite não complicada e exigindo drenagem",
+      "A indicação de amigdalectomia eletiva depende de critérios de frequência bem documentados de episódios recorrentes, não sendo indicada para um episódio isolado, por mais intenso que seja",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menina, 10 anos, com histórico de 6 episódios de amigdalite confirmada nos últimos 12 meses, todos tratados adequadamente com antibiótico, pergunta a família sobre possibilidade de cirurgia.",
+      pergunta: "Qual a conduta apropriada diante do histórico relatado?",
+      raciocinio:
+        "Múltiplos episódios bem documentados de amigdalite recorrente em curto período de tempo preenchem critério para considerar amigdalectomia eletiva como opção de tratamento definitivo.",
+      conduta:
+        "Encaminhar para avaliação otorrinolaringológica especializada para discussão sobre amigdalectomia eletiva, considerando a frequência e o impacto documentados dos episódios recorrentes.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina", nome: "Amoxicilina" },
+    ],
+    medicamentosSecaoTitulo: "Indicado apenas na amigdalite estreptocócica confirmada (não na forma viral, também comum)",
+    medicamentosNota:
+      "A amoxicilina só deve ser usada após confirmação de etiologia estreptocócica; segue os mesmos princípios de uso da faringite aguda, dado que ambas as condições frequentemente coexistem na mesma infecção.",
+    fontes: [
+      { tema: "Fisiopatologia do tecido tonsilar e sobreposição com a faringite estreptocócica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Critérios de indicação de amigdalectomia eletiva na amigdalite recorrente", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "laringite-traqueite-agudas",
+    nome: "Laringite e traqueíte agudas",
+    sinonimos: ["Rouquidão aguda"],
+    cid10: "J04",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Viral",
+    resumo: "Inflamação aguda da laringe e/ou traqueia, causando rouquidão característica, na grande maioria dos casos de etiologia viral e autolimitada, distinta do quadro obstrutivo mais grave do crupe.",
+    definicao:
+      "Inflamação aguda da mucosa laríngea e/ou traqueal, causando edema das pregas vocais e consequente alteração da qualidade vocal (rouquidão ou afonia), mais comumente de etiologia viral no contexto de uma infecção de vias aéreas superiores.",
+    epidemiologia:
+      "Extremamente comum, geralmente acompanhando ou seguindo uma infecção viral de vias aéreas superiores; o uso excessivo da voz (esforço vocal) é fator agravante e contribuinte importante, sobretudo em profissionais que dependem da voz.",
+    fisiopatologia:
+      "A infecção viral (ou o esforço vocal excessivo, mecanismo não infeccioso) causa edema inflamatório das pregas vocais, comprometendo sua vibração normal durante a fonação e resultando em rouquidão. Em crianças pequenas, cuja via aérea subglótica é proporcionalmente mais estreita, um processo inflamatório análogo pode causar obstrução significativa da via aérea, quadro classificado separadamente como laringite obstrutiva aguda (crupe).",
+    classificacao:
+      "Classificada em aguda (menos de 3 semanas, a forma mais comum e geralmente viral) e crônica (mais de 3 semanas, ficha própria neste site, com causas distintas incluindo refluxo laringofaríngeo, tabagismo e abuso vocal crônico).",
+    quadroClinico: [
+      "Rouquidão ou afonia de início agudo, sintoma cardinal",
+      "Sensação de irritação ou aspereza na garganta, tosse seca",
+      "Sintomas catarrais associados (coriza, congestão nasal) quando de etiologia viral no contexto de infecção de vias aéreas superiores",
+      "Ausência de estridor ou dificuldade respiratória significativa em adultos, achados que, quando presentes em crianças pequenas, sugerem crupe em vez de laringite simples",
+    ],
+    diagnostico: [
+      "Diagnóstico predominantemente clínico, baseado no início agudo de rouquidão no contexto de infecção viral de vias aéreas superiores ou uso vocal excessivo recente",
+      "Laringoscopia reservada a casos de rouquidão persistente além de 2-3 semanas, para excluir causas estruturais (nódulos vocais, paralisia de prega vocal, neoplasia laríngea)",
+    ],
+    examesComplementares: [
+      "Não são indicados exames complementares de rotina na laringite aguda simples e autolimitada",
+      "Laringoscopia indicada quando a rouquidão persiste além de 2-3 semanas, para avaliação direta das pregas vocais",
+    ],
+    diagnosticoDiferencial: [
+      "Laringite obstrutiva aguda / crupe (em crianças pequenas, com estridor e dificuldade respiratória associados, exigindo abordagem diferente pela obstrução de via aérea)",
+      "Rouquidão por refluxo laringofaríngeo (curso mais crônico, associado a pirose e outros sintomas de refluxo)",
+      "Paralisia de prega vocal e neoplasia laríngea (rouquidão persistente além de 2-3 semanas, sem resolução, exigindo laringoscopia)",
+    ],
+    tratamento: [
+      "Repouso vocal e hidratação adequada são as medidas centrais do tratamento, permitindo a resolução espontânea do edema inflamatório das pregas vocais",
+      "Umidificação do ar ambiente pode proporcionar alívio sintomático",
+      "Antibióticos não têm indicação na grande maioria dos casos, de etiologia viral",
+      "Evitar irritantes conhecidos (tabagismo, álcool) durante o período de recuperação",
+    ],
+    complicacoes: [
+      "Crônica: laringite crônica quando os sintomas persistem além de 3 semanas, sobretudo quando há exposição contínua a fatores irritantes (tabagismo, abuso vocal, refluxo) não corrigidos",
+    ],
+    redFlags: [
+      "Rouquidão persistente além de 2-3 semanas, sobretudo em tabagistas, deve sempre motivar laringoscopia para excluir neoplasia laríngea, não sendo aceitável atribuí-la a causa viral prolongada sem essa investigação",
+      "Estridor ou dificuldade respiratória associados à rouquidão, sobretudo em crianças pequenas, sugerem laringite obstrutiva aguda (crupe), exigindo avaliação e conduta diferenciadas",
+    ],
+    prognostico:
+      "Excelente prognóstico, com resolução espontânea completa da rouquidão em poucos dias a duas semanas na maioria dos casos, com repouso vocal e hidratação adequados.",
+    pontosDeProva: [
+      "A rouquidão persistente além de 2-3 semanas, sobretudo em tabagista, é sinal de alarme que exige laringoscopia para excluir neoplasia laríngea — nunca deve ser atribuída automaticamente a causa viral prolongada",
+      "O repouso vocal, não o antibiótico, é a intervenção central no tratamento da laringite aguda viral",
+      "A laringite obstrutiva aguda (crupe) é uma entidade distinta, mais grave e específica da infância, não devendo ser confundida com a laringite aguda simples do adulto",
+    ],
+    casoClinico: {
+      vinheta:
+        "Professor, 40 anos, apresenta rouquidão importante há 2 dias, após um dia de aulas prolongadas, associada a leve coriza, sem febre ou dificuldade respiratória.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "Rouquidão aguda no contexto de uso vocal intenso e sintomas catarrais leves é característica de laringite aguda, condição autolimitada e benigna.",
+      conduta:
+        "Orientar repouso vocal, hidratação adequada e umidificação do ambiente, com expectativa de resolução espontânea em poucos dias; reavaliar caso a rouquidão persista além de 2-3 semanas.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é baseado em repouso vocal e medidas de suporte; não há indicação de antibiótico ou outro medicamento específico na laringite aguda viral simples.",
+    fontes: [
+      { tema: "Fisiopatologia (edema inflamatório das pregas vocais) e distinção do crupe na infância", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Indicação de laringoscopia na rouquidão persistente além de 2-3 semanas", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "rinite-alergica-vasomotora",
+    nome: "Rinite alérgica e vasomotora",
+    sinonimos: ["Rinite alérgica", "Rinite não alérgica"],
+    cid10: "J30",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Inflamação crônica ou recorrente da mucosa nasal mediada por IgE (alérgica) ou por hiper-reatividade neurovascular sem mecanismo imunológico identificável (vasomotora), ambas causando obstrução nasal e rinorreia crônicas.",
+    definicao:
+      "Categoria que reúne a rinite alérgica (inflamação da mucosa nasal mediada por hipersensibilidade do tipo I, IgE-dependente, a alérgenos ambientais) e a rinite vasomotora (hiper-reatividade nasal a estímulos inespecíficos como mudanças de temperatura, odores fortes ou irritantes, sem mecanismo alérgico identificável).",
+    epidemiologia:
+      "A rinite alérgica é uma das doenças crônicas mais prevalentes globalmente, frequentemente associada a outras condições atópicas (asma, dermatite atópica); pode ser sazonal (desencadeada por pólens em determinadas épocas do ano) ou perene (desencadeada por alérgenos domésticos como ácaros, presentes ao longo de todo o ano). A rinite vasomotora tende a acometer adultos, sem a associação característica com outras atopias.",
+    fisiopatologia:
+      "Na rinite alérgica, a exposição a um alérgeno em indivíduo previamente sensibilizado desencadeia a ligação do alérgeno a moléculas de IgE específicas fixadas em mastócitos da mucosa nasal, causando degranulação e liberação de histamina e outros mediadores inflamatórios, responsáveis pelos sintomas de prurido, espirros, rinorreia e obstrução nasal. Na rinite vasomotora, estímulos inespecíficos desencadeiam hiper-reatividade do sistema nervoso autônomo que regula o tônus vascular da mucosa nasal, causando congestão e rinorreia sem participação de mecanismo IgE-mediado identificável.",
+    classificacao:
+      "Classificada em alérgica (sazonal, desencadeada por alérgenos com padrão de exposição definido por época do ano, como pólens; ou perene, desencadeada por alérgenos presentes o ano todo, como ácaros e pelos de animais) e vasomotora (não alérgica, desencadeada por estímulos inespecíficos como variação de temperatura, umidade, odores fortes e irritantes).",
+    quadroClinico: [
+      "Rinite alérgica: espirros em salvas, prurido nasal e ocular, rinorreia clara abundante e obstrução nasal, frequentemente acompanhados de conjuntivite alérgica associada",
+      "Rinite vasomotora: obstrução nasal e rinorreia predominantes, com menor intensidade de prurido e espirros que a forma alérgica, desencadeada por estímulos inespecíficos (mudança de temperatura, odores fortes, álcool)",
+      "Olheiras ('shiners' alérgicas) e prega nasal transversa (pela fricção repetida do nariz, o 'saudação alérgica') são achados de exame físico sugestivos de rinite alérgica de longa data, sobretudo em crianças",
+      "Sintomas crônicos ou recorrentes, distintos do curso autolimitado da infecção viral de vias aéreas superiores",
+    ],
+    diagnostico: [
+      "Diagnóstico predominantemente clínico, baseado no padrão de sintomas e na identificação de desencadeantes (exposição a alérgenos específicos na forma alérgica, estímulos inespecíficos na forma vasomotora)",
+      "Testes cutâneos de alergia (prick test) ou dosagem de IgE específica confirmam a sensibilização a alérgenos específicos na rinite alérgica, exames reservados a casos de diagnóstico incerto ou quando a imunoterapia é considerada",
+      "A ausência de sensibilização identificável a alérgenos em paciente com sintomas nasais crônicos sugere rinite vasomotora",
+    ],
+    examesComplementares: [
+      "Testes cutâneos de alergia (prick test) demonstrando sensibilização a alérgenos específicos, confirmando a etiologia alérgica quando presentes",
+      "Dosagem de IgE específica sérica como alternativa aos testes cutâneos em pacientes com contraindicação a estes",
+    ],
+    diagnosticoDiferencial: [
+      "Rinite infecciosa (resfriado comum), de curso autolimitado, distinta do padrão crônico/recorrente da rinite alérgica ou vasomotora",
+      "Rinossinusite crônica (sintomas mais persistentes, frequentemente com dor facial e hipoosmia mais proeminentes, podendo coexistir)",
+      "Desvio de septo nasal e outras causas estruturais de obstrução nasal, distinguidas por exame físico direto",
+    ],
+    tratamento: [
+      "Evitar exposição aos desencadeantes identificados é medida de primeira linha em ambas as formas, quando factível",
+      "Corticosteroide nasal tópico é o tratamento farmacológico mais eficaz para controle dos sintomas de rinite alérgica de qualquer gravidade",
+      "Anti-histamínico oral de segunda geração é eficaz para o controle de prurido, espirros e rinorreia na rinite alérgica, com menor eficácia sobre a obstrução nasal",
+      "A rinite vasomotora responde de forma mais limitada aos anti-histamínicos (dado o mecanismo não IgE-mediado), com corticosteroide nasal tópico e brometo de ipratrópio nasal sendo opções mais eficazes",
+      "Imunoterapia específica com alérgenos é considerada em casos de rinite alérgica moderada a grave refratária ao tratamento farmacológico convencional, com potencial de modificar o curso natural da doença",
+    ],
+    complicacoes: [
+      "Crônica: sinusite crônica secundária por obstrução persistente dos óstios de drenagem sinusal, pólipos nasais associados em casos de inflamação crônica prolongada, impacto significativo na qualidade de vida e no sono",
+    ],
+    redFlags: [
+      "Obstrução nasal unilateral persistente, sem os demais sintomas característicos de rinite alérgica/vasomotora (que tipicamente causam sintomas bilaterais), deve levantar suspeita de causa estrutural ou massa nasal, exigindo investigação adicional",
+    ],
+    prognostico:
+      "Ambas as condições têm curso crônico, mas geralmente bem controlado com evitação de desencadeantes e tratamento farmacológico adequado; a rinite alérgica sazonal tende a ter impacto mais previsível ao longo do ano, enquanto a perene e a vasomotora podem ter sintomas mais constantes.",
+    pontosDeProva: [
+      "As olheiras alérgicas e a prega nasal transversa são achados de exame físico clássicos que sugerem rinite alérgica crônica desde a infância",
+      "A rinite vasomotora, por não ser mediada por IgE, responde de forma mais limitada aos anti-histamínicos que a rinite alérgica verdadeira — distinção terapêutica frequentemente cobrada",
+      "O corticosteroide nasal tópico é o tratamento farmacológico isolado mais eficaz para a rinite alérgica, superando os anti-histamínicos no controle da obstrução nasal",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menino, 9 anos, com espirros em salva, prurido nasal e ocular e rinorreia clara recorrentes há 2 anos, piores na primavera, com olheiras e prega nasal transversa ao exame.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "O padrão sazonal dos sintomas, associado a prurido nasal/ocular e aos achados físicos característicos (olheiras, prega nasal), é típico de rinite alérgica sazonal.",
+      conduta:
+        "Orientar evitação de exposição a pólens quando possível, e iniciar corticosteroide nasal tópico como tratamento farmacológico de primeira linha, associando anti-histamínico oral se o prurido e os espirros forem proeminentes.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O corticosteroide nasal tópico e o anti-histamínico de segunda geração são as classes farmacológicas de primeira linha, mas ainda não têm ficha própria no site nesta formulação/classe específica.",
+    fontes: [
+      { tema: "Fisiopatologia (hipersensibilidade IgE-mediada vs. hiper-reatividade vasomotora) e classificação", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Corticosteroide nasal tópico como tratamento farmacológico mais eficaz", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "rinite-nasofaringite-faringite-cronicas",
+    nome: "Rinite, nasofaringite e faringite crônicas",
+    sinonimos: ["Faringite crônica", "Rinite crônica não alérgica"],
+    cid10: "J31",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Inflamação persistente da mucosa nasal, nasofaríngea ou faríngea, geralmente secundária à exposição contínua a fatores irritantes (tabagismo, poluição, ar seco) ou ao refluxo laringofaríngeo, exigindo identificação e correção da causa de base.",
+    definicao:
+      "Categoria que reúne a inflamação crônica (persistindo além de algumas semanas) da mucosa nasal, nasofaríngea ou faríngea, distinta das formas agudas autolimitadas, geralmente resultante de exposição contínua a um fator irritante ou inflamatório identificável.",
+    epidemiologia:
+      "Mais comum em tabagistas ativos e passivos, trabalhadores expostos a poeira ou produtos químicos irritantes ocupacionais, e pacientes com refluxo laringofaríngeo não diagnosticado ou tratado inadequadamente; o ar excessivamente seco (climatizado ou aquecido) é fator contribuinte adicional comum.",
+    fisiopatologia:
+      "A exposição contínua a um agente irritante (fumaça de cigarro, poluentes, ar seco) ou a refluxo ácido/não ácido do conteúdo gástrico até a faringe mantém um estado de inflamação crônica da mucosa respiratória superior, com hipertrofia glandular compensatória, espessamento epitelial e, eventualmente, metaplasia, diferentemente da resposta inflamatória autolimitada da infecção viral aguda.",
+    classificacao:
+      "Classificada pela causa de base identificável: irritativa (tabagismo, poluentes ocupacionais/ambientais), por refluxo laringofaríngeo, ou atrófica (mais comum em idosos, com afinamento da mucosa em vez de hipertrofia), cada uma com implicações terapêuticas distintas.",
+    quadroClinico: [
+      "Sensação persistente de secreção na garganta (pigarro), obstrução ou secura nasal e/ou faríngea crônicas",
+      "Tosse crônica, sobretudo pela manhã, associada ao gotejamento pós-nasal persistente",
+      "Voz rouca ou de qualidade alterada nos casos com componente laríngeo associado (refluxo laringofaríngeo)",
+      "Sintomas persistindo por semanas a meses, sem o padrão autolimitado das infecções agudas",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado na cronicidade dos sintomas e na identificação de um fator causal ou agravante (história de tabagismo, exposição ocupacional, sintomas de refluxo associados)",
+      "Exame da mucosa nasal e faríngea, que pode mostrar hipertrofia, espessamento ou, na forma atrófica, afinamento e crostas",
+      "Investigação de refluxo laringofaríngeo (prova terapêutica com inibidor de bomba de prótons, ou pH-impedanciometria em casos selecionados) quando os sintomas sugerem essa causa",
+    ],
+    examesComplementares: [
+      "Nasofibroscopia ou laringoscopia para avaliação direta da mucosa e exclusão de causas estruturais concomitantes",
+      "Prova terapêutica com inibidor de bomba de prótons como estratégia diagnóstica e terapêutica quando há suspeita de refluxo laringofaríngeo como causa de base",
+    ],
+    diagnosticoDiferencial: [
+      "Rinite alérgica (sintomas associados a exposição a alérgenos específicos, com prurido e espirros mais proeminentes)",
+      "Sinusite crônica (dor facial e hipoosmia mais proeminentes, achados de imagem específicos)",
+      "Causas estruturais de obstrução nasal (desvio de septo, pólipos nasais), avaliadas por exame direto",
+    ],
+    tratamento: [
+      "Identificação e remoção do fator causal (cessação do tabagismo, controle de exposição ocupacional, umidificação do ambiente) é a medida mais importante e frequentemente suficiente",
+      "Tratamento do refluxo laringofaríngeo (inibidor de bomba de prótons, medidas comportamentais) quando identificado como causa de base",
+      "Irrigação nasal com solução salina proporciona alívio sintomático em todas as formas, promovendo higiene da mucosa",
+      "Lubrificação tópica na forma atrófica, para alívio da secura da mucosa",
+    ],
+    complicacoes: [
+      "Crônica: impacto significativo na qualidade de vida pela persistência dos sintomas, predisposição a infecções respiratórias de repetição pela função mucociliar comprometida",
+    ],
+    redFlags: [
+      "Sintomas de faringite crônica não responsivos à remoção dos fatores irritantes identificados devem motivar investigação adicional (laringoscopia) para excluir causa estrutural ou neoplásica, sobretudo em tabagistas",
+    ],
+    prognostico:
+      "O prognóstico é favorável quando o fator causal é identificado e efetivamente corrigido (cessação do tabagismo, controle do refluxo), com melhora progressiva dos sintomas ao longo de semanas a meses; a persistência da exposição ao fator causal mantém os sintomas indefinidamente.",
+    pontosDeProva: [
+      "A identificação e remoção do fator irritante causal (tabagismo, refluxo, ar seco) é sempre a intervenção mais importante, mais que qualquer tratamento sintomático isolado",
+      "O refluxo laringofaríngeo é causa frequentemente subdiagnosticada de faringite crônica e pigarro persistente, devendo ser ativamente considerado mesmo na ausência de pirose típica",
+      "Sintomas persistentes apesar da remoção de fatores irritantes identificados, sobretudo em tabagistas, exigem investigação estrutural adicional antes de serem atribuídos exclusivamente à inflamação crônica benigna",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 55 anos, tabagista há 30 anos, relata pigarro persistente e sensação de secreção na garganta há vários meses, sem outros sintomas de alarme.",
+      pergunta: "Qual a conduta apropriada diante deste quadro?",
+      raciocinio:
+        "Sintomas crônicos de irritação faríngea em tabagista de longa data são compatíveis com faringite crônica irritativa, mas o tabagismo também é fator de risco para neoplasia, exigindo exame cuidadoso antes de assumir causa benigna.",
+      conduta:
+        "Orientar fortemente a cessação do tabagismo como medida terapêutica central, e realizar exame otorrinolaringológico completo (incluindo laringoscopia) para excluir lesão estrutural associada ao tabagismo crônico.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende da correção do fator causal identificado (cessação do tabagismo, controle de refluxo, umidificação); não há medicamento único de primeira linha para esta categoria ampla.",
+    fontes: [
+      { tema: "Fisiopatologia da inflamação crônica por exposição irritativa e classificação por causa", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Refluxo laringofaríngeo como causa subdiagnosticada de faringite crônica", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "sinusite-cronica",
+    nome: "Sinusite crônica",
+    sinonimos: ["Rinossinusite crônica"],
+    cid10: "J32",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Inflamação persistente dos seios paranasais por mais de 12 semanas, frequentemente associada a obstrução mecânica ou processo inflamatório subjacente, com tratamento inicial clínico e cirurgia reservada a casos refratários.",
+    definicao:
+      "Inflamação da mucosa de um ou mais seios paranasais persistindo por mais de 12 semanas, apesar de tratamento adequado, distinta da sinusite aguda tanto pela duração quanto, frequentemente, pela fisiopatologia subjacente, que envolve mais comumente obstrução mecânica persistente da drenagem sinusal ou processo inflamatório crônico do que infecção bacteriana ativa isolada.",
+    epidemiologia:
+      "Associada a fatores predisponentes como desvio de septo nasal, pólipos nasais, rinite alérgica não controlada, imunodeficiência e, em menor proporção, fibrose cística (sobretudo em crianças com sinusite crônica de difícil controle).",
+    fisiopatologia:
+      "A obstrução persistente da drenagem dos óstios sinusais (por desvio de septo, pólipos, edema inflamatório crônico da rinite alérgica não controlada, ou disfunção ciliar) compromete a ventilação e a depuração normais da mucosa sinusal, favorecendo colonização bacteriana crônica de baixo grau, formação de biofilme e um ciclo perpetuante de inflamação e obstrução.",
+    classificacao:
+      "Classificada quanto à presença de pólipos nasais associados (com pólipos ou sem pólipos, distinção com implicação terapêutica relevante) e quanto à extensão anatômica (unilateral, sugerindo causa localizada como massa ou corpo estranho, versus bilateral, mais associada a causas sistêmicas como rinite alérgica).",
+    quadroClinico: [
+      "Obstrução nasal persistente, secreção nasal anterior ou posterior (gotejamento pós-nasal) por mais de 12 semanas",
+      "Dor ou pressão facial, menos proeminente e menos aguda que na forma aguda",
+      "Hiposmia ou anosmia, frequentemente mais persistente e proeminente que na forma aguda",
+      "Fadiga crônica e impacto significativo na qualidade de vida, incluindo qualidade do sono",
+    ],
+    diagnostico: [
+      "Diagnóstico baseado na persistência dos sintomas característicos por mais de 12 semanas, associada a evidência objetiva de inflamação sinusal (endoscopia nasal ou tomografia computadorizada)",
+      "Endoscopia nasal para identificação de pólipos, secreção purulenta ou outras anormalidades da mucosa",
+      "Tomografia computadorizada de seios paranasais é o exame de escolha para avaliar a extensão da doença e planejar eventual intervenção cirúrgica",
+    ],
+    examesComplementares: [
+      "Tomografia computadorizada de seios paranasais demonstrando espessamento mucoso, opacificação sinusal e/ou obstrução do complexo óstio-meatal, achados centrais para confirmação e planejamento cirúrgico",
+      "Endoscopia nasal para visualização direta de pólipos e secreção, e para coleta de cultura dirigida em casos refratários",
+      "Teste do suor (dosagem de cloro) considerado em crianças com sinusite crônica de difícil controle, para investigar fibrose cística subjacente",
+    ],
+    diagnosticoDiferencial: [
+      "Rinite alérgica isolada (sem espessamento mucoso sinusal significativo à imagem)",
+      "Cefaleia primária (enxaqueca, cefaleia em salvas), quando a dor facial predomina sem os demais achados de sinusite",
+      "Neoplasia nasossinusal (sintomas unilaterais persistentes, sobretudo com sangramento associado, exigindo investigação adicional)",
+    ],
+    tratamento: [
+      "Corticosteroide nasal tópico é o tratamento de primeira linha, reduzindo a inflamação da mucosa e, quando presentes, o tamanho dos pólipos nasais",
+      "Irrigação nasal com solução salina de grande volume como medida adjuvante para higiene da mucosa e remoção de secreção",
+      "Curso curto de antibiótico de amplo espectro considerado em exacerbações agudas sobre a base crônica",
+      "Cirurgia endoscópica sinusal indicada em casos refratários ao tratamento clínico otimizado, com objetivo de restaurar a ventilação e drenagem normais dos seios paranasais",
+    ],
+    complicacoes: [
+      "Crônica: formação ou recorrência de pólipos nasais, impacto persistente na qualidade de vida e no sono, exacerbações agudas recorrentes sobre a base crônica",
+    ],
+    redFlags: [
+      "Sintomas unilaterais persistentes, sobretudo associados a sangramento nasal ou massa visível, devem levantar suspeita de neoplasia nasossinusal e motivar investigação adicional antes de assumir sinusite crônica benigna",
+    ],
+    prognostico:
+      "Com tratamento clínico adequado (corticosteroide nasal tópico, irrigação salina), uma parcela significativa dos pacientes obtém controle satisfatório dos sintomas; casos refratários tratados cirurgicamente têm boa resposta, embora a recorrência de pólipos seja possível a longo prazo.",
+    pontosDeProva: [
+      "A sinusite crônica é definida pela persistência dos sintomas por mais de 12 semanas, critério temporal que a distingue claramente da forma aguda e subaguda",
+      "A presença ou ausência de pólipos nasais associados tem implicação terapêutica direta, orientando a intensidade do tratamento anti-inflamatório",
+      "Sintomas unilaterais persistentes com sangramento associado são sinal de alarme para neoplasia nasossinusal, não devendo ser atribuídos automaticamente à sinusite crônica comum",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 42 anos, com obstrução nasal, secreção espessa e hiposmia persistentes há 4 meses, apesar de tratamento sintomático prévio, sem melhora significativa.",
+      pergunta: "Qual a conduta diagnóstica e terapêutica apropriada?",
+      raciocinio:
+        "Sintomas nasais persistentes por mais de 12 semanas, refratários a tratamento sintomático inicial, preenchem critério temporal para sinusite crônica, exigindo investigação objetiva.",
+      conduta:
+        "Solicitar tomografia computadorizada de seios paranasais e considerar endoscopia nasal para avaliar a presença de pólipos; iniciar corticosteroide nasal tópico associado a irrigação salina como tratamento de primeira linha.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento de primeira linha é o corticosteroide nasal tópico, ainda sem ficha própria no site nesta formulação específica.",
+    fontes: [
+      { tema: "Fisiopatologia (obstrução do complexo óstio-meatal e biofilme) e classificação com/sem pólipos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Critério temporal de 12 semanas e indicação de cirurgia endoscópica sinusal", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "polipo-nasal",
+    nome: "Pólipo nasal",
+    sinonimos: ["Polipose nasossinusal"],
+    cid10: "J33",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Crescimentos benignos e edematosos da mucosa nasossinusal, associados a inflamação crônica tipo 2, causando obstrução nasal progressiva e anosmia, com corticosteroide (tópico ou sistêmico em cursos curtos) como base do tratamento clínico.",
+    definicao:
+      "Crescimentos benignos, macios e edematosos originados da mucosa nasal ou dos seios paranasais, resultantes de processo inflamatório crônico da mucosa, mais comumente do tipo inflamatório 2 (eosinofílico), podendo ser uni ou bilaterais.",
+    epidemiologia:
+      "Mais comum em adultos, com associação bem estabelecida à asma e à hipersensibilidade ao ácido acetilsalicílico e outros anti-inflamatórios não esteroidais (a chamada tríade de Samter ou doença respiratória exacerbada por AINE, quando as três condições coexistem). Pólipos nasais em crianças devem sempre levantar suspeita de fibrose cística subjacente.",
+    fisiopatologia:
+      "Um processo inflamatório crônico da mucosa nasossinusal, tipicamente mediado por eosinófilos e citocinas do tipo 2 (interleucinas 4, 5 e 13), causa edema progressivo do estroma da mucosa, que eventualmente prolapsa como uma massa polipoide macia e translúcida para dentro da cavidade nasal, obstruindo progressivamente a via aérea e o fluxo de ar/muco.",
+    classificacao:
+      "Não há sistema de estadiamento formal amplamente usado para a extensão anatômica, mas a gravidade é frequentemente graduada endoscopicamente conforme o tamanho e a extensão da obstrução da cavidade nasal (de pólipos pequenos e localizados até polipose maciça bilateral obstruindo completamente as narinas).",
+    quadroClinico: [
+      "Obstrução nasal progressiva e bilateral na maioria dos casos, frequentemente descrita como sensação constante de nariz entupido",
+      "Anosmia ou hiposmia significativa, sintoma característico e frequentemente o mais incomodativo para o paciente",
+      "Rinorreia posterior (gotejamento pós-nasal) e sensação de pressão facial",
+      "Associação frequente com asma, sobretudo em pacientes com doença respiratória exacerbada por AINE (tríade de Samter: asma, polipose nasal e hipersensibilidade a AINE)",
+    ],
+    diagnostico: [
+      "Diagnóstico pela visualização direta dos pólipos à rinoscopia anterior ou, mais detalhadamente, à endoscopia nasal, identificando massas macias, pálidas e translúcidas",
+      "Tomografia computadorizada de seios paranasais para avaliar a extensão da doença nos seios e planejar eventual intervenção cirúrgica",
+      "Investigação de fibrose cística (teste do suor) em crianças com polipose nasal, achado atípico para essa faixa etária que exige essa exclusão",
+    ],
+    examesComplementares: [
+      "Endoscopia nasal para visualização e graduação direta dos pólipos",
+      "Tomografia computadorizada de seios paranasais demonstrando opacificação sinusal associada, relevante para o planejamento cirúrgico quando indicado",
+    ],
+    diagnosticoDiferencial: [
+      "Desvio de septo nasal e concha nasal hipertrofiada (causas estruturais de obstrução nasal, sem a aparência polipoide característica)",
+      "Papiloma invertido (lesão unilateral com potencial de malignização, exigindo biópsia para distinção de pólipo inflamatório simples, sobretudo quando unilateral)",
+      "Neoplasia nasossinusal (massa unilateral, por vezes com sangramento associado, exigindo biópsia diferencial em casos atípicos)",
+    ],
+    tratamento: [
+      "Corticosteroide nasal tópico é o tratamento de primeira linha, reduzindo o tamanho dos pólipos e melhorando a obstrução nasal na maioria dos pacientes",
+      "Curso curto de corticosteroide sistêmico (prednisona) é usado para reduzir rapidamente o tamanho de pólipos volumosos, sobretudo antes de procedimentos cirúrgicos ou em exacerbações significativas, sempre como complemento e não substituto do corticosteroide tópico de manutenção",
+      "Terapias biológicas direcionadas à inflamação tipo 2 (anticorpos monoclonais) são opção em casos graves e recorrentes refratários ao tratamento convencional",
+      "Cirurgia endoscópica sinusal (polipectomia) indicada em casos refratários ao tratamento clínico otimizado, com recorrência sendo comum a longo prazo sem manutenção do corticosteroide tópico pós-operatório",
+    ],
+    complicacoes: [
+      "Crônica: recorrência após tratamento clínico ou cirúrgico, sobretudo sem manutenção adequada de corticosteroide tópico; exacerbação de asma associada nos pacientes com doença respiratória exacerbada por AINE",
+    ],
+    redFlags: [
+      "Pólipo nasal unilateral, sobretudo associado a sangramento ou erosão óssea à imagem, deve levantar suspeita de papiloma invertido ou neoplasia, exigindo biópsia antes de assumir pólipo inflamatório benigno simples",
+      "Polipose nasal em criança é achado atípico que exige investigação de fibrose cística",
+    ],
+    prognostico:
+      "A maioria dos pacientes obtém controle satisfatório dos sintomas com corticosteroide nasal tópico de manutenção contínua; a recorrência após interrupção do tratamento clínico ou mesmo após cirurgia é comum, reforçando a necessidade de tratamento de manutenção prolongado.",
+    pontosDeProva: [
+      "A tríade de Samter (asma, polipose nasal e hipersensibilidade ao ácido acetilsalicílico/AINEs) é associação clássica e frequentemente cobrada, também chamada de doença respiratória exacerbada por AINE",
+      "Pólipo nasal unilateral é sinal de alarme que exige biópsia para excluir papiloma invertido ou neoplasia, ao contrário da polipose bilateral típica, geralmente benigna",
+      "Polipose nasal na infância deve sempre levantar suspeita de fibrose cística subjacente, achado atípico para essa faixa etária",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 45 anos, asmático, relata obstrução nasal progressiva bilateral e perda quase completa do olfato há 8 meses, com história de reações adversas ao uso de ácido acetilsalicílico no passado.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta terapêutica inicial?",
+      raciocinio:
+        "A combinação de asma, hipersensibilidade a AINE e obstrução nasal progressiva com anosmia é característica da tríade de Samter, com polipose nasal bilateral como manifestação nasal.",
+      conduta:
+        "Confirmar o diagnóstico por endoscopia nasal; iniciar corticosteroide nasal tópico como tratamento de primeira linha, considerando curso curto de corticosteroide sistêmico se os pólipos forem volumosos e a resposta ao tópico insuficiente.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "prednisona", nome: "Prednisona" },
+    ],
+    medicamentosSecaoTitulo: "Curso curto para redução rápida do volume polipoide (adjuvante ao corticosteroide nasal tópico de manutenção, não substituto)",
+    medicamentosNota:
+      "A prednisona é usada em cursos curtos para reduzir rapidamente pólipos volumosos, mas o tratamento de manutenção de primeira linha é o corticosteroide nasal tópico, ainda sem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia (inflamação tipo 2/eosinofílica) e tríade de Samter", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Corticosteroide sistêmico em curso curto para redução do volume polipoide", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "desvio-septo-nasal",
+    nome: "Outros transtornos do nariz e dos seios paranasais (desvio de septo)",
+    sinonimos: ["Desvio de septo nasal"],
+    cid10: "J34",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Traumática",
+    resumo: "Deslocamento da cartilagem e/ou osso septal da linha média nasal, congênito ou traumático, causa comum e corrigível cirurgicamente de obstrução nasal unilateral crônica.",
+    definicao:
+      "Deslocamento do septo nasal (estrutura cartilaginosa e óssea que separa as duas cavidades nasais) para fora da linha média, podendo ser congênito (presente desde o nascimento ou resultante de trauma durante o parto) ou, mais comumente, adquirido por trauma nasal ao longo da vida.",
+    epidemiologia:
+      "Extremamente prevalente na população geral, com uma proporção significativa dos adultos apresentando algum grau de desvio septal, a maioria assintomática ou minimamente sintomática; torna-se clinicamente relevante quando causa obstrução nasal significativa ou contribui para sinusite recorrente.",
+    fisiopatologia:
+      "O desvio da estrutura septal para um dos lados estreita a passagem de ar naquela narina, aumentando a resistência ao fluxo aéreo e podendo causar turbulência compensatória e ressecamento da mucosa no lado mais estreitado, além de comprometer a drenagem normal dos seios paranasais adjacentes quando o desvio é significativo o suficiente para obstruir o complexo óstio-meatal.",
+    classificacao:
+      "Classificado pela localização anatômica do desvio (anterior, posterior, ou envolvendo tanto a cartilagem quanto o osso septal) e pela direção (em C, em S, ou com esporão ósseo focal), aspectos relevantes para o planejamento cirúrgico quando indicado.",
+    quadroClinico: [
+      "Obstrução nasal unilateral crônica, tipicamente constante ao longo do tempo (distinta da obstrução alternante e variável mais característica da rinite)",
+      "Ressecamento e sangramentos nasais ocasionais (epistaxe) no lado mais estreitado, pela turbulência aérea e ressecamento da mucosa",
+      "Cefaleia ou pressão facial em casos de desvio significativo comprometendo a drenagem sinusal",
+      "Ronco e, em casos mais graves, contribuição para apneia obstrutiva do sono",
+    ],
+    diagnostico: [
+      "Diagnóstico pela rinoscopia anterior, visualizando diretamente o desvio da estrutura septal",
+      "Endoscopia nasal para avaliação mais completa, sobretudo de desvios posteriores não bem visualizados à rinoscopia anterior simples",
+      "Tomografia computadorizada reservada a casos de planejamento cirúrgico ou quando há suspeita de patologia sinusal associada",
+    ],
+    examesComplementares: [
+      "Rinoscopia anterior e endoscopia nasal para visualização direta e caracterização do desvio",
+      "Tomografia computadorizada de seios paranasais quando há sintomas sinusais associados ou para planejamento cirúrgico detalhado",
+    ],
+    diagnosticoDiferencial: [
+      "Rinite alérgica ou vasomotora (obstrução tipicamente bilateral e alternante, distinta da unilateral constante do desvio septal)",
+      "Hipertrofia de conchas nasais (pode coexistir com o desvio septal, contribuindo adicionalmente para a obstrução)",
+      "Pólipo nasal e outras massas nasais (visualizadas diretamente à rinoscopia, distintas da estrutura septal deslocada)",
+    ],
+    tratamento: [
+      "Observação e tratamento sintomático (irrigação salina, lubrificação nasal) em casos assintomáticos ou minimamente sintomáticos",
+      "Septoplastia (correção cirúrgica do desvio) é o tratamento definitivo, indicado quando a obstrução nasal é significativa e sintomática, ou quando o desvio contribui para sinusite recorrente ou apneia obstrutiva do sono",
+      "Tratamento de condições associadas (rinite alérgica concomitante) pode reduzir os sintomas mesmo sem correção cirúrgica do desvio",
+    ],
+    complicacoes: [
+      "Crônica: sinusite recorrente por obstrução persistente da drenagem sinusal, epistaxe recorrente pela turbulência e ressecamento da mucosa no lado estreitado",
+    ],
+    redFlags: [
+      "Perfuração septal associada a uso de substâncias (cocaína intranasal) ou doenças sistêmicas (granulomatose com poliangiite) deve ser investigada separadamente do desvio septal simples, dada a diferença fundamental de causa e conduta",
+    ],
+    prognostico:
+      "Excelente prognóstico após correção cirúrgica (septoplastia) em pacientes bem selecionados, com melhora significativa e duradoura da obstrução nasal na maioria dos casos.",
+    pontosDeProva: [
+      "A obstrução nasal unilateral e constante é achado característico do desvio septal, distinguindo-o da obstrução bilateral e alternante típica da rinite",
+      "A maioria dos adultos apresenta algum grau de desvio septal, mas a indicação cirúrgica depende do impacto sintomático, não apenas do achado anatômico isolado",
+      "A perfuração septal (diferente do desvio simples) deve levantar suspeita de causas específicas como uso de cocaína ou doenças granulomatosas sistêmicas",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 30 anos, com histórico de trauma nasal na adolescência, relata obstrução nasal constante do lado esquerdo há anos, sem variação ao longo do dia ou estações do ano.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "Obstrução nasal unilateral e constante, sem padrão de variação característico de rinite, em paciente com histórico de trauma nasal prévio, sugere fortemente desvio de septo nasal.",
+      conduta:
+        "Confirmar o diagnóstico pela rinoscopia anterior/endoscopia nasal; se a obstrução for significativamente sintomática e impactar a qualidade de vida, encaminhar para avaliação cirúrgica (septoplastia).",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento definitivo é cirúrgico (septoplastia); não há tratamento medicamentoso capaz de corrigir o desvio estrutural do septo.",
+    fontes: [
+      { tema: "Fisiopatologia (obstrução e turbulência aérea) e classificação anatômica do desvio", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Indicação de septoplastia e causas de perfuração septal", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "hipertrofia-amigdalas-adenoides",
+    nome: "Doenças crônicas das amígdalas e adenoides",
+    sinonimos: ["Hipertrofia adenotonsilar", "Amigdalite crônica"],
+    cid10: "J35",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Aumento crônico do tecido tonsilar e/ou adenoideano, principal causa de obstrução das vias aéreas superiores e de apneia obstrutiva do sono na infância, tratada definitivamente com cirurgia quando sintomática.",
+    definicao:
+      "Categoria que engloba a hipertrofia crônica das tonsilas palatinas e/ou da tonsila faríngea (adenoide), estruturas linfoides que, quando cronicamente aumentadas, comprometem mecanicamente a via aérea superior e/ou a ventilação da tuba auditiva.",
+    epidemiologia:
+      "Mais comum em crianças, faixa etária em que o tecido linfoide de Waldeyer atinge seu maior volume relativo, com regressão fisiológica progressiva ao longo da adolescência; é a principal causa identificável de apneia obstrutiva do sono na população pediátrica.",
+    fisiopatologia:
+      "Episódios repetidos de infecção ou exposição antigênica crônica promovem hiperplasia linfoide progressiva das tonsilas palatinas e/ou da adenoide. Quando esse crescimento se torna desproporcional ao tamanho das vias aéreas superiores da criança, compromete mecanicamente a passagem de ar durante o sono (favorecendo apneia obstrutiva) e, quando a adenoide obstrui a abertura da tuba auditiva na nasofaringe, contribui para disfunção tubária recorrente e otite média serosa.",
+    classificacao:
+      "Classificada pelo tecido predominantemente acometido (tonsilas palatinas, adenoide, ou ambos) e pelo grau de hipertrofia tonsilar, tipicamente graduado de I a IV conforme a proporção da orofaringe ocupada pelas tonsilas ao exame.",
+    quadroClinico: [
+      "Respiração bucal habitual e ronco noturno, sintomas cardinais da hipertrofia adenotonsilar significativa",
+      "Apneia obstrutiva do sono, manifestada por pausas respiratórias observadas pelos pais, sono agitado e, em casos importantes, sonolência diurna ou dificuldades de aprendizado",
+      "Voz hiponasal (fala 'anasalada') e fácies adenoideana característica (boca aberta cronicamente, palato ogival) em casos de hipertrofia adenoideana significativa e prolongada",
+      "Disfagia leve e halitose em casos de hipertrofia tonsilar volumosa",
+    ],
+    diagnostico: [
+      "Diagnóstico pela avaliação clínica direta (orofaringoscopia para graduação tonsilar, nasofibroscopia ou radiografia de cavum para avaliação adenoideana)",
+      "Polissonografia é o exame de escolha para confirmar e quantificar a gravidade da apneia obstrutiva do sono quando suspeitada, embora a decisão cirúrgica frequentemente se baseie também em critérios clínicos",
+      "Avaliação otoscópica associada, dada a frequente concomitância com otite média serosa por disfunção tubária secundária à hipertrofia adenoideana",
+    ],
+    examesComplementares: [
+      "Polissonografia para confirmação e graduação objetiva da apneia obstrutiva do sono associada",
+      "Radiografia de cavum (perfil de nasofaringe) ou nasofibroscopia para avaliação do grau de obstrução adenoideana",
+    ],
+    diagnosticoDiferencial: [
+      "Rinite alérgica (respiração bucal e obstrução nasal associadas, mas sem o aumento tonsilar/adenoideano estrutural característico)",
+      "Desvio de septo nasal (obstrução nasal unilateral estrutural, distinta da hipertrofia linfoide simétrica)",
+      "Outras causas de apneia obstrutiva do sono na infância (obesidade, anomalias craniofaciais), que podem coexistir com a hipertrofia adenotonsilar",
+    ],
+    tratamento: [
+      "Observação clínica em casos de hipertrofia leve sem repercussão funcional significativa, dado que a regressão fisiológica ao longo da infância/adolescência é esperada",
+      "Corticosteroide nasal tópico pode proporcionar alguma redução do volume adenoideano em casos leves a moderados, como alternativa não cirúrgica inicial",
+      "Adenoamigdalectomia (remoção cirúrgica das tonsilas palatinas e da adenoide) é o tratamento definitivo e mais eficaz para apneia obstrutiva do sono significativa associada à hipertrofia adenotonsilar em crianças",
+      "Adenoidectomia isolada considerada quando a obstrução predomina na adenoide, com repercussão especialmente sobre a função tubária e otite média serosa recorrente",
+    ],
+    complicacoes: [
+      "Aguda: obstrução aguda da via aérea superior em casos de hipertrofia tonsilar volumosa associada a infecção aguda concomitante",
+      "Crônica: apneia obstrutiva do sono não tratada com impacto no crescimento, no comportamento e no desempenho escolar, cor pulmonale em casos extremos e prolongados sem tratamento, otite média serosa recorrente por disfunção tubária secundária",
+    ],
+    redFlags: [
+      "Apneia obstrutiva do sono grave, com dessaturação significativa documentada em polissonografia, exige encaminhamento cirúrgico prioritário, dado o risco de complicações cardiopulmonares e de neurodesenvolvimento se não tratada",
+      "Assimetria tonsilar significativa em criança deve levantar suspeita de processo neoplásico (linfoma), diferentemente da hipertrofia simétrica benigna habitual",
+    ],
+    prognostico:
+      "A adenoamigdalectomia tem excelente taxa de sucesso na resolução da apneia obstrutiva do sono associada à hipertrofia adenotonsilar na infância, com melhora significativa e frequentemente completa dos sintomas e de eventuais dificuldades de aprendizado associadas.",
+    pontosDeProva: [
+      "A hipertrofia adenotonsilar é a causa mais comum de apneia obstrutiva do sono em crianças, distinta da causa predominante em adultos (obesidade e colapso de tecidos moles)",
+      "A fácies adenoideana (boca aberta cronicamente, palato ogival) é achado clínico característico da obstrução nasal crônica por hipertrofia adenoideana prolongada",
+      "Assimetria tonsilar significativa em criança é sinal de alarme para linfoma, não devendo ser atribuída à hipertrofia benigna simétrica habitual sem investigação adicional",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menino, 5 anos, apresenta ronco alto todas as noites, respiração bucal constante e episódios de pausa respiratória observados pelos pais durante o sono, associados a dificuldade de concentração na escola.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "Ronco significativo com pausas respiratórias observadas e impacto no desempenho escolar sugerem apneia obstrutiva do sono por hipertrofia adenotonsilar, causa mais comum dessa condição na infância.",
+      conduta:
+        "Realizar orofaringoscopia para graduação tonsilar e avaliação da adenoide (nasofibroscopia ou radiografia de cavum); confirmar a gravidade com polissonografia e encaminhar para adenoamigdalectomia, tratamento definitivo mais eficaz.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento definitivo para casos sintomáticos significativos é cirúrgico (adenoamigdalectomia); o corticosteroide nasal tópico usado em casos leves ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia (hiperplasia linfoide de Waldeyer) e associação com apneia obstrutiva do sono na infância", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Fácies adenoideana e indicação de adenoamigdalectomia", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "abscesso-periamigdaliano",
+    nome: "Abscesso periamigdaliano",
+    sinonimos: ["Flegmão periamigdaliano"],
+    cid10: "J36",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Bacteriana",
+    resumo: "Coleção purulenta entre a cápsula tonsilar e a musculatura constritora da faringe, a infecção profunda de cabeça e pescoço mais comum, exigindo drenagem associada a antibioticoterapia.",
+    definicao:
+      "Coleção de material purulento localizada no espaço potencial entre a cápsula da tonsila palatina e a musculatura constritora superior da faringe, geralmente como complicação supurativa de uma amigdalite bacteriana não tratada ou tratada inadequadamente.",
+    epidemiologia:
+      "É a infecção profunda do espaço cervical mais comum, acometendo mais frequentemente adolescentes e adultos jovens, embora possa ocorrer em qualquer idade; geralmente polimicrobiano, envolvendo tanto Streptococcus pyogenes quanto flora anaeróbia da orofaringe.",
+    fisiopatologia:
+      "A infecção bacteriana tonsilar (amigdalite aguda) estende-se além da cápsula tonsilar para o espaço potencial adjacente, formando inicialmente uma celulite periamigdaliana que pode progredir para verdadeira coleção purulenta organizada (abscesso), com efeito de massa que desloca a tonsila e a úvula, causando os achados característicos de trismo e assimetria.",
+    classificacao:
+      "Classificado em fase de celulite periamigdaliana (sem coleção purulenta organizada, tratável apenas com antibiótico) e fase de abscesso propriamente dito (coleção purulenta organizada, exigindo drenagem além do antibiótico), distinção nem sempre óbvia apenas pelo exame clínico.",
+    quadroClinico: [
+      "Odinofagia intensa e progressiva, tipicamente unilateral e desproporcional ao encontrado na amigdalite simples",
+      "Trismo (dificuldade de abertura da boca) por espasmo secundário dos músculos pterigóideos, achado característico e importante para o diagnóstico",
+      "Voz abafada, descrita classicamente como 'voz de batata quente'",
+      "Desvio da úvula para o lado contralateral e abaulamento assimétrico do pilar amigdaliano anterior/palato mole no lado acometido",
+      "Febre, sialorreia (dificuldade de deglutir a própria saliva) e linfadenopatia cervical dolorosa associadas",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado na tríade de trismo, voz abafada e assimetria/abaulamento periamigdaliano com desvio da úvula",
+      "Aspiração com agulha do abscesso confirma o diagnóstico ao obter material purulento e é simultaneamente terapêutica",
+      "Tomografia computadorizada com contraste reservada a casos de diagnóstico incerto, extensão suspeita além do espaço periamigdaliano, ou trismo intenso que impede exame adequado",
+    ],
+    examesComplementares: [
+      "Aspiração com agulha, com obtenção de material purulento confirmando o diagnóstico de abscesso (em oposição à celulite periamigdaliana sem coleção organizada)",
+      "Tomografia computadorizada de pescoço com contraste em casos de dúvida diagnóstica ou suspeita de extensão para espaços cervicais profundos adjacentes",
+    ],
+    diagnosticoDiferencial: [
+      "Amigdalite aguda não complicada (sem trismo, sem desvio de úvula, sem assimetria significativa)",
+      "Abscesso retrofaríngeo ou parafaríngeo (extensão para outros espaços cervicais profundos, com apresentação e conduta que podem se sobrepor)",
+      "Mononucleose infecciosa com hipertrofia tonsilar acentuada (geralmente bilateral e simétrica, sem os achados focais de abscesso)",
+    ],
+    tratamento: [
+      "Drenagem do abscesso (por aspiração com agulha ou incisão e drenagem) é essencial e deve ser realizada assim que o diagnóstico é confirmado, sendo tanto diagnóstica quanto terapêutica",
+      "Amoxicilina com clavulanato é o antibiótico de escolha, cobrindo tanto Streptococcus pyogenes quanto a flora anaeróbia frequentemente envolvida",
+      "Analgesia adequada e hidratação (por vezes intravenosa, dada a dificuldade de ingesta oral pela odinofagia intensa) como medidas de suporte",
+      "Amigdalectomia considerada em casos recorrentes de abscesso periamigdaliano ou como abordagem definitiva em casos selecionados",
+    ],
+    complicacoes: [
+      "Aguda: extensão da infecção para espaços cervicais profundos adjacentes (parafaríngeo, retrofaríngeo), obstrução da via aérea superior em casos volumosos, aspiração se o abscesso se rompe espontaneamente",
+      "Crônica: recorrência do abscesso periamigdaliano em episódios subsequentes",
+    ],
+    redFlags: [
+      "Trismo intenso associado a dificuldade respiratória ou estridor sugere extensão significativa da infecção com risco de comprometimento de via aérea, exigindo avaliação e manejo urgentes da via aérea antes de qualquer outro procedimento",
+      "Extensão dos sintomas para o pescoço (edema cervical significativo, rigidez de nuca) sugere disseminação para espaços cervicais profundos adjacentes, exigindo investigação de imagem urgente",
+    ],
+    prognostico:
+      "Excelente prognóstico com drenagem e antibioticoterapia adequadas, com resolução completa na grande maioria dos casos; complicações graves são raras quando o tratamento é iniciado prontamente.",
+    pontosDeProva: [
+      "A tríade de trismo, voz abafada ('de batata quente') e desvio da úvula é o achado clínico clássico e mais cobrado do abscesso periamigdaliano",
+      "A drenagem (aspiração ou incisão) é essencial e não deve ser substituída apenas por antibioticoterapia, diferentemente da amigdalite simples não complicada",
+      "É a infecção profunda de cabeça e pescoço mais comum, geralmente polimicrobiana, envolvendo tanto Streptococcus pyogenes quanto flora anaeróbia",
+    ],
+    casoClinico: {
+      vinheta:
+        "Adolescente, 16 anos, com dor de garganta intensa há 3 dias, evoluindo com dificuldade progressiva para abrir a boca, voz abafada e sialorreia, apresentando abaulamento do pilar amigdaliano direito com desvio da úvula.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "A tríade de trismo, voz abafada e desvio da úvula com abaulamento assimétrico é o quadro clássico de abscesso periamigdaliano, exigindo drenagem além de antibioticoterapia.",
+      conduta:
+        "Realizar aspiração com agulha do abscesso para confirmação diagnóstica e drenagem terapêutica; iniciar amoxicilina com clavulanato, associada a analgesia e hidratação adequadas.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina-clavulanato", nome: "Amoxicilina + Clavulanato" },
+    ],
+    fontes: [
+      { tema: "Fisiopatologia (extensão além da cápsula tonsilar) e tríade clínica clássica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Amoxicilina com clavulanato cobrindo flora polimicrobiana e necessidade de drenagem", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "laringite-laringotraqueite-cronicas",
+    nome: "Laringite e laringotraqueíte crônicas",
+    sinonimos: ["Laringite crônica"],
+    cid10: "J37",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Inflamação persistente da laringe por mais de três semanas, mais comumente relacionada a tabagismo, refluxo laringofaríngeo ou abuso vocal crônico, exigindo laringoscopia para exclusão de neoplasia antes de assumir causa benigna.",
+    definicao:
+      "Inflamação da mucosa laríngea persistindo por mais de três semanas, distinta da forma aguda autolimitada, geralmente resultante de exposição contínua a um fator irritante ou lesivo identificável, com a rouquidão persistente sendo o sintoma cardinal.",
+    epidemiologia:
+      "Fortemente associada a tabagismo (fator de risco mais importante, tanto para a laringite crônica benigna quanto, criticamente, para a neoplasia laríngea que deve sempre ser excluída), refluxo laringofaríngeo, e abuso vocal crônico ocupacional (professores, cantores, locutores).",
+    fisiopatologia:
+      "A exposição contínua a um agente lesivo (fumaça de cigarro, ácido gástrico refluído, trauma mecânico repetido pelo abuso vocal) mantém um estado de inflamação crônica da mucosa laríngea e das pregas vocais, levando a espessamento epitelial, edema crônico (edema de Reinke, sobretudo associado ao tabagismo) e, eventualmente, alterações displásicas que podem preceder a transformação maligna quando a exposição ao fator lesivo (particularmente tabagismo) não é interrompida.",
+    classificacao:
+      "Classificada pela causa predominante identificável: irritativa (tabagismo, poluentes ocupacionais), por refluxo laringofaríngeo, e por abuso vocal crônico (podendo levar a lesões estruturais associadas como nódulos ou pólipos de prega vocal, fichas relacionadas na categoria de doenças das cordas vocais).",
+    quadroClinico: [
+      "Rouquidão persistente por mais de três semanas, sintoma cardinal e critério temporal que a distingue da laringite aguda",
+      "Sensação de pigarro constante, tosse crônica e sensação de globo faríngeo (globus)",
+      "Fadiga vocal (dificuldade em manter a qualidade vocal ao longo do dia) em casos relacionados a abuso vocal ocupacional",
+      "Sintomas de refluxo associados (pirose, regurgitação) quando o refluxo laringofaríngeo é a causa de base, embora esses sintomas típicos possam estar ausentes mesmo quando o refluxo é a causa",
+    ],
+    diagnostico: [
+      "Laringoscopia é exame obrigatório em toda rouquidão persistente além de três semanas, tanto para caracterizar os achados inflamatórios quanto, criticamente, para excluir neoplasia laríngea, sobretudo em tabagistas",
+      "Investigação de refluxo laringofaríngeo (prova terapêutica com inibidor de bomba de prótons) quando os achados laringoscópicos (edema e eritema da região posterior da laringe) sugerem essa causa",
+      "História detalhada de tabagismo, uso vocal ocupacional e sintomas de refluxo orienta a investigação da causa de base",
+    ],
+    examesComplementares: [
+      "Laringoscopia (indireta ou por fibra óptica) para visualização direta das pregas vocais e da mucosa laríngea, exame central e obrigatório nesta condição",
+      "Biópsia de lesões suspeitas identificadas à laringoscopia, para exclusão histológica de displasia ou neoplasia",
+    ],
+    diagnosticoDiferencial: [
+      "Neoplasia laríngea (deve ser sempre excluída pela laringoscopia em toda rouquidão persistente, sobretudo em tabagistas, antes de assumir causa benigna)",
+      "Nódulos ou pólipos de prega vocal (lesões estruturais focais associadas a abuso vocal, distintas da inflamação difusa da laringite crônica simples)",
+      "Paralisia de prega vocal (rouquidão associada a outros sinais, como aspiração, distinta do padrão inflamatório da laringite crônica)",
+    ],
+    tratamento: [
+      "Cessação do tabagismo é a medida mais importante quando esse é o fator causal identificado, com potencial de reverter parcialmente as alterações inflamatórias crônicas se interrompida a tempo",
+      "Tratamento do refluxo laringofaríngeo (inibidor de bomba de prótons, medidas comportamentais) quando identificado como causa de base",
+      "Terapia fonoaudiológica (higiene vocal, técnicas de uso vocal adequado) para casos relacionados a abuso vocal crônico",
+      "Hidratação adequada e evitar irritantes adicionais (álcool, ambientes secos) como medidas gerais de suporte",
+    ],
+    complicacoes: [
+      "Crônica: progressão para lesões displásicas e, em casos de exposição prolongada e não corrigida ao tabagismo, risco aumentado de neoplasia laríngea; edema de Reinke crônico com impacto vocal permanente",
+    ],
+    redFlags: [
+      "Rouquidão persistente por mais de três semanas, sobretudo em tabagista, é indicação obrigatória de laringoscopia para exclusão de neoplasia laríngea, nunca devendo ser atribuída empiricamente a causa benigna sem essa investigação",
+      "Lesão suspeita à laringoscopia (assimetria, ulceração, massa exofítica) exige biópsia imediata para definição histológica",
+    ],
+    prognostico:
+      "O prognóstico é favorável quando o fator causal é identificado e corrigido (cessação do tabagismo, controle do refluxo, terapia fonoaudiológica), com melhora gradual da qualidade vocal ao longo de semanas a meses; a persistência da exposição ao fator causal mantém ou agrava o quadro, com risco cumulativo de transformação maligna no caso do tabagismo não interrompido.",
+    pontosDeProva: [
+      "Toda rouquidão persistente além de três semanas exige laringoscopia obrigatória para excluir neoplasia laríngea, independentemente da causa benigna que pareça mais provável clinicamente",
+      "O tabagismo é o fator de risco mais importante tanto para a laringite crônica quanto para a neoplasia laríngea, reforçando por que a exclusão desta última é sempre prioritária na investigação",
+      "O refluxo laringofaríngeo pode causar laringite crônica mesmo na ausência de sintomas típicos de refluxo (pirose), sendo frequentemente subdiagnosticado por esse motivo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 60 anos, tabagista há 40 anos, apresenta rouquidão progressiva há 2 meses, sem outros sintomas associados.",
+      pergunta: "Qual a conduta diagnóstica obrigatória diante deste quadro?",
+      raciocinio:
+        "Rouquidão persistente além de três semanas em tabagista de longa data exige exclusão obrigatória de neoplasia laríngea antes de qualquer outra consideração diagnóstica.",
+      conduta:
+        "Encaminhar para laringoscopia com urgência para avaliação direta das pregas vocais e da mucosa laríngea, com biópsia de qualquer lesão suspeita identificada.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende da correção da causa de base (cessação do tabagismo, controle do refluxo, terapia fonoaudiológica); não há medicamento único de primeira linha para esta condição.",
+    fontes: [
+      { tema: "Fisiopatologia (espessamento epitelial e edema de Reinke) e fatores de risco", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Obrigatoriedade de laringoscopia na rouquidão persistente para exclusão de neoplasia", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "doencas-cordas-vocais-laringe",
+    nome: "Doenças das cordas vocais e da laringe não classificadas em outra parte",
+    sinonimos: ["Nódulos vocais", "Paralisia de prega vocal", "Pólipo de prega vocal"],
+    cid10: "J38",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Categoria que reúne lesões estruturais focais das pregas vocais (nódulos, pólipos) e a paralisia de prega vocal, causas importantes de disfonia crônica com abordagens terapêuticas específicas para cada entidade.",
+    definicao:
+      "Categoria diagnóstica que reúne lesões estruturais benignas focais das pregas vocais, mais notavelmente os nódulos vocais (lesões bilaterais simétricas por trauma fonatório repetitivo) e os pólipos de prega vocal (lesão geralmente unilateral, por vezes após um único evento de esforço vocal intenso), além da paralisia de prega vocal (imobilidade de uma ou ambas as pregas vocais por comprometimento do nervo laríngeo recorrente ou vago).",
+    epidemiologia:
+      "Os nódulos vocais são mais comuns em profissionais que dependem intensamente da voz (professores, cantores, locutores) e em crianças com uso vocal abusivo (gritar excessivamente). A paralisia de prega vocal tem causas variadas, incluindo lesão cirúrgica do nervo laríngeo recorrente (mais comumente durante cirurgia de tireoide), neoplasias que comprimem o trajeto do nervo (sobretudo pulmonares, dado o trajeto do nervo laríngeo recorrente esquerdo pelo mediastino), e causas idiopáticas.",
+    fisiopatologia:
+      "Os nódulos vocais resultam de trauma mecânico repetitivo no ponto de maior impacto de colisão das pregas vocais durante a fonação abusiva, causando espessamento fibroso localizado e simétrico. Os pólipos de prega vocal resultam de hemorragia submucosa aguda após esforço vocal intenso único, seguida de organização em uma lesão polipoide, geralmente unilateral. A paralisia de prega vocal resulta de interrupção da condução neural ao músculo laríngeo, seja por lesão direta do nervo laríngeo recorrente ou vago, seja por compressão extrínseca ao longo de seu longo trajeto anatômico (que inclui, no lado esquerdo, uma alça ao redor do arco aórtico no mediastino).",
+    classificacao:
+      "Classificada pela lesão específica: nódulos vocais (bilaterais, simétricos, por abuso vocal crônico), pólipos de prega vocal (geralmente unilaterais, por trauma vocal agudo), e paralisia de prega vocal (uni ou bilateral, classificada também pela posição da prega paralisada, que influencia a gravidade dos sintomas).",
+    quadroClinico: [
+      "Nódulos vocais: rouquidão crônica e progressiva, fadiga vocal, voz de qualidade áspera, tipicamente em profissionais da voz ou crianças com uso vocal abusivo",
+      "Pólipo de prega vocal: rouquidão de início mais súbito, frequentemente após um episódio identificável de esforço vocal intenso",
+      "Paralisia de prega vocal unilateral: voz fraca e soprosa, engasgos frequentes durante a deglutição de líquidos (pela incompetência glótica)",
+      "Paralisia de prega vocal bilateral: pode causar estridor e comprometimento respiratório significativo, ao contrário da forma unilateral, que afeta predominantemente a qualidade vocal",
+    ],
+    diagnostico: [
+      "Laringoscopia (indireta, por fibra óptica, ou estroboscopia) é o exame central para visualização direta e diferenciação entre as diferentes lesões estruturais e a paralisia de prega vocal",
+      "Estroboscopia laríngea permite avaliação detalhada da vibração das pregas vocais, útil para diferenciar lesões estruturais sutis",
+      "Investigação da causa de base em toda paralisia de prega vocal identificada, incluindo avaliação de possível compressão extrínseca ao longo de todo o trajeto do nervo (tomografia de pescoço e tórax, dado o trajeto mediastinal do nervo laríngeo recorrente esquerdo)",
+    ],
+    examesComplementares: [
+      "Laringoscopia e estroboscopia para visualização direta e caracterização das lesões estruturais das pregas vocais",
+      "Tomografia computadorizada de pescoço e tórax em toda paralisia de prega vocal sem causa cirúrgica óbvia, para rastrear compressão extrínseca ao longo de todo o trajeto do nervo, incluindo o mediastino",
+    ],
+    diagnosticoDiferencial: [
+      "Laringite aguda ou crônica (inflamação difusa da mucosa, sem a lesão estrutural focal característica dos nódulos/pólipos)",
+      "Neoplasia laríngea (deve sempre ser excluída, sobretudo em pacientes com fatores de risco, antes de assumir lesão benigna)",
+      "Papilomatose laríngea (lesões múltiplas de aspecto verrucoso, de etiologia pelo papilomavírus humano, distinta clinicamente e endoscopicamente)",
+    ],
+    tratamento: [
+      "Nódulos vocais: terapia fonoaudiológica (higiene vocal, técnicas de uso vocal adequado) é o tratamento de primeira linha, frequentemente suficiente para resolução sem necessidade de cirurgia",
+      "Pólipo de prega vocal: repouso vocal inicial, mas frequentemente requer remoção cirúrgica (microcirurgia de laringe) quando não há resolução espontânea, dado o caráter mais organizado e menos reversível da lesão comparado ao nódulo",
+      "Paralisia de prega vocal unilateral: terapia fonoaudiológica para compensação, com procedimentos de medialização da prega vocal (injeção ou tireoplastia) considerados em casos de disfonia ou aspiração significativas e persistentes",
+      "Paralisia de prega vocal bilateral com comprometimento respiratório significativo pode exigir traqueostomia de urgência, dada a gravidade potencial do comprometimento da via aérea",
+    ],
+    complicacoes: [
+      "Aguda: comprometimento respiratório significativo na paralisia de prega vocal bilateral, exigindo intervenção urgente",
+      "Crônica: disfonia persistente com impacto ocupacional e social significativo quando não tratada adequadamente, aspiração recorrente na paralisia unilateral não compensada",
+    ],
+    redFlags: [
+      "Paralisia de prega vocal bilateral com estridor ou dificuldade respiratória é emergência que pode exigir via aérea cirúrgica de urgência",
+      "Toda paralisia de prega vocal sem causa cirúrgica evidente exige investigação de compressão extrínseca ao longo de todo o trajeto do nervo, incluindo o mediastino, pela possibilidade de neoplasia maligna torácica subjacente (sobretudo do lado esquerdo)",
+    ],
+    prognostico:
+      "Os nódulos vocais têm excelente prognóstico com terapia fonoaudiológica adequada, frequentemente resolvendo sem necessidade de cirurgia. Os pólipos de prega vocal geralmente exigem remoção cirúrgica para resolução completa, com bom prognóstico vocal pós-operatório. A paralisia de prega vocal tem prognóstico variável conforme a causa e a possibilidade de recuperação da função do nervo ao longo do tempo.",
+    pontosDeProva: [
+      "Nódulos vocais são bilaterais e simétricos (trauma fonatório repetitivo), enquanto pólipos são tipicamente unilaterais (evento agudo de esforço vocal) — distinção anatômica central e frequentemente cobrada",
+      "O trajeto anatômico do nervo laríngeo recorrente esquerdo, contornando o arco aórtico no mediastino, explica por que neoplasias torácicas (sobretudo pulmonares) são causa importante de paralisia de prega vocal esquerda, exigindo investigação de imagem torácica",
+      "A terapia fonoaudiológica é tratamento de primeira linha e frequentemente suficiente para nódulos vocais, ao contrário dos pólipos, que mais comumente exigem remoção cirúrgica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Professora, 38 anos, com rouquidão progressiva e fadiga vocal ao longo do dia há vários meses, sem episódio agudo identificável, com boa resposta parcial a repouso vocal nos fins de semana.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e o tratamento de primeira linha?",
+      raciocinio:
+        "Rouquidão crônica e progressiva com fadiga vocal em profissional que depende intensamente da voz, sem episódio agudo identificável, sugere fortemente nódulos vocais bilaterais por trauma fonatório repetitivo.",
+      conduta:
+        "Confirmar o diagnóstico por laringoscopia/estroboscopia, identificando lesões bilaterais simétricas; iniciar terapia fonoaudiológica como tratamento de primeira linha, reservando cirurgia para casos refratários.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é fonoaudiológico e/ou cirúrgico conforme a lesão específica; não há tratamento medicamentoso para esta categoria de lesões estruturais e neurológicas da laringe.",
+    fontes: [
+      { tema: "Fisiopatologia (trauma fonatório nos nódulos, trajeto do nervo laríngeo recorrente na paralisia)", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Distinção nódulo vs. pólipo e investigação torácica obrigatória na paralisia de prega vocal esquerda", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "abscesso-retrofaringeo",
+    nome: "Outras doenças das vias aéreas superiores (abscesso retrofaríngeo)",
+    sinonimos: ["Abscesso retrofaríngeo", "Infecção do espaço retrofaríngeo"],
+    cid10: "J39",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Bacteriana",
+    resumo: "Coleção purulenta no espaço retrofaríngeo, infecção profunda do pescoço mais comum na infância pequena, com risco de comprometimento grave da via aérea e de extensão ao mediastino.",
+    definicao:
+      "Coleção purulenta localizada no espaço retrofaríngeo, situado entre a parede posterior da faringe e a fáscia pré-vertebral, mais comumente originada da supuração dos linfonodos retrofaríngeos (presentes principalmente em crianças pequenas, com involução progressiva a partir dos 4-5 anos de idade) secundária a uma infecção de vias aéreas superiores ou dentária precedente.",
+    epidemiologia:
+      "Mais comum em crianças pequenas, tipicamente abaixo de 5-6 anos, refletindo a presença dos linfonodos retrofaríngeos nessa faixa etária (que sofrem involução progressiva com a idade); em adultos, é mais raramente associado a trauma direto (corpo estranho, instrumentação) ou extensão de infecção odontogênica.",
+    fisiopatologia:
+      "A infecção bacteriana de uma estrutura de drenagem linfática da nasofaringe ou orofaringe (infecção de vias aéreas superiores, otite média, faringite) causa supuração dos linfonodos retrofaríngeos em crianças pequenas, formando uma coleção purulenta que, dado o espaço potencial contíguo, tem capacidade de se estender ao longo do plano fascial retrofaríngeo até o mediastino posterior, tornando essa condição potencialmente grave mesmo quando a apresentação inicial parece localizada.",
+    classificacao:
+      "Classificado por extensão em localizado ao espaço retrofaríngeo cervical e estendido ao mediastino (mediastinite descendente necrosante), esta última uma complicação grave e potencialmente fatal que exige reconhecimento e tratamento emergenciais.",
+    quadroClinico: [
+      "Febre alta e irritabilidade importante, sobretudo em crianças pequenas",
+      "Recusa alimentar, sialorreia e dor à deglutição (odinofagia) significativa",
+      "Torcicolo ou limitação da extensão cervical, achado característico que reflete irritação da musculatura pré-vertebral adjacente",
+      "Estridor ou dificuldade respiratória em casos de comprometimento significativo da via aérea pelo efeito de massa do abscesso",
+    ],
+    diagnostico: [
+      "Radiografia cervical lateral em partes moles pode sugerir o diagnóstico ao demonstrar espessamento do espaço retrofaríngeo, sendo exame de triagem inicial rápido",
+      "Tomografia computadorizada de pescoço com contraste é o exame de escolha para confirmação diagnóstica, delimitação da extensão da coleção e avaliação de eventual extensão mediastinal",
+      "Avaliação cuidadosa da via aérea é prioritária em toda avaliação inicial, dado o risco de comprometimento respiratório significativo",
+    ],
+    examesComplementares: [
+      "Radiografia cervical lateral em partes moles com espessamento do espaço pré-vertebral, achado sugestivo e útil como triagem inicial",
+      "Tomografia computadorizada de pescoço com contraste, exame definidor para confirmação, extensão e planejamento cirúrgico, incluindo avaliação de extensão ao mediastino",
+    ],
+    diagnosticoDiferencial: [
+      "Abscesso periamigdaliano e parafaríngeo (outros espaços cervicais profundos, com apresentação clínica que pode se sobrepor, distinguidos por imagem)",
+      "Epiglotite aguda (estridor e dificuldade respiratória proeminentes, com apresentação e conduta emergencial distintas)",
+      "Meningite (rigidez de nuca pode mimetizar o torcicolo do abscesso retrofaríngeo, distinção importante pela diferença radical de conduta)",
+    ],
+    tratamento: [
+      "Avaliação e proteção da via aérea como prioridade absoluta inicial, dado o risco de comprometimento respiratório significativo",
+      "Drenagem cirúrgica do abscesso é o tratamento definitivo na maioria dos casos com coleção purulenta bem estabelecida",
+      "Antibioticoterapia intravenosa de amplo espectro, cobrindo flora polimicrobiana (incluindo anaeróbios), associada à drenagem cirúrgica",
+      "Monitorização intensiva pós-drenagem, dado o risco de complicações relacionadas à via aérea e à possível extensão mediastinal",
+    ],
+    complicacoes: [
+      "Aguda: obstrução aguda da via aérea superior, ruptura espontânea do abscesso com aspiração do conteúdo purulento",
+      "Crônica: mediastinite descendente necrosante por extensão da infecção ao longo do plano fascial retrofaríngeo até o mediastino, complicação grave e potencialmente fatal que exige drenagem cirúrgica extensa e cuidados intensivos",
+    ],
+    redFlags: [
+      "Torcicolo associado a febre alta e recusa alimentar em criança pequena deve sempre levantar suspeita de abscesso retrofaríngeo, exigindo avaliação de imagem urgente",
+      "Dor torácica ou sinais de comprometimento mediastinal associados a infecção cervical profunda sugerem mediastinite descendente necrosante, complicação extremamente grave que exige avaliação e intervenção cirúrgica de urgência",
+      "Estridor ou dificuldade respiratória em criança com suspeita de abscesso retrofaríngeo exige manejo prioritário e cuidadoso da via aérea antes de qualquer outra intervenção",
+    ],
+    prognostico:
+      "Com reconhecimento e tratamento precoces (drenagem cirúrgica e antibioticoterapia adequada), o prognóstico é geralmente bom. A extensão para mediastinite descendente necrosante, quando ocorre, tem mortalidade significativa mesmo com tratamento intensivo, reforçando a importância do diagnóstico precoce.",
+    pontosDeProva: [
+      "É a infecção profunda do pescoço mais comum em crianças pequenas, refletindo a presença de linfonodos retrofaríngeos que sofrem involução progressiva com a idade",
+      "O torcicolo/limitação da extensão cervical é achado característico que reflete irritação da musculatura pré-vertebral adjacente ao espaço retrofaríngeo",
+      "A capacidade de extensão ao longo do plano fascial retrofaríngeo até o mediastino (mediastinite descendente necrosante) é a razão pela qual essa infecção, aparentemente localizada, deve ser tratada com urgência e agressividade",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menina, 3 anos, apresenta febre alta, recusa alimentar, sialorreia e limitação para estender o pescoço há 2 dias, no contexto de uma infecção de vias aéreas superiores na semana anterior.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "Febre alta, recusa alimentar e torcicolo em criança pequena, após infecção recente de vias aéreas superiores, são característicos de abscesso retrofaríngeo, exigindo confirmação e tratamento urgentes.",
+      conduta:
+        "Avaliar prioritariamente a via aérea; solicitar tomografia computadorizada de pescoço com contraste para confirmar o diagnóstico e a extensão; iniciar antibioticoterapia intravenosa de amplo espectro e encaminhar para drenagem cirúrgica.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende de drenagem cirúrgica associada a antibioticoterapia intravenosa de amplo espectro; o esquema antibiótico específico ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia (supuração de linfonodos retrofaríngeos) e extensão ao mediastino", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Torcicolo como achado característico e conduta na mediastinite descendente necrosante", fonte: "fonte pendente" },
+    ],
+  },
 ];

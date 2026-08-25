@@ -15,7 +15,7 @@ Fontes:
   está, o único item da lista ainda pendente por esse motivo.
 
 Já documentados com ficha completa (**fora deste backlog**, não repetir):
-- **Doenças (196):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
+- **Doenças (211):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
   · Dengue · COVID-19 · Gastrite · DRGE · Artrite reumatoide · LES · Alzheimer · Anemia
   ferropriva · DRC · Infarto agudo do miocárdio · Angina pectoris · Doença isquêmica
   crônica do coração · Fibrilação e flutter atrial · Parada cardíaca · Febre reumática ·
@@ -75,7 +75,13 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   supurativa e crônica · Disfunção da tuba auditiva · Mastoidite ·
   Colesteatoma · Perfuração timpânica · Timpanosclerose · Otosclerose ·
   Transtornos da função vestibular · Outros transtornos do ouvido interno ·
-  Perda auditiva · Otalgia e secreção auditiva · Zumbido
+  Perda auditiva · Otalgia e secreção auditiva · Zumbido · Nasofaringite
+  aguda · Sinusite aguda · Faringite aguda · Amigdalite aguda · Laringite e
+  traqueíte agudas · Rinite alérgica e vasomotora · Rinite/nasofaringite/
+  faringite crônicas · Sinusite crônica · Pólipo nasal · Desvio de septo
+  nasal · Hipertrofia de amígdalas e adenoides · Abscesso periamigdaliano ·
+  Laringite e laringotraqueíte crônicas · Doenças das cordas vocais e da
+  laringe · Abscesso retrofaríngeo
 - **Medicamentos (29):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
@@ -340,22 +346,22 @@ CID descrevem a mesma entidade clínica.
 14. concluído — Otalgia e secreção auditiva (H92)
 15. concluído — Outros transtornos do ouvido NCOP / zumbido (H93)
 
-### Lote 15 — ORL B: Nariz e garganta (15)
-1. pendente — Nasofaringite aguda / resfriado comum (J00)
-2. pendente — Sinusite aguda (J01)
-3. pendente — Faringite aguda (J02)
-4. pendente — Amigdalite aguda (J03)
-5. pendente — Laringite e traqueíte agudas (J04)
-6. pendente — Rinite alérgica e vasomotora (J30)
-7. pendente — Rinite, nasofaringite e faringite crônicas (J31)
-8. pendente — Sinusite crônica (J32)
-9. pendente — Pólipo nasal (J33)
-10. pendente — Outros transtornos do nariz e seios paranasais / desvio de septo (J34)
-11. pendente — Doenças crônicas das amígdalas e adenoides (J35)
-12. pendente — Abscesso periamigdaliano (J36)
-13. pendente — Laringite e laringotraqueíte crônicas (J37)
-14. pendente — Doenças das cordas vocais e da laringe NCOP / nódulos, paralisia de prega vocal (J38)
-15. pendente — Outras doenças das vias aéreas superiores / abscesso retrofaríngeo (J39)
+### Lote 15 — ORL B: Nariz e garganta (15) — ✅ CONCLUÍDO
+1. concluído — Nasofaringite aguda / resfriado comum (J00)
+2. concluído — Sinusite aguda (J01)
+3. concluído — Faringite aguda (J02)
+4. concluído — Amigdalite aguda (J03)
+5. concluído — Laringite e traqueíte agudas (J04)
+6. concluído — Rinite alérgica e vasomotora (J30)
+7. concluído — Rinite, nasofaringite e faringite crônicas (J31)
+8. concluído — Sinusite crônica (J32)
+9. concluído — Pólipo nasal (J33)
+10. concluído — Outros transtornos do nariz e seios paranasais / desvio de septo (J34)
+11. concluído — Doenças crônicas das amígdalas e adenoides (J35)
+12. concluído — Abscesso periamigdaliano (J36)
+13. concluído — Laringite e laringotraqueíte crônicas (J37)
+14. concluído — Doenças das cordas vocais e da laringe NCOP / nódulos, paralisia de prega vocal (J38)
+15. concluído — Outras doenças das vias aéreas superiores / abscesso retrofaríngeo (J39)
 
 ### Lote 16 — ORL C: Neoplasias malignas de cabeça e pescoço (7)
 1. pendente — Neoplasia maligna da cavidade oral (C00-C06)
@@ -454,12 +460,13 @@ agrupadas em uma única ficha.
 10. pendente — Dermatite alérgica de contato (L23)
 11. pendente — Abscesso cutâneo, furúnculo e antraz (L02)
 
-**Total: 85 doenças pendentes em 7 lotes** (Lotes 1-13 e Lote 14 (ORL A — Ouvido)
-todos concluídos, além das 196 já fichadas. **Oftalmologia, Neurologia,
-Hematologia, Nefrologia+Urologia e Psiquiatria fechadas por completo. Próxima
-prioridade: Lote 15 (ORL B — Nariz e garganta, 15 itens), seguido do Lote 16
-(ORL C — neoplasias de cabeça e pescoço) e 17-20 (Ginecologia/Obstetrícia
-completa) antes de retomar Dermatologia (Lote 21).**
+**Total: 70 doenças pendentes em 6 lotes** (Lotes 1-13, Lote 14 (ORL A — Ouvido)
+e Lote 15 (ORL B — Nariz e garganta) todos concluídos, além das 211 já
+fichadas. **Oftalmologia, Neurologia, Hematologia, Nefrologia+Urologia e
+Psiquiatria fechadas por completo. Próxima prioridade: Lote 16 (ORL C —
+neoplasias de cabeça e pescoço, 7 itens), que fecha Otorrinolaringologia por
+completo, seguido dos Lotes 17-20 (Ginecologia/Obstetrícia completa) antes de
+retomar Dermatologia (Lote 21).**
 
 ---
 
