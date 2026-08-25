@@ -242,6 +242,7 @@ export const medications: Medication[] = [
     doencasIndicadas: [
       { slug: "pneumonia-adquirida-na-comunidade", nome: "Pneumonia adquirida na comunidade" },
       { slug: "gastrite", nome: "Gastrite" },
+      { slug: "otite-media-aguda-supurativa", nome: "Otite média aguda supurativa e crônica" },
     ],
     fontes: [
       { tema: "Mecanismo de ação e farmacocinética", fonte: "Goodman & Gilman, 13ª ed." },
@@ -754,6 +755,7 @@ export const medications: Medication[] = [
       { slug: "leucemia-linfoide", nome: "Leucemia linfoide" },
       { slug: "sindrome-nefrotica", nome: "Síndrome nefrótica" },
       { slug: "nefrite-tubulo-intersticial-aguda", nome: "Nefrite túbulo-intersticial aguda" },
+      { slug: "transtornos-funcao-vestibular", nome: "Transtornos da função vestibular" },
     ],
     fontes: [
       { tema: "Mecanismo de ação glicocorticoide", fonte: "Goodman & Gilman, 13ª ed." },

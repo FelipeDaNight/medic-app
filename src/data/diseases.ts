@@ -13436,4 +13436,1111 @@ export const diseases: Disease[] = [
       { tema: "Eficácia dos estimulantes e efeito sobre risco de uso de substâncias", fonte: "fonte pendente" },
     ],
   },
+  {
+    slug: "otite-externa",
+    nome: "Otite externa",
+    sinonimos: ["Otite do nadador"],
+    cid10: "H60",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Bacteriana",
+    resumo: "Inflamação do conduto auditivo externo, mais comumente de causa bacteriana e favorecida por umidade retida no canal, causando dor à manipulação do pavilhão auricular característica.",
+    definicao:
+      "Inflamação, com ou sem infecção associada, da pele que reveste o conduto auditivo externo, mais comumente causada por bactérias (Pseudomonas aeruginosa e Staphylococcus aureus são os agentes mais frequentes), podendo também ter causa fúngica em uma minoria dos casos.",
+    epidemiologia:
+      "Fortemente associada à exposição frequente à umidade (natação, clima úmido, daí o nome popular 'otite do nadador'), bem como à limpeza excessiva ou traumática do conduto (uso de cotonetes), que rompe a barreira protetora natural de cerume e altera o pH local.",
+    fisiopatologia:
+      "A umidade retida no conduto auditivo externo macera a pele e altera o pH ácido protetor natural, favorecendo a proliferação bacteriana. Traumatismo local (cotonetes, aparelhos auditivos, objetos inseridos no canal) rompe a integridade da pele, facilitando a invasão bacteriana e desencadeando a resposta inflamatória com edema, eritema e dor.",
+    classificacao:
+      "Classificada em difusa aguda (a forma mais comum, descrita acima), localizada (furúnculo do conduto, por infecção de um folículo piloso) e maligna/necrotizante (forma grave e invasiva, quase exclusiva de pacientes diabéticos ou imunossuprimidos, com potencial de osteomielite da base do crânio).",
+    quadroClinico: [
+      "Dor auricular intensa, caracteristicamente exacerbada pela manipulação do pavilhão auricular ou do trago, achado semiológico central para o diagnóstico",
+      "Prurido e sensação de plenitude auricular nas fases iniciais",
+      "Secreção otológica (otorreia), geralmente purulenta ou serosa",
+      "Edema do conduto auditivo externo, por vezes suficiente para obstruir completamente a visualização da membrana timpânica",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico pela otoscopia, evidenciando conduto auditivo externo eritematoso, edemaciado e doloroso à manipulação",
+      "Dor à tração do pavilhão auricular ou à pressão do trago é achado semiológico característico que ajuda a distinguir de otite média",
+      "Avaliação de fatores de risco para a forma maligna/necrotizante (diabetes mellitus, imunossupressão) em todo paciente com quadro grave ou refratário",
+    ],
+    examesComplementares: [
+      "Cultura da secreção otológica reservada a casos refratários ao tratamento empírico inicial ou recorrentes, para orientar terapia dirigida",
+      "Tomografia computadorizada de osso temporal indicada quando há suspeita de otite externa maligna/necrotizante, para avaliar extensão óssea da infecção",
+    ],
+    diagnosticoDiferencial: [
+      "Otite média aguda com perfuração timpânica e otorreia secundária (a dor à tração do pavilhão auricular é tipicamente ausente ou muito menos proeminente nesta condição)",
+      "Dermatite de contato ou eczema do conduto auditivo (prurido predominante, sem a dor intensa característica da otite externa infecciosa)",
+      "Otite externa maligna/necrotizante, quando há fatores de risco (diabetes, imunossupressão) e dor desproporcional ou refratária ao tratamento habitual",
+    ],
+    tratamento: [
+      "Gotas otológicas tópicas combinando antibiótico e corticosteroide são o tratamento de primeira linha na grande maioria dos casos, dispensando antibiótico sistêmico",
+      "Limpeza cuidadosa do conduto auditivo externo (aspiração ou irrigação suave) antes da aplicação do tratamento tópico, quando há debris significativos",
+      "Analgesia oral para controle da dor, frequentemente intensa nas primeiras 48 horas",
+      "Antibiótico sistêmico reservado a casos de otite externa maligna/necrotizante ou quando há extensão além do conduto auditivo externo",
+      "Orientação para manter o conduto seco e evitar manipulação durante o tratamento e a fase de recuperação",
+    ],
+    complicacoes: [
+      "Aguda: celulite do pavilhão auricular e tecidos adjacentes por extensão da infecção",
+      "Crônica: otite externa maligna/necrotizante com osteomielite da base do crânio e possível acometimento de nervos cranianos, quase exclusiva de pacientes diabéticos ou imunossuprimidos",
+    ],
+    redFlags: [
+      "Dor desproporcional à gravidade aparente do quadro, sobretudo em paciente diabético ou imunossuprimido, deve levantar suspeita de otite externa maligna/necrotizante e motivar investigação de imagem urgente",
+      "Paralisia de nervos cranianos associada à otite externa é sinal de extensão óssea grave da infecção, exigindo tratamento intensivo imediato",
+    ],
+    prognostico:
+      "A forma difusa aguda simples tem excelente prognóstico, com resolução completa em poucos dias a uma semana com tratamento tópico adequado. A forma maligna/necrotizante, embora rara, tem prognóstico reservado e exige tratamento prolongado e multidisciplinar.",
+    pontosDeProva: [
+      "Dor à tração do pavilhão auricular ou à pressão do trago é o achado semiológico mais característico e mais cobrado para diferenciar otite externa de otite média",
+      "A tríade de dor desproporcional, paciente diabético e granulação tecidual no assoalho do conduto deve sempre levantar suspeita de otite externa maligna/necrotizante, apesar do nome, uma condição infecciosa grave, não neoplásica",
+      "Pseudomonas aeruginosa é o agente etiológico mais comumente implicado, tanto na forma comum quanto na forma maligna/necrotizante",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 34 anos, nadador recreativo, apresenta dor intensa e prurido no ouvido direito há 2 dias, com secreção serosa, e relata dor importante ao tentar colocar o fone de ouvido.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Dor auricular exacerbada pela manipulação do pavilhão, associada a exposição recente à água, é característica de otite externa aguda difusa.",
+      conduta:
+        "Realizar otoscopia para confirmar o diagnóstico e avaliar a integridade da membrana timpânica; iniciar gotas otológicas tópicas combinando antibiótico e corticosteroide, orientando manter o conduto seco durante o tratamento.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento de primeira linha são gotas otológicas tópicas (antibiótico associado a corticosteroide), ainda sem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia (maceração por umidade, agentes etiológicos) e classificação por gravidade", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Otite externa maligna/necrotizante em diabéticos e conduta tópica de primeira linha", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "cerume-impactado-corpo-estranho-conduto",
+    nome: "Outros transtornos do ouvido externo (cerume impactado, corpo estranho)",
+    sinonimos: ["Impactação de cerume", "Rolha de cera"],
+    cid10: "H61",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Idiopática",
+    resumo: "Acúmulo de cerume ou presença de corpo estranho obstruindo o conduto auditivo externo, causa comum e reversível de hipoacusia condutiva e desconforto auricular.",
+    definicao:
+      "Categoria que reúne condições mecânicas e não infecciosas do conduto auditivo externo, mais notavelmente a impactação de cerume (acúmulo excessivo que obstrui parcial ou totalmente o conduto) e a presença de corpo estranho (comum em crianças pequenas).",
+    epidemiologia:
+      "A impactação de cerume é extremamente comum em todas as faixas etárias, mas particularmente em idosos (por cerume mais espesso e conduto mais estreito) e em usuários de aparelhos auditivos ou protetores auriculares, que impedem a migração natural do cerume para fora do conduto. Corpo estranho no conduto é mais comum em crianças pequenas.",
+    fisiopatologia:
+      "O cerume é normalmente produzido pelas glândulas ceruminosas do terço externo do conduto auditivo e migra naturalmente para fora por ação da mastigação e do crescimento epitelial; sua produção excessiva, remoção incompleta ou obstrução da migração natural (uso de cotonetes, que na verdade empurram o cerume mais profundamente) leva ao acúmulo e à impactação, causando obstrução mecânica da condução sonora e, por vezes, irritação local.",
+    classificacao:
+      "Não há sistema de estadiamento formal; classificado descritivamente pelo grau de obstrução do conduto (parcial ou completa) e, no caso de corpo estranho, pelo tipo de objeto (orgânico, inorgânico, inseto vivo — esta última categoria exigindo conduta imediata pelo desconforto extremo que causa).",
+    quadroClinico: [
+      "Sensação de plenitude ou obstrução auricular, de instalação geralmente gradual na impactação de cerume",
+      "Hipoacusia condutiva leve a moderada, unilateral ou bilateral, proporcional ao grau de obstrução",
+      "Prurido ou desconforto local ocasional",
+      "No caso de corpo estranho, história relatada pelo paciente ou cuidador (mais comum em crianças) ou achado incidental no exame otoscópico",
+      "Inseto vivo no conduto causa desconforto agudo e intenso, com sensação de movimento dentro do ouvido",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico direto pela otoscopia, visualizando o cerume impactado ou o corpo estranho obstruindo o conduto",
+      "Avaliação da integridade da membrana timpânica antes de qualquer tentativa de remoção, quando visualização permitir",
+    ],
+    examesComplementares: [
+      "Não há exame laboratorial ou de imagem indicado rotineiramente; o diagnóstico e a conduta são guiados inteiramente pela otoscopia direta",
+    ],
+    diagnosticoDiferencial: [
+      "Otite externa (dor e eritema do conduto predominam, distinto da obstrução mecânica indolor típica do cerume impactado)",
+      "Otosclerose e outras causas de hipoacusia condutiva sem obstrução visível do conduto",
+    ],
+    tratamento: [
+      "Cerumenolíticos (agentes amolecedores de cerume) seguidos de irrigação com água morna são o tratamento de primeira linha para impactação de cerume não complicada",
+      "Remoção instrumental (curetagem, aspiração) sob visualização direta quando a irrigação é insuficiente, contraindicada (perfuração timpânica conhecida) ou o cerume está muito compactado",
+      "Remoção de corpo estranho por instrumentação direta ou irrigação, conforme o tipo de objeto; insetos vivos devem ser imobilizados (instilação de óleo mineral ou lidocaína tópica) antes da tentativa de remoção, para evitar lesão do conduto pelo movimento do inseto",
+      "Encaminhamento a especialista quando a remoção inicial não é bem-sucedida ou há risco de lesão da membrana timpânica",
+    ],
+    complicacoes: [
+      "Aguda: laceração do conduto auditivo externo ou perfuração timpânica durante tentativa inadequada de remoção",
+      "Crônica: otite externa secundária por umidade retida atrás de cerume impactado",
+    ],
+    redFlags: [
+      "Irrigação do conduto auditivo é contraindicada quando há suspeita ou história conhecida de perfuração timpânica, pelo risco de introduzir infecção no ouvido médio",
+      "Tentativas repetidas de remoção sem visualização adequada aumentam o risco de laceração do conduto e devem ser evitadas em favor de encaminhamento especializado",
+    ],
+    prognostico:
+      "Excelente prognóstico, com resolução completa e imediata da hipoacusia após remoção adequada do cerume impactado ou do corpo estranho, na grande maioria dos casos sem sequelas.",
+    pontosDeProva: [
+      "O uso de cotonetes para 'limpeza' do conduto auditivo externo, contraintuitivamente, tende a empurrar o cerume mais profundamente e a favorecer a impactação, em vez de preveni-la — orientação prática frequentemente cobrada",
+      "A irrigação do conduto é contraindicada quando há perfuração timpânica conhecida ou suspeita, pelo risco de introduzir infecção no ouvido médio",
+      "Insetos vivos no conduto auditivo devem ser imobilizados antes da tentativa de remoção, para evitar lesão do conduto causada pelo próprio movimento do inseto",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 68 anos, usuário de aparelho auditivo bilateral, relata piora progressiva da audição no ouvido esquerdo há 3 semanas, sem dor.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Hipoacusia progressiva e indolor em usuário de aparelho auditivo, fator de risco conhecido para impactação por impedir a migração natural do cerume, sugere fortemente cerume impactado.",
+      conduta:
+        "Realizar otoscopia para confirmar a impactação e avaliar a integridade da membrana timpânica; se íntegra, iniciar cerumenolítico seguido de irrigação suave com água morna, ou remoção instrumental sob visualização direta.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento de primeira linha é a remoção mecânica (cerumenolíticos e irrigação, ou remoção instrumental), não um medicamento sistêmico; os cerumenolíticos tópicos específicos ainda não têm ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia da produção e migração do cerume e fatores de risco para impactação", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Contraindicação de irrigação em perfuração timpânica e manejo de inseto vivo no conduto", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "otite-media-serosa",
+    nome: "Otite média serosa (com efusão)",
+    sinonimos: ["Otite média com efusão", "OME"],
+    cid10: "H65",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Acúmulo de líquido não infectado na cavidade do ouvido médio por disfunção da tuba auditiva, causa mais comum de hipoacusia condutiva na infância, frequentemente assintomática além da perda auditiva.",
+    definicao:
+      "Presença de líquido na cavidade do ouvido médio sem sinais ou sintomas de infecção aguda, resultante de disfunção da tuba auditiva que compromete a ventilação e a drenagem normais dessa cavidade.",
+    epidemiologia:
+      "Extremamente comum em crianças pequenas, favorecida pela tuba auditiva mais curta, horizontalizada e com função muscular menos eficiente que a do adulto; frequentemente segue um episódio de otite média aguda ou de infecção de vias aéreas superiores, e a hipertrofia adenoideana é fator de risco relevante nessa faixa etária.",
+    fisiopatologia:
+      "A disfunção da tuba auditiva (por edema inflamatório secundário a infecção de vias aéreas superiores, alergia, ou hipertrofia adenoideana obstrutiva) compromete a ventilação normal do ouvido médio, gerando pressão negativa progressiva na cavidade timpânica. Essa pressão negativa favorece a transudação de líquido seroso da mucosa para dentro da cavidade, que se acumula na ausência de infecção bacteriana ativa.",
+    classificacao:
+      "Classificada quanto à duração em aguda (menos de 3 meses) e crônica (3 meses ou mais, quando o risco de impacto no desenvolvimento da fala e da linguagem em crianças pequenas se torna mais relevante e a intervenção cirúrgica passa a ser considerada).",
+    quadroClinico: [
+      "Hipoacusia condutiva leve a moderada, frequentemente o único sintoma, podendo passar despercebida em crianças pequenas até ser notada por atraso de fala/linguagem ou dificuldade escolar",
+      "Sensação de plenitude ou pressão auricular, quando o paciente é capaz de relatar",
+      "Ausência de dor, febre ou outros sinais de infecção aguda, distinguindo-a claramente da otite média aguda supurativa",
+      "Otoscopia revelando membrana timpânica opaca, retraída ou abaulada, por vezes com nível hidroaéreo ou bolhas visíveis através da membrana",
+    ],
+    diagnostico: [
+      "Diagnóstico predominantemente clínico pela otoscopia pneumática, evidenciando mobilidade reduzida da membrana timpânica à insuflação de ar (achado central para confirmar a presença de líquido)",
+      "Timpanometria confirma objetivamente a presença de líquido na cavidade do ouvido médio (curva do tipo B, plana), exame complementar útil quando disponível",
+      "Avaliação audiométrica em casos persistentes, para quantificar o grau de hipoacusia e orientar a decisão terapêutica",
+    ],
+    examesComplementares: [
+      "Timpanometria com curva tipo B (plana), indicando ausência de mobilidade da membrana timpânica compatível com efusão no ouvido médio",
+      "Audiometria demonstrando hipoacusia condutiva, geralmente leve a moderada, útil para documentar o impacto funcional e acompanhar a evolução",
+    ],
+    diagnosticoDiferencial: [
+      "Otite média aguda supurativa (presença de dor, febre e sinais inflamatórios agudos, ausentes na otite média serosa)",
+      "Colesteatoma e outras causas de retração timpânica crônica (distinguidas pela presença de debris epidermoides característicos à otoscopia)",
+      "Outras causas de hipoacusia condutiva na infância (malformações do ouvido médio, otosclerose — esta última rara nessa faixa etária)",
+    ],
+    tratamento: [
+      "Observação clínica por até 3 meses é a conduta apropriada na maioria dos casos, dado que a resolução espontânea é comum, sobretudo após resolução da infecção de vias aéreas superiores desencadeante",
+      "Tratamento de fatores predisponentes identificáveis, como rinite alérgica não controlada",
+      "Adenoidectomia, associada ou não à colocação de tubo de ventilação (tubo de miringotomia), é indicada em casos persistentes além de 3 meses com hipoacusia significativa, sobretudo quando há impacto no desenvolvimento de fala e linguagem",
+      "Antibióticos, anti-histamínicos e descongestionantes não têm eficácia comprovada para a resolução da efusão e não são recomendados rotineiramente",
+    ],
+    complicacoes: [
+      "Aguda: episódios recorrentes de otite média aguda supurativa sobre a efusão de base",
+      "Crônica: atraso de desenvolvimento de fala e linguagem em crianças pequenas quando a efusão persiste sem tratamento por período prolongado, retração timpânica progressiva com risco de evolução para colesteatoma em casos muito prolongados",
+    ],
+    redFlags: [
+      "Efusão persistente além de 3 meses associada a hipoacusia significativa exige avaliação para intervenção (tubo de ventilação, adenoidectomia), pelo risco de impacto no desenvolvimento de fala e linguagem em crianças pequenas",
+      "Efusão unilateral persistente e recorrente em adulto, sobretudo sem infecção de vias aéreas superiores recente, deve levantar suspeita de massa obstrutiva nasofaríngea (incluindo neoplasia) e motivar avaliação da nasofaringe",
+    ],
+    prognostico:
+      "A maioria dos episódios resolve espontaneamente dentro de 3 meses, sobretudo em crianças mais velhas e adultos. Casos persistentes tratados adequadamente com tubo de ventilação têm excelente resolução da hipoacusia associada.",
+    pontosDeProva: [
+      "A ausência de dor e febre distingue claramente a otite média serosa da otite média aguda supurativa, apesar de ambas envolverem líquido na cavidade do ouvido médio",
+      "Antibióticos não têm papel comprovado no tratamento da otite média serosa isolada, ao contrário da otite média aguda supurativa — distinção terapêutica frequentemente cobrada",
+      "Efusão unilateral persistente em adulto deve sempre motivar investigação da nasofaringe para excluir massa obstrutiva, incluindo neoplasia nasofaríngea",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menino, 4 anos, é levado à consulta pelos pais por dificuldade de acompanhar as conversas e pedir repetição frequente há 2 meses, sem febre ou dor auricular relatada, com história de resfriados frequentes.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Hipoacusia insidiosa sem dor ou febre em criança com infecções de vias aéreas superiores recorrentes é característica de otite média serosa por disfunção tubária recorrente.",
+      conduta:
+        "Realizar otoscopia pneumática e, se disponível, timpanometria para confirmar a efusão; como o quadro tem menos de 3 meses, indicar observação clínica com reavaliação programada antes de considerar intervenção cirúrgica.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso de eficácia comprovada para a otite média serosa; a conduta é observação ou intervenção cirúrgica (tubo de ventilação), conforme a persistência do quadro.",
+    fontes: [
+      { tema: "Fisiopatologia da disfunção tubária e classificação por duração", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Timpanometria com curva tipo B e indicação de tubo de ventilação após 3 meses", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "otite-media-aguda-supurativa",
+    nome: "Otite média aguda supurativa e crônica",
+    sinonimos: ["OMA", "Otite média aguda"],
+    cid10: "H66",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Bacteriana",
+    resumo: "Infecção bacteriana do ouvido médio, uma das infecções mais comuns na infância, causando dor auricular aguda e febre, com amoxicilina como tratamento de primeira linha.",
+    definicao:
+      "Infecção aguda da cavidade do ouvido médio, caracterizada por início rápido de sinais e sintomas de inflamação, com presença de efusão purulenta, mais comumente causada por Streptococcus pneumoniae, Haemophilus influenzae não tipável e Moraxella catarrhalis.",
+    epidemiologia:
+      "Uma das infecções bacterianas mais comuns na infância, com pico de incidência entre 6 e 24 meses de idade, favorecida pela anatomia da tuba auditiva na criança pequena (mais curta, horizontalizada e com função muscular menos eficiente que no adulto), o que compromete a drenagem e ventilação normais do ouvido médio.",
+    fisiopatologia:
+      "Uma infecção viral de vias aéreas superiores precedente causa edema da mucosa da tuba auditiva, comprometendo sua função de ventilação e drenagem. O acúmulo de secreção na cavidade do ouvido médio cria um meio favorável à proliferação bacteriana (por ascensão de bactérias da nasofaringe através da tuba auditiva disfuncional), gerando efusão purulenta sob pressão que causa a dor característica e pode levar à perfuração espontânea da membrana timpânica.",
+    classificacao:
+      "Classificada em aguda (episódio isolado com resolução completa) e crônica supurativa (otorreia persistente por mais de 2-6 semanas através de perfuração timpânica estabelecida, geralmente associada a dano estrutural mais extenso do ouvido médio).",
+    quadroClinico: [
+      "Dor auricular (otalgia) de início agudo, frequentemente intensa, em crianças pequenas manifestada por irritabilidade e choro, puxar a orelha",
+      "Febre, frequentemente presente mas não obrigatória para o diagnóstico",
+      "Otorreia purulenta quando ocorre perfuração espontânea da membrana timpânica, tipicamente acompanhada de alívio imediato da dor pela descompressão",
+      "Hipoacusia condutiva transitória associada",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado em otoscopia demonstrando abaulamento da membrana timpânica, eritema e opacidade, associado a início agudo de sinais/sintomas",
+      "Abaulamento da membrana timpânica é o achado otoscópico mais específico para o diagnóstico, mais confiável que o eritema isolado (que pode ocorrer com choro ou febre por outras causas)",
+      "Otorreia purulenta de início agudo em paciente sem tubo de ventilação prévio também confirma o diagnóstico, mesmo sem visualização completa da membrana",
+    ],
+    examesComplementares: [
+      "Otoscopia pneumática demonstrando mobilidade reduzida da membrana timpânica, achado de apoio quando o diagnóstico visual isolado é duvidoso",
+      "Cultura de secreção reservada a casos refratários ao tratamento empírico inicial ou com otorreia persistente através de tubo de ventilação",
+    ],
+    diagnosticoDiferencial: [
+      "Otite média serosa (ausência de sinais agudos de infecção, como dor intensa e febre)",
+      "Otite externa (dor exacerbada pela tração do pavilhão auricular, ausente ou menos proeminente na otite média)",
+      "Miringite bolhosa (bolhas na membrana timpânica, associada a dor intensa, por vezes de etiologia viral ou por Mycoplasma)",
+    ],
+    tratamento: [
+      "Amoxicilina em dose adequada é o antibiótico de primeira linha para a maioria dos casos, cobrindo os principais patógenos bacterianos envolvidos",
+      "Observação vigilante sem antibiótico imediato pode ser considerada em crianças mais velhas com sintomas leves e sem fatores de risco, com reavaliação em 48-72 horas se não houver melhora",
+      "Analgesia adequada (paracetamol ou ibuprofeno) para controle da dor, independentemente da decisão sobre antibioticoterapia",
+      "Amoxicilina com clavulanato ou outro antibiótico de segunda linha reservado a falha terapêutica, uso recente de antibiótico ou conjuntivite purulenta concomitante (sugerindo Haemophilus influenzae produtor de beta-lactamase)",
+      "Miringotomia (drenagem cirúrgica) considerada em casos de dor intensa refratária ou complicações supurativas",
+    ],
+    complicacoes: [
+      "Aguda: perfuração timpânica com otorreia, mastoidite aguda por extensão da infecção",
+      "Crônica: otite média crônica supurativa com perfuração persistente, colesteatoma secundário, perda auditiva condutiva permanente em casos recorrentes não tratados adequadamente",
+    ],
+    redFlags: [
+      "Edema, eritema e dor retroauricular associados à otite média aguda sugerem mastoidite aguda, complicação que exige investigação de imagem e tratamento intensivo imediato",
+      "Sinais de comprometimento do sistema nervoso central (cefaleia intensa, rigidez de nuca, alteração do nível de consciência) associados à otite média devem levantar suspeita de complicação intracraniana (meningite, abscesso), exigindo avaliação urgente",
+    ],
+    prognostico:
+      "Excelente prognóstico na maioria dos casos, com resolução completa dos sintomas em poucos dias com tratamento adequado; episódios recorrentes ou não tratados adequadamente aumentam o risco de complicações supurativas e de perda auditiva condutiva a longo prazo.",
+    pontosDeProva: [
+      "O abaulamento da membrana timpânica é o achado otoscópico mais específico para otite média aguda, mais confiável que o eritema isolado da membrana",
+      "A amoxicilina permanece o antibiótico de primeira linha apesar da resistência bacteriana crescente, pela sua eficácia mantida contra a maioria das cepas de Streptococcus pneumoniae quando usada em dose adequada",
+      "Conjuntivite purulenta concomitante à otite média sugere Haemophilus influenzae produtor de beta-lactamase, orientando a escolha de amoxicilina com clavulanato em vez de amoxicilina isolada",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menina, 18 meses, apresenta febre de 38,7°C e choro intenso associado a puxar a orelha direita repetidamente há 1 dia, sem outros sintomas respiratórios significativos.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Febre e irritabilidade com sinal comportamental de dor auricular (puxar a orelha) em lactente sugerem otite média aguda, devendo-se confirmar com otoscopia buscando abaulamento da membrana timpânica.",
+      conduta:
+        "Confirmar o diagnóstico pela otoscopia; dado a idade abaixo de 2 anos (fator de risco para complicações), iniciar amoxicilina em dose adequada associada a analgesia para controle da dor e da febre.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina", nome: "Amoxicilina" },
+    ],
+    fontes: [
+      { tema: "Fisiopatologia (disfunção tubária pós-viral) e principais agentes etiológicos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Amoxicilina como antibiótico de primeira linha e critérios de observação vigilante", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "disfuncao-tuba-auditiva",
+    nome: "Disfunção da tuba auditiva",
+    sinonimos: ["Disfunção tubária", "Obstrução da trompa de Eustáquio"],
+    cid10: "H68",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Comprometimento da abertura e fechamento normais da tuba auditiva, causando sensação de plenitude e estalidos auriculares, mecanismo fisiopatológico subjacente à maioria das demais doenças do ouvido médio.",
+    definicao:
+      "Comprometimento da função normal de ventilação e drenagem da tuba auditiva (trompa de Eustáquio), estrutura que conecta a cavidade do ouvido médio à nasofaringe e é responsável por equalizar a pressão entre o ouvido médio e o ambiente externo.",
+    epidemiologia:
+      "Extremamente comum em episódios de infecção de vias aéreas superiores e rinite alérgica, condições que causam edema da mucosa que reveste a tuba auditiva; também associada a mudanças rápidas de pressão ambiental (viagens aéreas, mergulho) e, em crianças, à hipertrofia adenoideana.",
+    fisiopatologia:
+      "A tuba auditiva normalmente se abre de forma intermitente (durante deglutição e bocejo) para equalizar a pressão do ouvido médio com a pressão atmosférica. Edema da mucosa tubária (por infecção viral, alergia, hipertrofia adenoideana) ou disfunção dos músculos responsáveis pela sua abertura comprometem essa ventilação, gerando pressão negativa progressiva na cavidade do ouvido médio, com sensação de plenitude auricular e, se prolongada, favorecendo o acúmulo de efusão serosa.",
+    classificacao:
+      "Classificada em obstrutiva (a forma mais comum, por edema inflamatório ou obstrução mecânica que impede a abertura adequada da tuba) e patente/aberta (menos comum, na qual a tuba permanece anormalmente aberta, causando autofonia incômoda, associada por vezes a perda de peso significativa).",
+    quadroClinico: [
+      "Sensação de plenitude ou pressão auricular, tipicamente bilateral quando de causa sistêmica (infecção viral, alergia)",
+      "Estalidos ou crepitação auricular ao deglutir ou bocejar",
+      "Hipoacusia leve e transitória, sobretudo perceptível durante mudanças de pressão ambiental",
+      "Na forma patente/aberta, autofonia (o paciente ouve a própria voz e respiração de forma amplificada e incômoda), com alívio característico ao deitar-se",
+    ],
+    diagnostico: [
+      "Diagnóstico predominantemente clínico baseado nos sintomas característicos e no contexto (infecção de vias aéreas superiores recente, viagem aérea, mergulho)",
+      "Otoscopia pode ser normal ou mostrar retração leve da membrana timpânica",
+      "Timpanometria auxilia na documentação objetiva da disfunção quando os sintomas são persistentes ou atípicos",
+    ],
+    examesComplementares: [
+      "Timpanometria demonstrando pressão negativa na cavidade do ouvido médio (curva tipo C), achado de apoio na disfunção obstrutiva persistente",
+      "Nasofibroscopia reservada a casos persistentes ou unilaterais em adultos, para avaliar obstrução mecânica na nasofaringe (incluindo hipertrofia adenoideana ou massa)",
+    ],
+    diagnosticoDiferencial: [
+      "Otite média serosa (efusão já estabelecida na cavidade do ouvido médio, representando uma progressão da disfunção tubária não resolvida)",
+      "Barotrauma agudo (contexto específico de mudança rápida de pressão, com dor mais intensa e por vezes hemotímpano)",
+      "Doença de Ménière e outras causas de plenitude auricular associada a vertigem, distinguidas pela ausência de sintomas vestibulares na disfunção tubária isolada",
+    ],
+    tratamento: [
+      "Tratamento da causa de base (descongestionante e anti-histamínico para rinite alérgica, tratamento da infecção viral de vias aéreas superiores subjacente) na forma obstrutiva",
+      "Manobras de equalização (manobra de Valsalva modificada, deglutição repetida) para promover a abertura ativa da tuba, sobretudo úteis durante mudanças de pressão ambiental",
+      "Adenoidectomia considerada em crianças com hipertrofia adenoideana obstrutiva e disfunção tubária recorrente",
+      "A forma patente/aberta geralmente não responde a descongestionantes e pode exigir manejo específico (hidratação, em casos associados a perda de peso significativa, ganho de peso), sendo menos comum e mais desafiadora terapeuticamente",
+    ],
+    complicacoes: [
+      "Aguda: barotrauma agudo em situações de mudança rápida de pressão sem equalização adequada",
+      "Crônica: progressão para otite média serosa persistente e retração timpânica crônica quando a disfunção obstrutiva não é resolvida",
+    ],
+    redFlags: [
+      "Disfunção tubária unilateral persistente em adulto, sem infecção de vias aéreas superiores recente, deve levantar suspeita de massa obstrutiva na nasofaringe e motivar avaliação com nasofibroscopia",
+    ],
+    prognostico:
+      "A forma obstrutiva associada a infecção viral autolimitada resolve-se espontaneamente na maioria dos casos em poucos dias a semanas, acompanhando a resolução da causa de base. A forma patente/aberta tende a ter curso mais crônico e resposta terapêutica mais limitada.",
+    pontosDeProva: [
+      "A disfunção tubária é o mecanismo fisiopatológico comum subjacente tanto à otite média serosa quanto a uma parcela das otites médias agudas, conceito central para entender a progressão dessas condições",
+      "A disfunção tubária unilateral persistente em adulto é sinal de alarme para massa obstrutiva na nasofaringe, incluindo neoplasia, e não deve ser atribuída precocemente apenas a alergia ou infecção viral",
+      "A forma patente/aberta da tuba auditiva causa autofonia com alívio característico ao deitar, achado que a distingue clinicamente da forma obstrutiva, muito mais comum",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 28 anos, relata sensação de ouvido 'tampado' e estalidos ao deglutir no ouvido esquerdo há 4 dias, no contexto de resfriado comum na semana anterior.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Sensação de plenitude auricular e estalidos à deglutição, no contexto recente de infecção viral de vias aéreas superiores, são característicos de disfunção tubária obstrutiva pós-viral.",
+      conduta:
+        "Orientar manobras de equalização (Valsalva modificada) e tratamento sintomático da infecção viral de base, com expectativa de resolução espontânea em poucos dias; reavaliar se os sintomas persistirem além de algumas semanas.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende da causa de base (descongestionante/anti-histamínico para rinite alérgica, manejo sintomático de infecção viral), sem um medicamento específico documentado no site para a disfunção tubária em si.",
+    fontes: [
+      { tema: "Fisiopatologia da ventilação tubária e classificação obstrutiva vs. patente", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Timpanometria com curva tipo C e indicação de adenoidectomia em crianças", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "mastoidite",
+    nome: "Mastoidite e afecções correlatas",
+    sinonimos: ["Mastoidite aguda"],
+    cid10: "H70",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Bacteriana",
+    resumo: "Infecção bacteriana das células mastóideas, complicação supurativa mais comum da otite média aguda não tratada ou tratada inadequadamente, causando dor e edema retroauriculares característicos.",
+    definicao:
+      "Infecção bacteriana do processo mastóideo do osso temporal, estrutura pneumatizada contígua à cavidade do ouvido médio, resultando quase sempre de extensão direta de uma otite média aguda não resolvida.",
+    epidemiologia:
+      "É a complicação intratemporal mais comum da otite média aguda, mais frequente em crianças pequenas, população em que a otite média aguda também é mais prevalente; sua incidência diminuiu substancialmente desde a introdução do tratamento antibiótico rotineiro da otite média aguda.",
+    fisiopatologia:
+      "As células mastóideas são pneumatizadas e comunicam-se diretamente com a cavidade do ouvido médio através do antro mastóideo; a infecção bacteriana da otite média aguda pode se estender diretamente a essa estrutura contígua, causando osteíte e acúmulo de material purulento sob a periósteo, que pode romper-se e causar abscesso subperiosteal com edema e deslocamento característico do pavilhão auricular.",
+    classificacao:
+      "Classificada em mastoidite aguda simples (inflamação das células mastóideas sem destruição óssea significativa) e mastoidite aguda com periostite/abscesso subperiosteal (extensão além do osso, com coleção purulenta sob o periósteo, forma mais grave e clinicamente mais evidente).",
+    quadroClinico: [
+      "Dor, edema e eritema na região retroauricular, achado característico e mais específico da condição",
+      "Deslocamento anteroinferior do pavilhão auricular quando há abscesso subperiosteal significativo",
+      "Febre, frequentemente alta, e comprometimento do estado geral",
+      "História recente ou concomitante de otite média aguda, com ou sem otorreia",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado nos achados característicos de dor, edema e eritema retroauriculares associados a otite média aguda concomitante ou recente",
+      "Tomografia computadorizada de osso temporal confirma o diagnóstico, demonstra opacificação das células mastóideas e permite avaliar extensão da doença (destruição óssea, abscesso subperiosteal, complicações intracranianas)",
+      "Cultura de secreção otológica ou de material de drenagem cirúrgica, quando disponível, para orientar a antibioticoterapia dirigida",
+    ],
+    examesComplementares: [
+      "Tomografia computadorizada de osso temporal com contraste é o exame de escolha para confirmar o diagnóstico e avaliar extensão, incluindo possíveis complicações intracranianas",
+      "Hemograma completo e proteína C-reativa como marcadores de gravidade da resposta inflamatória sistêmica",
+    ],
+    diagnosticoDiferencial: [
+      "Linfadenite retroauricular reativa (sem os achados de deslocamento do pavilhão auricular característicos da mastoidite verdadeira)",
+      "Otite externa com celulite do pavilhão auricular (a dor à tração do pavilhão auricular é proeminente, ao contrário da mastoidite)",
+      "Adenite pós-auricular por outras causas infecciosas locais ou sistêmicas",
+    ],
+    tratamento: [
+      "Antibioticoterapia intravenosa de amplo espectro é o tratamento inicial, cobrindo os patógenos típicos da otite média aguda além de possível resistência",
+      "Miringotomia com colocação de tubo de ventilação para drenagem da cavidade do ouvido médio e obtenção de material para cultura",
+      "Drenagem cirúrgica do abscesso subperiosteal quando presente",
+      "Mastoidectomia reservada a casos refratários ao tratamento clínico inicial, com destruição óssea extensa ou complicações intracranianas associadas",
+    ],
+    complicacoes: [
+      "Aguda: abscesso subperiosteal, paralisia do nervo facial por extensão da infecção, labirintite supurativa com perda auditiva e vertigem",
+      "Crônica: complicações intracranianas (meningite, abscesso cerebral, trombose do seio sigmoide) quando o tratamento é tardio ou inadequado, evolução para mastoidite crônica com colesteatoma secundário",
+    ],
+    redFlags: [
+      "Deslocamento do pavilhão auricular associado a edema retroauricular é sinal característico que confirma a suspeita de mastoidite com abscesso subperiosteal, exigindo investigação de imagem e tratamento urgentes",
+      "Sinais neurológicos (cefaleia intensa, rigidez de nuca, paralisia facial, alteração do nível de consciência) associados à mastoidite exigem investigação imediata de complicação intracraniana",
+    ],
+    prognostico:
+      "Com tratamento antibiótico e, quando indicado, cirúrgico precoce, o prognóstico é bom na maioria dos casos; o atraso no diagnóstico e tratamento aumenta significativamente o risco de complicações intracranianas graves.",
+    pontosDeProva: [
+      "O deslocamento anteroinferior do pavilhão auricular associado a edema retroauricular é o achado clínico mais específico e mais cobrado para o diagnóstico de mastoidite com abscesso subperiosteal",
+      "A mastoidite é a complicação intratemporal mais comum da otite média aguda, e sua incidência caiu substancialmente com o tratamento antibiótico rotineiro da otite média",
+      "A tomografia computadorizada de osso temporal é o exame de escolha para confirmar o diagnóstico e avaliar extensão, incluindo o risco de complicações intracranianas associadas",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menino, 3 anos, com otite média aguda tratada há 1 semana, retorna com febre alta, dor e edema atrás da orelha direita, associados a deslocamento do pavilhão auricular para frente.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "Edema retroauricular com deslocamento do pavilhão auricular, no contexto de otite média aguda recente, é o quadro clássico de mastoidite aguda com abscesso subperiosteal.",
+      conduta:
+        "Solicitar tomografia computadorizada de osso temporal com urgência para confirmar o diagnóstico e avaliar extensão; iniciar antibioticoterapia intravenosa de amplo espectro e encaminhar para avaliação de drenagem cirúrgica.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento inicial é antibioticoterapia intravenosa de amplo espectro associada a drenagem cirúrgica quando indicada; o esquema antibiótico específico ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia (extensão contígua da otite média) e classificação por gravidade", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Tomografia de osso temporal como exame de escolha e conduta cirúrgica", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "colesteatoma",
+    nome: "Colesteatoma do ouvido médio",
+    sinonimos: [],
+    cid10: "H71",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Idiopática",
+    resumo: "Crescimento de epitélio escamoso queratinizado dentro do ouvido médio, com comportamento localmente destrutivo por erosão óssea progressiva, exigindo remoção cirúrgica mesmo quando assintomático.",
+    definicao:
+      "Massa cística benigna, porém localmente destrutiva, composta por epitélio escamoso queratinizado que cresce de forma anômala dentro da cavidade do ouvido médio ou da mastoide, com capacidade progressiva de erosão óssea das estruturas adjacentes.",
+    epidemiologia:
+      "Pode ser congênito (presente ao nascimento, atrás de uma membrana timpânica intacta, mais raro) ou adquirido (a forma mais comum, geralmente secundária a disfunção tubária crônica ou otite média crônica com retração timpânica progressiva).",
+    fisiopatologia:
+      "Na forma adquirida, a disfunção tubária crônica e a pressão negativa persistente no ouvido médio causam retração progressiva de uma bolsa da membrana timpânica (mais comumente na pars flácida), que se aprofunda e passa a acumular debris de queratina esfoliada, incapazes de serem eliminados normalmente. O acúmulo progressivo dessa massa de queratina, associado a processo inflamatório crônico local, causa erosão óssea gradual dos ossículos e das estruturas adjacentes por liberação de enzimas líticas e pressão mecânica direta.",
+    classificacao:
+      "Classificado em congênito (massa branca perolada atrás de membrana timpânica intacta, sem história de otite média ou cirurgia prévia) e adquirido, este último subdividido conforme o local de origem da retração (pars flácida, mais comum, ou pars tensa).",
+    quadroClinico: [
+      "Otorreia crônica, tipicamente com odor fétido característico, resistente a tratamento tópico convencional",
+      "Hipoacusia condutiva progressiva, por erosão da cadeia ossicular",
+      "Sensação de plenitude auricular, por vezes com episódios de vertigem quando há erosão do labirinto ósseo",
+      "Ao exame otoscópico, retração da membrana timpânica com acúmulo de debris esbranquiçados característicos, ou perfuração marginal com tecido de granulação visível",
+    ],
+    diagnostico: [
+      "Diagnóstico pela otoscopia, identificando a retração característica com acúmulo de debris queratínicos ou massa esbranquiçada atrás da membrana timpânica",
+      "Tomografia computadorizada de osso temporal confirma a extensão da doença e a erosão óssea associada, exame essencial para planejamento cirúrgico",
+      "Ressonância magnética com sequências específicas (difusão) auxilia na diferenciação de colesteatoma residual/recidivado de tecido cicatricial pós-operatório",
+    ],
+    examesComplementares: [
+      "Tomografia computadorizada de osso temporal demonstrando opacificação da cavidade do ouvido médio/mastoide com possível erosão da cadeia ossicular, do tegmen ou do canal semicircular lateral",
+      "Audiometria para documentar o grau de hipoacusia condutiva associada",
+    ],
+    diagnosticoDiferencial: [
+      "Otite média crônica supurativa simples (sem a massa característica de debris queratínicos)",
+      "Timpanosclerose (placas calcificadas na membrana timpânica, sem o comportamento destrutivo do colesteatoma)",
+      "Tumor glômico e outras neoplasias do ouvido médio (massa vascularizada, distinguida por características de imagem e, quando necessário, biópsia)",
+    ],
+    tratamento: [
+      "Remoção cirúrgica completa é o único tratamento definitivo, mesmo em casos assintomáticos, dado o comportamento progressivamente destrutivo da lesão",
+      "A técnica cirúrgica (mastoidectomia com ou sem preservação da parede do conduto) é escolhida conforme a extensão da doença, com objetivo de erradicação completa e prevenção de recidiva",
+      "Reconstrução da cadeia ossicular (ossiculoplastia) considerada em um segundo tempo cirúrgico, após confirmação da erradicação completa do colesteatoma",
+      "Acompanhamento pós-operatório prolongado é necessário, dado o risco de colesteatoma residual ou recidivado",
+    ],
+    complicacoes: [
+      "Aguda: labirintite supurativa com vertigem e perda auditiva súbita, por erosão do labirinto ósseo",
+      "Crônica: paralisia do nervo facial por erosão do canal facial, perda auditiva condutiva permanente, complicações intracranianas (meningite, abscesso cerebral) por erosão do tegmen timpânico em casos avançados não tratados",
+    ],
+    redFlags: [
+      "Vertigem associada a colesteatoma sugere erosão do labirinto ósseo (fístula labiríntica), exigindo avaliação cirúrgica urgente para prevenir perda auditiva permanente e labirintite supurativa",
+      "Paralisia facial de início recente em paciente com colesteatoma conhecido é emergência que exige intervenção cirúrgica urgente",
+    ],
+    prognostico:
+      "Com remoção cirúrgica completa, o prognóstico é bom, embora o risco de recidiva torne o acompanhamento otológico prolongado necessário. Sem tratamento, o colesteatoma tem comportamento progressivamente destrutivo, podendo levar a complicações graves e irreversíveis.",
+    pontosDeProva: [
+      "O colesteatoma tem comportamento localmente destrutivo por erosão óssea progressiva, apesar de ser histologicamente benigno — distinção conceitual central e frequentemente cobrada",
+      "A remoção cirúrgica é indicada mesmo em casos assintomáticos, pelo comportamento destrutivo progressivo inerente à lesão",
+      "Otorreia crônica fétida resistente a tratamento tópico convencional deve sempre levantar suspeita de colesteatoma subjacente",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 45 anos, com otorreia fétida recorrente há 2 anos, resistente a tratamentos tópicos repetidos, associada a hipoacusia progressiva no ouvido direito.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "Otorreia crônica fétida resistente ao tratamento tópico, associada a hipoacusia progressiva, é altamente sugestiva de colesteatoma, exigindo confirmação otoscópica e de imagem antes do planejamento cirúrgico.",
+      conduta:
+        "Realizar otoscopia detalhada e tomografia computadorizada de osso temporal para confirmar o diagnóstico e avaliar extensão; encaminhar para remoção cirúrgica completa, dado o comportamento destrutivo progressivo da lesão.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento definitivo é exclusivamente cirúrgico (remoção completa do colesteatoma); não há tratamento medicamentoso capaz de resolver a lesão.",
+    fontes: [
+      { tema: "Fisiopatologia (retração da pars flácida e acúmulo de queratina) e classificação congênito vs. adquirido", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Indicação cirúrgica mesmo em casos assintomáticos e complicações por erosão óssea", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "perfuracao-timpanica",
+    nome: "Perfuração e outros transtornos da membrana do tímpano",
+    sinonimos: ["Perfuração timpânica", "Miringite"],
+    cid10: "H72",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Traumática",
+    resumo: "Descontinuidade da membrana timpânica, mais comumente por trauma direto ou secundária a otite média aguda, causando hipoacusia condutiva e risco de infecção ascendente do ouvido médio.",
+    definicao:
+      "Solução de continuidade na membrana timpânica, estrutura responsável por transmitir e amplificar as vibrações sonoras para a cadeia ossicular, podendo resultar de trauma direto, mudança abrupta de pressão (barotrauma) ou, mais comumente, de infecção do ouvido médio com extravasamento de pressão purulenta.",
+    epidemiologia:
+      "As causas mais comuns incluem perfuração espontânea durante otite média aguda (a mais frequente), trauma direto (introdução de objetos no conduto, incluindo cotonetes), barotrauma (mergulho, tapa na orelha, explosões) e, menos comumente, colocação e remoção de tubo de ventilação.",
+    fisiopatologia:
+      "Na perfuração por otite média aguda, o acúmulo de secreção purulenta sob pressão na cavidade do ouvido médio eventualmente rompe a membrana timpânica no seu ponto mais fino, com alívio imediato da pressão e da dor. Na perfuração traumática, a força mecânica direta ou a onda de pressão (barotrauma, explosão) rompe a membrana diretamente. A perda de continuidade compromete a transmissão eficiente das vibrações sonoras para a cadeia ossicular, causando hipoacusia condutiva proporcional ao tamanho da perfuração, e expõe a cavidade do ouvido médio ao ambiente externo, aumentando o risco de infecção ascendente.",
+    classificacao:
+      "Classificada por causa (traumática, infecciosa, iatrogênica) e por localização (central, quando não envolve a periferia da membrana, geralmente de melhor prognóstico de cicatrização espontânea; marginal, envolvendo a periferia, associada a maior risco de colesteatoma secundário).",
+    quadroClinico: [
+      "Dor auricular aguda no momento da perfuração, seguida frequentemente de alívio imediato quando a perfuração ocorre por rompimento de pressão purulenta (otite média)",
+      "Hipoacusia condutiva de instalação súbita, proporcional ao tamanho da perfuração",
+      "Otorreia (sanguinolenta se traumática, purulenta se infecciosa) nas primeiras horas a dias",
+      "Zumbido ocasional e, em perfurações por barotrauma intenso, vertigem transitória",
+    ],
+    diagnostico: [
+      "Diagnóstico pela otoscopia, visualizando diretamente a solução de continuidade na membrana timpânica",
+      "Avaliação audiométrica para documentar o grau de hipoacusia condutiva associada",
+      "História detalhada do mecanismo (trauma direto, barotrauma, infecção prévia) orienta o prognóstico de cicatrização espontânea e a necessidade de intervenção",
+    ],
+    examesComplementares: [
+      "Audiometria demonstrando hipoacusia condutiva, com magnitude proporcional ao tamanho e à localização da perfuração",
+      "Tomografia computadorizada reservada a casos de trauma significativo, para avaliar possível luxação da cadeia ossicular associada",
+    ],
+    diagnosticoDiferencial: [
+      "Otite média serosa com membrana timpânica intacta, mas retraída (sem verdadeira solução de continuidade)",
+      "Colesteatoma com perfuração marginal (presença de debris queratínicos associados diferencia de uma perfuração simples)",
+    ],
+    tratamento: [
+      "A maioria das perfurações traumáticas e por otite média aguda cicatriza espontaneamente dentro de algumas semanas, sendo a observação clínica a conduta inicial apropriada",
+      "Orientação para manter o ouvido seco (evitar entrada de água) durante o período de cicatrização, para prevenir infecção secundária",
+      "Antibiótico tópico indicado quando há otorreia purulenta ativa, tratando a infecção do ouvido médio subjacente",
+      "Timpanoplastia (reconstrução cirúrgica da membrana) indicada para perfurações persistentes além de 2-3 meses sem sinais de cicatrização espontânea, ou quando há hipoacusia significativa",
+    ],
+    complicacoes: [
+      "Aguda: infecção do ouvido médio por exposição direta ao ambiente externo através da perfuração",
+      "Crônica: perfuração persistente com otite média crônica supurativa recorrente, colesteatoma secundário em perfurações marginais não tratadas",
+    ],
+    redFlags: [
+      "Vertigem intensa ou paralisia facial associadas a trauma auricular com perfuração timpânica sugerem lesão mais extensa (luxação ossicular, lesão do nervo facial ou do labirinto), exigindo avaliação de imagem urgente",
+      "Irrigação do conduto auditivo e natação devem ser evitadas enquanto a perfuração não estiver cicatrizada, pelo risco de infecção ascendente do ouvido médio",
+    ],
+    prognostico:
+      "A maioria das perfurações, sobretudo as centrais e de tamanho pequeno a moderado, cicatriza espontaneamente em algumas semanas. Perfurações marginais, muito extensas ou persistentes além de alguns meses geralmente exigem correção cirúrgica, com boas taxas de sucesso.",
+    pontosDeProva: [
+      "A maioria das perfurações timpânicas cicatriza espontaneamente, e a conduta inicial na ausência de sinais de infecção ou complicação é a observação, não a intervenção imediata",
+      "Perfurações marginais têm maior risco de evoluir para colesteatoma secundário que as perfurações centrais, distinção anatômica com implicação prognóstica relevante",
+      "A entrada de água no conduto deve ser evitada durante a cicatrização, pelo risco de infecção ascendente através da perfuração ainda não fechada",
+    ],
+    casoClinico: {
+      vinheta:
+        "Adolescente, 15 anos, sofre um tapa na orelha esquerda durante uma briga e imediatamente relata dor intensa, zumbido e hipoacusia, sem sangramento significativo.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Trauma direto por barotrauma (tapa na orelha) seguido de dor aguda, zumbido e hipoacusia súbita é consistente com perfuração timpânica traumática.",
+      conduta:
+        "Confirmar o diagnóstico pela otoscopia; orientar manter o ouvido seco e evitar manipulação, com reavaliação programada para acompanhar a cicatrização espontânea, reservando timpanoplastia para perfuração persistente além de alguns meses.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "A maioria das perfurações é tratada com observação clínica; antibiótico tópico é usado apenas quando há otorreia purulenta ativa, e ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia e classificação por localização (central vs. marginal)", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Cicatrização espontânea como conduta inicial e indicação de timpanoplastia", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "timpanosclerose",
+    nome: "Outros transtornos do ouvido médio e da mastoide (timpanosclerose)",
+    sinonimos: ["Timpanosclerose", "Miringosclerose"],
+    cid10: "H74",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Degenerativa",
+    resumo: "Depósito de placas calcificadas na membrana timpânica e/ou na mucosa do ouvido médio, sequela de processos inflamatórios ou traumáticos prévios, geralmente sem repercussão auditiva significativa quando restrita à membrana.",
+    definicao:
+      "Processo cicatricial caracterizado pelo depósito de colágeno hialinizado e cálcio na lâmina própria da membrana timpânica (miringosclerose, forma mais comum e geralmente assintomática) ou na mucosa e nos ossículos do ouvido médio (timpanosclerose propriamente dita, com potencial de causar hipoacusia condutiva significativa por fixação da cadeia ossicular).",
+    epidemiologia:
+      "Ocorre como sequela tardia de episódios recorrentes ou prolongados de otite média aguda ou serosa, de perfurações timpânicas prévias, ou após a colocação de tubos de ventilação, refletindo um processo de cicatrização anômala do tecido inflamado repetidamente.",
+    fisiopatologia:
+      "Episódios inflamatórios repetidos ou prolongados na membrana timpânica e na mucosa do ouvido médio desencadeiam um processo de reparo tecidual anômalo, com depósito progressivo de colágeno hialinizado que posteriormente calcifica, formando placas esbranquiçadas endurecidas. Quando esse processo acomete apenas a membrana timpânica (miringosclerose), raramente compromete a função auditiva; quando envolve a mucosa do ouvido médio e os ossículos, pode fixá-los e restringir sua mobilidade, comprometendo a transmissão sonora.",
+    classificacao:
+      "Classificada por localização e extensão: miringosclerose (placas restritas à membrana timpânica, a forma mais comum e geralmente sem repercussão funcional) e timpanosclerose do ouvido médio (envolvimento da mucosa e/ou da cadeia ossicular, com potencial de causar hipoacusia condutiva significativa por fixação ossicular).",
+    quadroClinico: [
+      "Na miringosclerose isolada, geralmente assintomática, identificada como achado incidental ao exame otoscópico (placas esbranquiçadas, calcificadas, na membrana timpânica)",
+      "Na timpanosclerose com envolvimento do ouvido médio, hipoacusia condutiva progressiva, proporcional ao grau de fixação da cadeia ossicular",
+      "Ausência de dor ou sinais inflamatórios agudos, distinguindo-a de processos infecciosos ativos",
+    ],
+    diagnostico: [
+      "Diagnóstico pela otoscopia, identificando as placas esbranquiçadas características na membrana timpânica",
+      "Audiometria para documentar e quantificar a hipoacusia condutiva quando presente, orientando a necessidade de intervenção",
+      "Tomografia computadorizada de osso temporal reservada a casos com hipoacusia significativa, para avaliar a extensão do acometimento ossicular antes de eventual cirurgia",
+    ],
+    examesComplementares: [
+      "Audiometria com hipoacusia condutiva variável, ausente na miringosclerose isolada e presente proporcionalmente ao grau de fixação ossicular na timpanosclerose do ouvido médio",
+      "Tomografia computadorizada de osso temporal demonstrando calcificações na cadeia ossicular em casos com repercussão auditiva significativa",
+    ],
+    diagnosticoDiferencial: [
+      "Otosclerose (fixação do estribo por processo ósseo distinto, sem as placas calcificadas características visíveis na membrana timpânica)",
+      "Colesteatoma (massa de debris queratínicos com comportamento destrutivo, distinta das placas calcificadas estáveis da timpanosclerose)",
+    ],
+    tratamento: [
+      "A miringosclerose isolada, por ser geralmente assintomática, não requer tratamento específico além de acompanhamento",
+      "Aparelho auditivo é opção não cirúrgica para hipoacusia condutiva significativa por timpanosclerose do ouvido médio",
+      "Cirurgia (remoção das placas calcificadas com reconstrução ossicular) considerada em casos selecionados de hipoacusia significativa, embora com resultados funcionais variáveis pela friabilidade do tecido envolvido",
+    ],
+    complicacoes: [
+      "Crônica: hipoacusia condutiva permanente quando há fixação extensa da cadeia ossicular não corrigida",
+    ],
+    redFlags: [
+      "Hipoacusia condutiva de piora progressiva não deve ser atribuída automaticamente à timpanosclerose sem exame cuidadoso, pelo risco de mascarar colesteatoma ou otosclerose concomitantes, que exigem condutas distintas",
+    ],
+    prognostico:
+      "A miringosclerose isolada tem prognóstico excelente, sem impacto funcional. A timpanosclerose com envolvimento ossicular tem prognóstico mais variável, com resultados cirúrgicos menos previsíveis que em outras causas de hipoacusia condutiva, dada a friabilidade do tecido cicatricial calcificado.",
+    pontosDeProva: [
+      "A miringosclerose (placas na membrana timpânica) deve ser distinguida da timpanosclerose do ouvido médio (envolvimento ossicular) — apenas a segunda causa hipoacusia condutiva significativa",
+      "É uma sequela tardia de processos inflamatórios repetidos do ouvido médio (otites recorrentes, tubos de ventilação prévios), não uma condição infecciosa ativa",
+      "Os resultados cirúrgicos na timpanosclerose do ouvido médio são menos previsíveis que em outras causas de hipoacusia condutiva, pela friabilidade do tecido calcificado envolvido",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 32 anos, com história de otites de repetição na infância e uso de tubos de ventilação, apresenta placas esbranquiçadas na membrana timpânica ao exame de rotina, sem queixas auditivas.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "Placas calcificadas na membrana timpânica em paciente com história de otites recorrentes e tubos de ventilação prévios, sem repercussão auditiva, são características de miringosclerose, achado benigno e geralmente sem necessidade de intervenção.",
+      conduta:
+        "Tranquilizar a paciente quanto à benignidade do achado; solicitar audiometria apenas se houver queixa auditiva associada, e não indicar tratamento específico na ausência de hipoacusia.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso para a timpanosclerose; a conduta é observação (miringosclerose isolada) ou cirurgia/aparelho auditivo (timpanosclerose com hipoacusia significativa).",
+    fontes: [
+      { tema: "Fisiopatologia (depósito de colágeno hialinizado e calcificação) e distinção miringosclerose vs. timpanosclerose", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Resultados cirúrgicos variáveis pela friabilidade do tecido calcificado", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "otosclerose",
+    nome: "Otosclerose",
+    sinonimos: [],
+    cid10: "H80",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Genética",
+    resumo: "Remodelação óssea anômala da cápsula ótica que fixa progressivamente o estribo, causa hereditária comum de hipoacusia condutiva progressiva em adultos jovens, sem sinais de infecção associada.",
+    definicao:
+      "Distúrbio da homeostase óssea da cápsula ótica, de causa hereditária com penetrância variável, caracterizado por remodelação óssea anômala que mais comumente fixa a base do estribo na janela oval, comprometendo progressivamente a transmissão do som para o ouvido interno.",
+    epidemiologia:
+      "Mais comum em adultos jovens, com pico de manifestação entre 20-40 anos, e nítido predomínio no sexo feminino; a gravidez pode acelerar a progressão da hipoacusia em mulheres predispostas, sugerindo influência hormonal na atividade da doença. Herança autossômica dominante com penetrância incompleta é descrita em uma parcela significativa dos casos.",
+    fisiopatologia:
+      "Focos de remodelação óssea anômala (com fases alternadas de reabsorção e neoformação óssea desorganizada) se desenvolvem na cápsula ótica, mais comumente próximos à janela oval, progressivamente fixando a base do estribo e restringindo sua mobilidade normal. Essa fixação compromete a transmissão eficiente das vibrações sonoras da cadeia ossicular para a perilinfa do ouvido interno, causando hipoacusia condutiva progressiva; em fases avançadas, o processo pode envolver a cóclea, acrescentando um componente neurossensorial à perda auditiva.",
+    classificacao:
+      "Classificada quanto à extensão em otosclerose da janela oval (fenestral, a forma mais comum, restrita à fixação do estribo) e otosclerose coclear (envolvimento da cápsula ótica ao redor da cóclea, acrescentando componente neurossensorial à hipoacusia condutiva de base).",
+    quadroClinico: [
+      "Hipoacusia condutiva progressiva e bilateral na maioria dos casos, embora possa iniciar de forma assimétrica",
+      "Zumbido associado em uma parcela significativa dos pacientes",
+      "Ausência de dor, otorreia ou outros sinais de infecção, distinguindo-a claramente de causas infecciosas de hipoacusia condutiva",
+      "Paracusia de Willis: percepção paradoxal de ouvir melhor em ambientes ruidosos, achado clássico embora não universal",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico sugerido por hipoacusia condutiva progressiva em adulto jovem, sem história de otite ou trauma, com otoscopia tipicamente normal",
+      "Audiometria demonstrando hipoacusia condutiva, classicamente com um entalhe característico (entalhe de Carhart) na condução óssea em 2000 Hz",
+      "Tomografia computadorizada de osso temporal de alta resolução pode identificar os focos de remodelação óssea na cápsula ótica, confirmando o diagnóstico em casos de dúvida",
+    ],
+    examesComplementares: [
+      "Audiometria tonal com hipoacusia condutiva e o entalhe de Carhart característico na condução óssea em 2000 Hz, achado sugestivo embora não patognomônico",
+      "Timpanometria tipicamente normal (curva tipo A), com reflexo estapediano ausente ou com padrão bifásico característico (efeito on-off)",
+      "Tomografia computadorizada de osso temporal de alta resolução para identificação direta dos focos otoscleróticos em casos de diagnóstico incerto",
+    ],
+    diagnosticoDiferencial: [
+      "Timpanosclerose e outras causas de fixação ossicular adquirida (geralmente com história de otites recorrentes e achados otoscópicos de placas calcificadas)",
+      "Doença de Paget do osso temporal (rara, associada a outras manifestações esqueléticas sistêmicas)",
+      "Malformações congênitas da cadeia ossicular (identificadas desde a infância, geralmente com outras anomalias associadas)",
+    ],
+    tratamento: [
+      "Estapedectomia ou estapedotomia (substituição cirúrgica do estribo fixado por uma prótese móvel) é o tratamento definitivo, com excelentes taxas de melhora auditiva na maioria dos pacientes selecionados",
+      "Aparelho auditivo é alternativa não cirúrgica eficaz para pacientes que preferem evitar cirurgia ou não são candidatos a ela",
+      "Suplementação com flúor foi historicamente proposta para retardar a progressão da doença, com evidência limitada e uso hoje pouco frequente",
+    ],
+    complicacoes: [
+      "Aguda: perda auditiva neurossensorial súbita e vertigem, complicações raras mas possíveis da cirurgia de estapedectomia",
+      "Crônica: progressão para componente neurossensorial associado (otosclerose coclear) em casos avançados não tratados, hipoacusia condutiva bilateral significativa com impacto funcional e social relevante",
+    ],
+    redFlags: [
+      "Hipoacusia condutiva de início súbito ou associada a otorreia deve levantar suspeita de causa alternativa (infecção, colesteatoma), já que a otosclerose tem tipicamente curso lentamente progressivo e sem sinais inflamatórios",
+      "Vertigem ou piora auditiva súbita após estapedectomia exige avaliação urgente para excluir fístula perilinfática, complicação cirúrgica que requer intervenção imediata",
+    ],
+    prognostico:
+      "Com a estapedectomia, a maioria dos pacientes obtém melhora auditiva significativa e duradoura. Sem tratamento, a hipoacusia condutiva tende a progredir lentamente ao longo de décadas, podendo eventualmente acrescentar um componente neurossensorial nos casos com otosclerose coclear.",
+    pontosDeProva: [
+      "A paracusia de Willis (ouvir melhor em ambientes ruidosos) é achado clássico e frequentemente cobrado da otosclerose, embora nem sempre presente",
+      "O entalhe de Carhart na audiometria (rebaixamento da condução óssea em 2000 Hz) é achado característico associado à fixação do estribo, revertendo parcialmente após estapedectomia bem-sucedida",
+      "A gravidez pode acelerar a progressão da hipoacusia por otosclerose, sugerindo influência hormonal na atividade da remodelação óssea — associação clínica relevante para aconselhamento de pacientes",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 28 anos, grávida, relata piora progressiva da audição bilateral ao longo do último ano, sem dor ou otorreia, notando que ouve melhor em ambientes barulhentos.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a investigação inicial?",
+      raciocinio:
+        "Hipoacusia condutiva progressiva e bilateral em mulher jovem grávida, sem sinais infecciosos e com paracusia de Willis, é altamente sugestiva de otosclerose, condição cuja progressão pode ser acelerada pela gravidez.",
+      conduta:
+        "Solicitar audiometria tonal (buscando o entalhe de Carhart) e timpanometria com reflexo estapediano; confirmado o diagnóstico, discutir as opções de aparelho auditivo ou estapedectomia após o período gestacional.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento definitivo é cirúrgico (estapedectomia/estapedotomia) ou reabilitação auditiva com aparelho; não há tratamento medicamentoso eficaz estabelecido para deter a progressão da doença.",
+    fontes: [
+      { tema: "Fisiopatologia (remodelação óssea da cápsula ótica) e influência hormonal/gravidez", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Entalhe de Carhart e paracusia de Willis como achados característicos", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "transtornos-funcao-vestibular",
+    nome: "Transtornos da função vestibular",
+    sinonimos: ["Vertigem periférica", "Doença de Ménière", "VPPB", "Neurite vestibular"],
+    cid10: "H81",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Categoria que reúne as principais causas de vertigem de origem periférica (labiríntica), incluindo a vertigem posicional paroxística benigna, a doença de Ménière e a neurite vestibular, cada uma com fisiopatologia e conduta distintas.",
+    definicao:
+      "Categoria diagnóstica que reúne distúrbios do labirinto vestibular e do nervo vestibular responsáveis pela sensação ilusória de movimento (vertigem) de origem periférica, cujas três causas mais representativas são a vertigem posicional paroxística benigna (VPPB), a doença de Ménière e a neurite vestibular.",
+    epidemiologia:
+      "A VPPB é a causa mais comum de vertigem periférica em todas as faixas etárias, sobretudo em idosos. A doença de Ménière tipicamente acomete adultos entre 40-60 anos. A neurite vestibular frequentemente segue uma infecção viral de vias aéreas superiores, sem predileção etária marcante.",
+    fisiopatologia:
+      "Na VPPB, otólitos deslocados da mácula utricular migram para um dos canais semicirculares (mais comumente o posterior), onde seu deslocamento com a mudança de posição da cabeça estimula anomalamente as células ciliadas, gerando vertigem breve e intensa. Na doença de Ménière, acredita-se que a hidropisia endolinfática (acúmulo excessivo de endolinfa no labirinto membranoso) distenda as estruturas vestibulares e cocleares, causando episódios de vertigem associados a sintomas auditivos flutuantes. Na neurite vestibular, presume-se reativação de infecção viral latente (mais comumente do grupo herpes) causando inflamação do nervo vestibular, com vertigem intensa e contínua sem sintomas auditivos associados (distinguindo-a da labirintite, que acomete também a cóclea).",
+    classificacao:
+      "Classificada pelas três entidades clínicas principais: VPPB (episódios breves, desencadeados por mudança de posição da cabeça, sem sintomas auditivos), doença de Ménière (episódios espontâneos recorrentes associados à tríade de vertigem, hipoacusia flutuante e zumbido, por vezes com plenitude aural), e neurite vestibular (episódio único, intenso e contínuo, durando dias, sem sintomas auditivos).",
+    quadroClinico: [
+      "VPPB: episódios breves (segundos a menos de 1 minuto) de vertigem rotatória intensa desencadeados por mudanças específicas de posição da cabeça (virar na cama, olhar para cima), sem sintomas auditivos associados",
+      "Doença de Ménière: episódios espontâneos de vertigem rotatória durando minutos a horas, associados a hipoacusia neurossensorial flutuante, zumbido e sensação de plenitude aural, tipicamente unilateral",
+      "Neurite vestibular: vertigem intensa, contínua e incapacitante, durando dias, frequentemente acompanhada de náusea e vômitos importantes, sem hipoacusia ou zumbido associados, distinguindo-a da labirintite",
+      "Nistagmo característico durante os episódios agudos em todas as três condições, com padrões distintos que auxiliam na diferenciação",
+    ],
+    diagnostico: [
+      "Diagnóstico predominantemente clínico baseado no padrão temporal (duração e desencadeantes) e nos sintomas associados (presença ou ausência de sintomas auditivos)",
+      "Manobra de Dix-Hallpike é o teste diagnóstico específico para VPPB do canal posterior, reproduzindo a vertigem e o nistagmo característico com o reposicionamento da cabeça",
+      "Audiometria demonstrando hipoacusia neurossensorial flutuante de baixas frequências apoia o diagnóstico de doença de Ménière, sobretudo quando documentada em episódios distintos ao longo do tempo",
+    ],
+    examesComplementares: [
+      "Manobra de Dix-Hallpike positiva (vertigem e nistagmo torcional-vertical característico, com latência e fatigabilidade) confirma o diagnóstico de VPPB do canal posterior",
+      "Audiometria seriada demonstrando hipoacusia neurossensorial flutuante, tipicamente de baixas frequências nas fases iniciais, é característica da doença de Ménière",
+      "Videonistagmografia e testes calóricos auxiliam na avaliação da função vestibular em casos atípicos ou de diagnóstico incerto",
+    ],
+    diagnosticoDiferencial: [
+      "Vertigem central (acidente vascular cerebral de fossa posterior, esclerose múltipla), sugerida por sintomas neurológicos associados (diplopia, disartria, ataxia de tronco desproporcional à vertigem) e nistagmo de padrão atípico (vertical puro, não fatigável)",
+      "Labirintite (inflamação que acomete tanto o vestíbulo quanto a cóclea, causando vertigem associada a hipoacusia neurossensorial, diferente da neurite vestibular isolada)",
+      "Enxaqueca vestibular (episódios de vertigem associados a cefaleia ou história pessoal de enxaqueca, sem os achados otoscópicos ou audiométricos específicos das demais causas)",
+    ],
+    tratamento: [
+      "VPPB: manobra de reposicionamento canalicular (manobra de Epley) é o tratamento de primeira linha, com alta taxa de resolução em sessão única ou poucas sessões, sem necessidade de medicação",
+      "Doença de Ménière: restrição de sódio e diuréticos como primeira linha para reduzir a frequência dos episódios, com supressores vestibulares reservados ao controle sintomático agudo das crises",
+      "Neurite vestibular: corticosteroide sistêmico (prednisona) iniciado precocemente melhora a recuperação da função vestibular quando usado nas primeiras 72 horas do início dos sintomas; supressores vestibulares e antieméticos para controle sintomático na fase aguda",
+      "Reabilitação vestibular (exercícios de habituação e adaptação) é benéfica como terapia complementar em todas as três condições, sobretudo para promover a compensação central após a fase aguda",
+    ],
+    complicacoes: [
+      "Aguda: quedas e trauma associados a episódios intensos de vertigem, sobretudo em idosos com VPPB",
+      "Crônica: hipoacusia neurossensorial progressiva e irreversível na doença de Ménière não controlada, compensação vestibular incompleta após neurite vestibular grave, resultando em desequilíbrio residual crônico",
+    ],
+    redFlags: [
+      "Vertigem associada a sintomas neurológicos focais (diplopia, disartria, fraqueza, ataxia desproporcional) deve ser tratada como possível causa central (acidente vascular cerebral de fossa posterior) até prova em contrário, exigindo investigação de imagem urgente",
+      "Nistagmo vertical puro ou que não se fatiga com a manobra de Dix-Hallpike sugere causa central, não periférica, e deve motivar investigação neurológica",
+    ],
+    prognostico:
+      "A VPPB geralmente responde muito bem à manobra de reposicionamento, com resolução completa na maioria dos casos, embora recorrências sejam comuns. A doença de Ménière tem curso flutuante e imprevisível, com risco de hipoacusia progressiva a longo prazo. A neurite vestibular tem bom prognóstico geral, com recuperação completa ou quase completa da função vestibular na maioria dos pacientes, favorecida pelo tratamento precoce com corticosteroide e pela reabilitação vestibular.",
+    pontosDeProva: [
+      "A ausência de sintomas auditivos (hipoacusia, zumbido) distingue a neurite vestibular da labirintite, que acomete também a cóclea — distinção central e frequentemente cobrada",
+      "A manobra de Epley é tratamento eficaz e não medicamentoso de primeira linha para VPPB, com resolução frequentemente em uma única sessão",
+      "A tríade de vertigem episódica, hipoacusia flutuante e zumbido define a doença de Ménière, e a hidropisia endolinfática é o mecanismo fisiopatológico proposto central",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 68 anos, relata episódios breves de vertigem intensa ao virar-se na cama ou olhar para cima, com duração de poucos segundos, sem hipoacusia ou zumbido associados.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta terapêutica?",
+      raciocinio:
+        "Vertigem breve e posicional, desencadeada por mudanças específicas de posição da cabeça, sem sintomas auditivos, é o quadro clássico de vertigem posicional paroxística benigna.",
+      conduta:
+        "Confirmar o diagnóstico com a manobra de Dix-Hallpike, buscando reproduzir a vertigem e o nistagmo característico; tratar com a manobra de reposicionamento de Epley, tratamento de primeira linha altamente eficaz e não medicamentoso.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "prednisona", nome: "Prednisona" },
+    ],
+    medicamentosSecaoTitulo: "Específico para a neurite vestibular quando iniciado precocemente (não se aplica à VPPB ou à doença de Ménière)",
+    medicamentosNota:
+      "A prednisona melhora a recuperação vestibular especificamente na neurite vestibular, quando iniciada nas primeiras 72 horas — não é usada na VPPB (tratada com manobra de reposicionamento) nem como primeira linha na doença de Ménière (tratada com restrição de sódio e diuréticos, ainda sem ficha própria no site).",
+    fontes: [
+      { tema: "Fisiopatologia das três condições (canalitíase, hidropisia endolinfática, neurite viral) e critérios diagnósticos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Corticosteroide precoce na neurite vestibular e manobra de Epley na VPPB", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "outros-transtornos-ouvido-interno",
+    nome: "Outros transtornos do ouvido interno",
+    sinonimos: ["Labirintite", "Trauma acústico", "Ototoxicidade"],
+    cid10: "H83",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Categoria que reúne condições que acometem simultaneamente as funções auditiva e vestibular do ouvido interno, incluindo a labirintite infecciosa, o trauma acústico e a ototoxicidade medicamentosa.",
+    definicao:
+      "Categoria diagnóstica que reúne distúrbios do labirinto (porção do ouvido interno que contém tanto a cóclea, responsável pela audição, quanto o sistema vestibular, responsável pelo equilíbrio), causando comprometimento simultâneo de ambas as funções, diferentemente das condições vestibulares isoladas.",
+    epidemiologia:
+      "A labirintite viral é a causa infecciosa mais comum, geralmente após infecção de vias aéreas superiores. A labirintite bacteriana é mais rara, mas grave, geralmente secundária à extensão de otite média ou meningite. O trauma acústico está associado a exposição a ruído intenso (ocupacional, recreativo), e a ototoxicidade a fármacos específicos (aminoglicosídeos, diuréticos de alça em altas doses, salicilatos, quimioterápicos à base de platina).",
+    fisiopatologia:
+      "Na labirintite infecciosa, o processo inflamatório (viral, mais comumente, ou bacteriano por extensão direta de otite média/mastoidite ou por via hematogênica na meningite) acomete tanto a cóclea quanto o sistema vestibular dentro do labirinto membranoso, causando disfunção combinada. No trauma acústico, a exposição a níveis sonoros intensos causa dano mecânico e metabólico direto às células ciliadas cocleares, mais pronunciado nas frequências ao redor de 4000 Hz. Na ototoxicidade, fármacos específicos exercem efeito tóxico direto sobre as células ciliadas da cóclea e/ou do vestíbulo, por mecanismos que variam conforme a classe farmacológica.",
+    classificacao:
+      "Classificada etiologicamente em labirintite viral (a mais comum), labirintite bacteriana (supurativa, grave, geralmente secundária a otite média/mastoidite ou meningite), trauma acústico (agudo, por exposição a som de intensidade extrema, ou crônico, por exposição ocupacional prolongada) e ototoxicidade medicamentosa.",
+    quadroClinico: [
+      "Labirintite: vertigem intensa associada a hipoacusia neurossensorial e zumbido, achado combinado que a distingue da neurite vestibular isolada",
+      "Trauma acústico agudo: hipoacusia súbita e zumbido após exposição a som intenso (explosão, show, disparo de arma de fogo), por vezes com sensação de plenitude auricular",
+      "Trauma acústico crônico (ocupacional): hipoacusia neurossensorial progressiva e bilateral, tipicamente iniciando nas frequências ao redor de 4000 Hz, inicialmente assintomática para a compreensão de fala",
+      "Ototoxicidade: hipoacusia neurossensorial e/ou zumbido de instalação subaguda durante ou após o uso do fármaco causador, por vezes acompanhada de sintomas vestibulares (tontura, desequilíbrio)",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado no contexto (infecção recente, exposição a ruído, uso de fármaco ototóxico) associado a hipoacusia neurossensorial e/ou sintomas vestibulares",
+      "Audiometria documentando o padrão e a magnitude da hipoacusia neurossensorial, com o entalhe característico em 4000 Hz sendo sugestivo de trauma acústico",
+      "Monitorização audiométrica seriada durante o uso de fármacos ototóxicos conhecidos, para detecção precoce de ototoxicidade antes que se torne sintomática e irreversível",
+    ],
+    examesComplementares: [
+      "Audiometria tonal demonstrando hipoacusia neurossensorial, com entalhe característico em 4000 Hz no trauma acústico",
+      "Ressonância magnética de conduto auditivo interno reservada a casos de hipoacusia neurossensorial assimétrica ou unilateral inexplicada, para excluir schwannoma vestibular",
+      "Monitorização seriada da função renal e audiometria em pacientes recebendo fármacos ototóxicos (aminoglicosídeos, quimioterápicos à base de platina), para detecção precoce",
+    ],
+    diagnosticoDiferencial: [
+      "Neurite vestibular (vertigem isolada, sem comprometimento auditivo associado, distinguindo-a da labirintite)",
+      "Doença de Ménière (episódios recorrentes flutuantes, ao contrário do curso geralmente monofásico da labirintite aguda)",
+      "Schwannoma vestibular (hipoacusia neurossensorial assimétrica progressiva, geralmente sem o quadro agudo de vertigem intensa da labirintite)",
+    ],
+    tratamento: [
+      "Labirintite viral: tratamento sintomático com supressores vestibulares e antieméticos na fase aguda, com resolução geralmente espontânea",
+      "Labirintite bacteriana: antibioticoterapia sistêmica dirigida ao foco de origem (otite média/mastoidite ou meningite), frequentemente associada a intervenção cirúrgica quando há complicação supurativa",
+      "Trauma acústico: remoção imediata da fonte de exposição sonora; corticosteroide sistêmico em altas doses pode ser considerado nas primeiras horas após trauma acústico agudo grave, de forma análoga ao tratamento da perda auditiva neurossensorial súbita",
+      "Ototoxicidade: suspensão ou substituição do fármaco causador assim que identificada, medida mais importante para prevenir progressão do dano, que é frequentemente irreversível uma vez estabelecido",
+      "Prevenção com proteção auricular em exposições ocupacionais/recreativas a ruído intenso é a medida mais eficaz para o trauma acústico crônico",
+    ],
+    complicacoes: [
+      "Aguda: desequilíbrio e risco de queda durante a fase aguda da labirintite, sobretudo em idosos",
+      "Crônica: hipoacusia neurossensorial permanente, seja por labirintite grave, trauma acústico repetido não protegido ou ototoxicidade não identificada precocemente",
+    ],
+    redFlags: [
+      "Labirintite associada a sinais de infecção sistêmica grave (febre alta, rigidez de nuca, alteração do nível de consciência) sugere labirintite bacteriana secundária a meningite, exigindo investigação e tratamento imediatos",
+      "Hipoacusia neurossensorial de início súbito, uni ou bilateral, é emergência otológica que exige avaliação e tratamento dentro das primeiras 24-72 horas para maximizar a chance de recuperação, independentemente da causa suspeita",
+    ],
+    prognostico:
+      "A labirintite viral geralmente tem resolução completa da vertigem, embora a hipoacusia associada possa ser permanente em uma parcela dos casos. O trauma acústico e a ototoxicidade, uma vez estabelecidos, geralmente causam dano coclear irreversível, reforçando a importância da prevenção e da identificação precoce.",
+    pontosDeProva: [
+      "A presença de hipoacusia associada à vertigem distingue a labirintite da neurite vestibular isolada — distinção anatômica e clínica central, já que o labirinto compreende tanto a cóclea quanto o vestíbulo",
+      "O entalhe audiométrico característico em 4000 Hz é achado clássico do trauma acústico, seja agudo ou crônico ocupacional",
+      "A suspensão precoce do fármaco ototóxico é a intervenção mais importante na ototoxicidade, já que o dano coclear estabelecido é frequentemente irreversível",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 45 anos, operário de fábrica sem uso regular de protetor auricular, relata dificuldade progressiva para entender conversas em ambientes ruidosos e zumbido bilateral há vários meses.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "Hipoacusia progressiva e zumbido bilateral em trabalhador com exposição ocupacional prolongada a ruído, sem proteção auricular adequada, sugerem trauma acústico crônico.",
+      conduta:
+        "Solicitar audiometria tonal, esperando encontrar o entalhe característico em 4000 Hz; orientar uso obrigatório de proteção auricular para prevenir progressão adicional, já que o dano já estabelecido é geralmente irreversível.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende da causa específica (antibioticoterapia na labirintite bacteriana, suspensão do fármaco causador na ototoxicidade, corticosteroide em altas doses no trauma acústico agudo), sem um medicamento único documentado no site para esta categoria ampla.",
+    fontes: [
+      { tema: "Fisiopatologia (comprometimento combinado coclear e vestibular) e principais causas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Entalhe em 4000 Hz no trauma acústico e monitorização de fármacos ototóxicos", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "perda-auditiva",
+    nome: "Perda auditiva condutiva, neurossensorial e súbita",
+    sinonimos: ["Hipoacusia", "Surdez súbita", "Presbiacusia"],
+    cid10: "H90",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Redução da capacidade auditiva classificada em condutiva (problema na transmissão mecânica do som), neurossensorial (dano coclear ou do nervo auditivo) ou mista, com a perda auditiva neurossensorial súbita configurando emergência otológica.",
+    definicao:
+      "Redução da acuidade auditiva classificada, conforme o mecanismo subjacente, em condutiva (comprometimento da transmissão mecânica do som pelo conduto auditivo externo, membrana timpânica ou cadeia ossicular), neurossensorial (dano à cóclea ou ao nervo vestibulococlear) ou mista (combinação de ambos os mecanismos).",
+    epidemiologia:
+      "A presbiacusia (perda auditiva neurossensorial relacionada à idade) é a causa mais comum de hipoacusia em idosos, de instalação lenta e progressiva. A perda auditiva neurossensorial súbita, embora menos comum, é uma emergência otológica que acomete adultos de qualquer idade, com causa identificável em apenas uma minoria dos casos (a maioria é classificada como idiopática).",
+    fisiopatologia:
+      "A perda auditiva condutiva resulta de qualquer obstáculo mecânico à transmissão do som até a cóclea (cerume impactado, perfuração timpânica, otosclerose, efusão do ouvido médio). A perda auditiva neurossensorial resulta de dano às células ciliadas cocleares (presbiacusia, por senescência celular cumulativa; ototoxicidade; trauma acústico) ou ao nervo vestibulococlear (schwannoma vestibular). A perda auditiva neurossensorial súbita idiopática tem mecanismo debatido, com hipóteses incluindo infecção viral, isquemia coclear e processo autoimune, sem etiologia identificável na maioria dos casos.",
+    classificacao:
+      "Classificada pelo mecanismo (condutiva, neurossensorial, mista) e, quando neurossensorial, pela velocidade de instalação (gradual, como na presbiacusia, ou súbita, definida como perda de pelo menos 30 decibéis em três frequências consecutivas ao longo de até 72 horas).",
+    quadroClinico: [
+      "Perda auditiva condutiva: hipoacusia com preservação relativa da discriminação de fala quando o volume é adequadamente amplificado",
+      "Presbiacusia: hipoacusia neurossensorial bilateral, simétrica e lentamente progressiva, iniciando tipicamente pelas frequências agudas, com dificuldade characterísitca de discriminar fala em ambientes ruidosos antes de comprometer a audição de tons puros de forma perceptível",
+      "Perda auditiva neurossensorial súbita: hipoacusia unilateral de instalação rápida (minutos a poucos dias), frequentemente notada ao acordar ou ao usar o telefone, por vezes acompanhada de zumbido e/ou sensação de plenitude aural",
+      "Vertigem associada em uma parcela dos casos de perda súbita, sugerindo maior extensão do dano labiríntico e associada a pior prognóstico auditivo",
+    ],
+    diagnostico: [
+      "Audiometria tonal e vocal é o exame central para classificar o tipo, o grau e a configuração da perda auditiva",
+      "A perda auditiva neurossensorial súbita é definida por critério audiométrico específico (queda de pelo menos 30 decibéis em três frequências consecutivas em até 72 horas) e constitui emergência que exige avaliação e tratamento imediatos",
+      "Ressonância magnética de conduto auditivo interno indicada em toda perda auditiva neurossensorial assimétrica ou unilateral, incluindo a súbita, para excluir schwannoma vestibular",
+    ],
+    examesComplementares: [
+      "Audiometria tonal (via aérea e óssea) e vocal, exame central para diferenciar perda condutiva de neurossensorial pelo gap aéreo-ósseo",
+      "Ressonância magnética de conduto auditivo interno com contraste para excluir schwannoma vestibular em toda perda auditiva neurossensorial assimétrica",
+      "Investigação laboratorial dirigida (sorologias, marcadores autoimunes) em casos selecionados de perda súbita bilateral ou recorrente, sugestivos de causa autoimune",
+    ],
+    diagnosticoDiferencial: [
+      "Impactação de cerume e outras causas reversíveis de perda condutiva, sempre excluídas antes de assumir perda neurossensorial",
+      "Schwannoma vestibular (perda neurossensorial assimétrica progressiva, distinguida por ressonância magnética)",
+      "Doença de Ménière (perda neurossensorial flutuante associada a vertigem episódica e zumbido, distinta do padrão estável da presbiacusia ou do início súbito da perda súbita)",
+    ],
+    tratamento: [
+      "Perda auditiva condutiva: tratamento dirigido à causa de base (remoção de cerume, timpanoplastia, estapedectomia, conforme a etiologia específica)",
+      "Presbiacusia: aparelho auditivo é o tratamento de escolha, sem terapia capaz de reverter o dano coclear já estabelecido",
+      "Perda auditiva neurossensorial súbita: corticosteroide sistêmico em altas doses, iniciado o mais precocemente possível (idealmente dentro de 2 semanas do início dos sintomas), é o tratamento de primeira linha, podendo ser complementado por corticosteroide intratimpânico como resgate ou adjuvante",
+      "Implante coclear é opção para perda auditiva neurossensorial bilateral profunda não beneficiada por aparelho auditivo convencional",
+    ],
+    complicacoes: [
+      "Aguda: isolamento social e impacto psicológico agudo da perda auditiva súbita não tratada a tempo",
+      "Crônica: isolamento social, declínio cognitivo associado à hipoacusia não tratada em idosos, e comprometimento do desenvolvimento de fala e linguagem quando a perda ocorre na infância e não é identificada e tratada precocemente",
+    ],
+    redFlags: [
+      "Perda auditiva neurossensorial súbita é emergência otológica que exige avaliação e início de corticosteroide dentro de poucos dias do início dos sintomas, já que o atraso no tratamento reduz significativamente a chance de recuperação auditiva",
+      "Perda auditiva neurossensorial assimétrica ou unilateral progressiva deve sempre motivar investigação por ressonância magnética para excluir schwannoma vestibular",
+    ],
+    prognostico:
+      "A perda auditiva condutiva geralmente tem excelente prognóstico quando a causa de base é tratável. A presbiacusia tem curso progressivo e irreversível, mas bem manejável com aparelho auditivo. A perda auditiva neurossensorial súbita tem recuperação parcial ou completa em uma parcela dos pacientes tratados precocemente, mas prognóstico reservado quando o tratamento é tardio ou há vertigem associada.",
+    pontosDeProva: [
+      "A perda auditiva neurossensorial súbita é definida por critério audiométrico objetivo (queda de 30 dB em 3 frequências consecutivas em até 72 horas) e constitui emergência otológica com janela terapêutica limitada para o corticosteroide",
+      "Toda perda auditiva neurossensorial assimétrica ou unilateral exige investigação por ressonância magnética para excluir schwannoma vestibular, independentemente da velocidade de instalação",
+      "A presbiacusia tipicamente compromete primeiro a discriminação de fala em ambientes ruidosos antes de ser percebida como perda auditiva propriamente dita, achado prático relevante na anamnese",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 52 anos, acorda com hipoacusia importante no ouvido esquerdo e zumbido associado, sem dor, otorreia ou infecção de vias aéreas superiores recente.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "Hipoacusia neurossensorial unilateral de início súbito, sem outra causa evidente, é altamente sugestiva de perda auditiva neurossensorial súbita idiopática, condição que exige tratamento dentro de uma janela terapêutica limitada.",
+      conduta:
+        "Confirmar o critério audiométrico de perda súbita com urgência, iniciar corticosteroide sistêmico em altas doses o quanto antes, e solicitar ressonância magnética de conduto auditivo interno para excluir schwannoma vestibular.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento da perda auditiva neurossensorial súbita depende de corticosteroide sistêmico em altas doses, ainda sem ficha própria no site nesta apresentação/indicação específica; a presbiacusia e a perda condutiva não têm tratamento medicamentoso, dependendo de aparelho auditivo ou correção da causa de base.",
+    fontes: [
+      { tema: "Classificação (condutiva, neurossensorial, mista) e critério diagnóstico da perda súbita", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Corticosteroide sistêmico precoce na perda auditiva neurossensorial súbita", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "otalgia-secrecao-auditiva",
+    nome: "Otalgia e secreção auditiva",
+    sinonimos: ["Otalgia referida", "Otorreia"],
+    cid10: "H92",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Categoria sintomática que engloba dor auricular e secreção do conduto auditivo, cuja causa mais frequentemente é uma doença otológica primária identificável, mas que também pode representar dor referida de estruturas distantes.",
+    definicao:
+      "Categoria sintomática que reúne a otalgia (dor auricular), de origem primária (originada no próprio ouvido) ou referida (originada em estruturas distantes que compartilham inervação sensitiva com o ouvido), e a otorreia (secreção do conduto auditivo externo), sinais que frequentemente motivam consulta médica isoladamente antes de uma causa otológica específica ser identificada.",
+    epidemiologia:
+      "A otalgia primária, de causa otológica direta, é a mais comum e geralmente autoexplicativa ao exame otoscópico (otite externa, otite média). A otalgia referida ocorre pela rica inervação sensitiva compartilhada do ouvido com estruturas da cabeça e pescoço (nervos trigêmeo, facial, glossofaríngeo e vago), sendo mais desafiadora diagnosticamente por exigir a busca da causa fora do ouvido.",
+    fisiopatologia:
+      "A otalgia referida ocorre porque o ouvido compartilha inervação sensitiva com múltiplas estruturas da cabeça e pescoço através de quatro nervos cranianos distintos (trigêmeo, facial, glossofaríngeo e vago), de modo que processos patológicos em dentes, articulação temporomandibular, faringe, laringe ou até no tórax (via nervo vago) podem ser percebidos como dor no ouvido, apesar da ausência de doença otológica primária. A otorreia reflete a produção anormal de secreção pela mucosa do ouvido médio (quando há perfuração timpânica) ou pela pele do conduto auditivo externo (otite externa), geralmente em resposta a um processo infeccioso ou inflamatório.",
+    classificacao:
+      "Classificada quanto à origem da otalgia em primária (otológica direta) e referida ou secundária (originada em estrutura extra-otológica que compartilha inervação sensitiva com o ouvido), e a otorreia quanto à origem anatômica (conduto auditivo externo vs. ouvido médio através de perfuração timpânica) e ao aspecto (serosa, purulenta, sanguinolenta).",
+    quadroClinico: [
+      "Otalgia primária, tipicamente acompanhada de achados otoscópicos explicativos (eritema, edema, secreção, perfuração)",
+      "Otalgia referida, caracteristicamente com otoscopia normal, exigindo busca ativa da causa em estruturas vizinhas (exame dentário, avaliação da articulação temporomandibular, exame da orofaringe e da laringe)",
+      "Otorreia de aspecto e odor variáveis conforme a causa: serosa e inodora na otite externa leve, purulenta e fétida no colesteatoma, sanguinolenta no trauma",
+    ],
+    diagnostico: [
+      "Otoscopia cuidadosa é sempre o primeiro passo, para identificar ou excluir causa otológica primária explicativa dos sintomas",
+      "Quando a otoscopia é normal e a otalgia persiste, investigação sistemática das estruturas que compartilham inervação sensitiva com o ouvido (dentes, articulação temporomandibular, faringe, laringe) é necessária para identificar a causa referida",
+      "Nasofibroscopia ou laringoscopia indicada quando a investigação inicial não identifica causa, sobretudo em pacientes com fatores de risco para neoplasia de cabeça e pescoço (tabagismo, etilismo), pela possibilidade de otalgia referida ser manifestação inicial dessas neoplasias",
+    ],
+    examesComplementares: [
+      "Cultura de secreção otológica em casos de otorreia persistente ou refratária ao tratamento tópico inicial",
+      "Exame de imagem (tomografia computadorizada) reservado a casos de otalgia persistente sem causa identificada ao exame físico, sobretudo em pacientes de risco para neoplasia",
+    ],
+    diagnosticoDiferencial: [
+      "Disfunção da articulação temporomandibular (causa comum de otalgia referida, frequentemente associada a dor à palpação da articulação e história de bruxismo)",
+      "Neoplasia de cabeça e pescoço (causa importante de otalgia referida persistente em pacientes tabagistas/etilistas, não devendo ser esquecida em casos sem explicação otológica)",
+      "Faringite e amigdalite (podem cursar com otalgia referida via nervo glossofaríngeo)",
+    ],
+    tratamento: [
+      "Tratamento dirigido à causa identificada, otológica ou extra-otológica",
+      "Analgesia sintomática enquanto a causa de base é investigada e tratada",
+      "Investigação persistente e sistemática em casos de otalgia sem causa otológica evidente, nunca atribuindo o sintoma a causa inespecífica sem exclusão adequada de causas graves referidas, sobretudo em pacientes de risco",
+    ],
+    complicacoes: [
+      "Aguda: mascaramento de uma causa grave subjacente (neoplasia de cabeça e pescoço) quando a otalgia referida é atribuída precipitadamente a causa benigna sem investigação adequada",
+    ],
+    redFlags: [
+      "Otalgia persistente sem causa otológica identificável à otoscopia, sobretudo em paciente tabagista e/ou etilista, exige investigação ativa de neoplasia de cabeça e pescoço, incluindo nasofibroscopia/laringoscopia, antes de ser atribuída a causa benigna",
+      "Otorreia fétida persistente e resistente a tratamento tópico convencional deve levantar suspeita de colesteatoma subjacente",
+    ],
+    prognostico:
+      "O prognóstico depende inteiramente da causa identificada — excelente quando a causa é uma condição otológica benigna comum, e variável quando a otalgia referida representa manifestação inicial de uma neoplasia de cabeça e pescoço, situação em que o diagnóstico precoce é determinante para o desfecho.",
+    pontosDeProva: [
+      "A otalgia pode ser referida a partir de estruturas distantes que compartilham inervação sensitiva com o ouvido (via nervos trigêmeo, facial, glossofaríngeo e vago) — conceito anatômico central e frequentemente cobrado",
+      "Otalgia persistente com otoscopia normal em paciente tabagista/etilista deve sempre motivar investigação de neoplasia de cabeça e pescoço, não sendo aceitável atribuí-la a causa inespecífica sem essa exclusão",
+      "A disfunção da articulação temporomandibular é causa comum e frequentemente subdiagnosticada de otalgia referida",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 58 anos, tabagista de longa data, relata dor no ouvido direito há 1 mês, com otoscopia completamente normal, sem outros sintomas otológicos.",
+      pergunta: "Qual a conduta diagnóstica mais apropriada?",
+      raciocinio:
+        "Otalgia persistente com otoscopia normal em paciente tabagista de risco deve levantar preocupação com otalgia referida por neoplasia de cabeça e pescoço, exigindo investigação além do exame otológico isolado.",
+      conduta:
+        "Realizar exame completo de cabeça e pescoço, incluindo palpação cervical e avaliação da cavidade oral, e encaminhar para nasofibroscopia/laringoscopia caso não seja identificada causa evidente, dado o risco de neoplasia oculta nesse contexto de risco.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende inteiramente da causa identificada, otológica ou extra-otológica; não há medicamento específico para a otalgia/otorreia enquanto sintomas isolados.",
+    fontes: [
+      { tema: "Inervação sensitiva compartilhada do ouvido e mecanismo da otalgia referida", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Otalgia referida como manifestação inicial de neoplasia de cabeça e pescoço", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "zumbido-outros-transtornos-ouvido",
+    nome: "Outros transtornos do ouvido não classificados em outra parte (zumbido)",
+    sinonimos: ["Zumbido", "Tinnitus", "Acúfeno"],
+    cid10: "H93",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Idiopática",
+    resumo: "Percepção de som (zumbido) na ausência de estímulo sonoro externo correspondente, sintoma extremamente comum quase sempre associado a algum grau de disfunção do sistema auditivo, cuja causa precisa frequentemente não é identificada.",
+    definicao:
+      "Percepção consciente de som (zumbido ou acúfeno) na ausência de um estímulo sonoro externo correspondente, que pode ser subjetivo (percebido apenas pelo paciente, a grande maioria dos casos) ou, muito raramente, objetivo (audível também pelo examinador, geralmente de origem vascular ou muscular).",
+    epidemiologia:
+      "Extremamente comum na população geral, com prevalência aumentando com a idade e frequentemente associado a algum grau de perda auditiva subjacente, embora a associação nem sempre seja evidente para o paciente. Exposição prévia a ruído intenso é fator de risco bem estabelecido.",
+    fisiopatologia:
+      "O mecanismo exato permanece incompletamente compreendido, mas a hipótese mais aceita propõe que a perda de aferência auditiva normal (por dano coclear de qualquer causa) leva a uma reorganização anômala da atividade neural central nas vias auditivas, gerando atividade espontânea aumentada que é percebida como som mesmo na ausência de estímulo externo real — analogia frequentemente feita com o fenômeno de dor do membro fantasma.",
+    classificacao:
+      "Classificado em subjetivo (a grande maioria dos casos, percebido apenas pelo paciente, sem origem sonora real identificável) e objetivo (raro, com origem sonora real geralmente vascular — sopro venoso ou arterial — ou muscular — mioclonia palatina ou do músculo tensor do tímpano —, por vezes audível também ao exame do examinador).",
+    quadroClinico: [
+      "Percepção de som (zumbido contínuo, pulsátil, assobio, chiado) em um ou ambos os ouvidos, ou percebido de forma difusa na cabeça",
+      "Frequentemente associado a algum grau de hipoacusia, identificada ou não previamente pelo paciente",
+      "Impacto variável na qualidade de vida, desde incômodo mínimo até comprometimento significativo do sono, da concentração e do humor em casos mais intensos",
+      "Zumbido pulsátil sincrônico com o pulso sugere causa vascular subjacente, achado que muda significativamente a investigação necessária",
+    ],
+    diagnostico: [
+      "Anamnese detalhada sobre as características do zumbido (contínuo vs. pulsátil, uni ou bilateral, fatores de melhora/piora) orienta a investigação",
+      "Audiometria completa é indicada em todo paciente com zumbido, dada a forte associação com algum grau de hipoacusia subjacente, mesmo quando não percebida pelo paciente",
+      "Zumbido pulsátil, unilateral persistente ou associado a outros sintomas neurológicos exige investigação de imagem (ressonância magnética/angiorressonância) para excluir causas vasculares ou tumorais",
+    ],
+    examesComplementares: [
+      "Audiometria tonal completa, exame indicado em praticamente todo paciente com zumbido, frequentemente revelando hipoacusia neurossensorial associada, mesmo quando subjetivamente imperceptível",
+      "Ressonância magnética de conduto auditivo interno reservada a zumbido unilateral persistente, para excluir schwannoma vestibular",
+      "Angiorressonância ou angiotomografia indicada especificamente para zumbido pulsátil, para investigar causas vasculares (malformação arteriovenosa, estenose vascular, tumor glômico)",
+    ],
+    diagnosticoDiferencial: [
+      "Schwannoma vestibular (zumbido unilateral persistente associado a hipoacusia neurossensorial assimétrica progressiva)",
+      "Tumor glômico (zumbido pulsátil associado a massa retrotimpânica visível à otoscopia)",
+      "Ansiedade e transtornos do sono, que podem exacerbar a percepção subjetiva do zumbido sem serem sua causa primária",
+    ],
+    tratamento: [
+      "Tratamento da causa de base quando identificável (correção de hipoacusia com aparelho auditivo, tratamento de causa vascular específica no zumbido pulsátil)",
+      "Terapia de habituação sonora (geradores de ruído branco, aparelhos auditivos com função de mascaramento) para reduzir a percepção e o incômodo do zumbido subjetivo idiopático",
+      "Terapia cognitivo-comportamental é eficaz para reduzir o sofrimento psicológico associado ao zumbido crônico, mesmo quando o próprio zumbido não pode ser eliminado",
+      "Não há tratamento medicamentoso com eficácia consistentemente comprovada para eliminar o zumbido subjetivo idiopático",
+    ],
+    complicacoes: [
+      "Crônica: comprometimento significativo do sono, da concentração e do humor (incluindo depressão e ansiedade) em casos de zumbido intenso e persistente não adequadamente manejado",
+    ],
+    redFlags: [
+      "Zumbido pulsátil, sincrônico com o pulso, exige investigação vascular por imagem, pela possibilidade de causa tratável (malformação arteriovenosa, estenose vascular, tumor glômico)",
+      "Zumbido unilateral persistente associado a hipoacusia assimétrica exige investigação por ressonância magnética para excluir schwannoma vestibular",
+    ],
+    prognostico:
+      "O zumbido subjetivo idiopático tende a ser crônico, mas a maioria dos pacientes consegue reduzir significativamente seu impacto na qualidade de vida com terapia de habituação sonora e suporte psicológico, mesmo sem eliminação completa do sintoma. Quando há causa identificável e tratável (vascular, hipoacusia corrigível), o prognóstico é mais favorável.",
+    pontosDeProva: [
+      "O zumbido pulsátil, sincrônico com o pulso, é sinal de alarme que exige investigação vascular, diferente do zumbido contínuo comum associado a hipoacusia",
+      "A audiometria é indicada em praticamente todo paciente com zumbido, dada a forte associação com hipoacusia subjacente, mesmo quando o paciente não percebe perda auditiva",
+      "Não existe tratamento medicamentoso com eficácia comprovada para eliminar o zumbido subjetivo idiopático — o manejo é centrado em habituação sonora e suporte psicológico",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 60 anos, relata zumbido contínuo bilateral há 6 meses, incomodando principalmente à noite, sem histórico de exposição a ruído intenso ou uso de medicações ototóxicas.",
+      pergunta: "Qual a investigação inicial mais apropriada?",
+      raciocinio:
+        "Zumbido contínuo bilateral em paciente idosa, sem outros sinais de alarme, sugere associação com presbiacusia subjacente, devendo ser investigado antes de assumir causa idiopática isolada.",
+      conduta:
+        "Solicitar audiometria tonal completa para avaliar hipoacusia associada; se confirmada, considerar aparelho auditivo (que frequentemente melhora também a percepção do zumbido) e orientar sobre terapia de habituação sonora.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso com eficácia comprovada para o zumbido subjetivo idiopático; o manejo depende de terapia de habituação sonora, aparelho auditivo (quando há hipoacusia associada) e suporte psicológico.",
+    fontes: [
+      { tema: "Fisiopatologia (reorganização neural central após perda de aferência coclear) e classificação subjetivo vs. objetivo", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Investigação do zumbido pulsátil e papel da terapia de habituação sonora", fonte: "fonte pendente" },
+    ],
+  },
 ];
