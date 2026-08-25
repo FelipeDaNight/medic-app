@@ -44,8 +44,10 @@ function getSnapshot(): FavoriteEntry[] {
   return cache;
 }
 
+const EMPTY: FavoriteEntry[] = [];
+
 function getServerSnapshot(): FavoriteEntry[] {
-  return [];
+  return EMPTY;
 }
 
 export function isFavorite(entries: FavoriteEntry[], type: FavoriteType, slug: string): boolean {
