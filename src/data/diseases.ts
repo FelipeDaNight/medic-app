@@ -17996,4 +17996,926 @@ export const diseases: Disease[] = [
       { tema: "Escore de risco OMS/FIGO e esquemas quimioterápicos por estratificação de risco", fonte: "FIGO Cancer Report 2021, Gestational Trophoblastic Neoplasia" },
     ],
   },
+  {
+    slug: "gravidez-ectopica",
+    nome: "Gravidez ectópica",
+    sinonimos: ["Gestação ectópica", "Prenhez tubária"],
+    cid10: "O00",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Implantação do embrião fora da cavidade uterina, mais comumente na tuba uterina, principal causa de mortalidade materna no primeiro trimestre e emergência obstétrica que exige diagnóstico e conduta imediatos.",
+    definicao:
+      "Gestação implantada fora da cavidade endometrial normal, em mais de 90% dos casos na tuba uterina (gestação tubária), podendo mais raramente ocorrer no ovário, no colo uterino, na cicatriz de cesárea prévia ou na cavidade abdominal.",
+    epidemiologia:
+      "Acomete uma proporção relevante das gestações confirmadas, com principais fatores de risco incluindo doença inflamatória pélvica prévia (principal fator de risco identificável, por dano tubário cicatricial), cirurgia tubária prévia, gestação ectópica prévia, uso de dispositivo intrauterino e tratamentos de reprodução assistida.",
+    fisiopatologia:
+      "Dano estrutural ou funcional ao epitélio ciliado tubário (mais comumente sequela de doença inflamatória pélvica) retarda o transporte do embrião em direção à cavidade uterina, permitindo sua implantação na própria tuba; o crescimento gestacional progressivo em um órgão sem capacidade de distensão adequada leva a risco de rotura tubária, com hemorragia intraperitoneal potencialmente fatal.",
+    classificacao:
+      "Classificada pela localização em tubária (a grande maioria — ampular, ístmica, intersticial/cornual), ovariana, cervical, em cicatriz de cesárea prévia e abdominal; também classificada quanto à condição clínica em íntegra (não rota) e rota (com hemoperitônio e instabilidade hemodinâmica).",
+    quadroClinico: [
+      "Tríade clássica: atraso menstrual, dor pélvica unilateral e sangramento vaginal irregular, embora nem sempre todos os três elementos estejam presentes",
+      "Dor pélvica súbita e intensa associada a sinais de choque hipovolêmico (taquicardia, hipotensão) sugere rotura tubária, configurando emergência cirúrgica",
+      "Dor referida no ombro (sinal de Kehr), decorrente de irritação diafragmática por hemoperitônio, achado sugestivo de sangramento intraperitoneal significativo",
+    ],
+    diagnostico: [
+      "Beta-hCG sérico quantitativo associado à ultrassonografia transvaginal, combinação diagnóstica central: ausência de saco gestacional intrauterino com beta-hCG acima do limiar discriminatório é altamente sugestiva de gestação ectópica",
+      "Identificação de massa anexial com ou sem saco gestacional/embrião fora da cavidade uterina à ultrassonografia transvaginal, achado confirmatório quando presente",
+    ],
+    examesComplementares: [
+      "Dosagens seriadas de beta-hCG (a cada 48 horas) quando o diagnóstico inicial é incerto, dado que o incremento inadequado (ausência da duplicação esperada em gestação intrauterina viável) reforça a suspeita de gestação ectópica ou de gestação intrauterina não viável",
+      "Culdocentese ou avaliação de líquido livre pélvico à ultrassonografia como indicador indireto de hemoperitônio em paciente instável",
+    ],
+    diagnosticoDiferencial: [
+      "Aborto espontâneo em curso, distinguido pela localização intrauterina da gestação e pelo padrão de queda (não ausência de incremento) do beta-hCG",
+      "Torção anexial e cisto ovariano roto, causas de dor pélvica aguda que devem ser diferenciadas pela dosagem de beta-hCG (negativa nessas condições)",
+      "Apendicite aguda, especialmente quando a gestação ectópica acomete o lado direito",
+    ],
+    tratamento: [
+      "Metotrexato intramuscular (terapia médica), opção para gestação ectópica íntegra, hemodinamicamente estável, sem batimento cardíaco embrionário e com beta-hCG abaixo de determinado limiar, com seguimento seriado obrigatório do beta-hCG até negativação",
+      "Salpingectomia ou salpingostomia laparoscópica (tratamento cirúrgico), indicada em paciente instável, gestação ectópica rota, ou contraindicação/falha ao tratamento médico",
+      "Conduta expectante em casos muito selecionados, com beta-hCG baixo e em declínio espontâneo, sob vigilância rigorosa",
+    ],
+    complicacoes: [
+      "Aguda: rotura tubária com hemoperitônio maciço e choque hipovolêmico, principal causa de mortalidade materna no primeiro trimestre quando não tratada a tempo",
+      "Crônica: dano tubário adicional (na tuba acometida ou contralateral) aumentando o risco de infertilidade e de nova gestação ectópica em gestação futura",
+    ],
+    redFlags: [
+      "Toda mulher em idade reprodutiva com dor pélvica e/ou sangramento vaginal deve ter beta-hCG dosado, independentemente do relato de método contraceptivo em uso, dado o risco de gestação ectópica não suspeitada",
+      "Instabilidade hemodinâmica associada a dor pélvica aguda em mulher com beta-hCG positivo é emergência cirúrgica até prova em contrário",
+    ],
+    prognostico:
+      "Excelente quando diagnosticada precocemente e tratada adequadamente (médica ou cirurgicamente), mas potencialmente fatal quando não reconhecida antes da rotura tubária; o risco de recorrência em gestação futura e de infertilidade subsequente está diretamente relacionado ao grau de dano tubário acumulado.",
+    pontosDeProva: [
+      "Beta-hCG positivo com ausência de saco gestacional intrauterino identificável acima do limiar discriminatório é a chave diagnóstica central da gestação ectópica",
+      "Doença inflamatória pélvica prévia é o principal fator de risco identificável, por dano cicatricial ao epitélio tubário",
+      "Metotrexato é opção terapêutica válida apenas em paciente estável, sem batimento cardíaco embrionário e com beta-hCG abaixo do limiar estabelecido — fora desses critérios, o tratamento é cirúrgico",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 28 anos, com atraso menstrual de 6 semanas, relata dor pélvica súbita à direita e sangramento vaginal discreto. Beta-hCG sérico é positivo; ultrassonografia transvaginal não identifica saco gestacional intrauterino, mas mostra massa anexial direita.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "Beta-hCG positivo associado à ausência de saco gestacional intrauterino e presença de massa anexial é altamente sugestivo de gestação ectópica, devendo-se avaliar a estabilidade hemodinâmica para definir a via terapêutica.",
+      conduta:
+        "Avaliar sinais vitais e estabilidade hemodinâmica; se estável, sem batimento cardíaco embrionário e beta-hCG dentro do limiar, considerar metotrexato com seguimento seriado; se instável ou fora dos critérios, indicar tratamento cirúrgico (salpingectomia/salpingostomia).",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O metotrexato, tratamento médico de escolha em casos selecionados, ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia do dano tubário e classificação por localização", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Critérios para tratamento com metotrexato versus cirurgia", fonte: "ACOG Practice Bulletin No. 193, Tubal Ectopic Pregnancy, 2018" },
+    ],
+  },
+  {
+    slug: "aborto-espontaneo",
+    nome: "Aborto espontâneo",
+    sinonimos: ["Perda gestacional precoce", "Abortamento espontâneo"],
+    cid10: "O03",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Perda gestacional espontânea antes de 20-24 semanas, evento comum na prática obstétrica, cuja causa isolada mais frequente é a anomalia cromossômica embrionária, especialmente em perdas do primeiro trimestre.",
+    definicao:
+      "Perda gestacional espontânea ocorrendo antes de completar 20 a 24 semanas de gestação (conforme a definição adotada), classificada conforme o estágio clínico em ameaça de abortamento, aborto inevitável, aborto incompleto, aborto completo e aborto retido.",
+    epidemiologia:
+      "Evento comum, ocorrendo em uma proporção significativa de todas as gestações clinicamente reconhecidas, com a grande maioria concentrada no primeiro trimestre; a idade materna avançada é o principal fator de risco identificável, refletindo o aumento da taxa de aneuploidia oocitária com a idade.",
+    fisiopatologia:
+      "Anomalias cromossômicas embrionárias (mais comumente trissomias autossômicas) são a causa isolada mais comum, especialmente em perdas precoces do primeiro trimestre, decorrentes de erros na meiose durante a formação do óvulo; causas menos comuns incluem anomalias anatômicas uterinas, infecções, disfunções endócrinas e trombofilias.",
+    classificacao:
+      "Classificado clinicamente em ameaça de abortamento (sangramento com colo fechado e gestação viável), aborto inevitável (sangramento com colo aberto), aborto incompleto (expulsão parcial do conteúdo uterino), aborto completo (expulsão total) e aborto retido (óbito embrionário/fetal sem expulsão espontânea, identificado por ausência de batimentos cardíacos ao exame de imagem).",
+    quadroClinico: [
+      "Sangramento vaginal no primeiro trimestre, sintoma de apresentação mais comum, com gravidade e padrão variando conforme o estágio clínico",
+      "Cólica abdominal baixa associada ao sangramento na maioria dos casos sintomáticos",
+      "Ausência de sintomas até identificação incidental de óbito embrionário/fetal em ultrassonografia de rotina no aborto retido",
+      "Colo uterino fechado (ameaça de abortamento) ou aberto (aborto inevitável/incompleto) ao exame especular, achado que direciona a classificação clínica",
+    ],
+    diagnostico: [
+      "Ultrassonografia transvaginal, exame central para confirmação da localização e viabilidade da gestação, e para classificação do estágio clínico do abortamento",
+      "Beta-hCG sérico seriado quando o diagnóstico ultrassonográfico inicial é incerto, com padrão de declínio (em vez do incremento esperado) reforçando o diagnóstico",
+    ],
+    examesComplementares: [
+      "Tipagem sanguínea (fator Rh) em toda paciente com sangramento gestacional, para indicação de imunoglobulina anti-D quando Rh negativo",
+      "Cariótipo do produto conceptual em casos selecionados (particularmente quando há perda gestacional recorrente associada), para identificação de anomalia cromossômica",
+    ],
+    diagnosticoDiferencial: [
+      "Gestação ectópica, diagnóstico diferencial obrigatório de sangramento no primeiro trimestre, excluído pela localização intrauterina da gestação à ultrassonografia",
+      "Sangramento de implantação fisiológico, autolimitado e sem impacto na viabilidade gestacional, distinguido pela ausência de progressão e por ultrassonografia confirmando gestação viável",
+    ],
+    tratamento: [
+      "Conduta expectante, opção válida para aborto incompleto ou retido em paciente estável, permitindo expulsão espontânea do conteúdo uterino",
+      "Tratamento médico com misoprostol, alternativa não cirúrgica eficaz para completar o esvaziamento uterino",
+      "Aspiração manual intrauterina ou curetagem uterina (tratamento cirúrgico), indicada em sangramento significativo, instabilidade hemodinâmica, ou falha/preferência em relação às outras opções",
+      "Imunoglobulina anti-D em toda paciente Rh negativo, para prevenção de aloimunização em gestação futura",
+    ],
+    complicacoes: [
+      "Aguda: hemorragia significativa em aborto incompleto não tratado, infecção (aborto séptico) quando há retenção prolongada de restos ovulares",
+      "Crônica: impacto psicológico significativo (luto gestacional), e, quando recorrente, investigação etiológica sistemática (ver ficha de abortamento habitual)",
+    ],
+    redFlags: [
+      "Sinais de infecção (febre, secreção fétida, dor pélvica importante) associados a abortamento em curso caracterizam aborto séptico, emergência que exige antibioticoterapia e esvaziamento uterino imediatos",
+      "Sangramento volumoso com instabilidade hemodinâmica exige esvaziamento uterino de urgência independentemente da preferência inicial por conduta expectante",
+    ],
+    prognostico:
+      "Excelente para a saúde reprodutiva futura na maioria dos casos de evento único e isolado, sem necessidade de investigação etiológica extensa; o prognóstico para gestação subsequente permanece favorável mesmo após o evento, refletindo a natureza predominantemente esporádica (não recorrente) da maioria dos casos.",
+    pontosDeProva: [
+      "Anomalias cromossômicas embrionárias (trissomias autossômicas) são a causa isolada mais comum de aborto espontâneo, especialmente no primeiro trimestre",
+      "Investigação etiológica sistemática só é indicada após duas ou mais perdas (ver ficha de abortamento habitual), não após um evento único",
+      "Imunoglobulina anti-D deve ser administrada em toda paciente Rh negativo com sangramento gestacional, independentemente do estágio clínico do abortamento",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 30 anos, com 8 semanas de gestação confirmada, apresenta sangramento vaginal leve e cólica abdominal discreta. Ultrassonografia transvaginal confirma gestação intrauterina com batimentos cardíacos embrionários presentes; colo uterino fechado ao exame especular.",
+      pergunta: "Qual o diagnóstico e a conduta apropriada?",
+      raciocinio:
+        "Sangramento com gestação intrauterina viável confirmada (batimentos cardíacos presentes) e colo fechado caracteriza ameaça de abortamento, quadro com prognóstico favorável na maioria dos casos.",
+      conduta:
+        "Orientar repouso relativo e acompanhamento clínico/ultrassonográfico seriado; verificar tipagem sanguínea Rh e administrar imunoglobulina anti-D se Rh negativo.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O misoprostol (tratamento médico) e a imunoglobulina anti-D (profilaxia de aloimunização) ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Classificação clínica por estágio e papel central das anomalias cromossômicas", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Opções de manejo (expectante, médico, cirúrgico) e indicação de imunoglobulina anti-D", fonte: "ACOG Practice Bulletin No. 200, Early Pregnancy Loss, 2018" },
+    ],
+  },
+  {
+    slug: "pre-eclampsia",
+    nome: "Hipertensão gestacional com proteinúria (pré-eclâmpsia)",
+    sinonimos: ["Pré-eclâmpsia", "Toxemia gravídica"],
+    cid10: "O14",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Síndrome multissistêmica específica da gestação, caracterizada por hipertensão de início após 20 semanas associada a disfunção de órgão-alvo, decorrente de placentação anormal, com potencial evolução para eclâmpsia e complicações graves maternas e fetais.",
+    definicao:
+      "Síndrome hipertensiva específica da gestação, definida por pressão arterial ≥140/90 mmHg de início após 20 semanas de gestação, associada a proteinúria significativa ou, na ausência desta, a evidência de disfunção de órgão-alvo (renal, hepática, neurológica, hematológica) ou restrição de crescimento fetal.",
+    epidemiologia:
+      "Complica uma proporção relevante das gestações, sendo mais comum em nulíparas, gestações múltiplas, obesidade, hipertensão crônica preexistente, diabetes preexistente, síndrome do anticorpo antifosfolípide e história de pré-eclâmpsia em gestação anterior.",
+    fisiopatologia:
+      "Decorre de invasão trofoblástica anormal e superficial das artérias espiraladas uterinas no início da gestação, resultando em placentação deficiente e hipoperfusão placentária relativa; a placenta disfuncional libera fatores antiangiogênicos (como sFlt-1) na circulação materna, causando disfunção endotelial sistêmica generalizada, que explica a natureza multissistêmica da síndrome (hipertensão, proteinúria, disfunção hepática, trombocitopenia, sintomas neurológicos).",
+    classificacao:
+      "Classificada em pré-eclâmpsia sem sinais de gravidade e pré-eclâmpsia com sinais de gravidade (pressão arterial ≥160/110 mmHg, trombocitopenia, disfunção hepática, insuficiência renal, edema pulmonar, sintomas neurológicos ou visuais); a síndrome HELLP (hemólise, elevação de enzimas hepáticas, plaquetopenia) é considerada uma variante grave do espectro.",
+    quadroClinico: [
+      "Hipertensão de início após 20 semanas de gestação, achado central e definidor, frequentemente assintomática na sua detecção inicial",
+      "Cefaleia persistente e refratária, alterações visuais (escotomas, visão turva) e dor epigástrica/em hipocôndrio direito, sintomas que caracterizam sinais de gravidade",
+      "Edema significativo e de instalação rápida, achado inespecífico mas frequentemente associado",
+      "Hiper-reflexia, achado ao exame físico que reforça envolvimento neurológico e risco de progressão para eclâmpsia",
+    ],
+    diagnostico: [
+      "Aferição de pressão arterial seriada confirmando hipertensão de início após 20 semanas, associada a proteinúria (relação proteína/creatinina urinária ou proteinúria de 24 horas) ou evidência de disfunção de órgão-alvo",
+      "Avaliação laboratorial completa (hemograma com plaquetas, função hepática e renal) para identificação de sinais de gravidade e da síndrome HELLP",
+    ],
+    examesComplementares: [
+      "Relação sFlt-1/PlGF, biomarcador emergente que auxilia na predição de progressão da doença em contextos clínicos selecionados",
+      "Ultrassonografia obstétrica com Doppler para avaliação do crescimento fetal e da função placentária, dado o risco de restrição de crescimento fetal associado",
+    ],
+    diagnosticoDiferencial: [
+      "Hipertensão gestacional isolada (sem proteinúria ou disfunção de órgão-alvo), distinguida pela ausência desses critérios adicionais",
+      "Hipertensão arterial crônica preexistente, distinguida pelo início da hipertensão antes da gestação ou antes de 20 semanas",
+      "Púrpura trombocitopênica trombótica e síndrome hemolítico-urêmica, diagnósticos diferenciais da síndrome HELLP em casos de apresentação atípica",
+    ],
+    tratamento: [
+      "Sulfato de magnésio, tratamento de escolha para profilaxia e tratamento de convulsões eclâmpticas em pré-eclâmpsia com sinais de gravidade",
+      "Anti-hipertensivos (como labetalol, nifedipina ou hidralazina) para controle da pressão arterial, especialmente em crise hipertensiva",
+      "Interrupção da gestação (parto), único tratamento definitivo e curativo da pré-eclâmpsia, com o momento determinado pelo equilíbrio entre gravidade materna e maturidade fetal",
+      "Corticosteroide antenatal para maturação pulmonar fetal quando o parto pré-termo é antecipado",
+    ],
+    complicacoes: [
+      "Aguda: eclâmpsia (convulsões), síndrome HELLP, edema agudo de pulmão, insuficiência renal aguda, descolamento prematuro de placenta",
+      "Crônica: risco cardiovascular materno aumentado a longo prazo mesmo após resolução do quadro gestacional, e restrição de crescimento fetal com impacto neonatal",
+    ],
+    redFlags: [
+      "Cefaleia refratária, alterações visuais ou dor epigástrica em gestante hipertensa são sinais de gravidade que exigem avaliação e conduta imediatas, dado o risco iminente de eclâmpsia",
+      "Pressão arterial ≥160/110 mmHg constitui emergência hipertensiva na gestação, exigindo tratamento anti-hipertensivo imediato para prevenção de complicações maternas graves",
+    ],
+    prognostico:
+      "Variável conforme a gravidade e a idade gestacional ao diagnóstico; a resolução completa ocorre tipicamente após o parto, embora o risco cardiovascular materno permaneça elevado a longo prazo, justificando acompanhamento cardiovascular preventivo após o evento.",
+    pontosDeProva: [
+      "A placentação anormal com invasão trofoblástica superficial das artérias espiraladas é o evento fisiopatológico inicial, seguido pela liberação de fatores antiangiogênicos causando disfunção endotelial sistêmica",
+      "O parto é o único tratamento definitivo e curativo da pré-eclâmpsia — todo o restante do manejo é de suporte até que o parto seja possível/indicado",
+      "Sulfato de magnésio é o tratamento de escolha para profilaxia e tratamento de convulsões eclâmpticas, não sendo primariamente um anti-hipertensivo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 32 anos, 34 semanas, apresenta pressão arterial de 168/112 mmHg em duas aferições, associada a cefaleia intensa e escotomas visuais. Proteinúria significativa confirmada.",
+      pergunta: "Qual a conduta imediata diante desse quadro?",
+      raciocinio:
+        "Pressão arterial em nível de emergência hipertensiva associada a sinais de gravidade neurológicos/visuais caracteriza pré-eclâmpsia com sinais de gravidade, com risco iminente de eclâmpsia, exigindo tratamento imediato.",
+      conduta:
+        "Iniciar sulfato de magnésio para profilaxia de convulsões e anti-hipertensivo para controle da crise hipertensiva; avaliar via e momento do parto, considerando a idade gestacional e a gravidade materna.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O sulfato de magnésio e os anti-hipertensivos específicos para uso gestacional (labetalol, nifedipina, hidralazina) ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Fisiopatologia da placentação anormal e liberação de fatores antiangiogênicos", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Classificação por sinais de gravidade e indicações de sulfato de magnésio", fonte: "ACOG Practice Bulletin No. 222, Gestational Hypertension and Preeclampsia, 2020" },
+    ],
+  },
+  {
+    slug: "eclampsia",
+    nome: "Eclâmpsia",
+    sinonimos: ["Convulsão eclâmptica"],
+    cid10: "O15",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Ocorrência de convulsões tônico-clônicas generalizadas em gestante com pré-eclâmpsia, não atribuíveis a outra causa, representando emergência obstétrica com risco significativo de morbimortalidade materna e fetal.",
+    definicao:
+      "Complicação convulsiva da pré-eclâmpsia, definida pela ocorrência de crise convulsiva tônico-clônica generalizada (ou coma) em gestante ou puérpera com pré-eclâmpsia, na ausência de outra condição neurológica que explique o evento.",
+    epidemiologia:
+      "Complicação relativamente rara, mas potencialmente fatal, da pré-eclâmpsia, podendo ocorrer no período anteparto, intraparto ou até 6 semanas pós-parto (mais comumente nas primeiras 48 horas pós-parto quando ocorre nesse período); o risco é maior em pré-eclâmpsia com sinais de gravidade não tratada adequadamente.",
+    fisiopatologia:
+      "Decorre da mesma disfunção endotelial sistêmica da pré-eclâmpsia, afetando especificamente a circulação cerebral, com perda da autorregulação do fluxo sanguíneo cerebral, vasoespasmo e edema cerebral (frequentemente com padrão de encefalopatia posterior reversível identificável em exames de imagem), resultando na atividade convulsiva.",
+    classificacao:
+      "Classificada temporalmente em anteparto, intraparto e pós-parto (esta última subdividida em precoce, dentro de 48 horas, e tardia, além desse período), sendo a forma pós-parto precoce a mais comum quando o evento ocorre após o parto.",
+    quadroClinico: [
+      "Crise convulsiva tônico-clônica generalizada, achado definidor, podendo ser precedida por sinais premonitórios (cefaleia intensa, alterações visuais, dor epigástrica) ou ocorrer sem aviso prévio",
+      "Confusão mental ou coma pós-ictal, com duração variável",
+      "Sinais de pré-eclâmpsia associados (hipertensão, proteinúria) na maioria dos casos, embora uma minoria possa apresentar convulsão como manifestação inicial sem hipertensão previamente identificada",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico, pela ocorrência de convulsão em gestante/puérpera com pré-eclâmpsia (ou critérios compatíveis), após exclusão de outras causas neurológicas de convulsão",
+      "Avaliação laboratorial e de imagem direcionada para exclusão de diagnósticos diferenciais e para avaliação de gravidade/complicações associadas",
+    ],
+    examesComplementares: [
+      "Ressonância magnética ou tomografia de crânio quando há dúvida diagnóstica, déficit neurológico focal, ou convulsão atípica/refratária, para exclusão de hemorragia intracraniana ou outras causas estruturais",
+      "Avaliação laboratorial completa (função hepática, renal, hemograma com plaquetas) para identificação de síndrome HELLP associada",
+    ],
+    diagnosticoDiferencial: [
+      "Epilepsia preexistente ou de novo diagnóstico, distinguida pela ausência de critérios de pré-eclâmpsia associados",
+      "Hemorragia intracraniana e trombose venosa cerebral, diagnósticos diferenciais que exigem exame de imagem para exclusão, especialmente em convulsão atípica ou com déficit focal associado",
+      "Púrpura trombocitopênica trombótica, que pode cursar com sintomas neurológicos e trombocitopenia mimetizando síndrome HELLP",
+    ],
+    tratamento: [
+      "Sulfato de magnésio intravenoso, tratamento de escolha tanto para cessação da crise convulsiva em curso quanto para profilaxia de recorrência",
+      "Controle da pressão arterial com anti-hipertensivos quando há crise hipertensiva associada",
+      "Interrupção da gestação (parto) após estabilização materna, indicada independentemente da idade gestacional, dado que a eclâmpsia representa indicação de resolução da gestação",
+    ],
+    complicacoes: [
+      "Aguda: aspiração pulmonar durante a crise convulsiva, hemorragia intracraniana, insuficiência respiratória, descolamento prematuro de placenta, óbito materno e/ou fetal",
+      "Crônica: sequelas neurológicas em casos com hemorragia intracraniana associada, embora a maioria das pacientes recupere-se completamente após o evento",
+    ],
+    redFlags: [
+      "Toda convulsão em gestante ou puérpera deve ser considerada eclâmpsia até prova em contrário, independentemente de hipertensão previamente conhecida ou não",
+      "Convulsão eclâmptica é indicação de interrupção da gestação após estabilização materna, independentemente da idade gestacional",
+    ],
+    prognostico:
+      "Geralmente favorável com tratamento imediato e adequado (sulfato de magnésio e resolução da gestação), mas a eclâmpsia permanece uma das principais causas de morbimortalidade materna quando não reconhecida e tratada prontamente.",
+    pontosDeProva: [
+      "Sulfato de magnésio é o tratamento de escolha tanto para cessar a crise convulsiva em curso quanto para prevenir recorrência, superior a outros anticonvulsivantes nesse contexto específico",
+      "Eclâmpsia pode ocorrer no período pós-parto (mais comumente nas primeiras 48 horas), não apenas durante a gestação, exigindo vigilância contínua mesmo após o parto",
+      "A interrupção da gestação é indicada após estabilização materna, independentemente da idade gestacional, dado que a eclâmpsia é indicação absoluta de resolução",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 26 anos, 37 semanas, com diagnóstico prévio de pré-eclâmpsia com sinais de gravidade, apresenta crise convulsiva tônico-clônica generalizada com duração de 2 minutos, seguida de confusão pós-ictal.",
+      pergunta: "Qual a conduta imediata?",
+      raciocinio:
+        "Convulsão em gestante com pré-eclâmpsia caracteriza eclâmpsia, emergência obstétrica que exige tratamento imediato para cessação/profilaxia de nova crise e planejamento de resolução da gestação.",
+      conduta:
+        "Administrar sulfato de magnésio intravenoso para tratamento e profilaxia de recorrência convulsiva; estabilizar a paciente e proceder à interrupção da gestação assim que houver estabilização materna.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O sulfato de magnésio, tratamento de escolha, ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia da disfunção endotelial cerebral e classificação temporal", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Sulfato de magnésio como tratamento de escolha e indicação de interrupção da gestação", fonte: "ACOG Practice Bulletin No. 222, Gestational Hypertension and Preeclampsia, 2020" },
+    ],
+  },
+  {
+    slug: "diabetes-mellitus-gestacional",
+    nome: "Diabetes mellitus na gravidez (diabetes gestacional)",
+    sinonimos: ["Diabetes gestacional", "DMG"],
+    cid10: "O24",
+    especialidade: "Ginecologia",
+    etiologia: "Metabólica",
+    resumo: "Intolerância à glicose de gravidade variável com início ou primeiro reconhecimento durante a gestação, decorrente do estado de resistência insulínica fisiológica progressiva imposto pelos hormônios placentários.",
+    definicao:
+      "Qualquer grau de intolerância à glicose com início ou primeiro reconhecimento durante a gestação, distinta do diabetes pré-gestacional (diagnosticado antes ou já no início da gestação), tipicamente diagnosticada a partir do segundo trimestre pelo rastreamento universal recomendado.",
+    epidemiologia:
+      "Complica uma proporção significativa das gestações, com prevalência crescente acompanhando o aumento da obesidade e da idade materna; principais fatores de risco incluem obesidade, idade materna avançada, história familiar de diabetes, diabetes gestacional em gestação anterior e macrossomia fetal prévia.",
+    fisiopatologia:
+      "Hormônios placentários (lactogênio placentário humano, progesterona, cortisol) promovem resistência insulínica progressiva ao longo da gestação, fisiologicamente necessária para direcionar glicose ao feto; quando a reserva pancreática materna é insuficiente para compensar essa resistência crescente, desenvolve-se hiperglicemia gestacional, com hiperglicemia materna atravessando a placenta e estimulando hiperinsulinemia fetal, que por sua vez promove crescimento fetal excessivo (macrossomia).",
+    classificacao:
+      "Distinta do diabetes pré-gestacional (tipo 1 ou tipo 2 diagnosticado antes da gestação); classificada quanto à necessidade terapêutica em diabetes gestacional controlada com dieta e exercício e diabetes gestacional que necessita de tratamento farmacológico (insulina ou, em alguns protocolos, metformina) para controle glicêmico adequado.",
+    quadroClinico: [
+      "Tipicamente assintomática, identificada exclusivamente pelo rastreamento glicêmico universal recomendado entre 24 e 28 semanas de gestação",
+      "Polidrâmnio e suspeita de macrossomia fetal à ultrassonografia podem ser achados que levantam suspeita antes mesmo do rastreamento programado",
+    ],
+    diagnostico: [
+      "Teste oral de tolerância à glicose (75 g, em uma ou duas etapas conforme o protocolo adotado), realizado universalmente entre 24 e 28 semanas de gestação, com valores de corte específicos definindo o diagnóstico",
+      "Rastreamento mais precoce (primeiro trimestre) indicado em gestantes com fatores de risco significativos, para identificação de diabetes pré-gestacional não diagnosticado previamente",
+    ],
+    examesComplementares: [
+      "Ultrassonografia obstétrica seriada para monitorização do crescimento fetal, dado o risco de macrossomia associado ao controle glicêmico inadequado",
+      "Automonitorização domiciliar da glicemia capilar, ferramenta central do acompanhamento e ajuste terapêutico ao longo da gestação",
+    ],
+    diagnosticoDiferencial: [
+      "Diabetes pré-gestacional não diagnosticado previamente, distinguido por hiperglicemia já identificada no primeiro trimestre ou por hemoglobina glicada elevada compatível com hiperglicemia pré-existente",
+      "Glicosúria gestacional fisiológica (por redução do limiar renal de reabsorção de glicose), que não reflete necessariamente hiperglicemia verdadeira e não deve ser confundida com diabetes gestacional",
+    ],
+    tratamento: [
+      "Terapia nutricional e atividade física regular, tratamento inicial de primeira linha para todas as pacientes com diabetes gestacional",
+      "Insulina, tratamento farmacológico de escolha quando as metas glicêmicas não são atingidas com medidas não farmacológicas, por não atravessar a placenta e ter perfil de segurança estabelecido na gestação",
+      "Metformina como alternativa oral em protocolos e contextos selecionados, embora a insulina permaneça o padrão-ouro farmacológico",
+    ],
+    complicacoes: [
+      "Aguda/perinatal: macrossomia fetal com risco de distocia de ombro no parto, hipoglicemia neonatal (pela hiperinsulinemia fetal reativa após a interrupção do suprimento materno de glicose ao nascimento), polidrâmnio",
+      "Crônica: risco substancialmente aumentado de desenvolvimento de diabetes mellitus tipo 2 na mãe em anos subsequentes, justificando reavaliação glicêmica pós-parto e seguimento a longo prazo",
+    ],
+    redFlags: [
+      "Suspeita de macrossomia fetal significativa ao final da gestação deve motivar discussão sobre via de parto, dado o risco de distocia de ombro",
+      "Hipoglicemia neonatal deve ser ativamente monitorizada e antecipada em recém-nascidos de mães com diabetes gestacional mal controlado",
+    ],
+    prognostico:
+      "Excelente para mãe e feto quando o controle glicêmico é adequado ao longo da gestação; a diabetes gestacional tipicamente se resolve após o parto, mas confere risco substancialmente aumentado de diabetes mellitus tipo 2 futuro, justificando reavaliação e orientação preventiva pós-parto.",
+    pontosDeProva: [
+      "O rastreamento universal com teste oral de tolerância à glicose entre 24-28 semanas é a estratégia diagnóstica padrão para a maioria das gestantes sem fatores de risco que justifiquem rastreamento mais precoce",
+      "Insulina é o tratamento farmacológico de escolha por não atravessar a placenta, ao contrário de alguns hipoglicemiantes orais",
+      "Diabetes gestacional confere risco substancialmente aumentado de diabetes mellitus tipo 2 futuro na mãe, justificando reavaliação glicêmica programada no pós-parto",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 29 anos, 26 semanas, obesa, é submetida a teste oral de tolerância à glicose de rastreamento de rotina, com resultado confirmando diabetes gestacional. Glicemias capilares domiciliares permanecem acima da meta apesar de terapia nutricional adequada por 2 semanas.",
+      pergunta: "Qual a conduta terapêutica seguinte?",
+      raciocinio:
+        "Falha em atingir metas glicêmicas apesar de terapia nutricional adequada indica necessidade de tratamento farmacológico, sendo a insulina o tratamento de escolha por seu perfil de segurança estabelecido na gestação.",
+      conduta:
+        "Iniciar insulinoterapia ajustada ao perfil glicêmico da paciente, mantendo monitorização domiciliar da glicemia capilar e acompanhamento obstétrico com ultrassonografias seriadas para avaliação do crescimento fetal.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "insulina-nph", nome: "Insulina NPH humana" },
+    ],
+    medicamentosNota:
+      "A insulina NPH representa a classe terapêutica (insulinoterapia) recomendada quando a dieta/exercício são insuficientes; o esquema específico de insulina na gestação é individualizado e pode incluir outras formulações não documentadas no site.",
+    fontes: [
+      { tema: "Fisiopatologia da resistência insulínica gestacional e hiperinsulinemia fetal reativa", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Protocolo de rastreamento universal e insulina como tratamento farmacológico de escolha", fonte: "ACOG Practice Bulletin No. 190, Gestational Diabetes Mellitus, 2018" },
+    ],
+  },
+  {
+    slug: "disturbios-hipertensivos-cronicos-gestacionais-leves",
+    nome: "Distúrbios hipertensivos crônicos e gestacionais leves da gravidez",
+    sinonimos: ["Hipertensão crônica na gestação", "Hipertensão gestacional sem proteinúria"],
+    cid10: "O10-O13+O16",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Espectro de hipertensão na gestação sem os critérios de gravidade da pré-eclâmpsia, incluindo hipertensão crônica preexistente e hipertensão gestacional isolada, que exigem monitorização rigorosa pelo risco de progressão para pré-eclâmpsia sobreposta.",
+    definicao:
+      "Hipertensão crônica é definida como pressão arterial elevada identificada antes da gestação ou antes de 20 semanas (ou que persiste além de 12 semanas pós-parto); hipertensão gestacional é a elevação da pressão arterial após 20 semanas na ausência de proteinúria ou de outros critérios de disfunção de órgão-alvo que caracterizariam pré-eclâmpsia.",
+    epidemiologia:
+      "A hipertensão crônica preexistente à gestação tem prevalência crescente, acompanhando o aumento da idade materna e da obesidade; a hipertensão gestacional isolada é relativamente comum e uma proporção significativa dos casos progride para pré-eclâmpsia sobreposta ao longo da gestação.",
+    fisiopatologia:
+      "Na hipertensão crônica, a gestação se sobrepõe a um estado hipertensivo preexistente (essencial ou secundária), sem a fisiopatologia placentária específica da pré-eclâmpsia, embora o risco de pré-eclâmpsia sobreposta seja significativamente maior nessas gestantes; a hipertensão gestacional isolada compartilha possivelmente uma fisiopatologia inicial semelhante à pré-eclâmpsia, porém sem progressão para a disfunção multissistêmica que a caracteriza.",
+    classificacao:
+      "Classificada em hipertensão crônica (identificada antes da gestação ou antes de 20 semanas), hipertensão gestacional (identificada após 20 semanas, sem proteinúria/disfunção de órgão-alvo) e hipertensão crônica com pré-eclâmpsia sobreposta (quando uma gestante com hipertensão crônica desenvolve novos critérios de pré-eclâmpsia ao longo da gestação).",
+    quadroClinico: [
+      "Pressão arterial elevada identificada antes da gestação (hipertensão crônica) ou detectada em consulta pré-natal de rotina após 20 semanas (hipertensão gestacional), tipicamente sem sintomas associados na forma não complicada",
+      "Ausência de proteinúria ou de sinais de disfunção de órgão-alvo, achado que distingue essas condições da pré-eclâmpsia",
+      "Sinais de alerta para pré-eclâmpsia sobreposta (proteinúria nova, cefaleia, alterações visuais, dor epigástrica) devem ser ativamente monitorizados ao longo do acompanhamento",
+    ],
+    diagnostico: [
+      "Aferição seriada da pressão arterial ao longo do pré-natal, com classificação conforme o momento de início (antes versus após 20 semanas) e a presença ou ausência de proteinúria/disfunção de órgão-alvo",
+      "Investigação de causas secundárias de hipertensão crônica quando há suspeita clínica (início antes dos 30 anos sem história familiar, hipertensão refratária, achados sugestivos de causa endócrina ou renal)",
+    ],
+    examesComplementares: [
+      "Proteinúria de 24 horas ou relação proteína/creatinina urinária basal no início do pré-natal em gestantes com hipertensão crônica conhecida, para estabelecer parâmetro de comparação e facilitar identificação precoce de pré-eclâmpsia sobreposta",
+      "Ultrassonografia obstétrica seriada com Doppler para monitorização do crescimento fetal, dado o risco aumentado de restrição de crescimento fetal nessas condições",
+    ],
+    diagnosticoDiferencial: [
+      "Pré-eclâmpsia, distinguida pela presença de proteinúria significativa ou de critérios de disfunção de órgão-alvo, ausentes na hipertensão gestacional isolada e na hipertensão crônica sem sobreposição",
+      "Hipertensão do jaleco branco, achado que pode confundir a avaliação inicial e exigir confirmação por aferições domiciliares ou monitorização ambulatorial",
+    ],
+    tratamento: [
+      "Anti-hipertensivos seguros na gestação (como labetalol, nifedipina ou metildopa) indicados quando a pressão arterial atinge determinados limiares, visando reduzir o risco de complicações maternas sem comprometer a perfusão placentária",
+      "Monitorização rigorosa e seriada (materna e fetal) ao longo da gestação, dado o risco de progressão para pré-eclâmpsia sobreposta ou de restrição de crescimento fetal",
+      "Planejamento do momento do parto individualizado conforme controle pressórico e achados de vigilância fetal, geralmente não antes do termo na ausência de complicações sobrepostas",
+    ],
+    complicacoes: [
+      "Aguda: pré-eclâmpsia sobreposta, mais comum em gestantes com hipertensão crônica preexistente do que na população geral",
+      "Crônica: restrição de crescimento fetal e descolamento prematuro de placenta, riscos aumentados em ambas as condições em comparação à gestação normotensa",
+    ],
+    redFlags: [
+      "Qualquer sinal novo de proteinúria ou de disfunção de órgão-alvo em gestante com hipertensão crônica ou gestacional isolada deve ser interpretado como possível pré-eclâmpsia sobreposta, exigindo reclassificação e conduta correspondente",
+      "Hipertensão crônica de início antes dos 30 anos sem história familiar deve motivar investigação de causa secundária",
+    ],
+    prognostico:
+      "Geralmente favorável com monitorização adequada, mas o risco de progressão para pré-eclâmpsia sobreposta (mais alto na hipertensão crônica preexistente) exige vigilância contínua ao longo de toda a gestação para detecção precoce dessa complicação.",
+    pontosDeProva: [
+      "O critério temporal (antes ou após 20 semanas) é central para diferenciar hipertensão crônica de hipertensão gestacional",
+      "A ausência de proteinúria/disfunção de órgão-alvo distingue tanto a hipertensão crônica isolada quanto a hipertensão gestacional isolada da pré-eclâmpsia",
+      "Gestantes com hipertensão crônica têm risco significativamente maior de desenvolver pré-eclâmpsia sobreposta, exigindo vigilância mais rigorosa que a população obstétrica geral",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 35 anos, com hipertensão arterial diagnosticada há 3 anos antes da gestação atual, em acompanhamento pré-natal de rotina com 30 semanas, apresenta pressão arterial controlada e proteinúria basal negativa desde o início do pré-natal.",
+      pergunta: "Qual a principal complicação que deve ser ativamente rastreada ao longo do restante da gestação?",
+      raciocinio:
+        "Gestante com hipertensão crônica preexistente tem risco significativamente aumentado de desenvolver pré-eclâmpsia sobreposta ao longo da gestação, exigindo monitorização rigorosa e seriada de proteinúria e sinais de disfunção de órgão-alvo.",
+      conduta:
+        "Manter monitorização seriada da pressão arterial, proteinúria e sinais/sintomas de disfunção de órgão-alvo em cada consulta pré-natal, além de vigilância do crescimento fetal por ultrassonografia seriada.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os anti-hipertensivos seguros na gestação (labetalol, nifedipina, metildopa) ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Classificação temporal e risco de pré-eclâmpsia sobreposta", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Limiares de tratamento anti-hipertensivo e monitorização na gestação", fonte: "ACOG Practice Bulletin No. 203, Chronic Hypertension in Pregnancy, 2019" },
+    ],
+  },
+  {
+    slug: "hemorragia-inicio-gravidez-ameaca-abortamento",
+    nome: "Hemorragia do início da gravidez (ameaça de abortamento)",
+    sinonimos: ["Ameaça de aborto", "Sangramento do primeiro trimestre"],
+    cid10: "O20",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Sangramento vaginal no início da gestação com colo uterino fechado e gestação intrauterina viável confirmada, achado comum que exige diagnóstico diferencial cuidadoso mas que tem prognóstico favorável na maioria dos casos.",
+    definicao:
+      "Sangramento vaginal originado da gestação, ocorrendo antes de 20 semanas, em paciente com colo uterino fechado ao exame e gestação intrauterina confirmada como potencialmente viável, distinta de outras categorias de abortamento em curso pela ausência de dilatação cervical e pela preservação da viabilidade gestacional no momento da avaliação.",
+    epidemiologia:
+      "Achado comum, ocorrendo em uma proporção significativa das gestações no primeiro trimestre; aproximadamente metade das gestantes com esse quadro evolui para gestação viável a termo, enquanto a outra parcela progride para aborto espontâneo estabelecido.",
+    fisiopatologia:
+      "O sangramento origina-se tipicamente de pequenas áreas de separação entre o córion e a decídua uterina, podendo ser autolimitado (sem impacto na viabilidade gestacional) ou representar o estágio inicial de um processo de abortamento espontâneo em curso, cujo desfecho definitivo só se estabelece com a evolução clínica e o acompanhamento.",
+    classificacao:
+      "Corresponde a uma categoria clínica específica dentro do espectro mais amplo de sangramento gestacional precoce, definida pela combinação de sangramento, colo fechado e gestação intrauterina confirmada como presente (viável ou de viabilidade a ser reavaliada); distinta de aborto inevitável (colo aberto) e de aborto retido (óbito embrionário/fetal já estabelecido).",
+    quadroClinico: [
+      "Sangramento vaginal de intensidade variável (spotting a sangramento moderado), tipicamente sem eliminação de tecido",
+      "Cólica abdominal leve a moderada pode acompanhar o sangramento, embora sua ausência não exclua o diagnóstico",
+      "Colo uterino fechado ao exame especular, achado central que distingue essa condição do aborto inevitável",
+    ],
+    diagnostico: [
+      "Ultrassonografia transvaginal confirmando gestação intrauterina com localização e (quando a idade gestacional permite) batimentos cardíacos embrionários presentes",
+      "Exame especular confirmando colo uterino fechado, achado essencial para a classificação clínica",
+    ],
+    examesComplementares: [
+      "Beta-hCG sérico seriado quando a idade gestacional é muito precoce para visualização ultrassonográfica definitiva, com padrão de incremento adequado reforçando a viabilidade gestacional",
+      "Tipagem sanguínea (fator Rh), para indicação de imunoglobulina anti-D quando aplicável",
+    ],
+    diagnosticoDiferencial: [
+      "Gestação ectópica, diagnóstico diferencial obrigatório de todo sangramento do primeiro trimestre, excluído pela confirmação ultrassonográfica da localização intrauterina da gestação",
+      "Sangramento de implantação fisiológico, geralmente mais discreto e autolimitado, embora a distinção clínica definitiva dependa do acompanhamento evolutivo",
+      "Pólipo cervical ou cervicite, causas de sangramento de origem cervical (não relacionadas à própria gestação) identificáveis ao exame especular cuidadoso",
+    ],
+    tratamento: [
+      "Conduta expectante com repouso relativo, dado que não há intervenção comprovadamente eficaz para alterar o desfecho de uma gestação já em curso de ameaça de abortamento",
+      "Acompanhamento clínico e ultrassonográfico seriado para confirmação contínua da viabilidade gestacional",
+      "Imunoglobulina anti-D em gestante Rh negativo, medida profilática independentemente do desfecho final da gestação atual",
+    ],
+    complicacoes: [
+      "Aguda: progressão para aborto espontâneo estabelecido em uma proporção dos casos",
+      "Crônica: ansiedade materna significativa durante o período de incerteza quanto ao desfecho gestacional, aspecto que merece suporte e orientação empática",
+    ],
+    redFlags: [
+      "Sangramento volumoso, cólica intensa ou eliminação de tecido reclassificam o quadro para aborto inevitável/incompleto, exigindo reavaliação da conduta",
+      "Dor pélvica unilateral associada ao sangramento deve sempre motivar exclusão ativa de gestação ectópica antes de assumir o diagnóstico de ameaça de abortamento",
+    ],
+    prognostico:
+      "Favorável em aproximadamente metade dos casos, com evolução para gestação viável a termo; a presença de batimentos cardíacos embrionários confirmados no momento da avaliação inicial está associada a prognóstico mais favorável de continuidade da gestação.",
+    pontosDeProva: [
+      "O colo uterino fechado é o achado central que distingue a ameaça de abortamento do aborto inevitável, no qual o colo já está aberto",
+      "Não existe intervenção comprovadamente eficaz para alterar o desfecho de uma ameaça de abortamento já estabelecida — a conduta é expectante com acompanhamento",
+      "Gestação ectópica deve sempre ser ativamente excluída antes de firmar o diagnóstico de ameaça de abortamento, especialmente na presença de dor pélvica associada",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 26 anos, com 7 semanas de gestação confirmada, relata sangramento vaginal discreto sem cólica significativa. Exame especular revela colo uterino fechado. Ultrassonografia transvaginal confirma gestação intrauterina tópica com batimentos cardíacos embrionários presentes.",
+      pergunta: "Qual o diagnóstico e a orientação apropriada?",
+      raciocinio:
+        "Sangramento discreto com colo fechado e gestação intrauterina viável confirmada (batimentos cardíacos presentes) caracteriza ameaça de abortamento, condição com prognóstico favorável em cerca de metade dos casos.",
+      conduta:
+        "Orientar repouso relativo e explicar a natureza do quadro e seu prognóstico variável; agendar reavaliação clínica e ultrassonográfica; verificar tipagem sanguínea Rh para eventual imunoglobulina anti-D.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso comprovadamente eficaz para alterar o desfecho da ameaça de abortamento; a imunoglobulina anti-D, indicada quando aplicável, ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Definição clínica e taxa de evolução para gestação viável", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Ausência de intervenção eficaz comprovada e indicação de imunoglobulina anti-D", fonte: "ACOG Practice Bulletin No. 200, Early Pregnancy Loss, 2018" },
+    ],
+  },
+  {
+    slug: "hiperemese-gravidica",
+    nome: "Hiperêmese gravídica",
+    sinonimos: ["Vômitos incoercíveis da gravidez"],
+    cid10: "O21",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Forma grave de náuseas e vômitos da gestação, causando desidratação, distúrbios eletrolíticos e perda de peso significativa, distinta das náuseas gestacionais comuns pela intensidade e pelo impacto no estado nutricional e hidroeletrolítico materno.",
+    definicao:
+      "Náuseas e vômitos persistentes e intensos no início da gestação, suficientes para causar perda de peso superior a 5% do peso pré-gestacional, desidratação, distúrbios eletrolíticos e/ou cetose, distinguindo-se assim das náuseas e vômitos leves a moderados que acometem a maioria das gestantes sem essas repercussões.",
+    epidemiologia:
+      "Acomete uma minoria das gestações, tipicamente com início no primeiro trimestre; fatores de risco incluem gestação múltipla, mola hidatiforme (ambas associadas a níveis mais elevados de beta-hCG), história de hiperêmese em gestação anterior e história de enjoo em movimento ou de cinetose.",
+    fisiopatologia:
+      "A fisiopatologia exata não é completamente elucidada, mas envolve provavelmente níveis elevados de beta-hCG e de estrogênio circulantes, hormônios que têm pico temporal semelhante ao início típico dos sintomas; a associação com condições de beta-hCG marcadamente elevado (gestação múltipla, mola hidatiforme) reforça essa hipótese fisiopatológica central.",
+    classificacao:
+      "Representa a extremidade mais grave do espectro de náuseas e vômitos da gestação, distinguida das formas leves a moderadas pela presença de critérios objetivos de repercussão sistêmica (perda de peso significativa, distúrbios eletrolíticos, cetose, necessidade de hidratação intravenosa).",
+    quadroClinico: [
+      "Náuseas e vômitos persistentes e incoercíveis, geralmente com início entre 4 e 8 semanas de gestação e pico por volta de 9 a 12 semanas",
+      "Perda de peso significativa (superior a 5% do peso pré-gestacional), achado que distingue a hiperêmese das náuseas gestacionais comuns",
+      "Sinais de desidratação (mucosas secas, taquicardia, hipotensão postural) e de distúrbio eletrolítico associado",
+      "Sialorreia e intolerância a odores específicos frequentemente relatadas como gatilhos ou sintomas associados",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico, pela combinação de vômitos persistentes e intensos com evidência objetiva de repercussão sistêmica (perda de peso, sinais de desidratação)",
+      "Exclusão de outras causas de vômitos na gestação antes de firmar o diagnóstico, especialmente quando há características atípicas (início após o primeiro trimestre, dor abdominal significativa, febre)",
+    ],
+    examesComplementares: [
+      "Eletrólitos séricos, função renal e cetonúria, exames que documentam a repercussão sistêmica e orientam a necessidade de reposição intravenosa",
+      "Função tireoidiana e hepática, para exclusão de diagnósticos diferenciais e identificação de tireotoxicose gestacional transitória associada em alguns casos",
+      "Ultrassonografia obstétrica para exclusão de gestação múltipla ou mola hidatiforme como causa de beta-hCG marcadamente elevado",
+    ],
+    diagnosticoDiferencial: [
+      "Náuseas e vômitos leves a moderados da gestação, distinguidos pela ausência de critérios de repercussão sistêmica significativa",
+      "Gastroenterite, colecistite, pancreatite e outras causas não gestacionais de vômitos, que devem ser consideradas especialmente diante de características atípicas",
+      "Mola hidatiforme, causa específica de hiperêmese associada a beta-hCG marcadamente elevado, que deve ser excluída por ultrassonografia",
+    ],
+    tratamento: [
+      "Reposição hidroeletrolítica intravenosa, medida central em casos com desidratação significativa",
+      "Antieméticos (como piridoxina isolada ou associada a doxilamina, ou antagonistas de receptores de dopamina/serotonina), indicados de forma escalonada conforme a gravidade e resposta ao tratamento inicial",
+      "Suporte nutricional, incluindo, em casos refratários mais graves, nutrição enteral ou parenteral quando a via oral não é tolerada de forma sustentada",
+    ],
+    complicacoes: [
+      "Aguda: distúrbios eletrolíticos significativos, encefalopatia de Wernicke (por deficiência de tiamina em vômitos prolongados não tratados adequadamente), lesão renal aguda pré-renal",
+      "Crônica: restrição de crescimento fetal em casos graves e prolongados sem tratamento adequado, impacto psicológico significativo pela intensidade e duração dos sintomas",
+    ],
+    redFlags: [
+      "Vômitos persistentes prolongados sem reposição nutricional adequada colocam a paciente em risco de encefalopatia de Wernicke por deficiência de tiamina, complicação neurológica grave e evitável",
+      "Início de vômitos significativos após o primeiro trimestre, ou presença de dor abdominal significativa/febre associada, deve motivar investigação ampliada para outras causas antes de atribuir o quadro à hiperêmese gravídica",
+    ],
+    prognostico:
+      "Geralmente favorável com tratamento de suporte adequado, com melhora tipicamente ao longo do segundo trimestre na maioria dos casos; casos graves e prolongados sem tratamento adequado podem impactar o crescimento fetal e o estado nutricional materno de forma mais significativa.",
+    pontosDeProva: [
+      "A perda de peso superior a 5% do peso pré-gestacional é o critério objetivo central que distingue hiperêmese gravídica das náuseas/vômitos leves a moderados comuns na gestação",
+      "Gestação múltipla e mola hidatiforme, ambas associadas a beta-hCG marcadamente elevado, são fatores de risco reconhecidos, reforçando a hipótese fisiopatológica hormonal",
+      "Reposição de tiamina deve ser considerada antes ou junto da reposição de glicose em vômitos prolongados, para prevenir encefalopatia de Wernicke",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 24 anos, com 9 semanas de gestação, relata vômitos incoercíveis há 3 semanas, com perda de peso de 6% em relação ao peso pré-gestacional. Exame revela mucosas secas e taquicardia leve.",
+      pergunta: "Qual a conduta inicial apropriada?",
+      raciocinio:
+        "Vômitos persistentes com perda de peso superior a 5% do peso pré-gestacional e sinais de desidratação caracterizam hiperêmese gravídica, exigindo intervenção além das medidas habituais para náuseas gestacionais leves.",
+      conduta:
+        "Iniciar reposição hidroeletrolítica intravenosa e antieméticos apropriados para a gestação; avaliar eletrólitos, cetonúria e função tireoidiana; considerar ultrassonografia para exclusão de gestação múltipla ou mola hidatiforme.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os antieméticos seguros na gestação (piridoxina/doxilamina, antagonistas de dopamina/serotonina) ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Fisiopatologia hormonal (beta-hCG/estrogênio) e fatores de risco associados", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Critérios diagnósticos, escalonamento terapêutico e risco de encefalopatia de Wernicke", fonte: "ACOG Practice Bulletin No. 189, Nausea and Vomiting of Pregnancy, 2018" },
+    ],
+  },
+  {
+    slug: "complicacoes-venosas-gravidez-tvp-gestacional",
+    nome: "Complicações venosas na gravidez (TVP gestacional e tromboembolismo)",
+    sinonimos: ["Trombose venosa profunda na gestação", "Tromboembolismo venoso gestacional"],
+    cid10: "O22",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "A gestação constitui estado de hipercoagulabilidade fisiológica, conferindo risco substancialmente aumentado de trombose venosa profunda e embolia pulmonar, mais pronunciado no membro inferior esquerdo e no período pós-parto imediato.",
+    definicao:
+      "Formação de trombo no sistema venoso profundo (mais comumente dos membros inferiores) durante a gestação ou o puerpério, com potencial de embolização pulmonar, decorrente do estado de hipercoagulabilidade fisiológica próprio da gestação somado a fatores de risco adicionais.",
+    epidemiologia:
+      "O risco de tromboembolismo venoso é várias vezes maior durante a gestação em comparação a mulheres não gestantes da mesma idade, sendo ainda mais elevado no período pós-parto imediato; fatores de risco adicionais incluem cesariana, imobilização prolongada, obesidade, trombofilia hereditária ou adquirida (síndrome do anticorpo antifosfolípide) e história pessoal ou familiar de tromboembolismo venoso.",
+    fisiopatologia:
+      "A gestação induz estado de hipercoagulabilidade fisiológica (aumento de fatores de coagulação, redução de proteína S, resistência adquirida à proteína C ativada), somado à estase venosa por compressão mecânica da veia cava e das veias ilíacas pelo útero gravídico (mais pronunciada à esquerda, pela anatomia de cruzamento da veia ilíaca comum esquerda com a artéria ilíaca comum direita, explicando a maior incidência de trombose venosa profunda no membro inferior esquerdo) e por lesão endotelial associada ao parto, completando a tríade de Virchow.",
+    classificacao:
+      "Classificada por localização em trombose venosa profunda de membros inferiores (a mais comum, predominantemente à esquerda) e embolia pulmonar (complicação de maior gravidade), e por momento de ocorrência em anteparto e pós-parto (este último com risco relativo ainda mais elevado, especialmente após cesariana).",
+    quadroClinico: [
+      "Edema unilateral, dor e eritema de membro inferior (mais comumente o esquerdo), achados clássicos de trombose venosa profunda, embora possam ser mascarados pelo edema fisiológico bilateral comum na gestação",
+      "Dispneia súbita, dor torácica pleurítica e taquicardia sugerem embolia pulmonar, exigindo investigação imediata",
+      "Assimetria significativa de panturrilha (diferença de circunferência) é achado mais específico que o edema isolado, dado o edema fisiológico bilateral esperado na gestação",
+    ],
+    diagnostico: [
+      "Ultrassonografia com Doppler venoso de membros inferiores, exame de primeira linha para trombose venosa profunda, com adaptação da técnica quando há suspeita de trombose ilíaca proximal (menos acessível pela compressão ultrassonográfica padrão)",
+      "Angiotomografia de tórax com proteção abdominal ou cintilografia pulmonar de ventilação-perfusão, exames de escolha para investigação de suspeita de embolia pulmonar na gestação",
+    ],
+    examesComplementares: [
+      "D-dímero tem interpretação limitada na gestação, dado que se eleva fisiologicamente ao longo da gravidez, reduzindo sua utilidade como exame de exclusão isolado nesse contexto",
+      "Investigação de trombofilia (incluindo síndrome do anticorpo antifosfolípide) em casos selecionados, particularmente quando há história pessoal ou familiar significativa",
+    ],
+    diagnosticoDiferencial: [
+      "Edema fisiológico bilateral da gestação, distinguido da trombose venosa profunda pela ausência de assimetria significativa e de outros sinais focais",
+      "Celulite de membro inferior, causa de edema e eritema unilateral que pode mimetizar trombose venosa profunda, distinguida por sinais inflamatórios sistêmicos mais proeminentes",
+    ],
+    tratamento: [
+      "Heparina de baixo peso molecular, tratamento anticoagulante de escolha na gestação, por não atravessar a placenta e ter perfil de segurança estabelecido, ao contrário da varfarina (teratogênica, contraindicada na gestação)",
+      "Manutenção da anticoagulação durante toda a gestação e por período determinado no pós-parto, com ajuste da via de administração e do momento de suspensão antes do parto planejado",
+      "Meias de compressão elástica graduada como medida adjuvante para redução de sintomas e prevenção de síndrome pós-trombótica",
+    ],
+    complicacoes: [
+      "Aguda: embolia pulmonar, uma das principais causas de mortalidade materna direta quando não reconhecida e tratada prontamente",
+      "Crônica: síndrome pós-trombótica (edema crônico, dor, alterações cutâneas do membro acometido) em uma proporção dos casos, mesmo após tratamento anticoagulante adequado",
+    ],
+    redFlags: [
+      "Dispneia súbita, dor torácica pleurítica ou taquicardia inexplicada em gestante devem sempre motivar investigação para embolia pulmonar, dado seu potencial de gravidade e o caráter frequentemente sutil da apresentação inicial",
+      "Varfarina é contraindicada na gestação pelo risco teratogênico bem estabelecido — heparina de baixo peso molecular é a alternativa segura e estabelecida",
+    ],
+    prognostico:
+      "Favorável com anticoagulação apropriada e oportuna, mas a embolia pulmonar não reconhecida permanece uma das principais causas de morte materna direta, reforçando a importância de manter alto índice de suspeição diante de sintomas respiratórios ou de membro inferior na gestação.",
+    pontosDeProva: [
+      "A gestação, por si só, constitui estado de hipercoagulabilidade fisiológica, com risco de tromboembolismo venoso ainda maior no período pós-parto que no anteparto",
+      "A trombose venosa profunda gestacional é mais comum no membro inferior esquerdo, pela compressão anatômica da veia ilíaca comum esquerda pela artéria ilíaca comum direita",
+      "Heparina de baixo peso molecular é o anticoagulante de escolha na gestação; varfarina é contraindicada pelo risco teratogênico",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 33 anos, 28 semanas, relata edema, dor e eritema no membro inferior esquerdo há 2 dias, com assimetria significativa em relação ao membro contralateral.",
+      pergunta: "Qual a investigação e a conduta terapêutica apropriadas?",
+      raciocinio:
+        "Edema unilateral assimétrico com dor e eritema em membro inferior esquerdo em gestante é altamente sugestivo de trombose venosa profunda, dado o risco aumentado de tromboembolismo venoso na gestação e a predileção pelo lado esquerdo.",
+      conduta:
+        "Solicitar ultrassonografia com Doppler venoso do membro acometido para confirmação diagnóstica; se confirmada trombose venosa profunda, iniciar heparina de baixo peso molecular, mantendo anticoagulação durante toda a gestação.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "A heparina de baixo peso molecular, anticoagulante de escolha na gestação, ainda não tem ficha própria documentada no site; a varfarina, já documentada, é contraindicada nesse contexto pelo risco teratogênico.",
+    fontes: [
+      { tema: "Fisiopatologia da hipercoagulabilidade gestacional e predileção pelo membro inferior esquerdo", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Heparina de baixo peso molecular como anticoagulante de escolha e limitações do D-dímero na gestação", fonte: "ACOG Practice Bulletin No. 196, Thromboembolism in Pregnancy, 2018" },
+    ],
+  },
+  {
+    slug: "infeccoes-trato-geniturinario-gravidez",
+    nome: "Infecções do trato geniturinário na gravidez",
+    sinonimos: ["ITU gestacional", "Bacteriúria assintomática na gravidez"],
+    cid10: "O23",
+    especialidade: "Ginecologia",
+    etiologia: "Bacteriana",
+    resumo: "Espectro de infecção urinária na gestação — da bacteriúria assintomática à pielonefrite — cujo rastreamento e tratamento sistemáticos são recomendados pelo risco aumentado de progressão e de complicações obstétricas quando não tratadas.",
+    definicao:
+      "Infecção do trato urinário ocorrendo durante a gestação, abrangendo um espectro de gravidade que vai da bacteriúria assintomática (presença de bactérias significativas na urina sem sintomas) à cistite sintomática e à pielonefrite aguda (infecção do trato urinário superior com repercussão sistêmica).",
+    epidemiologia:
+      "A gestação aumenta o risco de progressão da bacteriúria assintomática para infecção sintomática (incluindo pielonefrite) em comparação a mulheres não gestantes, justificando o rastreamento universal recomendado; Escherichia coli é o agente etiológico mais comum em todas as apresentações.",
+    fisiopatologia:
+      "Alterações fisiológicas da gestação — dilatação ureteral e da pelve renal por efeito hormonal da progesterona (hidronefrose fisiológica gestacional) e compressão mecânica dos ureteres pelo útero gravídico (mais pronunciada à direita) — promovem estase urinária, facilitando a ascensão bacteriana e a progressão de bacteriúria assintomática para infecção sintomática, incluindo pielonefrite.",
+    classificacao:
+      "Classificada por gravidade em bacteriúria assintomática (urocultura positiva sem sintomas), cistite aguda (sintomas de trato urinário inferior) e pielonefrite aguda (infecção do trato urinário superior com febre, dor lombar e repercussão sistêmica); todas exigem tratamento na gestação, incluindo a forma assintomática, diferentemente da recomendação para a população geral não gestante.",
+    quadroClinico: [
+      "Bacteriúria assintomática: ausência de sintomas, identificada exclusivamente pelo rastreamento universal por urocultura recomendado no pré-natal",
+      "Cistite aguda: disúria, polaciúria e urgência miccional, sem sinais sistêmicos",
+      "Pielonefrite aguda: febre, calafrios, dor lombar (mais comumente à direita, pela compressão ureteral mais pronunciada desse lado), náuseas e vômitos, podendo evoluir com repercussão sistêmica significativa",
+    ],
+    diagnostico: [
+      "Urocultura com contagem de colônias significativa, exame padrão-ouro tanto para o rastreamento de bacteriúria assintomática quanto para a confirmação de infecção sintomática",
+      "Rastreamento universal com urocultura no início do pré-natal, recomendação padrão dado o risco aumentado de progressão na gestação mesmo em bacteriúria assintomática",
+    ],
+    examesComplementares: [
+      "Urocultura de controle (teste de cura) após tratamento, para confirmar erradicação bacteriana, particularmente importante na gestação dado o risco de recorrência e progressão",
+      "Hemocultura e avaliação laboratorial ampliada em pielonefrite aguda com repercussão sistêmica significativa",
+    ],
+    diagnosticoDiferencial: [
+      "Trabalho de parto pré-termo, que pode ser desencadeado ou mimetizado por pielonefrite aguda, dado o papel da infecção sistêmica como gatilho de contrações uterinas",
+      "Cólica nefrética/nefrolitíase, causa de dor lombar que deve ser diferenciada da pielonefrite, embora ambas possam coexistir",
+    ],
+    tratamento: [
+      "Antibioticoterapia dirigida conforme antibiograma sempre que disponível, com escolha de antimicrobianos com perfil de segurança estabelecido na gestação (como betalactâmicos)",
+      "Tratamento obrigatório mesmo da bacteriúria assintomática na gestação, diferentemente da recomendação geral para população não gestante, dado o risco aumentado de progressão",
+      "Pielonefrite aguda: hospitalização e antibioticoterapia intravenosa na maioria dos casos, dado o risco de repercussão sistêmica materna e de complicações obstétricas associadas",
+    ],
+    complicacoes: [
+      "Aguda: pielonefrite aguda com sepse, trabalho de parto pré-termo desencadeado pela infecção sistêmica",
+      "Crônica: recorrência de infecção urinária ao longo da gestação, exigindo por vezes profilaxia antibiótica em casos selecionados de recorrência frequente",
+    ],
+    redFlags: [
+      "Bacteriúria assintomática não tratada na gestação carrega risco significativo de progressão para pielonefrite aguda, justificando o rastreamento e tratamento universal, diferentemente da conduta na população não gestante",
+      "Febre e dor lombar em gestante devem sempre motivar investigação para pielonefrite aguda, dado o risco de desencadear trabalho de parto pré-termo",
+    ],
+    prognostico:
+      "Excelente com rastreamento e tratamento adequados, sendo a infecção urinária gestacional uma das condições mais efetivamente preveníveis em suas formas mais graves através do rastreamento sistemático recomendado no pré-natal.",
+    pontosDeProva: [
+      "Bacteriúria assintomática deve ser tratada na gestação (diferentemente da população geral não gestante), pelo risco aumentado de progressão para pielonefrite",
+      "A hidronefrose fisiológica gestacional (mais pronunciada à direita) e a estase urinária associada explicam o risco aumentado de infecção do trato urinário na gestação",
+      "Pielonefrite aguda na gestação é frequentemente tratada com hospitalização e antibioticoterapia intravenosa, dado o risco de repercussão sistêmica materna e de trabalho de parto pré-termo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 24 anos, 16 semanas, assintomática, tem urocultura de rastreamento de rotina do pré-natal positiva com contagem de colônias significativa para Escherichia coli.",
+      pergunta: "Qual a conduta apropriada diante desse resultado?",
+      raciocinio:
+        "Bacteriúria assintomática identificada pelo rastreamento universal na gestação deve ser tratada, ao contrário da recomendação para mulheres não gestantes, dado o risco aumentado de progressão para pielonefrite aguda.",
+      conduta:
+        "Prescrever antibioticoterapia dirigida conforme antibiograma, com antimicrobiano de perfil de segurança estabelecido na gestação; solicitar urocultura de controle após o tratamento para confirmar erradicação.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina", nome: "Amoxicilina" },
+    ],
+    medicamentosSecaoTitulo: "Opção de antibiótico com perfil de segurança na gestação (escolha final dirigida por antibiograma)",
+    medicamentosNota:
+      "A escolha do antimicrobiano deve ser sempre dirigida pelo antibiograma e pelo perfil local de resistência; a amoxicilina é uma das opções com perfil de segurança estabelecido na gestação, mas nitrofurantoína e cefalosporinas são frequentemente preferidas e ainda não têm ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia da hidronefrose fisiológica gestacional e estase urinária", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Recomendação de tratamento da bacteriúria assintomática na gestação", fonte: "USPSTF, Screening for Asymptomatic Bacteriuria in Adults: Recommendation Statement, 2019" },
+    ],
+  },
+  {
+    slug: "gestacao-multipla-complicacoes",
+    nome: "Gestação múltipla e suas complicações",
+    sinonimos: ["Gravidez gemelar", "Gestação gemelar"],
+    cid10: "O30-O31",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Gestação com dois ou mais fetos, considerada de alto risco pelo aumento significativo de complicações maternas e fetais em comparação à gestação única, com a corionicidade sendo o principal determinante do risco de complicações específicas.",
+    definicao:
+      "Gestação envolvendo dois ou mais fetos simultaneamente, classificada quanto à zigotia (dizigótica, a partir de dois óvulos distintos, sempre dicoriônica; ou monozigótica, a partir de um único óvulo fertilizado que se divide) e, de forma clinicamente mais determinante, quanto à corionicidade e amnionicidade (número de placentas e sacos amnióticos).",
+    epidemiologia:
+      "A incidência de gestação múltipla aumentou nas últimas décadas, impulsionada principalmente pelo uso crescente de técnicas de reprodução assistida e pela idade materna mais avançada ao engravidar; gestações dizigóticas (sempre dicoriônicas) são a forma mais comum.",
+    fisiopatologia:
+      "Gestações monozigóticas monocoriônicas (placenta única compartilhada) apresentam risco específico e substancialmente maior de complicações relacionadas a anastomoses vasculares placentárias compartilhadas, notadamente a síndrome de transfusão feto-fetal, na qual um desequilíbrio no fluxo sanguíneo através dessas anastomoses resulta em um feto doador (hipovolêmico, oligoidrâmnio) e um feto receptor (hipervolêmico, polidrâmnio); gestações dicoriônicas, por não compartilharem circulação placentária, não apresentam esse risco específico.",
+    classificacao:
+      "Classificada pela corionicidade e amnionicidade em dicoriônica/diamniótica (placentas e sacos amnióticos separados, menor risco de complicações específicas), monocoriônica/diamniótica (placenta compartilhada, sacos separados, risco de síndrome de transfusão feto-fetal) e monocoriônica/monoamniótica (placenta e saco compartilhados, maior risco global, incluindo entrelaçamento de cordões umbilicais).",
+    quadroClinico: [
+      "Altura uterina maior que a esperada para a idade gestacional, achado clínico que frequentemente motiva a investigação ultrassonográfica confirmatória",
+      "Sintomas gestacionais exacerbados (náuseas mais intensas, desconforto abdominal) em comparação à gestação única, refletindo níveis hormonais mais elevados",
+      "Frequentemente identificada por ultrassonografia de rotina do primeiro trimestre, momento também ideal para determinação precisa da corionicidade",
+    ],
+    diagnostico: [
+      "Ultrassonografia obstétrica, exame confirmatório da gestação múltipla e, fundamentalmente, da determinação da corionicidade e amnionicidade, idealmente realizada no primeiro trimestre quando essa determinação é mais precisa e confiável",
+      "Sinal do lambda (dicoriônica) versus sinal em T (monocoriônica) na inserção da membrana interfetal, achados ultrassonográficos característicos que auxiliam a determinação da corionicidade",
+    ],
+    examesComplementares: [
+      "Ultrassonografia seriada mais frequente que na gestação única, para monitorização do crescimento de ambos os fetos e detecção precoce de discordância de crescimento ou de síndrome de transfusão feto-fetal em gestações monocoriônicas",
+      "Rastreamento mais frequente de complicações hipertensivas e de diabetes gestacional, dado o risco aumentado dessas condições na gestação múltipla",
+    ],
+    diagnosticoDiferencial: [
+      "Polidrâmnio isolado em gestação única, que pode simular altura uterina aumentada mas é distinguido pela ultrassonografia confirmando feto único",
+      "Miomatose uterina volumosa concomitante à gestação, que também pode aumentar a altura uterina de forma desproporcional à idade gestacional",
+    ],
+    tratamento: [
+      "Acompanhamento pré-natal mais intensivo e frequente, dado o risco global aumentado de complicações maternas e fetais",
+      "Vigilância seriada específica para síndrome de transfusão feto-fetal em gestações monocoriônicas, com tratamento a laser das anastomoses vasculares placentárias quando essa complicação é identificada",
+      "Planejamento cuidadoso da via e do momento do parto, considerando a corionicidade, a apresentação fetal e a presença de complicações associadas",
+    ],
+    complicacoes: [
+      "Aguda: trabalho de parto pré-termo (a complicação mais comum da gestação múltipla), pré-eclâmpsia, diabetes gestacional, todos com risco aumentado em relação à gestação única",
+      "Crônica/específica de gestação monocoriônica: síndrome de transfusão feto-fetal, restrição seletiva de crescimento fetal, sequência de anemia-policitemia gemelar",
+    ],
+    redFlags: [
+      "A determinação precisa da corionicidade no primeiro trimestre é etapa crítica que determina toda a estratégia de vigilância subsequente — sua realização tardia compromete a precisão dessa classificação essencial",
+      "Discordância significativa de crescimento entre os fetos ou discordância de volume de líquido amniótico em gestação monocoriônica deve motivar investigação imediata para síndrome de transfusão feto-fetal",
+    ],
+    prognostico:
+      "Variável conforme a corionicidade, sendo as gestações monocoriônicas (e, entre estas, as monoamnióticas) associadas a maior risco de morbimortalidade perinatal; o parto pré-termo, complicação mais comum da gestação múltipla, é o principal determinante do desfecho neonatal na maioria dos casos.",
+    pontosDeProva: [
+      "A determinação da corionicidade (não apenas da zigotia) é o fator mais determinante do risco de complicações específicas na gestação múltipla, sendo idealmente realizada no primeiro trimestre",
+      "Síndrome de transfusão feto-fetal é uma complicação específica de gestações monocoriônicas (placenta compartilhada), decorrente de anastomoses vasculares placentárias desbalanceadas",
+      "Trabalho de parto pré-termo é a complicação mais comum e o principal determinante do desfecho neonatal na gestação múltipla",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 30 anos, com gestação confirmada por reprodução assistida, realiza ultrassonografia de 11 semanas que identifica dois fetos com placenta única e membrana interfetal fina com sinal em T na inserção.",
+      pergunta: "Qual a corionicidade dessa gestação e sua implicação clínica?",
+      raciocinio:
+        "Placenta única com sinal em T na inserção da membrana interfetal caracteriza gestação monocoriônica diamniótica, que exige vigilância específica para complicações compartilhadas da circulação placentária, notadamente a síndrome de transfusão feto-fetal.",
+      conduta:
+        "Estabelecer vigilância ultrassonográfica seriada mais frequente que a gestação única, com avaliação específica de crescimento fetal e volume de líquido amniótico de ambos os sacos para detecção precoce de síndrome de transfusão feto-fetal.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso específico para a gestação múltipla em si; o manejo é de vigilância e, quando indicado, procedimentos específicos (como o tratamento a laser na síndrome de transfusão feto-fetal).",
+    fontes: [
+      { tema: "Classificação por corionicidade/amnionicidade e fisiopatologia da síndrome de transfusão feto-fetal", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Importância da determinação precoce da corionicidade e protocolo de vigilância", fonte: "ACOG Practice Bulletin No. 231, Multifetal Gestations, 2021" },
+    ],
+  },
+  {
+    slug: "apresentacao-fetal-anomala",
+    nome: "Apresentação fetal anômala",
+    sinonimos: ["Apresentação pélvica", "Situação transversa"],
+    cid10: "O32",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Posicionamento fetal diferente da apresentação cefálica fletida habitual ao termo, mais comumente a apresentação pélvica, com implicação direta na via de parto e no risco de complicações intraparto.",
+    definicao:
+      "Qualquer apresentação fetal diferente da apresentação cefálica (de vértice) ao final da gestação, incluindo a apresentação pélvica (polo pélvico fetal voltado para o canal de parto) e a situação transversa (eixo fetal perpendicular ao eixo materno), identificada tipicamente na avaliação obstétrica de rotina próximo ao termo.",
+    epidemiologia:
+      "A apresentação pélvica é a forma mais comum de apresentação anômala, com prevalência que diminui progressivamente ao longo da gestação, à medida que a maioria dos fetos se vira espontaneamente para a apresentação cefálica; fatores de risco incluem prematuridade, gestação múltipla, malformações uterinas, placenta prévia e polidrâmnio ou oligoidrâmnio.",
+    fisiopatologia:
+      "Qualquer condição que restrinja o espaço disponível para a rotação fetal espontânea (malformação uterina, mioma, gestação múltipla), altere o volume de líquido amniótico (polidrâmnio ou oligoidrâmnio) ou modifique a relação entre o tamanho fetal e a cavidade uterina (prematuridade, quando o feto ainda é proporcionalmente menor em relação ao volume de líquido amniótico) favorece a manutenção de uma apresentação diferente da cefálica ao longo da gestação.",
+    classificacao:
+      "Classificada em apresentação pélvica (subdividida em pélvica completa, incompleta e franca/de nádegas, conforme a posição dos membros inferiores fetais) e situação transversa (eixo fetal perpendicular ao materno, incompatível com parto vaginal sem manobra prévia).",
+    quadroClinico: [
+      "Tipicamente assintomática, identificada ao exame obstétrico de rotina (manobras de Leopold) próximo ao termo, ou de forma incidental à ultrassonografia",
+      "Palpação do polo cefálico fetal no fundo uterino (em vez de na região suprapúbica) sugere apresentação pélvica ao exame físico obstétrico",
+    ],
+    diagnostico: [
+      "Manobras de Leopold ao exame físico obstétrico, método clínico inicial de suspeição da apresentação fetal",
+      "Ultrassonografia obstétrica, exame confirmatório definitivo da apresentação fetal e de sua classificação específica",
+    ],
+    examesComplementares: [
+      "Ultrassonografia com avaliação de peso fetal estimado e de volume de líquido amniótico quando há indicação de tentativa de versão cefálica externa, para avaliação de viabilidade e segurança do procedimento",
+    ],
+    diagnosticoDiferencial: [
+      "Apresentação cefálica defletida (de face ou de fronte), variante da apresentação cefálica com implicações específicas para o parto, distinta da apresentação pélvica ou situação transversa verdadeiras",
+    ],
+    tratamento: [
+      "Versão cefálica externa, procedimento realizado próximo ao termo para tentar reposicionar manualmente o feto em apresentação cefálica, reduzindo a necessidade de cesariana quando bem-sucedida",
+      "Cesariana eletiva, via de parto mais comumente recomendada para apresentação pélvica persistente ao termo não candidata ou não responsiva à versão cefálica externa, dado o risco aumentado de complicações no parto vaginal pélvico",
+      "Situação transversa persistente ao termo é indicação absoluta de cesariana, dado ser incompatível com parto vaginal",
+    ],
+    complicacoes: [
+      "Aguda: prolapso de cordão umbilical, mais comum na apresentação pélvica (especialmente incompleta) e na situação transversa que na apresentação cefálica, complicação obstétrica grave que exige parto de urgência",
+      "Aguda: retenção de cabeça derradeira em tentativa de parto vaginal pélvico, complicação potencialmente grave que reforça a preferência atual pela cesariana eletiva na maioria dos contextos",
+    ],
+    redFlags: [
+      "Situação transversa ao termo com trabalho de parto em curso é emergência obstétrica, dado o risco de prolapso de cordão e a incompatibilidade absoluta com parto vaginal",
+      "Ruptura de membranas em gestante com apresentação pélvica ou situação transversa exige avaliação imediata para exclusão de prolapso de cordão umbilical",
+    ],
+    prognostico:
+      "Favorável com identificação adequada e planejamento apropriado da via de parto; a versão cefálica externa bem-sucedida permite tentativa de parto vaginal na maioria dos casos, enquanto a cesariana eletiva planejada evita as complicações específicas do parto vaginal em apresentação anômala.",
+    pontosDeProva: [
+      "A apresentação pélvica é a forma mais comum de apresentação anômala ao termo, com prevalência que diminui progressivamente ao longo da gestação",
+      "Versão cefálica externa é a intervenção que pode evitar cesariana ao reposicionar o feto para apresentação cefálica próximo ao termo",
+      "Prolapso de cordão umbilical é significativamente mais comum na apresentação pélvica incompleta e na situação transversa que na apresentação cefálica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 27 anos, 36 semanas, ao exame obstétrico de rotina, apresenta manobras de Leopold sugestivas de polo cefálico palpável no fundo uterino. Ultrassonografia confirma apresentação pélvica franca.",
+      pergunta: "Qual a conduta apropriada nesse momento da gestação?",
+      raciocinio:
+        "Apresentação pélvica confirmada com 36 semanas, próximo ao termo, é candidata a tentativa de versão cefálica externa antes de se planejar definitivamente a via de parto, desde que não haja contraindicações ao procedimento.",
+      conduta:
+        "Avaliar elegibilidade e discutir tentativa de versão cefálica externa; caso malsucedida ou contraindicada, planejar cesariana eletiva ao termo dado o risco aumentado de complicações no parto vaginal pélvico.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso específico; o manejo é procedimental (versão cefálica externa) ou cirúrgico (cesariana).",
+    fontes: [
+      { tema: "Fisiopatologia e fatores de risco associados à apresentação anômala", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Indicações e técnica da versão cefálica externa e via de parto recomendada", fonte: "ACOG Practice Bulletin No. 221, External Cephalic Version, 2020" },
+    ],
+  },
+  {
+    slug: "disturbios-liquido-amniotico-poli-oligoidramnio",
+    nome: "Distúrbios do volume de líquido amniótico (poli-hidrâmnio e oligoidrâmnio)",
+    sinonimos: ["Polidrâmnio", "Oligoidrâmnio"],
+    cid10: "O40-O41",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Alterações do volume de líquido amniótico em excesso (poli-hidrâmnio) ou em déficit (oligoidrâmnio), achados ultrassonográficos que frequentemente sinalizam condição materna ou fetal subjacente relevante e exigem investigação etiológica direcionada.",
+    definicao:
+      "Poli-hidrâmnio é o acúmulo excessivo de líquido amniótico, definido por índice de líquido amniótico ou maior bolsão vertical acima de determinado limiar; oligoidrâmnio é a redução significativa do volume de líquido amniótico, definido por critérios ultrassonográficos correspondentes abaixo do limiar esperado para a idade gestacional.",
+    epidemiologia:
+      "Ambas as condições complicam uma minoria das gestações, mas estão associadas a maior risco de desfechos perinatais adversos; diabetes materna (mal controlado) é uma das causas mais comuns de poli-hidrâmnio, enquanto ruptura prematura de membranas e insuficiência placentária são causas comuns de oligoidrâmnio.",
+    fisiopatologia:
+      "O volume de líquido amniótico reflete o equilíbrio entre sua produção (predominantemente urina fetal a partir do segundo trimestre, e secreção pulmonar fetal) e sua remoção (deglutição fetal); poli-hidrâmnio pode decorrer de aumento da produção (diabetes materno mal controlado, causando poliúria fetal osmótica) ou de redução da deglutição fetal (obstrução gastrointestinal alta fetal, anomalias neuromusculares); oligoidrâmnio pode decorrer de redução da produção urinária fetal (insuficiência placentária com redistribuição de fluxo, anomalias renais/do trato urinário fetal) ou de perda de líquido (ruptura prematura de membranas).",
+    classificacao:
+      "Classificados por gravidade (leve, moderado, grave) conforme o grau de desvio do índice de líquido amniótico ou do maior bolsão vertical em relação aos valores de referência para a idade gestacional; também classificados etiologicamente conforme a causa materna, fetal ou placentária/de membranas identificada.",
+    quadroClinico: [
+      "Frequentemente identificados incidentalmente à ultrassonografia obstétrica de rotina, sem sintomas maternos específicos na maioria dos casos leves",
+      "Poli-hidrâmnio significativo pode causar desconforto abdominal materno, dispneia (por elevação diafragmática) e altura uterina maior que a esperada para a idade gestacional",
+      "Oligoidrâmnio significativo pode ser suspeitado por altura uterina menor que a esperada e por percepção materna de redução dos movimentos fetais",
+    ],
+    diagnostico: [
+      "Ultrassonografia obstétrica com medida do índice de líquido amniótico ou do maior bolsão vertical, exame diagnóstico central para ambas as condições",
+      "Investigação etiológica direcionada conforme a condição identificada: rastreamento de diabetes materno e avaliação anatômica fetal detalhada no poli-hidrâmnio; avaliação de ruptura de membranas, função placentária (Doppler) e anatomia do trato urinário fetal no oligoidrâmnio",
+    ],
+    examesComplementares: [
+      "Teste oral de tolerância à glicose (se ainda não realizado ou se necessário repetir) diante de poli-hidrâmnio, dado o diabetes materno mal controlado como causa comum",
+      "Doppler de artéria umbilical e avaliação do crescimento fetal diante de oligoidrâmnio, para investigação de insuficiência placentária e restrição de crescimento fetal associada",
+    ],
+    diagnosticoDiferencial: [
+      "Erro de datação gestacional, que pode simular alteração de volume de líquido amniótico quando a idade gestacional real difere da estimada",
+      "Ruptura prematura de membranas não percebida pela paciente, causa específica de oligoidrâmnio que deve ser ativamente investigada",
+    ],
+    tratamento: [
+      "Dirigido à causa identificada sempre que possível: otimização do controle glicêmico no poli-hidrâmnio por diabetes mal controlado; investigação e manejo específico da causa no oligoidrâmnio",
+      "Amniorredução (retirada terapêutica de líquido amniótico) em poli-hidrâmnio grave e sintomático, para alívio do desconforto materno e redução do risco de trabalho de parto pré-termo",
+      "Vigilância fetal intensificada (perfil biofísico fetal, Doppler) em ambas as condições, dado o risco aumentado de desfechos perinatais adversos associado",
+    ],
+    complicacoes: [
+      "Poli-hidrâmnio: trabalho de parto pré-termo, apresentação fetal anômala (pelo excesso de espaço disponível para a rotação fetal), prolapso de cordão umbilical na ruptura de membranas",
+      "Oligoidrâmnio: hipoplasia pulmonar fetal (quando grave e de início precoce), compressão de cordão umbilical intraparto, restrição de crescimento fetal associada quando a causa é insuficiência placentária",
+    ],
+    redFlags: [
+      "Oligoidrâmnio de início precoce e grave (segundo trimestre) carrega risco significativo de hipoplasia pulmonar fetal, complicação com impacto direto na viabilidade neonatal",
+      "Poli-hidrâmnio associado a anomalia estrutural fetal identificada à ultrassonografia detalhada deve motivar investigação genética adicional, dado o risco aumentado de aneuploidia nesse contexto",
+    ],
+    prognostico:
+      "Variável conforme a causa identificada e a gravidade; formas leves e idiopáticas têm prognóstico geralmente favorável com vigilância adequada, enquanto formas graves, especialmente de início precoce, estão associadas a maior risco de morbimortalidade perinatal.",
+    pontosDeProva: [
+      "Diabetes materno mal controlado é uma das causas mais comuns de poli-hidrâmnio, pela poliúria fetal osmótica secundária à hiperglicemia fetal",
+      "Oligoidrâmnio grave e precoce (segundo trimestre) tem risco significativo de hipoplasia pulmonar fetal, dado o papel do líquido amniótico no desenvolvimento pulmonar fetal normal",
+      "Ambas as condições exigem investigação etiológica direcionada, não sendo tratadas como achados isolados sem investigação da causa subjacente",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 31 anos, 32 semanas, com diabetes gestacional em controle glicêmico inadequado, apresenta altura uterina maior que a esperada. Ultrassonografia confirma índice de líquido amniótico elevado, compatível com poli-hidrâmnio.",
+      pergunta: "Qual a causa mais provável e a conduta apropriada?",
+      raciocinio:
+        "Poli-hidrâmnio em gestante com diabetes gestacional mal controlado é explicado pela poliúria fetal osmótica secundária à hiperglicemia fetal, mecanismo fisiopatológico central que liga as duas condições.",
+      conduta:
+        "Otimizar o controle glicêmico materno (intensificando o tratamento farmacológico se necessário) e intensificar a vigilância fetal, dado o risco aumentado de trabalho de parto pré-termo e de apresentação fetal anômala associado ao poli-hidrâmnio.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é dirigido à causa identificada; não há medicamento específico para correção direta do volume de líquido amniótico documentável no site.",
+    fontes: [
+      { tema: "Fisiopatologia da produção e remoção do líquido amniótico e principais causas etiológicas", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Etiologias mais comuns do poli-hidrâmnio e indicações de amniorredução", fonte: "SMFM Consult Series #46, Evaluation and Management of Polyhydramnios, 2018" },
+    ],
+  },
 ];

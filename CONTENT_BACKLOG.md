@@ -15,7 +15,7 @@ Fontes:
   está, o único item da lista ainda pendente por esse motivo.
 
 Já documentados com ficha completa (**fora deste backlog**, não repetir):
-- **Doenças (243):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
+- **Doenças (256):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
   · Dengue · COVID-19 · Gastrite · DRGE · Artrite reumatoide · LES · Alzheimer · Anemia
   ferropriva · DRC · Infarto agudo do miocárdio · Angina pectoris · Doença isquêmica
   crônica do coração · Fibrilação e flutter atrial · Parada cardíaca · Febre reumática ·
@@ -96,7 +96,15 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   do útero · Neoplasia maligna do corpo do útero · Neoplasia maligna do
   ovário · Neoplasia maligna da vulva · Neoplasia maligna da vagina ·
   Neoplasia maligna da mama · Mola hidatiforme · Neoplasia maligna da
-  placenta (coriocarcinoma)
+  placenta (coriocarcinoma) · Gravidez ectópica · Aborto espontâneo ·
+  Hipertensão gestacional com proteinúria (pré-eclâmpsia) · Eclâmpsia ·
+  Diabetes mellitus na gravidez (gestacional) · Distúrbios hipertensivos
+  crônicos e gestacionais leves da gravidez · Hemorragia do início da
+  gravidez (ameaça de abortamento) · Hiperêmese gravídica · Complicações
+  venosas na gravidez (TVP gestacional) · Infecções do trato geniturinário
+  na gravidez · Gestação múltipla e suas complicações · Apresentação fetal
+  anômala · Distúrbios do volume de líquido amniótico (poli-hidrâmnio e
+  oligoidrâmnio)
 - **Medicamentos (29):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
@@ -433,20 +441,20 @@ agrupadas em uma única ficha.
 11. concluído — Mola hidatiforme (O01)
 12. concluído — Neoplasia maligna da placenta / coriocarcinoma (C58)
 
-### Lote 19 — GO C: Obstetrícia — complicações da gestação (13)
-1. pendente — Gravidez ectópica (O00) *(já estava no Lote 15)*
-2. pendente — Aborto espontâneo (O03) *(já estava no Lote 15)*
-3. pendente — Hipertensão gestacional com proteinúria / pré-eclâmpsia (O14) *(já estava no Lote 14)*
-4. pendente — Eclâmpsia (O15) *(já estava no Lote 14)*
-5. pendente — Diabetes mellitus na gravidez / gestacional (O24) *(já estava no Lote 14)*
-6. pendente — Distúrbios hipertensivos crônicos e gestacionais leves da gravidez (O10-O13+O16)
-7. pendente — Hemorragia do início da gravidez / ameaça de abortamento (O20)
-8. pendente — Hiperêmese gravídica (O21)
-9. pendente — Complicações venosas na gravidez / TVP gestacional (O22)
-10. pendente — Infecções do trato geniturinário na gravidez (O23)
-11. pendente — Gestação múltipla e suas complicações (O30+O31)
-12. pendente — Apresentação fetal anômala (O32)
-13. pendente — Distúrbios do volume de líquido amniótico / poli-oligoidrâmnio (O40+O41)
+### Lote 19 — GO C: Obstetrícia — complicações da gestação (13) — ✅ CONCLUÍDO
+1. concluído — Gravidez ectópica (O00) *(já estava no Lote 15)*
+2. concluído — Aborto espontâneo (O03) *(já estava no Lote 15)*
+3. concluído — Hipertensão gestacional com proteinúria / pré-eclâmpsia (O14) *(já estava no Lote 14)*
+4. concluído — Eclâmpsia (O15) *(já estava no Lote 14)*
+5. concluído — Diabetes mellitus na gravidez / gestacional (O24) *(já estava no Lote 14)*
+6. concluído — Distúrbios hipertensivos crônicos e gestacionais leves da gravidez (O10-O13+O16)
+7. concluído — Hemorragia do início da gravidez / ameaça de abortamento (O20)
+8. concluído — Hiperêmese gravídica (O21)
+9. concluído — Complicações venosas na gravidez / TVP gestacional (O22)
+10. concluído — Infecções do trato geniturinário na gravidez (O23)
+11. concluído — Gestação múltipla e suas complicações (O30+O31)
+12. concluído — Apresentação fetal anômala (O32)
+13. concluído — Distúrbios do volume de líquido amniótico / poli-oligoidrâmnio (O40+O41)
 
 ### Lote 20 — GO D: Trabalho de parto, parto e puerpério (14)
 1. pendente — Ruptura prematura de membranas (O42)
@@ -477,13 +485,13 @@ agrupadas em uma única ficha.
 10. pendente — Dermatite alérgica de contato (L23)
 11. pendente — Abscesso cutâneo, furúnculo e antraz (L02)
 
-**Total: 38 doenças pendentes em 3 lotes** (Lotes 1-13, Lotes 14-16
-(Otorrinolaringologia completa) e Lotes 17-18 (GO A e GO B) todos concluídos,
-além das 243 já fichadas. **Oftalmologia, Neurologia, Hematologia,
-Nefrologia+Urologia, Psiquiatria e Otorrinolaringologia fechadas por
-completo. Próxima prioridade: Lote 19 (GO C — Obstetrícia: complicações da
-gestação, 13 itens), seguido do Lote 20 (GO D — trabalho de parto, parto e
-puerpério) antes de retomar Dermatologia (Lote 21).**
+**Total: 25 doenças pendentes em 2 lotes** (Lotes 1-13, Lotes 14-16
+(Otorrinolaringologia completa) e Lotes 17-19 (GO A, GO B e GO C) todos
+concluídos, além das 256 já fichadas. **Oftalmologia, Neurologia,
+Hematologia, Nefrologia+Urologia, Psiquiatria e Otorrinolaringologia
+fechadas por completo. Próxima prioridade: Lote 20 (GO D — trabalho de
+parto, parto e puerpério, 14 itens), que fecha por completo a
+Ginecologia/Obstetrícia, antes de retomar Dermatologia (Lote 21).**
 
 ---
 

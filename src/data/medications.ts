@@ -249,6 +249,7 @@ export const medications: Medication[] = [
       { slug: "sinusite-aguda", nome: "Sinusite aguda" },
       { slug: "faringite-aguda", nome: "Faringite aguda" },
       { slug: "amigdalite-aguda", nome: "Amigdalite aguda" },
+      { slug: "infeccoes-trato-geniturinario-gravidez", nome: "Infecções do trato geniturinário na gravidez" },
     ],
     fontes: [
       { tema: "Mecanismo de ação e farmacocinética", fonte: "Goodman & Gilman, 13ª ed." },
@@ -1006,6 +1007,7 @@ export const medications: Medication[] = [
     doencasIndicadas: [
       { slug: "diabetes-mellitus-tipo-2", nome: "Diabetes mellitus tipo 2" },
       { slug: "diabetes-mellitus-tipo-1", nome: "Diabetes mellitus tipo 1" },
+      { slug: "diabetes-mellitus-gestacional", nome: "Diabetes mellitus na gravidez (diabetes gestacional)" },
     ],
     fontes: [
       { tema: "Mecanismo de ação e farmacocinética", fonte: "Goodman & Gilman, 13ª ed." },
