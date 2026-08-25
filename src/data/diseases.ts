@@ -12471,4 +12471,969 @@ export const diseases: Disease[] = [
       { tema: "Tríade clássica como apresentação tardia e papel da detecção incidental por imagem", fonte: "fonte pendente" },
     ],
   },
+  {
+    slug: "episodios-depressivos",
+    nome: "Episódios depressivos",
+    sinonimos: ["Depressão maior", "Transtorno depressivo maior (episódio único)"],
+    cid10: "F32",
+    especialidade: "Psiquiatria",
+    etiologia: "Multifatorial",
+    resumo: "Síndrome psiquiátrica caracterizada por humor deprimido persistente e/ou perda de interesse ou prazer, associada a sintomas cognitivos e neurovegetativos, com risco de suicídio que deve ser sistematicamente avaliado.",
+    definicao:
+      "Síndrome psiquiátrica caracterizada por período mínimo de duas semanas de humor deprimido e/ou perda de interesse ou prazer (anedonia) na maior parte do dia, associada a alterações cognitivas, neurovegetativas e comportamentais que causam prejuízo funcional significativo.",
+    epidemiologia:
+      "É um dos transtornos psiquiátricos mais prevalentes globalmente, com prevalência ao longo da vida substancialmente maior em mulheres que em homens, e pico de incidência entre o final da adolescência e a idade adulta jovem, podendo ocorrer em qualquer faixa etária.",
+    fisiopatologia:
+      "Envolve disfunção de sistemas de neurotransmissão monoaminérgica (serotonina, noradrenalina, dopamina), alterações no eixo hipotálamo-hipófise-adrenal (com hipercortisolismo em uma parcela dos casos), e alterações estruturais e funcionais em circuitos límbicos e pré-frontais envolvidos na regulação do humor, resultando de interação complexa entre vulnerabilidade genética e fatores ambientais/estressores psicossociais.",
+    classificacao:
+      "Classificado pelos critérios diagnósticos do DSM-5/CID-11, exigindo humor deprimido e/ou anedonia associados a pelo menos quatro sintomas adicionais (alteração de sono, apetite/peso, psicomotricidade, energia, concentração, sentimento de culpa/inutilidade, ideação de morte) por período mínimo de duas semanas, com subclassificação por gravidade (leve, moderado, grave, com ou sem sintomas psicóticos).",
+    quadroClinico: [
+      "Humor deprimido persistente na maior parte do dia, quase todos os dias",
+      "Anedonia (perda de interesse ou prazer em atividades antes prazerosas)",
+      "Alterações neurovegetativas: insônia ou hipersonia, perda ou ganho de apetite/peso, fadiga ou perda de energia",
+      "Alteração psicomotora (agitação ou retardo), dificuldade de concentração e tomada de decisão",
+      "Sentimentos de inutilidade ou culpa excessiva/inadequada, ideação de morte ou suicídio, que deve ser sempre ativamente investigada",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado nos critérios do DSM-5/CID-11: humor deprimido e/ou anedonia associados a pelo menos quatro sintomas adicionais, presentes na maior parte do dia por no mínimo duas semanas, causando prejuízo funcional",
+      "Avaliação sistemática e direta do risco de suicídio em toda consulta, incluindo ideação, plano e intenção, elemento obrigatório e não opcional da avaliação",
+      "Exclusão de causas orgânicas (hipotireoidismo, uso de substâncias, outras condições médicas) e de episódio maníaco/hipomaníaco prévio, que redirecionaria o diagnóstico para transtorno afetivo bipolar",
+    ],
+    examesComplementares: [
+      "TSH para rastrear hipotireoidismo, causa orgânica reversível de sintomas depressivos que deve sempre ser excluída antes de assumir depressão primária",
+      "Rastreamento de uso de substâncias quando clinicamente pertinente, dado que pode mimetizar ou agravar sintomas depressivos",
+      "Escalas padronizadas (ex.: PHQ-9) auxiliam na quantificação da gravidade e no monitoramento da resposta ao tratamento ao longo do tempo",
+    ],
+    diagnosticoDiferencial: [
+      "Transtorno afetivo bipolar (investigar sistematicamente histórico de episódio maníaco/hipomaníaco prévio antes de iniciar antidepressivo isolado, pelo risco de precipitar virada maníaca)",
+      "Transtorno de adaptação com humor deprimido (sintomas mais leves, claramente relacionados a um estressor identificável, sem preencher todos os critérios de episódio depressivo maior)",
+      "Hipotireoidismo e outras causas orgânicas de sintomas depressivos",
+      "Luto não complicado (reação normal a perda, distinta de depressão maior embora possa evoluir para esta)",
+    ],
+    tratamento: [
+      "Psicoterapia (cognitivo-comportamental, interpessoal) é eficaz isoladamente em depressão leve a moderada e como complemento em depressão grave",
+      "Antidepressivo (classicamente um inibidor seletivo da recaptação de serotonina como primeira escolha) indicado em depressão moderada a grave, com resposta terapêutica geralmente observada após 2-4 semanas de uso adequado",
+      "Combinação de psicoterapia e antidepressivo é frequentemente superior a qualquer modalidade isolada em depressão moderada a grave",
+      "Eletroconvulsoterapia reservada a depressão grave refratária, com sintomas psicóticos, ou com risco de suicídio iminente exigindo resposta rápida",
+      "Hospitalização indicada diante de risco de suicídio significativo ou incapacidade de autocuidado",
+    ],
+    complicacoes: [
+      "Aguda: suicídio, principal desfecho evitável e mais temido, exigindo avaliação de risco em toda consulta",
+      "Crônica: cronificação e recorrência (o risco de novo episódio aumenta substancialmente após cada episódio prévio), prejuízo funcional social e ocupacional persistente",
+    ],
+    redFlags: [
+      "Ideação suicida com plano estruturado e/ou intenção exige avaliação de risco imediata e pode indicar necessidade de internação, independentemente da gravidade aparente dos demais sintomas",
+      "Sintomas psicóticos associados ao episódio depressivo (delírios, alucinações) indicam maior gravidade e podem exigir associação de antipsicótico e avaliação de internação",
+      "Histórico de episódio maníaco/hipomaníaco prévio contraindica antidepressivo isolado, pelo risco de precipitar virada maníaca — sempre investigar antes de iniciar tratamento",
+    ],
+    prognostico:
+      "A maioria dos episódios responde ao tratamento adequado, mas a depressão maior tem caráter frequentemente recorrente, com risco crescente de novos episódios a cada recorrência prévia, reforçando a importância do tratamento de manutenção em casos recorrentes.",
+    pontosDeProva: [
+      "Investigar sistematicamente história de mania/hipomania prévia antes de iniciar antidepressivo é conduta obrigatória, pelo risco de precipitar virada maníaca em paciente com transtorno bipolar não diagnosticado",
+      "A avaliação de risco de suicídio deve ser feita ativa e diretamente (perguntar sobre ideação, plano e intenção), nunca evitada por medo de 'induzir' a ideia — pergunta direta não aumenta o risco",
+      "O TSH deve ser sempre solicitado diante de sintomas depressivos, pelo hipotireoidismo ser causa orgânica reversível clássica e frequentemente cobrada",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 34 anos, relata humor deprimido, perda de interesse em atividades habituais, insônia e fadiga há 1 mês, associados a sentimentos de culpa e pensamentos de que 'seria melhor não estar aqui', sem plano estruturado.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Humor deprimido e anedonia persistentes associados a sintomas neurovegetativos e ideação de morte por mais de duas semanas preenchem critérios para episódio depressivo, exigindo avaliação imediata do risco de suicídio.",
+      conduta:
+        "Avaliar detalhadamente o risco de suicídio (ideação, plano, intenção), investigar história de episódio maníaco/hipomaníaco prévio, solicitar TSH para excluir causa orgânica, e iniciar psicoterapia associada a antidepressivo conforme a gravidade.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O antidepressivo de primeira linha (inibidor seletivo da recaptação de serotonina, ex.: fluoxetina) ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Critérios diagnósticos DSM-5/CID-11 e fisiopatologia monoaminérgica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Risco de virada maníaca com antidepressivo isolado em bipolar não diagnosticado", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "transtorno-depressivo-recorrente",
+    nome: "Transtorno depressivo recorrente",
+    sinonimos: ["Depressão maior recorrente", "Transtorno depressivo maior, episódio recorrente"],
+    cid10: "F33",
+    especialidade: "Psiquiatria",
+    etiologia: "Multifatorial",
+    resumo: "Ocorrência de dois ou mais episódios depressivos maiores distintos, com risco progressivamente maior de novas recorrências a cada episódio, reforçando a indicação de tratamento de manutenção prolongado.",
+    definicao:
+      "Transtorno caracterizado pela ocorrência de dois ou mais episódios depressivos maiores distintos, separados por um período de pelo menos dois meses sem sintomas significativos, distinguindo-se do episódio depressivo único pela natureza recorrente do curso.",
+    epidemiologia:
+      "Uma proporção substancial dos pacientes com um primeiro episódio depressivo maior apresentará ao menos uma recorrência ao longo da vida, com o risco de novo episódio aumentando progressivamente a cada recorrência prévia.",
+    fisiopatologia:
+      "Compartilha a fisiopatologia do episódio depressivo isolado (disfunção monoaminérgica, alterações do eixo hipotálamo-hipófise-adrenal, alterações em circuitos límbicos e pré-frontais), mas a recorrência repetida está associada a um processo de sensibilização progressiva, em que episódios subsequentes tendem a ocorrer com limiares de estresse cada vez menores, conceito central para justificar o tratamento de manutenção prolongado.",
+    classificacao:
+      "Classificado pelo número de episódios prévios (dois ou mais) e pela gravidade do episódio atual (leve, moderado, grave, com ou sem sintomas psicóticos), com o padrão de remissão entre episódios (completa ou parcial) tendo implicação prognóstica relevante.",
+    quadroClinico: [
+      "Episódio atual com as mesmas características clínicas do episódio depressivo isolado (humor deprimido, anedonia, alterações neurovegetativas e cognitivas)",
+      "História documentada de ao menos um episódio depressivo prévio, com período de remissão de pelo menos dois meses entre os episódios",
+      "Padrão de recorrência que pode ser sazonal em um subgrupo de pacientes, com episódios recorrendo em determinada época do ano",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado na documentação de dois ou mais episódios depressivos maiores distintos ao longo da vida, com período intercalar sem sintomas significativos",
+      "Revisão cuidadosa da história longitudinal do paciente, incluindo tratamentos prévios e resposta a eles, informação central para orientar a escolha terapêutica atual",
+      "Exclusão sistemática de episódio maníaco/hipomaníaco em qualquer momento da história, que redirecionaria o diagnóstico para transtorno afetivo bipolar",
+    ],
+    examesComplementares: [
+      "TSH para excluir hipotireoidismo como causa orgânica de recorrência sintomática",
+      "Revisão de adesão a tratamentos prévios, frequentemente subestimada e responsável por aparentes 'falhas terapêuticas'",
+    ],
+    diagnosticoDiferencial: [
+      "Transtorno afetivo bipolar (sempre excluir episódio maníaco/hipomaníaco prévio antes de confirmar exclusivamente episódios depressivos)",
+      "Transtorno depressivo persistente (distimia), com sintomas mais leves porém mais crônicos e contínuos, sem os períodos claros de remissão completa",
+      "Recorrência secundária a uso de substâncias ou a condição médica não tratada",
+    ],
+    tratamento: [
+      "Antidepressivo (inibidor seletivo da recaptação de serotonina como primeira escolha) associado a psicoterapia, seguindo os mesmos princípios do episódio isolado",
+      "Tratamento de manutenção prolongado (continuação do antidepressivo por período estendido após a remissão) é fortemente recomendado dado o risco aumentado de recorrência, sobretudo após três ou mais episódios prévios",
+      "Reavaliação da resposta a tratamentos prévios para orientar a escolha do agente atual, evitando repetir estratégias já comprovadamente ineficazes",
+    ],
+    complicacoes: [
+      "Aguda: suicídio, risco presente em cada novo episódio e que deve ser reavaliado a cada recorrência",
+      "Crônica: cronificação com remissões cada vez mais incompletas entre episódios, maior prejuízo funcional cumulativo",
+    ],
+    redFlags: [
+      "Ideação suicida em qualquer episódio, mesmo em paciente com histórico de episódios prévios leves, exige avaliação de risco completa e não deve ser minimizada pela experiência prévia",
+      "Padrão de encurtamento progressivo do intervalo entre episódios sugere necessidade de reforçar o tratamento de manutenção",
+    ],
+    prognostico:
+      "O risco de nova recorrência aumenta progressivamente a cada episódio prévio, o que justifica tratamento de manutenção mais prolongado após múltiplas recorrências; a adesão ao tratamento de manutenção reduz significativamente o risco de novos episódios.",
+    pontosDeProva: [
+      "O risco de recorrência aumenta a cada novo episódio, conceito central que justifica prolongar o tratamento de manutenção proporcionalmente ao número de episódios prévios",
+      "A exclusão de episódio maníaco/hipomaníaco prévio deve ser refeita a cada avaliação, já que o transtorno bipolar pode se manifestar inicialmente apenas com episódios depressivos",
+      "A distimia (transtorno depressivo persistente) é diagnóstico diferencial importante, com sintomas mais leves e crônicos, sem os períodos de remissão completa característicos do transtorno recorrente",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 42 anos, com dois episódios depressivos prévios tratados com sucesso, apresenta novo episódio de humor deprimido, anedonia e insônia há 3 semanas, o terceiro episódio em 10 anos.",
+      pergunta: "Qual a conduta terapêutica mais apropriada considerando o histórico?",
+      raciocinio:
+        "Terceiro episódio depressivo confirma transtorno depressivo recorrente; o histórico de múltiplas recorrências justifica considerar tratamento de manutenção prolongado após a remissão do episódio atual.",
+      conduta:
+        "Reavaliar a resposta aos tratamentos prévios para orientar a escolha do antidepressivo atual, associar psicoterapia, e planejar tratamento de manutenção estendido após a remissão dado o histórico de três episódios.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O antidepressivo de primeira linha ainda não tem ficha própria no site; a conduta segue os mesmos princípios farmacológicos do episódio depressivo isolado, com ênfase adicional no tratamento de manutenção prolongado.",
+    fontes: [
+      { tema: "Risco progressivo de recorrência e indicação de tratamento de manutenção", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Critérios diagnósticos para episódios recorrentes (DSM-5/CID-11)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "transtorno-afetivo-bipolar",
+    nome: "Transtorno afetivo bipolar",
+    sinonimos: ["Transtorno bipolar", "Doença maníaco-depressiva"],
+    cid10: "F31",
+    especialidade: "Psiquiatria",
+    etiologia: "Genética",
+    resumo: "Transtorno de humor caracterizado pela alternância entre episódios de mania/hipomania e episódios depressivos, com um dos maiores componentes hereditários entre os transtornos psiquiátricos, exigindo estabilizador de humor como base do tratamento.",
+    definicao:
+      "Transtorno psiquiátrico crônico caracterizado pela ocorrência de pelo menos um episódio de mania ou hipomania, tipicamente alternando ao longo do curso da doença com episódios depressivos maiores, embora o diagnóstico não exija a presença de episódio depressivo para sua confirmação.",
+    epidemiologia:
+      "Tem um dos maiores componentes hereditários entre os transtornos psiquiátricos, com risco substancialmente aumentado em familiares de primeiro grau de portadores. O início típico ocorre no final da adolescência ou início da idade adulta.",
+    fisiopatologia:
+      "Envolve disfunção da neurotransmissão monoaminérgica e alterações na sinalização intracelular relacionada à regulação do humor, com forte componente genético poligênico. Episódios maníacos e depressivos parecem refletir estados de desregulação em direções opostas dos mesmos circuitos neurais de regulação afetiva, embora os mecanismos exatos permaneçam incompletamente elucidados.",
+    classificacao:
+      "Classificado em tipo I (pelo menos um episódio de mania completa, com ou sem episódios depressivos) e tipo II (episódios de hipomania e ao menos um episódio depressivo maior, sem mania completa), distinção com implicação terapêutica e prognóstica relevante. A ciclagem rápida (quatro ou mais episódios de humor em 12 meses) é um especificador de curso mais grave.",
+    quadroClinico: [
+      "Episódio maníaco: humor eufórico ou irritável persistente, associado a grandiosidade, redução da necessidade de sono, fala acelerada, fuga de ideias, distratibilidade, aumento de atividade dirigida a objetivos e envolvimento excessivo em atividades de risco (gastos, decisões impulsivas)",
+      "Episódio hipomaníaco: sintomas semelhantes aos da mania, porém de menor intensidade e duração, sem causar prejuízo funcional grave e sem sintomas psicóticos",
+      "Episódio depressivo: mesmas características clínicas do episódio depressivo maior isolado",
+      "Sintomas psicóticos (delírios de grandeza, entre outros) podem acompanhar episódios maníacos graves",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado nos critérios do DSM-5/CID-11 para episódio maníaco (sintomas por pelo menos uma semana, ou qualquer duração se exigir hospitalização) ou hipomaníaco (pelo menos quatro dias)",
+      "Investigação sistemática de história de episódio de humor elevado em todo paciente com quadro depressivo, essencial para não confundir com depressão unipolar",
+      "Exclusão de causas orgânicas e de sintomas induzidos por substâncias (estimulantes, corticosteroides) antes de confirmar o diagnóstico primário",
+    ],
+    examesComplementares: [
+      "TSH e outros exames para excluir causas orgânicas de sintomas de humor elevado (ex.: hipertireoidismo), embora o diagnóstico seja predominantemente clínico",
+      "Rastreamento de uso de substâncias (estimulantes) que podem mimetizar ou desencadear episódios maníacos",
+    ],
+    diagnosticoDiferencial: [
+      "Transtorno depressivo recorrente (distinção fundamental é a presença de episódio de mania/hipomania, ausente na depressão unipolar)",
+      "Esquizofrenia e transtorno esquizoafetivo (sintomas psicóticos predominam e persistem independentemente do estado de humor)",
+      "Transtorno de personalidade borderline (instabilidade afetiva mais reativa a eventos interpessoais, de menor duração e sem os critérios temporais formais de episódio maníaco)",
+      "Mania secundária a substâncias (estimulantes, corticosteroides) ou a condição médica",
+    ],
+    tratamento: [
+      "Estabilizador de humor (lítio como referência histórica, também anticonvulsivantes como ácido valproico) é a base do tratamento tanto agudo quanto de manutenção",
+      "Antipsicótico é frequentemente associado no manejo agudo de episódio maníaco, sobretudo com sintomas psicóticos ou agitação intensa",
+      "Antidepressivo, quando usado no episódio depressivo bipolar, deve ser sempre associado a um estabilizador de humor, nunca em monoterapia, pelo risco de precipitar virada maníaca",
+      "Psicoeducação e psicoterapia como complemento ao tratamento farmacológico, com papel importante na adesão e no reconhecimento precoce de sinais de recaída",
+    ],
+    complicacoes: [
+      "Aguda: comportamento de risco durante episódio maníaco (gastos excessivos, decisões impulsivas, comportamento sexual de risco), suicídio durante episódios depressivos ou estados mistos",
+      "Crônica: prejuízo funcional social e ocupacional cumulativo, comorbidade frequente com transtornos por uso de substâncias",
+    ],
+    redFlags: [
+      "Sintomas psicóticos ou agitação grave durante episódio maníaco podem exigir internação involuntária para segurança do paciente e de terceiros",
+      "Estado misto (sintomas maníacos e depressivos simultâneos) associa-se a risco de suicídio particularmente elevado e exige atenção redobrada",
+      "Introdução de antidepressivo em monoterapia em paciente bipolar não reconhecido pode precipitar virada maníaca ou ciclagem rápida",
+    ],
+    prognostico:
+      "É um transtorno crônico e recorrente na grande maioria dos casos, mas com tratamento adequado (estabilizador de humor de manutenção), muitos pacientes alcançam períodos prolongados de estabilidade; a não adesão ao tratamento de manutenção é fator de risco importante para recaída.",
+    pontosDeProva: [
+      "A distinção entre tipo I (mania completa) e tipo II (hipomania, sem mania completa) tem implicação terapêutica e é frequentemente cobrada",
+      "O antidepressivo nunca deve ser usado em monoterapia no transtorno bipolar, pelo risco de precipitar virada maníaca — deve sempre ser associado a um estabilizador de humor",
+      "A hipomania causa menos prejuízo funcional e não inclui sintomas psicóticos, ao contrário da mania completa — distinção central para diferenciar tipo I de tipo II",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 26 anos, apresenta humor eufórico, redução da necessidade de sono (dormindo 2 horas por noite sem cansaço), fala acelerada e gastos financeiros impulsivos há 6 dias, com histórico de um episódio depressivo há 2 anos.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta terapêutica inicial?",
+      raciocinio:
+        "Sintomas maníacos com duração superior a uma semana, associados a histórico de episódio depressivo prévio, confirmam transtorno afetivo bipolar tipo I, não devendo ser tratado como depressão isolada.",
+      conduta:
+        "Iniciar estabilizador de humor como base do tratamento, associando antipsicótico se houver agitação significativa, e avaliar necessidade de internação diante do comportamento de risco (gastos impulsivos).",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O estabilizador de humor de primeira linha (lítio, ácido valproico) ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Critérios diagnósticos de mania/hipomania e distinção entre tipo I e II", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Risco de virada maníaca com antidepressivo em monoterapia", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "esquizofrenia",
+    nome: "Esquizofrenia",
+    sinonimos: [],
+    cid10: "F20",
+    especialidade: "Psiquiatria",
+    etiologia: "Genética",
+    resumo: "Transtorno psicótico crônico caracterizado por sintomas positivos (delírios, alucinações), negativos (embotamento afetivo, avolição) e cognitivos, com forte componente genético e neurodesenvolvimental.",
+    definicao:
+      "Transtorno psiquiátrico crônico e grave caracterizado por distorções fundamentais do pensamento e da percepção, associadas a afeto inadequado ou embotado, com curso tipicamente marcado por sintomas positivos, negativos e cognitivos que causam prejuízo funcional significativo.",
+    epidemiologia:
+      "Início tipicamente no final da adolescência ou início da idade adulta, um pouco mais precoce em homens que em mulheres. Tem componente genético substancial, com risco de recorrência familiar significativamente maior que na população geral, embora fatores ambientais (complicações obstétricas, uso de substâncias, adversidade urbana) também contribuam.",
+    fisiopatologia:
+      "A hipótese dopaminérgica, historicamente central, propõe hiperatividade dopaminérgica em vias mesolímbicas (associada a sintomas positivos) e hipoatividade em vias mesocorticais (associada a sintomas negativos e cognitivos). Alterações neurodesenvolvimentais estruturais (redução de volume em determinadas regiões corticais e límbicas) também são descritas, sustentando um modelo neurodesenvolvimental da doença que se manifesta clinicamente apenas com a maturação cerebral na adolescência/idade adulta jovem.",
+    classificacao:
+      "Classificada pelos critérios diagnósticos do DSM-5/CID-11, exigindo pelo menos dois sintomas característicos (delírios, alucinações, discurso desorganizado, comportamento grosseiramente desorganizado ou catatônico, sintomas negativos) por período significativo dentro de um mês, com sinais contínuos do transtorno por pelo menos seis meses e prejuízo funcional associado.",
+    quadroClinico: [
+      "Sintomas positivos: delírios (crenças fixas e falsas não compartilhadas culturalmente) e alucinações (mais comumente auditivas)",
+      "Sintomas negativos: embotamento afetivo, avolição (redução da motivação), alogia (pobreza do discurso), anedonia e isolamento social",
+      "Sintomas cognitivos: comprometimento de atenção, memória de trabalho e função executiva, frequentemente subestimados mas com forte impacto funcional",
+      "Discurso e comportamento desorganizados em casos mais graves",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado nos critérios do DSM-5/CID-11: presença de sintomas característicos por período significativo, com sinais contínuos por pelo menos seis meses e prejuízo funcional social/ocupacional associado",
+      "Exclusão de causas orgânicas (uso de substâncias, condição médica, outro transtorno psiquiátrico primário como transtorno esquizoafetivo ou episódio de humor com sintomas psicóticos) antes de confirmar o diagnóstico",
+      "Avaliação longitudinal do curso, já que um único episódio psicótico não preenche necessariamente os critérios temporais completos de esquizofrenia",
+    ],
+    examesComplementares: [
+      "Rastreamento toxicológico para excluir psicose induzida por substâncias (estimulantes, cannabis em altas doses), diagnóstico diferencial importante e comum",
+      "Neuroimagem considerada no primeiro episódio psicótico para excluir causas orgânicas estruturais, embora não haja achado de imagem diagnóstico específico da esquizofrenia",
+    ],
+    diagnosticoDiferencial: [
+      "Transtorno esquizoafetivo (sintomas de humor proeminentes concomitantes aos sintomas psicóticos, ao longo de parte substancial da doença)",
+      "Transtorno afetivo bipolar ou depressivo com sintomas psicóticos (sintomas psicóticos restritos aos períodos de alteração de humor)",
+      "Psicose induzida por substâncias (relação temporal clara com uso/abstinência de substância)",
+      "Transtorno delirante (delírios não bizarros isolados, sem os demais sintomas característicos da esquizofrenia)",
+    ],
+    tratamento: [
+      "Antipsicótico é a base do tratamento tanto na fase aguda quanto na manutenção, controlando predominantemente os sintomas positivos",
+      "Antipsicóticos de segunda geração são frequentemente preferidos por perfil de efeitos adversos motores mais favorável, embora com maior risco de efeitos metabólicos",
+      "Intervenções psicossociais (reabilitação psicossocial, treinamento de habilidades sociais, suporte familiar) são complementares importantes, sobretudo para sintomas negativos e cognitivos, historicamente menos responsivos aos antipsicóticos",
+      "Clozapina é reservada a casos refratários a pelo menos dois antipsicóticos em doses e durações adequadas, exigindo monitorização hematológica pelo risco de agranulocitose",
+    ],
+    complicacoes: [
+      "Aguda: comportamento de risco durante episódios psicóticos agudos, suicídio (risco significativamente maior que na população geral, sobretudo em fases iniciais da doença)",
+      "Crônica: prejuízo funcional social e ocupacional acumulado, maior mortalidade cardiovascular associada tanto à doença quanto aos efeitos metabólicos de antipsicóticos, comorbidade frequente com uso de substâncias",
+    ],
+    redFlags: [
+      "Ideação ou comportamento suicida deve ser sistematicamente avaliado, dado o risco significativamente elevado de suicídio nessa população, sobretudo nos primeiros anos após o diagnóstico",
+      "Sintomas de início agudo com rebaixamento do nível de consciência sugerem delirium por causa orgânica, não esquizofrenia, e exigem investigação médica imediata antes de assumir causa psiquiátrica primária",
+    ],
+    prognostico:
+      "Curso tipicamente crônico, com variabilidade individual significativa: uma parcela dos pacientes alcança bom controle funcional com tratamento adequado e adesão, enquanto outra parcela mantém sintomas residuais e prejuízo funcional persistente apesar do tratamento.",
+    pontosDeProva: [
+      "A hipótese dopaminérgica (hiperatividade mesolímbica para sintomas positivos, hipoatividade mesocortical para sintomas negativos) é o modelo fisiopatológico central e classicamente cobrado",
+      "Os sintomas negativos e cognitivos são historicamente menos responsivos aos antipsicóticos que os sintomas positivos, distinção terapêutica relevante",
+      "A clozapina é reservada à esquizofrenia refratária pelo risco de agranulocitose, exigindo monitorização hematológica obrigatória durante o tratamento",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 22 anos, apresenta há 8 meses isolamento social progressivo, discurso desorganizado, e relatos de vozes que comentam suas ações, associados a embotamento afetivo, sem uso de substâncias identificado.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Sintomas positivos (alucinações auditivas) e negativos (embotamento afetivo, isolamento) persistentes por mais de seis meses, sem uso de substâncias ou alteração de humor proeminente, são compatíveis com esquizofrenia.",
+      conduta:
+        "Excluir causa orgânica e uso de substâncias com investigação apropriada; iniciar antipsicótico como base do tratamento, associado a intervenções psicossociais e suporte familiar.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O antipsicótico de primeira linha (ex.: risperidona, haloperidol) ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Critérios diagnósticos DSM-5/CID-11 e hipótese dopaminérgica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Clozapina na esquizofrenia refratária e risco de agranulocitose", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "transtornos-fobico-ansiosos",
+    nome: "Transtornos fóbico-ansiosos",
+    sinonimos: ["Fobia específica", "Fobia social", "Agorafobia"],
+    cid10: "F40",
+    especialidade: "Psiquiatria",
+    etiologia: "Multifatorial",
+    resumo: "Grupo de transtornos de ansiedade caracterizados por medo intenso e persistente desencadeado por situações ou objetos específicos, levando a comportamento de esquiva, tratados preferencialmente com terapia cognitivo-comportamental de exposição.",
+    definicao:
+      "Grupo de transtornos caracterizados por ansiedade desencadeada quase exclusivamente por, ou predominantemente relacionada a, situações ou objetos específicos (externos ao indivíduo) que não são atualmente perigosos, levando a esquiva característica dessas situações.",
+    epidemiologia:
+      "São um dos grupos de transtornos psiquiátricos mais prevalentes, com a fobia social e as fobias específicas figurando entre os mais comuns; início tipicamente mais precoce (infância/adolescência) que outros transtornos ansiosos, embora a agorafobia frequentemente inicie mais tarde.",
+    fisiopatologia:
+      "Envolve hiperativação de circuitos de medo centrados na amígdala e conexões com córtex pré-frontal, com componente de aprendizado (condicionamento clássico a estímulos específicos) somado a vulnerabilidade genética e temperamental (traços de inibição comportamental desde a infância).",
+    classificacao:
+      "Classificado por subtipo conforme o estímulo desencadeante: fobia específica (objeto ou situação circunscrita, ex.: animais, alturas, sangue), fobia social/transtorno de ansiedade social (situações de escrutínio social) e agorafobia (medo de situações das quais escapar seria difícil ou embaraçoso, como espaços abertos, transporte público, multidões).",
+    quadroClinico: [
+      "Ansiedade intensa e desproporcional desencadeada pela exposição (real ou antecipada) ao estímulo fóbico específico",
+      "Comportamento de esquiva ativa das situações temidas, que frequentemente causa prejuízo funcional significativo",
+      "Sintomas físicos de ansiedade durante a exposição (taquicardia, sudorese, tremor, sensação de falta de ar)",
+      "Reconhecimento pelo próprio paciente de que o medo é excessivo ou irracional em relação ao perigo real, embora isso não reduza a intensidade da ansiedade experimentada",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado nos critérios do DSM-5/CID-11: medo ou ansiedade acentuados desencadeados por situação/objeto específico, com esquiva ativa, persistindo tipicamente por seis meses ou mais e causando prejuízo funcional",
+      "Diferenciação cuidadosa entre os subtipos (específica, social, agorafobia), com implicação no foco da terapia de exposição",
+    ],
+    examesComplementares: [
+      "Não há exame laboratorial ou de imagem específico para o diagnóstico, que é predominantemente clínico com base na anamnese detalhada dos gatilhos e do padrão de esquiva",
+    ],
+    diagnosticoDiferencial: [
+      "Transtorno do pânico (crises de ansiedade não necessariamente ligadas a um estímulo externo específico, podendo ocorrer 'do nada')",
+      "Transtorno de ansiedade generalizada (preocupação difusa e persistente, não restrita a situações específicas)",
+      "Transtorno de estresse pós-traumático (esquiva relacionada especificamente a lembranças de um evento traumático identificável)",
+    ],
+    tratamento: [
+      "Terapia cognitivo-comportamental com exposição gradual e sistemática ao estímulo temido é o tratamento de primeira linha e o mais eficaz para os transtornos fóbico-ansiosos",
+      "Inibidor seletivo da recaptação de serotonina é considerado especialmente na fobia social generalizada e na agorafobia com prejuízo funcional significativo, geralmente associado à terapia de exposição",
+      "Benzodiazepínico não é recomendado como tratamento de base pelo risco de dependência e por não abordar o mecanismo de esquiva que mantém o transtorno, sendo reservado a uso pontual muito seletivo",
+    ],
+    complicacoes: [
+      "Aguda: crises de ansiedade intensa com sintomas físicos durante exposição inevitável ao estímulo fóbico",
+      "Crônica: restrição progressiva das atividades e do funcionamento social/ocupacional pela esquiva generalizada, sobretudo na agorafobia não tratada",
+    ],
+    redFlags: [
+      "Esquiva tão extensa que impede completamente a saída de casa (agorafobia grave) exige intervenção terapêutica ativa e estruturada, dado o risco de isolamento social profundo",
+    ],
+    prognostico:
+      "A terapia cognitivo-comportamental de exposição tem alta taxa de eficácia para fobias específicas e sociais, com melhora sustentada na maioria dos pacientes que completam o tratamento adequadamente.",
+    pontosDeProva: [
+      "A terapia de exposição é o tratamento de primeira linha e mais eficaz para os transtornos fóbico-ansiosos, superando frequentemente a farmacoterapia isolada — distinção terapêutica central",
+      "Benzodiazepínicos não são recomendados como tratamento de base, pois o alívio sintomático imediato pode reforçar paradoxalmente o padrão de esquiva que sustenta o transtorno",
+      "A distinção entre fobia específica, fobia social e agorafobia orienta o foco específico da terapia de exposição",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 29 anos, relata evitar sistematicamente apresentações no trabalho e reuniões sociais por medo intenso de ser julgada, com sintomas físicos de ansiedade (rubor, tremor de voz) quando exposta a essas situações, há vários anos.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e o tratamento de primeira linha?",
+      raciocinio:
+        "Medo intenso e persistente de situações de escrutínio social, com esquiva ativa e sintomas físicos de ansiedade na exposição, é característico de fobia social.",
+      conduta:
+        "Indicar terapia cognitivo-comportamental com exposição gradual como tratamento de primeira linha, considerando associação de inibidor seletivo da recaptação de serotonina se houver prejuízo funcional significativo.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento de primeira linha é a terapia cognitivo-comportamental de exposição, não farmacológica; quando indicado, o inibidor seletivo da recaptação de serotonina ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Classificação por subtipo e fisiopatologia dos circuitos de medo", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Terapia de exposição como tratamento de primeira linha", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "transtornos-ansiosos-tag-panico",
+    nome: "Transtorno de ansiedade generalizada e transtorno do pânico",
+    sinonimos: ["TAG", "Transtorno do pânico", "Síndrome do pânico"],
+    cid10: "F41",
+    especialidade: "Psiquiatria",
+    etiologia: "Multifatorial",
+    resumo: "Grupo que engloba o transtorno de ansiedade generalizada, caracterizado por preocupação excessiva e difusa, e o transtorno do pânico, caracterizado por crises recorrentes e inesperadas de ansiedade intensa, ambos tratados definitivamente com antidepressivo e psicoterapia.",
+    definicao:
+      "Categoria que reúne o transtorno de ansiedade generalizada (preocupação excessiva, difusa e de difícil controle sobre múltiplos aspectos da vida, presente na maioria dos dias por pelo menos seis meses) e o transtorno do pânico (crises recorrentes e inesperadas de ansiedade intensa, com pico em minutos, acompanhadas de sintomas físicos proeminentes).",
+    epidemiologia:
+      "Ambos os transtornos são comuns na população geral, mais prevalentes em mulheres, com o transtorno do pânico frequentemente iniciando no final da adolescência ou início da idade adulta, e a ansiedade generalizada podendo ter curso mais crônico desde períodos mais precoces da vida.",
+    fisiopatologia:
+      "Envolve hiperativação de circuitos de medo e ansiedade centrados na amígdala, disfunção da neurotransmissão serotoninérgica e noradrenérgica, e no transtorno do pânico especificamente, hipersensibilidade a sinais de asfixia/alterações respiratórias que desencadeiam a resposta de pânico de forma abrupta e aparentemente desproporcional ao estímulo.",
+    classificacao:
+      "Não há um sistema de estadiamento formal; a distinção clinicamente mais relevante é entre transtorno de ansiedade generalizada (ansiedade difusa, contínua) e transtorno do pânico (crises episódicas, agudas e autolimitadas, por vezes acompanhadas de agorafobia secundária pelo medo de novas crises).",
+    quadroClinico: [
+      "Transtorno de ansiedade generalizada: preocupação excessiva e de difícil controle sobre múltiplas áreas da vida, associada a inquietação, fadiga, dificuldade de concentração, irritabilidade, tensão muscular e distúrbio do sono",
+      "Transtorno do pânico: crises abruptas de ansiedade intensa com pico em minutos, acompanhadas de sintomas físicos proeminentes (taquicardia, sudorese, tremor, sensação de falta de ar, dor torácica, tontura, medo de morrer ou perder o controle)",
+      "Ansiedade antecipatória entre as crises de pânico (medo de ter uma nova crise), que pode evoluir para agorafobia secundária",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado nos critérios do DSM-5/CID-11 para cada transtorno específico",
+      "No transtorno do pânico, exclusão de causas orgânicas que mimetizam crises de pânico (arritmias cardíacas, hipertireoidismo, feocromocitoma, hipoglicemia) é etapa importante, sobretudo no primeiro episódio",
+      "Eletrocardiograma e avaliação clínica direcionada nas crises de pânico com dor torácica, para excluir causa cardíaca antes de assumir origem exclusivamente ansiosa",
+    ],
+    examesComplementares: [
+      "TSH para excluir hipertireoidismo, causa orgânica que pode mimetizar tanto ansiedade generalizada quanto crises de pânico",
+      "Eletrocardiograma nas crises de pânico com sintomas cardiovasculares, para exclusão de causa cardíaca antes de assumir diagnóstico psiquiátrico exclusivamente",
+    ],
+    diagnosticoDiferencial: [
+      "Hipertireoidismo e feocromocitoma (causas orgânicas de sintomas ansiosos/adrenérgicos que devem ser excluídas)",
+      "Transtornos fóbico-ansiosos (ansiedade desencadeada por estímulo específico identificável, ao contrário da preocupação difusa do TAG ou das crises inesperadas do pânico)",
+      "Abstinência de álcool ou benzodiazepínicos (pode mimetizar sintomas de ansiedade intensa e crises autonômicas)",
+    ],
+    tratamento: [
+      "Inibidor seletivo da recaptação de serotonina é o tratamento farmacológico de primeira linha e definitivo tanto para o TAG quanto para o transtorno do pânico, associado a terapia cognitivo-comportamental",
+      "Benzodiazepínico (ex.: diazepam) pode ser usado para alívio sintomático de curto prazo enquanto o antidepressivo atinge seu efeito pleno (geralmente 2-4 semanas), mas não deve ser mantido como tratamento de manutenção pelo risco de dependência",
+      "Terapia cognitivo-comportamental, incluindo técnicas específicas para reestruturar a interpretação catastrófica dos sintomas físicos no transtorno do pânico, é eficaz tanto isoladamente quanto associada à farmacoterapia",
+    ],
+    complicacoes: [
+      "Aguda: crise de pânico intensa pode levar a atendimentos de emergência repetidos por sintomas mimetizando eventos cardiovasculares agudos",
+      "Crônica: agorafobia secundária ao medo de novas crises de pânico, uso indevido/dependência de benzodiazepínicos quando usados como única estratégia de manejo a longo prazo",
+    ],
+    redFlags: [
+      "Dor torácica durante crise de ansiedade em paciente com fatores de risco cardiovascular deve sempre motivar avaliação cardíaca antes de atribuir exclusivamente a crise de pânico, mesmo em paciente com diagnóstico prévio conhecido",
+      "Uso crescente e não supervisionado de benzodiazepínico para controle da ansiedade sugere risco de dependência, exigindo reavaliação da estratégia terapêutica",
+    ],
+    prognostico:
+      "Ambos os transtornos respondem bem ao tratamento combinado (antidepressivo e terapia cognitivo-comportamental) na maioria dos pacientes, embora possam ter curso crônico ou recorrente sem tratamento adequado.",
+    pontosDeProva: [
+      "O antidepressivo (inibidor seletivo da recaptação de serotonina), não o benzodiazepínico, é o tratamento farmacológico definitivo tanto do TAG quanto do transtorno do pânico — o benzodiazepínico é apenas ponte de curto prazo",
+      "Excluir causas orgânicas (hipertireoidismo, arritmias, feocromocitoma) é etapa obrigatória antes de assumir diagnóstico psiquiátrico exclusivamente, sobretudo no primeiro episódio de crise de pânico",
+      "A agorafobia secundária ao medo de novas crises de pânico é complicação comum e deve ser ativamente rastreada e tratada",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 31 anos, apresenta episódios recorrentes e inesperados de taquicardia, sudorese intensa e sensação de morte iminente, com duração de cerca de 10 minutos, há 2 meses, associados a medo constante de ter uma nova crise.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Crises recorrentes, abruptas e inesperadas de ansiedade intensa com sintomas físicos proeminentes e ansiedade antecipatória entre as crises são características do transtorno do pânico.",
+      conduta:
+        "Excluir causas orgânicas (eletrocardiograma, TSH) antes de confirmar o diagnóstico; iniciar inibidor seletivo da recaptação de serotonina associado a terapia cognitivo-comportamental, considerando benzodiazepínico por curto período enquanto o antidepressivo atinge efeito pleno.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "diazepam", nome: "Diazepam" },
+    ],
+    medicamentosSecaoTitulo: "Alívio sintomático de curto prazo enquanto o antidepressivo (tratamento definitivo) atinge efeito pleno",
+    medicamentosNota:
+      "O diazepam não é o tratamento definitivo — o inibidor seletivo da recaptação de serotonina, ainda sem ficha própria no site, é a primeira linha farmacológica real. O diazepam serve apenas como ponte de curto prazo, pelo risco de dependência com uso prolongado.",
+    fontes: [
+      { tema: "Fisiopatologia (circuitos de medo, hipersensibilidade respiratória no pânico) e critérios diagnósticos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Antidepressivo como tratamento definitivo e benzodiazepínico apenas como ponte de curto prazo", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "transtorno-obsessivo-compulsivo",
+    nome: "Transtorno obsessivo-compulsivo",
+    sinonimos: ["TOC"],
+    cid10: "F42",
+    especialidade: "Psiquiatria",
+    etiologia: "Multifatorial",
+    resumo: "Transtorno caracterizado por obsessões (pensamentos intrusivos e recorrentes) e/ou compulsões (comportamentos repetitivos realizados para reduzir a ansiedade gerada pelas obsessões), com tratamento definitivo combinando antidepressivo em dose alta e terapia comportamental específica.",
+    definicao:
+      "Transtorno psiquiátrico caracterizado pela presença de obsessões (pensamentos, impulsos ou imagens intrusivos, recorrentes e indesejados, que causam ansiedade acentuada) e/ou compulsões (comportamentos ou atos mentais repetitivos que o indivíduo se sente compelido a realizar em resposta a uma obsessão, geralmente para reduzir a ansiedade associada).",
+    epidemiologia:
+      "Prevalência semelhante entre homens e mulheres, com início frequentemente na adolescência ou início da idade adulta, embora possa começar na infância. O reconhecimento e a busca por tratamento são frequentemente tardios, pelo constrangimento associado ao conteúdo das obsessões.",
+    fisiopatologia:
+      "Envolve disfunção de circuitos córtico-estriado-talâmico-corticais, com hiperatividade em regiões orbitofrontais e nos núcleos da base, além de disfunção da neurotransmissão serotoninérgica, base racional do uso de doses mais altas de inibidores seletivos da recaptação de serotonina que as usadas na depressão.",
+    classificacao:
+      "Não há sistema de estadiamento formal; a gravidade é avaliada por escalas padronizadas (ex.: Escala Yale-Brown de Obsessões e Compulsões), e o transtorno é subclassificado quanto ao grau de insight do paciente sobre a irracionalidade das crenças (bom insight, insight pobre, ausência de insight/crenças delirantes).",
+    quadroClinico: [
+      "Obsessões comuns: medo de contaminação, dúvidas patológicas (ex.: medo de ter deixado o fogão ligado), pensamentos agressivos ou de conteúdo sexual intrusivos e egodistônicos (reconhecidos pelo paciente como indesejados e alheios aos seus valores)",
+      "Compulsões comuns: lavagem excessiva das mãos, verificação repetitiva, ordenação/simetria, contagem",
+      "Tempo significativo consumido pelas obsessões e compulsões (geralmente mais de uma hora por dia), causando prejuízo funcional substancial",
+      "Reconhecimento, na maioria dos casos, de que as obsessões e compulsões são excessivas ou irracionais, embora isso não seja suficiente para interromper o ciclo",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado nos critérios do DSM-5/CID-11: presença de obsessões e/ou compulsões que consomem tempo significativo e causam prejuízo funcional",
+      "Escala Yale-Brown de Obsessões e Compulsões auxilia na quantificação da gravidade e no monitoramento da resposta ao tratamento",
+      "Avaliação do grau de insight do paciente, com implicação na abordagem terapêutica e no prognóstico",
+    ],
+    examesComplementares: [
+      "Não há exame laboratorial ou de imagem específico para o diagnóstico, predominantemente clínico",
+      "Escala Yale-Brown de Obsessões e Compulsões (Y-BOCS) como instrumento padronizado de gravidade",
+    ],
+    diagnosticoDiferencial: [
+      "Transtornos do espectro obsessivo-compulsivo relacionados (transtorno dismórfico corporal, tricotilomania), com fenomenologia semelhante mas focos distintos",
+      "Transtorno de personalidade obsessivo-compulsiva (padrão de perfeccionismo e rigidez egossintônico, sem as obsessões e compulsões egodistônicas específicas do TOC)",
+      "Transtorno de ansiedade generalizada (preocupações mais realistas sobre eventos da vida cotidiana, sem os rituais compulsivos característicos)",
+    ],
+    tratamento: [
+      "Inibidor seletivo da recaptação de serotonina em doses tipicamente mais altas que as usadas para depressão é o tratamento farmacológico de primeira linha, com resposta esperada mais tardia (8-12 semanas) que na depressão",
+      "Terapia cognitivo-comportamental com técnica de exposição e prevenção de resposta é altamente eficaz, isoladamente ou associada à farmacoterapia, sendo considerada por muitos o tratamento de primeira linha junto com o antidepressivo",
+      "Casos refratários à combinação de antidepressivo em dose adequada e terapia de exposição e prevenção de resposta podem se beneficiar de estratégias de potencialização com antipsicótico em dose baixa",
+    ],
+    complicacoes: [
+      "Aguda: ansiedade extrema quando impedido de realizar a compulsão",
+      "Crônica: prejuízo funcional social e ocupacional significativo pelo tempo consumido pelos rituais, isolamento social, comorbidade frequente com depressão",
+    ],
+    redFlags: [
+      "Obsessões de conteúdo agressivo ou sexual intrusivo, embora angustiantes, são tipicamente egodistônicas e não indicam risco real de ação — importante para não confundir com ideação de dano genuína e evitar intervenções desproporcionais",
+      "Insight ausente (crenças com qualidade delirante sobre a obsessão) exige reavaliação diagnóstica cuidadosa e pode indicar necessidade de abordagem terapêutica adicional",
+    ],
+    prognostico:
+      "Com tratamento combinado adequado (antidepressivo em dose alta e terapia de exposição e prevenção de resposta), a maioria dos pacientes apresenta melhora significativa, embora sintomas residuais sejam comuns e o curso tenda a ser crônico sem tratamento de manutenção.",
+    pontosDeProva: [
+      "O TOC exige doses mais altas de inibidor seletivo da recaptação de serotonina que a depressão, e a resposta terapêutica é mais tardia (8-12 semanas) — distinção farmacológica frequentemente cobrada",
+      "A terapia de exposição e prevenção de resposta é a modalidade psicoterapêutica específica e mais eficaz para o TOC, distinta da terapia de exposição usada nas fobias",
+      "As obsessões são tipicamente egodistônicas (reconhecidas como indesejadas e alheias aos valores do paciente), distinção importante que ajuda a diferenciar de ideação verdadeiramente pretendida",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 24 anos, relata verificar repetidamente se a porta está trancada e o fogão desligado, um processo que consome mais de 2 horas por dia, reconhecendo que o comportamento é excessivo mas incapaz de interromper o ciclo.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e o tratamento de primeira linha?",
+      raciocinio:
+        "Compulsões de verificação repetitiva que consomem tempo significativo, associadas a insight preservado sobre a irracionalidade do comportamento, são características do transtorno obsessivo-compulsivo.",
+      conduta:
+        "Indicar terapia cognitivo-comportamental com exposição e prevenção de resposta, associada a inibidor seletivo da recaptação de serotonina em dose adequada (tipicamente mais alta que na depressão), com expectativa de resposta mais tardia.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O inibidor seletivo da recaptação de serotonina em dose alta é o tratamento farmacológico de primeira linha, ainda sem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia (circuitos córtico-estriado-talâmico-corticais) e critérios diagnósticos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Necessidade de doses mais altas de ISRS e resposta terapêutica mais tardia que na depressão", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "transtorno-estresse-pos-traumatico",
+    nome: "Transtorno de estresse pós-traumático",
+    sinonimos: ["TEPT", "Reações ao stress grave"],
+    cid10: "F43",
+    especialidade: "Psiquiatria",
+    etiologia: "Traumática",
+    resumo: "Transtorno que se desenvolve após exposição a evento traumático grave, caracterizado por revivescência intrusiva, esquiva, alterações negativas de cognição/humor e hiperativação, com terapia focada no trauma como tratamento central.",
+    definicao:
+      "Transtorno psiquiátrico que se desenvolve após exposição direta ou testemunhada a um evento traumático que envolveu morte real ou ameaça de morte, lesão grave ou violência sexual, caracterizado por sintomas de revivescência intrusiva, esquiva de estímulos associados ao trauma, alterações negativas de cognição e humor, e hiperativação/reatividade aumentada, persistindo por mais de um mês.",
+    epidemiologia:
+      "Nem todo indivíduo exposto a um evento traumático desenvolve o transtorno; fatores como a gravidade e a natureza do trauma (violência interpessoal associada a maior risco que desastres naturais), suporte social pós-trauma e vulnerabilidade individual prévia influenciam o risco de desenvolvimento.",
+    fisiopatologia:
+      "Envolve consolidação anômala da memória traumática, com hiperativação da amígdala em resposta a estímulos associados ao trauma e hipoatividade do córtex pré-frontal medial (relacionado à regulação/extinção do medo), resultando em dificuldade de extinguir naturalmente a resposta de medo condicionada ao trauma.",
+    classificacao:
+      "Não há sistema de estadiamento formal; o transtorno é definido por quatro clusters sintomáticos exigidos pelo DSM-5: intrusão (revivescência, pesadelos, flashbacks), esquiva (de lembranças, pensamentos ou lembretes externos do trauma), alterações negativas de cognição/humor, e alterações de excitabilidade/reatividade (hipervigilância, sobressalto exagerado, irritabilidade).",
+    quadroClinico: [
+      "Revivescência intrusiva do evento traumático (memórias intrusivas, pesadelos, flashbacks dissociativos)",
+      "Esquiva ativa de pensamentos, sentimentos ou lembretes externos associados ao trauma",
+      "Alterações negativas de cognição e humor: crenças negativas persistentes sobre si mesmo ou o mundo, culpa ou vergonha persistentes, incapacidade de sentir emoções positivas, sensação de distanciamento de outros",
+      "Hiperativação: hipervigilância, resposta de sobressalto exagerada, irritabilidade/explosões de raiva, dificuldade de concentração, distúrbio do sono",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado nos critérios do DSM-5/CID-11, exigindo exposição a evento traumático qualificado e sintomas dos quatro clusters por mais de um mês, com prejuízo funcional associado",
+      "Diferenciação do transtorno de estresse agudo, que compartilha fenomenologia semelhante mas com duração entre 3 dias e 1 mês após o trauma",
+    ],
+    examesComplementares: [
+      "Não há exame laboratorial ou de imagem específico para o diagnóstico, que é predominantemente clínico com anamnese detalhada do evento traumático e dos sintomas",
+    ],
+    diagnosticoDiferencial: [
+      "Transtorno de estresse agudo (mesma fenomenologia, mas com duração entre 3 dias e 1 mês, podendo evoluir para TEPT se os sintomas persistirem além desse período)",
+      "Transtorno de adaptação (sintomas emocionais/comportamentais em resposta a estressor identificável, mas sem preencher critérios completos de exposição traumática qualificada ou o padrão específico de sintomas do TEPT)",
+      "Transtorno depressivo maior (pode coexistir e compartilhar sintomas de humor negativo, mas sem os clusters específicos de intrusão e esquiva relacionados ao trauma)",
+    ],
+    tratamento: [
+      "Terapia focada no trauma (terapia cognitivo-comportamental focada no trauma, dessensibilização e reprocessamento por movimentos oculares) é o tratamento de primeira linha, com evidência robusta de eficácia",
+      "Inibidor seletivo da recaptação de serotonina é a opção farmacológica de primeira linha quando indicada, sobretudo em casos com sintomas depressivos ou ansiosos proeminentes associados, ou quando a psicoterapia não está prontamente disponível",
+      "Benzodiazepínico não é recomendado como tratamento do TEPT, por não abordar os mecanismos centrais do transtorno e por possível interferência com o processamento da memória traumática durante a psicoterapia",
+    ],
+    complicacoes: [
+      "Aguda: comportamento de risco e ideação suicida durante períodos de exacerbação sintomática",
+      "Crônica: comorbidade frequente com depressão, transtornos por uso de substâncias (como forma de automedicação da hiperativação) e prejuízo funcional social e ocupacional persistente",
+    ],
+    redFlags: [
+      "Ideação suicida deve ser sistematicamente avaliada, dado o risco aumentado nessa população, sobretudo em casos com trauma de natureza interpessoal/violência",
+      "Flashbacks dissociativos intensos podem ser confundidos com outros transtornos psicóticos ou neurológicos se a história de trauma não for adequadamente investigada",
+    ],
+    prognostico:
+      "Uma parcela significativa dos pacientes apresenta melhora substancial com terapia focada no trauma, embora o curso possa ser crônico em casos não tratados ou com trauma de natureza mais grave/prolongada (ex.: trauma interpessoal repetido).",
+    pontosDeProva: [
+      "A terapia focada no trauma é o tratamento de primeira linha com maior evidência de eficácia, devendo ser priorizada sobre a farmacoterapia isolada sempre que disponível",
+      "Benzodiazepínicos não são recomendados no TEPT, ao contrário do que a intuição sugeriria para um transtorno de ansiedade — distinção terapêutica frequentemente cobrada",
+      "A distinção entre transtorno de estresse agudo (até 1 mês) e TEPT (além de 1 mês) é baseada exclusivamente na duração dos sintomas, não na gravidade",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 35 anos, vítima de assalto violento há 3 meses, relata pesadelos recorrentes sobre o evento, esquiva de sair de casa à noite, hipervigilância constante e sensação de distanciamento emocional da família.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e o tratamento de primeira linha?",
+      raciocinio:
+        "Sintomas de revivescência, esquiva, alteração de humor e hiperativação persistindo por mais de um mês após evento traumático qualificado (violência) são compatíveis com transtorno de estresse pós-traumático.",
+      conduta:
+        "Encaminhar para terapia focada no trauma como tratamento de primeira linha, considerando inibidor seletivo da recaptação de serotonina como adjuvante farmacológico se houver sintomas depressivos/ansiosos proeminentes associados.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento de primeira linha é a terapia focada no trauma, não farmacológica; quando indicado, o inibidor seletivo da recaptação de serotonina ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia (hiperativação da amígdala, hipoatividade pré-frontal) e critérios diagnósticos DSM-5", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Terapia focada no trauma como primeira linha e contraindicação de benzodiazepínicos", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "transtornos-alimentares",
+    nome: "Transtornos da alimentação",
+    sinonimos: ["Anorexia nervosa", "Bulimia nervosa"],
+    cid10: "F50",
+    especialidade: "Psiquiatria",
+    etiologia: "Multifatorial",
+    resumo: "Grupo de transtornos caracterizados por padrões alimentares persistentemente disfuncionais, cujos representantes principais são a anorexia nervosa (restrição alimentar com medo intenso de ganhar peso) e a bulimia nervosa (episódios de compulsão alimentar seguidos de comportamentos compensatórios).",
+    definicao:
+      "Grupo de transtornos psiquiátricos caracterizados por padrões persistentes de comportamento alimentar disfuncional que causam prejuízo à saúde física ou ao funcionamento psicossocial, mais representados pela anorexia nervosa e pela bulimia nervosa.",
+    epidemiologia:
+      "Predominam significativamente em mulheres, com início tipicamente na adolescência. A anorexia nervosa tem uma das maiores taxas de mortalidade entre os transtornos psiquiátricos, decorrente tanto de complicações clínicas da desnutrição quanto de suicídio.",
+    fisiopatologia:
+      "Envolve interação complexa entre fatores genéticos, temperamentais (perfeccionismo, traços obsessivos), socioculturais (pressão por padrões corporais) e neurobiológicos (disfunção de circuitos de recompensa e regulação do apetite). Na anorexia nervosa, a restrição calórica persistente leva a adaptações fisiológicas severas (bradicardia, hipotensão, amenorreia, osteopenia) que podem se tornar autoperpetuantes.",
+    classificacao:
+      "Classificado principalmente em anorexia nervosa (restrição da ingestão calórica levando a peso corporal significativamente baixo, medo intenso de ganhar peso, e distorção da autoimagem corporal) e bulimia nervosa (episódios recorrentes de compulsão alimentar seguidos de comportamentos compensatórios inadequados, como vômitos autoinduzidos, uso de laxantes ou exercício excessivo, geralmente com peso corporal normal ou próximo do normal).",
+    quadroClinico: [
+      "Anorexia nervosa: restrição alimentar significativa, peso corporal muito abaixo do esperado, medo intenso de ganhar peso mesmo estando com baixo peso, distorção da percepção da própria forma corporal, amenorreia frequentemente associada",
+      "Bulimia nervosa: episódios recorrentes de compulsão alimentar (ingestão de grande quantidade de alimento com sensação de perda de controle) seguidos de comportamentos compensatórios (vômitos autoinduzidos, uso de laxantes/diuréticos, exercício excessivo)",
+      "Sinais físicos de desnutrição grave na anorexia: lanugo (pelos finos), bradicardia, hipotensão, hipotermia",
+      "Sinais físicos de purgação recorrente na bulimia: erosão do esmalte dentário, calosidade no dorso da mão (sinal de Russell) por indução mecânica do vômito",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado nos critérios do DSM-5/CID-11 específicos para cada subtipo",
+      "Avaliação antropométrica (índice de massa corporal) e história alimentar detalhada, incluindo padrões de restrição, compulsão e comportamentos compensatórios",
+      "Investigação de complicações clínicas associadas (distúrbios eletrolíticos, alterações cardíacas) em todo paciente com suspeita de transtorno alimentar",
+    ],
+    examesComplementares: [
+      "Eletrólitos séricos, com atenção especial à hipocalemia na bulimia nervosa (por vômitos recorrentes ou uso de laxantes/diuréticos), achado com risco de arritmia grave",
+      "Eletrocardiograma para avaliar bradicardia e alterações de repolarização associadas à desnutrição grave ou a distúrbios eletrolíticos",
+      "Densitometria óssea em anorexia nervosa prolongada, pelo risco de osteopenia/osteoporose secundária ao hipoestrogenismo e à desnutrição crônica",
+    ],
+    diagnosticoDiferencial: [
+      "Transtorno de compulsão alimentar (episódios de compulsão sem os comportamentos compensatórios característicos da bulimia)",
+      "Causas médicas de perda de peso (doenças gastrointestinais, hipertireoidismo, neoplasias), que devem ser excluídas sobretudo quando a distorção da autoimagem corporal não é proeminente",
+      "Transtornos de ansiedade e depressão, frequentemente comórbidos e que podem tanto contribuir para quanto resultar do transtorno alimentar",
+    ],
+    tratamento: [
+      "Terapia focada na família é particularmente eficaz em adolescentes com anorexia nervosa, envolvendo os pais ativamente na restauração do peso",
+      "Terapia cognitivo-comportamental é o tratamento psicoterapêutico de primeira linha para a bulimia nervosa, com boa evidência de eficácia",
+      "Restauração nutricional e monitorização médica cuidadosa (incluindo eletrólitos) são essenciais na anorexia nervosa, com internação indicada em casos de instabilidade clínica grave",
+      "Inibidor seletivo da recaptação de serotonina tem papel mais estabelecido na bulimia nervosa (reduzindo a frequência de episódios de compulsão/purgação) que na anorexia nervosa, na qual a farmacoterapia isolada tem eficácia limitada",
+    ],
+    complicacoes: [
+      "Aguda: síndrome de realimentação (distúrbios eletrolíticos graves, sobretudo hipofosfatemia, ao reintroduzir alimentação em paciente gravemente desnutrido) e arritmias por hipocalemia na bulimia",
+      "Crônica: osteoporose e infertilidade na anorexia nervosa prolongada, erosão dentária e complicações gastrointestinais na bulimia, mortalidade elevada em ambos, sobretudo na anorexia nervosa",
+    ],
+    redFlags: [
+      "Bradicardia significativa, hipotensão ou alterações eletrocardiográficas em paciente com anorexia nervosa exigem avaliação médica urgente e podem indicar necessidade de internação para estabilização clínica",
+      "Realimentação em paciente com desnutrição grave exige monitorização cuidadosa de eletrólitos (fósforo, potássio, magnésio) pelo risco de síndrome de realimentação potencialmente fatal",
+      "Hipocalemia grave em paciente com bulimia nervosa e purgação recorrente é achado que exige correção urgente pelo risco de arritmia",
+    ],
+    prognostico:
+      "A bulimia nervosa tem prognóstico geralmente mais favorável que a anorexia nervosa, com boa resposta à terapia cognitivo-comportamental na maioria dos casos. A anorexia nervosa tem curso frequentemente mais crônico e recidivante, com uma das maiores taxas de mortalidade entre os transtornos psiquiátricos.",
+    pontosDeProva: [
+      "A anorexia nervosa tem uma das maiores taxas de mortalidade entre todos os transtornos psiquiátricos, decorrente tanto de complicações clínicas quanto de suicídio — dado epidemiológico frequentemente cobrado",
+      "A síndrome de realimentação é complicação potencialmente fatal da reintrodução alimentar em paciente gravemente desnutrido, exigindo monitorização cuidadosa e reintrodução calórica gradual",
+      "O inibidor seletivo da recaptação de serotonina tem papel terapêutico mais estabelecido na bulimia nervosa que na anorexia nervosa, distinção farmacológica relevante entre os dois subtipos",
+    ],
+    casoClinico: {
+      vinheta:
+        "Adolescente, 16 anos, sexo feminino, apresenta perda de peso significativa nos últimos 6 meses, restrição alimentar severa, medo intenso de engordar apesar do baixo peso evidente, e amenorreia há 4 meses.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Restrição alimentar severa com peso significativamente baixo, medo intenso de ganhar peso e amenorreia secundária são características centrais da anorexia nervosa.",
+      conduta:
+        "Avaliar estabilidade clínica (sinais vitais, eletrólitos, eletrocardiograma), considerar internação se houver instabilidade, e iniciar terapia focada na família como abordagem psicoterapêutica de primeira linha para essa faixa etária.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é predominantemente psicoterapêutico e nutricional; o inibidor seletivo da recaptação de serotonina, quando indicado (sobretudo na bulimia nervosa), ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Classificação (anorexia vs. bulimia nervosa) e mortalidade da anorexia nervosa", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Síndrome de realimentação e papel do ISRS na bulimia nervosa", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "transtornos-uso-alcool",
+    nome: "Transtornos por uso de álcool",
+    sinonimos: ["Alcoolismo", "Dependência de álcool", "Síndrome de abstinência alcoólica"],
+    cid10: "F10",
+    especialidade: "Psiquiatria",
+    etiologia: "Multifatorial",
+    resumo: "Padrão problemático de consumo de álcool levando a prejuízo funcional significativo, cuja complicação aguda mais temida é a síndrome de abstinência, potencialmente grave e tratada com benzodiazepínico.",
+    definicao:
+      "Padrão problemático de consumo de álcool que leva a prejuízo ou sofrimento clinicamente significativo, manifestado por um conjunto de critérios comportamentais, cognitivos e fisiológicos (perda de controle sobre o consumo, tolerância, sintomas de abstinência, uso continuado apesar de consequências negativas).",
+    epidemiologia:
+      "É um dos transtornos por uso de substâncias mais prevalentes globalmente, com importante impacto em morbimortalidade tanto por complicações diretas do uso crônico (hepatopatia, neuropatia, neoplasias) quanto por acidentes e violência associados à intoxicação aguda.",
+    fisiopatologia:
+      "O uso crônico de álcool potencializa a neurotransmissão GABAérgica (efeito depressor do sistema nervoso central) e inibe a neurotransmissão glutamatérgica excitatória, levando a adaptações neuroquímicas compensatórias com uso prolongado (regulação para baixo de receptores GABA-A, regulação para cima de receptores glutamatérgicos NMDA). A interrupção abrupta do consumo em um sistema nervoso central adaptado a essa supressão crônica gera um estado de hiperexcitabilidade (síndrome de abstinência), potencialmente grave.",
+    classificacao:
+      "Não há sistema de estadiamento formal para o transtorno por uso em si; a síndrome de abstinência alcoólica é classificada por gravidade crescente, desde sintomas leves (tremor, ansiedade, taquicardia) até convulsões e delirium tremens, o estágio mais grave, geralmente com pico entre 48-96 horas após a última dose.",
+    quadroClinico: [
+      "Padrão de uso problemático: perda de controle sobre a quantidade/frequência do consumo, tentativas malsucedidas de reduzir ou parar, tolerância crescente, uso continuado apesar de consequências sociais/ocupacionais/de saúde",
+      "Síndrome de abstinência leve a moderada: tremor, ansiedade, sudorese, taquicardia, náusea, insônia, geralmente iniciando 6-24 horas após a última dose",
+      "Convulsões por abstinência, geralmente tônico-clônicas generalizadas, tipicamente entre 12-48 horas após a última dose",
+      "Delirium tremens: confusão mental, agitação intensa, alucinações (frequentemente visuais/táteis), hiperatividade autonômica grave, tipicamente com pico entre 48-96 horas — forma mais grave e potencialmente fatal se não tratada",
+    ],
+    diagnostico: [
+      "Diagnóstico do transtorno por uso baseado nos critérios comportamentais do DSM-5/CID-11",
+      "Escala CIWA-Ar (Clinical Institute Withdrawal Assessment for Alcohol) é ferramenta padronizada para quantificar a gravidade da síndrome de abstinência e guiar a necessidade e a dose de benzodiazepínico",
+      "Avaliação de complicações associadas ao uso crônico (função hepática, estado nutricional, sobretudo deficiência de tiamina)",
+    ],
+    examesComplementares: [
+      "Escala CIWA-Ar para quantificação objetiva da gravidade da abstinência, orientando a intensidade do tratamento farmacológico",
+      "Função hepática (transaminases, gama-GT) e hemograma completo para avaliar complicações do uso crônico",
+      "Eletrólitos, incluindo magnésio, frequentemente depletado no etilismo crônico e relevante para o manejo da abstinência",
+    ],
+    diagnosticoDiferencial: [
+      "Abstinência de benzodiazepínicos (fenomenologia semelhante à abstinência alcoólica, pelo mecanismo GABAérgico compartilhado)",
+      "Delirium por outras causas (infecção, distúrbio metabólico) em paciente hospitalizado, que deve sempre ser considerado mesmo em etilista conhecido",
+      "Encefalopatia de Wernicke (confusão, ataxia, oftalmoplegia por deficiência de tiamina), que pode coexistir com ou mimetizar parcialmente a abstinência e exige reposição imediata de tiamina",
+    ],
+    tratamento: [
+      "Benzodiazepínico (ex.: diazepam) é o tratamento de escolha para a síndrome de abstinência alcoólica, prevenindo a progressão para convulsões e delirium tremens ao substituir farmacologicamente o efeito depressor do álcool sobre o sistema GABAérgico",
+      "Reposição de tiamina antes ou concomitante à administração de glicose é obrigatória em todo paciente etilista, para prevenir a encefalopatia de Wernicke",
+      "Tratamento de manutenção da dependência (aconselhamento, grupos de apoio, e fármacos específicos como naltrexona ou dissulfiram em casos selecionados) após a resolução do quadro agudo de abstinência",
+      "Suporte multidisciplinar (psicoterapia, grupos de apoio) é essencial para a manutenção da abstinência a longo prazo",
+    ],
+    complicacoes: [
+      "Aguda: convulsões por abstinência, delirium tremens (mortalidade significativa se não tratado adequadamente), encefalopatia de Wernicke por deficiência de tiamina não corrigida",
+      "Crônica: hepatopatia alcoólica, neuropatia periférica, síndrome de Korsakoff (déficit de memória permanente após encefalopatia de Wernicke não tratada), neoplasias associadas ao uso crônico",
+    ],
+    redFlags: [
+      "Confusão mental, agitação intensa e hiperatividade autonômica grave em paciente etilista em abstinência sugerem delirium tremens, emergência médica com risco de morte que exige tratamento intensivo imediato",
+      "Ataxia, oftalmoplegia e confusão mental em etilista devem levantar suspeita imediata de encefalopatia de Wernicke, exigindo reposição imediata de tiamina antes da administração de glicose",
+      "Convulsão em paciente etilista deve sempre ser avaliada quanto à possibilidade de abstinência, mas outras causas (trauma, distúrbio metabólico) não devem ser automaticamente excluídas",
+    ],
+    prognostico:
+      "A síndrome de abstinência, quando adequadamente tratada com benzodiazepínico, tem bom prognóstico na maioria dos casos; o delirium tremens não tratado tem mortalidade significativa. O prognóstico do transtorno por uso a longo prazo depende fortemente da adesão a estratégias de manutenção da abstinência.",
+    pontosDeProva: [
+      "A reposição de tiamina deve sempre preceder ou acompanhar a administração de glicose em paciente etilista, pelo risco de precipitar ou agravar a encefalopatia de Wernicke se a glicose for administrada isoladamente antes",
+      "O benzodiazepínico trata a síndrome de abstinência ao substituir farmacologicamente o efeito depressor do álcool sobre o receptor GABA-A, mecanismo central e frequentemente cobrado",
+      "O delirium tremens tipicamente atinge seu pico entre 48-96 horas após a última dose de álcool, cronologia relevante para antecipar e monitorar o quadro mais grave",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 48 anos, etilista crônico, internado por outro motivo, desenvolve tremor, sudorese intensa, taquicardia e ansiedade 18 horas após a última dose de álcool.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "Sintomas autonômicos e de ansiedade iniciando dentro de 24 horas da última dose em etilista crônico hospitalizado são característicos de síndrome de abstinência alcoólica em fase inicial, com risco de progressão para quadros mais graves.",
+      conduta:
+        "Iniciar benzodiazepínico conforme protocolo guiado pela escala CIWA-Ar, repor tiamina antes de qualquer administração de glicose, e monitorar sinais de progressão para convulsão ou delirium tremens.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "diazepam", nome: "Diazepam" },
+    ],
+    medicamentosSecaoTitulo: "Tratamento da síndrome de abstinência alcoólica (não trata a dependência em si)",
+    medicamentosNota:
+      "O diazepam trata e previne a progressão da síndrome de abstinência aguda, mas não é tratamento da dependência a longo prazo — fármacos específicos de manutenção (naltrexona, dissulfiram) ainda não têm ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia GABAérgica da abstinência e cronologia do delirium tremens", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Benzodiazepínico no tratamento da abstinência e prioridade da tiamina antes da glicose", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "transtornos-uso-opiaceos",
+    nome: "Transtornos por uso de opiáceos",
+    sinonimos: ["Dependência de opioides", "Transtorno por uso de opioides"],
+    cid10: "F11",
+    especialidade: "Psiquiatria",
+    etiologia: "Multifatorial",
+    resumo: "Padrão problemático de uso de opioides levando a prejuízo funcional significativo, cuja principal complicação aguda com risco de vida é a superdosagem com depressão respiratória, tratável com naloxona.",
+    definicao:
+      "Padrão problemático de uso de opioides (incluindo opioides prescritos e substâncias ilícitas) que leva a prejuízo ou sofrimento clinicamente significativo, manifestado por critérios comportamentais e fisiológicos semelhantes aos de outros transtornos por uso de substâncias (perda de controle, tolerância, síndrome de abstinência, uso continuado apesar de consequências negativas).",
+    epidemiologia:
+      "Tem aumentado em prevalência global nas últimas décadas, associado em parte ao uso médico crescente de opioides prescritos para dor crônica, com transição de uma parcela dos pacientes para uso não médico e, eventualmente, para opioides ilícitos.",
+    fisiopatologia:
+      "Os opioides atuam em receptores opioides (mu, principalmente) no sistema nervoso central, ativando vias de recompensa dopaminérgicas e produzindo analgesia, euforia e depressão do centro respiratório bulbar. O uso repetido leva a tolerância (necessidade de doses crescentes para o mesmo efeito) e dependência física, com síndrome de abstinência ao interromper o uso, mediada por hiperatividade compensatória do sistema noradrenérgico (locus ceruleus) quando a supressão opioide crônica é retirada.",
+    classificacao:
+      "Não há sistema de estadiamento formal para o transtorno em si; a intoxicação aguda por opioides é classificada por gravidade conforme o grau de depressão respiratória e do nível de consciência, sendo a superdosagem com depressão respiratória grave a apresentação mais temida.",
+    quadroClinico: [
+      "Padrão de uso problemático: perda de controle sobre a quantidade/frequência do uso, tolerância crescente, uso continuado apesar de consequências negativas",
+      "Síndrome de abstinência: midríase, lacrimejamento, rinorreia, piloereção, cólicas abdominais, diarreia, dores musculares, ansiedade e agitação — desconfortável mas geralmente não fatal, ao contrário da abstinência alcoólica ou de benzodiazepínicos",
+      "Intoxicação/superdosagem aguda: tríade clássica de miose puntiforme, depressão respiratória e rebaixamento do nível de consciência",
+    ],
+    diagnostico: [
+      "Diagnóstico do transtorno por uso baseado nos critérios comportamentais do DSM-5/CID-11",
+      "Diagnóstico da superdosagem aguda é clínico, baseado na tríade de miose, depressão respiratória e rebaixamento do nível de consciência, exigindo reconhecimento e intervenção imediatos, sem aguardar confirmação laboratorial",
+      "Rastreamento toxicológico urinário pode confirmar exposição recente a opioides, mas não deve atrasar o tratamento de emergência da superdosagem suspeitada clinicamente",
+    ],
+    examesComplementares: [
+      "Oximetria de pulso e gasometria arterial para avaliar a gravidade da depressão respiratória na superdosagem aguda",
+      "Rastreamento toxicológico urinário para confirmação de exposição a opioides, embora não seja pré-requisito para o tratamento emergencial",
+    ],
+    diagnosticoDiferencial: [
+      "Intoxicação por outros depressores do sistema nervoso central (álcool, benzodiazepínicos), que pode coexistir e mimetizar/agravar a apresentação clínica",
+      "Outras causas de rebaixamento do nível de consciência (hipoglicemia, trauma craniano, acidente vascular cerebral), que devem ser sempre consideradas quando a resposta à naloxona é incompleta",
+    ],
+    tratamento: [
+      "Naloxona, antagonista opioide de ação rápida, é o tratamento de emergência da superdosagem/intoxicação aguda por opioides, revertendo rapidamente a depressão respiratória e o rebaixamento do nível de consciência",
+      "Suporte ventilatório durante a reversão farmacológica, dado que o efeito da naloxona pode ser mais curto que o do opioide causador, exigindo monitorização por possível recorrência da depressão respiratória",
+      "Tratamento de manutenção da dependência com terapia de reposição opioide (metadona, buprenorfina) reduz significativamente o risco de recaída e de superdosagem",
+      "A síndrome de abstinência, embora desconfortável, geralmente é tratada com suporte sintomático (antieméticos, antidiarreicos, alfa-agonistas como a clonidina), sem necessidade de terapia de substituição opioide obrigatória, exceto no contexto de tratamento de manutenção planejado",
+    ],
+    complicacoes: [
+      "Aguda: superdosagem com depressão respiratória e morte se não revertida a tempo, principal causa evitável de mortalidade nessa população",
+      "Crônica: infecções associadas ao uso injetável (endocardite infecciosa, hepatites virais, HIV), prejuízo funcional social e ocupacional persistente",
+    ],
+    redFlags: [
+      "Miose puntiforme, depressão respiratória e rebaixamento do nível de consciência definem superdosagem por opioides e exigem administração imediata de naloxona, sem aguardar confirmação laboratorial",
+      "Recorrência da depressão respiratória após reversão inicial com naloxona pode ocorrer se a meia-vida do opioide causador for mais longa que a da naloxona, exigindo monitorização prolongada e doses adicionais quando necessário",
+    ],
+    prognostico:
+      "Com reconhecimento e tratamento imediatos da superdosagem (naloxona e suporte ventilatório), a recuperação costuma ser completa; sem intervenção, a depressão respiratória pode ser fatal em minutos. O prognóstico do transtorno por uso a longo prazo melhora substancialmente com terapia de manutenção opioide (metadona, buprenorfina) associada a suporte psicossocial.",
+    pontosDeProva: [
+      "A tríade de miose puntiforme, depressão respiratória e rebaixamento do nível de consciência define a superdosagem por opioides e deve ser reconhecida imediatamente, sem depender de confirmação laboratorial",
+      "A naloxona pode ter meia-vida mais curta que muitos opioides, exigindo monitorização prolongada pelo risco de recorrência da depressão respiratória após reversão inicial aparentemente bem-sucedida",
+      "Ao contrário da abstinência alcoólica/benzodiazepínica, a abstinência de opioides é extremamente desconfortável mas geralmente não é fatal por si só — distinção importante entre as síndromes de abstinência de diferentes classes de substâncias",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 29 anos, encontrado inconsciente por familiares, com frequência respiratória de 6 incursões por minuto e pupilas puntiformes, com seringa próxima ao corpo.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "A tríade de miose puntiforme, depressão respiratória grave e rebaixamento do nível de consciência, associada ao contexto (seringa próxima), é altamente sugestiva de superdosagem por opioides, emergência com risco de morte iminente.",
+      conduta:
+        "Administrar naloxona imediatamente, fornecer suporte ventilatório conforme necessário, e monitorar prolongadamente pelo risco de recorrência da depressão respiratória caso o opioide causador tenha meia-vida mais longa que a da naloxona.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "A naloxona, antídoto de emergência para a superdosagem, consta como item pendente no backlog de medicamentos e ainda não tem ficha própria no site; os fármacos de manutenção (metadona, buprenorfina) também não estão documentados.",
+    fontes: [
+      { tema: "Fisiopatologia (receptores opioides, tolerância e mecanismo da abstinência) e tríade da superdosagem", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Naloxona como antagonista de reversão e risco de recorrência da depressão respiratória", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "delirium-nao-induzido-alcool",
+    nome: "Delirium não induzido pelo álcool",
+    sinonimos: ["Estado confusional agudo", "Delirium"],
+    cid10: "F05",
+    especialidade: "Psiquiatria",
+    etiologia: "Multifatorial",
+    resumo: "Síndrome de disfunção cerebral aguda e flutuante caracterizada por distúrbio da atenção e da consciência, sempre secundária a uma causa médica identificável, sendo o reconhecimento e o tratamento da causa de base a prioridade absoluta.",
+    definicao:
+      "Síndrome neuropsiquiátrica aguda caracterizada por perturbação da atenção e da consciência, com desenvolvimento em um curto período de tempo (horas a dias) e curso flutuante ao longo do dia, sempre atribuível a uma condição médica de base, intoxicação/abstinência de substância, ou efeito de medicação.",
+    epidemiologia:
+      "Extremamente comum em pacientes hospitalizados, sobretudo idosos, pacientes em unidade de terapia intensiva e pós-operatório, com fatores de risco predisponentes incluindo idade avançada, demência prévia, comprometimento sensorial e polifarmácia.",
+    fisiopatologia:
+      "Resulta de disfunção cerebral difusa secundária a uma variedade de insultos sistêmicos (infecção, distúrbio metabólico, hipóxia, efeito de medicação, abstinência de substância), com mecanismos propostos incluindo desequilíbrio de neurotransmissores (particularmente redução da atividade colinérgica e excesso dopaminérgico relativo), neuroinflamação sistêmica e disfunção da barreira hematoencefálica.",
+    classificacao:
+      "Classificado clinicamente em hiperativo (agitação, hipervigilância, comportamento combativo — mais facilmente reconhecido), hipoativo (letargia, lentificação, frequentemente subdiagnosticado por ser confundido com depressão ou fadiga) e misto, alternando características entre os dois subtipos ao longo do dia.",
+    quadroClinico: [
+      "Início agudo (horas a dias) com curso flutuante ao longo do dia, frequentemente pior à noite (sundowning)",
+      "Distúrbio da atenção (dificuldade de focar, manter ou mudar o foco de atenção) e da consciência (redução da orientação ao ambiente)",
+      "Alteração cognitiva adicional (déficit de memória, desorientação, alteração de linguagem) ou perturbação perceptiva (alucinações, mais comumente visuais)",
+      "Alteração do ciclo sono-vigília, frequentemente com inversão do padrão dia-noite",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado na avaliação cognitiva à beira do leito, com ferramentas padronizadas como o Confusion Assessment Method (CAM), que avalia início agudo/curso flutuante, desatenção, pensamento desorganizado e nível de consciência alterado",
+      "Investigação sistemática e ampla da causa de base: infecção (sobretudo urinária e respiratória em idosos), distúrbios metabólicos (glicemia, sódio, função renal/hepática), hipóxia, revisão de medicações em uso, e abstinência de substâncias",
+      "Distinção fundamental da demência: no delirium, o início é agudo e o nível de consciência está tipicamente alterado; na demência, o início é insidioso e o nível de consciência permanece preservado até fases avançadas",
+    ],
+    examesComplementares: [
+      "Confusion Assessment Method (CAM) como instrumento padronizado de rastreamento à beira do leito, amplamente validado para uso clínico rápido",
+      "Investigação laboratorial ampla guiada pela suspeita clínica: hemograma, eletrólitos, função renal/hepática, glicemia, exame de urina, radiografia de tórax, conforme o contexto",
+      "Revisão minuciosa de todas as medicações em uso, dado que fármacos com efeito anticolinérgico ou sedativo são causa comum e frequentemente reversível de delirium",
+    ],
+    diagnosticoDiferencial: [
+      "Demência (início insidioso, curso progressivo mais que flutuante, nível de consciência preservado até fases avançadas)",
+      "Transtornos psiquiátricos primários (depressão com lentificação psicomotora no delirium hipoativo, psicose primária no delirium com alucinações proeminentes), distinguidos pela ausência de início agudo/flutuação e pela presença de causa médica identificável no delirium",
+      "Delirium por abstinência alcoólica (código específico e diferente, com fisiopatologia e tratamento farmacológico distintos, centrados no benzodiazepínico)",
+    ],
+    tratamento: [
+      "Identificação e tratamento da causa de base é a prioridade absoluta e a única intervenção capaz de resolver definitivamente o quadro",
+      "Medidas não farmacológicas (reorientação frequente, otimização do sono, correção de déficits sensoriais como óculos/aparelho auditivo, mobilização precoce, evitar contenção física desnecessária) reduzem a gravidade e a duração do delirium",
+      "Antipsicótico em dose baixa pode ser considerado para agitação grave que representa risco ao próprio paciente ou a terceiros, quando medidas não farmacológicas são insuficientes, mas não trata a causa de base e deve ser usado com cautela pelo risco de efeitos adversos, sobretudo em idosos",
+      "Benzodiazepínicos devem ser evitados no delirium não relacionado à abstinência de álcool/sedativos, pois podem piorar a confusão mental — exceção importante à sua indicação em outras condições psiquiátricas",
+    ],
+    complicacoes: [
+      "Aguda: risco de queda, remoção inadvertida de dispositivos médicos (sondas, acessos venosos), agitação com risco a si e a terceiros",
+      "Crônica: associação com pior prognóstico funcional e cognitivo a longo prazo, maior tempo de internação e maior mortalidade, mesmo após a resolução do episódio agudo",
+    ],
+    redFlags: [
+      "Delirium de início recente em paciente hospitalizado, sobretudo idoso, deve sempre motivar investigação ampla e imediata de causa médica reversível, nunca sendo atribuído precocemente apenas à idade ou à internação em si",
+      "Delirium hipoativo é frequentemente subdiagnosticado por ser confundido com depressão, fadiga ou sedação esperada — deve ser ativamente rastreado, não apenas identificado quando há agitação evidente",
+    ],
+    prognostico:
+      "O delirium associa-se a maior morbimortalidade, tempo de internação prolongado e risco aumentado de declínio cognitivo e funcional persistente, mesmo após a resolução do episódio agudo, sobretudo em pacientes idosos ou com demência prévia.",
+    pontosDeProva: [
+      "Benzodiazepínicos devem ser evitados no delirium não relacionado à abstinência de álcool/sedativos, podendo piorar a confusão — exceção importante que contrasta com seu uso em outras condições psiquiátricas",
+      "A distinção entre delirium (início agudo, flutuante, consciência alterada) e demência (insidioso, progressivo, consciência preservada) é central e frequentemente cobrada",
+      "O tratamento da causa de base é sempre a prioridade — medidas farmacológicas para agitação são apenas sintomáticas e não substituem a investigação e correção do fator desencadeante",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 82 anos, internada por fratura de quadril, desenvolve confusão mental aguda, desatenção e alucinações visuais no segundo dia pós-operatório, com flutuação ao longo do dia, pior à noite.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Início agudo de confusão mental com curso flutuante e desatenção em paciente idosa no pós-operatório é característico de delirium, exigindo investigação ampla da causa de base antes de qualquer intervenção sintomática.",
+      conduta:
+        "Aplicar o Confusion Assessment Method para confirmar o diagnóstico, investigar amplamente possíveis causas (infecção, distúrbio metabólico, efeito medicamentoso, dor não controlada), e implementar medidas não farmacológicas de suporte, reservando antipsicótico em dose baixa apenas para agitação grave refratária.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento central é a identificação e correção da causa de base, não um medicamento específico; quando necessário para agitação grave refratária, o antipsicótico em dose baixa ainda não tem ficha própria no site, e benzodiazepínicos devem ser evitados neste contexto (exceto quando a causa é abstinência de álcool/sedativos).",
+    fontes: [
+      { tema: "Fisiopatologia (desequilíbrio colinérgico-dopaminérgico) e distinção de demência", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Confusion Assessment Method (CAM) e contraindicação de benzodiazepínicos fora do contexto de abstinência", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "transtorno-deficit-atencao-hiperatividade",
+    nome: "Transtorno de déficit de atenção e hiperatividade",
+    sinonimos: ["TDAH", "Transtornos hipercinéticos"],
+    cid10: "F90",
+    especialidade: "Psiquiatria",
+    etiologia: "Genética",
+    resumo: "Transtorno neurodesenvolvimental caracterizado por padrão persistente de desatenção e/ou hiperatividade-impulsividade que interfere no funcionamento, com forte componente genético e tratamento farmacológico de primeira linha baseado em estimulantes.",
+    definicao:
+      "Transtorno neurodesenvolvimental caracterizado por um padrão persistente de desatenção e/ou hiperatividade-impulsividade que interfere no funcionamento ou desenvolvimento, com sintomas presentes antes dos 12 anos de idade e manifestos em múltiplos contextos (escolar/ocupacional, familiar, social).",
+    epidemiologia:
+      "Um dos transtornos neurodesenvolvimentais mais comuns na infância, mais frequentemente diagnosticado em meninos nessa faixa etária, embora o reconhecimento em meninas e em adultos (com sintomas persistentes desde a infância) tenha aumentado nas últimas décadas. Tem um dos maiores componentes hereditários entre os transtornos psiquiátricos.",
+    fisiopatologia:
+      "Envolve disfunção da neurotransmissão dopaminérgica e noradrenérgica em circuitos frontoestriatais relacionados a funções executivas, atenção sustentada e controle inibitório, com forte componente genético poligênico somado a fatores de risco ambientais (prematuridade, exposição pré-natal a substâncias).",
+    classificacao:
+      "Classificado em três apresentações conforme os critérios do DSM-5: predominantemente desatento, predominantemente hiperativo-impulsivo, e combinado (critérios de ambos os domínios preenchidos), com a apresentação combinada sendo a mais comum.",
+    quadroClinico: [
+      "Desatenção: dificuldade em manter atenção em tarefas, parecer não escutar quando lhe dirigem a palavra, dificuldade em organizar tarefas, evitar tarefas que exigem esforço mental sustentado, distração fácil por estímulos externos, esquecimento em atividades cotidianas",
+      "Hiperatividade-impulsividade: inquietação motora, dificuldade em permanecer sentado quando esperado, correr ou escalar em situações inapropriadas, dificuldade em esperar a vez, interromper ou se intrometer em conversas/atividades de outros",
+      "Sintomas presentes antes dos 12 anos de idade e em múltiplos contextos, critério essencial para diferenciar de comportamento situacional normal",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado nos critérios do DSM-5/CID-11, exigindo múltiplos sintomas de desatenção e/ou hiperatividade-impulsividade presentes antes dos 12 anos, em pelo menos dois contextos diferentes, com prejuízo funcional associado",
+      "Coleta de informações de múltiplos informantes (pais, professores) é essencial para confirmar a presença dos sintomas em múltiplos contextos, não apenas relato de um único observador",
+      "Exclusão de outras condições que podem mimetizar ou contribuir para os sintomas (transtornos de aprendizagem, ansiedade, transtornos do sono, deficiência auditiva/visual não corrigida)",
+    ],
+    examesComplementares: [
+      "Não há exame laboratorial ou de imagem específico para o diagnóstico, que é predominantemente clínico com base em critérios comportamentais e histórico do desenvolvimento",
+      "Escalas padronizadas de avaliação comportamental preenchidas por pais e professores auxiliam na quantificação e documentação dos sintomas em múltiplos contextos",
+    ],
+    diagnosticoDiferencial: [
+      "Transtornos de aprendizagem específicos (dificuldade acadêmica por déficit de habilidade específica, não por desatenção generalizada)",
+      "Transtornos de ansiedade (podem causar dificuldade de concentração secundária à preocupação, distinta da desatenção primária do TDAH)",
+      "Comportamento normal para a idade em crianças pequenas, distinguido pela intensidade, persistência e prejuízo funcional significativo exigidos para o diagnóstico",
+    ],
+    tratamento: [
+      "Estimulante (metilfenidato ou anfetaminas) é o tratamento farmacológico de primeira linha, com eficácia bem estabelecida na redução dos sintomas centrais em crianças, adolescentes e adultos",
+      "Intervenções comportamentais (treinamento parental em manejo comportamental, adaptações escolares) são recomendadas como primeira abordagem em pré-escolares e como complemento à farmacoterapia em outras faixas etárias",
+      "Não estimulantes (ex.: atomoxetina) são alternativa quando estimulantes são contraindicados, mal tolerados, ou há preocupação com potencial de abuso",
+    ],
+    complicacoes: [
+      "Aguda: acidentes por impulsividade/desatenção (trânsito, atividades de risco)",
+      "Crônica: prejuízo acadêmico/ocupacional persistente quando não tratado, maior risco de transtornos por uso de substâncias e de transtornos de conduta/personalidade antissocial associados ao TDAH não tratado na infância",
+    ],
+    redFlags: [
+      "Sintomas de início após os 12 anos ou restritos a um único contexto (apenas escola, ou apenas casa) devem levantar suspeita de diagnóstico alternativo, não TDAH",
+      "Comorbidade com transtornos de conduta ou de humor deve ser ativamente rastreada, pois é comum e influencia a escolha e a resposta ao tratamento",
+    ],
+    prognostico:
+      "Uma parcela significativa das crianças com TDAH mantém sintomas na vida adulta, embora a hiperatividade motora tenda a atenuar-se com a idade enquanto a desatenção e a impulsividade frequentemente persistem. O tratamento adequado melhora substancialmente o funcionamento acadêmico, social e ocupacional.",
+    pontosDeProva: [
+      "O diagnóstico exige sintomas presentes antes dos 12 anos e em múltiplos contextos — sintomas restritos a um único ambiente não preenchem os critérios diagnósticos",
+      "Os estimulantes são o tratamento farmacológico de primeira linha e com eficácia mais robusta, apesar da preocupação leiga comum sobre seu uso em crianças",
+      "O TDAH não tratado na infância associa-se a maior risco de transtornos por uso de substâncias na adolescência/idade adulta — a farmacoterapia adequada não aumenta esse risco, e algumas evidências sugerem que pode até reduzi-lo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menino, 8 anos, apresenta desde os 5 anos dificuldade de manter atenção em tarefas escolares, esquecimento frequente de materiais, inquietação motora constante e dificuldade de esperar a vez em jogos, tanto na escola quanto em casa.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Sintomas de desatenção e hiperatividade-impulsividade presentes desde antes dos 12 anos, em múltiplos contextos (escola e casa), com prejuízo funcional, são compatíveis com TDAH do tipo combinado.",
+      conduta:
+        "Coletar informações de pais e professores por meio de escalas padronizadas para confirmar os sintomas em múltiplos contextos, excluir diagnósticos diferenciais relevantes, e considerar intervenções comportamentais associadas a estimulante conforme a gravidade e a idade da criança.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O estimulante (metilfenidato) é o tratamento farmacológico de primeira linha, ainda sem ficha própria no site.",
+    fontes: [
+      { tema: "Critérios diagnósticos DSM-5 e fisiopatologia frontoestriatal", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Eficácia dos estimulantes e efeito sobre risco de uso de substâncias", fonte: "fonte pendente" },
+    ],
+  },
 ];

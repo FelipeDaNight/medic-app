@@ -15,7 +15,7 @@ Fontes:
   está, o único item da lista ainda pendente por esse motivo.
 
 Já documentados com ficha completa (**fora deste backlog**, não repetir):
-- **Doenças (168):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
+- **Doenças (181):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
   · Dengue · COVID-19 · Gastrite · DRGE · Artrite reumatoide · LES · Alzheimer · Anemia
   ferropriva · DRC · Infarto agudo do miocárdio · Angina pectoris · Doença isquêmica
   crônica do coração · Fibrilação e flutter atrial · Parada cardíaca · Febre reumática ·
@@ -63,7 +63,14 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   Síndrome nefrótica · Insuficiência renal aguda · Nefrolitíase · Nefrite
   túbulo-intersticial aguda · Cólica nefrética · Hiperplasia prostática
   benigna · Cistite/ITU · Torção do testículo · Neoplasia maligna da
-  próstata · Neoplasia maligna da bexiga · Neoplasia maligna do rim
+  próstata · Neoplasia maligna da bexiga · Neoplasia maligna do rim ·
+  Episódios depressivos · Transtorno depressivo recorrente · Transtorno
+  afetivo bipolar · Esquizofrenia · Transtornos fóbico-ansiosos ·
+  Transtorno de ansiedade generalizada e transtorno do pânico · Transtorno
+  obsessivo-compulsivo · Transtorno de estresse pós-traumático ·
+  Transtornos da alimentação · Transtornos por uso de álcool · Transtornos
+  por uso de opiáceos · Delirium não induzido pelo álcool · Transtorno de
+  déficit de atenção e hiperatividade
 - **Medicamentos (29):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
@@ -277,20 +284,20 @@ especialidade.
 11. concluído — Neoplasia maligna da bexiga (C67)
 12. concluído — Neoplasia maligna do rim (C64)
 
-### Lote 13 — Psiquiatria (13)
-1. pendente — Episódios depressivos (F32)
-2. pendente — Transtorno depressivo recorrente (F33)
-3. pendente — Transtorno afetivo bipolar (F31)
-4. pendente — Esquizofrenia (F20)
-5. pendente — Transtornos fóbico-ansiosos (F40)
-6. pendente — Outros transtornos ansiosos / TAG, pânico (F41)
-7. pendente — Transtorno obsessivo-compulsivo (F42)
-8. pendente — Reações ao stress grave / TEPT (F43)
-9. pendente — Transtornos da alimentação (F50)
-10. pendente — Transtornos por uso de álcool (F10)
-11. pendente — Transtornos por uso de opiáceos (F11)
-12. pendente — Delirium não induzido pelo álcool (F05)
-13. pendente — Transtornos hipercinéticos / TDAH (F90)
+### Lote 13 — Psiquiatria (13) — ✅ CONCLUÍDO
+1. concluído — Episódios depressivos (F32)
+2. concluído — Transtorno depressivo recorrente (F33)
+3. concluído — Transtorno afetivo bipolar (F31)
+4. concluído — Esquizofrenia (F20)
+5. concluído — Transtornos fóbico-ansiosos (F40)
+6. concluído — Outros transtornos ansiosos / TAG, pânico (F41)
+7. concluído — Transtorno obsessivo-compulsivo (F42)
+8. concluído — Reações ao stress grave / TEPT (F43)
+9. concluído — Transtornos da alimentação (F50)
+10. concluído — Transtornos por uso de álcool (F10)
+11. concluído — Transtornos por uso de opiáceos (F11)
+12. concluído — Delirium não induzido pelo álcool (F05)
+13. concluído — Transtornos hipercinéticos / TDAH (F90)
 
 ### Lote 14 — Dermatologia (11) + início Ginecologia/Obstetrícia (3)
 1. pendente — Psoríase (L40)
@@ -319,11 +326,12 @@ especialidade.
 8. pendente — Doença inflamatória do útero / DIP (N71)
 9. pendente — Transtornos da menopausa e da perimenopausa (N95)
 
-**Total: 36 doenças pendentes em 3 lotes** (Lotes 1-6, Lotes 7-9 Oftalmologia,
-Lote 10 Neurologia, Lote 11 Hematologia e Lote 12 Nefrologia+Urologia todos
-concluídos — 15 + 14 + 12 + 13 + 14 + 12 + 33 + 14 + 13 + 12 itens), além das
-168 já fichadas. **Oftalmologia, Neurologia, Hematologia e Nefrologia+Urologia
-fechadas por completo. Próxima prioridade: Lote 13 (Psiquiatria, 13 itens).**
+**Total: 23 doenças pendentes em 2 lotes** (Lotes 1-6, Lotes 7-9 Oftalmologia,
+Lote 10 Neurologia, Lote 11 Hematologia, Lote 12 Nefrologia+Urologia e Lote 13
+Psiquiatria todos concluídos — 15 + 14 + 12 + 13 + 14 + 12 + 33 + 14 + 13 + 12
++ 13 itens), além das 181 já fichadas. **Oftalmologia, Neurologia, Hematologia,
+Nefrologia+Urologia e Psiquiatria fechadas por completo. Próxima prioridade:
+Lote 14 (Dermatologia + início Ginecologia/Obstetrícia, 14 itens).**
 
 ---
 

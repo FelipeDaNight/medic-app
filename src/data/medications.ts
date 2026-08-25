@@ -876,6 +876,8 @@ export const medications: Medication[] = [
     ],
     doencasIndicadas: [
       { slug: "estado-de-mal-epileptico", nome: "Estado de mal epiléptico" },
+      { slug: "transtornos-ansiosos-tag-panico", nome: "Transtorno de ansiedade generalizada e transtorno do pânico" },
+      { slug: "transtornos-uso-alcool", nome: "Transtornos por uso de álcool" },
     ],
     fontes: [
       { tema: "Mecanismo de ação (potencialização GABA-A)", fonte: "Goodman & Gilman, 13ª ed." },
