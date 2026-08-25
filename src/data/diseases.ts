@@ -77,6 +77,12 @@ export const diseases: Disease[] = [
       { slug: "losartana-potassica", nome: "Losartana potássica" },
       { slug: "captopril", nome: "Captopril" },
       { slug: "enalapril", nome: "Enalapril" },
+      { slug: "hidroclorotiazida", nome: "Hidroclorotiazida" },
+      { slug: "besilato-anlodipino", nome: "Besilato de anlodipino" },
+      { slug: "cloridrato-verapamil", nome: "Cloridrato de verapamil" },
+      { slug: "cloridrato-hidralazina", nome: "Cloridrato de hidralazina" },
+      { slug: "metildopa", nome: "Metildopa" },
+      { slug: "mesilato-doxazosina", nome: "Mesilato de doxazosina" },
     ],
     fontes: [
       { tema: "Classificação pressórica e metas de tratamento", fonte: "Diretriz Brasileira de Hipertensão Arterial, 2020" },
@@ -162,6 +168,10 @@ export const diseases: Disease[] = [
       { slug: "carvedilol", nome: "Carvedilol" },
       { slug: "espironolactona", nome: "Espironolactona" },
       { slug: "dapagliflozina", nome: "Dapagliflozina" },
+      { slug: "digoxina", nome: "Digoxina" },
+      { slug: "furosemida", nome: "Furosemida" },
+      { slug: "dinitrato-isossorbida", nome: "Dinitrato de isossorbida" },
+      { slug: "cloridrato-hidralazina", nome: "Cloridrato de hidralazina" },
     ],
     fontes: [
       { tema: "Classificação NYHA/ACC-AHA e por fração de ejeção", fonte: "Diretriz Brasileira de Insuficiência Cardíaca Crônica, SBC 2021" },
@@ -1349,6 +1359,10 @@ export const diseases: Disease[] = [
       { slug: "sinvastatina", nome: "Sinvastatina" },
       { slug: "captopril", nome: "Captopril" },
       { slug: "enalapril", nome: "Enalapril" },
+      { slug: "bissulfato-clopidogrel", nome: "Bissulfato de clopidogrel" },
+      { slug: "atorvastatina-calcica", nome: "Atorvastatina cálcica" },
+      { slug: "metoprolol", nome: "Succinato de metoprolol / Tartarato de metoprolol" },
+      { slug: "dinitrato-isossorbida", nome: "Dinitrato de isossorbida" },
     ],
     medicamentosSecaoTitulo: "Medicamentos de manutenção/prevenção secundária",
     medicamentosNota:
@@ -1431,6 +1445,12 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "sinvastatina", nome: "Sinvastatina" },
+      { slug: "atorvastatina-calcica", nome: "Atorvastatina cálcica" },
+      { slug: "metoprolol", nome: "Succinato de metoprolol / Tartarato de metoprolol" },
+      { slug: "dinitrato-isossorbida", nome: "Dinitrato de isossorbida" },
+      { slug: "mononitrato-isossorbida", nome: "Mononitrato de isossorbida" },
+      { slug: "besilato-anlodipino", nome: "Besilato de anlodipino" },
+      { slug: "cloridrato-verapamil", nome: "Cloridrato de verapamil" },
     ],
     fontes: [
       { tema: "Definição e fisiopatologia", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
@@ -1508,6 +1528,8 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "sinvastatina", nome: "Sinvastatina" },
+      { slug: "atorvastatina-calcica", nome: "Atorvastatina cálcica" },
+      { slug: "mononitrato-isossorbida", nome: "Mononitrato de isossorbida" },
     ],
     fontes: [
       { tema: "Definição e espectro clínico", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
@@ -1585,6 +1607,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "varfarina-sodica", nome: "Varfarina sódica" },
+      { slug: "digoxina", nome: "Digoxina" },
+      { slug: "metoprolol", nome: "Succinato de metoprolol / Tartarato de metoprolol" },
+      { slug: "cloridrato-verapamil", nome: "Cloridrato de verapamil" },
+      { slug: "cloridrato-amiodarona", nome: "Cloridrato de amiodarona" },
     ],
     fontes: [
       { tema: "Classificação temporal e fisiopatologia", fonte: "Diretriz da Sociedade Brasileira de Cardiologia sobre Fibrilação Atrial, 2016" },
@@ -1658,13 +1684,14 @@ export const diseases: Disease[] = [
       conduta:
         "Iniciar compressões torácicas de alta qualidade imediatamente, acionar serviço de emergência e aplicar desfibrilador automático externo assim que disponível, seguindo o algoritmo de suporte básico/avançado de vida.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cloridrato-amiodarona", nome: "Cloridrato de amiodarona" },
+    ],
     medicamentosNota:
-      "A conduta prioritária na parada cardíaca é não farmacológica: compressões torácicas de alta qualidade e desfibrilação precoce, quando indicada. A adrenalina e os antiarrítmicos usados no suporte avançado de vida ainda não têm ficha própria no site.",
+      "A conduta prioritária na parada cardíaca é não farmacológica: compressões torácicas de alta qualidade e desfibrilação precoce, quando indicada. A amiodarona é usada em ritmos chocáveis refratários à desfibrilação; a adrenalina, também usada no suporte avançado de vida, ainda não tem ficha própria no site.",
     fontes: [
       { tema: "Ritmos chocáveis vs. não chocáveis e algoritmo de RCP", fonte: "American Heart Association, Diretrizes de Ressuscitação Cardiopulmonar e Cuidados Cardiovasculares de Emergência" },
       { tema: "Causas reversíveis ('5 Hs e 5 Ts')", fonte: "American Heart Association, Diretrizes de Ressuscitação Cardiopulmonar e Cuidados Cardiovasculares de Emergência" },
-      { tema: "Adrenalina e antiarrítmicos no suporte avançado de vida (ainda sem ficha própria de medicamento no site)", fonte: "fonte pendente" },
     ],
   },
   {
@@ -2037,6 +2064,7 @@ export const diseases: Disease[] = [
       { slug: "carvedilol", nome: "Carvedilol" },
       { slug: "espironolactona", nome: "Espironolactona" },
       { slug: "dapagliflozina", nome: "Dapagliflozina" },
+      { slug: "furosemida", nome: "Furosemida" },
     ],
     fontes: [
       { tema: "Classificação fenotípica das cardiomiopatias", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
@@ -2575,11 +2603,14 @@ export const diseases: Disease[] = [
       conduta:
         "Confirmar com TSH suprimido, T4 livre elevado e TRAb positivo, iniciar betabloqueador para controle sintomático imediato e antitireoidiano para controle da síntese hormonal, e encaminhar para avaliação oftalmológica.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cloridrato-propranolol", nome: "Cloridrato de propranolol" },
+    ],
+    medicamentosNota:
+      "O propranolol controla os sintomas adrenérgicos (tremor, taquicardia, ansiedade) enquanto o tratamento definitivo faz efeito; os antitireoidianos (tiamazol/propiltiouracila), que controlam a síntese hormonal propriamente dita, ainda não têm ficha própria no site.",
     fontes: [
       { tema: "Fisiopatologia da doença de Graves e do bócio multinodular tóxico", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Diagnóstico e uso da captação de iodo radioativo", fonte: "American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism, 2016" },
-      { tema: "Antitireoidianos e betabloqueador no tratamento (ainda sem fichas próprias no site)", fonte: "fonte pendente" },
     ],
   },
   {
@@ -3160,6 +3191,7 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "sinvastatina", nome: "Sinvastatina" },
+      { slug: "atorvastatina-calcica", nome: "Atorvastatina cálcica" },
     ],
     fontes: [
       { tema: "Fisiopatologia da aterosclerose", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
@@ -5772,6 +5804,7 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "espironolactona", nome: "Espironolactona" },
+      { slug: "cloridrato-propranolol", nome: "Cloridrato de propranolol" },
     ],
     medicamentosNota:
       "A espironolactona é usada especificamente para o controle da ascite por hipertensão portal (hiperaldosteronismo secundário). Ela não trata a fibrose hepática em si nem substitui o tratamento da causa de base ou a profilaxia de varizes (betabloqueador não seletivo, ainda sem ficha própria no site).",
@@ -9597,6 +9630,8 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "sinvastatina", nome: "Sinvastatina" },
+      { slug: "bissulfato-clopidogrel", nome: "Bissulfato de clopidogrel" },
+      { slug: "atorvastatina-calcica", nome: "Atorvastatina cálcica" },
     ],
     medicamentosSecaoTitulo: "Medicamento para prevenção secundária (não trata o evento agudo)",
     medicamentosNota:
@@ -9676,6 +9711,8 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "sinvastatina", nome: "Sinvastatina" },
+      { slug: "bissulfato-clopidogrel", nome: "Bissulfato de clopidogrel" },
+      { slug: "atorvastatina-calcica", nome: "Atorvastatina cálcica" },
     ],
     medicamentosSecaoTitulo: "Medicamento para prevenção secundária (não trata o evento agudo)",
     medicamentosNota:
@@ -9972,6 +10009,7 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "ibuprofeno", nome: "Ibuprofeno" },
+      { slug: "cloridrato-propranolol", nome: "Cloridrato de propranolol" },
     ],
     medicamentosSecaoTitulo: "Medicamento abortivo para crises leves a moderadas",
     medicamentosNota:
@@ -11712,6 +11750,7 @@ export const diseases: Disease[] = [
     medicamentosPrimeiraLinha: [
       { slug: "prednisona", nome: "Prednisona" },
       { slug: "losartana-potassica", nome: "Losartana potássica" },
+      { slug: "furosemida", nome: "Furosemida" },
     ],
     medicamentosSecaoTitulo: "Corticosteroide (doença de lesões mínimas) e bloqueador do receptor de angiotensina (redução da proteinúria, adjuvante em todas as causas)",
     medicamentosNota:
@@ -12091,9 +12130,11 @@ export const diseases: Disease[] = [
       conduta:
         "Aplicar o Escore Internacional de Sintomas Prostáticos para quantificar a gravidade, solicitar PSA e função renal, e iniciar alfabloqueador para alívio sintomático inicial, considerando inibidor da 5-alfa-redutase se a próstata for significativamente aumentada.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "mesilato-doxazosina", nome: "Mesilato de doxazosina" },
+    ],
     medicamentosNota:
-      "O tratamento de primeira linha é o alfabloqueador seletivo (ex.: tansulosina) e, em próstatas maiores, o inibidor da 5-alfa-redutase (finasterida) — este último consta como item pendente no backlog de medicamentos; nenhum ainda tem ficha própria no site.",
+      "A doxazosina é uma opção de alfabloqueador para alívio sintomático inicial; o inibidor da 5-alfa-redutase (finasterida), mais indicado em próstatas significativamente aumentadas, ainda não tem ficha própria no site.",
     fontes: [
       { tema: "Fisiopatologia (componentes estático e dinâmico da obstrução) e mecanismo dos dois grupos farmacológicos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Escore Internacional de Sintomas Prostáticos (IPSS)", fonte: "fonte pendente" },
@@ -18204,9 +18245,11 @@ export const diseases: Disease[] = [
       conduta:
         "Iniciar sulfato de magnésio para profilaxia de convulsões e anti-hipertensivo para controle da crise hipertensiva; avaliar via e momento do parto, considerando a idade gestacional e a gravidade materna.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cloridrato-hidralazina", nome: "Cloridrato de hidralazina" },
+    ],
     medicamentosNota:
-      "O sulfato de magnésio e os anti-hipertensivos específicos para uso gestacional (labetalol, nifedipina, hidralazina) ainda não têm suas fichas próprias documentadas no site.",
+      "O sulfato de magnésio e os demais anti-hipertensivos específicos para uso gestacional (labetalol, nifedipina) ainda não têm suas fichas próprias documentadas no site.",
     fontes: [
       { tema: "Fisiopatologia da placentação anormal e liberação de fatores antiangiogênicos", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Classificação por sinais de gravidade e indicações de sulfato de magnésio", fonte: "ACOG Practice Bulletin No. 222, Gestational Hypertension and Preeclampsia, 2020" },
@@ -18416,9 +18459,11 @@ export const diseases: Disease[] = [
       conduta:
         "Manter monitorização seriada da pressão arterial, proteinúria e sinais/sintomas de disfunção de órgão-alvo em cada consulta pré-natal, além de vigilância do crescimento fetal por ultrassonografia seriada.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "metildopa", nome: "Metildopa" },
+    ],
     medicamentosNota:
-      "Os anti-hipertensivos seguros na gestação (labetalol, nifedipina, metildopa) ainda não têm suas fichas próprias documentadas no site.",
+      "Os demais anti-hipertensivos seguros na gestação (labetalol, nifedipina) ainda não têm suas fichas próprias documentadas no site.",
     fontes: [
       { tema: "Classificação temporal e risco de pré-eclâmpsia sobreposta", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Limiares de tratamento anti-hipertensivo e monitorização na gestação", fonte: "ACOG Practice Bulletin No. 203, Chronic Hypertension in Pregnancy, 2019" },

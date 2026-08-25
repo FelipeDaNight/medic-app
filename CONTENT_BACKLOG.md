@@ -117,12 +117,16 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   (basocelular e espinocelular) · Impetigo · Celulite e flegmão ·
   Urticária · Pênfigo · Dermatite seborreica · Dermatite alérgica de
   contato · Abscesso cutâneo, furúnculo e antraz
-- **Medicamentos (29):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
+- **Medicamentos (44):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
   Enalapril · Budesonida inalatória · Espironolactona · Carvedilol · Dapagliflozina ·
   Levotiroxina sódica · Esquema RIPE · Metotrexato · Hidroxicloroquina · Donepezila ·
-  Memantina · Sulfato ferroso · Dexametasona
+  Memantina · Sulfato ferroso · Dexametasona · Digoxina · Bissulfato de clopidogrel ·
+  Atorvastatina cálcica · Hidroclorotiazida · Furosemida · Cloridrato de propranolol ·
+  Succinato/tartarato de metoprolol · Dinitrato de isossorbida · Mononitrato de
+  isossorbida · Cloridrato de amiodarona · Besilato de anlodipino · Cloridrato de
+  verapamil · Cloridrato de hidralazina · Metildopa · Mesilato de doxazosina
 
 ---
 
@@ -520,22 +524,22 @@ Todos os itens abaixo foram cruzados diretamente contra o Apêndice A completo d
 RENAME 2024 (DCB e código ATC corrigidos onde necessário) — exceto os marcados ⛔ "não
 consta" e a Ocitocina, que depende do Apêndice B.
 
-### Lote 1 — Sistema cardiovascular (15) — ✅ todos revalidados
-1. pendente — Digoxina (C01AA05)
-2. pendente — Bissulfato de clopidogrel (B01AC04) — nome DCB completo; RENAME classifica em "Sangue e órgãos hematopoéticos", não cardiovascular
-3. pendente — Atorvastatina cálcica (C10AA05)
-4. pendente — Hidroclorotiazida (C03AA03)
-5. pendente — Furosemida (C03CA01)
-6. pendente — Cloridrato de propranolol (C07AA05)
-7. pendente — Succinato de metoprolol / Tartarato de metoprolol (C07AB02) — duas apresentações, mesmo ATC
-8. pendente — Dinitrato de isossorbida (C01DA08)
-9. pendente — Mononitrato de isossorbida (C01DA14)
-10. pendente — Cloridrato de amiodarona (C01BD01)
-11. pendente — Besilato de anlodipino (C08CA01) — nome DCB corrigido (era só "Anlodipino")
-12. pendente — Cloridrato de verapamil (C08DA01)
-13. pendente — Cloridrato de hidralazina (C02DB02)
-14. pendente — Metildopa (C02AB01) — **código corrigido**: era C02CA04 por engano (esse código é da doxazosina, item 15)
-15. pendente — Mesilato de doxazosina (C02CA04) — item novo, achado na revalidação (alfa-bloqueador, HAS/HPB)
+### Lote 1 — Sistema cardiovascular (15) — ✅ CONCLUÍDO
+1. concluído — Digoxina (C01AA05)
+2. concluído — Bissulfato de clopidogrel (B01AC04) — nome DCB completo; RENAME classifica em "Sangue e órgãos hematopoéticos", não cardiovascular
+3. concluído — Atorvastatina cálcica (C10AA05)
+4. concluído — Hidroclorotiazida (C03AA03)
+5. concluído — Furosemida (C03CA01)
+6. concluído — Cloridrato de propranolol (C07AA05)
+7. concluído — Succinato de metoprolol / Tartarato de metoprolol (C07AB02) — duas apresentações, mesmo ATC
+8. concluído — Dinitrato de isossorbida (C01DA08)
+9. concluído — Mononitrato de isossorbida (C01DA14)
+10. concluído — Cloridrato de amiodarona (C01BD01)
+11. concluído — Besilato de anlodipino (C08CA01) — nome DCB corrigido (era só "Anlodipino")
+12. concluído — Cloridrato de verapamil (C08DA01)
+13. concluído — Cloridrato de hidralazina (C02DB02)
+14. concluído — Metildopa (C02AB01) — **código corrigido**: era C02CA04 por engano (esse código é da doxazosina, item 15)
+15. concluído — Mesilato de doxazosina (C02CA04) — item novo, achado na revalidação (alfa-bloqueador, HAS/HPB)
 
 ### Lote 2 — Cardiovascular restante + trombolíticos + Endocrinologia (15) — ✅ todos revalidados
 1. pendente — Cloridrato de dobutamina (C01CA07) — **código corrigido**: era C01BD01 por engano (esse é o código da amiodarona)
@@ -620,9 +624,12 @@ consta" e a Ocitocina, que depende do Apêndice B.
 12. pendente — Betametasona / acetato + fosfato dissódico (H02AB01)
 13. concluído — Levotiroxina sódica (H03AA01) — já usada no Hipotireoidismo e Tireoidite (doenças já fichadas)
 
-**Total: 89 medicamentos em 6 lotes** (82 originais + 4 itens novos achados durante a
-revalidação: cloridrato de clindamicina, sulfato de morfina, cloridrato de naloxona,
-flumazenil + 3 itens novos abaixo: donepezila, memantina, esquema RIPE).
+**Total: 74 medicamentos pendentes em 5 lotes** (Lote 1 — Sistema cardiovascular, 15
+itens — concluído; 89 medicamentos totais no backlog original, 82 originais + 4 itens
+novos achados durante a revalidação: cloridrato de clindamicina, sulfato de morfina,
+cloridrato de naloxona, flumazenil + 3 itens novos abaixo: donepezila, memantina,
+esquema RIPE). **Próxima prioridade: Lote 2 (Cardiovascular restante + trombolíticos +
+Endocrinologia, 15 itens).**
 
 ### Itens adicionados fora da ordem dos lotes — ✅ concluídos e revalidados
 Priorizados a pedido do usuário por já fecharem vínculos cruzados que existiam do lado
