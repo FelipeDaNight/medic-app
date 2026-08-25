@@ -15,7 +15,7 @@ Fontes:
   está, o único item da lista ainda pendente por esse motivo.
 
 Já documentados com ficha completa (**fora deste backlog**, não repetir):
-- **Doenças (231):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
+- **Doenças (243):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
   · Dengue · COVID-19 · Gastrite · DRGE · Artrite reumatoide · LES · Alzheimer · Anemia
   ferropriva · DRC · Infarto agudo do miocárdio · Angina pectoris · Doença isquêmica
   crônica do coração · Fibrilação e flutter atrial · Parada cardíaca · Febre reumática ·
@@ -90,7 +90,13 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   de órgãos pélvicos · Cistos ovarianos e torção anexial · Pólipos do
   trato genital feminino · Miomatose uterina · Displasia cervical (NIC) ·
   Líquen escleroso e outras distrofias vulvares · Amenorreia · Sangramento
-  uterino anormal (incluindo menorragia)
+  uterino anormal (incluindo menorragia) · Dismenorreia e síndrome
+  pré-menstrual · Abortamento habitual · Infertilidade feminina ·
+  Transtornos da menopausa e da perimenopausa · Neoplasia maligna do colo
+  do útero · Neoplasia maligna do corpo do útero · Neoplasia maligna do
+  ovário · Neoplasia maligna da vulva · Neoplasia maligna da vagina ·
+  Neoplasia maligna da mama · Mola hidatiforme · Neoplasia maligna da
+  placenta (coriocarcinoma)
 - **Medicamentos (29):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
@@ -413,19 +419,19 @@ agrupadas em uma única ficha.
 12. concluído — Amenorreia (N91)
 13. concluído — Sangramento uterino anormal / menorragia (N92+N93)
 
-### Lote 18 — GO B: Ginecologia funcional, menopausa e oncologia ginecológica (12)
-1. pendente — Dismenorreia e síndrome pré-menstrual (N94)
-2. pendente — Abortamento habitual (N96)
-3. pendente — Infertilidade feminina (N97)
-4. pendente — Transtornos da menopausa e da perimenopausa (N95) *(já estava no Lote 15)*
-5. pendente — Neoplasia maligna do colo do útero (C53) *(já estava no Lote 15)*
-6. pendente — Neoplasia maligna do corpo do útero (C54) *(já estava no Lote 15)*
-7. pendente — Neoplasia maligna do ovário (C56)
-8. pendente — Neoplasia maligna da vulva (C51)
-9. pendente — Neoplasia maligna da vagina (C52)
-10. pendente — Neoplasia maligna da mama (C50) *(já estava no Lote 15)*
-11. pendente — Mola hidatiforme (O01)
-12. pendente — Neoplasia maligna da placenta / coriocarcinoma (C58)
+### Lote 18 — GO B: Ginecologia funcional, menopausa e oncologia ginecológica (12) — ✅ CONCLUÍDO
+1. concluído — Dismenorreia e síndrome pré-menstrual (N94)
+2. concluído — Abortamento habitual (N96)
+3. concluído — Infertilidade feminina (N97)
+4. concluído — Transtornos da menopausa e da perimenopausa (N95) *(já estava no Lote 15)*
+5. concluído — Neoplasia maligna do colo do útero (C53) *(já estava no Lote 15)*
+6. concluído — Neoplasia maligna do corpo do útero (C54) *(já estava no Lote 15)*
+7. concluído — Neoplasia maligna do ovário (C56)
+8. concluído — Neoplasia maligna da vulva (C51)
+9. concluído — Neoplasia maligna da vagina (C52)
+10. concluído — Neoplasia maligna da mama (C50) *(já estava no Lote 15)*
+11. concluído — Mola hidatiforme (O01)
+12. concluído — Neoplasia maligna da placenta / coriocarcinoma (C58)
 
 ### Lote 19 — GO C: Obstetrícia — complicações da gestação (13)
 1. pendente — Gravidez ectópica (O00) *(já estava no Lote 15)*
@@ -471,13 +477,13 @@ agrupadas em uma única ficha.
 10. pendente — Dermatite alérgica de contato (L23)
 11. pendente — Abscesso cutâneo, furúnculo e antraz (L02)
 
-**Total: 50 doenças pendentes em 4 lotes** (Lotes 1-13, Lotes 14-16
-(Otorrinolaringologia completa) e Lote 17 (GO A) todos concluídos, além das
-231 já fichadas. **Oftalmologia, Neurologia, Hematologia, Nefrologia+Urologia,
-Psiquiatria e Otorrinolaringologia fechadas por completo. Próxima
-prioridade: Lote 18 (GO B — Ginecologia funcional, menopausa e oncologia
-ginecológica, 12 itens), seguido dos Lotes 19-20 (Obstetrícia) antes de
-retomar Dermatologia (Lote 21).**
+**Total: 38 doenças pendentes em 3 lotes** (Lotes 1-13, Lotes 14-16
+(Otorrinolaringologia completa) e Lotes 17-18 (GO A e GO B) todos concluídos,
+além das 243 já fichadas. **Oftalmologia, Neurologia, Hematologia,
+Nefrologia+Urologia, Psiquiatria e Otorrinolaringologia fechadas por
+completo. Próxima prioridade: Lote 19 (GO C — Obstetrícia: complicações da
+gestação, 13 itens), seguido do Lote 20 (GO D — trabalho de parto, parto e
+puerpério) antes de retomar Dermatologia (Lote 21).**
 
 ---
 

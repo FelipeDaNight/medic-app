@@ -184,6 +184,7 @@ export const medications: Medication[] = [
       { slug: "colica-nefretica", nome: "Cólica nefrética" },
       { slug: "endometriose", nome: "Endometriose" },
       { slug: "sangramento-uterino-anormal", nome: "Sangramento uterino anormal (incluindo menorragia)" },
+      { slug: "dismenorreia-sindrome-pre-menstrual", nome: "Dismenorreia e síndrome pré-menstrual" },
     ],
     fontes: [
       { tema: "Mecanismo de ação e efeitos adversos", fonte: "Goodman & Gilman, 13ª ed." },

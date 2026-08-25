@@ -17134,4 +17134,866 @@ export const diseases: Disease[] = [
       { tema: "Indicação de biópsia endometrial por idade/fator de risco e opções terapêuticas por etiologia", fonte: "ACOG Practice Bulletin No. 128, Diagnosis of Abnormal Uterine Bleeding in Reproductive-Aged Women, 2012" },
     ],
   },
+  {
+    slug: "dismenorreia-sindrome-pre-menstrual",
+    nome: "Dismenorreia e síndrome pré-menstrual",
+    sinonimos: ["Cólica menstrual", "TPM"],
+    cid10: "N94",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Dor pélvica cíclica associada à menstruação (dismenorreia) e conjunto de sintomas físicos e emocionais recorrentes na fase lútea do ciclo (síndrome pré-menstrual), ambas de alta prevalência e impacto significativo na qualidade de vida.",
+    definicao:
+      "Dismenorreia é a dor pélvica tipo cólica que acompanha a menstruação, classificada em primária (sem doença pélvica identificável) ou secundária (decorrente de patologia subjacente, como endometriose ou miomatose); síndrome pré-menstrual é o conjunto recorrente de sintomas físicos e emocionais que surgem na fase lútea do ciclo e resolvem com o início da menstruação.",
+    epidemiologia:
+      "A dismenorreia primária é extremamente comum, acometendo a maioria das mulheres em algum momento da vida reprodutiva, com pico de prevalência em adolescentes e mulheres jovens; a síndrome pré-menstrual acomete uma proporção significativa de mulheres em idade reprodutiva, com uma minoria apresentando a forma grave (transtorno disfórico pré-menstrual).",
+    fisiopatologia:
+      "A dismenorreia primária decorre do excesso de produção de prostaglandinas (principalmente PGF2α) pelo endométrio secretor, causando contrações miometriais intensas e vasoconstrição, com isquemia uterina relativa e dor; a síndrome pré-menstrual reflete sensibilidade individual alterada às flutuações hormonais fisiológicas normais da fase lútea (progesterona e seus metabólitos neuroativos), afetando neurotransmissores centrais como serotonina e GABA.",
+    classificacao:
+      "Dismenorreia classificada em primária (funcional, sem doença pélvica associada, início geralmente próximo à menarca) e secundária (por doença pélvica identificável, como endometriose, adenomiose ou miomatose, com início mais tardio); síndrome pré-menstrual classificada por gravidade, com o transtorno disfórico pré-menstrual representando a forma mais grave, com sintomas de humor predominantes e impacto funcional significativo.",
+    quadroClinico: [
+      "Dismenorreia: dor pélvica tipo cólica, iniciando pouco antes ou com o início do fluxo menstrual e durando 1 a 3 dias, podendo se irradiar para a região lombar e as coxas",
+      "Dismenorreia secundária, diferentemente da primária, tende a piorar progressivamente e a persistir além do período menstrual, achado que sugere doença pélvica subjacente",
+      "Síndrome pré-menstrual: sintomas físicos (mastalgia, distensão abdominal, cefaleia, fadiga) e emocionais (irritabilidade, labilidade emocional, ansiedade) recorrentes na fase lútea, com resolução característica nos primeiros dias da menstruação",
+      "Transtorno disfórico pré-menstrual: forma grave com sintomas de humor predominantes (irritabilidade intensa, depressão, ansiedade) causando prejuízo funcional significativo",
+    ],
+    diagnostico: [
+      "Diagnóstico da dismenorreia primária é clínico, por exclusão de causas secundárias após anamnese e exame físico direcionados",
+      "Diagnóstico da síndrome pré-menstrual/transtorno disfórico pré-menstrual requer registro prospectivo diário de sintomas por pelo menos dois ciclos menstruais, confirmando o padrão cíclico característico com relação à fase lútea",
+    ],
+    examesComplementares: [
+      "Ultrassonografia pélvica indicada quando há suspeita de dismenorreia secundária, para investigação de endometriose, adenomiose ou miomatose",
+    ],
+    diagnosticoDiferencial: [
+      "Endometriose e adenomiose, principais causas de dismenorreia secundária, distinguidas pelo padrão de dor progressivo e por achados de imagem",
+      "Transtornos depressivos e ansiosos primários, distinguidos da síndrome pré-menstrual pela ausência de relação temporal estrita com a fase lútea do ciclo",
+    ],
+    tratamento: [
+      "Dismenorreia primária: anti-inflamatórios não esteroidais (como o ibuprofeno), tratamento de primeira linha por inibirem diretamente a síntese de prostaglandinas responsável pela dor",
+      "Contraceptivos hormonais combinados, opção eficaz de segunda linha para dismenorreia primária refratária ao AINE, por suprimirem a ovulação e reduzirem a produção endometrial de prostaglandinas",
+      "Síndrome pré-menstrual leve a moderada: medidas de estilo de vida (exercício físico regular, redução de sódio e cafeína) e suporte sintomático",
+      "Transtorno disfórico pré-menstrual: inibidores seletivos da recaptação de serotonina, tratamento farmacológico de primeira linha, podendo ser usados de forma contínua ou restrita à fase lútea",
+    ],
+    complicacoes: [
+      "Aguda: impacto funcional significativo com absenteísmo escolar/laboral durante os episódios",
+      "Crônica: impacto sustentado na qualidade de vida quando não tratada adequadamente, especialmente no transtorno disfórico pré-menstrual",
+    ],
+    redFlags: [
+      "Dismenorreia que piora progressivamente ao longo do tempo ou que não responde ao AINE em dose adequada deve levantar suspeita de causa secundária (endometriose, adenomiose) e motivar investigação adicional",
+      "Ideação suicida associada ao transtorno disfórico pré-menstrual grave exige avaliação psiquiátrica e conduta imediata",
+    ],
+    prognostico:
+      "Excelente para a dismenorreia primária com tratamento apropriado, com resposta satisfatória ao AINE na maioria dos casos; a síndrome pré-menstrual e o transtorno disfórico pré-menstrual respondem bem ao tratamento combinado (estilo de vida, e quando indicado, ISRS), embora tendam a ser recorrentes ao longo da vida reprodutiva.",
+    pontosDeProva: [
+      "A dismenorreia primária decorre do excesso de prostaglandinas (PGF2α) produzidas pelo endométrio secretor, mecanismo que justifica a eficácia dos AINEs como tratamento de primeira linha",
+      "Dismenorreia que piora progressivamente com o tempo, ao contrário do padrão estável da forma primária, sugere causa secundária subjacente",
+      "O diagnóstico da síndrome pré-menstrual/TDPM exige registro prospectivo de sintomas por ao menos dois ciclos, não podendo ser feito apenas com relato retrospectivo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Adolescente, 15 anos, relata dor pélvica tipo cólica que se inicia no primeiro dia da menstruação e dura cerca de 2 dias, presente desde a menarca há 2 anos, sem outros sintomas associados.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta terapêutica inicial?",
+      raciocinio:
+        "Dor pélvica cíclica de início próximo à menarca, com padrão estável e sem sinais de doença pélvica associada, é compatível com dismenorreia primária, quadro funcional decorrente do excesso de prostaglandinas endometriais.",
+      conduta:
+        "Prescrever anti-inflamatório não esteroidal (ibuprofeno) a partir do início dos sintomas ou do fluxo menstrual, tratamento de primeira linha para dismenorreia primária.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "ibuprofeno", nome: "Ibuprofeno" },
+    ],
+    medicamentosNota:
+      "Os contraceptivos hormonais combinados (segunda linha para dismenorreia) e os ISRS (primeira linha para o transtorno disfórico pré-menstrual) ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Fisiopatologia prostaglandínica da dismenorreia primária e mecanismo dos AINEs", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Critérios diagnósticos do transtorno disfórico pré-menstrual e tratamento com ISRS", fonte: "ACOG Clinical Practice Guideline No. 7, Management of Premenstrual Disorders, 2023" },
+    ],
+  },
+  {
+    slug: "abortamento-habitual",
+    nome: "Abortamento habitual (perda gestacional recorrente)",
+    sinonimos: ["Aborto de repetição", "Perda gestacional recorrente"],
+    cid10: "N96",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Ocorrência de duas ou mais perdas gestacionais consecutivas antes de 20-24 semanas, condição que motiva investigação etiológica sistemática, embora em quase metade dos casos nenhuma causa seja identificada.",
+    definicao:
+      "Perda gestacional recorrente definida classicamente como a ocorrência de duas ou mais perdas gestacionais clinicamente reconhecidas (confirmadas por ultrassonografia ou histopatologia) antes de completar 20 a 24 semanas de gestação, não necessariamente consecutivas em algumas definições, mas classicamente consideradas como tal.",
+    epidemiologia:
+      "Acomete uma minoria, mas clinicamente relevante, das mulheres em idade reprodutiva que tentam engravidar; o risco de nova perda aumenta progressivamente com o número de perdas prévias e com a idade materna avançada, refletindo o papel central das anomalias cromossômicas relacionadas à idade oocitária.",
+    fisiopatologia:
+      "Multifatorial, incluindo anomalias cromossômicas embrionárias (causa isolada mais comum, principalmente em perdas precoces), anomalias anatômicas uterinas (útero septado, sinéquias), síndrome do anticorpo antifosfolípide (trombose placentária e falha de implantação), trombofilias hereditárias, disfunções endócrinas (hipotireoidismo não controlado, diabetes mal controlado, insuficiência lútea) e, em uma proporção considerável dos casos, nenhuma causa identificável apesar de investigação completa.",
+    classificacao:
+      "Classificada etiologicamente em genética (anomalias cromossômicas embrionárias ou parentais, como translocações balanceadas), anatômica (malformações uterinas müllerianas, sinéquias, miomas submucosos), autoimune (síndrome do anticorpo antifosfolípide), endócrina (disfunção tireoidiana, diabetes, insuficiência lútea) e idiopática (quando nenhuma causa é identificada após investigação completa, correspondendo a uma proporção substancial dos casos).",
+    quadroClinico: [
+      "História de duas ou mais perdas gestacionais confirmadas, dado central e definidor da condição",
+      "Ausência de sintomas específicos fora dos próprios episódios de perda gestacional (sangramento, cólica, ausência de batimentos cardíacos fetais em avaliação ultrassonográfica)",
+      "Sinais sugestivos de causa anatômica (dismenorreia, infertilidade associada) ou autoimune (história de trombose prévia) podem orientar a investigação",
+    ],
+    diagnostico: [
+      "Anamnese detalhada do histórico obstétrico e ginecológico, com confirmação documental das perdas prévias sempre que possível",
+      "Investigação etiológica sistemática incluindo cariótipo do casal, avaliação da cavidade uterina (histerossonografia ou histeroscopia), triagem para síndrome do anticorpo antifosfolípide, e avaliação da função tireoidiana",
+    ],
+    examesComplementares: [
+      "Anticorpos antifosfolípides (anticoagulante lúpico, anticardiolipina, anti-beta2-glicoproteína I), exame obrigatório na investigação de perda gestacional recorrente",
+      "Cariótipo do produto conceptual (quando disponível) na perda subsequente, para identificar anomalia cromossômica embrionária como causa",
+      "Avaliação da reserva ovariana e função tireoidiana como parte da investigação endócrina",
+    ],
+    diagnosticoDiferencial: [
+      "Perdas gestacionais esporádicas não recorrentes, que não compartilham o mesmo significado clínico nem exigem a mesma investigação sistemática",
+      "Infertilidade primária, distinguida pela ausência de gestações confirmadas prévias",
+    ],
+    tratamento: [
+      "Dirigido à causa identificada: correção cirúrgica de anomalia uterina, anticoagulação (heparina de baixo peso molecular associada a ácido acetilsalicílico) na síndrome do anticorpo antifosfolípide, controle otimizado de disfunção tireoidiana/diabetes",
+      "Suporte psicológico e aconselhamento reprodutivo são componentes essenciais do manejo, dado o impacto emocional significativo das perdas recorrentes",
+      "Nos casos idiopáticos (a maior parte), o prognóstico para gestação subsequente bem-sucedida permanece favorável mesmo sem intervenção específica identificada, e o acompanhamento pré-natal precoce e de suporte é a conduta principal",
+    ],
+    complicacoes: [
+      "Aguda: complicações da própria perda gestacional (sangramento, infecção)",
+      "Crônica: impacto psicológico significativo (ansiedade, depressão) e, quando há causa anatômica ou autoimune não corrigida, risco mantido de novas perdas",
+    ],
+    redFlags: [
+      "Síndrome do anticorpo antifosfolípide não diagnosticada e não tratada mantém risco elevado de novas perdas e de complicações trombóticas maternas, reforçando a importância da triagem sistemática",
+      "Investigação completa sem causa identificada não deve ser interpretada como motivo de pessimismo, dado que a maioria das mulheres com perda gestacional recorrente idiopática consegue gestação bem-sucedida subsequente",
+    ],
+    prognostico:
+      "Variável conforme a causa identificada, mas geralmente favorável para gestação subsequente bem-sucedida mesmo nos casos idiopáticos, especialmente com acompanhamento pré-natal precoce e de suporte; causas anatômicas corrigíveis e a síndrome do anticorpo antifosfolípide tratada adequadamente têm excelente resposta terapêutica.",
+    pontosDeProva: [
+      "Anomalias cromossômicas embrionárias são a causa isolada mais comum de perda gestacional recorrente, especialmente em perdas precoces do primeiro trimestre",
+      "A síndrome do anticorpo antifosfolípide é a principal causa tratável identificável, com anticoagulação (heparina de baixo peso molecular + AAS) melhorando significativamente o desfecho gestacional",
+      "Em quase metade dos casos, nenhuma causa é identificada mesmo após investigação completa, mas o prognóstico para gestação subsequente permanece favorável",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 32 anos, relata três perdas gestacionais consecutivas no primeiro trimestre nos últimos dois anos, todas confirmadas por ultrassonografia.",
+      pergunta: "Qual a investigação etiológica inicial recomendada?",
+      raciocinio:
+        "Três perdas gestacionais consecutivas caracterizam perda gestacional recorrente, condição que justifica investigação etiológica sistemática, incluindo as causas mais comuns e tratáveis.",
+      conduta:
+        "Solicitar triagem para síndrome do anticorpo antifosfolípide, avaliação da cavidade uterina (histerossonografia/histeroscopia), cariótipo do casal e avaliação da função tireoidiana.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é dirigido à causa identificada (anticoagulação na síndrome do anticorpo antifosfolípide, correção cirúrgica anatômica, entre outros); nenhum desses tratamentos ainda tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Classificação etiológica e papel central das anomalias cromossômicas embrionárias", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Investigação e tratamento da síndrome do anticorpo antifosfolípide na perda gestacional recorrente", fonte: "ACOG Practice Bulletin No. 200, Early Pregnancy Loss, 2018" },
+    ],
+  },
+  {
+    slug: "infertilidade-feminina",
+    nome: "Infertilidade feminina",
+    sinonimos: ["Infertilidade conjugal (fator feminino)"],
+    cid10: "N97",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Incapacidade de conceber após 12 meses de relações sexuais regulares sem contracepção (6 meses se idade ≥ 35 anos), cujas principais causas femininas são fator ovulatório, fator tubário/peritoneal e endometriose.",
+    definicao:
+      "Incapacidade de conceber após um período definido de relações sexuais regulares e desprotegidas — 12 meses para mulheres com menos de 35 anos, ou 6 meses para mulheres com 35 anos ou mais, dado o declínio mais acelerado da reserva ovariana nessa faixa etária que justifica investigação mais precoce.",
+    epidemiologia:
+      "Acomete uma proporção significativa de casais em idade reprodutiva tentando engravidar, com o fator feminino isolado, o fator masculino isolado e a combinação de ambos contribuindo, cada um, para uma fração substancial dos casos; a idade materna avançada é o fator prognóstico mais importante, dado o declínio progressivo e acelerado da reserva e da qualidade ovocitária a partir dos 35 anos.",
+    fisiopatologia:
+      "As principais causas do fator feminino atuam em diferentes níveis do processo reprodutivo: disfunção ovulatória (anovulação crônica, como na síndrome dos ovários policísticos, impedindo a liberação regular de oócitos), fator tubário/peritoneal (obstrução ou aderências tubárias, frequentemente sequela de doença inflamatória pélvica prévia, impedindo o encontro do oócito com o espermatozoide ou o transporte do embrião), e endometriose (distorção anatômica e ambiente peritoneal inflamatório inóspito à fertilização e implantação).",
+    classificacao:
+      "Classificada por fator etiológico em ovulatório, tubário/peritoneal, uterino (anomalias anatômicas, miomas submucosos), endometriose, e fator masculino (avaliado em paralelo, dado que a infertilidade é investigada como condição do casal); uma proporção dos casos permanece sem causa identificada (infertilidade sem causa aparente) mesmo após investigação completa.",
+    quadroClinico: [
+      "Ausência de concepção após o período definido de tentativa apesar de relações sexuais regulares e desprotegidas, critério central da definição",
+      "Irregularidade menstrual (oligomenorreia/amenorreia) sugere disfunção ovulatória como fator contribuinte",
+      "Dismenorreia progressiva e dispareunia sugerem endometriose associada",
+      "História de doença inflamatória pélvica prévia ou cirurgia pélvica sugere fator tubário/peritoneal",
+    ],
+    diagnostico: [
+      "Avaliação da ovulação (dosagem de progesterona na fase lútea média, ou monitorização de temperatura basal/kits de predição de ovulação), confirmando ou não a ocorrência regular de ovulação",
+      "Histerossalpingografia, exame de primeira linha para avaliação da permeabilidade tubária e da cavidade uterina",
+      "Avaliação da reserva ovariana (hormônio antimülleriano e contagem de folículos antrais), particularmente relevante em mulheres acima de 35 anos",
+      "Avaliação do fator masculino em paralelo (espermograma), sempre parte da investigação inicial do casal",
+    ],
+    examesComplementares: [
+      "Laparoscopia diagnóstica reservada para suspeita de endometriose ou aderências pélvicas não totalmente esclarecidas pelos exames de primeira linha",
+      "Ultrassonografia pélvica/transvaginal para avaliação de anomalias uterinas e ovarianas estruturais",
+    ],
+    diagnosticoDiferencial: [
+      "Disfunção sexual do casal, causa não orgânica que pode simular infertilidade quando há dificuldade na frequência ou timing das relações",
+      "Perda gestacional recorrente, condição distinta que pressupõe capacidade de concepção mas dificuldade em manter a gestação",
+    ],
+    tratamento: [
+      "Dirigido à causa identificada: indução da ovulação em disfunção ovulatória, correção cirúrgica ou fertilização in vitro em fator tubário, tratamento cirúrgico ou fertilização in vitro em endometriose associada",
+      "Técnicas de reprodução assistida (inseminação intrauterina, fertilização in vitro), indicadas conforme a causa, a idade materna e a falha de tratamentos menos invasivos",
+      "Orientação sobre otimização do timing das relações sexuais em relação à janela fértil como medida inicial de baixo custo em casais sem causa identificada",
+    ],
+    complicacoes: [
+      "Aguda: síndrome de hiperestimulação ovariana como complicação de tratamentos de indução da ovulação/fertilização in vitro",
+      "Crônica: impacto psicológico significativo (ansiedade, depressão, tensão conjugal) associado à dificuldade reprodutiva prolongada",
+    ],
+    redFlags: [
+      "Idade materna acima de 35 anos justifica investigação mais precoce (após 6 meses, em vez de 12) dado o declínio acelerado da reserva ovariana nessa faixa etária, com impacto direto no prognóstico reprodutivo",
+      "Amenorreia associada a infertilidade deve ser investigada especificamente (ver ficha de amenorreia), dado que frequentemente aponta para causa ovulatória tratável",
+    ],
+    prognostico:
+      "Variável conforme a causa identificada e a idade materna, sendo esta o fator prognóstico mais determinante; muitas causas (disfunção ovulatória, fator tubário) respondem bem a tratamento dirigido ou a técnicas de reprodução assistida.",
+    pontosDeProva: [
+      "A investigação de infertilidade é iniciada após 12 meses de tentativa (ou 6 meses se idade ≥ 35 anos), dado o declínio acelerado da reserva ovariana nessa faixa etária",
+      "As três principais causas do fator feminino são disfunção ovulatória, fator tubário/peritoneal e endometriose, cada uma investigada por exame específico direcionado",
+      "A infertilidade é sempre investigada como condição do casal, com avaliação do fator masculino (espermograma) sempre parte da investigação inicial",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 36 anos, relata tentativa de engravidar há 7 meses sem sucesso, com ciclos menstruais regulares. Nega dismenorreia ou história de doença inflamatória pélvica.",
+      pergunta: "Está indicado iniciar a investigação de infertilidade nesse momento?",
+      raciocinio:
+        "Sim. Embora o período clássico de tentativa antes da investigação seja de 12 meses, mulheres com 35 anos ou mais devem iniciar a investigação após apenas 6 meses de tentativa, dado o declínio acelerado da reserva ovariana nessa faixa etária, que reduz a janela reprodutiva disponível para tratamento.",
+      conduta:
+        "Iniciar avaliação da reserva ovariana (hormônio antimülleriano), confirmação de ovulação, histerossalpingografia para avaliação tubária/uterina, e espermograma do parceiro em paralelo.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é dirigido à causa (indutores de ovulação, técnicas de reprodução assistida), nenhum dos quais ainda tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Definição, classificação etiológica e algoritmo de investigação inicial", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Critério de idade para início mais precoce da investigação (35 anos)", fonte: "ACOG Committee Opinion No. 781, Infertility Workup for the Women's Health Specialist, 2019" },
+    ],
+  },
+  {
+    slug: "transtornos-menopausa-perimenopausa",
+    nome: "Transtornos da menopausa e da perimenopausa",
+    sinonimos: ["Climatério", "Síndrome climatérica"],
+    cid10: "N95",
+    especialidade: "Ginecologia",
+    etiologia: "Metabólica",
+    resumo: "Transição fisiológica caracterizada pelo declínio progressivo e cessação da função ovariana, causando fogachos, sintomas geniturinários, alterações do humor e perda de densidade óssea decorrentes do hipoestrogenismo.",
+    definicao:
+      "Menopausa é definida retrospectivamente como a cessação permanente da menstruação após 12 meses consecutivos de amenorreia, decorrente do esgotamento da reserva folicular ovariana; perimenopausa é a transição que a precede, marcada por irregularidade menstrual progressiva e flutuações hormonais.",
+    epidemiologia:
+      "A menopausa ocorre naturalmente em média por volta dos 51 anos, podendo também ser induzida (cirúrgica, por ooforectomia bilateral, ou por quimioterapia/radioterapia); a grande maioria das mulheres experimenta algum grau de sintomas vasomotores durante a transição, com intensidade e duração variáveis.",
+    fisiopatologia:
+      "O esgotamento progressivo da reserva folicular ovariana leva à queda dos níveis de estradiol e à elevação compensatória de FSH; a queda estrogênica desregula o centro termorregulador hipotalâmico (causando os fogachos característicos), leva a atrofia do epitélio urogenital (síndrome geniturinária da menopausa) e acelera a perda de massa óssea pela redução do efeito estrogênico protetor sobre o remodelamento ósseo.",
+    classificacao:
+      "Classificada em perimenopausa (transição com ciclos irregulares e sintomas vasomotores iniciais), menopausa (marco retrospectivo após 12 meses de amenorreia) e pós-menopausa (período subsequente); também classificada quanto à causa em natural (fisiológica) e induzida (cirúrgica ou por tratamento oncológico).",
+    quadroClinico: [
+      "Fogachos (ondas de calor) e sudorese noturna, sintomas vasomotores mais característicos e frequentemente o motivo da consulta",
+      "Irregularidade menstrual progressiva na perimenopausa, precedendo a cessação completa da menstruação",
+      "Síndrome geniturinária da menopausa: secura vaginal, dispareunia, urgência urinária e infecções urinárias de repetição, decorrentes da atrofia do epitélio urogenital",
+      "Alterações do humor (irritabilidade, labilidade emocional) e distúrbios do sono, frequentemente exacerbados pelos próprios fogachos noturnos",
+    ],
+    diagnostico: [
+      "Diagnóstico eminentemente clínico, baseado na idade e no padrão de irregularidade/cessação menstrual associado aos sintomas característicos",
+      "Dosagem de FSH pode auxiliar em casos de dúvida diagnóstica (por exemplo, menopausa precoce), mas não é necessária para o diagnóstico em mulheres na faixa etária típica com quadro clínico característico",
+    ],
+    examesComplementares: [
+      "Densitometria óssea, recomendada para rastreamento de osteoporose no período pós-menopausa, dado o risco aumentado pela perda do efeito protetor estrogênico",
+      "Perfil lipídico, dado o aumento do risco cardiovascular após a menopausa pela perda do efeito protetor estrogênico endógeno",
+    ],
+    diagnosticoDiferencial: [
+      "Disfunção tireoidiana, causa de irregularidade menstrual e sintomas sistêmicos que pode mimetizar ou coexistir com a transição menopausal",
+      "Insuficiência ovariana primária, quando os sintomas e a cessação menstrual ocorrem antes dos 40 anos, exigindo investigação etiológica específica",
+    ],
+    tratamento: [
+      "Terapia hormonal (estrogênio, associado a progestagênio em mulheres com útero intacto), tratamento mais eficaz para os sintomas vasomotores moderados a graves, indicada individualizadamente conforme risco-benefício",
+      "Estrogênio vaginal tópico em baixa dose, tratamento de escolha para a síndrome geniturinária da menopausa isolada, com absorção sistêmica mínima",
+      "Alternativas não hormonais (como inibidores seletivos da recaptação de serotonina/noradrenalina) para sintomas vasomotores em mulheres com contraindicação à terapia hormonal",
+      "Suplementação de cálcio e vitamina D, e avaliação de necessidade de tratamento específico para osteoporose conforme a densitometria óssea",
+    ],
+    complicacoes: [
+      "Aguda: impacto significativo na qualidade de vida pelos sintomas vasomotores e do sono",
+      "Crônica: osteoporose e aumento do risco de fraturas, aumento do risco cardiovascular, atrofia urogenital progressiva quando não tratada",
+    ],
+    redFlags: [
+      "Sangramento vaginal após a menopausa estabelecida (12 meses de amenorreia) é sempre um sinal de alarme que exige investigação para exclusão de malignidade endometrial, não devendo ser atribuído à transição menopausal em si",
+      "Menopausa antes dos 40 anos (insuficiência ovariana primária) exige investigação etiológica e consideração de terapia hormonal para proteção óssea e cardiovascular a longo prazo, dado o período mais prolongado de hipoestrogenismo",
+    ],
+    prognostico:
+      "Excelente controle sintomático com terapia individualizada; os sintomas vasomotores tendem a se atenuar espontaneamente ao longo dos anos após a menopausa, embora a atrofia urogenital, sem tratamento, tenda a ser progressiva e não regride espontaneamente.",
+    pontosDeProva: [
+      "Menopausa é um diagnóstico retrospectivo, definido por 12 meses consecutivos de amenorreia, e não um momento identificável prospectivamente",
+      "Sangramento vaginal após a menopausa estabelecida é sempre patológico até prova em contrário e exige investigação para exclusão de malignidade endometrial",
+      "O estrogênio vaginal tópico em baixa dose é o tratamento de escolha para a síndrome geniturinária da menopausa isolada, com mínima absorção sistêmica em comparação à terapia hormonal sistêmica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 52 anos, com 14 meses de amenorreia, relata fogachos frequentes e sudorese noturna que atrapalham significativamente o sono, sem sangramento vaginal.",
+      pergunta: "Qual a conduta terapêutica apropriada para o controle dos sintomas vasomotores?",
+      raciocinio:
+        "Fogachos e sudorese noturna moderados a graves, impactando significativamente a qualidade de vida, em mulher na pós-menopausa sem contraindicações identificadas, justificam consideração de terapia hormonal como tratamento mais eficaz disponível.",
+      conduta:
+        "Avaliar contraindicações individuais e, na ausência delas, considerar terapia hormonal (estrogênio associado a progestagênio, dado o útero intacto) para controle dos sintomas vasomotores, com reavaliação periódica do risco-benefício.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "A terapia hormonal sistêmica e o estrogênio vaginal tópico, tratamentos de escolha, ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Fisiopatologia do esgotamento folicular e classificação da transição menopausal", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Indicações e individualização de risco-benefício da terapia hormonal", fonte: "The North American Menopause Society, The 2022 Hormone Therapy Position Statement" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-colo-utero",
+    nome: "Neoplasia maligna do colo do útero",
+    sinonimos: ["Câncer de colo uterino", "Carcinoma cervical"],
+    cid10: "C53",
+    especialidade: "Ginecologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna quase universalmente associada à infecção persistente por HPV oncogênico, uma das neoplasias mais preveníveis quando o rastreamento citológico e a vacinação são adequadamente implementados.",
+    definicao:
+      "Neoplasia maligna originada do epitélio cervical, na grande maioria dos casos carcinoma espinocelular (originado do epitélio escamoso) e, em menor proporção, adenocarcinoma (originado do epitélio glandular endocervical), decorrente da progressão não tratada de displasia cervical de alto grau causada por infecção persistente por HPV oncogênico.",
+    epidemiologia:
+      "Uma das neoplasias ginecológicas mais comuns globalmente, com incidência marcadamente maior em regiões com programas de rastreamento citológico deficientes; a incidência tem declinado de forma acentuada em populações com rastreamento e vacinação contra HPV amplamente implementados.",
+    fisiopatologia:
+      "Decorre da progressão de displasia cervical de alto grau (NIC 2/3) não tratada, na qual a expressão persistente das oncoproteínas E6 e E7 do HPV oncogênico (inativando p53 e Rb, respectivamente) permite acúmulo progressivo de mutações adicionais e invasão da membrana basal, com potencial subsequente de disseminação local (paramétrios, vagina), linfática (linfonodos pélvicos e para-aórticos) e, em fase avançada, hematogênica.",
+    classificacao:
+      "Classificado histologicamente em carcinoma espinocelular (a maioria) e adenocarcinoma; estadiado clinicamente pelo sistema FIGO, com base primariamente no exame físico e em achados de imagem, considerando tamanho tumoral, extensão parametrial, invasão de órgãos adjacentes e presença de metástases.",
+    quadroClinico: [
+      "Sangramento vaginal anormal (intermenstrual, pós-coital ou pós-menopausa), sintoma mais comum em doença já estabelecida",
+      "Corrimento vaginal fétido e persistente em doença mais avançada",
+      "Dor pélvica e sintomas compressivos (urinários, intestinais) em doença localmente avançada com invasão de estruturas adjacentes",
+      "Frequentemente assintomática nas fases pré-invasiva e microinvasiva inicial, identificada exclusivamente pelo rastreamento citológico",
+    ],
+    diagnostico: [
+      "Biópsia cervical dirigida por colposcopia, exame confirmatório que estabelece o diagnóstico histológico",
+      "Estadiamento clínico FIGO com exame físico detalhado sob anestesia quando necessário, complementado por exames de imagem",
+    ],
+    examesComplementares: [
+      "Ressonância magnética pélvica, exame de escolha para avaliação da extensão tumoral local e parametrial no estadiamento",
+      "Tomografia computadorizada de tórax/abdome ou PET-TC para avaliação de doença linfonodal e metástases a distância em estádios mais avançados",
+    ],
+    diagnosticoDiferencial: [
+      "Pólipo cervical e cervicite, causas benignas de sangramento e corrimento que devem ser distinguidas por biópsia quando há qualquer suspeita",
+      "Displasia cervical de alto grau (NIC 2/3) sem invasão, distinguida pela ausência de invasão da membrana basal ao exame histopatológico",
+    ],
+    tratamento: [
+      "Doença microinvasiva inicial: conização ou histerectomia simples, conforme profundidade de invasão e desejo reprodutivo",
+      "Doença localmente invasiva (estádios iniciais): histerectomia radical com linfadenectomia pélvica, ou radioterapia associada à quimioterapia (quimiorradioterapia) como alternativa em pacientes não candidatas à cirurgia",
+      "Doença localmente avançada: quimiorradioterapia concomitante como tratamento padrão",
+      "Doença metastática: quimioterapia sistêmica, com incorporação crescente de imunoterapia em protocolos atuais",
+    ],
+    complicacoes: [
+      "Aguda: sangramento e dor relacionados à progressão tumoral local",
+      "Crônica: obstrução ureteral bilateral com insuficiência renal obstrutiva em doença localmente avançada invadindo os paramétrios, uma das principais causas de óbito na doença não controlada",
+    ],
+    redFlags: [
+      "Sangramento pós-coital em mulher sem rastreamento citológico atualizado deve motivar investigação cervical dirigida, incluindo exclusão de neoplasia invasiva",
+      "Obstrução ureteral bilateral por invasão parametrial extensa é sinal de doença avançada com impacto prognóstico significativo",
+    ],
+    prognostico:
+      "Excelente em doença detectada em fase pré-invasiva ou microinvasiva inicial (rastreamento e tratamento oportunos da displasia); o prognóstico piora progressivamente com o estádio ao diagnóstico, reforçando a importância central do rastreamento populacional e da vacinação contra HPV na prevenção primária e secundária.",
+    pontosDeProva: [
+      "O câncer cervical é uma das neoplasias mais preveníveis, dado que decorre de uma sequência conhecida e detectável (infecção por HPV → displasia → carcinoma invasor) interceptável pelo rastreamento citológico",
+      "Carcinoma espinocelular é o tipo histológico mais comum, seguido pelo adenocarcinoma",
+      "O estadiamento é primariamente clínico (FIGO), diferentemente de muitas outras neoplasias ginecológicas que são estadiadas cirurgicamente",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 45 anos, sem rastreamento citológico há mais de 10 anos, procura atendimento por sangramento pós-coital recorrente há 3 meses. Exame especular revela lesão exofítica friável no colo uterino.",
+      pergunta: "Qual a conduta diagnóstica imediata?",
+      raciocinio:
+        "Lesão cervical exofítica e friável associada a sangramento pós-coital em paciente sem rastreamento adequado é altamente suspeita de neoplasia cervical invasiva, devendo ser biopsiada diretamente em vez de aguardar apenas citologia de rastreamento.",
+      conduta:
+        "Realizar biópsia dirigida da lesão visível para confirmação histológica; se confirmado carcinoma, prosseguir com estadiamento clínico FIGO e exames de imagem (ressonância pélvica) para planejamento terapêutico.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento oncológico específico (cirurgia, quimiorradioterapia, quimioterapia sistêmica) ainda não tem seus componentes documentados como fichas próprias no site.",
+    fontes: [
+      { tema: "Fisiopatologia da progressão de displasia para carcinoma invasor e classificação histológica", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Estadiamento FIGO e opções terapêuticas por estádio", fonte: "FIGO Cancer Report 2021, Cervical Cancer" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-corpo-utero",
+    nome: "Neoplasia maligna do corpo do útero (câncer de endométrio)",
+    sinonimos: ["Câncer de endométrio", "Carcinoma endometrial"],
+    cid10: "C54",
+    especialidade: "Ginecologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia ginecológica maligna mais comum em países desenvolvidos, fortemente associada à exposição estrogênica não compensada, manifestando-se predominantemente por sangramento pós-menopausa, o que favorece diagnóstico em fase precoce.",
+    definicao:
+      "Neoplasia maligna originada do epitélio glandular endometrial, classicamente dividida em dois tipos fisiopatológicos distintos: tipo I (endometrioide, estrogênio-dependente, associado a hiperplasia endometrial prévia) e tipo II (não endometrioide — seroso, células claras —, não estrogênio-dependente, de comportamento biológico mais agressivo).",
+    epidemiologia:
+      "A neoplasia ginecológica maligna mais comum em países desenvolvidos, tipicamente diagnosticada em mulheres na pós-menopausa; principais fatores de risco para o tipo I incluem obesidade, anovulação crônica (síndrome dos ovários policísticos), nuliparidade, uso de tamoxifeno e terapia estrogênica isolada sem oposição progestagênica.",
+    fisiopatologia:
+      "O tipo I decorre de exposição estrogênica prolongada e não compensada por progesterona, levando a proliferação endometrial excessiva (hiperplasia endometrial), que pode progredir para carcinoma quando há atipia celular associada; o tipo II surge independentemente do estímulo estrogênico, tipicamente em endométrio atrófico, com mutações de p53 e comportamento biologicamente mais agressivo desde o diagnóstico.",
+    classificacao:
+      "Classificado em tipo I (endometrioide, cerca de 80% dos casos, estrogênio-dependente, geralmente de melhor prognóstico) e tipo II (seroso e de células claras, estrogênio-independente, pior prognóstico); estadiado cirurgicamente pelo sistema FIGO, com base em achados da histerectomia com linfadenectomia.",
+    quadroClinico: [
+      "Sangramento vaginal pós-menopausa, sintoma de apresentação mais comum e que favorece diagnóstico em fase precoce, dado que motiva investigação imediata",
+      "Sangramento uterino anormal em mulher na perimenopausa com fatores de risco (obesidade, anovulação crônica), padrão de apresentação mais desafiador por se sobrepor a causas benignas comuns nessa faixa etária",
+      "Corrimento vaginal serossanguinolento em casos mais avançados",
+    ],
+    diagnostico: [
+      "Biópsia endometrial (ambulatorial ou por histeroscopia), exame confirmatório de primeira linha diante de sangramento pós-menopausa ou espessamento endometrial suspeito",
+      "Ultrassonografia transvaginal como triagem inicial, com espessamento endometrial acima de determinado limiar em mulher pós-menopausa reforçando a indicação de biópsia",
+    ],
+    examesComplementares: [
+      "Ressonância magnética pélvica para avaliação pré-operatória da profundidade de invasão miometrial e extensão cervical",
+      "Estadiamento cirúrgico definitivo (histerectomia total com salpingo-ooforectomia bilateral e linfadenectomia), que estabelece o estádio FIGO final e orienta necessidade de tratamento adjuvante",
+    ],
+    diagnosticoDiferencial: [
+      "Pólipo endometrial e hiperplasia endometrial sem atipia, lesões benignas que compartilham o sintoma de sangramento pós-menopausa, distinguidas pela biópsia",
+      "Sarcoma uterino, neoplasia maligna mesenquimal rara, distinguida por comportamento clínico mais agressivo e características histológicas próprias",
+    ],
+    tratamento: [
+      "Histerectomia total com salpingo-ooforectomia bilateral e linfadenectomia, tratamento primário na maioria dos casos, servindo simultaneamente de estadiamento cirúrgico definitivo",
+      "Radioterapia adjuvante (pélvica ou vaginal) indicada conforme fatores de risco identificados no estadiamento cirúrgico (profundidade de invasão miometrial, grau histológico, invasão linfovascular)",
+      "Quimioterapia adjuvante ou paliativa indicada em doença de alto risco, tipo II, ou metastática",
+      "Progestagênios como opção conservadora (preservando a fertilidade) em casos muito selecionados de carcinoma endometrioide inicial de baixo grau em mulheres jovens",
+    ],
+    complicacoes: [
+      "Aguda: sangramento significativo em casos avançados",
+      "Crônica: disseminação linfonodal e a distância em doença não tratada ou de alto risco",
+    ],
+    redFlags: [
+      "Todo sangramento pós-menopausa deve ser considerado câncer de endométrio até prova em contrário, dado que essa é a manifestação clássica e mais precoce da doença",
+      "Espessamento endometrial significativo em mulher pós-menopausa assintomática também merece investigação, embora o risco seja proporcionalmente menor que na presença de sangramento",
+    ],
+    prognostico:
+      "Geralmente favorável quando diagnosticado precocemente (a maioria dos casos, dado o sintoma de alarme precoce do sangramento pós-menopausa), com o tipo histológico (I versus II) e o estádio cirúrgico sendo os principais determinantes prognósticos.",
+    pontosDeProva: [
+      "É a neoplasia ginecológica maligna mais comum em países desenvolvidos, e frequentemente diagnosticada em fase precoce pelo sintoma de alarme do sangramento pós-menopausa",
+      "O tipo I (endometrioide, estrogênio-dependente) tem melhor prognóstico que o tipo II (seroso/células claras, estrogênio-independente, mutação de p53)",
+      "O estadiamento é cirúrgico (FIGO), ao contrário do câncer cervical, que é estadiado clinicamente",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 61 anos, na pós-menopausa há 10 anos, obesa, relata episódio de sangramento vaginal. Ultrassonografia transvaginal identifica espessamento endometrial de 12 mm.",
+      pergunta: "Qual a conduta diagnóstica apropriada?",
+      raciocinio:
+        "Sangramento pós-menopausa associado a espessamento endometrial significativo em paciente com fator de risco (obesidade, favorecendo excesso estrogênico relativo) deve ser considerado câncer de endométrio até prova em contrário.",
+      conduta:
+        "Realizar biópsia endometrial (ambulatorial ou histeroscópica) para confirmação histológica; se confirmado carcinoma, encaminhar para estadiamento cirúrgico com histerectomia total, salpingo-ooforectomia bilateral e linfadenectomia.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é cirúrgico, com radioterapia/quimioterapia adjuvantes conforme risco; nenhum desses componentes ainda tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Classificação em tipo I e tipo II e fatores de risco estrogênicos", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Investigação do sangramento pós-menopausa e estadiamento cirúrgico FIGO", fonte: "ACOG Committee Opinion No. 734, The Role of Transvaginal Ultrasonography in Evaluating the Endometrium of Women With Postmenopausal Bleeding" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-ovario",
+    nome: "Neoplasia maligna do ovário",
+    sinonimos: ["Câncer de ovário", "Carcinoma epitelial do ovário"],
+    cid10: "C56",
+    especialidade: "Ginecologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia ginecológica com a maior letalidade, tipicamente diagnosticada em estádio avançado por sua evolução insidiosa e sintomas iniciais inespecíficos, sendo o carcinoma epitelial seroso de alto grau o tipo histológico predominante.",
+    definicao:
+      "Neoplasia maligna originada do ovário, mais comumente de origem epitelial (carcinoma), com uma minoria de origem em células germinativas ou no estroma/cordões sexuais; o carcinoma seroso de alto grau, hoje reconhecido como frequentemente originado na porção distal da tuba uterina, é o subtipo mais comum e letal.",
+    epidemiologia:
+      "Neoplasia ginecológica com a maior taxa de mortalidade, decorrente principalmente do diagnóstico tardio em estádio avançado; mutações germinativas em BRCA1/BRCA2 e síndrome de Lynch são os principais fatores de risco hereditários identificáveis, associados a risco substancialmente aumentado ao longo da vida.",
+    fisiopatologia:
+      "O carcinoma seroso de alto grau, o subtipo mais comum, origina-se predominantemente do epitélio da fímbria tubária (não do ovário propriamente dito, conforme entendimento fisiopatológico atual), disseminando-se precocemente pela superfície peritoneal através do líquido peritoneal, o que explica a apresentação frequente com carcinomatose peritoneal e ascite já ao diagnóstico; mutações em BRCA1/BRCA2 comprometem o reparo do DNA por recombinação homóloga, predispondo à carcinogênese.",
+    classificacao:
+      "Classificado histologicamente em epitelial (a maioria, subdividido em seroso de alto grau — o mais comum e letal —, seroso de baixo grau, endometrioide, de células claras e mucinoso), de células germinativas (mais comum em mulheres jovens) e do estroma/cordões sexuais; estadiado cirurgicamente pelo sistema FIGO.",
+    quadroClinico: [
+      "Sintomas inespecíficos e insidiosos (distensão abdominal, saciedade precoce, desconforto pélvico, alterações urinárias/intestinais), frequentemente atribuídos a outras causas, retardando o diagnóstico",
+      "Massa pélvica/abdominal palpável e ascite em doença já avançada, achados mais específicos mas tardios",
+      "Sintomas gastrointestinais persistentes e de início recente em mulher de meia-idade devem sempre incluir neoplasia ovariana no diagnóstico diferencial, dada a inespecificidade inicial do quadro",
+    ],
+    diagnostico: [
+      "Ultrassonografia pélvica/transvaginal como exame inicial de imagem para caracterização de massa anexial suspeita",
+      "CA-125 sérico como marcador tumoral auxiliar, mais útil no acompanhamento da resposta terapêutica do que como exame de rastreamento isolado, dada sua baixa especificidade em mulheres pré-menopausa",
+      "Confirmação histológica definitiva obtida no momento da cirurgia de estadiamento, já que a biópsia percutânea pré-operatória é geralmente evitada pelo risco de disseminação tumoral",
+    ],
+    examesComplementares: [
+      "Tomografia computadorizada de abdome e pelve para avaliação da extensão da doença e planejamento cirúrgico",
+      "Teste genético para mutações BRCA1/BRCA2 em todas as pacientes diagnosticadas com carcinoma epitelial de ovário, com implicações terapêuticas (uso de inibidores de PARP) e para aconselhamento familiar",
+    ],
+    diagnosticoDiferencial: [
+      "Cisto ovariano funcional/benigno, distinguido por características ultrassonográficas mais simples e ausência de componentes sólidos ou vascularização anormal",
+      "Endometrioma, distinguido pelo aspecto ecográfico característico de conteúdo homogêneo espesso",
+      "Neoplasia gastrointestinal com metástase ovariana secundária (tumor de Krukenberg), diagnóstico diferencial relevante que a avaliação histopatológica completa deve considerar",
+    ],
+    tratamento: [
+      "Cirurgia citorredutora (histerectomia total, salpingo-ooforectomia bilateral, omentectomia e ressecção de toda doença macroscópica visível) associada a estadiamento cirúrgico completo, pilar do tratamento inicial",
+      "Quimioterapia sistêmica à base de platina, indicada na maioria dos casos além do estádio inicial mais precoce, seja em contexto adjuvante seja neoadjuvante",
+      "Inibidores de PARP como terapia de manutenção em pacientes com mutação BRCA ou deficiência de recombinação homóloga, representando avanço terapêutico relevante nas últimas décadas",
+    ],
+    complicacoes: [
+      "Aguda: obstrução intestinal por carcinomatose peritoneal em doença avançada",
+      "Crônica: recorrência frequente mesmo após resposta inicial ao tratamento, especialmente no carcinoma seroso de alto grau",
+    ],
+    redFlags: [
+      "Sintomas gastrointestinais inespecíficos persistentes e de início recente em mulher de meia-idade ou mais velha devem sempre motivar consideração de neoplasia ovariana, dado o padrão insidioso característico dessa doença",
+      "História familiar de câncer de ovário e/ou mama deve motivar aconselhamento genético e consideração de teste para mutações BRCA1/BRCA2",
+    ],
+    prognostico:
+      "Reservado na maioria dos casos, dado o diagnóstico predominante em estádio avançado; a resposta inicial à cirurgia citorredutora completa e à quimioterapia à base de platina costuma ser boa, mas a recorrência é frequente, sendo o principal desafio no manejo a longo prazo.",
+    pontosDeProva: [
+      "O carcinoma seroso de alto grau, subtipo mais comum e letal, é hoje entendido como frequentemente originado na fímbria tubária, não no ovário propriamente dito",
+      "CA-125 tem baixa especificidade como exame de rastreamento isolado, sendo mais útil no acompanhamento da resposta terapêutica após diagnóstico estabelecido",
+      "Teste para mutações BRCA1/BRCA2 é recomendado para todas as pacientes com carcinoma epitelial de ovário, com implicação terapêutica direta (inibidores de PARP)",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 58 anos, relata distensão abdominal progressiva, saciedade precoce e desconforto pélvico há 3 meses, sintomas inicialmente atribuídos a distúrbio digestivo funcional. Exame físico revela ascite e massa pélvica palpável.",
+      pergunta: "Qual a hipótese diagnóstica que deve ser priorizada e a conduta subsequente?",
+      raciocinio:
+        "Sintomas gastrointestinais inespecíficos persistentes associados a massa pélvica e ascite em mulher de meia-idade são altamente sugestivos de neoplasia maligna de ovário em estádio avançado, padrão de apresentação insidiosa característico dessa doença.",
+      conduta:
+        "Solicitar ultrassonografia pélvica/transvaginal, CA-125 sérico e tomografia de abdome/pelve para caracterização e estadiamento; encaminhar para cirurgia citorredutora com estadiamento cirúrgico completo.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é cirúrgico associado a quimioterapia sistêmica à base de platina e, quando indicado, inibidores de PARP; nenhum desses componentes ainda tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Origem tubária do carcinoma seroso de alto grau e classificação histológica", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Papel do teste BRCA1/BRCA2 e dos inibidores de PARP no tratamento", fonte: "ACOG Practice Bulletin No. 182, Hereditary Breast and Ovarian Cancer Syndrome, 2017" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-vulva",
+    nome: "Neoplasia maligna da vulva",
+    sinonimos: ["Câncer de vulva", "Carcinoma vulvar"],
+    cid10: "C51",
+    especialidade: "Ginecologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia ginecológica pouco comum, predominantemente carcinoma espinocelular, com duas vias fisiopatológicas distintas — associada a HPV (mulheres mais jovens) e associada a líquen escleroso/dermatoses vulvares crônicas (mulheres mais idosas).",
+    definicao:
+      "Neoplasia maligna originada da pele ou mucosa vulvar, na grande maioria dos casos carcinoma espinocelular, seguido em frequência pelo melanoma vulvar e por tipos histológicos mais raros (carcinoma basocelular, adenocarcinoma de glândula de Bartholin).",
+    epidemiologia:
+      "Neoplasia ginecológica pouco comum, tipicamente diagnosticada em mulheres na pós-menopausa, embora uma proporção crescente de casos associados a HPV venha sendo diagnosticada em mulheres mais jovens; o líquen escleroso vulvar de longa data não tratado é fator de risco reconhecido na via não associada a HPV.",
+    fisiopatologia:
+      "Duas vias fisiopatológicas distintas são reconhecidas: a via associada a HPV (mais comum em mulheres mais jovens, com mecanismo molecular análogo ao carcinoma cervical, envolvendo as oncoproteínas E6/E7) e a via não associada a HPV (mais comum em mulheres idosas, associada a dermatoses vulvares crônicas como o líquen escleroso, com mutação de p53 em vez da via mediada por HPV).",
+    classificacao:
+      "Classificado histologicamente em carcinoma espinocelular (a grande maioria), subdividido conforme a via fisiopatológica (associado a HPV versus associado a líquen escleroso/p53), além de tipos mais raros (melanoma, carcinoma basocelular, adenocarcinoma de Bartholin); estadiado cirurgicamente pelo sistema FIGO.",
+    quadroClinico: [
+      "Prurido vulvar crônico, sintoma mais comum e frequentemente de longa data antes do diagnóstico, especialmente na via associada a dermatose crônica",
+      "Massa, ulceração ou espessamento vulvar visível ou palpável, achado que motiva biópsia",
+      "Sangramento ou secreção vulvar em lesões mais avançadas",
+      "Linfonodo inguinal palpável em doença com disseminação linfática já estabelecida",
+    ],
+    diagnostico: [
+      "Biópsia vulvar de qualquer lesão suspeita (ulceração persistente, massa, área de espessamento em contexto de dermatose crônica), exame confirmatório obrigatório",
+      "Exame clínico cuidadoso das cadeias linfonodais inguinofemorais, dado o papel central do status linfonodal no estadiamento e prognóstico",
+    ],
+    examesComplementares: [
+      "Ressonância magnética pélvica ou tomografia computadorizada para avaliação de extensão local e linfonodal em doença mais extensa",
+      "Biópsia de linfonodo sentinela inguinal, técnica que permite avaliação do status linfonodal com menor morbidade que a linfadenectomia inguinal completa em casos selecionados",
+    ],
+    diagnosticoDiferencial: [
+      "Líquen escleroso vulvar sem malignização, distinguido pela ausência de invasão à biópsia, embora seja fator de risco reconhecido",
+      "Condiloma acuminado (verrugas genitais benignas por HPV não oncogênico), distinguido histologicamente",
+      "Doença de Paget extramamária da vulva, lesão intraepitelial rara que pode simular ou coexistir com carcinoma invasor",
+    ],
+    tratamento: [
+      "Excisão local ampla com margens adequadas, tratamento primário para lesões iniciais e localizadas",
+      "Vulvectomia radical (parcial ou total) com linfadenectomia inguinofemoral (ou biópsia de linfonodo sentinela em casos selecionados), indicada conforme tamanho e extensão da lesão",
+      "Radioterapia (isolada ou associada à quimioterapia) indicada em doença localmente avançada não ressecável ou como tratamento adjuvante conforme achados do estadiamento cirúrgico",
+    ],
+    complicacoes: [
+      "Aguda: infecção de ferida operatória e deiscência, complicações comuns após cirurgia vulvar radical",
+      "Crônica: linfedema de membros inferiores após linfadenectomia inguinal, complicação funcional significativa e duradoura",
+    ],
+    redFlags: [
+      "Lesão vulvar persistente (ulceração, espessamento, massa) que não responde a tratamento tópico convencional em paciente com ou sem líquen escleroso conhecido deve ser biopsiada sem demora",
+      "Linfonodo inguinal palpável ao diagnóstico é indicador prognóstico importante e deve ser incluído na avaliação inicial de extensão da doença",
+    ],
+    prognostico:
+      "Favorável em doença localizada sem acometimento linfonodal, com o status linfonodal inguinofemoral sendo o fator prognóstico isolado mais importante; o prognóstico piora significativamente com o número de linfonodos acometidos e a extensão da doença.",
+    pontosDeProva: [
+      "Existem duas vias fisiopatológicas distintas: associada a HPV (mulheres mais jovens, mecanismo E6/E7) e associada a líquen escleroso/mutação de p53 (mulheres mais idosas)",
+      "O status linfonodal inguinofemoral é o fator prognóstico mais importante e determina a extensão do tratamento cirúrgico e a necessidade de adjuvância",
+      "Biópsia de linfonodo sentinela reduz a morbidade em relação à linfadenectomia inguinal completa em casos selecionados de doença inicial",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 71 anos, com líquen escleroso vulvar conhecido há vários anos, apresenta área de espessamento e ulceração focal em pequeno lábio direito, refratária ao corticosteroide tópico habitual.",
+      pergunta: "Qual a conduta apropriada diante dessa lesão?",
+      raciocinio:
+        "Área de espessamento e ulceração focal refratária ao tratamento habitual em paciente com líquen escleroso de longa data é altamente suspeita de transformação maligna (carcinoma espinocelular vulvar), exigindo biópsia imediata em vez de intensificação do tratamento tópico.",
+      conduta:
+        "Realizar biópsia da área suspeita para confirmação histológica; se confirmado carcinoma, prosseguir com avaliação de extensão local e linfonodal para planejamento cirúrgico.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é cirúrgico, com radioterapia/quimioterapia conforme extensão; nenhum desses componentes ainda tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Duas vias fisiopatológicas (HPV versus líquen escleroso/p53) e classificação histológica", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Papel prognóstico do status linfonodal e técnica de linfonodo sentinela", fonte: "FIGO Cancer Report 2021, Cancer of the Vulva" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-vagina",
+    nome: "Neoplasia maligna da vagina",
+    sinonimos: ["Câncer de vagina", "Carcinoma vaginal primário"],
+    cid10: "C52",
+    especialidade: "Ginecologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia ginecológica primária rara, predominantemente carcinoma espinocelular associado a HPV, cujo diagnóstico exige antes excluir extensão secundária de neoplasia cervical ou vulvar, muito mais comuns que a doença vaginal primária verdadeira.",
+    definicao:
+      "Neoplasia maligna primária originada do epitélio vaginal, diagnóstico estabelecido apenas após exclusão de extensão direta ou metástase de neoplasia cervical, vulvar ou endometrial, dado que o acometimento vaginal secundário a essas neoplasias adjacentes é consideravelmente mais comum que a neoplasia vaginal verdadeiramente primária.",
+    epidemiologia:
+      "Uma das neoplasias ginecológicas mais raras, tipicamente diagnosticada em mulheres na pós-menopausa; a exposição intraútero ao dietilestilbestrol (hoje uma causa histórica, dado o abandono do uso dessa medicação) foi classicamente associada a um subtipo específico raro (adenocarcinoma de células claras) em mulheres mais jovens.",
+    fisiopatologia:
+      "A maioria dos casos (carcinoma espinocelular) compartilha a mesma via fisiopatológica associada a HPV oncogênico observada no carcinoma cervical e vulvar, frequentemente precedida por neoplasia intraepitelial vaginal; o adenocarcinoma de células claras, associado historicamente à exposição ao dietilestilbestrol, tem via fisiopatológica distinta relacionada a alterações de desenvolvimento mülleriano.",
+    classificacao:
+      "Classificada histologicamente em carcinoma espinocelular (a grande maioria dos casos primários) e adenocarcinoma (incluindo o raro subtipo de células claras); estadiada clinicamente pelo sistema FIGO, de forma análoga ao câncer cervical.",
+    quadroClinico: [
+      "Sangramento vaginal anormal (pós-coital ou pós-menopausa), sintoma mais comum de apresentação",
+      "Corrimento vaginal aquoso ou sanguinolento em doença mais estabelecida",
+      "Massa ou lesão vaginal visível ao exame especular em estádio mais avançado",
+      "Frequentemente assintomática em fase inicial (neoplasia intraepitelial vaginal), identificada por citologia de rastreamento de rotina",
+    ],
+    diagnostico: [
+      "Biópsia dirigida por colposcopia estendida à vagina, exame confirmatório essencial",
+      "Exame ginecológico completo e cuidadoso para excluir extensão de neoplasia cervical, vulvar ou endometrial adjacente antes de firmar o diagnóstico de neoplasia vaginal primária",
+    ],
+    examesComplementares: [
+      "Ressonância magnética pélvica para avaliação da extensão local, dado que a proximidade com bexiga e reto tem implicação direta no planejamento terapêutico",
+      "Cistoscopia e retossigmoidoscopia quando há suspeita clínica de invasão de estruturas adjacentes",
+    ],
+    diagnosticoDiferencial: [
+      "Extensão direta de neoplasia cervical ou vulvar adjacente, diagnóstico diferencial obrigatório e mais provável que a neoplasia vaginal primária verdadeira",
+      "Metástase vaginal de neoplasia endometrial ou de outro sítio primário, também mais comum que a doença primária da vagina",
+    ],
+    tratamento: [
+      "Radioterapia (com ou sem quimioterapia concomitante), tratamento primário mais utilizado, dado que a cirurgia radical na vagina frequentemente compromete estruturas adjacentes (bexiga, reto) de forma mais significativa que em outras neoplasias ginecológicas",
+      "Excisão cirúrgica local reservada para lesões pequenas e superficiais localizadas no terço superior da vagina, quando factível com margens adequadas",
+    ],
+    complicacoes: [
+      "Aguda: sangramento e dor relacionados à progressão tumoral local",
+      "Crônica: fístulas vesicovaginais ou retovaginais, tanto pela invasão tumoral direta de estruturas adjacentes quanto como sequela tardia da radioterapia",
+    ],
+    redFlags: [
+      "Antes de firmar o diagnóstico de neoplasia vaginal primária, é obrigatório excluir extensão de neoplasia cervical, vulvar ou endometrial adjacente, dado que essas são causas muito mais prováveis de doença vaginal identificada",
+      "Sangramento vaginal pós-menopausa, mesmo com colo uterino aparentemente normal, deve motivar exame vaginal cuidadoso além do exame cervical de rotina",
+    ],
+    prognostico:
+      "Variável conforme o estádio ao diagnóstico e a proximidade com estruturas adjacentes (bexiga, reto), que limita frequentemente a extensão da ressecção cirúrgica possível; a raridade da doença limita a quantidade de evidência de alta qualidade disponível para orientar o tratamento ótimo.",
+    pontosDeProva: [
+      "O diagnóstico de neoplasia vaginal primária exige exclusão prévia de extensão de neoplasia cervical, vulvar ou endometrial adjacente, muito mais comuns",
+      "A radioterapia, e não a cirurgia radical, é o tratamento primário mais utilizado, dada a proximidade anatômica da vagina com bexiga e reto",
+      "O adenocarcinoma de células claras da vagina foi historicamente associado à exposição intraútero ao dietilestilbestrol",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 68 anos, na pós-menopausa, relata sangramento vaginal recorrente. Exame especular revela colo uterino normal, mas identifica lesão exofítica no terço médio da parede vaginal posterior.",
+      pergunta: "Qual a conduta diagnóstica apropriada?",
+      raciocinio:
+        "Sangramento pós-menopausa com colo uterino normal ao exame, mas lesão vaginal identificada separadamente, direciona a investigação para a própria lesão vaginal, que deve ser biopsiada, com exclusão cuidadosa de doença cervical ou endometrial concomitante.",
+      conduta:
+        "Biopsiar a lesão vaginal para confirmação histológica; realizar avaliação completa do colo uterino e do endométrio para excluir extensão de neoplasia adjacente antes de classificar como doença vaginal primária.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é radioterapia com ou sem quimioterapia concomitante; nenhum desses componentes ainda tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Necessidade de exclusão de extensão adjacente e classificação histológica", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Radioterapia como tratamento primário e limitações da cirurgia radical vaginal", fonte: "FIGO Cancer Report 2021, Cancer of the Vagina" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-mama",
+    nome: "Neoplasia maligna da mama",
+    sinonimos: ["Câncer de mama", "Carcinoma mamário"],
+    cid10: "C50",
+    especialidade: "Ginecologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna mais comum em mulheres globalmente, cuja classificação por perfil de receptores (estrogênio, progesterona, HER2) é o principal determinante da estratégia terapêutica e do prognóstico individual.",
+    definicao:
+      "Neoplasia maligna originada dos ductos (carcinoma ductal, o mais comum) ou lóbulos (carcinoma lobular) da glândula mamária, classificada em não invasivo (carcinoma in situ, restrito à membrana basal) e invasivo (com capacidade de disseminação linfática e hematogênica).",
+    epidemiologia:
+      "A neoplasia maligna mais comum em mulheres globalmente, com risco aumentado associado à idade avançada, história familiar, mutações germinativas em BRCA1/BRCA2, exposição estrogênica prolongada (menarca precoce, menopausa tardia, nuliparidade, terapia hormonal prolongada) e obesidade pós-menopausa.",
+    fisiopatologia:
+      "A carcinogênese mamária envolve acúmulo progressivo de alterações genéticas nas células epiteliais ductais/lobulares, com papel central da exposição estrogênica cumulativa em uma proporção substancial dos casos (tumores receptor hormonal positivo); mutações germinativas em genes de reparo do DNA (BRCA1/BRCA2) conferem risco substancialmente aumentado ao longo da vida em uma minoria hereditária dos casos.",
+    classificacao:
+      "Classificada histologicamente (ductal invasivo — o mais comum, lobular invasivo, e subtipos especiais mais raros) e, de forma clinicamente mais determinante, por perfil imuno-histoquímico de receptores: receptor hormonal positivo (estrogênio e/ou progesterona), HER2 positivo, e triplo-negativo (ausência dos três marcadores, subtipo de comportamento mais agressivo e sem alvo terapêutico direcionado específico); estadiada pelo sistema TNM.",
+    quadroClinico: [
+      "Nódulo mamário indolor, geralmente endurecido e de contorno irregular, achado mais comum de apresentação",
+      "Retração cutânea ou do complexo areolopapilar, secreção papilar sanguinolenta unilateral, e edema cutâneo em 'casca de laranja' (peau d'orange), achados mais associados a doença localmente avançada",
+      "Linfonodo axilar palpável, achado que indica disseminação regional já estabelecida",
+      "Frequentemente assintomático e identificado por rastreamento mamográfico em fase inicial, situação que favorece diagnóstico precoce e melhor prognóstico",
+    ],
+    diagnostico: [
+      "Tríade diagnóstica: exame físico, mamografia (e/ou ultrassonografia mamária complementar) e biópsia percutânea com confirmação histológica, esta última obrigatória antes de qualquer decisão terapêutica",
+      "Painel imuno-histoquímico obrigatório na peça de biópsia (receptores de estrogênio, progesterona e HER2), determinante central da estratégia terapêutica",
+    ],
+    examesComplementares: [
+      "Ressonância magnética mamária em situações selecionadas (mulheres de alto risco, avaliação de extensão em mamas densas, discordância entre exames)",
+      "Teste genético para BRCA1/BRCA2 em pacientes com critérios de risco (idade jovem ao diagnóstico, história familiar significativa, subtipo triplo-negativo)",
+      "Estadiamento sistêmico (tomografia, cintilografia óssea) em doença localmente avançada ou com sintomas sugestivos de metástase",
+    ],
+    diagnosticoDiferencial: [
+      "Fibroadenoma e outras lesões mamárias benignas, distinguidas por características de imagem e, quando necessário, biópsia",
+      "Mastite e abscesso mamário, distinguidos pelo contexto clínico agudo inflamatório/infeccioso",
+      "Carcinoma inflamatório de mama, apresentação clínica agressiva específica com eritema e edema cutâneo difuso, que pode mimetizar mastite mas representa doença localmente avançada",
+    ],
+    tratamento: [
+      "Cirurgia (conservadora com radioterapia adjuvante, ou mastectomia), tratamento local primário na maioria dos casos",
+      "Terapia sistêmica dirigida ao perfil molecular: terapia endócrina (tamoxifeno, inibidores de aromatase) em tumores receptor hormonal positivo; terapia anti-HER2 (trastuzumabe) em tumores HER2 positivo; quimioterapia citotóxica em tumores triplo-negativos ou de alto risco",
+      "Biópsia de linfonodo sentinela axilar para estadiamento, com linfadenectomia axilar completa reservada a casos com acometimento linfonodal identificado",
+      "Radioterapia adjuvante indicada conforme o tipo de cirurgia realizada e fatores de risco identificados",
+    ],
+    complicacoes: [
+      "Aguda: complicações cirúrgicas locais (infecção, seroma)",
+      "Crônica: linfedema de membro superior após linfadenectomia axilar, recorrência local ou a distância, com o osso, pulmão, fígado e encéfalo sendo os sítios metastáticos mais comuns",
+    ],
+    redFlags: [
+      "Nódulo mamário palpável em qualquer mulher, independentemente da idade, deve ser investigado prontamente, embora a probabilidade de malignidade aumente com a idade",
+      "Carcinoma inflamatório de mama (eritema e edema cutâneo difuso e progressivo) é uma apresentação agressiva que não deve ser confundida com mastite/abscesso, especialmente na ausência de febre ou fatores predisponentes infecciosos",
+    ],
+    prognostico:
+      "Altamente variável conforme o estádio ao diagnóstico e o subtipo molecular; o rastreamento mamográfico populacional tem papel central na detecção precoce e na melhora do prognóstico global, sendo o subtipo triplo-negativo associado ao pior prognóstico entre os subtipos moleculares principais.",
+    pontosDeProva: [
+      "A classificação por perfil de receptores (hormonal, HER2, triplo-negativo) é o principal determinante da estratégia terapêutica sistêmica, mais do que o tipo histológico isoladamente",
+      "Biópsia percutânea com confirmação histológica é sempre necessária antes de qualquer decisão terapêutica, mesmo diante de imagem altamente suspeita",
+      "O subtipo triplo-negativo, por não expressar nenhum dos três alvos terapêuticos principais, depende primariamente de quimioterapia citotóxica e tem comportamento mais agressivo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 54 anos, identifica nódulo endurecido e indolor na mama esquerda durante autoexame. Mamografia confirma nódulo suspeito; biópsia percutânea confirma carcinoma ductal invasivo, receptor de estrogênio positivo, HER2 negativo.",
+      pergunta: "Qual a estratégia terapêutica sistêmica mais apropriada com base no perfil molecular identificado?",
+      raciocinio:
+        "Tumor receptor hormonal positivo e HER2 negativo é candidato primário à terapia endócrina sistêmica (tamoxifeno ou inibidor de aromatase, conforme status menopausal), com a quimioterapia citotóxica reservada a critérios adicionais de risco.",
+      conduta:
+        "Prosseguir com tratamento cirúrgico local (conservador ou mastectomia, conforme características do tumor e preferência da paciente) e indicar terapia endócrina adjuvante prolongada dado o perfil receptor hormonal positivo.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento sistêmico (terapia endócrina, terapia anti-HER2, quimioterapia) ainda não tem seus componentes documentados como fichas próprias no site.",
+    fontes: [
+      { tema: "Classificação histológica e por perfil de receptores (hormonal, HER2, triplo-negativo)", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Estratégia terapêutica dirigida ao subtipo molecular e papel do rastreamento mamográfico", fonte: "NCCN Clinical Practice Guidelines in Oncology, Breast Cancer" },
+    ],
+  },
+  {
+    slug: "mola-hidatiforme",
+    nome: "Mola hidatiforme",
+    sinonimos: ["Gravidez molar", "Doença trofoblástica gestacional benigna"],
+    cid10: "O01",
+    especialidade: "Ginecologia",
+    etiologia: "Neoplásica",
+    resumo: "Forma benigna, porém proliferativa e com potencial de progressão maligna, de doença trofoblástica gestacional, decorrente de anomalia genética na fertilização, classificada em completa e parcial conforme o cariótipo do tecido molar.",
+    definicao:
+      "Proliferação anormal do trofoblasto placentário decorrente de anomalia genética específica na fertilização, caracterizada histologicamente por vilosidades coriônicas edemaciadas (hidrópicas) e hiperplasia trofoblástica, representando a forma benigna, porém com potencial de progressão maligna, do espectro da doença trofoblástica gestacional.",
+    epidemiologia:
+      "Mais comum nos extremos da idade reprodutiva (adolescentes e mulheres acima de 40 anos) e em mulheres com mola hidatiforme prévia, que apresentam risco aumentado de recorrência em gestação subsequente; a mola completa tem maior risco de progressão para neoplasia trofoblástica gestacional persistente que a mola parcial.",
+    fisiopatologia:
+      "A mola completa origina-se da fertilização de um óvulo sem material genético materno funcional por um espermatozoide (que duplica seu próprio material genético ou, menos comumente, por dispermia), resultando em cariótipo androgenético sem tecido fetal; a mola parcial resulta da fertilização de um óvulo normal por dois espermatozoides (ou um espermatozoide diploide), gerando cariótipo triploide com tecido fetal presente, porém não viável.",
+    classificacao:
+      "Classificada em mola completa (ausência de tecido fetal, cariótipo androgenético 46,XX na maioria dos casos, maior risco de progressão maligna) e mola parcial (presença de tecido fetal não viável, cariótipo triploide, menor risco de progressão maligna).",
+    quadroClinico: [
+      "Sangramento vaginal no primeiro trimestre, sintoma de apresentação mais comum",
+      "Útero de tamanho maior que o esperado para a idade gestacional, achado mais característico da mola completa",
+      "Náuseas e vômitos exacerbados (hiperêmese), decorrentes dos níveis marcadamente elevados de beta-hCG",
+      "Sinais de hipertireoidismo ou pré-eclâmpsia de início muito precoce (antes de 20 semanas), achados incomuns fora do contexto de doença trofoblástica que devem levantar essa suspeita",
+    ],
+    diagnostico: [
+      "Ultrassonografia obstétrica com padrão característico ('em flocos de neve' ou 'cacho de uvas' na mola completa, decorrente do edema difuso das vilosidades coriônicas), auxiliada pela ausência de tecido fetal identificável",
+      "Beta-hCG sérico marcadamente elevado para a idade gestacional, achado laboratorial de apoio importante",
+      "Confirmação histopatológica definitiva da peça de esvaziamento uterino",
+    ],
+    examesComplementares: [
+      "Radiografia de tórax pré-esvaziamento em casos de mola completa com fatores de risco para doença metastática, dado que o pulmão é o sítio mais comum de metástase da neoplasia trofoblástica gestacional",
+      "Seguimento seriado do beta-hCG após o esvaziamento uterino, exame fundamental para detecção precoce de progressão para neoplasia trofoblástica gestacional persistente",
+    ],
+    diagnosticoDiferencial: [
+      "Aborto espontâneo incompleto, distinguido pela ausência do padrão ultrassonográfico característico e por níveis de beta-hCG proporcionais à idade gestacional",
+      "Gestação múltipla com um feto normal e uma mola completa coexistente, situação rara mas que exige aconselhamento cuidadoso quanto aos riscos",
+    ],
+    tratamento: [
+      "Esvaziamento uterino por aspiração a vácuo, tratamento de escolha para ambos os tipos de mola hidatiforme",
+      "Seguimento rigoroso e seriado do beta-hCG sérico após o esvaziamento até normalização e confirmação de remissão completa, etapa essencial para detecção precoce de neoplasia trofoblástica gestacional persistente",
+      "Contracepção eficaz durante todo o período de seguimento do beta-hCG, para não confundir uma nova gestação com progressão/recorrência da doença trofoblástica",
+    ],
+    complicacoes: [
+      "Aguda: sangramento significativo no momento do esvaziamento uterino, especialmente em molas completas volumosas",
+      "Crônica: progressão para neoplasia trofoblástica gestacional persistente (mola invasora ou, mais raramente, coriocarcinoma), complicação que motiva o seguimento rigoroso do beta-hCG",
+    ],
+    redFlags: [
+      "Platô ou elevação do beta-hCG durante o seguimento pós-esvaziamento (em vez do declínio esperado) indica neoplasia trofoblástica gestacional persistente e exige tratamento com quimioterapia",
+      "Sinais de hipertireoidismo ou pré-eclâmpsia muito precoce (antes de 20 semanas) na gestação devem levantar suspeita de mola hidatiforme subjacente",
+    ],
+    prognostico:
+      "Excelente na grande maioria dos casos após esvaziamento uterino e seguimento adequado do beta-hCG, com a mola completa apresentando risco de progressão maligna maior que a mola parcial, mas ainda assim tratável com excelente taxa de cura mesmo quando ocorre progressão para neoplasia trofoblástica gestacional persistente.",
+    pontosDeProva: [
+      "A mola completa (cariótipo androgenético, sem tecido fetal) tem maior risco de progressão maligna que a mola parcial (triploide, com tecido fetal não viável)",
+      "O seguimento seriado do beta-hCG após o esvaziamento uterino é etapa obrigatória e essencial para detecção precoce de neoplasia trofoblástica gestacional persistente",
+      "Contracepção eficaz durante o seguimento é essencial para não confundir uma nova gestação com recorrência/progressão da doença",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 24 anos, com 10 semanas de gestação pela data da última menstruação, apresenta sangramento vaginal e hiperêmese intensa. Exame revela altura uterina maior que a esperada para a idade gestacional. Ultrassonografia mostra padrão em 'flocos de neve' sem identificação de feto.",
+      pergunta: "Qual o diagnóstico mais provável e a conduta imediata?",
+      raciocinio:
+        "Sangramento, hiperêmese, útero maior que o esperado e padrão ultrassonográfico característico sem tecido fetal identificável são compatíveis com mola hidatiforme completa, devendo ser confirmada por beta-hCG marcadamente elevado e tratada por esvaziamento uterino.",
+      conduta:
+        "Confirmar com dosagem de beta-hCG sérico; proceder ao esvaziamento uterino por aspiração a vácuo; iniciar seguimento seriado do beta-hCG e orientar contracepção eficaz durante todo o período de seguimento.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é o esvaziamento uterino (procedimento); a quimioterapia, indicada apenas em caso de progressão para neoplasia trofoblástica gestacional persistente, ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia genética da mola completa versus parcial e classificação", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Protocolo de seguimento do beta-hCG pós-esvaziamento e critérios de progressão para neoplasia trofoblástica persistente", fonte: "FIGO Cancer Report 2021, Gestational Trophoblastic Neoplasia" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-placenta-coriocarcinoma",
+    nome: "Neoplasia maligna da placenta (coriocarcinoma gestacional)",
+    sinonimos: ["Coriocarcinoma", "Neoplasia trofoblástica gestacional maligna"],
+    cid10: "C58",
+    especialidade: "Ginecologia",
+    etiologia: "Neoplásica",
+    resumo: "Forma maligna da doença trofoblástica gestacional, altamente agressiva porém excepcionalmente quimiossensível, podendo surgir após mola hidatiforme, aborto, gestação ectópica ou gestação a termo aparentemente normal.",
+    definicao:
+      "Neoplasia maligna do trofoblasto, componente do espectro da neoplasia trofoblástica gestacional, capaz de disseminação hematogênica precoce e agressiva, porém notável por sua excepcional sensibilidade à quimioterapia, o que confere excelente prognóstico mesmo em doença metastática quando tratada adequadamente.",
+    epidemiologia:
+      "Pode surgir após qualquer tipo de evento gestacional — mais comumente após mola hidatiforme (a antecedente mais frequente), mas também após aborto espontâneo, gestação ectópica ou mesmo gestação a termo aparentemente normal, distinguindo-o de outras neoplasias que dependem de fator de risco específico identificável.",
+    fisiopatologia:
+      "Decorre da transformação maligna do tecido trofoblástico, com proliferação descontrolada de células citotrofoblásticas e sinciciotrofoblásticas sem formação de vilosidades coriônicas (ao contrário da mola hidatiforme), invasão vascular precoce e disseminação hematogênica preferencial para pulmão (sítio mais comum), seguido por vagina, encéfalo e fígado.",
+    classificacao:
+      "Classificado dentro do espectro mais amplo de neoplasia trofoblástica gestacional (que também inclui a mola invasora); estadiado pelo sistema FIGO combinado com sistema de escore de risco prognóstico da OMS, que orienta a escolha entre monoquimioterapia (baixo risco) e poliquimioterapia (alto risco).",
+    quadroClinico: [
+      "Sangramento vaginal irregular e persistente após qualquer evento gestacional prévio, achado que deve motivar dosagem de beta-hCG",
+      "Sintomas relacionados a metástases (tosse ou hemoptise por metástase pulmonar, cefaleia ou déficit neurológico focal por metástase encefálica), podendo ser a manifestação inicial em casos com antecedente gestacional não identificado ou negligenciado",
+      "Beta-hCG persistentemente elevado ou em ascensão após qualquer evento gestacional, achado laboratorial central para o diagnóstico",
+    ],
+    diagnostico: [
+      "Beta-hCG sérico persistentemente elevado ou em platô/ascensão após esvaziamento de mola hidatiforme, aborto, gestação ectópica ou parto, principal critério diagnóstico e de acompanhamento, frequentemente dispensando confirmação histológica formal antes de iniciar tratamento",
+      "Confirmação histológica quando obtida (biópsia ou peça cirúrgica), mostrando proliferação trofoblástica maligna sem formação de vilosidades coriônicas",
+    ],
+    examesComplementares: [
+      "Tomografia de tórax e ressonância magnética de crânio para rastreamento sistemático de metástases pulmonares e encefálicas, dado seu impacto direto na classificação de risco e na escolha terapêutica",
+      "Aplicação do sistema de escore de risco prognóstico da OMS/FIGO (considerando idade, antecedente gestacional, intervalo, nível de beta-hCG, tamanho tumoral e sítios de metástase) para estratificação em baixo ou alto risco",
+    ],
+    diagnosticoDiferencial: [
+      "Mola hidatiforme persistente/invasora, outra forma de neoplasia trofoblástica gestacional, distinguida por critérios específicos de platô/ascensão do beta-hCG e, quando disponível, por achados histológicos",
+      "Retenção de restos ovulares após aborto ou parto, distinguida pelo declínio esperado (e não platô/ascensão) do beta-hCG ao longo do seguimento",
+    ],
+    tratamento: [
+      "Doença de baixo risco (pelo escore OMS/FIGO): monoquimioterapia (metotrexato ou actinomicina D), com excelente taxa de resposta e cura",
+      "Doença de alto risco: poliquimioterapia combinada, sendo o esquema EMA-CO (etoposídeo, metotrexato, actinomicina D, ciclofosfamida, vincristina) o mais amplamente utilizado",
+      "Seguimento seriado do beta-hCG durante e após o tratamento até normalização sustentada, critério que define remissão completa",
+    ],
+    complicacoes: [
+      "Aguda: hemorragia por metástase (especialmente vaginal ou encefálica), podendo ser risco de vida se não reconhecida e tratada prontamente",
+      "Crônica: infertilidade relacionada aos esquemas quimioterápicos combinados em uma minoria dos casos, embora a fertilidade seja preservada na maioria das pacientes tratadas",
+    ],
+    redFlags: [
+      "Beta-hCG persistentemente elevado, em platô, ou em ascensão após qualquer evento gestacional (não apenas após mola hidatiforme) deve motivar investigação para neoplasia trofoblástica gestacional",
+      "Sintomas neurológicos ou respiratórios inexplicados em mulher em idade reprodutiva com evento gestacional recente devem incluir neoplasia trofoblástica gestacional metastática no diagnóstico diferencial",
+    ],
+    prognostico:
+      "Excelente mesmo em doença metastática, dada a excepcional quimiossensibilidade do coriocarcinoma gestacional — uma das poucas neoplasias malignas metastáticas com taxas de cura muito altas mesmo em estágio avançado, desde que tratada adequadamente conforme o escore de risco.",
+    pontosDeProva: [
+      "O coriocarcinoma gestacional pode surgir após qualquer tipo de evento gestacional, não apenas após mola hidatiforme, o que o distingue de outras formas de doença trofoblástica",
+      "É notável por sua excepcional sensibilidade à quimioterapia, sendo uma das neoplasias malignas metastáticas com melhor prognóstico global quando tratada adequadamente",
+      "O escore de risco prognóstico OMS/FIGO determina a escolha entre monoquimioterapia (baixo risco) e poliquimioterapia como o esquema EMA-CO (alto risco)",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 29 anos, com histórico de mola hidatiforme completa tratada há 4 meses, apresenta beta-hCG em ascensão em duas dosagens consecutivas durante o seguimento pós-esvaziamento, além de tosse seca persistente.",
+      pergunta: "Qual o diagnóstico mais provável e a investigação complementar indicada?",
+      raciocinio:
+        "Ascensão do beta-hCG durante o seguimento pós-mola hidatiforme, associada a sintoma respiratório novo, é altamente sugestiva de neoplasia trofoblástica gestacional persistente (coriocarcinoma), com o pulmão sendo o sítio metastático mais comum, explicando a tosse.",
+      conduta:
+        "Solicitar tomografia de tórax para rastreamento de metástase pulmonar e aplicar o escore de risco prognóstico OMS/FIGO para definir entre monoquimioterapia ou poliquimioterapia combinada.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é quimioterápico (metotrexato/actinomicina D isolados ou esquema combinado EMA-CO), nenhum dos quais ainda tem ficha própria documentada especificamente para esta indicação no site.",
+    fontes: [
+      { tema: "Fisiopatologia da transformação maligna trofoblástica e padrão de disseminação metastática", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Escore de risco OMS/FIGO e esquemas quimioterápicos por estratificação de risco", fonte: "FIGO Cancer Report 2021, Gestational Trophoblastic Neoplasia" },
+    ],
+  },
 ];
