@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeScript } from "@/components/theme-script";
@@ -26,6 +26,14 @@ export const metadata: Metadata = {
   },
   description:
     "Medicamentos, doenças e atualizações clínicas organizados para consulta rápida durante a graduação em medicina.",
+  appleWebApp: {
+    title: "Rx Estudante",
+    statusBarStyle: "black-translucent",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#01349c",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
