@@ -6297,11 +6297,11 @@ export const diseases: Disease[] = [
         "Iniciar mesalazina como base do tratamento para indução e manutenção de remissão, avaliar necessidade de corticosteroide se a atividade for moderada a grave, e solicitar avaliação de enzimas canaliculares para rastreamento de colangite esclerosante primária associada.",
     },
     medicamentosPrimeiraLinha: [
+      { slug: "mesalazina", nome: "Mesalazina" },
       { slug: "prednisona", nome: "Prednisona" },
     ],
-    medicamentosSecaoTitulo: "Medicamento de indução de remissão (crise aguda)",
     medicamentosNota:
-      "A prednisona é usada para indução de remissão em surtos moderados a graves, não como terapia de manutenção prolongada. A manutenção de longo prazo é feita com mesalazina (aminossalicilato) e, em casos refratários, imunossupressores/terapia biológica, evitando corticoide crônico pela toxicidade — ainda sem fichas próprias no site.",
+      "A mesalazina é a primeira linha de indução e manutenção na doença leve a moderada. A prednisona é usada para indução de remissão em surtos moderados a graves, não como terapia de manutenção prolongada; em casos refratários, imunossupressores/terapia biológica (ainda sem ficha própria no site) evitam o corticoide crônico pela toxicidade.",
     fontes: [
       { tema: "Fisiopatologia e classificação de Montreal", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Associação com colangite esclerosante primária", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
@@ -9918,7 +9918,14 @@ export const diseases: Disease[] = [
       conduta:
         "Solicitar eletroencefalograma e ressonância magnética de crânio para investigar etiologia e apoiar a classificação do tipo de epilepsia; se confirmada crise não provocada com risco significativo de recorrência, iniciar fármaco antiepiléptico apropriado ao tipo de crise identificado.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "carbamazepina", nome: "Carbamazepina" },
+      { slug: "acido-valproico", nome: "Ácido valproico" },
+      { slug: "fenitoina", nome: "Fenitoína" },
+      { slug: "clonazepam", nome: "Clonazepam" },
+    ],
+    medicamentosNota:
+      "A carbamazepina é primeira linha para crises focais; o ácido valproico é primeira linha para crises generalizadas em pacientes sem potencial reprodutivo; a fenitoína e o clonazepam são usados como alternativas de manutenção ou adjuvantes conforme o tipo de crise.",
     fontes: [
       { tema: "Definição operacional, classificação de crises e conduta terapêutica", fonte: "International League Against Epilepsy (ILAE), Classificação de Crises Epilépticas e Epilepsias, 2017" },
       { tema: "Risco de morte súbita inesperada na epilepsia (SUDEP)", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
@@ -9993,7 +10000,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "diazepam", nome: "Diazepam" },
+      { slug: "fenitoina", nome: "Fenitoína" },
     ],
+    medicamentosNota:
+      "O diazepam (ou outro benzodiazepínico) é a primeira linha imediata; a fenitoína é o agente de segunda linha padrão quando as crises persistem apesar do benzodiazepínico.",
     fontes: [
       { tema: "Definição operacional, fisiopatologia e sequência terapêutica escalonada", fonte: "American Epilepsy Society, Guideline for the Evaluation and Management of Status Epilepticus" },
       { tema: "Diazepam intravenoso como benzodiazepínico de primeira linha", fonte: "Goodman & Gilman, 13ª ed." },
@@ -10066,10 +10076,10 @@ export const diseases: Disease[] = [
     medicamentosPrimeiraLinha: [
       { slug: "ibuprofeno", nome: "Ibuprofeno" },
       { slug: "cloridrato-propranolol", nome: "Cloridrato de propranolol" },
+      { slug: "cloridrato-de-amitriptilina", nome: "Cloridrato de amitriptilina" },
     ],
-    medicamentosSecaoTitulo: "Medicamento abortivo para crises leves a moderadas",
     medicamentosNota:
-      "O ibuprofeno cobre o tratamento abortivo de crises leves a moderadas. Crises moderadas a graves ou refratárias têm no triptano a primeira linha específica, e o tratamento profilático (betabloqueador, anticonvulsivante, anti-CGRP) ainda não tem ficha própria no site.",
+      "O ibuprofeno cobre o tratamento abortivo de crises leves a moderadas (crises moderadas a graves ou refratárias têm no triptano a primeira linha específica, ainda sem ficha própria no site). Propranolol e amitriptilina são opções de profilaxia para enxaqueca episódica frequente, em doses baixas no caso da amitriptilina.",
     fontes: [
       { tema: "Fisiopatologia neurovascular e mecanismo da aura (depressão alastrante cortical)", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Classificação e critérios diagnósticos", fonte: "International Classification of Headache Disorders (ICHD-3), International Headache Society" },
@@ -10141,7 +10151,11 @@ export const diseases: Disease[] = [
       conduta:
         "Confirmar o diagnóstico clinicamente, avaliando a presença de rigidez associada e excluindo sinais de alarme para parkinsonismo atípico; iniciar tratamento sintomático (levodopa ou, em pacientes mais jovens, considerar inicialmente agonista dopaminérgico ou inibidor da MAO-B) e encaminhar para acompanhamento multiprofissional (fisioterapia, fonoaudiologia).",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "levodopa-benserazida-carbidopa", nome: "Levodopa + benserazida ou + carbidopa" },
+    ],
+    medicamentosNota:
+      "É a terapia sintomática motora mais eficaz disponível, especialmente em pacientes mais idosos ou com sintomas mais incapacitantes; agonistas dopaminérgicos, alternativa com menor risco de discinesia em pacientes mais jovens, ainda não têm ficha própria no site.",
     fontes: [
       { tema: "Fisiopatologia (perda dopaminérgica, corpos de Lewy) e critérios diagnósticos clínicos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Sintomas não motores prodrômicos e classificação por subtipo motor", fonte: "fonte pendente" },
@@ -10737,9 +10751,11 @@ export const diseases: Disease[] = [
       conduta:
         "Solicitar hemograma completo com esfregaço e dosagem sérica de vitamina B12; se limítrofe, complementar com ácido metilmalônico. Confirmada a deficiência, iniciar reposição de B12, preferencialmente por via intramuscular nas fases iniciais dado o quadro neurológico já estabelecido.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cianocobalamina", nome: "Cianocobalamina (vitamina B12)" },
+    ],
     medicamentosNota:
-      "O tratamento de primeira linha é a reposição de vitamina B12 (cianocobalamina), ainda sem ficha própria no site — consta como item pendente no backlog de medicamentos.",
+      "O tratamento de primeira linha é a reposição de vitamina B12 (cianocobalamina), por via intramuscular quando a causa é má absorção confirmada ou oral em altas doses.",
     fontes: [
       { tema: "Fisiopatologia (papel da B12 na síntese de DNA e mielina) e manifestações neurológicas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Ácido metilmalônico como marcador de deficiência tecidual e risco de mascaramento pelo ácido fólico isolado", fonte: "Goodman & Gilman, 13ª ed." },
@@ -12643,9 +12659,11 @@ export const diseases: Disease[] = [
       conduta:
         "Avaliar detalhadamente o risco de suicídio (ideação, plano, intenção), investigar história de episódio maníaco/hipomaníaco prévio, solicitar TSH para excluir causa orgânica, e iniciar psicoterapia associada a antidepressivo conforme a gravidade.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cloridrato-de-amitriptilina", nome: "Cloridrato de amitriptilina" },
+    ],
     medicamentosNota:
-      "O antidepressivo de primeira linha (inibidor seletivo da recaptação de serotonina, ex.: fluoxetina) ainda não tem ficha própria no site.",
+      "O antidepressivo de primeira linha (inibidor seletivo da recaptação de serotonina, ex.: fluoxetina) ainda não tem ficha própria no site. A amitriptilina (tricíclico) é opção quando há insônia e dor associadas, mas seu perfil de efeitos colaterais e risco em superdosagem a tornam menos usada como primeira escolha atualmente.",
     fontes: [
       { tema: "Critérios diagnósticos DSM-5/CID-11 e fisiopatologia monoaminérgica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Risco de virada maníaca com antidepressivo isolado em bipolar não diagnosticado", fonte: "fonte pendente" },
@@ -12774,6 +12792,7 @@ export const diseases: Disease[] = [
       "Sintomas psicóticos ou agitação grave durante episódio maníaco podem exigir internação involuntária para segurança do paciente e de terceiros",
       "Estado misto (sintomas maníacos e depressivos simultâneos) associa-se a risco de suicídio particularmente elevado e exige atenção redobrada",
       "Introdução de antidepressivo em monoterapia em paciente bipolar não reconhecido pode precipitar virada maníaca ou ciclagem rápida",
+      "Ácido valproico é contraindicado em mulheres em idade fértil salvo ausência de alternativa terapêutica eficaz, pelo alto risco teratogênico (incluindo defeitos do tubo neural, síndrome do valproato fetal) e de comprometimento do neurodesenvolvimento — exige programa de prevenção de gravidez com contracepção eficaz obrigatória quando o uso for indispensável",
     ],
     prognostico:
       "É um transtorno crônico e recorrente na grande maioria dos casos, mas com tratamento adequado (estabilizador de humor de manutenção), muitos pacientes alcançam períodos prolongados de estabilidade; a não adesão ao tratamento de manutenção é fator de risco importante para recaída.",
@@ -12781,6 +12800,7 @@ export const diseases: Disease[] = [
       "A distinção entre tipo I (mania completa) e tipo II (hipomania, sem mania completa) tem implicação terapêutica e é frequentemente cobrada",
       "O antidepressivo nunca deve ser usado em monoterapia no transtorno bipolar, pelo risco de precipitar virada maníaca — deve sempre ser associado a um estabilizador de humor",
       "A hipomania causa menos prejuízo funcional e não inclui sintomas psicóticos, ao contrário da mania completa — distinção central para diferenciar tipo I de tipo II",
+      "O ácido valproico é contraindicado em mulheres em idade fértil salvo ausência de alternativa terapêutica eficaz, pelo alto risco teratogênico — um dos avisos de segurança mais cobrados de toda a psicofarmacologia, exigindo contracepção eficaz obrigatória quando o uso for indispensável",
     ],
     casoClinico: {
       vinheta:
@@ -12791,9 +12811,11 @@ export const diseases: Disease[] = [
       conduta:
         "Iniciar estabilizador de humor como base do tratamento, associando antipsicótico se houver agitação significativa, e avaliar necessidade de internação diante do comportamento de risco (gastos impulsivos).",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "acido-valproico", nome: "Ácido valproico" },
+    ],
     medicamentosNota:
-      "O estabilizador de humor de primeira linha (lítio, ácido valproico) ainda não tem ficha própria no site.",
+      "O ácido valproico é um dos estabilizadores de humor de primeira linha; o lítio, outra primeira linha clássica, ainda não tem ficha própria no site. IMPORTANTE: o ácido valproico é contraindicado em mulheres em idade fértil salvo ausência de alternativa terapêutica eficaz, pelo alto risco teratogênico (defeitos do tubo neural, síndrome do valproato fetal) e de comprometimento do neurodesenvolvimento — nessa população, o lítio ou a lamotrigina são preferidos.",
     fontes: [
       { tema: "Critérios diagnósticos de mania/hipomania e distinção entre tipo I e II", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Risco de virada maníaca com antidepressivo em monoterapia", fonte: "fonte pendente" },
@@ -13010,10 +13032,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "diazepam", nome: "Diazepam" },
+      { slug: "clonazepam", nome: "Clonazepam" },
     ],
-    medicamentosSecaoTitulo: "Alívio sintomático de curto prazo enquanto o antidepressivo (tratamento definitivo) atinge efeito pleno",
     medicamentosNota:
-      "O diazepam não é o tratamento definitivo — o inibidor seletivo da recaptação de serotonina, ainda sem ficha própria no site, é a primeira linha farmacológica real. O diazepam serve apenas como ponte de curto prazo, pelo risco de dependência com uso prolongado.",
+      "Nenhum dos dois é o tratamento definitivo — o inibidor seletivo da recaptação de serotonina, ainda sem ficha própria no site, é a primeira linha farmacológica real. O diazepam serve como ponte de curto prazo enquanto o antidepressivo atinge efeito pleno; o clonazepam, pela meia-vida mais longa, é reservado ao transtorno do pânico refratário ao antidepressivo. Ambos carregam risco de dependência com uso prolongado.",
     fontes: [
       { tema: "Fisiopatologia (circuitos de medo, hipersensibilidade respiratória no pânico) e critérios diagnósticos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Antidepressivo como tratamento definitivo e benzodiazepínico apenas como ponte de curto prazo", fonte: "Goodman & Gilman, 13ª ed." },
@@ -18674,9 +18696,11 @@ export const diseases: Disease[] = [
       conduta:
         "Iniciar reposição hidroeletrolítica intravenosa e antieméticos apropriados para a gestação; avaliar eletrólitos, cetonúria e função tireoidiana; considerar ultrassonografia para exclusão de gestação múltipla ou mola hidatiforme.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cloridrato-de-ondansetrona", nome: "Cloridrato de ondansetrona" },
+    ],
     medicamentosNota:
-      "Os antieméticos seguros na gestação (piridoxina/doxilamina, antagonistas de dopamina/serotonina) ainda não têm suas fichas próprias documentadas no site.",
+      "A ondansetrona é reservada a casos refratários às medidas de primeira linha (piridoxina/doxilamina, prometazina), que ainda não têm ficha própria no site.",
     fontes: [
       { tema: "Fisiopatologia hormonal (beta-hCG/estrogênio) e fatores de risco associados", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Critérios diagnósticos, escalonamento terapêutico e risco de encefalopatia de Wernicke", fonte: "ACOG Practice Bulletin No. 189, Nausea and Vomiting of Pregnancy, 2018" },

@@ -117,7 +117,7 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   (basocelular e espinocelular) · Impetigo · Celulite e flegmão ·
   Urticária · Pênfigo · Dermatite seborreica · Dermatite alérgica de
   contato · Abscesso cutâneo, furúnculo e antraz
-- **Medicamentos (73):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
+- **Medicamentos (82):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
   Enalapril · Budesonida inalatória · Espironolactona · Carvedilol · Dapagliflozina ·
@@ -135,7 +135,9 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   oseltamivir · Ceftriaxona · Benzilpenicilina benzatina · Sulfametoxazol +
   trimetoprima · Fluconazol · Metronidazol · Claritromicina · Ciprofloxacino ·
   Cloridrato de doxiciclina · Aciclovir · Ivermectina · Albendazol · Cloridrato de
-  clindamicina · Sulfato de morfina
+  clindamicina · Sulfato de morfina · Mesalazina · Cloridrato de ondansetrona ·
+  Cianocobalamina · Carbamazepina · Ácido valproico · Fenitoína · Clonazepam ·
+  Levodopa + benserazida/carbidopa · Cloridrato de amitriptilina
 
 ---
 
@@ -690,20 +692,20 @@ consta" e a Ocitocina, que depende do Apêndice B.
 16. concluído — Cloridrato de clindamicina (J01FF01) — item novo, achado na revalidação (ATC que eu tinha atribuído por engano à doxiciclina)
 17. concluído — Sulfato de morfina (N02AA01) — item novo, achado na revalidação; opioide de referência, alto valor curricular (dor, cuidados paliativos, EAP)
 
-### Lote 4 — Trato alimentar/digestivo + Sistema nervoso (13) — ✅ todos revalidados
-1. pendente — Mesalazina (A07EC02)
-2. pendente — Cloridrato de ondansetrona (A04AA01)
+### Lote 4 — Trato alimentar/digestivo + Sistema nervoso (13) — ✅ CONCLUÍDO
+1. concluído — Mesalazina (A07EC02)
+2. concluído — Cloridrato de ondansetrona (A04AA01)
 3. concluído — Sulfato ferroso (B03AA07) — já cruza com Anemia ferropriva (doença já fichada)
-4. pendente — Cianocobalamina / vitamina B12 (B03BA01)
+4. concluído — Cianocobalamina / vitamina B12 (B03BA01)
 5. pendente — Loperamida — ⛔ **não consta na RENAME 2024** (não aparece em nenhuma seção A-V verificada). Não há antidiarreico antimotilidade (classe opioide-símile) na lista — a abordagem de primeira linha da RENAME/SUS para diarreia aguda é reposição hidroeletrolítica com sais para reidratação oral (A07CA, já confirmado na tabela), não um substituto farmacológico direto.
 6. pendente — Domperidona — ⛔ **não consta na RENAME 2024** (não aparece em nenhuma seção A-V verificada). Cloridrato de metoclopramida (A03FA01, já confirmado) é o antiemético/procinético presente no lugar.
-7. pendente — Carbamazepina (N03AF01)
-8. pendente — Ácido valproico (N03AG01)
-9. pendente — Fenitoína (N03AB02) — ✅ **confirmado**
-10. pendente — Clonazepam (N03AE01) — ✅ **confirmado**
-11. pendente — Levodopa + benserazida ou + carbidopa (N04BA02) — ✅ **confirmado**, duas combinações com o mesmo ATC
+7. concluído — Carbamazepina (N03AF01)
+8. concluído — Ácido valproico (N03AG01)
+9. concluído — Fenitoína (N03AB02) — ✅ **confirmado**
+10. concluído — Clonazepam (N03AE01) — ✅ **confirmado**
+11. concluído — Levodopa + benserazida ou + carbidopa (N04BA02) — ✅ **confirmado**, duas combinações com o mesmo ATC
 12. pendente — Sumatriptana — ⛔ **não consta na RENAME 2024** (nenhum triptano na seção N completa). Não há classe de abortivo específico para enxaqueca na lista — a RENAME cobre a crise só com analgésicos gerais já presentes (dipirona, paracetamol, AAS).
-13. pendente — Cloridrato de amitriptilina (N06AA09) — ✅ **confirmado**
+13. concluído — Cloridrato de amitriptilina (N06AA09) — ✅ **confirmado**
 
 ### Lote 5 — Sistema nervoso restante + Sistema musculoesquelético (11) — ✅ todos revalidados
 1. pendente — Cloridrato de fluoxetina (N06AB03) — **código corrigido**: era N06DA02 por engano (esse é o código da cloridrato de donepezila, droga distinta para Alzheimer)
@@ -737,13 +739,13 @@ consta" e a Ocitocina, que depende do Apêndice B.
 12. pendente — Betametasona / acetato + fosfato dissódico (H02AB01)
 13. concluído — Levotiroxina sódica (H03AA01) — já usada no Hipotireoidismo e Tireoidite (doenças já fichadas)
 
-**Total: 44 medicamentos pendentes em 3 lotes** (Lotes 1-3 — Sistema cardiovascular,
-Cardiovascular restante/trombolíticos/Endocrinologia, e Sistema respiratório/
-Anti-infecciosos, 45 itens — concluídos; 89 medicamentos totais no backlog original,
-82 originais + 4 itens novos achados durante a revalidação: cloridrato de clindamicina,
-sulfato de morfina, cloridrato de naloxona, flumazenil + 3 itens novos abaixo: donepezila,
-memantina, esquema RIPE). **Próxima prioridade: Lote 4 (Trato alimentar/digestivo +
-Sistema nervoso, 13 itens).**
+**Total: 35 medicamentos pendentes em 2 lotes** (Lotes 1-4 — Sistema cardiovascular,
+Cardiovascular restante/trombolíticos/Endocrinologia, Sistema respiratório/
+Anti-infecciosos, e Trato alimentar/digestivo + Sistema nervoso, 54 itens — concluídos;
+89 medicamentos totais no backlog original, 82 originais + 4 itens novos achados durante
+a revalidação: cloridrato de clindamicina, sulfato de morfina, cloridrato de naloxona,
+flumazenil + 3 itens novos abaixo: donepezila, memantina, esquema RIPE). **Próxima
+prioridade: Lote 5 (Sistema nervoso restante + Sistema musculoesquelético, 11 itens).**
 
 ### Itens adicionados fora da ordem dos lotes — ✅ concluídos e revalidados
 Priorizados a pedido do usuário por já fecharem vínculos cruzados que existiam do lado
