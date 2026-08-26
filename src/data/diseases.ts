@@ -77,6 +77,13 @@ export const diseases: Disease[] = [
       { slug: "losartana-potassica", nome: "Losartana potássica" },
       { slug: "captopril", nome: "Captopril" },
       { slug: "enalapril", nome: "Enalapril" },
+      { slug: "hidroclorotiazida", nome: "Hidroclorotiazida" },
+      { slug: "besilato-anlodipino", nome: "Besilato de anlodipino" },
+      { slug: "cloridrato-verapamil", nome: "Cloridrato de verapamil" },
+      { slug: "cloridrato-hidralazina", nome: "Cloridrato de hidralazina" },
+      { slug: "metildopa", nome: "Metildopa" },
+      { slug: "mesilato-doxazosina", nome: "Mesilato de doxazosina" },
+      { slug: "nifedipino", nome: "Nifedipino" },
     ],
     fontes: [
       { tema: "Classificação pressórica e metas de tratamento", fonte: "Diretriz Brasileira de Hipertensão Arterial, 2020" },
@@ -162,6 +169,12 @@ export const diseases: Disease[] = [
       { slug: "carvedilol", nome: "Carvedilol" },
       { slug: "espironolactona", nome: "Espironolactona" },
       { slug: "dapagliflozina", nome: "Dapagliflozina" },
+      { slug: "digoxina", nome: "Digoxina" },
+      { slug: "furosemida", nome: "Furosemida" },
+      { slug: "dinitrato-isossorbida", nome: "Dinitrato de isossorbida" },
+      { slug: "cloridrato-hidralazina", nome: "Cloridrato de hidralazina" },
+      { slug: "cloridrato-dobutamina", nome: "Cloridrato de dobutamina" },
+      { slug: "sacubitril-valsartana", nome: "Sacubitril + valsartana sódica hidratada" },
     ],
     fontes: [
       { tema: "Classificação NYHA/ACC-AHA e por fração de ejeção", fonte: "Diretriz Brasileira de Insuficiência Cardíaca Crônica, SBC 2021" },
@@ -244,6 +257,9 @@ export const diseases: Disease[] = [
       { slug: "metformina", nome: "Metformina" },
       { slug: "dapagliflozina", nome: "Dapagliflozina" },
       { slug: "insulina-nph", nome: "Insulina NPH humana" },
+      { slug: "glibenclamida", nome: "Glibenclamida" },
+      { slug: "gliclazida", nome: "Gliclazida" },
+      { slug: "insulina-analoga", nome: "Insulina análoga (ação prolongada / ação rápida)" },
     ],
     fontes: [
       { tema: "Critérios diagnósticos e metas de HbA1c", fonte: "Diretrizes da Sociedade Brasileira de Diabetes, 2023-2024" },
@@ -396,6 +412,7 @@ export const diseases: Disease[] = [
       { slug: "budesonida-inalatoria", nome: "Budesonida inalatória" },
       { slug: "salbutamol", nome: "Salbutamol" },
       { slug: "prednisona", nome: "Prednisona" },
+      { slug: "fosfato-sodico-prednisolona", nome: "Fosfato sódico de prednisolona" },
     ],
     fontes: [
       { tema: "Classificação de gravidade/controle e algoritmo terapêutico", fonte: "GINA (Global Initiative for Asthma), 2024" },
@@ -1349,6 +1366,13 @@ export const diseases: Disease[] = [
       { slug: "sinvastatina", nome: "Sinvastatina" },
       { slug: "captopril", nome: "Captopril" },
       { slug: "enalapril", nome: "Enalapril" },
+      { slug: "bissulfato-clopidogrel", nome: "Bissulfato de clopidogrel" },
+      { slug: "atorvastatina-calcica", nome: "Atorvastatina cálcica" },
+      { slug: "metoprolol", nome: "Succinato de metoprolol / Tartarato de metoprolol" },
+      { slug: "dinitrato-isossorbida", nome: "Dinitrato de isossorbida" },
+      { slug: "estreptoquinase", nome: "Estreptoquinase" },
+      { slug: "alteplase", nome: "Alteplase" },
+      { slug: "acido-acetilsalicilico", nome: "Ácido acetilsalicílico (AAS)" },
     ],
     medicamentosSecaoTitulo: "Medicamentos de manutenção/prevenção secundária",
     medicamentosNota:
@@ -1431,6 +1455,13 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "sinvastatina", nome: "Sinvastatina" },
+      { slug: "atorvastatina-calcica", nome: "Atorvastatina cálcica" },
+      { slug: "metoprolol", nome: "Succinato de metoprolol / Tartarato de metoprolol" },
+      { slug: "dinitrato-isossorbida", nome: "Dinitrato de isossorbida" },
+      { slug: "mononitrato-isossorbida", nome: "Mononitrato de isossorbida" },
+      { slug: "besilato-anlodipino", nome: "Besilato de anlodipino" },
+      { slug: "cloridrato-verapamil", nome: "Cloridrato de verapamil" },
+      { slug: "acido-acetilsalicilico", nome: "Ácido acetilsalicílico (AAS)" },
     ],
     fontes: [
       { tema: "Definição e fisiopatologia", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
@@ -1508,6 +1539,8 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "sinvastatina", nome: "Sinvastatina" },
+      { slug: "atorvastatina-calcica", nome: "Atorvastatina cálcica" },
+      { slug: "mononitrato-isossorbida", nome: "Mononitrato de isossorbida" },
     ],
     fontes: [
       { tema: "Definição e espectro clínico", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
@@ -1585,6 +1618,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "varfarina-sodica", nome: "Varfarina sódica" },
+      { slug: "digoxina", nome: "Digoxina" },
+      { slug: "metoprolol", nome: "Succinato de metoprolol / Tartarato de metoprolol" },
+      { slug: "cloridrato-verapamil", nome: "Cloridrato de verapamil" },
+      { slug: "cloridrato-amiodarona", nome: "Cloridrato de amiodarona" },
     ],
     fontes: [
       { tema: "Classificação temporal e fisiopatologia", fonte: "Diretriz da Sociedade Brasileira de Cardiologia sobre Fibrilação Atrial, 2016" },
@@ -1658,13 +1695,14 @@ export const diseases: Disease[] = [
       conduta:
         "Iniciar compressões torácicas de alta qualidade imediatamente, acionar serviço de emergência e aplicar desfibrilador automático externo assim que disponível, seguindo o algoritmo de suporte básico/avançado de vida.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cloridrato-amiodarona", nome: "Cloridrato de amiodarona" },
+    ],
     medicamentosNota:
-      "A conduta prioritária na parada cardíaca é não farmacológica: compressões torácicas de alta qualidade e desfibrilação precoce, quando indicada. A adrenalina e os antiarrítmicos usados no suporte avançado de vida ainda não têm ficha própria no site.",
+      "A conduta prioritária na parada cardíaca é não farmacológica: compressões torácicas de alta qualidade e desfibrilação precoce, quando indicada. A amiodarona é usada em ritmos chocáveis refratários à desfibrilação; a adrenalina, também usada no suporte avançado de vida, ainda não tem ficha própria no site.",
     fontes: [
       { tema: "Ritmos chocáveis vs. não chocáveis e algoritmo de RCP", fonte: "American Heart Association, Diretrizes de Ressuscitação Cardiopulmonar e Cuidados Cardiovasculares de Emergência" },
       { tema: "Causas reversíveis ('5 Hs e 5 Ts')", fonte: "American Heart Association, Diretrizes de Ressuscitação Cardiopulmonar e Cuidados Cardiovasculares de Emergência" },
-      { tema: "Adrenalina e antiarrítmicos no suporte avançado de vida (ainda sem ficha própria de medicamento no site)", fonte: "fonte pendente" },
     ],
   },
   {
@@ -2037,6 +2075,9 @@ export const diseases: Disease[] = [
       { slug: "carvedilol", nome: "Carvedilol" },
       { slug: "espironolactona", nome: "Espironolactona" },
       { slug: "dapagliflozina", nome: "Dapagliflozina" },
+      { slug: "furosemida", nome: "Furosemida" },
+      { slug: "cloridrato-dobutamina", nome: "Cloridrato de dobutamina" },
+      { slug: "sacubitril-valsartana", nome: "Sacubitril + valsartana sódica hidratada" },
     ],
     fontes: [
       { tema: "Classificação fenotípica das cardiomiopatias", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
@@ -2349,6 +2390,8 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "varfarina-sodica", nome: "Varfarina sódica" },
+      { slug: "estreptoquinase", nome: "Estreptoquinase" },
+      { slug: "alteplase", nome: "Alteplase" },
     ],
     medicamentosSecaoTitulo: "Medicamentos de manutenção (pós-estabilização)",
     medicamentosNota:
@@ -2501,6 +2544,7 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "insulina-nph", nome: "Insulina NPH" },
+      { slug: "insulina-analoga", nome: "Insulina análoga (ação prolongada / ação rápida)" },
     ],
     fontes: [
       { tema: "Fisiopatologia autoimune", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
@@ -2575,11 +2619,16 @@ export const diseases: Disease[] = [
       conduta:
         "Confirmar com TSH suprimido, T4 livre elevado e TRAb positivo, iniciar betabloqueador para controle sintomático imediato e antitireoidiano para controle da síntese hormonal, e encaminhar para avaliação oftalmológica.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cloridrato-propranolol", nome: "Cloridrato de propranolol" },
+      { slug: "propiltiouracila", nome: "Propiltiouracila" },
+      { slug: "tiamazol", nome: "Tiamazol (metimazol)" },
+    ],
+    medicamentosNota:
+      "O propranolol controla os sintomas adrenérgicos (tremor, taquicardia, ansiedade) enquanto o tratamento definitivo faz efeito; os antitireoidianos (tiamazol/propiltiouracila), que controlam a síntese hormonal propriamente dita, ainda não têm ficha própria no site.",
     fontes: [
       { tema: "Fisiopatologia da doença de Graves e do bócio multinodular tóxico", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Diagnóstico e uso da captação de iodo radioativo", fonte: "American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism, 2016" },
-      { tema: "Antitireoidianos e betabloqueador no tratamento (ainda sem fichas próprias no site)", fonte: "fonte pendente" },
     ],
   },
   {
@@ -2873,11 +2922,14 @@ export const diseases: Disease[] = [
       conduta:
         "Confirmar com cortisol basal e teste de estimulação com ACTH sintético, dosar ACTH sérico (esperado elevado na forma primária), e iniciar reposição de hidrocortisona e fludrocortisona assim que o diagnóstico for confirmado ou a suspeita clínica for muito alta.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "succinato-sodico-hidrocortisona", nome: "Succinato sódico de hidrocortisona" },
+    ],
+    medicamentosNota:
+      "A hidrocortisona injetável é o tratamento de escolha na crise adrenal aguda; a reposição de manutenção oral (hidrocortisona/cortisona) e a fludrocortisona (para a atividade mineralocorticoide na forma primária) ainda não têm fichas próprias no site.",
     fontes: [
       { tema: "Fisiopatologia primária vs. secundária/terciária", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Critérios diagnósticos e teste de estimulação com ACTH", fonte: "Endocrine Society Clinical Practice Guideline for Primary Adrenal Insufficiency, 2016" },
-      { tema: "Hidrocortisona e fludrocortisona na reposição (ainda sem fichas próprias no site)", fonte: "fonte pendente" },
     ],
   },
   {
@@ -3160,6 +3212,7 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "sinvastatina", nome: "Sinvastatina" },
+      { slug: "atorvastatina-calcica", nome: "Atorvastatina cálcica" },
     ],
     fontes: [
       { tema: "Fisiopatologia da aterosclerose", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
@@ -3387,6 +3440,7 @@ export const diseases: Disease[] = [
     medicamentosPrimeiraLinha: [
       { slug: "salbutamol", nome: "Salbutamol" },
       { slug: "prednisona", nome: "Prednisona" },
+      { slug: "sulfato-magnesio", nome: "Sulfato de magnésio" },
     ],
     fontes: [
       { tema: "Classificação de gravidade da exacerbação asmática", fonte: "GINA (Global Initiative for Asthma), 2024" },
@@ -4036,6 +4090,7 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "dexametasona", nome: "Dexametasona" },
+      { slug: "fosfato-sodico-prednisolona", nome: "Fosfato sódico de prednisolona" },
     ],
     medicamentosSecaoTitulo: "Medicamento para o crupe (leve a moderado)",
     medicamentosNota:
@@ -5772,6 +5827,7 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "espironolactona", nome: "Espironolactona" },
+      { slug: "cloridrato-propranolol", nome: "Cloridrato de propranolol" },
     ],
     medicamentosNota:
       "A espironolactona é usada especificamente para o controle da ascite por hipertensão portal (hiperaldosteronismo secundário). Ela não trata a fibrose hepática em si nem substitui o tratamento da causa de base ou a profilaxia de varizes (betabloqueador não seletivo, ainda sem ficha própria no site).",
@@ -9597,6 +9653,9 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "sinvastatina", nome: "Sinvastatina" },
+      { slug: "bissulfato-clopidogrel", nome: "Bissulfato de clopidogrel" },
+      { slug: "atorvastatina-calcica", nome: "Atorvastatina cálcica" },
+      { slug: "acido-acetilsalicilico", nome: "Ácido acetilsalicílico (AAS)" },
     ],
     medicamentosSecaoTitulo: "Medicamento para prevenção secundária (não trata o evento agudo)",
     medicamentosNota:
@@ -9676,6 +9735,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "sinvastatina", nome: "Sinvastatina" },
+      { slug: "bissulfato-clopidogrel", nome: "Bissulfato de clopidogrel" },
+      { slug: "atorvastatina-calcica", nome: "Atorvastatina cálcica" },
+      { slug: "alteplase", nome: "Alteplase" },
+      { slug: "acido-acetilsalicilico", nome: "Ácido acetilsalicílico (AAS)" },
     ],
     medicamentosSecaoTitulo: "Medicamento para prevenção secundária (não trata o evento agudo)",
     medicamentosNota:
@@ -9972,6 +10035,7 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "ibuprofeno", nome: "Ibuprofeno" },
+      { slug: "cloridrato-propranolol", nome: "Cloridrato de propranolol" },
     ],
     medicamentosSecaoTitulo: "Medicamento abortivo para crises leves a moderadas",
     medicamentosNota:
@@ -11712,6 +11776,7 @@ export const diseases: Disease[] = [
     medicamentosPrimeiraLinha: [
       { slug: "prednisona", nome: "Prednisona" },
       { slug: "losartana-potassica", nome: "Losartana potássica" },
+      { slug: "furosemida", nome: "Furosemida" },
     ],
     medicamentosSecaoTitulo: "Corticosteroide (doença de lesões mínimas) e bloqueador do receptor de angiotensina (redução da proteinúria, adjuvante em todas as causas)",
     medicamentosNota:
@@ -12091,9 +12156,11 @@ export const diseases: Disease[] = [
       conduta:
         "Aplicar o Escore Internacional de Sintomas Prostáticos para quantificar a gravidade, solicitar PSA e função renal, e iniciar alfabloqueador para alívio sintomático inicial, considerando inibidor da 5-alfa-redutase se a próstata for significativamente aumentada.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "mesilato-doxazosina", nome: "Mesilato de doxazosina" },
+    ],
     medicamentosNota:
-      "O tratamento de primeira linha é o alfabloqueador seletivo (ex.: tansulosina) e, em próstatas maiores, o inibidor da 5-alfa-redutase (finasterida) — este último consta como item pendente no backlog de medicamentos; nenhum ainda tem ficha própria no site.",
+      "A doxazosina é uma opção de alfabloqueador para alívio sintomático inicial; o inibidor da 5-alfa-redutase (finasterida), mais indicado em próstatas significativamente aumentadas, ainda não tem ficha própria no site.",
     fontes: [
       { tema: "Fisiopatologia (componentes estático e dinâmico da obstrução) e mecanismo dos dois grupos farmacológicos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Escore Internacional de Sintomas Prostáticos (IPSS)", fonte: "fonte pendente" },
@@ -13434,6 +13501,7280 @@ export const diseases: Disease[] = [
     fontes: [
       { tema: "Critérios diagnósticos DSM-5 e fisiopatologia frontoestriatal", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Eficácia dos estimulantes e efeito sobre risco de uso de substâncias", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "otite-externa",
+    nome: "Otite externa",
+    sinonimos: ["Otite do nadador"],
+    cid10: "H60",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Bacteriana",
+    resumo: "Inflamação do conduto auditivo externo, mais comumente de causa bacteriana e favorecida por umidade retida no canal, causando dor à manipulação do pavilhão auricular característica.",
+    definicao:
+      "Inflamação, com ou sem infecção associada, da pele que reveste o conduto auditivo externo, mais comumente causada por bactérias (Pseudomonas aeruginosa e Staphylococcus aureus são os agentes mais frequentes), podendo também ter causa fúngica em uma minoria dos casos.",
+    epidemiologia:
+      "Fortemente associada à exposição frequente à umidade (natação, clima úmido, daí o nome popular 'otite do nadador'), bem como à limpeza excessiva ou traumática do conduto (uso de cotonetes), que rompe a barreira protetora natural de cerume e altera o pH local.",
+    fisiopatologia:
+      "A umidade retida no conduto auditivo externo macera a pele e altera o pH ácido protetor natural, favorecendo a proliferação bacteriana. Traumatismo local (cotonetes, aparelhos auditivos, objetos inseridos no canal) rompe a integridade da pele, facilitando a invasão bacteriana e desencadeando a resposta inflamatória com edema, eritema e dor.",
+    classificacao:
+      "Classificada em difusa aguda (a forma mais comum, descrita acima), localizada (furúnculo do conduto, por infecção de um folículo piloso) e maligna/necrotizante (forma grave e invasiva, quase exclusiva de pacientes diabéticos ou imunossuprimidos, com potencial de osteomielite da base do crânio).",
+    quadroClinico: [
+      "Dor auricular intensa, caracteristicamente exacerbada pela manipulação do pavilhão auricular ou do trago, achado semiológico central para o diagnóstico",
+      "Prurido e sensação de plenitude auricular nas fases iniciais",
+      "Secreção otológica (otorreia), geralmente purulenta ou serosa",
+      "Edema do conduto auditivo externo, por vezes suficiente para obstruir completamente a visualização da membrana timpânica",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico pela otoscopia, evidenciando conduto auditivo externo eritematoso, edemaciado e doloroso à manipulação",
+      "Dor à tração do pavilhão auricular ou à pressão do trago é achado semiológico característico que ajuda a distinguir de otite média",
+      "Avaliação de fatores de risco para a forma maligna/necrotizante (diabetes mellitus, imunossupressão) em todo paciente com quadro grave ou refratário",
+    ],
+    examesComplementares: [
+      "Cultura da secreção otológica reservada a casos refratários ao tratamento empírico inicial ou recorrentes, para orientar terapia dirigida",
+      "Tomografia computadorizada de osso temporal indicada quando há suspeita de otite externa maligna/necrotizante, para avaliar extensão óssea da infecção",
+    ],
+    diagnosticoDiferencial: [
+      "Otite média aguda com perfuração timpânica e otorreia secundária (a dor à tração do pavilhão auricular é tipicamente ausente ou muito menos proeminente nesta condição)",
+      "Dermatite de contato ou eczema do conduto auditivo (prurido predominante, sem a dor intensa característica da otite externa infecciosa)",
+      "Otite externa maligna/necrotizante, quando há fatores de risco (diabetes, imunossupressão) e dor desproporcional ou refratária ao tratamento habitual",
+    ],
+    tratamento: [
+      "Gotas otológicas tópicas combinando antibiótico e corticosteroide são o tratamento de primeira linha na grande maioria dos casos, dispensando antibiótico sistêmico",
+      "Limpeza cuidadosa do conduto auditivo externo (aspiração ou irrigação suave) antes da aplicação do tratamento tópico, quando há debris significativos",
+      "Analgesia oral para controle da dor, frequentemente intensa nas primeiras 48 horas",
+      "Antibiótico sistêmico reservado a casos de otite externa maligna/necrotizante ou quando há extensão além do conduto auditivo externo",
+      "Orientação para manter o conduto seco e evitar manipulação durante o tratamento e a fase de recuperação",
+    ],
+    complicacoes: [
+      "Aguda: celulite do pavilhão auricular e tecidos adjacentes por extensão da infecção",
+      "Crônica: otite externa maligna/necrotizante com osteomielite da base do crânio e possível acometimento de nervos cranianos, quase exclusiva de pacientes diabéticos ou imunossuprimidos",
+    ],
+    redFlags: [
+      "Dor desproporcional à gravidade aparente do quadro, sobretudo em paciente diabético ou imunossuprimido, deve levantar suspeita de otite externa maligna/necrotizante e motivar investigação de imagem urgente",
+      "Paralisia de nervos cranianos associada à otite externa é sinal de extensão óssea grave da infecção, exigindo tratamento intensivo imediato",
+    ],
+    prognostico:
+      "A forma difusa aguda simples tem excelente prognóstico, com resolução completa em poucos dias a uma semana com tratamento tópico adequado. A forma maligna/necrotizante, embora rara, tem prognóstico reservado e exige tratamento prolongado e multidisciplinar.",
+    pontosDeProva: [
+      "Dor à tração do pavilhão auricular ou à pressão do trago é o achado semiológico mais característico e mais cobrado para diferenciar otite externa de otite média",
+      "A tríade de dor desproporcional, paciente diabético e granulação tecidual no assoalho do conduto deve sempre levantar suspeita de otite externa maligna/necrotizante, apesar do nome, uma condição infecciosa grave, não neoplásica",
+      "Pseudomonas aeruginosa é o agente etiológico mais comumente implicado, tanto na forma comum quanto na forma maligna/necrotizante",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 34 anos, nadador recreativo, apresenta dor intensa e prurido no ouvido direito há 2 dias, com secreção serosa, e relata dor importante ao tentar colocar o fone de ouvido.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Dor auricular exacerbada pela manipulação do pavilhão, associada a exposição recente à água, é característica de otite externa aguda difusa.",
+      conduta:
+        "Realizar otoscopia para confirmar o diagnóstico e avaliar a integridade da membrana timpânica; iniciar gotas otológicas tópicas combinando antibiótico e corticosteroide, orientando manter o conduto seco durante o tratamento.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento de primeira linha são gotas otológicas tópicas (antibiótico associado a corticosteroide), ainda sem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia (maceração por umidade, agentes etiológicos) e classificação por gravidade", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Otite externa maligna/necrotizante em diabéticos e conduta tópica de primeira linha", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "cerume-impactado-corpo-estranho-conduto",
+    nome: "Outros transtornos do ouvido externo (cerume impactado, corpo estranho)",
+    sinonimos: ["Impactação de cerume", "Rolha de cera"],
+    cid10: "H61",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Idiopática",
+    resumo: "Acúmulo de cerume ou presença de corpo estranho obstruindo o conduto auditivo externo, causa comum e reversível de hipoacusia condutiva e desconforto auricular.",
+    definicao:
+      "Categoria que reúne condições mecânicas e não infecciosas do conduto auditivo externo, mais notavelmente a impactação de cerume (acúmulo excessivo que obstrui parcial ou totalmente o conduto) e a presença de corpo estranho (comum em crianças pequenas).",
+    epidemiologia:
+      "A impactação de cerume é extremamente comum em todas as faixas etárias, mas particularmente em idosos (por cerume mais espesso e conduto mais estreito) e em usuários de aparelhos auditivos ou protetores auriculares, que impedem a migração natural do cerume para fora do conduto. Corpo estranho no conduto é mais comum em crianças pequenas.",
+    fisiopatologia:
+      "O cerume é normalmente produzido pelas glândulas ceruminosas do terço externo do conduto auditivo e migra naturalmente para fora por ação da mastigação e do crescimento epitelial; sua produção excessiva, remoção incompleta ou obstrução da migração natural (uso de cotonetes, que na verdade empurram o cerume mais profundamente) leva ao acúmulo e à impactação, causando obstrução mecânica da condução sonora e, por vezes, irritação local.",
+    classificacao:
+      "Não há sistema de estadiamento formal; classificado descritivamente pelo grau de obstrução do conduto (parcial ou completa) e, no caso de corpo estranho, pelo tipo de objeto (orgânico, inorgânico, inseto vivo — esta última categoria exigindo conduta imediata pelo desconforto extremo que causa).",
+    quadroClinico: [
+      "Sensação de plenitude ou obstrução auricular, de instalação geralmente gradual na impactação de cerume",
+      "Hipoacusia condutiva leve a moderada, unilateral ou bilateral, proporcional ao grau de obstrução",
+      "Prurido ou desconforto local ocasional",
+      "No caso de corpo estranho, história relatada pelo paciente ou cuidador (mais comum em crianças) ou achado incidental no exame otoscópico",
+      "Inseto vivo no conduto causa desconforto agudo e intenso, com sensação de movimento dentro do ouvido",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico direto pela otoscopia, visualizando o cerume impactado ou o corpo estranho obstruindo o conduto",
+      "Avaliação da integridade da membrana timpânica antes de qualquer tentativa de remoção, quando visualização permitir",
+    ],
+    examesComplementares: [
+      "Não há exame laboratorial ou de imagem indicado rotineiramente; o diagnóstico e a conduta são guiados inteiramente pela otoscopia direta",
+    ],
+    diagnosticoDiferencial: [
+      "Otite externa (dor e eritema do conduto predominam, distinto da obstrução mecânica indolor típica do cerume impactado)",
+      "Otosclerose e outras causas de hipoacusia condutiva sem obstrução visível do conduto",
+    ],
+    tratamento: [
+      "Cerumenolíticos (agentes amolecedores de cerume) seguidos de irrigação com água morna são o tratamento de primeira linha para impactação de cerume não complicada",
+      "Remoção instrumental (curetagem, aspiração) sob visualização direta quando a irrigação é insuficiente, contraindicada (perfuração timpânica conhecida) ou o cerume está muito compactado",
+      "Remoção de corpo estranho por instrumentação direta ou irrigação, conforme o tipo de objeto; insetos vivos devem ser imobilizados (instilação de óleo mineral ou lidocaína tópica) antes da tentativa de remoção, para evitar lesão do conduto pelo movimento do inseto",
+      "Encaminhamento a especialista quando a remoção inicial não é bem-sucedida ou há risco de lesão da membrana timpânica",
+    ],
+    complicacoes: [
+      "Aguda: laceração do conduto auditivo externo ou perfuração timpânica durante tentativa inadequada de remoção",
+      "Crônica: otite externa secundária por umidade retida atrás de cerume impactado",
+    ],
+    redFlags: [
+      "Irrigação do conduto auditivo é contraindicada quando há suspeita ou história conhecida de perfuração timpânica, pelo risco de introduzir infecção no ouvido médio",
+      "Tentativas repetidas de remoção sem visualização adequada aumentam o risco de laceração do conduto e devem ser evitadas em favor de encaminhamento especializado",
+    ],
+    prognostico:
+      "Excelente prognóstico, com resolução completa e imediata da hipoacusia após remoção adequada do cerume impactado ou do corpo estranho, na grande maioria dos casos sem sequelas.",
+    pontosDeProva: [
+      "O uso de cotonetes para 'limpeza' do conduto auditivo externo, contraintuitivamente, tende a empurrar o cerume mais profundamente e a favorecer a impactação, em vez de preveni-la — orientação prática frequentemente cobrada",
+      "A irrigação do conduto é contraindicada quando há perfuração timpânica conhecida ou suspeita, pelo risco de introduzir infecção no ouvido médio",
+      "Insetos vivos no conduto auditivo devem ser imobilizados antes da tentativa de remoção, para evitar lesão do conduto causada pelo próprio movimento do inseto",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 68 anos, usuário de aparelho auditivo bilateral, relata piora progressiva da audição no ouvido esquerdo há 3 semanas, sem dor.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Hipoacusia progressiva e indolor em usuário de aparelho auditivo, fator de risco conhecido para impactação por impedir a migração natural do cerume, sugere fortemente cerume impactado.",
+      conduta:
+        "Realizar otoscopia para confirmar a impactação e avaliar a integridade da membrana timpânica; se íntegra, iniciar cerumenolítico seguido de irrigação suave com água morna, ou remoção instrumental sob visualização direta.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento de primeira linha é a remoção mecânica (cerumenolíticos e irrigação, ou remoção instrumental), não um medicamento sistêmico; os cerumenolíticos tópicos específicos ainda não têm ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia da produção e migração do cerume e fatores de risco para impactação", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Contraindicação de irrigação em perfuração timpânica e manejo de inseto vivo no conduto", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "otite-media-serosa",
+    nome: "Otite média serosa (com efusão)",
+    sinonimos: ["Otite média com efusão", "OME"],
+    cid10: "H65",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Acúmulo de líquido não infectado na cavidade do ouvido médio por disfunção da tuba auditiva, causa mais comum de hipoacusia condutiva na infância, frequentemente assintomática além da perda auditiva.",
+    definicao:
+      "Presença de líquido na cavidade do ouvido médio sem sinais ou sintomas de infecção aguda, resultante de disfunção da tuba auditiva que compromete a ventilação e a drenagem normais dessa cavidade.",
+    epidemiologia:
+      "Extremamente comum em crianças pequenas, favorecida pela tuba auditiva mais curta, horizontalizada e com função muscular menos eficiente que a do adulto; frequentemente segue um episódio de otite média aguda ou de infecção de vias aéreas superiores, e a hipertrofia adenoideana é fator de risco relevante nessa faixa etária.",
+    fisiopatologia:
+      "A disfunção da tuba auditiva (por edema inflamatório secundário a infecção de vias aéreas superiores, alergia, ou hipertrofia adenoideana obstrutiva) compromete a ventilação normal do ouvido médio, gerando pressão negativa progressiva na cavidade timpânica. Essa pressão negativa favorece a transudação de líquido seroso da mucosa para dentro da cavidade, que se acumula na ausência de infecção bacteriana ativa.",
+    classificacao:
+      "Classificada quanto à duração em aguda (menos de 3 meses) e crônica (3 meses ou mais, quando o risco de impacto no desenvolvimento da fala e da linguagem em crianças pequenas se torna mais relevante e a intervenção cirúrgica passa a ser considerada).",
+    quadroClinico: [
+      "Hipoacusia condutiva leve a moderada, frequentemente o único sintoma, podendo passar despercebida em crianças pequenas até ser notada por atraso de fala/linguagem ou dificuldade escolar",
+      "Sensação de plenitude ou pressão auricular, quando o paciente é capaz de relatar",
+      "Ausência de dor, febre ou outros sinais de infecção aguda, distinguindo-a claramente da otite média aguda supurativa",
+      "Otoscopia revelando membrana timpânica opaca, retraída ou abaulada, por vezes com nível hidroaéreo ou bolhas visíveis através da membrana",
+    ],
+    diagnostico: [
+      "Diagnóstico predominantemente clínico pela otoscopia pneumática, evidenciando mobilidade reduzida da membrana timpânica à insuflação de ar (achado central para confirmar a presença de líquido)",
+      "Timpanometria confirma objetivamente a presença de líquido na cavidade do ouvido médio (curva do tipo B, plana), exame complementar útil quando disponível",
+      "Avaliação audiométrica em casos persistentes, para quantificar o grau de hipoacusia e orientar a decisão terapêutica",
+    ],
+    examesComplementares: [
+      "Timpanometria com curva tipo B (plana), indicando ausência de mobilidade da membrana timpânica compatível com efusão no ouvido médio",
+      "Audiometria demonstrando hipoacusia condutiva, geralmente leve a moderada, útil para documentar o impacto funcional e acompanhar a evolução",
+    ],
+    diagnosticoDiferencial: [
+      "Otite média aguda supurativa (presença de dor, febre e sinais inflamatórios agudos, ausentes na otite média serosa)",
+      "Colesteatoma e outras causas de retração timpânica crônica (distinguidas pela presença de debris epidermoides característicos à otoscopia)",
+      "Outras causas de hipoacusia condutiva na infância (malformações do ouvido médio, otosclerose — esta última rara nessa faixa etária)",
+    ],
+    tratamento: [
+      "Observação clínica por até 3 meses é a conduta apropriada na maioria dos casos, dado que a resolução espontânea é comum, sobretudo após resolução da infecção de vias aéreas superiores desencadeante",
+      "Tratamento de fatores predisponentes identificáveis, como rinite alérgica não controlada",
+      "Adenoidectomia, associada ou não à colocação de tubo de ventilação (tubo de miringotomia), é indicada em casos persistentes além de 3 meses com hipoacusia significativa, sobretudo quando há impacto no desenvolvimento de fala e linguagem",
+      "Antibióticos, anti-histamínicos e descongestionantes não têm eficácia comprovada para a resolução da efusão e não são recomendados rotineiramente",
+    ],
+    complicacoes: [
+      "Aguda: episódios recorrentes de otite média aguda supurativa sobre a efusão de base",
+      "Crônica: atraso de desenvolvimento de fala e linguagem em crianças pequenas quando a efusão persiste sem tratamento por período prolongado, retração timpânica progressiva com risco de evolução para colesteatoma em casos muito prolongados",
+    ],
+    redFlags: [
+      "Efusão persistente além de 3 meses associada a hipoacusia significativa exige avaliação para intervenção (tubo de ventilação, adenoidectomia), pelo risco de impacto no desenvolvimento de fala e linguagem em crianças pequenas",
+      "Efusão unilateral persistente e recorrente em adulto, sobretudo sem infecção de vias aéreas superiores recente, deve levantar suspeita de massa obstrutiva nasofaríngea (incluindo neoplasia) e motivar avaliação da nasofaringe",
+    ],
+    prognostico:
+      "A maioria dos episódios resolve espontaneamente dentro de 3 meses, sobretudo em crianças mais velhas e adultos. Casos persistentes tratados adequadamente com tubo de ventilação têm excelente resolução da hipoacusia associada.",
+    pontosDeProva: [
+      "A ausência de dor e febre distingue claramente a otite média serosa da otite média aguda supurativa, apesar de ambas envolverem líquido na cavidade do ouvido médio",
+      "Antibióticos não têm papel comprovado no tratamento da otite média serosa isolada, ao contrário da otite média aguda supurativa — distinção terapêutica frequentemente cobrada",
+      "Efusão unilateral persistente em adulto deve sempre motivar investigação da nasofaringe para excluir massa obstrutiva, incluindo neoplasia nasofaríngea",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menino, 4 anos, é levado à consulta pelos pais por dificuldade de acompanhar as conversas e pedir repetição frequente há 2 meses, sem febre ou dor auricular relatada, com história de resfriados frequentes.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Hipoacusia insidiosa sem dor ou febre em criança com infecções de vias aéreas superiores recorrentes é característica de otite média serosa por disfunção tubária recorrente.",
+      conduta:
+        "Realizar otoscopia pneumática e, se disponível, timpanometria para confirmar a efusão; como o quadro tem menos de 3 meses, indicar observação clínica com reavaliação programada antes de considerar intervenção cirúrgica.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso de eficácia comprovada para a otite média serosa; a conduta é observação ou intervenção cirúrgica (tubo de ventilação), conforme a persistência do quadro.",
+    fontes: [
+      { tema: "Fisiopatologia da disfunção tubária e classificação por duração", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Timpanometria com curva tipo B e indicação de tubo de ventilação após 3 meses", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "otite-media-aguda-supurativa",
+    nome: "Otite média aguda supurativa e crônica",
+    sinonimos: ["OMA", "Otite média aguda"],
+    cid10: "H66",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Bacteriana",
+    resumo: "Infecção bacteriana do ouvido médio, uma das infecções mais comuns na infância, causando dor auricular aguda e febre, com amoxicilina como tratamento de primeira linha.",
+    definicao:
+      "Infecção aguda da cavidade do ouvido médio, caracterizada por início rápido de sinais e sintomas de inflamação, com presença de efusão purulenta, mais comumente causada por Streptococcus pneumoniae, Haemophilus influenzae não tipável e Moraxella catarrhalis.",
+    epidemiologia:
+      "Uma das infecções bacterianas mais comuns na infância, com pico de incidência entre 6 e 24 meses de idade, favorecida pela anatomia da tuba auditiva na criança pequena (mais curta, horizontalizada e com função muscular menos eficiente que no adulto), o que compromete a drenagem e ventilação normais do ouvido médio.",
+    fisiopatologia:
+      "Uma infecção viral de vias aéreas superiores precedente causa edema da mucosa da tuba auditiva, comprometendo sua função de ventilação e drenagem. O acúmulo de secreção na cavidade do ouvido médio cria um meio favorável à proliferação bacteriana (por ascensão de bactérias da nasofaringe através da tuba auditiva disfuncional), gerando efusão purulenta sob pressão que causa a dor característica e pode levar à perfuração espontânea da membrana timpânica.",
+    classificacao:
+      "Classificada em aguda (episódio isolado com resolução completa) e crônica supurativa (otorreia persistente por mais de 2-6 semanas através de perfuração timpânica estabelecida, geralmente associada a dano estrutural mais extenso do ouvido médio).",
+    quadroClinico: [
+      "Dor auricular (otalgia) de início agudo, frequentemente intensa, em crianças pequenas manifestada por irritabilidade e choro, puxar a orelha",
+      "Febre, frequentemente presente mas não obrigatória para o diagnóstico",
+      "Otorreia purulenta quando ocorre perfuração espontânea da membrana timpânica, tipicamente acompanhada de alívio imediato da dor pela descompressão",
+      "Hipoacusia condutiva transitória associada",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado em otoscopia demonstrando abaulamento da membrana timpânica, eritema e opacidade, associado a início agudo de sinais/sintomas",
+      "Abaulamento da membrana timpânica é o achado otoscópico mais específico para o diagnóstico, mais confiável que o eritema isolado (que pode ocorrer com choro ou febre por outras causas)",
+      "Otorreia purulenta de início agudo em paciente sem tubo de ventilação prévio também confirma o diagnóstico, mesmo sem visualização completa da membrana",
+    ],
+    examesComplementares: [
+      "Otoscopia pneumática demonstrando mobilidade reduzida da membrana timpânica, achado de apoio quando o diagnóstico visual isolado é duvidoso",
+      "Cultura de secreção reservada a casos refratários ao tratamento empírico inicial ou com otorreia persistente através de tubo de ventilação",
+    ],
+    diagnosticoDiferencial: [
+      "Otite média serosa (ausência de sinais agudos de infecção, como dor intensa e febre)",
+      "Otite externa (dor exacerbada pela tração do pavilhão auricular, ausente ou menos proeminente na otite média)",
+      "Miringite bolhosa (bolhas na membrana timpânica, associada a dor intensa, por vezes de etiologia viral ou por Mycoplasma)",
+    ],
+    tratamento: [
+      "Amoxicilina em dose adequada é o antibiótico de primeira linha para a maioria dos casos, cobrindo os principais patógenos bacterianos envolvidos",
+      "Observação vigilante sem antibiótico imediato pode ser considerada em crianças mais velhas com sintomas leves e sem fatores de risco, com reavaliação em 48-72 horas se não houver melhora",
+      "Analgesia adequada (paracetamol ou ibuprofeno) para controle da dor, independentemente da decisão sobre antibioticoterapia",
+      "Amoxicilina com clavulanato ou outro antibiótico de segunda linha reservado a falha terapêutica, uso recente de antibiótico ou conjuntivite purulenta concomitante (sugerindo Haemophilus influenzae produtor de beta-lactamase)",
+      "Miringotomia (drenagem cirúrgica) considerada em casos de dor intensa refratária ou complicações supurativas",
+    ],
+    complicacoes: [
+      "Aguda: perfuração timpânica com otorreia, mastoidite aguda por extensão da infecção",
+      "Crônica: otite média crônica supurativa com perfuração persistente, colesteatoma secundário, perda auditiva condutiva permanente em casos recorrentes não tratados adequadamente",
+    ],
+    redFlags: [
+      "Edema, eritema e dor retroauricular associados à otite média aguda sugerem mastoidite aguda, complicação que exige investigação de imagem e tratamento intensivo imediato",
+      "Sinais de comprometimento do sistema nervoso central (cefaleia intensa, rigidez de nuca, alteração do nível de consciência) associados à otite média devem levantar suspeita de complicação intracraniana (meningite, abscesso), exigindo avaliação urgente",
+    ],
+    prognostico:
+      "Excelente prognóstico na maioria dos casos, com resolução completa dos sintomas em poucos dias com tratamento adequado; episódios recorrentes ou não tratados adequadamente aumentam o risco de complicações supurativas e de perda auditiva condutiva a longo prazo.",
+    pontosDeProva: [
+      "O abaulamento da membrana timpânica é o achado otoscópico mais específico para otite média aguda, mais confiável que o eritema isolado da membrana",
+      "A amoxicilina permanece o antibiótico de primeira linha apesar da resistência bacteriana crescente, pela sua eficácia mantida contra a maioria das cepas de Streptococcus pneumoniae quando usada em dose adequada",
+      "Conjuntivite purulenta concomitante à otite média sugere Haemophilus influenzae produtor de beta-lactamase, orientando a escolha de amoxicilina com clavulanato em vez de amoxicilina isolada",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menina, 18 meses, apresenta febre de 38,7°C e choro intenso associado a puxar a orelha direita repetidamente há 1 dia, sem outros sintomas respiratórios significativos.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Febre e irritabilidade com sinal comportamental de dor auricular (puxar a orelha) em lactente sugerem otite média aguda, devendo-se confirmar com otoscopia buscando abaulamento da membrana timpânica.",
+      conduta:
+        "Confirmar o diagnóstico pela otoscopia; dado a idade abaixo de 2 anos (fator de risco para complicações), iniciar amoxicilina em dose adequada associada a analgesia para controle da dor e da febre.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina", nome: "Amoxicilina" },
+    ],
+    fontes: [
+      { tema: "Fisiopatologia (disfunção tubária pós-viral) e principais agentes etiológicos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Amoxicilina como antibiótico de primeira linha e critérios de observação vigilante", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "disfuncao-tuba-auditiva",
+    nome: "Disfunção da tuba auditiva",
+    sinonimos: ["Disfunção tubária", "Obstrução da trompa de Eustáquio"],
+    cid10: "H68",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Comprometimento da abertura e fechamento normais da tuba auditiva, causando sensação de plenitude e estalidos auriculares, mecanismo fisiopatológico subjacente à maioria das demais doenças do ouvido médio.",
+    definicao:
+      "Comprometimento da função normal de ventilação e drenagem da tuba auditiva (trompa de Eustáquio), estrutura que conecta a cavidade do ouvido médio à nasofaringe e é responsável por equalizar a pressão entre o ouvido médio e o ambiente externo.",
+    epidemiologia:
+      "Extremamente comum em episódios de infecção de vias aéreas superiores e rinite alérgica, condições que causam edema da mucosa que reveste a tuba auditiva; também associada a mudanças rápidas de pressão ambiental (viagens aéreas, mergulho) e, em crianças, à hipertrofia adenoideana.",
+    fisiopatologia:
+      "A tuba auditiva normalmente se abre de forma intermitente (durante deglutição e bocejo) para equalizar a pressão do ouvido médio com a pressão atmosférica. Edema da mucosa tubária (por infecção viral, alergia, hipertrofia adenoideana) ou disfunção dos músculos responsáveis pela sua abertura comprometem essa ventilação, gerando pressão negativa progressiva na cavidade do ouvido médio, com sensação de plenitude auricular e, se prolongada, favorecendo o acúmulo de efusão serosa.",
+    classificacao:
+      "Classificada em obstrutiva (a forma mais comum, por edema inflamatório ou obstrução mecânica que impede a abertura adequada da tuba) e patente/aberta (menos comum, na qual a tuba permanece anormalmente aberta, causando autofonia incômoda, associada por vezes a perda de peso significativa).",
+    quadroClinico: [
+      "Sensação de plenitude ou pressão auricular, tipicamente bilateral quando de causa sistêmica (infecção viral, alergia)",
+      "Estalidos ou crepitação auricular ao deglutir ou bocejar",
+      "Hipoacusia leve e transitória, sobretudo perceptível durante mudanças de pressão ambiental",
+      "Na forma patente/aberta, autofonia (o paciente ouve a própria voz e respiração de forma amplificada e incômoda), com alívio característico ao deitar-se",
+    ],
+    diagnostico: [
+      "Diagnóstico predominantemente clínico baseado nos sintomas característicos e no contexto (infecção de vias aéreas superiores recente, viagem aérea, mergulho)",
+      "Otoscopia pode ser normal ou mostrar retração leve da membrana timpânica",
+      "Timpanometria auxilia na documentação objetiva da disfunção quando os sintomas são persistentes ou atípicos",
+    ],
+    examesComplementares: [
+      "Timpanometria demonstrando pressão negativa na cavidade do ouvido médio (curva tipo C), achado de apoio na disfunção obstrutiva persistente",
+      "Nasofibroscopia reservada a casos persistentes ou unilaterais em adultos, para avaliar obstrução mecânica na nasofaringe (incluindo hipertrofia adenoideana ou massa)",
+    ],
+    diagnosticoDiferencial: [
+      "Otite média serosa (efusão já estabelecida na cavidade do ouvido médio, representando uma progressão da disfunção tubária não resolvida)",
+      "Barotrauma agudo (contexto específico de mudança rápida de pressão, com dor mais intensa e por vezes hemotímpano)",
+      "Doença de Ménière e outras causas de plenitude auricular associada a vertigem, distinguidas pela ausência de sintomas vestibulares na disfunção tubária isolada",
+    ],
+    tratamento: [
+      "Tratamento da causa de base (descongestionante e anti-histamínico para rinite alérgica, tratamento da infecção viral de vias aéreas superiores subjacente) na forma obstrutiva",
+      "Manobras de equalização (manobra de Valsalva modificada, deglutição repetida) para promover a abertura ativa da tuba, sobretudo úteis durante mudanças de pressão ambiental",
+      "Adenoidectomia considerada em crianças com hipertrofia adenoideana obstrutiva e disfunção tubária recorrente",
+      "A forma patente/aberta geralmente não responde a descongestionantes e pode exigir manejo específico (hidratação, em casos associados a perda de peso significativa, ganho de peso), sendo menos comum e mais desafiadora terapeuticamente",
+    ],
+    complicacoes: [
+      "Aguda: barotrauma agudo em situações de mudança rápida de pressão sem equalização adequada",
+      "Crônica: progressão para otite média serosa persistente e retração timpânica crônica quando a disfunção obstrutiva não é resolvida",
+    ],
+    redFlags: [
+      "Disfunção tubária unilateral persistente em adulto, sem infecção de vias aéreas superiores recente, deve levantar suspeita de massa obstrutiva na nasofaringe e motivar avaliação com nasofibroscopia",
+    ],
+    prognostico:
+      "A forma obstrutiva associada a infecção viral autolimitada resolve-se espontaneamente na maioria dos casos em poucos dias a semanas, acompanhando a resolução da causa de base. A forma patente/aberta tende a ter curso mais crônico e resposta terapêutica mais limitada.",
+    pontosDeProva: [
+      "A disfunção tubária é o mecanismo fisiopatológico comum subjacente tanto à otite média serosa quanto a uma parcela das otites médias agudas, conceito central para entender a progressão dessas condições",
+      "A disfunção tubária unilateral persistente em adulto é sinal de alarme para massa obstrutiva na nasofaringe, incluindo neoplasia, e não deve ser atribuída precocemente apenas a alergia ou infecção viral",
+      "A forma patente/aberta da tuba auditiva causa autofonia com alívio característico ao deitar, achado que a distingue clinicamente da forma obstrutiva, muito mais comum",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 28 anos, relata sensação de ouvido 'tampado' e estalidos ao deglutir no ouvido esquerdo há 4 dias, no contexto de resfriado comum na semana anterior.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Sensação de plenitude auricular e estalidos à deglutição, no contexto recente de infecção viral de vias aéreas superiores, são característicos de disfunção tubária obstrutiva pós-viral.",
+      conduta:
+        "Orientar manobras de equalização (Valsalva modificada) e tratamento sintomático da infecção viral de base, com expectativa de resolução espontânea em poucos dias; reavaliar se os sintomas persistirem além de algumas semanas.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende da causa de base (descongestionante/anti-histamínico para rinite alérgica, manejo sintomático de infecção viral), sem um medicamento específico documentado no site para a disfunção tubária em si.",
+    fontes: [
+      { tema: "Fisiopatologia da ventilação tubária e classificação obstrutiva vs. patente", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Timpanometria com curva tipo C e indicação de adenoidectomia em crianças", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "mastoidite",
+    nome: "Mastoidite e afecções correlatas",
+    sinonimos: ["Mastoidite aguda"],
+    cid10: "H70",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Bacteriana",
+    resumo: "Infecção bacteriana das células mastóideas, complicação supurativa mais comum da otite média aguda não tratada ou tratada inadequadamente, causando dor e edema retroauriculares característicos.",
+    definicao:
+      "Infecção bacteriana do processo mastóideo do osso temporal, estrutura pneumatizada contígua à cavidade do ouvido médio, resultando quase sempre de extensão direta de uma otite média aguda não resolvida.",
+    epidemiologia:
+      "É a complicação intratemporal mais comum da otite média aguda, mais frequente em crianças pequenas, população em que a otite média aguda também é mais prevalente; sua incidência diminuiu substancialmente desde a introdução do tratamento antibiótico rotineiro da otite média aguda.",
+    fisiopatologia:
+      "As células mastóideas são pneumatizadas e comunicam-se diretamente com a cavidade do ouvido médio através do antro mastóideo; a infecção bacteriana da otite média aguda pode se estender diretamente a essa estrutura contígua, causando osteíte e acúmulo de material purulento sob a periósteo, que pode romper-se e causar abscesso subperiosteal com edema e deslocamento característico do pavilhão auricular.",
+    classificacao:
+      "Classificada em mastoidite aguda simples (inflamação das células mastóideas sem destruição óssea significativa) e mastoidite aguda com periostite/abscesso subperiosteal (extensão além do osso, com coleção purulenta sob o periósteo, forma mais grave e clinicamente mais evidente).",
+    quadroClinico: [
+      "Dor, edema e eritema na região retroauricular, achado característico e mais específico da condição",
+      "Deslocamento anteroinferior do pavilhão auricular quando há abscesso subperiosteal significativo",
+      "Febre, frequentemente alta, e comprometimento do estado geral",
+      "História recente ou concomitante de otite média aguda, com ou sem otorreia",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado nos achados característicos de dor, edema e eritema retroauriculares associados a otite média aguda concomitante ou recente",
+      "Tomografia computadorizada de osso temporal confirma o diagnóstico, demonstra opacificação das células mastóideas e permite avaliar extensão da doença (destruição óssea, abscesso subperiosteal, complicações intracranianas)",
+      "Cultura de secreção otológica ou de material de drenagem cirúrgica, quando disponível, para orientar a antibioticoterapia dirigida",
+    ],
+    examesComplementares: [
+      "Tomografia computadorizada de osso temporal com contraste é o exame de escolha para confirmar o diagnóstico e avaliar extensão, incluindo possíveis complicações intracranianas",
+      "Hemograma completo e proteína C-reativa como marcadores de gravidade da resposta inflamatória sistêmica",
+    ],
+    diagnosticoDiferencial: [
+      "Linfadenite retroauricular reativa (sem os achados de deslocamento do pavilhão auricular característicos da mastoidite verdadeira)",
+      "Otite externa com celulite do pavilhão auricular (a dor à tração do pavilhão auricular é proeminente, ao contrário da mastoidite)",
+      "Adenite pós-auricular por outras causas infecciosas locais ou sistêmicas",
+    ],
+    tratamento: [
+      "Antibioticoterapia intravenosa de amplo espectro é o tratamento inicial, cobrindo os patógenos típicos da otite média aguda além de possível resistência",
+      "Miringotomia com colocação de tubo de ventilação para drenagem da cavidade do ouvido médio e obtenção de material para cultura",
+      "Drenagem cirúrgica do abscesso subperiosteal quando presente",
+      "Mastoidectomia reservada a casos refratários ao tratamento clínico inicial, com destruição óssea extensa ou complicações intracranianas associadas",
+    ],
+    complicacoes: [
+      "Aguda: abscesso subperiosteal, paralisia do nervo facial por extensão da infecção, labirintite supurativa com perda auditiva e vertigem",
+      "Crônica: complicações intracranianas (meningite, abscesso cerebral, trombose do seio sigmoide) quando o tratamento é tardio ou inadequado, evolução para mastoidite crônica com colesteatoma secundário",
+    ],
+    redFlags: [
+      "Deslocamento do pavilhão auricular associado a edema retroauricular é sinal característico que confirma a suspeita de mastoidite com abscesso subperiosteal, exigindo investigação de imagem e tratamento urgentes",
+      "Sinais neurológicos (cefaleia intensa, rigidez de nuca, paralisia facial, alteração do nível de consciência) associados à mastoidite exigem investigação imediata de complicação intracraniana",
+    ],
+    prognostico:
+      "Com tratamento antibiótico e, quando indicado, cirúrgico precoce, o prognóstico é bom na maioria dos casos; o atraso no diagnóstico e tratamento aumenta significativamente o risco de complicações intracranianas graves.",
+    pontosDeProva: [
+      "O deslocamento anteroinferior do pavilhão auricular associado a edema retroauricular é o achado clínico mais específico e mais cobrado para o diagnóstico de mastoidite com abscesso subperiosteal",
+      "A mastoidite é a complicação intratemporal mais comum da otite média aguda, e sua incidência caiu substancialmente com o tratamento antibiótico rotineiro da otite média",
+      "A tomografia computadorizada de osso temporal é o exame de escolha para confirmar o diagnóstico e avaliar extensão, incluindo o risco de complicações intracranianas associadas",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menino, 3 anos, com otite média aguda tratada há 1 semana, retorna com febre alta, dor e edema atrás da orelha direita, associados a deslocamento do pavilhão auricular para frente.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "Edema retroauricular com deslocamento do pavilhão auricular, no contexto de otite média aguda recente, é o quadro clássico de mastoidite aguda com abscesso subperiosteal.",
+      conduta:
+        "Solicitar tomografia computadorizada de osso temporal com urgência para confirmar o diagnóstico e avaliar extensão; iniciar antibioticoterapia intravenosa de amplo espectro e encaminhar para avaliação de drenagem cirúrgica.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento inicial é antibioticoterapia intravenosa de amplo espectro associada a drenagem cirúrgica quando indicada; o esquema antibiótico específico ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia (extensão contígua da otite média) e classificação por gravidade", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Tomografia de osso temporal como exame de escolha e conduta cirúrgica", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "colesteatoma",
+    nome: "Colesteatoma do ouvido médio",
+    sinonimos: [],
+    cid10: "H71",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Idiopática",
+    resumo: "Crescimento de epitélio escamoso queratinizado dentro do ouvido médio, com comportamento localmente destrutivo por erosão óssea progressiva, exigindo remoção cirúrgica mesmo quando assintomático.",
+    definicao:
+      "Massa cística benigna, porém localmente destrutiva, composta por epitélio escamoso queratinizado que cresce de forma anômala dentro da cavidade do ouvido médio ou da mastoide, com capacidade progressiva de erosão óssea das estruturas adjacentes.",
+    epidemiologia:
+      "Pode ser congênito (presente ao nascimento, atrás de uma membrana timpânica intacta, mais raro) ou adquirido (a forma mais comum, geralmente secundária a disfunção tubária crônica ou otite média crônica com retração timpânica progressiva).",
+    fisiopatologia:
+      "Na forma adquirida, a disfunção tubária crônica e a pressão negativa persistente no ouvido médio causam retração progressiva de uma bolsa da membrana timpânica (mais comumente na pars flácida), que se aprofunda e passa a acumular debris de queratina esfoliada, incapazes de serem eliminados normalmente. O acúmulo progressivo dessa massa de queratina, associado a processo inflamatório crônico local, causa erosão óssea gradual dos ossículos e das estruturas adjacentes por liberação de enzimas líticas e pressão mecânica direta.",
+    classificacao:
+      "Classificado em congênito (massa branca perolada atrás de membrana timpânica intacta, sem história de otite média ou cirurgia prévia) e adquirido, este último subdividido conforme o local de origem da retração (pars flácida, mais comum, ou pars tensa).",
+    quadroClinico: [
+      "Otorreia crônica, tipicamente com odor fétido característico, resistente a tratamento tópico convencional",
+      "Hipoacusia condutiva progressiva, por erosão da cadeia ossicular",
+      "Sensação de plenitude auricular, por vezes com episódios de vertigem quando há erosão do labirinto ósseo",
+      "Ao exame otoscópico, retração da membrana timpânica com acúmulo de debris esbranquiçados característicos, ou perfuração marginal com tecido de granulação visível",
+    ],
+    diagnostico: [
+      "Diagnóstico pela otoscopia, identificando a retração característica com acúmulo de debris queratínicos ou massa esbranquiçada atrás da membrana timpânica",
+      "Tomografia computadorizada de osso temporal confirma a extensão da doença e a erosão óssea associada, exame essencial para planejamento cirúrgico",
+      "Ressonância magnética com sequências específicas (difusão) auxilia na diferenciação de colesteatoma residual/recidivado de tecido cicatricial pós-operatório",
+    ],
+    examesComplementares: [
+      "Tomografia computadorizada de osso temporal demonstrando opacificação da cavidade do ouvido médio/mastoide com possível erosão da cadeia ossicular, do tegmen ou do canal semicircular lateral",
+      "Audiometria para documentar o grau de hipoacusia condutiva associada",
+    ],
+    diagnosticoDiferencial: [
+      "Otite média crônica supurativa simples (sem a massa característica de debris queratínicos)",
+      "Timpanosclerose (placas calcificadas na membrana timpânica, sem o comportamento destrutivo do colesteatoma)",
+      "Tumor glômico e outras neoplasias do ouvido médio (massa vascularizada, distinguida por características de imagem e, quando necessário, biópsia)",
+    ],
+    tratamento: [
+      "Remoção cirúrgica completa é o único tratamento definitivo, mesmo em casos assintomáticos, dado o comportamento progressivamente destrutivo da lesão",
+      "A técnica cirúrgica (mastoidectomia com ou sem preservação da parede do conduto) é escolhida conforme a extensão da doença, com objetivo de erradicação completa e prevenção de recidiva",
+      "Reconstrução da cadeia ossicular (ossiculoplastia) considerada em um segundo tempo cirúrgico, após confirmação da erradicação completa do colesteatoma",
+      "Acompanhamento pós-operatório prolongado é necessário, dado o risco de colesteatoma residual ou recidivado",
+    ],
+    complicacoes: [
+      "Aguda: labirintite supurativa com vertigem e perda auditiva súbita, por erosão do labirinto ósseo",
+      "Crônica: paralisia do nervo facial por erosão do canal facial, perda auditiva condutiva permanente, complicações intracranianas (meningite, abscesso cerebral) por erosão do tegmen timpânico em casos avançados não tratados",
+    ],
+    redFlags: [
+      "Vertigem associada a colesteatoma sugere erosão do labirinto ósseo (fístula labiríntica), exigindo avaliação cirúrgica urgente para prevenir perda auditiva permanente e labirintite supurativa",
+      "Paralisia facial de início recente em paciente com colesteatoma conhecido é emergência que exige intervenção cirúrgica urgente",
+    ],
+    prognostico:
+      "Com remoção cirúrgica completa, o prognóstico é bom, embora o risco de recidiva torne o acompanhamento otológico prolongado necessário. Sem tratamento, o colesteatoma tem comportamento progressivamente destrutivo, podendo levar a complicações graves e irreversíveis.",
+    pontosDeProva: [
+      "O colesteatoma tem comportamento localmente destrutivo por erosão óssea progressiva, apesar de ser histologicamente benigno — distinção conceitual central e frequentemente cobrada",
+      "A remoção cirúrgica é indicada mesmo em casos assintomáticos, pelo comportamento destrutivo progressivo inerente à lesão",
+      "Otorreia crônica fétida resistente a tratamento tópico convencional deve sempre levantar suspeita de colesteatoma subjacente",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 45 anos, com otorreia fétida recorrente há 2 anos, resistente a tratamentos tópicos repetidos, associada a hipoacusia progressiva no ouvido direito.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "Otorreia crônica fétida resistente ao tratamento tópico, associada a hipoacusia progressiva, é altamente sugestiva de colesteatoma, exigindo confirmação otoscópica e de imagem antes do planejamento cirúrgico.",
+      conduta:
+        "Realizar otoscopia detalhada e tomografia computadorizada de osso temporal para confirmar o diagnóstico e avaliar extensão; encaminhar para remoção cirúrgica completa, dado o comportamento destrutivo progressivo da lesão.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento definitivo é exclusivamente cirúrgico (remoção completa do colesteatoma); não há tratamento medicamentoso capaz de resolver a lesão.",
+    fontes: [
+      { tema: "Fisiopatologia (retração da pars flácida e acúmulo de queratina) e classificação congênito vs. adquirido", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Indicação cirúrgica mesmo em casos assintomáticos e complicações por erosão óssea", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "perfuracao-timpanica",
+    nome: "Perfuração e outros transtornos da membrana do tímpano",
+    sinonimos: ["Perfuração timpânica", "Miringite"],
+    cid10: "H72",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Traumática",
+    resumo: "Descontinuidade da membrana timpânica, mais comumente por trauma direto ou secundária a otite média aguda, causando hipoacusia condutiva e risco de infecção ascendente do ouvido médio.",
+    definicao:
+      "Solução de continuidade na membrana timpânica, estrutura responsável por transmitir e amplificar as vibrações sonoras para a cadeia ossicular, podendo resultar de trauma direto, mudança abrupta de pressão (barotrauma) ou, mais comumente, de infecção do ouvido médio com extravasamento de pressão purulenta.",
+    epidemiologia:
+      "As causas mais comuns incluem perfuração espontânea durante otite média aguda (a mais frequente), trauma direto (introdução de objetos no conduto, incluindo cotonetes), barotrauma (mergulho, tapa na orelha, explosões) e, menos comumente, colocação e remoção de tubo de ventilação.",
+    fisiopatologia:
+      "Na perfuração por otite média aguda, o acúmulo de secreção purulenta sob pressão na cavidade do ouvido médio eventualmente rompe a membrana timpânica no seu ponto mais fino, com alívio imediato da pressão e da dor. Na perfuração traumática, a força mecânica direta ou a onda de pressão (barotrauma, explosão) rompe a membrana diretamente. A perda de continuidade compromete a transmissão eficiente das vibrações sonoras para a cadeia ossicular, causando hipoacusia condutiva proporcional ao tamanho da perfuração, e expõe a cavidade do ouvido médio ao ambiente externo, aumentando o risco de infecção ascendente.",
+    classificacao:
+      "Classificada por causa (traumática, infecciosa, iatrogênica) e por localização (central, quando não envolve a periferia da membrana, geralmente de melhor prognóstico de cicatrização espontânea; marginal, envolvendo a periferia, associada a maior risco de colesteatoma secundário).",
+    quadroClinico: [
+      "Dor auricular aguda no momento da perfuração, seguida frequentemente de alívio imediato quando a perfuração ocorre por rompimento de pressão purulenta (otite média)",
+      "Hipoacusia condutiva de instalação súbita, proporcional ao tamanho da perfuração",
+      "Otorreia (sanguinolenta se traumática, purulenta se infecciosa) nas primeiras horas a dias",
+      "Zumbido ocasional e, em perfurações por barotrauma intenso, vertigem transitória",
+    ],
+    diagnostico: [
+      "Diagnóstico pela otoscopia, visualizando diretamente a solução de continuidade na membrana timpânica",
+      "Avaliação audiométrica para documentar o grau de hipoacusia condutiva associada",
+      "História detalhada do mecanismo (trauma direto, barotrauma, infecção prévia) orienta o prognóstico de cicatrização espontânea e a necessidade de intervenção",
+    ],
+    examesComplementares: [
+      "Audiometria demonstrando hipoacusia condutiva, com magnitude proporcional ao tamanho e à localização da perfuração",
+      "Tomografia computadorizada reservada a casos de trauma significativo, para avaliar possível luxação da cadeia ossicular associada",
+    ],
+    diagnosticoDiferencial: [
+      "Otite média serosa com membrana timpânica intacta, mas retraída (sem verdadeira solução de continuidade)",
+      "Colesteatoma com perfuração marginal (presença de debris queratínicos associados diferencia de uma perfuração simples)",
+    ],
+    tratamento: [
+      "A maioria das perfurações traumáticas e por otite média aguda cicatriza espontaneamente dentro de algumas semanas, sendo a observação clínica a conduta inicial apropriada",
+      "Orientação para manter o ouvido seco (evitar entrada de água) durante o período de cicatrização, para prevenir infecção secundária",
+      "Antibiótico tópico indicado quando há otorreia purulenta ativa, tratando a infecção do ouvido médio subjacente",
+      "Timpanoplastia (reconstrução cirúrgica da membrana) indicada para perfurações persistentes além de 2-3 meses sem sinais de cicatrização espontânea, ou quando há hipoacusia significativa",
+    ],
+    complicacoes: [
+      "Aguda: infecção do ouvido médio por exposição direta ao ambiente externo através da perfuração",
+      "Crônica: perfuração persistente com otite média crônica supurativa recorrente, colesteatoma secundário em perfurações marginais não tratadas",
+    ],
+    redFlags: [
+      "Vertigem intensa ou paralisia facial associadas a trauma auricular com perfuração timpânica sugerem lesão mais extensa (luxação ossicular, lesão do nervo facial ou do labirinto), exigindo avaliação de imagem urgente",
+      "Irrigação do conduto auditivo e natação devem ser evitadas enquanto a perfuração não estiver cicatrizada, pelo risco de infecção ascendente do ouvido médio",
+    ],
+    prognostico:
+      "A maioria das perfurações, sobretudo as centrais e de tamanho pequeno a moderado, cicatriza espontaneamente em algumas semanas. Perfurações marginais, muito extensas ou persistentes além de alguns meses geralmente exigem correção cirúrgica, com boas taxas de sucesso.",
+    pontosDeProva: [
+      "A maioria das perfurações timpânicas cicatriza espontaneamente, e a conduta inicial na ausência de sinais de infecção ou complicação é a observação, não a intervenção imediata",
+      "Perfurações marginais têm maior risco de evoluir para colesteatoma secundário que as perfurações centrais, distinção anatômica com implicação prognóstica relevante",
+      "A entrada de água no conduto deve ser evitada durante a cicatrização, pelo risco de infecção ascendente através da perfuração ainda não fechada",
+    ],
+    casoClinico: {
+      vinheta:
+        "Adolescente, 15 anos, sofre um tapa na orelha esquerda durante uma briga e imediatamente relata dor intensa, zumbido e hipoacusia, sem sangramento significativo.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Trauma direto por barotrauma (tapa na orelha) seguido de dor aguda, zumbido e hipoacusia súbita é consistente com perfuração timpânica traumática.",
+      conduta:
+        "Confirmar o diagnóstico pela otoscopia; orientar manter o ouvido seco e evitar manipulação, com reavaliação programada para acompanhar a cicatrização espontânea, reservando timpanoplastia para perfuração persistente além de alguns meses.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "A maioria das perfurações é tratada com observação clínica; antibiótico tópico é usado apenas quando há otorreia purulenta ativa, e ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia e classificação por localização (central vs. marginal)", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Cicatrização espontânea como conduta inicial e indicação de timpanoplastia", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "timpanosclerose",
+    nome: "Outros transtornos do ouvido médio e da mastoide (timpanosclerose)",
+    sinonimos: ["Timpanosclerose", "Miringosclerose"],
+    cid10: "H74",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Degenerativa",
+    resumo: "Depósito de placas calcificadas na membrana timpânica e/ou na mucosa do ouvido médio, sequela de processos inflamatórios ou traumáticos prévios, geralmente sem repercussão auditiva significativa quando restrita à membrana.",
+    definicao:
+      "Processo cicatricial caracterizado pelo depósito de colágeno hialinizado e cálcio na lâmina própria da membrana timpânica (miringosclerose, forma mais comum e geralmente assintomática) ou na mucosa e nos ossículos do ouvido médio (timpanosclerose propriamente dita, com potencial de causar hipoacusia condutiva significativa por fixação da cadeia ossicular).",
+    epidemiologia:
+      "Ocorre como sequela tardia de episódios recorrentes ou prolongados de otite média aguda ou serosa, de perfurações timpânicas prévias, ou após a colocação de tubos de ventilação, refletindo um processo de cicatrização anômala do tecido inflamado repetidamente.",
+    fisiopatologia:
+      "Episódios inflamatórios repetidos ou prolongados na membrana timpânica e na mucosa do ouvido médio desencadeiam um processo de reparo tecidual anômalo, com depósito progressivo de colágeno hialinizado que posteriormente calcifica, formando placas esbranquiçadas endurecidas. Quando esse processo acomete apenas a membrana timpânica (miringosclerose), raramente compromete a função auditiva; quando envolve a mucosa do ouvido médio e os ossículos, pode fixá-los e restringir sua mobilidade, comprometendo a transmissão sonora.",
+    classificacao:
+      "Classificada por localização e extensão: miringosclerose (placas restritas à membrana timpânica, a forma mais comum e geralmente sem repercussão funcional) e timpanosclerose do ouvido médio (envolvimento da mucosa e/ou da cadeia ossicular, com potencial de causar hipoacusia condutiva significativa por fixação ossicular).",
+    quadroClinico: [
+      "Na miringosclerose isolada, geralmente assintomática, identificada como achado incidental ao exame otoscópico (placas esbranquiçadas, calcificadas, na membrana timpânica)",
+      "Na timpanosclerose com envolvimento do ouvido médio, hipoacusia condutiva progressiva, proporcional ao grau de fixação da cadeia ossicular",
+      "Ausência de dor ou sinais inflamatórios agudos, distinguindo-a de processos infecciosos ativos",
+    ],
+    diagnostico: [
+      "Diagnóstico pela otoscopia, identificando as placas esbranquiçadas características na membrana timpânica",
+      "Audiometria para documentar e quantificar a hipoacusia condutiva quando presente, orientando a necessidade de intervenção",
+      "Tomografia computadorizada de osso temporal reservada a casos com hipoacusia significativa, para avaliar a extensão do acometimento ossicular antes de eventual cirurgia",
+    ],
+    examesComplementares: [
+      "Audiometria com hipoacusia condutiva variável, ausente na miringosclerose isolada e presente proporcionalmente ao grau de fixação ossicular na timpanosclerose do ouvido médio",
+      "Tomografia computadorizada de osso temporal demonstrando calcificações na cadeia ossicular em casos com repercussão auditiva significativa",
+    ],
+    diagnosticoDiferencial: [
+      "Otosclerose (fixação do estribo por processo ósseo distinto, sem as placas calcificadas características visíveis na membrana timpânica)",
+      "Colesteatoma (massa de debris queratínicos com comportamento destrutivo, distinta das placas calcificadas estáveis da timpanosclerose)",
+    ],
+    tratamento: [
+      "A miringosclerose isolada, por ser geralmente assintomática, não requer tratamento específico além de acompanhamento",
+      "Aparelho auditivo é opção não cirúrgica para hipoacusia condutiva significativa por timpanosclerose do ouvido médio",
+      "Cirurgia (remoção das placas calcificadas com reconstrução ossicular) considerada em casos selecionados de hipoacusia significativa, embora com resultados funcionais variáveis pela friabilidade do tecido envolvido",
+    ],
+    complicacoes: [
+      "Crônica: hipoacusia condutiva permanente quando há fixação extensa da cadeia ossicular não corrigida",
+    ],
+    redFlags: [
+      "Hipoacusia condutiva de piora progressiva não deve ser atribuída automaticamente à timpanosclerose sem exame cuidadoso, pelo risco de mascarar colesteatoma ou otosclerose concomitantes, que exigem condutas distintas",
+    ],
+    prognostico:
+      "A miringosclerose isolada tem prognóstico excelente, sem impacto funcional. A timpanosclerose com envolvimento ossicular tem prognóstico mais variável, com resultados cirúrgicos menos previsíveis que em outras causas de hipoacusia condutiva, dada a friabilidade do tecido cicatricial calcificado.",
+    pontosDeProva: [
+      "A miringosclerose (placas na membrana timpânica) deve ser distinguida da timpanosclerose do ouvido médio (envolvimento ossicular) — apenas a segunda causa hipoacusia condutiva significativa",
+      "É uma sequela tardia de processos inflamatórios repetidos do ouvido médio (otites recorrentes, tubos de ventilação prévios), não uma condição infecciosa ativa",
+      "Os resultados cirúrgicos na timpanosclerose do ouvido médio são menos previsíveis que em outras causas de hipoacusia condutiva, pela friabilidade do tecido calcificado envolvido",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 32 anos, com história de otites de repetição na infância e uso de tubos de ventilação, apresenta placas esbranquiçadas na membrana timpânica ao exame de rotina, sem queixas auditivas.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "Placas calcificadas na membrana timpânica em paciente com história de otites recorrentes e tubos de ventilação prévios, sem repercussão auditiva, são características de miringosclerose, achado benigno e geralmente sem necessidade de intervenção.",
+      conduta:
+        "Tranquilizar a paciente quanto à benignidade do achado; solicitar audiometria apenas se houver queixa auditiva associada, e não indicar tratamento específico na ausência de hipoacusia.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso para a timpanosclerose; a conduta é observação (miringosclerose isolada) ou cirurgia/aparelho auditivo (timpanosclerose com hipoacusia significativa).",
+    fontes: [
+      { tema: "Fisiopatologia (depósito de colágeno hialinizado e calcificação) e distinção miringosclerose vs. timpanosclerose", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Resultados cirúrgicos variáveis pela friabilidade do tecido calcificado", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "otosclerose",
+    nome: "Otosclerose",
+    sinonimos: [],
+    cid10: "H80",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Genética",
+    resumo: "Remodelação óssea anômala da cápsula ótica que fixa progressivamente o estribo, causa hereditária comum de hipoacusia condutiva progressiva em adultos jovens, sem sinais de infecção associada.",
+    definicao:
+      "Distúrbio da homeostase óssea da cápsula ótica, de causa hereditária com penetrância variável, caracterizado por remodelação óssea anômala que mais comumente fixa a base do estribo na janela oval, comprometendo progressivamente a transmissão do som para o ouvido interno.",
+    epidemiologia:
+      "Mais comum em adultos jovens, com pico de manifestação entre 20-40 anos, e nítido predomínio no sexo feminino; a gravidez pode acelerar a progressão da hipoacusia em mulheres predispostas, sugerindo influência hormonal na atividade da doença. Herança autossômica dominante com penetrância incompleta é descrita em uma parcela significativa dos casos.",
+    fisiopatologia:
+      "Focos de remodelação óssea anômala (com fases alternadas de reabsorção e neoformação óssea desorganizada) se desenvolvem na cápsula ótica, mais comumente próximos à janela oval, progressivamente fixando a base do estribo e restringindo sua mobilidade normal. Essa fixação compromete a transmissão eficiente das vibrações sonoras da cadeia ossicular para a perilinfa do ouvido interno, causando hipoacusia condutiva progressiva; em fases avançadas, o processo pode envolver a cóclea, acrescentando um componente neurossensorial à perda auditiva.",
+    classificacao:
+      "Classificada quanto à extensão em otosclerose da janela oval (fenestral, a forma mais comum, restrita à fixação do estribo) e otosclerose coclear (envolvimento da cápsula ótica ao redor da cóclea, acrescentando componente neurossensorial à hipoacusia condutiva de base).",
+    quadroClinico: [
+      "Hipoacusia condutiva progressiva e bilateral na maioria dos casos, embora possa iniciar de forma assimétrica",
+      "Zumbido associado em uma parcela significativa dos pacientes",
+      "Ausência de dor, otorreia ou outros sinais de infecção, distinguindo-a claramente de causas infecciosas de hipoacusia condutiva",
+      "Paracusia de Willis: percepção paradoxal de ouvir melhor em ambientes ruidosos, achado clássico embora não universal",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico sugerido por hipoacusia condutiva progressiva em adulto jovem, sem história de otite ou trauma, com otoscopia tipicamente normal",
+      "Audiometria demonstrando hipoacusia condutiva, classicamente com um entalhe característico (entalhe de Carhart) na condução óssea em 2000 Hz",
+      "Tomografia computadorizada de osso temporal de alta resolução pode identificar os focos de remodelação óssea na cápsula ótica, confirmando o diagnóstico em casos de dúvida",
+    ],
+    examesComplementares: [
+      "Audiometria tonal com hipoacusia condutiva e o entalhe de Carhart característico na condução óssea em 2000 Hz, achado sugestivo embora não patognomônico",
+      "Timpanometria tipicamente normal (curva tipo A), com reflexo estapediano ausente ou com padrão bifásico característico (efeito on-off)",
+      "Tomografia computadorizada de osso temporal de alta resolução para identificação direta dos focos otoscleróticos em casos de diagnóstico incerto",
+    ],
+    diagnosticoDiferencial: [
+      "Timpanosclerose e outras causas de fixação ossicular adquirida (geralmente com história de otites recorrentes e achados otoscópicos de placas calcificadas)",
+      "Doença de Paget do osso temporal (rara, associada a outras manifestações esqueléticas sistêmicas)",
+      "Malformações congênitas da cadeia ossicular (identificadas desde a infância, geralmente com outras anomalias associadas)",
+    ],
+    tratamento: [
+      "Estapedectomia ou estapedotomia (substituição cirúrgica do estribo fixado por uma prótese móvel) é o tratamento definitivo, com excelentes taxas de melhora auditiva na maioria dos pacientes selecionados",
+      "Aparelho auditivo é alternativa não cirúrgica eficaz para pacientes que preferem evitar cirurgia ou não são candidatos a ela",
+      "Suplementação com flúor foi historicamente proposta para retardar a progressão da doença, com evidência limitada e uso hoje pouco frequente",
+    ],
+    complicacoes: [
+      "Aguda: perda auditiva neurossensorial súbita e vertigem, complicações raras mas possíveis da cirurgia de estapedectomia",
+      "Crônica: progressão para componente neurossensorial associado (otosclerose coclear) em casos avançados não tratados, hipoacusia condutiva bilateral significativa com impacto funcional e social relevante",
+    ],
+    redFlags: [
+      "Hipoacusia condutiva de início súbito ou associada a otorreia deve levantar suspeita de causa alternativa (infecção, colesteatoma), já que a otosclerose tem tipicamente curso lentamente progressivo e sem sinais inflamatórios",
+      "Vertigem ou piora auditiva súbita após estapedectomia exige avaliação urgente para excluir fístula perilinfática, complicação cirúrgica que requer intervenção imediata",
+    ],
+    prognostico:
+      "Com a estapedectomia, a maioria dos pacientes obtém melhora auditiva significativa e duradoura. Sem tratamento, a hipoacusia condutiva tende a progredir lentamente ao longo de décadas, podendo eventualmente acrescentar um componente neurossensorial nos casos com otosclerose coclear.",
+    pontosDeProva: [
+      "A paracusia de Willis (ouvir melhor em ambientes ruidosos) é achado clássico e frequentemente cobrado da otosclerose, embora nem sempre presente",
+      "O entalhe de Carhart na audiometria (rebaixamento da condução óssea em 2000 Hz) é achado característico associado à fixação do estribo, revertendo parcialmente após estapedectomia bem-sucedida",
+      "A gravidez pode acelerar a progressão da hipoacusia por otosclerose, sugerindo influência hormonal na atividade da remodelação óssea — associação clínica relevante para aconselhamento de pacientes",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 28 anos, grávida, relata piora progressiva da audição bilateral ao longo do último ano, sem dor ou otorreia, notando que ouve melhor em ambientes barulhentos.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a investigação inicial?",
+      raciocinio:
+        "Hipoacusia condutiva progressiva e bilateral em mulher jovem grávida, sem sinais infecciosos e com paracusia de Willis, é altamente sugestiva de otosclerose, condição cuja progressão pode ser acelerada pela gravidez.",
+      conduta:
+        "Solicitar audiometria tonal (buscando o entalhe de Carhart) e timpanometria com reflexo estapediano; confirmado o diagnóstico, discutir as opções de aparelho auditivo ou estapedectomia após o período gestacional.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento definitivo é cirúrgico (estapedectomia/estapedotomia) ou reabilitação auditiva com aparelho; não há tratamento medicamentoso eficaz estabelecido para deter a progressão da doença.",
+    fontes: [
+      { tema: "Fisiopatologia (remodelação óssea da cápsula ótica) e influência hormonal/gravidez", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Entalhe de Carhart e paracusia de Willis como achados característicos", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "transtornos-funcao-vestibular",
+    nome: "Transtornos da função vestibular",
+    sinonimos: ["Vertigem periférica", "Doença de Ménière", "VPPB", "Neurite vestibular"],
+    cid10: "H81",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Categoria que reúne as principais causas de vertigem de origem periférica (labiríntica), incluindo a vertigem posicional paroxística benigna, a doença de Ménière e a neurite vestibular, cada uma com fisiopatologia e conduta distintas.",
+    definicao:
+      "Categoria diagnóstica que reúne distúrbios do labirinto vestibular e do nervo vestibular responsáveis pela sensação ilusória de movimento (vertigem) de origem periférica, cujas três causas mais representativas são a vertigem posicional paroxística benigna (VPPB), a doença de Ménière e a neurite vestibular.",
+    epidemiologia:
+      "A VPPB é a causa mais comum de vertigem periférica em todas as faixas etárias, sobretudo em idosos. A doença de Ménière tipicamente acomete adultos entre 40-60 anos. A neurite vestibular frequentemente segue uma infecção viral de vias aéreas superiores, sem predileção etária marcante.",
+    fisiopatologia:
+      "Na VPPB, otólitos deslocados da mácula utricular migram para um dos canais semicirculares (mais comumente o posterior), onde seu deslocamento com a mudança de posição da cabeça estimula anomalamente as células ciliadas, gerando vertigem breve e intensa. Na doença de Ménière, acredita-se que a hidropisia endolinfática (acúmulo excessivo de endolinfa no labirinto membranoso) distenda as estruturas vestibulares e cocleares, causando episódios de vertigem associados a sintomas auditivos flutuantes. Na neurite vestibular, presume-se reativação de infecção viral latente (mais comumente do grupo herpes) causando inflamação do nervo vestibular, com vertigem intensa e contínua sem sintomas auditivos associados (distinguindo-a da labirintite, que acomete também a cóclea).",
+    classificacao:
+      "Classificada pelas três entidades clínicas principais: VPPB (episódios breves, desencadeados por mudança de posição da cabeça, sem sintomas auditivos), doença de Ménière (episódios espontâneos recorrentes associados à tríade de vertigem, hipoacusia flutuante e zumbido, por vezes com plenitude aural), e neurite vestibular (episódio único, intenso e contínuo, durando dias, sem sintomas auditivos).",
+    quadroClinico: [
+      "VPPB: episódios breves (segundos a menos de 1 minuto) de vertigem rotatória intensa desencadeados por mudanças específicas de posição da cabeça (virar na cama, olhar para cima), sem sintomas auditivos associados",
+      "Doença de Ménière: episódios espontâneos de vertigem rotatória durando minutos a horas, associados a hipoacusia neurossensorial flutuante, zumbido e sensação de plenitude aural, tipicamente unilateral",
+      "Neurite vestibular: vertigem intensa, contínua e incapacitante, durando dias, frequentemente acompanhada de náusea e vômitos importantes, sem hipoacusia ou zumbido associados, distinguindo-a da labirintite",
+      "Nistagmo característico durante os episódios agudos em todas as três condições, com padrões distintos que auxiliam na diferenciação",
+    ],
+    diagnostico: [
+      "Diagnóstico predominantemente clínico baseado no padrão temporal (duração e desencadeantes) e nos sintomas associados (presença ou ausência de sintomas auditivos)",
+      "Manobra de Dix-Hallpike é o teste diagnóstico específico para VPPB do canal posterior, reproduzindo a vertigem e o nistagmo característico com o reposicionamento da cabeça",
+      "Audiometria demonstrando hipoacusia neurossensorial flutuante de baixas frequências apoia o diagnóstico de doença de Ménière, sobretudo quando documentada em episódios distintos ao longo do tempo",
+    ],
+    examesComplementares: [
+      "Manobra de Dix-Hallpike positiva (vertigem e nistagmo torcional-vertical característico, com latência e fatigabilidade) confirma o diagnóstico de VPPB do canal posterior",
+      "Audiometria seriada demonstrando hipoacusia neurossensorial flutuante, tipicamente de baixas frequências nas fases iniciais, é característica da doença de Ménière",
+      "Videonistagmografia e testes calóricos auxiliam na avaliação da função vestibular em casos atípicos ou de diagnóstico incerto",
+    ],
+    diagnosticoDiferencial: [
+      "Vertigem central (acidente vascular cerebral de fossa posterior, esclerose múltipla), sugerida por sintomas neurológicos associados (diplopia, disartria, ataxia de tronco desproporcional à vertigem) e nistagmo de padrão atípico (vertical puro, não fatigável)",
+      "Labirintite (inflamação que acomete tanto o vestíbulo quanto a cóclea, causando vertigem associada a hipoacusia neurossensorial, diferente da neurite vestibular isolada)",
+      "Enxaqueca vestibular (episódios de vertigem associados a cefaleia ou história pessoal de enxaqueca, sem os achados otoscópicos ou audiométricos específicos das demais causas)",
+    ],
+    tratamento: [
+      "VPPB: manobra de reposicionamento canalicular (manobra de Epley) é o tratamento de primeira linha, com alta taxa de resolução em sessão única ou poucas sessões, sem necessidade de medicação",
+      "Doença de Ménière: restrição de sódio e diuréticos como primeira linha para reduzir a frequência dos episódios, com supressores vestibulares reservados ao controle sintomático agudo das crises",
+      "Neurite vestibular: corticosteroide sistêmico (prednisona) iniciado precocemente melhora a recuperação da função vestibular quando usado nas primeiras 72 horas do início dos sintomas; supressores vestibulares e antieméticos para controle sintomático na fase aguda",
+      "Reabilitação vestibular (exercícios de habituação e adaptação) é benéfica como terapia complementar em todas as três condições, sobretudo para promover a compensação central após a fase aguda",
+    ],
+    complicacoes: [
+      "Aguda: quedas e trauma associados a episódios intensos de vertigem, sobretudo em idosos com VPPB",
+      "Crônica: hipoacusia neurossensorial progressiva e irreversível na doença de Ménière não controlada, compensação vestibular incompleta após neurite vestibular grave, resultando em desequilíbrio residual crônico",
+    ],
+    redFlags: [
+      "Vertigem associada a sintomas neurológicos focais (diplopia, disartria, fraqueza, ataxia desproporcional) deve ser tratada como possível causa central (acidente vascular cerebral de fossa posterior) até prova em contrário, exigindo investigação de imagem urgente",
+      "Nistagmo vertical puro ou que não se fatiga com a manobra de Dix-Hallpike sugere causa central, não periférica, e deve motivar investigação neurológica",
+    ],
+    prognostico:
+      "A VPPB geralmente responde muito bem à manobra de reposicionamento, com resolução completa na maioria dos casos, embora recorrências sejam comuns. A doença de Ménière tem curso flutuante e imprevisível, com risco de hipoacusia progressiva a longo prazo. A neurite vestibular tem bom prognóstico geral, com recuperação completa ou quase completa da função vestibular na maioria dos pacientes, favorecida pelo tratamento precoce com corticosteroide e pela reabilitação vestibular.",
+    pontosDeProva: [
+      "A ausência de sintomas auditivos (hipoacusia, zumbido) distingue a neurite vestibular da labirintite, que acomete também a cóclea — distinção central e frequentemente cobrada",
+      "A manobra de Epley é tratamento eficaz e não medicamentoso de primeira linha para VPPB, com resolução frequentemente em uma única sessão",
+      "A tríade de vertigem episódica, hipoacusia flutuante e zumbido define a doença de Ménière, e a hidropisia endolinfática é o mecanismo fisiopatológico proposto central",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 68 anos, relata episódios breves de vertigem intensa ao virar-se na cama ou olhar para cima, com duração de poucos segundos, sem hipoacusia ou zumbido associados.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta terapêutica?",
+      raciocinio:
+        "Vertigem breve e posicional, desencadeada por mudanças específicas de posição da cabeça, sem sintomas auditivos, é o quadro clássico de vertigem posicional paroxística benigna.",
+      conduta:
+        "Confirmar o diagnóstico com a manobra de Dix-Hallpike, buscando reproduzir a vertigem e o nistagmo característico; tratar com a manobra de reposicionamento de Epley, tratamento de primeira linha altamente eficaz e não medicamentoso.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "prednisona", nome: "Prednisona" },
+    ],
+    medicamentosSecaoTitulo: "Específico para a neurite vestibular quando iniciado precocemente (não se aplica à VPPB ou à doença de Ménière)",
+    medicamentosNota:
+      "A prednisona melhora a recuperação vestibular especificamente na neurite vestibular, quando iniciada nas primeiras 72 horas — não é usada na VPPB (tratada com manobra de reposicionamento) nem como primeira linha na doença de Ménière (tratada com restrição de sódio e diuréticos, ainda sem ficha própria no site).",
+    fontes: [
+      { tema: "Fisiopatologia das três condições (canalitíase, hidropisia endolinfática, neurite viral) e critérios diagnósticos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Corticosteroide precoce na neurite vestibular e manobra de Epley na VPPB", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "outros-transtornos-ouvido-interno",
+    nome: "Outros transtornos do ouvido interno",
+    sinonimos: ["Labirintite", "Trauma acústico", "Ototoxicidade"],
+    cid10: "H83",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Categoria que reúne condições que acometem simultaneamente as funções auditiva e vestibular do ouvido interno, incluindo a labirintite infecciosa, o trauma acústico e a ototoxicidade medicamentosa.",
+    definicao:
+      "Categoria diagnóstica que reúne distúrbios do labirinto (porção do ouvido interno que contém tanto a cóclea, responsável pela audição, quanto o sistema vestibular, responsável pelo equilíbrio), causando comprometimento simultâneo de ambas as funções, diferentemente das condições vestibulares isoladas.",
+    epidemiologia:
+      "A labirintite viral é a causa infecciosa mais comum, geralmente após infecção de vias aéreas superiores. A labirintite bacteriana é mais rara, mas grave, geralmente secundária à extensão de otite média ou meningite. O trauma acústico está associado a exposição a ruído intenso (ocupacional, recreativo), e a ototoxicidade a fármacos específicos (aminoglicosídeos, diuréticos de alça em altas doses, salicilatos, quimioterápicos à base de platina).",
+    fisiopatologia:
+      "Na labirintite infecciosa, o processo inflamatório (viral, mais comumente, ou bacteriano por extensão direta de otite média/mastoidite ou por via hematogênica na meningite) acomete tanto a cóclea quanto o sistema vestibular dentro do labirinto membranoso, causando disfunção combinada. No trauma acústico, a exposição a níveis sonoros intensos causa dano mecânico e metabólico direto às células ciliadas cocleares, mais pronunciado nas frequências ao redor de 4000 Hz. Na ototoxicidade, fármacos específicos exercem efeito tóxico direto sobre as células ciliadas da cóclea e/ou do vestíbulo, por mecanismos que variam conforme a classe farmacológica.",
+    classificacao:
+      "Classificada etiologicamente em labirintite viral (a mais comum), labirintite bacteriana (supurativa, grave, geralmente secundária a otite média/mastoidite ou meningite), trauma acústico (agudo, por exposição a som de intensidade extrema, ou crônico, por exposição ocupacional prolongada) e ototoxicidade medicamentosa.",
+    quadroClinico: [
+      "Labirintite: vertigem intensa associada a hipoacusia neurossensorial e zumbido, achado combinado que a distingue da neurite vestibular isolada",
+      "Trauma acústico agudo: hipoacusia súbita e zumbido após exposição a som intenso (explosão, show, disparo de arma de fogo), por vezes com sensação de plenitude auricular",
+      "Trauma acústico crônico (ocupacional): hipoacusia neurossensorial progressiva e bilateral, tipicamente iniciando nas frequências ao redor de 4000 Hz, inicialmente assintomática para a compreensão de fala",
+      "Ototoxicidade: hipoacusia neurossensorial e/ou zumbido de instalação subaguda durante ou após o uso do fármaco causador, por vezes acompanhada de sintomas vestibulares (tontura, desequilíbrio)",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado no contexto (infecção recente, exposição a ruído, uso de fármaco ototóxico) associado a hipoacusia neurossensorial e/ou sintomas vestibulares",
+      "Audiometria documentando o padrão e a magnitude da hipoacusia neurossensorial, com o entalhe característico em 4000 Hz sendo sugestivo de trauma acústico",
+      "Monitorização audiométrica seriada durante o uso de fármacos ototóxicos conhecidos, para detecção precoce de ototoxicidade antes que se torne sintomática e irreversível",
+    ],
+    examesComplementares: [
+      "Audiometria tonal demonstrando hipoacusia neurossensorial, com entalhe característico em 4000 Hz no trauma acústico",
+      "Ressonância magnética de conduto auditivo interno reservada a casos de hipoacusia neurossensorial assimétrica ou unilateral inexplicada, para excluir schwannoma vestibular",
+      "Monitorização seriada da função renal e audiometria em pacientes recebendo fármacos ototóxicos (aminoglicosídeos, quimioterápicos à base de platina), para detecção precoce",
+    ],
+    diagnosticoDiferencial: [
+      "Neurite vestibular (vertigem isolada, sem comprometimento auditivo associado, distinguindo-a da labirintite)",
+      "Doença de Ménière (episódios recorrentes flutuantes, ao contrário do curso geralmente monofásico da labirintite aguda)",
+      "Schwannoma vestibular (hipoacusia neurossensorial assimétrica progressiva, geralmente sem o quadro agudo de vertigem intensa da labirintite)",
+    ],
+    tratamento: [
+      "Labirintite viral: tratamento sintomático com supressores vestibulares e antieméticos na fase aguda, com resolução geralmente espontânea",
+      "Labirintite bacteriana: antibioticoterapia sistêmica dirigida ao foco de origem (otite média/mastoidite ou meningite), frequentemente associada a intervenção cirúrgica quando há complicação supurativa",
+      "Trauma acústico: remoção imediata da fonte de exposição sonora; corticosteroide sistêmico em altas doses pode ser considerado nas primeiras horas após trauma acústico agudo grave, de forma análoga ao tratamento da perda auditiva neurossensorial súbita",
+      "Ototoxicidade: suspensão ou substituição do fármaco causador assim que identificada, medida mais importante para prevenir progressão do dano, que é frequentemente irreversível uma vez estabelecido",
+      "Prevenção com proteção auricular em exposições ocupacionais/recreativas a ruído intenso é a medida mais eficaz para o trauma acústico crônico",
+    ],
+    complicacoes: [
+      "Aguda: desequilíbrio e risco de queda durante a fase aguda da labirintite, sobretudo em idosos",
+      "Crônica: hipoacusia neurossensorial permanente, seja por labirintite grave, trauma acústico repetido não protegido ou ototoxicidade não identificada precocemente",
+    ],
+    redFlags: [
+      "Labirintite associada a sinais de infecção sistêmica grave (febre alta, rigidez de nuca, alteração do nível de consciência) sugere labirintite bacteriana secundária a meningite, exigindo investigação e tratamento imediatos",
+      "Hipoacusia neurossensorial de início súbito, uni ou bilateral, é emergência otológica que exige avaliação e tratamento dentro das primeiras 24-72 horas para maximizar a chance de recuperação, independentemente da causa suspeita",
+    ],
+    prognostico:
+      "A labirintite viral geralmente tem resolução completa da vertigem, embora a hipoacusia associada possa ser permanente em uma parcela dos casos. O trauma acústico e a ototoxicidade, uma vez estabelecidos, geralmente causam dano coclear irreversível, reforçando a importância da prevenção e da identificação precoce.",
+    pontosDeProva: [
+      "A presença de hipoacusia associada à vertigem distingue a labirintite da neurite vestibular isolada — distinção anatômica e clínica central, já que o labirinto compreende tanto a cóclea quanto o vestíbulo",
+      "O entalhe audiométrico característico em 4000 Hz é achado clássico do trauma acústico, seja agudo ou crônico ocupacional",
+      "A suspensão precoce do fármaco ototóxico é a intervenção mais importante na ototoxicidade, já que o dano coclear estabelecido é frequentemente irreversível",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 45 anos, operário de fábrica sem uso regular de protetor auricular, relata dificuldade progressiva para entender conversas em ambientes ruidosos e zumbido bilateral há vários meses.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "Hipoacusia progressiva e zumbido bilateral em trabalhador com exposição ocupacional prolongada a ruído, sem proteção auricular adequada, sugerem trauma acústico crônico.",
+      conduta:
+        "Solicitar audiometria tonal, esperando encontrar o entalhe característico em 4000 Hz; orientar uso obrigatório de proteção auricular para prevenir progressão adicional, já que o dano já estabelecido é geralmente irreversível.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende da causa específica (antibioticoterapia na labirintite bacteriana, suspensão do fármaco causador na ototoxicidade, corticosteroide em altas doses no trauma acústico agudo), sem um medicamento único documentado no site para esta categoria ampla.",
+    fontes: [
+      { tema: "Fisiopatologia (comprometimento combinado coclear e vestibular) e principais causas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Entalhe em 4000 Hz no trauma acústico e monitorização de fármacos ototóxicos", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "perda-auditiva",
+    nome: "Perda auditiva condutiva, neurossensorial e súbita",
+    sinonimos: ["Hipoacusia", "Surdez súbita", "Presbiacusia"],
+    cid10: "H90",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Redução da capacidade auditiva classificada em condutiva (problema na transmissão mecânica do som), neurossensorial (dano coclear ou do nervo auditivo) ou mista, com a perda auditiva neurossensorial súbita configurando emergência otológica.",
+    definicao:
+      "Redução da acuidade auditiva classificada, conforme o mecanismo subjacente, em condutiva (comprometimento da transmissão mecânica do som pelo conduto auditivo externo, membrana timpânica ou cadeia ossicular), neurossensorial (dano à cóclea ou ao nervo vestibulococlear) ou mista (combinação de ambos os mecanismos).",
+    epidemiologia:
+      "A presbiacusia (perda auditiva neurossensorial relacionada à idade) é a causa mais comum de hipoacusia em idosos, de instalação lenta e progressiva. A perda auditiva neurossensorial súbita, embora menos comum, é uma emergência otológica que acomete adultos de qualquer idade, com causa identificável em apenas uma minoria dos casos (a maioria é classificada como idiopática).",
+    fisiopatologia:
+      "A perda auditiva condutiva resulta de qualquer obstáculo mecânico à transmissão do som até a cóclea (cerume impactado, perfuração timpânica, otosclerose, efusão do ouvido médio). A perda auditiva neurossensorial resulta de dano às células ciliadas cocleares (presbiacusia, por senescência celular cumulativa; ototoxicidade; trauma acústico) ou ao nervo vestibulococlear (schwannoma vestibular). A perda auditiva neurossensorial súbita idiopática tem mecanismo debatido, com hipóteses incluindo infecção viral, isquemia coclear e processo autoimune, sem etiologia identificável na maioria dos casos.",
+    classificacao:
+      "Classificada pelo mecanismo (condutiva, neurossensorial, mista) e, quando neurossensorial, pela velocidade de instalação (gradual, como na presbiacusia, ou súbita, definida como perda de pelo menos 30 decibéis em três frequências consecutivas ao longo de até 72 horas).",
+    quadroClinico: [
+      "Perda auditiva condutiva: hipoacusia com preservação relativa da discriminação de fala quando o volume é adequadamente amplificado",
+      "Presbiacusia: hipoacusia neurossensorial bilateral, simétrica e lentamente progressiva, iniciando tipicamente pelas frequências agudas, com dificuldade characterísitca de discriminar fala em ambientes ruidosos antes de comprometer a audição de tons puros de forma perceptível",
+      "Perda auditiva neurossensorial súbita: hipoacusia unilateral de instalação rápida (minutos a poucos dias), frequentemente notada ao acordar ou ao usar o telefone, por vezes acompanhada de zumbido e/ou sensação de plenitude aural",
+      "Vertigem associada em uma parcela dos casos de perda súbita, sugerindo maior extensão do dano labiríntico e associada a pior prognóstico auditivo",
+    ],
+    diagnostico: [
+      "Audiometria tonal e vocal é o exame central para classificar o tipo, o grau e a configuração da perda auditiva",
+      "A perda auditiva neurossensorial súbita é definida por critério audiométrico específico (queda de pelo menos 30 decibéis em três frequências consecutivas em até 72 horas) e constitui emergência que exige avaliação e tratamento imediatos",
+      "Ressonância magnética de conduto auditivo interno indicada em toda perda auditiva neurossensorial assimétrica ou unilateral, incluindo a súbita, para excluir schwannoma vestibular",
+    ],
+    examesComplementares: [
+      "Audiometria tonal (via aérea e óssea) e vocal, exame central para diferenciar perda condutiva de neurossensorial pelo gap aéreo-ósseo",
+      "Ressonância magnética de conduto auditivo interno com contraste para excluir schwannoma vestibular em toda perda auditiva neurossensorial assimétrica",
+      "Investigação laboratorial dirigida (sorologias, marcadores autoimunes) em casos selecionados de perda súbita bilateral ou recorrente, sugestivos de causa autoimune",
+    ],
+    diagnosticoDiferencial: [
+      "Impactação de cerume e outras causas reversíveis de perda condutiva, sempre excluídas antes de assumir perda neurossensorial",
+      "Schwannoma vestibular (perda neurossensorial assimétrica progressiva, distinguida por ressonância magnética)",
+      "Doença de Ménière (perda neurossensorial flutuante associada a vertigem episódica e zumbido, distinta do padrão estável da presbiacusia ou do início súbito da perda súbita)",
+    ],
+    tratamento: [
+      "Perda auditiva condutiva: tratamento dirigido à causa de base (remoção de cerume, timpanoplastia, estapedectomia, conforme a etiologia específica)",
+      "Presbiacusia: aparelho auditivo é o tratamento de escolha, sem terapia capaz de reverter o dano coclear já estabelecido",
+      "Perda auditiva neurossensorial súbita: corticosteroide sistêmico em altas doses, iniciado o mais precocemente possível (idealmente dentro de 2 semanas do início dos sintomas), é o tratamento de primeira linha, podendo ser complementado por corticosteroide intratimpânico como resgate ou adjuvante",
+      "Implante coclear é opção para perda auditiva neurossensorial bilateral profunda não beneficiada por aparelho auditivo convencional",
+    ],
+    complicacoes: [
+      "Aguda: isolamento social e impacto psicológico agudo da perda auditiva súbita não tratada a tempo",
+      "Crônica: isolamento social, declínio cognitivo associado à hipoacusia não tratada em idosos, e comprometimento do desenvolvimento de fala e linguagem quando a perda ocorre na infância e não é identificada e tratada precocemente",
+    ],
+    redFlags: [
+      "Perda auditiva neurossensorial súbita é emergência otológica que exige avaliação e início de corticosteroide dentro de poucos dias do início dos sintomas, já que o atraso no tratamento reduz significativamente a chance de recuperação auditiva",
+      "Perda auditiva neurossensorial assimétrica ou unilateral progressiva deve sempre motivar investigação por ressonância magnética para excluir schwannoma vestibular",
+    ],
+    prognostico:
+      "A perda auditiva condutiva geralmente tem excelente prognóstico quando a causa de base é tratável. A presbiacusia tem curso progressivo e irreversível, mas bem manejável com aparelho auditivo. A perda auditiva neurossensorial súbita tem recuperação parcial ou completa em uma parcela dos pacientes tratados precocemente, mas prognóstico reservado quando o tratamento é tardio ou há vertigem associada.",
+    pontosDeProva: [
+      "A perda auditiva neurossensorial súbita é definida por critério audiométrico objetivo (queda de 30 dB em 3 frequências consecutivas em até 72 horas) e constitui emergência otológica com janela terapêutica limitada para o corticosteroide",
+      "Toda perda auditiva neurossensorial assimétrica ou unilateral exige investigação por ressonância magnética para excluir schwannoma vestibular, independentemente da velocidade de instalação",
+      "A presbiacusia tipicamente compromete primeiro a discriminação de fala em ambientes ruidosos antes de ser percebida como perda auditiva propriamente dita, achado prático relevante na anamnese",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 52 anos, acorda com hipoacusia importante no ouvido esquerdo e zumbido associado, sem dor, otorreia ou infecção de vias aéreas superiores recente.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "Hipoacusia neurossensorial unilateral de início súbito, sem outra causa evidente, é altamente sugestiva de perda auditiva neurossensorial súbita idiopática, condição que exige tratamento dentro de uma janela terapêutica limitada.",
+      conduta:
+        "Confirmar o critério audiométrico de perda súbita com urgência, iniciar corticosteroide sistêmico em altas doses o quanto antes, e solicitar ressonância magnética de conduto auditivo interno para excluir schwannoma vestibular.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento da perda auditiva neurossensorial súbita depende de corticosteroide sistêmico em altas doses, ainda sem ficha própria no site nesta apresentação/indicação específica; a presbiacusia e a perda condutiva não têm tratamento medicamentoso, dependendo de aparelho auditivo ou correção da causa de base.",
+    fontes: [
+      { tema: "Classificação (condutiva, neurossensorial, mista) e critério diagnóstico da perda súbita", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Corticosteroide sistêmico precoce na perda auditiva neurossensorial súbita", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "otalgia-secrecao-auditiva",
+    nome: "Otalgia e secreção auditiva",
+    sinonimos: ["Otalgia referida", "Otorreia"],
+    cid10: "H92",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Categoria sintomática que engloba dor auricular e secreção do conduto auditivo, cuja causa mais frequentemente é uma doença otológica primária identificável, mas que também pode representar dor referida de estruturas distantes.",
+    definicao:
+      "Categoria sintomática que reúne a otalgia (dor auricular), de origem primária (originada no próprio ouvido) ou referida (originada em estruturas distantes que compartilham inervação sensitiva com o ouvido), e a otorreia (secreção do conduto auditivo externo), sinais que frequentemente motivam consulta médica isoladamente antes de uma causa otológica específica ser identificada.",
+    epidemiologia:
+      "A otalgia primária, de causa otológica direta, é a mais comum e geralmente autoexplicativa ao exame otoscópico (otite externa, otite média). A otalgia referida ocorre pela rica inervação sensitiva compartilhada do ouvido com estruturas da cabeça e pescoço (nervos trigêmeo, facial, glossofaríngeo e vago), sendo mais desafiadora diagnosticamente por exigir a busca da causa fora do ouvido.",
+    fisiopatologia:
+      "A otalgia referida ocorre porque o ouvido compartilha inervação sensitiva com múltiplas estruturas da cabeça e pescoço através de quatro nervos cranianos distintos (trigêmeo, facial, glossofaríngeo e vago), de modo que processos patológicos em dentes, articulação temporomandibular, faringe, laringe ou até no tórax (via nervo vago) podem ser percebidos como dor no ouvido, apesar da ausência de doença otológica primária. A otorreia reflete a produção anormal de secreção pela mucosa do ouvido médio (quando há perfuração timpânica) ou pela pele do conduto auditivo externo (otite externa), geralmente em resposta a um processo infeccioso ou inflamatório.",
+    classificacao:
+      "Classificada quanto à origem da otalgia em primária (otológica direta) e referida ou secundária (originada em estrutura extra-otológica que compartilha inervação sensitiva com o ouvido), e a otorreia quanto à origem anatômica (conduto auditivo externo vs. ouvido médio através de perfuração timpânica) e ao aspecto (serosa, purulenta, sanguinolenta).",
+    quadroClinico: [
+      "Otalgia primária, tipicamente acompanhada de achados otoscópicos explicativos (eritema, edema, secreção, perfuração)",
+      "Otalgia referida, caracteristicamente com otoscopia normal, exigindo busca ativa da causa em estruturas vizinhas (exame dentário, avaliação da articulação temporomandibular, exame da orofaringe e da laringe)",
+      "Otorreia de aspecto e odor variáveis conforme a causa: serosa e inodora na otite externa leve, purulenta e fétida no colesteatoma, sanguinolenta no trauma",
+    ],
+    diagnostico: [
+      "Otoscopia cuidadosa é sempre o primeiro passo, para identificar ou excluir causa otológica primária explicativa dos sintomas",
+      "Quando a otoscopia é normal e a otalgia persiste, investigação sistemática das estruturas que compartilham inervação sensitiva com o ouvido (dentes, articulação temporomandibular, faringe, laringe) é necessária para identificar a causa referida",
+      "Nasofibroscopia ou laringoscopia indicada quando a investigação inicial não identifica causa, sobretudo em pacientes com fatores de risco para neoplasia de cabeça e pescoço (tabagismo, etilismo), pela possibilidade de otalgia referida ser manifestação inicial dessas neoplasias",
+    ],
+    examesComplementares: [
+      "Cultura de secreção otológica em casos de otorreia persistente ou refratária ao tratamento tópico inicial",
+      "Exame de imagem (tomografia computadorizada) reservado a casos de otalgia persistente sem causa identificada ao exame físico, sobretudo em pacientes de risco para neoplasia",
+    ],
+    diagnosticoDiferencial: [
+      "Disfunção da articulação temporomandibular (causa comum de otalgia referida, frequentemente associada a dor à palpação da articulação e história de bruxismo)",
+      "Neoplasia de cabeça e pescoço (causa importante de otalgia referida persistente em pacientes tabagistas/etilistas, não devendo ser esquecida em casos sem explicação otológica)",
+      "Faringite e amigdalite (podem cursar com otalgia referida via nervo glossofaríngeo)",
+    ],
+    tratamento: [
+      "Tratamento dirigido à causa identificada, otológica ou extra-otológica",
+      "Analgesia sintomática enquanto a causa de base é investigada e tratada",
+      "Investigação persistente e sistemática em casos de otalgia sem causa otológica evidente, nunca atribuindo o sintoma a causa inespecífica sem exclusão adequada de causas graves referidas, sobretudo em pacientes de risco",
+    ],
+    complicacoes: [
+      "Aguda: mascaramento de uma causa grave subjacente (neoplasia de cabeça e pescoço) quando a otalgia referida é atribuída precipitadamente a causa benigna sem investigação adequada",
+    ],
+    redFlags: [
+      "Otalgia persistente sem causa otológica identificável à otoscopia, sobretudo em paciente tabagista e/ou etilista, exige investigação ativa de neoplasia de cabeça e pescoço, incluindo nasofibroscopia/laringoscopia, antes de ser atribuída a causa benigna",
+      "Otorreia fétida persistente e resistente a tratamento tópico convencional deve levantar suspeita de colesteatoma subjacente",
+    ],
+    prognostico:
+      "O prognóstico depende inteiramente da causa identificada — excelente quando a causa é uma condição otológica benigna comum, e variável quando a otalgia referida representa manifestação inicial de uma neoplasia de cabeça e pescoço, situação em que o diagnóstico precoce é determinante para o desfecho.",
+    pontosDeProva: [
+      "A otalgia pode ser referida a partir de estruturas distantes que compartilham inervação sensitiva com o ouvido (via nervos trigêmeo, facial, glossofaríngeo e vago) — conceito anatômico central e frequentemente cobrado",
+      "Otalgia persistente com otoscopia normal em paciente tabagista/etilista deve sempre motivar investigação de neoplasia de cabeça e pescoço, não sendo aceitável atribuí-la a causa inespecífica sem essa exclusão",
+      "A disfunção da articulação temporomandibular é causa comum e frequentemente subdiagnosticada de otalgia referida",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 58 anos, tabagista de longa data, relata dor no ouvido direito há 1 mês, com otoscopia completamente normal, sem outros sintomas otológicos.",
+      pergunta: "Qual a conduta diagnóstica mais apropriada?",
+      raciocinio:
+        "Otalgia persistente com otoscopia normal em paciente tabagista de risco deve levantar preocupação com otalgia referida por neoplasia de cabeça e pescoço, exigindo investigação além do exame otológico isolado.",
+      conduta:
+        "Realizar exame completo de cabeça e pescoço, incluindo palpação cervical e avaliação da cavidade oral, e encaminhar para nasofibroscopia/laringoscopia caso não seja identificada causa evidente, dado o risco de neoplasia oculta nesse contexto de risco.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende inteiramente da causa identificada, otológica ou extra-otológica; não há medicamento específico para a otalgia/otorreia enquanto sintomas isolados.",
+    fontes: [
+      { tema: "Inervação sensitiva compartilhada do ouvido e mecanismo da otalgia referida", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Otalgia referida como manifestação inicial de neoplasia de cabeça e pescoço", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "zumbido-outros-transtornos-ouvido",
+    nome: "Outros transtornos do ouvido não classificados em outra parte (zumbido)",
+    sinonimos: ["Zumbido", "Tinnitus", "Acúfeno"],
+    cid10: "H93",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Idiopática",
+    resumo: "Percepção de som (zumbido) na ausência de estímulo sonoro externo correspondente, sintoma extremamente comum quase sempre associado a algum grau de disfunção do sistema auditivo, cuja causa precisa frequentemente não é identificada.",
+    definicao:
+      "Percepção consciente de som (zumbido ou acúfeno) na ausência de um estímulo sonoro externo correspondente, que pode ser subjetivo (percebido apenas pelo paciente, a grande maioria dos casos) ou, muito raramente, objetivo (audível também pelo examinador, geralmente de origem vascular ou muscular).",
+    epidemiologia:
+      "Extremamente comum na população geral, com prevalência aumentando com a idade e frequentemente associado a algum grau de perda auditiva subjacente, embora a associação nem sempre seja evidente para o paciente. Exposição prévia a ruído intenso é fator de risco bem estabelecido.",
+    fisiopatologia:
+      "O mecanismo exato permanece incompletamente compreendido, mas a hipótese mais aceita propõe que a perda de aferência auditiva normal (por dano coclear de qualquer causa) leva a uma reorganização anômala da atividade neural central nas vias auditivas, gerando atividade espontânea aumentada que é percebida como som mesmo na ausência de estímulo externo real — analogia frequentemente feita com o fenômeno de dor do membro fantasma.",
+    classificacao:
+      "Classificado em subjetivo (a grande maioria dos casos, percebido apenas pelo paciente, sem origem sonora real identificável) e objetivo (raro, com origem sonora real geralmente vascular — sopro venoso ou arterial — ou muscular — mioclonia palatina ou do músculo tensor do tímpano —, por vezes audível também ao exame do examinador).",
+    quadroClinico: [
+      "Percepção de som (zumbido contínuo, pulsátil, assobio, chiado) em um ou ambos os ouvidos, ou percebido de forma difusa na cabeça",
+      "Frequentemente associado a algum grau de hipoacusia, identificada ou não previamente pelo paciente",
+      "Impacto variável na qualidade de vida, desde incômodo mínimo até comprometimento significativo do sono, da concentração e do humor em casos mais intensos",
+      "Zumbido pulsátil sincrônico com o pulso sugere causa vascular subjacente, achado que muda significativamente a investigação necessária",
+    ],
+    diagnostico: [
+      "Anamnese detalhada sobre as características do zumbido (contínuo vs. pulsátil, uni ou bilateral, fatores de melhora/piora) orienta a investigação",
+      "Audiometria completa é indicada em todo paciente com zumbido, dada a forte associação com algum grau de hipoacusia subjacente, mesmo quando não percebida pelo paciente",
+      "Zumbido pulsátil, unilateral persistente ou associado a outros sintomas neurológicos exige investigação de imagem (ressonância magnética/angiorressonância) para excluir causas vasculares ou tumorais",
+    ],
+    examesComplementares: [
+      "Audiometria tonal completa, exame indicado em praticamente todo paciente com zumbido, frequentemente revelando hipoacusia neurossensorial associada, mesmo quando subjetivamente imperceptível",
+      "Ressonância magnética de conduto auditivo interno reservada a zumbido unilateral persistente, para excluir schwannoma vestibular",
+      "Angiorressonância ou angiotomografia indicada especificamente para zumbido pulsátil, para investigar causas vasculares (malformação arteriovenosa, estenose vascular, tumor glômico)",
+    ],
+    diagnosticoDiferencial: [
+      "Schwannoma vestibular (zumbido unilateral persistente associado a hipoacusia neurossensorial assimétrica progressiva)",
+      "Tumor glômico (zumbido pulsátil associado a massa retrotimpânica visível à otoscopia)",
+      "Ansiedade e transtornos do sono, que podem exacerbar a percepção subjetiva do zumbido sem serem sua causa primária",
+    ],
+    tratamento: [
+      "Tratamento da causa de base quando identificável (correção de hipoacusia com aparelho auditivo, tratamento de causa vascular específica no zumbido pulsátil)",
+      "Terapia de habituação sonora (geradores de ruído branco, aparelhos auditivos com função de mascaramento) para reduzir a percepção e o incômodo do zumbido subjetivo idiopático",
+      "Terapia cognitivo-comportamental é eficaz para reduzir o sofrimento psicológico associado ao zumbido crônico, mesmo quando o próprio zumbido não pode ser eliminado",
+      "Não há tratamento medicamentoso com eficácia consistentemente comprovada para eliminar o zumbido subjetivo idiopático",
+    ],
+    complicacoes: [
+      "Crônica: comprometimento significativo do sono, da concentração e do humor (incluindo depressão e ansiedade) em casos de zumbido intenso e persistente não adequadamente manejado",
+    ],
+    redFlags: [
+      "Zumbido pulsátil, sincrônico com o pulso, exige investigação vascular por imagem, pela possibilidade de causa tratável (malformação arteriovenosa, estenose vascular, tumor glômico)",
+      "Zumbido unilateral persistente associado a hipoacusia assimétrica exige investigação por ressonância magnética para excluir schwannoma vestibular",
+    ],
+    prognostico:
+      "O zumbido subjetivo idiopático tende a ser crônico, mas a maioria dos pacientes consegue reduzir significativamente seu impacto na qualidade de vida com terapia de habituação sonora e suporte psicológico, mesmo sem eliminação completa do sintoma. Quando há causa identificável e tratável (vascular, hipoacusia corrigível), o prognóstico é mais favorável.",
+    pontosDeProva: [
+      "O zumbido pulsátil, sincrônico com o pulso, é sinal de alarme que exige investigação vascular, diferente do zumbido contínuo comum associado a hipoacusia",
+      "A audiometria é indicada em praticamente todo paciente com zumbido, dada a forte associação com hipoacusia subjacente, mesmo quando o paciente não percebe perda auditiva",
+      "Não existe tratamento medicamentoso com eficácia comprovada para eliminar o zumbido subjetivo idiopático — o manejo é centrado em habituação sonora e suporte psicológico",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 60 anos, relata zumbido contínuo bilateral há 6 meses, incomodando principalmente à noite, sem histórico de exposição a ruído intenso ou uso de medicações ototóxicas.",
+      pergunta: "Qual a investigação inicial mais apropriada?",
+      raciocinio:
+        "Zumbido contínuo bilateral em paciente idosa, sem outros sinais de alarme, sugere associação com presbiacusia subjacente, devendo ser investigado antes de assumir causa idiopática isolada.",
+      conduta:
+        "Solicitar audiometria tonal completa para avaliar hipoacusia associada; se confirmada, considerar aparelho auditivo (que frequentemente melhora também a percepção do zumbido) e orientar sobre terapia de habituação sonora.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso com eficácia comprovada para o zumbido subjetivo idiopático; o manejo depende de terapia de habituação sonora, aparelho auditivo (quando há hipoacusia associada) e suporte psicológico.",
+    fontes: [
+      { tema: "Fisiopatologia (reorganização neural central após perda de aferência coclear) e classificação subjetivo vs. objetivo", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Investigação do zumbido pulsátil e papel da terapia de habituação sonora", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "nasofaringite-aguda",
+    nome: "Nasofaringite aguda (resfriado comum)",
+    sinonimos: ["Resfriado comum", "Rinofaringite aguda"],
+    cid10: "J00",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Viral",
+    resumo: "Infecção viral autolimitada das vias aéreas superiores, causa mais frequente de consulta médica por doença aguda, com tratamento exclusivamente sintomático.",
+    definicao:
+      "Infecção viral aguda e autolimitada da mucosa nasal e da nasofaringe, mais comumente causada por rinovírus, mas também por coronavírus, vírus sincicial respiratório e outros vírus respiratórios.",
+    epidemiologia:
+      "É a doença infecciosa aguda mais comum em todas as faixas etárias, com adultos apresentando em média de 2 a 4 episódios por ano e crianças pequenas ainda mais, refletindo a grande diversidade de sorotipos virais circulantes e a imunidade tipo-específica limitada.",
+    fisiopatologia:
+      "O vírus infecta as células epiteliais ciliadas da mucosa nasal, desencadeando resposta inflamatória local (liberação de mediadores como bradicinina e histamina) responsável pelos sintomas característicos de obstrução nasal, rinorreia e espirros, sem invasão tecidual profunda significativa na maioria dos casos.",
+    classificacao:
+      "Não há sistema de estadiamento formal; a condição é autolimitada e classificada apenas pela presença ou ausência de complicações secundárias (sinusite bacteriana secundária, otite média aguda).",
+    quadroClinico: [
+      "Rinorreia (inicialmente clara, podendo tornar-se espessa e amarelada/esverdeada nos dias seguintes, sem que isso indique necessariamente infecção bacteriana secundária)",
+      "Obstrução nasal, espirros e prurido nasal",
+      "Odinofagia leve e tosse, frequentemente presentes",
+      "Febre baixa ou ausente em adultos, mais comum e mais alta em crianças pequenas",
+      "Sintomas tipicamente atingem pico em 2-3 dias e resolvem-se em 7-10 dias",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico, baseado no quadro característico e autolimitado, sem necessidade de exames complementares na maioria dos casos",
+      "A mudança de coloração da secreção nasal para amarelada ou esverdeada durante o curso natural da doença é comum e não indica, por si só, infecção bacteriana secundária",
+    ],
+    examesComplementares: [
+      "Não são indicados exames complementares de rotina; a investigação é reservada a casos de suspeita de complicação bacteriana secundária (sinusite, otite média) com piora após período inicial de melhora",
+    ],
+    diagnosticoDiferencial: [
+      "Rinite alérgica (sintomas recorrentes ou persistentes, associados a exposição a alérgenos identificáveis, sem o curso autolimitado típico da infecção viral)",
+      "Sinusite bacteriana aguda (piora dos sintomas após período inicial de melhora, ou persistência além de 10 dias sem melhora, sugerindo complicação bacteriana secundária)",
+      "Influenza (sintomas sistêmicos mais intensos, incluindo febre alta, mialgia e mal-estar importante, geralmente ausentes ou leves no resfriado comum)",
+    ],
+    tratamento: [
+      "Tratamento exclusivamente sintomático: analgésicos/antitérmicos, descongestionantes e hidratação adequada",
+      "Repouso e medidas de suporte geral, com resolução espontânea esperada em 7-10 dias",
+      "Antibióticos não têm papel algum no tratamento, dada a etiologia viral, e seu uso indiscriminado contribui para resistência bacteriana sem benefício clínico",
+    ],
+    complicacoes: [
+      "Aguda: sinusite bacteriana aguda secundária, otite média aguda secundária (sobretudo em crianças pequenas), exacerbação de asma em pacientes asmáticos",
+      "Crônica: não há complicações crônicas diretamente atribuíveis ao resfriado comum não complicado",
+    ],
+    redFlags: [
+      "Piora dos sintomas após período inicial de melhora (padrão 'duplo pico') sugere complicação bacteriana secundária, como sinusite aguda, exigindo reavaliação",
+      "Febre alta persistente além de poucos dias ou sintomas sistêmicos importantes devem levantar suspeita de diagnóstico alternativo (influenza, outra infecção), não sendo típicos do resfriado comum não complicado",
+    ],
+    prognostico:
+      "Excelente prognóstico, com resolução espontânea completa na grande maioria dos casos em 7-10 dias, sem sequelas.",
+    pontosDeProva: [
+      "A mudança de coloração da secreção nasal (de clara para amarelada/esverdeada) é parte do curso natural da infecção viral e não indica, isoladamente, necessidade de antibiótico — equívoco comum na prática clínica e frequentemente cobrado",
+      "Antibióticos não têm indicação no resfriado comum não complicado, dada sua etiologia exclusivamente viral",
+      "O padrão de piora após melhora inicial ('duplo pico') é o sinal mais confiável de complicação bacteriana secundária, distinto do curso monofásico esperado da infecção viral simples",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 26 anos, apresenta rinorreia, espirros e obstrução nasal há 2 dias, sem febre, com leve dor de garganta associada.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "Quadro catarral leve, de início recente e sem sinais de gravidade, é típico de nasofaringite viral aguda (resfriado comum), condição autolimitada que não requer investigação adicional.",
+      conduta:
+        "Orientar tratamento sintomático (analgésico, descongestionante, hidratação) e repouso, esclarecendo que antibióticos não têm papel nesta condição viral, com expectativa de resolução em cerca de uma semana.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é exclusivamente sintomático (analgésicos, descongestionantes); não há tratamento antiviral específico indicado para o resfriado comum.",
+    fontes: [
+      { tema: "Etiologia viral (rinovírus predominante) e curso natural da doença", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Ausência de indicação de antibiótico e sinais de complicação bacteriana secundária", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "sinusite-aguda",
+    nome: "Sinusite aguda",
+    sinonimos: ["Rinossinusite aguda"],
+    cid10: "J01",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Viral",
+    resumo: "Inflamação aguda dos seios paranasais, na maioria das vezes de causa viral e autolimitada, com antibiótico reservado aos casos com critérios clínicos sugestivos de infecção bacteriana secundária.",
+    definicao:
+      "Inflamação aguda (com duração inferior a 4 semanas) da mucosa que reveste um ou mais seios paranasais, na grande maioria dos casos de etiologia viral e secundária a uma infecção de vias aéreas superiores precedente, com apenas uma minoria evoluindo para infecção bacteriana secundária.",
+    epidemiologia:
+      "Extremamente comum, geralmente precedida por uma infecção viral de vias aéreas superiores; apenas uma pequena fração dos casos (estimada em cerca de 0,5-2%) evolui para sinusite bacteriana aguda verdadeira, o que tem implicação direta e importante na decisão de tratar ou não com antibiótico.",
+    fisiopatologia:
+      "A infecção viral de vias aéreas superiores causa edema da mucosa nasal e dos óstios de drenagem dos seios paranasais, comprometendo a ventilação e a drenagem normais dessas cavidades. O acúmulo de secreção nos seios obstruídos cria um ambiente favorável, em uma minoria dos casos, à superinfecção bacteriana secundária (mais comumente por Streptococcus pneumoniae, Haemophilus influenzae não tipável e Moraxella catarrhalis).",
+    classificacao:
+      "Classificada quanto à duração em aguda (menos de 4 semanas), subaguda (4-12 semanas) e crônica (mais de 12 semanas, ficha própria neste site), e quanto à etiologia em viral (a grande maioria dos casos agudos) e bacteriana (minoria, identificada por critérios clínicos específicos).",
+    quadroClinico: [
+      "Congestão e obstrução nasal, associadas a secreção nasal purulenta ou pressão/dor facial",
+      "Dor ou pressão facial que piora tipicamente ao inclinar a cabeça para frente",
+      "Hiposmia ou anosmia transitória",
+      "Tosse, frequentemente pior à noite pelo gotejamento pós-nasal",
+      "Febre, quando presente, geralmente baixa na forma viral e mais alta quando há infecção bacteriana secundária",
+    ],
+    diagnostico: [
+      "Diagnóstico predominantemente clínico; a distinção entre causa viral e bacteriana é feita por critérios clínicos, não por exame de imagem de rotina",
+      "Critérios sugestivos de sinusite bacteriana secundária: sintomas persistentes sem melhora além de 10 dias, piora dos sintomas após melhora inicial ('duplo pico'), ou sintomas graves de início (febre alta ≥39°C associada a secreção purulenta e dor facial por pelo menos 3-4 dias consecutivos)",
+      "Exame de imagem (tomografia de seios paranasais) reservado a casos de suspeita de complicação (extensão orbitária ou intracraniana) ou de sinusite recorrente/crônica, não indicado rotineiramente na sinusite aguda simples",
+    ],
+    examesComplementares: [
+      "Não são indicados exames de imagem de rotina na sinusite aguda não complicada, dado que o diagnóstico e a decisão terapêutica são clínicos",
+      "Tomografia computadorizada de seios paranasais reservada a suspeita de complicação orbitária/intracraniana ou a casos recorrentes/crônicos",
+    ],
+    diagnosticoDiferencial: [
+      "Resfriado comum não complicado (sintomas mais leves e sem os critérios específicos sugestivos de acometimento sinusal bacteriano)",
+      "Rinite alérgica (sintomas recorrentes associados a exposição alergênica, geralmente sem dor facial ou febre)",
+      "Cefaleia primária (enxaqueca, cefaleia tensional), quando a dor facial é o sintoma predominante sem os demais achados de sinusite",
+    ],
+    tratamento: [
+      "Tratamento sintomático (analgésicos, descongestionantes, irrigação nasal com solução salina) é a conduta inicial apropriada para a grande maioria dos casos, de etiologia viral",
+      "Amoxicilina é o antibiótico de primeira linha quando os critérios clínicos de sinusite bacteriana são preenchidos (sintomas persistentes além de 10 dias sem melhora, piora após melhora inicial, ou quadro grave de início)",
+      "Corticosteroide nasal tópico pode ser considerado como adjuvante para alívio sintomático, sobretudo em pacientes com componente alérgico associado",
+      "Reavaliação e ampliação do espectro antibiótico (amoxicilina com clavulanato) considerada em caso de falha terapêutica após 72 horas de amoxicilina isolada",
+    ],
+    complicacoes: [
+      "Aguda: celulite orbitária ou periorbitária por extensão direta da infecção sinusal (mais comum em crianças, complicação do seio etmoidal), trombose de seio cavernoso e complicações intracranianas em casos raros e graves",
+      "Crônica: evolução para sinusite crônica em casos de tratamento inadequado ou obstrução persistente da drenagem sinusal",
+    ],
+    redFlags: [
+      "Edema periorbitário, proptose ou limitação da motilidade ocular associados à sinusite (sobretudo etmoidal) sugerem extensão orbitária, exigindo investigação de imagem e tratamento urgentes",
+      "Cefaleia intensa, alteração do nível de consciência ou sinais neurológicos focais associados à sinusite sugerem complicação intracraniana, exigindo avaliação de imagem imediata",
+    ],
+    prognostico:
+      "Excelente prognóstico na forma viral, com resolução espontânea na maioria dos casos em 7-10 dias. A forma bacteriana, quando tratada adequadamente, também tem bom prognóstico, com complicações graves sendo raras.",
+    pontosDeProva: [
+      "Apenas uma pequena minoria (cerca de 0,5-2%) das sinusites agudas é de causa bacteriana — a maioria não deve ser tratada com antibiótico, distinção central e frequentemente cobrada",
+      "Os critérios clínicos para sinusite bacteriana (persistência além de 10 dias, piora após melhora inicial, ou gravidade de início) substituem a necessidade de exame de imagem para a decisão terapêutica na maioria dos casos",
+      "A celulite orbitária por extensão do seio etmoidal é a complicação mais temida em crianças e exige reconhecimento e tratamento urgentes",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 34 anos, apresenta congestão nasal, dor facial e secreção purulenta há 12 dias, sem sinais de melhora, com febre baixa associada.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "Sintomas persistentes além de 10 dias sem sinais de melhora preenchem critério clínico para sinusite bacteriana aguda, justificando o início de antibioticoterapia.",
+      conduta:
+        "Iniciar amoxicilina como antibiótico de primeira linha, associada a tratamento sintomático (analgésico, irrigação nasal salina), com reavaliação em 72 horas para verificar resposta terapêutica.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina", nome: "Amoxicilina" },
+    ],
+    medicamentosSecaoTitulo: "Reservado aos casos com critérios clínicos de infecção bacteriana secundária (não indicado na maioria dos casos, de etiologia viral)",
+    medicamentosNota:
+      "A amoxicilina só deve ser usada quando critérios clínicos específicos sugerem sinusite bacteriana; a maioria dos casos de sinusite aguda é viral e responde apenas a tratamento sintomático.",
+    fontes: [
+      { tema: "Fisiopatologia (obstrução do óstio sinusal pós-viral) e proporção de causa bacteriana", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Critérios clínicos para diferenciar sinusite viral de bacteriana e amoxicilina como primeira linha", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "faringite-aguda",
+    nome: "Faringite aguda",
+    sinonimos: ["Dor de garganta aguda"],
+    cid10: "J02",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Viral",
+    resumo: "Inflamação aguda da faringe, na maioria das vezes viral, cuja causa bacteriana mais importante (estreptococo do grupo A) exige identificação e tratamento antibiótico para prevenir febre reumática.",
+    definicao:
+      "Inflamação aguda da mucosa faríngea, causando dor de garganta, mais comumente de etiologia viral, mas com o Streptococcus pyogenes (estreptococo beta-hemolítico do grupo A) representando a causa bacteriana mais importante pela possibilidade de complicações não supurativas graves.",
+    epidemiologia:
+      "A faringite estreptocócica é mais comum em crianças entre 5-15 anos, sendo incomum antes dos 3 anos; picos de incidência ocorrem no final do inverno e início da primavera. As causas virais predominam amplamente em todas as faixas etárias e ao longo de todo o ano.",
+    fisiopatologia:
+      "Na faringite viral, o vírus infecta diretamente a mucosa faríngea, causando inflamação local autolimitada. Na faringite estreptocócica, a bactéria adere ao epitélio faríngeo e desencadeia resposta inflamatória local intensa; a importância clínica dessa infecção reside na possibilidade de o sistema imune, ao produzir anticorpos contra antígenos estreptocócicos, gerar reação cruzada com tecidos próprios (miocárdio, válvulas cardíacas, articulações), desencadeando febre reumática semanas após a infecção faríngea, mesmo após sua resolução clínica.",
+    classificacao:
+      "Classificada etiologicamente em viral (a grande maioria dos casos) e bacteriana, sendo a faringite estreptocócica por Streptococcus pyogenes a forma bacteriana mais clinicamente relevante pelo potencial de complicações não supurativas (febre reumática, glomerulonefrite pós-estreptocócica).",
+    quadroClinico: [
+      "Dor de garganta de início agudo, frequentemente associada a odinofagia",
+      "Na faringite estreptocócica: febre, exsudato tonsilar/faríngeo, linfadenopatia cervical anterior dolorosa e ausência de tosse, sintomas que compõem os critérios de Centor",
+      "Na faringite viral: frequentemente acompanhada de coriza, tosse, rouquidão e conjuntivite, sintomas que sugerem etiologia viral e tornam a causa estreptocócica menos provável",
+      "Exantema escarlatiniforme (pele em lixa) pode acompanhar a faringite estreptocócica em uma minoria dos casos (escarlatina)",
+    ],
+    diagnostico: [
+      "Critérios de Centor modificados (febre, exsudato tonsilar, linfadenopatia cervical anterior dolorosa, ausência de tosse) estimam a probabilidade de faringite estreptocócica e orientam a necessidade de testagem",
+      "Teste rápido de detecção de antígeno estreptocócico ou cultura de orofaringe confirma o diagnóstico em pacientes com critérios de Centor sugestivos, antes de iniciar antibioticoterapia",
+      "A faringite viral é diagnosticada clinicamente pela presença de sintomas catarrais associados, geralmente dispensando testagem adicional",
+    ],
+    examesComplementares: [
+      "Teste rápido de detecção de antígeno estreptocócico (alta especificidade, sensibilidade variável) ou cultura de orofaringe (padrão-ouro, porém com resultado mais demorado) para confirmação da faringite estreptocócica",
+      "Critérios de Centor modificados como ferramenta clínica de estratificação de probabilidade pré-teste, orientando quem deve ser testado",
+    ],
+    diagnosticoDiferencial: [
+      "Mononucleose infecciosa (faringite exsudativa associada a linfadenopatia generalizada, esplenomegalia e fadiga importante, em adolescentes e adultos jovens)",
+      "Amigdalite aguda (quando o acometimento tonsilar predomina sobre o faríngeo difuso, considerada ficha própria neste site)",
+      "Abscesso periamigdaliano (assimetria tonsilar significativa, trismo e voz abafada, sinais de gravidade que diferenciam de faringite não complicada)",
+    ],
+    tratamento: [
+      "Faringite viral: tratamento exclusivamente sintomático (analgésico, hidratação), sem indicação de antibiótico",
+      "Faringite estreptocócica confirmada: amoxicilina é o antibiótico de primeira linha, com objetivo principal de prevenir a febre reumática (o alívio sintomático mais rápido é benefício secundário)",
+      "Analgesia com anti-inflamatório ou analgésico simples para controle da dor, independentemente da etiologia identificada",
+      "Tratamento antibiótico deve idealmente ser iniciado dentro de 9 dias do início dos sintomas para manter a eficácia na prevenção da febre reumática",
+    ],
+    complicacoes: [
+      "Aguda: abscesso periamigdaliano ou retrofaríngeo por extensão da infecção estreptocócica",
+      "Crônica: febre reumática (semanas após a infecção faríngea não tratada ou tratada tardiamente) e glomerulonefrite pós-estreptocócica, ambas complicações não supurativas imunomediadas da faringite estreptocócica não adequadamente tratada",
+    ],
+    redFlags: [
+      "Trismo, voz abafada ('voz de batata quente') e assimetria tonsilar associados à faringite sugerem abscesso periamigdaliano, exigindo avaliação urgente",
+      "Faringite não tratada em criança com fatores de risco para febre reumática (histórico familiar, região de alta prevalência) reforça a importância de testagem e tratamento adequados para prevenção dessa complicação",
+    ],
+    prognostico:
+      "Excelente prognóstico na forma viral, com resolução espontânea em poucos dias. A faringite estreptocócica, quando tratada adequadamente dentro da janela terapêutica, tem excelente prognóstico com prevenção eficaz da febre reumática.",
+    pontosDeProva: [
+      "O principal objetivo do tratamento antibiótico da faringite estreptocócica é a prevenção da febre reumática, não apenas o alívio sintomático mais rápido — distinção conceitual central e frequentemente cobrada",
+      "Os critérios de Centor modificados (febre, exsudato, linfadenopatia cervical anterior dolorosa, ausência de tosse) orientam quem deve ser testado para estreptococo, evitando testagem e tratamento desnecessários em faringites virais",
+      "A presença de tosse, coriza e conjuntivite associadas à faringite torna a etiologia viral muito mais provável que a estreptocócica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menino, 8 anos, apresenta febre de 38,9°C, dor de garganta intensa, exsudato tonsilar bilateral e linfonodos cervicais anteriores dolorosos, sem tosse.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "A presença de febre, exsudato tonsilar, linfadenopatia cervical anterior dolorosa e ausência de tosse preenche critérios de Centor altamente sugestivos de faringite estreptocócica.",
+      conduta:
+        "Solicitar teste rápido de antígeno estreptocócico ou cultura de orofaringe para confirmação; se positivo, iniciar amoxicilina, com o objetivo principal de prevenir febre reumática.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina", nome: "Amoxicilina" },
+    ],
+    medicamentosSecaoTitulo: "Indicado apenas na faringite estreptocócica confirmada (não na faringite viral, a causa mais comum)",
+    medicamentosNota:
+      "A amoxicilina só deve ser usada após confirmação (teste rápido ou cultura) de faringite estreptocócica; a maioria dos casos de faringite aguda é viral e não se beneficia de antibiótico.",
+    fontes: [
+      { tema: "Fisiopatologia da reação cruzada imunomediada e complicações não supurativas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Critérios de Centor modificados e amoxicilina para prevenção de febre reumática", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "amigdalite-aguda",
+    nome: "Amigdalite aguda",
+    sinonimos: ["Tonsilite aguda"],
+    cid10: "J03",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Bacteriana",
+    resumo: "Inflamação aguda das tonsilas palatinas, de etiologia viral ou bacteriana (estreptococo do grupo A sendo a causa bacteriana mais relevante), com quadro clínico e princípios de manejo sobrepostos aos da faringite aguda.",
+    definicao:
+      "Inflamação aguda das tonsilas palatinas, estruturas linfoides localizadas na orofaringe, compartilhando com a faringite aguda a mesma dicotomia etiológica principal (viral, mais comum, ou bacteriana por Streptococcus pyogenes, clinicamente mais relevante).",
+    epidemiologia:
+      "Mais comum em crianças e adolescentes, população em que o tecido tonsilar é proporcionalmente maior e mais ativo imunologicamente; a amigdalite estreptocócica segue o mesmo padrão epidemiológico da faringite estreptocócica, com pico entre 5-15 anos.",
+    fisiopatologia:
+      "O tecido tonsilar, rico em folículos linfoides, responde à infecção viral ou bacteriana com hiperplasia e exsudação, causando o aumento de volume e a presença de exsudato característicos. Na amigdalite estreptocócica, a mesma preocupação com reação cruzada imunomediada (febre reumática, glomerulonefrite pós-estreptocócica) aplicada à faringite estreptocócica é válida, dado tratar-se essencialmente da mesma infecção acometendo predominantemente o tecido tonsilar.",
+    classificacao:
+      "Classificada etiologicamente em viral e bacteriana (estreptocócica), e quanto à recorrência em amigdalite aguda isolada e amigdalite recorrente (múltiplos episódios documentados ao longo de 1-2 anos, relevante para a decisão de indicar amigdalectomia eletiva).",
+    quadroClinico: [
+      "Odinofagia intensa, por vezes com disfagia associada pelo aumento de volume tonsilar",
+      "Tonsilas hiperemiadas e aumentadas de volume, com ou sem exsudato purulento visível na superfície",
+      "Febre e mal-estar, mais proeminentes na forma bacteriana",
+      "Halitose e voz abafada em casos de aumento tonsilar significativo",
+      "Linfadenopatia cervical anterior dolorosa, achado compartilhado com a faringite estreptocócica",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico pela visualização direta das tonsilas aumentadas, hiperemiadas, com ou sem exsudato",
+      "Aplicação dos critérios de Centor modificados e teste rápido de antígeno estreptocócico ou cultura de orofaringe, seguindo os mesmos princípios da faringite aguda, para identificar casos com indicação de antibiótico",
+      "Avaliação de assimetria tonsilar significativa, trismo ou desvio da úvula, achados que sugerem abscesso periamigdaliano e mudam completamente a conduta",
+    ],
+    examesComplementares: [
+      "Teste rápido de antígeno estreptocócico ou cultura de orofaringe para confirmação de etiologia bacteriana antes de iniciar antibioticoterapia",
+      "Hemograma completo com atipia linfocitária e sorologia específica quando há suspeita de mononucleose infecciosa, sobretudo em adolescentes com amigdalite exsudativa associada a linfadenopatia generalizada",
+    ],
+    diagnosticoDiferencial: [
+      "Mononucleose infecciosa (amigdalite exsudativa importante associada a linfadenopatia generalizada e esplenomegalia, podendo mimetizar amigdalite estreptocócica)",
+      "Abscesso periamigdaliano (assimetria tonsilar acentuada, trismo e desvio da úvula, sinal de complicação supurativa que exige drenagem)",
+      "Difteria (rara em populações vacinadas, mas deve ser considerada diante de pseudomembrana acinzentada aderente que sangra ao ser removida)",
+    ],
+    tratamento: [
+      "Amigdalite viral: tratamento sintomático (analgésico, hidratação), sem indicação de antibiótico",
+      "Amigdalite estreptocócica confirmada: amoxicilina como antibiótico de primeira linha, seguindo os mesmos princípios e objetivos (incluindo prevenção de febre reumática) da faringite estreptocócica",
+      "Amigdalectomia eletiva considerada em casos de amigdalite recorrente documentada (geralmente definida como um número significativo de episódios bem documentados ao longo de 1-2 anos) ou de hipertrofia tonsilar obstrutiva",
+    ],
+    complicacoes: [
+      "Aguda: abscesso periamigdaliano, a complicação supurativa mais comum, exigindo drenagem além do antibiótico",
+      "Crônica: amigdalite recorrente com impacto significativo em faltas escolares/laborais, febre reumática e glomerulonefrite pós-estreptocócica quando a forma bacteriana não é tratada adequadamente",
+    ],
+    redFlags: [
+      "Assimetria tonsilar significativa associada a trismo, desvio da úvula e voz abafada define abscesso periamigdaliano, exigindo avaliação e drenagem urgentes, não apenas antibioticoterapia isolada",
+      "Estridor ou dificuldade respiratória associados a amigdalite grave, sobretudo em crianças pequenas, exigem avaliação urgente da via aérea",
+    ],
+    prognostico:
+      "Excelente prognóstico na maioria dos casos, sejam virais ou bacterianos tratados adequadamente. A amigdalite recorrente, quando tratada com amigdalectomia eletiva em casos bem selecionados, tem boa resposta com redução significativa da frequência de episódios.",
+    pontosDeProva: [
+      "A amigdalite e a faringite aguda compartilham a mesma dicotomia etiológica (viral vs. estreptocócica) e os mesmos princípios de manejo, incluindo a importância da amoxicilina na prevenção de febre reumática",
+      "Assimetria tonsilar com desvio da úvula e trismo é sinal de alarme para abscesso periamigdaliano, distinto da amigdalite não complicada e exigindo drenagem",
+      "A indicação de amigdalectomia eletiva depende de critérios de frequência bem documentados de episódios recorrentes, não sendo indicada para um episódio isolado, por mais intenso que seja",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menina, 10 anos, com histórico de 6 episódios de amigdalite confirmada nos últimos 12 meses, todos tratados adequadamente com antibiótico, pergunta a família sobre possibilidade de cirurgia.",
+      pergunta: "Qual a conduta apropriada diante do histórico relatado?",
+      raciocinio:
+        "Múltiplos episódios bem documentados de amigdalite recorrente em curto período de tempo preenchem critério para considerar amigdalectomia eletiva como opção de tratamento definitivo.",
+      conduta:
+        "Encaminhar para avaliação otorrinolaringológica especializada para discussão sobre amigdalectomia eletiva, considerando a frequência e o impacto documentados dos episódios recorrentes.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina", nome: "Amoxicilina" },
+    ],
+    medicamentosSecaoTitulo: "Indicado apenas na amigdalite estreptocócica confirmada (não na forma viral, também comum)",
+    medicamentosNota:
+      "A amoxicilina só deve ser usada após confirmação de etiologia estreptocócica; segue os mesmos princípios de uso da faringite aguda, dado que ambas as condições frequentemente coexistem na mesma infecção.",
+    fontes: [
+      { tema: "Fisiopatologia do tecido tonsilar e sobreposição com a faringite estreptocócica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Critérios de indicação de amigdalectomia eletiva na amigdalite recorrente", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "laringite-traqueite-agudas",
+    nome: "Laringite e traqueíte agudas",
+    sinonimos: ["Rouquidão aguda"],
+    cid10: "J04",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Viral",
+    resumo: "Inflamação aguda da laringe e/ou traqueia, causando rouquidão característica, na grande maioria dos casos de etiologia viral e autolimitada, distinta do quadro obstrutivo mais grave do crupe.",
+    definicao:
+      "Inflamação aguda da mucosa laríngea e/ou traqueal, causando edema das pregas vocais e consequente alteração da qualidade vocal (rouquidão ou afonia), mais comumente de etiologia viral no contexto de uma infecção de vias aéreas superiores.",
+    epidemiologia:
+      "Extremamente comum, geralmente acompanhando ou seguindo uma infecção viral de vias aéreas superiores; o uso excessivo da voz (esforço vocal) é fator agravante e contribuinte importante, sobretudo em profissionais que dependem da voz.",
+    fisiopatologia:
+      "A infecção viral (ou o esforço vocal excessivo, mecanismo não infeccioso) causa edema inflamatório das pregas vocais, comprometendo sua vibração normal durante a fonação e resultando em rouquidão. Em crianças pequenas, cuja via aérea subglótica é proporcionalmente mais estreita, um processo inflamatório análogo pode causar obstrução significativa da via aérea, quadro classificado separadamente como laringite obstrutiva aguda (crupe).",
+    classificacao:
+      "Classificada em aguda (menos de 3 semanas, a forma mais comum e geralmente viral) e crônica (mais de 3 semanas, ficha própria neste site, com causas distintas incluindo refluxo laringofaríngeo, tabagismo e abuso vocal crônico).",
+    quadroClinico: [
+      "Rouquidão ou afonia de início agudo, sintoma cardinal",
+      "Sensação de irritação ou aspereza na garganta, tosse seca",
+      "Sintomas catarrais associados (coriza, congestão nasal) quando de etiologia viral no contexto de infecção de vias aéreas superiores",
+      "Ausência de estridor ou dificuldade respiratória significativa em adultos, achados que, quando presentes em crianças pequenas, sugerem crupe em vez de laringite simples",
+    ],
+    diagnostico: [
+      "Diagnóstico predominantemente clínico, baseado no início agudo de rouquidão no contexto de infecção viral de vias aéreas superiores ou uso vocal excessivo recente",
+      "Laringoscopia reservada a casos de rouquidão persistente além de 2-3 semanas, para excluir causas estruturais (nódulos vocais, paralisia de prega vocal, neoplasia laríngea)",
+    ],
+    examesComplementares: [
+      "Não são indicados exames complementares de rotina na laringite aguda simples e autolimitada",
+      "Laringoscopia indicada quando a rouquidão persiste além de 2-3 semanas, para avaliação direta das pregas vocais",
+    ],
+    diagnosticoDiferencial: [
+      "Laringite obstrutiva aguda / crupe (em crianças pequenas, com estridor e dificuldade respiratória associados, exigindo abordagem diferente pela obstrução de via aérea)",
+      "Rouquidão por refluxo laringofaríngeo (curso mais crônico, associado a pirose e outros sintomas de refluxo)",
+      "Paralisia de prega vocal e neoplasia laríngea (rouquidão persistente além de 2-3 semanas, sem resolução, exigindo laringoscopia)",
+    ],
+    tratamento: [
+      "Repouso vocal e hidratação adequada são as medidas centrais do tratamento, permitindo a resolução espontânea do edema inflamatório das pregas vocais",
+      "Umidificação do ar ambiente pode proporcionar alívio sintomático",
+      "Antibióticos não têm indicação na grande maioria dos casos, de etiologia viral",
+      "Evitar irritantes conhecidos (tabagismo, álcool) durante o período de recuperação",
+    ],
+    complicacoes: [
+      "Crônica: laringite crônica quando os sintomas persistem além de 3 semanas, sobretudo quando há exposição contínua a fatores irritantes (tabagismo, abuso vocal, refluxo) não corrigidos",
+    ],
+    redFlags: [
+      "Rouquidão persistente além de 2-3 semanas, sobretudo em tabagistas, deve sempre motivar laringoscopia para excluir neoplasia laríngea, não sendo aceitável atribuí-la a causa viral prolongada sem essa investigação",
+      "Estridor ou dificuldade respiratória associados à rouquidão, sobretudo em crianças pequenas, sugerem laringite obstrutiva aguda (crupe), exigindo avaliação e conduta diferenciadas",
+    ],
+    prognostico:
+      "Excelente prognóstico, com resolução espontânea completa da rouquidão em poucos dias a duas semanas na maioria dos casos, com repouso vocal e hidratação adequados.",
+    pontosDeProva: [
+      "A rouquidão persistente além de 2-3 semanas, sobretudo em tabagista, é sinal de alarme que exige laringoscopia para excluir neoplasia laríngea — nunca deve ser atribuída automaticamente a causa viral prolongada",
+      "O repouso vocal, não o antibiótico, é a intervenção central no tratamento da laringite aguda viral",
+      "A laringite obstrutiva aguda (crupe) é uma entidade distinta, mais grave e específica da infância, não devendo ser confundida com a laringite aguda simples do adulto",
+    ],
+    casoClinico: {
+      vinheta:
+        "Professor, 40 anos, apresenta rouquidão importante há 2 dias, após um dia de aulas prolongadas, associada a leve coriza, sem febre ou dificuldade respiratória.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "Rouquidão aguda no contexto de uso vocal intenso e sintomas catarrais leves é característica de laringite aguda, condição autolimitada e benigna.",
+      conduta:
+        "Orientar repouso vocal, hidratação adequada e umidificação do ambiente, com expectativa de resolução espontânea em poucos dias; reavaliar caso a rouquidão persista além de 2-3 semanas.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é baseado em repouso vocal e medidas de suporte; não há indicação de antibiótico ou outro medicamento específico na laringite aguda viral simples.",
+    fontes: [
+      { tema: "Fisiopatologia (edema inflamatório das pregas vocais) e distinção do crupe na infância", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Indicação de laringoscopia na rouquidão persistente além de 2-3 semanas", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "rinite-alergica-vasomotora",
+    nome: "Rinite alérgica e vasomotora",
+    sinonimos: ["Rinite alérgica", "Rinite não alérgica"],
+    cid10: "J30",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Inflamação crônica ou recorrente da mucosa nasal mediada por IgE (alérgica) ou por hiper-reatividade neurovascular sem mecanismo imunológico identificável (vasomotora), ambas causando obstrução nasal e rinorreia crônicas.",
+    definicao:
+      "Categoria que reúne a rinite alérgica (inflamação da mucosa nasal mediada por hipersensibilidade do tipo I, IgE-dependente, a alérgenos ambientais) e a rinite vasomotora (hiper-reatividade nasal a estímulos inespecíficos como mudanças de temperatura, odores fortes ou irritantes, sem mecanismo alérgico identificável).",
+    epidemiologia:
+      "A rinite alérgica é uma das doenças crônicas mais prevalentes globalmente, frequentemente associada a outras condições atópicas (asma, dermatite atópica); pode ser sazonal (desencadeada por pólens em determinadas épocas do ano) ou perene (desencadeada por alérgenos domésticos como ácaros, presentes ao longo de todo o ano). A rinite vasomotora tende a acometer adultos, sem a associação característica com outras atopias.",
+    fisiopatologia:
+      "Na rinite alérgica, a exposição a um alérgeno em indivíduo previamente sensibilizado desencadeia a ligação do alérgeno a moléculas de IgE específicas fixadas em mastócitos da mucosa nasal, causando degranulação e liberação de histamina e outros mediadores inflamatórios, responsáveis pelos sintomas de prurido, espirros, rinorreia e obstrução nasal. Na rinite vasomotora, estímulos inespecíficos desencadeiam hiper-reatividade do sistema nervoso autônomo que regula o tônus vascular da mucosa nasal, causando congestão e rinorreia sem participação de mecanismo IgE-mediado identificável.",
+    classificacao:
+      "Classificada em alérgica (sazonal, desencadeada por alérgenos com padrão de exposição definido por época do ano, como pólens; ou perene, desencadeada por alérgenos presentes o ano todo, como ácaros e pelos de animais) e vasomotora (não alérgica, desencadeada por estímulos inespecíficos como variação de temperatura, umidade, odores fortes e irritantes).",
+    quadroClinico: [
+      "Rinite alérgica: espirros em salvas, prurido nasal e ocular, rinorreia clara abundante e obstrução nasal, frequentemente acompanhados de conjuntivite alérgica associada",
+      "Rinite vasomotora: obstrução nasal e rinorreia predominantes, com menor intensidade de prurido e espirros que a forma alérgica, desencadeada por estímulos inespecíficos (mudança de temperatura, odores fortes, álcool)",
+      "Olheiras ('shiners' alérgicas) e prega nasal transversa (pela fricção repetida do nariz, o 'saudação alérgica') são achados de exame físico sugestivos de rinite alérgica de longa data, sobretudo em crianças",
+      "Sintomas crônicos ou recorrentes, distintos do curso autolimitado da infecção viral de vias aéreas superiores",
+    ],
+    diagnostico: [
+      "Diagnóstico predominantemente clínico, baseado no padrão de sintomas e na identificação de desencadeantes (exposição a alérgenos específicos na forma alérgica, estímulos inespecíficos na forma vasomotora)",
+      "Testes cutâneos de alergia (prick test) ou dosagem de IgE específica confirmam a sensibilização a alérgenos específicos na rinite alérgica, exames reservados a casos de diagnóstico incerto ou quando a imunoterapia é considerada",
+      "A ausência de sensibilização identificável a alérgenos em paciente com sintomas nasais crônicos sugere rinite vasomotora",
+    ],
+    examesComplementares: [
+      "Testes cutâneos de alergia (prick test) demonstrando sensibilização a alérgenos específicos, confirmando a etiologia alérgica quando presentes",
+      "Dosagem de IgE específica sérica como alternativa aos testes cutâneos em pacientes com contraindicação a estes",
+    ],
+    diagnosticoDiferencial: [
+      "Rinite infecciosa (resfriado comum), de curso autolimitado, distinta do padrão crônico/recorrente da rinite alérgica ou vasomotora",
+      "Rinossinusite crônica (sintomas mais persistentes, frequentemente com dor facial e hipoosmia mais proeminentes, podendo coexistir)",
+      "Desvio de septo nasal e outras causas estruturais de obstrução nasal, distinguidas por exame físico direto",
+    ],
+    tratamento: [
+      "Evitar exposição aos desencadeantes identificados é medida de primeira linha em ambas as formas, quando factível",
+      "Corticosteroide nasal tópico é o tratamento farmacológico mais eficaz para controle dos sintomas de rinite alérgica de qualquer gravidade",
+      "Anti-histamínico oral de segunda geração é eficaz para o controle de prurido, espirros e rinorreia na rinite alérgica, com menor eficácia sobre a obstrução nasal",
+      "A rinite vasomotora responde de forma mais limitada aos anti-histamínicos (dado o mecanismo não IgE-mediado), com corticosteroide nasal tópico e brometo de ipratrópio nasal sendo opções mais eficazes",
+      "Imunoterapia específica com alérgenos é considerada em casos de rinite alérgica moderada a grave refratária ao tratamento farmacológico convencional, com potencial de modificar o curso natural da doença",
+    ],
+    complicacoes: [
+      "Crônica: sinusite crônica secundária por obstrução persistente dos óstios de drenagem sinusal, pólipos nasais associados em casos de inflamação crônica prolongada, impacto significativo na qualidade de vida e no sono",
+    ],
+    redFlags: [
+      "Obstrução nasal unilateral persistente, sem os demais sintomas característicos de rinite alérgica/vasomotora (que tipicamente causam sintomas bilaterais), deve levantar suspeita de causa estrutural ou massa nasal, exigindo investigação adicional",
+    ],
+    prognostico:
+      "Ambas as condições têm curso crônico, mas geralmente bem controlado com evitação de desencadeantes e tratamento farmacológico adequado; a rinite alérgica sazonal tende a ter impacto mais previsível ao longo do ano, enquanto a perene e a vasomotora podem ter sintomas mais constantes.",
+    pontosDeProva: [
+      "As olheiras alérgicas e a prega nasal transversa são achados de exame físico clássicos que sugerem rinite alérgica crônica desde a infância",
+      "A rinite vasomotora, por não ser mediada por IgE, responde de forma mais limitada aos anti-histamínicos que a rinite alérgica verdadeira — distinção terapêutica frequentemente cobrada",
+      "O corticosteroide nasal tópico é o tratamento farmacológico isolado mais eficaz para a rinite alérgica, superando os anti-histamínicos no controle da obstrução nasal",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menino, 9 anos, com espirros em salva, prurido nasal e ocular e rinorreia clara recorrentes há 2 anos, piores na primavera, com olheiras e prega nasal transversa ao exame.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "O padrão sazonal dos sintomas, associado a prurido nasal/ocular e aos achados físicos característicos (olheiras, prega nasal), é típico de rinite alérgica sazonal.",
+      conduta:
+        "Orientar evitação de exposição a pólens quando possível, e iniciar corticosteroide nasal tópico como tratamento farmacológico de primeira linha, associando anti-histamínico oral se o prurido e os espirros forem proeminentes.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O corticosteroide nasal tópico e o anti-histamínico de segunda geração são as classes farmacológicas de primeira linha, mas ainda não têm ficha própria no site nesta formulação/classe específica.",
+    fontes: [
+      { tema: "Fisiopatologia (hipersensibilidade IgE-mediada vs. hiper-reatividade vasomotora) e classificação", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Corticosteroide nasal tópico como tratamento farmacológico mais eficaz", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "rinite-nasofaringite-faringite-cronicas",
+    nome: "Rinite, nasofaringite e faringite crônicas",
+    sinonimos: ["Faringite crônica", "Rinite crônica não alérgica"],
+    cid10: "J31",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Inflamação persistente da mucosa nasal, nasofaríngea ou faríngea, geralmente secundária à exposição contínua a fatores irritantes (tabagismo, poluição, ar seco) ou ao refluxo laringofaríngeo, exigindo identificação e correção da causa de base.",
+    definicao:
+      "Categoria que reúne a inflamação crônica (persistindo além de algumas semanas) da mucosa nasal, nasofaríngea ou faríngea, distinta das formas agudas autolimitadas, geralmente resultante de exposição contínua a um fator irritante ou inflamatório identificável.",
+    epidemiologia:
+      "Mais comum em tabagistas ativos e passivos, trabalhadores expostos a poeira ou produtos químicos irritantes ocupacionais, e pacientes com refluxo laringofaríngeo não diagnosticado ou tratado inadequadamente; o ar excessivamente seco (climatizado ou aquecido) é fator contribuinte adicional comum.",
+    fisiopatologia:
+      "A exposição contínua a um agente irritante (fumaça de cigarro, poluentes, ar seco) ou a refluxo ácido/não ácido do conteúdo gástrico até a faringe mantém um estado de inflamação crônica da mucosa respiratória superior, com hipertrofia glandular compensatória, espessamento epitelial e, eventualmente, metaplasia, diferentemente da resposta inflamatória autolimitada da infecção viral aguda.",
+    classificacao:
+      "Classificada pela causa de base identificável: irritativa (tabagismo, poluentes ocupacionais/ambientais), por refluxo laringofaríngeo, ou atrófica (mais comum em idosos, com afinamento da mucosa em vez de hipertrofia), cada uma com implicações terapêuticas distintas.",
+    quadroClinico: [
+      "Sensação persistente de secreção na garganta (pigarro), obstrução ou secura nasal e/ou faríngea crônicas",
+      "Tosse crônica, sobretudo pela manhã, associada ao gotejamento pós-nasal persistente",
+      "Voz rouca ou de qualidade alterada nos casos com componente laríngeo associado (refluxo laringofaríngeo)",
+      "Sintomas persistindo por semanas a meses, sem o padrão autolimitado das infecções agudas",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado na cronicidade dos sintomas e na identificação de um fator causal ou agravante (história de tabagismo, exposição ocupacional, sintomas de refluxo associados)",
+      "Exame da mucosa nasal e faríngea, que pode mostrar hipertrofia, espessamento ou, na forma atrófica, afinamento e crostas",
+      "Investigação de refluxo laringofaríngeo (prova terapêutica com inibidor de bomba de prótons, ou pH-impedanciometria em casos selecionados) quando os sintomas sugerem essa causa",
+    ],
+    examesComplementares: [
+      "Nasofibroscopia ou laringoscopia para avaliação direta da mucosa e exclusão de causas estruturais concomitantes",
+      "Prova terapêutica com inibidor de bomba de prótons como estratégia diagnóstica e terapêutica quando há suspeita de refluxo laringofaríngeo como causa de base",
+    ],
+    diagnosticoDiferencial: [
+      "Rinite alérgica (sintomas associados a exposição a alérgenos específicos, com prurido e espirros mais proeminentes)",
+      "Sinusite crônica (dor facial e hipoosmia mais proeminentes, achados de imagem específicos)",
+      "Causas estruturais de obstrução nasal (desvio de septo, pólipos nasais), avaliadas por exame direto",
+    ],
+    tratamento: [
+      "Identificação e remoção do fator causal (cessação do tabagismo, controle de exposição ocupacional, umidificação do ambiente) é a medida mais importante e frequentemente suficiente",
+      "Tratamento do refluxo laringofaríngeo (inibidor de bomba de prótons, medidas comportamentais) quando identificado como causa de base",
+      "Irrigação nasal com solução salina proporciona alívio sintomático em todas as formas, promovendo higiene da mucosa",
+      "Lubrificação tópica na forma atrófica, para alívio da secura da mucosa",
+    ],
+    complicacoes: [
+      "Crônica: impacto significativo na qualidade de vida pela persistência dos sintomas, predisposição a infecções respiratórias de repetição pela função mucociliar comprometida",
+    ],
+    redFlags: [
+      "Sintomas de faringite crônica não responsivos à remoção dos fatores irritantes identificados devem motivar investigação adicional (laringoscopia) para excluir causa estrutural ou neoplásica, sobretudo em tabagistas",
+    ],
+    prognostico:
+      "O prognóstico é favorável quando o fator causal é identificado e efetivamente corrigido (cessação do tabagismo, controle do refluxo), com melhora progressiva dos sintomas ao longo de semanas a meses; a persistência da exposição ao fator causal mantém os sintomas indefinidamente.",
+    pontosDeProva: [
+      "A identificação e remoção do fator irritante causal (tabagismo, refluxo, ar seco) é sempre a intervenção mais importante, mais que qualquer tratamento sintomático isolado",
+      "O refluxo laringofaríngeo é causa frequentemente subdiagnosticada de faringite crônica e pigarro persistente, devendo ser ativamente considerado mesmo na ausência de pirose típica",
+      "Sintomas persistentes apesar da remoção de fatores irritantes identificados, sobretudo em tabagistas, exigem investigação estrutural adicional antes de serem atribuídos exclusivamente à inflamação crônica benigna",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 55 anos, tabagista há 30 anos, relata pigarro persistente e sensação de secreção na garganta há vários meses, sem outros sintomas de alarme.",
+      pergunta: "Qual a conduta apropriada diante deste quadro?",
+      raciocinio:
+        "Sintomas crônicos de irritação faríngea em tabagista de longa data são compatíveis com faringite crônica irritativa, mas o tabagismo também é fator de risco para neoplasia, exigindo exame cuidadoso antes de assumir causa benigna.",
+      conduta:
+        "Orientar fortemente a cessação do tabagismo como medida terapêutica central, e realizar exame otorrinolaringológico completo (incluindo laringoscopia) para excluir lesão estrutural associada ao tabagismo crônico.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende da correção do fator causal identificado (cessação do tabagismo, controle de refluxo, umidificação); não há medicamento único de primeira linha para esta categoria ampla.",
+    fontes: [
+      { tema: "Fisiopatologia da inflamação crônica por exposição irritativa e classificação por causa", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Refluxo laringofaríngeo como causa subdiagnosticada de faringite crônica", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "sinusite-cronica",
+    nome: "Sinusite crônica",
+    sinonimos: ["Rinossinusite crônica"],
+    cid10: "J32",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Inflamação persistente dos seios paranasais por mais de 12 semanas, frequentemente associada a obstrução mecânica ou processo inflamatório subjacente, com tratamento inicial clínico e cirurgia reservada a casos refratários.",
+    definicao:
+      "Inflamação da mucosa de um ou mais seios paranasais persistindo por mais de 12 semanas, apesar de tratamento adequado, distinta da sinusite aguda tanto pela duração quanto, frequentemente, pela fisiopatologia subjacente, que envolve mais comumente obstrução mecânica persistente da drenagem sinusal ou processo inflamatório crônico do que infecção bacteriana ativa isolada.",
+    epidemiologia:
+      "Associada a fatores predisponentes como desvio de septo nasal, pólipos nasais, rinite alérgica não controlada, imunodeficiência e, em menor proporção, fibrose cística (sobretudo em crianças com sinusite crônica de difícil controle).",
+    fisiopatologia:
+      "A obstrução persistente da drenagem dos óstios sinusais (por desvio de septo, pólipos, edema inflamatório crônico da rinite alérgica não controlada, ou disfunção ciliar) compromete a ventilação e a depuração normais da mucosa sinusal, favorecendo colonização bacteriana crônica de baixo grau, formação de biofilme e um ciclo perpetuante de inflamação e obstrução.",
+    classificacao:
+      "Classificada quanto à presença de pólipos nasais associados (com pólipos ou sem pólipos, distinção com implicação terapêutica relevante) e quanto à extensão anatômica (unilateral, sugerindo causa localizada como massa ou corpo estranho, versus bilateral, mais associada a causas sistêmicas como rinite alérgica).",
+    quadroClinico: [
+      "Obstrução nasal persistente, secreção nasal anterior ou posterior (gotejamento pós-nasal) por mais de 12 semanas",
+      "Dor ou pressão facial, menos proeminente e menos aguda que na forma aguda",
+      "Hiposmia ou anosmia, frequentemente mais persistente e proeminente que na forma aguda",
+      "Fadiga crônica e impacto significativo na qualidade de vida, incluindo qualidade do sono",
+    ],
+    diagnostico: [
+      "Diagnóstico baseado na persistência dos sintomas característicos por mais de 12 semanas, associada a evidência objetiva de inflamação sinusal (endoscopia nasal ou tomografia computadorizada)",
+      "Endoscopia nasal para identificação de pólipos, secreção purulenta ou outras anormalidades da mucosa",
+      "Tomografia computadorizada de seios paranasais é o exame de escolha para avaliar a extensão da doença e planejar eventual intervenção cirúrgica",
+    ],
+    examesComplementares: [
+      "Tomografia computadorizada de seios paranasais demonstrando espessamento mucoso, opacificação sinusal e/ou obstrução do complexo óstio-meatal, achados centrais para confirmação e planejamento cirúrgico",
+      "Endoscopia nasal para visualização direta de pólipos e secreção, e para coleta de cultura dirigida em casos refratários",
+      "Teste do suor (dosagem de cloro) considerado em crianças com sinusite crônica de difícil controle, para investigar fibrose cística subjacente",
+    ],
+    diagnosticoDiferencial: [
+      "Rinite alérgica isolada (sem espessamento mucoso sinusal significativo à imagem)",
+      "Cefaleia primária (enxaqueca, cefaleia em salvas), quando a dor facial predomina sem os demais achados de sinusite",
+      "Neoplasia nasossinusal (sintomas unilaterais persistentes, sobretudo com sangramento associado, exigindo investigação adicional)",
+    ],
+    tratamento: [
+      "Corticosteroide nasal tópico é o tratamento de primeira linha, reduzindo a inflamação da mucosa e, quando presentes, o tamanho dos pólipos nasais",
+      "Irrigação nasal com solução salina de grande volume como medida adjuvante para higiene da mucosa e remoção de secreção",
+      "Curso curto de antibiótico de amplo espectro considerado em exacerbações agudas sobre a base crônica",
+      "Cirurgia endoscópica sinusal indicada em casos refratários ao tratamento clínico otimizado, com objetivo de restaurar a ventilação e drenagem normais dos seios paranasais",
+    ],
+    complicacoes: [
+      "Crônica: formação ou recorrência de pólipos nasais, impacto persistente na qualidade de vida e no sono, exacerbações agudas recorrentes sobre a base crônica",
+    ],
+    redFlags: [
+      "Sintomas unilaterais persistentes, sobretudo associados a sangramento nasal ou massa visível, devem levantar suspeita de neoplasia nasossinusal e motivar investigação adicional antes de assumir sinusite crônica benigna",
+    ],
+    prognostico:
+      "Com tratamento clínico adequado (corticosteroide nasal tópico, irrigação salina), uma parcela significativa dos pacientes obtém controle satisfatório dos sintomas; casos refratários tratados cirurgicamente têm boa resposta, embora a recorrência de pólipos seja possível a longo prazo.",
+    pontosDeProva: [
+      "A sinusite crônica é definida pela persistência dos sintomas por mais de 12 semanas, critério temporal que a distingue claramente da forma aguda e subaguda",
+      "A presença ou ausência de pólipos nasais associados tem implicação terapêutica direta, orientando a intensidade do tratamento anti-inflamatório",
+      "Sintomas unilaterais persistentes com sangramento associado são sinal de alarme para neoplasia nasossinusal, não devendo ser atribuídos automaticamente à sinusite crônica comum",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 42 anos, com obstrução nasal, secreção espessa e hiposmia persistentes há 4 meses, apesar de tratamento sintomático prévio, sem melhora significativa.",
+      pergunta: "Qual a conduta diagnóstica e terapêutica apropriada?",
+      raciocinio:
+        "Sintomas nasais persistentes por mais de 12 semanas, refratários a tratamento sintomático inicial, preenchem critério temporal para sinusite crônica, exigindo investigação objetiva.",
+      conduta:
+        "Solicitar tomografia computadorizada de seios paranasais e considerar endoscopia nasal para avaliar a presença de pólipos; iniciar corticosteroide nasal tópico associado a irrigação salina como tratamento de primeira linha.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento de primeira linha é o corticosteroide nasal tópico, ainda sem ficha própria no site nesta formulação específica.",
+    fontes: [
+      { tema: "Fisiopatologia (obstrução do complexo óstio-meatal e biofilme) e classificação com/sem pólipos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Critério temporal de 12 semanas e indicação de cirurgia endoscópica sinusal", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "polipo-nasal",
+    nome: "Pólipo nasal",
+    sinonimos: ["Polipose nasossinusal"],
+    cid10: "J33",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Crescimentos benignos e edematosos da mucosa nasossinusal, associados a inflamação crônica tipo 2, causando obstrução nasal progressiva e anosmia, com corticosteroide (tópico ou sistêmico em cursos curtos) como base do tratamento clínico.",
+    definicao:
+      "Crescimentos benignos, macios e edematosos originados da mucosa nasal ou dos seios paranasais, resultantes de processo inflamatório crônico da mucosa, mais comumente do tipo inflamatório 2 (eosinofílico), podendo ser uni ou bilaterais.",
+    epidemiologia:
+      "Mais comum em adultos, com associação bem estabelecida à asma e à hipersensibilidade ao ácido acetilsalicílico e outros anti-inflamatórios não esteroidais (a chamada tríade de Samter ou doença respiratória exacerbada por AINE, quando as três condições coexistem). Pólipos nasais em crianças devem sempre levantar suspeita de fibrose cística subjacente.",
+    fisiopatologia:
+      "Um processo inflamatório crônico da mucosa nasossinusal, tipicamente mediado por eosinófilos e citocinas do tipo 2 (interleucinas 4, 5 e 13), causa edema progressivo do estroma da mucosa, que eventualmente prolapsa como uma massa polipoide macia e translúcida para dentro da cavidade nasal, obstruindo progressivamente a via aérea e o fluxo de ar/muco.",
+    classificacao:
+      "Não há sistema de estadiamento formal amplamente usado para a extensão anatômica, mas a gravidade é frequentemente graduada endoscopicamente conforme o tamanho e a extensão da obstrução da cavidade nasal (de pólipos pequenos e localizados até polipose maciça bilateral obstruindo completamente as narinas).",
+    quadroClinico: [
+      "Obstrução nasal progressiva e bilateral na maioria dos casos, frequentemente descrita como sensação constante de nariz entupido",
+      "Anosmia ou hiposmia significativa, sintoma característico e frequentemente o mais incomodativo para o paciente",
+      "Rinorreia posterior (gotejamento pós-nasal) e sensação de pressão facial",
+      "Associação frequente com asma, sobretudo em pacientes com doença respiratória exacerbada por AINE (tríade de Samter: asma, polipose nasal e hipersensibilidade a AINE)",
+    ],
+    diagnostico: [
+      "Diagnóstico pela visualização direta dos pólipos à rinoscopia anterior ou, mais detalhadamente, à endoscopia nasal, identificando massas macias, pálidas e translúcidas",
+      "Tomografia computadorizada de seios paranasais para avaliar a extensão da doença nos seios e planejar eventual intervenção cirúrgica",
+      "Investigação de fibrose cística (teste do suor) em crianças com polipose nasal, achado atípico para essa faixa etária que exige essa exclusão",
+    ],
+    examesComplementares: [
+      "Endoscopia nasal para visualização e graduação direta dos pólipos",
+      "Tomografia computadorizada de seios paranasais demonstrando opacificação sinusal associada, relevante para o planejamento cirúrgico quando indicado",
+    ],
+    diagnosticoDiferencial: [
+      "Desvio de septo nasal e concha nasal hipertrofiada (causas estruturais de obstrução nasal, sem a aparência polipoide característica)",
+      "Papiloma invertido (lesão unilateral com potencial de malignização, exigindo biópsia para distinção de pólipo inflamatório simples, sobretudo quando unilateral)",
+      "Neoplasia nasossinusal (massa unilateral, por vezes com sangramento associado, exigindo biópsia diferencial em casos atípicos)",
+    ],
+    tratamento: [
+      "Corticosteroide nasal tópico é o tratamento de primeira linha, reduzindo o tamanho dos pólipos e melhorando a obstrução nasal na maioria dos pacientes",
+      "Curso curto de corticosteroide sistêmico (prednisona) é usado para reduzir rapidamente o tamanho de pólipos volumosos, sobretudo antes de procedimentos cirúrgicos ou em exacerbações significativas, sempre como complemento e não substituto do corticosteroide tópico de manutenção",
+      "Terapias biológicas direcionadas à inflamação tipo 2 (anticorpos monoclonais) são opção em casos graves e recorrentes refratários ao tratamento convencional",
+      "Cirurgia endoscópica sinusal (polipectomia) indicada em casos refratários ao tratamento clínico otimizado, com recorrência sendo comum a longo prazo sem manutenção do corticosteroide tópico pós-operatório",
+    ],
+    complicacoes: [
+      "Crônica: recorrência após tratamento clínico ou cirúrgico, sobretudo sem manutenção adequada de corticosteroide tópico; exacerbação de asma associada nos pacientes com doença respiratória exacerbada por AINE",
+    ],
+    redFlags: [
+      "Pólipo nasal unilateral, sobretudo associado a sangramento ou erosão óssea à imagem, deve levantar suspeita de papiloma invertido ou neoplasia, exigindo biópsia antes de assumir pólipo inflamatório benigno simples",
+      "Polipose nasal em criança é achado atípico que exige investigação de fibrose cística",
+    ],
+    prognostico:
+      "A maioria dos pacientes obtém controle satisfatório dos sintomas com corticosteroide nasal tópico de manutenção contínua; a recorrência após interrupção do tratamento clínico ou mesmo após cirurgia é comum, reforçando a necessidade de tratamento de manutenção prolongado.",
+    pontosDeProva: [
+      "A tríade de Samter (asma, polipose nasal e hipersensibilidade ao ácido acetilsalicílico/AINEs) é associação clássica e frequentemente cobrada, também chamada de doença respiratória exacerbada por AINE",
+      "Pólipo nasal unilateral é sinal de alarme que exige biópsia para excluir papiloma invertido ou neoplasia, ao contrário da polipose bilateral típica, geralmente benigna",
+      "Polipose nasal na infância deve sempre levantar suspeita de fibrose cística subjacente, achado atípico para essa faixa etária",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 45 anos, asmático, relata obstrução nasal progressiva bilateral e perda quase completa do olfato há 8 meses, com história de reações adversas ao uso de ácido acetilsalicílico no passado.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta terapêutica inicial?",
+      raciocinio:
+        "A combinação de asma, hipersensibilidade a AINE e obstrução nasal progressiva com anosmia é característica da tríade de Samter, com polipose nasal bilateral como manifestação nasal.",
+      conduta:
+        "Confirmar o diagnóstico por endoscopia nasal; iniciar corticosteroide nasal tópico como tratamento de primeira linha, considerando curso curto de corticosteroide sistêmico se os pólipos forem volumosos e a resposta ao tópico insuficiente.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "prednisona", nome: "Prednisona" },
+    ],
+    medicamentosSecaoTitulo: "Curso curto para redução rápida do volume polipoide (adjuvante ao corticosteroide nasal tópico de manutenção, não substituto)",
+    medicamentosNota:
+      "A prednisona é usada em cursos curtos para reduzir rapidamente pólipos volumosos, mas o tratamento de manutenção de primeira linha é o corticosteroide nasal tópico, ainda sem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia (inflamação tipo 2/eosinofílica) e tríade de Samter", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Corticosteroide sistêmico em curso curto para redução do volume polipoide", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "desvio-septo-nasal",
+    nome: "Outros transtornos do nariz e dos seios paranasais (desvio de septo)",
+    sinonimos: ["Desvio de septo nasal"],
+    cid10: "J34",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Traumática",
+    resumo: "Deslocamento da cartilagem e/ou osso septal da linha média nasal, congênito ou traumático, causa comum e corrigível cirurgicamente de obstrução nasal unilateral crônica.",
+    definicao:
+      "Deslocamento do septo nasal (estrutura cartilaginosa e óssea que separa as duas cavidades nasais) para fora da linha média, podendo ser congênito (presente desde o nascimento ou resultante de trauma durante o parto) ou, mais comumente, adquirido por trauma nasal ao longo da vida.",
+    epidemiologia:
+      "Extremamente prevalente na população geral, com uma proporção significativa dos adultos apresentando algum grau de desvio septal, a maioria assintomática ou minimamente sintomática; torna-se clinicamente relevante quando causa obstrução nasal significativa ou contribui para sinusite recorrente.",
+    fisiopatologia:
+      "O desvio da estrutura septal para um dos lados estreita a passagem de ar naquela narina, aumentando a resistência ao fluxo aéreo e podendo causar turbulência compensatória e ressecamento da mucosa no lado mais estreitado, além de comprometer a drenagem normal dos seios paranasais adjacentes quando o desvio é significativo o suficiente para obstruir o complexo óstio-meatal.",
+    classificacao:
+      "Classificado pela localização anatômica do desvio (anterior, posterior, ou envolvendo tanto a cartilagem quanto o osso septal) e pela direção (em C, em S, ou com esporão ósseo focal), aspectos relevantes para o planejamento cirúrgico quando indicado.",
+    quadroClinico: [
+      "Obstrução nasal unilateral crônica, tipicamente constante ao longo do tempo (distinta da obstrução alternante e variável mais característica da rinite)",
+      "Ressecamento e sangramentos nasais ocasionais (epistaxe) no lado mais estreitado, pela turbulência aérea e ressecamento da mucosa",
+      "Cefaleia ou pressão facial em casos de desvio significativo comprometendo a drenagem sinusal",
+      "Ronco e, em casos mais graves, contribuição para apneia obstrutiva do sono",
+    ],
+    diagnostico: [
+      "Diagnóstico pela rinoscopia anterior, visualizando diretamente o desvio da estrutura septal",
+      "Endoscopia nasal para avaliação mais completa, sobretudo de desvios posteriores não bem visualizados à rinoscopia anterior simples",
+      "Tomografia computadorizada reservada a casos de planejamento cirúrgico ou quando há suspeita de patologia sinusal associada",
+    ],
+    examesComplementares: [
+      "Rinoscopia anterior e endoscopia nasal para visualização direta e caracterização do desvio",
+      "Tomografia computadorizada de seios paranasais quando há sintomas sinusais associados ou para planejamento cirúrgico detalhado",
+    ],
+    diagnosticoDiferencial: [
+      "Rinite alérgica ou vasomotora (obstrução tipicamente bilateral e alternante, distinta da unilateral constante do desvio septal)",
+      "Hipertrofia de conchas nasais (pode coexistir com o desvio septal, contribuindo adicionalmente para a obstrução)",
+      "Pólipo nasal e outras massas nasais (visualizadas diretamente à rinoscopia, distintas da estrutura septal deslocada)",
+    ],
+    tratamento: [
+      "Observação e tratamento sintomático (irrigação salina, lubrificação nasal) em casos assintomáticos ou minimamente sintomáticos",
+      "Septoplastia (correção cirúrgica do desvio) é o tratamento definitivo, indicado quando a obstrução nasal é significativa e sintomática, ou quando o desvio contribui para sinusite recorrente ou apneia obstrutiva do sono",
+      "Tratamento de condições associadas (rinite alérgica concomitante) pode reduzir os sintomas mesmo sem correção cirúrgica do desvio",
+    ],
+    complicacoes: [
+      "Crônica: sinusite recorrente por obstrução persistente da drenagem sinusal, epistaxe recorrente pela turbulência e ressecamento da mucosa no lado estreitado",
+    ],
+    redFlags: [
+      "Perfuração septal associada a uso de substâncias (cocaína intranasal) ou doenças sistêmicas (granulomatose com poliangiite) deve ser investigada separadamente do desvio septal simples, dada a diferença fundamental de causa e conduta",
+    ],
+    prognostico:
+      "Excelente prognóstico após correção cirúrgica (septoplastia) em pacientes bem selecionados, com melhora significativa e duradoura da obstrução nasal na maioria dos casos.",
+    pontosDeProva: [
+      "A obstrução nasal unilateral e constante é achado característico do desvio septal, distinguindo-o da obstrução bilateral e alternante típica da rinite",
+      "A maioria dos adultos apresenta algum grau de desvio septal, mas a indicação cirúrgica depende do impacto sintomático, não apenas do achado anatômico isolado",
+      "A perfuração septal (diferente do desvio simples) deve levantar suspeita de causas específicas como uso de cocaína ou doenças granulomatosas sistêmicas",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 30 anos, com histórico de trauma nasal na adolescência, relata obstrução nasal constante do lado esquerdo há anos, sem variação ao longo do dia ou estações do ano.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "Obstrução nasal unilateral e constante, sem padrão de variação característico de rinite, em paciente com histórico de trauma nasal prévio, sugere fortemente desvio de septo nasal.",
+      conduta:
+        "Confirmar o diagnóstico pela rinoscopia anterior/endoscopia nasal; se a obstrução for significativamente sintomática e impactar a qualidade de vida, encaminhar para avaliação cirúrgica (septoplastia).",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento definitivo é cirúrgico (septoplastia); não há tratamento medicamentoso capaz de corrigir o desvio estrutural do septo.",
+    fontes: [
+      { tema: "Fisiopatologia (obstrução e turbulência aérea) e classificação anatômica do desvio", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Indicação de septoplastia e causas de perfuração septal", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "hipertrofia-amigdalas-adenoides",
+    nome: "Doenças crônicas das amígdalas e adenoides",
+    sinonimos: ["Hipertrofia adenotonsilar", "Amigdalite crônica"],
+    cid10: "J35",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Aumento crônico do tecido tonsilar e/ou adenoideano, principal causa de obstrução das vias aéreas superiores e de apneia obstrutiva do sono na infância, tratada definitivamente com cirurgia quando sintomática.",
+    definicao:
+      "Categoria que engloba a hipertrofia crônica das tonsilas palatinas e/ou da tonsila faríngea (adenoide), estruturas linfoides que, quando cronicamente aumentadas, comprometem mecanicamente a via aérea superior e/ou a ventilação da tuba auditiva.",
+    epidemiologia:
+      "Mais comum em crianças, faixa etária em que o tecido linfoide de Waldeyer atinge seu maior volume relativo, com regressão fisiológica progressiva ao longo da adolescência; é a principal causa identificável de apneia obstrutiva do sono na população pediátrica.",
+    fisiopatologia:
+      "Episódios repetidos de infecção ou exposição antigênica crônica promovem hiperplasia linfoide progressiva das tonsilas palatinas e/ou da adenoide. Quando esse crescimento se torna desproporcional ao tamanho das vias aéreas superiores da criança, compromete mecanicamente a passagem de ar durante o sono (favorecendo apneia obstrutiva) e, quando a adenoide obstrui a abertura da tuba auditiva na nasofaringe, contribui para disfunção tubária recorrente e otite média serosa.",
+    classificacao:
+      "Classificada pelo tecido predominantemente acometido (tonsilas palatinas, adenoide, ou ambos) e pelo grau de hipertrofia tonsilar, tipicamente graduado de I a IV conforme a proporção da orofaringe ocupada pelas tonsilas ao exame.",
+    quadroClinico: [
+      "Respiração bucal habitual e ronco noturno, sintomas cardinais da hipertrofia adenotonsilar significativa",
+      "Apneia obstrutiva do sono, manifestada por pausas respiratórias observadas pelos pais, sono agitado e, em casos importantes, sonolência diurna ou dificuldades de aprendizado",
+      "Voz hiponasal (fala 'anasalada') e fácies adenoideana característica (boca aberta cronicamente, palato ogival) em casos de hipertrofia adenoideana significativa e prolongada",
+      "Disfagia leve e halitose em casos de hipertrofia tonsilar volumosa",
+    ],
+    diagnostico: [
+      "Diagnóstico pela avaliação clínica direta (orofaringoscopia para graduação tonsilar, nasofibroscopia ou radiografia de cavum para avaliação adenoideana)",
+      "Polissonografia é o exame de escolha para confirmar e quantificar a gravidade da apneia obstrutiva do sono quando suspeitada, embora a decisão cirúrgica frequentemente se baseie também em critérios clínicos",
+      "Avaliação otoscópica associada, dada a frequente concomitância com otite média serosa por disfunção tubária secundária à hipertrofia adenoideana",
+    ],
+    examesComplementares: [
+      "Polissonografia para confirmação e graduação objetiva da apneia obstrutiva do sono associada",
+      "Radiografia de cavum (perfil de nasofaringe) ou nasofibroscopia para avaliação do grau de obstrução adenoideana",
+    ],
+    diagnosticoDiferencial: [
+      "Rinite alérgica (respiração bucal e obstrução nasal associadas, mas sem o aumento tonsilar/adenoideano estrutural característico)",
+      "Desvio de septo nasal (obstrução nasal unilateral estrutural, distinta da hipertrofia linfoide simétrica)",
+      "Outras causas de apneia obstrutiva do sono na infância (obesidade, anomalias craniofaciais), que podem coexistir com a hipertrofia adenotonsilar",
+    ],
+    tratamento: [
+      "Observação clínica em casos de hipertrofia leve sem repercussão funcional significativa, dado que a regressão fisiológica ao longo da infância/adolescência é esperada",
+      "Corticosteroide nasal tópico pode proporcionar alguma redução do volume adenoideano em casos leves a moderados, como alternativa não cirúrgica inicial",
+      "Adenoamigdalectomia (remoção cirúrgica das tonsilas palatinas e da adenoide) é o tratamento definitivo e mais eficaz para apneia obstrutiva do sono significativa associada à hipertrofia adenotonsilar em crianças",
+      "Adenoidectomia isolada considerada quando a obstrução predomina na adenoide, com repercussão especialmente sobre a função tubária e otite média serosa recorrente",
+    ],
+    complicacoes: [
+      "Aguda: obstrução aguda da via aérea superior em casos de hipertrofia tonsilar volumosa associada a infecção aguda concomitante",
+      "Crônica: apneia obstrutiva do sono não tratada com impacto no crescimento, no comportamento e no desempenho escolar, cor pulmonale em casos extremos e prolongados sem tratamento, otite média serosa recorrente por disfunção tubária secundária",
+    ],
+    redFlags: [
+      "Apneia obstrutiva do sono grave, com dessaturação significativa documentada em polissonografia, exige encaminhamento cirúrgico prioritário, dado o risco de complicações cardiopulmonares e de neurodesenvolvimento se não tratada",
+      "Assimetria tonsilar significativa em criança deve levantar suspeita de processo neoplásico (linfoma), diferentemente da hipertrofia simétrica benigna habitual",
+    ],
+    prognostico:
+      "A adenoamigdalectomia tem excelente taxa de sucesso na resolução da apneia obstrutiva do sono associada à hipertrofia adenotonsilar na infância, com melhora significativa e frequentemente completa dos sintomas e de eventuais dificuldades de aprendizado associadas.",
+    pontosDeProva: [
+      "A hipertrofia adenotonsilar é a causa mais comum de apneia obstrutiva do sono em crianças, distinta da causa predominante em adultos (obesidade e colapso de tecidos moles)",
+      "A fácies adenoideana (boca aberta cronicamente, palato ogival) é achado clínico característico da obstrução nasal crônica por hipertrofia adenoideana prolongada",
+      "Assimetria tonsilar significativa em criança é sinal de alarme para linfoma, não devendo ser atribuída à hipertrofia benigna simétrica habitual sem investigação adicional",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menino, 5 anos, apresenta ronco alto todas as noites, respiração bucal constante e episódios de pausa respiratória observados pelos pais durante o sono, associados a dificuldade de concentração na escola.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "Ronco significativo com pausas respiratórias observadas e impacto no desempenho escolar sugerem apneia obstrutiva do sono por hipertrofia adenotonsilar, causa mais comum dessa condição na infância.",
+      conduta:
+        "Realizar orofaringoscopia para graduação tonsilar e avaliação da adenoide (nasofibroscopia ou radiografia de cavum); confirmar a gravidade com polissonografia e encaminhar para adenoamigdalectomia, tratamento definitivo mais eficaz.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento definitivo para casos sintomáticos significativos é cirúrgico (adenoamigdalectomia); o corticosteroide nasal tópico usado em casos leves ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia (hiperplasia linfoide de Waldeyer) e associação com apneia obstrutiva do sono na infância", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Fácies adenoideana e indicação de adenoamigdalectomia", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "abscesso-periamigdaliano",
+    nome: "Abscesso periamigdaliano",
+    sinonimos: ["Flegmão periamigdaliano"],
+    cid10: "J36",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Bacteriana",
+    resumo: "Coleção purulenta entre a cápsula tonsilar e a musculatura constritora da faringe, a infecção profunda de cabeça e pescoço mais comum, exigindo drenagem associada a antibioticoterapia.",
+    definicao:
+      "Coleção de material purulento localizada no espaço potencial entre a cápsula da tonsila palatina e a musculatura constritora superior da faringe, geralmente como complicação supurativa de uma amigdalite bacteriana não tratada ou tratada inadequadamente.",
+    epidemiologia:
+      "É a infecção profunda do espaço cervical mais comum, acometendo mais frequentemente adolescentes e adultos jovens, embora possa ocorrer em qualquer idade; geralmente polimicrobiano, envolvendo tanto Streptococcus pyogenes quanto flora anaeróbia da orofaringe.",
+    fisiopatologia:
+      "A infecção bacteriana tonsilar (amigdalite aguda) estende-se além da cápsula tonsilar para o espaço potencial adjacente, formando inicialmente uma celulite periamigdaliana que pode progredir para verdadeira coleção purulenta organizada (abscesso), com efeito de massa que desloca a tonsila e a úvula, causando os achados característicos de trismo e assimetria.",
+    classificacao:
+      "Classificado em fase de celulite periamigdaliana (sem coleção purulenta organizada, tratável apenas com antibiótico) e fase de abscesso propriamente dito (coleção purulenta organizada, exigindo drenagem além do antibiótico), distinção nem sempre óbvia apenas pelo exame clínico.",
+    quadroClinico: [
+      "Odinofagia intensa e progressiva, tipicamente unilateral e desproporcional ao encontrado na amigdalite simples",
+      "Trismo (dificuldade de abertura da boca) por espasmo secundário dos músculos pterigóideos, achado característico e importante para o diagnóstico",
+      "Voz abafada, descrita classicamente como 'voz de batata quente'",
+      "Desvio da úvula para o lado contralateral e abaulamento assimétrico do pilar amigdaliano anterior/palato mole no lado acometido",
+      "Febre, sialorreia (dificuldade de deglutir a própria saliva) e linfadenopatia cervical dolorosa associadas",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado na tríade de trismo, voz abafada e assimetria/abaulamento periamigdaliano com desvio da úvula",
+      "Aspiração com agulha do abscesso confirma o diagnóstico ao obter material purulento e é simultaneamente terapêutica",
+      "Tomografia computadorizada com contraste reservada a casos de diagnóstico incerto, extensão suspeita além do espaço periamigdaliano, ou trismo intenso que impede exame adequado",
+    ],
+    examesComplementares: [
+      "Aspiração com agulha, com obtenção de material purulento confirmando o diagnóstico de abscesso (em oposição à celulite periamigdaliana sem coleção organizada)",
+      "Tomografia computadorizada de pescoço com contraste em casos de dúvida diagnóstica ou suspeita de extensão para espaços cervicais profundos adjacentes",
+    ],
+    diagnosticoDiferencial: [
+      "Amigdalite aguda não complicada (sem trismo, sem desvio de úvula, sem assimetria significativa)",
+      "Abscesso retrofaríngeo ou parafaríngeo (extensão para outros espaços cervicais profundos, com apresentação e conduta que podem se sobrepor)",
+      "Mononucleose infecciosa com hipertrofia tonsilar acentuada (geralmente bilateral e simétrica, sem os achados focais de abscesso)",
+    ],
+    tratamento: [
+      "Drenagem do abscesso (por aspiração com agulha ou incisão e drenagem) é essencial e deve ser realizada assim que o diagnóstico é confirmado, sendo tanto diagnóstica quanto terapêutica",
+      "Amoxicilina com clavulanato é o antibiótico de escolha, cobrindo tanto Streptococcus pyogenes quanto a flora anaeróbia frequentemente envolvida",
+      "Analgesia adequada e hidratação (por vezes intravenosa, dada a dificuldade de ingesta oral pela odinofagia intensa) como medidas de suporte",
+      "Amigdalectomia considerada em casos recorrentes de abscesso periamigdaliano ou como abordagem definitiva em casos selecionados",
+    ],
+    complicacoes: [
+      "Aguda: extensão da infecção para espaços cervicais profundos adjacentes (parafaríngeo, retrofaríngeo), obstrução da via aérea superior em casos volumosos, aspiração se o abscesso se rompe espontaneamente",
+      "Crônica: recorrência do abscesso periamigdaliano em episódios subsequentes",
+    ],
+    redFlags: [
+      "Trismo intenso associado a dificuldade respiratória ou estridor sugere extensão significativa da infecção com risco de comprometimento de via aérea, exigindo avaliação e manejo urgentes da via aérea antes de qualquer outro procedimento",
+      "Extensão dos sintomas para o pescoço (edema cervical significativo, rigidez de nuca) sugere disseminação para espaços cervicais profundos adjacentes, exigindo investigação de imagem urgente",
+    ],
+    prognostico:
+      "Excelente prognóstico com drenagem e antibioticoterapia adequadas, com resolução completa na grande maioria dos casos; complicações graves são raras quando o tratamento é iniciado prontamente.",
+    pontosDeProva: [
+      "A tríade de trismo, voz abafada ('de batata quente') e desvio da úvula é o achado clínico clássico e mais cobrado do abscesso periamigdaliano",
+      "A drenagem (aspiração ou incisão) é essencial e não deve ser substituída apenas por antibioticoterapia, diferentemente da amigdalite simples não complicada",
+      "É a infecção profunda de cabeça e pescoço mais comum, geralmente polimicrobiana, envolvendo tanto Streptococcus pyogenes quanto flora anaeróbia",
+    ],
+    casoClinico: {
+      vinheta:
+        "Adolescente, 16 anos, com dor de garganta intensa há 3 dias, evoluindo com dificuldade progressiva para abrir a boca, voz abafada e sialorreia, apresentando abaulamento do pilar amigdaliano direito com desvio da úvula.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "A tríade de trismo, voz abafada e desvio da úvula com abaulamento assimétrico é o quadro clássico de abscesso periamigdaliano, exigindo drenagem além de antibioticoterapia.",
+      conduta:
+        "Realizar aspiração com agulha do abscesso para confirmação diagnóstica e drenagem terapêutica; iniciar amoxicilina com clavulanato, associada a analgesia e hidratação adequadas.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina-clavulanato", nome: "Amoxicilina + Clavulanato" },
+    ],
+    fontes: [
+      { tema: "Fisiopatologia (extensão além da cápsula tonsilar) e tríade clínica clássica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Amoxicilina com clavulanato cobrindo flora polimicrobiana e necessidade de drenagem", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "laringite-laringotraqueite-cronicas",
+    nome: "Laringite e laringotraqueíte crônicas",
+    sinonimos: ["Laringite crônica"],
+    cid10: "J37",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Inflamação persistente da laringe por mais de três semanas, mais comumente relacionada a tabagismo, refluxo laringofaríngeo ou abuso vocal crônico, exigindo laringoscopia para exclusão de neoplasia antes de assumir causa benigna.",
+    definicao:
+      "Inflamação da mucosa laríngea persistindo por mais de três semanas, distinta da forma aguda autolimitada, geralmente resultante de exposição contínua a um fator irritante ou lesivo identificável, com a rouquidão persistente sendo o sintoma cardinal.",
+    epidemiologia:
+      "Fortemente associada a tabagismo (fator de risco mais importante, tanto para a laringite crônica benigna quanto, criticamente, para a neoplasia laríngea que deve sempre ser excluída), refluxo laringofaríngeo, e abuso vocal crônico ocupacional (professores, cantores, locutores).",
+    fisiopatologia:
+      "A exposição contínua a um agente lesivo (fumaça de cigarro, ácido gástrico refluído, trauma mecânico repetido pelo abuso vocal) mantém um estado de inflamação crônica da mucosa laríngea e das pregas vocais, levando a espessamento epitelial, edema crônico (edema de Reinke, sobretudo associado ao tabagismo) e, eventualmente, alterações displásicas que podem preceder a transformação maligna quando a exposição ao fator lesivo (particularmente tabagismo) não é interrompida.",
+    classificacao:
+      "Classificada pela causa predominante identificável: irritativa (tabagismo, poluentes ocupacionais), por refluxo laringofaríngeo, e por abuso vocal crônico (podendo levar a lesões estruturais associadas como nódulos ou pólipos de prega vocal, fichas relacionadas na categoria de doenças das cordas vocais).",
+    quadroClinico: [
+      "Rouquidão persistente por mais de três semanas, sintoma cardinal e critério temporal que a distingue da laringite aguda",
+      "Sensação de pigarro constante, tosse crônica e sensação de globo faríngeo (globus)",
+      "Fadiga vocal (dificuldade em manter a qualidade vocal ao longo do dia) em casos relacionados a abuso vocal ocupacional",
+      "Sintomas de refluxo associados (pirose, regurgitação) quando o refluxo laringofaríngeo é a causa de base, embora esses sintomas típicos possam estar ausentes mesmo quando o refluxo é a causa",
+    ],
+    diagnostico: [
+      "Laringoscopia é exame obrigatório em toda rouquidão persistente além de três semanas, tanto para caracterizar os achados inflamatórios quanto, criticamente, para excluir neoplasia laríngea, sobretudo em tabagistas",
+      "Investigação de refluxo laringofaríngeo (prova terapêutica com inibidor de bomba de prótons) quando os achados laringoscópicos (edema e eritema da região posterior da laringe) sugerem essa causa",
+      "História detalhada de tabagismo, uso vocal ocupacional e sintomas de refluxo orienta a investigação da causa de base",
+    ],
+    examesComplementares: [
+      "Laringoscopia (indireta ou por fibra óptica) para visualização direta das pregas vocais e da mucosa laríngea, exame central e obrigatório nesta condição",
+      "Biópsia de lesões suspeitas identificadas à laringoscopia, para exclusão histológica de displasia ou neoplasia",
+    ],
+    diagnosticoDiferencial: [
+      "Neoplasia laríngea (deve ser sempre excluída pela laringoscopia em toda rouquidão persistente, sobretudo em tabagistas, antes de assumir causa benigna)",
+      "Nódulos ou pólipos de prega vocal (lesões estruturais focais associadas a abuso vocal, distintas da inflamação difusa da laringite crônica simples)",
+      "Paralisia de prega vocal (rouquidão associada a outros sinais, como aspiração, distinta do padrão inflamatório da laringite crônica)",
+    ],
+    tratamento: [
+      "Cessação do tabagismo é a medida mais importante quando esse é o fator causal identificado, com potencial de reverter parcialmente as alterações inflamatórias crônicas se interrompida a tempo",
+      "Tratamento do refluxo laringofaríngeo (inibidor de bomba de prótons, medidas comportamentais) quando identificado como causa de base",
+      "Terapia fonoaudiológica (higiene vocal, técnicas de uso vocal adequado) para casos relacionados a abuso vocal crônico",
+      "Hidratação adequada e evitar irritantes adicionais (álcool, ambientes secos) como medidas gerais de suporte",
+    ],
+    complicacoes: [
+      "Crônica: progressão para lesões displásicas e, em casos de exposição prolongada e não corrigida ao tabagismo, risco aumentado de neoplasia laríngea; edema de Reinke crônico com impacto vocal permanente",
+    ],
+    redFlags: [
+      "Rouquidão persistente por mais de três semanas, sobretudo em tabagista, é indicação obrigatória de laringoscopia para exclusão de neoplasia laríngea, nunca devendo ser atribuída empiricamente a causa benigna sem essa investigação",
+      "Lesão suspeita à laringoscopia (assimetria, ulceração, massa exofítica) exige biópsia imediata para definição histológica",
+    ],
+    prognostico:
+      "O prognóstico é favorável quando o fator causal é identificado e corrigido (cessação do tabagismo, controle do refluxo, terapia fonoaudiológica), com melhora gradual da qualidade vocal ao longo de semanas a meses; a persistência da exposição ao fator causal mantém ou agrava o quadro, com risco cumulativo de transformação maligna no caso do tabagismo não interrompido.",
+    pontosDeProva: [
+      "Toda rouquidão persistente além de três semanas exige laringoscopia obrigatória para excluir neoplasia laríngea, independentemente da causa benigna que pareça mais provável clinicamente",
+      "O tabagismo é o fator de risco mais importante tanto para a laringite crônica quanto para a neoplasia laríngea, reforçando por que a exclusão desta última é sempre prioritária na investigação",
+      "O refluxo laringofaríngeo pode causar laringite crônica mesmo na ausência de sintomas típicos de refluxo (pirose), sendo frequentemente subdiagnosticado por esse motivo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 60 anos, tabagista há 40 anos, apresenta rouquidão progressiva há 2 meses, sem outros sintomas associados.",
+      pergunta: "Qual a conduta diagnóstica obrigatória diante deste quadro?",
+      raciocinio:
+        "Rouquidão persistente além de três semanas em tabagista de longa data exige exclusão obrigatória de neoplasia laríngea antes de qualquer outra consideração diagnóstica.",
+      conduta:
+        "Encaminhar para laringoscopia com urgência para avaliação direta das pregas vocais e da mucosa laríngea, com biópsia de qualquer lesão suspeita identificada.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende da correção da causa de base (cessação do tabagismo, controle do refluxo, terapia fonoaudiológica); não há medicamento único de primeira linha para esta condição.",
+    fontes: [
+      { tema: "Fisiopatologia (espessamento epitelial e edema de Reinke) e fatores de risco", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Obrigatoriedade de laringoscopia na rouquidão persistente para exclusão de neoplasia", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "doencas-cordas-vocais-laringe",
+    nome: "Doenças das cordas vocais e da laringe não classificadas em outra parte",
+    sinonimos: ["Nódulos vocais", "Paralisia de prega vocal", "Pólipo de prega vocal"],
+    cid10: "J38",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Multifatorial",
+    resumo: "Categoria que reúne lesões estruturais focais das pregas vocais (nódulos, pólipos) e a paralisia de prega vocal, causas importantes de disfonia crônica com abordagens terapêuticas específicas para cada entidade.",
+    definicao:
+      "Categoria diagnóstica que reúne lesões estruturais benignas focais das pregas vocais, mais notavelmente os nódulos vocais (lesões bilaterais simétricas por trauma fonatório repetitivo) e os pólipos de prega vocal (lesão geralmente unilateral, por vezes após um único evento de esforço vocal intenso), além da paralisia de prega vocal (imobilidade de uma ou ambas as pregas vocais por comprometimento do nervo laríngeo recorrente ou vago).",
+    epidemiologia:
+      "Os nódulos vocais são mais comuns em profissionais que dependem intensamente da voz (professores, cantores, locutores) e em crianças com uso vocal abusivo (gritar excessivamente). A paralisia de prega vocal tem causas variadas, incluindo lesão cirúrgica do nervo laríngeo recorrente (mais comumente durante cirurgia de tireoide), neoplasias que comprimem o trajeto do nervo (sobretudo pulmonares, dado o trajeto do nervo laríngeo recorrente esquerdo pelo mediastino), e causas idiopáticas.",
+    fisiopatologia:
+      "Os nódulos vocais resultam de trauma mecânico repetitivo no ponto de maior impacto de colisão das pregas vocais durante a fonação abusiva, causando espessamento fibroso localizado e simétrico. Os pólipos de prega vocal resultam de hemorragia submucosa aguda após esforço vocal intenso único, seguida de organização em uma lesão polipoide, geralmente unilateral. A paralisia de prega vocal resulta de interrupção da condução neural ao músculo laríngeo, seja por lesão direta do nervo laríngeo recorrente ou vago, seja por compressão extrínseca ao longo de seu longo trajeto anatômico (que inclui, no lado esquerdo, uma alça ao redor do arco aórtico no mediastino).",
+    classificacao:
+      "Classificada pela lesão específica: nódulos vocais (bilaterais, simétricos, por abuso vocal crônico), pólipos de prega vocal (geralmente unilaterais, por trauma vocal agudo), e paralisia de prega vocal (uni ou bilateral, classificada também pela posição da prega paralisada, que influencia a gravidade dos sintomas).",
+    quadroClinico: [
+      "Nódulos vocais: rouquidão crônica e progressiva, fadiga vocal, voz de qualidade áspera, tipicamente em profissionais da voz ou crianças com uso vocal abusivo",
+      "Pólipo de prega vocal: rouquidão de início mais súbito, frequentemente após um episódio identificável de esforço vocal intenso",
+      "Paralisia de prega vocal unilateral: voz fraca e soprosa, engasgos frequentes durante a deglutição de líquidos (pela incompetência glótica)",
+      "Paralisia de prega vocal bilateral: pode causar estridor e comprometimento respiratório significativo, ao contrário da forma unilateral, que afeta predominantemente a qualidade vocal",
+    ],
+    diagnostico: [
+      "Laringoscopia (indireta, por fibra óptica, ou estroboscopia) é o exame central para visualização direta e diferenciação entre as diferentes lesões estruturais e a paralisia de prega vocal",
+      "Estroboscopia laríngea permite avaliação detalhada da vibração das pregas vocais, útil para diferenciar lesões estruturais sutis",
+      "Investigação da causa de base em toda paralisia de prega vocal identificada, incluindo avaliação de possível compressão extrínseca ao longo de todo o trajeto do nervo (tomografia de pescoço e tórax, dado o trajeto mediastinal do nervo laríngeo recorrente esquerdo)",
+    ],
+    examesComplementares: [
+      "Laringoscopia e estroboscopia para visualização direta e caracterização das lesões estruturais das pregas vocais",
+      "Tomografia computadorizada de pescoço e tórax em toda paralisia de prega vocal sem causa cirúrgica óbvia, para rastrear compressão extrínseca ao longo de todo o trajeto do nervo, incluindo o mediastino",
+    ],
+    diagnosticoDiferencial: [
+      "Laringite aguda ou crônica (inflamação difusa da mucosa, sem a lesão estrutural focal característica dos nódulos/pólipos)",
+      "Neoplasia laríngea (deve sempre ser excluída, sobretudo em pacientes com fatores de risco, antes de assumir lesão benigna)",
+      "Papilomatose laríngea (lesões múltiplas de aspecto verrucoso, de etiologia pelo papilomavírus humano, distinta clinicamente e endoscopicamente)",
+    ],
+    tratamento: [
+      "Nódulos vocais: terapia fonoaudiológica (higiene vocal, técnicas de uso vocal adequado) é o tratamento de primeira linha, frequentemente suficiente para resolução sem necessidade de cirurgia",
+      "Pólipo de prega vocal: repouso vocal inicial, mas frequentemente requer remoção cirúrgica (microcirurgia de laringe) quando não há resolução espontânea, dado o caráter mais organizado e menos reversível da lesão comparado ao nódulo",
+      "Paralisia de prega vocal unilateral: terapia fonoaudiológica para compensação, com procedimentos de medialização da prega vocal (injeção ou tireoplastia) considerados em casos de disfonia ou aspiração significativas e persistentes",
+      "Paralisia de prega vocal bilateral com comprometimento respiratório significativo pode exigir traqueostomia de urgência, dada a gravidade potencial do comprometimento da via aérea",
+    ],
+    complicacoes: [
+      "Aguda: comprometimento respiratório significativo na paralisia de prega vocal bilateral, exigindo intervenção urgente",
+      "Crônica: disfonia persistente com impacto ocupacional e social significativo quando não tratada adequadamente, aspiração recorrente na paralisia unilateral não compensada",
+    ],
+    redFlags: [
+      "Paralisia de prega vocal bilateral com estridor ou dificuldade respiratória é emergência que pode exigir via aérea cirúrgica de urgência",
+      "Toda paralisia de prega vocal sem causa cirúrgica evidente exige investigação de compressão extrínseca ao longo de todo o trajeto do nervo, incluindo o mediastino, pela possibilidade de neoplasia maligna torácica subjacente (sobretudo do lado esquerdo)",
+    ],
+    prognostico:
+      "Os nódulos vocais têm excelente prognóstico com terapia fonoaudiológica adequada, frequentemente resolvendo sem necessidade de cirurgia. Os pólipos de prega vocal geralmente exigem remoção cirúrgica para resolução completa, com bom prognóstico vocal pós-operatório. A paralisia de prega vocal tem prognóstico variável conforme a causa e a possibilidade de recuperação da função do nervo ao longo do tempo.",
+    pontosDeProva: [
+      "Nódulos vocais são bilaterais e simétricos (trauma fonatório repetitivo), enquanto pólipos são tipicamente unilaterais (evento agudo de esforço vocal) — distinção anatômica central e frequentemente cobrada",
+      "O trajeto anatômico do nervo laríngeo recorrente esquerdo, contornando o arco aórtico no mediastino, explica por que neoplasias torácicas (sobretudo pulmonares) são causa importante de paralisia de prega vocal esquerda, exigindo investigação de imagem torácica",
+      "A terapia fonoaudiológica é tratamento de primeira linha e frequentemente suficiente para nódulos vocais, ao contrário dos pólipos, que mais comumente exigem remoção cirúrgica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Professora, 38 anos, com rouquidão progressiva e fadiga vocal ao longo do dia há vários meses, sem episódio agudo identificável, com boa resposta parcial a repouso vocal nos fins de semana.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e o tratamento de primeira linha?",
+      raciocinio:
+        "Rouquidão crônica e progressiva com fadiga vocal em profissional que depende intensamente da voz, sem episódio agudo identificável, sugere fortemente nódulos vocais bilaterais por trauma fonatório repetitivo.",
+      conduta:
+        "Confirmar o diagnóstico por laringoscopia/estroboscopia, identificando lesões bilaterais simétricas; iniciar terapia fonoaudiológica como tratamento de primeira linha, reservando cirurgia para casos refratários.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é fonoaudiológico e/ou cirúrgico conforme a lesão específica; não há tratamento medicamentoso para esta categoria de lesões estruturais e neurológicas da laringe.",
+    fontes: [
+      { tema: "Fisiopatologia (trauma fonatório nos nódulos, trajeto do nervo laríngeo recorrente na paralisia)", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Distinção nódulo vs. pólipo e investigação torácica obrigatória na paralisia de prega vocal esquerda", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "abscesso-retrofaringeo",
+    nome: "Outras doenças das vias aéreas superiores (abscesso retrofaríngeo)",
+    sinonimos: ["Abscesso retrofaríngeo", "Infecção do espaço retrofaríngeo"],
+    cid10: "J39",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Bacteriana",
+    resumo: "Coleção purulenta no espaço retrofaríngeo, infecção profunda do pescoço mais comum na infância pequena, com risco de comprometimento grave da via aérea e de extensão ao mediastino.",
+    definicao:
+      "Coleção purulenta localizada no espaço retrofaríngeo, situado entre a parede posterior da faringe e a fáscia pré-vertebral, mais comumente originada da supuração dos linfonodos retrofaríngeos (presentes principalmente em crianças pequenas, com involução progressiva a partir dos 4-5 anos de idade) secundária a uma infecção de vias aéreas superiores ou dentária precedente.",
+    epidemiologia:
+      "Mais comum em crianças pequenas, tipicamente abaixo de 5-6 anos, refletindo a presença dos linfonodos retrofaríngeos nessa faixa etária (que sofrem involução progressiva com a idade); em adultos, é mais raramente associado a trauma direto (corpo estranho, instrumentação) ou extensão de infecção odontogênica.",
+    fisiopatologia:
+      "A infecção bacteriana de uma estrutura de drenagem linfática da nasofaringe ou orofaringe (infecção de vias aéreas superiores, otite média, faringite) causa supuração dos linfonodos retrofaríngeos em crianças pequenas, formando uma coleção purulenta que, dado o espaço potencial contíguo, tem capacidade de se estender ao longo do plano fascial retrofaríngeo até o mediastino posterior, tornando essa condição potencialmente grave mesmo quando a apresentação inicial parece localizada.",
+    classificacao:
+      "Classificado por extensão em localizado ao espaço retrofaríngeo cervical e estendido ao mediastino (mediastinite descendente necrosante), esta última uma complicação grave e potencialmente fatal que exige reconhecimento e tratamento emergenciais.",
+    quadroClinico: [
+      "Febre alta e irritabilidade importante, sobretudo em crianças pequenas",
+      "Recusa alimentar, sialorreia e dor à deglutição (odinofagia) significativa",
+      "Torcicolo ou limitação da extensão cervical, achado característico que reflete irritação da musculatura pré-vertebral adjacente",
+      "Estridor ou dificuldade respiratória em casos de comprometimento significativo da via aérea pelo efeito de massa do abscesso",
+    ],
+    diagnostico: [
+      "Radiografia cervical lateral em partes moles pode sugerir o diagnóstico ao demonstrar espessamento do espaço retrofaríngeo, sendo exame de triagem inicial rápido",
+      "Tomografia computadorizada de pescoço com contraste é o exame de escolha para confirmação diagnóstica, delimitação da extensão da coleção e avaliação de eventual extensão mediastinal",
+      "Avaliação cuidadosa da via aérea é prioritária em toda avaliação inicial, dado o risco de comprometimento respiratório significativo",
+    ],
+    examesComplementares: [
+      "Radiografia cervical lateral em partes moles com espessamento do espaço pré-vertebral, achado sugestivo e útil como triagem inicial",
+      "Tomografia computadorizada de pescoço com contraste, exame definidor para confirmação, extensão e planejamento cirúrgico, incluindo avaliação de extensão ao mediastino",
+    ],
+    diagnosticoDiferencial: [
+      "Abscesso periamigdaliano e parafaríngeo (outros espaços cervicais profundos, com apresentação clínica que pode se sobrepor, distinguidos por imagem)",
+      "Epiglotite aguda (estridor e dificuldade respiratória proeminentes, com apresentação e conduta emergencial distintas)",
+      "Meningite (rigidez de nuca pode mimetizar o torcicolo do abscesso retrofaríngeo, distinção importante pela diferença radical de conduta)",
+    ],
+    tratamento: [
+      "Avaliação e proteção da via aérea como prioridade absoluta inicial, dado o risco de comprometimento respiratório significativo",
+      "Drenagem cirúrgica do abscesso é o tratamento definitivo na maioria dos casos com coleção purulenta bem estabelecida",
+      "Antibioticoterapia intravenosa de amplo espectro, cobrindo flora polimicrobiana (incluindo anaeróbios), associada à drenagem cirúrgica",
+      "Monitorização intensiva pós-drenagem, dado o risco de complicações relacionadas à via aérea e à possível extensão mediastinal",
+    ],
+    complicacoes: [
+      "Aguda: obstrução aguda da via aérea superior, ruptura espontânea do abscesso com aspiração do conteúdo purulento",
+      "Crônica: mediastinite descendente necrosante por extensão da infecção ao longo do plano fascial retrofaríngeo até o mediastino, complicação grave e potencialmente fatal que exige drenagem cirúrgica extensa e cuidados intensivos",
+    ],
+    redFlags: [
+      "Torcicolo associado a febre alta e recusa alimentar em criança pequena deve sempre levantar suspeita de abscesso retrofaríngeo, exigindo avaliação de imagem urgente",
+      "Dor torácica ou sinais de comprometimento mediastinal associados a infecção cervical profunda sugerem mediastinite descendente necrosante, complicação extremamente grave que exige avaliação e intervenção cirúrgica de urgência",
+      "Estridor ou dificuldade respiratória em criança com suspeita de abscesso retrofaríngeo exige manejo prioritário e cuidadoso da via aérea antes de qualquer outra intervenção",
+    ],
+    prognostico:
+      "Com reconhecimento e tratamento precoces (drenagem cirúrgica e antibioticoterapia adequada), o prognóstico é geralmente bom. A extensão para mediastinite descendente necrosante, quando ocorre, tem mortalidade significativa mesmo com tratamento intensivo, reforçando a importância do diagnóstico precoce.",
+    pontosDeProva: [
+      "É a infecção profunda do pescoço mais comum em crianças pequenas, refletindo a presença de linfonodos retrofaríngeos que sofrem involução progressiva com a idade",
+      "O torcicolo/limitação da extensão cervical é achado característico que reflete irritação da musculatura pré-vertebral adjacente ao espaço retrofaríngeo",
+      "A capacidade de extensão ao longo do plano fascial retrofaríngeo até o mediastino (mediastinite descendente necrosante) é a razão pela qual essa infecção, aparentemente localizada, deve ser tratada com urgência e agressividade",
+    ],
+    casoClinico: {
+      vinheta:
+        "Menina, 3 anos, apresenta febre alta, recusa alimentar, sialorreia e limitação para estender o pescoço há 2 dias, no contexto de uma infecção de vias aéreas superiores na semana anterior.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "Febre alta, recusa alimentar e torcicolo em criança pequena, após infecção recente de vias aéreas superiores, são característicos de abscesso retrofaríngeo, exigindo confirmação e tratamento urgentes.",
+      conduta:
+        "Avaliar prioritariamente a via aérea; solicitar tomografia computadorizada de pescoço com contraste para confirmar o diagnóstico e a extensão; iniciar antibioticoterapia intravenosa de amplo espectro e encaminhar para drenagem cirúrgica.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende de drenagem cirúrgica associada a antibioticoterapia intravenosa de amplo espectro; o esquema antibiótico específico ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia (supuração de linfonodos retrofaríngeos) e extensão ao mediastino", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Torcicolo como achado característico e conduta na mediastinite descendente necrosante", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-cavidade-oral",
+    nome: "Neoplasia maligna da cavidade oral",
+    sinonimos: ["Câncer de boca", "Carcinoma epidermoide de cavidade oral"],
+    cid10: "C00",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna que acomete lábio, língua, gengiva, assoalho da boca e palato, fortemente associada ao tabagismo e etilismo combinados, cujo sinal de alarme mais importante é a úlcera que não cicatriza.",
+    definicao:
+      "Neoplasia maligna originada mais comumente do epitélio escamoso que reveste os lábios, a língua (dois terços anteriores), a gengiva, o assoalho da boca e o palato duro, sendo o carcinoma epidermoide (espinocelular) o tipo histológico predominante.",
+    epidemiologia:
+      "O tabagismo e o etilismo são os principais fatores de risco, com efeito sinérgico marcante quando combinados (o risco combinado é muito superior à soma dos riscos individuais). A infecção pelo papilomavírus humano tem papel menos proeminente na cavidade oral que na orofaringe, onde é causa reconhecida de um subtipo distinto.",
+    fisiopatologia:
+      "A exposição crônica a carcinógenos do tabaco e ao efeito irritante/solvente do álcool sobre a mucosa oral promove acúmulo progressivo de alterações genéticas no epitélio escamoso, frequentemente precedido por lesões potencialmente malignas identificáveis (leucoplasia, eritroplasia), que evoluem através de displasia progressiva até a transformação carcinomatosa invasiva.",
+    classificacao:
+      "Classificada pela subsite anatômico específico (lábio, língua oral, gengiva, assoalho da boca, palato duro, mucosa jugal) e estadiada pelo sistema TNM, com o tamanho tumoral, a profundidade de invasão e a presença de metástase linfonodal cervical sendo os principais determinantes prognósticos.",
+    quadroClinico: [
+      "Úlcera ou lesão oral que não cicatriza após 2-3 semanas, achado de alarme mais importante e mais cobrado",
+      "Massa ou espessamento palpável na mucosa oral, por vezes indolor nas fases iniciais",
+      "Dor oral persistente, sangramento intraoral espontâneo e dificuldade de mastigação/deglutição em fases mais avançadas",
+      "Massa cervical palpável quando há metástase linfonodal já estabelecida ao diagnóstico",
+    ],
+    diagnostico: [
+      "Biópsia da lesão suspeita é o exame definidor, obrigatória diante de qualquer úlcera oral persistente além de 2-3 semanas sem causa identificável evidente",
+      "Exame completo da cavidade oral e palpação cervical bilateral para avaliação de linfadenopatia associada em toda avaliação",
+      "Tomografia computadorizada ou ressonância magnética de cabeça e pescoço para estadiamento locorregional após confirmação histológica",
+    ],
+    examesComplementares: [
+      "Biópsia incisional ou excisional da lesão suspeita, exame confirmatório e definidor do tipo histológico",
+      "Tomografia computadorizada de pescoço com contraste para avaliação de extensão local e presença de linfadenopatia cervical metastática",
+      "Tomografia de tórax para rastreamento de metástase pulmonar em casos de doença localmente avançada",
+    ],
+    diagnosticoDiferencial: [
+      "Lesões potencialmente malignas (leucoplasia, eritroplasia), que podem preceder o carcinoma invasivo e exigem biópsia para exclusão de malignidade já estabelecida",
+      "Úlcera aftosa recorrente e outras lesões orais benignas (geralmente cicatrizam em 1-2 semanas, ao contrário da lesão maligna persistente)",
+      "Infecções orais específicas (candidíase, herpes) quando a apresentação inicial é atípica",
+    ],
+    tratamento: [
+      "Ressecção cirúrgica com margens oncológicas adequadas é o tratamento primário na maioria dos casos localizados",
+      "Esvaziamento cervical (linfadenectomia) associado quando há evidência ou alto risco de metástase linfonodal cervical",
+      "Radioterapia adjuvante indicada conforme fatores de risco patológicos (margens comprometidas, invasão perineural, múltiplos linfonodos acometidos)",
+      "Quimioterapia associada à radioterapia (quimiorradioterapia) considerada em doença localmente avançada ou como tratamento definitivo em pacientes não candidatos à cirurgia",
+    ],
+    complicacoes: [
+      "Aguda: sangramento e infecção no pós-operatório de ressecções extensas",
+      "Crônica: comprometimento funcional significativo da fala, mastigação e deglutição após ressecções extensas, recidiva locorregional, metástase à distância (mais comumente pulmonar) em doença avançada",
+    ],
+    redFlags: [
+      "Úlcera ou lesão oral que não cicatriza após 2-3 semanas deve sempre ser biopsiada, independentemente da aparência inicial, dado o risco de malignidade subjacente",
+      "Massa cervical palpável em paciente com fatores de risco (tabagismo, etilismo) deve motivar busca ativa de um sítio primário na cavidade oral e demais regiões de cabeça e pescoço",
+    ],
+    prognostico:
+      "O prognóstico depende fortemente do estádio ao diagnóstico, com doença localizada tratada precocemente apresentando taxas de sobrevida significativamente melhores que a doença avançada com metástase linfonodal cervical já estabelecida, reforçando a importância do diagnóstico e encaminhamento precoces diante de lesões suspeitas.",
+    pontosDeProva: [
+      "O efeito sinérgico entre tabagismo e etilismo eleva o risco de câncer de cavidade oral muito além da soma dos riscos individuais — conceito central e frequentemente cobrado",
+      "Toda úlcera oral persistente além de 2-3 semanas exige biópsia, independentemente da aparência clínica inicial",
+      "A presença de metástase linfonodal cervical ao diagnóstico é o fator prognóstico mais importante, reforçando a relevância do diagnóstico precoce",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 58 anos, tabagista e etilista de longa data, apresenta úlcera na borda lateral da língua há 5 semanas, indolor, que não cicatrizou apesar de medidas de higiene oral.",
+      pergunta: "Qual a conduta diagnóstica obrigatória?",
+      raciocinio:
+        "Úlcera oral persistente além de 2-3 semanas em paciente com os principais fatores de risco combinados (tabagismo e etilismo) exige exclusão obrigatória de neoplasia maligna.",
+      conduta:
+        "Realizar biópsia da lesão com urgência; se confirmado carcinoma, complementar com tomografia de pescoço para estadiamento locorregional e planejamento do tratamento cirúrgico.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende de cirurgia, radioterapia e/ou quimioterapia, nenhum correspondendo a uma ficha de medicamento individual já documentada no site.",
+    fontes: [
+      { tema: "Fatores de risco (efeito sinérgico tabagismo-etilismo) e progressão de lesões potencialmente malignas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Importância prognóstica da metástase linfonodal cervical ao diagnóstico", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-glandulas-salivares",
+    nome: "Neoplasia maligna das glândulas salivares",
+    sinonimos: ["Câncer de parótida", "Carcinoma mucoepidermoide"],
+    cid10: "C07",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna mais comumente originada na glândula parótida, com o risco de malignidade sendo inversamente proporcional ao tamanho da glândula acometida, e a paralisia facial associada sendo sinal de alto risco.",
+    definicao:
+      "Neoplasia maligna originada mais comumente na glândula parótida (a maior das glândulas salivares maiores), seguida pela glândula submandibular e pelas glândulas salivares menores espalhadas pela mucosa oral e orofaríngea, com o carcinoma mucoepidermoide sendo o tipo histológico maligno mais comum.",
+    epidemiologia:
+      "Contraintuitivamente, a proporção de tumores malignos entre todas as massas de glândula salivar é inversamente proporcional ao tamanho da glândula: a maioria das massas parotídeas (a maior glândula) é benigna, enquanto uma proporção maior das massas em glândulas salivares menores (as menores estruturas) é maligna.",
+    fisiopatologia:
+      "Alterações genéticas adquiridas nas células dos ductos ou acinos glandulares salivares levam à proliferação neoplásica descontrolada; a proximidade anatômica do nervo facial ao seu trajeto intraparotídeo confere significado clínico especial aos tumores malignos dessa glândula, dado o risco de invasão direta do nervo em tumores agressivos.",
+    classificacao:
+      "Classificada histologicamente (carcinoma mucoepidermoide, o tipo maligno mais comum; carcinoma adenoide cístico, notável pela tendência à invasão perineural e recidiva tardia mesmo anos após o tratamento; entre outros subtipos) e pela glândula de origem (parótida, submandibular, sublingual, glândulas salivares menores).",
+    quadroClinico: [
+      "Massa indolor de crescimento lento na região da glândula acometida, achado de apresentação mais comum",
+      "Crescimento rápido, dor associada, ou fixação da massa a estruturas adjacentes sugerem malignidade em vez de tumor benigno",
+      "Paralisia facial associada a massa parotídea é sinal de alto risco, sugerindo invasão direta do nervo facial pelo tumor maligno",
+      "Trismo em casos de invasão da musculatura pterigóidea adjacente em tumores localmente avançados",
+    ],
+    diagnostico: [
+      "Punção aspirativa por agulha fina é o exame inicial de escolha para caracterização citológica da massa antes de qualquer intervenção cirúrgica",
+      "Ressonância magnética é o exame de imagem de escolha para delimitar a extensão da massa e sua relação com estruturas adjacentes, incluindo o trajeto do nervo facial",
+      "Biópsia excisional completa (não apenas incisional, pelo risco de disseminação tumoral ao longo do trajeto de biópsia) reservada a casos de dúvida diagnóstica persistente após punção aspirativa",
+    ],
+    examesComplementares: [
+      "Punção aspirativa por agulha fina, exame inicial de escolha, com boa acurácia para distinguir lesão benigna de maligna e orientar o planejamento cirúrgico",
+      "Ressonância magnética de glândulas salivares para avaliação detalhada da extensão tumoral e relação com o nervo facial na parótida",
+    ],
+    diagnosticoDiferencial: [
+      "Adenoma pleomórfico e outros tumores benignos de glândula salivar (a causa mais comum de massa parotídea, distinguida por crescimento lento, ausência de dor e de paralisia facial)",
+      "Linfadenopatia intraparotídea reativa ou neoplásica (distinguida por características de imagem e punção aspirativa)",
+      "Cisto de glândula salivar ou sialoadenite crônica (contexto clínico e características de imagem distintas)",
+    ],
+    tratamento: [
+      "Ressecção cirúrgica é o tratamento primário na maioria dos casos, com a extensão da cirurgia (parotidectomia parcial vs. total, com ou sem preservação do nervo facial) determinada pela extensão e agressividade do tumor",
+      "Preservação do nervo facial é priorizada sempre que oncologicamente segura, dado seu impacto funcional e estético significativo",
+      "Radioterapia adjuvante indicada em tumores de alto grau, margens comprometidas, invasão perineural ou metástase linfonodal cervical",
+    ],
+    complicacoes: [
+      "Aguda: paralisia facial temporária ou permanente após cirurgia, mesmo quando o nervo é preservado anatomicamente",
+      "Crônica: síndrome de Frey (sudorese facial gustatória, por regeneração aberrante de fibras nervosas parassimpáticas após cirurgia), recidiva local tardia característica do carcinoma adenoide cístico mesmo anos após o tratamento inicial",
+    ],
+    redFlags: [
+      "Paralisia facial associada a massa de glândula salivar é sinal de alto risco para malignidade com invasão do nervo facial, achado que nunca ocorre em tumores benignos e exige investigação e tratamento oncológico prioritários",
+      "Crescimento rápido ou dor associada a massa de glândula salivar previamente estável e indolor sugerem transformação maligna ou tumor maligno de novo",
+    ],
+    prognostico:
+      "O prognóstico varia amplamente conforme o tipo histológico e o estádio: tumores de baixo grau localizados têm excelente prognóstico após ressecção completa, enquanto o carcinoma adenoide cístico, apesar de crescimento geralmente lento, tem tendência characterísitca à recidiva local tardia e metástase à distância mesmo décadas após o tratamento inicial, exigindo acompanhamento muito prolongado.",
+    pontosDeProva: [
+      "O risco de malignidade é inversamente proporcional ao tamanho da glândula salivar acometida — a maioria dos tumores de parótida é benigna, mas a maioria dos tumores de glândulas salivares menores é maligna, relação contraintuitiva e frequentemente cobrada",
+      "A paralisia facial associada a massa parotídea é sinal patognomônico de malignidade com invasão do nervo, nunca ocorrendo em tumores benignos",
+      "O carcinoma adenoide cístico tem tendência característica à invasão perineural e à recidiva tardia, exigindo acompanhamento prolongado mesmo após tratamento aparentemente bem-sucedido",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 52 anos, apresenta massa na região parotídea direita com crescimento progressivo nos últimos 3 meses, associada a fraqueza da hemiface direita de início recente.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "A associação de massa parotídea de crescimento progressivo com paralisia facial ipsilateral é sinal de alto risco para neoplasia maligna com invasão do nervo facial, achado que nunca ocorre em tumores benignos.",
+      conduta:
+        "Solicitar punção aspirativa por agulha fina e ressonância magnética para caracterização da massa e avaliação da extensão; encaminhar para avaliação cirúrgica oncológica com urgência dado o sinal de alto risco identificado.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é cirúrgico, com radioterapia adjuvante em casos selecionados; não há tratamento medicamentoso de primeira linha documentado no site para esta neoplasia.",
+    fontes: [
+      { tema: "Relação inversa entre tamanho glandular e risco de malignidade, e significado da paralisia facial", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Comportamento característico do carcinoma adenoide cístico (invasão perineural, recidiva tardia)", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-orofaringe-tonsila",
+    nome: "Neoplasia maligna da orofaringe e tonsila",
+    sinonimos: ["Câncer de orofaringe", "Câncer de amígdala"],
+    cid10: "C09",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna da orofaringe (incluindo a tonsila palatina), com incidência crescente nas últimas décadas atribuída à infecção pelo papilomavírus humano, subtipo com perfil epidemiológico e prognóstico distintos do câncer relacionado ao tabaco/álcool.",
+    definicao:
+      "Neoplasia maligna originada na orofaringe, região que inclui a base da língua, a tonsila palatina, o palato mole e a parede posterior da faringe, sendo o carcinoma epidermoide o tipo histológico predominante, hoje reconhecido em duas categorias etiológicas distintas.",
+    epidemiologia:
+      "Historicamente associada a tabagismo e etilismo (padrão semelhante ao câncer de cavidade oral), mas com incidência crescente nas últimas décadas de uma forma distinta associada à infecção pelo papilomavírus humano (sobretudo o subtipo 16), tipicamente acometendo homens mais jovens, muitas vezes sem os fatores de risco clássicos de tabagismo/etilismo.",
+    fisiopatologia:
+      "Na forma associada ao tabagismo/etilismo, o mecanismo carcinogênico é análogo ao do câncer de cavidade oral, por acúmulo de alterações genéticas induzidas pelos carcinógenos. Na forma associada ao papilomavírus humano, as oncoproteínas virais E6 e E7 inativam as proteínas supressoras tumorais p53 e Rb, respectivamente, promovendo proliferação celular descontrolada por uma via molecular distinta, o que confere a esse subtipo comportamento biológico e resposta terapêutica diferentes, geralmente mais favoráveis.",
+    classificacao:
+      "Classificada quanto ao status do papilomavírus humano (positivo, com prognóstico geralmente mais favorável mesmo em estádios avançados, ou negativo, associado ao padrão clássico de tabagismo/etilismo), distinção incorporada ao sistema de estadiamento TNM mais recente pela sua forte implicação prognóstica.",
+    quadroClinico: [
+      "Massa cervical assintomática é frequentemente a primeira manifestação, sobretudo na forma associada ao papilomavírus humano, refletindo metástase linfonodal precoce mesmo com tumor primário pequeno e pouco sintomático",
+      "Odinofagia, otalgia referida (via nervo glossofaríngeo) e sensação de corpo estranho na garganta",
+      "Disfagia progressiva em tumores mais volumosos",
+      "Trismo em casos de invasão da musculatura pterigóidea adjacente",
+    ],
+    diagnostico: [
+      "Exame físico da orofaringe e palpação cervical cuidadosa em todo paciente com massa cervical inexplicada, sobretudo em homens de meia-idade",
+      "Biópsia da lesão primária (quando visível) ou biópsia de linfonodo cervical quando o tumor primário não é evidente ao exame inicial",
+      "Teste de p16 (marcador substituto para infecção pelo papilomavírus humano de alto risco) realizado rotineiramente no tecido tumoral, com forte implicação prognóstica e no estadiamento",
+    ],
+    examesComplementares: [
+      "Biópsia com determinação do status de p16/papilomavírus humano, exame que orienta tanto o estadiamento quanto o prognóstico esperado",
+      "Tomografia computadorizada ou ressonância magnética de cabeça e pescoço para avaliação da extensão local e linfonodal",
+      "PET-CT para avaliação de doença primária oculta (quando há metástase cervical sem sítio primário evidente) e para estadiamento de doença à distância",
+    ],
+    diagnosticoDiferencial: [
+      "Linfadenopatia cervical reativa por infecção (contexto clínico agudo, geralmente autolimitado, distinto da massa persistente da neoplasia)",
+      "Linfoma (biópsia excisional do linfonodo, quando indicada, distingue pelo perfil imuno-histoquímico)",
+      "Outras neoplasias primárias de cabeça e pescoço com metástase cervical (investigação sistemática de todos os sítios possíveis quando o primário não é evidente)",
+    ],
+    tratamento: [
+      "Quimiorradioterapia definitiva é frequentemente o tratamento primário, sobretudo em tumores da base da língua e da tonsila, preservando a função de deglutição e fala em comparação à cirurgia extensa",
+      "Ressecção cirúrgica (incluindo técnicas minimamente invasivas transorais) é alternativa em casos selecionados, sobretudo tumores menores e mais acessíveis",
+      "Esvaziamento cervical associado quando há metástase linfonodal significativa não completamente respondida ao tratamento primário",
+      "Estratégias de desintensificação do tratamento estão sendo investigadas especificamente para tumores associados ao papilomavírus humano, dado seu prognóstico mais favorável, buscando reduzir a toxicidade sem comprometer o controle oncológico",
+    ],
+    complicacoes: [
+      "Aguda: mucosite e disfagia significativas durante a quimiorradioterapia, exigindo suporte nutricional em muitos casos",
+      "Crônica: xerostomia (boca seca) permanente por lesão das glândulas salivares pela radioterapia, disfagia crônica, fibrose cervical",
+    ],
+    redFlags: [
+      "Massa cervical persistente e indolor em adulto, sobretudo homem de meia-idade, deve sempre motivar investigação de neoplasia de cabeça e pescoço com exame cuidadoso da orofaringe, mesmo na ausência de fatores de risco clássicos de tabagismo/etilismo",
+    ],
+    prognostico:
+      "O prognóstico é significativamente melhor na doença associada ao papilomavírus humano em comparação à forma clássica associada a tabagismo/etilismo, mesmo em estádios locorregionalmente avançados, refletindo diferenças biológicas fundamentais entre os dois subtipos.",
+    pontosDeProva: [
+      "A incidência crescente de câncer de orofaringe associado ao papilomavírus humano, tipicamente em homens mais jovens sem os fatores de risco clássicos, é mudança epidemiológica importante e frequentemente cobrada",
+      "O status de p16/papilomavírus humano é o fator prognóstico mais importante nesta neoplasia, superando até mesmo o estadiamento TNM tradicional isoladamente",
+      "Massa cervical assintomática como primeira manifestação, mesmo com tumor primário pequeno, é característica da forma associada ao papilomavírus humano, refletindo seu comportamento metastático linfonodal precoce",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 48 anos, não tabagista e sem etilismo significativo, procura atendimento por massa cervical indolor de crescimento progressivo há 2 meses, sem outros sintomas.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a investigação apropriada?",
+      raciocinio:
+        "Massa cervical persistente e indolor em homem de meia-idade, mesmo sem os fatores de risco clássicos, deve levantar suspeita de neoplasia de orofaringe associada ao papilomavírus humano, cujo perfil epidemiológico difere do câncer de cabeça e pescoço clássico.",
+      conduta:
+        "Realizar exame cuidadoso da orofaringe (incluindo palpação da base da língua e das tonsilas) e biópsia de qualquer lesão identificada, ou do linfonodo cervical se o primário não for evidente; determinar o status de p16 no tecido obtido.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é quimiorradioterapia ou cirurgia, sem um medicamento específico documentado no site para esta neoplasia.",
+    fontes: [
+      { tema: "Epidemiologia e fisiopatologia distintas dos subtipos associado ao HPV vs. tabagismo/etilismo", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Status de p16 como fator prognóstico e estratégias de desintensificação terapêutica", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-nasofaringe",
+    nome: "Neoplasia maligna da nasofaringe",
+    sinonimos: ["Câncer de nasofaringe", "Carcinoma de nasofaringe"],
+    cid10: "C11",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna com distribuição geográfica marcadamente desigual e forte associação com o vírus Epstein-Barr, frequentemente diagnosticada em estádio avançado por sua localização anatômica de difícil acesso e sintomas iniciais inespecíficos.",
+    definicao:
+      "Neoplasia maligna originada no epitélio que reveste a nasofaringe, região anatômica de acesso limitado ao exame físico direto, com o carcinoma indiferenciado (também chamado de tipo III da Organização Mundial da Saúde) sendo o subtipo histológico predominante nas regiões de alta incidência.",
+    epidemiologia:
+      "Apresenta distribuição geográfica marcadamente desigual, com incidência muito mais elevada no sul da China e no sudeste asiático que na maior parte do mundo ocidental, refletindo uma combinação de fatores genéticos populacionais, dietéticos (consumo de peixe salgado processado) e, fundamentalmente, a infecção pelo vírus Epstein-Barr, praticamente universal nos casos das regiões de alta incidência.",
+    fisiopatologia:
+      "O vírus Epstein-Barr estabelece infecção latente nas células epiteliais nasofaríngeas, com suas proteínas latentes contribuindo para a transformação neoplásica ao longo do tempo, em interação com fatores genéticos de suscetibilidade populacional e exposições dietéticas/ambientais específicas. A localização anatômica profunda e de difícil visualização direta da nasofaringe frequentemente atrasa o diagnóstico até que o tumor já tenha se disseminado para linfonodos cervicais ou invadido estruturas adjacentes.",
+    classificacao:
+      "Classificada histologicamente pela Organização Mundial da Saúde em carcinoma de células escamosas queratinizante (tipo I, menos associado ao vírus Epstein-Barr), não queratinizante diferenciado (tipo II) e não queratinizante indiferenciado (tipo III, o mais comum nas regiões de alta incidência e fortemente associado ao vírus Epstein-Barr).",
+    quadroClinico: [
+      "Massa cervical assintomática, frequentemente a manifestação inicial mais comum, refletindo o rico suprimento linfático da nasofaringe e a tendência a metástase linfonodal precoce",
+      "Obstrução nasal unilateral e epistaxe recorrente, sintomas locais que podem ser sutis nas fases iniciais",
+      "Otite média serosa unilateral persistente em adulto (por obstrução tumoral da tuba auditiva na nasofaringe), achado que deve sempre motivar exame cuidadoso dessa região",
+      "Sintomas neurológicos (diplopia, neuralgia do trigêmeo) em casos de invasão da base do crânio e comprometimento de nervos cranianos, refletindo doença localmente avançada",
+    ],
+    diagnostico: [
+      "Nasofibroscopia com biópsia da lesão é o exame central para confirmação diagnóstica",
+      "Sorologia para o vírus Epstein-Barr (anticorpos IgA anti-antígeno da cápsula viral) e carga viral de DNA do vírus Epstein-Barr no plasma auxiliam no diagnóstico e na monitorização da resposta ao tratamento e detecção precoce de recidiva",
+      "Ressonância magnética de nasofaringe e base do crânio é o exame de escolha para avaliar extensão local, incluindo possível invasão da base do crânio",
+    ],
+    examesComplementares: [
+      "Nasofibroscopia com biópsia, exame confirmatório e definidor do subtipo histológico",
+      "Carga viral de DNA do vírus Epstein-Barr no plasma, biomarcador útil tanto ao diagnóstico quanto para monitorização longitudinal da resposta terapêutica e detecção de recidiva",
+      "Ressonância magnética de nasofaringe e base do crânio para avaliação detalhada da extensão local, incluindo estruturas neurais adjacentes",
+    ],
+    diagnosticoDiferencial: [
+      "Hipertrofia adenoideana benigna (mais comum em crianças, sem os sinais de alarme de sangramento ou invasão estrutural)",
+      "Linfoma de nasofaringe (distinguido por biópsia e perfil imuno-histoquímico)",
+      "Outras causas de otite média serosa unilateral persistente em adulto, sempre exigindo exclusão de massa nasofaríngea antes de serem atribuídas a causas benignas",
+    ],
+    tratamento: [
+      "Radioterapia é o tratamento primário e central para a maioria dos casos, dada a localização anatômica de difícil acesso cirúrgico e a alta radiossensibilidade do carcinoma indiferenciado",
+      "Quimioterapia concomitante à radioterapia (quimiorradioterapia) é acrescentada em doença localmente avançada, com benefício estabelecido de sobrevida",
+      "Quimioterapia de indução antes da quimiorradioterapia é considerada em casos selecionados de doença avançada",
+      "Cirurgia tem papel limitado, reservada principalmente ao tratamento de doença residual/recidivada em linfonodos cervicais após radioterapia",
+    ],
+    complicacoes: [
+      "Aguda: mucosite intensa durante a radioterapia, dada a proximidade de múltiplas estruturas sensíveis",
+      "Crônica: xerostomia permanente, hipopituitarismo por radiação da base do crânio, paralisia de nervos cranianos por invasão tumoral ou sequela de tratamento, otite média serosa crônica",
+    ],
+    redFlags: [
+      "Otite média serosa unilateral persistente em adulto, sobretudo em população de risco (ascendência asiática), deve sempre motivar exame da nasofaringe para excluir massa obstrutiva, incluindo neoplasia",
+      "Sintomas neurológicos (diplopia, neuralgia facial) associados a massa nasofaríngea sugerem invasão da base do crânio, indicando doença localmente avançada que exige avaliação de imagem detalhada urgente",
+    ],
+    prognostico:
+      "O carcinoma indiferenciado de nasofaringe é altamente radiossensível, com boas taxas de controle locorregional mesmo em doença avançada quando tratado com quimiorradioterapia adequada; a carga viral de DNA do vírus Epstein-Barr no plasma é útil para monitorização prognóstica e detecção precoce de recidiva.",
+    pontosDeProva: [
+      "A distribuição geográfica marcadamente desigual (alta incidência no sul da China e sudeste asiático) e a associação quase universal com o vírus Epstein-Barr nessas regiões são achados epidemiológicos centrais e frequentemente cobrados",
+      "Otite média serosa unilateral persistente em adulto é sinal de alarme clássico que exige exame da nasofaringe para excluir massa obstrutiva",
+      "A radioterapia, não a cirurgia, é o tratamento primário central, dada a alta radiossensibilidade do tumor e a localização anatômica de difícil acesso cirúrgico",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 45 anos, de ascendência asiática, apresenta massa cervical indolor há 2 meses, associada a obstrução nasal unilateral direita e otite média serosa persistente do mesmo lado.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a investigação apropriada?",
+      raciocinio:
+        "A combinação de massa cervical, obstrução nasal unilateral e otite média serosa unilateral persistente em paciente de população de risco é altamente sugestiva de neoplasia maligna de nasofaringe.",
+      conduta:
+        "Realizar nasofibroscopia com biópsia da nasofaringe para confirmação diagnóstica; solicitar sorologia e carga viral do vírus Epstein-Barr, e ressonância magnética de nasofaringe e base do crânio para estadiamento local.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é radioterapia associada a quimioterapia em doença avançada; não há tratamento medicamentoso específico documentado no site para esta neoplasia.",
+    fontes: [
+      { tema: "Distribuição geográfica, associação com vírus Epstein-Barr e classificação histológica da OMS", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Carga viral de DNA do EBV como biomarcador prognóstico e radioterapia como tratamento primário", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-hipofaringe",
+    nome: "Neoplasia maligna da hipofaringe",
+    sinonimos: ["Câncer de hipofaringe", "Câncer de seio piriforme"],
+    cid10: "C12",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna da porção mais inferior da faringe, frequentemente diagnosticada em estádio avançado pela ausência de sintomas específicos nas fases iniciais, com o pior prognóstico entre as neoplasias malignas de cabeça e pescoço.",
+    definicao:
+      "Neoplasia maligna originada na hipofaringe, segmento da faringe situado entre a orofaringe e o esôfago, compreendendo o seio piriforme (sítio mais comum), a parede posterior da hipofaringe e a região pós-cricoide, com o carcinoma epidermoide sendo o tipo histológico predominante.",
+    epidemiologia:
+      "Fortemente associada a tabagismo e etilismo intensos e prolongados, com perfil de risco semelhante ao câncer de laringe e cavidade oral; a síndrome de Plummer-Vinson (associação de disfagia, anemia ferropriva e membranas esofágicas) é fator de risco específico e classicamente associado ao carcinoma da região pós-cricoide, sobretudo em mulheres.",
+    fisiopatologia:
+      "A exposição crônica a carcinógenos do tabaco e do álcool promove transformação neoplásica progressiva do epitélio escamoso hipofaríngeo; a ausência de sintomas específicos nas fases iniciais (a hipofaringe tem capacidade funcional de reserva significativa antes que sintomas obstrutivos se manifestem) contribui para o diagnóstico frequentemente tardio, com doença já avançada e metástase linfonodal cervical extensa e bilateral estabelecida ao diagnóstico na maioria dos casos.",
+    classificacao:
+      "Classificada pelo subsite anatômico específico (seio piriforme, o mais comum; parede posterior; região pós-cricoide, esta última associada à síndrome de Plummer-Vinson) e estadiada pelo sistema TNM, com a extensão frequentemente avançada ao diagnóstico sendo característica marcante desta neoplasia.",
+    quadroClinico: [
+      "Disfagia progressiva, sintoma mais comum, porém frequentemente tardio dada a capacidade funcional de reserva da região",
+      "Odinofagia e otalgia referida (via nervo vago), sintomas inespecíficos que podem ser inicialmente atribuídos a outras causas",
+      "Massa cervical, frequentemente bilateral, é comum já ao diagnóstico, refletindo a rica drenagem linfática da região e o diagnóstico tipicamente tardio",
+      "Rouquidão em casos de invasão da laringe adjacente, e perda de peso significativa associada à disfagia prolongada",
+    ],
+    diagnostico: [
+      "Nasofibroscopia/laringoscopia com biópsia da lesão é o exame central para confirmação diagnóstica",
+      "Tomografia computadorizada ou ressonância magnética de pescoço para avaliação da extensão local e linfonodal, frequentemente já extensa ao diagnóstico",
+      "Endoscopia digestiva alta associada para avaliação do esôfago, dado o risco aumentado de segundo tumor primário sincrônico no trato aerodigestivo superior nesses pacientes",
+    ],
+    examesComplementares: [
+      "Nasofibroscopia/laringoscopia com biópsia, exame confirmatório da lesão hipofaríngea",
+      "Tomografia computadorizada de pescoço e tórax para estadiamento locorregional e rastreamento de metástase pulmonar, frequente dado o estádio avançado habitual ao diagnóstico",
+    ],
+    diagnosticoDiferencial: [
+      "Neoplasia laríngea com extensão à hipofaringe (distinção que pode ser desafiadora em tumores volumosos que acometem ambas as regiões)",
+      "Divertículo de Zenker e outras causas benignas de disfagia (contexto clínico e achados de imagem distintos)",
+      "Estenose esofágica cervical (avaliada por endoscopia digestiva)",
+    ],
+    tratamento: [
+      "Quimiorradioterapia definitiva é frequentemente preferida como estratégia de preservação de órgão, evitando a laringectomia total em casos selecionados",
+      "Laringofaringectomia (remoção da laringe e da hipofaringe) associada a esvaziamento cervical é indicada em doença muito avançada ou refratária ao tratamento não cirúrgico, exigindo reconstrução e traqueostomia definitiva",
+      "Esvaziamento cervical bilateral frequentemente necessário dada a alta frequência de metástase linfonodal bilateral ao diagnóstico",
+    ],
+    complicacoes: [
+      "Aguda: obstrução da via aérea ou disfagia grave exigindo suporte nutricional (gastrostomia) durante o tratamento",
+      "Crônica: disfagia permanente, perda da fala laríngea normal após laringofaringectomia (exigindo reabilitação vocal alternativa), recidiva locorregional frequente dado o estádio avançado habitual ao diagnóstico",
+    ],
+    redFlags: [
+      "Disfagia progressiva associada a perda de peso significativa em paciente tabagista/etilista deve motivar investigação endoscópica urgente para excluir neoplasia hipofaríngea, mesmo na ausência de outros sintomas específicos",
+      "Massa cervical bilateral ao diagnóstico é achado comum nesta neoplasia e reflete doença já avançada, não devendo ser interpretada como achado incidental benigno",
+    ],
+    prognostico:
+      "Tem o pior prognóstico entre as neoplasias malignas de cabeça e pescoço, refletindo o diagnóstico tipicamente tardio em estádio avançado com metástase linfonodal extensa, frequentemente bilateral, já estabelecida ao diagnóstico.",
+    pontosDeProva: [
+      "O câncer de hipofaringe tem o pior prognóstico entre as neoplasias malignas de cabeça e pescoço, pela combinação de diagnóstico tardio e alta frequência de metástase linfonodal bilateral já ao diagnóstico",
+      "A síndrome de Plummer-Vinson (disfagia, anemia ferropriva, membranas esofágicas) é fator de risco específico e classicamente associado ao carcinoma pós-cricoide, sobretudo em mulheres",
+      "O risco de segundo tumor primário sincrônico no trato aerodigestivo superior justifica a investigação endoscópica completa (incluindo esôfago) em todo paciente diagnosticado",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 62 anos, tabagista e etilista intensos, apresenta disfagia progressiva e perda de 8 kg nos últimos 3 meses, associada a massa cervical bilateral palpável.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "Disfagia progressiva com perda de peso significativa e massa cervical bilateral em paciente tabagista/etilista intenso é altamente sugestiva de neoplasia hipofaríngea em estádio avançado, apresentação característica desta neoplasia.",
+      conduta:
+        "Realizar nasofibroscopia/laringoscopia com biópsia para confirmação diagnóstica, complementada por tomografia de pescoço e tórax para estadiamento; encaminhar para avaliação de quimiorradioterapia definitiva como estratégia de preservação de órgão.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é quimiorradioterapia ou cirurgia radical (laringofaringectomia), sem um medicamento específico documentado no site para esta neoplasia.",
+    fontes: [
+      { tema: "Fatores de risco (tabagismo, etilismo, síndrome de Plummer-Vinson) e diagnóstico tipicamente tardio", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Pior prognóstico entre as neoplasias de cabeça e pescoço e risco de segundo tumor primário sincrônico", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-nasossinusal",
+    nome: "Neoplasia maligna nasossinusal (cavidade nasal e seios paranasais)",
+    sinonimos: ["Câncer nasossinusal", "Câncer de seio etmoidal"],
+    cid10: "C30",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna rara originada na cavidade nasal ou nos seios paranasais, associada a exposições ocupacionais específicas, cujos sintomas iniciais são facilmente confundidos com sinusite crônica benigna, retardando o diagnóstico.",
+    definicao:
+      "Neoplasia maligna originada na cavidade nasal ou em um dos seios paranasais (mais comumente o seio maxilar), com o carcinoma epidermoide sendo o tipo histológico mais comum, embora adenocarcinomas e outros subtipos histológicos também ocorram, alguns deles com associações ocupacionais específicas bem estabelecidas.",
+    epidemiologia:
+      "É uma neoplasia relativamente rara entre os tumores de cabeça e pescoço, com associações ocupacionais bem documentadas: exposição à poeira de madeira (trabalhadores de marcenaria e mobiliário) é fator de risco específico e bem estabelecido para o adenocarcinoma da cavidade nasal e do seio etmoidal, enquanto a exposição a compostos de níquel está associada a maior risco de carcinoma epidermoide nasossinusal.",
+    fisiopatologia:
+      "A exposição crônica e prolongada a carcinógenos ocupacionais específicos (poeira de madeira, compostos de níquel, entre outros) promove transformação neoplásica progressiva do epitélio que reveste a cavidade nasal e os seios paranasais; a localização anatômica profunda e a similaridade inicial dos sintomas com condições inflamatórias benignas comuns (sinusite crônica) frequentemente atrasam o reconhecimento e o diagnóstico até que a doença já tenha se tornado localmente avançada, com potencial invasão de estruturas críticas adjacentes (órbita, base do crânio anterior).",
+    classificacao:
+      "Classificada pelo subsítio de origem (cavidade nasal, seio maxilar — o mais comum entre os seios —, seio etmoidal, entre outros mais raros) e histologicamente (carcinoma epidermoide, adenocarcinoma — este associado à exposição à poeira de madeira —, estesioneuroblastoma — tumor neuroendócrino originado do epitélio olfatório, entidade distinta e rara desta região).",
+    quadroClinico: [
+      "Obstrução nasal unilateral persistente e epistaxe recorrente, sintomas que se sobrepõem inicialmente aos de sinusite crônica benigna, contribuindo para o atraso diagnóstico",
+      "Dor facial ou dentária persistente, por vezes atribuída inicialmente a causa odontogênica",
+      "Proptose, diplopia ou outros sintomas orbitários em casos de invasão da órbita adjacente, indicando doença localmente avançada",
+      "Massa facial visível ou palpável e anestesia facial (por invasão do nervo infraorbitário) em estádios mais avançados",
+    ],
+    diagnostico: [
+      "Nasofibroscopia com biópsia da lesão é o exame central para confirmação diagnóstica",
+      "Investigação de história ocupacional detalhada (exposição a poeira de madeira, compostos de níquel) é etapa relevante da anamnese",
+      "Tomografia computadorizada e ressonância magnética de seios paranasais são complementares e essenciais para avaliar extensão local, incluindo possível invasão orbitária ou da base do crânio anterior",
+    ],
+    examesComplementares: [
+      "Nasofibroscopia com biópsia, exame confirmatório e definidor do tipo histológico",
+      "Tomografia computadorizada (melhor para avaliação óssea) e ressonância magnética (melhor para avaliação de partes moles e extensão intracraniana/orbitária) de seios paranasais, exames complementares essenciais para o estadiamento",
+    ],
+    diagnosticoDiferencial: [
+      "Sinusite crônica benigna (a principal armadilha diagnóstica, dada a sobreposição inicial de sintomas; persistência ou assimetria dos sintomas deve motivar investigação adicional)",
+      "Pólipo nasal (geralmente bilateral, distinto da apresentação tipicamente unilateral da neoplasia)",
+      "Papiloma invertido (lesão benigna localmente agressiva com potencial de malignização, unilateral, exigindo biópsia para diferenciação)",
+    ],
+    tratamento: [
+      "Ressecção cirúrgica é o tratamento primário na maioria dos casos, com a abordagem (endoscópica ou aberta, conforme a extensão) determinada pela localização e extensão tumoral",
+      "Radioterapia adjuvante indicada conforme fatores de risco patológicos (margens comprometidas, invasão perineural, tipo histológico de alto grau)",
+      "Abordagem multidisciplinar (craniofacial, quando há extensão à base do crânio anterior) necessária em casos de doença localmente avançada",
+    ],
+    complicacoes: [
+      "Aguda: sangramento significativo em ressecções extensas com envolvimento de estruturas vasculares adjacentes",
+      "Crônica: comprometimento visual permanente por invasão orbitária, fístula liquórica em casos de ressecção com extensão à base do crânio anterior, recidiva local dada a proximidade com estruturas críticas que limitam margens cirúrgicas amplas",
+    ],
+    redFlags: [
+      "Obstrução nasal unilateral persistente ou assimétrica, associada a epistaxe recorrente, deve sempre motivar investigação para excluir neoplasia nasossinusal, sobretudo quando não responde ao tratamento habitual de sinusite",
+      "Sintomas orbitários (proptose, diplopia) associados a sintomas nasossinusais indicam doença localmente avançada com invasão orbitária, exigindo avaliação de imagem urgente",
+    ],
+    prognostico:
+      "O prognóstico depende fortemente da extensão ao diagnóstico e da proximidade a estruturas críticas (órbita, base do crânio), que frequentemente limitam a extensão da ressecção cirúrgica possível; o diagnóstico tardio, comum dada a sobreposição inicial de sintomas com sinusite benigna, contribui para um prognóstico geralmente mais reservado que outras neoplasias de cabeça e pescoço em estádio equivalente.",
+    pontosDeProva: [
+      "A exposição ocupacional à poeira de madeira é fator de risco específico e classicamente associado ao adenocarcinoma da cavidade nasal e do seio etmoidal, associação frequentemente cobrada",
+      "A sobreposição inicial de sintomas com sinusite crônica benigna é a principal razão para o diagnóstico tardio desta neoplasia, reforçando a importância de investigar assimetria ou persistência atípica dos sintomas",
+      "O estesioneuroblastoma é um tumor neuroendócrino raro e distinto originado do epitélio olfatório na cavidade nasal superior, com comportamento biológico próprio",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 55 anos, marceneiro há 25 anos, apresenta obstrução nasal unilateral direita persistente e episódios recorrentes de epistaxe há 4 meses, sem resposta a tratamento para sinusite.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta apropriada?",
+      raciocinio:
+        "Obstrução nasal unilateral persistente com epistaxe recorrente, refratária a tratamento habitual, em trabalhador com exposição ocupacional prolongada à poeira de madeira, deve levantar forte suspeita de neoplasia nasossinusal, sobretudo adenocarcinoma.",
+      conduta:
+        "Realizar nasofibroscopia com biópsia da lesão para confirmação diagnóstica, complementada por tomografia computadorizada e ressonância magnética de seios paranasais para avaliar extensão local antes do planejamento cirúrgico.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é cirúrgico, com radioterapia adjuvante em casos selecionados; não há tratamento medicamentoso específico documentado no site para esta neoplasia.",
+    fontes: [
+      { tema: "Associações ocupacionais específicas (poeira de madeira, compostos de níquel) e classificação histológica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Sobreposição de sintomas com sinusite benigna e diagnóstico tipicamente tardio", fonte: "fonte pendente" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-laringe",
+    nome: "Neoplasia maligna da laringe",
+    sinonimos: ["Câncer de laringe", "Câncer de glote"],
+    cid10: "C32",
+    especialidade: "Otorrinolaringologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna de cabeça e pescoço mais comum, fortemente associada ao tabagismo, cujo sintoma cardinal (rouquidão persistente) permite diagnóstico precoce quando a lesão está na glote, região com excelente prognóstico se tratada a tempo.",
+    definicao:
+      "Neoplasia maligna originada no epitélio escamoso da laringe, mais comumente na região glótica (pregas vocais), sendo o carcinoma epidermoide o tipo histológico predominante, fortemente relacionado à exposição ao tabaco.",
+    epidemiologia:
+      "É a neoplasia maligna mais comum entre os tumores de cabeça e pescoço, com forte predomínio no sexo masculino e associação causal robusta e bem estabelecida com o tabagismo, com o etilismo atuando como fator de risco sinérgico adicional.",
+    fisiopatologia:
+      "A exposição crônica a carcinógenos do tabaco sobre o epitélio laríngeo promove acúmulo progressivo de alterações genéticas, frequentemente precedido por lesões potencialmente malignas identificáveis (leucoplasia, displasia) nas pregas vocais antes da transformação em carcinoma invasivo. A localização glótica tem a vantagem diagnóstica de causar rouquidão precocemente, mesmo com lesões muito pequenas, dada a importância funcional das pregas vocais para a fonação normal.",
+    classificacao:
+      "Classificada pela localização anatômica: supraglótica (acima das pregas vocais, tendendo a se manifestar mais tardiamente com sintomas menos específicos e maior tendência a metástase linfonodal precoce, dada a rica drenagem linfática dessa região), glótica (a mais comum, com excelente chance de diagnóstico precoce pela rouquidão precoce e drenagem linfática mais pobre, associada a menor risco de metástase linfonodal precoce) e subglótica (a mais rara).",
+    quadroClinico: [
+      "Rouquidão persistente e progressiva é o sintoma cardinal, sobretudo nos tumores glóticos, onde surge precocemente mesmo com lesões pequenas",
+      "Disfagia, odinofagia e otalgia referida em tumores supraglóticos, frequentemente diagnosticados mais tardiamente pela ausência de sintomas vocais precoces",
+      "Estridor e dificuldade respiratória em tumores volumosos que obstruem significativamente a via aérea",
+      "Massa cervical palpável, mais comum em tumores supraglóticos pela maior tendência a metástase linfonodal precoce em comparação aos tumores glóticos",
+    ],
+    diagnostico: [
+      "Laringoscopia com biópsia da lesão é o exame central e obrigatório diante de rouquidão persistente além de três semanas, sobretudo em tabagistas",
+      "Videoestroboscopia auxilia na avaliação detalhada da mobilidade das pregas vocais e da extensão superficial da lesão",
+      "Tomografia computadorizada ou ressonância magnética de laringe para avaliação da extensão local, incluindo possível invasão da cartilagem laríngea",
+    ],
+    examesComplementares: [
+      "Laringoscopia com biópsia, exame confirmatório e definidor do subtipo histológico e da localização precisa",
+      "Tomografia computadorizada de pescoço para avaliação de invasão cartilaginosa e extensão linfonodal, relevante para o estadiamento e planejamento terapêutico",
+    ],
+    diagnosticoDiferencial: [
+      "Laringite crônica (inflamação difusa sem lesão focal, embora a laringoscopia seja sempre necessária para essa distinção com segurança)",
+      "Nódulos ou pólipos de prega vocal (lesões benignas, distinguidas histologicamente da lesão maligna após biópsia)",
+      "Papilomatose laríngea (lesões múltiplas de aspecto verrucoso associadas ao papilomavírus humano, com potencial de malignização em casos raros e prolongados)",
+    ],
+    tratamento: [
+      "Radioterapia isolada é frequentemente o tratamento de escolha para tumores glóticos precoces, com excelentes taxas de controle e preservação da qualidade vocal",
+      "Cirurgia (que pode variar de ressecção endoscópica a laringectomia parcial ou total, conforme a extensão) é opção para tumores em diferentes estádios, com preservação da laringe priorizada sempre que oncologicamente segura",
+      "Quimiorradioterapia como estratégia de preservação de órgão em doença localmente avançada, evitando a laringectomia total quando possível",
+      "Laringectomia total, associada a esvaziamento cervical quando indicado, reservada a doença muito avançada ou refratária às estratégias de preservação de órgão, exigindo reabilitação vocal alternativa (voz esofágica, prótese traqueoesofágica ou laringe eletrônica) e traqueostomia definitiva",
+    ],
+    complicacoes: [
+      "Aguda: obstrução da via aérea em tumores volumosos, podendo exigir traqueostomia de urgência",
+      "Crônica: perda da fala laríngea normal após laringectomia total, disfagia e aspiração em casos de cirurgia parcial extensa, recidiva locorregional",
+    ],
+    redFlags: [
+      "Rouquidão persistente além de três semanas, sobretudo em tabagista, exige laringoscopia obrigatória para exclusão desta neoplasia, nunca devendo ser atribuída empiricamente a causa benigna sem essa investigação",
+      "Estridor associado a massa laríngea conhecida sugere obstrução significativa da via aérea, exigindo avaliação e manejo urgentes da via aérea",
+    ],
+    prognostico:
+      "O câncer de laringe glótico em estádio inicial tem um dos melhores prognósticos entre todas as neoplasias malignas de cabeça e pescoço, com excelentes taxas de cura e preservação vocal quando diagnosticado precocemente, refletindo diretamente a vantagem diagnóstica da rouquidão precoce nessa localização. Tumores supraglóticos, diagnosticados mais tardiamente, têm prognóstico mais reservado.",
+    pontosDeProva: [
+      "A localização glótica tem o melhor prognóstico entre os subtipos de câncer de laringe, precisamente porque causa rouquidão precocemente mesmo com lesões pequenas, permitindo diagnóstico em estádio inicial — relação estrutura-função central e frequentemente cobrada",
+      "Toda rouquidão persistente além de três semanas, sobretudo em tabagista, exige laringoscopia obrigatória — a mesma regra fundamental já destacada na laringite crônica e nas doenças de cordas vocais",
+      "Tumores supraglóticos têm maior tendência a metástase linfonodal precoce que os glóticos, refletindo a diferença de drenagem linfática entre essas duas regiões anatômicas da laringe",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 63 anos, tabagista há 45 anos, apresenta rouquidão progressiva há 1 mês, sem outros sintomas associados.",
+      pergunta: "Qual a conduta diagnóstica obrigatória e a implicação prognóstica da localização mais provável?",
+      raciocinio:
+        "Rouquidão persistente além de três semanas em tabagista de longa data exige exclusão obrigatória de neoplasia laríngea; a apresentação precoce com rouquidão isolada sugere possível localização glótica, associada a melhor prognóstico se confirmada em estádio inicial.",
+      conduta:
+        "Encaminhar para laringoscopia com biópsia de qualquer lesão identificada; se confirmado carcinoma glótico em estádio inicial, discutir radioterapia isolada como opção de excelente controle oncológico com preservação vocal.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende de radioterapia e/ou cirurgia conforme a localização e o estádio; não há tratamento medicamentoso específico documentado no site para esta neoplasia.",
+    fontes: [
+      { tema: "Classificação anatômica (supraglote, glote, subglote) e relação com drenagem linfática e prognóstico", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Excelente prognóstico do carcinoma glótico precoce e obrigatoriedade de laringoscopia na rouquidão persistente", fonte: "Goodman & Gilman, 13ª ed." },
+    ],
+  },
+  {
+    slug: "doenca-inflamatoria-pelvica",
+    nome: "Doença inflamatória pélvica (salpingite e ooforite)",
+    sinonimos: ["DIP", "Salpingite"],
+    cid10: "N70",
+    especialidade: "Ginecologia",
+    etiologia: "Bacteriana",
+    resumo: "Infecção polimicrobiana ascendente do trato genital superior feminino, mais comumente causada por infecção sexualmente transmissível não tratada, cuja principal complicação tardia é a infertilidade por fator tubário.",
+    definicao:
+      "Infecção do trato genital superior feminino, englobando qualquer combinação de endometrite, salpingite, abscesso tubo-ovariano e peritonite pélvica, resultante da ascensão de microrganismos a partir do colo uterino ou da vagina.",
+    epidemiologia:
+      "Mais comum em mulheres jovens sexualmente ativas, com fatores de risco incluindo múltiplos parceiros sexuais, ausência de método de barreira e histórico prévio de infecção sexualmente transmissível; Chlamydia trachomatis e Neisseria gonorrhoeae são os agentes classicamente implicados, embora a infecção seja tipicamente polimicrobiana, incluindo também flora vaginal endógena aeróbia e anaeróbia.",
+    fisiopatologia:
+      "Microrganismos do trato genital inferior (mais comumente adquiridos por via sexual) ascendem através do canal cervical até o endométrio e as tubas uterinas, desencadeando resposta inflamatória que pode progredir de endometrite isolada até salpingite, formação de abscesso tubo-ovariano e, em casos graves, peritonite pélvica generalizada. O dano inflamatório repetido ou extenso ao epitélio tubário compromete permanentemente sua função ciliar e sua patência, base fisiopatológica da infertilidade por fator tubário e do risco aumentado de gravidez ectópica em episódios subsequentes.",
+    classificacao:
+      "Classificada por gravidade em leve a moderada (tratamento ambulatorial possível) e grave (necessidade de internação), esta última definida por critérios como febre alta, náusea/vômitos importantes, abscesso tubo-ovariano ou falha do tratamento ambulatorial, além de gestação, imunossupressão ou impossibilidade de exclusão de emergência cirúrgica.",
+    quadroClinico: [
+      "Dor pélvica ou abdominal baixa, geralmente bilateral, de início subagudo, frequentemente iniciando ou piorando durante ou logo após a menstruação",
+      "Dor à mobilização do colo uterino e à palpação anexial bilateral ao exame ginecológico, achado central para a suspeita clínica",
+      "Febre, corrimento vaginal purulento ou anormal e sangramento uterino intermenstrual associados em muitos casos",
+      "Dispareunia (dor durante a relação sexual) é sintoma comum e frequentemente relatado",
+    ],
+    diagnostico: [
+      "Diagnóstico predominantemente clínico, dado que exames complementares têm sensibilidade limitada; critérios mínimos amplamente aceitos incluem dor à mobilização cervical, dor uterina ou dor anexial em mulher sexualmente ativa com risco, sem outra causa identificável",
+      "Testes de amplificação de ácido nucleico (NAAT) para Chlamydia trachomatis e Neisseria gonorrhoeae em amostra endocervical ou vaginal, para identificação do agente e rastreamento de parceiros",
+      "Ultrassonografia transvaginal reservada a casos de suspeita de abscesso tubo-ovariano ou quando o diagnóstico clínico é incerto",
+    ],
+    examesComplementares: [
+      "Testes de amplificação de ácido nucleico (NAAT) para Chlamydia trachomatis e Neisseria gonorrhoeae, exame de escolha para identificação etiológica",
+      "Ultrassonografia transvaginal demonstrando espessamento e dilatação tubária ou coleção tubo-ovariana em casos mais avançados",
+      "Proteína C-reativa e velocidade de hemossedimentação elevadas como marcadores inespecíficos de apoio à suspeita clínica",
+    ],
+    diagnosticoDiferencial: [
+      "Gravidez ectópica (sempre excluída com teste de gravidez em toda mulher em idade fértil com dor pélvica aguda, antes de assumir DIP)",
+      "Apendicite aguda (dor tipicamente unilateral à direita, sem os achados de mobilização cervical dolorosa característicos da DIP)",
+      "Cisto ovariano roto ou torção anexial (dor tipicamente unilateral e de início mais agudo, sem os sinais sistêmicos infecciosos proeminentes)",
+    ],
+    tratamento: [
+      "Antibioticoterapia empírica de amplo espectro cobrindo Chlamydia trachomatis, Neisseria gonorrhoeae e flora polimicrobiana anaeróbia/aeróbia deve ser iniciada assim que o diagnóstico clínico é considerado, sem aguardar confirmação laboratorial, dado o risco de sequelas com o atraso terapêutico",
+      "Tratamento ambulatorial é apropriado para a maioria dos casos leves a moderados, com reavaliação clínica em 72 horas para confirmar resposta adequada",
+      "Internação hospitalar indicada em casos graves, abscesso tubo-ovariano, gestação, impossibilidade de exclusão de emergência cirúrgica, ou falha do tratamento ambulatorial",
+      "Tratamento e rastreamento de parceiros sexuais é essencial para prevenir reinfecção",
+    ],
+    complicacoes: [
+      "Aguda: abscesso tubo-ovariano com risco de ruptura e peritonite generalizada, síndrome de Fitz-Hugh-Curtis (perihepatite por disseminação peritoneal da infecção, causando dor no quadrante superior direito)",
+      "Crônica: infertilidade por fator tubário, gravidez ectópica em gestações subsequentes (pelo dano ciliar tubário residual) e dor pélvica crônica, todas com risco cumulativo a cada episódio recorrente de DIP",
+    ],
+    redFlags: [
+      "Massa anexial palpável associada a febre alta e comprometimento do estado geral sugere abscesso tubo-ovariano, exigindo investigação de imagem e, por vezes, drenagem além da antibioticoterapia",
+      "Dor no quadrante superior direito associada a DIP sugere síndrome de Fitz-Hugh-Curtis (perihepatite), não devendo ser confundida com patologia biliar primária",
+    ],
+    prognostico:
+      "Com tratamento antibiótico precoce e adequado, a maioria dos episódios agudos resolve sem sequelas importantes; entretanto, o risco de infertilidade por fator tubário e de gravidez ectópica aumenta cumulativamente a cada episódio de DIP, reforçando a importância do diagnóstico e tratamento precoces mesmo em quadros leves.",
+    pontosDeProva: [
+      "O tratamento antibiótico empírico deve ser iniciado assim que a suspeita clínica é razoável, sem aguardar confirmação laboratorial, dado que o atraso terapêutico aumenta diretamente o risco de sequelas tubárias permanentes",
+      "O risco de infertilidade por fator tubário e de gravidez ectópica aumenta cumulativamente a cada episódio de DIP — conceito central sobre a gravidade de longo prazo desta condição frequentemente subestimada",
+      "A síndrome de Fitz-Hugh-Curtis (perihepatite associada à DIP) é causa importante e frequentemente cobrada de dor no quadrante superior direito em mulher jovem sexualmente ativa",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 24 anos, sexualmente ativa, apresenta dor pélvica bilateral há 4 dias, associada a corrimento vaginal purulento e febre baixa, com dor importante à mobilização do colo uterino ao exame.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "Dor pélvica bilateral com dor à mobilização cervical, corrimento purulento e febre em mulher jovem sexualmente ativa são achados característicos de doença inflamatória pélvica.",
+      conduta:
+        "Excluir gravidez com teste imediato; coletar amostra para NAAT de Chlamydia/gonococo; iniciar antibioticoterapia empírica de amplo espectro sem aguardar resultado laboratorial, dado o risco de sequelas tubárias com o atraso terapêutico.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O esquema antibiótico empírico de amplo espectro recomendado (associando cobertura para Chlamydia, gonococo e anaeróbios) ainda não tem seus componentes individuais documentados como ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia da ascensão polimicrobiana e dano tubário ciliar", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Síndrome de Fitz-Hugh-Curtis e critérios mínimos de diagnóstico clínico", fonte: "CDC Sexually Transmitted Infections Treatment Guidelines, 2021" },
+    ],
+  },
+  {
+    slug: "cervicite",
+    nome: "Cervicite (doença inflamatória do colo do útero)",
+    sinonimos: ["Cervicite mucopurulenta"],
+    cid10: "N72",
+    especialidade: "Ginecologia",
+    etiologia: "Bacteriana",
+    resumo: "Inflamação do colo uterino, mais comumente causada por infecção sexualmente transmissível (Chlamydia trachomatis ou Neisseria gonorrhoeae), frequentemente assintomática mas com potencial de ascender e causar doença inflamatória pélvica se não tratada.",
+    definicao:
+      "Inflamação do epitélio cervical, mais comumente de etiologia infecciosa sexualmente transmissível, podendo também ser causada por irritação química ou mecânica não infecciosa em uma minoria dos casos.",
+    epidemiologia:
+      "Mais comum em mulheres jovens sexualmente ativas, compartilhando os mesmos fatores de risco da doença inflamatória pélvica, da qual representa frequentemente a etapa inicial da infecção ascendente quando não tratada adequadamente.",
+    fisiopatologia:
+      "Microrganismos sexualmente transmissíveis (mais comumente Chlamydia trachomatis e Neisseria gonorrhoeae) infectam o epitélio colunar endocervical, desencadeando resposta inflamatória local com produção de secreção mucopurulenta característica; a ausência de tratamento permite a ascensão desses microrganismos ao trato genital superior, evoluindo para doença inflamatória pélvica.",
+    classificacao:
+      "Classificada etiologicamente em infecciosa (a mais comum e clinicamente mais relevante, por Chlamydia trachomatis, Neisseria gonorrhoeae, ou menos comumente Trichomonas vaginalis e vírus herpes simples) e não infecciosa (irritação química por produtos de higiene íntima, dispositivo intrauterino, ou causas alérgicas).",
+    quadroClinico: [
+      "Frequentemente assintomática, sobretudo quando causada por Chlamydia trachomatis, achado que reforça a importância do rastreamento em populações de risco",
+      "Corrimento vaginal mucopurulento quando sintomática, achado característico ao exame especular",
+      "Sangramento intermenstrual ou pós-coital (sinusorragia), refletindo a friabilidade da mucosa cervical inflamada",
+      "Colo uterino friável e eritematoso ao exame especular, sangrando facilmente ao toque com a espátula ou swab",
+    ],
+    diagnostico: [
+      "Exame especular demonstrando secreção mucopurulenta endocervical e colo friável, achados sugestivos que motivam testagem",
+      "Testes de amplificação de ácido nucleico (NAAT) para Chlamydia trachomatis e Neisseria gonorrhoeae, exame confirmatório e definidor da conduta terapêutica",
+      "Rastreamento em populações de risco mesmo na ausência de sintomas, dado o caráter frequentemente assintomático da infecção por clamídia",
+    ],
+    examesComplementares: [
+      "Testes de amplificação de ácido nucleico (NAAT) para Chlamydia trachomatis e Neisseria gonorrhoeae, exame de escolha para confirmação etiológica",
+      "Exame a fresco e cultura para Trichomonas vaginalis quando há suspeita clínica dessa etiologia alternativa",
+    ],
+    diagnosticoDiferencial: [
+      "Vaginite (candidíase, vaginose bacteriana, tricomoníase), que pode coexistir e causar corrimento sobreposto, distinguida por características específicas do corrimento e do pH vaginal",
+      "Ectopia cervical fisiológica (tecido colunar exposto na ectocérvice, variante normal sem processo inflamatório verdadeiro)",
+      "Pólipo cervical (causa de sangramento intermenstrual/pós-coital, distinguido por visualização direta da lesão polipoide)",
+    ],
+    tratamento: [
+      "Tratamento empírico para Chlamydia trachomatis e Neisseria gonorrhoeae frequentemente iniciado antes mesmo do resultado do NAAT em populações de alto risco, dado o potencial de ascensão e o desafio de garantir retorno para tratamento",
+      "Tratamento e rastreamento de parceiros sexuais é essencial para prevenir reinfecção",
+      "Abstinência sexual até completar o tratamento e a resolução dos sintomas, para prevenir transmissão e reinfecção",
+    ],
+    complicacoes: [
+      "Aguda: sangramento intermenstrual recorrente pela friabilidade cervical",
+      "Crônica: progressão para doença inflamatória pélvica quando não tratada adequadamente, com todas as suas potenciais sequelas reprodutivas",
+    ],
+    redFlags: [
+      "Cervicite não tratada em mulher sexualmente ativa deve ser encarada como risco direto de progressão para doença inflamatória pélvica, reforçando a importância do tratamento mesmo em casos assintomáticos identificados por rastreamento",
+      "Dor pélvica ou febre associadas a cervicite sugerem já ascensão da infecção ao trato genital superior, redefinindo o quadro como doença inflamatória pélvica",
+    ],
+    prognostico:
+      "Excelente prognóstico quando tratada precocemente, com resolução completa e prevenção de complicações ascendentes; o caráter frequentemente assintomático da infecção por clamídia é o principal obstáculo ao tratamento oportuno.",
+    pontosDeProva: [
+      "A cervicite por Chlamydia trachomatis é frequentemente assintomática, reforçando a importância do rastreamento ativo em populações de risco, não apenas do diagnóstico baseado em sintomas",
+      "O tratamento de parceiros sexuais é parte essencial e obrigatória do manejo, para prevenir o ciclo de reinfecção",
+      "A cervicite não tratada é a etapa inicial da progressão para doença inflamatória pélvica, reforçando por que mesmo casos assintomáticos identificados em rastreamento devem ser tratados",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 22 anos, assintomática, é identificada com corrimento mucopurulento endocervical durante exame ginecológico de rotina, com colo friável ao toque com a espátula.",
+      pergunta: "Qual a conduta diagnóstica e terapêutica apropriada?",
+      raciocinio:
+        "Corrimento mucopurulento endocervical e colo friável, mesmo em paciente assintomática, são achados sugestivos de cervicite infecciosa, justificando testagem para as principais infecções sexualmente transmissíveis causadoras.",
+      conduta:
+        "Coletar amostra endocervical para NAAT de Chlamydia trachomatis e Neisseria gonorrhoeae; considerar tratamento empírico dado o contexto de risco, e orientar rastreamento e tratamento do(s) parceiro(s) sexual(is).",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento antibiótico dirigido a Chlamydia trachomatis/Neisseria gonorrhoeae ainda não tem seus componentes documentados como ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia infecciosa e progressão para doença inflamatória pélvica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Caráter assintomático da infecção por clamídia e importância do rastreamento", fonte: "USPSTF, Screening for Chlamydia and Gonorrhea: Recommendation Statement, 2021" },
+    ],
+  },
+  {
+    slug: "bartolinite",
+    nome: "Bartolinite (abscesso e cisto da glândula de Bartholin)",
+    sinonimos: ["Cisto de Bartholin", "Abscesso de Bartholin"],
+    cid10: "N75",
+    especialidade: "Ginecologia",
+    etiologia: "Bacteriana",
+    resumo: "Obstrução do ducto da glândula de Bartholin com acúmulo de secreção (cisto) ou infecção secundária (abscesso), causando tumoração dolorosa unilateral na região posterolateral da vulva.",
+    definicao:
+      "Afecção da glândula de Bartholin (glândula vestibular maior, localizada bilateralmente na região posterolateral do intróito vaginal) decorrente de obstrução do seu ducto excretor, podendo evoluir para cisto simples ou, na presença de infecção secundária, para abscesso.",
+    epidemiologia:
+      "Afecção ginecológica benigna comum, mais frequente em mulheres em idade reprodutiva (entre 20 e 30 anos), sendo rara antes da menarca e após a menopausa, período em que a glândula sofre atrofia fisiológica.",
+    fisiopatologia:
+      "A obstrução do ducto excretor da glândula de Bartholin, geralmente por edema, trauma local ou espessamento de secreção, impede a drenagem normal, levando ao acúmulo progressivo de líquido e formação do cisto; a infecção secundária desse conteúdo estagnado, por flora polimicrobiana ou menos comumente por Neisseria gonorrhoeae/Chlamydia trachomatis, resulta em abscesso, com dor intensa e sinais flogísticos.",
+    classificacao:
+      "Classificada em cisto simples (obstrução sem infecção, geralmente assintomático ou com desconforto leve) e abscesso (infecção secundária, com dor intensa, eritema e calor local), sendo esta última a apresentação que mais frequentemente motiva atendimento de urgência.",
+    quadroClinico: [
+      "Tumoração unilateral dolorosa na região posterolateral da vulva, achado característico que motiva a procura por atendimento",
+      "Dor que se intensifica com a deambulação, o sentar-se e a relação sexual, refletindo a localização da glândula",
+      "Eritema, calor e flutuação local no abscesso, sinais de processo infeccioso agudo",
+      "Cisto simples frequentemente assintomático ou com desconforto leve, achado incidental ao exame ginecológico",
+    ],
+    diagnostico: [
+      "Diagnóstico eminentemente clínico, pela inspeção e palpação de tumoração característica na região posterolateral do intróito vaginal",
+      "Diferenciação entre cisto simples (sem sinais flogísticos) e abscesso (dor intensa, eritema, calor e flutuação) orienta a conduta terapêutica",
+    ],
+    examesComplementares: [
+      "Cultura de secreção quando há drenagem do abscesso, para orientar antibioticoterapia dirigida em casos recorrentes ou refratários",
+      "Biópsia da parede do cisto/abscesso em mulheres acima de 40 anos ou em massas persistentes após tratamento, para exclusão de neoplasia da glândula de Bartholin (rara, mas relevante nessa faixa etária)",
+    ],
+    diagnosticoDiferencial: [
+      "Cisto sebáceo vulvar, distinguido pela localização não restrita à região posterolateral típica da glândula de Bartholin",
+      "Lipoma vulvar, lesão de consistência mais firme e sem sinais flogísticos",
+      "Neoplasia da glândula de Bartholin (rara), suspeitada em massa persistente ou recorrente em mulher acima de 40 anos, motivando biópsia",
+    ],
+    tratamento: [
+      "Cisto pequeno e assintomático: conduta expectante, sem necessidade de intervenção",
+      "Abscesso ou cisto sintomático: incisão e drenagem constituem o tratamento primário; a colocação de cateter de Word ou marsupialização reduz a taxa de recorrência em comparação à drenagem simples",
+      "Antibioticoterapia sistêmica reservada para casos com celulite circundante extensa, sinais de infecção sistêmica, ou em pacientes imunocomprometidas",
+    ],
+    complicacoes: [
+      "Aguda: celulite vulvar circundante, ruptura espontânea do abscesso",
+      "Crônica: recorrência do cisto/abscesso, mais comum após drenagem simples sem marsupialização ou cateter de Word",
+    ],
+    redFlags: [
+      "Massa da glândula de Bartholin persistente, endurecida ou recorrente em mulher acima de 40 anos deve motivar biópsia para exclusão de neoplasia, dado que essa é uma apresentação atípica para a faixa etária habitual da afecção benigna",
+      "Sinais de celulite extensa ou toxemia sistêmica associados ao abscesso sugerem necessidade de antibioticoterapia sistêmica além da drenagem",
+    ],
+    prognostico:
+      "Excelente para o cisto simples e para o abscesso adequadamente drenado, com resolução completa; a recorrência é a principal limitação da drenagem simples isolada, sendo reduzida por técnicas que mantêm um trajeto de drenagem aberto (cateter de Word, marsupialização).",
+    pontosDeProva: [
+      "A glândula de Bartholin é bilateral e localiza-se na região posterolateral do intróito vaginal; massa nessa topografia específica é a chave diagnóstica",
+      "Cateter de Word ou marsupialização reduzem a recorrência em comparação à incisão e drenagem simples, por manterem um trajeto de drenagem",
+      "Massa persistente ou recorrente da glândula de Bartholin em mulher acima de 40 anos exige biópsia para exclusão de neoplasia, incomum antes dessa idade",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 26 anos, procura atendimento por tumoração dolorosa e progressiva na região posterolateral da vulva há 2 dias, com dificuldade para deambular. Ao exame: massa flutuante, eritematosa e dolorosa à palpação.",
+      pergunta: "Qual o diagnóstico e a conduta terapêutica de escolha?",
+      raciocinio:
+        "Tumoração dolorosa, flutuante e eritematosa na região posterolateral típica da glândula de Bartholin, com evolução aguda, caracteriza abscesso, que requer drenagem para resolução.",
+      conduta:
+        "Realizar incisão e drenagem do abscesso, preferencialmente com colocação de cateter de Word para manter trajeto de drenagem aberto e reduzir risco de recorrência; antibioticoterapia sistêmica reservada para celulite extensa associada.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é procedimento cirúrgico (drenagem); a antibioticoterapia sistêmica, quando indicada, ainda não tem seus componentes documentados como ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia da obstrução ductal e formação de cisto/abscesso", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Cateter de Word e marsupialização como estratégias de redução de recorrência", fonte: "American Family Physician, Bartholin Duct Cyst and Gland Abscess: Office Management, 2019" },
+    ],
+  },
+  {
+    slug: "vaginite-vulvite",
+    nome: "Vaginite e vulvite (candidíase, vaginose bacteriana e tricomoníase)",
+    sinonimos: ["Corrimento vaginal", "Candidíase vulvovaginal", "Vaginose bacteriana"],
+    cid10: "N76",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Inflamação da vagina e/ou vulva, cujas três principais causas infecciosas — candidíase vulvovaginal, vaginose bacteriana e tricomoníase — apresentam características de corrimento e pH vaginal distintas, orientando o diagnóstico diferencial e o tratamento.",
+    definicao:
+      "Processo inflamatório da mucosa vaginal e/ou vulvar, de etiologia predominantemente infecciosa, sendo candidíase vulvovaginal, vaginose bacteriana e tricomoníase as três causas mais prevalentes, cada uma com fisiopatologia, quadro clínico e tratamento distintos.",
+    epidemiologia:
+      "Motivo extremamente comum de consulta ginecológica; a candidíase vulvovaginal acomete até 75% das mulheres ao menos uma vez na vida, a vaginose bacteriana é a causa mais comum de corrimento vaginal em mulheres em idade reprodutiva, e a tricomoníase é a infecção sexualmente transmissível não viral mais prevalente globalmente.",
+    fisiopatologia:
+      "Candidíase vulvovaginal: proliferação de Candida albicans (mais comumente) favorecida por fatores como uso de antibióticos, diabetes, gestação e imunossupressão, causando inflamação e prurido intensos. Vaginose bacteriana: disbiose vaginal com substituição da flora lactobacilar protetora por bactérias anaeróbias (Gardnerella vaginalis e outras), sem processo inflamatório verdadeiro (daí o termo 'vaginose', não 'vaginite'). Tricomoníase: infecção sexualmente transmissível pelo protozoário flagelado Trichomonas vaginalis, causando resposta inflamatória vaginal e cervical característica ('colo em morango').",
+    classificacao:
+      "Classificada pela etiologia em candidíase vulvovaginal (corrimento branco grumoso, prurido intenso, pH vaginal normal), vaginose bacteriana (corrimento acinzentado, odor fétido tipo 'peixe', pH elevado) e tricomoníase (corrimento amarelo-esverdeado espumoso, prurido, pH elevado, colo em aspecto de morango).",
+    quadroClinico: [
+      "Candidíase: prurido vulvovaginal intenso, corrimento branco espesso e grumoso ('leite coalhado'), eritema vulvar, sem odor característico",
+      "Vaginose bacteriana: corrimento acinzentado, fino e homogêneo, com odor fétido característico ('peixe podre'), tipicamente sem prurido ou inflamação significativa",
+      "Tricomoníase: corrimento amarelo-esverdeado, espumoso, com odor desagradável, associado a prurido, disúria e, por vezes, colo uterino com aspecto petequial ('colo em morango')",
+    ],
+    diagnostico: [
+      "Exame do corrimento vaginal a fresco (microscopia): pseudo-hifas na candidíase, 'clue cells' (células epiteliais recobertas por bactérias) na vaginose bacteriana, e protozoários móveis flagelados na tricomoníase",
+      "Teste do odor com hidróxido de potássio (whiff test) positivo (odor de peixe) na vaginose bacteriana",
+      "Medida do pH vaginal: normal (< 4,5) na candidíase, elevado (> 4,5) na vaginose bacteriana e na tricomoníase",
+      "Critérios de Amsel para vaginose bacteriana (corrimento característico, pH > 4,5, whiff test positivo, clue cells) — três dos quatro critérios confirmam o diagnóstico",
+    ],
+    examesComplementares: [
+      "Teste de amplificação de ácido nucleico (NAAT) para Trichomonas vaginalis quando disponível, exame de maior sensibilidade que a microscopia a fresco",
+      "Cultura para Candida em casos recorrentes ou refratários ao tratamento empírico, para identificação de espécies não-albicans e teste de sensibilidade",
+    ],
+    diagnosticoDiferencial: [
+      "Cervicite (por Chlamydia trachomatis ou Neisseria gonorrhoeae), que também causa corrimento mas de origem endocervical, não vaginal",
+      "Vaginite atrófica (pós-menopausa), decorrente de hipoestrogenismo, sem processo infeccioso",
+      "Dermatite de contato vulvar, causa não infecciosa de prurido e eritema vulvar",
+    ],
+    tratamento: [
+      "Candidíase vulvovaginal: antifúngicos tópicos (imidazólicos) ou fluconazol oral em dose única, tratamento de escolha para episódios não complicados",
+      "Vaginose bacteriana: metronidazol oral ou tópico, ou clindamicina tópica; parceiros sexuais não requerem tratamento rotineiro",
+      "Tricomoníase: metronidazol oral em dose única, com tratamento obrigatório do(s) parceiro(s) sexual(is), dado seu caráter de infecção sexualmente transmissível",
+    ],
+    complicacoes: [
+      "Aguda: desconforto e impacto na qualidade de vida e na atividade sexual",
+      "Crônica: candidíase vulvovaginal recorrente (≥ 4 episódios/ano); vaginose bacteriana e tricomoníase não tratadas aumentam o risco de doença inflamatória pélvica e de complicações obstétricas (parto prematuro)",
+    ],
+    redFlags: [
+      "Vaginose bacteriana e tricomoníase na gestação associam-se a maior risco de trabalho de parto prematuro e ruptura prematura de membranas, reforçando a importância do diagnóstico e tratamento adequados nesse contexto",
+      "Candidíase vulvovaginal recorrente ou refratária deve levantar suspeita de diabetes mellitus não diagnosticado ou imunossupressão subjacente",
+    ],
+    prognostico:
+      "Excelente para os três quadros com tratamento apropriado; a recorrência é a principal limitação, especialmente na candidíase vulvovaginal, exigindo por vezes investigação de fatores predisponentes e esquemas de manutenção.",
+    pontosDeProva: [
+      "Vaginose bacteriana é uma disbiose, não uma inflamação verdadeira — por isso o sufixo '-ose' em vez de '-ite', distinção conceitual frequentemente cobrada",
+      "Os critérios de Amsel (corrimento característico, pH > 4,5, whiff test positivo, clue cells) definem o diagnóstico de vaginose bacteriana quando 3 de 4 estão presentes",
+      "Tricomoníase é infecção sexualmente transmissível e exige tratamento do parceiro; candidíase e vaginose bacteriana, em geral, não exigem tratamento rotineiro do parceiro",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 29 anos, relata corrimento vaginal acinzentado, de odor fétido, sem prurido significativo, há 4 dias. Exame a fresco revela células epiteliais recobertas por bactérias; pH vaginal medido em 5,2.",
+      pergunta: "Qual o diagnóstico mais provável e o tratamento indicado?",
+      raciocinio:
+        "Corrimento acinzentado, odor fétido, ausência de prurido significativo, pH elevado e presença de clue cells ao exame a fresco preenchem os critérios de Amsel, confirmando vaginose bacteriana.",
+      conduta:
+        "Prescrever metronidazol oral; parceiro sexual não requer tratamento rotineiro nessa condição.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os antifúngicos tópicos, o fluconazol e o metronidazol, medicamentos de escolha para as três etiologias, ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Critérios de Amsel e fisiopatologia diferencial das três etiologias", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Esquemas terapêuticos de primeira linha para cada etiologia", fonte: "CDC Sexually Transmitted Infections Treatment Guidelines, 2021" },
+    ],
+  },
+  {
+    slug: "endometriose",
+    nome: "Endometriose",
+    sinonimos: [],
+    cid10: "N80",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Presença de tecido endometrial funcionante fora da cavidade uterina, mais comumente nos ovários e no peritônio pélvico, causando dismenorreia progressiva, dor pélvica crônica e infertilidade.",
+    definicao:
+      "Doença ginecológica benigna, porém frequentemente incapacitante, definida pela presença e proliferação de tecido histologicamente semelhante ao endométrio (glândulas e estroma) fora da cavidade uterina, respondendo aos estímulos hormonais cíclicos do ciclo menstrual.",
+    epidemiologia:
+      "Acomete estimadamente 10% das mulheres em idade reprodutiva, sendo consideravelmente mais prevalente (20-50%) entre mulheres investigadas por infertilidade ou dor pélvica crônica; diagnóstico frequentemente tardio, com atraso médio de vários anos entre o início dos sintomas e a confirmação.",
+    fisiopatologia:
+      "A teoria mais aceita é a da menstruação retrógrada, na qual fragmentos endometriais refluem pelas tubas uterinas durante a menstruação e se implantam no peritônio pélvico e superfícies ovarianas; esses implantes respondem aos hormônios ovarianos cíclicos, sangrando localmente a cada ciclo e desencadeando inflamação crônica, formação de aderências e fibrose, que geram a dor característica e comprometem a fertilidade.",
+    classificacao:
+      "Classificada topograficamente em endometriose peritoneal superficial, endometrioma ovariano (cisto ovariano contendo conteúdo hemático espesso, tipo 'chocolate') e endometriose profunda infiltrativa (invadindo estruturas como septo retovaginal, ligamentos uterossacros, bexiga ou intestino); também estadiada cirurgicamente (I a IV) conforme extensão e aderências.",
+    quadroClinico: [
+      "Dismenorreia progressiva e de início mais tardio (não desde a menarca), que se intensifica ano após ano, achado que a distingue da dismenorreia primária",
+      "Dor pélvica crônica não restrita ao período menstrual, refletindo a inflamação e as aderências estabelecidas",
+      "Dispareunia de profundidade, especialmente associada a implantes no septo retovaginal ou ligamentos uterossacros",
+      "Infertilidade, motivo frequente de investigação que revela a doença, decorrente de distorção anatômica, aderências e ambiente peritoneal inflamatório inóspito",
+      "Sintomas cíclicos intestinais ou urinários (disquezia, hematoquezia cíclica, disúria) quando há acometimento de intestino ou bexiga",
+    ],
+    diagnostico: [
+      "Suspeita clínica pela combinação de dismenorreia progressiva, dispareunia profunda e infertilidade, em paciente com exame físico por vezes revelando nodularidade dolorosa em fundo de saco posterior",
+      "Ultrassonografia transvaginal com preparo intestinal, exame de primeira linha para identificação de endometriomas e, com operador experiente, de doença profunda infiltrativa",
+      "Laparoscopia com biópsia e confirmação histológica, padrão-ouro diagnóstico definitivo, reservada quando o diagnóstico permanece incerto ou há indicação cirúrgica concomitante",
+    ],
+    examesComplementares: [
+      "Ressonância magnética pélvica, exame de escolha para mapeamento pré-operatório detalhado da endometriose profunda infiltrativa",
+      "CA-125 sérico, pode estar elevado mas tem baixa especificidade, não sendo utilizado como exame diagnóstico isolado",
+    ],
+    diagnosticoDiferencial: [
+      "Dismenorreia primária, distinguida pelo início desde a menarca e ausência de piora progressiva ao longo dos anos",
+      "Doença inflamatória pélvica crônica, com história de infecção e achados inflamatórios distintos à investigação",
+      "Síndrome do intestino irritável, quando predominam sintomas intestinais cíclicos, podendo coexistir com endometriose intestinal",
+    ],
+    tratamento: [
+      "Tratamento hormonal de primeira linha: contraceptivos combinados contínuos ou progestagênios isolados, que suprimem a menstruação e reduzem o estímulo cíclico aos implantes",
+      "Análogos do GnRH, opção de segunda linha por indução de estado hipoestrogênico, com uso limitado no tempo pelo risco de perda de massa óssea",
+      "Tratamento cirúrgico (laparoscópico, com excisão ou ablação dos implantes) indicado em doença refratária ao tratamento clínico, endometriomas volumosos ou quando a fertilidade é objetivo prioritário",
+      "Manejo multidisciplinar da dor crônica e suporte à fertilidade (incluindo técnicas de reprodução assistida) conforme o objetivo reprodutivo da paciente",
+    ],
+    complicacoes: [
+      "Aguda: rotura de endometrioma com abdome agudo, achado incomum mas relevante no diagnóstico diferencial de dor pélvica aguda",
+      "Crônica: infertilidade, dor pélvica crônica incapacitante, aderências pélvicas extensas, e raro risco de transformação maligna em endometriomas de longa data (carcinoma de células claras/endometrioide de ovário)",
+    ],
+    redFlags: [
+      "Dismenorreia progressiva de início tardio (não desde a menarca) é o achado clínico mais discriminativo para diferenciar endometriose de dismenorreia primária",
+      "Massa anexial em mulher com história compatível de endometriose deve ser investigada considerando tanto endometrioma quanto, mais raramente, neoplasia ovariana associada",
+    ],
+    prognostico:
+      "Doença crônica sem cura definitiva fora da remoção cirúrgica completa (nem sempre possível), com tendência a recorrência dos sintomas após interrupção do tratamento hormonal supressivo; o impacto na fertilidade é variável e depende do estágio e da extensão da doença.",
+    pontosDeProva: [
+      "Dismenorreia que piora progressivamente ao longo dos anos, com início mais tardio que a menarca, é o padrão clássico que diferencia a endometriose da dismenorreia primária",
+      "A teoria da menstruação retrógrada é a explicação fisiopatológica mais aceita para a implantação ectópica do tecido endometrial",
+      "Laparoscopia com confirmação histológica é o padrão-ouro diagnóstico, mas a suspeita clínica isoladamente já justifica início de tratamento hormonal empírico",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 27 anos, relata dismenorreia que se iniciou aos 20 anos e piorou progressivamente, associada a dispareunia de profundidade e infertilidade há 2 anos. Ultrassonografia transvaginal identifica cisto ovariano com conteúdo homogêneo hipoecoico espesso.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta inicial?",
+      raciocinio:
+        "Dismenorreia progressiva de início tardio, dispareunia profunda, infertilidade e cisto ovariano com aspecto sugestivo de conteúdo hemático espesso ('em vidro fosco') compõem quadro clássico de endometriose com endometrioma ovariano.",
+      conduta:
+        "Considerar tratamento hormonal supressivo (contraceptivo combinado contínuo ou progestagênio) para controle sintomático; discutir laparoscopia diagnóstico-terapêutica e opções de preservação/tratamento da fertilidade dado o desejo reprodutivo.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "ibuprofeno", nome: "Ibuprofeno" },
+    ],
+    medicamentosSecaoTitulo: "Analgesia sintomática (tratamento hormonal supressivo é a base terapêutica)",
+    medicamentosNota:
+      "Os contraceptivos hormonais combinados, progestagênios e análogos do GnRH, base do tratamento supressivo, ainda não têm suas fichas próprias documentadas no site; o ibuprofeno oferece apenas alívio sintomático da dor associada.",
+    fontes: [
+      { tema: "Fisiopatologia da menstruação retrógrada e classificação topográfica", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Estratégias terapêuticas hormonais e cirúrgicas conforme objetivo reprodutivo", fonte: "ACOG Practice Bulletin No. 114, Management of Endometriosis" },
+    ],
+  },
+  {
+    slug: "prolapso-genital-feminino",
+    nome: "Prolapso de órgãos pélvicos (prolapso genital feminino)",
+    sinonimos: ["Prolapso uterino", "Cistocele", "Retocele"],
+    cid10: "N81",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Descida dos órgãos pélvicos (bexiga, útero e/ou reto) através da vagina, decorrente do enfraquecimento do assoalho pélvico, causando sensação de peso vaginal, protrusão e disfunção urinária ou intestinal associada.",
+    definicao:
+      "Herniação de um ou mais órgãos pélvicos (bexiga — cistocele; útero ou cúpula vaginal pós-histerectomia; reto — retocele; intestino delgado — enterocele) através da parede vaginal, decorrente de enfraquecimento estrutural do assoalho pélvico e de seu aparato de suporte ligamentar e fascial.",
+    epidemiologia:
+      "Afecção altamente prevalente, aumentando progressivamente com a idade; principais fatores de risco incluem multiparidade e parto vaginal (especialmente instrumentalizado), obesidade, tosse crônica, constipação crônica com esforço evacuatório repetido, e deficiência estrogênica pós-menopausa.",
+    fisiopatologia:
+      "O parto vaginal, o envelhecimento e o hipoestrogenismo pós-menopausa lesam e enfraquecem progressivamente o complexo de suporte do assoalho pélvico (músculo levantador do ânus, fáscia endopélvica e ligamentos uterossacros/cardinais); a perda desse suporte permite a descida progressiva dos órgãos pélvicos através do hiato genital, agravada por fatores que cronicamente aumentam a pressão intra-abdominal (obesidade, tosse crônica, esforço evacuatório).",
+    classificacao:
+      "Classificado pelo compartimento acometido em anterior (cistocele — bexiga), apical (prolapso uterino ou de cúpula vaginal) e posterior (retocele, enterocele), e graduado clinicamente pelo sistema POP-Q (Pelvic Organ Prolapse Quantification) de 0 a IV conforme o grau de descida em relação ao hímen.",
+    quadroClinico: [
+      "Sensação de peso ou pressão vaginal, sintoma mais comumente relatado e que piora ao longo do dia e com esforço físico",
+      "Percepção de protrusão ou 'bola' na vagina, achado que motiva a procura por atendimento em casos mais avançados",
+      "Sintomas urinários associados (incontinência urinária de esforço, urgência, esvaziamento incompleto) quando há cistocele significativa",
+      "Sintomas intestinais associados (dificuldade evacuatória, necessidade de digitação vaginal para completar evacuação) quando há retocele",
+      "Dispareunia e impacto na função sexual, em casos mais avançados",
+    ],
+    diagnostico: [
+      "Exame físico ginecológico com a paciente em manobra de Valsalva, permitindo visualizar e graduar o prolapso conforme o sistema POP-Q",
+      "Anamnese dirigida a sintomas urinários e intestinais associados, que orientam a abordagem terapêutica multidisciplinar",
+    ],
+    examesComplementares: [
+      "Estudo urodinâmico quando há sintomas urinários associados relevantes, especialmente no planejamento pré-operatório",
+      "Ultrassonografia pélvica para avaliação de patologia uterina/anexial concomitante quando indicado",
+    ],
+    diagnosticoDiferencial: [
+      "Cisto ou massa vaginal, distinguida pela ausência de relação com o esforço e pela característica anatômica localizada da lesão",
+      "Alongamento hipertrófico do colo uterino sem prolapso verdadeiro do corpo uterino, diferenciado ao exame com tração",
+    ],
+    tratamento: [
+      "Assintomático ou leve: conduta expectante com orientação sobre fatores de risco modificáveis (controle de peso, tratamento de tosse/constipação crônicas)",
+      "Fisioterapia do assoalho pélvico (exercícios de Kegel), primeira linha para prolapsos leves a moderados e para prevenção de progressão",
+      "Pessário vaginal, opção não cirúrgica eficaz para controle sintomático, especialmente em pacientes que não desejam ou não têm condições clínicas para cirurgia",
+      "Correção cirúrgica (diversas técnicas conforme o compartimento acometido) indicada em prolapsos sintomáticos avançados refratários a medidas conservadoras",
+      "Estrogênio tópico vaginal como terapia adjuvante em mulheres pós-menopausa, para melhora do trofismo tecidual local",
+    ],
+    complicacoes: [
+      "Aguda: ulceração e sangramento da mucosa vaginal exposta em prolapsos muito avançados exteriorizados",
+      "Crônica: retenção urinária, infecções urinárias de repetição, impacto significativo na qualidade de vida e na função sexual",
+    ],
+    redFlags: [
+      "Prolapso avançado (grau III-IV) com exteriorização completa e ulceração da mucosa expõe a paciente a risco de infecção e sangramento, exigindo abordagem mais urgente",
+      "Retenção urinária aguda associada a prolapso avançado é uma indicação de manejo imediato, seja com pessário seja com correção cirúrgica",
+    ],
+    prognostico:
+      "Bom com tratamento apropriado ao grau e aos sintomas, seja conservador seja cirúrgico; a taxa de recorrência após correção cirúrgica não é desprezível, especialmente quando os fatores de risco (obesidade, tosse crônica) não são simultaneamente controlados.",
+    pontosDeProva: [
+      "O sistema POP-Q é o método padronizado de graduação do prolapso (0 a IV), fundamental para descrição objetiva e comparação evolutiva",
+      "Cistocele (compartimento anterior), prolapso uterino/de cúpula (apical) e retocele (compartimento posterior) são os três compartimentos classicamente descritos",
+      "Fisioterapia do assoalho pélvico e pessário vaginal são as opções não cirúrgicas de primeira linha antes de se considerar correção operatória",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 58 anos, multípara com 4 partos vaginais, relata sensação de peso vaginal progressiva e percepção de 'bola' na vagina há 6 meses, que piora ao final do dia e com esforço físico.",
+      pergunta: "Qual a conduta diagnóstica e terapêutica inicial?",
+      raciocinio:
+        "Sensação de peso vaginal e percepção de protrusão em mulher multípara com múltiplos partos vaginais (principal fator de risco) sugerem prolapso de órgãos pélvicos, devendo ser graduado ao exame físico com manobra de Valsalva.",
+      conduta:
+        "Realizar exame ginecológico com graduação POP-Q; iniciar fisioterapia do assoalho pélvico e discutir opção de pessário vaginal conforme o grau encontrado e a preferência da paciente, reservando correção cirúrgica para casos refratários ou mais avançados.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento de base é não farmacológico (fisioterapia, pessário) ou cirúrgico; o estrogênio tópico vaginal adjuvante ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia do enfraquecimento do assoalho pélvico e fatores de risco", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Sistema de graduação POP-Q e opções terapêuticas conservadoras", fonte: "Bump RC et al., The Standardization of Terminology of Female Pelvic Organ Prolapse and Pelvic Floor Dysfunction, American Journal of Obstetrics and Gynecology, 1996" },
+    ],
+  },
+  {
+    slug: "cistos-ovarianos-torcao-anexial",
+    nome: "Cistos ovarianos e torção anexial",
+    sinonimos: ["Cisto de ovário", "Torção de ovário"],
+    cid10: "N83",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Formações císticas ovarianas, na maioria funcionais e benignas, cuja principal complicação aguda é a torção anexial — emergência cirúrgica caracterizada por dor pélvica súbita e intensa que ameaça a viabilidade do ovário.",
+    definicao:
+      "Cistos ovarianos são coleções líquidas dentro ou sobre o ovário, mais comumente de natureza funcional (cisto folicular ou de corpo lúteo, decorrentes do próprio ciclo ovulatório); a torção anexial é a rotação do ovário (e frequentemente da tuba) sobre seu pedículo vascular, comprometendo o fluxo sanguíneo e configurando emergência cirúrgica.",
+    epidemiologia:
+      "Cistos funcionais são extremamente comuns em mulheres em idade reprodutiva, na maioria assintomáticos e de resolução espontânea; a torção anexial, embora menos comum, é uma das principais causas ginecológicas de abdome agudo, sendo mais frequente em cistos ou massas ovarianas acima de 5 cm.",
+    fisiopatologia:
+      "Cistos funcionais resultam da falha de reabsorção do folículo dominante (cisto folicular) ou de involução anômala do corpo lúteo (cisto de corpo lúteo) após a ovulação. A torção anexial ocorre quando o ovário aumentado de volume (por cisto, tumor benigno como teratoma, ou hiperestimulação ovariana) roda sobre seu pedículo, comprimindo primeiro a drenagem venosa e linfática (gerando edema progressivo, que agrava ainda mais a rotação) e, se não revertida, o fluxo arterial, levando a isquemia e necrose ovariana.",
+    classificacao:
+      "Cistos classificados em funcionais (folicular, de corpo lúteo — a maioria) e neoplásicos (benignos como o teratoma maduro/cisto dermoide, ou malignos); a torção anexial é classificada conforme o grau de comprometimento vascular (parcial ou completa) e a viabilidade tecidual observada na cirurgia.",
+    quadroClinico: [
+      "Cisto funcional: frequentemente assintomático, achado incidental; quando sintomático, causa desconforto pélvico leve ou dor com a ovulação (Mittelschmerz)",
+      "Torção anexial: dor pélvica ou abdominal baixa de início súbito e intensidade progressiva, unilateral, frequentemente associada a náuseas e vômitos, achado que caracteriza abdome agudo ginecológico",
+      "Dor de caráter intermitente na torção anexial pode refletir episódios de torção e detorção espontânea parcial, um padrão que não deve tranquilizar quanto à gravidade",
+      "Massa anexial dolorosa à palpação no exame físico na torção anexial",
+    ],
+    diagnostico: [
+      "Ultrassonografia pélvica transvaginal com Doppler colorido, exame de primeira linha, identificando massa ovariana aumentada e permitindo avaliar o fluxo sanguíneo (embora fluxo Doppler preservado NÃO exclua torção, dado o padrão intermitente do comprometimento vascular)",
+      "A suspeita clínica de torção anexial (dor súbita e intensa associada a massa anexial) justifica indicação cirúrgica mesmo com achados de imagem não totalmente conclusivos, dada a urgência em preservar a viabilidade ovariana",
+    ],
+    examesComplementares: [
+      "Beta-hCG sérico para exclusão de gestação ectópica como diagnóstico diferencial de dor pélvica aguda com massa anexial",
+      "Hemograma e marcadores tumorais (CA-125) quando há suspeita de neoplasia associada, sem retardar a conduta cirúrgica em caso de torção",
+    ],
+    diagnosticoDiferencial: [
+      "Gestação ectópica, diagnóstico diferencial obrigatório de dor pélvica aguda com massa anexial em mulher em idade reprodutiva, excluído pelo beta-hCG",
+      "Apendicite aguda, especialmente quando a torção acomete o anexo direito",
+      "Doença inflamatória pélvica, distinguida por febre, corrimento vaginal e outros achados infecciosos associados",
+      "Rotura de cisto ovariano (hemorrágico), causando dor aguda mas sem a massa persistente característica da torção",
+    ],
+    tratamento: [
+      "Cisto funcional assintomático: conduta expectante com reavaliação ultrassonográfica em 6-8 semanas, dado o alto potencial de resolução espontânea",
+      "Torção anexial: cirurgia de urgência (preferencialmente laparoscópica), com detorção e preservação ovariana sempre que houver viabilidade tecidual, mesmo quando o aspecto intraoperatório inicial parece desfavorável — o ovário tem notável capacidade de recuperação após detorção",
+      "Ooforectomia reservada para casos de necrose ovariana inequívoca ou massa com características suspeitas de malignidade",
+    ],
+    complicacoes: [
+      "Aguda: necrose ovariana irreversível por torção prolongada não tratada, com perda definitiva do ovário",
+      "Crônica: infertilidade quando há perda bilateral de tecido ovariano funcional (situação rara)",
+    ],
+    redFlags: [
+      "Dor pélvica aguda súbita e intensa associada a massa anexial deve ser tratada como possível torção até prova em contrário, dado que o atraso no diagnóstico compromete diretamente a viabilidade ovariana",
+      "Fluxo Doppler preservado ao ultrassom NÃO exclui torção anexial, armadilha diagnóstica importante que não deve postergar a conduta cirúrgica quando a suspeita clínica é forte",
+    ],
+    prognostico:
+      "Excelente para cistos funcionais, com resolução espontânea na grande maioria dos casos; na torção anexial, o prognóstico de preservação ovariana depende diretamente da rapidez do diagnóstico e da intervenção cirúrgica, sendo tempo-dependente.",
+    pontosDeProva: [
+      "A detorção com preservação ovariana é preferível à ooforectomia mesmo quando o ovário parece necrótico à inspeção inicial, pela notável capacidade de recuperação tecidual após restabelecimento do fluxo",
+      "Fluxo Doppler normal não exclui torção anexial — a torção é frequentemente intermitente, com episódios de detorção espontânea parcial",
+      "Cistos ovarianos acima de 5 cm são o principal fator de risco para torção anexial",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 24 anos, procura o pronto-socorro com dor pélvica súbita e intensa em fossa ilíaca direita há 3 horas, associada a náuseas e vômitos. Ultrassonografia identifica massa ovariana direita de 7 cm com fluxo Doppler preservado.",
+      pergunta: "O fluxo Doppler preservado exclui o diagnóstico de torção anexial?",
+      raciocinio:
+        "Não. A torção anexial é frequentemente intermitente, e o fluxo Doppler pode permanecer preservado mesmo na vigência de torção, não devendo ser usado isoladamente para excluir o diagnóstico diante de quadro clínico fortemente sugestivo.",
+      conduta:
+        "Indicar exploração cirúrgica de urgência (preferencialmente laparoscópica) dada a forte suspeita clínica, com objetivo de detorção e preservação ovariana.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O manejo é expectante (cisto funcional) ou cirúrgico de urgência (torção anexial); não há tratamento medicamentoso de primeira linha documentável para nenhuma das duas condições.",
+    fontes: [
+      { tema: "Fisiopatologia da torção anexial e comprometimento vascular progressivo", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Limitações do Doppler no diagnóstico e conduta de preservação ovariana", fonte: "ACOG Committee Opinion No. 783, Adnexal Torsion in Adolescents, 2019" },
+    ],
+  },
+  {
+    slug: "polipos-trato-genital-feminino",
+    nome: "Pólipos do trato genital feminino (endometrial e cervical)",
+    sinonimos: ["Pólipo endometrial", "Pólipo cervical"],
+    cid10: "N84",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Crescimentos hiperplásicos benignos e localizados da mucosa endometrial ou cervical, causa comum de sangramento uterino anormal e de sangramento intermenstrual/pós-coital, respectivamente.",
+    definicao:
+      "Proliferações focais benignas de tecido glandular e estromal originadas da mucosa endometrial (pólipo endometrial) ou do epitélio endocervical (pólipo cervical), projetando-se para a cavidade uterina ou para o canal cervical/vagina.",
+    epidemiologia:
+      "Pólipos endometriais são achados comuns, com prevalência crescente com a idade até a menopausa, sendo frequentemente encontrados na investigação de sangramento uterino anormal ou infertilidade; pólipos cervicais são mais comuns em multíparas na quarta e quinta décadas de vida.",
+    fisiopatologia:
+      "Ambos resultam de proliferação hiperplásica focal do tecido glandular e estromal, com resposta exagerada e localizada ao estímulo estrogênico; pólipos endometriais originam-se da camada basal do endométrio e projetam-se na cavidade uterina, enquanto pólipos cervicais originam-se do epitélio colunar endocervical e se exteriorizam pelo orifício externo do colo.",
+    classificacao:
+      "Classificados pela localização em endometrial (intracavitário) e cervical (endocervical, exteriorizando-se pelo orifício externo); a esmagadora maioria de ambos os tipos é benigna, com transformação maligna rara, mais associada a pólipos endometriais em mulheres na pós-menopausa.",
+    quadroClinico: [
+      "Sangramento uterino anormal (intermenstrual, pós-coital ou pós-menopausa) é a manifestação mais comum de ambos os tipos de pólipo",
+      "Pólipo endometrial pode ser assintomático, achado incidental em ultrassonografia ou investigação de infertilidade",
+      "Pólipo cervical frequentemente visível diretamente ao exame especular, como lesão avermelhada, pediculada, exteriorizando-se pelo orifício externo do colo",
+      "Corrimento vaginal associado quando há infecção secundária ou necrose da superfície do pólipo",
+    ],
+    diagnostico: [
+      "Pólipo cervical: diagnóstico visual direto ao exame especular",
+      "Pólipo endometrial: suspeitado pela ultrassonografia transvaginal (espessamento endometrial focal) e confirmado pela histeroscopia com biópsia dirigida, exame padrão-ouro que permite também a remoção terapêutica no mesmo procedimento",
+    ],
+    examesComplementares: [
+      "Ultrassonografia com infusão salina (histerossonografia), método sensível para delinear pólipos endometriais na cavidade uterina",
+      "Exame histopatológico de toda peça removida (pólipo endometrial ou cervical), obrigatório para exclusão de malignidade, particularmente relevante em mulheres na pós-menopausa",
+    ],
+    diagnosticoDiferencial: [
+      "Miomatose uterina submucosa, outra causa comum de sangramento uterino anormal e de achado intracavitário, distinguida por características ecográficas e histológicas",
+      "Hiperplasia endometrial, distinguida por acometer difusamente o endométrio em vez de formar lesão focal",
+      "Carcinoma endometrial, diagnóstico diferencial obrigatório em sangramento pós-menopausa, excluído pela biópsia",
+    ],
+    tratamento: [
+      "Pólipo cervical: remoção simples por torção/avulsão em consultório, com envio obrigatório do material para análise histopatológica",
+      "Pólipo endometrial sintomático ou em mulher na pós-menopausa: polipectomia histeroscópica, procedimento minimamente invasivo que permite ressecção completa dirigida e envio para histopatológico",
+      "Pólipo endometrial assintomático e pequeno em mulher jovem: conduta expectante pode ser considerada, dado o potencial de resolução espontânea, exceto quando há infertilidade associada",
+    ],
+    complicacoes: [
+      "Aguda: sangramento agudo pela superfície do pólipo, ocasionalmente necessitando de intervenção não eletiva",
+      "Crônica: infertilidade (pólipo endometrial), raro potencial de transformação maligna (mais relevante em pólipos endometriais na pós-menopausa)",
+    ],
+    redFlags: [
+      "Sangramento pós-menopausa associado a pólipo endometrial exige biópsia obrigatória e exclusão rigorosa de malignidade, mesmo com aspecto macroscópico benigno",
+      "Pólipo endometrial em investigação de infertilidade deve ser removido, dado seu impacto reconhecido na receptividade endometrial e nas taxas de implantação",
+    ],
+    prognostico:
+      "Excelente na esmagadora maioria dos casos, com resolução completa após remoção e histopatológico confirmando benignidade; a recorrência de novos pólipos é possível e não indica necessariamente falha do tratamento anterior.",
+    pontosDeProva: [
+      "Histeroscopia é simultaneamente o método diagnóstico padrão-ouro e a modalidade terapêutica de escolha para pólipo endometrial, permitindo biópsia dirigida e ressecção completa no mesmo procedimento",
+      "Todo material de polipectomia (endometrial ou cervical) deve ser enviado para histopatológico, independentemente do aspecto macroscópico benigno",
+      "Sangramento pós-menopausa com pólipo endometrial identificado exige exclusão obrigatória de malignidade antes de se atribuir o sangramento unicamente ao pólipo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 52 anos, na pós-menopausa há 2 anos, relata episódio de sangramento vaginal. Ultrassonografia transvaginal identifica espessamento endometrial focal de 1,5 cm compatível com pólipo.",
+      pergunta: "Qual a conduta apropriada diante desse achado?",
+      raciocinio:
+        "Sangramento pós-menopausa é sempre um sinal de alarme que exige investigação para exclusão de malignidade endometrial, independentemente do achado ultrassonográfico sugerir uma lesão aparentemente benigna como o pólipo.",
+      conduta:
+        "Indicar histeroscopia com polipectomia e biópsia dirigida, com envio obrigatório do material para exame histopatológico para exclusão definitiva de malignidade.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é procedimental (remoção/polipectomia); não há tratamento medicamentoso de primeira linha documentável para pólipos do trato genital feminino.",
+    fontes: [
+      { tema: "Fisiopatologia hiperplásica focal e classificação por localização", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Indicação de biópsia obrigatória e conduta em sangramento pós-menopausa", fonte: "ACOG Committee Opinion No. 734, The Role of Transvaginal Ultrasonography in Evaluating the Endometrium of Women With Postmenopausal Bleeding" },
+    ],
+  },
+  {
+    slug: "miomatose-uterina",
+    nome: "Miomatose uterina (leiomioma uterino)",
+    sinonimos: ["Mioma uterino", "Fibroma uterino", "Leiomioma"],
+    cid10: "N85",
+    especialidade: "Ginecologia",
+    etiologia: "Neoplásica",
+    resumo: "Tumor benigno de músculo liso uterino, extremamente comum em mulheres em idade reprodutiva, causa frequente de sangramento uterino anormal, dor pélvica e infertilidade conforme sua localização e tamanho.",
+    definicao:
+      "Neoplasia benigna monoclonal derivada do músculo liso do miométrio, o tumor pélvico mais comum em mulheres, com crescimento hormônio-dependente (estrogênio e progesterona) e regressão característica após a menopausa.",
+    epidemiologia:
+      "Extremamente prevalente, acometendo até 70-80% das mulheres até os 50 anos (achados clínicos ou apenas por imagem/patologia), com maior incidência em mulheres negras, que apresentam miomas mais numerosos, volumosos e sintomáticos em idade mais precoce.",
+    fisiopatologia:
+      "Origina-se de mutação somática em uma única célula de músculo liso miometrial, que prolifera clonalmente sob estímulo dos hormônios ovarianos (estrogênio e progesterona); o crescimento é tipicamente lento, com tendência a estabilização ou regressão após a menopausa pela queda dos níveis hormonais circulantes.",
+    classificacao:
+      "Classificado pela localização segundo o sistema FIGO em submucoso (tipos 0-2, projeta-se para a cavidade uterina, maior impacto em sangramento e fertilidade), intramural (tipo 3-4, dentro da parede miometrial) e subseroso (tipos 5-7, projeta-se para a superfície externa do útero, podendo ser pediculado).",
+    quadroClinico: [
+      "Sangramento uterino anormal (menorragia/hipermenorreia), sintoma mais comum, especialmente associado a miomas submucosos e intramurais que distorcem a cavidade",
+      "Dor pélvica ou sensação de peso, e sintomas compressivos (urinários — polaciúria; intestinais — constipação) em miomas volumosos",
+      "Infertilidade ou perda gestacional recorrente, mais associada a miomas submucosos que distorcem a cavidade endometrial",
+      "Frequentemente assintomático, achado incidental ao exame físico (útero aumentado e irregular) ou à ultrassonografia de rotina",
+    ],
+    diagnostico: [
+      "Exame físico bimanual revelando útero aumentado de volume, de contorno irregular e consistência firme",
+      "Ultrassonografia pélvica/transvaginal, exame de primeira linha para confirmação diagnóstica, mapeamento e classificação FIGO dos miomas",
+    ],
+    examesComplementares: [
+      "Ressonância magnética pélvica, exame de maior acurácia para mapeamento pré-operatório detalhado em úteros com múltiplos miomas ou planejamento de miomectomia complexa",
+      "Histeroscopia diagnóstica para avaliação direta e planejamento terapêutico de miomas submucosos",
+      "Hemograma para avaliação de anemia ferropriva secundária ao sangramento crônico",
+    ],
+    diagnosticoDiferencial: [
+      "Adenomiose, outra causa comum de aumento uterino e sangramento anormal, distinguida por características de imagem específicas (espessamento e heterogeneidade miometrial difusa versus lesão focal bem delimitada do mioma)",
+      "Sarcoma uterino (leiomiossarcoma), neoplasia maligna rara, suspeitada em crescimento tumoral rápido incomum, especialmente na pós-menopausa",
+      "Massa anexial (ovariana), distinguida pela relação anatômica com o útero à ultrassonografia",
+    ],
+    tratamento: [
+      "Assintomático: conduta expectante com acompanhamento clínico e ultrassonográfico periódico",
+      "Sintomático, tratamento clínico: contraceptivos hormonais combinados ou sistema intrauterino liberador de levonorgestrel para controle do sangramento, e análogos do GnRH como preparo pré-operatório para redução volumétrica",
+      "Miomectomia (histeroscópica, laparoscópica ou aberta, conforme localização e tamanho), tratamento cirúrgico conservador de escolha para mulheres com desejo reprodutivo",
+      "Histerectomia, tratamento definitivo indicado em mulheres sem desejo reprodutivo com sintomas refratários ou miomatose volumosa sintomática",
+      "Embolização das artérias uterinas, alternativa minimamente invasiva não cirúrgica para controle de sintomas em pacientes selecionadas",
+    ],
+    complicacoes: [
+      "Aguda: degeneração aguda do mioma (necrobiose asséptica, mais comum na gestação) com dor intensa localizada, torção de mioma subseroso pediculado",
+      "Crônica: anemia ferropriva por sangramento crônico, infertilidade, complicações obstétricas (apresentação anômala, trabalho de parto prematuro) quando há mioma volumoso na gestação",
+    ],
+    redFlags: [
+      "Crescimento tumoral rápido e incomum, particularmente na pós-menopausa (período de esperada regressão hormônio-dependente), deve levantar suspeita de sarcoma uterino e motivar investigação adicional",
+      "Anemia ferropriva significativa secundária a sangramento crônico por miomatose exige correção e consideração de tratamento definitivo mais precoce",
+    ],
+    prognostico:
+      "Excelente em termos de benignidade e de resposta ao tratamento conforme o objetivo da paciente (controle sintomático, preservação de fertilidade ou tratamento definitivo); a regressão espontânea após a menopausa é a evolução natural esperada da doença não tratada.",
+    pontosDeProva: [
+      "A classificação FIGO por localização (submucoso, intramural, subseroso) é o principal determinante do impacto sobre sangramento e fertilidade, e orienta a escolha terapêutica",
+      "O crescimento dos miomas é hormônio-dependente, com tendência a regressão espontânea após a menopausa — crescimento nessa fase é sinal de alarme para sarcoma",
+      "Miomectomia preserva a fertilidade e é a opção cirúrgica de escolha para mulheres com desejo reprodutivo; histerectomia é reservada a quem não deseja mais engravidar",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 38 anos, nuligesta com desejo reprodutivo, relata menorragia progressiva há 1 ano associada a fadiga. Exame físico revela útero aumentado e irregular; ultrassonografia identifica mioma submucoso de 3 cm.",
+      pergunta: "Qual a conduta terapêutica mais apropriada considerando o desejo reprodutivo da paciente?",
+      raciocinio:
+        "Mioma submucoso é a localização com maior impacto sobre sangramento e fertilidade por distorcer a cavidade endometrial; em paciente com desejo reprodutivo, o tratamento conservador que preserva o útero é preferível ao definitivo.",
+      conduta:
+        "Indicar miomectomia histeroscópica, procedimento conservador apropriado para mioma submucoso, que trata o sangramento e preserva o potencial reprodutivo; investigar e corrigir anemia associada.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os contraceptivos hormonais combinados, o sistema intrauterino liberador de levonorgestrel e os análogos do GnRH, utilizados no manejo clínico, ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Fisiopatologia hormônio-dependente e classificação FIGO por localização", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Opções terapêuticas conforme desejo reprodutivo e sinais de alarme para sarcoma", fonte: "ACOG Practice Bulletin No. 228, Management of Symptomatic Uterine Leiomyomas, 2021" },
+    ],
+  },
+  {
+    slug: "displasia-cervical-nic",
+    nome: "Displasia cervical (neoplasia intraepitelial cervical — NIC)",
+    sinonimos: ["NIC", "Lesão intraepitelial escamosa", "Displasia do colo do útero"],
+    cid10: "N87",
+    especialidade: "Ginecologia",
+    etiologia: "Viral",
+    resumo: "Alterações pré-malignas do epitélio escamoso do colo uterino causadas por infecção persistente pelo papilomavírus humano (HPV) oncogênico, identificadas por rastreamento citológico e classificadas por grau de risco de progressão para carcinoma invasor.",
+    definicao:
+      "Espectro de alterações displásicas do epitélio escamoso cervical, precursoras do carcinoma cervical invasor, causadas por infecção persistente por subtipos oncogênicos do papilomavírus humano (HPV), principalmente os subtipos 16 e 18.",
+    epidemiologia:
+      "A infecção por HPV é extremamente comum e, na maioria das mulheres, transitória e autolimitada; a persistência da infecção por subtipos oncogênicos, fator determinante para progressão a displasia, ocorre em uma minoria, sendo mais provável em imunossuprimidas (incluindo pessoas vivendo com HIV) e tabagistas.",
+    fisiopatologia:
+      "A infecção persistente por HPV oncogênico permite a integração do DNA viral ao genoma da célula hospedeira, com expressão das oncoproteínas virais E6 e E7, que inativam respectivamente as proteínas supressoras tumorais p53 e Rb, promovendo proliferação celular descontrolada e progressiva desorganização da arquitetura epitelial, da camada basal em direção à superfície conforme o grau da lesão.",
+    classificacao:
+      "Classificada citologicamente em lesão intraepitelial escamosa de baixo grau (LSIL, geralmente correspondente à NIC 1, com alto potencial de regressão espontânea) e de alto grau (HSIL, correspondente à NIC 2/3, com maior risco de progressão para carcinoma invasor se não tratada); histologicamente graduada de NIC 1 a NIC 3 conforme a proporção da espessura epitelial acometida.",
+    quadroClinico: [
+      "Tipicamente assintomática, sendo identificada exclusivamente por rastreamento citológico de rotina (exame Papanicolau), o que reforça a importância do programa de rastreamento populacional",
+      "Ausência de sintomas específicos que diferenciem a displasia cervical de um colo uterino normal ao exame especular na maioria dos casos",
+    ],
+    diagnostico: [
+      "Citologia oncótica (Papanicolau) como exame de rastreamento primário, identificando anormalidades celulares que motivam investigação adicional",
+      "Colposcopia com biópsia dirigida das áreas anormais, exame confirmatório que estabelece o diagnóstico histológico definitivo do grau da lesão",
+      "Teste de DNA-HPV, com papel crescente tanto no rastreamento primário quanto na triagem (genotipagem) de citologias alteradas",
+    ],
+    examesComplementares: [
+      "Curetagem endocervical quando a zona de transformação não é completamente visualizada à colposcopia, para avaliação do canal endocervical",
+      "Conização (biópsia em cone) diagnóstico-terapêutica quando há discordância entre citologia, colposcopia e biópsia, ou suspeita de doença mais avançada não totalmente amostrada",
+    ],
+    diagnosticoDiferencial: [
+      "Metaplasia escamosa fisiológica da zona de transformação, alteração normal que pode ser confundida com displasia à colposcopia inexperiente",
+      "Cervicite, causa de alterações inflamatórias que podem gerar citologia atípica sem displasia verdadeira",
+      "Carcinoma cervical invasor microinvasivo, diagnóstico diferencial histológico que a biópsia/conização deve excluir",
+    ],
+    tratamento: [
+      "NIC 1 (LSIL): conduta expectante com repetição da citologia/colposcopia em intervalo definido, dado o alto potencial de regressão espontânea, especialmente em mulheres jovens",
+      "NIC 2/3 (HSIL): tratamento excisional (exérese da zona de transformação por cirurgia de alta frequência — CAF/LEEP, ou conização a frio), removendo a lesão e permitindo confirmação histológica completa das margens",
+      "Vacinação contra HPV como estratégia de prevenção primária, reduzindo a incidência de infecção pelos subtipos oncogênicos mais prevalentes antes mesmo do desenvolvimento de displasia",
+    ],
+    complicacoes: [
+      "Aguda: sangramento e, raramente, estenose cervical após procedimento excisional",
+      "Crônica: progressão para carcinoma cervical invasor quando NIC 2/3 não é tratada adequadamente; risco obstétrico de incompetência istmocervical e parto prematuro após conizações extensas ou repetidas",
+    ],
+    redFlags: [
+      "HSIL (NIC 2/3) não tratada carrega risco significativo de progressão para carcinoma invasor, justificando a indicação de tratamento excisional em vez de apenas seguimento expectante",
+      "Discordância entre citologia sugestiva de lesão de alto grau e biópsia normal/discordante deve motivar investigação adicional (conização diagnóstica) para excluir lesão não amostrada",
+    ],
+    prognostico:
+      "Excelente com rastreamento e tratamento apropriados, sendo o câncer cervical uma das neoplasias mais preveníveis quando o programa de rastreamento é seguido; NIC 1 tem alta taxa de regressão espontânea, enquanto NIC 2/3 tratada adequadamente tem excelente controle da progressão.",
+    pontosDeProva: [
+      "As oncoproteínas E6 e E7 do HPV inativam p53 e Rb, respectivamente — mecanismo molecular central e frequentemente cobrado da carcinogênese cervical",
+      "NIC 1/LSIL tem alto potencial de regressão espontânea e pode ser conduzida de forma expectante; NIC 2-3/HSIL geralmente requer tratamento excisional pelo maior risco de progressão",
+      "A citologia é exame de rastreamento; a colposcopia com biópsia é que confirma o diagnóstico histológico definitivo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 29 anos, assintomática, apresenta citologia de rastreamento com resultado de lesão intraepitelial escamosa de alto grau (HSIL).",
+      pergunta: "Qual a conduta diagnóstica subsequente apropriada?",
+      raciocinio:
+        "Resultado citológico de HSIL indica risco significativo de lesão de alto grau (NIC 2/3) subjacente, com maior potencial de progressão para carcinoma invasor, exigindo confirmação histológica antes de decisão terapêutica.",
+      conduta:
+        "Encaminhar para colposcopia com biópsia dirigida das áreas anormais para confirmação histológica; caso confirmado NIC 2/3, proceder a tratamento excisional (CAF/LEEP ou conização).",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é procedimental (excisão) ou expectante conforme o grau; a vacina contra HPV, estratégia de prevenção primária, ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Mecanismo molecular das oncoproteínas E6/E7 e classificação citológica/histológica", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Condutas conforme grau da lesão (LSIL vs. HSIL) e papel do teste de DNA-HPV", fonte: "2019 ASCCP Risk-Based Management Consensus Guidelines for Abnormal Cervical Cancer Screening Tests and Cancer Precursors" },
+    ],
+  },
+  {
+    slug: "liquen-escleroso-distrofias-vulvares",
+    nome: "Líquen escleroso e outras distrofias vulvares",
+    sinonimos: ["Líquen escleroso vulvar", "Distrofia vulvar"],
+    cid10: "N90",
+    especialidade: "Ginecologia",
+    etiologia: "Autoimune",
+    resumo: "Dermatose crônica inflamatória vulvar, provavelmente de base autoimune, causando prurido intenso, atrofia e cicatrização progressiva da pele vulvar, com pequeno mas relevante risco de transformação em carcinoma espinocelular de vulva.",
+    definicao:
+      "Doença dermatológica crônica inflamatória que acomete preferencialmente a pele vulvar e perianal, caracterizada por afinamento e esclerose progressiva do epitélio, associada a distorção arquitetural da anatomia vulvar em casos avançados.",
+    epidemiologia:
+      "Pode ocorrer em qualquer idade, mas apresenta distribuição bimodal, com picos em meninas pré-púberes e em mulheres na pós-menopausa; associação reconhecida com outras doenças autoimunes (tireoidite, vitiligo), reforçando a hipótese etiológica autoimune.",
+    fisiopatologia:
+      "Processo inflamatório crônico de provável base autoimune, com infiltrado linfocitário na derme superficial que leva a homogeneização e esclerose do colágeno dérmico e progressivo afinamento epidérmico; a inflamação crônica e o remodelamento tecidual repetido criam também o substrato para o pequeno mas real risco de transformação em carcinoma espinocelular vulvar.",
+    classificacao:
+      "O líquen escleroso é a distrofia vulvar mais relevante clinicamente dentro do espectro mais amplo de dermatoses vulvares crônicas, sendo distinguido de outras dermatoses vulvares (líquen simples crônico, líquen plano) por características histopatológicas específicas.",
+    quadroClinico: [
+      "Prurido vulvar crônico e intenso, sintoma mais proeminente e frequentemente de longa data antes do diagnóstico",
+      "Placas brancas e atróficas ('em papel de cigarro'), classicamente distribuídas em padrão 'em ampulheta ou em fivela' ao redor da vulva e do ânus",
+      "Fragilidade cutânea com fissuras, equimoses e sangramento local por trauma mínimo, refletindo o afinamento epitelial",
+      "Distorção arquitetural progressiva (fusão de pequenos lábios, estenose de intróito) em doença avançada não tratada, causando dispareunia significativa",
+    ],
+    diagnostico: [
+      "Suspeita clínica pelo aspecto característico das lesões (placas brancas atróficas em distribuição vulvar/perianal) associado a prurido crônico",
+      "Biópsia vulvar confirmatória, particularmente recomendada antes de iniciar tratamento e obrigatória diante de qualquer área suspeita (ulceração, espessamento focal, sangramento) para exclusão de transformação maligna",
+    ],
+    examesComplementares: [
+      "Investigação de doenças autoimunes associadas (função tireoidiana) quando clinicamente indicado, dada a associação reconhecida",
+    ],
+    diagnosticoDiferencial: [
+      "Líquen simples crônico (dermatite crônica por coçadura), distinguido histologicamente e pela ausência da esclerose característica",
+      "Líquen plano vulvar, distinguido por características clínicas e histopatológicas próprias, podendo por vezes coexistir",
+      "Vitiligo vulvar, distinguido pela ausência de atrofia e esclerose, apresentando apenas despigmentação",
+      "Carcinoma espinocelular vulvar inicial, diagnóstico diferencial obrigatório diante de qualquer área de espessamento, ulceração ou massa focal em contexto de líquen escleroso de longa data",
+    ],
+    tratamento: [
+      "Corticosteroide tópico de alta potência, tratamento de primeira linha, eficaz no controle do prurido e na prevenção da progressão da esclerose e da distorção arquitetural quando usado adequadamente",
+      "Terapia de manutenção em longo prazo com corticosteroide tópico em menor frequência, dado o caráter crônico e recidivante da doença",
+      "Cirurgia reservada para correção de sinéquias/estenose significativas causando disfunção, ou para excisão de áreas suspeitas de transformação maligna",
+    ],
+    complicacoes: [
+      "Aguda: fissuras e sangramento por trauma mínimo em pele fragilizada",
+      "Crônica: distorção arquitetural vulvar progressiva com dispareunia, e transformação em carcinoma espinocelular de vulva em uma minoria (mas clinicamente relevante) dos casos não tratados adequadamente ao longo do tempo",
+    ],
+    redFlags: [
+      "Qualquer área de espessamento, ulceração persistente ou massa focal em paciente com líquen escleroso de longa data exige biópsia imediata para exclusão de carcinoma espinocelular vulvar",
+      "Líquen escleroso não tratado ou tratado inadequadamente evolui com maior risco de distorção arquitetural irreversível e de transformação maligna, reforçando a importância do tratamento e do seguimento a longo prazo",
+    ],
+    prognostico:
+      "Doença crônica sem cura, mas com excelente controle sintomático e prevenção de progressão arquitetural com corticoterapia tópica de manutenção adequada; o seguimento a longo prazo é necessário pelo risco, ainda que pequeno, de transformação maligna.",
+    pontosDeProva: [
+      "Corticosteroide tópico de alta potência é o tratamento de primeira linha do líquen escleroso vulvar, eficaz tanto no controle sintomático quanto na prevenção de sequelas arquiteturais",
+      "O líquen escleroso vulvar tem distribuição bimodal (meninas pré-púberes e mulheres na pós-menopausa) e associação com outras doenças autoimunes",
+      "Toda área atípica (ulceração, espessamento focal) em paciente com líquen escleroso deve ser biopsiada pelo risco, ainda que pequeno, de carcinoma espinocelular vulvar associado",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 68 anos, relata prurido vulvar intenso e crônico há 2 anos. Exame revela placas brancas e atróficas em distribuição simétrica ao redor da vulva e do ânus, com fusão parcial dos pequenos lábios.",
+      pergunta: "Qual o diagnóstico mais provável e a conduta inicial?",
+      raciocinio:
+        "Placas brancas atróficas em distribuição característica ao redor da vulva e do ânus, associadas a prurido crônico e distorção arquitetural (fusão labial), são altamente sugestivas de líquen escleroso vulvar, mais prevalente nessa faixa etária.",
+      conduta:
+        "Confirmar o diagnóstico com biópsia vulvar e iniciar corticosteroide tópico de alta potência; orientar sobre a necessidade de seguimento a longo prazo pelo risco, ainda que pequeno, de transformação maligna.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O corticosteroide tópico de alta potência, tratamento de primeira linha, ainda não tem ficha própria documentada no site (os corticosteroides sistêmicos já documentados não são a formulação indicada para esta condição).",
+    fontes: [
+      { tema: "Fisiopatologia autoimune e distribuição bimodal característica", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Corticoterapia tópica como tratamento de primeira linha e seguimento pelo risco de malignização", fonte: "ISSVD, Lichen Sclerosus — Practical Guide to Diagnosis and Management, 2024" },
+    ],
+  },
+  {
+    slug: "amenorreia",
+    nome: "Amenorreia (primária e secundária)",
+    sinonimos: [],
+    cid10: "N91",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Ausência de menstruação, classificada em primária (nunca houve menarca) ou secundária (interrupção da menstruação em mulher previamente menstruada), com investigação etiológica organizada segundo o nível do eixo hipotálamo-hipófise-ovário-útero comprometido.",
+    definicao:
+      "Ausência de menstruação, definida como primária quando a menarca não ocorreu até os 15 anos (ou até os 13 anos na ausência de caracteres sexuais secundários) ou secundária quando há ausência de menstruação por 3 ciclos habituais ou 6 meses em mulher previamente menstruada.",
+    epidemiologia:
+      "A gestação é, disparadamente, a causa mais comum de amenorreia secundária em mulheres em idade reprodutiva e deve ser sempre excluída antes de qualquer investigação adicional; a amenorreia primária é bem menos comum e mais associada a causas genéticas/anatômicas.",
+    fisiopatologia:
+      "A menstruação depende da integridade funcional de quatro níveis: hipotálamo (secreção pulsátil de GnRH), hipófise (secreção de LH/FSH), ovário (produção hormonal cíclica e ovulação) e trato de saída (útero/endométrio responsivo e via anatômica patente); um distúrbio em qualquer um desses níveis pode resultar em amenorreia, sendo essa organização por nível a base do raciocínio diagnóstico.",
+    classificacao:
+      "Classificada em primária e secundária conforme já tenha ocorrido menarca; e, quanto à etiologia, organizada por compartimento do eixo reprodutivo: hipotalâmica (funcional, por estresse/exercício/baixo peso), hipofisária (hiperprolactinemia, tumores), ovariana (síndrome dos ovários policísticos, insuficiência ovariana primária) e uterina/de trato de saída (síndrome de Asherman, agenesia mülleriana, himen imperfurado).",
+    quadroClinico: [
+      "Ausência de menstruação como queixa principal, com contexto e sintomas associados variando conforme a etiologia subjacente",
+      "Sinais de hiperandrogenismo (hirsutismo, acne) sugerem síndrome dos ovários policísticos como etiologia",
+      "Galactorreia associada sugere hiperprolactinemia como causa",
+      "Fogachos e sintomas de hipoestrogenismo em mulher jovem sugerem insuficiência ovariana primária",
+      "Ausência de caracteres sexuais secundários na amenorreia primária direciona a investigação para causas genéticas ou hipogonadotróficas",
+    ],
+    diagnostico: [
+      "Teste de gravidez (beta-hCG) como primeiro passo obrigatório em toda mulher em idade reprodutiva com amenorreia secundária, antes de qualquer outra investigação",
+      "Dosagem de prolactina e TSH, exames de triagem inicial para hiperprolactinemia e disfunção tireoidiana, causas endócrinas comuns e tratáveis",
+      "Dosagem de FSH/LH, para diferenciar causas hipergonadotróficas (falência ovariana, FSH elevado) de hipogonadotróficas (disfunção hipotalâmica/hipofisária, FSH baixo/normal)",
+      "Teste de progesterona (avaliação de sangramento de escape após administração de progestagênio), auxilia a avaliar a integridade do trato de saída e o status estrogênico",
+    ],
+    examesComplementares: [
+      "Ultrassonografia pélvica para avaliação de anatomia uterina/ovariana e exclusão de causas anatômicas",
+      "Ressonância magnética de sela túrcica quando há hiperprolactinemia significativa, para investigação de adenoma hipofisário",
+      "Cariótipo em amenorreia primária com suspeita de causa genética (disgenesia gonadal, síndrome de Turner)",
+    ],
+    diagnosticoDiferencial: [
+      "Gestação, principal diagnóstico diferencial e causa mais comum de amenorreia secundária, sempre excluída em primeiro lugar",
+      "Síndrome dos ovários policísticos, causa comum de amenorreia/oligomenorreia associada a hiperandrogenismo",
+      "Insuficiência ovariana primária, distinguida por FSH elevado em mulher jovem com sintomas de hipoestrogenismo",
+    ],
+    tratamento: [
+      "Dirigido à causa de base identificada na investigação (por exemplo: agonista dopaminérgico para hiperprolactinemia, reposição hormonal em insuficiência ovariana primária, manejo de peso/estresse na amenorreia hipotalâmica funcional)",
+      "Reposição estrogênica indicada em causas hipoestrogênicas prolongadas para proteção óssea e cardiovascular, independentemente do desejo de fertilidade imediato",
+      "Correção cirúrgica em causas anatômicas do trato de saída quando aplicável (por exemplo, himen imperfurado)",
+    ],
+    complicacoes: [
+      "Aguda: ansiedade e impacto psicológico relacionados à incerteza diagnóstica e, quando aplicável, à infertilidade associada",
+      "Crônica: osteoporose precoce e risco cardiovascular aumentado em estados hipoestrogênicos prolongados não tratados; infertilidade conforme a causa de base",
+    ],
+    redFlags: [
+      "Teste de gravidez sempre deve ser o primeiro exame solicitado em amenorreia secundária, independentemente da história sexual relatada, para evitar atraso ou erro diagnóstico grave",
+      "Amenorreia associada a cefaleia e alterações visuais sugere massa hipofisária/hipotalâmica compressiva, exigindo investigação de imagem urgente",
+    ],
+    prognostico:
+      "Variável e diretamente dependente da causa de base identificada; muitas causas (hiperprolactinemia, amenorreia hipotalâmica funcional) são tratáveis com reversão completa da função menstrual e reprodutiva.",
+    pontosDeProva: [
+      "A investigação da amenorreia é organizada por nível do eixo reprodutivo (hipotálamo, hipófise, ovário, trato de saída), estrutura que orienta toda a sequência diagnóstica",
+      "Teste de gravidez é sempre o primeiro exame na amenorreia secundária, antes de qualquer dosagem hormonal",
+      "FSH elevado indica causa ovariana (hipergonadotrófica); FSH baixo/normal aponta para causa hipotalâmica ou hipofisária (hipogonadotrófica)",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 24 anos, previamente com ciclos regulares, relata ausência de menstruação há 4 meses, associada a galactorreia. Teste de gravidez é negativo.",
+      pergunta: "Qual a próxima etapa diagnóstica mais apropriada?",
+      raciocinio:
+        "Amenorreia secundária com galactorreia associada, na ausência de gestação, é altamente sugestiva de hiperprolactinemia como etiologia, devendo direcionar a investigação hormonal subsequente.",
+      conduta:
+        "Solicitar dosagem sérica de prolactina e TSH; caso confirmada hiperprolactinemia significativa, complementar com ressonância magnética de sela túrcica para investigação de adenoma hipofisário.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento depende inteiramente da causa de base identificada (agonistas dopaminérgicos, reposição hormonal, entre outros), nenhuma das quais ainda tem ficha própria documentada no site especificamente para esta indicação.",
+    fontes: [
+      { tema: "Organização diagnóstica por nível do eixo hipotálamo-hipófise-ovário-útero", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Algoritmo de investigação hormonal e principais etiologias tratáveis", fonte: "Klein DA et al., Amenorrhea: A Systematic Approach to Diagnosis and Management, American Family Physician, 2019" },
+    ],
+  },
+  {
+    slug: "sangramento-uterino-anormal",
+    nome: "Sangramento uterino anormal (incluindo menorragia)",
+    sinonimos: ["Menorragia", "Hipermenorreia", "Sangramento uterino disfuncional"],
+    cid10: "N92-N93",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Alteração do padrão menstrual normal em frequência, duração, regularidade ou volume, cuja investigação etiológica é organizada pelo sistema PALM-COEIN, distinguindo causas estruturais de causas não estruturais.",
+    definicao:
+      "Sangramento uterino que se desvia do padrão menstrual normal em qualquer um de seus parâmetros — frequência, regularidade, duração ou volume —, incluindo a menorragia (fluxo menstrual excessivo em volume e/ou duração, porém com regularidade e frequência mantidas).",
+    epidemiologia:
+      "Motivo extremamente comum de consulta ginecológica em todas as faixas etárias reprodutivas, com etiologia variando conforme a idade: causas estruturais e neoplásicas ganham relevância crescente com o avançar da idade, enquanto causas ovulatórias/hormonais predominam em adolescentes e no período peri-menopausa.",
+    fisiopatologia:
+      "Pode decorrer de lesões estruturais do útero (pólipos, miomas, adenomiose, malignidade) que interferem mecanicamente na hemostasia endometrial local, ou de causas não estruturais, mais comumente a anovulação (falha na produção cíclica organizada de progesterona, levando a proliferação endometrial descontrolada e sangramento irregular e imprevisível por descamação desorganizada).",
+    classificacao:
+      "Classificado pelo sistema PALM-COEIN da International Federation of Gynecology and Obstetrics (FIGO): causas estruturais — Pólipo, Adenomiose, Leiomioma, Malignidade/hiperplasia; e causas não estruturais — Coagulopatia, disfunção Ovulatória, Endometrial (disfunção primária da hemostasia local), Iatrogênica (anticoagulantes, dispositivos), e Não classificada.",
+    quadroClinico: [
+      "Menorragia (fluxo menstrual volumoso e/ou prolongado, com ciclos regulares), padrão mais associado a causas estruturais (mioma, adenomiose, pólipo) ou coagulopatias",
+      "Sangramento intermenstrual, mais associado a pólipos, cervicite ou lesão estrutural focal",
+      "Sangramento irregular e imprevisível em frequência e volume, padrão característico da disfunção ovulatória (anovulação)",
+      "Sintomas de anemia (fadiga, palidez, dispneia aos esforços) quando o sangramento é volumoso e crônico",
+    ],
+    diagnostico: [
+      "Anamnese detalhada do padrão de sangramento (frequência, duração, volume, regularidade) e teste de gravidez, sempre o primeiro passo na investigação",
+      "Ultrassonografia pélvica/transvaginal, exame de primeira linha para avaliação estrutural (identificação de pólipos, miomas, espessamento endometrial sugestivo de adenomiose ou hiperplasia)",
+      "Biópsia endometrial obrigatória em mulheres acima de 45 anos ou com fatores de risco para carcinoma endometrial (obesidade, anovulação crônica) mesmo em idade mais jovem, para exclusão de malignidade/hiperplasia",
+    ],
+    examesComplementares: [
+      "Hemograma completo para avaliação do grau de anemia secundária",
+      "Rastreamento de coagulopatia (incluindo doença de von Willebrand) em adolescentes com menorragia desde a menarca, população em que essa etiologia é proporcionalmente mais relevante",
+      "Histeroscopia com biópsia dirigida quando a ultrassonografia sugere lesão intracavitária focal (pólipo, mioma submucoso)",
+    ],
+    diagnosticoDiferencial: [
+      "Gestação e suas complicações (ameaça de abortamento, gestação ectópica), sempre excluídas antes de se atribuir o sangramento a causa ginecológica não gestacional",
+      "Cervicite ou lesão cervical, causa de sangramento intermenstrual/pós-coital de origem cervical e não uterina propriamente dita",
+      "Distúrbios tireoidianos, causa endócrina sistêmica que pode alterar o padrão menstrual",
+    ],
+    tratamento: [
+      "Tratamento dirigido à causa estrutural identificada quando presente (polipectomia, miomectomia, conforme já detalhado nas respectivas fichas)",
+      "Anti-inflamatório não esteroidal (como o ibuprofeno) durante o período menstrual, reduzindo o volume de sangramento por inibição da síntese de prostaglandinas endometriais, opção de primeira linha para menorragia sem causa estrutural significativa",
+      "Contraceptivos hormonais combinados ou sistema intrauterino liberador de levonorgestrel, opções eficazes de controle do sangramento em causas não estruturais/ovulatórias",
+      "Correção de coagulopatia subjacente quando identificada como causa",
+    ],
+    complicacoes: [
+      "Aguda: sangramento uterino anormal agudo volumoso pode requerer manejo hormonal em altas doses ou, raramente, intervenção cirúrgica de urgência para controle",
+      "Crônica: anemia ferropriva significativa, impacto relevante na qualidade de vida",
+    ],
+    redFlags: [
+      "Sangramento uterino anormal em mulher acima de 45 anos, ou mais jovem com fatores de risco para hiperplasia/carcinoma endometrial, exige biópsia endometrial obrigatória antes de se assumir causa benigna",
+      "Sangramento volumoso agudo com instabilidade hemodinâmica associada é emergência que requer manejo hospitalar imediato",
+    ],
+    prognostico:
+      "Geralmente bom com tratamento dirigido à causa identificada; o sistema PALM-COEIN, ao organizar sistematicamente a investigação, favorece diagnóstico etiológico preciso e tratamento direcionado eficaz na maioria dos casos.",
+    pontosDeProva: [
+      "O sistema PALM-COEIN (Pólipo, Adenomiose, Leiomioma, Malignidade — estruturais; Coagulopatia, disfunção Ovulatória, Endometrial, Iatrogênica, Não classificada — não estruturais) é a estrutura padronizada e amplamente cobrada para organizar a investigação etiológica",
+      "Biópsia endometrial é obrigatória em mulheres acima de 45 anos com sangramento uterino anormal para exclusão de hiperplasia/carcinoma endometrial",
+      "AINEs reduzem o volume de sangramento menstrual por inibição da síntese de prostaglandinas endometriais, sendo opção de primeira linha em menorragia sem causa estrutural",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 42 anos, relata menorragia progressiva há 8 meses, com ciclos regulares mas fluxo volumoso e prolongado, associada a fadiga. Teste de gravidez negativo.",
+      pergunta: "Qual a investigação inicial mais apropriada?",
+      raciocinio:
+        "Menorragia com ciclos regulares (frequência e regularidade preservadas, apenas volume/duração alterados) sugere causa estrutural (PALM) mais do que disfunção ovulatória; a idade acima de 45 anos (ou próxima) reforça a necessidade de excluir malignidade/hiperplasia endometrial.",
+      conduta:
+        "Solicitar ultrassonografia transvaginal para avaliação estrutural (pólipo, mioma, adenomiose) e biópsia endometrial para exclusão de hiperplasia/malignidade, além de hemograma para quantificar a anemia associada.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "ibuprofeno", nome: "Ibuprofeno" },
+    ],
+    medicamentosSecaoTitulo: "Redução do volume de sangramento (tratamento hormonal dirigido à causa é frequentemente necessário em associação)",
+    medicamentosNota:
+      "Os contraceptivos hormonais combinados e o sistema intrauterino liberador de levonorgestrel, opções eficazes de controle do sangramento, ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Sistema de classificação PALM-COEIN da FIGO", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Indicação de biópsia endometrial por idade/fator de risco e opções terapêuticas por etiologia", fonte: "ACOG Practice Bulletin No. 128, Diagnosis of Abnormal Uterine Bleeding in Reproductive-Aged Women, 2012" },
+    ],
+  },
+  {
+    slug: "dismenorreia-sindrome-pre-menstrual",
+    nome: "Dismenorreia e síndrome pré-menstrual",
+    sinonimos: ["Cólica menstrual", "TPM"],
+    cid10: "N94",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Dor pélvica cíclica associada à menstruação (dismenorreia) e conjunto de sintomas físicos e emocionais recorrentes na fase lútea do ciclo (síndrome pré-menstrual), ambas de alta prevalência e impacto significativo na qualidade de vida.",
+    definicao:
+      "Dismenorreia é a dor pélvica tipo cólica que acompanha a menstruação, classificada em primária (sem doença pélvica identificável) ou secundária (decorrente de patologia subjacente, como endometriose ou miomatose); síndrome pré-menstrual é o conjunto recorrente de sintomas físicos e emocionais que surgem na fase lútea do ciclo e resolvem com o início da menstruação.",
+    epidemiologia:
+      "A dismenorreia primária é extremamente comum, acometendo a maioria das mulheres em algum momento da vida reprodutiva, com pico de prevalência em adolescentes e mulheres jovens; a síndrome pré-menstrual acomete uma proporção significativa de mulheres em idade reprodutiva, com uma minoria apresentando a forma grave (transtorno disfórico pré-menstrual).",
+    fisiopatologia:
+      "A dismenorreia primária decorre do excesso de produção de prostaglandinas (principalmente PGF2α) pelo endométrio secretor, causando contrações miometriais intensas e vasoconstrição, com isquemia uterina relativa e dor; a síndrome pré-menstrual reflete sensibilidade individual alterada às flutuações hormonais fisiológicas normais da fase lútea (progesterona e seus metabólitos neuroativos), afetando neurotransmissores centrais como serotonina e GABA.",
+    classificacao:
+      "Dismenorreia classificada em primária (funcional, sem doença pélvica associada, início geralmente próximo à menarca) e secundária (por doença pélvica identificável, como endometriose, adenomiose ou miomatose, com início mais tardio); síndrome pré-menstrual classificada por gravidade, com o transtorno disfórico pré-menstrual representando a forma mais grave, com sintomas de humor predominantes e impacto funcional significativo.",
+    quadroClinico: [
+      "Dismenorreia: dor pélvica tipo cólica, iniciando pouco antes ou com o início do fluxo menstrual e durando 1 a 3 dias, podendo se irradiar para a região lombar e as coxas",
+      "Dismenorreia secundária, diferentemente da primária, tende a piorar progressivamente e a persistir além do período menstrual, achado que sugere doença pélvica subjacente",
+      "Síndrome pré-menstrual: sintomas físicos (mastalgia, distensão abdominal, cefaleia, fadiga) e emocionais (irritabilidade, labilidade emocional, ansiedade) recorrentes na fase lútea, com resolução característica nos primeiros dias da menstruação",
+      "Transtorno disfórico pré-menstrual: forma grave com sintomas de humor predominantes (irritabilidade intensa, depressão, ansiedade) causando prejuízo funcional significativo",
+    ],
+    diagnostico: [
+      "Diagnóstico da dismenorreia primária é clínico, por exclusão de causas secundárias após anamnese e exame físico direcionados",
+      "Diagnóstico da síndrome pré-menstrual/transtorno disfórico pré-menstrual requer registro prospectivo diário de sintomas por pelo menos dois ciclos menstruais, confirmando o padrão cíclico característico com relação à fase lútea",
+    ],
+    examesComplementares: [
+      "Ultrassonografia pélvica indicada quando há suspeita de dismenorreia secundária, para investigação de endometriose, adenomiose ou miomatose",
+    ],
+    diagnosticoDiferencial: [
+      "Endometriose e adenomiose, principais causas de dismenorreia secundária, distinguidas pelo padrão de dor progressivo e por achados de imagem",
+      "Transtornos depressivos e ansiosos primários, distinguidos da síndrome pré-menstrual pela ausência de relação temporal estrita com a fase lútea do ciclo",
+    ],
+    tratamento: [
+      "Dismenorreia primária: anti-inflamatórios não esteroidais (como o ibuprofeno), tratamento de primeira linha por inibirem diretamente a síntese de prostaglandinas responsável pela dor",
+      "Contraceptivos hormonais combinados, opção eficaz de segunda linha para dismenorreia primária refratária ao AINE, por suprimirem a ovulação e reduzirem a produção endometrial de prostaglandinas",
+      "Síndrome pré-menstrual leve a moderada: medidas de estilo de vida (exercício físico regular, redução de sódio e cafeína) e suporte sintomático",
+      "Transtorno disfórico pré-menstrual: inibidores seletivos da recaptação de serotonina, tratamento farmacológico de primeira linha, podendo ser usados de forma contínua ou restrita à fase lútea",
+    ],
+    complicacoes: [
+      "Aguda: impacto funcional significativo com absenteísmo escolar/laboral durante os episódios",
+      "Crônica: impacto sustentado na qualidade de vida quando não tratada adequadamente, especialmente no transtorno disfórico pré-menstrual",
+    ],
+    redFlags: [
+      "Dismenorreia que piora progressivamente ao longo do tempo ou que não responde ao AINE em dose adequada deve levantar suspeita de causa secundária (endometriose, adenomiose) e motivar investigação adicional",
+      "Ideação suicida associada ao transtorno disfórico pré-menstrual grave exige avaliação psiquiátrica e conduta imediata",
+    ],
+    prognostico:
+      "Excelente para a dismenorreia primária com tratamento apropriado, com resposta satisfatória ao AINE na maioria dos casos; a síndrome pré-menstrual e o transtorno disfórico pré-menstrual respondem bem ao tratamento combinado (estilo de vida, e quando indicado, ISRS), embora tendam a ser recorrentes ao longo da vida reprodutiva.",
+    pontosDeProva: [
+      "A dismenorreia primária decorre do excesso de prostaglandinas (PGF2α) produzidas pelo endométrio secretor, mecanismo que justifica a eficácia dos AINEs como tratamento de primeira linha",
+      "Dismenorreia que piora progressivamente com o tempo, ao contrário do padrão estável da forma primária, sugere causa secundária subjacente",
+      "O diagnóstico da síndrome pré-menstrual/TDPM exige registro prospectivo de sintomas por ao menos dois ciclos, não podendo ser feito apenas com relato retrospectivo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Adolescente, 15 anos, relata dor pélvica tipo cólica que se inicia no primeiro dia da menstruação e dura cerca de 2 dias, presente desde a menarca há 2 anos, sem outros sintomas associados.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta terapêutica inicial?",
+      raciocinio:
+        "Dor pélvica cíclica de início próximo à menarca, com padrão estável e sem sinais de doença pélvica associada, é compatível com dismenorreia primária, quadro funcional decorrente do excesso de prostaglandinas endometriais.",
+      conduta:
+        "Prescrever anti-inflamatório não esteroidal (ibuprofeno) a partir do início dos sintomas ou do fluxo menstrual, tratamento de primeira linha para dismenorreia primária.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "ibuprofeno", nome: "Ibuprofeno" },
+    ],
+    medicamentosNota:
+      "Os contraceptivos hormonais combinados (segunda linha para dismenorreia) e os ISRS (primeira linha para o transtorno disfórico pré-menstrual) ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Fisiopatologia prostaglandínica da dismenorreia primária e mecanismo dos AINEs", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Critérios diagnósticos do transtorno disfórico pré-menstrual e tratamento com ISRS", fonte: "ACOG Clinical Practice Guideline No. 7, Management of Premenstrual Disorders, 2023" },
+    ],
+  },
+  {
+    slug: "abortamento-habitual",
+    nome: "Abortamento habitual (perda gestacional recorrente)",
+    sinonimos: ["Aborto de repetição", "Perda gestacional recorrente"],
+    cid10: "N96",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Ocorrência de duas ou mais perdas gestacionais consecutivas antes de 20-24 semanas, condição que motiva investigação etiológica sistemática, embora em quase metade dos casos nenhuma causa seja identificada.",
+    definicao:
+      "Perda gestacional recorrente definida classicamente como a ocorrência de duas ou mais perdas gestacionais clinicamente reconhecidas (confirmadas por ultrassonografia ou histopatologia) antes de completar 20 a 24 semanas de gestação, não necessariamente consecutivas em algumas definições, mas classicamente consideradas como tal.",
+    epidemiologia:
+      "Acomete uma minoria, mas clinicamente relevante, das mulheres em idade reprodutiva que tentam engravidar; o risco de nova perda aumenta progressivamente com o número de perdas prévias e com a idade materna avançada, refletindo o papel central das anomalias cromossômicas relacionadas à idade oocitária.",
+    fisiopatologia:
+      "Multifatorial, incluindo anomalias cromossômicas embrionárias (causa isolada mais comum, principalmente em perdas precoces), anomalias anatômicas uterinas (útero septado, sinéquias), síndrome do anticorpo antifosfolípide (trombose placentária e falha de implantação), trombofilias hereditárias, disfunções endócrinas (hipotireoidismo não controlado, diabetes mal controlado, insuficiência lútea) e, em uma proporção considerável dos casos, nenhuma causa identificável apesar de investigação completa.",
+    classificacao:
+      "Classificada etiologicamente em genética (anomalias cromossômicas embrionárias ou parentais, como translocações balanceadas), anatômica (malformações uterinas müllerianas, sinéquias, miomas submucosos), autoimune (síndrome do anticorpo antifosfolípide), endócrina (disfunção tireoidiana, diabetes, insuficiência lútea) e idiopática (quando nenhuma causa é identificada após investigação completa, correspondendo a uma proporção substancial dos casos).",
+    quadroClinico: [
+      "História de duas ou mais perdas gestacionais confirmadas, dado central e definidor da condição",
+      "Ausência de sintomas específicos fora dos próprios episódios de perda gestacional (sangramento, cólica, ausência de batimentos cardíacos fetais em avaliação ultrassonográfica)",
+      "Sinais sugestivos de causa anatômica (dismenorreia, infertilidade associada) ou autoimune (história de trombose prévia) podem orientar a investigação",
+    ],
+    diagnostico: [
+      "Anamnese detalhada do histórico obstétrico e ginecológico, com confirmação documental das perdas prévias sempre que possível",
+      "Investigação etiológica sistemática incluindo cariótipo do casal, avaliação da cavidade uterina (histerossonografia ou histeroscopia), triagem para síndrome do anticorpo antifosfolípide, e avaliação da função tireoidiana",
+    ],
+    examesComplementares: [
+      "Anticorpos antifosfolípides (anticoagulante lúpico, anticardiolipina, anti-beta2-glicoproteína I), exame obrigatório na investigação de perda gestacional recorrente",
+      "Cariótipo do produto conceptual (quando disponível) na perda subsequente, para identificar anomalia cromossômica embrionária como causa",
+      "Avaliação da reserva ovariana e função tireoidiana como parte da investigação endócrina",
+    ],
+    diagnosticoDiferencial: [
+      "Perdas gestacionais esporádicas não recorrentes, que não compartilham o mesmo significado clínico nem exigem a mesma investigação sistemática",
+      "Infertilidade primária, distinguida pela ausência de gestações confirmadas prévias",
+    ],
+    tratamento: [
+      "Dirigido à causa identificada: correção cirúrgica de anomalia uterina, anticoagulação (heparina de baixo peso molecular associada a ácido acetilsalicílico) na síndrome do anticorpo antifosfolípide, controle otimizado de disfunção tireoidiana/diabetes",
+      "Suporte psicológico e aconselhamento reprodutivo são componentes essenciais do manejo, dado o impacto emocional significativo das perdas recorrentes",
+      "Nos casos idiopáticos (a maior parte), o prognóstico para gestação subsequente bem-sucedida permanece favorável mesmo sem intervenção específica identificada, e o acompanhamento pré-natal precoce e de suporte é a conduta principal",
+    ],
+    complicacoes: [
+      "Aguda: complicações da própria perda gestacional (sangramento, infecção)",
+      "Crônica: impacto psicológico significativo (ansiedade, depressão) e, quando há causa anatômica ou autoimune não corrigida, risco mantido de novas perdas",
+    ],
+    redFlags: [
+      "Síndrome do anticorpo antifosfolípide não diagnosticada e não tratada mantém risco elevado de novas perdas e de complicações trombóticas maternas, reforçando a importância da triagem sistemática",
+      "Investigação completa sem causa identificada não deve ser interpretada como motivo de pessimismo, dado que a maioria das mulheres com perda gestacional recorrente idiopática consegue gestação bem-sucedida subsequente",
+    ],
+    prognostico:
+      "Variável conforme a causa identificada, mas geralmente favorável para gestação subsequente bem-sucedida mesmo nos casos idiopáticos, especialmente com acompanhamento pré-natal precoce e de suporte; causas anatômicas corrigíveis e a síndrome do anticorpo antifosfolípide tratada adequadamente têm excelente resposta terapêutica.",
+    pontosDeProva: [
+      "Anomalias cromossômicas embrionárias são a causa isolada mais comum de perda gestacional recorrente, especialmente em perdas precoces do primeiro trimestre",
+      "A síndrome do anticorpo antifosfolípide é a principal causa tratável identificável, com anticoagulação (heparina de baixo peso molecular + AAS) melhorando significativamente o desfecho gestacional",
+      "Em quase metade dos casos, nenhuma causa é identificada mesmo após investigação completa, mas o prognóstico para gestação subsequente permanece favorável",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 32 anos, relata três perdas gestacionais consecutivas no primeiro trimestre nos últimos dois anos, todas confirmadas por ultrassonografia.",
+      pergunta: "Qual a investigação etiológica inicial recomendada?",
+      raciocinio:
+        "Três perdas gestacionais consecutivas caracterizam perda gestacional recorrente, condição que justifica investigação etiológica sistemática, incluindo as causas mais comuns e tratáveis.",
+      conduta:
+        "Solicitar triagem para síndrome do anticorpo antifosfolípide, avaliação da cavidade uterina (histerossonografia/histeroscopia), cariótipo do casal e avaliação da função tireoidiana.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é dirigido à causa identificada (anticoagulação na síndrome do anticorpo antifosfolípide, correção cirúrgica anatômica, entre outros); nenhum desses tratamentos ainda tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Classificação etiológica e papel central das anomalias cromossômicas embrionárias", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Investigação e tratamento da síndrome do anticorpo antifosfolípide na perda gestacional recorrente", fonte: "ACOG Practice Bulletin No. 200, Early Pregnancy Loss, 2018" },
+    ],
+  },
+  {
+    slug: "infertilidade-feminina",
+    nome: "Infertilidade feminina",
+    sinonimos: ["Infertilidade conjugal (fator feminino)"],
+    cid10: "N97",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Incapacidade de conceber após 12 meses de relações sexuais regulares sem contracepção (6 meses se idade ≥ 35 anos), cujas principais causas femininas são fator ovulatório, fator tubário/peritoneal e endometriose.",
+    definicao:
+      "Incapacidade de conceber após um período definido de relações sexuais regulares e desprotegidas — 12 meses para mulheres com menos de 35 anos, ou 6 meses para mulheres com 35 anos ou mais, dado o declínio mais acelerado da reserva ovariana nessa faixa etária que justifica investigação mais precoce.",
+    epidemiologia:
+      "Acomete uma proporção significativa de casais em idade reprodutiva tentando engravidar, com o fator feminino isolado, o fator masculino isolado e a combinação de ambos contribuindo, cada um, para uma fração substancial dos casos; a idade materna avançada é o fator prognóstico mais importante, dado o declínio progressivo e acelerado da reserva e da qualidade ovocitária a partir dos 35 anos.",
+    fisiopatologia:
+      "As principais causas do fator feminino atuam em diferentes níveis do processo reprodutivo: disfunção ovulatória (anovulação crônica, como na síndrome dos ovários policísticos, impedindo a liberação regular de oócitos), fator tubário/peritoneal (obstrução ou aderências tubárias, frequentemente sequela de doença inflamatória pélvica prévia, impedindo o encontro do oócito com o espermatozoide ou o transporte do embrião), e endometriose (distorção anatômica e ambiente peritoneal inflamatório inóspito à fertilização e implantação).",
+    classificacao:
+      "Classificada por fator etiológico em ovulatório, tubário/peritoneal, uterino (anomalias anatômicas, miomas submucosos), endometriose, e fator masculino (avaliado em paralelo, dado que a infertilidade é investigada como condição do casal); uma proporção dos casos permanece sem causa identificada (infertilidade sem causa aparente) mesmo após investigação completa.",
+    quadroClinico: [
+      "Ausência de concepção após o período definido de tentativa apesar de relações sexuais regulares e desprotegidas, critério central da definição",
+      "Irregularidade menstrual (oligomenorreia/amenorreia) sugere disfunção ovulatória como fator contribuinte",
+      "Dismenorreia progressiva e dispareunia sugerem endometriose associada",
+      "História de doença inflamatória pélvica prévia ou cirurgia pélvica sugere fator tubário/peritoneal",
+    ],
+    diagnostico: [
+      "Avaliação da ovulação (dosagem de progesterona na fase lútea média, ou monitorização de temperatura basal/kits de predição de ovulação), confirmando ou não a ocorrência regular de ovulação",
+      "Histerossalpingografia, exame de primeira linha para avaliação da permeabilidade tubária e da cavidade uterina",
+      "Avaliação da reserva ovariana (hormônio antimülleriano e contagem de folículos antrais), particularmente relevante em mulheres acima de 35 anos",
+      "Avaliação do fator masculino em paralelo (espermograma), sempre parte da investigação inicial do casal",
+    ],
+    examesComplementares: [
+      "Laparoscopia diagnóstica reservada para suspeita de endometriose ou aderências pélvicas não totalmente esclarecidas pelos exames de primeira linha",
+      "Ultrassonografia pélvica/transvaginal para avaliação de anomalias uterinas e ovarianas estruturais",
+    ],
+    diagnosticoDiferencial: [
+      "Disfunção sexual do casal, causa não orgânica que pode simular infertilidade quando há dificuldade na frequência ou timing das relações",
+      "Perda gestacional recorrente, condição distinta que pressupõe capacidade de concepção mas dificuldade em manter a gestação",
+    ],
+    tratamento: [
+      "Dirigido à causa identificada: indução da ovulação em disfunção ovulatória, correção cirúrgica ou fertilização in vitro em fator tubário, tratamento cirúrgico ou fertilização in vitro em endometriose associada",
+      "Técnicas de reprodução assistida (inseminação intrauterina, fertilização in vitro), indicadas conforme a causa, a idade materna e a falha de tratamentos menos invasivos",
+      "Orientação sobre otimização do timing das relações sexuais em relação à janela fértil como medida inicial de baixo custo em casais sem causa identificada",
+    ],
+    complicacoes: [
+      "Aguda: síndrome de hiperestimulação ovariana como complicação de tratamentos de indução da ovulação/fertilização in vitro",
+      "Crônica: impacto psicológico significativo (ansiedade, depressão, tensão conjugal) associado à dificuldade reprodutiva prolongada",
+    ],
+    redFlags: [
+      "Idade materna acima de 35 anos justifica investigação mais precoce (após 6 meses, em vez de 12) dado o declínio acelerado da reserva ovariana nessa faixa etária, com impacto direto no prognóstico reprodutivo",
+      "Amenorreia associada a infertilidade deve ser investigada especificamente (ver ficha de amenorreia), dado que frequentemente aponta para causa ovulatória tratável",
+    ],
+    prognostico:
+      "Variável conforme a causa identificada e a idade materna, sendo esta o fator prognóstico mais determinante; muitas causas (disfunção ovulatória, fator tubário) respondem bem a tratamento dirigido ou a técnicas de reprodução assistida.",
+    pontosDeProva: [
+      "A investigação de infertilidade é iniciada após 12 meses de tentativa (ou 6 meses se idade ≥ 35 anos), dado o declínio acelerado da reserva ovariana nessa faixa etária",
+      "As três principais causas do fator feminino são disfunção ovulatória, fator tubário/peritoneal e endometriose, cada uma investigada por exame específico direcionado",
+      "A infertilidade é sempre investigada como condição do casal, com avaliação do fator masculino (espermograma) sempre parte da investigação inicial",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 36 anos, relata tentativa de engravidar há 7 meses sem sucesso, com ciclos menstruais regulares. Nega dismenorreia ou história de doença inflamatória pélvica.",
+      pergunta: "Está indicado iniciar a investigação de infertilidade nesse momento?",
+      raciocinio:
+        "Sim. Embora o período clássico de tentativa antes da investigação seja de 12 meses, mulheres com 35 anos ou mais devem iniciar a investigação após apenas 6 meses de tentativa, dado o declínio acelerado da reserva ovariana nessa faixa etária, que reduz a janela reprodutiva disponível para tratamento.",
+      conduta:
+        "Iniciar avaliação da reserva ovariana (hormônio antimülleriano), confirmação de ovulação, histerossalpingografia para avaliação tubária/uterina, e espermograma do parceiro em paralelo.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é dirigido à causa (indutores de ovulação, técnicas de reprodução assistida), nenhum dos quais ainda tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Definição, classificação etiológica e algoritmo de investigação inicial", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Critério de idade para início mais precoce da investigação (35 anos)", fonte: "ACOG Committee Opinion No. 781, Infertility Workup for the Women's Health Specialist, 2019" },
+    ],
+  },
+  {
+    slug: "transtornos-menopausa-perimenopausa",
+    nome: "Transtornos da menopausa e da perimenopausa",
+    sinonimos: ["Climatério", "Síndrome climatérica"],
+    cid10: "N95",
+    especialidade: "Ginecologia",
+    etiologia: "Metabólica",
+    resumo: "Transição fisiológica caracterizada pelo declínio progressivo e cessação da função ovariana, causando fogachos, sintomas geniturinários, alterações do humor e perda de densidade óssea decorrentes do hipoestrogenismo.",
+    definicao:
+      "Menopausa é definida retrospectivamente como a cessação permanente da menstruação após 12 meses consecutivos de amenorreia, decorrente do esgotamento da reserva folicular ovariana; perimenopausa é a transição que a precede, marcada por irregularidade menstrual progressiva e flutuações hormonais.",
+    epidemiologia:
+      "A menopausa ocorre naturalmente em média por volta dos 51 anos, podendo também ser induzida (cirúrgica, por ooforectomia bilateral, ou por quimioterapia/radioterapia); a grande maioria das mulheres experimenta algum grau de sintomas vasomotores durante a transição, com intensidade e duração variáveis.",
+    fisiopatologia:
+      "O esgotamento progressivo da reserva folicular ovariana leva à queda dos níveis de estradiol e à elevação compensatória de FSH; a queda estrogênica desregula o centro termorregulador hipotalâmico (causando os fogachos característicos), leva a atrofia do epitélio urogenital (síndrome geniturinária da menopausa) e acelera a perda de massa óssea pela redução do efeito estrogênico protetor sobre o remodelamento ósseo.",
+    classificacao:
+      "Classificada em perimenopausa (transição com ciclos irregulares e sintomas vasomotores iniciais), menopausa (marco retrospectivo após 12 meses de amenorreia) e pós-menopausa (período subsequente); também classificada quanto à causa em natural (fisiológica) e induzida (cirúrgica ou por tratamento oncológico).",
+    quadroClinico: [
+      "Fogachos (ondas de calor) e sudorese noturna, sintomas vasomotores mais característicos e frequentemente o motivo da consulta",
+      "Irregularidade menstrual progressiva na perimenopausa, precedendo a cessação completa da menstruação",
+      "Síndrome geniturinária da menopausa: secura vaginal, dispareunia, urgência urinária e infecções urinárias de repetição, decorrentes da atrofia do epitélio urogenital",
+      "Alterações do humor (irritabilidade, labilidade emocional) e distúrbios do sono, frequentemente exacerbados pelos próprios fogachos noturnos",
+    ],
+    diagnostico: [
+      "Diagnóstico eminentemente clínico, baseado na idade e no padrão de irregularidade/cessação menstrual associado aos sintomas característicos",
+      "Dosagem de FSH pode auxiliar em casos de dúvida diagnóstica (por exemplo, menopausa precoce), mas não é necessária para o diagnóstico em mulheres na faixa etária típica com quadro clínico característico",
+    ],
+    examesComplementares: [
+      "Densitometria óssea, recomendada para rastreamento de osteoporose no período pós-menopausa, dado o risco aumentado pela perda do efeito protetor estrogênico",
+      "Perfil lipídico, dado o aumento do risco cardiovascular após a menopausa pela perda do efeito protetor estrogênico endógeno",
+    ],
+    diagnosticoDiferencial: [
+      "Disfunção tireoidiana, causa de irregularidade menstrual e sintomas sistêmicos que pode mimetizar ou coexistir com a transição menopausal",
+      "Insuficiência ovariana primária, quando os sintomas e a cessação menstrual ocorrem antes dos 40 anos, exigindo investigação etiológica específica",
+    ],
+    tratamento: [
+      "Terapia hormonal (estrogênio, associado a progestagênio em mulheres com útero intacto), tratamento mais eficaz para os sintomas vasomotores moderados a graves, indicada individualizadamente conforme risco-benefício",
+      "Estrogênio vaginal tópico em baixa dose, tratamento de escolha para a síndrome geniturinária da menopausa isolada, com absorção sistêmica mínima",
+      "Alternativas não hormonais (como inibidores seletivos da recaptação de serotonina/noradrenalina) para sintomas vasomotores em mulheres com contraindicação à terapia hormonal",
+      "Suplementação de cálcio e vitamina D, e avaliação de necessidade de tratamento específico para osteoporose conforme a densitometria óssea",
+    ],
+    complicacoes: [
+      "Aguda: impacto significativo na qualidade de vida pelos sintomas vasomotores e do sono",
+      "Crônica: osteoporose e aumento do risco de fraturas, aumento do risco cardiovascular, atrofia urogenital progressiva quando não tratada",
+    ],
+    redFlags: [
+      "Sangramento vaginal após a menopausa estabelecida (12 meses de amenorreia) é sempre um sinal de alarme que exige investigação para exclusão de malignidade endometrial, não devendo ser atribuído à transição menopausal em si",
+      "Menopausa antes dos 40 anos (insuficiência ovariana primária) exige investigação etiológica e consideração de terapia hormonal para proteção óssea e cardiovascular a longo prazo, dado o período mais prolongado de hipoestrogenismo",
+    ],
+    prognostico:
+      "Excelente controle sintomático com terapia individualizada; os sintomas vasomotores tendem a se atenuar espontaneamente ao longo dos anos após a menopausa, embora a atrofia urogenital, sem tratamento, tenda a ser progressiva e não regride espontaneamente.",
+    pontosDeProva: [
+      "Menopausa é um diagnóstico retrospectivo, definido por 12 meses consecutivos de amenorreia, e não um momento identificável prospectivamente",
+      "Sangramento vaginal após a menopausa estabelecida é sempre patológico até prova em contrário e exige investigação para exclusão de malignidade endometrial",
+      "O estrogênio vaginal tópico em baixa dose é o tratamento de escolha para a síndrome geniturinária da menopausa isolada, com mínima absorção sistêmica em comparação à terapia hormonal sistêmica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 52 anos, com 14 meses de amenorreia, relata fogachos frequentes e sudorese noturna que atrapalham significativamente o sono, sem sangramento vaginal.",
+      pergunta: "Qual a conduta terapêutica apropriada para o controle dos sintomas vasomotores?",
+      raciocinio:
+        "Fogachos e sudorese noturna moderados a graves, impactando significativamente a qualidade de vida, em mulher na pós-menopausa sem contraindicações identificadas, justificam consideração de terapia hormonal como tratamento mais eficaz disponível.",
+      conduta:
+        "Avaliar contraindicações individuais e, na ausência delas, considerar terapia hormonal (estrogênio associado a progestagênio, dado o útero intacto) para controle dos sintomas vasomotores, com reavaliação periódica do risco-benefício.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "A terapia hormonal sistêmica e o estrogênio vaginal tópico, tratamentos de escolha, ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Fisiopatologia do esgotamento folicular e classificação da transição menopausal", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Indicações e individualização de risco-benefício da terapia hormonal", fonte: "The North American Menopause Society, The 2022 Hormone Therapy Position Statement" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-colo-utero",
+    nome: "Neoplasia maligna do colo do útero",
+    sinonimos: ["Câncer de colo uterino", "Carcinoma cervical"],
+    cid10: "C53",
+    especialidade: "Ginecologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna quase universalmente associada à infecção persistente por HPV oncogênico, uma das neoplasias mais preveníveis quando o rastreamento citológico e a vacinação são adequadamente implementados.",
+    definicao:
+      "Neoplasia maligna originada do epitélio cervical, na grande maioria dos casos carcinoma espinocelular (originado do epitélio escamoso) e, em menor proporção, adenocarcinoma (originado do epitélio glandular endocervical), decorrente da progressão não tratada de displasia cervical de alto grau causada por infecção persistente por HPV oncogênico.",
+    epidemiologia:
+      "Uma das neoplasias ginecológicas mais comuns globalmente, com incidência marcadamente maior em regiões com programas de rastreamento citológico deficientes; a incidência tem declinado de forma acentuada em populações com rastreamento e vacinação contra HPV amplamente implementados.",
+    fisiopatologia:
+      "Decorre da progressão de displasia cervical de alto grau (NIC 2/3) não tratada, na qual a expressão persistente das oncoproteínas E6 e E7 do HPV oncogênico (inativando p53 e Rb, respectivamente) permite acúmulo progressivo de mutações adicionais e invasão da membrana basal, com potencial subsequente de disseminação local (paramétrios, vagina), linfática (linfonodos pélvicos e para-aórticos) e, em fase avançada, hematogênica.",
+    classificacao:
+      "Classificado histologicamente em carcinoma espinocelular (a maioria) e adenocarcinoma; estadiado clinicamente pelo sistema FIGO, com base primariamente no exame físico e em achados de imagem, considerando tamanho tumoral, extensão parametrial, invasão de órgãos adjacentes e presença de metástases.",
+    quadroClinico: [
+      "Sangramento vaginal anormal (intermenstrual, pós-coital ou pós-menopausa), sintoma mais comum em doença já estabelecida",
+      "Corrimento vaginal fétido e persistente em doença mais avançada",
+      "Dor pélvica e sintomas compressivos (urinários, intestinais) em doença localmente avançada com invasão de estruturas adjacentes",
+      "Frequentemente assintomática nas fases pré-invasiva e microinvasiva inicial, identificada exclusivamente pelo rastreamento citológico",
+    ],
+    diagnostico: [
+      "Biópsia cervical dirigida por colposcopia, exame confirmatório que estabelece o diagnóstico histológico",
+      "Estadiamento clínico FIGO com exame físico detalhado sob anestesia quando necessário, complementado por exames de imagem",
+    ],
+    examesComplementares: [
+      "Ressonância magnética pélvica, exame de escolha para avaliação da extensão tumoral local e parametrial no estadiamento",
+      "Tomografia computadorizada de tórax/abdome ou PET-TC para avaliação de doença linfonodal e metástases a distância em estádios mais avançados",
+    ],
+    diagnosticoDiferencial: [
+      "Pólipo cervical e cervicite, causas benignas de sangramento e corrimento que devem ser distinguidas por biópsia quando há qualquer suspeita",
+      "Displasia cervical de alto grau (NIC 2/3) sem invasão, distinguida pela ausência de invasão da membrana basal ao exame histopatológico",
+    ],
+    tratamento: [
+      "Doença microinvasiva inicial: conização ou histerectomia simples, conforme profundidade de invasão e desejo reprodutivo",
+      "Doença localmente invasiva (estádios iniciais): histerectomia radical com linfadenectomia pélvica, ou radioterapia associada à quimioterapia (quimiorradioterapia) como alternativa em pacientes não candidatas à cirurgia",
+      "Doença localmente avançada: quimiorradioterapia concomitante como tratamento padrão",
+      "Doença metastática: quimioterapia sistêmica, com incorporação crescente de imunoterapia em protocolos atuais",
+    ],
+    complicacoes: [
+      "Aguda: sangramento e dor relacionados à progressão tumoral local",
+      "Crônica: obstrução ureteral bilateral com insuficiência renal obstrutiva em doença localmente avançada invadindo os paramétrios, uma das principais causas de óbito na doença não controlada",
+    ],
+    redFlags: [
+      "Sangramento pós-coital em mulher sem rastreamento citológico atualizado deve motivar investigação cervical dirigida, incluindo exclusão de neoplasia invasiva",
+      "Obstrução ureteral bilateral por invasão parametrial extensa é sinal de doença avançada com impacto prognóstico significativo",
+    ],
+    prognostico:
+      "Excelente em doença detectada em fase pré-invasiva ou microinvasiva inicial (rastreamento e tratamento oportunos da displasia); o prognóstico piora progressivamente com o estádio ao diagnóstico, reforçando a importância central do rastreamento populacional e da vacinação contra HPV na prevenção primária e secundária.",
+    pontosDeProva: [
+      "O câncer cervical é uma das neoplasias mais preveníveis, dado que decorre de uma sequência conhecida e detectável (infecção por HPV → displasia → carcinoma invasor) interceptável pelo rastreamento citológico",
+      "Carcinoma espinocelular é o tipo histológico mais comum, seguido pelo adenocarcinoma",
+      "O estadiamento é primariamente clínico (FIGO), diferentemente de muitas outras neoplasias ginecológicas que são estadiadas cirurgicamente",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 45 anos, sem rastreamento citológico há mais de 10 anos, procura atendimento por sangramento pós-coital recorrente há 3 meses. Exame especular revela lesão exofítica friável no colo uterino.",
+      pergunta: "Qual a conduta diagnóstica imediata?",
+      raciocinio:
+        "Lesão cervical exofítica e friável associada a sangramento pós-coital em paciente sem rastreamento adequado é altamente suspeita de neoplasia cervical invasiva, devendo ser biopsiada diretamente em vez de aguardar apenas citologia de rastreamento.",
+      conduta:
+        "Realizar biópsia dirigida da lesão visível para confirmação histológica; se confirmado carcinoma, prosseguir com estadiamento clínico FIGO e exames de imagem (ressonância pélvica) para planejamento terapêutico.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento oncológico específico (cirurgia, quimiorradioterapia, quimioterapia sistêmica) ainda não tem seus componentes documentados como fichas próprias no site.",
+    fontes: [
+      { tema: "Fisiopatologia da progressão de displasia para carcinoma invasor e classificação histológica", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Estadiamento FIGO e opções terapêuticas por estádio", fonte: "FIGO Cancer Report 2021, Cervical Cancer" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-corpo-utero",
+    nome: "Neoplasia maligna do corpo do útero (câncer de endométrio)",
+    sinonimos: ["Câncer de endométrio", "Carcinoma endometrial"],
+    cid10: "C54",
+    especialidade: "Ginecologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia ginecológica maligna mais comum em países desenvolvidos, fortemente associada à exposição estrogênica não compensada, manifestando-se predominantemente por sangramento pós-menopausa, o que favorece diagnóstico em fase precoce.",
+    definicao:
+      "Neoplasia maligna originada do epitélio glandular endometrial, classicamente dividida em dois tipos fisiopatológicos distintos: tipo I (endometrioide, estrogênio-dependente, associado a hiperplasia endometrial prévia) e tipo II (não endometrioide — seroso, células claras —, não estrogênio-dependente, de comportamento biológico mais agressivo).",
+    epidemiologia:
+      "A neoplasia ginecológica maligna mais comum em países desenvolvidos, tipicamente diagnosticada em mulheres na pós-menopausa; principais fatores de risco para o tipo I incluem obesidade, anovulação crônica (síndrome dos ovários policísticos), nuliparidade, uso de tamoxifeno e terapia estrogênica isolada sem oposição progestagênica.",
+    fisiopatologia:
+      "O tipo I decorre de exposição estrogênica prolongada e não compensada por progesterona, levando a proliferação endometrial excessiva (hiperplasia endometrial), que pode progredir para carcinoma quando há atipia celular associada; o tipo II surge independentemente do estímulo estrogênico, tipicamente em endométrio atrófico, com mutações de p53 e comportamento biologicamente mais agressivo desde o diagnóstico.",
+    classificacao:
+      "Classificado em tipo I (endometrioide, cerca de 80% dos casos, estrogênio-dependente, geralmente de melhor prognóstico) e tipo II (seroso e de células claras, estrogênio-independente, pior prognóstico); estadiado cirurgicamente pelo sistema FIGO, com base em achados da histerectomia com linfadenectomia.",
+    quadroClinico: [
+      "Sangramento vaginal pós-menopausa, sintoma de apresentação mais comum e que favorece diagnóstico em fase precoce, dado que motiva investigação imediata",
+      "Sangramento uterino anormal em mulher na perimenopausa com fatores de risco (obesidade, anovulação crônica), padrão de apresentação mais desafiador por se sobrepor a causas benignas comuns nessa faixa etária",
+      "Corrimento vaginal serossanguinolento em casos mais avançados",
+    ],
+    diagnostico: [
+      "Biópsia endometrial (ambulatorial ou por histeroscopia), exame confirmatório de primeira linha diante de sangramento pós-menopausa ou espessamento endometrial suspeito",
+      "Ultrassonografia transvaginal como triagem inicial, com espessamento endometrial acima de determinado limiar em mulher pós-menopausa reforçando a indicação de biópsia",
+    ],
+    examesComplementares: [
+      "Ressonância magnética pélvica para avaliação pré-operatória da profundidade de invasão miometrial e extensão cervical",
+      "Estadiamento cirúrgico definitivo (histerectomia total com salpingo-ooforectomia bilateral e linfadenectomia), que estabelece o estádio FIGO final e orienta necessidade de tratamento adjuvante",
+    ],
+    diagnosticoDiferencial: [
+      "Pólipo endometrial e hiperplasia endometrial sem atipia, lesões benignas que compartilham o sintoma de sangramento pós-menopausa, distinguidas pela biópsia",
+      "Sarcoma uterino, neoplasia maligna mesenquimal rara, distinguida por comportamento clínico mais agressivo e características histológicas próprias",
+    ],
+    tratamento: [
+      "Histerectomia total com salpingo-ooforectomia bilateral e linfadenectomia, tratamento primário na maioria dos casos, servindo simultaneamente de estadiamento cirúrgico definitivo",
+      "Radioterapia adjuvante (pélvica ou vaginal) indicada conforme fatores de risco identificados no estadiamento cirúrgico (profundidade de invasão miometrial, grau histológico, invasão linfovascular)",
+      "Quimioterapia adjuvante ou paliativa indicada em doença de alto risco, tipo II, ou metastática",
+      "Progestagênios como opção conservadora (preservando a fertilidade) em casos muito selecionados de carcinoma endometrioide inicial de baixo grau em mulheres jovens",
+    ],
+    complicacoes: [
+      "Aguda: sangramento significativo em casos avançados",
+      "Crônica: disseminação linfonodal e a distância em doença não tratada ou de alto risco",
+    ],
+    redFlags: [
+      "Todo sangramento pós-menopausa deve ser considerado câncer de endométrio até prova em contrário, dado que essa é a manifestação clássica e mais precoce da doença",
+      "Espessamento endometrial significativo em mulher pós-menopausa assintomática também merece investigação, embora o risco seja proporcionalmente menor que na presença de sangramento",
+    ],
+    prognostico:
+      "Geralmente favorável quando diagnosticado precocemente (a maioria dos casos, dado o sintoma de alarme precoce do sangramento pós-menopausa), com o tipo histológico (I versus II) e o estádio cirúrgico sendo os principais determinantes prognósticos.",
+    pontosDeProva: [
+      "É a neoplasia ginecológica maligna mais comum em países desenvolvidos, e frequentemente diagnosticada em fase precoce pelo sintoma de alarme do sangramento pós-menopausa",
+      "O tipo I (endometrioide, estrogênio-dependente) tem melhor prognóstico que o tipo II (seroso/células claras, estrogênio-independente, mutação de p53)",
+      "O estadiamento é cirúrgico (FIGO), ao contrário do câncer cervical, que é estadiado clinicamente",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 61 anos, na pós-menopausa há 10 anos, obesa, relata episódio de sangramento vaginal. Ultrassonografia transvaginal identifica espessamento endometrial de 12 mm.",
+      pergunta: "Qual a conduta diagnóstica apropriada?",
+      raciocinio:
+        "Sangramento pós-menopausa associado a espessamento endometrial significativo em paciente com fator de risco (obesidade, favorecendo excesso estrogênico relativo) deve ser considerado câncer de endométrio até prova em contrário.",
+      conduta:
+        "Realizar biópsia endometrial (ambulatorial ou histeroscópica) para confirmação histológica; se confirmado carcinoma, encaminhar para estadiamento cirúrgico com histerectomia total, salpingo-ooforectomia bilateral e linfadenectomia.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é cirúrgico, com radioterapia/quimioterapia adjuvantes conforme risco; nenhum desses componentes ainda tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Classificação em tipo I e tipo II e fatores de risco estrogênicos", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Investigação do sangramento pós-menopausa e estadiamento cirúrgico FIGO", fonte: "ACOG Committee Opinion No. 734, The Role of Transvaginal Ultrasonography in Evaluating the Endometrium of Women With Postmenopausal Bleeding" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-ovario",
+    nome: "Neoplasia maligna do ovário",
+    sinonimos: ["Câncer de ovário", "Carcinoma epitelial do ovário"],
+    cid10: "C56",
+    especialidade: "Ginecologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia ginecológica com a maior letalidade, tipicamente diagnosticada em estádio avançado por sua evolução insidiosa e sintomas iniciais inespecíficos, sendo o carcinoma epitelial seroso de alto grau o tipo histológico predominante.",
+    definicao:
+      "Neoplasia maligna originada do ovário, mais comumente de origem epitelial (carcinoma), com uma minoria de origem em células germinativas ou no estroma/cordões sexuais; o carcinoma seroso de alto grau, hoje reconhecido como frequentemente originado na porção distal da tuba uterina, é o subtipo mais comum e letal.",
+    epidemiologia:
+      "Neoplasia ginecológica com a maior taxa de mortalidade, decorrente principalmente do diagnóstico tardio em estádio avançado; mutações germinativas em BRCA1/BRCA2 e síndrome de Lynch são os principais fatores de risco hereditários identificáveis, associados a risco substancialmente aumentado ao longo da vida.",
+    fisiopatologia:
+      "O carcinoma seroso de alto grau, o subtipo mais comum, origina-se predominantemente do epitélio da fímbria tubária (não do ovário propriamente dito, conforme entendimento fisiopatológico atual), disseminando-se precocemente pela superfície peritoneal através do líquido peritoneal, o que explica a apresentação frequente com carcinomatose peritoneal e ascite já ao diagnóstico; mutações em BRCA1/BRCA2 comprometem o reparo do DNA por recombinação homóloga, predispondo à carcinogênese.",
+    classificacao:
+      "Classificado histologicamente em epitelial (a maioria, subdividido em seroso de alto grau — o mais comum e letal —, seroso de baixo grau, endometrioide, de células claras e mucinoso), de células germinativas (mais comum em mulheres jovens) e do estroma/cordões sexuais; estadiado cirurgicamente pelo sistema FIGO.",
+    quadroClinico: [
+      "Sintomas inespecíficos e insidiosos (distensão abdominal, saciedade precoce, desconforto pélvico, alterações urinárias/intestinais), frequentemente atribuídos a outras causas, retardando o diagnóstico",
+      "Massa pélvica/abdominal palpável e ascite em doença já avançada, achados mais específicos mas tardios",
+      "Sintomas gastrointestinais persistentes e de início recente em mulher de meia-idade devem sempre incluir neoplasia ovariana no diagnóstico diferencial, dada a inespecificidade inicial do quadro",
+    ],
+    diagnostico: [
+      "Ultrassonografia pélvica/transvaginal como exame inicial de imagem para caracterização de massa anexial suspeita",
+      "CA-125 sérico como marcador tumoral auxiliar, mais útil no acompanhamento da resposta terapêutica do que como exame de rastreamento isolado, dada sua baixa especificidade em mulheres pré-menopausa",
+      "Confirmação histológica definitiva obtida no momento da cirurgia de estadiamento, já que a biópsia percutânea pré-operatória é geralmente evitada pelo risco de disseminação tumoral",
+    ],
+    examesComplementares: [
+      "Tomografia computadorizada de abdome e pelve para avaliação da extensão da doença e planejamento cirúrgico",
+      "Teste genético para mutações BRCA1/BRCA2 em todas as pacientes diagnosticadas com carcinoma epitelial de ovário, com implicações terapêuticas (uso de inibidores de PARP) e para aconselhamento familiar",
+    ],
+    diagnosticoDiferencial: [
+      "Cisto ovariano funcional/benigno, distinguido por características ultrassonográficas mais simples e ausência de componentes sólidos ou vascularização anormal",
+      "Endometrioma, distinguido pelo aspecto ecográfico característico de conteúdo homogêneo espesso",
+      "Neoplasia gastrointestinal com metástase ovariana secundária (tumor de Krukenberg), diagnóstico diferencial relevante que a avaliação histopatológica completa deve considerar",
+    ],
+    tratamento: [
+      "Cirurgia citorredutora (histerectomia total, salpingo-ooforectomia bilateral, omentectomia e ressecção de toda doença macroscópica visível) associada a estadiamento cirúrgico completo, pilar do tratamento inicial",
+      "Quimioterapia sistêmica à base de platina, indicada na maioria dos casos além do estádio inicial mais precoce, seja em contexto adjuvante seja neoadjuvante",
+      "Inibidores de PARP como terapia de manutenção em pacientes com mutação BRCA ou deficiência de recombinação homóloga, representando avanço terapêutico relevante nas últimas décadas",
+    ],
+    complicacoes: [
+      "Aguda: obstrução intestinal por carcinomatose peritoneal em doença avançada",
+      "Crônica: recorrência frequente mesmo após resposta inicial ao tratamento, especialmente no carcinoma seroso de alto grau",
+    ],
+    redFlags: [
+      "Sintomas gastrointestinais inespecíficos persistentes e de início recente em mulher de meia-idade ou mais velha devem sempre motivar consideração de neoplasia ovariana, dado o padrão insidioso característico dessa doença",
+      "História familiar de câncer de ovário e/ou mama deve motivar aconselhamento genético e consideração de teste para mutações BRCA1/BRCA2",
+    ],
+    prognostico:
+      "Reservado na maioria dos casos, dado o diagnóstico predominante em estádio avançado; a resposta inicial à cirurgia citorredutora completa e à quimioterapia à base de platina costuma ser boa, mas a recorrência é frequente, sendo o principal desafio no manejo a longo prazo.",
+    pontosDeProva: [
+      "O carcinoma seroso de alto grau, subtipo mais comum e letal, é hoje entendido como frequentemente originado na fímbria tubária, não no ovário propriamente dito",
+      "CA-125 tem baixa especificidade como exame de rastreamento isolado, sendo mais útil no acompanhamento da resposta terapêutica após diagnóstico estabelecido",
+      "Teste para mutações BRCA1/BRCA2 é recomendado para todas as pacientes com carcinoma epitelial de ovário, com implicação terapêutica direta (inibidores de PARP)",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 58 anos, relata distensão abdominal progressiva, saciedade precoce e desconforto pélvico há 3 meses, sintomas inicialmente atribuídos a distúrbio digestivo funcional. Exame físico revela ascite e massa pélvica palpável.",
+      pergunta: "Qual a hipótese diagnóstica que deve ser priorizada e a conduta subsequente?",
+      raciocinio:
+        "Sintomas gastrointestinais inespecíficos persistentes associados a massa pélvica e ascite em mulher de meia-idade são altamente sugestivos de neoplasia maligna de ovário em estádio avançado, padrão de apresentação insidiosa característico dessa doença.",
+      conduta:
+        "Solicitar ultrassonografia pélvica/transvaginal, CA-125 sérico e tomografia de abdome/pelve para caracterização e estadiamento; encaminhar para cirurgia citorredutora com estadiamento cirúrgico completo.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é cirúrgico associado a quimioterapia sistêmica à base de platina e, quando indicado, inibidores de PARP; nenhum desses componentes ainda tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Origem tubária do carcinoma seroso de alto grau e classificação histológica", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Papel do teste BRCA1/BRCA2 e dos inibidores de PARP no tratamento", fonte: "ACOG Practice Bulletin No. 182, Hereditary Breast and Ovarian Cancer Syndrome, 2017" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-vulva",
+    nome: "Neoplasia maligna da vulva",
+    sinonimos: ["Câncer de vulva", "Carcinoma vulvar"],
+    cid10: "C51",
+    especialidade: "Ginecologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia ginecológica pouco comum, predominantemente carcinoma espinocelular, com duas vias fisiopatológicas distintas — associada a HPV (mulheres mais jovens) e associada a líquen escleroso/dermatoses vulvares crônicas (mulheres mais idosas).",
+    definicao:
+      "Neoplasia maligna originada da pele ou mucosa vulvar, na grande maioria dos casos carcinoma espinocelular, seguido em frequência pelo melanoma vulvar e por tipos histológicos mais raros (carcinoma basocelular, adenocarcinoma de glândula de Bartholin).",
+    epidemiologia:
+      "Neoplasia ginecológica pouco comum, tipicamente diagnosticada em mulheres na pós-menopausa, embora uma proporção crescente de casos associados a HPV venha sendo diagnosticada em mulheres mais jovens; o líquen escleroso vulvar de longa data não tratado é fator de risco reconhecido na via não associada a HPV.",
+    fisiopatologia:
+      "Duas vias fisiopatológicas distintas são reconhecidas: a via associada a HPV (mais comum em mulheres mais jovens, com mecanismo molecular análogo ao carcinoma cervical, envolvendo as oncoproteínas E6/E7) e a via não associada a HPV (mais comum em mulheres idosas, associada a dermatoses vulvares crônicas como o líquen escleroso, com mutação de p53 em vez da via mediada por HPV).",
+    classificacao:
+      "Classificado histologicamente em carcinoma espinocelular (a grande maioria), subdividido conforme a via fisiopatológica (associado a HPV versus associado a líquen escleroso/p53), além de tipos mais raros (melanoma, carcinoma basocelular, adenocarcinoma de Bartholin); estadiado cirurgicamente pelo sistema FIGO.",
+    quadroClinico: [
+      "Prurido vulvar crônico, sintoma mais comum e frequentemente de longa data antes do diagnóstico, especialmente na via associada a dermatose crônica",
+      "Massa, ulceração ou espessamento vulvar visível ou palpável, achado que motiva biópsia",
+      "Sangramento ou secreção vulvar em lesões mais avançadas",
+      "Linfonodo inguinal palpável em doença com disseminação linfática já estabelecida",
+    ],
+    diagnostico: [
+      "Biópsia vulvar de qualquer lesão suspeita (ulceração persistente, massa, área de espessamento em contexto de dermatose crônica), exame confirmatório obrigatório",
+      "Exame clínico cuidadoso das cadeias linfonodais inguinofemorais, dado o papel central do status linfonodal no estadiamento e prognóstico",
+    ],
+    examesComplementares: [
+      "Ressonância magnética pélvica ou tomografia computadorizada para avaliação de extensão local e linfonodal em doença mais extensa",
+      "Biópsia de linfonodo sentinela inguinal, técnica que permite avaliação do status linfonodal com menor morbidade que a linfadenectomia inguinal completa em casos selecionados",
+    ],
+    diagnosticoDiferencial: [
+      "Líquen escleroso vulvar sem malignização, distinguido pela ausência de invasão à biópsia, embora seja fator de risco reconhecido",
+      "Condiloma acuminado (verrugas genitais benignas por HPV não oncogênico), distinguido histologicamente",
+      "Doença de Paget extramamária da vulva, lesão intraepitelial rara que pode simular ou coexistir com carcinoma invasor",
+    ],
+    tratamento: [
+      "Excisão local ampla com margens adequadas, tratamento primário para lesões iniciais e localizadas",
+      "Vulvectomia radical (parcial ou total) com linfadenectomia inguinofemoral (ou biópsia de linfonodo sentinela em casos selecionados), indicada conforme tamanho e extensão da lesão",
+      "Radioterapia (isolada ou associada à quimioterapia) indicada em doença localmente avançada não ressecável ou como tratamento adjuvante conforme achados do estadiamento cirúrgico",
+    ],
+    complicacoes: [
+      "Aguda: infecção de ferida operatória e deiscência, complicações comuns após cirurgia vulvar radical",
+      "Crônica: linfedema de membros inferiores após linfadenectomia inguinal, complicação funcional significativa e duradoura",
+    ],
+    redFlags: [
+      "Lesão vulvar persistente (ulceração, espessamento, massa) que não responde a tratamento tópico convencional em paciente com ou sem líquen escleroso conhecido deve ser biopsiada sem demora",
+      "Linfonodo inguinal palpável ao diagnóstico é indicador prognóstico importante e deve ser incluído na avaliação inicial de extensão da doença",
+    ],
+    prognostico:
+      "Favorável em doença localizada sem acometimento linfonodal, com o status linfonodal inguinofemoral sendo o fator prognóstico isolado mais importante; o prognóstico piora significativamente com o número de linfonodos acometidos e a extensão da doença.",
+    pontosDeProva: [
+      "Existem duas vias fisiopatológicas distintas: associada a HPV (mulheres mais jovens, mecanismo E6/E7) e associada a líquen escleroso/mutação de p53 (mulheres mais idosas)",
+      "O status linfonodal inguinofemoral é o fator prognóstico mais importante e determina a extensão do tratamento cirúrgico e a necessidade de adjuvância",
+      "Biópsia de linfonodo sentinela reduz a morbidade em relação à linfadenectomia inguinal completa em casos selecionados de doença inicial",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 71 anos, com líquen escleroso vulvar conhecido há vários anos, apresenta área de espessamento e ulceração focal em pequeno lábio direito, refratária ao corticosteroide tópico habitual.",
+      pergunta: "Qual a conduta apropriada diante dessa lesão?",
+      raciocinio:
+        "Área de espessamento e ulceração focal refratária ao tratamento habitual em paciente com líquen escleroso de longa data é altamente suspeita de transformação maligna (carcinoma espinocelular vulvar), exigindo biópsia imediata em vez de intensificação do tratamento tópico.",
+      conduta:
+        "Realizar biópsia da área suspeita para confirmação histológica; se confirmado carcinoma, prosseguir com avaliação de extensão local e linfonodal para planejamento cirúrgico.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é cirúrgico, com radioterapia/quimioterapia conforme extensão; nenhum desses componentes ainda tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Duas vias fisiopatológicas (HPV versus líquen escleroso/p53) e classificação histológica", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Papel prognóstico do status linfonodal e técnica de linfonodo sentinela", fonte: "FIGO Cancer Report 2021, Cancer of the Vulva" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-vagina",
+    nome: "Neoplasia maligna da vagina",
+    sinonimos: ["Câncer de vagina", "Carcinoma vaginal primário"],
+    cid10: "C52",
+    especialidade: "Ginecologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia ginecológica primária rara, predominantemente carcinoma espinocelular associado a HPV, cujo diagnóstico exige antes excluir extensão secundária de neoplasia cervical ou vulvar, muito mais comuns que a doença vaginal primária verdadeira.",
+    definicao:
+      "Neoplasia maligna primária originada do epitélio vaginal, diagnóstico estabelecido apenas após exclusão de extensão direta ou metástase de neoplasia cervical, vulvar ou endometrial, dado que o acometimento vaginal secundário a essas neoplasias adjacentes é consideravelmente mais comum que a neoplasia vaginal verdadeiramente primária.",
+    epidemiologia:
+      "Uma das neoplasias ginecológicas mais raras, tipicamente diagnosticada em mulheres na pós-menopausa; a exposição intraútero ao dietilestilbestrol (hoje uma causa histórica, dado o abandono do uso dessa medicação) foi classicamente associada a um subtipo específico raro (adenocarcinoma de células claras) em mulheres mais jovens.",
+    fisiopatologia:
+      "A maioria dos casos (carcinoma espinocelular) compartilha a mesma via fisiopatológica associada a HPV oncogênico observada no carcinoma cervical e vulvar, frequentemente precedida por neoplasia intraepitelial vaginal; o adenocarcinoma de células claras, associado historicamente à exposição ao dietilestilbestrol, tem via fisiopatológica distinta relacionada a alterações de desenvolvimento mülleriano.",
+    classificacao:
+      "Classificada histologicamente em carcinoma espinocelular (a grande maioria dos casos primários) e adenocarcinoma (incluindo o raro subtipo de células claras); estadiada clinicamente pelo sistema FIGO, de forma análoga ao câncer cervical.",
+    quadroClinico: [
+      "Sangramento vaginal anormal (pós-coital ou pós-menopausa), sintoma mais comum de apresentação",
+      "Corrimento vaginal aquoso ou sanguinolento em doença mais estabelecida",
+      "Massa ou lesão vaginal visível ao exame especular em estádio mais avançado",
+      "Frequentemente assintomática em fase inicial (neoplasia intraepitelial vaginal), identificada por citologia de rastreamento de rotina",
+    ],
+    diagnostico: [
+      "Biópsia dirigida por colposcopia estendida à vagina, exame confirmatório essencial",
+      "Exame ginecológico completo e cuidadoso para excluir extensão de neoplasia cervical, vulvar ou endometrial adjacente antes de firmar o diagnóstico de neoplasia vaginal primária",
+    ],
+    examesComplementares: [
+      "Ressonância magnética pélvica para avaliação da extensão local, dado que a proximidade com bexiga e reto tem implicação direta no planejamento terapêutico",
+      "Cistoscopia e retossigmoidoscopia quando há suspeita clínica de invasão de estruturas adjacentes",
+    ],
+    diagnosticoDiferencial: [
+      "Extensão direta de neoplasia cervical ou vulvar adjacente, diagnóstico diferencial obrigatório e mais provável que a neoplasia vaginal primária verdadeira",
+      "Metástase vaginal de neoplasia endometrial ou de outro sítio primário, também mais comum que a doença primária da vagina",
+    ],
+    tratamento: [
+      "Radioterapia (com ou sem quimioterapia concomitante), tratamento primário mais utilizado, dado que a cirurgia radical na vagina frequentemente compromete estruturas adjacentes (bexiga, reto) de forma mais significativa que em outras neoplasias ginecológicas",
+      "Excisão cirúrgica local reservada para lesões pequenas e superficiais localizadas no terço superior da vagina, quando factível com margens adequadas",
+    ],
+    complicacoes: [
+      "Aguda: sangramento e dor relacionados à progressão tumoral local",
+      "Crônica: fístulas vesicovaginais ou retovaginais, tanto pela invasão tumoral direta de estruturas adjacentes quanto como sequela tardia da radioterapia",
+    ],
+    redFlags: [
+      "Antes de firmar o diagnóstico de neoplasia vaginal primária, é obrigatório excluir extensão de neoplasia cervical, vulvar ou endometrial adjacente, dado que essas são causas muito mais prováveis de doença vaginal identificada",
+      "Sangramento vaginal pós-menopausa, mesmo com colo uterino aparentemente normal, deve motivar exame vaginal cuidadoso além do exame cervical de rotina",
+    ],
+    prognostico:
+      "Variável conforme o estádio ao diagnóstico e a proximidade com estruturas adjacentes (bexiga, reto), que limita frequentemente a extensão da ressecção cirúrgica possível; a raridade da doença limita a quantidade de evidência de alta qualidade disponível para orientar o tratamento ótimo.",
+    pontosDeProva: [
+      "O diagnóstico de neoplasia vaginal primária exige exclusão prévia de extensão de neoplasia cervical, vulvar ou endometrial adjacente, muito mais comuns",
+      "A radioterapia, e não a cirurgia radical, é o tratamento primário mais utilizado, dada a proximidade anatômica da vagina com bexiga e reto",
+      "O adenocarcinoma de células claras da vagina foi historicamente associado à exposição intraútero ao dietilestilbestrol",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 68 anos, na pós-menopausa, relata sangramento vaginal recorrente. Exame especular revela colo uterino normal, mas identifica lesão exofítica no terço médio da parede vaginal posterior.",
+      pergunta: "Qual a conduta diagnóstica apropriada?",
+      raciocinio:
+        "Sangramento pós-menopausa com colo uterino normal ao exame, mas lesão vaginal identificada separadamente, direciona a investigação para a própria lesão vaginal, que deve ser biopsiada, com exclusão cuidadosa de doença cervical ou endometrial concomitante.",
+      conduta:
+        "Biopsiar a lesão vaginal para confirmação histológica; realizar avaliação completa do colo uterino e do endométrio para excluir extensão de neoplasia adjacente antes de classificar como doença vaginal primária.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é radioterapia com ou sem quimioterapia concomitante; nenhum desses componentes ainda tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Necessidade de exclusão de extensão adjacente e classificação histológica", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Radioterapia como tratamento primário e limitações da cirurgia radical vaginal", fonte: "FIGO Cancer Report 2021, Cancer of the Vagina" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-mama",
+    nome: "Neoplasia maligna da mama",
+    sinonimos: ["Câncer de mama", "Carcinoma mamário"],
+    cid10: "C50",
+    especialidade: "Ginecologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna mais comum em mulheres globalmente, cuja classificação por perfil de receptores (estrogênio, progesterona, HER2) é o principal determinante da estratégia terapêutica e do prognóstico individual.",
+    definicao:
+      "Neoplasia maligna originada dos ductos (carcinoma ductal, o mais comum) ou lóbulos (carcinoma lobular) da glândula mamária, classificada em não invasivo (carcinoma in situ, restrito à membrana basal) e invasivo (com capacidade de disseminação linfática e hematogênica).",
+    epidemiologia:
+      "A neoplasia maligna mais comum em mulheres globalmente, com risco aumentado associado à idade avançada, história familiar, mutações germinativas em BRCA1/BRCA2, exposição estrogênica prolongada (menarca precoce, menopausa tardia, nuliparidade, terapia hormonal prolongada) e obesidade pós-menopausa.",
+    fisiopatologia:
+      "A carcinogênese mamária envolve acúmulo progressivo de alterações genéticas nas células epiteliais ductais/lobulares, com papel central da exposição estrogênica cumulativa em uma proporção substancial dos casos (tumores receptor hormonal positivo); mutações germinativas em genes de reparo do DNA (BRCA1/BRCA2) conferem risco substancialmente aumentado ao longo da vida em uma minoria hereditária dos casos.",
+    classificacao:
+      "Classificada histologicamente (ductal invasivo — o mais comum, lobular invasivo, e subtipos especiais mais raros) e, de forma clinicamente mais determinante, por perfil imuno-histoquímico de receptores: receptor hormonal positivo (estrogênio e/ou progesterona), HER2 positivo, e triplo-negativo (ausência dos três marcadores, subtipo de comportamento mais agressivo e sem alvo terapêutico direcionado específico); estadiada pelo sistema TNM.",
+    quadroClinico: [
+      "Nódulo mamário indolor, geralmente endurecido e de contorno irregular, achado mais comum de apresentação",
+      "Retração cutânea ou do complexo areolopapilar, secreção papilar sanguinolenta unilateral, e edema cutâneo em 'casca de laranja' (peau d'orange), achados mais associados a doença localmente avançada",
+      "Linfonodo axilar palpável, achado que indica disseminação regional já estabelecida",
+      "Frequentemente assintomático e identificado por rastreamento mamográfico em fase inicial, situação que favorece diagnóstico precoce e melhor prognóstico",
+    ],
+    diagnostico: [
+      "Tríade diagnóstica: exame físico, mamografia (e/ou ultrassonografia mamária complementar) e biópsia percutânea com confirmação histológica, esta última obrigatória antes de qualquer decisão terapêutica",
+      "Painel imuno-histoquímico obrigatório na peça de biópsia (receptores de estrogênio, progesterona e HER2), determinante central da estratégia terapêutica",
+    ],
+    examesComplementares: [
+      "Ressonância magnética mamária em situações selecionadas (mulheres de alto risco, avaliação de extensão em mamas densas, discordância entre exames)",
+      "Teste genético para BRCA1/BRCA2 em pacientes com critérios de risco (idade jovem ao diagnóstico, história familiar significativa, subtipo triplo-negativo)",
+      "Estadiamento sistêmico (tomografia, cintilografia óssea) em doença localmente avançada ou com sintomas sugestivos de metástase",
+    ],
+    diagnosticoDiferencial: [
+      "Fibroadenoma e outras lesões mamárias benignas, distinguidas por características de imagem e, quando necessário, biópsia",
+      "Mastite e abscesso mamário, distinguidos pelo contexto clínico agudo inflamatório/infeccioso",
+      "Carcinoma inflamatório de mama, apresentação clínica agressiva específica com eritema e edema cutâneo difuso, que pode mimetizar mastite mas representa doença localmente avançada",
+    ],
+    tratamento: [
+      "Cirurgia (conservadora com radioterapia adjuvante, ou mastectomia), tratamento local primário na maioria dos casos",
+      "Terapia sistêmica dirigida ao perfil molecular: terapia endócrina (tamoxifeno, inibidores de aromatase) em tumores receptor hormonal positivo; terapia anti-HER2 (trastuzumabe) em tumores HER2 positivo; quimioterapia citotóxica em tumores triplo-negativos ou de alto risco",
+      "Biópsia de linfonodo sentinela axilar para estadiamento, com linfadenectomia axilar completa reservada a casos com acometimento linfonodal identificado",
+      "Radioterapia adjuvante indicada conforme o tipo de cirurgia realizada e fatores de risco identificados",
+    ],
+    complicacoes: [
+      "Aguda: complicações cirúrgicas locais (infecção, seroma)",
+      "Crônica: linfedema de membro superior após linfadenectomia axilar, recorrência local ou a distância, com o osso, pulmão, fígado e encéfalo sendo os sítios metastáticos mais comuns",
+    ],
+    redFlags: [
+      "Nódulo mamário palpável em qualquer mulher, independentemente da idade, deve ser investigado prontamente, embora a probabilidade de malignidade aumente com a idade",
+      "Carcinoma inflamatório de mama (eritema e edema cutâneo difuso e progressivo) é uma apresentação agressiva que não deve ser confundida com mastite/abscesso, especialmente na ausência de febre ou fatores predisponentes infecciosos",
+    ],
+    prognostico:
+      "Altamente variável conforme o estádio ao diagnóstico e o subtipo molecular; o rastreamento mamográfico populacional tem papel central na detecção precoce e na melhora do prognóstico global, sendo o subtipo triplo-negativo associado ao pior prognóstico entre os subtipos moleculares principais.",
+    pontosDeProva: [
+      "A classificação por perfil de receptores (hormonal, HER2, triplo-negativo) é o principal determinante da estratégia terapêutica sistêmica, mais do que o tipo histológico isoladamente",
+      "Biópsia percutânea com confirmação histológica é sempre necessária antes de qualquer decisão terapêutica, mesmo diante de imagem altamente suspeita",
+      "O subtipo triplo-negativo, por não expressar nenhum dos três alvos terapêuticos principais, depende primariamente de quimioterapia citotóxica e tem comportamento mais agressivo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 54 anos, identifica nódulo endurecido e indolor na mama esquerda durante autoexame. Mamografia confirma nódulo suspeito; biópsia percutânea confirma carcinoma ductal invasivo, receptor de estrogênio positivo, HER2 negativo.",
+      pergunta: "Qual a estratégia terapêutica sistêmica mais apropriada com base no perfil molecular identificado?",
+      raciocinio:
+        "Tumor receptor hormonal positivo e HER2 negativo é candidato primário à terapia endócrina sistêmica (tamoxifeno ou inibidor de aromatase, conforme status menopausal), com a quimioterapia citotóxica reservada a critérios adicionais de risco.",
+      conduta:
+        "Prosseguir com tratamento cirúrgico local (conservador ou mastectomia, conforme características do tumor e preferência da paciente) e indicar terapia endócrina adjuvante prolongada dado o perfil receptor hormonal positivo.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento sistêmico (terapia endócrina, terapia anti-HER2, quimioterapia) ainda não tem seus componentes documentados como fichas próprias no site.",
+    fontes: [
+      { tema: "Classificação histológica e por perfil de receptores (hormonal, HER2, triplo-negativo)", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Estratégia terapêutica dirigida ao subtipo molecular e papel do rastreamento mamográfico", fonte: "NCCN Clinical Practice Guidelines in Oncology, Breast Cancer" },
+    ],
+  },
+  {
+    slug: "mola-hidatiforme",
+    nome: "Mola hidatiforme",
+    sinonimos: ["Gravidez molar", "Doença trofoblástica gestacional benigna"],
+    cid10: "O01",
+    especialidade: "Ginecologia",
+    etiologia: "Neoplásica",
+    resumo: "Forma benigna, porém proliferativa e com potencial de progressão maligna, de doença trofoblástica gestacional, decorrente de anomalia genética na fertilização, classificada em completa e parcial conforme o cariótipo do tecido molar.",
+    definicao:
+      "Proliferação anormal do trofoblasto placentário decorrente de anomalia genética específica na fertilização, caracterizada histologicamente por vilosidades coriônicas edemaciadas (hidrópicas) e hiperplasia trofoblástica, representando a forma benigna, porém com potencial de progressão maligna, do espectro da doença trofoblástica gestacional.",
+    epidemiologia:
+      "Mais comum nos extremos da idade reprodutiva (adolescentes e mulheres acima de 40 anos) e em mulheres com mola hidatiforme prévia, que apresentam risco aumentado de recorrência em gestação subsequente; a mola completa tem maior risco de progressão para neoplasia trofoblástica gestacional persistente que a mola parcial.",
+    fisiopatologia:
+      "A mola completa origina-se da fertilização de um óvulo sem material genético materno funcional por um espermatozoide (que duplica seu próprio material genético ou, menos comumente, por dispermia), resultando em cariótipo androgenético sem tecido fetal; a mola parcial resulta da fertilização de um óvulo normal por dois espermatozoides (ou um espermatozoide diploide), gerando cariótipo triploide com tecido fetal presente, porém não viável.",
+    classificacao:
+      "Classificada em mola completa (ausência de tecido fetal, cariótipo androgenético 46,XX na maioria dos casos, maior risco de progressão maligna) e mola parcial (presença de tecido fetal não viável, cariótipo triploide, menor risco de progressão maligna).",
+    quadroClinico: [
+      "Sangramento vaginal no primeiro trimestre, sintoma de apresentação mais comum",
+      "Útero de tamanho maior que o esperado para a idade gestacional, achado mais característico da mola completa",
+      "Náuseas e vômitos exacerbados (hiperêmese), decorrentes dos níveis marcadamente elevados de beta-hCG",
+      "Sinais de hipertireoidismo ou pré-eclâmpsia de início muito precoce (antes de 20 semanas), achados incomuns fora do contexto de doença trofoblástica que devem levantar essa suspeita",
+    ],
+    diagnostico: [
+      "Ultrassonografia obstétrica com padrão característico ('em flocos de neve' ou 'cacho de uvas' na mola completa, decorrente do edema difuso das vilosidades coriônicas), auxiliada pela ausência de tecido fetal identificável",
+      "Beta-hCG sérico marcadamente elevado para a idade gestacional, achado laboratorial de apoio importante",
+      "Confirmação histopatológica definitiva da peça de esvaziamento uterino",
+    ],
+    examesComplementares: [
+      "Radiografia de tórax pré-esvaziamento em casos de mola completa com fatores de risco para doença metastática, dado que o pulmão é o sítio mais comum de metástase da neoplasia trofoblástica gestacional",
+      "Seguimento seriado do beta-hCG após o esvaziamento uterino, exame fundamental para detecção precoce de progressão para neoplasia trofoblástica gestacional persistente",
+    ],
+    diagnosticoDiferencial: [
+      "Aborto espontâneo incompleto, distinguido pela ausência do padrão ultrassonográfico característico e por níveis de beta-hCG proporcionais à idade gestacional",
+      "Gestação múltipla com um feto normal e uma mola completa coexistente, situação rara mas que exige aconselhamento cuidadoso quanto aos riscos",
+    ],
+    tratamento: [
+      "Esvaziamento uterino por aspiração a vácuo, tratamento de escolha para ambos os tipos de mola hidatiforme",
+      "Seguimento rigoroso e seriado do beta-hCG sérico após o esvaziamento até normalização e confirmação de remissão completa, etapa essencial para detecção precoce de neoplasia trofoblástica gestacional persistente",
+      "Contracepção eficaz durante todo o período de seguimento do beta-hCG, para não confundir uma nova gestação com progressão/recorrência da doença trofoblástica",
+    ],
+    complicacoes: [
+      "Aguda: sangramento significativo no momento do esvaziamento uterino, especialmente em molas completas volumosas",
+      "Crônica: progressão para neoplasia trofoblástica gestacional persistente (mola invasora ou, mais raramente, coriocarcinoma), complicação que motiva o seguimento rigoroso do beta-hCG",
+    ],
+    redFlags: [
+      "Platô ou elevação do beta-hCG durante o seguimento pós-esvaziamento (em vez do declínio esperado) indica neoplasia trofoblástica gestacional persistente e exige tratamento com quimioterapia",
+      "Sinais de hipertireoidismo ou pré-eclâmpsia muito precoce (antes de 20 semanas) na gestação devem levantar suspeita de mola hidatiforme subjacente",
+    ],
+    prognostico:
+      "Excelente na grande maioria dos casos após esvaziamento uterino e seguimento adequado do beta-hCG, com a mola completa apresentando risco de progressão maligna maior que a mola parcial, mas ainda assim tratável com excelente taxa de cura mesmo quando ocorre progressão para neoplasia trofoblástica gestacional persistente.",
+    pontosDeProva: [
+      "A mola completa (cariótipo androgenético, sem tecido fetal) tem maior risco de progressão maligna que a mola parcial (triploide, com tecido fetal não viável)",
+      "O seguimento seriado do beta-hCG após o esvaziamento uterino é etapa obrigatória e essencial para detecção precoce de neoplasia trofoblástica gestacional persistente",
+      "Contracepção eficaz durante o seguimento é essencial para não confundir uma nova gestação com recorrência/progressão da doença",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 24 anos, com 10 semanas de gestação pela data da última menstruação, apresenta sangramento vaginal e hiperêmese intensa. Exame revela altura uterina maior que a esperada para a idade gestacional. Ultrassonografia mostra padrão em 'flocos de neve' sem identificação de feto.",
+      pergunta: "Qual o diagnóstico mais provável e a conduta imediata?",
+      raciocinio:
+        "Sangramento, hiperêmese, útero maior que o esperado e padrão ultrassonográfico característico sem tecido fetal identificável são compatíveis com mola hidatiforme completa, devendo ser confirmada por beta-hCG marcadamente elevado e tratada por esvaziamento uterino.",
+      conduta:
+        "Confirmar com dosagem de beta-hCG sérico; proceder ao esvaziamento uterino por aspiração a vácuo; iniciar seguimento seriado do beta-hCG e orientar contracepção eficaz durante todo o período de seguimento.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é o esvaziamento uterino (procedimento); a quimioterapia, indicada apenas em caso de progressão para neoplasia trofoblástica gestacional persistente, ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia genética da mola completa versus parcial e classificação", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Protocolo de seguimento do beta-hCG pós-esvaziamento e critérios de progressão para neoplasia trofoblástica persistente", fonte: "FIGO Cancer Report 2021, Gestational Trophoblastic Neoplasia" },
+    ],
+  },
+  {
+    slug: "neoplasia-maligna-placenta-coriocarcinoma",
+    nome: "Neoplasia maligna da placenta (coriocarcinoma gestacional)",
+    sinonimos: ["Coriocarcinoma", "Neoplasia trofoblástica gestacional maligna"],
+    cid10: "C58",
+    especialidade: "Ginecologia",
+    etiologia: "Neoplásica",
+    resumo: "Forma maligna da doença trofoblástica gestacional, altamente agressiva porém excepcionalmente quimiossensível, podendo surgir após mola hidatiforme, aborto, gestação ectópica ou gestação a termo aparentemente normal.",
+    definicao:
+      "Neoplasia maligna do trofoblasto, componente do espectro da neoplasia trofoblástica gestacional, capaz de disseminação hematogênica precoce e agressiva, porém notável por sua excepcional sensibilidade à quimioterapia, o que confere excelente prognóstico mesmo em doença metastática quando tratada adequadamente.",
+    epidemiologia:
+      "Pode surgir após qualquer tipo de evento gestacional — mais comumente após mola hidatiforme (a antecedente mais frequente), mas também após aborto espontâneo, gestação ectópica ou mesmo gestação a termo aparentemente normal, distinguindo-o de outras neoplasias que dependem de fator de risco específico identificável.",
+    fisiopatologia:
+      "Decorre da transformação maligna do tecido trofoblástico, com proliferação descontrolada de células citotrofoblásticas e sinciciotrofoblásticas sem formação de vilosidades coriônicas (ao contrário da mola hidatiforme), invasão vascular precoce e disseminação hematogênica preferencial para pulmão (sítio mais comum), seguido por vagina, encéfalo e fígado.",
+    classificacao:
+      "Classificado dentro do espectro mais amplo de neoplasia trofoblástica gestacional (que também inclui a mola invasora); estadiado pelo sistema FIGO combinado com sistema de escore de risco prognóstico da OMS, que orienta a escolha entre monoquimioterapia (baixo risco) e poliquimioterapia (alto risco).",
+    quadroClinico: [
+      "Sangramento vaginal irregular e persistente após qualquer evento gestacional prévio, achado que deve motivar dosagem de beta-hCG",
+      "Sintomas relacionados a metástases (tosse ou hemoptise por metástase pulmonar, cefaleia ou déficit neurológico focal por metástase encefálica), podendo ser a manifestação inicial em casos com antecedente gestacional não identificado ou negligenciado",
+      "Beta-hCG persistentemente elevado ou em ascensão após qualquer evento gestacional, achado laboratorial central para o diagnóstico",
+    ],
+    diagnostico: [
+      "Beta-hCG sérico persistentemente elevado ou em platô/ascensão após esvaziamento de mola hidatiforme, aborto, gestação ectópica ou parto, principal critério diagnóstico e de acompanhamento, frequentemente dispensando confirmação histológica formal antes de iniciar tratamento",
+      "Confirmação histológica quando obtida (biópsia ou peça cirúrgica), mostrando proliferação trofoblástica maligna sem formação de vilosidades coriônicas",
+    ],
+    examesComplementares: [
+      "Tomografia de tórax e ressonância magnética de crânio para rastreamento sistemático de metástases pulmonares e encefálicas, dado seu impacto direto na classificação de risco e na escolha terapêutica",
+      "Aplicação do sistema de escore de risco prognóstico da OMS/FIGO (considerando idade, antecedente gestacional, intervalo, nível de beta-hCG, tamanho tumoral e sítios de metástase) para estratificação em baixo ou alto risco",
+    ],
+    diagnosticoDiferencial: [
+      "Mola hidatiforme persistente/invasora, outra forma de neoplasia trofoblástica gestacional, distinguida por critérios específicos de platô/ascensão do beta-hCG e, quando disponível, por achados histológicos",
+      "Retenção de restos ovulares após aborto ou parto, distinguida pelo declínio esperado (e não platô/ascensão) do beta-hCG ao longo do seguimento",
+    ],
+    tratamento: [
+      "Doença de baixo risco (pelo escore OMS/FIGO): monoquimioterapia (metotrexato ou actinomicina D), com excelente taxa de resposta e cura",
+      "Doença de alto risco: poliquimioterapia combinada, sendo o esquema EMA-CO (etoposídeo, metotrexato, actinomicina D, ciclofosfamida, vincristina) o mais amplamente utilizado",
+      "Seguimento seriado do beta-hCG durante e após o tratamento até normalização sustentada, critério que define remissão completa",
+    ],
+    complicacoes: [
+      "Aguda: hemorragia por metástase (especialmente vaginal ou encefálica), podendo ser risco de vida se não reconhecida e tratada prontamente",
+      "Crônica: infertilidade relacionada aos esquemas quimioterápicos combinados em uma minoria dos casos, embora a fertilidade seja preservada na maioria das pacientes tratadas",
+    ],
+    redFlags: [
+      "Beta-hCG persistentemente elevado, em platô, ou em ascensão após qualquer evento gestacional (não apenas após mola hidatiforme) deve motivar investigação para neoplasia trofoblástica gestacional",
+      "Sintomas neurológicos ou respiratórios inexplicados em mulher em idade reprodutiva com evento gestacional recente devem incluir neoplasia trofoblástica gestacional metastática no diagnóstico diferencial",
+    ],
+    prognostico:
+      "Excelente mesmo em doença metastática, dada a excepcional quimiossensibilidade do coriocarcinoma gestacional — uma das poucas neoplasias malignas metastáticas com taxas de cura muito altas mesmo em estágio avançado, desde que tratada adequadamente conforme o escore de risco.",
+    pontosDeProva: [
+      "O coriocarcinoma gestacional pode surgir após qualquer tipo de evento gestacional, não apenas após mola hidatiforme, o que o distingue de outras formas de doença trofoblástica",
+      "É notável por sua excepcional sensibilidade à quimioterapia, sendo uma das neoplasias malignas metastáticas com melhor prognóstico global quando tratada adequadamente",
+      "O escore de risco prognóstico OMS/FIGO determina a escolha entre monoquimioterapia (baixo risco) e poliquimioterapia como o esquema EMA-CO (alto risco)",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 29 anos, com histórico de mola hidatiforme completa tratada há 4 meses, apresenta beta-hCG em ascensão em duas dosagens consecutivas durante o seguimento pós-esvaziamento, além de tosse seca persistente.",
+      pergunta: "Qual o diagnóstico mais provável e a investigação complementar indicada?",
+      raciocinio:
+        "Ascensão do beta-hCG durante o seguimento pós-mola hidatiforme, associada a sintoma respiratório novo, é altamente sugestiva de neoplasia trofoblástica gestacional persistente (coriocarcinoma), com o pulmão sendo o sítio metastático mais comum, explicando a tosse.",
+      conduta:
+        "Solicitar tomografia de tórax para rastreamento de metástase pulmonar e aplicar o escore de risco prognóstico OMS/FIGO para definir entre monoquimioterapia ou poliquimioterapia combinada.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é quimioterápico (metotrexato/actinomicina D isolados ou esquema combinado EMA-CO), nenhum dos quais ainda tem ficha própria documentada especificamente para esta indicação no site.",
+    fontes: [
+      { tema: "Fisiopatologia da transformação maligna trofoblástica e padrão de disseminação metastática", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Escore de risco OMS/FIGO e esquemas quimioterápicos por estratificação de risco", fonte: "FIGO Cancer Report 2021, Gestational Trophoblastic Neoplasia" },
+    ],
+  },
+  {
+    slug: "gravidez-ectopica",
+    nome: "Gravidez ectópica",
+    sinonimos: ["Gestação ectópica", "Prenhez tubária"],
+    cid10: "O00",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Implantação do embrião fora da cavidade uterina, mais comumente na tuba uterina, principal causa de mortalidade materna no primeiro trimestre e emergência obstétrica que exige diagnóstico e conduta imediatos.",
+    definicao:
+      "Gestação implantada fora da cavidade endometrial normal, em mais de 90% dos casos na tuba uterina (gestação tubária), podendo mais raramente ocorrer no ovário, no colo uterino, na cicatriz de cesárea prévia ou na cavidade abdominal.",
+    epidemiologia:
+      "Acomete uma proporção relevante das gestações confirmadas, com principais fatores de risco incluindo doença inflamatória pélvica prévia (principal fator de risco identificável, por dano tubário cicatricial), cirurgia tubária prévia, gestação ectópica prévia, uso de dispositivo intrauterino e tratamentos de reprodução assistida.",
+    fisiopatologia:
+      "Dano estrutural ou funcional ao epitélio ciliado tubário (mais comumente sequela de doença inflamatória pélvica) retarda o transporte do embrião em direção à cavidade uterina, permitindo sua implantação na própria tuba; o crescimento gestacional progressivo em um órgão sem capacidade de distensão adequada leva a risco de rotura tubária, com hemorragia intraperitoneal potencialmente fatal.",
+    classificacao:
+      "Classificada pela localização em tubária (a grande maioria — ampular, ístmica, intersticial/cornual), ovariana, cervical, em cicatriz de cesárea prévia e abdominal; também classificada quanto à condição clínica em íntegra (não rota) e rota (com hemoperitônio e instabilidade hemodinâmica).",
+    quadroClinico: [
+      "Tríade clássica: atraso menstrual, dor pélvica unilateral e sangramento vaginal irregular, embora nem sempre todos os três elementos estejam presentes",
+      "Dor pélvica súbita e intensa associada a sinais de choque hipovolêmico (taquicardia, hipotensão) sugere rotura tubária, configurando emergência cirúrgica",
+      "Dor referida no ombro (sinal de Kehr), decorrente de irritação diafragmática por hemoperitônio, achado sugestivo de sangramento intraperitoneal significativo",
+    ],
+    diagnostico: [
+      "Beta-hCG sérico quantitativo associado à ultrassonografia transvaginal, combinação diagnóstica central: ausência de saco gestacional intrauterino com beta-hCG acima do limiar discriminatório é altamente sugestiva de gestação ectópica",
+      "Identificação de massa anexial com ou sem saco gestacional/embrião fora da cavidade uterina à ultrassonografia transvaginal, achado confirmatório quando presente",
+    ],
+    examesComplementares: [
+      "Dosagens seriadas de beta-hCG (a cada 48 horas) quando o diagnóstico inicial é incerto, dado que o incremento inadequado (ausência da duplicação esperada em gestação intrauterina viável) reforça a suspeita de gestação ectópica ou de gestação intrauterina não viável",
+      "Culdocentese ou avaliação de líquido livre pélvico à ultrassonografia como indicador indireto de hemoperitônio em paciente instável",
+    ],
+    diagnosticoDiferencial: [
+      "Aborto espontâneo em curso, distinguido pela localização intrauterina da gestação e pelo padrão de queda (não ausência de incremento) do beta-hCG",
+      "Torção anexial e cisto ovariano roto, causas de dor pélvica aguda que devem ser diferenciadas pela dosagem de beta-hCG (negativa nessas condições)",
+      "Apendicite aguda, especialmente quando a gestação ectópica acomete o lado direito",
+    ],
+    tratamento: [
+      "Metotrexato intramuscular (terapia médica), opção para gestação ectópica íntegra, hemodinamicamente estável, sem batimento cardíaco embrionário e com beta-hCG abaixo de determinado limiar, com seguimento seriado obrigatório do beta-hCG até negativação",
+      "Salpingectomia ou salpingostomia laparoscópica (tratamento cirúrgico), indicada em paciente instável, gestação ectópica rota, ou contraindicação/falha ao tratamento médico",
+      "Conduta expectante em casos muito selecionados, com beta-hCG baixo e em declínio espontâneo, sob vigilância rigorosa",
+    ],
+    complicacoes: [
+      "Aguda: rotura tubária com hemoperitônio maciço e choque hipovolêmico, principal causa de mortalidade materna no primeiro trimestre quando não tratada a tempo",
+      "Crônica: dano tubário adicional (na tuba acometida ou contralateral) aumentando o risco de infertilidade e de nova gestação ectópica em gestação futura",
+    ],
+    redFlags: [
+      "Toda mulher em idade reprodutiva com dor pélvica e/ou sangramento vaginal deve ter beta-hCG dosado, independentemente do relato de método contraceptivo em uso, dado o risco de gestação ectópica não suspeitada",
+      "Instabilidade hemodinâmica associada a dor pélvica aguda em mulher com beta-hCG positivo é emergência cirúrgica até prova em contrário",
+    ],
+    prognostico:
+      "Excelente quando diagnosticada precocemente e tratada adequadamente (médica ou cirurgicamente), mas potencialmente fatal quando não reconhecida antes da rotura tubária; o risco de recorrência em gestação futura e de infertilidade subsequente está diretamente relacionado ao grau de dano tubário acumulado.",
+    pontosDeProva: [
+      "Beta-hCG positivo com ausência de saco gestacional intrauterino identificável acima do limiar discriminatório é a chave diagnóstica central da gestação ectópica",
+      "Doença inflamatória pélvica prévia é o principal fator de risco identificável, por dano cicatricial ao epitélio tubário",
+      "Metotrexato é opção terapêutica válida apenas em paciente estável, sem batimento cardíaco embrionário e com beta-hCG abaixo do limiar estabelecido — fora desses critérios, o tratamento é cirúrgico",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 28 anos, com atraso menstrual de 6 semanas, relata dor pélvica súbita à direita e sangramento vaginal discreto. Beta-hCG sérico é positivo; ultrassonografia transvaginal não identifica saco gestacional intrauterino, mas mostra massa anexial direita.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "Beta-hCG positivo associado à ausência de saco gestacional intrauterino e presença de massa anexial é altamente sugestivo de gestação ectópica, devendo-se avaliar a estabilidade hemodinâmica para definir a via terapêutica.",
+      conduta:
+        "Avaliar sinais vitais e estabilidade hemodinâmica; se estável, sem batimento cardíaco embrionário e beta-hCG dentro do limiar, considerar metotrexato com seguimento seriado; se instável ou fora dos critérios, indicar tratamento cirúrgico (salpingectomia/salpingostomia).",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O metotrexato, tratamento médico de escolha em casos selecionados, ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia do dano tubário e classificação por localização", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Critérios para tratamento com metotrexato versus cirurgia", fonte: "ACOG Practice Bulletin No. 193, Tubal Ectopic Pregnancy, 2018" },
+    ],
+  },
+  {
+    slug: "aborto-espontaneo",
+    nome: "Aborto espontâneo",
+    sinonimos: ["Perda gestacional precoce", "Abortamento espontâneo"],
+    cid10: "O03",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Perda gestacional espontânea antes de 20-24 semanas, evento comum na prática obstétrica, cuja causa isolada mais frequente é a anomalia cromossômica embrionária, especialmente em perdas do primeiro trimestre.",
+    definicao:
+      "Perda gestacional espontânea ocorrendo antes de completar 20 a 24 semanas de gestação (conforme a definição adotada), classificada conforme o estágio clínico em ameaça de abortamento, aborto inevitável, aborto incompleto, aborto completo e aborto retido.",
+    epidemiologia:
+      "Evento comum, ocorrendo em uma proporção significativa de todas as gestações clinicamente reconhecidas, com a grande maioria concentrada no primeiro trimestre; a idade materna avançada é o principal fator de risco identificável, refletindo o aumento da taxa de aneuploidia oocitária com a idade.",
+    fisiopatologia:
+      "Anomalias cromossômicas embrionárias (mais comumente trissomias autossômicas) são a causa isolada mais comum, especialmente em perdas precoces do primeiro trimestre, decorrentes de erros na meiose durante a formação do óvulo; causas menos comuns incluem anomalias anatômicas uterinas, infecções, disfunções endócrinas e trombofilias.",
+    classificacao:
+      "Classificado clinicamente em ameaça de abortamento (sangramento com colo fechado e gestação viável), aborto inevitável (sangramento com colo aberto), aborto incompleto (expulsão parcial do conteúdo uterino), aborto completo (expulsão total) e aborto retido (óbito embrionário/fetal sem expulsão espontânea, identificado por ausência de batimentos cardíacos ao exame de imagem).",
+    quadroClinico: [
+      "Sangramento vaginal no primeiro trimestre, sintoma de apresentação mais comum, com gravidade e padrão variando conforme o estágio clínico",
+      "Cólica abdominal baixa associada ao sangramento na maioria dos casos sintomáticos",
+      "Ausência de sintomas até identificação incidental de óbito embrionário/fetal em ultrassonografia de rotina no aborto retido",
+      "Colo uterino fechado (ameaça de abortamento) ou aberto (aborto inevitável/incompleto) ao exame especular, achado que direciona a classificação clínica",
+    ],
+    diagnostico: [
+      "Ultrassonografia transvaginal, exame central para confirmação da localização e viabilidade da gestação, e para classificação do estágio clínico do abortamento",
+      "Beta-hCG sérico seriado quando o diagnóstico ultrassonográfico inicial é incerto, com padrão de declínio (em vez do incremento esperado) reforçando o diagnóstico",
+    ],
+    examesComplementares: [
+      "Tipagem sanguínea (fator Rh) em toda paciente com sangramento gestacional, para indicação de imunoglobulina anti-D quando Rh negativo",
+      "Cariótipo do produto conceptual em casos selecionados (particularmente quando há perda gestacional recorrente associada), para identificação de anomalia cromossômica",
+    ],
+    diagnosticoDiferencial: [
+      "Gestação ectópica, diagnóstico diferencial obrigatório de sangramento no primeiro trimestre, excluído pela localização intrauterina da gestação à ultrassonografia",
+      "Sangramento de implantação fisiológico, autolimitado e sem impacto na viabilidade gestacional, distinguido pela ausência de progressão e por ultrassonografia confirmando gestação viável",
+    ],
+    tratamento: [
+      "Conduta expectante, opção válida para aborto incompleto ou retido em paciente estável, permitindo expulsão espontânea do conteúdo uterino",
+      "Tratamento médico com misoprostol, alternativa não cirúrgica eficaz para completar o esvaziamento uterino",
+      "Aspiração manual intrauterina ou curetagem uterina (tratamento cirúrgico), indicada em sangramento significativo, instabilidade hemodinâmica, ou falha/preferência em relação às outras opções",
+      "Imunoglobulina anti-D em toda paciente Rh negativo, para prevenção de aloimunização em gestação futura",
+    ],
+    complicacoes: [
+      "Aguda: hemorragia significativa em aborto incompleto não tratado, infecção (aborto séptico) quando há retenção prolongada de restos ovulares",
+      "Crônica: impacto psicológico significativo (luto gestacional), e, quando recorrente, investigação etiológica sistemática (ver ficha de abortamento habitual)",
+    ],
+    redFlags: [
+      "Sinais de infecção (febre, secreção fétida, dor pélvica importante) associados a abortamento em curso caracterizam aborto séptico, emergência que exige antibioticoterapia e esvaziamento uterino imediatos",
+      "Sangramento volumoso com instabilidade hemodinâmica exige esvaziamento uterino de urgência independentemente da preferência inicial por conduta expectante",
+    ],
+    prognostico:
+      "Excelente para a saúde reprodutiva futura na maioria dos casos de evento único e isolado, sem necessidade de investigação etiológica extensa; o prognóstico para gestação subsequente permanece favorável mesmo após o evento, refletindo a natureza predominantemente esporádica (não recorrente) da maioria dos casos.",
+    pontosDeProva: [
+      "Anomalias cromossômicas embrionárias (trissomias autossômicas) são a causa isolada mais comum de aborto espontâneo, especialmente no primeiro trimestre",
+      "Investigação etiológica sistemática só é indicada após duas ou mais perdas (ver ficha de abortamento habitual), não após um evento único",
+      "Imunoglobulina anti-D deve ser administrada em toda paciente Rh negativo com sangramento gestacional, independentemente do estágio clínico do abortamento",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 30 anos, com 8 semanas de gestação confirmada, apresenta sangramento vaginal leve e cólica abdominal discreta. Ultrassonografia transvaginal confirma gestação intrauterina com batimentos cardíacos embrionários presentes; colo uterino fechado ao exame especular.",
+      pergunta: "Qual o diagnóstico e a conduta apropriada?",
+      raciocinio:
+        "Sangramento com gestação intrauterina viável confirmada (batimentos cardíacos presentes) e colo fechado caracteriza ameaça de abortamento, quadro com prognóstico favorável na maioria dos casos.",
+      conduta:
+        "Orientar repouso relativo e acompanhamento clínico/ultrassonográfico seriado; verificar tipagem sanguínea Rh e administrar imunoglobulina anti-D se Rh negativo.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O misoprostol (tratamento médico) e a imunoglobulina anti-D (profilaxia de aloimunização) ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Classificação clínica por estágio e papel central das anomalias cromossômicas", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Opções de manejo (expectante, médico, cirúrgico) e indicação de imunoglobulina anti-D", fonte: "ACOG Practice Bulletin No. 200, Early Pregnancy Loss, 2018" },
+    ],
+  },
+  {
+    slug: "pre-eclampsia",
+    nome: "Hipertensão gestacional com proteinúria (pré-eclâmpsia)",
+    sinonimos: ["Pré-eclâmpsia", "Toxemia gravídica"],
+    cid10: "O14",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Síndrome multissistêmica específica da gestação, caracterizada por hipertensão de início após 20 semanas associada a disfunção de órgão-alvo, decorrente de placentação anormal, com potencial evolução para eclâmpsia e complicações graves maternas e fetais.",
+    definicao:
+      "Síndrome hipertensiva específica da gestação, definida por pressão arterial ≥140/90 mmHg de início após 20 semanas de gestação, associada a proteinúria significativa ou, na ausência desta, a evidência de disfunção de órgão-alvo (renal, hepática, neurológica, hematológica) ou restrição de crescimento fetal.",
+    epidemiologia:
+      "Complica uma proporção relevante das gestações, sendo mais comum em nulíparas, gestações múltiplas, obesidade, hipertensão crônica preexistente, diabetes preexistente, síndrome do anticorpo antifosfolípide e história de pré-eclâmpsia em gestação anterior.",
+    fisiopatologia:
+      "Decorre de invasão trofoblástica anormal e superficial das artérias espiraladas uterinas no início da gestação, resultando em placentação deficiente e hipoperfusão placentária relativa; a placenta disfuncional libera fatores antiangiogênicos (como sFlt-1) na circulação materna, causando disfunção endotelial sistêmica generalizada, que explica a natureza multissistêmica da síndrome (hipertensão, proteinúria, disfunção hepática, trombocitopenia, sintomas neurológicos).",
+    classificacao:
+      "Classificada em pré-eclâmpsia sem sinais de gravidade e pré-eclâmpsia com sinais de gravidade (pressão arterial ≥160/110 mmHg, trombocitopenia, disfunção hepática, insuficiência renal, edema pulmonar, sintomas neurológicos ou visuais); a síndrome HELLP (hemólise, elevação de enzimas hepáticas, plaquetopenia) é considerada uma variante grave do espectro.",
+    quadroClinico: [
+      "Hipertensão de início após 20 semanas de gestação, achado central e definidor, frequentemente assintomática na sua detecção inicial",
+      "Cefaleia persistente e refratária, alterações visuais (escotomas, visão turva) e dor epigástrica/em hipocôndrio direito, sintomas que caracterizam sinais de gravidade",
+      "Edema significativo e de instalação rápida, achado inespecífico mas frequentemente associado",
+      "Hiper-reflexia, achado ao exame físico que reforça envolvimento neurológico e risco de progressão para eclâmpsia",
+    ],
+    diagnostico: [
+      "Aferição de pressão arterial seriada confirmando hipertensão de início após 20 semanas, associada a proteinúria (relação proteína/creatinina urinária ou proteinúria de 24 horas) ou evidência de disfunção de órgão-alvo",
+      "Avaliação laboratorial completa (hemograma com plaquetas, função hepática e renal) para identificação de sinais de gravidade e da síndrome HELLP",
+    ],
+    examesComplementares: [
+      "Relação sFlt-1/PlGF, biomarcador emergente que auxilia na predição de progressão da doença em contextos clínicos selecionados",
+      "Ultrassonografia obstétrica com Doppler para avaliação do crescimento fetal e da função placentária, dado o risco de restrição de crescimento fetal associado",
+    ],
+    diagnosticoDiferencial: [
+      "Hipertensão gestacional isolada (sem proteinúria ou disfunção de órgão-alvo), distinguida pela ausência desses critérios adicionais",
+      "Hipertensão arterial crônica preexistente, distinguida pelo início da hipertensão antes da gestação ou antes de 20 semanas",
+      "Púrpura trombocitopênica trombótica e síndrome hemolítico-urêmica, diagnósticos diferenciais da síndrome HELLP em casos de apresentação atípica",
+    ],
+    tratamento: [
+      "Sulfato de magnésio, tratamento de escolha para profilaxia e tratamento de convulsões eclâmpticas em pré-eclâmpsia com sinais de gravidade",
+      "Anti-hipertensivos (como labetalol, nifedipina ou hidralazina) para controle da pressão arterial, especialmente em crise hipertensiva",
+      "Interrupção da gestação (parto), único tratamento definitivo e curativo da pré-eclâmpsia, com o momento determinado pelo equilíbrio entre gravidade materna e maturidade fetal",
+      "Corticosteroide antenatal para maturação pulmonar fetal quando o parto pré-termo é antecipado",
+    ],
+    complicacoes: [
+      "Aguda: eclâmpsia (convulsões), síndrome HELLP, edema agudo de pulmão, insuficiência renal aguda, descolamento prematuro de placenta",
+      "Crônica: risco cardiovascular materno aumentado a longo prazo mesmo após resolução do quadro gestacional, e restrição de crescimento fetal com impacto neonatal",
+    ],
+    redFlags: [
+      "Cefaleia refratária, alterações visuais ou dor epigástrica em gestante hipertensa são sinais de gravidade que exigem avaliação e conduta imediatas, dado o risco iminente de eclâmpsia",
+      "Pressão arterial ≥160/110 mmHg constitui emergência hipertensiva na gestação, exigindo tratamento anti-hipertensivo imediato para prevenção de complicações maternas graves",
+    ],
+    prognostico:
+      "Variável conforme a gravidade e a idade gestacional ao diagnóstico; a resolução completa ocorre tipicamente após o parto, embora o risco cardiovascular materno permaneça elevado a longo prazo, justificando acompanhamento cardiovascular preventivo após o evento.",
+    pontosDeProva: [
+      "A placentação anormal com invasão trofoblástica superficial das artérias espiraladas é o evento fisiopatológico inicial, seguido pela liberação de fatores antiangiogênicos causando disfunção endotelial sistêmica",
+      "O parto é o único tratamento definitivo e curativo da pré-eclâmpsia — todo o restante do manejo é de suporte até que o parto seja possível/indicado",
+      "Sulfato de magnésio é o tratamento de escolha para profilaxia e tratamento de convulsões eclâmpticas, não sendo primariamente um anti-hipertensivo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 32 anos, 34 semanas, apresenta pressão arterial de 168/112 mmHg em duas aferições, associada a cefaleia intensa e escotomas visuais. Proteinúria significativa confirmada.",
+      pergunta: "Qual a conduta imediata diante desse quadro?",
+      raciocinio:
+        "Pressão arterial em nível de emergência hipertensiva associada a sinais de gravidade neurológicos/visuais caracteriza pré-eclâmpsia com sinais de gravidade, com risco iminente de eclâmpsia, exigindo tratamento imediato.",
+      conduta:
+        "Iniciar sulfato de magnésio para profilaxia de convulsões e anti-hipertensivo para controle da crise hipertensiva; avaliar via e momento do parto, considerando a idade gestacional e a gravidade materna.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "cloridrato-hidralazina", nome: "Cloridrato de hidralazina" },
+      { slug: "sulfato-magnesio", nome: "Sulfato de magnésio" },
+    ],
+    medicamentosNota:
+      "O labetalol, anti-hipertensivo comumente usado na crise hipertensiva da pré-eclâmpsia, ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia da placentação anormal e liberação de fatores antiangiogênicos", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Classificação por sinais de gravidade e indicações de sulfato de magnésio", fonte: "ACOG Practice Bulletin No. 222, Gestational Hypertension and Preeclampsia, 2020" },
+    ],
+  },
+  {
+    slug: "eclampsia",
+    nome: "Eclâmpsia",
+    sinonimos: ["Convulsão eclâmptica"],
+    cid10: "O15",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Ocorrência de convulsões tônico-clônicas generalizadas em gestante com pré-eclâmpsia, não atribuíveis a outra causa, representando emergência obstétrica com risco significativo de morbimortalidade materna e fetal.",
+    definicao:
+      "Complicação convulsiva da pré-eclâmpsia, definida pela ocorrência de crise convulsiva tônico-clônica generalizada (ou coma) em gestante ou puérpera com pré-eclâmpsia, na ausência de outra condição neurológica que explique o evento.",
+    epidemiologia:
+      "Complicação relativamente rara, mas potencialmente fatal, da pré-eclâmpsia, podendo ocorrer no período anteparto, intraparto ou até 6 semanas pós-parto (mais comumente nas primeiras 48 horas pós-parto quando ocorre nesse período); o risco é maior em pré-eclâmpsia com sinais de gravidade não tratada adequadamente.",
+    fisiopatologia:
+      "Decorre da mesma disfunção endotelial sistêmica da pré-eclâmpsia, afetando especificamente a circulação cerebral, com perda da autorregulação do fluxo sanguíneo cerebral, vasoespasmo e edema cerebral (frequentemente com padrão de encefalopatia posterior reversível identificável em exames de imagem), resultando na atividade convulsiva.",
+    classificacao:
+      "Classificada temporalmente em anteparto, intraparto e pós-parto (esta última subdividida em precoce, dentro de 48 horas, e tardia, além desse período), sendo a forma pós-parto precoce a mais comum quando o evento ocorre após o parto.",
+    quadroClinico: [
+      "Crise convulsiva tônico-clônica generalizada, achado definidor, podendo ser precedida por sinais premonitórios (cefaleia intensa, alterações visuais, dor epigástrica) ou ocorrer sem aviso prévio",
+      "Confusão mental ou coma pós-ictal, com duração variável",
+      "Sinais de pré-eclâmpsia associados (hipertensão, proteinúria) na maioria dos casos, embora uma minoria possa apresentar convulsão como manifestação inicial sem hipertensão previamente identificada",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico, pela ocorrência de convulsão em gestante/puérpera com pré-eclâmpsia (ou critérios compatíveis), após exclusão de outras causas neurológicas de convulsão",
+      "Avaliação laboratorial e de imagem direcionada para exclusão de diagnósticos diferenciais e para avaliação de gravidade/complicações associadas",
+    ],
+    examesComplementares: [
+      "Ressonância magnética ou tomografia de crânio quando há dúvida diagnóstica, déficit neurológico focal, ou convulsão atípica/refratária, para exclusão de hemorragia intracraniana ou outras causas estruturais",
+      "Avaliação laboratorial completa (função hepática, renal, hemograma com plaquetas) para identificação de síndrome HELLP associada",
+    ],
+    diagnosticoDiferencial: [
+      "Epilepsia preexistente ou de novo diagnóstico, distinguida pela ausência de critérios de pré-eclâmpsia associados",
+      "Hemorragia intracraniana e trombose venosa cerebral, diagnósticos diferenciais que exigem exame de imagem para exclusão, especialmente em convulsão atípica ou com déficit focal associado",
+      "Púrpura trombocitopênica trombótica, que pode cursar com sintomas neurológicos e trombocitopenia mimetizando síndrome HELLP",
+    ],
+    tratamento: [
+      "Sulfato de magnésio intravenoso, tratamento de escolha tanto para cessação da crise convulsiva em curso quanto para profilaxia de recorrência",
+      "Controle da pressão arterial com anti-hipertensivos quando há crise hipertensiva associada",
+      "Interrupção da gestação (parto) após estabilização materna, indicada independentemente da idade gestacional, dado que a eclâmpsia representa indicação de resolução da gestação",
+    ],
+    complicacoes: [
+      "Aguda: aspiração pulmonar durante a crise convulsiva, hemorragia intracraniana, insuficiência respiratória, descolamento prematuro de placenta, óbito materno e/ou fetal",
+      "Crônica: sequelas neurológicas em casos com hemorragia intracraniana associada, embora a maioria das pacientes recupere-se completamente após o evento",
+    ],
+    redFlags: [
+      "Toda convulsão em gestante ou puérpera deve ser considerada eclâmpsia até prova em contrário, independentemente de hipertensão previamente conhecida ou não",
+      "Convulsão eclâmptica é indicação de interrupção da gestação após estabilização materna, independentemente da idade gestacional",
+    ],
+    prognostico:
+      "Geralmente favorável com tratamento imediato e adequado (sulfato de magnésio e resolução da gestação), mas a eclâmpsia permanece uma das principais causas de morbimortalidade materna quando não reconhecida e tratada prontamente.",
+    pontosDeProva: [
+      "Sulfato de magnésio é o tratamento de escolha tanto para cessar a crise convulsiva em curso quanto para prevenir recorrência, superior a outros anticonvulsivantes nesse contexto específico",
+      "Eclâmpsia pode ocorrer no período pós-parto (mais comumente nas primeiras 48 horas), não apenas durante a gestação, exigindo vigilância contínua mesmo após o parto",
+      "A interrupção da gestação é indicada após estabilização materna, independentemente da idade gestacional, dado que a eclâmpsia é indicação absoluta de resolução",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 26 anos, 37 semanas, com diagnóstico prévio de pré-eclâmpsia com sinais de gravidade, apresenta crise convulsiva tônico-clônica generalizada com duração de 2 minutos, seguida de confusão pós-ictal.",
+      pergunta: "Qual a conduta imediata?",
+      raciocinio:
+        "Convulsão em gestante com pré-eclâmpsia caracteriza eclâmpsia, emergência obstétrica que exige tratamento imediato para cessação/profilaxia de nova crise e planejamento de resolução da gestação.",
+      conduta:
+        "Administrar sulfato de magnésio intravenoso para tratamento e profilaxia de recorrência convulsiva; estabilizar a paciente e proceder à interrupção da gestação assim que houver estabilização materna.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "sulfato-magnesio", nome: "Sulfato de magnésio" },
+    ],
+    fontes: [
+      { tema: "Fisiopatologia da disfunção endotelial cerebral e classificação temporal", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Sulfato de magnésio como tratamento de escolha e indicação de interrupção da gestação", fonte: "ACOG Practice Bulletin No. 222, Gestational Hypertension and Preeclampsia, 2020" },
+    ],
+  },
+  {
+    slug: "diabetes-mellitus-gestacional",
+    nome: "Diabetes mellitus na gravidez (diabetes gestacional)",
+    sinonimos: ["Diabetes gestacional", "DMG"],
+    cid10: "O24",
+    especialidade: "Ginecologia",
+    etiologia: "Metabólica",
+    resumo: "Intolerância à glicose de gravidade variável com início ou primeiro reconhecimento durante a gestação, decorrente do estado de resistência insulínica fisiológica progressiva imposto pelos hormônios placentários.",
+    definicao:
+      "Qualquer grau de intolerância à glicose com início ou primeiro reconhecimento durante a gestação, distinta do diabetes pré-gestacional (diagnosticado antes ou já no início da gestação), tipicamente diagnosticada a partir do segundo trimestre pelo rastreamento universal recomendado.",
+    epidemiologia:
+      "Complica uma proporção significativa das gestações, com prevalência crescente acompanhando o aumento da obesidade e da idade materna; principais fatores de risco incluem obesidade, idade materna avançada, história familiar de diabetes, diabetes gestacional em gestação anterior e macrossomia fetal prévia.",
+    fisiopatologia:
+      "Hormônios placentários (lactogênio placentário humano, progesterona, cortisol) promovem resistência insulínica progressiva ao longo da gestação, fisiologicamente necessária para direcionar glicose ao feto; quando a reserva pancreática materna é insuficiente para compensar essa resistência crescente, desenvolve-se hiperglicemia gestacional, com hiperglicemia materna atravessando a placenta e estimulando hiperinsulinemia fetal, que por sua vez promove crescimento fetal excessivo (macrossomia).",
+    classificacao:
+      "Distinta do diabetes pré-gestacional (tipo 1 ou tipo 2 diagnosticado antes da gestação); classificada quanto à necessidade terapêutica em diabetes gestacional controlada com dieta e exercício e diabetes gestacional que necessita de tratamento farmacológico (insulina ou, em alguns protocolos, metformina) para controle glicêmico adequado.",
+    quadroClinico: [
+      "Tipicamente assintomática, identificada exclusivamente pelo rastreamento glicêmico universal recomendado entre 24 e 28 semanas de gestação",
+      "Polidrâmnio e suspeita de macrossomia fetal à ultrassonografia podem ser achados que levantam suspeita antes mesmo do rastreamento programado",
+    ],
+    diagnostico: [
+      "Teste oral de tolerância à glicose (75 g, em uma ou duas etapas conforme o protocolo adotado), realizado universalmente entre 24 e 28 semanas de gestação, com valores de corte específicos definindo o diagnóstico",
+      "Rastreamento mais precoce (primeiro trimestre) indicado em gestantes com fatores de risco significativos, para identificação de diabetes pré-gestacional não diagnosticado previamente",
+    ],
+    examesComplementares: [
+      "Ultrassonografia obstétrica seriada para monitorização do crescimento fetal, dado o risco de macrossomia associado ao controle glicêmico inadequado",
+      "Automonitorização domiciliar da glicemia capilar, ferramenta central do acompanhamento e ajuste terapêutico ao longo da gestação",
+    ],
+    diagnosticoDiferencial: [
+      "Diabetes pré-gestacional não diagnosticado previamente, distinguido por hiperglicemia já identificada no primeiro trimestre ou por hemoglobina glicada elevada compatível com hiperglicemia pré-existente",
+      "Glicosúria gestacional fisiológica (por redução do limiar renal de reabsorção de glicose), que não reflete necessariamente hiperglicemia verdadeira e não deve ser confundida com diabetes gestacional",
+    ],
+    tratamento: [
+      "Terapia nutricional e atividade física regular, tratamento inicial de primeira linha para todas as pacientes com diabetes gestacional",
+      "Insulina, tratamento farmacológico de escolha quando as metas glicêmicas não são atingidas com medidas não farmacológicas, por não atravessar a placenta e ter perfil de segurança estabelecido na gestação",
+      "Metformina como alternativa oral em protocolos e contextos selecionados, embora a insulina permaneça o padrão-ouro farmacológico",
+    ],
+    complicacoes: [
+      "Aguda/perinatal: macrossomia fetal com risco de distocia de ombro no parto, hipoglicemia neonatal (pela hiperinsulinemia fetal reativa após a interrupção do suprimento materno de glicose ao nascimento), polidrâmnio",
+      "Crônica: risco substancialmente aumentado de desenvolvimento de diabetes mellitus tipo 2 na mãe em anos subsequentes, justificando reavaliação glicêmica pós-parto e seguimento a longo prazo",
+    ],
+    redFlags: [
+      "Suspeita de macrossomia fetal significativa ao final da gestação deve motivar discussão sobre via de parto, dado o risco de distocia de ombro",
+      "Hipoglicemia neonatal deve ser ativamente monitorizada e antecipada em recém-nascidos de mães com diabetes gestacional mal controlado",
+    ],
+    prognostico:
+      "Excelente para mãe e feto quando o controle glicêmico é adequado ao longo da gestação; a diabetes gestacional tipicamente se resolve após o parto, mas confere risco substancialmente aumentado de diabetes mellitus tipo 2 futuro, justificando reavaliação e orientação preventiva pós-parto.",
+    pontosDeProva: [
+      "O rastreamento universal com teste oral de tolerância à glicose entre 24-28 semanas é a estratégia diagnóstica padrão para a maioria das gestantes sem fatores de risco que justifiquem rastreamento mais precoce",
+      "Insulina é o tratamento farmacológico de escolha por não atravessar a placenta, ao contrário de alguns hipoglicemiantes orais",
+      "Diabetes gestacional confere risco substancialmente aumentado de diabetes mellitus tipo 2 futuro na mãe, justificando reavaliação glicêmica programada no pós-parto",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 29 anos, 26 semanas, obesa, é submetida a teste oral de tolerância à glicose de rastreamento de rotina, com resultado confirmando diabetes gestacional. Glicemias capilares domiciliares permanecem acima da meta apesar de terapia nutricional adequada por 2 semanas.",
+      pergunta: "Qual a conduta terapêutica seguinte?",
+      raciocinio:
+        "Falha em atingir metas glicêmicas apesar de terapia nutricional adequada indica necessidade de tratamento farmacológico, sendo a insulina o tratamento de escolha por seu perfil de segurança estabelecido na gestação.",
+      conduta:
+        "Iniciar insulinoterapia ajustada ao perfil glicêmico da paciente, mantendo monitorização domiciliar da glicemia capilar e acompanhamento obstétrico com ultrassonografias seriadas para avaliação do crescimento fetal.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "insulina-nph", nome: "Insulina NPH humana" },
+    ],
+    medicamentosNota:
+      "A insulina NPH representa a classe terapêutica (insulinoterapia) recomendada quando a dieta/exercício são insuficientes; o esquema específico de insulina na gestação é individualizado e pode incluir outras formulações não documentadas no site.",
+    fontes: [
+      { tema: "Fisiopatologia da resistência insulínica gestacional e hiperinsulinemia fetal reativa", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Protocolo de rastreamento universal e insulina como tratamento farmacológico de escolha", fonte: "ACOG Practice Bulletin No. 190, Gestational Diabetes Mellitus, 2018" },
+    ],
+  },
+  {
+    slug: "disturbios-hipertensivos-cronicos-gestacionais-leves",
+    nome: "Distúrbios hipertensivos crônicos e gestacionais leves da gravidez",
+    sinonimos: ["Hipertensão crônica na gestação", "Hipertensão gestacional sem proteinúria"],
+    cid10: "O10-O13+O16",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Espectro de hipertensão na gestação sem os critérios de gravidade da pré-eclâmpsia, incluindo hipertensão crônica preexistente e hipertensão gestacional isolada, que exigem monitorização rigorosa pelo risco de progressão para pré-eclâmpsia sobreposta.",
+    definicao:
+      "Hipertensão crônica é definida como pressão arterial elevada identificada antes da gestação ou antes de 20 semanas (ou que persiste além de 12 semanas pós-parto); hipertensão gestacional é a elevação da pressão arterial após 20 semanas na ausência de proteinúria ou de outros critérios de disfunção de órgão-alvo que caracterizariam pré-eclâmpsia.",
+    epidemiologia:
+      "A hipertensão crônica preexistente à gestação tem prevalência crescente, acompanhando o aumento da idade materna e da obesidade; a hipertensão gestacional isolada é relativamente comum e uma proporção significativa dos casos progride para pré-eclâmpsia sobreposta ao longo da gestação.",
+    fisiopatologia:
+      "Na hipertensão crônica, a gestação se sobrepõe a um estado hipertensivo preexistente (essencial ou secundária), sem a fisiopatologia placentária específica da pré-eclâmpsia, embora o risco de pré-eclâmpsia sobreposta seja significativamente maior nessas gestantes; a hipertensão gestacional isolada compartilha possivelmente uma fisiopatologia inicial semelhante à pré-eclâmpsia, porém sem progressão para a disfunção multissistêmica que a caracteriza.",
+    classificacao:
+      "Classificada em hipertensão crônica (identificada antes da gestação ou antes de 20 semanas), hipertensão gestacional (identificada após 20 semanas, sem proteinúria/disfunção de órgão-alvo) e hipertensão crônica com pré-eclâmpsia sobreposta (quando uma gestante com hipertensão crônica desenvolve novos critérios de pré-eclâmpsia ao longo da gestação).",
+    quadroClinico: [
+      "Pressão arterial elevada identificada antes da gestação (hipertensão crônica) ou detectada em consulta pré-natal de rotina após 20 semanas (hipertensão gestacional), tipicamente sem sintomas associados na forma não complicada",
+      "Ausência de proteinúria ou de sinais de disfunção de órgão-alvo, achado que distingue essas condições da pré-eclâmpsia",
+      "Sinais de alerta para pré-eclâmpsia sobreposta (proteinúria nova, cefaleia, alterações visuais, dor epigástrica) devem ser ativamente monitorizados ao longo do acompanhamento",
+    ],
+    diagnostico: [
+      "Aferição seriada da pressão arterial ao longo do pré-natal, com classificação conforme o momento de início (antes versus após 20 semanas) e a presença ou ausência de proteinúria/disfunção de órgão-alvo",
+      "Investigação de causas secundárias de hipertensão crônica quando há suspeita clínica (início antes dos 30 anos sem história familiar, hipertensão refratária, achados sugestivos de causa endócrina ou renal)",
+    ],
+    examesComplementares: [
+      "Proteinúria de 24 horas ou relação proteína/creatinina urinária basal no início do pré-natal em gestantes com hipertensão crônica conhecida, para estabelecer parâmetro de comparação e facilitar identificação precoce de pré-eclâmpsia sobreposta",
+      "Ultrassonografia obstétrica seriada com Doppler para monitorização do crescimento fetal, dado o risco aumentado de restrição de crescimento fetal nessas condições",
+    ],
+    diagnosticoDiferencial: [
+      "Pré-eclâmpsia, distinguida pela presença de proteinúria significativa ou de critérios de disfunção de órgão-alvo, ausentes na hipertensão gestacional isolada e na hipertensão crônica sem sobreposição",
+      "Hipertensão do jaleco branco, achado que pode confundir a avaliação inicial e exigir confirmação por aferições domiciliares ou monitorização ambulatorial",
+    ],
+    tratamento: [
+      "Anti-hipertensivos seguros na gestação (como labetalol, nifedipina ou metildopa) indicados quando a pressão arterial atinge determinados limiares, visando reduzir o risco de complicações maternas sem comprometer a perfusão placentária",
+      "Monitorização rigorosa e seriada (materna e fetal) ao longo da gestação, dado o risco de progressão para pré-eclâmpsia sobreposta ou de restrição de crescimento fetal",
+      "Planejamento do momento do parto individualizado conforme controle pressórico e achados de vigilância fetal, geralmente não antes do termo na ausência de complicações sobrepostas",
+    ],
+    complicacoes: [
+      "Aguda: pré-eclâmpsia sobreposta, mais comum em gestantes com hipertensão crônica preexistente do que na população geral",
+      "Crônica: restrição de crescimento fetal e descolamento prematuro de placenta, riscos aumentados em ambas as condições em comparação à gestação normotensa",
+    ],
+    redFlags: [
+      "Qualquer sinal novo de proteinúria ou de disfunção de órgão-alvo em gestante com hipertensão crônica ou gestacional isolada deve ser interpretado como possível pré-eclâmpsia sobreposta, exigindo reclassificação e conduta correspondente",
+      "Hipertensão crônica de início antes dos 30 anos sem história familiar deve motivar investigação de causa secundária",
+    ],
+    prognostico:
+      "Geralmente favorável com monitorização adequada, mas o risco de progressão para pré-eclâmpsia sobreposta (mais alto na hipertensão crônica preexistente) exige vigilância contínua ao longo de toda a gestação para detecção precoce dessa complicação.",
+    pontosDeProva: [
+      "O critério temporal (antes ou após 20 semanas) é central para diferenciar hipertensão crônica de hipertensão gestacional",
+      "A ausência de proteinúria/disfunção de órgão-alvo distingue tanto a hipertensão crônica isolada quanto a hipertensão gestacional isolada da pré-eclâmpsia",
+      "Gestantes com hipertensão crônica têm risco significativamente maior de desenvolver pré-eclâmpsia sobreposta, exigindo vigilância mais rigorosa que a população obstétrica geral",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 35 anos, com hipertensão arterial diagnosticada há 3 anos antes da gestação atual, em acompanhamento pré-natal de rotina com 30 semanas, apresenta pressão arterial controlada e proteinúria basal negativa desde o início do pré-natal.",
+      pergunta: "Qual a principal complicação que deve ser ativamente rastreada ao longo do restante da gestação?",
+      raciocinio:
+        "Gestante com hipertensão crônica preexistente tem risco significativamente aumentado de desenvolver pré-eclâmpsia sobreposta ao longo da gestação, exigindo monitorização rigorosa e seriada de proteinúria e sinais de disfunção de órgão-alvo.",
+      conduta:
+        "Manter monitorização seriada da pressão arterial, proteinúria e sinais/sintomas de disfunção de órgão-alvo em cada consulta pré-natal, além de vigilância do crescimento fetal por ultrassonografia seriada.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "metildopa", nome: "Metildopa" },
+      { slug: "nifedipino", nome: "Nifedipino" },
+    ],
+    medicamentosNota:
+      "O labetalol, outro anti-hipertensivo seguro na gestação, ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Classificação temporal e risco de pré-eclâmpsia sobreposta", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Limiares de tratamento anti-hipertensivo e monitorização na gestação", fonte: "ACOG Practice Bulletin No. 203, Chronic Hypertension in Pregnancy, 2019" },
+    ],
+  },
+  {
+    slug: "hemorragia-inicio-gravidez-ameaca-abortamento",
+    nome: "Hemorragia do início da gravidez (ameaça de abortamento)",
+    sinonimos: ["Ameaça de aborto", "Sangramento do primeiro trimestre"],
+    cid10: "O20",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Sangramento vaginal no início da gestação com colo uterino fechado e gestação intrauterina viável confirmada, achado comum que exige diagnóstico diferencial cuidadoso mas que tem prognóstico favorável na maioria dos casos.",
+    definicao:
+      "Sangramento vaginal originado da gestação, ocorrendo antes de 20 semanas, em paciente com colo uterino fechado ao exame e gestação intrauterina confirmada como potencialmente viável, distinta de outras categorias de abortamento em curso pela ausência de dilatação cervical e pela preservação da viabilidade gestacional no momento da avaliação.",
+    epidemiologia:
+      "Achado comum, ocorrendo em uma proporção significativa das gestações no primeiro trimestre; aproximadamente metade das gestantes com esse quadro evolui para gestação viável a termo, enquanto a outra parcela progride para aborto espontâneo estabelecido.",
+    fisiopatologia:
+      "O sangramento origina-se tipicamente de pequenas áreas de separação entre o córion e a decídua uterina, podendo ser autolimitado (sem impacto na viabilidade gestacional) ou representar o estágio inicial de um processo de abortamento espontâneo em curso, cujo desfecho definitivo só se estabelece com a evolução clínica e o acompanhamento.",
+    classificacao:
+      "Corresponde a uma categoria clínica específica dentro do espectro mais amplo de sangramento gestacional precoce, definida pela combinação de sangramento, colo fechado e gestação intrauterina confirmada como presente (viável ou de viabilidade a ser reavaliada); distinta de aborto inevitável (colo aberto) e de aborto retido (óbito embrionário/fetal já estabelecido).",
+    quadroClinico: [
+      "Sangramento vaginal de intensidade variável (spotting a sangramento moderado), tipicamente sem eliminação de tecido",
+      "Cólica abdominal leve a moderada pode acompanhar o sangramento, embora sua ausência não exclua o diagnóstico",
+      "Colo uterino fechado ao exame especular, achado central que distingue essa condição do aborto inevitável",
+    ],
+    diagnostico: [
+      "Ultrassonografia transvaginal confirmando gestação intrauterina com localização e (quando a idade gestacional permite) batimentos cardíacos embrionários presentes",
+      "Exame especular confirmando colo uterino fechado, achado essencial para a classificação clínica",
+    ],
+    examesComplementares: [
+      "Beta-hCG sérico seriado quando a idade gestacional é muito precoce para visualização ultrassonográfica definitiva, com padrão de incremento adequado reforçando a viabilidade gestacional",
+      "Tipagem sanguínea (fator Rh), para indicação de imunoglobulina anti-D quando aplicável",
+    ],
+    diagnosticoDiferencial: [
+      "Gestação ectópica, diagnóstico diferencial obrigatório de todo sangramento do primeiro trimestre, excluído pela confirmação ultrassonográfica da localização intrauterina da gestação",
+      "Sangramento de implantação fisiológico, geralmente mais discreto e autolimitado, embora a distinção clínica definitiva dependa do acompanhamento evolutivo",
+      "Pólipo cervical ou cervicite, causas de sangramento de origem cervical (não relacionadas à própria gestação) identificáveis ao exame especular cuidadoso",
+    ],
+    tratamento: [
+      "Conduta expectante com repouso relativo, dado que não há intervenção comprovadamente eficaz para alterar o desfecho de uma gestação já em curso de ameaça de abortamento",
+      "Acompanhamento clínico e ultrassonográfico seriado para confirmação contínua da viabilidade gestacional",
+      "Imunoglobulina anti-D em gestante Rh negativo, medida profilática independentemente do desfecho final da gestação atual",
+    ],
+    complicacoes: [
+      "Aguda: progressão para aborto espontâneo estabelecido em uma proporção dos casos",
+      "Crônica: ansiedade materna significativa durante o período de incerteza quanto ao desfecho gestacional, aspecto que merece suporte e orientação empática",
+    ],
+    redFlags: [
+      "Sangramento volumoso, cólica intensa ou eliminação de tecido reclassificam o quadro para aborto inevitável/incompleto, exigindo reavaliação da conduta",
+      "Dor pélvica unilateral associada ao sangramento deve sempre motivar exclusão ativa de gestação ectópica antes de assumir o diagnóstico de ameaça de abortamento",
+    ],
+    prognostico:
+      "Favorável em aproximadamente metade dos casos, com evolução para gestação viável a termo; a presença de batimentos cardíacos embrionários confirmados no momento da avaliação inicial está associada a prognóstico mais favorável de continuidade da gestação.",
+    pontosDeProva: [
+      "O colo uterino fechado é o achado central que distingue a ameaça de abortamento do aborto inevitável, no qual o colo já está aberto",
+      "Não existe intervenção comprovadamente eficaz para alterar o desfecho de uma ameaça de abortamento já estabelecida — a conduta é expectante com acompanhamento",
+      "Gestação ectópica deve sempre ser ativamente excluída antes de firmar o diagnóstico de ameaça de abortamento, especialmente na presença de dor pélvica associada",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 26 anos, com 7 semanas de gestação confirmada, relata sangramento vaginal discreto sem cólica significativa. Exame especular revela colo uterino fechado. Ultrassonografia transvaginal confirma gestação intrauterina tópica com batimentos cardíacos embrionários presentes.",
+      pergunta: "Qual o diagnóstico e a orientação apropriada?",
+      raciocinio:
+        "Sangramento discreto com colo fechado e gestação intrauterina viável confirmada (batimentos cardíacos presentes) caracteriza ameaça de abortamento, condição com prognóstico favorável em cerca de metade dos casos.",
+      conduta:
+        "Orientar repouso relativo e explicar a natureza do quadro e seu prognóstico variável; agendar reavaliação clínica e ultrassonográfica; verificar tipagem sanguínea Rh para eventual imunoglobulina anti-D.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso comprovadamente eficaz para alterar o desfecho da ameaça de abortamento; a imunoglobulina anti-D, indicada quando aplicável, ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Definição clínica e taxa de evolução para gestação viável", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Ausência de intervenção eficaz comprovada e indicação de imunoglobulina anti-D", fonte: "ACOG Practice Bulletin No. 200, Early Pregnancy Loss, 2018" },
+    ],
+  },
+  {
+    slug: "hiperemese-gravidica",
+    nome: "Hiperêmese gravídica",
+    sinonimos: ["Vômitos incoercíveis da gravidez"],
+    cid10: "O21",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Forma grave de náuseas e vômitos da gestação, causando desidratação, distúrbios eletrolíticos e perda de peso significativa, distinta das náuseas gestacionais comuns pela intensidade e pelo impacto no estado nutricional e hidroeletrolítico materno.",
+    definicao:
+      "Náuseas e vômitos persistentes e intensos no início da gestação, suficientes para causar perda de peso superior a 5% do peso pré-gestacional, desidratação, distúrbios eletrolíticos e/ou cetose, distinguindo-se assim das náuseas e vômitos leves a moderados que acometem a maioria das gestantes sem essas repercussões.",
+    epidemiologia:
+      "Acomete uma minoria das gestações, tipicamente com início no primeiro trimestre; fatores de risco incluem gestação múltipla, mola hidatiforme (ambas associadas a níveis mais elevados de beta-hCG), história de hiperêmese em gestação anterior e história de enjoo em movimento ou de cinetose.",
+    fisiopatologia:
+      "A fisiopatologia exata não é completamente elucidada, mas envolve provavelmente níveis elevados de beta-hCG e de estrogênio circulantes, hormônios que têm pico temporal semelhante ao início típico dos sintomas; a associação com condições de beta-hCG marcadamente elevado (gestação múltipla, mola hidatiforme) reforça essa hipótese fisiopatológica central.",
+    classificacao:
+      "Representa a extremidade mais grave do espectro de náuseas e vômitos da gestação, distinguida das formas leves a moderadas pela presença de critérios objetivos de repercussão sistêmica (perda de peso significativa, distúrbios eletrolíticos, cetose, necessidade de hidratação intravenosa).",
+    quadroClinico: [
+      "Náuseas e vômitos persistentes e incoercíveis, geralmente com início entre 4 e 8 semanas de gestação e pico por volta de 9 a 12 semanas",
+      "Perda de peso significativa (superior a 5% do peso pré-gestacional), achado que distingue a hiperêmese das náuseas gestacionais comuns",
+      "Sinais de desidratação (mucosas secas, taquicardia, hipotensão postural) e de distúrbio eletrolítico associado",
+      "Sialorreia e intolerância a odores específicos frequentemente relatadas como gatilhos ou sintomas associados",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico, pela combinação de vômitos persistentes e intensos com evidência objetiva de repercussão sistêmica (perda de peso, sinais de desidratação)",
+      "Exclusão de outras causas de vômitos na gestação antes de firmar o diagnóstico, especialmente quando há características atípicas (início após o primeiro trimestre, dor abdominal significativa, febre)",
+    ],
+    examesComplementares: [
+      "Eletrólitos séricos, função renal e cetonúria, exames que documentam a repercussão sistêmica e orientam a necessidade de reposição intravenosa",
+      "Função tireoidiana e hepática, para exclusão de diagnósticos diferenciais e identificação de tireotoxicose gestacional transitória associada em alguns casos",
+      "Ultrassonografia obstétrica para exclusão de gestação múltipla ou mola hidatiforme como causa de beta-hCG marcadamente elevado",
+    ],
+    diagnosticoDiferencial: [
+      "Náuseas e vômitos leves a moderados da gestação, distinguidos pela ausência de critérios de repercussão sistêmica significativa",
+      "Gastroenterite, colecistite, pancreatite e outras causas não gestacionais de vômitos, que devem ser consideradas especialmente diante de características atípicas",
+      "Mola hidatiforme, causa específica de hiperêmese associada a beta-hCG marcadamente elevado, que deve ser excluída por ultrassonografia",
+    ],
+    tratamento: [
+      "Reposição hidroeletrolítica intravenosa, medida central em casos com desidratação significativa",
+      "Antieméticos (como piridoxina isolada ou associada a doxilamina, ou antagonistas de receptores de dopamina/serotonina), indicados de forma escalonada conforme a gravidade e resposta ao tratamento inicial",
+      "Suporte nutricional, incluindo, em casos refratários mais graves, nutrição enteral ou parenteral quando a via oral não é tolerada de forma sustentada",
+    ],
+    complicacoes: [
+      "Aguda: distúrbios eletrolíticos significativos, encefalopatia de Wernicke (por deficiência de tiamina em vômitos prolongados não tratados adequadamente), lesão renal aguda pré-renal",
+      "Crônica: restrição de crescimento fetal em casos graves e prolongados sem tratamento adequado, impacto psicológico significativo pela intensidade e duração dos sintomas",
+    ],
+    redFlags: [
+      "Vômitos persistentes prolongados sem reposição nutricional adequada colocam a paciente em risco de encefalopatia de Wernicke por deficiência de tiamina, complicação neurológica grave e evitável",
+      "Início de vômitos significativos após o primeiro trimestre, ou presença de dor abdominal significativa/febre associada, deve motivar investigação ampliada para outras causas antes de atribuir o quadro à hiperêmese gravídica",
+    ],
+    prognostico:
+      "Geralmente favorável com tratamento de suporte adequado, com melhora tipicamente ao longo do segundo trimestre na maioria dos casos; casos graves e prolongados sem tratamento adequado podem impactar o crescimento fetal e o estado nutricional materno de forma mais significativa.",
+    pontosDeProva: [
+      "A perda de peso superior a 5% do peso pré-gestacional é o critério objetivo central que distingue hiperêmese gravídica das náuseas/vômitos leves a moderados comuns na gestação",
+      "Gestação múltipla e mola hidatiforme, ambas associadas a beta-hCG marcadamente elevado, são fatores de risco reconhecidos, reforçando a hipótese fisiopatológica hormonal",
+      "Reposição de tiamina deve ser considerada antes ou junto da reposição de glicose em vômitos prolongados, para prevenir encefalopatia de Wernicke",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 24 anos, com 9 semanas de gestação, relata vômitos incoercíveis há 3 semanas, com perda de peso de 6% em relação ao peso pré-gestacional. Exame revela mucosas secas e taquicardia leve.",
+      pergunta: "Qual a conduta inicial apropriada?",
+      raciocinio:
+        "Vômitos persistentes com perda de peso superior a 5% do peso pré-gestacional e sinais de desidratação caracterizam hiperêmese gravídica, exigindo intervenção além das medidas habituais para náuseas gestacionais leves.",
+      conduta:
+        "Iniciar reposição hidroeletrolítica intravenosa e antieméticos apropriados para a gestação; avaliar eletrólitos, cetonúria e função tireoidiana; considerar ultrassonografia para exclusão de gestação múltipla ou mola hidatiforme.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os antieméticos seguros na gestação (piridoxina/doxilamina, antagonistas de dopamina/serotonina) ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Fisiopatologia hormonal (beta-hCG/estrogênio) e fatores de risco associados", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Critérios diagnósticos, escalonamento terapêutico e risco de encefalopatia de Wernicke", fonte: "ACOG Practice Bulletin No. 189, Nausea and Vomiting of Pregnancy, 2018" },
+    ],
+  },
+  {
+    slug: "complicacoes-venosas-gravidez-tvp-gestacional",
+    nome: "Complicações venosas na gravidez (TVP gestacional e tromboembolismo)",
+    sinonimos: ["Trombose venosa profunda na gestação", "Tromboembolismo venoso gestacional"],
+    cid10: "O22",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "A gestação constitui estado de hipercoagulabilidade fisiológica, conferindo risco substancialmente aumentado de trombose venosa profunda e embolia pulmonar, mais pronunciado no membro inferior esquerdo e no período pós-parto imediato.",
+    definicao:
+      "Formação de trombo no sistema venoso profundo (mais comumente dos membros inferiores) durante a gestação ou o puerpério, com potencial de embolização pulmonar, decorrente do estado de hipercoagulabilidade fisiológica próprio da gestação somado a fatores de risco adicionais.",
+    epidemiologia:
+      "O risco de tromboembolismo venoso é várias vezes maior durante a gestação em comparação a mulheres não gestantes da mesma idade, sendo ainda mais elevado no período pós-parto imediato; fatores de risco adicionais incluem cesariana, imobilização prolongada, obesidade, trombofilia hereditária ou adquirida (síndrome do anticorpo antifosfolípide) e história pessoal ou familiar de tromboembolismo venoso.",
+    fisiopatologia:
+      "A gestação induz estado de hipercoagulabilidade fisiológica (aumento de fatores de coagulação, redução de proteína S, resistência adquirida à proteína C ativada), somado à estase venosa por compressão mecânica da veia cava e das veias ilíacas pelo útero gravídico (mais pronunciada à esquerda, pela anatomia de cruzamento da veia ilíaca comum esquerda com a artéria ilíaca comum direita, explicando a maior incidência de trombose venosa profunda no membro inferior esquerdo) e por lesão endotelial associada ao parto, completando a tríade de Virchow.",
+    classificacao:
+      "Classificada por localização em trombose venosa profunda de membros inferiores (a mais comum, predominantemente à esquerda) e embolia pulmonar (complicação de maior gravidade), e por momento de ocorrência em anteparto e pós-parto (este último com risco relativo ainda mais elevado, especialmente após cesariana).",
+    quadroClinico: [
+      "Edema unilateral, dor e eritema de membro inferior (mais comumente o esquerdo), achados clássicos de trombose venosa profunda, embora possam ser mascarados pelo edema fisiológico bilateral comum na gestação",
+      "Dispneia súbita, dor torácica pleurítica e taquicardia sugerem embolia pulmonar, exigindo investigação imediata",
+      "Assimetria significativa de panturrilha (diferença de circunferência) é achado mais específico que o edema isolado, dado o edema fisiológico bilateral esperado na gestação",
+    ],
+    diagnostico: [
+      "Ultrassonografia com Doppler venoso de membros inferiores, exame de primeira linha para trombose venosa profunda, com adaptação da técnica quando há suspeita de trombose ilíaca proximal (menos acessível pela compressão ultrassonográfica padrão)",
+      "Angiotomografia de tórax com proteção abdominal ou cintilografia pulmonar de ventilação-perfusão, exames de escolha para investigação de suspeita de embolia pulmonar na gestação",
+    ],
+    examesComplementares: [
+      "D-dímero tem interpretação limitada na gestação, dado que se eleva fisiologicamente ao longo da gravidez, reduzindo sua utilidade como exame de exclusão isolado nesse contexto",
+      "Investigação de trombofilia (incluindo síndrome do anticorpo antifosfolípide) em casos selecionados, particularmente quando há história pessoal ou familiar significativa",
+    ],
+    diagnosticoDiferencial: [
+      "Edema fisiológico bilateral da gestação, distinguido da trombose venosa profunda pela ausência de assimetria significativa e de outros sinais focais",
+      "Celulite de membro inferior, causa de edema e eritema unilateral que pode mimetizar trombose venosa profunda, distinguida por sinais inflamatórios sistêmicos mais proeminentes",
+    ],
+    tratamento: [
+      "Heparina de baixo peso molecular, tratamento anticoagulante de escolha na gestação, por não atravessar a placenta e ter perfil de segurança estabelecido, ao contrário da varfarina (teratogênica, contraindicada na gestação)",
+      "Manutenção da anticoagulação durante toda a gestação e por período determinado no pós-parto, com ajuste da via de administração e do momento de suspensão antes do parto planejado",
+      "Meias de compressão elástica graduada como medida adjuvante para redução de sintomas e prevenção de síndrome pós-trombótica",
+    ],
+    complicacoes: [
+      "Aguda: embolia pulmonar, uma das principais causas de mortalidade materna direta quando não reconhecida e tratada prontamente",
+      "Crônica: síndrome pós-trombótica (edema crônico, dor, alterações cutâneas do membro acometido) em uma proporção dos casos, mesmo após tratamento anticoagulante adequado",
+    ],
+    redFlags: [
+      "Dispneia súbita, dor torácica pleurítica ou taquicardia inexplicada em gestante devem sempre motivar investigação para embolia pulmonar, dado seu potencial de gravidade e o caráter frequentemente sutil da apresentação inicial",
+      "Varfarina é contraindicada na gestação pelo risco teratogênico bem estabelecido — heparina de baixo peso molecular é a alternativa segura e estabelecida",
+    ],
+    prognostico:
+      "Favorável com anticoagulação apropriada e oportuna, mas a embolia pulmonar não reconhecida permanece uma das principais causas de morte materna direta, reforçando a importância de manter alto índice de suspeição diante de sintomas respiratórios ou de membro inferior na gestação.",
+    pontosDeProva: [
+      "A gestação, por si só, constitui estado de hipercoagulabilidade fisiológica, com risco de tromboembolismo venoso ainda maior no período pós-parto que no anteparto",
+      "A trombose venosa profunda gestacional é mais comum no membro inferior esquerdo, pela compressão anatômica da veia ilíaca comum esquerda pela artéria ilíaca comum direita",
+      "Heparina de baixo peso molecular é o anticoagulante de escolha na gestação; varfarina é contraindicada pelo risco teratogênico",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 33 anos, 28 semanas, relata edema, dor e eritema no membro inferior esquerdo há 2 dias, com assimetria significativa em relação ao membro contralateral.",
+      pergunta: "Qual a investigação e a conduta terapêutica apropriadas?",
+      raciocinio:
+        "Edema unilateral assimétrico com dor e eritema em membro inferior esquerdo em gestante é altamente sugestivo de trombose venosa profunda, dado o risco aumentado de tromboembolismo venoso na gestação e a predileção pelo lado esquerdo.",
+      conduta:
+        "Solicitar ultrassonografia com Doppler venoso do membro acometido para confirmação diagnóstica; se confirmada trombose venosa profunda, iniciar heparina de baixo peso molecular, mantendo anticoagulação durante toda a gestação.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "A heparina de baixo peso molecular, anticoagulante de escolha na gestação, ainda não tem ficha própria documentada no site; a varfarina, já documentada, é contraindicada nesse contexto pelo risco teratogênico.",
+    fontes: [
+      { tema: "Fisiopatologia da hipercoagulabilidade gestacional e predileção pelo membro inferior esquerdo", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Heparina de baixo peso molecular como anticoagulante de escolha e limitações do D-dímero na gestação", fonte: "ACOG Practice Bulletin No. 196, Thromboembolism in Pregnancy, 2018" },
+    ],
+  },
+  {
+    slug: "infeccoes-trato-geniturinario-gravidez",
+    nome: "Infecções do trato geniturinário na gravidez",
+    sinonimos: ["ITU gestacional", "Bacteriúria assintomática na gravidez"],
+    cid10: "O23",
+    especialidade: "Ginecologia",
+    etiologia: "Bacteriana",
+    resumo: "Espectro de infecção urinária na gestação — da bacteriúria assintomática à pielonefrite — cujo rastreamento e tratamento sistemáticos são recomendados pelo risco aumentado de progressão e de complicações obstétricas quando não tratadas.",
+    definicao:
+      "Infecção do trato urinário ocorrendo durante a gestação, abrangendo um espectro de gravidade que vai da bacteriúria assintomática (presença de bactérias significativas na urina sem sintomas) à cistite sintomática e à pielonefrite aguda (infecção do trato urinário superior com repercussão sistêmica).",
+    epidemiologia:
+      "A gestação aumenta o risco de progressão da bacteriúria assintomática para infecção sintomática (incluindo pielonefrite) em comparação a mulheres não gestantes, justificando o rastreamento universal recomendado; Escherichia coli é o agente etiológico mais comum em todas as apresentações.",
+    fisiopatologia:
+      "Alterações fisiológicas da gestação — dilatação ureteral e da pelve renal por efeito hormonal da progesterona (hidronefrose fisiológica gestacional) e compressão mecânica dos ureteres pelo útero gravídico (mais pronunciada à direita) — promovem estase urinária, facilitando a ascensão bacteriana e a progressão de bacteriúria assintomática para infecção sintomática, incluindo pielonefrite.",
+    classificacao:
+      "Classificada por gravidade em bacteriúria assintomática (urocultura positiva sem sintomas), cistite aguda (sintomas de trato urinário inferior) e pielonefrite aguda (infecção do trato urinário superior com febre, dor lombar e repercussão sistêmica); todas exigem tratamento na gestação, incluindo a forma assintomática, diferentemente da recomendação para a população geral não gestante.",
+    quadroClinico: [
+      "Bacteriúria assintomática: ausência de sintomas, identificada exclusivamente pelo rastreamento universal por urocultura recomendado no pré-natal",
+      "Cistite aguda: disúria, polaciúria e urgência miccional, sem sinais sistêmicos",
+      "Pielonefrite aguda: febre, calafrios, dor lombar (mais comumente à direita, pela compressão ureteral mais pronunciada desse lado), náuseas e vômitos, podendo evoluir com repercussão sistêmica significativa",
+    ],
+    diagnostico: [
+      "Urocultura com contagem de colônias significativa, exame padrão-ouro tanto para o rastreamento de bacteriúria assintomática quanto para a confirmação de infecção sintomática",
+      "Rastreamento universal com urocultura no início do pré-natal, recomendação padrão dado o risco aumentado de progressão na gestação mesmo em bacteriúria assintomática",
+    ],
+    examesComplementares: [
+      "Urocultura de controle (teste de cura) após tratamento, para confirmar erradicação bacteriana, particularmente importante na gestação dado o risco de recorrência e progressão",
+      "Hemocultura e avaliação laboratorial ampliada em pielonefrite aguda com repercussão sistêmica significativa",
+    ],
+    diagnosticoDiferencial: [
+      "Trabalho de parto pré-termo, que pode ser desencadeado ou mimetizado por pielonefrite aguda, dado o papel da infecção sistêmica como gatilho de contrações uterinas",
+      "Cólica nefrética/nefrolitíase, causa de dor lombar que deve ser diferenciada da pielonefrite, embora ambas possam coexistir",
+    ],
+    tratamento: [
+      "Antibioticoterapia dirigida conforme antibiograma sempre que disponível, com escolha de antimicrobianos com perfil de segurança estabelecido na gestação (como betalactâmicos)",
+      "Tratamento obrigatório mesmo da bacteriúria assintomática na gestação, diferentemente da recomendação geral para população não gestante, dado o risco aumentado de progressão",
+      "Pielonefrite aguda: hospitalização e antibioticoterapia intravenosa na maioria dos casos, dado o risco de repercussão sistêmica materna e de complicações obstétricas associadas",
+    ],
+    complicacoes: [
+      "Aguda: pielonefrite aguda com sepse, trabalho de parto pré-termo desencadeado pela infecção sistêmica",
+      "Crônica: recorrência de infecção urinária ao longo da gestação, exigindo por vezes profilaxia antibiótica em casos selecionados de recorrência frequente",
+    ],
+    redFlags: [
+      "Bacteriúria assintomática não tratada na gestação carrega risco significativo de progressão para pielonefrite aguda, justificando o rastreamento e tratamento universal, diferentemente da conduta na população não gestante",
+      "Febre e dor lombar em gestante devem sempre motivar investigação para pielonefrite aguda, dado o risco de desencadear trabalho de parto pré-termo",
+    ],
+    prognostico:
+      "Excelente com rastreamento e tratamento adequados, sendo a infecção urinária gestacional uma das condições mais efetivamente preveníveis em suas formas mais graves através do rastreamento sistemático recomendado no pré-natal.",
+    pontosDeProva: [
+      "Bacteriúria assintomática deve ser tratada na gestação (diferentemente da população geral não gestante), pelo risco aumentado de progressão para pielonefrite",
+      "A hidronefrose fisiológica gestacional (mais pronunciada à direita) e a estase urinária associada explicam o risco aumentado de infecção do trato urinário na gestação",
+      "Pielonefrite aguda na gestação é frequentemente tratada com hospitalização e antibioticoterapia intravenosa, dado o risco de repercussão sistêmica materna e de trabalho de parto pré-termo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 24 anos, 16 semanas, assintomática, tem urocultura de rastreamento de rotina do pré-natal positiva com contagem de colônias significativa para Escherichia coli.",
+      pergunta: "Qual a conduta apropriada diante desse resultado?",
+      raciocinio:
+        "Bacteriúria assintomática identificada pelo rastreamento universal na gestação deve ser tratada, ao contrário da recomendação para mulheres não gestantes, dado o risco aumentado de progressão para pielonefrite aguda.",
+      conduta:
+        "Prescrever antibioticoterapia dirigida conforme antibiograma, com antimicrobiano de perfil de segurança estabelecido na gestação; solicitar urocultura de controle após o tratamento para confirmar erradicação.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina", nome: "Amoxicilina" },
+    ],
+    medicamentosSecaoTitulo: "Opção de antibiótico com perfil de segurança na gestação (escolha final dirigida por antibiograma)",
+    medicamentosNota:
+      "A escolha do antimicrobiano deve ser sempre dirigida pelo antibiograma e pelo perfil local de resistência; a amoxicilina é uma das opções com perfil de segurança estabelecido na gestação, mas nitrofurantoína e cefalosporinas são frequentemente preferidas e ainda não têm ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia da hidronefrose fisiológica gestacional e estase urinária", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Recomendação de tratamento da bacteriúria assintomática na gestação", fonte: "USPSTF, Screening for Asymptomatic Bacteriuria in Adults: Recommendation Statement, 2019" },
+    ],
+  },
+  {
+    slug: "gestacao-multipla-complicacoes",
+    nome: "Gestação múltipla e suas complicações",
+    sinonimos: ["Gravidez gemelar", "Gestação gemelar"],
+    cid10: "O30-O31",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Gestação com dois ou mais fetos, considerada de alto risco pelo aumento significativo de complicações maternas e fetais em comparação à gestação única, com a corionicidade sendo o principal determinante do risco de complicações específicas.",
+    definicao:
+      "Gestação envolvendo dois ou mais fetos simultaneamente, classificada quanto à zigotia (dizigótica, a partir de dois óvulos distintos, sempre dicoriônica; ou monozigótica, a partir de um único óvulo fertilizado que se divide) e, de forma clinicamente mais determinante, quanto à corionicidade e amnionicidade (número de placentas e sacos amnióticos).",
+    epidemiologia:
+      "A incidência de gestação múltipla aumentou nas últimas décadas, impulsionada principalmente pelo uso crescente de técnicas de reprodução assistida e pela idade materna mais avançada ao engravidar; gestações dizigóticas (sempre dicoriônicas) são a forma mais comum.",
+    fisiopatologia:
+      "Gestações monozigóticas monocoriônicas (placenta única compartilhada) apresentam risco específico e substancialmente maior de complicações relacionadas a anastomoses vasculares placentárias compartilhadas, notadamente a síndrome de transfusão feto-fetal, na qual um desequilíbrio no fluxo sanguíneo através dessas anastomoses resulta em um feto doador (hipovolêmico, oligoidrâmnio) e um feto receptor (hipervolêmico, polidrâmnio); gestações dicoriônicas, por não compartilharem circulação placentária, não apresentam esse risco específico.",
+    classificacao:
+      "Classificada pela corionicidade e amnionicidade em dicoriônica/diamniótica (placentas e sacos amnióticos separados, menor risco de complicações específicas), monocoriônica/diamniótica (placenta compartilhada, sacos separados, risco de síndrome de transfusão feto-fetal) e monocoriônica/monoamniótica (placenta e saco compartilhados, maior risco global, incluindo entrelaçamento de cordões umbilicais).",
+    quadroClinico: [
+      "Altura uterina maior que a esperada para a idade gestacional, achado clínico que frequentemente motiva a investigação ultrassonográfica confirmatória",
+      "Sintomas gestacionais exacerbados (náuseas mais intensas, desconforto abdominal) em comparação à gestação única, refletindo níveis hormonais mais elevados",
+      "Frequentemente identificada por ultrassonografia de rotina do primeiro trimestre, momento também ideal para determinação precisa da corionicidade",
+    ],
+    diagnostico: [
+      "Ultrassonografia obstétrica, exame confirmatório da gestação múltipla e, fundamentalmente, da determinação da corionicidade e amnionicidade, idealmente realizada no primeiro trimestre quando essa determinação é mais precisa e confiável",
+      "Sinal do lambda (dicoriônica) versus sinal em T (monocoriônica) na inserção da membrana interfetal, achados ultrassonográficos característicos que auxiliam a determinação da corionicidade",
+    ],
+    examesComplementares: [
+      "Ultrassonografia seriada mais frequente que na gestação única, para monitorização do crescimento de ambos os fetos e detecção precoce de discordância de crescimento ou de síndrome de transfusão feto-fetal em gestações monocoriônicas",
+      "Rastreamento mais frequente de complicações hipertensivas e de diabetes gestacional, dado o risco aumentado dessas condições na gestação múltipla",
+    ],
+    diagnosticoDiferencial: [
+      "Polidrâmnio isolado em gestação única, que pode simular altura uterina aumentada mas é distinguido pela ultrassonografia confirmando feto único",
+      "Miomatose uterina volumosa concomitante à gestação, que também pode aumentar a altura uterina de forma desproporcional à idade gestacional",
+    ],
+    tratamento: [
+      "Acompanhamento pré-natal mais intensivo e frequente, dado o risco global aumentado de complicações maternas e fetais",
+      "Vigilância seriada específica para síndrome de transfusão feto-fetal em gestações monocoriônicas, com tratamento a laser das anastomoses vasculares placentárias quando essa complicação é identificada",
+      "Planejamento cuidadoso da via e do momento do parto, considerando a corionicidade, a apresentação fetal e a presença de complicações associadas",
+    ],
+    complicacoes: [
+      "Aguda: trabalho de parto pré-termo (a complicação mais comum da gestação múltipla), pré-eclâmpsia, diabetes gestacional, todos com risco aumentado em relação à gestação única",
+      "Crônica/específica de gestação monocoriônica: síndrome de transfusão feto-fetal, restrição seletiva de crescimento fetal, sequência de anemia-policitemia gemelar",
+    ],
+    redFlags: [
+      "A determinação precisa da corionicidade no primeiro trimestre é etapa crítica que determina toda a estratégia de vigilância subsequente — sua realização tardia compromete a precisão dessa classificação essencial",
+      "Discordância significativa de crescimento entre os fetos ou discordância de volume de líquido amniótico em gestação monocoriônica deve motivar investigação imediata para síndrome de transfusão feto-fetal",
+    ],
+    prognostico:
+      "Variável conforme a corionicidade, sendo as gestações monocoriônicas (e, entre estas, as monoamnióticas) associadas a maior risco de morbimortalidade perinatal; o parto pré-termo, complicação mais comum da gestação múltipla, é o principal determinante do desfecho neonatal na maioria dos casos.",
+    pontosDeProva: [
+      "A determinação da corionicidade (não apenas da zigotia) é o fator mais determinante do risco de complicações específicas na gestação múltipla, sendo idealmente realizada no primeiro trimestre",
+      "Síndrome de transfusão feto-fetal é uma complicação específica de gestações monocoriônicas (placenta compartilhada), decorrente de anastomoses vasculares placentárias desbalanceadas",
+      "Trabalho de parto pré-termo é a complicação mais comum e o principal determinante do desfecho neonatal na gestação múltipla",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 30 anos, com gestação confirmada por reprodução assistida, realiza ultrassonografia de 11 semanas que identifica dois fetos com placenta única e membrana interfetal fina com sinal em T na inserção.",
+      pergunta: "Qual a corionicidade dessa gestação e sua implicação clínica?",
+      raciocinio:
+        "Placenta única com sinal em T na inserção da membrana interfetal caracteriza gestação monocoriônica diamniótica, que exige vigilância específica para complicações compartilhadas da circulação placentária, notadamente a síndrome de transfusão feto-fetal.",
+      conduta:
+        "Estabelecer vigilância ultrassonográfica seriada mais frequente que a gestação única, com avaliação específica de crescimento fetal e volume de líquido amniótico de ambos os sacos para detecção precoce de síndrome de transfusão feto-fetal.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso específico para a gestação múltipla em si; o manejo é de vigilância e, quando indicado, procedimentos específicos (como o tratamento a laser na síndrome de transfusão feto-fetal).",
+    fontes: [
+      { tema: "Classificação por corionicidade/amnionicidade e fisiopatologia da síndrome de transfusão feto-fetal", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Importância da determinação precoce da corionicidade e protocolo de vigilância", fonte: "ACOG Practice Bulletin No. 231, Multifetal Gestations, 2021" },
+    ],
+  },
+  {
+    slug: "apresentacao-fetal-anomala",
+    nome: "Apresentação fetal anômala",
+    sinonimos: ["Apresentação pélvica", "Situação transversa"],
+    cid10: "O32",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Posicionamento fetal diferente da apresentação cefálica fletida habitual ao termo, mais comumente a apresentação pélvica, com implicação direta na via de parto e no risco de complicações intraparto.",
+    definicao:
+      "Qualquer apresentação fetal diferente da apresentação cefálica (de vértice) ao final da gestação, incluindo a apresentação pélvica (polo pélvico fetal voltado para o canal de parto) e a situação transversa (eixo fetal perpendicular ao eixo materno), identificada tipicamente na avaliação obstétrica de rotina próximo ao termo.",
+    epidemiologia:
+      "A apresentação pélvica é a forma mais comum de apresentação anômala, com prevalência que diminui progressivamente ao longo da gestação, à medida que a maioria dos fetos se vira espontaneamente para a apresentação cefálica; fatores de risco incluem prematuridade, gestação múltipla, malformações uterinas, placenta prévia e polidrâmnio ou oligoidrâmnio.",
+    fisiopatologia:
+      "Qualquer condição que restrinja o espaço disponível para a rotação fetal espontânea (malformação uterina, mioma, gestação múltipla), altere o volume de líquido amniótico (polidrâmnio ou oligoidrâmnio) ou modifique a relação entre o tamanho fetal e a cavidade uterina (prematuridade, quando o feto ainda é proporcionalmente menor em relação ao volume de líquido amniótico) favorece a manutenção de uma apresentação diferente da cefálica ao longo da gestação.",
+    classificacao:
+      "Classificada em apresentação pélvica (subdividida em pélvica completa, incompleta e franca/de nádegas, conforme a posição dos membros inferiores fetais) e situação transversa (eixo fetal perpendicular ao materno, incompatível com parto vaginal sem manobra prévia).",
+    quadroClinico: [
+      "Tipicamente assintomática, identificada ao exame obstétrico de rotina (manobras de Leopold) próximo ao termo, ou de forma incidental à ultrassonografia",
+      "Palpação do polo cefálico fetal no fundo uterino (em vez de na região suprapúbica) sugere apresentação pélvica ao exame físico obstétrico",
+    ],
+    diagnostico: [
+      "Manobras de Leopold ao exame físico obstétrico, método clínico inicial de suspeição da apresentação fetal",
+      "Ultrassonografia obstétrica, exame confirmatório definitivo da apresentação fetal e de sua classificação específica",
+    ],
+    examesComplementares: [
+      "Ultrassonografia com avaliação de peso fetal estimado e de volume de líquido amniótico quando há indicação de tentativa de versão cefálica externa, para avaliação de viabilidade e segurança do procedimento",
+    ],
+    diagnosticoDiferencial: [
+      "Apresentação cefálica defletida (de face ou de fronte), variante da apresentação cefálica com implicações específicas para o parto, distinta da apresentação pélvica ou situação transversa verdadeiras",
+    ],
+    tratamento: [
+      "Versão cefálica externa, procedimento realizado próximo ao termo para tentar reposicionar manualmente o feto em apresentação cefálica, reduzindo a necessidade de cesariana quando bem-sucedida",
+      "Cesariana eletiva, via de parto mais comumente recomendada para apresentação pélvica persistente ao termo não candidata ou não responsiva à versão cefálica externa, dado o risco aumentado de complicações no parto vaginal pélvico",
+      "Situação transversa persistente ao termo é indicação absoluta de cesariana, dado ser incompatível com parto vaginal",
+    ],
+    complicacoes: [
+      "Aguda: prolapso de cordão umbilical, mais comum na apresentação pélvica (especialmente incompleta) e na situação transversa que na apresentação cefálica, complicação obstétrica grave que exige parto de urgência",
+      "Aguda: retenção de cabeça derradeira em tentativa de parto vaginal pélvico, complicação potencialmente grave que reforça a preferência atual pela cesariana eletiva na maioria dos contextos",
+    ],
+    redFlags: [
+      "Situação transversa ao termo com trabalho de parto em curso é emergência obstétrica, dado o risco de prolapso de cordão e a incompatibilidade absoluta com parto vaginal",
+      "Ruptura de membranas em gestante com apresentação pélvica ou situação transversa exige avaliação imediata para exclusão de prolapso de cordão umbilical",
+    ],
+    prognostico:
+      "Favorável com identificação adequada e planejamento apropriado da via de parto; a versão cefálica externa bem-sucedida permite tentativa de parto vaginal na maioria dos casos, enquanto a cesariana eletiva planejada evita as complicações específicas do parto vaginal em apresentação anômala.",
+    pontosDeProva: [
+      "A apresentação pélvica é a forma mais comum de apresentação anômala ao termo, com prevalência que diminui progressivamente ao longo da gestação",
+      "Versão cefálica externa é a intervenção que pode evitar cesariana ao reposicionar o feto para apresentação cefálica próximo ao termo",
+      "Prolapso de cordão umbilical é significativamente mais comum na apresentação pélvica incompleta e na situação transversa que na apresentação cefálica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 27 anos, 36 semanas, ao exame obstétrico de rotina, apresenta manobras de Leopold sugestivas de polo cefálico palpável no fundo uterino. Ultrassonografia confirma apresentação pélvica franca.",
+      pergunta: "Qual a conduta apropriada nesse momento da gestação?",
+      raciocinio:
+        "Apresentação pélvica confirmada com 36 semanas, próximo ao termo, é candidata a tentativa de versão cefálica externa antes de se planejar definitivamente a via de parto, desde que não haja contraindicações ao procedimento.",
+      conduta:
+        "Avaliar elegibilidade e discutir tentativa de versão cefálica externa; caso malsucedida ou contraindicada, planejar cesariana eletiva ao termo dado o risco aumentado de complicações no parto vaginal pélvico.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso específico; o manejo é procedimental (versão cefálica externa) ou cirúrgico (cesariana).",
+    fontes: [
+      { tema: "Fisiopatologia e fatores de risco associados à apresentação anômala", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Indicações e técnica da versão cefálica externa e via de parto recomendada", fonte: "ACOG Practice Bulletin No. 221, External Cephalic Version, 2020" },
+    ],
+  },
+  {
+    slug: "disturbios-liquido-amniotico-poli-oligoidramnio",
+    nome: "Distúrbios do volume de líquido amniótico (poli-hidrâmnio e oligoidrâmnio)",
+    sinonimos: ["Polidrâmnio", "Oligoidrâmnio"],
+    cid10: "O40-O41",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Alterações do volume de líquido amniótico em excesso (poli-hidrâmnio) ou em déficit (oligoidrâmnio), achados ultrassonográficos que frequentemente sinalizam condição materna ou fetal subjacente relevante e exigem investigação etiológica direcionada.",
+    definicao:
+      "Poli-hidrâmnio é o acúmulo excessivo de líquido amniótico, definido por índice de líquido amniótico ou maior bolsão vertical acima de determinado limiar; oligoidrâmnio é a redução significativa do volume de líquido amniótico, definido por critérios ultrassonográficos correspondentes abaixo do limiar esperado para a idade gestacional.",
+    epidemiologia:
+      "Ambas as condições complicam uma minoria das gestações, mas estão associadas a maior risco de desfechos perinatais adversos; diabetes materna (mal controlado) é uma das causas mais comuns de poli-hidrâmnio, enquanto ruptura prematura de membranas e insuficiência placentária são causas comuns de oligoidrâmnio.",
+    fisiopatologia:
+      "O volume de líquido amniótico reflete o equilíbrio entre sua produção (predominantemente urina fetal a partir do segundo trimestre, e secreção pulmonar fetal) e sua remoção (deglutição fetal); poli-hidrâmnio pode decorrer de aumento da produção (diabetes materno mal controlado, causando poliúria fetal osmótica) ou de redução da deglutição fetal (obstrução gastrointestinal alta fetal, anomalias neuromusculares); oligoidrâmnio pode decorrer de redução da produção urinária fetal (insuficiência placentária com redistribuição de fluxo, anomalias renais/do trato urinário fetal) ou de perda de líquido (ruptura prematura de membranas).",
+    classificacao:
+      "Classificados por gravidade (leve, moderado, grave) conforme o grau de desvio do índice de líquido amniótico ou do maior bolsão vertical em relação aos valores de referência para a idade gestacional; também classificados etiologicamente conforme a causa materna, fetal ou placentária/de membranas identificada.",
+    quadroClinico: [
+      "Frequentemente identificados incidentalmente à ultrassonografia obstétrica de rotina, sem sintomas maternos específicos na maioria dos casos leves",
+      "Poli-hidrâmnio significativo pode causar desconforto abdominal materno, dispneia (por elevação diafragmática) e altura uterina maior que a esperada para a idade gestacional",
+      "Oligoidrâmnio significativo pode ser suspeitado por altura uterina menor que a esperada e por percepção materna de redução dos movimentos fetais",
+    ],
+    diagnostico: [
+      "Ultrassonografia obstétrica com medida do índice de líquido amniótico ou do maior bolsão vertical, exame diagnóstico central para ambas as condições",
+      "Investigação etiológica direcionada conforme a condição identificada: rastreamento de diabetes materno e avaliação anatômica fetal detalhada no poli-hidrâmnio; avaliação de ruptura de membranas, função placentária (Doppler) e anatomia do trato urinário fetal no oligoidrâmnio",
+    ],
+    examesComplementares: [
+      "Teste oral de tolerância à glicose (se ainda não realizado ou se necessário repetir) diante de poli-hidrâmnio, dado o diabetes materno mal controlado como causa comum",
+      "Doppler de artéria umbilical e avaliação do crescimento fetal diante de oligoidrâmnio, para investigação de insuficiência placentária e restrição de crescimento fetal associada",
+    ],
+    diagnosticoDiferencial: [
+      "Erro de datação gestacional, que pode simular alteração de volume de líquido amniótico quando a idade gestacional real difere da estimada",
+      "Ruptura prematura de membranas não percebida pela paciente, causa específica de oligoidrâmnio que deve ser ativamente investigada",
+    ],
+    tratamento: [
+      "Dirigido à causa identificada sempre que possível: otimização do controle glicêmico no poli-hidrâmnio por diabetes mal controlado; investigação e manejo específico da causa no oligoidrâmnio",
+      "Amniorredução (retirada terapêutica de líquido amniótico) em poli-hidrâmnio grave e sintomático, para alívio do desconforto materno e redução do risco de trabalho de parto pré-termo",
+      "Vigilância fetal intensificada (perfil biofísico fetal, Doppler) em ambas as condições, dado o risco aumentado de desfechos perinatais adversos associado",
+    ],
+    complicacoes: [
+      "Poli-hidrâmnio: trabalho de parto pré-termo, apresentação fetal anômala (pelo excesso de espaço disponível para a rotação fetal), prolapso de cordão umbilical na ruptura de membranas",
+      "Oligoidrâmnio: hipoplasia pulmonar fetal (quando grave e de início precoce), compressão de cordão umbilical intraparto, restrição de crescimento fetal associada quando a causa é insuficiência placentária",
+    ],
+    redFlags: [
+      "Oligoidrâmnio de início precoce e grave (segundo trimestre) carrega risco significativo de hipoplasia pulmonar fetal, complicação com impacto direto na viabilidade neonatal",
+      "Poli-hidrâmnio associado a anomalia estrutural fetal identificada à ultrassonografia detalhada deve motivar investigação genética adicional, dado o risco aumentado de aneuploidia nesse contexto",
+    ],
+    prognostico:
+      "Variável conforme a causa identificada e a gravidade; formas leves e idiopáticas têm prognóstico geralmente favorável com vigilância adequada, enquanto formas graves, especialmente de início precoce, estão associadas a maior risco de morbimortalidade perinatal.",
+    pontosDeProva: [
+      "Diabetes materno mal controlado é uma das causas mais comuns de poli-hidrâmnio, pela poliúria fetal osmótica secundária à hiperglicemia fetal",
+      "Oligoidrâmnio grave e precoce (segundo trimestre) tem risco significativo de hipoplasia pulmonar fetal, dado o papel do líquido amniótico no desenvolvimento pulmonar fetal normal",
+      "Ambas as condições exigem investigação etiológica direcionada, não sendo tratadas como achados isolados sem investigação da causa subjacente",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 31 anos, 32 semanas, com diabetes gestacional em controle glicêmico inadequado, apresenta altura uterina maior que a esperada. Ultrassonografia confirma índice de líquido amniótico elevado, compatível com poli-hidrâmnio.",
+      pergunta: "Qual a causa mais provável e a conduta apropriada?",
+      raciocinio:
+        "Poli-hidrâmnio em gestante com diabetes gestacional mal controlado é explicado pela poliúria fetal osmótica secundária à hiperglicemia fetal, mecanismo fisiopatológico central que liga as duas condições.",
+      conduta:
+        "Otimizar o controle glicêmico materno (intensificando o tratamento farmacológico se necessário) e intensificar a vigilância fetal, dado o risco aumentado de trabalho de parto pré-termo e de apresentação fetal anômala associado ao poli-hidrâmnio.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é dirigido à causa identificada; não há medicamento específico para correção direta do volume de líquido amniótico documentável no site.",
+    fontes: [
+      { tema: "Fisiopatologia da produção e remoção do líquido amniótico e principais causas etiológicas", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Etiologias mais comuns do poli-hidrâmnio e indicações de amniorredução", fonte: "SMFM Consult Series #46, Evaluation and Management of Polyhydramnios, 2018" },
+    ],
+  },
+  {
+    slug: "ruptura-prematura-membranas",
+    nome: "Ruptura prematura de membranas",
+    sinonimos: ["Amniorrexe prematura", "RPM"],
+    cid10: "O42",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Rotura das membranas corioamnióticas antes do início do trabalho de parto, cuja conduta depende criticamente da idade gestacional, equilibrando o risco de infecção intra-amniótica com os riscos da prematuridade.",
+    definicao:
+      "Rotura espontânea das membranas corioamnióticas antes do início do trabalho de parto, classificada como pré-termo quando ocorre antes de 37 semanas de gestação e a termo quando ocorre a partir de 37 semanas.",
+    epidemiologia:
+      "A ruptura prematura de membranas a termo complica uma proporção significativa dos partos e tem evolução tipicamente favorável; a forma pré-termo, embora menos comum, é responsável por uma parcela substancial dos partos pré-termo, sendo fator de risco reconhecido a infecção do trato genital inferior.",
+    fisiopatologia:
+      "Decorre de enfraquecimento estrutural das membranas corioamnióticas por processo inflamatório/infeccioso subclínico (mais implicado na ruptura pré-termo, frequentemente por ascensão de microrganismos do trato genital inferior) ou por estresse mecânico normal ao termo, quando a maturação fisiológica das membranas já ocorreu; a ruptura expõe a cavidade amniótica ao ambiente vaginal, criando via de ascensão bacteriana e risco de corioamnionite.",
+    classificacao:
+      "Classificada por idade gestacional em ruptura prematura de membranas a termo (≥37 semanas) e pré-termo (antes de 37 semanas, subdividida conforme a distância do termo, com prognóstico e conduta variando conforme a viabilidade fetal e o risco de prematuridade extrema).",
+    quadroClinico: [
+      "Perda súbita de líquido claro pela vagina, relato materno mais comum e que motiva a avaliação",
+      "Perda contínua ou intermitente de líquido, achado que reforça a suspeita quando o relato inicial é menos característico",
+      "Sinais de corioamnionite (febre, taquicardia materna e fetal, sensibilidade uterina, líquido amniótico fétido) quando há infecção intra-amniótica associada, achado que exige conduta imediata independentemente da idade gestacional",
+    ],
+    diagnostico: [
+      "Exame especular estéril confirmando a presença de líquido amniótico no fundo de saco vaginal ou extravasando pelo orifício cervical externo, exame de primeira linha",
+      "Testes complementares (nitrazina, cristalização em folha de samambaia, ou testes imunológicos específicos de proteínas do líquido amniótico) quando o diagnóstico visual não é conclusivo",
+    ],
+    examesComplementares: [
+      "Ultrassonografia obstétrica para avaliação do volume de líquido amniótico residual, achado de oligoidrâmnio reforçando a suspeita diagnóstica quando o exame especular é inconclusivo",
+      "Cultura para estreptococo do grupo B, exame de rotina que orienta a profilaxia intraparto quando o parto está próximo",
+    ],
+    diagnosticoDiferencial: [
+      "Incontinência urinária, causa comum de perda de líquido vaginal que pode ser confundida com ruptura de membranas, distinguida pelas características do líquido e pelos testes diagnósticos específicos",
+      "Corrimento vaginal fisiológico aumentado da gestação, distinguido pela ausência de líquido claro fluindo pelo orifício cervical ao exame especular",
+    ],
+    tratamento: [
+      "A termo: indução do parto na maioria dos protocolos, dado que o risco de infecção aumenta com o tempo decorrido desde a ruptura sem benefício adicional relevante em aguardar o trabalho de parto espontâneo",
+      "Pré-termo distante do termo, sem sinais de infecção: conduta expectante hospitalar com antibioticoterapia profilática (para prolongamento da latência e redução de morbidade infecciosa neonatal) e corticosteroide antenatal para maturação pulmonar fetal",
+      "Qualquer idade gestacional com sinais de corioamnionite, sofrimento fetal ou trabalho de parto estabelecido: interrupção da gestação independentemente da idade gestacional, dado que os riscos infecciosos superam os benefícios de prolongar a latência",
+      "Profilaxia antibiótica intraparto para estreptococo do grupo B conforme resultado de cultura ou fatores de risco",
+    ],
+    complicacoes: [
+      "Aguda: corioamnionite, prolapso de cordão umbilical (mais comum quando há apresentação fetal anômala associada), descolamento prematuro de placenta",
+      "Crônica/neonatal: hipoplasia pulmonar fetal quando a ruptura ocorre muito precocemente e é seguida de oligoidrâmnio grave e prolongado, e morbidade relacionada à prematuridade quando a ruptura é pré-termo",
+    ],
+    redFlags: [
+      "Sinais de corioamnionite (febre materna, taquicardia fetal, sensibilidade uterina) exigem interrupção da gestação independentemente da idade gestacional, dado o risco de sepse materna e fetal",
+      "Ruptura de membranas muito precoce (segundo trimestre) carrega risco significativo de hipoplasia pulmonar fetal quando seguida de oligoidrâmnio grave e prolongado",
+    ],
+    prognostico:
+      "Excelente na ruptura a termo com conduta apropriada; na forma pré-termo, o prognóstico depende diretamente da idade gestacional no momento da ruptura, sendo a principal tensão clínica o equilíbrio entre o risco infeccioso de prolongar a gestação e os riscos da prematuridade em antecipar o parto.",
+    pontosDeProva: [
+      "Na ruptura a termo, a indução do parto é preferida à conduta expectante prolongada, dado que o risco infeccioso aumenta com o tempo sem benefício adicional relevante",
+      "Na ruptura pré-termo remota do termo sem sinais de infecção, a conduta expectante hospitalar com antibioticoprofilaxia e corticosteroide antenatal busca prolongar a gestação com segurança",
+      "Sinais de corioamnionite são indicação de interrupção da gestação independentemente da idade gestacional — a infecção sempre supera a prematuridade como risco prioritário nesse cenário",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 29 anos, 32 semanas, relata perda súbita de líquido claro pela vagina há 2 horas. Exame especular estéril confirma líquido amniótico no fundo de saco vaginal. Ausência de febre, taquicardia materna/fetal ou sensibilidade uterina.",
+      pergunta: "Qual a conduta apropriada nesse momento?",
+      raciocinio:
+        "Ruptura prematura de membranas pré-termo, remota do termo, sem sinais de infecção, é candidata a conduta expectante hospitalar visando prolongar a gestação com segurança até maior maturidade fetal.",
+      conduta:
+        "Internar para conduta expectante com monitorização materna e fetal, iniciar antibioticoterapia profilática para prolongamento da latência e administrar corticosteroide antenatal para maturação pulmonar fetal.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O corticosteroide antenatal e a antibioticoterapia profilática de latência ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Fisiopatologia inflamatória/infecciosa da ruptura pré-termo e classificação por idade gestacional", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Conduta expectante com antibioticoprofilaxia e corticosteroide na ruptura pré-termo remota do termo", fonte: "ACOG Practice Bulletin No. 217, Prelabor Rupture of Membranes, 2020" },
+    ],
+  },
+  {
+    slug: "placenta-previa",
+    nome: "Placenta prévia",
+    sinonimos: ["Inserção baixa da placenta"],
+    cid10: "O44",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Implantação da placenta total ou parcialmente sobre o orifício cervical interno, causa clássica de sangramento indolor no terceiro trimestre e indicação absoluta de cesariana quando a placenta recobre o colo ao termo.",
+    definicao:
+      "Implantação da placenta no segmento uterino inferior, recobrindo total ou parcialmente o orifício cervical interno, classicamente identificada e monitorizada por ultrassonografia ao longo da gestação, dado que uma proporção relevante dos casos identificados precocemente se resolve espontaneamente pela migração placentária relativa que ocorre com o crescimento do segmento uterino inferior.",
+    epidemiologia:
+      "Fatores de risco incluem cesariana prévia (com risco aumentando proporcionalmente ao número de cesarianas anteriores), idade materna avançada, multiparidade, tabagismo e gestação múltipla; o risco de placenta prévia recorrente aumenta significativamente em gestações subsequentes após um episódio prévio.",
+    fisiopatologia:
+      "A implantação placentária no segmento uterino inferior, ao invés do fundo uterino, resulta em vasos placentários sobrepostos ao orifício cervical interno; à medida que o colo se apaga e dilata no final da gestação ou no início do trabalho de parto, esses vasos placentários sofrem cisalhamento, causando sangramento agudo, tipicamente indolor por não haver o componente de contração/isquemia associado ao descolamento prematuro de placenta.",
+    classificacao:
+      "Classificada conforme a relação com o orifício cervical interno em placenta prévia (recobrindo total ou parcialmente o orifício) e placenta de inserção baixa (borda placentária próxima, mas não recobrindo o orifício interno), terminologia atual que substituiu classificações anteriores mais granulares (total, parcial, marginal).",
+    quadroClinico: [
+      "Sangramento vaginal indolor no segundo ou terceiro trimestre, achado clássico e mais característico, frequentemente o primeiro episódio autolimitado seguido de recorrências",
+      "Ausência de dor abdominal ou hipertonia uterina associada ao sangramento, achado que a distingue do descolamento prematuro de placenta",
+      "Apresentação fetal anômala associada com frequência, dado que a placenta de inserção baixa ocupa espaço no segmento uterino inferior",
+    ],
+    diagnostico: [
+      "Ultrassonografia transvaginal (segura mesmo na presença de placenta prévia, ao contrário do que se poderia presumir, e mais acurada que a via transabdominal), exame de escolha para diagnóstico e classificação",
+      "Toque vaginal digital é contraindicado diante de sangramento no terceiro trimestre até que a localização placentária seja confirmada por ultrassonografia, pelo risco de provocar hemorragia significativa",
+    ],
+    examesComplementares: [
+      "Ultrassonografia seriada de reavaliação ao longo da gestação, dado o fenômeno de migração placentária relativa que pode resolver o diagnóstico inicial de placenta prévia/inserção baixa identificado precocemente",
+      "Avaliação para acretismo placentário (Doppler, ressonância magnética em casos selecionados) em gestantes com placenta prévia e cesariana(s) prévia(s), combinação que aumenta substancialmente esse risco",
+    ],
+    diagnosticoDiferencial: [
+      "Descolamento prematuro de placenta, principal diagnóstico diferencial de sangramento no terceiro trimestre, distinguido pela presença de dor e hipertonia uterina, ausentes na placenta prévia não complicada",
+      "Rotura de vasa prévia, causa mais rara de sangramento indolor associada a vasos fetais desprotegidos sobre o orifício cervical, com risco de exsanguinação fetal rápida",
+      "Sangramento de origem cervical (cervicite, pólipo, neoplasia cervical), causas menos comuns mas que devem ser consideradas quando a placenta tem localização normal",
+    ],
+    tratamento: [
+      "Conduta expectante hospitalar ou ambulatorial (conforme gravidade e recorrência do sangramento) em gestante estável e distante do termo, visando prolongar a gestação com segurança",
+      "Cesariana eletiva programada, via de parto obrigatória quando a placenta permanece recobrindo o orifício cervical interno próximo ao termo, dado que o parto vaginal é contraindicado nessa situação",
+      "Cesariana de urgência indicada diante de sangramento significativo e persistente, independentemente da idade gestacional, quando o risco materno/fetal de aguardar supera o benefício de prolongar a gestação",
+      "Corticosteroide antenatal para maturação pulmonar fetal quando há risco de parto pré-termo antecipado",
+    ],
+    complicacoes: [
+      "Aguda: hemorragia significativa podendo exigir transfusão, parto pré-termo iatrogênico por sangramento não controlado",
+      "Crônica/associada: acretismo placentário, complicação grave particularmente associada à combinação de placenta prévia com cesariana(s) prévia(s), com risco de hemorragia maciça no parto",
+    ],
+    redFlags: [
+      "Toque vaginal digital nunca deve ser realizado diante de sangramento no terceiro trimestre antes da confirmação ultrassonográfica da localização placentária, pelo risco de hemorragia grave",
+      "A combinação de placenta prévia com cesariana(s) prévia(s) deve motivar investigação ativa para acretismo placentário, dado o risco substancialmente aumentado dessa associação",
+    ],
+    prognostico:
+      "Favorável com diagnóstico e planejamento cirúrgico adequados (cesariana eletiva programada), mas o risco de hemorragia significativa permanece a principal preocupação, especialmente quando há acretismo placentário associado.",
+    pontosDeProva: [
+      "Sangramento indolor no terceiro trimestre é o achado clássico que distingue a placenta prévia do descolamento prematuro de placenta (doloroso, com hipertonia uterina)",
+      "Toque vaginal é contraindicado até confirmação ultrassonográfica da localização placentária diante de sangramento no terceiro trimestre",
+      "Cesariana prévia é o principal fator de risco tanto para placenta prévia quanto, quando associada a ela, para acretismo placentário",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 34 anos, com duas cesarianas anteriores, 32 semanas, apresenta episódio de sangramento vaginal indolor. Ultrassonografia transvaginal confirma placenta recobrindo totalmente o orifício cervical interno.",
+      pergunta: "Qual a preocupação adicional que deve ser investigada nesse contexto?",
+      raciocinio:
+        "A combinação de placenta prévia com duas cesarianas anteriores é fator de risco significativo para acretismo placentário, complicação que exige investigação e planejamento cirúrgico específico adicional pelo risco de hemorragia maciça.",
+      conduta:
+        "Solicitar avaliação de imagem dirigida para investigação de acretismo placentário (Doppler/ressonância magnética conforme disponibilidade); planejar cesariana eletiva programada com equipe e recursos preparados para eventual hemorragia significativa.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O manejo é obstétrico/cirúrgico (conduta expectante e cesariana programada); o corticosteroide antenatal, quando indicado, ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia do sangramento por cisalhamento vascular e terminologia atual de classificação", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Contraindicação do toque vaginal e associação com acretismo placentário em cesariana prévia", fonte: "ACOG Obstetric Care Consensus No. 7, Placenta Accreta Spectrum, 2018" },
+    ],
+  },
+  {
+    slug: "descolamento-prematuro-placenta",
+    nome: "Descolamento prematuro de placenta",
+    sinonimos: ["Abruptio placentae", "DPP"],
+    cid10: "O45",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Separação prematura da placenta normalmente inserida da parede uterina antes do parto, emergência obstétrica caracterizada por dor abdominal, hipertonia uterina e sangramento (por vezes oculto), com risco significativo de sofrimento fetal e coagulopatia materna.",
+    definicao:
+      "Separação parcial ou completa da placenta normalmente implantada da parede uterina antes do nascimento do feto, interrompendo a troca materno-fetal na área descolada e comprometendo a oxigenação fetal proporcionalmente à extensão do descolamento.",
+    epidemiologia:
+      "Principais fatores de risco incluem hipertensão (crônica ou pré-eclâmpsia), trauma abdominal materno, tabagismo, uso de cocaína, ruptura prematura de membranas, gestação múltipla e descolamento prematuro de placenta em gestação anterior (fator de risco para recorrência significativo).",
+    fisiopatologia:
+      "A hemorragia na decídua basal (interface entre placenta e útero), tipicamente decorrente de lesão vascular (mais comumente relacionada a doença hipertensiva ou trauma), causa formação de hematoma retroplacentário que progressivamente separa a placenta da parede uterina; a extensão do descolamento determina diretamente o grau de comprometimento da troca materno-fetal e o risco de coagulopatia materna por liberação de tromboplastina tecidual na circulação materna.",
+    classificacao:
+      "Classificado por gravidade (leve, moderado, grave, conforme extensão do descolamento e repercussão materna/fetal) e por tipo de sangramento (hemorragia externa/revelada, quando o sangue dissseca até o colo e exterioriza-se; ou hemorragia oculta, quando o sangue permanece retido atrás da placenta, potencialmente subestimando a gravidade real pela ausência de sangramento visível proporcional).",
+    quadroClinico: [
+      "Dor abdominal/lombar de início súbito, associada a sangramento vaginal (revelado) em graus variáveis, achado que contrasta com o sangramento tipicamente indolor da placenta prévia",
+      "Hipertonia uterina (útero endurecido e doloroso à palpação, sem relaxamento entre as contrações), achado característico ao exame físico",
+      "Sofrimento fetal agudo (alterações da frequência cardíaca fetal) proporcional à extensão do descolamento, podendo evoluir para óbito fetal em descolamentos extensos",
+      "Sinais de choque hipovolêmico desproporcionais ao sangramento vaginal visível sugerem hemorragia oculta significativa",
+    ],
+    diagnostico: [
+      "Diagnóstico primariamente clínico, pela combinação de dor abdominal súbita, hipertonia uterina e sangramento vaginal (quando presente) em gestante com fatores de risco",
+      "Ultrassonografia pode identificar hematoma retroplacentário em alguns casos, mas sua sensibilidade é limitada, não devendo sua ausência excluir o diagnóstico diante de quadro clínico compatível",
+    ],
+    examesComplementares: [
+      "Cardiotocografia contínua para monitorização do bem-estar fetal, exame essencial dado o risco de sofrimento fetal agudo proporcional à extensão do descolamento",
+      "Coagulograma completo (incluindo fibrinogênio), exame fundamental para identificação precoce de coagulação intravascular disseminada, complicação materna grave associada a descolamentos extensos",
+    ],
+    diagnosticoDiferencial: [
+      "Placenta prévia, principal diagnóstico diferencial de sangramento no terceiro trimestre, distinguida pela ausência de dor e hipertonia uterina",
+      "Trabalho de parto verdadeiro, distinguido pelo padrão de contrações intermitentes com relaxamento uterino entre elas, ausente na hipertonia sustentada do descolamento",
+      "Rotura uterina, emergência obstétrica com apresentação clínica que pode se sobrepor, mais comum em gestante com cicatriz uterina prévia",
+    ],
+    tratamento: [
+      "Descolamento leve, feto pré-termo e estável, sem sofrimento fetal: conduta expectante hospitalar com monitorização rigorosa e contínua materna e fetal, individualizada conforme gravidade",
+      "Descolamento moderado a grave, sofrimento fetal ou instabilidade materna: interrupção imediata da gestação (cesariana de urgência na maioria dos casos, ou parto vaginal rápido se iminente e as condições permitirem), independentemente da idade gestacional",
+      "Suporte hemodinâmico agressivo (reposição volêmica, hemoderivados) e correção de coagulopatia quando presente, medidas essenciais no manejo materno concomitante à resolução obstétrica",
+    ],
+    complicacoes: [
+      "Aguda: coagulação intravascular disseminada materna, choque hipovolêmico, óbito fetal em descolamentos extensos, útero de Couvelaire (infiltração hemorrágica miometrial)",
+      "Crônica: risco significativo de recorrência em gestação futura para mulheres com história de descolamento prematuro de placenta prévio",
+    ],
+    redFlags: [
+      "Sinais de choque hipovolêmico desproporcionais ao sangramento vaginal externo visível devem levantar suspeita de hemorragia oculta significativa retida atrás da placenta",
+      "Dor abdominal súbita e intensa associada a hipertonia uterina em gestante com fator de risco (hipertensão, trauma) é emergência obstétrica até prova em contrário",
+    ],
+    prognostico:
+      "Reservado, proporcional à extensão do descolamento; descolamentos extensos carregam risco significativo de morbimortalidade materna (coagulopatia, hemorragia) e fetal (sofrimento fetal agudo, óbito), exigindo reconhecimento e conduta imediatos para otimizar o desfecho.",
+    pontosDeProva: [
+      "Dor abdominal e hipertonia uterina distinguem o descolamento prematuro de placenta da placenta prévia, cujo sangramento é classicamente indolor",
+      "A hemorragia pode ser oculta (retida atrás da placenta), potencialmente subestimando a gravidade real quando avaliada apenas pelo sangramento vaginal visível",
+      "Coagulação intravascular disseminada é complicação materna grave associada a descolamentos extensos, pela liberação de tromboplastina tecidual placentária na circulação materna",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 31 anos, hipertensa crônica, 34 semanas, apresenta dor abdominal súbita e intensa associada a sangramento vaginal escuro. Exame revela útero endurecido e doloroso à palpação, sem relaxamento entre os episódios de dor. Cardiotocografia mostra desacelerações da frequência cardíaca fetal.",
+      pergunta: "Qual o diagnóstico mais provável e a conduta imediata?",
+      raciocinio:
+        "Dor abdominal súbita, hipertonia uterina e sangramento em gestante hipertensa (fator de risco reconhecido), associados a sofrimento fetal à cardiotocografia, são compatíveis com descolamento prematuro de placenta, exigindo interrupção imediata da gestação.",
+      conduta:
+        "Proceder à interrupção imediata da gestação (cesariana de urgência dado o sofrimento fetal associado), com suporte hemodinâmico materno concomitante e avaliação de coagulograma para exclusão de coagulopatia associada.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é obstétrico (interrupção da gestação) e de suporte hemodinâmico (reposição volêmica, hemoderivados); não há tratamento medicamentoso específico documentável no site.",
+    fontes: [
+      { tema: "Fisiopatologia do hematoma retroplacentário e classificação por tipo de hemorragia", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Conduta conforme gravidade e risco de coagulação intravascular disseminada", fonte: "Brandt JS, Ananth CV. Placental abruption at near-term and term gestations: pathophysiology, epidemiology, diagnosis, and management. American Journal of Obstetrics & Gynecology, 2023" },
+    ],
+  },
+  {
+    slug: "gravidez-prolongada-pos-termo",
+    nome: "Gravidez prolongada (pós-termo)",
+    sinonimos: ["Gestação pós-termo", "Gravidez pós-data"],
+    cid10: "O48",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Gestação que se estende além de 42 semanas completas, associada a risco aumentado de complicações placentárias e fetais, motivando indução do parto programada antes de se atingir esse limiar na prática obstétrica atual.",
+    definicao:
+      "Gestação que ultrapassa 42 semanas completas (294 dias) a partir da data da última menstruação ou de datação por ultrassonografia precoce, distinta do termo tardio (41 a 41 semanas e 6 dias), categoria intermediária que já concentra atenção clínica na prática atual.",
+    epidemiologia:
+      "Acomete uma minoria das gestações quando a datação é precisa, com a maioria das gestações antes consideradas pós-termo, na prática atual, sendo reclassificadas ou antecipadas por indução eletiva ao redor de 41 semanas, dada a evidência de benefício dessa conduta.",
+    fisiopatologia:
+      "A causa exata da gravidez prolongada frequentemente não é identificada, mas a placenta, ao ultrapassar sua janela funcional ideal, pode desenvolver insuficiência relativa progressiva (senescência placentária), comprometendo a troca materno-fetal e o volume de líquido amniótico (com tendência a oligoidrâmnio progressivo), enquanto o crescimento fetal contínuo aumenta o risco de macrossomia e de desproporção céfalo-pélvica.",
+    classificacao:
+      "Classificada temporalmente em termo precoce (37-38 semanas e 6 dias), termo pleno (39-40 semanas e 6 dias), termo tardio (41-41 semanas e 6 dias) e pós-termo (a partir de 42 semanas), terminologia padronizada que orienta a conduta obstétrica conforme o risco crescente associado a cada categoria.",
+    quadroClinico: [
+      "Tipicamente assintomática do ponto de vista materno até que se atinja a idade gestacional de interesse, sendo a principal preocupação clínica os riscos fetais/placentários crescentes",
+      "Redução progressiva do volume de líquido amniótico (oligoidrâmnio) pode ser identificada na vigilância seriada, achado que reforça a indicação de antecipação do parto",
+      "Sinais de sofrimento fetal crônico (redução de movimentos fetais) podem ser relatados pela paciente e devem motivar avaliação imediata",
+    ],
+    diagnostico: [
+      "Datação gestacional precisa e confiável, idealmente estabelecida por ultrassonografia do primeiro trimestre, etapa fundamental para o diagnóstico correto, dado que erros de datação são causa comum de diagnóstico incorreto de pós-termo",
+      "Vigilância fetal seriada (cardiotocografia, perfil biofísico fetal, avaliação do volume de líquido amniótico) a partir do termo tardio, para monitorização do bem-estar fetal enquanto se aguarda ou se planeja o parto",
+    ],
+    examesComplementares: [
+      "Perfil biofísico fetal e avaliação do índice de líquido amniótico seriados, exames centrais da vigilância antenatal intensificada nessa faixa gestacional",
+      "Doppler de artéria umbilical em casos com suspeita de insuficiência placentária associada",
+    ],
+    diagnosticoDiferencial: [
+      "Erro de datação gestacional, principal causa de diagnóstico incorreto de gravidez prolongada, reforçando a importância da datação precisa e precoce",
+    ],
+    tratamento: [
+      "Indução eletiva do parto ao redor de 41 semanas, conduta atualmente recomendada e associada a redução de desfechos adversos perinatais e de necessidade de cesariana em comparação à conduta expectante prolongada até 42 semanas",
+      "Vigilância fetal intensificada (duas vezes por semana) para gestantes que optam por aguardar além de 41 semanas antes da indução, enquanto se aguarda o momento programado",
+      "Interrupção imediata da gestação diante de qualquer sinal de comprometimento do bem-estar fetal identificado na vigilância seriada, independentemente da idade gestacional exata",
+    ],
+    complicacoes: [
+      "Aguda: macrossomia fetal com risco de distocia de ombro, síndrome de aspiração meconial (risco aumentado pela maior frequência de eliminação de mecônio em gestações prolongadas), oligoidrâmnio com risco de compressão de cordão umbilical",
+      "Crônica: insuficiência placentária progressiva com risco de restrição de crescimento fetal tardia e de óbito fetal, risco que motiva a recomendação atual de indução ao redor de 41 semanas",
+    ],
+    redFlags: [
+      "Redução de movimentos fetais relatada pela gestante em idade gestacional avançada deve motivar avaliação imediata do bem-estar fetal, dado o risco crescente de insuficiência placentária",
+      "Datação gestacional imprecisa é a principal armadilha diagnóstica — reforça a importância de sempre buscar confirmar a idade gestacional por ultrassonografia precoce quando disponível",
+    ],
+    prognostico:
+      "Favorável na maioria dos casos com vigilância adequada e indução programada no momento apropriado; o risco de desfechos adversos perinatais aumenta progressivamente a partir do termo tardio, justificando a atenção clínica intensificada nessa fase da gestação.",
+    pontosDeProva: [
+      "A indução eletiva do parto ao redor de 41 semanas é atualmente recomendada, tendo demonstrado redução de desfechos adversos perinatais e de taxa de cesariana em comparação à conduta expectante até 42 semanas",
+      "Erro de datação gestacional é causa comum de diagnóstico incorreto de gravidez prolongada, reforçando a importância da datação precoce e precisa",
+      "A insuficiência placentária progressiva (senescência) é o mecanismo fisiopatológico central que conecta a gravidez prolongada aos riscos de oligoidrâmnio e comprometimento do bem-estar fetal",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 27 anos, com datação precisa por ultrassonografia do primeiro trimestre, atinge 41 semanas de gestação sem sinais de trabalho de parto espontâneo. Vigilância fetal seriada permanece normal até o momento.",
+      pergunta: "Qual a conduta recomendada nesse momento?",
+      raciocinio:
+        "Gestação atingindo 41 semanas com datação confiável é indicação para indução eletiva do parto, conduta atualmente recomendada por reduzir desfechos adversos perinatais em comparação à conduta expectante prolongada até 42 semanas.",
+      conduta:
+        "Programar indução eletiva do trabalho de parto; caso a paciente opte por aguardar, instituir vigilância fetal intensificada (duas vezes por semana) até o momento da indução ou do início espontâneo do trabalho de parto.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O manejo é obstétrico (indução do parto); os agentes indutores (ocitocina, misoprostol, dinoprostona) ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Classificação temporal padronizada e fisiopatologia da senescência placentária", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Benefício da indução eletiva ao redor de 41 semanas em comparação à conduta expectante", fonte: "ACOG Practice Bulletin No. 146, Management of Late-Term and Postterm Pregnancies, 2014 (reafirmado em 2024)" },
+    ],
+  },
+  {
+    slug: "trabalho-parto-pre-termo",
+    nome: "Trabalho de parto pré-termo",
+    sinonimos: ["Parto prematuro ameaçado", "TPP"],
+    cid10: "O60",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Contrações uterinas regulares associadas a modificações cervicais progressivas antes de 37 semanas de gestação, principal causa de morbimortalidade neonatal em gestações sem malformação estrutural associada.",
+    definicao:
+      "Presença de contrações uterinas regulares (geralmente definidas como quatro ou mais em 20 minutos, ou oito ou mais em uma hora) associadas a modificações cervicais progressivas (dilatação e/ou apagamento) antes de completar 37 semanas de gestação.",
+    epidemiologia:
+      "Complica uma proporção significativa das gestações e é a principal causa de morbimortalidade neonatal não relacionada a malformações congênitas; fatores de risco incluem parto pré-termo em gestação anterior (fator de risco mais significativo), gestação múltipla, infecção do trato genital ou urinário, colo curto identificado por ultrassonografia e sangramento vaginal no início da gestação.",
+    fisiopatologia:
+      "Múltiplas vias fisiopatológicas convergem para o desencadeamento do trabalho de parto pré-termo, incluindo infecção/inflamação intra-amniótica ou sistêmica (via mais estudada e associada aos casos mais precoces), isquemia útero-placentária, sobredistensão uterina (gestação múltipla, poli-hidrâmnio) e ativação prematura do eixo hipotálamo-hipófise-adrenal materno-fetal; essas vias convergem para a produção de prostaglandinas e ocitocina, desencadeando contratilidade uterina e remodelamento cervical antes do termo.",
+    classificacao:
+      "Classificado por idade gestacional em pré-termo extremo (antes de 28 semanas), muito pré-termo (28 a 31 semanas e 6 dias), pré-termo moderado (32 a 33 semanas e 6 dias) e pré-termo tardio (34 a 36 semanas e 6 dias), categorização que orienta o prognóstico neonatal e as intervenções indicadas.",
+    quadroClinico: [
+      "Contrações uterinas regulares e dolorosas, sintoma de apresentação mais comum, por vezes inicialmente confundidas com contrações de Braxton-Hicks (irregulares e indolores, que não representam trabalho de parto verdadeiro)",
+      "Dor lombar surda e persistente, pressão pélvica e aumento de secreção vaginal, sintomas menos específicos que podem preceder as contrações regulares",
+      "Modificação cervical progressiva (dilatação e/ou apagamento) ao exame, achado que confirma o diagnóstico quando associado às contrações",
+    ],
+    diagnostico: [
+      "Avaliação clínica das contrações uterinas e do exame cervical seriado, demonstrando modificação progressiva",
+      "Medida do comprimento cervical por ultrassonografia transvaginal, exame complementar que auxilia na estratificação de risco, com colo curto (abaixo de determinado limiar) associado a maior risco de parto pré-termo iminente",
+      "Fibronectina fetal (quando disponível), teste com alto valor preditivo negativo, útil para identificar gestantes com baixo risco de parto pré-termo iminente e evitar intervenções desnecessárias",
+    ],
+    examesComplementares: [
+      "Urocultura e rastreamento de infecções do trato genital (incluindo estreptococo do grupo B), dado o papel da infecção como via fisiopatológica relevante e a necessidade de profilaxia intraparto quando aplicável",
+      "Cardiotocografia para avaliação do bem-estar fetal e da frequência e intensidade das contrações",
+    ],
+    diagnosticoDiferencial: [
+      "Contrações de Braxton-Hicks, contrações irregulares e indolores sem modificação cervical associada, que não configuram trabalho de parto verdadeiro",
+      "Infecção do trato urinário, que pode causar contrações uterinas reflexas sem verdadeiro trabalho de parto, mas que também é fator de risco para trabalho de parto pré-termo verdadeiro",
+    ],
+    tratamento: [
+      "Corticosteroide antenatal (betametasona ou dexametasona), intervenção mais eficaz para redução de morbimortalidade neonatal, administrado entre 24 e 34 semanas quando o parto pré-termo é iminente",
+      "Sulfato de magnésio para neuroproteção fetal quando o parto é iminente antes de 32 semanas, reduzindo o risco de paralisia cerebral",
+      "Tocólise (com agentes como nifedipina ou indometacina) para prolongamento de curto prazo do parto, permitindo tempo suficiente para completar o curso de corticosteroide antenatal e, quando indicado, transferência para centro com suporte neonatal adequado",
+      "Profilaxia antibiótica intraparto para estreptococo do grupo B conforme indicação",
+    ],
+    complicacoes: [
+      "Aguda: parto pré-termo efetivo com morbidade neonatal proporcional à idade gestacional (síndrome do desconforto respiratório, hemorragia intraventricular, enterocolite necrosante)",
+      "Crônica: sequelas do neurodesenvolvimento em prematuros extremos, principal preocupação a longo prazo relacionada à prematuridade",
+    ],
+    redFlags: [
+      "Trabalho de parto pré-termo antes de 32 semanas com parto iminente é indicação de sulfato de magnésio para neuroproteção fetal, além do corticosteroide antenatal",
+      "Colo curto identificado por ultrassonografia em gestante assintomática com história de parto pré-termo anterior deve motivar consideração de progesterona profilática e vigilância intensificada",
+    ],
+    prognostico:
+      "Variável e diretamente proporcional à idade gestacional no momento do parto; a administração oportuna de corticosteroide antenatal e, quando indicado, sulfato de magnésio, tem impacto significativo na redução da morbimortalidade neonatal associada à prematuridade.",
+    pontosDeProva: [
+      "O corticosteroide antenatal é a intervenção isolada mais eficaz para redução da morbimortalidade neonatal no trabalho de parto pré-termo, devendo ser administrado sempre que o parto pré-termo é iminente entre 24 e 34 semanas",
+      "Sulfato de magnésio para neuroproteção fetal é indicado especificamente quando o parto pré-termo é iminente antes de 32 semanas, reduzindo o risco de paralisia cerebral",
+      "A tocólise tem papel de prolongamento de curto prazo (para completar o corticosteroide antenatal ou transferência), não de prevenção definitiva do parto pré-termo",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 26 anos, 30 semanas, apresenta contrações uterinas regulares e dolorosas a cada 5 minutos há 2 horas. Exame cervical revela dilatação de 3 cm e apagamento de 80%.",
+      pergunta: "Qual a conduta terapêutica imediata prioritária?",
+      raciocinio:
+        "Trabalho de parto pré-termo estabelecido com modificação cervical significativa antes de 32 semanas é indicação para administração imediata de corticosteroide antenatal e de sulfato de magnésio para neuroproteção fetal, dado o risco iminente de parto pré-termo nessa idade gestacional.",
+      conduta:
+        "Administrar corticosteroide antenatal e sulfato de magnésio para neuroproteção fetal; considerar tocólise de curto prazo para permitir a ação do corticosteroide; iniciar profilaxia para estreptococo do grupo B conforme indicação.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "nifedipino", nome: "Nifedipino" },
+      { slug: "sulfato-magnesio", nome: "Sulfato de magnésio" },
+    ],
+    medicamentosNota:
+      "O nifedipino é o tocolítico de primeira linha e o sulfato de magnésio oferece neuroproteção fetal antes de 32 semanas; o corticosteroide antenatal para maturação pulmonar fetal ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Vias fisiopatológicas convergentes e classificação por idade gestacional", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Indicações de corticosteroide antenatal, sulfato de magnésio para neuroproteção e tocólise", fonte: "ACOG Practice Bulletin No. 234, Prediction and Prevention of Spontaneous Preterm Birth, 2021" },
+    ],
+  },
+  {
+    slug: "distocia-funcional-anormalidades-contracao-progressao",
+    nome: "Distócia funcional (anormalidades da contração e progressão do parto)",
+    sinonimos: ["Parada de progressão", "Trabalho de parto disfuncional"],
+    cid10: "O62-O63",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Progressão anormal do trabalho de parto por contratilidade uterina inadequada ou por dilatação/descida mais lentas que o esperado, principal indicação de cesariana em nulíparas na ausência de outras complicações.",
+    definicao:
+      "Anormalidade da progressão do trabalho de parto decorrente de disfunção da contratilidade uterina (hipoatividade ou incoordenação) ou de dilatação cervical/descida fetal mais lentas que os padrões esperados para a fase do trabalho de parto, avaliada com base em curvas de referência estabelecidas (partograma).",
+    epidemiologia:
+      "Uma das indicações mais comuns de cesariana, especialmente em nulíparas, com fatores de risco incluindo macrossomia fetal, desproporção céfalo-pélvica relativa, malposição fetal (occipito-posterior), analgesia peridural (associada a discreto prolongamento da segunda fase) e obesidade materna.",
+    fisiopatologia:
+      "A progressão normal do trabalho de parto depende da interação adequada entre a força das contrações uterinas (potência), o tamanho e a posição fetal (passageiro) e as dimensões e configuração da pelve materna (passagem); a distócia funcional resulta de desequilíbrio nesses três componentes, mais comumente por contratilidade uterina insuficiente (hipoatividade), mas também por malposição fetal que aumenta o diâmetro efetivo de apresentação.",
+    classificacao:
+      "Classificada em fase latente prolongada (dilatação lenta na fase inicial), parada secundária da dilatação (fase ativa), e parada de descida (segunda fase), cada uma com critérios temporais específicos conforme a paridade da gestante para definir o diagnóstico de distócia verdadeira.",
+    quadroClinico: [
+      "Progressão da dilatação cervical e/ou da descida fetal mais lenta que o esperado ao exame seriado, achado central que define a condição",
+      "Contrações uterinas de intensidade ou frequência inadequadas à monitorização (avaliadas clinicamente ou por tocodinamômetro), quando a causa é hipoatividade uterina",
+      "Fadiga materna e ansiedade associadas à prolongação do trabalho de parto",
+    ],
+    diagnostico: [
+      "Avaliação seriada da dilatação cervical e da descida fetal por exame de toque, comparada aos padrões esperados de progressão conforme a fase do trabalho de parto e a paridade",
+      "Avaliação da adequação das contrações uterinas, clinicamente ou por monitorização com cateter de pressão intrauterina em casos selecionados, para diferenciar hipoatividade uterina verdadeira de outras causas de distócia",
+    ],
+    examesComplementares: [
+      "Avaliação clínica da pelve materna e estimativa do peso fetal, para investigação de desproporção céfalo-pélvica como causa contribuinte",
+      "Avaliação da posição fetal (occipito-anterior versus occipito-posterior/transversa), dado seu impacto na progressão da descida",
+    ],
+    diagnosticoDiferencial: [
+      "Falso trabalho de parto, distinguido pela ausência de modificação cervical progressiva verdadeira antes de considerar o diagnóstico de distócia",
+      "Desproporção céfalo-pélvica verdadeira (ver ficha específica), quando a causa é mecânica e não meramente funcional/contrátil",
+    ],
+    tratamento: [
+      "Amniotomia e/ou ocitocina para aumento da contratilidade uterina, tratamento de primeira linha quando a causa identificada é hipoatividade uterina, na ausência de contraindicações",
+      "Suporte e posicionamento materno (deambulação, mudanças de posição) como medidas coadjuvantes, especialmente úteis em malposição fetal",
+      "Cesariana indicada quando não há progressão adequada apesar de contratilidade uterina otimizada (aumentada com ocitocina) por tempo suficiente, ou quando há sinais de comprometimento materno/fetal",
+    ],
+    complicacoes: [
+      "Aguda: corioamnionite (pelo tempo prolongado de trabalho de parto, especialmente com membranas rotas), sofrimento fetal por trabalho de parto prolongado",
+      "Crônica: hemorragia pós-parto (útero fatigado por hiperestimulação prolongada), maior risco de infecção puerperal após trabalho de parto prolongado seguido de cesariana",
+    ],
+    redFlags: [
+      "Ausência de progressão apesar de contratilidade uterina adequada e otimizada por tempo suficiente é indicação de cesariana, não devendo se prolongar a tentativa de parto vaginal indefinidamente",
+      "Sinais de sofrimento fetal associados à distócia mudam imediatamente a prioridade para resolução do parto, independentemente da causa da distócia",
+    ],
+    prognostico:
+      "Favorável na maioria dos casos com manejo apropriado (aumento da contratilidade com ocitocina quando indicado, ou cesariana quando necessário); o diagnóstico correto da causa (contrátil versus mecânica) é central para a escolha terapêutica apropriada.",
+    pontosDeProva: [
+      "A distócia funcional é uma das principais indicações de cesariana em nulíparas, especialmente quando a causa é hipoatividade uterina não responsiva à ocitocina",
+      "O diagnóstico de distócia depende da comparação com curvas de progressão esperadas conforme a paridade — os critérios temporais diferem entre nulíparas e multíparas",
+      "Amniotomia e ocitocina são o tratamento de primeira linha para hipoatividade uterina, antes de se considerar a cesariana por falha de progressão",
+    ],
+    casoClinico: {
+      vinheta:
+        "Primigesta, 24 anos, em trabalho de parto há 8 horas, com dilatação estacionada em 6 cm há 3 horas apesar de contrações regulares. Avaliação da contratilidade uterina sugere atividade uterina inadequada.",
+      pergunta: "Qual a conduta terapêutica apropriada nesse momento?",
+      raciocinio:
+        "Parada secundária da dilatação associada a contratilidade uterina inadequada caracteriza distócia funcional por hipoatividade uterina, que deve ser tratada com aumento da contratilidade antes de se considerar a cesariana por falha de progressão.",
+      conduta:
+        "Iniciar ou otimizar infusão de ocitocina para aumentar a contratilidade uterina; reavaliar a progressão da dilatação após período adequado de contratilidade otimizada antes de indicar cesariana.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "A ocitocina, tratamento de primeira linha para hipoatividade uterina, ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Modelo de potência-passageiro-passagem e classificação por fase do trabalho de parto", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Critérios diagnósticos de distócia por paridade e manejo com ocitocina", fonte: "ACOG Obstetric Care Consensus No. 1, Safe Prevention of the Primary Cesarean Delivery, 2014" },
+    ],
+  },
+  {
+    slug: "distocia-mecanica-desproporcao-cefalo-pelvica",
+    nome: "Distócia mecânica (desproporção céfalo-pélvica e malapresentação)",
+    sinonimos: ["Desproporção céfalo-pélvica", "DCP"],
+    cid10: "O64-O66",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Incompatibilidade mecânica entre as dimensões da apresentação fetal e a pelve materna, ou malposição fetal persistente, impedindo a progressão do parto vaginal independentemente da adequação da contratilidade uterina.",
+    definicao:
+      "Impedimento mecânico à progressão do trabalho de parto decorrente de incompatibilidade entre o tamanho/posição da apresentação fetal e as dimensões/configuração da pelve materna (desproporção céfalo-pélvica verdadeira), ou de malposição fetal persistente (occipito-posterior persistente, apresentação de face/fronte) que aumenta o diâmetro efetivo de apresentação.",
+    epidemiologia:
+      "Fatores de risco para desproporção céfalo-pélvica incluem macrossomia fetal (frequentemente associada a diabetes materno), pelve materna de conformação desfavorável (mais comum em estatura materna baixa) e malposição fetal persistente; a distinção entre distócia funcional (contrátil) e mecânica é essencial, pois esta última não responde ao aumento da contratilidade uterina.",
+    fisiopatologia:
+      "Ao contrário da distócia funcional, na qual a contratilidade uterina é o fator limitante, a distócia mecânica decorre de incompatibilidade estrutural real entre a apresentação fetal e o canal de parto — mesmo com contratilidade uterina ótima, a progressão não ocorre porque a cabeça fetal (ou outra parte apresentada) não consegue transpor mecanicamente a pelve materna nas dimensões e configuração apresentadas.",
+    classificacao:
+      "Classificada em desproporção céfalo-pélvica verdadeira (incompatibilidade de dimensões absolutas) e malposição fetal (occipito-posterior persistente, apresentação defletida de face ou fronte), sendo esta última potencialmente reversível com manobras específicas, ao contrário da desproporção verdadeira.",
+    quadroClinico: [
+      "Ausência de descida da apresentação fetal apesar de dilatação cervical completa e contratilidade uterina adequada, achado que diferencia a distócia mecânica da funcional",
+      "Moldagem excessiva do polo cefálico fetal e formação de bossa serossanguínea proeminente, achados que podem sugerir desproporção significativa",
+      "Occipício persistentemente posterior ao toque vaginal, achado de malposição que frequentemente se associa a trabalho de parto mais prolongado e doloroso",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico por exclusão, estabelecido quando não há progressão da descida fetal apesar de contratilidade uterina documentadamente adequada por tempo suficiente",
+      "Avaliação da posição fetal por exame de toque vaginal cuidadoso, identificando malposição (occipito-posterior, defletida) como causa potencialmente reversível",
+    ],
+    examesComplementares: [
+      "Estimativa de peso fetal (clínica ou por ultrassonografia) para avaliação de suspeita de macrossomia contribuindo para a desproporção",
+      "Pelvimetria clínica, de valor preditivo limitado isoladamente, mas que pode complementar a avaliação global",
+    ],
+    diagnosticoDiferencial: [
+      "Distócia funcional por hipoatividade uterina, principal diagnóstico diferencial, distinguida pela resposta à otimização da contratilidade com ocitocina (a distócia mecânica não responde a essa intervenção)",
+    ],
+    tratamento: [
+      "Manobras de rotação manual ou reposicionamento materno em malposição fetal (occipito-posterior), podendo resolver a distócia sem necessidade de cesariana quando bem-sucedidas",
+      "Parto instrumental (fórceps ou vácuo-extrator) em casos selecionados de malposição ou descida insuficiente na segunda fase, quando critérios de segurança são atendidos",
+      "Cesariana, tratamento definitivo para desproporção céfalo-pélvica verdadeira, dado que essa condição não se resolve com aumento da contratilidade uterina nem, geralmente, com manobras de reposicionamento",
+    ],
+    complicacoes: [
+      "Aguda: sofrimento fetal por trabalho de parto prolongado, trauma de parto (fratura de clavícula, lesão de plexo braquial) em tentativas de parto vaginal diante de desproporção não reconhecida, rotura uterina em casos extremos",
+      "Crônica: lesões do assoalho pélvico materno associadas a partos instrumentais complexos",
+    ],
+    redFlags: [
+      "Ausência de descida fetal apesar de contratilidade uterina documentadamente adequada por tempo suficiente indica distócia mecânica, não devendo se insistir em aumentar ainda mais a contratilidade",
+      "Suspeita de macrossomia fetal significativa (especialmente em gestante diabética) deve ser discutida quanto à via de parto antes do início do trabalho de parto",
+    ],
+    prognostico:
+      "Favorável com reconhecimento oportuno e escolha apropriada da via de parto; a tentativa prolongada de parto vaginal diante de desproporção céfalo-pélvica verdadeira não reconhecida aumenta o risco de complicações tanto maternas quanto fetais.",
+    pontosDeProva: [
+      "A distinção entre distócia funcional (responde à ocitocina) e distócia mecânica (não responde) é central para a conduta apropriada — insistir em aumentar a contratilidade diante de distócia mecânica verdadeira não resolve o problema",
+      "Malposição fetal (occipito-posterior, apresentação defletida) é potencialmente reversível com manobras específicas, ao contrário da desproporção céfalo-pélvica verdadeira",
+      "Cesariana é o tratamento definitivo para desproporção céfalo-pélvica verdadeira",
+    ],
+    casoClinico: {
+      vinheta:
+        "Primigesta, 30 anos, com dilatação cervical completa há 3 horas e contratilidade uterina adequada e otimizada, apresenta ausência de progressão da descida fetal. Exame revela occipício fetal persistentemente posterior.",
+      pergunta: "Qual a conduta apropriada diante dessa distócia?",
+      raciocinio:
+        "Ausência de descida apesar de contratilidade adequada, associada a malposição occipito-posterior persistente, caracteriza distócia mecânica por malposição fetal, potencialmente reversível com manobra de rotação antes de se considerar cesariana.",
+      conduta:
+        "Tentar manobra de rotação manual ou reposicionamento materno para correção da malposição; se malsucedida ou não factível, considerar parto instrumental (se critérios atendidos) ou cesariana.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso para a distócia mecânica; o manejo é por manobras, parto instrumental ou cesariana.",
+    fontes: [
+      { tema: "Modelo de potência-passageiro-passagem e distinção entre distócia funcional e mecânica", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Manejo da malposição occipito-posterior e critérios para parto instrumental", fonte: "ACOG Practice Bulletin No. 219, Operative Vaginal Birth, 2020" },
+    ],
+  },
+  {
+    slug: "sofrimento-fetal-intraparto",
+    nome: "Sofrimento fetal intraparto",
+    sinonimos: ["Estado fetal não tranquilizador", "Hipóxia fetal intraparto"],
+    cid10: "O68",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Comprometimento da oxigenação fetal durante o trabalho de parto, identificado por alterações características da cardiotocografia, exigindo intervenção imediata para prevenção de lesão hipóxico-isquêmica fetal.",
+    definicao:
+      "Estado de comprometimento da troca gasosa e da oxigenação fetal durante o trabalho de parto, identificado por padrões anormais na monitorização da frequência cardíaca fetal (cardiotocografia), terminologia atualmente substituída na literatura por 'padrão de frequência cardíaca fetal categoria II ou III' ou 'estado fetal não tranquilizador', refletindo a natureza probabilística (não binária) da interpretação desses traçados.",
+    epidemiologia:
+      "Pode ocorrer em qualquer trabalho de parto, mas o risco é maior em gestações com fatores de risco preexistentes (restrição de crescimento fetal, oligoidrâmnio, pré-eclâmpsia) ou em complicações intraparto agudas (descolamento prematuro de placenta, prolapso de cordão, hiperestimulação uterina).",
+    fisiopatologia:
+      "As contrações uterinas normalmente causam redução transitória e bem tolerada do fluxo sanguíneo útero-placentário; quando há redução da reserva placentária (insuficiência placentária crônica) ou um evento agudo que compromete abruptamente a oxigenação (compressão de cordão, descolamento de placenta, hiperestimulação uterina por excesso de ocitocina), o feto pode não tolerar adequadamente esse estresse hipóxico intermitente, desenvolvendo acidose progressiva identificável pelos padrões anormais de frequência cardíaca fetal.",
+    classificacao:
+      "Classificado pelo sistema de três categorias da frequência cardíaca fetal: categoria I (normal, tranquilizador), categoria II (indeterminado, requerendo avaliação e vigilância contínua) e categoria III (anormal, associado a risco significativo de acidemia fetal, exigindo intervenção imediata).",
+    quadroClinico: [
+      "Alterações da frequência cardíaca fetal identificadas à cardiotocografia (desacelerações tardias ou variáveis recorrentes, bradicardia fetal, redução da variabilidade), achado central e definidor",
+      "Líquido amniótico meconial pode estar presente concomitantemente, embora não seja, isoladamente, indicador confiável de sofrimento fetal",
+      "Ausência de sintomas maternos específicos na maioria dos casos, sendo o achado primariamente identificado pela monitorização fetal contínua",
+    ],
+    diagnostico: [
+      "Interpretação sistemática da cardiotocografia segundo o sistema de três categorias, considerando linha de base, variabilidade, presença/tipo de acelerações e desacelerações",
+      "Reavaliação de possíveis causas reversíveis (posição materna, hiperestimulação uterina, hipotensão materna) diante de padrão categoria II ou III, antes ou concomitantemente à decisão de resolução do parto",
+    ],
+    examesComplementares: [
+      "Estimulação do couro cabeludo fetal, manobra que, se resultar em aceleração da frequência cardíaca fetal, é tranquilizadora quanto ao estado ácido-base fetal",
+      "Gasometria de couro cabeludo fetal (quando disponível) para avaliação direta do status ácido-base em casos selecionados de dúvida diagnóstica",
+    ],
+    diagnosticoDiferencial: [
+      "Artefato de monitorização (captação inadequada do sinal), que pode mimetizar anormalidades verdadeiras e deve ser excluído antes de se assumir sofrimento fetal verdadeiro",
+      "Padrão categoria II transitório e autolimitado, que se resolve com medidas de reanimação intrauterina, distinto de um padrão persistente ou que evolui para categoria III",
+    ],
+    tratamento: [
+      "Medidas de reanimação intrauterina: reposicionamento materno em decúbito lateral, correção de hipotensão materna, suspensão de ocitocina em uso, administração de oxigênio suplementar e, quando indicado, amnioinfusão para alívio de compressão de cordão",
+      "Tocólise aguda (com agente de ação rápida) em casos de hiperestimulação uterina significativa associada a padrão anormal, para redução imediata da atividade uterina",
+      "Resolução imediata do parto (cesariana de urgência ou parto instrumental, se as condições permitirem) diante de padrão categoria III persistente ou de padrão categoria II não responsivo às medidas de reanimação intrauterina",
+    ],
+    complicacoes: [
+      "Aguda: acidose metabólica fetal progressiva, encefalopatia hipóxico-isquêmica neonatal em casos graves e não revertidos a tempo",
+      "Crônica: sequelas neurológicas permanentes em casos de hipóxia intraparto grave e prolongada não reconhecida ou não tratada oportunamente",
+    ],
+    redFlags: [
+      "Padrão de frequência cardíaca fetal categoria III (bradicardia mantida, ou variabilidade ausente associada a desacelerações recorrentes) exige resolução imediata do parto, sem tempo para medidas de reanimação prolongadas",
+      "Padrão categoria II que não responde às medidas de reanimação intrauterina em tempo razoável deve motivar reavaliação urgente da via e do momento de resolução do parto",
+    ],
+    prognostico:
+      "Favorável quando reconhecido e tratado prontamente, com a maioria dos padrões categoria II respondendo às medidas de reanimação intrauterina; o prognóstico neurológico neonatal está diretamente relacionado à duração e à gravidade da hipóxia intraparto quando esta efetivamente ocorre e não é revertida a tempo.",
+    pontosDeProva: [
+      "O sistema de três categorias (I, II, III) da frequência cardíaca fetal é a estrutura padronizada atual para interpretação da cardiotocografia intraparto",
+      "Medidas de reanimação intrauterina (reposicionamento, correção de hipotensão, suspensão de ocitocina, oxigênio) são a primeira linha de conduta diante de padrão categoria II antes de se decidir por resolução imediata",
+      "Padrão categoria III exige resolução imediata do parto, sem tempo para tentativas prolongadas de reanimação intrauterina",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante em trabalho de parto, com infusão de ocitocina em curso, apresenta desacelerações variáveis recorrentes associadas a taquissistolia uterina à cardiotocografia.",
+      pergunta: "Qual a conduta imediata apropriada?",
+      raciocinio:
+        "Desacelerações variáveis recorrentes associadas a taquissistolia uterina sugerem hiperestimulação uterina secundária à ocitocina como causa reversível do padrão anormal, devendo ser corrigida antes de se considerar intervenção mais invasiva.",
+      conduta:
+        "Suspender ou reduzir a infusão de ocitocina, reposicionar a paciente em decúbito lateral e considerar tocólise aguda se a taquissistolia persistir; reavaliar o traçado da frequência cardíaca fetal após essas medidas.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os agentes tocolíticos de ação rápida usados na reanimação intrauterina ainda não têm ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia da hipóxia intraparto e sistema de três categorias da frequência cardíaca fetal", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Medidas de reanimação intrauterina e critérios de resolução imediata do parto", fonte: "ACOG Practice Bulletin No. 106, Intrapartum Fetal Heart Rate Monitoring, 2009" },
+    ],
+  },
+  {
+    slug: "complicacoes-cordao-umbilical-prolapso",
+    nome: "Complicações do cordão umbilical (prolapso de cordão)",
+    sinonimos: ["Prolapso de cordão umbilical", "Procidência de cordão"],
+    cid10: "O69",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Descida do cordão umbilical à frente ou ao lado da apresentação fetal após a ruptura das membranas, emergência obstétrica com risco de compressão do cordão e comprometimento agudo e grave da oxigenação fetal.",
+    definicao:
+      "Deslocamento do cordão umbilical para além da apresentação fetal, atingindo ou ultrapassando o orifício cervical, geralmente após a ruptura das membranas amnióticas, criando risco de compressão do cordão entre a apresentação fetal e a pelve materna durante as contrações ou a descida fetal.",
+    epidemiologia:
+      "Complicação relativamente rara, mas de alta gravidade quando ocorre; fatores de risco incluem apresentação fetal anômala (pélvica incompleta, situação transversa), polidrâmnio, gestação múltipla, ruptura artificial de membranas com apresentação fetal ainda não encaixada, e prematuridade.",
+    fisiopatologia:
+      "Quando a apresentação fetal não está adequadamente encaixada na pelve materna no momento da ruptura das membranas, o espaço criado permite que o cordão umbilical seja arrastado pelo fluxo de líquido amniótico para além da apresentação; a compressão subsequente do cordão entre a apresentação fetal e a pelve materna (ou sua exposição ao ambiente externo mais frio, causando vasoespasmo) compromete abruptamente o fluxo sanguíneo umbilical e, consequentemente, a oxigenação fetal.",
+    classificacao:
+      "Classificado em prolapso franco/manifesto (cordão visível ou palpável além da apresentação fetal, exteriorizando-se pela vagina) e prolapso oculto (cordão adjacente à apresentação fetal, mas não ultrapassando-a, mais difícil de diagnosticar clinicamente).",
+    quadroClinico: [
+      "Bradicardia fetal súbita e prolongada, ou desacelerações variáveis graves de início abrupto, imediatamente após a ruptura de membranas (espontânea ou artificial), achado mais frequentemente associado",
+      "Palpação ou visualização do cordão umbilical na vagina ou exteriorizado, achado diagnóstico direto quando presente (prolapso franco)",
+      "Ausência de sinais maternos específicos, sendo o quadro definido pela repercussão fetal aguda",
+    ],
+    diagnostico: [
+      "Exame de toque vaginal imediato diante de alteração aguda e súbita da frequência cardíaca fetal após ruptura de membranas, identificando o cordão pulsátil no canal de parto quando presente",
+      "Confirmação visual do cordão exteriorizado na vagina em casos de prolapso franco evidente",
+    ],
+    examesComplementares: [
+      "Cardiotocografia contínua, demonstrando o padrão característico de bradicardia/desaceleração súbita e sustentada associada ao evento",
+    ],
+    diagnosticoDiferencial: [
+      "Descolamento prematuro de placenta, outra causa de deterioração aguda do padrão de frequência cardíaca fetal, distinguida pela ausência de cordão palpável ao toque vaginal e pela presença de dor/hipertonia uterina associada",
+      "Rotura uterina, diagnóstico diferencial de deterioração fetal aguda, mais comum em gestante com cicatriz uterina prévia",
+    ],
+    tratamento: [
+      "Elevação manual da apresentação fetal através do toque vaginal, mantendo a mão na vagina para aliviar a compressão do cordão até a resolução cirúrgica do parto, medida imediata e central do manejo",
+      "Posicionamento materno em decúbito genupeitoral ou Trendelenburg acentuado, para reduzir adicionalmente a pressão da apresentação fetal sobre o cordão",
+      "Cesariana de urgência imediata, via de parto de escolha na grande maioria dos casos, dado que o tempo entre o diagnóstico e o parto está diretamente relacionado ao desfecho neonatal",
+      "Enchimento vesical retrógrado (instilação de solução salina na bexiga materna) como manobra adjuvante em alguns protocolos para elevar adicionalmente a apresentação fetal durante o transporte para a cesariana",
+    ],
+    complicacoes: [
+      "Aguda: hipóxia fetal grave e acidose metabólica progressiva pela compressão sustentada do cordão, óbito fetal quando o intervalo até o parto é prolongado",
+      "Crônica: sequelas neurológicas hipóxico-isquêmicas neonatais quando o evento não é revertido a tempo",
+    ],
+    redFlags: [
+      "Bradicardia fetal súbita e sustentada imediatamente após ruptura de membranas deve motivar toque vaginal imediato para exclusão de prolapso de cordão, dado que o tempo é o determinante mais crítico do desfecho",
+      "O prolapso de cordão é sempre uma emergência que exige resolução do parto o mais rapidamente possível — a manutenção manual da elevação da apresentação fetal nunca deve ser interrompida até o parto",
+    ],
+    prognostico:
+      "Diretamente relacionado ao intervalo entre o diagnóstico e a resolução do parto; quando reconhecido e tratado imediatamente (elevação manual mantida até cesariana de urgência), o prognóstico fetal pode ser excelente, mas atrasos no reconhecimento ou na resolução aumentam substancialmente o risco de hipóxia grave e óbito fetal.",
+    pontosDeProva: [
+      "Bradicardia fetal súbita após ruptura de membranas é o sinal de alerta mais característico que deve motivar toque vaginal imediato para exclusão de prolapso de cordão",
+      "A elevação manual da apresentação fetal deve ser mantida continuamente desde o diagnóstico até a resolução cirúrgica do parto, sem interrupção",
+      "O tempo entre diagnóstico e parto é o determinante mais crítico do desfecho neonatal no prolapso de cordão",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante em trabalho de parto, apresentação pélvica, é submetida a ruptura artificial de membranas. Imediatamente após o procedimento, a cardiotocografia registra bradicardia fetal súbita e sustentada.",
+      pergunta: "Qual a conduta imediata?",
+      raciocinio:
+        "Bradicardia fetal súbita imediatamente após ruptura de membranas, especialmente em apresentação pélvica (fator de risco reconhecido), é altamente sugestiva de prolapso de cordão, exigindo confirmação imediata por toque vaginal.",
+      conduta:
+        "Realizar toque vaginal imediato; se confirmado prolapso de cordão, manter elevação manual contínua da apresentação fetal, posicionar a paciente em decúbito genupeitoral/Trendelenburg e proceder à cesariana de urgência imediata.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso para o prolapso de cordão; o manejo é por manobras físicas de emergência seguidas de resolução cirúrgica imediata do parto.",
+    fontes: [
+      { tema: "Fisiopatologia da compressão do cordão e fatores de risco associados", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Manobras de emergência (elevação manual, enchimento vesical) e conduta de resolução imediata", fonte: "RCOG Green-top Guideline No. 50, Umbilical Cord Prolapse, 2014" },
+    ],
+  },
+  {
+    slug: "laceracoes-traumatismos-obstetricos-parto",
+    nome: "Lacerações e traumatismos obstétricos do parto",
+    sinonimos: ["Lacerações perineais", "Lacerações de trajeto"],
+    cid10: "O70-O71",
+    especialidade: "Ginecologia",
+    etiologia: "Traumática",
+    resumo: "Traumatismos do trajeto genital materno decorrentes da passagem fetal pelo canal de parto, classificados por grau de extensão anatômica, com as lacerações perineais de terceiro e quarto graus carregando risco significativo de disfunção do assoalho pélvico a longo prazo.",
+    definicao:
+      "Lesões traumáticas do trajeto genital materno (períneo, vagina, colo uterino, ou mais raramente o próprio útero) ocorrendo durante o parto vaginal, classificadas por localização e, no caso das lacerações perineais, por um sistema de graduação padronizado conforme a profundidade e as estruturas anatômicas envolvidas.",
+    epidemiologia:
+      "Lacerações perineais de algum grau ocorrem na maioria dos partos vaginais, sendo a maioria de primeiro e segundo graus; lacerações de terceiro e quarto graus (envolvendo o esfíncter anal) são menos comuns, mas de maior relevância clínica pelo risco de disfunção anorretal a longo prazo, com fatores de risco incluindo primiparidade, parto instrumental (especialmente fórceps), macrossomia fetal e episiotomia mediana.",
+    fisiopatologia:
+      "A distensão progressiva do períneo durante a descida e a expulsão fetal pode exceder a capacidade de distensão do tecido, especialmente quando há fatores agravantes (macrossomia, parto instrumental, distensão rápida na segunda fase); quando a distensão excede esse limite, ocorre laceração espontânea, cuja extensão e profundidade determinam o grau de comprometimento das estruturas anatômicas subjacentes, incluindo potencialmente o complexo esfincteriano anal e a mucosa retal.",
+    classificacao:
+      "Lacerações perineais classificadas em quatro graus: primeiro grau (pele e mucosa vaginal apenas), segundo grau (também envolvendo a musculatura perineal, sem atingir o esfíncter anal), terceiro grau (envolvendo o esfíncter anal, subdividido conforme a extensão do comprometimento esfincteriano) e quarto grau (extensão através do esfíncter anal e da mucosa retal); lacerações cervicais e vaginais altas classificadas separadamente por localização.",
+    quadroClinico: [
+      "Sangramento genital visível imediatamente após o parto, achado que motiva a inspeção cuidadosa do trajeto",
+      "Dor perineal, mais intensa e prolongada proporcionalmente ao grau da laceração",
+      "Lacerações de terceiro/quarto grau não reconhecidas e não reparadas adequadamente podem manifestar-se tardiamente por incontinência anal ou fecal",
+    ],
+    diagnostico: [
+      "Inspeção sistemática e completa do trajeto genital (períneo, vagina, colo uterino) imediatamente após todo parto vaginal, incluindo toque retal para avaliação da integridade do esfíncter anal, etapa essencial para não subdiagnosticar lacerações de terceiro/quarto grau",
+      "Classificação do grau da laceração conforme o sistema padronizado, determinando a técnica de reparo apropriada",
+    ],
+    examesComplementares: [
+      "Ultrassonografia endoanal em casos selecionados de suspeita de lesão esfincteriana não totalmente esclarecida ao exame físico, ou no seguimento de lacerações de terceiro/quarto grau",
+    ],
+    diagnosticoDiferencial: [
+      "Hematoma perineal/vulvar, distinto de laceração verdadeira por não haver solução de continuidade da mucosa, mas que também requer avaliação e por vezes intervenção",
+      "Rotura uterina, diagnóstico diferencial relevante de sangramento pós-parto significativo quando a inspeção do trajeto inferior não explica o volume de sangramento",
+    ],
+    tratamento: [
+      "Reparo cirúrgico primário por sutura em camadas, técnica padrão para lacerações de todos os graus, com técnica específica adaptada para lacerações de terceiro/quarto grau, exigindo reaproximação cuidadosa do complexo esfincteriano",
+      "Analgesia apropriada e cuidados perineais pós-parto (higiene, gelo local) para conforto e cicatrização adequada",
+      "Antibioticoprofilaxia perioperatória em lacerações de terceiro/quarto grau, reduzindo o risco de complicações infecciosas e de deiscência",
+    ],
+    complicacoes: [
+      "Aguda: hemorragia significativa quando a laceração não é reconhecida e reparada prontamente, hematoma perineal",
+      "Crônica: incontinência anal/fecal e dispareunia, principalmente após lacerações de terceiro/quarto grau, especialmente quando o reparo inicial é inadequado ou há deiscência",
+    ],
+    redFlags: [
+      "Toque retal de rotina após todo parto vaginal é essencial para não subdiagnosticar lacerações de terceiro/quarto grau, que podem não ser evidentes à inspeção vaginal isolada",
+      "Sangramento pós-parto significativo não explicado por atonia uterina deve motivar inspeção cuidadosa e completa de todo o trajeto genital, incluindo lacerações cervicais altas",
+    ],
+    prognostico:
+      "Excelente para lacerações de primeiro e segundo graus com reparo adequado; lacerações de terceiro e quarto graus têm prognóstico mais reservado quanto à função anorretal a longo prazo, mesmo com reparo tecnicamente adequado, justificando aconselhamento e seguimento específicos dessas pacientes.",
+    pontosDeProva: [
+      "O toque retal é etapa obrigatória do exame pós-parto para não subdiagnosticar lacerações de terceiro/quarto grau que comprometem o esfíncter anal",
+      "Lacerações de terceiro e quarto grau carregam risco significativo de incontinência anal/fecal a longo prazo, mesmo com reparo tecnicamente adequado",
+      "Parto instrumental (especialmente fórceps) e macrossomia fetal são os principais fatores de risco modificáveis/identificáveis para lacerações de alto grau",
+    ],
+    casoClinico: {
+      vinheta:
+        "Primípara, 26 anos, após parto vaginal com uso de fórceps por período expulsivo prolongado, apresenta laceração perineal visível à inspeção. Toque retal revela descontinuidade do esfíncter anal externo, sem lesão da mucosa retal.",
+      pergunta: "Qual a classificação dessa laceração e a conduta apropriada?",
+      raciocinio:
+        "Laceração envolvendo o esfíncter anal sem atingir a mucosa retal caracteriza laceração perineal de terceiro grau, exigindo reparo cirúrgico técnico específico para reaproximação adequada do complexo esfincteriano.",
+      conduta:
+        "Proceder ao reparo cirúrgico em camadas com técnica específica para reaproximação do esfíncter anal, associar antibioticoprofilaxia perioperatória e orientar seguimento específico para avaliação da função anorretal a longo prazo.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é cirúrgico (reparo por sutura); a antibioticoprofilaxia perioperatória específica ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia da distensão perineal e sistema de graduação por extensão anatômica", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Técnica de reparo e antibioticoprofilaxia em lacerações de terceiro/quarto grau", fonte: "ACOG Practice Bulletin No. 198, Prevention and Management of Obstetric Lacerations at Vaginal Delivery, 2018" },
+    ],
+  },
+  {
+    slug: "hemorragia-pos-parto",
+    nome: "Hemorragia pós-parto",
+    sinonimos: ["HPP", "Hemorragia puerperal"],
+    cid10: "O72",
+    especialidade: "Ginecologia",
+    etiologia: "Multifatorial",
+    resumo: "Sangramento excessivo após o parto, principal causa evitável de mortalidade materna em todo o mundo, cuja etiologia é organizada mnemonicamente pelos '4 Ts' — tônus, trauma, tecido e trombina.",
+    definicao:
+      "Perda sanguínea cumulativa igual ou superior a 1000 mL, ou perda sanguínea acompanhada de sinais/sintomas de hipovolemia, dentro de 24 horas após o parto (definição atualizada que unificou os critérios antes diferentes para parto vaginal e cesariana), classificada em primária (dentro de 24 horas) e secundária (de 24 horas até 12 semanas pós-parto).",
+    epidemiologia:
+      "Uma das principais causas de mortalidade materna globalmente, e a principal causa evitável quando reconhecida e tratada prontamente; fatores de risco incluem trabalho de parto prolongado, macrossomia fetal, gestação múltipla, poli-hidrâmnio, corioamnionite, uso prolongado de ocitocina e história de hemorragia pós-parto anterior, embora uma proporção significativa dos casos ocorra em gestantes sem fatores de risco identificáveis.",
+    fisiopatologia:
+      "A etiologia é classicamente organizada pelo mnemônico dos '4 Ts': Tônus (atonia uterina, causa mais comum, correspondendo à maioria dos casos, na qual o útero não se contrai adequadamente após a dequitação para comprimir os vasos do sítio placentário), Trauma (lacerações do trajeto genital, rotura uterina), Tecido (retenção de fragmentos placentários ou de membranas, impedindo a contração uterina completa) e Trombina (coagulopatias, congênitas ou adquiridas, incluindo a coagulopatia de consumo secundária a outras complicações obstétricas).",
+    classificacao:
+      "Classificada temporalmente em primária (dentro de 24 horas pós-parto, a maioria dos casos, mais comumente por atonia uterina) e secundária (de 24 horas até 12 semanas pós-parto, mais comumente por retenção de tecido placentário ou infecção); também classificada etiologicamente pelos '4 Ts'.",
+    quadroClinico: [
+      "Sangramento vaginal excessivo e contínuo após o parto, achado central e definidor",
+      "Útero amolecido e mal contraído à palpação abdominal (globo de segurança de Pinard ausente ou inadequado) na atonia uterina, achado de exame físico central",
+      "Sinais de instabilidade hemodinâmica (taquicardia, hipotensão) proporcionais ao volume de perda sanguínea, podendo ser mascarados inicialmente pelas adaptações fisiológicas da gestação",
+    ],
+    diagnostico: [
+      "Quantificação objetiva da perda sanguínea (por métodos gravimétricos ou visuais calibrados), preferível à estimativa visual isolada, que tende a subestimar significativamente o volume real perdido",
+      "Exame sistemático dirigido aos '4 Ts' para identificação da causa: palpação uterina (tônus), inspeção completa do trajeto (trauma), revisão da placenta e cavidade uterina (tecido) e avaliação da coagulação (trombina)",
+    ],
+    examesComplementares: [
+      "Hemograma e coagulograma completo (incluindo fibrinogênio), exames essenciais para avaliação da gravidade e identificação de coagulopatia associada",
+      "Ultrassonografia pélvica em casos selecionados de suspeita de retenção de tecido placentário não evidente ao exame físico",
+    ],
+    diagnosticoDiferencial: [
+      "As quatro categorias etiológicas (tônus, trauma, tecido, trombina) devem ser sistematicamente investigadas e não são mutuamente excludentes — mais de uma pode contribuir simultaneamente para o sangramento",
+    ],
+    tratamento: [
+      "Massagem uterina bimanual e ocitocina, medidas de primeira linha para atonia uterina, a causa mais comum",
+      "Agentes uterotônicos de segunda linha (ergometrina, misoprostol, carbetocina) quando a ocitocina isolada é insuficiente para restaurar o tônus uterino adequado",
+      "Reparo cirúrgico de lacerações identificadas, remoção de tecido placentário retido, e correção de coagulopatia (hemoderivados, ácido tranexâmico) conforme a causa identificada",
+      "Medidas escalonadas para atonia refratária: tamponamento uterino com balão, suturas compressivas uterinas, embolização de artérias uterinas, e, em última instância, histerectomia de urgência para controle definitivo da hemorragia",
+    ],
+    complicacoes: [
+      "Aguda: choque hipovolêmico, coagulação intravascular disseminada, síndrome de Sheehan (necrose hipofisária isquêmica por hipotensão grave e prolongada)",
+      "Crônica: anemia significativa no puerpério, necessidade de histerectomia com perda definitiva da fertilidade em casos extremos refratários",
+    ],
+    redFlags: [
+      "A estimativa visual da perda sanguínea tende a subestimar significativamente o volume real, reforçando a importância da quantificação objetiva para reconhecimento oportuno da gravidade",
+      "Atonia uterina refratária às medidas farmacológicas de primeira e segunda linha deve motivar escalonamento rápido para medidas mecânicas/cirúrgicas, sem atraso, dado o risco de deterioração hemodinâmica progressiva",
+    ],
+    prognostico:
+      "Excelente quando reconhecida e tratada prontamente com abordagem sistemática e escalonada; permanece, no entanto, uma das principais causas de mortalidade materna evitável globalmente, quando o reconhecimento ou o tratamento são tardios ou inadequados.",
+    pontosDeProva: [
+      "O mnemônico dos '4 Ts' (Tônus, Trauma, Tecido, Trombina) organiza sistematicamente a investigação etiológica da hemorragia pós-parto, sendo a atonia uterina (Tônus) a causa mais comum",
+      "A estimativa visual de perda sanguínea subestima sistematicamente o volume real, reforçando a necessidade de quantificação objetiva",
+      "O manejo é escalonado: massagem uterina e ocitocina primeiro, uterotônicos de segunda linha em seguida, e medidas mecânicas/cirúrgicas progressivamente mais invasivas para atonia refratária",
+    ],
+    casoClinico: {
+      vinheta:
+        "Puérpera, 29 anos, apresenta sangramento vaginal volumoso e contínuo 30 minutos após parto vaginal. Ao exame, útero amolecido e mal contraído à palpação abdominal.",
+      pergunta: "Qual a causa mais provável e a conduta imediata?",
+      raciocinio:
+        "Sangramento pós-parto associado a útero amolecido e mal contraído à palpação é altamente sugestivo de atonia uterina, causa mais comum de hemorragia pós-parto, que responde inicialmente a massagem uterina e uterotônicos.",
+      conduta:
+        "Realizar massagem uterina bimanual e administrar ocitocina imediatamente; se resposta inadequada, escalonar para uterotônicos de segunda linha e, se ainda refratário, para medidas mecânicas (tamponamento com balão) ou cirúrgicas.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os agentes uterotônicos (ocitocina, ergometrina, misoprostol, carbetocina) e o ácido tranexâmico ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Mnemônico dos 4 Ts e organização etiológica da hemorragia pós-parto", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Definição atualizada, quantificação objetiva e manejo escalonado", fonte: "ACOG Practice Bulletin No. 183, Postpartum Hemorrhage, 2017" },
+    ],
+  },
+  {
+    slug: "infeccao-puerperal",
+    nome: "Infecção puerperal (endometrite pós-parto)",
+    sinonimos: ["Endometrite puerperal", "Febre puerperal"],
+    cid10: "O85-O86",
+    especialidade: "Ginecologia",
+    etiologia: "Bacteriana",
+    resumo: "Infecção polimicrobiana do trato genital no puerpério, mais comumente endometrite, com risco significativamente maior após cesariana do que após parto vaginal, respondendo bem à antibioticoterapia empírica de amplo espectro.",
+    definicao:
+      "Infecção do trato genital ocorrendo no período puerperal, mais comumente na forma de endometrite (infecção da decídua e do miométrio), classicamente definida clinicamente por febre puerperal (temperatura ≥38°C após as primeiras 24 horas pós-parto, em pelo menos duas ocasições) associada a outros sinais de infecção uterina.",
+    epidemiologia:
+      "O risco é substancialmente maior após cesariana do que após parto vaginal, dado o trauma cirúrgico adicional e a exposição da cavidade uterina; fatores de risco adicionais incluem trabalho de parto prolongado, ruptura prolongada de membranas, múltiplos toques vaginais durante o trabalho de parto e corioamnionite intraparto.",
+    fisiopatologia:
+      "Infecção polimicrobiana ascendente por flora do trato genital inferior (aeróbios e anaeróbios, incluindo estreptococos, Escherichia coli e anaeróbios), favorecida pelo trauma tecidual do parto (especialmente cesariana) e por fatores que aumentam a exposição da cavidade uterina a esses microrganismos (trabalho de parto prolongado, ruptura prolongada de membranas, múltiplos exames vaginais).",
+    classificacao:
+      "Classificada por localização/extensão em endometrite (a mais comum, restrita ao útero), infecção de sítio cirúrgico (após cesariana), e, em casos mais graves e menos comuns, infecção estendendo-se aos paramétrios (parametrite) ou tromboflebite pélvica séptica.",
+    quadroClinico: [
+      "Febre puerperal (≥38°C após as primeiras 24 horas), achado central e definidor",
+      "Sensibilidade uterina à palpação abdominal e ao exame bimanual, achado característico da endometrite",
+      "Lóquios com odor fétido em uma proporção dos casos, embora essa característica não seja universal nem obrigatória para o diagnóstico",
+      "Taquicardia materna proporcional à gravidade do quadro infeccioso",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico, pela combinação de febre puerperal, sensibilidade uterina e exclusão de outras causas de febre no puerpério (mastite, infecção do trato urinário, infecção de sítio cirúrgico, tromboembolismo)",
+      "Hemograma com leucocitose, achado de apoio, embora inespecífico, dado que uma leucocitose leve é esperada fisiologicamente no puerpério imediato",
+    ],
+    examesComplementares: [
+      "Hemocultura em casos de febre alta ou sinais de sepse, para identificação do agente e ajuste da antibioticoterapia quando necessário",
+      "Ultrassonografia pélvica quando há suspeita de retenção de tecido placentário associada ou de coleção/abscesso pélvico",
+    ],
+    diagnosticoDiferencial: [
+      "Mastite puerperal, infecção urinária e infecção de sítio cirúrgico (após cesariana), causas alternativas de febre no puerpério que devem ser ativamente excluídas pelo exame físico dirigido",
+      "Tromboembolismo venoso, causa de febre baixa e taquicardia no puerpério que deve ser considerada especialmente na ausência de achados uterinos característicos",
+    ],
+    tratamento: [
+      "Antibioticoterapia empírica de amplo espectro cobrindo aeróbios e anaeróbios (classicamente associação de clindamicina e gentamicina, ou esquemas alternativos de amplo espectro), tratamento de escolha até resolução dos sintomas e da febre",
+      "Manutenção da antibioticoterapia intravenosa até a paciente permanecer afebril e clinicamente estável por período determinado, geralmente sem necessidade de completar curso oral adicional na maioria dos protocolos atuais para endometrite não complicada",
+    ],
+    complicacoes: [
+      "Aguda: abscesso pélvico, sepse quando não tratada prontamente",
+      "Crônica: tromboflebite pélvica séptica em casos refratários à antibioticoterapia isolada, complicação rara mas que exige consideração de anticoagulação associada",
+    ],
+    redFlags: [
+      "Febre puerperal que não responde à antibioticoterapia empírica adequada em 48-72 horas deve motivar investigação para complicações (abscesso pélvico, tromboflebite pélvica séptica, retenção de tecido não diagnosticada)",
+      "Sinais de sepse (hipotensão, taquicardia significativa, alteração do estado mental) exigem manejo agressivo imediato além da antibioticoterapia isolada",
+    ],
+    prognostico:
+      "Excelente com antibioticoterapia empírica adequada e oportuna, com a maioria das pacientes respondendo dentro de 48 a 72 horas; complicações como abscesso pélvico ou tromboflebite pélvica séptica são incomuns mas exigem reconhecimento e manejo específico adicional quando presentes.",
+    pontosDeProva: [
+      "O risco de infecção puerperal é substancialmente maior após cesariana do que após parto vaginal, refletindo o trauma cirúrgico adicional",
+      "A antibioticoterapia empírica deve cobrir tanto aeróbios quanto anaeróbios, dada a natureza polimicrobiana da infecção",
+      "Febre que não responde à antibioticoterapia adequada em 48-72 horas deve motivar investigação para complicações como abscesso pélvico ou tromboflebite pélvica séptica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Puérpera, 27 anos, no terceiro dia após cesariana, apresenta febre de 38,5°C, sensibilidade uterina significativa à palpação e lóquios com odor fétido.",
+      pergunta: "Qual o diagnóstico mais provável e o tratamento indicado?",
+      raciocinio:
+        "Febre puerperal associada a sensibilidade uterina e lóquios fétidos após cesariana é altamente sugestiva de endometrite puerperal, infecção polimicrobiana que requer cobertura antibiótica de amplo espectro.",
+      conduta:
+        "Iniciar antibioticoterapia empírica intravenosa de amplo espectro cobrindo aeróbios e anaeróbios; manter até a paciente permanecer afebril e clinicamente estável por período adequado.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O esquema antibiótico empírico padrão (clindamicina associada a gentamicina, ou alternativas de amplo espectro) ainda não tem seus componentes documentados como ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia polimicrobiana ascendente e maior risco após cesariana", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Esquema antibiótico empírico de escolha e duração do tratamento", fonte: "Mackeen AD et al., Antibiotic regimens for postpartum endometritis, Cochrane Database of Systematic Reviews, 2015" },
+    ],
+  },
+  {
+    slug: "embolia-liquido-amniotico",
+    nome: "Embolia de líquido amniótico",
+    sinonimos: ["Síndrome anafilactoide da gravidez"],
+    cid10: "O88",
+    especialidade: "Ginecologia",
+    etiologia: "Idiopática",
+    resumo: "Complicação obstétrica catastrófica e imprevisível, na qual a entrada de líquido amniótico na circulação materna desencadeia colapso cardiovascular súbito e coagulopatia grave, com alta letalidade mesmo com manejo imediato.",
+    definicao:
+      "Síndrome clínica rara e potencialmente catastrófica caracterizada por colapso cardiovascular súbito, insuficiência respiratória aguda e coagulopatia grave, ocorrendo tipicamente durante o trabalho de parto, o parto, ou logo após, decorrente de uma resposta sistêmica anômala à entrada de líquido amniótico e material fetal na circulação materna.",
+    epidemiologia:
+      "Extremamente rara, mas associada a alta taxa de mortalidade materna quando ocorre, sendo uma das principais causas de morte materna súbita relacionada ao parto nos países desenvolvidos; não existem fatores de risco consistentemente identificados que permitam predição ou prevenção, embora idade materna avançada e cesariana tenham sido associadas em alguns estudos.",
+    fisiopatologia:
+      "O mecanismo exato permanece incompletamente elucidado, mas a hipótese mais aceita atualmente propõe uma resposta inflamatória sistêmica anômala (semelhante à anafilaxia, daí o termo alternativo 'síndrome anafilactoide da gravidez') à entrada de líquido amniótico e material fetal na circulação materna, em vez de uma embolização mecânica obstrutiva simples como o nome sugere; essa resposta desencadeia colapso cardiovascular abrupto (por disfunção ventricular direita aguda seguida de esquerda) e coagulopatia de consumo grave e rápida.",
+    classificacao:
+      "Não possui subclassificação estabelecida; é definida clinicamente pela tríade de colapso cardiovascular súbito, insuficiência respiratória e coagulopatia, com o diagnóstico sendo essencialmente clínico e por exclusão de outras causas.",
+    quadroClinico: [
+      "Colapso cardiovascular súbito (hipotensão grave, parada cardíaca) durante o trabalho de parto, o parto, ou nos primeiros minutos/horas pós-parto, achado de apresentação mais dramático",
+      "Insuficiência respiratória aguda com hipóxia grave, frequentemente concomitante ao colapso cardiovascular",
+      "Coagulopatia de consumo grave e de instalação rápida, manifestando-se por hemorragia maciça e difusa",
+      "Alteração aguda do estado mental ou convulsões podem preceder ou acompanhar o colapso cardiovascular em alguns casos",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico, pela apresentação característica (colapso cardiovascular súbito, insuficiência respiratória, coagulopatia) no contexto temporal do parto, após exclusão de outras causas de deterioração aguda materna",
+      "Não existe exame laboratorial ou de imagem específico e definitivo para confirmação em tempo real — o diagnóstico permanece eminentemente clínico diante da urgência da situação",
+    ],
+    examesComplementares: [
+      "Coagulograma completo seriado, essencial para monitorização e orientação da reposição de hemoderivados diante da coagulopatia de consumo rápida e progressiva",
+      "Gasometria arterial para avaliação da gravidade da insuficiência respiratória",
+    ],
+    diagnosticoDiferencial: [
+      "Embolia pulmonar tromboembólica, tromboembolismo venoso maciço, distinguido por não apresentar coagulopatia de consumo tão precoce e grave",
+      "Choque hemorrágico por outras causas obstétricas (hemorragia pós-parto maciça, rotura uterina), que também podem cursar com colapso cardiovascular mas tipicamente com sangramento visível precedendo a instabilidade",
+      "Anafilaxia por outras causas (medicamentosa), diagnóstico diferencial relevante dado o mecanismo fisiopatológico proposto semelhante",
+    ],
+    tratamento: [
+      "Suporte hemodinâmico e respiratório imediato e agressivo (ressuscitação cardiopulmonar quando indicada, suporte ventilatório, vasopressores), medida central e mais determinante do desfecho",
+      "Correção agressiva da coagulopatia com reposição maciça de hemoderivados (concentrado de hemácias, plasma fresco congelado, crioprecipitado, plaquetas) conforme a gravidade e a evolução do coagulograma",
+      "Parto imediato (se a embolia ocorre anteparto e o feto ainda está in utero) para otimizar as chances de ressuscitação materna e de sobrevida fetal, geralmente por cesariana perimortem quando há parada cardíaca materna",
+    ],
+    complicacoes: [
+      "Aguda: parada cardiorrespiratória, coagulação intravascular disseminada maciça, óbito materno e/ou fetal, sendo a mortalidade materna elevada mesmo com manejo imediato e adequado",
+      "Crônica: sequelas neurológicas hipóxico-isquêmicas em sobreviventes que apresentaram parada cardiorrespiratória prolongada",
+    ],
+    redFlags: [
+      "Colapso cardiovascular súbito e inexplicado durante o trabalho de parto ou logo após o parto deve sempre incluir embolia de líquido amniótico no diagnóstico diferencial imediato, dado que o reconhecimento precoce é essencial para o início do suporte agressivo",
+      "A coagulopatia de consumo se instala rapidamente e de forma desproporcional a outras causas de choque, exigindo reposição extremamente agressiva e precoce de hemoderivados",
+    ],
+    prognostico:
+      "Reservado, com mortalidade materna elevada mesmo com manejo imediato e adequado, refletindo a gravidade intrínseca e a imprevisibilidade da síndrome; entre as sobreviventes, sequelas neurológicas são comuns quando houve parada cardiorrespiratória prolongada.",
+    pontosDeProva: [
+      "O mecanismo fisiopatológico atual proposto é uma resposta inflamatória sistêmica anômala tipo anafilactoide, não uma obstrução mecânica embólica simples, apesar do nome tradicional da condição",
+      "A tríade de colapso cardiovascular súbito, insuficiência respiratória aguda e coagulopatia de consumo rápida é a apresentação clínica característica",
+      "Não existem fatores de risco consistentemente identificados que permitam prever ou prevenir a embolia de líquido amniótico, tornando o reconhecimento clínico imediato essencial",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 34 anos, em trabalho de parto ativo, subitamente desenvolve dispneia intensa, hipotensão grave e perda de consciência, seguidas rapidamente por sangramento vaginal maciço e difuso.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "Colapso cardiovascular súbito com insuficiência respiratória seguido rapidamente de coagulopatia de consumo, no contexto do trabalho de parto ativo, é altamente sugestivo de embolia de líquido amniótico, exigindo suporte agressivo imediato.",
+      conduta:
+        "Iniciar suporte hemodinâmico e respiratório agressivo imediato (incluindo ressuscitação cardiopulmonar se necessário), reposição maciça de hemoderivados guiada por coagulograma seriado, e considerar cesariana perimortem/parto imediato conforme a situação clínica.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O manejo é de suporte intensivo (hemodinâmico, respiratório, hemoderivados); não há tratamento medicamentoso específico e dirigido documentável no site.",
+    fontes: [
+      { tema: "Hipótese fisiopatológica anafilactoide e apresentação clínica característica", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Manejo de suporte agressivo e reposição de hemoderivados na coagulopatia associada", fonte: "SMFM Consult Series #9, Amniotic Fluid Embolism, 2016" },
+    ],
+  },
+  {
+    slug: "mastite-puerperal-afeccoes-mama-lactacao",
+    nome: "Mastite puerperal e outras afecções da mama e lactação",
+    sinonimos: ["Mastite lactacional", "Ingurgitamento mamário"],
+    cid10: "O91-O92",
+    especialidade: "Ginecologia",
+    etiologia: "Bacteriana",
+    resumo: "Espectro de afecções mamárias no puerpério associadas à lactação — do ingurgitamento fisiológico à mastite infecciosa e ao abscesso mamário —, cujo reconhecimento precoce e manejo apropriado, incluindo a manutenção da amamentação, previnem a progressão para quadros mais graves.",
+    definicao:
+      "Espectro de condições mamárias relacionadas à lactação no puerpério, incluindo o ingurgitamento mamário (distensão fisiológica dolorosa por acúmulo de leite, sem infecção), a mastite puerperal (infecção do tecido mamário, mais comumente por Staphylococcus aureus através de fissuras mamilares) e o abscesso mamário (complicação supurativa localizada da mastite não resolvida).",
+    epidemiologia:
+      "A mastite puerperal acomete uma proporção significativa das lactantes, principalmente nas primeiras semanas pós-parto; principais fatores de risco incluem fissuras ou traumatismo mamilar (porta de entrada bacteriana), esvaziamento mamário incompleto ou infrequente, e técnica de amamentação inadequada.",
+    fisiopatologia:
+      "O ingurgitamento mamário resulta do acúmulo de leite por drenagem inadequada, sem processo infeccioso; a mastite decorre da entrada de bactérias (mais comumente Staphylococcus aureus da pele/orofaringe do lactente) através de fissuras mamilares, com proliferação bacteriana favorecida pela estase láctea associada ao esvaziamento inadequado; quando a infecção não é tratada ou não responde ao tratamento inicial, pode evoluir para abscesso mamário, coleção purulenta localizada que geralmente requer drenagem.",
+    classificacao:
+      "Classificada em ingurgitamento mamário (fisiológico, bilateral, sem sinais infecciosos sistêmicos), mastite (unilateral na maioria dos casos, com sinais inflamatórios locais e frequentemente sintomas sistêmicos) e abscesso mamário (complicação localizada e supurativa da mastite não resolvida, caracterizada por massa flutuante).",
+    quadroClinico: [
+      "Ingurgitamento: mamas distendidas, dolorosas e bilateralmente simétricas, sem eritema significativo ou febre",
+      "Mastite: área localizada de eritema, calor, dor e endurecimento mamário, tipicamente unilateral, frequentemente associada a febre, calafrios e mal-estar sistêmico do tipo gripal",
+      "Abscesso mamário: massa flutuante palpável e dolorosa, geralmente em paciente com mastite prévia sem resposta adequada ao tratamento antibiótico inicial",
+    ],
+    diagnostico: [
+      "Diagnóstico eminentemente clínico, pela combinação de sintomas locais mamários e sistêmicos, com diferenciação entre ingurgitamento (sem sinais infecciosos) e mastite (com sinais infecciosos e frequentemente febre)",
+      "Palpação cuidadosa para identificação de área de flutuação sugestiva de abscesso em paciente com mastite não responsiva ao tratamento inicial",
+    ],
+    examesComplementares: [
+      "Ultrassonografia mamária, exame de escolha para confirmação e caracterização de suspeita de abscesso mamário quando a flutuação não é claramente identificável ao exame físico",
+      "Cultura do leite materno em casos recorrentes ou refratários ao tratamento antibiótico empírico inicial",
+    ],
+    diagnosticoDiferencial: [
+      "Carcinoma inflamatório de mama, diagnóstico diferencial relevante e importante quando os sintomas não respondem ao tratamento apropriado para mastite dentro do prazo esperado, exigindo investigação adicional",
+      "Galactocele, coleção cística de leite não infectada, distinguida da mastite pela ausência de sinais inflamatórios significativos",
+    ],
+    tratamento: [
+      "Ingurgitamento: esvaziamento mamário frequente (amamentação ou ordenha), compressas e analgesia simples, sem necessidade de antibioticoterapia",
+      "Mastite: antibioticoterapia dirigida a Staphylococcus aureus (incluindo cobertura para cepas resistentes à meticilina conforme o perfil epidemiológico local), associada à manutenção da amamentação/esvaziamento mamário frequente do lado acometido, medida importante tanto para o tratamento quanto para prevenção de progressão a abscesso",
+      "Abscesso mamário: drenagem (por aspiração guiada por ultrassonografia ou incisão cirúrgica conforme o tamanho e a localização) associada a antibioticoterapia, sendo a drenagem essencial e não substituível apenas pelo tratamento antibiótico isolado",
+    ],
+    complicacoes: [
+      "Aguda: abscesso mamário quando a mastite não é tratada adequadamente ou não responde ao tratamento inicial",
+      "Crônica: interrupção precoce e não desejada da amamentação quando o manejo não orienta adequadamente a manutenção do esvaziamento mamário durante o tratamento",
+    ],
+    redFlags: [
+      "A amamentação deve ser mantida (não interrompida) durante o tratamento da mastite, tanto pela ausência de risco ao lactente quanto pela importância do esvaziamento mamário na resolução do quadro — orientação frequentemente mal compreendida na prática clínica",
+      "Sintomas de mastite que não respondem à antibioticoterapia apropriada dentro do prazo esperado devem motivar investigação para abscesso mamário ou, mais raramente, para carcinoma inflamatório de mama",
+    ],
+    prognostico:
+      "Excelente com reconhecimento e tratamento apropriados, incluindo a manutenção do esvaziamento mamário; a progressão para abscesso é evitável na maioria dos casos com tratamento antibiótico precoce e adequado da mastite, e mesmo quando ocorre, responde bem à drenagem associada a antibioticoterapia.",
+    pontosDeProva: [
+      "A amamentação deve ser mantida durante o tratamento da mastite — não é contraindicada, e o esvaziamento mamário é parte importante da resolução do quadro",
+      "Staphylococcus aureus é o agente etiológico mais comum da mastite puerperal, entrando através de fissuras mamilares",
+      "Abscesso mamário sempre requer drenagem associada à antibioticoterapia — o tratamento antibiótico isolado não é suficiente para resolução de uma coleção já estabelecida",
+    ],
+    casoClinico: {
+      vinheta:
+        "Puérpera, 30 anos, lactante há 3 semanas, apresenta área de eritema, calor e dor na mama esquerda, associada a febre de 38,7°C e calafrios, com fissura mamilar visível no mesmo lado.",
+      pergunta: "Qual o diagnóstico mais provável e a orientação quanto à amamentação?",
+      raciocinio:
+        "Eritema localizado unilateral com febre e calafrios, associado a fissura mamilar (porta de entrada bacteriana), é característico de mastite puerperal infecciosa, exigindo antibioticoterapia dirigida a Staphylococcus aureus.",
+      conduta:
+        "Prescrever antibioticoterapia apropriada e orientar explicitamente a manutenção da amamentação/esvaziamento mamário frequente do lado acometido, medida importante tanto terapêutica quanto preventiva de progressão a abscesso.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina-clavulanato", nome: "Amoxicilina + Clavulanato" },
+    ],
+    medicamentosNota:
+      "A amoxicilina + clavulanato é uma opção com cobertura adequada para Staphylococcus aureus sensível; cepas resistentes à meticilina, quando prevalentes no perfil local, exigem antimicrobianos alternativos ainda não documentados no site.",
+    fontes: [
+      { tema: "Fisiopatologia da estase láctea e entrada bacteriana por fissura mamilar", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Manutenção da amamentação durante o tratamento e indicação de drenagem no abscesso", fonte: "Academy of Breastfeeding Medicine Clinical Protocol #36, The Mastitis Spectrum, 2022" },
+    ],
+  },
+  {
+    slug: "psoriase",
+    nome: "Psoríase",
+    sinonimos: ["Psoríase em placas", "Psoríase vulgar"],
+    cid10: "L40",
+    especialidade: "Dermatologia",
+    etiologia: "Autoimune",
+    resumo: "Doença inflamatória crônica imunomediada da pele, caracterizada por placas eritemato-descamativas bem delimitadas decorrentes de hiperproliferação queratinocítica, com associação reconhecida a artrite psoriásica e síndrome metabólica.",
+    definicao:
+      "Doença inflamatória crônica e recidivante da pele, de base imunomediada, caracterizada por hiperproliferação e diferenciação anormal dos queratinócitos, resultando em placas eritematosas bem delimitadas recobertas por escamas prateadas características.",
+    epidemiologia:
+      "Acomete uma proporção significativa da população mundial, com distribuição bimodal de início (pico entre 20-30 anos e outro entre 50-60 anos); forte componente genético (associação com HLA-Cw6), com aproximadamente um terço dos pacientes relatando história familiar positiva.",
+    fisiopatologia:
+      "Ativação anômala do sistema imune inato e adaptativo na pele, com papel central do eixo IL-23/Th17: células dendríticas ativadas estimulam linfócitos T helper 17, que produzem IL-17 e outras citocinas pró-inflamatórias, promovendo hiperproliferação queratinocítica acelerada (turnover epidérmico reduzido de semanas para poucos dias) e inflamação dérmica sustentada, resultando nas placas características.",
+    classificacao:
+      "Classificada clinicamente em psoríase em placas (a forma mais comum, cerca de 90% dos casos), gutata (pequenas lesões em gotas, frequentemente pós-infecção estreptocócica, mais comum em jovens), invertida (dobras cutâneas), pustulosa e eritrodérmica (formas generalizadas e mais graves); também graduada por extensão de superfície corporal acometida para orientar a escolha terapêutica.",
+    quadroClinico: [
+      "Placas eritematosas bem delimitadas, recobertas por escamas prateadas espessas, tipicamente distribuídas em superfícies extensoras (cotovelos, joelhos), couro cabeludo e região lombossacra",
+      "Sinal de Auspitz (pontos de sangramento puntiforme ao remover a escama), achado característico decorrente da fragilidade dos capilares dérmicos superficiais elongados",
+      "Comprometimento ungueal (pitting, onicólise) em uma proporção significativa dos pacientes",
+      "Prurido variável, presente em muitos pacientes, embora não seja o sintoma mais característico da doença",
+    ],
+    diagnostico: [
+      "Diagnóstico eminentemente clínico, pela morfologia e distribuição características das lesões",
+      "Biópsia cutânea reservada para casos atípicos ou de diagnóstico duvidoso, mostrando hiperqueratose paraqueratósica, acantose e infiltrado inflamatório característicos",
+    ],
+    examesComplementares: [
+      "Avaliação de comorbidades associadas (síndrome metabólica, doença cardiovascular), dado o reconhecimento crescente da psoríase como doença sistêmica com impacto além da pele",
+      "Rastreamento ativo de sintomas articulares em toda consulta, dado que a artrite psoriásica acomete uma proporção significativa dos pacientes e pode preceder, coincidir ou suceder as manifestações cutâneas",
+    ],
+    diagnosticoDiferencial: [
+      "Dermatite seborreica, especialmente quando há acometimento de couro cabeludo, distinguida pelas escamas mais untuosas e amareladas (versus escamas secas e prateadas da psoríase)",
+      "Eczema/dermatite atópica, distinguido pela distribuição tipicamente flexural (versus extensora na psoríase) e por prurido geralmente mais proeminente",
+      "Tinea corporis, distinguida por bordas ativas e crescimento centrífugo característicos, confirmada por exame micológico quando há dúvida",
+    ],
+    tratamento: [
+      "Doença leve a moderada: corticosteroides tópicos de média a alta potência, análogos da vitamina D tópicos, tratamento de primeira linha para a maioria dos pacientes",
+      "Fototerapia (UVB de banda estreita), opção eficaz para doença moderada não controlada com terapia tópica isolada",
+      "Doença moderada a grave ou com artrite psoriásica associada: terapia sistêmica (metotrexato, ou agentes biológicos inibidores de TNF-alfa, IL-17 ou IL-23), reservada para casos mais extensos ou refratários",
+    ],
+    complicacoes: [
+      "Aguda: eritrodermia psoriásica (forma generalizada grave, com risco de descompensação hemodinâmica e térmica), psoríase pustulosa generalizada",
+      "Crônica: artrite psoriásica, síndrome metabólica e risco cardiovascular aumentado, impacto psicossocial significativo pela visibilidade das lesões",
+    ],
+    redFlags: [
+      "Sintomas articulares (dor, edema, rigidez matinal) em paciente com psoríase devem ser ativamente investigados, dado que a artrite psoriásica pode causar dano articular irreversível se não tratada precocemente",
+      "Eritrodermia psoriásica é emergência dermatológica pelo risco de descompensação hemodinâmica e térmica associada ao comprometimento cutâneo extenso",
+    ],
+    prognostico:
+      "Doença crônica sem cura definitiva, mas com excelente controle sintomático disponível através do amplo arsenal terapêutico atual (tópico, fototerapia, sistêmico convencional e biológico), permitindo qualidade de vida próxima à normal na maioria dos pacientes tratados adequadamente.",
+    pontosDeProva: [
+      "O eixo IL-23/Th17 é o mecanismo imunológico central da psoríase, sendo também o alvo terapêutico dos agentes biológicos mais modernos",
+      "A artrite psoriásica acomete uma proporção significativa dos pacientes com psoríase cutânea e deve ser ativamente rastreada em toda consulta",
+      "O sinal de Auspitz (sangramento puntiforme ao remover a escama) reflete a elongação e fragilidade dos capilares dérmicos superficiais características da doença",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 28 anos, apresenta placas eritematosas bem delimitadas recobertas por escamas prateadas espessas em cotovelos e joelhos há 6 meses, associadas a alterações ungueais (pitting).",
+      pergunta: "Qual o diagnóstico mais provável e qual comorbidade deve ser ativamente rastreada?",
+      raciocinio:
+        "Placas eritemato-descamativas em superfícies extensoras associadas a alterações ungueais são características de psoríase; a presença de acometimento ungueal reforça a necessidade de rastrear ativamente sintomas articulares, dado o risco aumentado de artrite psoriásica associada.",
+      conduta:
+        "Confirmar o diagnóstico clinicamente; iniciar tratamento tópico de primeira linha (corticosteroide tópico/análogo de vitamina D); investigar ativamente sintomas articulares em cada consulta de seguimento.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os corticosteroides tópicos, análogos da vitamina D e agentes sistêmicos/biológicos, tratamentos de primeira linha conforme a gravidade, ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Fisiopatologia do eixo IL-23/Th17 e classificação clínica", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Escalonamento terapêutico e rastreamento de artrite psoriásica associada", fonte: "AAD-NPF Guidelines of Care for the Management of Psoriasis and Psoriatic Arthritis, 2019" },
+    ],
+  },
+  {
+    slug: "dermatite-atopica",
+    nome: "Dermatite atópica",
+    sinonimos: ["Eczema atópico", "Eczema constitucional"],
+    cid10: "L20",
+    especialidade: "Dermatologia",
+    etiologia: "Multifatorial",
+    resumo: "Doença inflamatória crônica e pruriginosa da pele, decorrente de disfunção da barreira cutânea associada a desregulação imunológica tipo 2, frequentemente associada a outras condições atópicas (asma, rinite alérgica).",
+    definicao:
+      "Doença inflamatória crônica e recidivante da pele, caracterizada por prurido intenso e lesões eczematosas de distribuição tipicamente flexural, decorrente da combinação de disfunção estrutural da barreira cutânea e desregulação imunológica do tipo 2 (Th2).",
+    epidemiologia:
+      "Mais comum em crianças, com início na maioria dos casos antes dos 5 anos de idade e frequente remissão parcial ou completa até a adolescência, embora uma proporção persista ou recorra na vida adulta; associação frequente com outras condições da 'marcha atópica' (asma, rinite alérgica), refletindo predisposição imunológica compartilhada.",
+    fisiopatologia:
+      "Mutações no gene da filagrina (proteína estrutural essencial da barreira epidérmica) comprometem a função de barreira cutânea, aumentando a perda transepidérmica de água e facilitando a penetração de alérgenos e irritantes; essa disfunção de barreira, somada a uma resposta imunológica predominantemente Th2 (com produção de IL-4, IL-13 e IL-31, esta última diretamente implicada no prurido característico), perpetua o ciclo de inflamação e coceira-lesão.",
+    classificacao:
+      "Classificada por faixa etária conforme a distribuição típica das lesões: fase infantil (face, couro cabeludo, superfícies extensoras), fase da infância tardia/adulta (superfícies flexurais — fossas antecubitais e poplíteas, pescoço); também classificada por gravidade (leve, moderada, grave) para orientar a escolha terapêutica.",
+    quadroClinico: [
+      "Prurido intenso, sintoma mais proeminente e frequentemente desproporcional à aparência visual das lesões, motor central do ciclo coceira-lesão",
+      "Lesões eczematosas (eritema, pápulas, vesículas em fase aguda; liquenificação em fase crônica pelo coçar repetitivo) de distribuição flexural característica em crianças maiores e adultos",
+      "Pele seca (xerose) generalizada, achado constante que reflete a disfunção de barreira subjacente",
+      "Escoriações e liquenificação secundárias ao ato repetitivo de coçar, achados de cronicidade",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico, baseado em critérios estabelecidos considerando prurido, morfologia e distribuição típica das lesões, cronicidade/recidiva e história pessoal ou familiar de atopia",
+      "Não há exame laboratorial confirmatório específico; a IgE sérica pode estar elevada mas não é necessária nem suficiente para o diagnóstico",
+    ],
+    examesComplementares: [
+      "Testes de alergia (cutâneos ou IgE específica) em casos selecionados quando há suspeita de gatilho alergênico específico contribuindo para exacerbações",
+      "Cultura de lesões com suspeita de infecção secundária (mais comumente por Staphylococcus aureus), dado que a pele lesada é mais suscetível a colonização/infecção bacteriana",
+    ],
+    diagnosticoDiferencial: [
+      "Dermatite de contato (alérgica ou irritativa), distinguida por relação temporal com exposição a substância específica e distribuição correspondente à área de contato",
+      "Psoríase, distinguida pela distribuição tipicamente extensora (versus flexural) e por escamas mais espessas e prateadas",
+      "Escabiose, distinguida pela distribuição característica (espaços interdigitais, região genital) e pela identificação do ácaro/lesões patognomônicas",
+    ],
+    tratamento: [
+      "Hidratação cutânea regular e intensiva com emolientes, medida fundamental de base para restauração da função de barreira, indicada em todos os graus de gravidade",
+      "Corticosteroides tópicos, tratamento anti-inflamatório de primeira linha para exacerbações, com potência ajustada à gravidade e à localização da lesão",
+      "Inibidores tópicos de calcineurina como alternativa/complemento aos corticosteroides tópicos, particularmente úteis em áreas sensíveis (face, dobras) onde o uso prolongado de corticosteroide é mais preocupante",
+      "Terapia sistêmica (imunossupressores convencionais ou agentes biológicos direcionados à via Th2, como o dupilumabe) reservada para casos moderados a graves refratários ao tratamento tópico",
+    ],
+    complicacoes: [
+      "Aguda: infecção secundária (impetiginização) por Staphylococcus aureus ou, mais raramente, eczema herpético (infecção disseminada por vírus herpes simples, emergência dermatológica)",
+      "Crônica: liquenificação, impacto significativo na qualidade de vida e no sono pelo prurido crônico, progressão da marcha atópica para asma/rinite alérgica em alguns pacientes",
+    ],
+    redFlags: [
+      "Vesículas monomórficas dolorosas com aspecto em 'saca-bocado' associadas a mal-estar sistêmico em paciente com dermatite atópica sugerem eczema herpético, emergência dermatológica que exige tratamento antiviral imediato",
+      "Lesões com secreção purulenta e crostas melicéricas sugerem infecção bacteriana secundária, exigindo tratamento antimicrobiano além das medidas habituais",
+    ],
+    prognostico:
+      "Favorável na maioria das crianças, com remissão parcial ou completa até a adolescência; casos que persistem ou iniciam na vida adulta tendem a ter curso mais crônico, mas o amplo arsenal terapêutico atual permite bom controle sintomático na maioria dos pacientes.",
+    pontosDeProva: [
+      "Mutações no gene da filagrina comprometem a barreira cutânea e são o principal substrato genético reconhecido da dermatite atópica",
+      "A distribuição das lesões muda conforme a idade: face/extensora na infância precoce, flexural (fossas antecubitais/poplíteas) em crianças maiores e adultos",
+      "A hidratação cutânea regular com emolientes é medida de base fundamental, independentemente da gravidade, e não substituível apenas pelo tratamento anti-inflamatório",
+    ],
+    casoClinico: {
+      vinheta:
+        "Criança, 4 anos, com história de asma, apresenta lesões eczematosas pruriginosas nas fossas antecubitais e poplíteas há vários meses, com períodos de melhora e piora.",
+      pergunta: "Qual o diagnóstico mais provável e a conduta terapêutica de base?",
+      raciocinio:
+        "Lesões eczematosas pruriginosas de distribuição flexural, com curso crônico e recidivante, em criança com história pessoal de outra condição atópica (asma), são características de dermatite atópica, refletindo a predisposição imunológica compartilhada da marcha atópica.",
+      conduta:
+        "Iniciar hidratação cutânea intensiva e regular com emolientes como medida de base; prescrever corticosteroide tópico de potência apropriada para as exacerbações; orientar a família sobre a natureza crônica e recidivante da condição.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os emolientes, corticosteroides tópicos, inibidores tópicos de calcineurina e agentes biológicos (dupilumabe) ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Fisiopatologia da disfunção de barreira (filagrina) e desregulação Th2", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Escalonamento terapêutico e reconhecimento de complicações infecciosas (eczema herpético)", fonte: "AAD Guidelines of Care for the Management of Atopic Dermatitis, 2014" },
+    ],
+  },
+  {
+    slug: "melanoma-maligno-pele",
+    nome: "Melanoma maligno da pele",
+    sinonimos: ["Melanoma cutâneo"],
+    cid10: "C43",
+    especialidade: "Dermatologia",
+    etiologia: "Neoplásica",
+    resumo: "Neoplasia maligna originada dos melanócitos, a mais letal das neoplasias cutâneas comuns pelo seu potencial precoce de disseminação metastática, mas altamente curável quando detectada e excisada em fase inicial.",
+    definicao:
+      "Neoplasia maligna originada da transformação dos melanócitos (células produtoras de melanina), capaz de invasão local precoce e disseminação metastática linfática e hematogênica, sendo o prognóstico diretamente determinado pela profundidade de invasão vertical no momento do diagnóstico.",
+    epidemiologia:
+      "Incidência crescente nas últimas décadas, associada principalmente à exposição à radiação ultravioleta (exposição solar intensa intermitente, especialmente com queimaduras solares na infância, e uso de câmaras de bronzeamento artificial); outros fatores de risco incluem fototipo cutâneo claro, múltiplos nevos melanocíticos ou nevos atípicos, história pessoal ou familiar de melanoma e imunossupressão.",
+    fisiopatologia:
+      "A radiação ultravioleta induz dano direto ao DNA dos melanócitos (mutações características, incluindo em genes como BRAF, presente em uma proporção substancial dos casos), promovendo transformação maligna; o melanoma progride tipicamente através de uma fase de crescimento radial inicial (confinada à epiderme e derme papilar superficial, com excelente prognóstico se excisada nessa fase) para uma fase de crescimento vertical (invasão dérmica mais profunda, com acesso a vasos linfáticos e sanguíneos e risco substancialmente maior de metástase).",
+    classificacao:
+      "Classificado histologicamente em extensivo superficial (o subtipo mais comum), nodular (crescimento vertical precoce, sem fase radial reconhecível, geralmente diagnosticado em estádio mais avançado), lentigo maligno (em áreas cronicamente fotoexpostas de idosos) e acral lentiginoso (palmas, plantas, subungueal, o subtipo predominante em pessoas de pele mais escura); estadiado pelo sistema TNM, com a espessura de Breslow (profundidade de invasão vertical em milímetros) sendo o fator prognóstico histológico isolado mais importante.",
+    quadroClinico: [
+      "Lesão pigmentada com características de alarme segundo a regra ABCDE: Assimetria, Bordas irregulares, Coloração variegada, Diâmetro maior que 6 mm, Evolução/mudança ao longo do tempo",
+      "Sinal do 'patinho feio' (lesão pigmentada que se destaca visualmente das demais lesões pigmentadas do mesmo paciente), heurística clínica complementar útil de rastreamento",
+      "Sangramento, ulceração ou prurido em lesão pigmentada pré-existente, achados que reforçam a suspeita de transformação maligna",
+      "Linfonodo regional palpável em doença com disseminação linfática já estabelecida",
+    ],
+    diagnostico: [
+      "Biópsia excisional completa da lesão suspeita (com margens estreitas apropriadas para diagnóstico, não excisão terapêutica ampla nesse momento), exame confirmatório e que permite determinar a espessura de Breslow, fator prognóstico central",
+      "Dermatoscopia como ferramenta auxiliar de triagem para aumentar a acurácia da seleção de lesões para biópsia",
+    ],
+    examesComplementares: [
+      "Biópsia de linfonodo sentinela, indicada conforme a espessura de Breslow e outras características histológicas, para estadiamento e identificação de disseminação linfática subclínica",
+      "Teste para mutação BRAF em doença metastática, com implicação terapêutica direta (indicação de terapia-alvo dirigida) quando positivo",
+    ],
+    diagnosticoDiferencial: [
+      "Nevo melanocítico atípico (displásico), lesão benigna que pode compartilhar características morfológicas preocupantes, distinguida definitivamente apenas por biópsia quando há dúvida",
+      "Ceratose seborreica pigmentada, lesão benigna comum que pode mimetizar melanoma, geralmente distinguida clinicamente por dermatoscopia experiente",
+      "Carcinoma basocelular pigmentado, distinguido histologicamente quando há dúvida diagnóstica clínica",
+    ],
+    tratamento: [
+      "Excisão cirúrgica ampla com margens determinadas pela espessura de Breslow, tratamento definitivo para doença localizada, associada a biópsia de linfonodo sentinela quando indicada",
+      "Imunoterapia (inibidores de checkpoint imunológico) e, quando aplicável, terapia-alvo dirigida à mutação BRAF, tratamentos sistêmicos que revolucionaram o prognóstico da doença metastática nas últimas décadas",
+      "Linfadenectomia terapêutica reservada para doença linfonodal clinicamente evidente ou biópsia de linfonodo sentinela positiva, conforme protocolos atuais",
+    ],
+    complicacoes: [
+      "Aguda: sangramento e ulceração da lesão primária",
+      "Crônica: metástase a distância (pulmão, fígado, encéfalo, osso), principal determinante de mortalidade, refletindo o potencial de disseminação hematogênica precoce característico dessa neoplasia",
+    ],
+    redFlags: [
+      "Qualquer lesão pigmentada com características ABCDE ou com mudança recente documentada deve ser prontamente avaliada e, quando indicado, biopsiada, dado o potencial de disseminação metastática precoce se não tratada em fase inicial",
+      "Melanoma nodular carece da fase de crescimento radial reconhecível das demais formas, podendo ser diagnosticado tardiamente pela ausência do sinal de alarme visual gradual — deve ser especificamente considerado diante de lesão pigmentada elevada de crescimento rápido",
+    ],
+    prognostico:
+      "Excelente (sobrevida próxima de 100% em 5 anos) quando diagnosticado e excisado em fase inicial (fina espessura de Breslow, sem disseminação linfática); o prognóstico piora progressivamente com o aumento da espessura de Breslow e a presença de disseminação linfonodal ou metastática, refletindo a importância central do diagnóstico precoce.",
+    pontosDeProva: [
+      "A espessura de Breslow (profundidade de invasão vertical) é o fator prognóstico histológico isolado mais importante do melanoma",
+      "A regra ABCDE (Assimetria, Bordas, Cor, Diâmetro, Evolução) é a heurística clínica padrão de rastreamento de lesões pigmentadas suspeitas",
+      "O melanoma nodular carece de fase de crescimento radial reconhecível, podendo ser diagnosticado em estádio mais avançado pela ausência desse sinal de alarme gradual",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 55 anos, fototipo claro, apresenta lesão pigmentada no dorso com bordas irregulares, coloração variegada (marrom e preta) e diâmetro de 8 mm, que o paciente relata ter mudado de aspecto nos últimos meses.",
+      pergunta: "Qual a conduta diagnóstica apropriada?",
+      raciocinio:
+        "Lesão pigmentada preenchendo múltiplos critérios ABCDE (bordas irregulares, coloração variegada, diâmetro maior que 6 mm, evolução relatada) é altamente suspeita de melanoma, exigindo biópsia excisional completa para confirmação histológica e determinação da espessura de Breslow.",
+      conduta:
+        "Realizar biópsia excisional completa da lesão com margens estreitas apropriadas para diagnóstico; conforme a espessura de Breslow confirmada, planejar excisão ampla definitiva e considerar biópsia de linfonodo sentinela.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é cirúrgico, com imunoterapia e terapia-alvo (anti-BRAF) reservadas para doença avançada/metastática; nenhum desses componentes ainda tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia da progressão radial-vertical e classificação histológica", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Regra ABCDE, espessura de Breslow como fator prognóstico e papel da imunoterapia/terapia-alvo", fonte: "NCCN Clinical Practice Guidelines in Oncology, Cutaneous Melanoma" },
+    ],
+  },
+  {
+    slug: "outras-neoplasias-malignas-pele-basocelular-espinocelular",
+    nome: "Outras neoplasias malignas da pele (carcinoma basocelular e espinocelular)",
+    sinonimos: ["Carcinoma basocelular", "Carcinoma espinocelular", "Câncer de pele não melanoma"],
+    cid10: "C44",
+    especialidade: "Dermatologia",
+    etiologia: "Neoplásica",
+    resumo: "As neoplasias malignas cutâneas mais comuns, originadas de queratinócitos, associadas à exposição solar cumulativa, com comportamento biológico muito menos agressivo que o melanoma e excelente prognóstico quando tratadas adequadamente.",
+    definicao:
+      "Grupo de neoplasias malignas cutâneas não melanocíticas originadas de queratinócitos, compreendendo o carcinoma basocelular (originado da camada basal da epiderme, o mais comum e de comportamento localmente invasivo, mas raramente metastático) e o carcinoma espinocelular (originado de queratinócitos suprabasais, com maior, embora ainda relativamente baixo, potencial metastático que o basocelular).",
+    epidemiologia:
+      "As neoplasias malignas mais comuns em humanos, com o carcinoma basocelular sendo consideravelmente mais frequente que o espinocelular; ambos fortemente associados à exposição cumulativa à radiação ultravioleta ao longo da vida, sendo mais comuns em pessoas de pele clara, idade avançada e com história de exposição solar ocupacional/recreacional significativa.",
+    fisiopatologia:
+      "O dano actínico cumulativo ao DNA dos queratinócitos, acumulado ao longo de décadas de exposição solar, leva a mutações que ativam vias oncogênicas (via Hedgehog no carcinoma basocelular, mutações de p53 e outras em ambos os tipos); o carcinoma espinocelular frequentemente surge sobre lesões precursoras identificáveis (ceratose actínica), enquanto o basocelular tipicamente surge de novo, sem lesão precursora reconhecível.",
+    classificacao:
+      "Carcinoma basocelular subdividido morfologicamente em nodular (o mais comum, lesão perolada com telangiectasias), superficial e esclerodermiforme (mais infiltrativo e de margens menos definidas); carcinoma espinocelular subdividido em in situ (doença de Bowen, restrito à epiderme) e invasivo, este último com potencial metastático, ainda que baixo, particularmente relevante em lesões de lábio, orelha ou em pacientes imunossuprimidos.",
+    quadroClinico: [
+      "Carcinoma basocelular: pápula ou nódulo perolado, translúcido, com telangiectasias superficiais visíveis e, frequentemente, ulceração central ('úlcera roedora'), tipicamente em áreas fotoexpostas (face, especialmente nariz e região periorbital)",
+      "Carcinoma espinocelular: pápula ou placa eritematosa, hiperqueratósica ou ulcerada, de crescimento mais rápido que o basocelular, também predominantemente em áreas fotoexpostas",
+      "Ambos: crescimento lento e progressivo na maioria dos casos, com ulceração e sangramento ocasional à medida que a lesão aumenta de tamanho",
+    ],
+    diagnostico: [
+      "Biópsia cutânea (incisional ou excisional conforme o tamanho da lesão), exame confirmatório definitivo que também orienta o subtipo histológico e a agressividade",
+      "Dermatoscopia como ferramenta auxiliar de triagem, identificando padrões característicos de cada tipo tumoral",
+    ],
+    examesComplementares: [
+      "Avaliação linfonodal regional em carcinoma espinocelular de alto risco (lesões grandes, localização em lábio/orelha, ou em pacientes imunossuprimidos), dado o maior potencial metastático relativo nessas situações",
+    ],
+    diagnosticoDiferencial: [
+      "Ceratose actínica, lesão precursora do carcinoma espinocelular, distinguida pela ausência de invasão à biópsia quando há dúvida clínica",
+      "Nevo melanocítico ou ceratose seborreica, lesões benignas que podem mimetizar clinicamente o carcinoma basocelular nodular, distinguidas por biópsia quando há dúvida",
+      "Melanoma amelanótico (não pigmentado), diagnóstico diferencial importante de lesão nodular não pigmentada, exigindo biópsia para exclusão definitiva",
+    ],
+    tratamento: [
+      "Excisão cirúrgica com margens apropriadas, tratamento padrão para a maioria das lesões, com excelente taxa de cura",
+      "Cirurgia micrográfica de Mohs, técnica de escolha para lesões em áreas de alto risco estético/funcional (face) ou de subtipo histológico mais agressivo, permitindo máxima preservação tecidual com controle completo das margens",
+      "Terapias alternativas (curetagem e eletrodissecção, criocirurgia, terapia fotodinâmica, imiquimode tópico) para lesões superficiais selecionadas de baixo risco",
+      "Terapia sistêmica (inibidores da via Hedgehog no basocelular avançado, imunoterapia no espinocelular avançado/metastático) reservada para os raros casos de doença localmente avançada ou metastática",
+    ],
+    complicacoes: [
+      "Aguda: sangramento e ulceração da lesão",
+      "Crônica: invasão local extensa e destrutiva quando não tratada por longo período (especialmente carcinoma basocelular esclerodermiforme), metástase (rara, mas mais relevante no carcinoma espinocelular de alto risco)",
+    ],
+    redFlags: [
+      "Lesão espinocelular em lábio, orelha, ou em paciente imunossuprimido carrega risco metastático relativamente maior e deve ser tratada com margem de segurança e vigilância apropriadas",
+      "Lesão de crescimento rápido, ulcerada e não pigmentada deve sempre incluir melanoma amelanótico no diagnóstico diferencial antes de se assumir tratamento como carcinoma basocelular/espinocelular",
+    ],
+    prognostico:
+      "Excelente para a grande maioria dos casos com excisão adequada, dado o comportamento biológico muito menos agressivo que o melanoma; o carcinoma basocelular raramente metastatiza, e mesmo o carcinoma espinocelular, quando tratado em fase inicial, tem prognóstico muito favorável.",
+    pontosDeProva: [
+      "O carcinoma basocelular tipicamente surge de novo sem lesão precursora, enquanto o carcinoma espinocelular frequentemente surge sobre ceratose actínica preexistente",
+      "Cirurgia micrográfica de Mohs é a técnica de escolha para lesões em áreas de alto risco estético/funcional, permitindo controle completo de margens com máxima preservação tecidual",
+      "Apesar de serem as neoplasias malignas mais comuns, ambas têm comportamento biológico muito menos agressivo que o melanoma, com potencial metastático baixo (especialmente o basocelular)",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 68 anos, agricultor com história de exposição solar ocupacional significativa, apresenta pápula perolada com telangiectasias visíveis e ulceração central na região nasal, de crescimento lento há 1 ano.",
+      pergunta: "Qual o diagnóstico mais provável e a conduta apropriada?",
+      raciocinio:
+        "Pápula perolada com telangiectasias e ulceração central ('úlcera roedora') em área fotoexposta, com crescimento lento em paciente com exposição solar ocupacional significativa, é característica de carcinoma basocelular.",
+      conduta:
+        "Realizar biópsia para confirmação histológica; dado a localização em área de alto risco estético/funcional (região nasal), considerar cirurgia micrográfica de Mohs para excisão com controle completo de margens e máxima preservação tecidual.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento primário é cirúrgico (excisão, cirurgia de Mohs); o imiquimode tópico e as terapias sistêmicas para doença avançada ainda não têm ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia do dano actínico cumulativo e diferenças entre os subtipos", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Indicações de cirurgia micrográfica de Mohs e estratificação de risco no carcinoma espinocelular", fonte: "NCCN Clinical Practice Guidelines in Oncology, Basal Cell Skin Cancer / Squamous Cell Skin Cancer" },
+    ],
+  },
+  {
+    slug: "impetigo",
+    nome: "Impetigo",
+    sinonimos: ["Impetigo contagioso"],
+    cid10: "L01",
+    especialidade: "Dermatologia",
+    etiologia: "Bacteriana",
+    resumo: "Infecção bacteriana superficial e altamente contagiosa da pele, mais comum em crianças, causada por Staphylococcus aureus e/ou Streptococcus pyogenes, classicamente apresentando lesões com crostas melicéricas características.",
+    definicao:
+      "Infecção bacteriana superficial da epiderme, altamente contagiosa, causada mais comumente por Staphylococcus aureus e, em menor proporção, por Streptococcus pyogenes (isoladamente ou em coinfecção), classificada em não bolhoso (a forma mais comum) e bolhoso (mediado por toxina esfoliativa estafilocócica).",
+    epidemiologia:
+      "Mais comum em crianças em idade pré-escolar e escolar, com maior incidência em climas quentes e úmidos e em condições de aglomeração e higiene precária, que facilitam a transmissão por contato direto ou por fômites.",
+    fisiopatologia:
+      "A forma não bolhosa resulta da invasão bacteriana direta da epiderme através de solução de continuidade cutânea preexistente (picada de inseto, escoriação, lesão traumática menor), com resposta inflamatória local levando à formação da lesão característica; a forma bolhosa é mediada por toxinas esfoliativas produzidas por cepas específicas de Staphylococcus aureus, que clivam a desmogleína 1 na camada superficial da epiderme, causando a formação de bolhas flácidas superficiais sem necessidade de porta de entrada preexistente.",
+    classificacao:
+      "Classificado em não bolhoso (a forma mais comum, cerca de 70% dos casos, com lesões papulovesiculares que evoluem para crostas melicéricas características) e bolhoso (bolhas flácidas superficiais que se rompem facilmente, deixando colarete descamativo, mais comum em neonatos e lactentes).",
+    quadroClinico: [
+      "Impetigo não bolhoso: pápulas ou vesículas que evoluem rapidamente para pústulas e depois para lesões com crostas espessas, aderentes e de coloração amarelo-dourada (crostas melicéricas), tipicamente em face e extremidades",
+      "Impetigo bolhoso: bolhas flácidas superficiais que se rompem facilmente, deixando erosão superficial com colarete descamativo residual, sem crosta espessa característica",
+      "Lesões geralmente não dolorosas e com prurido variável, sem sintomas sistêmicos significativos na maioria dos casos não complicados",
+    ],
+    diagnostico: [
+      "Diagnóstico eminentemente clínico, pela morfologia característica das lesões (crostas melicéricas no tipo não bolhoso, bolhas flácidas no tipo bolhoso)",
+      "Cultura de secreção da lesão em casos recorrentes, refratários ao tratamento empírico inicial, ou quando há suspeita de infecção por cepa resistente",
+    ],
+    examesComplementares: [
+      "Nenhum exame complementar é rotineiramente necessário para o diagnóstico na maioria dos casos típicos e não complicados",
+    ],
+    diagnosticoDiferencial: [
+      "Herpes simples cutâneo, distinguido pela morfologia vesicular agrupada sobre base eritematosa e pela dor característica, ao contrário das crostas indolores do impetigo",
+      "Dermatite atópica com infecção secundária (impetiginização), distinguida pela história prévia de eczema crônico no local acometido",
+      "Varicela, distinguida pela distribuição mais difusa e pelo aspecto de lesões em diferentes estágios evolutivos simultaneamente",
+    ],
+    tratamento: [
+      "Mupirocina tópica, tratamento de primeira linha para doença localizada e não extensa, com boa eficácia e mínima exposição sistêmica",
+      "Antibioticoterapia oral (cobrindo Staphylococcus aureus e Streptococcus pyogenes) reservada para doença mais extensa, numerosas lesões, ou falha do tratamento tópico",
+      "Medidas de higiene (lavagem das lesões, corte de unhas, evitar compartilhamento de toalhas/roupas) para reduzir a autoinoculação e a transmissão a contactantes",
+    ],
+    complicacoes: [
+      "Aguda: extensão e disseminação local das lesões por autoinoculação (coçar e tocar outras áreas)",
+      "Rara, mas relevante: glomerulonefrite pós-estreptocócica quando a etiologia envolve cepas nefritogênicas de Streptococcus pyogenes, complicação sistêmica tardia que reforça a importância do reconhecimento e tratamento adequados",
+    ],
+    redFlags: [
+      "Impetigo por Streptococcus pyogenes carrega risco, ainda que incomum, de glomerulonefrite pós-estreptocócica como sequela tardia, não prevenível pelo tratamento antibiótico da pele (ao contrário da febre reumática após faringite estreptocócica)",
+      "Extensão rápida das lesões associada a sinais sistêmicos (febre, mal-estar) deve motivar reavaliação para celulite ou infecção mais profunda sobreposta",
+    ],
+    prognostico:
+      "Excelente com tratamento apropriado, com resolução completa na grande maioria dos casos sem sequelas; a principal preocupação de longo prazo é a rara mas reconhecida associação com glomerulonefrite pós-estreptocócica quando a etiologia é estreptocócica.",
+    pontosDeProva: [
+      "Crostas melicéricas (amarelo-douradas) são o achado morfológico clássico e mais característico do impetigo não bolhoso",
+      "O impetigo bolhoso é mediado por toxina esfoliativa estafilocócica (clivagem da desmogleína 1), não exigindo porta de entrada traumática preexistente, ao contrário da forma não bolhosa",
+      "Ao contrário da faringite estreptocócica, o tratamento antibiótico do impetigo não previne a glomerulonefrite pós-estreptocócica, embora previna a transmissão a contactantes",
+    ],
+    casoClinico: {
+      vinheta:
+        "Criança, 5 anos, apresenta lesões papulovesiculares na região perioral que evoluíram para crostas espessas de coloração amarelo-dourada nos últimos 3 dias, sem febre ou outros sintomas sistêmicos.",
+      pergunta: "Qual o diagnóstico mais provável e o tratamento de primeira linha?",
+      raciocinio:
+        "Lesões evoluindo para crostas melicéricas características, sem sintomas sistêmicos, em criança em idade escolar são compatíveis com impetigo não bolhoso, quadro de doença localizada que responde bem ao tratamento tópico.",
+      conduta:
+        "Prescrever mupirocina tópica para as lesões, orientar medidas de higiene para reduzir autoinoculação e transmissão a contactantes; reservar antibioticoterapia oral para casos mais extensos ou refratários.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina-clavulanato", nome: "Amoxicilina + Clavulanato" },
+    ],
+    medicamentosSecaoTitulo: "Opção oral para doença extensa ou refratária ao tratamento tópico (mupirocina tópica é a primeira linha para doença localizada)",
+    medicamentosNota:
+      "A mupirocina tópica, tratamento de primeira linha para a maioria dos casos localizados, ainda não tem ficha própria documentada no site; a amoxicilina + clavulanato é opção oral razoável quando há indicação de tratamento sistêmico.",
+    fontes: [
+      { tema: "Fisiopatologia da toxina esfoliativa no impetigo bolhoso e classificação clínica", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Tratamento de primeira linha e associação com glomerulonefrite pós-estreptocócica", fonte: "IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections, 2014" },
+    ],
+  },
+  {
+    slug: "celulite-flegmao",
+    nome: "Celulite e flegmão",
+    sinonimos: ["Celulite bacteriana", "Erisipela"],
+    cid10: "L03",
+    especialidade: "Dermatologia",
+    etiologia: "Bacteriana",
+    resumo: "Infecção bacteriana aguda da derme profunda e do tecido subcutâneo, mais comumente causada por estreptococos ou Staphylococcus aureus, manifestando-se como área de eritema, calor e edema mal delimitados, tipicamente em membros inferiores.",
+    definicao:
+      "Infecção bacteriana aguda que acomete a derme profunda e o tecido subcutâneo, distinta da erisipela (infecção mais superficial, restrita à derme superior e aos vasos linfáticos dérmicos, com lesão mais elevada e nitidamente demarcada), embora ambas frequentemente sejam consideradas em conjunto na prática clínica pela sobreposição de apresentação e tratamento.",
+    epidemiologia:
+      "Extremamente comum, com fatores de risco incluindo solução de continuidade cutânea prévia (ferida, picada de inseto, tinea pedis interdigital), edema linfático ou venoso crônico, obesidade e imunossupressão; recorrência é comum em pacientes com fatores predisponentes não corrigidos (linfedema, insuficiência venosa crônica).",
+    fisiopatologia:
+      "Bactérias (mais comumente estreptococos beta-hemolíticos do grupo A e Staphylococcus aureus) penetram através de solução de continuidade na barreira cutânea e se disseminam pela derme e tecido subcutâneo, desencadeando resposta inflamatória local intensa (eritema, calor, edema, dor) sem, tipicamente, formação de coleção purulenta localizada (o que distingue a celulite do abscesso).",
+    classificacao:
+      "Classificada em purulenta (associada a drenagem purulenta, abscesso concomitante, ou lesão penetrante, mais associada a Staphylococcus aureus, incluindo cepas resistentes à meticilina) e não purulenta (a apresentação mais comum, sem essas características, mais associada a estreptococos); a erisipela é considerada uma forma mais superficial e circunscrita dentro desse espectro.",
+    quadroClinico: [
+      "Área de eritema, calor, edema e dor de bordas mal definidas (celulite) ou nitidamente demarcadas e elevadas (erisipela), tipicamente em membros inferiores",
+      "Linfangite (estrias eritematosas lineares) e linfadenopatia regional associadas em uma proporção dos casos, refletindo disseminação pelos vasos linfáticos",
+      "Febre e mal-estar sistêmico podem acompanhar quadros mais extensos, embora uma proporção significativa dos casos permaneça afebril",
+    ],
+    diagnostico: [
+      "Diagnóstico eminentemente clínico, pela combinação de eritema, calor, edema e dor de instalação aguda, geralmente sem necessidade de exames complementares em casos típicos e não complicados",
+      "Identificação da porta de entrada (ferida, tinea pedis interdigital) quando presente, relevante tanto para o diagnóstico quanto para orientar medidas preventivas de recorrência",
+    ],
+    examesComplementares: [
+      "Hemocultura reservada para pacientes com sinais sistêmicos significativos, imunossupressão, ou suspeita de bacteremia, dado que a maioria dos casos localizados e não complicados não requer essa investigação",
+      "Cultura de secreção purulenta, quando presente, para orientar ajuste da antibioticoterapia conforme sensibilidade",
+    ],
+    diagnosticoDiferencial: [
+      "Trombose venosa profunda, principal diagnóstico diferencial de edema e dor unilateral de membro inferior, distinguida pela ausência de eritema/calor tão proeminentes e confirmada por ultrassonografia com Doppler quando há dúvida",
+      "Dermatite de estase venosa, condição crônica que pode mimetizar celulite mas sem instalação aguda e sem resposta a antibioticoterapia",
+      "Fasciíte necrosante, diagnóstico diferencial crítico e de emergência absoluta, sugerido por dor desproporcional ao exame físico, bolhas hemorrágicas, crepitação, e deterioração sistêmica rápida",
+    ],
+    tratamento: [
+      "Celulite não purulenta: antibioticoterapia empírica dirigida a estreptococos (e cobertura adicional para Staphylococcus aureus conforme gravidade e fatores de risco), como amoxicilina/amoxicilina-clavulanato em casos leves a moderados",
+      "Celulite purulenta ou com fatores de risco para Staphylococcus aureus resistente à meticilina: antibioticoterapia com cobertura específica adicional conforme perfil de resistência local",
+      "Elevação do membro acometido, medida adjuvante que auxilia na redução do edema e acelera a resolução",
+      "Tratamento de condições predisponentes identificadas (tinea pedis interdigital, insuficiência venosa) para redução do risco de recorrência",
+    ],
+    complicacoes: [
+      "Aguda: abscesso subjacente, bacteremia/sepse em casos mais extensos ou em pacientes imunossuprimidos, fasciíte necrosante (rara, mas com evolução potencialmente fatal)",
+      "Crônica: episódios recorrentes em pacientes com fatores predisponentes não corrigidos, podendo levar a dano linfático progressivo e linfedema crônico secundário",
+    ],
+    redFlags: [
+      "Dor desproporcional ao exame físico, bolhas hemorrágicas, crepitação ou deterioração sistêmica rápida devem motivar suspeita imediata de fasciíte necrosante, emergência cirúrgica com necessidade de desbridamento imediato",
+      "Sinais sistêmicos significativos (febre alta, taquicardia, hipotensão) associados à celulite devem motivar avaliação para bacteremia e consideração de tratamento hospitalar com antibioticoterapia intravenosa",
+    ],
+    prognostico:
+      "Excelente com antibioticoterapia apropriada na maioria dos casos, com resolução completa; a recorrência é comum quando fatores predisponentes (linfedema, insuficiência venosa, tinea pedis) não são identificados e tratados concomitantemente.",
+    pontosDeProva: [
+      "A celulite acomete a derme profunda e o subcutâneo, enquanto a erisipela é mais superficial (derme superior e linfáticos dérmicos), explicando a borda mais nitidamente demarcada e elevada desta última",
+      "Celulite purulenta é mais associada a Staphylococcus aureus (incluindo cepas resistentes à meticilina), enquanto a forma não purulenta é mais associada a estreptococos",
+      "Dor desproporcional ao exame físico é o sinal de alerta mais importante para diferenciação precoce de fasciíte necrosante",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 55 anos, diabético, apresenta área de eritema, calor e edema de bordas mal definidas na perna direita, associada a febre baixa, há 2 dias. Identifica-se tinea pedis interdigital no mesmo membro.",
+      pergunta: "Qual o diagnóstico mais provável, a provável porta de entrada e o tratamento indicado?",
+      raciocinio:
+        "Eritema, calor e edema de instalação aguda em membro inferior, associados a porta de entrada identificável (tinea pedis interdigital), são característicos de celulite bacteriana não purulenta, mais comumente por estreptococos.",
+      conduta:
+        "Iniciar antibioticoterapia empírica dirigida a estreptococos; tratar concomitantemente a tinea pedis interdigital para reduzir o risco de recorrência; orientar elevação do membro acometido.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina-clavulanato", nome: "Amoxicilina + Clavulanato" },
+    ],
+    medicamentosNota:
+      "A amoxicilina + clavulanato é opção razoável para celulite não purulenta leve a moderada; esquemas com cobertura específica para Staphylococcus aureus resistente à meticilina, quando indicados, ainda não têm ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia e distinção entre celulite e erisipela por profundidade de acometimento", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Classificação purulenta versus não purulenta e escolha antibiótica empírica", fonte: "IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections, 2014" },
+    ],
+  },
+  {
+    slug: "urticaria",
+    nome: "Urticária",
+    sinonimos: ["Urticária aguda", "Urticária crônica"],
+    cid10: "L50",
+    especialidade: "Dermatologia",
+    etiologia: "Multifatorial",
+    resumo: "Erupção cutânea pruriginosa caracterizada por pápulas e placas eritematosas evanescentes (urticas), decorrente da degranulação de mastócitos dérmicos, classificada em aguda (a maioria, autolimitada) e crônica (persistindo além de 6 semanas).",
+    definicao:
+      "Erupção cutânea caracterizada por lesões papulosas ou em placa, eritematosas ou de coloração da pele, pruriginosas, de caráter evanescente (cada lesão individual dura tipicamente menos de 24 horas, embora novas lesões continuem a surgir), classificada em aguda (duração até 6 semanas) e crônica (além de 6 semanas).",
+    epidemiologia:
+      "Acomete uma proporção significativa da população ao longo da vida, com a forma aguda sendo consideravelmente mais comum que a crônica; na urticária aguda, causas identificáveis incluem infecções virais (a mais comum, especialmente em crianças), alimentos, medicamentos e picadas de inseto, enquanto na urticária crônica espontânea, a maioria dos casos permanece sem causa externa identificável.",
+    fisiopatologia:
+      "A lesão urticariforme resulta da degranulação de mastócitos dérmicos, com liberação de histamina e outros mediadores inflamatórios que causam vasodilatação e aumento da permeabilidade vascular (formando a pápula/placa edematosa) e estimulação de terminações nervosas sensoriais (causando o prurido característico); a degranulação pode ser desencadeada por mecanismo IgE-mediado (alérgeno específico), por ativação direta não imunológica dos mastócitos, ou, na urticária crônica espontânea, por autoanticorpos contra o receptor de IgE ou contra a própria IgE em uma proporção significativa dos casos.",
+    classificacao:
+      "Classificada temporalmente em aguda (até 6 semanas de duração, a mais comum) e crônica (além de 6 semanas, subdividida em espontânea, quando não há gatilho externo identificável, e induzível, quando há gatilho físico específico como frio, pressão, ou exercício).",
+    quadroClinico: [
+      "Pápulas ou placas eritematosas, pruriginosas, de tamanho e forma variáveis, com caráter migratório e evanescente característico (lesões individuais resolvem em menos de 24 horas sem deixar marca residual)",
+      "Angioedema associado em uma proporção dos casos, caracterizado por edema mais profundo (derme profunda/subcutâneo), tipicamente acometendo face, lábios ou extremidades, geralmente sem prurido significativo",
+      "Ausência de descamação ou alteração de coloração residual após resolução de cada lesão individual, achado que distingue a urticária verdadeira de outras erupções cutâneas",
+    ],
+    diagnostico: [
+      "Diagnóstico eminentemente clínico, pela morfologia e pelo caráter evanescente característico das lesões",
+      "Investigação etiológica direcionada pela história clínica na urticária aguda (exposição a alimento, medicamento, infecção recente); na urticária crônica espontânea, investigação extensa geralmente não identifica causa específica e não é rotineiramente recomendada além de uma avaliação básica",
+    ],
+    examesComplementares: [
+      "Testes de alergia (cutâneos ou IgE específica) reservados para casos com história sugestiva de gatilho alergênico específico, não indicados rotineiramente na urticária crônica espontânea sem gatilho suspeito",
+      "Biópsia cutânea reservada para lesões atípicas (persistindo além de 24 horas, deixando hiperpigmentação residual, ou associadas a dor em vez de prurido), para exclusão de vasculite urticariforme",
+    ],
+    diagnosticoDiferencial: [
+      "Vasculite urticariforme, diagnóstico diferencial importante quando as lesões persistem além de 24 horas, são dolorosas em vez de pruriginosas, ou deixam hiperpigmentação residual, achados que devem motivar biópsia",
+      "Eritema multiforme, distinguido pela morfologia em alvo característica e pela distribuição típica em extremidades",
+      "Dermatite de contato, distinguida pela distribuição correspondente à área de exposição e pela ausência do caráter evanescente característico da urticária",
+    ],
+    tratamento: [
+      "Anti-histamínicos H1 de segunda geração (não sedantes), tratamento de primeira linha tanto para urticária aguda quanto crônica, podendo ter a dose aumentada (até 4 vezes a dose padrão) em casos refratários à dose habitual",
+      "Identificação e remoção do gatilho identificado, quando aplicável (medicamento, alimento específico)",
+      "Omalizumabe (anticorpo monoclonal anti-IgE), tratamento de segunda linha eficaz para urticária crônica espontânea refratária a doses otimizadas de anti-histamínico",
+      "Corticosteroide sistêmico em curto prazo reservado para exacerbações agudas graves, não recomendado para uso crônico continuado pelo perfil de efeitos adversos",
+    ],
+    complicacoes: [
+      "Aguda: angioedema envolvendo estruturas de via aérea superior (raro, mas potencialmente fatal quando ocorre), anafilaxia quando a urticária é parte de uma reação alérgica sistêmica mais ampla",
+      "Crônica: impacto significativo na qualidade de vida e no sono pelo prurido persistente na forma crônica",
+    ],
+    redFlags: [
+      "Lesões que persistem além de 24 horas, são dolorosas (em vez de pruriginosas), ou deixam hiperpigmentação residual não são urticária típica e devem motivar investigação para vasculite urticariforme",
+      "Angioedema envolvendo língua, lábios ou via aérea superior, especialmente com dificuldade respiratória associada, é emergência que exige avaliação e tratamento imediatos para exclusão de anafilaxia",
+    ],
+    prognostico:
+      "Excelente para a urticária aguda, com resolução completa em dias a poucas semanas na maioria dos casos; a urticária crônica espontânea tem curso mais prolongado e variável, mas a maioria dos casos eventualmente entra em remissão espontânea ao longo de meses a poucos anos, com bom controle sintomático disponível através do tratamento escalonado.",
+    pontosDeProva: [
+      "O caráter evanescente (cada lesão individual dura menos de 24 horas, sem deixar marca residual) é a característica definidora que distingue a urticária verdadeira de outras erupções, incluindo a vasculite urticariforme",
+      "Anti-histamínicos H1 de segunda geração são o tratamento de primeira linha, podendo ter a dose aumentada até 4 vezes antes de se considerar tratamento de segunda linha",
+      "Na urticária crônica espontânea, autoanticorpos contra o receptor de IgE ou contra a própria IgE explicam uma proporção significativa dos casos sem gatilho externo identificável",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 34 anos, apresenta pápulas eritematosas pruriginosas, migratórias, que surgem e desaparecem ao longo do dia (cada lesão durando poucas horas), há 8 semanas, sem gatilho identificável.",
+      pergunta: "Qual a classificação desse quadro e o tratamento de primeira linha?",
+      raciocinio:
+        "Lesões urticariformes evanescentes persistindo além de 6 semanas, sem gatilho externo identificável, caracterizam urticária crônica espontânea, quadro que responde ao mesmo tratamento de primeira linha da forma aguda.",
+      conduta:
+        "Iniciar anti-histamínico H1 de segunda geração em dose padrão, com possibilidade de aumento de dose (até 4 vezes) se resposta inadequada; considerar omalizumabe caso permaneça refratária.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os anti-histamínicos H1 de segunda geração, tratamento de primeira linha, e o omalizumabe, opção de segunda linha, ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Fisiopatologia da degranulação mastocitária e mecanismos na urticária crônica espontânea", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Escalonamento terapêutico (anti-histamínico em dose aumentada, omalizumabe) e critérios diagnósticos temporais", fonte: "EAACI/GA²LEN/EuroGuiDerm/APAAACI Guideline for the Definition, Classification, Diagnosis, and Management of Urticaria, 2022" },
+    ],
+  },
+  {
+    slug: "penfigo",
+    nome: "Pênfigo",
+    sinonimos: ["Pênfigo vulgar", "Pênfigo foliáceo"],
+    cid10: "L10",
+    especialidade: "Dermatologia",
+    etiologia: "Autoimune",
+    resumo: "Grupo de doenças bolhosas autoimunes graves da pele e mucosas, causadas por autoanticorpos contra proteínas de adesão intercelular dos queratinócitos (desmogleínas), com o pênfigo vulgar sendo a forma mais comum e potencialmente fatal se não tratada.",
+    definicao:
+      "Grupo de doenças bolhosas autoimunes raras, causadas por autoanticorpos IgG dirigidos contra desmogleínas (proteínas desmossômicas responsáveis pela adesão entre queratinócitos), resultando em perda da coesão intercelular epidérmica (acantólise) e formação de bolhas intraepidérmicas flácidas e frágeis.",
+    epidemiologia:
+      "Doença rara, mas potencialmente fatal se não tratada, com pico de incidência entre a quinta e sexta décadas de vida; sem predileção de sexo marcante, com variação de incidência geográfica (mais comum em algumas populações mediterrâneas e judaicas, refletindo predisposição genética associada a determinados haplótipos HLA).",
+    fisiopatologia:
+      "Autoanticorpos IgG dirigidos contra a desmogleína 3 (predominantemente, no pênfigo vulgar com acometimento mucoso) e/ou desmogleína 1 (predominantemente, no pênfigo foliáceo, forma mais superficial e sem acometimento mucoso significativo) rompem a adesão desmossômica entre queratinócitos, causando acantólise (perda de coesão celular) e formação de bolhas intraepidérmicas flácidas, que se rompem facilmente pela fragilidade do teto da bolha.",
+    classificacao:
+      "Classificado principalmente em pênfigo vulgar (a forma mais comum e mais grave, com acometimento mucoso proeminente, frequentemente a primeira manifestação, decorrente de anticorpos anti-desmogleína 3, por vezes também anti-desmogleína 1) e pênfigo foliáceo (mais superficial, restrito à pele, sem acometimento mucoso, decorrente de anticorpos anti-desmogleína 1 isolados).",
+    quadroClinico: [
+      "Pênfigo vulgar: erosões orais dolorosas, frequentemente a manifestação inicial e por vezes isolada por meses antes do acometimento cutâneo, seguidas de bolhas cutâneas flácidas e frágeis que se rompem rapidamente, deixando erosões dolorosas",
+      "Sinal de Nikolsky positivo (descolamento da epiderme aparentemente normal com pressão lateral tangencial), achado característico que reflete a fragilidade da adesão intraepidérmica",
+      "Pênfigo foliáceo: erosões e crostas superficiais, sem bolhas íntegras evidentes (pela extrema superficialidade e fragilidade da bolha) e sem acometimento de mucosas",
+    ],
+    diagnostico: [
+      "Biópsia cutânea com histopatologia mostrando acantólise e bolha intraepidérmica em nível característico para cada subtipo (suprabasal no pênfigo vulgar, subcórneo no foliáceo)",
+      "Imunofluorescência direta de pele perilesional, exame confirmatório padrão-ouro, demonstrando depósito de IgG (e frequentemente C3) no padrão intercelular epidérmico ('em favo de mel' ou 'em rede de pesca')",
+    ],
+    examesComplementares: [
+      "Imunofluorescência indireta e ELISA para anticorpos anti-desmogleína 1 e 3 séricos, exames que auxiliam tanto no diagnóstico quanto na monitorização da atividade da doença e da resposta terapêutica ao longo do tempo",
+    ],
+    diagnosticoDiferencial: [
+      "Penfigoide bolhoso, principal diagnóstico diferencial bolhoso autoimune, distinguido por bolhas tensas (não flácidas), acometimento mucoso menos proeminente, e depósito de anticorpos na membrana basal (não intercelular) à imunofluorescência",
+      "Eritema multiforme e síndrome de Stevens-Johnson, diagnósticos diferenciais de lesões mucocutâneas erosivas, distinguidos por contexto clínico (frequentemente relacionado a medicamento ou infecção) e achados histopatológicos distintos",
+      "Estomatite aftosa recorrente, diagnóstico diferencial das erosões orais isoladas, distinguida pela ausência de acantólise à biópsia quando há dúvida",
+    ],
+    tratamento: [
+      "Corticosteroide sistêmico em dose alta, tratamento de primeira linha para controle inicial da atividade da doença, historicamente associado a redução significativa da mortalidade antes considerada muito elevada",
+      "Rituximabe (anticorpo monoclonal anti-CD20), atualmente recomendado como tratamento de primeira linha em associação ao corticosteroide para a maioria dos pacientes, por permitir remissão mais duradoura e redução da dose cumulativa de corticosteroide necessária",
+      "Imunossupressores poupadores de corticosteroide (azatioprina, micofenolato de mofetila) como alternativa ou complemento em casos selecionados",
+      "Cuidados de suporte para as lesões mucocutâneas extensas (analgesia, prevenção de infecção secundária), especialmente relevantes na doença mais extensa",
+    ],
+    complicacoes: [
+      "Aguda: infecção secundária das erosões extensas, distúrbios hidroeletrolíticos em doença muito extensa (perda de função de barreira cutânea semelhante a grande queimado)",
+      "Crônica: complicações relacionadas ao uso prolongado de corticosteroide sistêmico e imunossupressores quando necessários por período prolongado",
+    ],
+    redFlags: [
+      "Erosões orais dolorosas persistentes e inexplicadas devem incluir pênfigo vulgar no diagnóstico diferencial, dado que frequentemente precedem o acometimento cutâneo por semanas a meses",
+      "Doença extensa e não tratada carrega risco de mortalidade significativo (historicamente elevado antes da disponibilidade de corticosteroide sistêmico e, mais recentemente, rituximabe), refletindo a gravidade potencial da condição",
+    ],
+    prognostico:
+      "Substancialmente melhorado com o tratamento moderno (corticosteroide associado a rituximabe), permitindo remissão prolongada ou completa em uma proporção significativa dos pacientes; antes da era do corticosteroide sistêmico, a mortalidade era muito elevada, refletindo a gravidade intrínseca da doença não tratada.",
+    pontosDeProva: [
+      "O sinal de Nikolsky positivo reflete a fragilidade da adesão intraepidérmica e é característico (embora não exclusivo) do pênfigo",
+      "Pênfigo vulgar (anti-desmogleína 3, acometimento mucoso proeminente) e pênfigo foliáceo (anti-desmogleína 1, sem acometimento mucoso) são as duas formas principais, distinguidas pelo alvo antigênico e pelo nível da bolha",
+      "Rituximabe é atualmente recomendado como tratamento de primeira linha associado ao corticosteroide, não apenas como opção de resgate para casos refratários",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 52 anos, apresenta erosões orais dolorosas persistentes há 2 meses, seguidas do surgimento de bolhas cutâneas flácidas que se rompem facilmente, deixando erosões dolorosas no tronco.",
+      pergunta: "Qual o diagnóstico mais provável e o exame confirmatório de escolha?",
+      raciocinio:
+        "Erosões orais precedendo bolhas cutâneas flácidas e frágeis é o padrão clássico de apresentação do pênfigo vulgar, devendo ser confirmado por biópsia com imunofluorescência direta demonstrando o padrão intercelular característico.",
+      conduta:
+        "Realizar biópsia de pele perilesional para imunofluorescência direta e histopatologia convencional para confirmação diagnóstica; iniciar corticosteroide sistêmico em dose alta associado a rituximabe conforme confirmação.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "prednisona", nome: "Prednisona" },
+    ],
+    medicamentosSecaoTitulo: "Componente corticoide do tratamento de primeira linha (associado a rituximabe na maioria dos protocolos atuais)",
+    medicamentosNota:
+      "O rituximabe, hoje recomendado em associação ao corticosteroide como tratamento de primeira linha, ainda não tem ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia dos autoanticorpos anti-desmogleína e distinção entre pênfigo vulgar e foliáceo", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Rituximabe como tratamento de primeira linha associado ao corticosteroide", fonte: "Joly P et al., First-line rituximab combined with short-term prednisone versus prednisone alone for the treatment of pemphigus, The Lancet, 2017" },
+    ],
+  },
+  {
+    slug: "dermatite-seborreica",
+    nome: "Dermatite seborreica",
+    sinonimos: ["Caspa", "Eczema seborreico"],
+    cid10: "L21",
+    especialidade: "Dermatologia",
+    etiologia: "Multifatorial",
+    resumo: "Dermatose inflamatória crônica comum, associada à proliferação da levedura Malassezia em áreas ricas em glândulas sebáceas, causando descamação e eritema em couro cabeludo, face e outras regiões seborreicas.",
+    definicao:
+      "Dermatose inflamatória crônica e recidivante que acomete áreas ricas em glândulas sebáceas (couro cabeludo, face, especialmente sulcos nasolabiais e sobrancelhas, e região pré-esternal), caracterizada por eritema e descamação untuosa amarelada, associada à proliferação do fungo comensal Malassezia.",
+    epidemiologia:
+      "Extremamente comum, com distribuição bimodal: forma infantil (crosta láctea, tipicamente autolimitada nos primeiros meses de vida) e forma do adulto (mais crônica e recidivante, com pico entre 30-60 anos); mais prevalente e frequentemente mais grave em pacientes imunossuprimidos, particularmente naqueles vivendo com HIV, e em pacientes com doença de Parkinson.",
+    fisiopatologia:
+      "A levedura lipofílica Malassezia, componente normal da flora cutânea, prolifera em resposta à produção de sebo nas áreas seborreicas, e seus metabólitos (ácidos graxos livres gerados pela lipase fúngica atuando sobre os lipídios sebáceos) desencadeiam resposta inflamatória cutânea em indivíduos predispostos, embora a quantidade absoluta de Malassezia não se correlacione diretamente com a gravidade clínica, sugerindo papel adicional de suscetibilidade imunológica individual.",
+    classificacao:
+      "Classificada por faixa etária em forma infantil (crosta láctea, geralmente autolimitada) e forma do adulto (crônica e recidivante); também descrita por localização (couro cabeludo, facial, do tronco), com variação na gravidade e na resposta terapêutica conforme o sítio acometido.",
+    quadroClinico: [
+      "Descamação untuosa, amarelada, sobre base eritematosa, tipicamente em couro cabeludo (caspa quando leve, sem eritema significativo), sulcos nasolabiais, sobrancelhas e região pré-esternal",
+      "Prurido variável, geralmente leve a moderado, menos proeminente que na dermatite atópica",
+      "Crosta láctea na forma infantil, tipicamente autolimitada e resolvendo espontaneamente nos primeiros meses de vida sem necessidade de tratamento agressivo",
+      "Curso crônico e recidivante na forma adulta, com exacerbações frequentemente associadas a estresse, mudanças climáticas e certas estações do ano",
+    ],
+    diagnostico: [
+      "Diagnóstico eminentemente clínico, pela distribuição característica (áreas seborreicas) e pela morfologia da descamação (untuosa e amarelada)",
+      "Biópsia cutânea raramente necessária, reservada para casos atípicos ou refratários ao tratamento onde há dúvida diagnóstica",
+    ],
+    examesComplementares: [
+      "Considerar rastreamento para HIV em casos de dermatite seborreica extensa, atípica ou refratária, especialmente em adultos jovens sem outros fatores de risco identificados, dado a associação reconhecida com imunossupressão",
+    ],
+    diagnosticoDiferencial: [
+      "Psoríase de couro cabeludo, distinguida pelas escamas mais espessas e prateadas (versus untuosas e amareladas na dermatite seborreica), embora sobreposição clínica seja comum ('sebopsoríase')",
+      "Dermatite atópica, distinguida pela distribuição tipicamente flexural e pelo prurido geralmente mais proeminente",
+      "Tinea capitis, distinguida pela presença de alopecia e confirmada por exame micológico quando há dúvida diagnóstica",
+    ],
+    tratamento: [
+      "Antifúngicos tópicos (cetoconazol ou outros derivados azólicos em xampu ou creme), tratamento de primeira linha, dirigido à redução da colonização por Malassezia",
+      "Corticosteroide tópico de baixa potência para controle da inflamação em exacerbações agudas, geralmente em curso curto pelo risco de efeitos adversos locais com uso prolongado em face",
+      "Xampus com agentes queratolíticos (ácido salicílico, alcatrão) como opção adjuvante para couro cabeludo com descamação mais espessa",
+    ],
+    complicacoes: [
+      "Aguda: infecção secundária bacteriana das lesões escoriadas pelo coçar",
+      "Crônica: impacto estético e psicossocial pela cronicidade e visibilidade das lesões faciais, curso recidivante ao longo da vida na forma adulta",
+    ],
+    redFlags: [
+      "Dermatite seborreica súbita, extensa ou atípica em adulto jovem sem fatores de risco conhecidos deve motivar consideração de rastreamento para HIV, dado que a doença pode ser mais grave e extensa em contexto de imunossupressão",
+    ],
+    prognostico:
+      "Excelente controle sintomático com tratamento tópico apropriado, embora a doença tenha caráter crônico e recidivante na forma adulta, exigindo manutenção intermitente do tratamento; a forma infantil (crosta láctea) tipicamente resolve espontaneamente sem necessidade de tratamento prolongado.",
+    pontosDeProva: [
+      "A levedura Malassezia tem papel central na fisiopatologia, mas a quantidade absoluta do fungo não se correlaciona diretamente com a gravidade clínica, sugerindo suscetibilidade individual adicional",
+      "Dermatite seborreica extensa e atípica em adulto jovem deve levantar suspeita de imunossupressão subjacente, particularmente infecção por HIV",
+      "Antifúngicos tópicos (não apenas corticosteroides) são o tratamento de primeira linha, refletindo o papel etiológico central da Malassezia",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 35 anos, apresenta descamação untuosa e amarelada em couro cabeludo, sulcos nasolabiais e sobrancelhas, com prurido leve, há vários meses, com períodos de melhora e piora.",
+      pergunta: "Qual o diagnóstico mais provável e o tratamento de primeira linha?",
+      raciocinio:
+        "Descamação untuosa e amarelada em distribuição característica de áreas seborreicas (couro cabeludo, sulcos nasolabiais, sobrancelhas), com curso crônico e recidivante, é compatível com dermatite seborreica do adulto.",
+      conduta:
+        "Prescrever antifúngico tópico (cetoconazol em xampu/creme) como tratamento de primeira linha; associar corticosteroide tópico de baixa potência em curso curto para as exacerbações mais inflamatórias.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os antifúngicos tópicos (cetoconazol) e os corticosteroides tópicos de baixa potência, tratamentos de primeira linha, ainda não têm suas fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Papel da Malassezia e fisiopatologia da resposta inflamatória cutânea", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Associação com imunossupressão/HIV e tratamento antifúngico tópico de primeira linha", fonte: "American Family Physician, Diagnosis and Treatment of Seborrheic Dermatitis, 2015" },
+    ],
+  },
+  {
+    slug: "dermatite-alergica-contato",
+    nome: "Dermatite alérgica de contato",
+    sinonimos: ["Eczema de contato alérgico"],
+    cid10: "L23",
+    especialidade: "Dermatologia",
+    etiologia: "Multifatorial",
+    resumo: "Reação de hipersensibilidade tipo IV (mediada por células T) da pele a um alérgeno específico de contato, causando lesão eczematosa pruriginosa restrita à área de exposição, com o níquel sendo um dos alérgenos mais comuns identificados.",
+    definicao:
+      "Reação inflamatória cutânea decorrente de hipersensibilidade tipo IV (retardada, mediada por linfócitos T) a um alérgeno específico após contato direto com a pele, exigindo sensibilização prévia (exposição inicial sem reação clínica, seguida de exposições subsequentes que desencadeiam a resposta inflamatória).",
+    epidemiologia:
+      "Extremamente comum, com alérgenos frequentes incluindo níquel (joias, fivelas), fragrâncias e conservantes em cosméticos, látex, e plantas (como a hera venenosa em populações com exposição); o níquel é classicamente um dos alérgenos de contato mais comumente identificados em testes de contato (patch tests) em diversas populações.",
+    fisiopatologia:
+      "Após exposição inicial (fase de sensibilização), o alérgeno (geralmente um hapteno de baixo peso molecular) penetra a epiderme e é processado por células de Langerhans, que o apresentam a linfócitos T virgens nos linfonodos regionais, gerando células de memória; em exposições subsequentes (fase de eliciação), essas células T de memória são reativadas na pele, desencadeando uma resposta inflamatória mediada por citocinas que se manifesta clinicamente após 24 a 72 horas da reexposição.",
+    classificacao:
+      "Classificada quanto ao padrão temporal em aguda (eritema, vesiculação, exsudação, em exposição recente ou intensa) e crônica (liquenificação, descamação, em exposição repetida de baixo grau); também categorizada pelo alérgeno identificado (níquel, fragrâncias, látex, plantas, entre outros) quando investigada.",
+    quadroClinico: [
+      "Lesão eczematosa pruriginosa (eritema, vesículas em fase aguda; liquenificação em fase crônica) restrita e bem correlacionada com a área de contato com o alérgeno, achado central que orienta a suspeita etiológica",
+      "Distribuição geométrica ou com bordas nitidamente demarcadas correspondendo ao objeto ou substância de contato (por exemplo, faixa circular no pulso por relógio contendo níquel), achado característico que auxilia a diferenciação de outras dermatoses",
+      "Latência de 24 a 72 horas entre a reexposição ao alérgeno e o surgimento das lesões, refletindo a natureza retardada (tipo IV) da reação",
+    ],
+    diagnostico: [
+      "Anamnese detalhada de exposições ocupacionais, cosméticas e de contato, correlacionando temporalmente com o surgimento e a distribuição das lesões",
+      "Teste de contato (patch test), exame padrão-ouro para identificação do(s) alérgeno(s) específico(s) responsável(is), particularmente indicado em casos crônicos, recorrentes, ou quando a causa não é evidente pela história clínica",
+    ],
+    examesComplementares: [
+      "Bateria padronizada de alérgenos comuns no teste de contato, permitindo triagem sistemática mesmo quando o alérgeno suspeito não é evidente pela anamnese isolada",
+    ],
+    diagnosticoDiferencial: [
+      "Dermatite de contato irritativa, mecanismo não imunológico (lesão química/física direta, sem necessidade de sensibilização prévia), mais comum que a forma alérgica mas distinguida principalmente pela história de exposição e pela ausência de latência de sensibilização",
+      "Dermatite atópica, distinguida pela distribuição tipicamente flexural (não correspondente a um padrão de contato específico) e por história pessoal/familiar de atopia",
+      "Tinea corporis, distinguida por bordas ativas com crescimento centrífugo e confirmada por exame micológico quando há dúvida",
+    ],
+    tratamento: [
+      "Identificação e evitação do alérgeno causal, medida mais importante e definitiva, sem a qual o tratamento sintomático isolado tende a ser apenas paliativo com recorrências frequentes",
+      "Corticosteroide tópico, tratamento anti-inflamatório de primeira linha para as lesões agudas e crônicas, com potência ajustada à localização e gravidade",
+      "Corticosteroide sistêmico em curto curso reservado para casos extensos ou graves (como dermatite de contato alérgica generalizada por planta), quando o tratamento tópico isolado é insuficiente",
+    ],
+    complicacoes: [
+      "Aguda: infecção secundária de lesões escoriadas pelo coçar",
+      "Crônica: liquenificação e impacto na qualidade de vida quando a exposição ao alérgeno não identificado ou não evitável é contínua, resultando em dermatite persistente",
+    ],
+    redFlags: [
+      "A falha em identificar e evitar o alérgeno causal resulta em recorrência contínua da dermatite apesar do tratamento anti-inflamatório repetido, reforçando a importância central do teste de contato em casos crônicos ou recorrentes",
+      "Dermatite de contato ocupacional não reconhecida pode levar a exposição continuada e cronificação, com impacto na capacidade laboral do paciente",
+    ],
+    prognostico:
+      "Excelente quando o alérgeno causal é identificado e efetivamente evitado, com resolução completa das lesões; a persistência da exposição ao alérgeno não identificado resulta em curso crônico e recidivante, mesmo com tratamento anti-inflamatório sintomático repetido.",
+    pontosDeProva: [
+      "A dermatite alérgica de contato é uma reação de hipersensibilidade tipo IV (mediada por células T, retardada), exigindo sensibilização prévia, ao contrário da dermatite de contato irritativa (mecanismo não imunológico direto)",
+      "O teste de contato (patch test) é o exame padrão-ouro para identificação do alérgeno específico responsável, especialmente relevante em casos crônicos ou recorrentes",
+      "A distribuição geométrica ou nitidamente demarcada correspondendo ao objeto de contato é a pista clínica mais característica para a suspeita diagnóstica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Mulher, 29 anos, apresenta lesão eczematosa pruriginosa em faixa circular no pulso, correspondendo exatamente à área de contato com um relógio, com início cerca de 2 dias após começar a usar o acessório novo.",
+      pergunta: "Qual o diagnóstico mais provável e a conduta terapêutica e investigativa apropriada?",
+      raciocinio:
+        "Lesão eczematosa com distribuição geométrica correspondendo precisamente à área de contato com um objeto metálico, com latência de dias após a exposição, é característica de dermatite alérgica de contato, com o níquel sendo um alérgeno comumente implicado em relógios e joias.",
+      conduta:
+        "Orientar a suspensão do uso do relógio (evitação do alérgeno suspeito); prescrever corticosteroide tópico para as lesões; considerar teste de contato (patch test) para confirmação do alérgeno específico se houver recorrência com outros itens metálicos.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Os corticosteroides tópicos, tratamento de primeira linha, ainda não têm ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia da hipersensibilidade tipo IV (sensibilização e eliciação)", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Papel do teste de contato (patch test) e alérgenos mais comuns (níquel)", fonte: "North American Contact Dermatitis Group Patch Test Results, 2021-2022" },
+    ],
+  },
+  {
+    slug: "abscesso-cutaneo-furunculo-antraz",
+    nome: "Abscesso cutâneo, furúnculo e antraz",
+    sinonimos: ["Furunculose", "Carbúnculo cutâneo"],
+    cid10: "L02",
+    especialidade: "Dermatologia",
+    etiologia: "Bacteriana",
+    resumo: "Infecções piogênicas cutâneas localizadas centradas em folículos pilosos (furúnculo, antraz) ou em tecido mole (abscesso), causadas predominantemente por Staphylococcus aureus, cujo tratamento primário é a drenagem, com antibioticoterapia adjuvante em casos selecionados.",
+    definicao:
+      "Espectro de infecções piogênicas localizadas da pele: furúnculo (infecção profunda de um único folículo piloso com necrose e formação de coleção purulenta central), antraz/carbúnculo (coalescência de múltiplos furúnculos adjacentes, formando massa inflamatória com múltiplos pontos de drenagem) e abscesso cutâneo (coleção purulenta localizada na derme/subcutâneo, não necessariamente centrada em folículo piloso).",
+    epidemiologia:
+      "Extremamente comuns, com Staphylococcus aureus (incluindo cepas resistentes à meticilina adquiridas na comunidade, cuja prevalência tem aumentado significativamente) sendo o agente etiológico predominante; fatores de risco incluem obesidade, diabetes mellitus, hiperidrose, fricção cutânea em áreas intertriginosas e colonização nasal por Staphylococcus aureus.",
+    fisiopatologia:
+      "A infecção se inicia tipicamente na unidade pilossebácea (furúnculo) ou em local de solução de continuidade cutânea (abscesso), com proliferação bacteriana levando à formação de coleção purulenta circundada por tecido inflamado; o antraz resulta da extensão da infecção através do tecido subcutâneo conectando múltiplos folículos adjacentes, formando uma massa com múltiplos trajetos de drenagem à superfície.",
+    classificacao:
+      "Classificado em furúnculo (folículo único), antraz/carbúnculo (múltiplos folículos coalescentes, tipicamente em região de pele espessa como nuca e dorso, associado a maior repercussão sistêmica) e abscesso cutâneo (coleção purulenta não necessariamente folicular); também classificado quanto à presença de sinais sistêmicos de infecção, que orientam a necessidade de antibioticoterapia adjuvante à drenagem.",
+    quadroClinico: [
+      "Nódulo eritematoso, doloroso e flutuante, evoluindo para coleção purulenta central com ponto de drenagem espontânea, achado característico do furúnculo e do abscesso",
+      "Antraz: massa inflamatória maior e mais dolorosa que o furúnculo isolado, com múltiplos pontos de drenagem purulenta na superfície, frequentemente acompanhada de febre e mal-estar sistêmico mais proeminentes que nas lesões isoladas",
+      "Furunculose recorrente (múltiplos episódios) sugere colonização nasal persistente por Staphylococcus aureus ou fator predisponente sistêmico não corrigido (diabetes, obesidade)",
+    ],
+    diagnostico: [
+      "Diagnóstico eminentemente clínico, pela identificação de nódulo/massa flutuante e dolorosa com sinais inflamatórios característicos",
+      "Cultura de secreção purulenta, particularmente relevante em lesões recorrentes, extensas, ou com sinais sistêmicos significativos, para identificação de cepas resistentes e orientação da antibioticoterapia quando indicada",
+    ],
+    examesComplementares: [
+      "Rastreamento de diabetes mellitus em casos de furunculose recorrente sem outro fator predisponente identificado",
+      "Cultura de swab nasal para colonização por Staphylococcus aureus em casos de furunculose recorrente, para orientar medidas de descolonização quando indicado",
+    ],
+    diagnosticoDiferencial: [
+      "Cisto epidermoide inflamado, lesão cística benigna que pode se inflamar e mimetizar abscesso, distinguida pela presença de ponto central (poro) e conteúdo caseoso característico quando não infectado",
+      "Hidradenite supurativa, condição crônica recorrente de abscessos em áreas intertriginosas (axilas, região inguinal), distinguida pelo padrão recorrente característico e pela formação de trajetos fistulosos e cicatrizes",
+    ],
+    tratamento: [
+      "Incisão e drenagem, tratamento primário e mais importante para abscesso e furúnculo com coleção purulenta madura, sendo a antibioticoterapia isolada insuficiente sem a drenagem mecânica da coleção",
+      "Antibioticoterapia sistêmica adjuvante à drenagem indicada em lesões extensas, múltiplas, com celulite circundante significativa, sinais sistêmicos de infecção, ou em pacientes imunocomprometidos, com cobertura considerando a possibilidade de Staphylococcus aureus resistente à meticilina conforme o perfil epidemiológico local",
+      "Compressas mornas como medida adjuvante para acelerar a maturação e drenagem espontânea de lesões ainda não flutuantes",
+      "Descolonização nasal (mupirocina intranasal) e medidas de higiene em casos de furunculose recorrente associada a colonização persistente por Staphylococcus aureus",
+    ],
+    complicacoes: [
+      "Aguda: celulite circundante, bacteremia/sepse em casos extensos ou em pacientes imunocomprometidos",
+      "Crônica: furunculose recorrente quando fatores predisponentes (colonização nasal, diabetes, obesidade) não são identificados e corrigidos",
+    ],
+    redFlags: [
+      "Antraz com sinais sistêmicos significativos (febre alta, mal-estar importante) exige avaliação para necessidade de antibioticoterapia sistêmica além da drenagem, diferentemente do furúnculo isolado não complicado",
+      "Furunculose recorrente deve motivar investigação de fatores predisponentes (diabetes, colonização nasal por Staphylococcus aureus) para prevenção de novos episódios",
+    ],
+    prognostico:
+      "Excelente com drenagem apropriada, isolada ou associada a antibioticoterapia quando indicada, com resolução completa na grande maioria dos casos; a recorrência é a principal preocupação de longo prazo quando fatores predisponentes não são identificados e corrigidos.",
+    pontosDeProva: [
+      "A incisão e drenagem é o tratamento primário e mais importante para abscesso/furúnculo com coleção purulenta madura — antibioticoterapia isolada sem drenagem é insuficiente para lesões já flutuantes",
+      "Staphylococcus aureus resistente à meticilina adquirido na comunidade é uma causa cada vez mais prevalente, devendo ser considerado na escolha da antibioticoterapia adjuvante quando indicada",
+      "Furunculose recorrente deve motivar investigação de colonização nasal persistente por Staphylococcus aureus e de diabetes mellitus subjacente",
+    ],
+    casoClinico: {
+      vinheta:
+        "Homem, 40 anos, obeso, apresenta nódulo doloroso e flutuante na nuca há 4 dias, que evoluiu para massa maior com múltiplos pontos de drenagem purulenta na superfície, associada a febre de 38,3°C.",
+      pergunta: "Qual o diagnóstico mais provável e a conduta terapêutica apropriada?",
+      raciocinio:
+        "Massa inflamatória com múltiplos pontos de drenagem purulenta, maior e mais sintomática que um furúnculo isolado, associada a febre, é característica de antraz/carbúnculo, exigindo drenagem associada a antibioticoterapia sistêmica dada a repercussão sistêmica presente.",
+      conduta:
+        "Realizar incisão e drenagem da coleção; associar antibioticoterapia sistêmica dado o sinal sistêmico de infecção (febre); investigar diabetes mellitus como possível fator predisponente dado o contexto de obesidade.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "amoxicilina-clavulanato", nome: "Amoxicilina + Clavulanato" },
+    ],
+    medicamentosSecaoTitulo: "Antibioticoterapia adjuvante à drenagem quando indicada (drenagem é o tratamento primário)",
+    medicamentosNota:
+      "A amoxicilina + clavulanato é uma opção quando há indicação de antibioticoterapia adjuvante; esquemas com cobertura específica para Staphylococcus aureus resistente à meticilina, quando o perfil local exige, ainda não têm ficha própria documentada no site.",
+    fontes: [
+      { tema: "Fisiopatologia da infecção pilossebácea e classificação furúnculo/antraz/abscesso", fonte: "Robbins & Cotran, Patologia Básica" },
+      { tema: "Indicação de drenagem como tratamento primário e critérios para antibioticoterapia adjuvante", fonte: "IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections, 2014" },
     ],
   },
 ];

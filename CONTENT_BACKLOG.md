@@ -15,7 +15,7 @@ Fontes:
   está, o único item da lista ainda pendente por esse motivo.
 
 Já documentados com ficha completa (**fora deste backlog**, não repetir):
-- **Doenças (181):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
+- **Doenças (281):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
   · Dengue · COVID-19 · Gastrite · DRGE · Artrite reumatoide · LES · Alzheimer · Anemia
   ferropriva · DRC · Infarto agudo do miocárdio · Angina pectoris · Doença isquêmica
   crônica do coração · Fibrilação e flutter atrial · Parada cardíaca · Febre reumática ·
@@ -70,13 +70,68 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   obsessivo-compulsivo · Transtorno de estresse pós-traumático ·
   Transtornos da alimentação · Transtornos por uso de álcool · Transtornos
   por uso de opiáceos · Delirium não induzido pelo álcool · Transtorno de
-  déficit de atenção e hiperatividade
-- **Medicamentos (29):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
+  déficit de atenção e hiperatividade · Otite externa · Cerume impactado e
+  corpo estranho do conduto · Otite média serosa · Otite média aguda
+  supurativa e crônica · Disfunção da tuba auditiva · Mastoidite ·
+  Colesteatoma · Perfuração timpânica · Timpanosclerose · Otosclerose ·
+  Transtornos da função vestibular · Outros transtornos do ouvido interno ·
+  Perda auditiva · Otalgia e secreção auditiva · Zumbido · Nasofaringite
+  aguda · Sinusite aguda · Faringite aguda · Amigdalite aguda · Laringite e
+  traqueíte agudas · Rinite alérgica e vasomotora · Rinite/nasofaringite/
+  faringite crônicas · Sinusite crônica · Pólipo nasal · Desvio de septo
+  nasal · Hipertrofia de amígdalas e adenoides · Abscesso periamigdaliano ·
+  Laringite e laringotraqueíte crônicas · Doenças das cordas vocais e da
+  laringe · Abscesso retrofaríngeo · Neoplasia maligna da cavidade oral ·
+  Neoplasia maligna das glândulas salivares · Neoplasia maligna da
+  orofaringe e tonsila · Neoplasia maligna da nasofaringe · Neoplasia
+  maligna da hipofaringe · Neoplasia maligna nasossinusal · Neoplasia
+  maligna da laringe · Doença inflamatória pélvica (salpingite e ooforite)
+  · Cervicite · Bartolinite · Vaginite e vulvite · Endometriose · Prolapso
+  de órgãos pélvicos · Cistos ovarianos e torção anexial · Pólipos do
+  trato genital feminino · Miomatose uterina · Displasia cervical (NIC) ·
+  Líquen escleroso e outras distrofias vulvares · Amenorreia · Sangramento
+  uterino anormal (incluindo menorragia) · Dismenorreia e síndrome
+  pré-menstrual · Abortamento habitual · Infertilidade feminina ·
+  Transtornos da menopausa e da perimenopausa · Neoplasia maligna do colo
+  do útero · Neoplasia maligna do corpo do útero · Neoplasia maligna do
+  ovário · Neoplasia maligna da vulva · Neoplasia maligna da vagina ·
+  Neoplasia maligna da mama · Mola hidatiforme · Neoplasia maligna da
+  placenta (coriocarcinoma) · Gravidez ectópica · Aborto espontâneo ·
+  Hipertensão gestacional com proteinúria (pré-eclâmpsia) · Eclâmpsia ·
+  Diabetes mellitus na gravidez (gestacional) · Distúrbios hipertensivos
+  crônicos e gestacionais leves da gravidez · Hemorragia do início da
+  gravidez (ameaça de abortamento) · Hiperêmese gravídica · Complicações
+  venosas na gravidez (TVP gestacional) · Infecções do trato geniturinário
+  na gravidez · Gestação múltipla e suas complicações · Apresentação fetal
+  anômala · Distúrbios do volume de líquido amniótico (poli-hidrâmnio e
+  oligoidrâmnio) · Ruptura prematura de membranas · Placenta prévia ·
+  Descolamento prematuro de placenta · Gravidez prolongada (pós-termo) ·
+  Trabalho de parto pré-termo · Distócia funcional (anormalidades da
+  contração e progressão) · Distócia mecânica (desproporção céfalo-pélvica
+  e malapresentação) · Sofrimento fetal intraparto · Complicações do
+  cordão umbilical (prolapso de cordão) · Lacerações e traumatismos
+  obstétricos do parto · Hemorragia pós-parto · Infecção puerperal
+  (endometrite pós-parto) · Embolia de líquido amniótico · Mastite
+  puerperal e outras afecções da mama e lactação · Psoríase · Dermatite
+  atópica · Melanoma maligno da pele · Outras neoplasias malignas da pele
+  (basocelular e espinocelular) · Impetigo · Celulite e flegmão ·
+  Urticária · Pênfigo · Dermatite seborreica · Dermatite alérgica de
+  contato · Abscesso cutâneo, furúnculo e antraz
+- **Medicamentos (58):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
   Enalapril · Budesonida inalatória · Espironolactona · Carvedilol · Dapagliflozina ·
   Levotiroxina sódica · Esquema RIPE · Metotrexato · Hidroxicloroquina · Donepezila ·
-  Memantina · Sulfato ferroso · Dexametasona
+  Memantina · Sulfato ferroso · Dexametasona · Digoxina · Bissulfato de clopidogrel ·
+  Atorvastatina cálcica · Hidroclorotiazida · Furosemida · Cloridrato de propranolol ·
+  Succinato/tartarato de metoprolol · Dinitrato de isossorbida · Mononitrato de
+  isossorbida · Cloridrato de amiodarona · Besilato de anlodipino · Cloridrato de
+  verapamil · Cloridrato de hidralazina · Metildopa · Mesilato de doxazosina ·
+  Cloridrato de dobutamina · Nifedipino · Estreptoquinase · Alteplase · Sacubitril +
+  valsartana sódica hidratada · Ácido acetilsalicílico (AAS) · Glibenclamida ·
+  Gliclazida · Propiltiouracila · Tiamazol (metimazol) · Succinato sódico de
+  hidrocortisona · Fosfato sódico de prednisolona · Insulina análoga (ação
+  prolongada/rápida) · Sulfato de magnésio
 
 ---
 
@@ -299,39 +354,168 @@ especialidade.
 12. concluído — Delirium não induzido pelo álcool (F05)
 13. concluído — Transtornos hipercinéticos / TDAH (F90)
 
-### Lote 14 — Dermatologia (11) + início Ginecologia/Obstetrícia (3)
-1. pendente — Psoríase (L40)
-2. pendente — Dermatite atópica (L20)
-3. pendente — Melanoma maligno da pele (C43)
-4. pendente — Outras neoplasias malignas da pele / basocelular, espinocelular (C44)
-5. pendente — Impetigo (L01)
-6. pendente — Celulite / flegmão (L03)
-7. pendente — Urticária (L50)
-8. pendente — Pênfigo (L10)
-9. pendente — Dermatite seborreica (L21)
-10. pendente — Dermatite alérgica de contato (L23)
-11. pendente — Abscesso cutâneo, furúnculo e antraz (L02)
-12. pendente — Hipertensão gestacional com proteinúria / pré-eclâmpsia (O14)
-13. pendente — Eclâmpsia (O15)
-14. pendente — Diabetes mellitus na gravidez / gestacional (O24)
+### ⭐ PRIORIDADE ATUAL — Otorrinolaringologia (37, em 3 lotes)
 
-### Lote 15 — Ginecologia/Obstetrícia (restante, 9)
-1. pendente — Gravidez ectópica (O00)
-2. pendente — Aborto espontâneo (O03)
-3. pendente — Endometriose (N80)
-4. pendente — Outros transtornos não-inflamatórios do útero / miomatose (N85)
-5. pendente — Neoplasia maligna do colo do útero (C53)
-6. pendente — Neoplasia maligna da mama (C50)
-7. pendente — Neoplasia maligna do corpo do útero (C54)
-8. pendente — Doença inflamatória do útero / DIP (N71)
-9. pendente — Transtornos da menopausa e da perimenopausa (N95)
+A pedido do usuário, Otorrinolaringologia e Ginecologia/Obstetrícia passam a ser as
+próximas especialidades fechadas por completo, antes de Dermatologia e das demais
+abaixo — mesmo critério já usado para Oftalmologia. Mapeamento feito contra os
+capítulos "Doenças do ouvido e da apófise mastóide" (H60-H95) e as seções de vias
+aéreas superiores de "Doenças do aparelho respiratório" (J00-J39) de
+`src/data/cid10-index.ts`, mais as neoplasias malignas de cabeça e pescoço
+correspondentes (C00-C14, C30-C32). Categorias "em doenças classificadas em outra
+parte" (H62, H67, H75, H82, H94), o catch-all pós-procedimento (H95), infecções
+respiratórias altas inespecíficas/combinadas (J06) e a gripe aviária (J09, condição
+rara fora do currículo padrão) foram excluídas pelo mesmo critério já usado nas
+demais especialidades. J05 (crupe/epiglotite) já está documentado em Pneumologia
+(Lote 3) e não é repetido aqui. Categorias de subsítio muito estreitas em neoplasias
+de cabeça e pescoço (C00-C13) foram agrupadas em fichas maiores por região anatômica
+(cavidade oral, glândulas salivares, orofaringe, hipofaringe), seguindo o mesmo
+padrão de agrupamento já usado em Oftalmologia/Neurologia quando várias categorias
+CID descrevem a mesma entidade clínica.
 
-**Total: 23 doenças pendentes em 2 lotes** (Lotes 1-6, Lotes 7-9 Oftalmologia,
-Lote 10 Neurologia, Lote 11 Hematologia, Lote 12 Nefrologia+Urologia e Lote 13
-Psiquiatria todos concluídos — 15 + 14 + 12 + 13 + 14 + 12 + 33 + 14 + 13 + 12
-+ 13 itens), além das 181 já fichadas. **Oftalmologia, Neurologia, Hematologia,
-Nefrologia+Urologia e Psiquiatria fechadas por completo. Próxima prioridade:
-Lote 14 (Dermatologia + início Ginecologia/Obstetrícia, 14 itens).**
+### Lote 14 — ORL A: Ouvido (15) — ✅ CONCLUÍDO
+1. concluído — Otite externa (H60)
+2. concluído — Outros transtornos do ouvido externo / cerume impactado, corpo estranho (H61)
+3. concluído — Otite média serosa / com efusão (H65)
+4. concluído — Otite média aguda supurativa e crônica (H66)
+5. concluído — Disfunção da tuba auditiva / salpingite e obstrução tubária (H68+H69)
+6. concluído — Mastoidite e afecções correlatas (H70)
+7. concluído — Colesteatoma do ouvido médio (H71)
+8. concluído — Perfuração e outros transtornos da membrana do tímpano (H72+H73)
+9. concluído — Outros transtornos do ouvido médio e mastoide / timpanosclerose (H74)
+10. concluído — Otosclerose (H80)
+11. concluído — Transtornos da função vestibular / VPPB, Ménière, neurite vestibular (H81)
+12. concluído — Outros transtornos do ouvido interno / labirintite, trauma acústico (H83)
+13. concluído — Perda auditiva condutiva, neurossensorial e súbita (H90+H91)
+14. concluído — Otalgia e secreção auditiva (H92)
+15. concluído — Outros transtornos do ouvido NCOP / zumbido (H93)
+
+### Lote 15 — ORL B: Nariz e garganta (15) — ✅ CONCLUÍDO
+1. concluído — Nasofaringite aguda / resfriado comum (J00)
+2. concluído — Sinusite aguda (J01)
+3. concluído — Faringite aguda (J02)
+4. concluído — Amigdalite aguda (J03)
+5. concluído — Laringite e traqueíte agudas (J04)
+6. concluído — Rinite alérgica e vasomotora (J30)
+7. concluído — Rinite, nasofaringite e faringite crônicas (J31)
+8. concluído — Sinusite crônica (J32)
+9. concluído — Pólipo nasal (J33)
+10. concluído — Outros transtornos do nariz e seios paranasais / desvio de septo (J34)
+11. concluído — Doenças crônicas das amígdalas e adenoides (J35)
+12. concluído — Abscesso periamigdaliano (J36)
+13. concluído — Laringite e laringotraqueíte crônicas (J37)
+14. concluído — Doenças das cordas vocais e da laringe NCOP / nódulos, paralisia de prega vocal (J38)
+15. concluído — Outras doenças das vias aéreas superiores / abscesso retrofaríngeo (J39)
+
+### Lote 16 — ORL C: Neoplasias malignas de cabeça e pescoço (7) — ✅ CONCLUÍDO
+1. concluído — Neoplasia maligna da cavidade oral (C00-C06)
+2. concluído — Neoplasia maligna das glândulas salivares (C07-C08)
+3. concluído — Neoplasia maligna da orofaringe e tonsila (C09-C10)
+4. concluído — Neoplasia maligna da nasofaringe (C11)
+5. concluído — Neoplasia maligna da hipofaringe (C12-C13)
+6. concluído — Neoplasia maligna nasossinusal / cavidade nasal e seios paranasais (C30-C31)
+7. concluído — Neoplasia maligna da laringe (C32)
+
+**Otorrinolaringologia 100% documentada: 37/37 doenças (Lotes 14, 15 e 16).**
+
+### ⭐ PRIORIDADE ATUAL — Ginecologia e Obstetrícia (52, em 4 lotes)
+
+Mapeamento contra "Doenças do aparelho geniturinário" (seção feminina, N70-N98),
+"Gravidez, parto e puerpério" (O00-O99) e as neoplasias malignas genitais femininas
+e de mama (C50-C58) de `src/data/cid10-index.ts`. Absorve e expande os 12 itens que
+já estavam nos antigos Lotes 14-15 (marcados abaixo). O capítulo O00-O99 é majoritariamente
+administrativo — muitas categorias são apenas classificação do tipo de parto (O80-O84,
+não são doenças), estatística de mortalidade materna (O94-O99), ou "assistência
+prestada à mãe por" indicações genéricas de pré-natal (O26, O28, O29, O33-O36) sem
+conteúdo clínico distinto — excluídas pelo mesmo critério de sempre. Categorias
+adjacentes que descrevem a mesma entidade clínica sob o espectro de gravidade
+(ex.: hipertensão crônica/gestacional leve O10-O13/O16, distinta da pré-eclâmpsia
+O14 e eclâmpsia O15, que permanecem fichas próprias de alto valor de prova) foram
+agrupadas em uma única ficha.
+
+### Lote 17 — GO A: Ginecologia benigna e inflamatória (13) — ✅ CONCLUÍDO
+1. concluído — Doença inflamatória pélvica / salpingite, ooforite (N70+N71) *(já estava no Lote 15 como N71)*
+2. concluído — Cervicite / doença inflamatória do colo do útero (N72)
+3. concluído — Bartolinite / doenças da glândula de Bartholin (N75)
+4. concluído — Vaginite e vulvite / candidíase, vaginose bacteriana, tricomoníase (N76)
+5. concluído — Endometriose (N80) *(já estava no Lote 15)*
+6. concluído — Prolapso genital feminino (N81)
+7. concluído — Cistos ovarianos funcionais e torção anexial (N83)
+8. concluído — Pólipos do trato genital feminino (N84)
+9. concluído — Miomatose uterina (N85) *(já estava no Lote 15)*
+10. concluído — Displasia cervical / NIC (N87)
+11. concluído — Líquen escleroso e distrofias vulvares (N90)
+12. concluído — Amenorreia (N91)
+13. concluído — Sangramento uterino anormal / menorragia (N92+N93)
+
+### Lote 18 — GO B: Ginecologia funcional, menopausa e oncologia ginecológica (12) — ✅ CONCLUÍDO
+1. concluído — Dismenorreia e síndrome pré-menstrual (N94)
+2. concluído — Abortamento habitual (N96)
+3. concluído — Infertilidade feminina (N97)
+4. concluído — Transtornos da menopausa e da perimenopausa (N95) *(já estava no Lote 15)*
+5. concluído — Neoplasia maligna do colo do útero (C53) *(já estava no Lote 15)*
+6. concluído — Neoplasia maligna do corpo do útero (C54) *(já estava no Lote 15)*
+7. concluído — Neoplasia maligna do ovário (C56)
+8. concluído — Neoplasia maligna da vulva (C51)
+9. concluído — Neoplasia maligna da vagina (C52)
+10. concluído — Neoplasia maligna da mama (C50) *(já estava no Lote 15)*
+11. concluído — Mola hidatiforme (O01)
+12. concluído — Neoplasia maligna da placenta / coriocarcinoma (C58)
+
+### Lote 19 — GO C: Obstetrícia — complicações da gestação (13) — ✅ CONCLUÍDO
+1. concluído — Gravidez ectópica (O00) *(já estava no Lote 15)*
+2. concluído — Aborto espontâneo (O03) *(já estava no Lote 15)*
+3. concluído — Hipertensão gestacional com proteinúria / pré-eclâmpsia (O14) *(já estava no Lote 14)*
+4. concluído — Eclâmpsia (O15) *(já estava no Lote 14)*
+5. concluído — Diabetes mellitus na gravidez / gestacional (O24) *(já estava no Lote 14)*
+6. concluído — Distúrbios hipertensivos crônicos e gestacionais leves da gravidez (O10-O13+O16)
+7. concluído — Hemorragia do início da gravidez / ameaça de abortamento (O20)
+8. concluído — Hiperêmese gravídica (O21)
+9. concluído — Complicações venosas na gravidez / TVP gestacional (O22)
+10. concluído — Infecções do trato geniturinário na gravidez (O23)
+11. concluído — Gestação múltipla e suas complicações (O30+O31)
+12. concluído — Apresentação fetal anômala (O32)
+13. concluído — Distúrbios do volume de líquido amniótico / poli-oligoidrâmnio (O40+O41)
+
+### Lote 20 — GO D: Trabalho de parto, parto e puerpério (14) — ✅ CONCLUÍDO
+1. concluído — Ruptura prematura de membranas (O42)
+2. concluído — Placenta prévia (O44)
+3. concluído — Descolamento prematuro de placenta (O45)
+4. concluído — Gravidez prolongada / pós-termo (O48)
+5. concluído — Trabalho de parto pré-termo (O60)
+6. concluído — Distócia funcional / anormalidades da contração e progressão (O62+O63)
+7. concluído — Distócia mecânica / desproporção céfalo-pélvica, malapresentação (O64-O66)
+8. concluído — Sofrimento fetal intraparto (O68)
+9. concluído — Complicações do cordão umbilical / prolapso de cordão (O69)
+10. concluído — Lacerações e traumatismos obstétricos do parto (O70+O71)
+11. concluído — Hemorragia pós-parto (O72)
+12. concluído — Infecção puerperal (O85+O86)
+13. concluído — Embolia de líquido amniótico (O88)
+14. concluído — Mastite puerperal e outras afecções da mama/lactação (O91+O92)
+
+### Lote 21 — Dermatologia (11) — ✅ CONCLUÍDO
+1. concluído — Psoríase (L40)
+2. concluído — Dermatite atópica (L20)
+3. concluído — Melanoma maligno da pele (C43)
+4. concluído — Outras neoplasias malignas da pele / basocelular, espinocelular (C44)
+5. concluído — Impetigo (L01)
+6. concluído — Celulite / flegmão (L03)
+7. concluído — Urticária (L50)
+8. concluído — Pênfigo (L10)
+9. concluído — Dermatite seborreica (L21)
+10. concluído — Dermatite alérgica de contato (L23)
+11. concluído — Abscesso cutâneo, furúnculo e antraz (L02)
+
+**Total: 0 doenças pendentes — todos os 21 lotes concluídos, 281 doenças
+fichadas.** Oftalmologia, Neurologia, Hematologia, Nefrologia+Urologia,
+Psiquiatria, Otorrinolaringologia, Ginecologia/Obstetrícia e Dermatologia
+estão todas fechadas por completo. **Não há próximo lote de doenças
+pendente no backlog atual** — qualquer novo lote exigirá extrair novas
+categorias CID-10 de `cid10-index.ts` (especialidades ainda não
+mapeadas: Cardiologia/Pneumologia/Gastroenterologia/etc. restantes fora
+dos lotes já listados, ou expansão de especialidades já fechadas para
+CID-10 mais raros) seguindo a mesma metodologia usada para Oftalmologia,
+ORL e GO.**
 
 ---
 
@@ -345,39 +529,39 @@ Todos os itens abaixo foram cruzados diretamente contra o Apêndice A completo d
 RENAME 2024 (DCB e código ATC corrigidos onde necessário) — exceto os marcados ⛔ "não
 consta" e a Ocitocina, que depende do Apêndice B.
 
-### Lote 1 — Sistema cardiovascular (15) — ✅ todos revalidados
-1. pendente — Digoxina (C01AA05)
-2. pendente — Bissulfato de clopidogrel (B01AC04) — nome DCB completo; RENAME classifica em "Sangue e órgãos hematopoéticos", não cardiovascular
-3. pendente — Atorvastatina cálcica (C10AA05)
-4. pendente — Hidroclorotiazida (C03AA03)
-5. pendente — Furosemida (C03CA01)
-6. pendente — Cloridrato de propranolol (C07AA05)
-7. pendente — Succinato de metoprolol / Tartarato de metoprolol (C07AB02) — duas apresentações, mesmo ATC
-8. pendente — Dinitrato de isossorbida (C01DA08)
-9. pendente — Mononitrato de isossorbida (C01DA14)
-10. pendente — Cloridrato de amiodarona (C01BD01)
-11. pendente — Besilato de anlodipino (C08CA01) — nome DCB corrigido (era só "Anlodipino")
-12. pendente — Cloridrato de verapamil (C08DA01)
-13. pendente — Cloridrato de hidralazina (C02DB02)
-14. pendente — Metildopa (C02AB01) — **código corrigido**: era C02CA04 por engano (esse código é da doxazosina, item 15)
-15. pendente — Mesilato de doxazosina (C02CA04) — item novo, achado na revalidação (alfa-bloqueador, HAS/HPB)
+### Lote 1 — Sistema cardiovascular (15) — ✅ CONCLUÍDO
+1. concluído — Digoxina (C01AA05)
+2. concluído — Bissulfato de clopidogrel (B01AC04) — nome DCB completo; RENAME classifica em "Sangue e órgãos hematopoéticos", não cardiovascular
+3. concluído — Atorvastatina cálcica (C10AA05)
+4. concluído — Hidroclorotiazida (C03AA03)
+5. concluído — Furosemida (C03CA01)
+6. concluído — Cloridrato de propranolol (C07AA05)
+7. concluído — Succinato de metoprolol / Tartarato de metoprolol (C07AB02) — duas apresentações, mesmo ATC
+8. concluído — Dinitrato de isossorbida (C01DA08)
+9. concluído — Mononitrato de isossorbida (C01DA14)
+10. concluído — Cloridrato de amiodarona (C01BD01)
+11. concluído — Besilato de anlodipino (C08CA01) — nome DCB corrigido (era só "Anlodipino")
+12. concluído — Cloridrato de verapamil (C08DA01)
+13. concluído — Cloridrato de hidralazina (C02DB02)
+14. concluído — Metildopa (C02AB01) — **código corrigido**: era C02CA04 por engano (esse código é da doxazosina, item 15)
+15. concluído — Mesilato de doxazosina (C02CA04) — item novo, achado na revalidação (alfa-bloqueador, HAS/HPB)
 
-### Lote 2 — Cardiovascular restante + trombolíticos + Endocrinologia (15) — ✅ todos revalidados
-1. pendente — Cloridrato de dobutamina (C01CA07) — **código corrigido**: era C01BD01 por engano (esse é o código da amiodarona)
-2. pendente — Nifedipino (C08CA05) — código confirmado, antes não constava
-3. pendente — Estreptoquinase (B01AD01)
-4. pendente — Alteplase (B01AD02)
-5. pendente — Sacubitril valsartana sódica hidratada (C09DX04) — item novo, alto valor para IC (já citado no texto da doença, ainda sem ficha própria)
-6. pendente — Ácido acetilsalicílico / AAS — ✅ **confirmado**: B01AC06 (100 mg, uso antiplaquetário) e N02BA01 (500 mg, uso analgésico), duas apresentações/usos distintos
-7. pendente — Glibenclamida (A10BB01)
-8. pendente — Gliclazida (A10BB09)
-9. pendente — Propiltiouracila (H03BA02) — **código corrigido**: era H01AC01 por engano
-10. pendente — Tiamazol (H03BB02) — ✅ **confirmado**; é a DCB oficial do medicamento comercialmente conhecido como "metimazol" (ajustar schema: tiamazol como nome principal, metimazol como sinônimo)
-11. pendente — Succinato sódico de hidrocortisona (H02AB09)
-12. pendente — Fosfato sódico de prednisolona (H02AB06)
+### Lote 2 — Cardiovascular restante + trombolíticos + Endocrinologia (15) — ✅ CONCLUÍDO
+1. concluído — Cloridrato de dobutamina (C01CA07) — **código corrigido**: era C01BD01 por engano (esse é o código da amiodarona)
+2. concluído — Nifedipino (C08CA05) — código confirmado, antes não constava
+3. concluído — Estreptoquinase (B01AD01)
+4. concluído — Alteplase (B01AD02)
+5. concluído — Sacubitril valsartana sódica hidratada (C09DX04) — item novo, alto valor para IC (já citado no texto da doença, ainda sem ficha própria)
+6. concluído — Ácido acetilsalicílico / AAS — ✅ **confirmado**: B01AC06 (100 mg, uso antiplaquetário) e N02BA01 (500 mg, uso analgésico), duas apresentações/usos distintos
+7. concluído — Glibenclamida (A10BB01)
+8. concluído — Gliclazida (A10BB09)
+9. concluído — Propiltiouracila (H03BA02) — **código corrigido**: era H01AC01 por engano
+10. concluído — Tiamazol (H03BB02) — ✅ **confirmado**; é a DCB oficial do medicamento comercialmente conhecido como "metimazol" (ajustado no schema: tiamazol como nome principal, metimazol como sinônimo)
+11. concluído — Succinato sódico de hidrocortisona (H02AB09)
+12. concluído — Fosfato sódico de prednisolona (H02AB06)
 13. concluído — Dexametasona (H02AB02)
-14. pendente — Insulina análoga de ação prolongada / de ação rápida (A10AE / A10AB)
-15. pendente — Sulfato de magnésio (A06AD04 uso oral; A12CC02 / B05XA05 uso injetável)
+14. concluído — Insulina análoga de ação prolongada / de ação rápida (A10AE / A10AB)
+15. concluído — Sulfato de magnésio (A06AD04 uso oral; A12CC02 / B05XA05 uso injetável)
 
 ### Lote 3 — Sistema respiratório + Anti-infecciosos (15) — ✅ todos revalidados
 1. pendente — Brometo de ipratrópio (R03BB01)
@@ -445,9 +629,12 @@ consta" e a Ocitocina, que depende do Apêndice B.
 12. pendente — Betametasona / acetato + fosfato dissódico (H02AB01)
 13. concluído — Levotiroxina sódica (H03AA01) — já usada no Hipotireoidismo e Tireoidite (doenças já fichadas)
 
-**Total: 89 medicamentos em 6 lotes** (82 originais + 4 itens novos achados durante a
+**Total: 59 medicamentos pendentes em 4 lotes** (Lotes 1-2 — Sistema cardiovascular e
+Cardiovascular restante/trombolíticos/Endocrinologia, 30 itens — concluídos; 89
+medicamentos totais no backlog original, 82 originais + 4 itens novos achados durante a
 revalidação: cloridrato de clindamicina, sulfato de morfina, cloridrato de naloxona,
-flumazenil + 3 itens novos abaixo: donepezila, memantina, esquema RIPE).
+flumazenil + 3 itens novos abaixo: donepezila, memantina, esquema RIPE). **Próxima
+prioridade: Lote 3 (Sistema respiratório + Anti-infecciosos, 15 itens).**
 
 ### Itens adicionados fora da ordem dos lotes — ✅ concluídos e revalidados
 Priorizados a pedido do usuário por já fecharem vínculos cruzados que existiam do lado
