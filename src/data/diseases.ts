@@ -413,6 +413,7 @@ export const diseases: Disease[] = [
       { slug: "salbutamol", nome: "Salbutamol" },
       { slug: "prednisona", nome: "Prednisona" },
       { slug: "fosfato-sodico-prednisolona", nome: "Fosfato sódico de prednisolona" },
+      { slug: "brometo-de-ipratropio", nome: "Brometo de ipratrópio" },
     ],
     fontes: [
       { tema: "Classificação de gravidade/controle e algoritmo terapêutico", fonte: "GINA (Global Initiative for Asthma), 2024" },
@@ -494,6 +495,7 @@ export const diseases: Disease[] = [
       { slug: "amoxicilina", nome: "Amoxicilina" },
       { slug: "amoxicilina-clavulanato", nome: "Amoxicilina + Clavulanato" },
       { slug: "azitromicina", nome: "Azitromicina" },
+      { slug: "claritromicina", nome: "Claritromicina" },
     ],
     fontes: [
       { tema: "Escore CURB-65 e estratificação de gravidade", fonte: "fonte pendente" },
@@ -1373,6 +1375,7 @@ export const diseases: Disease[] = [
       { slug: "estreptoquinase", nome: "Estreptoquinase" },
       { slug: "alteplase", nome: "Alteplase" },
       { slug: "acido-acetilsalicilico", nome: "Ácido acetilsalicílico (AAS)" },
+      { slug: "sulfato-de-morfina", nome: "Sulfato de morfina" },
     ],
     medicamentosSecaoTitulo: "Medicamentos de manutenção/prevenção secundária",
     medicamentosNota:
@@ -1774,11 +1777,14 @@ export const diseases: Disease[] = [
       conduta:
         "Confirmar infecção estreptocócica prévia com ASLO, solicitar ecocardiograma para caracterizar a cardite, iniciar antibioticoterapia para erradicação do estreptococo e anti-inflamatório, e programar profilaxia secundária prolongada.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "benzilpenicilina-benzatina", nome: "Benzilpenicilina benzatina" },
+    ],
+    medicamentosNota:
+      "A penicilina benzatina é usada tanto na erradicação do estreptococo na fase aguda quanto na profilaxia secundária prolongada com doses regulares a cada 21-28 dias.",
     fontes: [
       { tema: "Fisiopatologia (mimetismo molecular)", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Critérios de Jones revisados", fonte: "Critérios de Jones revisados (American Heart Association, 2015)" },
-      { tema: "Penicilina benzatina no tratamento e profilaxia secundária (ainda sem ficha própria de medicamento no site)", fonte: "fonte pendente" },
     ],
   },
   {
@@ -3362,6 +3368,7 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "salbutamol", nome: "Salbutamol" },
+      { slug: "brometo-de-ipratropio", nome: "Brometo de ipratrópio" },
     ],
     medicamentosSecaoTitulo: "Medicamento de alívio (resgate)",
     medicamentosNota:
@@ -4454,7 +4461,12 @@ export const diseases: Disease[] = [
       conduta:
         "Repetir a investigação com teste de 4ª geração (Ag/Ac combinado) ou carga viral, dada a alta suspeita clínica de síndrome retroviral aguda apesar do teste convencional negativo, e orientar sobre reteste em algumas semanas se persistir a suspeita.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "sulfametoxazol-trimetoprima", nome: "Sulfametoxazol + trimetoprima" },
+      { slug: "fluconazol", nome: "Fluconazol" },
+    ],
+    medicamentosNota:
+      "Sulfametoxazol-trimetoprima e fluconazol são usados na profilaxia e no tratamento de infecções oportunistas (pneumonia por Pneumocystis jirovecii e candidíase mucocutânea, respectivamente) em pacientes com HIV/AIDS; a terapia antirretroviral combinada em si, o tratamento central da infecção pelo HIV, ainda não tem fichas próprias no site.",
     fontes: [
       { tema: "Fisiopatologia e ciclo de replicação viral", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Estadiamento CDC e critérios de AIDS", fonte: "CDC, Revised Surveillance Case Definition for HIV Infection, 2014" },
@@ -4525,11 +4537,15 @@ export const diseases: Disease[] = [
       conduta:
         "Confirmar com teste treponêmico e não treponêmico (VDRL/RPR com titulação), tratar com penicilina benzatina em dose única, testar para HIV e outras ISTs, e orientar seguimento sorológico e tratamento de parceiros.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "benzilpenicilina-benzatina", nome: "Benzilpenicilina benzatina" },
+      { slug: "cloridrato-de-doxiciclina", nome: "Cloridrato de doxiciclina" },
+    ],
+    medicamentosNota:
+      "A penicilina benzatina é o tratamento de escolha em todos os estágios da sífilis, inclusive na gestação (sem alternativa equivalente); a doxiciclina é opção apenas para pacientes não gestantes com alergia confirmada à penicilina.",
     fontes: [
       { tema: "Fisiopatologia e classificação por estágios", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Critérios sorológicos e resposta ao tratamento (queda de titulação)", fonte: "CDC Sexually Transmitted Infections Treatment Guidelines, 2021" },
-      { tema: "Penicilina benzatina no tratamento (ainda sem ficha própria no site)", fonte: "fonte pendente" },
     ],
   },
   {
@@ -4815,11 +4831,15 @@ export const diseases: Disease[] = [
       conduta:
         "Iniciar antibioticoterapia precocemente (doxiciclina, se ambulatorial e sem sinais de gravidade), solicitar exames para avaliar função renal, hepática e coagulação, e reavaliar de perto sinais de progressão para a forma ictérica grave (doença de Weil).",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cloridrato-de-doxiciclina", nome: "Cloridrato de doxiciclina" },
+      { slug: "ceftriaxona", nome: "Ceftriaxona" },
+    ],
+    medicamentosNota:
+      "A doxiciclina é a primeira linha para a forma leve ambulatorial; a ceftriaxona é usada na forma grave (doença de Weil), internada. A penicilina cristalina intravenosa, alternativa clássica na forma grave, ainda não tem ficha própria no site.",
     fontes: [
       { tema: "Fisiopatologia e fases da doença", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Formas clínicas e critérios de gravidade", fonte: "Guia de Vigilância em Saúde, Ministério da Saúde" },
-      { tema: "Doxiciclina/penicilina/ceftriaxona no tratamento (ainda sem fichas próprias no site com essa indicação)", fonte: "fonte pendente" },
     ],
   },
   {
@@ -5032,11 +5052,11 @@ export const diseases: Disease[] = [
         "Colher hemoculturas e realizar punção lombar imediatamente, iniciar antibioticoterapia empírica intravenosa sem demora (associada a dexametasona antes ou junto da primeira dose), e ajustar o esquema conforme resultado do Gram/cultura do líquido cefalorraquidiano.",
     },
     medicamentosPrimeiraLinha: [
+      { slug: "ceftriaxona", nome: "Ceftriaxona" },
       { slug: "dexametasona", nome: "Dexametasona" },
     ],
-    medicamentosSecaoTitulo: "Medicamento adjuvante (não substitui o antibiótico)",
     medicamentosNota:
-      "A dexametasona é adjuvante — administrada antes ou junto da primeira dose de antibiótico para reduzir complicações neurológicas, principalmente na meningite pneumocócica. A antibioticoterapia empírica (ceftriaxona ± vancomicina), que é o tratamento central e não pode ser substituída pelo corticosteroide, ainda não tem ficha própria no site.",
+      "A ceftriaxona é o antibiótico empírico central (associada a vancomicina em contextos de resistência, ainda sem ficha própria no site); a dexametasona é adjuvante, administrada antes ou junto da primeira dose de antibiótico para reduzir complicações neurológicas, principalmente na meningite pneumocócica — não substitui o antibiótico.",
     fontes: [
       { tema: "Fisiopatologia e agentes etiológicos por faixa etária", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Critérios liquóricos e indicação de tomografia antes da punção lombar", fonte: "IDSA Practice Guidelines for the Management of Bacterial Meningitis, 2004" },
@@ -5106,11 +5126,15 @@ export const diseases: Disease[] = [
       conduta:
         "Iniciar antibioticoterapia empírica de amplo espectro imediatamente, colher hemoculturas sem atrasar o antibiótico, iniciar ressuscitação volêmica com cristaloides, e considerar vasopressor (norepinefrina) se a hipotensão persistir apesar de fluidos adequados.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "ceftriaxona", nome: "Ceftriaxona" },
+    ],
+    medicamentosNota:
+      "A ceftriaxona é uma das opções de antibioticoterapia empírica de amplo espectro, ajustada conforme o foco suspeito e o perfil de resistência local; a norepinefrina, vasopressor de escolha no choque séptico refratário a fluidos, ainda não tem ficha própria no site.",
     fontes: [
       { tema: "Definições de sepse e choque séptico (Sepsis-3)", fonte: "Singer M et al., The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3), JAMA, 2016" },
       { tema: "Pacotes de tratamento precoce (antibiótico, fluidos, lactato)", fonte: "Surviving Sepsis Campaign: International Guidelines, 2021" },
-      { tema: "Antibioticoterapia empírica e vasopressores (ainda sem fichas próprias no site com essa indicação)", fonte: "fonte pendente" },
+      { tema: "Vasopressor de escolha no choque séptico refratário a fluidos (ainda sem ficha própria no site)", fonte: "fonte pendente" },
     ],
   },
   {
@@ -5681,7 +5705,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "omeprazol", nome: "Omeprazol" },
+      { slug: "claritromicina", nome: "Claritromicina" },
     ],
+    medicamentosNota:
+      "A claritromicina é componente da terapia tríplice de erradicação do H. pylori, associada ao omeprazol e à amoxicilina (ou metronidazol em alérgicos).",
     fontes: [
       { tema: "Fisiopatologia por H. pylori e AINEs", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Classificação de Forrest", fonte: "Forrest JA et al., classificação endoscópica de úlceras sangrantes" },
@@ -5975,11 +6002,14 @@ export const diseases: Disease[] = [
       conduta:
         "Iniciar hidratação venosa vigorosa, analgesia adequada e jejum inicial com reintrodução precoce da alimentação conforme tolerância, e planejar colecistectomia durante a mesma internação, dada a etiologia biliar identificada.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "sulfato-de-morfina", nome: "Sulfato de morfina" },
+    ],
+    medicamentosNota:
+      "A morfina é usada para analgesia da dor intensa da pancreatite aguda; a hidratação venosa vigorosa, e não a analgesia, é a intervenção com maior impacto no desfecho.",
     fontes: [
       { tema: "Critérios diagnósticos e classificação de Atlanta revisada", fonte: "Classificação de Atlanta Revisada, 2012 (Banks PA et al.)" },
       { tema: "Fisiopatologia da ativação enzimática prematura", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
-      { tema: "Analgesia específica no tratamento (ainda sem ficha própria no site com essa indicação)", fonte: "fonte pendente" },
     ],
   },
   {
@@ -12081,10 +12111,11 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "ibuprofeno", nome: "Ibuprofeno" },
+      { slug: "sulfato-de-morfina", nome: "Sulfato de morfina" },
     ],
-    medicamentosSecaoTitulo: "Analgesia de primeira linha na crise dolorosa (não trata o cálculo causador)",
+    medicamentosSecaoTitulo: "Analgesia da crise dolorosa (não trata o cálculo causador)",
     medicamentosNota:
-      "O ibuprofeno (representante dos anti-inflamatórios não esteroidais) controla a dor da crise, mas não substitui o tratamento definitivo do cálculo causador, abordado na ficha de nefrolitíase.",
+      "O ibuprofeno (representante dos anti-inflamatórios não esteroidais) é a analgesia de primeira linha; a morfina é reservada para dor não controlada com o AINE isolado ou quando este é contraindicado. Nenhum dos dois substitui o tratamento definitivo do cálculo causador, abordado na ficha de nefrolitíase.",
     fontes: [
       { tema: "Fisiopatologia da dor por distensão capsular e papel das prostaglandinas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Anti-inflamatório não esteroidal como analgesia de primeira linha, com eficácia comparável ou superior a opioides", fonte: "Goodman & Gilman, 13ª ed." },
@@ -12233,9 +12264,12 @@ export const diseases: Disease[] = [
       conduta:
         "Iniciar antibioticoterapia empírica de curta duração conforme o padrão local de sensibilidade, sem necessidade de urocultura de rotina neste cenário não complicado.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "sulfametoxazol-trimetoprima", nome: "Sulfametoxazol + trimetoprima" },
+      { slug: "ciprofloxacino", nome: "Ciprofloxacino" },
+    ],
     medicamentosNota:
-      "Os antibióticos de primeira linha para cistite não complicada (nitrofurantoína, sulfametoxazol-trimetoprima, fosfomicina) ainda não têm ficha própria no site.",
+      "Sulfametoxazol-trimetoprima é opção de primeira linha para cistite não complicada onde a resistência local é baixa; o ciprofloxacino é reservado para pielonefrite/ITU complicada. Nitrofurantoína e fosfomicina, também de primeira linha para cistite simples, ainda não têm ficha própria no site.",
     fontes: [
       { tema: "Epidemiologia (predomínio em mulheres) e principais agentes etiológicos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Distinção entre infecção urinária complicada e não complicada", fonte: "fonte pendente" },
@@ -16306,9 +16340,13 @@ export const diseases: Disease[] = [
       conduta:
         "Excluir gravidez com teste imediato; coletar amostra para NAAT de Chlamydia/gonococo; iniciar antibioticoterapia empírica de amplo espectro sem aguardar resultado laboratorial, dado o risco de sequelas tubárias com o atraso terapêutico.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "ceftriaxona", nome: "Ceftriaxona" },
+      { slug: "cloridrato-de-doxiciclina", nome: "Cloridrato de doxiciclina" },
+      { slug: "metronidazol", nome: "Metronidazol" },
+    ],
     medicamentosNota:
-      "O esquema antibiótico empírico de amplo espectro recomendado (associando cobertura para Chlamydia, gonococo e anaeróbios) ainda não tem seus componentes individuais documentados como ficha própria no site.",
+      "O esquema antibiótico empírico de amplo espectro combina os três componentes: ceftriaxona (cobertura para gonococo), doxiciclina (cobertura para Chlamydia) e metronidazol (cobertura para anaeróbios).",
     fontes: [
       { tema: "Fisiopatologia da ascensão polimicrobiana e dano tubário ciliar", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Síndrome de Fitz-Hugh-Curtis e critérios mínimos de diagnóstico clínico", fonte: "CDC Sexually Transmitted Infections Treatment Guidelines, 2021" },
@@ -16524,9 +16562,12 @@ export const diseases: Disease[] = [
       conduta:
         "Prescrever metronidazol oral; parceiro sexual não requer tratamento rotineiro nessa condição.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "fluconazol", nome: "Fluconazol" },
+      { slug: "metronidazol", nome: "Metronidazol" },
+    ],
     medicamentosNota:
-      "Os antifúngicos tópicos, o fluconazol e o metronidazol, medicamentos de escolha para as três etiologias, ainda não têm suas fichas próprias documentadas no site.",
+      "Fluconazol é a opção oral de dose única para candidíase vulvovaginal; metronidazol é usado tanto na vaginose bacteriana quanto na tricomoníase. Os antifúngicos tópicos, também de primeira linha para candidíase, ainda não têm ficha própria no site.",
     fontes: [
       { tema: "Critérios de Amsel e fisiopatologia diferencial das três etiologias", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Esquemas terapêuticos de primeira linha para cada etiologia", fonte: "CDC Sexually Transmitted Infections Treatment Guidelines, 2021" },
@@ -20409,9 +20450,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "amoxicilina-clavulanato", nome: "Amoxicilina + Clavulanato" },
+      { slug: "cloridrato-de-clindamicina", nome: "Cloridrato de clindamicina" },
     ],
     medicamentosNota:
-      "A amoxicilina + clavulanato é opção razoável para celulite não purulenta leve a moderada; esquemas com cobertura específica para Staphylococcus aureus resistente à meticilina, quando indicados, ainda não têm ficha própria documentada no site.",
+      "A amoxicilina + clavulanato é opção razoável para celulite não purulenta leve a moderada; a clindamicina é opção em pacientes alérgicos a beta-lactâmicos ou quando há suspeita de MRSA comunitário.",
     fontes: [
       { tema: "Fisiopatologia e distinção entre celulite e erisipela por profundidade de acometimento", fonte: "Robbins & Cotran, Patologia Básica" },
       { tema: "Classificação purulenta versus não purulenta e escolha antibiótica empírica", fonte: "IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections, 2014" },
@@ -20768,6 +20810,7 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "amoxicilina-clavulanato", nome: "Amoxicilina + Clavulanato" },
+      { slug: "cloridrato-de-clindamicina", nome: "Cloridrato de clindamicina" },
     ],
     medicamentosSecaoTitulo: "Antibioticoterapia adjuvante à drenagem quando indicada (drenagem é o tratamento primário)",
     medicamentosNota:
