@@ -6742,10 +6742,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "ibuprofeno", nome: "Ibuprofeno" },
+      { slug: "alopurinol", nome: "Alopurinol" },
     ],
-    medicamentosSecaoTitulo: "Medicamento para a crise aguda",
     medicamentosNota:
-      "O ibuprofeno (ou outro AINE) é usado no tratamento da crise aguda de gota. A terapia hipouricemiante de manutenção (ex.: alopurinol), indicada em gota recorrente/tofácea e iniciada somente após resolução da crise, ainda não tem ficha própria no site.",
+      "O ibuprofeno (ou outro AINE) é usado no tratamento da crise aguda de gota. O alopurinol é a terapia hipouricemiante de manutenção de primeira linha, indicada em gota recorrente/tofácea e iniciada somente após resolução completa da crise — nunca durante o episódio agudo.",
     fontes: [
       { tema: "Fisiopatologia e papel do inflamassoma NLRP3", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Estágios da doença e critérios ACR/EULAR 2015", fonte: "ACR/EULAR Classification Criteria for Gout, 2015" },
@@ -9923,9 +9923,10 @@ export const diseases: Disease[] = [
       { slug: "acido-valproico", nome: "Ácido valproico" },
       { slug: "fenitoina", nome: "Fenitoína" },
       { slug: "clonazepam", nome: "Clonazepam" },
+      { slug: "clobazam", nome: "Clobazam" },
     ],
     medicamentosNota:
-      "A carbamazepina é primeira linha para crises focais; o ácido valproico é primeira linha para crises generalizadas em pacientes sem potencial reprodutivo; a fenitoína e o clonazepam são usados como alternativas de manutenção ou adjuvantes conforme o tipo de crise.",
+      "A carbamazepina é primeira linha para crises focais; o ácido valproico é primeira linha para crises generalizadas em pacientes sem potencial reprodutivo; a fenitoína e o clonazepam são usados como alternativas de manutenção ou adjuvantes conforme o tipo de crise; o clobazam é usado como terapia adjuvante em epilepsias refratárias, incluindo síndromes graves da infância como Lennox-Gastaut.",
     fontes: [
       { tema: "Definição operacional, classificação de crises e conduta terapêutica", fonte: "International League Against Epilepsy (ILAE), Classificação de Crises Epilépticas e Epilepsias, 2017" },
       { tema: "Risco de morte súbita inesperada na epilepsia (SUDEP)", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
@@ -12660,10 +12661,11 @@ export const diseases: Disease[] = [
         "Avaliar detalhadamente o risco de suicídio (ideação, plano, intenção), investigar história de episódio maníaco/hipomaníaco prévio, solicitar TSH para excluir causa orgânica, e iniciar psicoterapia associada a antidepressivo conforme a gravidade.",
     },
     medicamentosPrimeiraLinha: [
+      { slug: "cloridrato-de-fluoxetina", nome: "Cloridrato de fluoxetina" },
       { slug: "cloridrato-de-amitriptilina", nome: "Cloridrato de amitriptilina" },
     ],
     medicamentosNota:
-      "O antidepressivo de primeira linha (inibidor seletivo da recaptação de serotonina, ex.: fluoxetina) ainda não tem ficha própria no site. A amitriptilina (tricíclico) é opção quando há insônia e dor associadas, mas seu perfil de efeitos colaterais e risco em superdosagem a tornam menos usada como primeira escolha atualmente.",
+      "A fluoxetina (ISRS) é o antidepressivo de primeira linha, com perfil de segurança mais favorável. A amitriptilina (tricíclico) é opção quando há insônia e dor associadas, mas seu perfil de efeitos colaterais e risco em superdosagem a tornam menos usada como primeira escolha atualmente.",
     fontes: [
       { tema: "Critérios diagnósticos DSM-5/CID-11 e fisiopatologia monoaminérgica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Risco de virada maníaca com antidepressivo isolado em bipolar não diagnosticado", fonte: "fonte pendente" },
@@ -12733,9 +12735,11 @@ export const diseases: Disease[] = [
       conduta:
         "Reavaliar a resposta aos tratamentos prévios para orientar a escolha do antidepressivo atual, associar psicoterapia, e planejar tratamento de manutenção estendido após a remissão dado o histórico de três episódios.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cloridrato-de-fluoxetina", nome: "Cloridrato de fluoxetina" },
+    ],
     medicamentosNota:
-      "O antidepressivo de primeira linha ainda não tem ficha própria no site; a conduta segue os mesmos princípios farmacológicos do episódio depressivo isolado, com ênfase adicional no tratamento de manutenção prolongado.",
+      "A fluoxetina (ISRS) é o antidepressivo de primeira linha, seguindo os mesmos princípios farmacológicos do episódio depressivo isolado, com ênfase adicional no tratamento de manutenção prolongado.",
     fontes: [
       { tema: "Risco progressivo de recorrência e indicação de tratamento de manutenção", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Critérios diagnósticos para episódios recorrentes (DSM-5/CID-11)", fonte: "fonte pendente" },
@@ -12813,9 +12817,13 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "acido-valproico", nome: "Ácido valproico" },
+      { slug: "carbonato-de-litio", nome: "Carbonato de lítio" },
+      { slug: "risperidona", nome: "Risperidona" },
+      { slug: "olanzapina", nome: "Olanzapina" },
+      { slug: "haloperidol", nome: "Haloperidol" },
     ],
     medicamentosNota:
-      "O ácido valproico é um dos estabilizadores de humor de primeira linha; o lítio, outra primeira linha clássica, ainda não tem ficha própria no site. IMPORTANTE: o ácido valproico é contraindicado em mulheres em idade fértil salvo ausência de alternativa terapêutica eficaz, pelo alto risco teratogênico (defeitos do tubo neural, síndrome do valproato fetal) e de comprometimento do neurodesenvolvimento — nessa população, o lítio ou a lamotrigina são preferidos.",
+      "O ácido valproico e o lítio são os estabilizadores de humor de primeira linha; o lítio é o único com efeito antissuicida comprovado. Antipsicóticos (risperidona, olanzapina, haloperidol) são frequentemente associados no manejo agudo de episódio maníaco, sobretudo com agitação ou sintomas psicóticos. IMPORTANTE: o ácido valproico é contraindicado em mulheres em idade fértil salvo ausência de alternativa terapêutica eficaz, pelo alto risco teratogênico (defeitos do tubo neural, síndrome do valproato fetal) e de comprometimento do neurodesenvolvimento — nessa população, o lítio é preferido.",
     fontes: [
       { tema: "Critérios diagnósticos de mania/hipomania e distinção entre tipo I e II", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Risco de virada maníaca com antidepressivo em monoterapia", fonte: "fonte pendente" },
@@ -12888,9 +12896,14 @@ export const diseases: Disease[] = [
       conduta:
         "Excluir causa orgânica e uso de substâncias com investigação apropriada; iniciar antipsicótico como base do tratamento, associado a intervenções psicossociais e suporte familiar.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "risperidona", nome: "Risperidona" },
+      { slug: "olanzapina", nome: "Olanzapina" },
+      { slug: "haloperidol", nome: "Haloperidol" },
+      { slug: "cloridrato-de-clorpromazina", nome: "Cloridrato de clorpromazina" },
+    ],
     medicamentosNota:
-      "O antipsicótico de primeira linha (ex.: risperidona, haloperidol) ainda não tem ficha própria no site.",
+      "Não há preferência formal entre antipsicóticos de primeira geração (haloperidol, clorpromazina) e segunda geração (risperidona, olanzapina) — a escolha é guiada pelo perfil de efeitos colaterais, disponibilidade de formulação e características do paciente, não pela geração do fármaco.",
     fontes: [
       { tema: "Critérios diagnósticos DSM-5/CID-11 e hipótese dopaminérgica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Clozapina na esquizofrenia refratária e risco de agranulocitose", fonte: "Goodman & Gilman, 13ª ed." },
@@ -12958,9 +12971,11 @@ export const diseases: Disease[] = [
       conduta:
         "Indicar terapia cognitivo-comportamental com exposição gradual como tratamento de primeira linha, considerando associação de inibidor seletivo da recaptação de serotonina se houver prejuízo funcional significativo.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cloridrato-de-fluoxetina", nome: "Cloridrato de fluoxetina" },
+    ],
     medicamentosNota:
-      "O tratamento de primeira linha é a terapia cognitivo-comportamental de exposição, não farmacológica; quando indicado, o inibidor seletivo da recaptação de serotonina ainda não tem ficha própria no site.",
+      "O tratamento não farmacológico de primeira linha é a terapia cognitivo-comportamental de exposição; quando indicado farmacologicamente, a fluoxetina (ISRS) é a primeira escolha.",
     fontes: [
       { tema: "Classificação por subtipo e fisiopatologia dos circuitos de medo", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Terapia de exposição como tratamento de primeira linha", fonte: "fonte pendente" },
@@ -13031,11 +13046,12 @@ export const diseases: Disease[] = [
         "Excluir causas orgânicas (eletrocardiograma, TSH) antes de confirmar o diagnóstico; iniciar inibidor seletivo da recaptação de serotonina associado a terapia cognitivo-comportamental, considerando benzodiazepínico por curto período enquanto o antidepressivo atinge efeito pleno.",
     },
     medicamentosPrimeiraLinha: [
+      { slug: "cloridrato-de-fluoxetina", nome: "Cloridrato de fluoxetina" },
       { slug: "diazepam", nome: "Diazepam" },
       { slug: "clonazepam", nome: "Clonazepam" },
     ],
     medicamentosNota:
-      "Nenhum dos dois é o tratamento definitivo — o inibidor seletivo da recaptação de serotonina, ainda sem ficha própria no site, é a primeira linha farmacológica real. O diazepam serve como ponte de curto prazo enquanto o antidepressivo atinge efeito pleno; o clonazepam, pela meia-vida mais longa, é reservado ao transtorno do pânico refratário ao antidepressivo. Ambos carregam risco de dependência com uso prolongado.",
+      "A fluoxetina (ISRS) é a primeira linha farmacológica real, em dose geralmente mais alta que a antidepressiva. O diazepam serve como ponte de curto prazo enquanto o antidepressivo atinge efeito pleno; o clonazepam, pela meia-vida mais longa, é reservado ao transtorno do pânico refratário ao antidepressivo. Ambos os benzodiazepínicos carregam risco de dependência com uso prolongado.",
     fontes: [
       { tema: "Fisiopatologia (circuitos de medo, hipersensibilidade respiratória no pânico) e critérios diagnósticos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Antidepressivo como tratamento definitivo e benzodiazepínico apenas como ponte de curto prazo", fonte: "Goodman & Gilman, 13ª ed." },
@@ -13106,9 +13122,11 @@ export const diseases: Disease[] = [
       conduta:
         "Indicar terapia cognitivo-comportamental com exposição e prevenção de resposta, associada a inibidor seletivo da recaptação de serotonina em dose adequada (tipicamente mais alta que na depressão), com expectativa de resposta mais tardia.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cloridrato-de-fluoxetina", nome: "Cloridrato de fluoxetina" },
+    ],
     medicamentosNota:
-      "O inibidor seletivo da recaptação de serotonina em dose alta é o tratamento farmacológico de primeira linha, ainda sem ficha própria no site.",
+      "A fluoxetina (ISRS) em dose alta é o tratamento farmacológico de primeira linha, com resposta terapêutica mais tardia que na depressão.",
     fontes: [
       { tema: "Fisiopatologia (circuitos córtico-estriado-talâmico-corticais) e critérios diagnósticos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Necessidade de doses mais altas de ISRS e resposta terapêutica mais tardia que na depressão", fonte: "Goodman & Gilman, 13ª ed." },
@@ -13479,9 +13497,11 @@ export const diseases: Disease[] = [
       conduta:
         "Aplicar o Confusion Assessment Method para confirmar o diagnóstico, investigar amplamente possíveis causas (infecção, distúrbio metabólico, efeito medicamentoso, dor não controlada), e implementar medidas não farmacológicas de suporte, reservando antipsicótico em dose baixa apenas para agitação grave refratária.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "haloperidol", nome: "Haloperidol" },
+    ],
     medicamentosNota:
-      "O tratamento central é a identificação e correção da causa de base, não um medicamento específico; quando necessário para agitação grave refratária, o antipsicótico em dose baixa ainda não tem ficha própria no site, e benzodiazepínicos devem ser evitados neste contexto (exceto quando a causa é abstinência de álcool/sedativos).",
+      "O tratamento central é a identificação e correção da causa de base, não um medicamento específico; o haloperidol em dose baixa é usado apenas para agitação grave refratária a medidas não farmacológicas. Benzodiazepínicos devem ser evitados neste contexto (exceto quando a causa é abstinência de álcool/sedativos), pois podem piorar a confusão.",
     fontes: [
       { tema: "Fisiopatologia (desequilíbrio colinérgico-dopaminérgico) e distinção de demência", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Confusion Assessment Method (CAM) e contraindicação de benzodiazepínicos fora do contexto de abstinência", fonte: "fonte pendente" },

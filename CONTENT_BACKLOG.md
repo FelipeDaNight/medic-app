@@ -117,7 +117,7 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   (basocelular e espinocelular) · Impetigo · Celulite e flegmão ·
   Urticária · Pênfigo · Dermatite seborreica · Dermatite alérgica de
   contato · Abscesso cutâneo, furúnculo e antraz
-- **Medicamentos (82):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
+- **Medicamentos (92):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
   Enalapril · Budesonida inalatória · Espironolactona · Carvedilol · Dapagliflozina ·
@@ -137,7 +137,10 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   Cloridrato de doxiciclina · Aciclovir · Ivermectina · Albendazol · Cloridrato de
   clindamicina · Sulfato de morfina · Mesalazina · Cloridrato de ondansetrona ·
   Cianocobalamina · Carbamazepina · Ácido valproico · Fenitoína · Clonazepam ·
-  Levodopa + benserazida/carbidopa · Cloridrato de amitriptilina
+  Levodopa + benserazida/carbidopa · Cloridrato de amitriptilina · Cloridrato de
+  fluoxetina · Haloperidol · Risperidona · Carbonato de lítio · Cloridrato de
+  clorpromazina · Olanzapina · Clobazam · Alopurinol · Cloridrato de naloxona ·
+  Flumazenil
 
 ---
 
@@ -707,20 +710,20 @@ consta" e a Ocitocina, que depende do Apêndice B.
 12. pendente — Sumatriptana — ⛔ **não consta na RENAME 2024** (nenhum triptano na seção N completa). Não há classe de abortivo específico para enxaqueca na lista — a RENAME cobre a crise só com analgésicos gerais já presentes (dipirona, paracetamol, AAS).
 13. concluído — Cloridrato de amitriptilina (N06AA09) — ✅ **confirmado**
 
-### Lote 5 — Sistema nervoso restante + Sistema musculoesquelético (11) — ✅ todos revalidados
-1. pendente — Cloridrato de fluoxetina (N06AB03) — **código corrigido**: era N06DA02 por engano (esse é o código da cloridrato de donepezila, droga distinta para Alzheimer)
+### Lote 5 — Sistema nervoso restante + Sistema musculoesquelético (11) — ✅ CONCLUÍDO
+1. concluído — Cloridrato de fluoxetina (N06AB03) — **código corrigido**: era N06DA02 por engano (esse é o código da cloridrato de donepezila, droga distinta para Alzheimer)
 2. pendente — Sertralina — ⛔ **não consta na RENAME 2024** (ausente da seção N completa, 55+ itens verificados). Cloridrato de fluoxetina (item 1 acima) é o ISRS presente na lista.
-3. pendente — Haloperidol (N05AD01) — nome ajustado: a RENAME 2024 lista "haloperidol" (comprimido, injetável, gotas orais), não especificamente a forma decanoato de depósito
-4. pendente — Risperidona (N05AX08)
-5. pendente — Carbonato de lítio (N05AN01)
-6. pendente — Cloridrato de clorpromazina (N05AA01)
-7. pendente — Olanzapina (N05AH03) — **código corrigido**: era N07BA01 por engano (esse é o código da nicotina, adesivo/goma para cessação de tabagismo)
-8. pendente — Clobazam (N05BA09)
+3. concluído — Haloperidol (N05AD01) — nome ajustado: a RENAME 2024 lista "haloperidol" (comprimido, injetável, gotas orais), não especificamente a forma decanoato de depósito
+4. concluído — Risperidona (N05AX08)
+5. concluído — Carbonato de lítio (N05AN01)
+6. concluído — Cloridrato de clorpromazina (N05AA01)
+7. concluído — Olanzapina (N05AH03) — **código corrigido**: era N07BA01 por engano (esse é o código da nicotina, adesivo/goma para cessação de tabagismo)
+8. concluído — Clobazam (N05BA09)
 9. pendente — Colchicina — ⛔ **não consta na RENAME 2024** (ausente da seção M completa, 14 itens verificados)
-10. pendente — Alopurinol (M04AA01, 100/300mg comprimido, Básico)
+10. concluído — Alopurinol (M04AA01, 100/300mg comprimido, Básico)
 11. concluído — Metotrexato (L04AX03, 25mg/mL solução injetável e 2,5mg comprimido, Especializado) — já cruza com AR/LES (doenças já fichadas)
-12. pendente — Cloridrato de naloxona (V03AB15) — item novo, achado na revalidação; antídoto de opioides, alto valor curricular (emergência/toxicologia)
-13. pendente — Flumazenil (V03AB25) — item novo, achado na revalidação; antídoto de benzodiazepínicos, alto valor curricular (emergência/toxicologia)
+12. concluído — Cloridrato de naloxona (V03AB15) — item novo, achado na revalidação; antídoto de opioides, alto valor curricular (emergência/toxicologia)
+13. concluído — Flumazenil (V03AB25) — item novo, achado na revalidação; antídoto de benzodiazepínicos, alto valor curricular (emergência/toxicologia)
 
 *(Removido "Metildigoxina" do lote anterior — redundante com digoxina, já coberta acima; não é item distinto de alto valor curricular.)*
 
@@ -739,13 +742,14 @@ consta" e a Ocitocina, que depende do Apêndice B.
 12. pendente — Betametasona / acetato + fosfato dissódico (H02AB01)
 13. concluído — Levotiroxina sódica (H03AA01) — já usada no Hipotireoidismo e Tireoidite (doenças já fichadas)
 
-**Total: 35 medicamentos pendentes em 2 lotes** (Lotes 1-4 — Sistema cardiovascular,
+**Total: 25 medicamentos pendentes em 1 lote** (Lotes 1-5 — Sistema cardiovascular,
 Cardiovascular restante/trombolíticos/Endocrinologia, Sistema respiratório/
-Anti-infecciosos, e Trato alimentar/digestivo + Sistema nervoso, 54 itens — concluídos;
-89 medicamentos totais no backlog original, 82 originais + 4 itens novos achados durante
-a revalidação: cloridrato de clindamicina, sulfato de morfina, cloridrato de naloxona,
-flumazenil + 3 itens novos abaixo: donepezila, memantina, esquema RIPE). **Próxima
-prioridade: Lote 5 (Sistema nervoso restante + Sistema musculoesquelético, 11 itens).**
+Anti-infecciosos, Trato alimentar/digestivo + Sistema nervoso, e Sistema nervoso
+restante + Sistema musculoesquelético, 64 itens — concluídos; 89 medicamentos totais
+no backlog original, 82 originais + 4 itens novos achados durante a revalidação:
+cloridrato de clindamicina, sulfato de morfina, cloridrato de naloxona, flumazenil
++ 3 itens novos abaixo: donepezila, memantina, esquema RIPE). **Próxima prioridade:
+Lote 6 (Sistema geniturinário/hormônios + Dermatológicos, 13 itens).**
 
 ### Itens adicionados fora da ordem dos lotes — ✅ concluídos e revalidados
 Priorizados a pedido do usuário por já fecharem vínculos cruzados que existiam do lado
