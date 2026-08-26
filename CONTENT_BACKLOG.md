@@ -117,7 +117,7 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   (basocelular e espinocelular) · Impetigo · Celulite e flegmão ·
   Urticária · Pênfigo · Dermatite seborreica · Dermatite alérgica de
   contato · Abscesso cutâneo, furúnculo e antraz
-- **Medicamentos (44):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
+- **Medicamentos (58):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
   Enalapril · Budesonida inalatória · Espironolactona · Carvedilol · Dapagliflozina ·
@@ -126,7 +126,12 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   Atorvastatina cálcica · Hidroclorotiazida · Furosemida · Cloridrato de propranolol ·
   Succinato/tartarato de metoprolol · Dinitrato de isossorbida · Mononitrato de
   isossorbida · Cloridrato de amiodarona · Besilato de anlodipino · Cloridrato de
-  verapamil · Cloridrato de hidralazina · Metildopa · Mesilato de doxazosina
+  verapamil · Cloridrato de hidralazina · Metildopa · Mesilato de doxazosina ·
+  Cloridrato de dobutamina · Nifedipino · Estreptoquinase · Alteplase · Sacubitril +
+  valsartana sódica hidratada · Ácido acetilsalicílico (AAS) · Glibenclamida ·
+  Gliclazida · Propiltiouracila · Tiamazol (metimazol) · Succinato sódico de
+  hidrocortisona · Fosfato sódico de prednisolona · Insulina análoga (ação
+  prolongada/rápida) · Sulfato de magnésio
 
 ---
 
@@ -541,22 +546,22 @@ consta" e a Ocitocina, que depende do Apêndice B.
 14. concluído — Metildopa (C02AB01) — **código corrigido**: era C02CA04 por engano (esse código é da doxazosina, item 15)
 15. concluído — Mesilato de doxazosina (C02CA04) — item novo, achado na revalidação (alfa-bloqueador, HAS/HPB)
 
-### Lote 2 — Cardiovascular restante + trombolíticos + Endocrinologia (15) — ✅ todos revalidados
-1. pendente — Cloridrato de dobutamina (C01CA07) — **código corrigido**: era C01BD01 por engano (esse é o código da amiodarona)
-2. pendente — Nifedipino (C08CA05) — código confirmado, antes não constava
-3. pendente — Estreptoquinase (B01AD01)
-4. pendente — Alteplase (B01AD02)
-5. pendente — Sacubitril valsartana sódica hidratada (C09DX04) — item novo, alto valor para IC (já citado no texto da doença, ainda sem ficha própria)
-6. pendente — Ácido acetilsalicílico / AAS — ✅ **confirmado**: B01AC06 (100 mg, uso antiplaquetário) e N02BA01 (500 mg, uso analgésico), duas apresentações/usos distintos
-7. pendente — Glibenclamida (A10BB01)
-8. pendente — Gliclazida (A10BB09)
-9. pendente — Propiltiouracila (H03BA02) — **código corrigido**: era H01AC01 por engano
-10. pendente — Tiamazol (H03BB02) — ✅ **confirmado**; é a DCB oficial do medicamento comercialmente conhecido como "metimazol" (ajustar schema: tiamazol como nome principal, metimazol como sinônimo)
-11. pendente — Succinato sódico de hidrocortisona (H02AB09)
-12. pendente — Fosfato sódico de prednisolona (H02AB06)
+### Lote 2 — Cardiovascular restante + trombolíticos + Endocrinologia (15) — ✅ CONCLUÍDO
+1. concluído — Cloridrato de dobutamina (C01CA07) — **código corrigido**: era C01BD01 por engano (esse é o código da amiodarona)
+2. concluído — Nifedipino (C08CA05) — código confirmado, antes não constava
+3. concluído — Estreptoquinase (B01AD01)
+4. concluído — Alteplase (B01AD02)
+5. concluído — Sacubitril valsartana sódica hidratada (C09DX04) — item novo, alto valor para IC (já citado no texto da doença, ainda sem ficha própria)
+6. concluído — Ácido acetilsalicílico / AAS — ✅ **confirmado**: B01AC06 (100 mg, uso antiplaquetário) e N02BA01 (500 mg, uso analgésico), duas apresentações/usos distintos
+7. concluído — Glibenclamida (A10BB01)
+8. concluído — Gliclazida (A10BB09)
+9. concluído — Propiltiouracila (H03BA02) — **código corrigido**: era H01AC01 por engano
+10. concluído — Tiamazol (H03BB02) — ✅ **confirmado**; é a DCB oficial do medicamento comercialmente conhecido como "metimazol" (ajustado no schema: tiamazol como nome principal, metimazol como sinônimo)
+11. concluído — Succinato sódico de hidrocortisona (H02AB09)
+12. concluído — Fosfato sódico de prednisolona (H02AB06)
 13. concluído — Dexametasona (H02AB02)
-14. pendente — Insulina análoga de ação prolongada / de ação rápida (A10AE / A10AB)
-15. pendente — Sulfato de magnésio (A06AD04 uso oral; A12CC02 / B05XA05 uso injetável)
+14. concluído — Insulina análoga de ação prolongada / de ação rápida (A10AE / A10AB)
+15. concluído — Sulfato de magnésio (A06AD04 uso oral; A12CC02 / B05XA05 uso injetável)
 
 ### Lote 3 — Sistema respiratório + Anti-infecciosos (15) — ✅ todos revalidados
 1. pendente — Brometo de ipratrópio (R03BB01)
@@ -624,12 +629,12 @@ consta" e a Ocitocina, que depende do Apêndice B.
 12. pendente — Betametasona / acetato + fosfato dissódico (H02AB01)
 13. concluído — Levotiroxina sódica (H03AA01) — já usada no Hipotireoidismo e Tireoidite (doenças já fichadas)
 
-**Total: 74 medicamentos pendentes em 5 lotes** (Lote 1 — Sistema cardiovascular, 15
-itens — concluído; 89 medicamentos totais no backlog original, 82 originais + 4 itens
-novos achados durante a revalidação: cloridrato de clindamicina, sulfato de morfina,
-cloridrato de naloxona, flumazenil + 3 itens novos abaixo: donepezila, memantina,
-esquema RIPE). **Próxima prioridade: Lote 2 (Cardiovascular restante + trombolíticos +
-Endocrinologia, 15 itens).**
+**Total: 59 medicamentos pendentes em 4 lotes** (Lotes 1-2 — Sistema cardiovascular e
+Cardiovascular restante/trombolíticos/Endocrinologia, 30 itens — concluídos; 89
+medicamentos totais no backlog original, 82 originais + 4 itens novos achados durante a
+revalidação: cloridrato de clindamicina, sulfato de morfina, cloridrato de naloxona,
+flumazenil + 3 itens novos abaixo: donepezila, memantina, esquema RIPE). **Próxima
+prioridade: Lote 3 (Sistema respiratório + Anti-infecciosos, 15 itens).**
 
 ### Itens adicionados fora da ordem dos lotes — ✅ concluídos e revalidados
 Priorizados a pedido do usuário por já fecharem vínculos cruzados que existiam do lado

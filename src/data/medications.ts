@@ -2779,4 +2779,862 @@ export const medications: Medication[] = [
       { tema: "Síndrome da íris flácida intraoperatória e efeito de primeira dose", fonte: "AUA Guideline on the Surgical Management of Benign Prostatic Hyperplasia, 2021" },
     ],
   },
+  {
+    slug: "cloridrato-dobutamina",
+    nome: "Cloridrato de dobutamina",
+    nomeComercial: ["Dobutrex", "Dobutamina genérico"],
+    principioAtivo: "Cloridrato de dobutamina",
+    categoria: "Inotrópico (agonista beta-1 adrenérgico)",
+    codigoAtc: "C01CA07",
+    tarja: "Tarja vermelha",
+    formaFarmaceutica: "Solução injetável (infusão contínua)",
+    viaAdministracao: "Intravenosa",
+    resumo: "Inotrópico intravenoso de ação rápida e curta duração, usado no suporte hemodinâmico de curto prazo da insuficiência cardíaca aguda descompensada e do choque cardiogênico.",
+    indicacoes: [
+      "Insuficiência cardíaca aguda descompensada com baixo débito cardíaco, refratária a medidas iniciais",
+      "Choque cardiogênico, como suporte inotrópico temporário",
+    ],
+    mecanismoAcao:
+      "Agonista predominantemente dos receptores beta-1 adrenérgicos cardíacos, com efeito inotrópico positivo significativo e cronotrópico relativamente menor que outras catecolaminas, aumentando o débito cardíaco com impacto comparativamente modesto sobre a resistência vascular periférica.",
+    farmacocinetica:
+      "Início de ação em minutos após início da infusão intravenosa contínua, meia-vida muito curta (cerca de 2 minutos), exigindo infusão contínua para manutenção do efeito. Metabolização rápida por enzimas teciduais e hepáticas.",
+    posologia: "Infusão intravenosa contínua, iniciando em 2,5-5 mcg/kg/min, titulada conforme resposta hemodinâmica até doses mais altas conforme necessário.",
+    ajusteRenalHepatico:
+      "Não requer ajuste específico de dose em insuficiência renal ou hepática, dado o metabolismo extra-hepático rápido, mas a resposta deve ser guiada por monitorização hemodinâmica contínua independentemente da função de órgãos.",
+    gestacaoLactacao:
+      "Uso restrito a situações de risco de vida materna, com avaliação individualizada; dados limitados na lactação.",
+    contraindicacoes: [
+      "Cardiomiopatia hipertrófica obstrutiva",
+      "Taquiarritmias ventriculares não controladas",
+      "Hipovolemia não corrigida (deve ser tratada antes do suporte inotrópico)",
+    ],
+    efeitosColaterais: [
+      "Taquicardia e arritmias",
+      "Hipertensão ou hipotensão, conforme a dose e o contexto hemodinâmico",
+      "Isquemia miocárdica pelo aumento do consumo de oxigênio",
+    ],
+    interacoes: [
+      "Betabloqueadores: podem antagonizar o efeito inotrópico ao competir pelos mesmos receptores",
+      "Outras catecolaminas/vasopressores: efeito aditivo sobre frequência cardíaca e pressão arterial",
+    ],
+    monitorizacao: [
+      "Monitorização hemodinâmica contínua (pressão arterial, frequência cardíaca, e idealmente parâmetros de débito cardíaco) durante toda a infusão",
+      "Eletrocardiograma contínuo pelo risco de arritmias",
+    ],
+    alertas: [
+      "Deve ser usada apenas em ambiente com monitorização hemodinâmica contínua, e a hipovolemia deve ser corrigida antes de seu início, dado que o suporte inotrópico não substitui a reposição volêmica adequada quando indicada.",
+    ],
+    similares: ["Dopamina (outro inotrópico/vasopressor, perfil hemodinâmico diferente conforme a dose)", "Milrinona (inodilatador, mecanismo distinto)"],
+    pontosDeProva: [
+      "A meia-vida extremamente curta da dobutamina exige infusão contínua para manter o efeito hemodinâmico, permitindo também ajuste rápido de dose conforme a resposta",
+      "A hipovolemia deve sempre ser corrigida antes de iniciar suporte inotrópico, dado que a droga não compensa um déficit de volume circulante",
+    ],
+    doencasIndicadas: [
+      { slug: "insuficiencia-cardiaca", nome: "Insuficiência cardíaca" },
+      { slug: "cardiomiopatias", nome: "Cardiomiopatias" },
+    ],
+    fontes: [
+      { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
+      { tema: "Mecanismo de ação beta-1 seletivo e farmacocinética", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Uso no suporte hemodinâmico da IC aguda descompensada", fonte: "Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda, SBC 2018" },
+    ],
+  },
+  {
+    slug: "nifedipino",
+    nome: "Nifedipino",
+    nomeComercial: ["Adalat", "Oxcord"],
+    principioAtivo: "Nifedipino",
+    categoria: "Bloqueador de canal de cálcio (di-hidropiridínico)",
+    codigoAtc: "C08CA05",
+    tarja: "Tarja vermelha",
+    formaFarmaceutica: "Comprimido de liberação prolongada, cápsula",
+    viaAdministracao: "Oral",
+    resumo: "Bloqueador de canal de cálcio di-hidropiridínico com dupla relevância clínica: anti-hipertensivo/antianginoso na população geral e um dos poucos anti-hipertensivos orais e tocolíticos considerados seguros na gestação.",
+    indicacoes: [
+      "Hipertensão arterial sistêmica",
+      "Angina pectoris, incluindo a variante vasoespástica",
+      "Hipertensão na gestação, como opção oral segura",
+      "Tocólise (inibição do trabalho de parto pré-termo), como agente de primeira linha em protocolos atuais",
+    ],
+    mecanismoAcao:
+      "Bloqueia seletivamente os canais de cálcio tipo L na musculatura lisa vascular (com mínimo efeito direto sobre o miocárdio e o sistema de condução cardíaco), promovendo vasodilatação arterial; na tocólise, o mesmo mecanismo reduz o influxo de cálcio na musculatura lisa uterina, diminuindo a contratilidade.",
+    farmacocinetica:
+      "A formulação de liberação prolongada permite administração menos frequente com menor variabilidade pressórica; a formulação de liberação imediata tem início de ação mais rápido, mas está associada a maior risco de hipotensão reflexa abrupta e atualmente é evitada para tratamento crônico da hipertensão. Metabolização hepática pelo CYP3A4.",
+    posologia: "Hipertensão/angina (liberação prolongada): 30-90 mg por via oral, uma vez ao dia. Tocólise: dose de ataque seguida de manutenção conforme protocolo obstétrico específico.",
+    ajusteRenalHepatico:
+      "Não requer ajuste específico em insuficiência renal. Considerar redução de dose em insuficiência hepática significativa, dado o metabolismo hepático.",
+    gestacaoLactacao:
+      "Considerado anti-hipertensivo oral e tocolítico seguro na gestação, com extenso histórico de uso nessa população; compatível com a lactação.",
+    contraindicacoes: [
+      "Choque cardiogênico",
+      "Hipersensibilidade conhecida aos di-hidropiridínicos",
+    ],
+    efeitosColaterais: [
+      "Edema periférico",
+      "Cefaleia",
+      "Rubor facial",
+      "Hipotensão, mais pronunciada com a formulação de liberação imediata",
+    ],
+    interacoes: [
+      "Sulfato de magnésio: uso concomitante na tocólise/pré-eclâmpsia requer cautela pelo risco de potencialização do bloqueio neuromuscular e hipotensão",
+      "Inibidores do CYP3A4: podem aumentar o nível sérico e o risco de efeitos adversos",
+    ],
+    monitorizacao: [
+      "Pressão arterial",
+      "Frequência e intensidade das contrações uterinas quando usado para tocólise",
+    ],
+    alertas: [
+      "A formulação de liberação imediata (cápsula sublingual/oral de ação rápida) deve ser evitada para tratamento crônico da hipertensão pelo risco de queda pressórica abrupta e eventos isquêmicos reflexos, sendo a liberação prolongada a formulação preferida nessa indicação.",
+    ],
+    similares: ["Besilato de anlodipino (meia-vida mais longa, perfil mais estável)", "Nicardipino (di-hidropiridínico intravenoso alternativo)"],
+    pontosDeProva: [
+      "É um dos poucos anti-hipertensivos orais e o tocolítico de primeira linha considerados seguros na gestação, junto com a metildopa e a hidralazina",
+      "A formulação de liberação imediata deve ser evitada no tratamento crônico da hipertensão pelo risco de hipotensão reflexa abrupta, ao contrário da formulação de liberação prolongada",
+    ],
+    doencasIndicadas: [
+      { slug: "hipertensao-arterial-sistemica", nome: "Hipertensão arterial sistêmica" },
+      { slug: "angina-pectoris", nome: "Angina pectoris" },
+      { slug: "trabalho-parto-pre-termo", nome: "Trabalho de parto pré-termo" },
+      { slug: "disturbios-hipertensivos-cronicos-gestacionais-leves", nome: "Distúrbios hipertensivos crônicos e gestacionais leves da gravidez" },
+    ],
+    fontes: [
+      { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
+      { tema: "Mecanismo de ação seletivo vascular/uterino e farmacocinética", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Uso como tocolítico de primeira linha no trabalho de parto pré-termo", fonte: "ACOG Practice Bulletin No. 234, Prediction and Prevention of Spontaneous Preterm Birth, 2021" },
+    ],
+  },
+  {
+    slug: "estreptoquinase",
+    nome: "Estreptoquinase",
+    nomeComercial: ["Streptase"],
+    principioAtivo: "Estreptoquinase",
+    categoria: "Trombolítico (fibrinolítico)",
+    codigoAtc: "B01AD01",
+    tarja: "Tarja vermelha",
+    formaFarmaceutica: "Pó liofilizado para solução injetável",
+    viaAdministracao: "Intravenosa",
+    resumo: "Trombolítico de primeira geração, ainda amplamente utilizado em sistemas de saúde com acesso limitado à intervenção coronária percutânea primária para reperfusão no infarto agudo do miocárdio com supradesnivelamento do segmento ST.",
+    indicacoes: [
+      "Infarto agudo do miocárdio com supradesnivelamento do segmento ST, quando a intervenção coronária percutânea primária não está disponível dentro do tempo recomendado",
+      "Embolia pulmonar maciça com instabilidade hemodinâmica",
+    ],
+    mecanismoAcao:
+      "Forma um complexo ativador com o plasminogênio circulante, que converte plasminogênio adicional em plasmina, a enzima responsável pela degradação da fibrina do trombo; ao contrário dos trombolíticos mais modernos, não é fibrino-específica, ativando plasminogênio de forma mais sistêmica e generalizada.",
+    farmacocinetica:
+      "Meia-vida curta (cerca de 20 minutos), administrada em infusão intravenosa por tempo determinado conforme protocolo. É uma proteína de origem bacteriana (estreptocócica), o que a torna antigênica.",
+    posologia: "Infarto agudo do miocárdio: 1.500.000 UI em infusão intravenosa ao longo de 30-60 minutos, conforme protocolo institucional.",
+    ajusteRenalHepatico:
+      "Não requer ajuste específico de dose em insuficiência renal ou hepática, mas ambas as condições podem aumentar o risco hemorrágico geral associado ao uso de trombolíticos.",
+    gestacaoLactacao:
+      "Uso na gestação apenas em situações de risco de vida materna, dado o risco hemorrágico significativo tanto materno quanto potencialmente fetal.",
+    contraindicacoes: [
+      "Sangramento ativo significativo",
+      "AVC hemorrágico prévio ou AVC isquêmico recente (dentro de determinado intervalo)",
+      "Cirurgia de grande porte ou trauma significativo recente",
+      "Uso prévio de estreptoquinase nos últimos 6 meses a 1 ano (risco de reação alérgica e de resistência por anticorpos neutralizantes)",
+    ],
+    efeitosColaterais: [
+      "Sangramento (o efeito adverso mais relevante e temido)",
+      "Reações alérgicas/anafilactoides, dada a natureza antigênica da proteína bacteriana",
+      "Hipotensão durante a infusão",
+    ],
+    interacoes: [
+      "Anticoagulantes e antiplaquetários: aumento significativo do risco de sangramento quando associados",
+    ],
+    monitorizacao: [
+      "Sinais de sangramento durante e após a infusão",
+      "Sinais vitais durante a infusão, dado o risco de hipotensão e reação alérgica",
+      "Resposta eletrocardiográfica/clínica como indicador de sucesso da reperfusão no IAM",
+    ],
+    alertas: [
+      "Por ser antigênica (proteína bacteriana), o uso prévio de estreptoquinase (nos últimos 6 meses a 1 ano) contraindica seu reuso, tanto pelo risco de reação alérgica quanto pela redução de eficácia por anticorpos neutralizantes já formados — situação em que um trombolítico fibrino-específico como a alteplase deve ser preferido.",
+    ],
+    similares: ["Alteplase (trombolítico fibrino-específico, sem o problema da antigenicidade)", "Tenecteplase (trombolítico de terceira geração)"],
+    pontosDeProva: [
+      "Ao contrário da alteplase, a estreptoquinase não é fibrino-específica, causando um estado lítico sistêmico mais generalizado",
+      "É uma proteína bacteriana antigênica — uso prévio contraindica reuso pelo risco de reação alérgica e de resistência por anticorpos neutralizantes",
+      "Permanece relevante em sistemas de saúde sem acesso oportuno à intervenção coronária percutânea primária, apesar de trombolíticos mais modernos existirem",
+    ],
+    doencasIndicadas: [
+      { slug: "infarto-agudo-miocardio", nome: "Infarto agudo do miocárdio" },
+      { slug: "embolia-pulmonar", nome: "Embolia pulmonar" },
+    ],
+    fontes: [
+      { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
+      { tema: "Mecanismo de ação não fibrino-específico e antigenicidade", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Uso como alternativa à ICP primária indisponível no IAMCSST", fonte: "2013 ACCF/AHA Guideline for the Management of ST-Elevation Myocardial Infarction" },
+    ],
+  },
+  {
+    slug: "alteplase",
+    nome: "Alteplase",
+    nomeComercial: ["Actilyse"],
+    principioAtivo: "Alteplase (ativador do plasminogênio tecidual recombinante)",
+    categoria: "Trombolítico (fibrinolítico fibrino-específico)",
+    codigoAtc: "B01AD02",
+    tarja: "Tarja vermelha",
+    formaFarmaceutica: "Pó liofilizado para solução injetável",
+    viaAdministracao: "Intravenosa",
+    resumo: "Trombolítico fibrino-específico de referência, com papel estabelecido tanto no infarto agudo do miocárdio quanto, de forma exclusiva entre os trombolíticos, no AVC isquêmico dentro da janela terapêutica.",
+    indicacoes: [
+      "Infarto agudo do miocárdio com supradesnivelamento do segmento ST, quando a intervenção coronária percutânea primária não está disponível dentro do tempo recomendado",
+      "AVC isquêmico agudo, dentro da janela terapêutica estabelecida a partir do início dos sintomas",
+      "Embolia pulmonar maciça com instabilidade hemodinâmica",
+    ],
+    mecanismoAcao:
+      "Ativador do plasminogênio tecidual produzido por tecnologia recombinante, com maior afinidade pelo plasminogênio ligado à fibrina do trombo do que pelo plasminogênio circulante livre, resultando em ação trombolítica mais localizada e fibrino-específica que a estreptoquinase, com menor efeito lítico sistêmico generalizado.",
+    farmacocinetica:
+      "Meia-vida plasmática muito curta (poucos minutos), metabolização hepática rápida, exigindo protocolo de infusão específico (bolus seguido de infusão) conforme a indicação.",
+    posologia: "IAMCSST: protocolo específico com bolus inicial seguido de infusão ao longo de 90 minutos. AVC isquêmico: dose ajustada por peso, com 10% em bolus e o restante em infusão ao longo de 60 minutos, dentro da janela terapêutica.",
+    ajusteRenalHepatico:
+      "Não requer ajuste específico de dose em insuficiência renal. Uso cauteloso em hepatopatia significativa pelo risco hemorrágico aumentado (produção reduzida de fatores de coagulação).",
+    gestacaoLactacao:
+      "Uso na gestação apenas em situações de risco de vida materna, dado o risco hemorrágico significativo.",
+    contraindicacoes: [
+      "Sangramento ativo significativo",
+      "AVC hemorrágico prévio",
+      "No AVC isquêmico: fora da janela terapêutica estabelecida, ou critérios de imagem/clínicos específicos de exclusão (extensa área de infarto estabelecido, uso recente de anticoagulantes com INR elevado)",
+      "Cirurgia intracraniana/medular recente",
+    ],
+    efeitosColaterais: [
+      "Sangramento (o efeito adverso mais relevante, incluindo o risco específico de hemorragia intracraniana no uso para AVC isquêmico)",
+      "Reação alérgica, menos comum que com a estreptoquinase, dado que não é uma proteína bacteriana antigênica",
+    ],
+    interacoes: [
+      "Anticoagulantes e antiplaquetários: aumento significativo do risco de sangramento quando associados",
+    ],
+    monitorizacao: [
+      "Sinais de sangramento, especialmente neurológicos (sinais de hemorragia intracraniana) no uso para AVC isquêmico",
+      "Pressão arterial rigorosamente controlada durante e após a infusão no AVC isquêmico, dado que a hipertensão não controlada aumenta o risco de transformação hemorrágica",
+    ],
+    alertas: [
+      "No AVC isquêmico, o tempo desde o início dos sintomas até a administração é o determinante mais crítico tanto da elegibilidade quanto do benefício esperado — 'tempo é cérebro' resume a urgência do processo de decisão e administração.",
+    ],
+    similares: ["Tenecteplase (trombolítico de terceira geração, meia-vida mais longa, administração em bolus único)", "Estreptoquinase (trombolítico não fibrino-específico, alternativa quando alteplase indisponível)"],
+    pontosDeProva: [
+      "Alteplase é fibrino-específica (maior afinidade pelo plasminogênio ligado à fibrina do trombo), ao contrário da estreptoquinase, que causa lise sistêmica generalizada",
+      "É o único trombolítico com papel estabelecido no tratamento do AVC isquêmico agudo dentro da janela terapêutica, refletindo décadas de estudos específicos nessa indicação",
+      "No AVC isquêmico, o tempo desde o início dos sintomas é o fator mais determinante da elegibilidade e do benefício — daí a máxima 'tempo é cérebro'",
+    ],
+    doencasIndicadas: [
+      { slug: "infarto-agudo-miocardio", nome: "Infarto agudo do miocárdio" },
+      { slug: "avc-isquemico-infarto-cerebral", nome: "Infarto cerebral (AVC isquêmico)" },
+      { slug: "embolia-pulmonar", nome: "Embolia pulmonar" },
+    ],
+    fontes: [
+      { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
+      { tema: "Mecanismo de ação fibrino-específico e farmacocinética", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Janela terapêutica e critérios de elegibilidade no AVC isquêmico", fonte: "AHA/ASA Guideline for the Early Management of Patients With Acute Ischemic Stroke, 2019" },
+    ],
+  },
+  {
+    slug: "sacubitril-valsartana",
+    nome: "Sacubitril + valsartana sódica hidratada",
+    nomeComercial: ["Entresto"],
+    principioAtivo: "Sacubitril + valsartana sódica hidratada",
+    categoria: "Inibidor da neprilisina e do receptor de angiotensina (ARNI)",
+    codigoAtc: "C09DX04",
+    tarja: "Tarja vermelha",
+    formaFarmaceutica: "Comprimido revestido",
+    viaAdministracao: "Oral",
+    resumo: "Combinação em dose fixa que representa avanço terapêutico na insuficiência cardíaca com fração de ejeção reduzida, substituindo o IECA/BRA como um dos quatro pilares farmacológicos em pacientes elegíveis.",
+    indicacoes: [
+      "Insuficiência cardíaca com fração de ejeção reduzida, em substituição ao IECA/BRA, em pacientes sintomáticos apesar de tratamento otimizado",
+    ],
+    mecanismoAcao:
+      "Combina dois mecanismos: o sacubitril inibe a neprilisina, enzima responsável pela degradação de peptídeos natriuréticos (que têm efeitos vasodilatador, natriurético e antifibrótico benéficos na IC), enquanto a valsartana bloqueia o receptor AT1 da angiotensina II, suprimindo os efeitos deletérios da ativação do sistema renina-angiotensina; a combinação amplifica os efeitos natriuréticos/vasodilatadores enquanto bloqueia a vasoconstrição, com benefício de mortalidade superior ao enalapril isolado em estudo de referência.",
+    farmacocinetica:
+      "Boa absorção oral, com sacubitril convertido ao metabólito ativo LBQ657. Eliminação renal e biliar. Meia-vida permite administração duas vezes ao dia.",
+    posologia: "Adultos: iniciar com 49/51 mg (ou dose menor em pacientes virgens de IECA/BRA ou com função renal/hepática reduzida) por via oral, duas vezes ao dia, titulando até 97/103 mg duas vezes ao dia conforme tolerância.",
+    ajusteRenalHepatico:
+      "Requer dose inicial menor em insuficiência renal moderada a grave e em insuficiência hepática moderada; contraindicado em insuficiência hepática grave.",
+    gestacaoLactacao:
+      "Contraindicado na gestação (mesmo risco fetotóxico dos IECA/BRA pela presença do componente valsartana); evitar na lactação.",
+    contraindicacoes: [
+      "Uso concomitante ou nas 36 horas seguintes ao uso de IECA (risco de angioedema grave por acúmulo de bradicinina)",
+      "Histórico de angioedema relacionado a IECA/BRA",
+      "Gestação",
+      "Insuficiência hepática grave",
+    ],
+    efeitosColaterais: [
+      "Hipotensão",
+      "Hipercalemia",
+      "Disfunção renal",
+      "Angioedema (risco aumentado especialmente na transição a partir de IECA sem o intervalo de 36 horas)",
+    ],
+    interacoes: [
+      "IECA: combinação absolutamente contraindicada pelo risco de angioedema grave — necessário intervalo de 36 horas na transição entre as duas classes",
+      "Diuréticos poupadores de potássio e suplementos de potássio: risco aumentado de hipercalemia",
+    ],
+    monitorizacao: [
+      "Função renal e potássio sérico, especialmente após início ou ajuste de dose",
+      "Pressão arterial",
+      "Sinais de angioedema, particularmente na transição a partir de IECA",
+    ],
+    alertas: [
+      "A transição de um IECA para sacubitril-valsartana exige intervalo obrigatório de 36 horas sem uso de IECA, pelo risco de angioedema grave por acúmulo de bradicinina quando as duas classes se sobrepõem.",
+    ],
+    similares: ["Enalapril (IECA que o ARNI substitui em pacientes elegíveis)", "Losartana potássica (BRA isolado, alternativa quando o ARNI não é indicado/disponível)"],
+    pontosDeProva: [
+      "O estudo PARADIGM-HF demonstrou superioridade de mortalidade do sacubitril-valsartana sobre o enalapril isolado na IC-FEr, mudança de paradigma no tratamento farmacológico da doença",
+      "A transição a partir de IECA exige intervalo de 36 horas pelo risco de angioedema grave por acúmulo de bradicinina — um dos pontos de segurança mais cobrados sobre esse medicamento",
+    ],
+    doencasIndicadas: [
+      { slug: "insuficiencia-cardiaca", nome: "Insuficiência cardíaca" },
+      { slug: "cardiomiopatias", nome: "Cardiomiopatias" },
+    ],
+    fontes: [
+      { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
+      { tema: "Mecanismo de ação dual (neprilisina + receptor AT1) e farmacocinética", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Superioridade de mortalidade sobre enalapril (estudo PARADIGM-HF) e posicionamento como pilar da IC-FEr", fonte: "Diretriz de Insuficiência Cardíaca Crônica, SBC 2021" },
+    ],
+  },
+  {
+    slug: "acido-acetilsalicilico",
+    nome: "Ácido acetilsalicílico (AAS)",
+    nomeComercial: ["Aspirina", "AAS infantil (100 mg)"],
+    principioAtivo: "Ácido acetilsalicílico",
+    categoria: "Antiplaquetário (dose baixa) / Anti-inflamatório não esteroidal e analgésico (dose alta)",
+    codigoAtc: "B01AC06 (100 mg, uso antiplaquetário) / N02BA01 (500 mg, uso analgésico)",
+    tarja: "Venda livre (MIP)",
+    formaFarmaceutica: "Comprimido",
+    viaAdministracao: "Oral",
+    resumo: "Medicamento de duplo perfil de uso conforme a dose: em dose baixa (100 mg), é o antiplaquetário de referência na prevenção cardiovascular; em dose alta (500 mg), é analgésico/antitérmico/anti-inflamatório comum.",
+    indicacoes: [
+      "Dose baixa (100 mg): prevenção secundária (e, em casos selecionados, primária de alto risco) de eventos cardiovasculares e cerebrovasculares — infarto agudo do miocárdio, angina, AVC isquêmico/AIT",
+      "Dose alta (500 mg): analgesia leve a moderada, febre, processos inflamatórios",
+    ],
+    mecanismoAcao:
+      "Inibe irreversivelmente a enzima ciclo-oxigenase (COX-1 e COX-2) por acetilação, bloqueando a síntese de prostaglandinas e tromboxano A2; em dose baixa, o efeito predominante é a inibição da produção plaquetária de tromboxano A2 (agregante plaquetário), conferindo efeito antiplaquetário duradouro (toda a vida útil da plaqueta, pela inibição irreversível); em doses mais altas, o efeito anti-inflamatório/analgésico/antitérmico sistêmico predomina.",
+    farmacocinetica:
+      "Boa absorção oral, hidrolisada a ácido salicílico (metabólito com atividade anti-inflamatória própria). O efeito antiplaquetário da dose baixa persiste por toda a vida útil da plaqueta (7-10 dias) mesmo após uma única dose, pela inibição irreversível da COX-1 plaquetária.",
+    posologia: "Prevenção cardiovascular: 100 mg por via oral, uma vez ao dia. Analgesia/febre: 500-1000 mg por via oral, a cada 4-6 horas conforme necessário.",
+    ajusteRenalHepatico:
+      "Uso cauteloso em insuficiência renal (pode piorar a função renal, especialmente em doses altas) e em hepatopatia significativa.",
+    gestacaoLactacao:
+      "Em dose baixa, usado em indicações obstétricas específicas (como profilaxia de pré-eclâmpsia em populações de risco) sob orientação médica; em dose alta, evitar no terceiro trimestre pelo risco de fechamento precoce do ducto arterioso, semelhante a outros AINEs.",
+    contraindicacoes: [
+      "Úlcera péptica ativa ou histórico de sangramento digestivo significativo",
+      "Hipersensibilidade a salicilatos",
+      "Crianças e adolescentes com quadro viral (varicela, influenza): risco de síndrome de Reye",
+      "Terceiro trimestre da gestação em dose alta",
+    ],
+    efeitosColaterais: [
+      "Dispepsia e risco de sangramento gastrointestinal",
+      "Sangramento (relevante especialmente no uso antiplaquetário crônico)",
+      "Broncoespasmo em pacientes com sensibilidade a AINEs (doença respiratória exacerbada por AAS)",
+    ],
+    interacoes: [
+      "Anticoagulantes e outros antiplaquetários: aumento significativo do risco de sangramento",
+      "Outros AINEs: podem interferir na ligação irreversível do AAS à COX-1 plaquetária, potencialmente reduzindo seu efeito antiplaquetário quando administrados antes do AAS",
+    ],
+    monitorizacao: [
+      "Sinais de sangramento em uso antiplaquetário crônico",
+      "Sintomas dispépticos/gastrointestinais",
+    ],
+    alertas: [
+      "AAS é absolutamente contraindicado em crianças e adolescentes com infecção viral aguda (varicela, influenza) pelo risco de síndrome de Reye, uma encefalopatia hepática grave e potencialmente fatal.",
+    ],
+    similares: ["Bissulfato de clopidogrel (antiplaquetário alternativo/associado)", "Paracetamol (analgésico/antitérmico alternativo sem efeito antiplaquetário ou gastrointestinal significativo)"],
+    pontosDeProva: [
+      "O efeito antiplaquetário do AAS é irreversível e dura toda a vida útil da plaqueta, mesmo após dose única, pela acetilação permanente da COX-1 plaquetária",
+      "A síndrome de Reye é a razão pela qual o AAS é contraindicado em crianças/adolescentes com infecção viral aguda",
+      "A mesma molécula tem códigos ATC e usos distintos conforme a dose: antiplaquetário em dose baixa (100 mg), analgésico/anti-inflamatório em dose alta (500 mg)",
+    ],
+    doencasIndicadas: [
+      { slug: "infarto-agudo-miocardio", nome: "Infarto agudo do miocárdio" },
+      { slug: "angina-pectoris", nome: "Angina pectoris" },
+      { slug: "ait-ataque-isquemico-transitorio", nome: "Ataque isquêmico transitório (AIT)" },
+      { slug: "avc-isquemico-infarto-cerebral", nome: "Infarto cerebral (AVC isquêmico)" },
+    ],
+    fontes: [
+      { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
+      { tema: "Mecanismo de ação e inibição irreversível da COX-1 plaquetária", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Síndrome de Reye e contraindicação pediátrica em infecção viral", fonte: "CDC, MMWR — Surgeon General's Advisory on the Use of Salicylates and Reye Syndrome, 1982" },
+    ],
+  },
+  {
+    slug: "glibenclamida",
+    nome: "Glibenclamida",
+    nomeComercial: ["Daonil", "Glibenclamida genérico"],
+    principioAtivo: "Glibenclamida",
+    categoria: "Hipoglicemiante oral (sulfonilureia)",
+    codigoAtc: "A10BB01",
+    tarja: "Tarja vermelha",
+    formaFarmaceutica: "Comprimido",
+    viaAdministracao: "Oral",
+    resumo: "Sulfonilureia de segunda geração, hipoglicemiante oral de longa duração e alta potência, mas com risco de hipoglicemia comparativamente maior que outras sulfonilureias, motivo pelo qual seu uso vem sendo progressivamente limitado, especialmente em idosos.",
+    indicacoes: [
+      "Diabetes mellitus tipo 2, como opção quando a metformina isoladamente é insuficiente ou não tolerada",
+    ],
+    mecanismoAcao:
+      "Estimula a secreção de insulina pelas células beta pancreáticas ao se ligar ao receptor de sulfonilureia (SUR1) associado a canais de potássio dependentes de ATP, promovendo seu fechamento, despolarização da célula beta, influxo de cálcio e liberação de insulina, independentemente dos níveis glicêmicos (mecanismo que explica o risco de hipoglicemia mesmo em jejum).",
+    farmacocinetica:
+      "Boa absorção oral, meia-vida relativamente longa com metabólitos ativos que prolongam ainda mais o efeito hipoglicemiante, contribuindo para o maior risco de hipoglicemia prolongada em comparação a sulfonilureias de meia-vida mais curta. Metabolização hepática, eliminação renal e biliar dos metabólitos.",
+    posologia: "Adultos: iniciar com 2,5-5 mg por via oral, uma vez ao dia antes do café da manhã, titulando até no máximo 20 mg/dia conforme resposta glicêmica.",
+    ajusteRenalHepatico:
+      "Uso cauteloso ou evitado em insuficiência renal moderada a grave e em hepatopatia significativa, dado o risco aumentado de hipoglicemia prolongada pelo acúmulo de metabólitos ativos.",
+    gestacaoLactacao:
+      "Não recomendada na gestação (insulina é o tratamento de escolha para diabetes gestacional ou pré-gestacional); evitar na lactação.",
+    contraindicacoes: [
+      "Diabetes mellitus tipo 1",
+      "Cetoacidose diabética",
+      "Insuficiência renal ou hepática significativas",
+      "Hipersensibilidade a sulfonamidas",
+    ],
+    efeitosColaterais: [
+      "Hipoglicemia (o efeito adverso mais relevante e mais frequente entre as sulfonilureias, pelo mecanismo de ação independente da glicemia e pela meia-vida prolongada)",
+      "Ganho de peso",
+    ],
+    interacoes: [
+      "Álcool: pode potencializar o efeito hipoglicemiante e causar reação tipo dissulfiram",
+      "Betabloqueadores: podem mascarar os sintomas adrenérgicos de hipoglicemia",
+    ],
+    monitorizacao: [
+      "Glicemia capilar regular, especialmente ao iniciar ou ajustar a dose",
+      "Sinais e sintomas de hipoglicemia, particularmente em idosos e em insuficiência renal",
+    ],
+    alertas: [
+      "Entre as sulfonilureias, a glibenclamida tem o maior risco de hipoglicemia prolongada e grave, sendo geralmente evitada em idosos e preferindo-se sulfonilureias de ação mais curta (como a gliclazida) quando essa classe é indicada nessa população.",
+    ],
+    similares: ["Gliclazida (sulfonilureia de menor risco de hipoglicemia)", "Metformina (primeira linha, mecanismo distinto sem risco de hipoglicemia)"],
+    pontosDeProva: [
+      "A glibenclamida tem o maior risco de hipoglicemia entre as sulfonilureias, pela combinação de alta potência e meia-vida prolongada com metabólitos ativos",
+      "O mecanismo de ação (fechamento de canais de potássio dependentes de ATP na célula beta) é independente dos níveis glicêmicos, o que explica o risco de hipoglicemia mesmo em jejum ou com baixa ingesta calórica",
+    ],
+    doencasIndicadas: [
+      { slug: "diabetes-mellitus-tipo-2", nome: "Diabetes mellitus tipo 2" },
+    ],
+    fontes: [
+      { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
+      { tema: "Mecanismo de ação (canal de potássio dependente de ATP) e farmacocinética", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Risco comparativamente maior de hipoglicemia entre sulfonilureias e uso cauteloso em idosos", fonte: "Diretrizes da Sociedade Brasileira de Diabetes, 2023-2024" },
+    ],
+  },
+  {
+    slug: "gliclazida",
+    nome: "Gliclazida",
+    nomeComercial: ["Diamicron", "Azukon"],
+    principioAtivo: "Gliclazida",
+    categoria: "Hipoglicemiante oral (sulfonilureia)",
+    codigoAtc: "A10BB09",
+    tarja: "Tarja vermelha",
+    formaFarmaceutica: "Comprimido, comprimido de liberação prolongada",
+    viaAdministracao: "Oral",
+    resumo: "Sulfonilureia de segunda geração com perfil de segurança mais favorável que a glibenclamida quanto ao risco de hipoglicemia, sendo a sulfonilureia preferida quando essa classe é indicada, especialmente em idosos.",
+    indicacoes: [
+      "Diabetes mellitus tipo 2, como opção quando a metformina isoladamente é insuficiente ou não tolerada",
+    ],
+    mecanismoAcao:
+      "Mesmo mecanismo das demais sulfonilureias: liga-se ao receptor SUR1 associado a canais de potássio dependentes de ATP nas células beta pancreáticas, promovendo despolarização, influxo de cálcio e liberação de insulina, independentemente dos níveis glicêmicos.",
+    farmacocinetica:
+      "A formulação de liberação prolongada permite administração uma vez ao dia com liberação mais gradual e previsível, contribuindo para menor risco de hipoglicemia em comparação a sulfonilureias de ação mais prolongada e menos controlada como a glibenclamida. Metabolização hepática, eliminação predominantemente renal dos metabólitos, a maioria sem atividade hipoglicemiante significativa (ao contrário da glibenclamida).",
+    posologia: "Adultos: 30-120 mg por via oral, uma vez ao dia (formulação de liberação prolongada), pela manhã.",
+    ajusteRenalHepatico:
+      "Uso cauteloso em insuficiência renal moderada a grave, embora com risco de hipoglicemia comparativamente menor que a glibenclamida nessa situação, dado que a maioria dos metabólitos não é ativa. Uso cauteloso em hepatopatia significativa.",
+    gestacaoLactacao:
+      "Não recomendada na gestação (insulina é o tratamento de escolha); evitar na lactação.",
+    contraindicacoes: [
+      "Diabetes mellitus tipo 1",
+      "Cetoacidose diabética",
+      "Insuficiência renal ou hepática graves",
+      "Hipersensibilidade a sulfonamidas",
+    ],
+    efeitosColaterais: [
+      "Hipoglicemia (risco menor que com a glibenclamida, mas ainda presente)",
+      "Ganho de peso",
+    ],
+    interacoes: [
+      "Álcool: pode potencializar o efeito hipoglicemiante",
+      "Betabloqueadores: podem mascarar os sintomas adrenérgicos de hipoglicemia",
+    ],
+    monitorizacao: [
+      "Glicemia capilar regular",
+      "Sinais e sintomas de hipoglicemia",
+    ],
+    alertas: [
+      "É a sulfonilureia geralmente preferida em idosos e em insuficiência renal leve a moderada, quando essa classe terapêutica é indicada, pelo perfil de hipoglicemia mais favorável que a glibenclamida.",
+    ],
+    similares: ["Glibenclamida (sulfonilureia de maior potência e maior risco de hipoglicemia)", "Metformina (primeira linha, sem risco de hipoglicemia)"],
+    pontosDeProva: [
+      "Ao contrário da glibenclamida, a maioria dos metabólitos da gliclazida não é ativa, contribuindo para seu perfil de hipoglicemia mais previsível e seguro",
+      "É a sulfonilureia preferida em idosos quando essa classe é indicada, exatamente pelo menor risco de hipoglicemia grave/prolongada",
+    ],
+    doencasIndicadas: [
+      { slug: "diabetes-mellitus-tipo-2", nome: "Diabetes mellitus tipo 2" },
+    ],
+    fontes: [
+      { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
+      { tema: "Mecanismo de ação e diferenças farmacocinéticas com a glibenclamida", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Preferência em idosos pelo perfil de hipoglicemia mais favorável", fonte: "Diretrizes da Sociedade Brasileira de Diabetes, 2023-2024" },
+    ],
+  },
+  {
+    slug: "propiltiouracila",
+    nome: "Propiltiouracila",
+    nomeComercial: ["Propiltiouracil genérico"],
+    principioAtivo: "Propiltiouracila",
+    categoria: "Antitireoidiano",
+    codigoAtc: "H03BA02",
+    tarja: "Tarja vermelha",
+    formaFarmaceutica: "Comprimido",
+    viaAdministracao: "Oral",
+    resumo: "Antitireoidiano com papel específico e preferencial no primeiro trimestre da gestação e na tempestade tireotóxica, situações em que suas propriedades farmacológicas particulares (incluindo inibição periférica da conversão de T4 em T3) oferecem vantagem sobre o tiamazol.",
+    indicacoes: [
+      "Hipertireoidismo (doença de Graves, bócio multinodular tóxico), particularmente no primeiro trimestre da gestação",
+      "Tempestade tireotóxica (crise tireotóxica), pela ação adicional de inibição da conversão periférica de T4 em T3",
+    ],
+    mecanismoAcao:
+      "Inibe a enzima tireoperoxidase, bloqueando a organificação do iodo e a síntese de hormônios tireoidianos; adicionalmente, e de forma distintiva em relação ao tiamazol, inibe a enzima deiodinase periférica responsável pela conversão de T4 (menos ativo) em T3 (mais ativo), conferindo efeito adicional relevante na tempestade tireotóxica.",
+    farmacocinetica:
+      "Meia-vida curta, exigindo múltiplas tomadas diárias. Menor transferência placentária e para o leite materno que o tiamazol, características que fundamentam sua preferência no primeiro trimestre da gestação.",
+    posologia: "Adultos: dose inicial de 100-150 mg por via oral, 3 vezes ao dia, ajustada conforme resposta clínica e laboratorial.",
+    ajusteRenalHepatico:
+      "Não requer ajuste específico em insuficiência renal. Contraindicada em hepatopatia ativa, dado o risco de hepatotoxicidade grave associado a esse medicamento especificamente.",
+    gestacaoLactacao:
+      "Preferida sobre o tiamazol especificamente no primeiro trimestre da gestação pelo menor risco teratogênico associado; o tiamazol é preferido a partir do segundo trimestre pelo menor risco de hepatotoxicidade materna grave.",
+    contraindicacoes: [
+      "Hepatopatia ativa ou história de hepatotoxicidade grave por propiltiouracila",
+      "Hipersensibilidade conhecida",
+    ],
+    efeitosColaterais: [
+      "Hepatotoxicidade grave (incluindo insuficiência hepática fulminante, raro mas grave, mais associado à propiltiouracila que ao tiamazol)",
+      "Agranulocitose (efeito adverso grave compartilhado com o tiamazol, exigindo alerta imediato diante de febre/infecção)",
+      "Rash cutâneo",
+      "Artralgia",
+    ],
+    interacoes: [
+      "Anticoagulantes orais: pode potencializar o efeito anticoagulante",
+    ],
+    monitorizacao: [
+      "Função hepática, particularmente relevante dado o risco específico de hepatotoxicidade grave desse medicamento",
+      "Hemograma diante de febre ou sinais de infecção, pelo risco de agranulocitose",
+      "Função tireoidiana periódica para ajuste de dose",
+    ],
+    alertas: [
+      "Ao contrário do tiamazol (preferido na maior parte do tratamento do hipertireoidismo), a propiltiouracila tem indicações específicas e restritas: primeiro trimestre da gestação e tempestade tireotóxica, dado seu maior risco de hepatotoxicidade grave em uso prolongado.",
+    ],
+    similares: ["Tiamazol (antitireoidiano preferido fora do primeiro trimestre da gestação)"],
+    pontosDeProva: [
+      "A propiltiouracila, ao contrário do tiamazol, inibe também a conversão periférica de T4 em T3, propriedade que fundamenta seu uso preferencial na tempestade tireotóxica",
+      "É preferida especificamente no primeiro trimestre da gestação pelo menor risco teratogênico comparado ao tiamazol, mas o tiamazol é preferido a partir do segundo trimestre pelo menor risco de hepatotoxicidade materna grave",
+      "Agranulocitose é um efeito adverso grave compartilhado entre propiltiouracila e tiamazol, exigindo orientação ao paciente para procurar atendimento imediato diante de febre ou sinais de infecção",
+    ],
+    doencasIndicadas: [
+      { slug: "hipertireoidismo", nome: "Tireotoxicose (hipertireoidismo)" },
+    ],
+    fontes: [
+      { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
+      { tema: "Mecanismo de ação e inibição da deiodinase periférica", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Preferência no primeiro trimestre da gestação e na tempestade tireotóxica", fonte: "American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism, 2016" },
+    ],
+  },
+  {
+    slug: "tiamazol",
+    nome: "Tiamazol (metimazol)",
+    nomeComercial: ["Tapazol"],
+    principioAtivo: "Tiamazol",
+    categoria: "Antitireoidiano",
+    codigoAtc: "H03BB02",
+    tarja: "Tarja vermelha",
+    formaFarmaceutica: "Comprimido",
+    viaAdministracao: "Oral",
+    resumo: "Antitireoidiano de primeira escolha para a maioria dos pacientes com hipertireoidismo, conhecido no Brasil também pela denominação comercial 'metimazol', com perfil de segurança mais favorável que a propiltiouracila fora do contexto gestacional/tempestade tireotóxica.",
+    indicacoes: [
+      "Hipertireoidismo (doença de Graves, bócio multinodular tóxico), tratamento antitireoidiano de primeira escolha na maioria dos pacientes não gestantes ou a partir do segundo trimestre da gestação",
+      "Preparo pré-operatório para tireoidectomia ou antes do tratamento com iodo radioativo, para normalização da função tireoidiana",
+    ],
+    mecanismoAcao:
+      "Inibe a enzima tireoperoxidase, bloqueando a organificação do iodo e o acoplamento das iodotirosinas, reduzindo a síntese de novos hormônios tireoidianos; ao contrário da propiltiouracila, não tem efeito significativo sobre a conversão periférica de T4 em T3.",
+    farmacocinetica:
+      "Meia-vida mais longa que a propiltiouracila, permitindo administração uma ou duas vezes ao dia (maior comodidade posológica e melhor adesão). Metabolização hepática.",
+    posologia: "Adultos: dose inicial de 10-40 mg por via oral, uma vez ao dia, ajustada conforme resposta clínica e laboratorial, com redução progressiva até dose de manutenção.",
+    ajusteRenalHepatico:
+      "Não requer ajuste específico em insuficiência renal. Uso cauteloso em hepatopatia, com monitorização, embora o risco de hepatotoxicidade grave seja menor que com a propiltiouracila.",
+    gestacaoLactacao:
+      "Preferido a partir do segundo trimestre da gestação (a propiltiouracila é preferida no primeiro trimestre pelo menor risco teratogênico); dados de segurança permitem uso cauteloso na lactação em doses baixas a moderadas.",
+    contraindicacoes: [
+      "Hipersensibilidade conhecida",
+      "Primeiro trimestre da gestação (propiltiouracila é preferida nesse período específico)",
+    ],
+    efeitosColaterais: [
+      "Agranulocitose (efeito adverso grave, exigindo orientação para procura imediata de atendimento diante de febre ou sinais de infecção)",
+      "Rash cutâneo e prurido",
+      "Hepatotoxicidade (menos comum e geralmente menos grave que com a propiltiouracila)",
+      "Artralgia",
+    ],
+    interacoes: [
+      "Anticoagulantes orais: pode alterar o efeito anticoagulante conforme a função tireoidiana se normaliza",
+    ],
+    monitorizacao: [
+      "Hemograma diante de febre ou sinais de infecção, pelo risco de agranulocitose",
+      "Função hepática periódica",
+      "Função tireoidiana periódica para ajuste de dose",
+    ],
+    alertas: [
+      "Todo paciente iniciando tiamazol deve ser orientado a procurar atendimento médico imediato diante de febre, dor de garganta ou outros sinais de infecção, pelo risco de agranulocitose, efeito adverso grave compartilhado com a propiltiouracila.",
+    ],
+    similares: ["Propiltiouracila (antitireoidiano preferido no primeiro trimestre da gestação e na tempestade tireotóxica)"],
+    pontosDeProva: [
+      "Tiamazol é a DCB oficial do medicamento comercialmente conhecido no Brasil como 'metimazol' — mesma substância, nomenclaturas diferentes",
+      "É o antitireoidiano de primeira escolha para a maioria dos pacientes, exceto no primeiro trimestre da gestação e na tempestade tireotóxica, situações em que a propiltiouracila é preferida",
+      "Sua meia-vida mais longa permite posologia mais simples (uma a duas vezes ao dia) que a propiltiouracila, favorecendo a adesão ao tratamento",
+    ],
+    doencasIndicadas: [
+      { slug: "hipertireoidismo", nome: "Tireotoxicose (hipertireoidismo)" },
+    ],
+    fontes: [
+      { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
+      { tema: "Mecanismo de ação e farmacocinética comparada à propiltiouracila", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Posicionamento como antitireoidiano de primeira escolha fora do primeiro trimestre gestacional", fonte: "American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism, 2016" },
+    ],
+  },
+  {
+    slug: "succinato-sodico-hidrocortisona",
+    nome: "Succinato sódico de hidrocortisona",
+    nomeComercial: ["Solu-Cortef"],
+    principioAtivo: "Succinato sódico de hidrocortisona",
+    categoria: "Corticosteroide (glicocorticoide de ação curta)",
+    codigoAtc: "H02AB09",
+    tarja: "Tarja vermelha",
+    formaFarmaceutica: "Pó liofilizado para solução injetável",
+    viaAdministracao: "Intravenosa, intramuscular",
+    resumo: "Corticosteroide injetável de escolha na crise adrenal (insuficiência adrenal aguda), pela combinação de rápido início de ação e atividade mineralocorticoide relevante, ausente em corticosteroides sintéticos mais modernos.",
+    indicacoes: [
+      "Crise adrenal (insuficiência adrenal aguda), tratamento de escolha por sua rápida ação e atividade mineralocorticoide intrínseca",
+      "Terapia de reposição em insuficiência adrenal crônica durante estresse fisiológico agudo (cirurgia, infecção grave)",
+      "Choque séptico refratário a vasopressores, como terapia adjuvante em protocolos selecionados",
+    ],
+    mecanismoAcao:
+      "Glicocorticoide de ação curta que, diferentemente de corticosteroides sintéticos mais modernos (como a dexametasona), preserva atividade mineralocorticoide relevante (retenção de sódio e água, excreção de potássio), propriedade que é vantajosa na crise adrenal, onde a deficiência mineralocorticoide contribui para a instabilidade hemodinâmica.",
+    farmacocinetica:
+      "Início de ação rápido por via intravenosa, meia-vida biológica curta a intermediária, exigindo doses repetidas ou infusão contínua conforme o contexto clínico de uso agudo.",
+    posologia: "Crise adrenal: 100 mg em bolus intravenoso, seguido de 100-200 mg/dia em doses divididas ou infusão contínua, com redução progressiva conforme a estabilização clínica.",
+    ajusteRenalHepatico:
+      "Não requer ajuste específico em insuficiência renal. Uso cauteloso em insuficiência hepática, dado que a conversão à forma ativa pode estar prejudicada.",
+    gestacaoLactacao:
+      "Uso na gestação quando clinicamente indicado (a crise adrenal é emergência que exige tratamento independentemente da gestação); compatível com a lactação em uso pontual.",
+    contraindicacoes: [
+      "Infecção fúngica sistêmica não tratada (exceto quando o benefício supera claramente o risco em contexto de emergência)",
+      "Hipersensibilidade conhecida",
+    ],
+    efeitosColaterais: [
+      "Hiperglicemia",
+      "Retenção hídrica e hipertensão (pela atividade mineralocorticoide)",
+      "Imunossupressão com uso prolongado",
+    ],
+    interacoes: [
+      "Hipoglicemiantes: pode reduzir o efeito hipoglicemiante pelo antagonismo glicocorticoide",
+      "Diuréticos poupadores de potássio: interação relacionada à atividade mineralocorticoide",
+    ],
+    monitorizacao: [
+      "Sinais vitais e estado hemodinâmico durante o tratamento da crise adrenal",
+      "Glicemia e eletrólitos durante o uso",
+    ],
+    alertas: [
+      "É o corticosteroide de escolha na crise adrenal especificamente pela atividade mineralocorticoide preservada, ausente em corticosteroides sintéticos como a dexametasona, que não substituem adequadamente essa função na insuficiência adrenal aguda.",
+    ],
+    similares: ["Dexametasona (sem atividade mineralocorticoide relevante, usada quando essa característica não é necessária)", "Fosfato sódico de prednisolona (atividade mineralocorticoide intermediária)"],
+    pontosDeProva: [
+      "A hidrocortisona preserva atividade mineralocorticoide significativa, ao contrário da dexametasona, o que a torna a escolha específica na crise adrenal, onde essa atividade é clinicamente relevante",
+      "Na crise adrenal, o tratamento com hidrocortisona não deve ser postergado para confirmação laboratorial completa, dado o risco de vida da condição não tratada",
+    ],
+    doencasIndicadas: [
+      { slug: "insuficiencia-adrenal", nome: "Insuficiência adrenal" },
+    ],
+    fontes: [
+      { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
+      { tema: "Atividade mineralocorticoide e mecanismo de ação", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Tratamento de escolha na crise adrenal", fonte: "Endocrine Society Clinical Practice Guideline, Diagnosis and Treatment of Primary Adrenal Insufficiency, 2016" },
+    ],
+  },
+  {
+    slug: "fosfato-sodico-prednisolona",
+    nome: "Fosfato sódico de prednisolona",
+    nomeComercial: ["Predsim", "Prelone"],
+    principioAtivo: "Fosfato sódico de prednisolona",
+    categoria: "Corticosteroide (glicocorticoide sistêmico)",
+    codigoAtc: "H02AB06",
+    tarja: "Tarja vermelha",
+    formaFarmaceutica: "Solução oral, comprimido",
+    viaAdministracao: "Oral",
+    resumo: "Corticosteroide sistêmico de formulação líquida amplamente utilizado em pediatria, com potência e propriedades farmacológicas semelhantes às da prednisona, da qual é o metabólito ativo.",
+    indicacoes: [
+      "Asma e crise asmática, incluindo em população pediátrica",
+      "Laringite obstrutiva aguda (crupe), quando corticosteroide sistêmico está indicado",
+      "Outras condições inflamatórias/alérgicas agudas em que corticosteroide sistêmico de curto prazo é indicado",
+    ],
+    mecanismoAcao:
+      "É o metabólito ativo da prednisona (que precisa ser convertida no fígado à prednisolona para exercer seu efeito); a formulação de prednisolona já fornece diretamente a molécula ativa, com o mesmo mecanismo de ação glicocorticoide (ligação a receptores citoplasmáticos, modulação da transcrição de genes inflamatórios) característico dessa classe.",
+    farmacocinetica:
+      "Por já ser a forma ativa (ao contrário da prednisona, que exige conversão hepática), tem farmacocinética mais previsível em pacientes com função hepática comprometida. Disponível em formulação líquida, facilitando a administração em crianças pequenas.",
+    posologia: "Crianças: 1-2 mg/kg/dia por via oral, em dose única ou dividida, conforme a indicação e a gravidade. Adultos: dose equivalente à prednisona (aproximadamente equipotentes).",
+    ajusteRenalHepatico:
+      "Não requer ajuste específico em insuficiência renal. Preferível à prednisona em hepatopatia significativa, dado que não depende de conversão hepática para ativação.",
+    gestacaoLactacao:
+      "Uso na gestação apenas quando o benefício justifica o risco, com preferência por corticosteroides que não atravessam a placenta extensamente quando o efeito fetal não é desejado; compatível com a lactação em doses habituais.",
+    contraindicacoes: [
+      "Infecção fúngica sistêmica não tratada",
+      "Hipersensibilidade conhecida",
+    ],
+    efeitosColaterais: [
+      "Hiperglicemia",
+      "Alterações do humor e comportamento (mais notáveis em crianças)",
+      "Aumento do apetite",
+      "Imunossupressão com uso prolongado",
+    ],
+    interacoes: [
+      "AINEs: risco aumentado de úlcera péptica quando associados",
+      "Hipoglicemiantes: pode reduzir seu efeito pelo antagonismo glicocorticoide",
+    ],
+    monitorizacao: [
+      "Glicemia em uso prolongado ou em pacientes de risco",
+      "Crescimento estatural em uso prolongado pediátrico",
+    ],
+    alertas: [
+      "Por já ser a forma ativa (não exigindo conversão hepática, ao contrário da prednisona), a prednisolona é preferida em pacientes com hepatopatia significativa quando um corticosteroide sistêmico dessa potência é indicado.",
+    ],
+    similares: ["Prednisona (pró-droga convertida a prednisolona no fígado)", "Dexametasona (maior potência, meia-vida mais longa)"],
+    pontosDeProva: [
+      "A prednisolona é o metabólito ativo da prednisona — em hepatopatas graves, a prednisolona é preferida por não depender da conversão hepática",
+      "A disponibilidade em formulação líquida torna a prednisolona particularmente útil em pediatria, onde a administração de comprimidos é mais difícil",
+    ],
+    doencasIndicadas: [
+      { slug: "asma", nome: "Asma" },
+      { slug: "crupe-epiglotite", nome: "Laringite obstrutiva aguda (crupe) e epiglotite" },
+    ],
+    fontes: [
+      { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
+      { tema: "Relação metabólica com a prednisona e mecanismo de ação glicocorticoide", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Uso em crupe e asma pediátrica", fonte: "GINA (Global Initiative for Asthma), 2024" },
+    ],
+  },
+  {
+    slug: "insulina-analoga",
+    nome: "Insulina análoga (ação prolongada / ação rápida)",
+    nomeComercial: ["Lantus", "Levemir", "NovoRapid", "Humalog"],
+    principioAtivo: "Insulina glargina / insulina detemir (ação prolongada); insulina lispro / insulina asparte (ação rápida)",
+    categoria: "Antidiabético (insulina análoga)",
+    codigoAtc: "A10AE / A10AB",
+    tarja: "Tarja vermelha",
+    formaFarmaceutica: "Solução injetável (caneta ou frasco-ampola)",
+    viaAdministracao: "Subcutânea",
+    resumo: "Insulinas análogas com perfil farmacocinético modificado em relação às insulinas humanas convencionais (NPH e regular), oferecendo maior previsibilidade de ação e menor risco de hipoglicemia em esquemas basal-bolus.",
+    indicacoes: [
+      "Diabetes mellitus tipo 1, como componente do esquema basal-bolus",
+      "Diabetes mellitus tipo 2, quando a insulinoterapia é necessária, especialmente em esquemas mais intensivos ou quando há hipoglicemia recorrente com insulina humana convencional",
+    ],
+    mecanismoAcao:
+      "Mesmo mecanismo de ação da insulina humana (ligação ao receptor de insulina, promovendo captação celular de glicose e demais efeitos metabólicos anabólicos), mas com modificações na sequência de aminoácidos que alteram a cinética de absorção subcutânea: as insulinas de ação prolongada (glargina, detemir) formam microprecipitados ou se ligam à albumina, resultando em liberação mais lenta e constante, sem pico pronunciado; as insulinas de ação rápida (lispro, asparte) têm menor tendência a formar hexâmeros, absorvendo-se mais rapidamente que a insulina regular.",
+    farmacocinetica:
+      "Insulinas de ação prolongada: início de ação gradual, perfil relativamente sem pico ('peakless'), duração de ação de 18-24 horas, permitindo cobertura basal mais estável que a NPH. Insulinas de ação rápida: início de ação em 10-15 minutos, pico em 1-2 horas, duração de 3-5 horas, permitindo administração mais próxima da refeição que a insulina regular.",
+    posologia: "Individualizada conforme peso, sensibilidade à insulina e metas glicêmicas; esquema basal-bolus tipicamente combina uma insulina de ação prolongada (dose diária) com insulina de ação rápida antes das refeições.",
+    ajusteRenalHepatico:
+      "Requer redução de dose e monitorização mais próxima em insuficiência renal e hepática, dado o risco aumentado de hipoglicemia pela alteração do metabolismo e depuração da insulina nessas condições.",
+    gestacaoLactacao:
+      "Insulina (incluindo análogos com perfil de segurança estabelecido, como a lispro, a asparte e a detemir) é o tratamento de escolha para diabetes na gestação quando insulinoterapia é necessária; compatível com a lactação.",
+    contraindicacoes: [
+      "Hipoglicemia atual",
+      "Hipersensibilidade conhecida à formulação específica",
+    ],
+    efeitosColaterais: [
+      "Hipoglicemia (risco menor que com insulinas humanas convencionais em esquemas equivalentes, mas ainda o principal risco)",
+      "Reações no local de aplicação",
+      "Ganho de peso",
+      "Lipodistrofia com aplicações repetidas no mesmo local",
+    ],
+    interacoes: [
+      "Betabloqueadores: podem mascarar os sintomas adrenérgicos de hipoglicemia",
+      "Corticosteroides: antagonizam o efeito hipoglicemiante, podendo exigir ajuste de dose",
+    ],
+    monitorizacao: [
+      "Glicemia capilar regular, conforme o esquema terapêutico",
+      "Hemoglobina glicada periodicamente para avaliação do controle glicêmico global",
+      "Locais de aplicação, para identificação precoce de lipodistrofia",
+    ],
+    alertas: [
+      "As insulinas análogas de ação prolongada têm perfil de ação mais previsível e sem pico pronunciado em comparação à NPH, reduzindo o risco de hipoglicemia noturna/entre refeições, vantagem clínica relevante em pacientes com hipoglicemias recorrentes.",
+    ],
+    similares: ["Insulina NPH humana (ação intermediária, perfil com pico mais pronunciado)", "Insulina regular humana (ação rápida convencional, início de ação mais lento que os análogos)"],
+    pontosDeProva: [
+      "As insulinas análogas de ação prolongada (glargina, detemir) têm perfil 'sem pico', ao contrário da NPH, reduzindo o risco de hipoglicemia entre as doses",
+      "As insulinas análogas de ação rápida (lispro, asparte) podem ser administradas mais próximas do horário da refeição que a insulina regular, pela absorção subcutânea mais rápida",
+      "Insulina é sempre o tratamento de escolha para diabetes que necessita de tratamento farmacológico na gestação, com análogos específicos (lispro, asparte, detemir) tendo perfil de segurança estabelecido nessa população",
+    ],
+    doencasIndicadas: [
+      { slug: "diabetes-mellitus-tipo-1", nome: "Diabetes mellitus tipo 1" },
+      { slug: "diabetes-mellitus-tipo-2", nome: "Diabetes mellitus tipo 2" },
+    ],
+    fontes: [
+      { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
+      { tema: "Diferenças farmacocinéticas entre análogos e insulinas humanas convencionais", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Papel no esquema basal-bolus e redução do risco de hipoglicemia", fonte: "Standards of Care in Diabetes, American Diabetes Association, 2024" },
+    ],
+  },
+  {
+    slug: "sulfato-magnesio",
+    nome: "Sulfato de magnésio",
+    nomeComercial: ["Sulfato de magnésio genérico"],
+    principioAtivo: "Sulfato de magnésio",
+    categoria: "Anticonvulsivante / repositor eletrolítico",
+    codigoAtc: "A06AD04 (uso oral) / A12CC02, B05XA05 (uso injetável)",
+    tarja: "Tarja vermelha",
+    formaFarmaceutica: "Solução injetável, pó para solução oral",
+    viaAdministracao: "Intravenosa, oral",
+    resumo: "Medicamento de uso versátil conforme a via e a indicação, sendo o tratamento de escolha para profilaxia e tratamento de convulsões eclâmpticas e um agente de neuroproteção fetal no trabalho de parto pré-termo extremo.",
+    indicacoes: [
+      "Profilaxia e tratamento de convulsões na pré-eclâmpsia com sinais de gravidade e na eclâmpsia",
+      "Neuroproteção fetal quando o parto pré-termo é iminente antes de 32 semanas de gestação",
+      "Broncoespasmo grave refratário no estado de mal asmático, como terapia adjuvante",
+      "Hipomagnesemia sintomática",
+    ],
+    mecanismoAcao:
+      "O magnésio atua como antagonista fisiológico do cálcio em múltiplos níveis: na placa neuromuscular, reduz a liberação de acetilcolina e a excitabilidade da membrana, com efeito anticonvulsivante central relevante na eclâmpsia; na musculatura lisa brônquica e vascular, promove relaxamento por bloqueio de canais de cálcio, contribuindo tanto para o efeito broncodilatador adjuvante quanto para propriedades vasodilatadoras.",
+    farmacocinetica:
+      "Por via intravenosa, início de ação rápido. Eliminação predominantemente renal, exigindo ajuste cuidadoso e monitorização em insuficiência renal pelo risco de acúmulo e toxicidade.",
+    posologia: "Pré-eclâmpsia/eclâmpsia: dose de ataque intravenosa seguida de infusão de manutenção conforme protocolo obstétrico, com monitorização rigorosa. Neuroproteção fetal: protocolo específico conforme diretriz obstétrica.",
+    ajusteRenalHepatico:
+      "Requer ajuste de dose e monitorização mais rigorosa e frequente (incluindo nível sérico) em insuficiência renal, dado o risco significativamente aumentado de acúmulo e toxicidade (incluindo depressão respiratória e parada cardíaca) nessa população.",
+    gestacaoLactacao:
+      "Uso extensamente estabelecido e considerado de escolha nas indicações obstétricas específicas (pré-eclâmpsia/eclâmpsia, neuroproteção fetal); compatível com a lactação.",
+    contraindicacoes: [
+      "Miastenia gravis (pode precipitar crise miastênica pelo bloqueio da transmissão neuromuscular)",
+      "Bloqueio cardíaco",
+      "Insuficiência renal grave não monitorizada",
+    ],
+    efeitosColaterais: [
+      "Rubor facial e sensação de calor durante a infusão",
+      "Depressão dos reflexos tendinosos profundos (sinal precoce de toxicidade, monitorizado ativamente)",
+      "Depressão respiratória e parada cardíaca em toxicidade grave não reconhecida",
+      "Hipotensão",
+    ],
+    interacoes: [
+      "Bloqueadores neuromusculares: potencialização do bloqueio",
+      "Bloqueadores de canal de cálcio: risco aumentado de hipotensão e bloqueio neuromuscular quando associados (relevante na tocólise concomitante com nifedipino)",
+    ],
+    monitorizacao: [
+      "Reflexos tendinosos profundos, frequência respiratória e débito urinário durante a infusão, sinais clínicos que precedem a toxicidade grave",
+      "Nível sérico de magnésio, especialmente em insuficiência renal ou uso prolongado",
+    ],
+    alertas: [
+      "O gluconato de cálcio é o antídoto específico para toxicidade grave por sulfato de magnésio (depressão respiratória, parada cardíaca), devendo estar disponível à beira-leito sempre que a infusão for administrada.",
+    ],
+    similares: ["Nenhum agente com o mesmo perfil de indicações específicas em obstetrícia"],
+    pontosDeProva: [
+      "A depressão dos reflexos tendinosos profundos é o sinal clínico mais precoce de toxicidade por magnésio, devendo ser monitorizada ativamente durante toda a infusão",
+      "O gluconato de cálcio é o antídoto específico para toxicidade grave por sulfato de magnésio",
+      "É indicado tanto para tratamento materno (convulsões eclâmpticas) quanto para neuroproteção fetal (parto pré-termo extremo antes de 32 semanas), duas indicações obstétricas distintas com o mesmo agente",
+    ],
+    doencasIndicadas: [
+      { slug: "eclampsia", nome: "Eclâmpsia" },
+      { slug: "pre-eclampsia", nome: "Hipertensão gestacional com proteinúria (pré-eclâmpsia)" },
+      { slug: "trabalho-parto-pre-termo", nome: "Trabalho de parto pré-termo" },
+      { slug: "estado-de-mal-asmatico", nome: "Estado de mal asmático" },
+    ],
+    fontes: [
+      { tema: "Mecanismo de ação anticonvulsivante e broncodilatador", fonte: "Goodman & Gilman, 13ª ed." },
+      { tema: "Sinais de toxicidade e antídoto (gluconato de cálcio)", fonte: "ACOG Practice Bulletin No. 222, Gestational Hypertension and Preeclampsia, 2020" },
+      { tema: "Neuroproteção fetal antes de 32 semanas", fonte: "ACOG Committee Opinion No. 455, Magnesium Sulfate Before Anticipated Preterm Birth for Neuroprotection, 2010" },
+    ],
+  },
 ];

@@ -83,6 +83,7 @@ export const diseases: Disease[] = [
       { slug: "cloridrato-hidralazina", nome: "Cloridrato de hidralazina" },
       { slug: "metildopa", nome: "Metildopa" },
       { slug: "mesilato-doxazosina", nome: "Mesilato de doxazosina" },
+      { slug: "nifedipino", nome: "Nifedipino" },
     ],
     fontes: [
       { tema: "Classificação pressórica e metas de tratamento", fonte: "Diretriz Brasileira de Hipertensão Arterial, 2020" },
@@ -172,6 +173,8 @@ export const diseases: Disease[] = [
       { slug: "furosemida", nome: "Furosemida" },
       { slug: "dinitrato-isossorbida", nome: "Dinitrato de isossorbida" },
       { slug: "cloridrato-hidralazina", nome: "Cloridrato de hidralazina" },
+      { slug: "cloridrato-dobutamina", nome: "Cloridrato de dobutamina" },
+      { slug: "sacubitril-valsartana", nome: "Sacubitril + valsartana sódica hidratada" },
     ],
     fontes: [
       { tema: "Classificação NYHA/ACC-AHA e por fração de ejeção", fonte: "Diretriz Brasileira de Insuficiência Cardíaca Crônica, SBC 2021" },
@@ -254,6 +257,9 @@ export const diseases: Disease[] = [
       { slug: "metformina", nome: "Metformina" },
       { slug: "dapagliflozina", nome: "Dapagliflozina" },
       { slug: "insulina-nph", nome: "Insulina NPH humana" },
+      { slug: "glibenclamida", nome: "Glibenclamida" },
+      { slug: "gliclazida", nome: "Gliclazida" },
+      { slug: "insulina-analoga", nome: "Insulina análoga (ação prolongada / ação rápida)" },
     ],
     fontes: [
       { tema: "Critérios diagnósticos e metas de HbA1c", fonte: "Diretrizes da Sociedade Brasileira de Diabetes, 2023-2024" },
@@ -406,6 +412,7 @@ export const diseases: Disease[] = [
       { slug: "budesonida-inalatoria", nome: "Budesonida inalatória" },
       { slug: "salbutamol", nome: "Salbutamol" },
       { slug: "prednisona", nome: "Prednisona" },
+      { slug: "fosfato-sodico-prednisolona", nome: "Fosfato sódico de prednisolona" },
     ],
     fontes: [
       { tema: "Classificação de gravidade/controle e algoritmo terapêutico", fonte: "GINA (Global Initiative for Asthma), 2024" },
@@ -1363,6 +1370,9 @@ export const diseases: Disease[] = [
       { slug: "atorvastatina-calcica", nome: "Atorvastatina cálcica" },
       { slug: "metoprolol", nome: "Succinato de metoprolol / Tartarato de metoprolol" },
       { slug: "dinitrato-isossorbida", nome: "Dinitrato de isossorbida" },
+      { slug: "estreptoquinase", nome: "Estreptoquinase" },
+      { slug: "alteplase", nome: "Alteplase" },
+      { slug: "acido-acetilsalicilico", nome: "Ácido acetilsalicílico (AAS)" },
     ],
     medicamentosSecaoTitulo: "Medicamentos de manutenção/prevenção secundária",
     medicamentosNota:
@@ -1451,6 +1461,7 @@ export const diseases: Disease[] = [
       { slug: "mononitrato-isossorbida", nome: "Mononitrato de isossorbida" },
       { slug: "besilato-anlodipino", nome: "Besilato de anlodipino" },
       { slug: "cloridrato-verapamil", nome: "Cloridrato de verapamil" },
+      { slug: "acido-acetilsalicilico", nome: "Ácido acetilsalicílico (AAS)" },
     ],
     fontes: [
       { tema: "Definição e fisiopatologia", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
@@ -2065,6 +2076,8 @@ export const diseases: Disease[] = [
       { slug: "espironolactona", nome: "Espironolactona" },
       { slug: "dapagliflozina", nome: "Dapagliflozina" },
       { slug: "furosemida", nome: "Furosemida" },
+      { slug: "cloridrato-dobutamina", nome: "Cloridrato de dobutamina" },
+      { slug: "sacubitril-valsartana", nome: "Sacubitril + valsartana sódica hidratada" },
     ],
     fontes: [
       { tema: "Classificação fenotípica das cardiomiopatias", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
@@ -2377,6 +2390,8 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "varfarina-sodica", nome: "Varfarina sódica" },
+      { slug: "estreptoquinase", nome: "Estreptoquinase" },
+      { slug: "alteplase", nome: "Alteplase" },
     ],
     medicamentosSecaoTitulo: "Medicamentos de manutenção (pós-estabilização)",
     medicamentosNota:
@@ -2529,6 +2544,7 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "insulina-nph", nome: "Insulina NPH" },
+      { slug: "insulina-analoga", nome: "Insulina análoga (ação prolongada / ação rápida)" },
     ],
     fontes: [
       { tema: "Fisiopatologia autoimune", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
@@ -2605,6 +2621,8 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "cloridrato-propranolol", nome: "Cloridrato de propranolol" },
+      { slug: "propiltiouracila", nome: "Propiltiouracila" },
+      { slug: "tiamazol", nome: "Tiamazol (metimazol)" },
     ],
     medicamentosNota:
       "O propranolol controla os sintomas adrenérgicos (tremor, taquicardia, ansiedade) enquanto o tratamento definitivo faz efeito; os antitireoidianos (tiamazol/propiltiouracila), que controlam a síntese hormonal propriamente dita, ainda não têm ficha própria no site.",
@@ -2904,11 +2922,14 @@ export const diseases: Disease[] = [
       conduta:
         "Confirmar com cortisol basal e teste de estimulação com ACTH sintético, dosar ACTH sérico (esperado elevado na forma primária), e iniciar reposição de hidrocortisona e fludrocortisona assim que o diagnóstico for confirmado ou a suspeita clínica for muito alta.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "succinato-sodico-hidrocortisona", nome: "Succinato sódico de hidrocortisona" },
+    ],
+    medicamentosNota:
+      "A hidrocortisona injetável é o tratamento de escolha na crise adrenal aguda; a reposição de manutenção oral (hidrocortisona/cortisona) e a fludrocortisona (para a atividade mineralocorticoide na forma primária) ainda não têm fichas próprias no site.",
     fontes: [
       { tema: "Fisiopatologia primária vs. secundária/terciária", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Critérios diagnósticos e teste de estimulação com ACTH", fonte: "Endocrine Society Clinical Practice Guideline for Primary Adrenal Insufficiency, 2016" },
-      { tema: "Hidrocortisona e fludrocortisona na reposição (ainda sem fichas próprias no site)", fonte: "fonte pendente" },
     ],
   },
   {
@@ -3419,6 +3440,7 @@ export const diseases: Disease[] = [
     medicamentosPrimeiraLinha: [
       { slug: "salbutamol", nome: "Salbutamol" },
       { slug: "prednisona", nome: "Prednisona" },
+      { slug: "sulfato-magnesio", nome: "Sulfato de magnésio" },
     ],
     fontes: [
       { tema: "Classificação de gravidade da exacerbação asmática", fonte: "GINA (Global Initiative for Asthma), 2024" },
@@ -4068,6 +4090,7 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "dexametasona", nome: "Dexametasona" },
+      { slug: "fosfato-sodico-prednisolona", nome: "Fosfato sódico de prednisolona" },
     ],
     medicamentosSecaoTitulo: "Medicamento para o crupe (leve a moderado)",
     medicamentosNota:
@@ -9632,6 +9655,7 @@ export const diseases: Disease[] = [
       { slug: "sinvastatina", nome: "Sinvastatina" },
       { slug: "bissulfato-clopidogrel", nome: "Bissulfato de clopidogrel" },
       { slug: "atorvastatina-calcica", nome: "Atorvastatina cálcica" },
+      { slug: "acido-acetilsalicilico", nome: "Ácido acetilsalicílico (AAS)" },
     ],
     medicamentosSecaoTitulo: "Medicamento para prevenção secundária (não trata o evento agudo)",
     medicamentosNota:
@@ -9713,6 +9737,8 @@ export const diseases: Disease[] = [
       { slug: "sinvastatina", nome: "Sinvastatina" },
       { slug: "bissulfato-clopidogrel", nome: "Bissulfato de clopidogrel" },
       { slug: "atorvastatina-calcica", nome: "Atorvastatina cálcica" },
+      { slug: "alteplase", nome: "Alteplase" },
+      { slug: "acido-acetilsalicilico", nome: "Ácido acetilsalicílico (AAS)" },
     ],
     medicamentosSecaoTitulo: "Medicamento para prevenção secundária (não trata o evento agudo)",
     medicamentosNota:
@@ -18247,9 +18273,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "cloridrato-hidralazina", nome: "Cloridrato de hidralazina" },
+      { slug: "sulfato-magnesio", nome: "Sulfato de magnésio" },
     ],
     medicamentosNota:
-      "O sulfato de magnésio e os demais anti-hipertensivos específicos para uso gestacional (labetalol, nifedipina) ainda não têm suas fichas próprias documentadas no site.",
+      "O labetalol, anti-hipertensivo comumente usado na crise hipertensiva da pré-eclâmpsia, ainda não tem ficha própria documentada no site.",
     fontes: [
       { tema: "Fisiopatologia da placentação anormal e liberação de fatores antiangiogênicos", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Classificação por sinais de gravidade e indicações de sulfato de magnésio", fonte: "ACOG Practice Bulletin No. 222, Gestational Hypertension and Preeclampsia, 2020" },
@@ -18318,9 +18345,9 @@ export const diseases: Disease[] = [
       conduta:
         "Administrar sulfato de magnésio intravenoso para tratamento e profilaxia de recorrência convulsiva; estabilizar a paciente e proceder à interrupção da gestação assim que houver estabilização materna.",
     },
-    medicamentosPrimeiraLinha: [],
-    medicamentosNota:
-      "O sulfato de magnésio, tratamento de escolha, ainda não tem ficha própria documentada no site.",
+    medicamentosPrimeiraLinha: [
+      { slug: "sulfato-magnesio", nome: "Sulfato de magnésio" },
+    ],
     fontes: [
       { tema: "Fisiopatologia da disfunção endotelial cerebral e classificação temporal", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Sulfato de magnésio como tratamento de escolha e indicação de interrupção da gestação", fonte: "ACOG Practice Bulletin No. 222, Gestational Hypertension and Preeclampsia, 2020" },
@@ -18461,9 +18488,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "metildopa", nome: "Metildopa" },
+      { slug: "nifedipino", nome: "Nifedipino" },
     ],
     medicamentosNota:
-      "Os demais anti-hipertensivos seguros na gestação (labetalol, nifedipina) ainda não têm suas fichas próprias documentadas no site.",
+      "O labetalol, outro anti-hipertensivo seguro na gestação, ainda não tem ficha própria documentada no site.",
     fontes: [
       { tema: "Classificação temporal e risco de pré-eclâmpsia sobreposta", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Limiares de tratamento anti-hipertensivo e monitorização na gestação", fonte: "ACOG Practice Bulletin No. 203, Chronic Hypertension in Pregnancy, 2019" },
@@ -19311,9 +19339,12 @@ export const diseases: Disease[] = [
       conduta:
         "Administrar corticosteroide antenatal e sulfato de magnésio para neuroproteção fetal; considerar tocólise de curto prazo para permitir a ação do corticosteroide; iniciar profilaxia para estreptococo do grupo B conforme indicação.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "nifedipino", nome: "Nifedipino" },
+      { slug: "sulfato-magnesio", nome: "Sulfato de magnésio" },
+    ],
     medicamentosNota:
-      "O corticosteroide antenatal, o sulfato de magnésio para neuroproteção e os agentes tocolíticos ainda não têm suas fichas próprias documentadas no site.",
+      "O nifedipino é o tocolítico de primeira linha e o sulfato de magnésio oferece neuroproteção fetal antes de 32 semanas; o corticosteroide antenatal para maturação pulmonar fetal ainda não tem ficha própria documentada no site.",
     fontes: [
       { tema: "Vias fisiopatológicas convergentes e classificação por idade gestacional", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Indicações de corticosteroide antenatal, sulfato de magnésio para neuroproteção e tocólise", fonte: "ACOG Practice Bulletin No. 234, Prediction and Prevention of Spontaneous Preterm Birth, 2021" },
