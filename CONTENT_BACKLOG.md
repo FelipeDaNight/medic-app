@@ -117,7 +117,7 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   (basocelular e espinocelular) · Impetigo · Celulite e flegmão ·
   Urticária · Pênfigo · Dermatite seborreica · Dermatite alérgica de
   contato · Abscesso cutâneo, furúnculo e antraz
-- **Medicamentos (92):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
+- **Medicamentos (102):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
   Enalapril · Budesonida inalatória · Espironolactona · Carvedilol · Dapagliflozina ·
@@ -140,7 +140,9 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   Levodopa + benserazida/carbidopa · Cloridrato de amitriptilina · Cloridrato de
   fluoxetina · Haloperidol · Risperidona · Carbonato de lítio · Cloridrato de
   clorpromazina · Olanzapina · Clobazam · Alopurinol · Cloridrato de naloxona ·
-  Flumazenil
+  Flumazenil · Estrogênios conjugados · Etinilestradiol + levonorgestrel ·
+  Levonorgestrel isolado · Misoprostol · Finasterida · Citrato de sildenafila ·
+  Cetoconazol · Permetrina · Acetato de hidrocortisona tópica · Betametasona
 
 ---
 
@@ -727,29 +729,33 @@ consta" e a Ocitocina, que depende do Apêndice B.
 
 *(Removido "Metildigoxina" do lote anterior — redundante com digoxina, já coberta acima; não é item distinto de alto valor curricular.)*
 
-### Lote 6 — Sistema geniturinário / hormônios + Dermatológicos (13) — ✅ revalidados (exceto ocitocina, que depende do Apêndice B)
-1. pendente — Estrogênios conjugados (G03CA57)
-2. pendente — Etinilestradiol + levonorgestrel (G03AA07) — **código corrigido**: era G03CA57 por engano (esse é o código dos estrogênios conjugados, item 1)
-3. pendente — Levonorgestrel isolado (G03AC03) — item novo, contracepção de emergência
-4. pendente — Misoprostol (G02AD06)
+### Lote 6 — Sistema geniturinário / hormônios + Dermatológicos (13) — ✅ CONCLUÍDO (exceto ocitocina, que depende do Apêndice B)
+1. concluído — Estrogênios conjugados (G03CA57)
+2. concluído — Etinilestradiol + levonorgestrel (G03AA07) — **código corrigido**: era G03CA57 por engano (esse é o código dos estrogênios conjugados, item 1)
+3. concluído — Levonorgestrel isolado (G03AC03) — item novo, contracepção de emergência
+4. concluído — Misoprostol (G02AD06)
 5. pendente — Ocitocina — ⚠ confirmado ausente em **todo o Apêndice A** (letras A-V, revisado por completo); só resolve com o Apêndice B (Anexos por financiamento, págs. 122-224, ainda não obtido). Único item da lista nessa situação.
-6. pendente — Finasterida (G04CB01)
-7. pendente — Citrato de sildenafila (G04BE03) — código confirmado, antes não constava
-8. pendente — Cetoconazol (D01AC08)
+6. concluído — Finasterida (G04CB01)
+7. concluído — Citrato de sildenafila (G04BE03) — código confirmado, antes não constava
+8. concluído — Cetoconazol (D01AC08)
 9. pendente — Clotrimazol — ⛔ **não consta na RENAME 2024** (ausente das seções D e G, ambas revisadas por completo). Nitrato de miconazol e cetoconazol (já confirmados acima) são os antifúngicos tópicos presentes na lista.
-10. pendente — Permetrina (P03AC04, 10mg/g e 50mg/g loção, Básico)
-11. pendente — Acetato de hidrocortisona tópica (D07AA02)
-12. pendente — Betametasona / acetato + fosfato dissódico (H02AB01)
+10. concluído — Permetrina (P03AC04, 10mg/g e 50mg/g loção, Básico)
+11. concluído — Acetato de hidrocortisona tópica (D07AA02)
+12. concluído — Betametasona / acetato + fosfato dissódico (H02AB01)
 13. concluído — Levotiroxina sódica (H03AA01) — já usada no Hipotireoidismo e Tireoidite (doenças já fichadas)
 
-**Total: 25 medicamentos pendentes em 1 lote** (Lotes 1-5 — Sistema cardiovascular,
-Cardiovascular restante/trombolíticos/Endocrinologia, Sistema respiratório/
-Anti-infecciosos, Trato alimentar/digestivo + Sistema nervoso, e Sistema nervoso
-restante + Sistema musculoesquelético, 64 itens — concluídos; 89 medicamentos totais
-no backlog original, 82 originais + 4 itens novos achados durante a revalidação:
-cloridrato de clindamicina, sulfato de morfina, cloridrato de naloxona, flumazenil
-+ 3 itens novos abaixo: donepezila, memantina, esquema RIPE). **Próxima prioridade:
-Lote 6 (Sistema geniturinário/hormônios + Dermatológicos, 13 itens).**
+**Situação após os 6 lotes: todos os lotes numerados do backlog original de
+medicamentos estão concluídos** (Lotes 1-6, 74 itens documentados neste ciclo de
+lotes). Não há mais nenhum lote pendente para documentar — os únicos itens do
+backlog original ainda em aberto são casos especiais, não um lote a seguir:
+**Ocitocina** (⚠ confirmada ausente em todo o Apêndice A, depende do Apêndice B da
+RENAME 2024, ainda não obtido) e os **7 itens ⛔ "não consta na RENAME 2024"**
+(Loperamida, Domperidona, Mebendazol, Sumatriptana, Sertralina, Colchicina,
+Clotrimazol — cada um com equivalente terapêutico já documentado anotado). **Próxima
+prioridade: qualquer trabalho futuro em medicamentos exigirá mapear uma nova
+categoria/classe terapêutica do zero contra a RENAME 2024, ou seguir para os 5 lotes
+de doenças mapeados (Pediatria/Neonatologia, Genética Médica, Ortopedia,
+Traumatologia, Dermatologia 2 — ver seção 1 acima).**
 
 ### Itens adicionados fora da ordem dos lotes — ✅ concluídos e revalidados
 Priorizados a pedido do usuário por já fecharem vínculos cruzados que existiam do lado

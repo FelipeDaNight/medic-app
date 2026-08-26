@@ -2782,11 +2782,14 @@ export const diseases: Disease[] = [
       conduta:
         "Confirmar hipercortisolismo com pelo menos dois testes de rastreamento (cortisol livre urinário de 24h, teste de supressão com dexametasona overnight ou cortisol salivar noturno) e, se confirmado, dosar ACTH sérico para direcionar a investigação etiológica.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cetoconazol", nome: "Cetoconazol" },
+    ],
+    medicamentosNota:
+      "O tratamento definitivo é cirúrgico (remoção do tumor causador); o cetoconazol sistêmico é usado como inibidor da esteroidogênese quando a cirurgia não é possível, não é curativa, ou enquanto se aguarda seu efeito.",
     fontes: [
       { tema: "Classificação ACTH-dependente/independente e fisiopatologia", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Critérios diagnósticos bioquímicos", fonte: "Endocrine Society Clinical Practice Guideline for Cushing's Syndrome, 2008" },
-      { tema: "Inibidores da esteroidogênese no tratamento (ainda sem fichas próprias no site)", fonte: "fonte pendente" },
     ],
   },
   {
@@ -12206,9 +12209,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "mesilato-doxazosina", nome: "Mesilato de doxazosina" },
+      { slug: "finasterida", nome: "Finasterida" },
     ],
     medicamentosNota:
-      "A doxazosina é uma opção de alfabloqueador para alívio sintomático inicial; o inibidor da 5-alfa-redutase (finasterida), mais indicado em próstatas significativamente aumentadas, ainda não tem ficha própria no site.",
+      "A doxazosina (alfabloqueador) alivia os sintomas rapidamente atuando no componente dinâmico (tônus muscular); a finasterida reduz o volume prostático ao longo de meses, mais indicada em próstatas significativamente aumentadas, podendo ser associada ao alfabloqueador.",
     fontes: [
       { tema: "Fisiopatologia (componentes estático e dinâmico da obstrução) e mecanismo dos dois grupos farmacológicos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Escore Internacional de Sintomas Prostáticos (IPSS)", fonte: "fonte pendente" },
@@ -16684,10 +16688,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "ibuprofeno", nome: "Ibuprofeno" },
+      { slug: "etinilestradiol-levonorgestrel", nome: "Etinilestradiol + levonorgestrel" },
     ],
-    medicamentosSecaoTitulo: "Analgesia sintomática (tratamento hormonal supressivo é a base terapêutica)",
     medicamentosNota:
-      "Os contraceptivos hormonais combinados, progestagênios e análogos do GnRH, base do tratamento supressivo, ainda não têm suas fichas próprias documentadas no site; o ibuprofeno oferece apenas alívio sintomático da dor associada.",
+      "O contraceptivo hormonal combinado contínuo é uma das opções de tratamento hormonal supressivo, base terapêutica da endometriose; progestagênios isolados e análogos do GnRH, outras opções supressivas, ainda não têm ficha própria no site. O ibuprofeno oferece apenas alívio sintomático da dor associada.",
     fontes: [
       { tema: "Fisiopatologia da menstruação retrógrada e classificação topográfica", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Estratégias terapêuticas hormonais e cirúrgicas conforme objetivo reprodutivo", fonte: "ACOG Practice Bulletin No. 114, Management of Endometriosis" },
@@ -17275,10 +17279,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "ibuprofeno", nome: "Ibuprofeno" },
+      { slug: "etinilestradiol-levonorgestrel", nome: "Etinilestradiol + levonorgestrel" },
     ],
-    medicamentosSecaoTitulo: "Redução do volume de sangramento (tratamento hormonal dirigido à causa é frequentemente necessário em associação)",
     medicamentosNota:
-      "Os contraceptivos hormonais combinados e o sistema intrauterino liberador de levonorgestrel, opções eficazes de controle do sangramento, ainda não têm suas fichas próprias documentadas no site.",
+      "O ibuprofeno reduz o volume de sangramento; o contraceptivo hormonal combinado é opção eficaz de controle do sangramento por regularização do ciclo. O sistema intrauterino liberador de levonorgestrel, outra opção eficaz, ainda não tem ficha própria documentada no site.",
     fontes: [
       { tema: "Sistema de classificação PALM-COEIN da FIGO", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Indicação de biópsia endometrial por idade/fator de risco e opções terapêuticas por etiologia", fonte: "ACOG Practice Bulletin No. 128, Diagnosis of Abnormal Uterine Bleeding in Reproductive-Aged Women, 2012" },
@@ -17349,9 +17353,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "ibuprofeno", nome: "Ibuprofeno" },
+      { slug: "etinilestradiol-levonorgestrel", nome: "Etinilestradiol + levonorgestrel" },
     ],
     medicamentosNota:
-      "Os contraceptivos hormonais combinados (segunda linha para dismenorreia) e os ISRS (primeira linha para o transtorno disfórico pré-menstrual) ainda não têm suas fichas próprias documentadas no site.",
+      "O ibuprofeno (AINE) é a primeira linha para a crise de dismenorreia; o contraceptivo oral combinado é a segunda linha, indicado quando a contracepção também é desejada ou os AINEs isolados são insuficientes. Os ISRS, primeira linha para o transtorno disfórico pré-menstrual, ainda não têm ficha própria documentada no site.",
     fontes: [
       { tema: "Fisiopatologia prostaglandínica da dismenorreia primária e mecanismo dos AINEs", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Critérios diagnósticos do transtorno disfórico pré-menstrual e tratamento com ISRS", fonte: "ACOG Clinical Practice Guideline No. 7, Management of Premenstrual Disorders, 2023" },
@@ -17565,9 +17570,11 @@ export const diseases: Disease[] = [
       conduta:
         "Avaliar contraindicações individuais e, na ausência delas, considerar terapia hormonal (estrogênio associado a progestagênio, dado o útero intacto) para controle dos sintomas vasomotores, com reavaliação periódica do risco-benefício.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "estrogenios-conjugados", nome: "Estrogênios conjugados" },
+    ],
     medicamentosNota:
-      "A terapia hormonal sistêmica e o estrogênio vaginal tópico, tratamentos de escolha, ainda não têm suas fichas próprias documentadas no site.",
+      "Os estrogênios conjugados (sistêmicos ou em formulação vaginal de baixa dose para atrofia local) são o tratamento mais eficaz para os sintomas vasomotores e a atrofia urogenital, sempre associados a um progestagênio em mulheres com útero intacto.",
     fontes: [
       { tema: "Fisiopatologia do esgotamento folicular e classificação da transição menopausal", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Indicações e individualização de risco-benefício da terapia hormonal", fonte: "The North American Menopause Society, The 2022 Hormone Therapy Position Statement" },
@@ -18281,9 +18288,11 @@ export const diseases: Disease[] = [
       conduta:
         "Orientar repouso relativo e acompanhamento clínico/ultrassonográfico seriado; verificar tipagem sanguínea Rh e administrar imunoglobulina anti-D se Rh negativo.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "misoprostol", nome: "Misoprostol" },
+    ],
     medicamentosNota:
-      "O misoprostol (tratamento médico) e a imunoglobulina anti-D (profilaxia de aloimunização) ainda não têm suas fichas próprias documentadas no site.",
+      "O misoprostol é a opção de tratamento médico do abortamento incompleto/retido, alternativa ao esvaziamento cirúrgico. A imunoglobulina anti-D (profilaxia de aloimunização em gestantes Rh-negativas) ainda não tem ficha própria documentada no site.",
     fontes: [
       { tema: "Classificação clínica por estágio e papel central das anomalias cromossômicas", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Opções de manejo (expectante, médico, cirúrgico) e indicação de imunoglobulina anti-D", fonte: "ACOG Practice Bulletin No. 200, Early Pregnancy Loss, 2018" },
@@ -19845,9 +19854,11 @@ export const diseases: Disease[] = [
       conduta:
         "Realizar massagem uterina bimanual e administrar ocitocina imediatamente; se resposta inadequada, escalonar para uterotônicos de segunda linha e, se ainda refratário, para medidas mecânicas (tamponamento com balão) ou cirúrgicas.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "misoprostol", nome: "Misoprostol" },
+    ],
     medicamentosNota:
-      "Os agentes uterotônicos (ocitocina, ergometrina, misoprostol, carbetocina) e o ácido tranexâmico ainda não têm suas fichas próprias documentadas no site.",
+      "O misoprostol é uterotônico alternativo quando a ocitocina intravenosa (primeira linha, ainda sem ficha própria no site) não está disponível ou como adjuvante em resposta inadequada. Ergometrina, carbetocina e o ácido tranexâmico, outras opções do manejo escalonado, também ainda não têm fichas próprias documentadas no site.",
     fontes: [
       { tema: "Mnemônico dos 4 Ts e organização etiológica da hemorragia pós-parto", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Definição atualizada, quantificação objetiva e manejo escalonado", fonte: "ACOG Practice Bulletin No. 183, Postpartum Hemorrhage, 2017" },
@@ -20131,9 +20142,11 @@ export const diseases: Disease[] = [
       conduta:
         "Confirmar o diagnóstico clinicamente; iniciar tratamento tópico de primeira linha (corticosteroide tópico/análogo de vitamina D); investigar ativamente sintomas articulares em cada consulta de seguimento.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "betametasona", nome: "Betametasona (acetato + fosfato dissódico)" },
+    ],
     medicamentosNota:
-      "Os corticosteroides tópicos, análogos da vitamina D e agentes sistêmicos/biológicos, tratamentos de primeira linha conforme a gravidade, ainda não têm suas fichas próprias documentadas no site.",
+      "A betametasona tópica de alta potência é a primeira linha para placas em áreas não intertriginosas; análogos da vitamina D e agentes sistêmicos/biológicos, outras opções conforme a gravidade e a extensão, ainda não têm ficha própria no site.",
     fontes: [
       { tema: "Fisiopatologia do eixo IL-23/Th17 e classificação clínica", fonte: "Robbins & Cotran, Patologia Básica" },
       { tema: "Escalonamento terapêutico e rastreamento de artrite psoriásica associada", fonte: "AAD-NPF Guidelines of Care for the Management of Psoriasis and Psoriatic Arthritis, 2019" },
@@ -20204,9 +20217,11 @@ export const diseases: Disease[] = [
       conduta:
         "Iniciar hidratação cutânea intensiva e regular com emolientes como medida de base; prescrever corticosteroide tópico de potência apropriada para as exacerbações; orientar a família sobre a natureza crônica e recidivante da condição.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "acetato-de-hidrocortisona-topica", nome: "Acetato de hidrocortisona tópica" },
+    ],
     medicamentosNota:
-      "Os emolientes, corticosteroides tópicos, inibidores tópicos de calcineurina e agentes biológicos (dupilumabe) ainda não têm suas fichas próprias documentadas no site.",
+      "A hidrocortisona tópica de baixa potência é preferida para face e dobras cutâneas; casos mais extensos ou refratários usam corticosteroides de maior potência, inibidores tópicos de calcineurina e agentes biológicos (dupilumabe), ainda sem ficha própria no site. Emolientes são a base do cuidado contínuo em todos os casos.",
     fontes: [
       { tema: "Fisiopatologia da disfunção de barreira (filagrina) e desregulação Th2", fonte: "Robbins & Cotran, Patologia Básica" },
       { tema: "Escalonamento terapêutico e reconhecimento de complicações infecciosas (eczema herpético)", fonte: "AAD Guidelines of Care for the Management of Atopic Dermatitis, 2014" },
@@ -20711,9 +20726,12 @@ export const diseases: Disease[] = [
       conduta:
         "Prescrever antifúngico tópico (cetoconazol em xampu/creme) como tratamento de primeira linha; associar corticosteroide tópico de baixa potência em curso curto para as exacerbações mais inflamatórias.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cetoconazol", nome: "Cetoconazol" },
+      { slug: "acetato-de-hidrocortisona-topica", nome: "Acetato de hidrocortisona tópica" },
+    ],
     medicamentosNota:
-      "Os antifúngicos tópicos (cetoconazol) e os corticosteroides tópicos de baixa potência, tratamentos de primeira linha, ainda não têm suas fichas próprias documentadas no site.",
+      "O cetoconazol tópico (xampu ou creme) é o antifúngico de primeira linha; a hidrocortisona tópica de baixa potência é opção adjuvante para controle rápido da inflamação em exacerbações.",
     fontes: [
       { tema: "Papel da Malassezia e fisiopatologia da resposta inflamatória cutânea", fonte: "Robbins & Cotran, Patologia Básica" },
       { tema: "Associação com imunossupressão/HIV e tratamento antifúngico tópico de primeira linha", fonte: "American Family Physician, Diagnosis and Treatment of Seborrheic Dermatitis, 2015" },
@@ -20781,9 +20799,11 @@ export const diseases: Disease[] = [
       conduta:
         "Orientar a suspensão do uso do relógio (evitação do alérgeno suspeito); prescrever corticosteroide tópico para as lesões; considerar teste de contato (patch test) para confirmação do alérgeno específico se houver recorrência com outros itens metálicos.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "acetato-de-hidrocortisona-topica", nome: "Acetato de hidrocortisona tópica" },
+    ],
     medicamentosNota:
-      "Os corticosteroides tópicos, tratamento de primeira linha, ainda não têm ficha própria documentada no site.",
+      "A hidrocortisona tópica de baixa potência é a primeira linha para lesões leves ou em pele fina; casos mais extensos ou refratários podem exigir corticosteroide tópico de maior potência.",
     fontes: [
       { tema: "Fisiopatologia da hipersensibilidade tipo IV (sensibilização e eliciação)", fonte: "Robbins & Cotran, Patologia Básica" },
       { tema: "Papel do teste de contato (patch test) e alérgenos mais comuns (níquel)", fonte: "North American Contact Dermatitis Group Patch Test Results, 2021-2022" },
