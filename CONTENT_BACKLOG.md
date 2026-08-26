@@ -15,7 +15,7 @@ Fontes:
   está, o único item da lista ainda pendente por esse motivo.
 
 Já documentados com ficha completa (**fora deste backlog**, não repetir):
-- **Doenças (281):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
+- **Doenças (295):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
   · Dengue · COVID-19 · Gastrite · DRGE · Artrite reumatoide · LES · Alzheimer · Anemia
   ferropriva · DRC · Infarto agudo do miocárdio · Angina pectoris · Doença isquêmica
   crônica do coração · Fibrilação e flutter atrial · Parada cardíaca · Febre reumática ·
@@ -116,7 +116,14 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   atópica · Melanoma maligno da pele · Outras neoplasias malignas da pele
   (basocelular e espinocelular) · Impetigo · Celulite e flegmão ·
   Urticária · Pênfigo · Dermatite seborreica · Dermatite alérgica de
-  contato · Abscesso cutâneo, furúnculo e antraz
+  contato · Abscesso cutâneo, furúnculo e antraz · Asfixia perinatal · Síndrome do
+  desconforto respiratório do recém-nascido · Síndrome de aspiração meconial ·
+  Displasia broncopulmonar · Sepse neonatal · Doença hemolítica do feto e do
+  recém-nascido · Kernicterus e icterícia neonatal patológica · Hemorragia
+  intracraniana não traumática do recém-nascido · Enterocolite necrosante · Íleo
+  meconial e outras obstruções intestinais do recém-nascido · Hipoglicemia neonatal ·
+  Restrição de crescimento intrauterino · Prematuridade e complicações do baixo peso
+  ao nascer · Convulsões neonatais
 - **Medicamentos (102):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
@@ -542,21 +549,21 @@ lateralidade/tipo de fratura); o Lote 25 abaixo não pretende esgotá-lo, só co
 entidades de maior valor curricular (uma fratura/luxação por grande segmento anatômico,
 politraumatismo, queimaduras e intoxicação exógena).
 
-### Lote 22 — Pediatria/Neonatologia (14)
-1. pendente — Asfixia perinatal (P21)
-2. pendente — Síndrome do desconforto respiratório do recém-nascido / doença da membrana hialina (P22)
-3. pendente — Síndrome de aspiração meconial (P24)
-4. pendente — Displasia broncopulmonar / doença respiratória crônica do RN (P27)
-5. pendente — Sepse neonatal (P36)
-6. pendente — Doença hemolítica do feto e do recém-nascido / incompatibilidade Rh e ABO (P55)
-7. pendente — Kernicterus e icterícia neonatal patológica (P57+P58+P59)
-8. pendente — Hemorragia intracraniana não traumática do RN / hemorragia peri-intraventricular do prematuro (P52)
-9. pendente — Enterocolite necrosante (P77)
-10. pendente — Íleo meconial e outras obstruções intestinais do RN (P75+P76)
-11. pendente — Hipoglicemia neonatal e outros transtornos transitórios do metabolismo (P70)
-12. pendente — Restrição de crescimento intrauterino (P05)
-13. pendente — Prematuridade e complicações do baixo peso ao nascer (P07)
-14. pendente — Convulsões neonatais (P90)
+### Lote 22 — Pediatria/Neonatologia (14) — ✅ CONCLUÍDO
+1. concluído — Asfixia perinatal (P21)
+2. concluído — Síndrome do desconforto respiratório do recém-nascido / doença da membrana hialina (P22)
+3. concluído — Síndrome de aspiração meconial (P24)
+4. concluído — Displasia broncopulmonar / doença respiratória crônica do RN (P27)
+5. concluído — Sepse neonatal (P36)
+6. concluído — Doença hemolítica do feto e do recém-nascido / incompatibilidade Rh e ABO (P55)
+7. concluído — Kernicterus e icterícia neonatal patológica (P57+P58+P59)
+8. concluído — Hemorragia intracraniana não traumática do RN / hemorragia peri-intraventricular do prematuro (P52)
+9. concluído — Enterocolite necrosante (P77)
+10. concluído — Íleo meconial e outras obstruções intestinais do RN (P75+P76)
+11. concluído — Hipoglicemia neonatal e outros transtornos transitórios do metabolismo (P70)
+12. concluído — Restrição de crescimento intrauterino (P05)
+13. concluído — Prematuridade e complicações do baixo peso ao nascer (P07)
+14. concluído — Convulsões neonatais (P90)
 
 ### Lote 23 — Genética Médica / Malformações Congênitas (15)
 1. pendente — Síndrome de Down (Q90)
@@ -627,10 +634,11 @@ politraumatismo, queimaduras e intoxicação exógena).
 14. pendente — Piodermite gangrenosa (L88)
 15. pendente — Fotodermatoses agudas / queimadura solar (L55+L56)
 
-**Total: 75 doenças pendentes em 5 lotes novos** (Pediatria/Neonatologia, Genética
-Médica, Ortopedia, Traumatologia, Dermatologia 2), além dos 59 medicamentos pendentes
-em 4 lotes (seção 2 abaixo). **Próxima prioridade de doenças: Lote 22 — Pediatria/
-Neonatologia (14 itens).**
+**Total: 61 doenças pendentes em 4 lotes** (Lote 22 — Pediatria/Neonatologia, 14 itens —
+concluído; restam Genética Médica, Ortopedia, Traumatologia e Dermatologia 2). Todos os
+6 lotes numerados do backlog de medicamentos já estão concluídos (ver seção 2 abaixo).
+**Próxima prioridade de doenças: Lote 23 — Genética Médica / Malformações Congênitas
+(15 itens).**
 
 ---
 

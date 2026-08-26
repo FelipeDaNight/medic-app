@@ -20884,4 +20884,1021 @@ export const diseases: Disease[] = [
       { tema: "Indicação de drenagem como tratamento primário e critérios para antibioticoterapia adjuvante", fonte: "IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections, 2014" },
     ],
   },
+  {
+    slug: "asfixia-perinatal",
+    nome: "Asfixia perinatal",
+    sinonimos: ["Hipóxia intraparto", "Encefalopatia hipóxico-isquêmica neonatal"],
+    cid10: "P21",
+    especialidade: "Neonatologia",
+    etiologia: "Multifatorial",
+    resumo: "Comprometimento das trocas gasosas fetais durante o trabalho de parto ou o parto, levando a hipoxemia, hipercapnia e acidose, com risco de encefalopatia hipóxico-isquêmica e lesão neurológica permanente.",
+    definicao:
+      "Evento agudo de comprometimento da oxigenação e perfusão fetal/neonatal durante o período periparto, caracterizado por hipoxemia, hipercapnia e acidose metabólica, que pode evoluir para encefalopatia hipóxico-isquêmica e disfunção de múltiplos órgãos quando grave ou prolongado.",
+    epidemiologia:
+      "Uma das principais causas de mortalidade neonatal e de encefalopatia neonatal em todo o mundo, com incidência maior em países de baixa e média renda pela menor disponibilidade de monitorização fetal intraparto e de cuidados obstétricos de emergência.",
+    fisiopatologia:
+      "A interrupção ou redução da troca gasosa placentária ou pulmonar leva a hipoxemia e acidose progressivas; a redistribuição do fluxo sanguíneo fetal prioriza cérebro, coração e adrenais às custas de outros órgãos (fenômeno de centralização), mas quando a agressão é grave ou prolongada, esse mecanismo compensatório falha, resultando em lesão neuronal por excitotoxicidade, estresse oxidativo e apoptose, tipicamente com um padrão de lesão em dois tempos (lesão primária seguida de lesão de reperfusão secundária horas depois).",
+    classificacao:
+      "A gravidade da encefalopatia hipóxico-isquêmica resultante é classificada pelos critérios de Sarnat e Sarnat em leve, moderada e grave, com base no nível de consciência, tônus muscular, reflexos primitivos e função autonômica.",
+    quadroClinico: [
+      "Escore de Apgar baixo persistente (geralmente ≤ 5 aos 5 e 10 minutos)",
+      "Necessidade de reanimação neonatal prolongada na sala de parto",
+      "Acidose metabólica grave em gasometria de cordão umbilical (pH < 7,0, déficit de base acentuado)",
+      "Sinais de encefalopatia nas primeiras horas de vida: alteração do nível de consciência, hipotonia ou hipertonia, reflexos primitivos anormais, convulsões",
+      "Disfunção de múltiplos órgãos associada em casos graves (renal, hepática, cardíaca, hematológica)",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado na combinação de evento hipóxico intraparto identificável, gasometria de cordão com acidose metabólica grave, Apgar baixo persistente e sinais de encefalopatia neonatal nas primeiras horas de vida",
+      "Classificação da gravidade da encefalopatia pelos critérios de Sarnat e Sarnat, que orienta a decisão de neuroproteção com hipotermia terapêutica",
+    ],
+    examesComplementares: [
+      "Gasometria de cordão umbilical (pH < 7,0 e déficit de base ≥ 12 mmol/L sugerem acidose metabólica grave compatível com evento hipóxico significativo)",
+      "Eletroencefalograma de amplitude integrada (aEEG) para monitorização contínua da atividade cerebral e triagem para hipotermia terapêutica",
+      "Ressonância magnética cerebral, idealmente entre o 4º e o 10º dia de vida, para caracterizar o padrão e a extensão da lesão e auxiliar no prognóstico neurológico",
+    ],
+    diagnosticoDiferencial: [
+      "Encefalopatias neonatais de outras causas (metabólica, infecciosa, malformativa), que exigem investigação específica quando a história de evento hipóxico intraparto não é clara",
+      "Distúrbios metabólicos neonatais (hipoglicemia, distúrbios eletrolíticos) que podem mimetizar ou coexistir com encefalopatia hipóxico-isquêmica",
+    ],
+    tratamento: [
+      "Hipotermia terapêutica (resfriamento corporal total ou seletivo da cabeça a 33,5-34,5°C), iniciada até 6 horas de vida e mantida por 72 horas, em recém-nascidos ≥ 36 semanas com encefalopatia hipóxico-isquêmica moderada a grave — única intervenção com neuroproteção comprovada",
+      "Suporte respiratório, hemodinâmico e correção de distúrbios metabólicos (glicemia, eletrólitos) conforme necessidade",
+      "Tratamento anticonvulsivante quando há convulsões clínicas ou eletrográficas associadas",
+    ],
+    complicacoes: [
+      "Aguda: disfunção de múltiplos órgãos (renal, hepática, cardíaca), convulsões neonatais, coagulopatia",
+      "Crônica: paralisia cerebral, deficiência intelectual, epilepsia e outras sequelas neurológicas permanentes, proporcionais à gravidade da encefalopatia inicial",
+    ],
+    redFlags: [
+      "Encefalopatia moderada a grave (critérios de Sarnat) exige início da hipotermia terapêutica o mais precocemente possível, idealmente até 6 horas de vida — a eficácia neuroprotetora diminui com o atraso",
+      "Convulsões neonatais associadas indicam maior gravidade da lesão e exigem tratamento anticonvulsivante e monitorização eletroencefalográfica contínua",
+    ],
+    prognostico:
+      "Proporcional à gravidade da encefalopatia inicial: encefalopatia leve geralmente tem bom prognóstico neurológico; encefalopatia grave associa-se a mortalidade elevada e sequelas neurológicas significativas nos sobreviventes. A hipotermia terapêutica reduz significativamente o risco combinado de morte ou incapacidade neurológica grave na encefalopatia moderada a grave.",
+    pontosDeProva: [
+      "A hipotermia terapêutica é a única intervenção com neuroproteção comprovada na encefalopatia hipóxico-isquêmica moderada a grave, devendo ser iniciada até 6 horas de vida",
+      "A lesão neuronal ocorre em dois tempos — uma lesão primária durante o evento hipóxico e uma lesão de reperfusão secundária horas depois — e é essa janela entre as duas fases que a hipotermia terapêutica visa interromper",
+      "Os critérios de Sarnat e Sarnat classificam a gravidade da encefalopatia e orientam diretamente a decisão de hipotermia terapêutica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo, parto complicado por descolamento prematuro de placenta, nasce com Apgar 2 no 1º minuto e 4 no 5º minuto, necessitando reanimação prolongada. Gasometria de cordão: pH 6,9, déficit de base 18 mmol/L. Nas primeiras horas de vida, apresenta hipotonia importante e reflexos primitivos ausentes.",
+      pergunta: "Qual a intervenção terapêutica prioritária a ser iniciada?",
+      raciocinio:
+        "O evento hipóxico intraparto identificável (descolamento prematuro de placenta), a acidose metabólica grave na gasometria de cordão e os sinais clínicos de encefalopatia (hipotonia, reflexos ausentes) confirmam encefalopatia hipóxico-isquêmica moderada a grave.",
+      conduta:
+        "Iniciar hipotermia terapêutica o mais precocemente possível, idealmente antes de 6 horas de vida, com monitorização eletroencefalográfica contínua e suporte multissistêmico.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento central é a hipotermia terapêutica, uma intervenção física (não medicamentosa); anticonvulsivantes são usados apenas quando há convulsões associadas, individualizados conforme o quadro.",
+    fontes: [
+      { tema: "Fisiopatologia da lesão em dois tempos e mecanismo de neuroproteção da hipotermia", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Critérios de Sarnat e Sarnat e indicação de hipotermia terapêutica", fonte: "American Academy of Pediatrics, Committee on Fetus and Newborn, Hypothermia and Neonatal Encephalopathy, Pediatrics, 2014" },
+    ],
+  },
+  {
+    slug: "sindrome-desconforto-respiratorio-recem-nascido",
+    nome: "Síndrome do desconforto respiratório do recém-nascido",
+    sinonimos: ["Doença da membrana hialina", "SDR neonatal"],
+    cid10: "P22",
+    especialidade: "Neonatologia",
+    etiologia: "Metabólica",
+    resumo: "Insuficiência respiratória do recém-nascido pré-termo causada pela deficiência de surfactante pulmonar, levando a colapso alveolar progressivo, sendo uma das principais causas de morbidade respiratória neonatal.",
+    definicao:
+      "Doença respiratória do recém-nascido pré-termo causada pela produção insuficiente de surfactante pulmonar pelos pneumócitos tipo II imaturos, resultando em aumento da tensão superficial alveolar, colapso alveolar progressivo (atelectasia) e formação de membranas hialinas nos alvéolos.",
+    epidemiologia:
+      "Incidência inversamente proporcional à idade gestacional, acometendo a maioria dos recém-nascidos abaixo de 28 semanas e reduzindo progressivamente com o avanço da maturidade pulmonar; fatores de risco adicionais incluem diabetes materno e asfixia perinatal.",
+    fisiopatologia:
+      "A deficiência de surfactante (mistura de fosfolipídios e proteínas que reduz a tensão superficial alveolar) leva ao colabamento alveolar progressivo ao final da expiração, exigindo esforço respiratório crescente para reexpandir os alvéolos a cada respiração; a lesão epitelial resultante, somada ao edema, leva à formação de membranas hialinas (material proteico e restos celulares) que revestem os alvéolos e bronquíolos terminais, agravando ainda mais a troca gasosa.",
+    classificacao:
+      "A gravidade radiológica é classificada em graus de I a IV, desde infiltrado reticulogranular fino (grau I) até opacificação pulmonar completa com broncogramas aéreos proeminentes ('pulmão branco', grau IV).",
+    quadroClinico: [
+      "Taquipneia, gemido expiratório, batimento de asa de nariz e retrações intercostais/subcostais, com início nas primeiras horas de vida",
+      "Cianose progressiva em ar ambiente",
+      "Piora progressiva nas primeiras 48-72 horas sem tratamento, seguida de melhora gradual à medida que a produção endógena de surfactante aumenta",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico-radiológico em recém-nascido pré-termo com desconforto respiratório progressivo desde as primeiras horas de vida",
+      "Radiografia de tórax com padrão reticulogranular difuso ('vidro moído') e broncogramas aéreos, graduada de I a IV conforme a gravidade",
+    ],
+    examesComplementares: [
+      "Radiografia de tórax, exame de escolha para confirmação diagnóstica e graduação da gravidade",
+      "Gasometria arterial demonstrando hipoxemia e, em casos avançados, acidose respiratória por hipoventilação alveolar",
+    ],
+    diagnosticoDiferencial: [
+      "Taquipneia transitória do recém-nascido (quadro mais leve e autolimitado, por retardo na absorção do líquido pulmonar fetal)",
+      "Pneumonia congênita e sepse neonatal precoce, que podem ter apresentação radiológica semelhante",
+      "Síndrome de aspiração meconial, distinguida pela história de líquido amniótico meconial e padrão radiológico de infiltrados grosseiros e hiperinsuflação",
+    ],
+    tratamento: [
+      "Corticosteroide antenatal (betametasona) administrado à gestante em risco de parto pré-termo, principal medida preventiva, acelerando a maturação pulmonar fetal e reduzindo a incidência e a gravidade da SDR",
+      "Reposição de surfactante exógeno por via traqueal no recém-nascido afetado, reduzindo a mortalidade e as complicações respiratórias",
+      "Suporte ventilatório não invasivo (CPAP) como estratégia inicial preferida, reservando a ventilação mecânica invasiva para casos refratários",
+    ],
+    complicacoes: [
+      "Aguda: pneumotórax, hemorragia pulmonar, persistência do canal arterial sintomática",
+      "Crônica: displasia broncopulmonar, especialmente em recém-nascidos extremamente pré-termo com curso prolongado de suporte ventilatório e oxigenoterapia",
+    ],
+    redFlags: [
+      "Piora respiratória abrupta com assimetria de ausculta e desvio do mediastino sugere pneumotórax, complicação súbita e potencialmente fatal que exige drenagem torácica de emergência",
+      "Deterioração respiratória e hemodinâmica com sangue nas secreções traqueais sugere hemorragia pulmonar, emergência que exige suporte intensivo imediato",
+    ],
+    prognostico:
+      "Excelente na maioria dos casos com tratamento adequado (corticosteroide antenatal, surfactante, suporte ventilatório), com resolução gradual em dias; a gravidade e o risco de complicações crônicas (displasia broncopulmonar) aumentam quanto menor a idade gestacional ao nascer.",
+    pontosDeProva: [
+      "O corticosteroide antenatal (betametasona) administrado à gestante é a principal medida preventiva, acelerando a maturação pulmonar fetal antes do nascimento",
+      "A reposição de surfactante exógeno reduz diretamente a mortalidade e as complicações respiratórias no recém-nascido já afetado",
+      "O padrão radiológico reticulogranular difuso com broncogramas aéreos é característico, podendo evoluir para opacificação completa ('pulmão branco') nos casos mais graves",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido pré-termo de 29 semanas, cuja mãe não recebeu corticosteroide antenatal por trabalho de parto muito rápido, desenvolve taquipneia, gemido e retrações intercostais nas primeiras 2 horas de vida. Radiografia de tórax mostra padrão reticulogranular difuso com broncogramas aéreos.",
+      pergunta: "Qual é o diagnóstico e a conduta terapêutica imediata?",
+      raciocinio:
+        "A prematuridade extrema, o início precoce do desconforto respiratório e o padrão radiológico reticulogranular com broncogramas aéreos são característicos da síndrome do desconforto respiratório por deficiência de surfactante.",
+      conduta:
+        "Administrar surfactante exógeno por via traqueal e iniciar suporte ventilatório não invasivo (CPAP) como estratégia inicial, reservando ventilação mecânica invasiva para falha do suporte não invasivo.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "betametasona", nome: "Betametasona (acetato + fosfato dissódico)" },
+    ],
+    medicamentosNota:
+      "A betametasona é administrada à gestante antes do parto (corticosteroide antenatal) para acelerar a maturação pulmonar fetal, principal medida preventiva. O surfactante exógeno, tratamento central após o nascimento do recém-nascido afetado, ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia da deficiência de surfactante e formação de membranas hialinas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Graduação radiológica (graus I-IV)", fonte: "fonte pendente" },
+      { tema: "Corticosteroide antenatal como principal medida preventiva", fonte: "ACOG Committee Opinion No. 713, Antenatal Corticosteroid Therapy for Fetal Maturation, Obstetrics & Gynecology, 2017" },
+    ],
+  },
+  {
+    slug: "sindrome-aspiracao-meconial",
+    nome: "Síndrome de aspiração meconial",
+    sinonimos: ["SAM"],
+    cid10: "P24",
+    especialidade: "Neonatologia",
+    etiologia: "Multifatorial",
+    resumo: "Insuficiência respiratória do recém-nascido causada pela aspiração de líquido amniótico meconial antes, durante ou logo após o parto, com obstrução de vias aéreas, inflamação química e risco de hipertensão pulmonar persistente.",
+    definicao:
+      "Doença respiratória do recém-nascido, tipicamente a termo ou pós-termo, causada pela aspiração de mecônio presente no líquido amniótico para as vias aéreas antes, durante ou imediatamente após o nascimento, resultando em obstrução mecânica das vias aéreas, pneumonite química e inativação do surfactante.",
+    epidemiologia:
+      "Ocorre quase exclusivamente em recém-nascidos a termo ou pós-termo, já que a eliminação de mecônio intraútero geralmente reflete maturidade do trato gastrointestinal fetal; sofrimento fetal e hipóxia intraparto são fatores predisponentes para a eliminação de mecônio antes do parto.",
+    fisiopatologia:
+      "O mecônio aspirado causa obstrução mecânica de vias aéreas de calibre variável (obstrução completa causando atelectasia distal, obstrução parcial causando efeito valvular com aprisionamento aéreo e hiperinsuflação regional), além de inativar o surfactante e desencadear uma pneumonite química intensa; casos graves frequentemente evoluem com hipertensão pulmonar persistente do recém-nascido, secundária tanto à hipóxia quanto a alterações estruturais da vasculatura pulmonar associadas ao sofrimento fetal crônico.",
+    classificacao:
+      "Não há um sistema de estadiamento formal amplamente usado; a gravidade é avaliada clinicamente pelo grau de desconforto respiratório, necessidade de suporte ventilatório e presença de hipertensão pulmonar persistente associada.",
+    quadroClinico: [
+      "História de líquido amniótico meconial (espesso, tipo 'sopa de ervilha') e recém-nascido deprimido ao nascer",
+      "Desconforto respiratório de início precoce: taquipneia, retrações, gemido, cianose",
+      "Tórax hiperinsuflado ('em barril') à ausculta e ao exame físico, pelo aprisionamento aéreo",
+      "Sinais de hipertensão pulmonar persistente em casos graves: hipoxemia desproporcional ao grau de doença parenquimatosa, labilidade na saturação de oxigênio",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado na história de líquido amniótico meconial associada a desconforto respiratório neonatal precoce",
+      "Radiografia de tórax com infiltrados grosseiros e assimétricos, associados a áreas de hiperinsuflação e, por vezes, pneumotórax",
+    ],
+    examesComplementares: [
+      "Radiografia de tórax, demonstrando infiltrados irregulares e hiperinsuflação, achado de apoio ao diagnóstico",
+      "Ecocardiograma quando há suspeita de hipertensão pulmonar persistente associada, para avaliar a pressão da artéria pulmonar e excluir cardiopatia congênita",
+      "Gasometria arterial para quantificar a gravidade da hipoxemia e guiar o suporte respiratório",
+    ],
+    diagnosticoDiferencial: [
+      "Síndrome do desconforto respiratório por deficiência de surfactante, distinguida pela prematuridade e pelo padrão radiológico reticulogranular difuso",
+      "Pneumonia/sepse neonatal precoce, que pode coexistir e deve sempre ser considerada e investigada",
+      "Taquipneia transitória do recém-nascido, quadro mais leve e autolimitado",
+    ],
+    tratamento: [
+      "Suporte respiratório individualizado conforme a gravidade, desde oxigenoterapia suplementar até ventilação mecânica invasiva",
+      "Surfactante exógeno em casos moderados a graves, para compensar a inativação do surfactante endógeno pelo mecônio",
+      "Óxido nítrico inalatório e, em casos refratários, oxigenação por membrana extracorpórea (ECMO), reservados para hipertensão pulmonar persistente grave com hipoxemia refratária",
+    ],
+    complicacoes: [
+      "Aguda: pneumotórax (frequente, pelo mecanismo valvular de aprisionamento aéreo), hipertensão pulmonar persistente do recém-nascido, insuficiência respiratória grave",
+      "Crônica: doença pulmonar crônica residual em casos graves, embora a maioria dos sobreviventes tenha boa recuperação pulmonar",
+    ],
+    redFlags: [
+      "Hipoxemia desproporcional ao grau de doença parenquimatosa visível na radiografia sugere hipertensão pulmonar persistente associada, exigindo avaliação ecocardiográfica e manejo específico",
+      "Piora respiratória súbita com assimetria torácica sugere pneumotórax, complicação frequente nessa condição que exige drenagem torácica de emergência",
+    ],
+    prognostico:
+      "Variável conforme a gravidade: casos leves a moderados geralmente evoluem bem com suporte respiratório; casos graves com hipertensão pulmonar persistente associada têm risco significativo de mortalidade e podem exigir ECMO.",
+    pontosDeProva: [
+      "Ocorre quase exclusivamente em recém-nascidos a termo ou pós-termo, ao contrário da síndrome do desconforto respiratório por deficiência de surfactante, tipicamente do pré-termo",
+      "O aprisionamento aéreo por obstrução valvular parcial das vias aéreas explica o padrão de hiperinsuflação característico, distinto do colapso alveolar da deficiência de surfactante",
+      "A hipertensão pulmonar persistente é a complicação mais temida, podendo exigir óxido nítrico inalatório ou ECMO em casos refratários",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido pós-termo (41 semanas), líquido amniótico meconial espesso, nasce deprimido e desenvolve taquipneia, retrações e cianose nas primeiras horas de vida, com tórax hiperinsuflado à ausculta.",
+      pergunta: "Qual é o diagnóstico mais provável e a conduta inicial?",
+      raciocinio:
+        "A história de líquido amniótico meconial espesso associada a desconforto respiratório precoce e tórax hiperinsuflado é característica de síndrome de aspiração meconial.",
+      conduta:
+        "Fornecer suporte respiratório conforme a gravidade, solicitar radiografia de tórax e monitorizar sinais de hipertensão pulmonar persistente, com ecocardiograma se houver hipoxemia desproporcional.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é predominantemente de suporte respiratório; surfactante exógeno, óxido nítrico inalatório e os antibióticos empíricos frequentemente associados (dada a dificuldade de excluir pneumonia concomitante) ainda não têm fichas próprias no site.",
+    fontes: [
+      { tema: "Fisiopatologia da obstrução valvular e pneumonite química", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Manejo na sala de parto e abordagem respiratória", fonte: "American Academy of Pediatrics, Appropriate Management of the Nonvigorous Meconium-Stained Newborn, NeoReviews, 2022" },
+    ],
+  },
+  {
+    slug: "displasia-broncopulmonar",
+    nome: "Displasia broncopulmonar",
+    sinonimos: ["Doença pulmonar crônica do recém-nascido", "DBP"],
+    cid10: "P27",
+    especialidade: "Neonatologia",
+    etiologia: "Multifatorial",
+    resumo: "Doença pulmonar crônica do recém-nascido pré-termo, resultante da interrupção do desenvolvimento alveolar normal por lesão pulmonar precoce (ventilação mecânica, oxigenoterapia, infecção), definida pela necessidade de oxigênio suplementar prolongada.",
+    definicao:
+      "Doença pulmonar crônica que acomete recém-nascidos pré-termo, definida operacionalmente pela necessidade de oxigênio suplementar por pelo menos 28 dias de vida (com graduação adicional conforme a necessidade de suporte respiratório na 36ª semana de idade pós-menstrual), refletindo uma interrupção do desenvolvimento alveolar e vascular pulmonar normal.",
+    epidemiologia:
+      "Incidência inversamente proporcional à idade gestacional e ao peso ao nascer, acometendo principalmente recém-nascidos extremamente pré-termo (abaixo de 28 semanas); tornou-se relativamente mais comum com o aumento da sobrevida de recém-nascidos extremamente pré-termo, embora sua forma tenha mudado (a forma 'nova' da DBP reflete mais interrupção do desenvolvimento alveolar do que a fibrose/lesão de vias aéreas da forma clássica descrita originalmente).",
+    fisiopatologia:
+      "A combinação de imaturidade pulmonar extrema, lesão por ventilação mecânica (barotrauma/volutrauma), toxicidade pelo oxigênio suplementar e inflamação (infecção, corioamnionite) interrompe a fase sacular/alveolar normal do desenvolvimento pulmonar, resultando em alvéolos maiores e em menor número (simplificação alveolar) e desenvolvimento vascular pulmonar anormal, ao contrário da fibrose e lesão de vias aéreas mais proeminentes descritas na forma clássica original da doença.",
+    classificacao:
+      "Classificada pela gravidade conforme a necessidade de suporte respiratório avaliada na 36ª semana de idade pós-menstrual (ou na alta, o que ocorrer primeiro): leve (ar ambiente), moderada (necessidade de oxigênio suplementar em baixa concentração) e grave (necessidade de oxigênio em alta concentração ou suporte ventilatório).",
+    quadroClinico: [
+      "Necessidade persistente de oxigênio suplementar além de 28 dias de vida em recém-nascido pré-termo",
+      "Taquipneia crônica, retrações e desconforto respiratório persistente",
+      "Dificuldade de ganho ponderal pelo aumento do gasto energético do trabalho respiratório",
+      "Episódios recorrentes de exacerbação respiratória, frequentemente desencadeados por infecções virais",
+    ],
+    diagnostico: [
+      "Diagnóstico definido pela necessidade de oxigênio suplementar por pelo menos 28 dias de vida em recém-nascido pré-termo, com graduação da gravidade conforme o suporte respiratório necessário na 36ª semana de idade pós-menstrual",
+    ],
+    examesComplementares: [
+      "Radiografia de tórax, demonstrando padrão variável de hiperinsuflação, áreas de atelectasia e opacidades intersticiais, com achados menos característicos que na forma clássica original da doença",
+      "Ecocardiograma para rastreamento de hipertensão pulmonar associada, complicação relevante em casos graves",
+    ],
+    diagnosticoDiferencial: [
+      "Outras causas de necessidade prolongada de oxigênio no pré-termo (persistência do canal arterial sintomática, infecção pulmonar recorrente)",
+      "Fibrose cística e outras doenças pulmonares crônicas raras da infância, quando o quadro não se resolve conforme o esperado",
+    ],
+    tratamento: [
+      "Prevenção é a estratégia mais eficaz: corticosteroide antenatal, uso criterioso de ventilação mecânica e oxigênio suplementar (visando a menor exposição necessária), e surfactante exógeno quando indicado",
+      "Diuréticos para controle de sintomas em casos com componente de sobrecarga hídrica pulmonar",
+      "Corticosteroide sistêmico pós-natal (dexametasona), reservado a casos selecionados de doença grave para facilitar a extubação, pesando o benefício respiratório contra riscos neurológicos documentados com uso precoce/doses altas",
+    ],
+    complicacoes: [
+      "Aguda: exacerbações respiratórias agudas, frequentemente desencadeadas por infecções virais (ex.: vírus sincicial respiratório)",
+      "Crônica: hipertensão pulmonar, hiper-reatividade de vias aéreas persistente até a infância, maior risco de re-hospitalização por doença respiratória nos primeiros anos de vida",
+    ],
+    redFlags: [
+      "Sinais de hipertensão pulmonar (piora da hipoxemia, sinais de sobrecarga do ventrículo direito) exigem avaliação ecocardiográfica e manejo específico, dado o impacto significativo no prognóstico",
+      "Exacerbação respiratória aguda por infecção viral em lactente com DBP exige atenção redobrada pelo risco de descompensação respiratória grave",
+    ],
+    prognostico:
+      "Variável conforme a gravidade: a maioria das crianças apresenta melhora progressiva da função pulmonar ao longo da infância, mas casos graves podem ter hiper-reatividade de vias aéreas e maior suscetibilidade a infecções respiratórias por anos, além de risco aumentado de hipertensão pulmonar.",
+    pontosDeProva: [
+      "A 'nova' displasia broncopulmonar reflete principalmente interrupção do desenvolvimento alveolar (simplificação alveolar), diferente da fibrose e lesão de vias aéreas mais proeminentes na forma clássica original descrita antes da era do surfactante",
+      "A prevenção (corticosteroide antenatal, ventilação e oxigenoterapia criteriosas) é mais eficaz que qualquer tratamento disponível após o estabelecimento da doença",
+      "O corticosteroide sistêmico pós-natal deve ser reservado a casos selecionados de doença grave, pesando o benefício respiratório contra riscos neurológicos documentados, especialmente com uso precoce em altas doses",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido pré-termo extremo (26 semanas), em ventilação mecânica desde o nascimento por síndrome do desconforto respiratório grave, ainda necessita de oxigênio suplementar aos 30 dias de vida, com radiografia de tórax mostrando áreas de hiperinsuflação e atelectasia intercaladas.",
+      pergunta: "Qual é o diagnóstico e como classificar sua gravidade?",
+      raciocinio:
+        "A necessidade de oxigênio suplementar além de 28 dias de vida em um recém-nascido pré-termo extremo confirma o diagnóstico de displasia broncopulmonar; a gravidade será definida pelo suporte respiratório necessário na 36ª semana de idade pós-menstrual.",
+      conduta:
+        "Reavaliar a necessidade de suporte respiratório na 36ª semana de idade pós-menstrual para classificar a gravidade, otimizar a nutrição para favorecer o crescimento pulmonar, e considerar diuréticos ou corticosteroide sistêmico em casos selecionados de doença grave.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "dexametasona", nome: "Dexametasona" },
+    ],
+    medicamentosNota:
+      "A dexametasona sistêmica é reservada a casos selecionados de doença grave para facilitar a extubação, pesando o benefício respiratório contra riscos neurológicos documentados. Diuréticos, usados para controle sintomático, ainda não têm ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia da 'nova' DBP (simplificação alveolar) versus forma clássica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Definição, graduação de gravidade e uso criterioso de corticosteroide sistêmico pós-natal", fonte: "American Academy of Pediatrics, Committee on Fetus and Newborn, Postnatal Corticosteroids to Prevent or Treat Chronic Lung Disease Following Preterm Birth, Pediatrics, 2022" },
+    ],
+  },
+  {
+    slug: "sepse-neonatal",
+    nome: "Sepse neonatal",
+    sinonimos: ["Septicemia bacteriana do recém-nascido", "Sepse neonatal precoce e tardia"],
+    cid10: "P36",
+    especialidade: "Neonatologia",
+    etiologia: "Bacteriana",
+    resumo: "Infecção bacteriana sistêmica do recém-nascido, classificada em precoce (transmissão materna perinatal) e tardia (adquirida no ambiente pós-natal), com quadro clínico frequentemente inespecífico e alto risco de deterioração rápida.",
+    definicao:
+      "Síndrome clínica de infecção bacteriana sistêmica no recém-nascido, classificada como precoce (até 72 horas de vida, geralmente por transmissão vertical de patógenos do trato genital materno) ou tardia (após 72 horas, geralmente por patógenos adquiridos no ambiente hospitalar ou domiciliar).",
+    epidemiologia:
+      "A sepse precoce está associada a fatores de risco obstétricos (colonização materna por Streptococcus agalactiae do grupo B, ruptura prolongada de membranas, corioamnionite); a sepse tardia é mais comum em recém-nascidos pré-termo internados em UTI neonatal, associada a dispositivos invasivos (cateteres, ventilação mecânica).",
+    fisiopatologia:
+      "Na sepse precoce, a bactéria coloniza o trato genital materno e ascende ou é adquirida durante a passagem pelo canal de parto, invadindo a corrente sanguínea de um recém-nascido cujo sistema imunológico ainda é imaturo (menor transferência de imunoglobulinas maternas e menor capacidade de resposta inflamatória regulada, especialmente no pré-termo); na sepse tardia, a via de entrada é frequentemente cutânea, respiratória ou por dispositivo invasivo, refletindo o ambiente de cuidado intensivo.",
+    classificacao:
+      "Classificada por tempo de início em precoce (até 72 horas de vida, embora alguns protocolos usem o corte de 7 dias) e tardia (após esse período), distinção com implicações diretas na escolha do esquema antibiótico empírico, dados os patógenos tipicamente envolvidos em cada categoria.",
+    quadroClinico: [
+      "Sinais frequentemente inespecíficos: instabilidade térmica (hipotermia mais que febre no recém-nascido), letargia, irritabilidade, recusa alimentar",
+      "Desconforto respiratório, apneia",
+      "Instabilidade hemodinâmica (taquicardia, má perfusão periférica, hipotensão em casos avançados)",
+      "Distensão abdominal, icterícia atípica (precoce ou com padrão colestático)",
+    ],
+    diagnostico: [
+      "Diagnóstico baseado em fatores de risco (obstétricos na sepse precoce, dispositivos invasivos na tardia), quadro clínico compatível e confirmação por hemocultura, exame padrão-ouro",
+      "Uso de calculadoras de risco baseadas em fatores perinatais e evolução clínica para orientar a decisão de investigação e antibioticoterapia empírica na sepse precoce em recém-nascidos ≥ 35 semanas",
+    ],
+    examesComplementares: [
+      "Hemocultura antes do início da antibioticoterapia, exame de referência para confirmação diagnóstica",
+      "Hemograma completo com relação neutrófilo imaturo/total, marcador de apoio mas com baixo valor preditivo isolado",
+      "Proteína C-reativa seriada, útil para monitorização da resposta terapêutica mais do que para o diagnóstico inicial isolado",
+      "Punção lombar quando há suspeita de meningite associada, dada a alta taxa de coexistência",
+    ],
+    diagnosticoDiferencial: [
+      "Taquipneia transitória e outras causas não infecciosas de desconforto respiratório neonatal",
+      "Erros inatos do metabolismo, que podem mimetizar sepse com letargia, recusa alimentar e instabilidade metabólica",
+      "Cardiopatias congênitas ductus-dependentes, que podem se apresentar com choque nos primeiros dias de vida de forma semelhante à sepse",
+    ],
+    tratamento: [
+      "Antibioticoterapia empírica de amplo espectro iniciada prontamente após a coleta de culturas, sem aguardar confirmação laboratorial diante de suspeita clínica significativa",
+      "Esquema empírico da sepse precoce dirigido aos patógenos típicos dessa transmissão (Streptococcus agalactiae, Escherichia coli), tipicamente combinação de ampicilina com aminoglicosídeo",
+      "Ajuste do esquema conforme o resultado da cultura e do antibiograma, com duração total guiada pelo foco identificado e pela resposta clínica",
+    ],
+    complicacoes: [
+      "Aguda: choque séptico, coagulação intravascular disseminada, meningite associada",
+      "Crônica: sequelas neurológicas quando há meningite concomitante, maior risco em recém-nascidos pré-termo extremos",
+    ],
+    redFlags: [
+      "Qualquer recém-nascido com fatores de risco obstétricos relevantes (colonização materna por estreptococo do grupo B sem profilaxia adequada, corioamnionite) associados a sinais clínicos, mesmo sutis, exige investigação e antibioticoterapia empírica prontas",
+      "Instabilidade hemodinâmica ou respiratória em recém-nascido, mesmo sem outros sinais floridos, deve levantar suspeita de sepse dada a apresentação frequentemente inespecífica nessa faixa etária",
+    ],
+    prognostico:
+      "Bom com diagnóstico e tratamento antibiótico precoces na maioria dos casos; a mortalidade e o risco de sequelas neurológicas aumentam significativamente quando há meningite associada ou atraso no início do tratamento, sendo maiores em recém-nascidos pré-termo extremos.",
+    pontosDeProva: [
+      "A apresentação clínica da sepse neonatal é frequentemente inespecífica (instabilidade térmica, letargia, recusa alimentar), exigindo alto índice de suspeição baseado em fatores de risco perinatais",
+      "A hemocultura é o exame padrão-ouro e deve ser sempre coletada antes do início da antibioticoterapia empírica",
+      "O esquema antibiótico empírico difere entre sepse precoce (dirigida a estreptococo do grupo B e E. coli) e tardia (dirigida também a patógenos hospitalares, incluindo estafilococos)",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo, mãe com colonização por Streptococcus agalactiae sem profilaxia intraparto adequada, apresenta com 18 horas de vida letargia, recusa alimentar e instabilidade térmica.",
+      pergunta: "Qual a conduta diagnóstica e terapêutica imediata?",
+      raciocinio:
+        "A ausência de profilaxia intraparto adequada em mãe colonizada por estreptococo do grupo B, associada a sinais clínicos inespecíficos nas primeiras 24 horas de vida, é altamente sugestiva de sepse neonatal precoce.",
+      conduta:
+        "Coletar hemocultura e iniciar antibioticoterapia empírica de amplo espectro sem demora, dirigida aos patógenos típicos da sepse precoce, ajustando conforme a evolução clínica e o resultado das culturas.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O esquema antibiótico empírico padrão (ampicilina associada a um aminoglicosídeo) ainda não tem seus componentes individuais documentados como ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia e fatores de risco perinatais", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Calculadoras de risco, abordagem diagnóstica e esquema antibiótico empírico", fonte: "Puopolo KM et al., Management of Neonates Born at ≥35 0/7 Weeks' Gestation With Suspected or Proven Early-Onset Bacterial Sepsis, American Academy of Pediatrics, Pediatrics, 2018" },
+    ],
+  },
+  {
+    slug: "doenca-hemolitica-feto-recem-nascido",
+    nome: "Doença hemolítica do feto e do recém-nascido",
+    sinonimos: ["Eritroblastose fetal", "Incompatibilidade Rh", "Incompatibilidade ABO"],
+    cid10: "P55",
+    especialidade: "Neonatologia",
+    etiologia: "Autoimune",
+    resumo: "Hemólise fetal e neonatal causada pela passagem transplacentária de anticorpos maternos contra antígenos eritrocitários fetais herdados do pai, classicamente por incompatibilidade Rh(D) ou ABO, podendo causar anemia fetal grave e hidropisia.",
+    definicao:
+      "Distúrbio hemolítico do feto e do recém-nascido causado pela aloimunização materna contra antígenos presentes nas hemácias fetais (mas ausentes nas da mãe), com produção de anticorpos IgG que atravessam a placenta e destroem as hemácias fetais, sendo as incompatibilidades Rh(D) e ABO as causas clássicas mais relevantes.",
+    epidemiologia:
+      "A incompatibilidade Rh(D) tornou-se muito menos comum e menos grave com a introdução da profilaxia com imunoglobulina anti-D em gestantes Rh-negativas não sensibilizadas; a incompatibilidade ABO é mais comum, mas tipicamente causa doença hemolítica mais leve.",
+    fisiopatologia:
+      "Quando hemácias fetais Rh-positivas ou de grupo sanguíneo incompatível entram na circulação materna (durante a gestação, no parto, ou em eventos de sangramento feto-materno), uma mãe Rh-negativa ou com incompatibilidade ABO pode desenvolver anticorpos IgG contra esses antígenos; em gestações subsequentes (na incompatibilidade Rh) ou mesmo na primeira gestação (na incompatibilidade ABO, por anticorpos naturais preexistentes), esses anticorpos atravessam a placenta e se ligam às hemácias fetais, causando hemólise extravascular mediada pelo sistema reticuloendotelial fetal.",
+    classificacao:
+      "Classificada pelo antígeno envolvido (Rh(D), ABO, ou antígenos eritrocitários menores) e pela gravidade clínica, que varia de hemólise leve e icterícia neonatal até anemia fetal grave com hidropisia fetal (edema generalizado por insuficiência cardíaca de alto débito e hipoalbuminemia).",
+    quadroClinico: [
+      "Anemia fetal, detectável por Doppler de artéria cerebral média (aumento da velocidade de pico sistólico) em casos de aloimunização significativa",
+      "Hidropisia fetal em casos graves: ascite, derrame pleural/pericárdico, edema subcutâneo generalizado",
+      "No recém-nascido: icterícia de início precoce (nas primeiras 24 horas de vida, sinal de alarme), anemia, hepatoesplenomegalia",
+    ],
+    diagnostico: [
+      "Rastreamento pré-natal universal do tipo sanguíneo e Rh materno, com pesquisa de anticorpos irregulares (teste de Coombs indireto) em gestantes Rh-negativas",
+      "Doppler de artéria cerebral média fetal para rastreamento não invasivo de anemia fetal em gestações aloimunizadas com títulos de anticorpos significativos",
+      "Teste de Coombs direto no recém-nascido, confirmando a presença de anticorpos maternos ligados às hemácias fetais",
+    ],
+    examesComplementares: [
+      "Teste de Coombs indireto materno (rastreamento de anticorpos irregulares) e teste de Coombs direto no recém-nascido (confirmação diagnóstica)",
+      "Doppler de artéria cerebral média fetal, com velocidade de pico sistólico elevada sugerindo anemia fetal significativa, guiando a decisão de investigação invasiva ou transfusão intrauterina",
+      "Bilirrubina sérica seriada no recém-nascido para monitorização da hemólise e guiar a fototerapia",
+    ],
+    diagnosticoDiferencial: [
+      "Outras causas de anemia hemolítica neonatal não imune (deficiência de G6PD, esferocitose hereditária)",
+      "Outras causas de hidropisia fetal não imune (cardiopatias congênitas, infecções congênitas, anomalias cromossômicas)",
+    ],
+    tratamento: [
+      "Profilaxia com imunoglobulina anti-D em gestantes Rh-negativas não sensibilizadas, na 28ª semana de gestação e após qualquer evento de sangramento feto-materno potencial, prevenindo a sensibilização primária",
+      "Transfusão intrauterina de concentrado de hemácias em casos de anemia fetal grave confirmada, procedimento que pode ser repetido conforme a necessidade até o parto",
+      "No recém-nascido afetado: fototerapia para controle da hiperbilirrubinemia e, em casos graves, exsanguineotransfusão",
+    ],
+    complicacoes: [
+      "Aguda: hidropisia fetal (insuficiência cardíaca de alto débito fetal), kernicterus por hiperbilirrubinemia neonatal não tratada adequadamente",
+      "Crônica: sequelas neurológicas do kernicterus quando a hiperbilirrubinemia grave não é tratada a tempo",
+    ],
+    redFlags: [
+      "Icterícia neonatal de início nas primeiras 24 horas de vida é sempre patológica e exige investigação imediata, sendo um sinal característico de doença hemolítica",
+      "Sinais ecográficos de hidropisia fetal em gestação aloimunizada exigem avaliação urgente da necessidade de transfusão intrauterina",
+    ],
+    prognostico:
+      "Excelente com profilaxia adequada (imunoglobulina anti-D) e monitorização apropriada das gestações de risco; casos não identificados ou não tratados podem evoluir com anemia fetal grave, hidropisia e óbito fetal, ou kernicterus no recém-nascido.",
+    pontosDeProva: [
+      "A profilaxia com imunoglobulina anti-D em gestantes Rh-negativas não sensibilizadas é a intervenção que mais reduziu a incidência e a gravidade da doença hemolítica por incompatibilidade Rh",
+      "O Doppler de artéria cerebral média fetal substituiu métodos invasivos como triagem não invasiva de anemia fetal em gestações aloimunizadas",
+      "Icterícia neonatal nas primeiras 24 horas de vida é sempre patológica, ao contrário da icterícia fisiológica que surge após esse período",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante Rh-negativa, segunda gestação, sem uso de imunoglobulina anti-D na gestação anterior, apresenta título de anticorpos anti-D positivo e crescente na atual gestação. Doppler de artéria cerebral média fetal mostra velocidade de pico sistólico elevada.",
+      pergunta: "Qual é a interpretação do achado e a conduta apropriada?",
+      raciocinio:
+        "O título crescente de anticorpos anti-D associado à velocidade de pico sistólico elevada no Doppler de artéria cerebral média é altamente sugestivo de anemia fetal significativa por aloimunização Rh.",
+      conduta:
+        "Encaminhar para avaliação em centro de referência em medicina fetal, com consideração de cordocentese para confirmação e eventual transfusão intrauterina conforme a gravidade da anemia fetal.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "A imunoglobulina anti-D (profilaxia da sensibilização) e a transfusão intrauterina/exsanguineotransfusão (tratamento da doença estabelecida) ainda não têm fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Fisiopatologia da aloimunização e mecanismo da hemólise", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Rastreamento, Doppler de artéria cerebral média e indicação de transfusão intrauterina", fonte: "ACOG Practice Bulletin No. 192, Management of Alloimmunization During Pregnancy, Obstetrics & Gynecology, 2018" },
+    ],
+  },
+  {
+    slug: "kernicterus-ictericia-neonatal-patologica",
+    nome: "Kernicterus e icterícia neonatal patológica",
+    sinonimos: ["Encefalopatia bilirrubínica", "Hiperbilirrubinemia neonatal grave"],
+    cid10: "P57",
+    especialidade: "Neonatologia",
+    etiologia: "Metabólica",
+    resumo: "Hiperbilirrubinemia neonatal patológica que, quando grave e não tratada, pode causar depósito de bilirrubina não conjugada nos núcleos da base (kernicterus), lesão neurológica permanente evitável com tratamento oportuno.",
+    definicao:
+      "Espectro que vai da icterícia neonatal patológica (elevação da bilirrubina além dos limites esperados para a idade em horas de vida e fatores de risco) até o kernicterus, encefalopatia bilirrubínica crônica causada pelo depósito de bilirrubina não conjugada livre nos núcleos da base e no tronco cerebral quando os níveis séricos ultrapassam a capacidade de ligação à albumina e a barreira hematoencefálica.",
+    epidemiologia:
+      "A icterícia neonatal é extremamente comum, acometendo a maioria dos recém-nascidos em algum grau; o kernicterus tornou-se raro em países com rastreamento e tratamento adequados, mas permanece uma causa evitável de lesão neurológica quando o rastreamento falha ou o acesso ao tratamento é tardio.",
+    fisiopatologia:
+      "A bilirrubina não conjugada, produzida em excesso pela maior massa eritrocitária e menor meia-vida das hemácias fetais associada à imaturidade da conjugação hepática (atividade reduzida da glicuronosiltransferase), circula ligada à albumina; quando a produção excede a capacidade de conjugação e excreção, ou quando a fração livre (não ligada à albumina) aumenta por hipoalbuminemia, acidose, ou deslocamento por fármacos, a bilirrubina não conjugada atravessa a barreira hematoencefálica e se deposita nos núcleos da base, causando neurotoxicidade.",
+    classificacao:
+      "A conduta é guiada por nomogramas horário-específicos que estratificam o risco conforme o nível de bilirrubina sérica total e a idade em horas de vida, definindo limiares para fototerapia e para exsanguineotransfusão conforme fatores de risco associados (prematuridade, hemólise, sepse).",
+    quadroClinico: [
+      "Icterícia visível progredindo em direção céfalo-caudal conforme o nível de bilirrubina aumenta",
+      "Fase aguda do kernicterus: letargia, hipotonia, sucção fraca, podendo evoluir para hipertonia, opistótono e choro agudo característico",
+      "Kernicterus crônico (sequela): coreoatetose, perda auditiva neurossensorial, paralisia do olhar para cima, displasia dentária",
+    ],
+    diagnostico: [
+      "Rastreamento universal da bilirrubina (transcutânea ou sérica) antes da alta hospitalar, plotada em nomograma horário-específico para estratificação de risco",
+      "Identificação de fatores de risco para hiperbilirrubinemia grave: incompatibilidade sanguínea, prematuridade, cefaloematoma, amamentação exclusiva com perda de peso excessiva",
+    ],
+    examesComplementares: [
+      "Bilirrubina sérica total e frações, com o valor interpretado sempre em relação à idade em horas de vida usando o nomograma apropriado, não um ponto de corte fixo",
+      "Teste de Coombs direto e tipagem sanguínea quando há suspeita de doença hemolítica associada",
+    ],
+    diagnosticoDiferencial: [
+      "Icterícia fisiológica do recém-nascido (início após 24 horas de vida, resolução espontânea, sem outros sinais de doença)",
+      "Icterícia do leite materno e da amamentação, quadros benignos que exigem principalmente otimização da amamentação, não necessariamente sua suspensão",
+      "Colestase neonatal (icterícia com predomínio de bilirrubina direta), que exige investigação etiológica completamente distinta",
+    ],
+    tratamento: [
+      "Fototerapia, tratamento de primeira linha, convertendo a bilirrubina não conjugada em isômeros hidrossolúveis excretáveis sem necessidade de conjugação hepática, com limiar de início definido pelo nomograma específico por idade em horas e fatores de risco",
+      "Exsanguineotransfusão, reservada a hiperbilirrubinemia grave refratária à fototerapia intensiva ou com sinais de encefalopatia bilirrubínica aguda",
+      "Otimização da amamentação e hidratação, medida de suporte relevante especialmente na icterícia associada a aleitamento inadequado",
+    ],
+    complicacoes: [
+      "Aguda: encefalopatia bilirrubínica aguda (letargia, hipotonia evoluindo para hipertonia e opistótono)",
+      "Crônica: kernicterus estabelecido, com coreoatetose, perda auditiva neurossensorial e outras sequelas neurológicas permanentes",
+    ],
+    redFlags: [
+      "Icterícia nas primeiras 24 horas de vida é sempre patológica e exige investigação e tratamento imediatos, nunca observação isolada",
+      "Sinais de encefalopatia bilirrubínica aguda (letargia progressiva, hipotonia, sucção fraca) em recém-nascido ictérico exigem tratamento de emergência, incluindo consideração de exsanguineotransfusão",
+    ],
+    prognostico:
+      "Excelente com rastreamento e tratamento oportunos (fototerapia); o kernicterus estabelecido causa sequelas neurológicas permanentes e é considerado evento evitável quando o rastreamento e o tratamento seguem os protocolos recomendados.",
+    pontosDeProva: [
+      "A interpretação do nível de bilirrubina sérica deve sempre considerar a idade em horas de vida usando o nomograma apropriado, nunca um ponto de corte fixo isolado",
+      "Icterícia nas primeiras 24 horas de vida é sempre patológica, distinguindo-se da icterícia fisiológica que surge após esse período",
+      "O kernicterus é considerado um evento evitável quando o rastreamento universal e o tratamento oportuno com fototerapia são seguidos adequadamente",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo, 5 dias de vida, em aleitamento materno exclusivo com dificuldade de pega, apresenta icterícia progressiva até a região abdominal, letargia leve e perda ponderal de 9% em relação ao peso de nascimento.",
+      pergunta: "Qual é a conduta diagnóstica e terapêutica apropriada?",
+      raciocinio:
+        "A icterícia progressiva associada a perda ponderal excessiva e dificuldade de amamentação sugere hiperbilirrubinemia significativa relacionada à ingesta inadequada, exigindo dosagem de bilirrubina e avaliação segundo o nomograma horário-específico.",
+      conduta:
+        "Dosar bilirrubina sérica total, plotar no nomograma apropriado para a idade em horas de vida, iniciar fototerapia se indicado pelo limiar de risco, e otimizar a amamentação com suporte especializado.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento central (fototerapia e, em casos graves, exsanguineotransfusão) é físico, não medicamentoso.",
+    fontes: [
+      { tema: "Fisiopatologia do depósito de bilirrubina não conjugada e neurotoxicidade", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Nomogramas horário-específicos e limiares para fototerapia/exsanguineotransfusão", fonte: "Kemper AR et al., Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation, American Academy of Pediatrics, Pediatrics, 2022" },
+    ],
+  },
+  {
+    slug: "hemorragia-intracraniana-nao-traumatica-rn",
+    nome: "Hemorragia intracraniana não traumática do recém-nascido",
+    sinonimos: ["Hemorragia peri-intraventricular do prematuro", "HPIV"],
+    cid10: "P52",
+    especialidade: "Neonatologia",
+    etiologia: "Traumática",
+    resumo: "Sangramento na matriz germinativa subependimária e nos ventrículos cerebrais, característico do recém-nascido pré-termo, decorrente da fragilidade vascular dessa região associada a flutuações do fluxo sanguíneo cerebral.",
+    definicao:
+      "Sangramento originado na matriz germinativa subependimária, região altamente vascularizada e frágil presente no cérebro fetal/neonatal em desenvolvimento, que pode se estender para os ventrículos laterais (hemorragia intraventricular) e, em casos graves, para o parênquima cerebral adjacente, sendo característico do recém-nascido pré-termo pela imaturidade vascular dessa região.",
+    epidemiologia:
+      "Incidência inversamente proporcional à idade gestacional, sendo rara em recém-nascidos a termo e significativamente mais comum quanto mais extrema a prematuridade, acometendo uma proporção substancial de recém-nascidos abaixo de 28 semanas.",
+    fisiopatologia:
+      "A matriz germinativa subependimária é uma região de vascularização rica mas estruturalmente frágil (vasos com parede fina, sem suporte de tecido conjuntivo adequado), que involui espontaneamente por volta de 34 semanas de gestação; no pré-termo, flutuações do fluxo sanguíneo cerebral (por instabilidade hemodinâmica, ventilação mecânica, pneumotórax, ou manipulação excessiva) associadas a essa fragilidade vascular intrínseca predispõem à ruptura e ao sangramento, que pode se estender para o sistema ventricular e, em casos graves, causar infarto hemorrágico do parênquima periventricular adjacente.",
+    classificacao:
+      "Classificada pelos critérios de Papile em graus de I a IV por ultrassonografia craniana: grau I (hemorragia restrita à matriz germinativa), grau II (hemorragia intraventricular sem dilatação ventricular), grau III (hemorragia intraventricular com dilatação ventricular) e grau IV (hemorragia intraventricular associada a infarto hemorrágico do parênquima periventricular).",
+    quadroClinico: [
+      "Frequentemente assintomática em graus leves, detectada apenas pelo rastreamento ultrassonográfico de rotina no pré-termo",
+      "Em casos mais graves: deterioração clínica aguda com queda do hematócrito, abaulamento de fontanela, alteração do nível de consciência, convulsões, instabilidade cardiorrespiratória",
+    ],
+    diagnostico: [
+      "Rastreamento ultrassonográfico transfontanelar de rotina em todo recém-nascido pré-termo abaixo de determinada idade gestacional (tipicamente 32 semanas), independentemente de sintomas",
+      "Classificação pelos critérios de Papile conforme os achados ultrassonográficos",
+    ],
+    examesComplementares: [
+      "Ultrassonografia transfontanelar, exame de escolha para rastreamento e classificação, repetida seriadamente conforme o protocolo da unidade neonatal",
+      "Ressonância magnética cerebral em casos selecionados para avaliação mais detalhada de lesão parenquimatosa e prognóstico",
+    ],
+    diagnosticoDiferencial: [
+      "Hemorragia intracraniana de causa traumática (relacionada a parto), distinguida pela história de trauma obstétrico e pela localização tipicamente extra-axial",
+      "Malformações vasculares cerebrais congênitas, causa rara de sangramento intracraniano neonatal",
+    ],
+    tratamento: [
+      "Não há tratamento específico para reverter o sangramento já ocorrido; o manejo é de suporte, com estabilização hemodinâmica e respiratória para prevenir extensão do sangramento",
+      "Monitorização seriada por ultrassonografia para detecção precoce de hidrocefalia pós-hemorrágica, complicação que pode exigir intervenção neurocirúrgica (derivação ventricular)",
+      "Prevenção como estratégia central: minimizar flutuações do fluxo sanguíneo cerebral (manuseio cuidadoso, estabilidade hemodinâmica), corticosteroide antenatal quando há risco de parto pré-termo",
+    ],
+    complicacoes: [
+      "Aguda: extensão do sangramento, hidrocefalia pós-hemorrágica aguda por obstrução da drenagem liquórica",
+      "Crônica: paralisia cerebral, atraso do neurodesenvolvimento e outras sequelas neurológicas, com risco proporcional ao grau da hemorragia — significativamente maior nos graus III e IV",
+    ],
+    redFlags: [
+      "Queda aguda e inexplicada do hematócrito associada a deterioração clínica em recém-nascido pré-termo deve levantar suspeita de hemorragia intracraniana significativa",
+      "Aumento progressivo do perímetro cefálico ou abaulamento de fontanela após hemorragia conhecida sugere hidrocefalia pós-hemorrágica, exigindo avaliação neurocirúrgica",
+    ],
+    prognostico:
+      "Excelente nos graus I e II, com a maioria evoluindo sem sequelas significativas; os graus III e IV, especialmente quando há infarto hemorrágico parenquimatoso associado, carregam risco substancialmente maior de paralisia cerebral e atraso do neurodesenvolvimento.",
+    pontosDeProva: [
+      "A matriz germinativa subependimária, região de origem do sangramento, involui espontaneamente por volta de 34 semanas — por isso a hemorragia peri-intraventricular é rara em recém-nascidos a termo",
+      "A classificação de Papile (graus I a IV) por ultrassonografia craniana orienta diretamente o prognóstico neurológico esperado",
+      "A hidrocefalia pós-hemorrágica é uma complicação importante a ser monitorizada, podendo exigir derivação neurocirúrgica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido pré-termo de 26 semanas, em ventilação mecânica, apresenta queda aguda do hematócrito no 3º dia de vida associada a episódio de instabilidade hemodinâmica. Ultrassonografia transfontanelar mostra sangramento intraventricular com dilatação ventricular associada.",
+      pergunta: "Qual é a classificação do achado e a conduta de monitorização subsequente?",
+      raciocinio:
+        "A hemorragia intraventricular com dilatação ventricular corresponde ao grau III da classificação de Papile, achado que exige monitorização seriada para detecção precoce de hidrocefalia pós-hemorrágica progressiva.",
+      conduta:
+        "Realizar ultrassonografias transfontanelares seriadas para monitorizar o tamanho ventricular, avaliar sinais clínicos de hipertensão intracraniana, e encaminhar para avaliação neurocirúrgica se houver progressão para hidrocefalia sintomática.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso específico para reverter a hemorragia já ocorrida; o manejo é de suporte e, quando indicado, cirúrgico (derivação ventricular).",
+    fontes: [
+      { tema: "Fisiopatologia da fragilidade da matriz germinativa e fatores predisponentes", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Classificação de Papile por ultrassonografia craniana", fonte: "Papile LA et al., Incidence and Evolution of Subependymal and Intraventricular Hemorrhage: A Study of Infants With Birth Weights Less Than 1,500 gm, Journal of Pediatrics, 1978" },
+    ],
+  },
+  {
+    slug: "enterocolite-necrosante",
+    nome: "Enterocolite necrosante",
+    sinonimos: ["ECN", "NEC"],
+    cid10: "P77",
+    especialidade: "Neonatologia",
+    etiologia: "Multifatorial",
+    resumo: "Emergência gastrointestinal do recém-nascido pré-termo caracterizada por necrose isquêmico-inflamatória da parede intestinal, podendo evoluir rapidamente para perfuração e sepse, uma das principais causas de morbimortalidade na UTI neonatal.",
+    definicao:
+      "Doença inflamatória e isquêmica adquirida do trato gastrointestinal do recém-nascido, predominantemente pré-termo, caracterizada por necrose da parede intestinal (mais comumente íleo terminal e cólon proximal) que pode progredir para perfuração intestinal e sepse, sendo uma das emergências cirúrgicas neonatais mais graves.",
+    epidemiologia:
+      "Incidência inversamente proporcional à idade gestacional e ao peso ao nascer, acometendo predominantemente recém-nascidos pré-termo em unidades de terapia intensiva neonatal; casos em recém-nascidos a termo são raros e geralmente associados a outra condição predisponente (cardiopatia congênita, policitemia).",
+    fisiopatologia:
+      "A combinação de imaturidade da barreira mucosa intestinal, colonização bacteriana anormal da microbiota intestinal, isquemia intestinal (por instabilidade hemodinâmica ou fluxo sanguíneo mesentérico alterado) e alimentação enteral (que fornece substrato para a proliferação bacteriana translocada) desencadeia uma cascata inflamatória exacerbada que causa necrose da parede intestinal, podendo progredir para perfuração, peritonite e sepse.",
+    classificacao:
+      "Classificada pelos critérios modificados de Bell em estágio I (suspeita), estágio II (definida, com pneumatose intestinal radiológica) e estágio III (avançada, com perfuração/peritonite), cada um subdividido em A e B conforme a gravidade dos sinais sistêmicos e radiológicos — classificação que orienta diretamente a conduta terapêutica.",
+    quadroClinico: [
+      "Distensão abdominal progressiva, resíduo gástrico aumentado e bilioso, vômitos",
+      "Sangue nas fezes (visível ou oculto)",
+      "Sinais sistêmicos de gravidade variável: instabilidade térmica, apneia, letargia, evoluindo para choque em casos avançados",
+      "Eritema e endurecimento da parede abdominal em casos avançados, sinal de peritonite",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico-radiológico baseado nos critérios modificados de Bell, combinando sinais sistêmicos, intestinais e radiológicos",
+      "Pneumatose intestinal (ar na parede intestinal) na radiografia de abdome, achado radiológico característico e definidor do estágio II",
+    ],
+    examesComplementares: [
+      "Radiografia de abdome seriada, demonstrando pneumatose intestinal (estágio II) ou pneumoperitônio (estágio III, indicando perfuração)",
+      "Hemograma e proteína C-reativa para avaliação da resposta inflamatória sistêmica e monitorização evolutiva",
+      "Gasometria e lactato sérico para avaliação da perfusão e da gravidade sistêmica",
+    ],
+    diagnosticoDiferencial: [
+      "Sepse neonatal isolada sem acometimento intestinal primário",
+      "Íleo meconial e outras obstruções intestinais mecânicas do recém-nascido, distinguidas pela ausência de pneumatose intestinal e pelo padrão radiológico específico",
+      "Perfuração intestinal isolada espontânea, entidade distinta que ocorre sem o pródromo inflamatório típico da ECN",
+    ],
+    tratamento: [
+      "Suspensão da dieta enteral e descompressão gástrica por sonda, medida inicial em qualquer estágio de suspeita",
+      "Antibioticoterapia empírica de amplo espectro cobrindo Gram-negativos e anaeróbios, com o metronidazol como componente frequente do esquema combinado nessa cobertura",
+      "Suporte hemodinâmico e nutricional (nutrição parenteral durante o repouso intestinal)",
+      "Intervenção cirúrgica (ressecção do segmento necrótico, com ou sem estoma) reservada a perfuração confirmada (estágio III) ou deterioração clínica refratária ao tratamento clínico",
+    ],
+    complicacoes: [
+      "Aguda: perfuração intestinal, peritonite, choque séptico, coagulação intravascular disseminada",
+      "Crônica: estenose intestinal cicatricial (complicação tardia comum, mesmo após tratamento bem-sucedido), síndrome do intestino curto em casos que exigem ressecção extensa",
+    ],
+    redFlags: [
+      "Eritema e endurecimento da parede abdominal, associados a instabilidade sistêmica, sugerem perfuração/peritonite e exigem avaliação cirúrgica de emergência",
+      "Pneumoperitônio na radiografia de abdome confirma perfuração intestinal, indicação absoluta de intervenção cirúrgica",
+    ],
+    prognostico:
+      "Variável conforme o estágio: casos em estágio I frequentemente resolvem com tratamento clínico; estágios avançados com necessidade cirúrgica carregam mortalidade significativa e risco de sequelas gastrointestinais e nutricionais de longo prazo, incluindo síndrome do intestino curto.",
+    pontosDeProva: [
+      "A pneumatose intestinal na radiografia de abdome é o achado radiológico característico que define o estágio II dos critérios modificados de Bell",
+      "O esquema antibiótico empírico deve cobrir Gram-negativos e anaeróbios, refletindo a fisiopatologia de translocação bacteriana da microbiota intestinal",
+      "A estenose intestinal cicatricial é uma complicação tardia relativamente comum mesmo após tratamento clínico bem-sucedido, exigindo seguimento",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido pré-termo de 28 semanas, em alimentação enteral progressiva, desenvolve distensão abdominal progressiva, resíduo gástrico bilioso e sangue nas fezes no 12º dia de vida. Radiografia de abdome mostra pneumatose intestinal.",
+      pergunta: "Qual é o diagnóstico, o estágio e a conduta inicial?",
+      raciocinio:
+        "A tríade de distensão abdominal, resíduo bilioso e sangue nas fezes associada a pneumatose intestinal radiológica confirma enterocolite necrosante em estágio II dos critérios modificados de Bell.",
+      conduta:
+        "Suspender a dieta enteral, iniciar descompressão gástrica e antibioticoterapia empírica de amplo espectro com cobertura para anaeróbios, e monitorizar radiológica e clinicamente para sinais de progressão para perfuração.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "metronidazol", nome: "Metronidazol" },
+    ],
+    medicamentosNota:
+      "O metronidazol é componente frequente do esquema antibiótico combinado, cobrindo a fração anaeróbia; os demais componentes típicos (ampicilina e um aminoglicosídeo ou cefalosporina de amplo espectro) ainda não têm ficha própria com essa indicação específica no site.",
+    fontes: [
+      { tema: "Fisiopatologia multifatorial e critérios modificados de Bell", fonte: "Walsh MC, Kliegman RM, Necrotizing Enterocolitis: Treatment Based on Staging Criteria, Pediatric Clinics of North America, 1986" },
+      { tema: "Pneumatose intestinal como achado radiológico definidor", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "ileo-meconial-obstrucoes-intestinais-rn",
+    nome: "Íleo meconial e outras obstruções intestinais do recém-nascido",
+    sinonimos: ["Íleo meconial", "Obstrução intestinal neonatal"],
+    cid10: "P75",
+    especialidade: "Neonatologia",
+    etiologia: "Genética",
+    resumo: "Obstrução intestinal neonatal causada pela impactação de mecônio anormalmente espesso no íleo distal, fortemente associada à fibrose cística, sendo frequentemente sua primeira manifestação clínica.",
+    definicao:
+      "Obstrução mecânica do íleo terminal por mecônio anormalmente viscoso e espesso, incapaz de progredir normalmente pelo trato intestinal, condição fortemente associada à fibrose cística (presente em cerca de 90% dos casos de íleo meconial), refletindo a disfunção das secreções exócrinas característica dessa doença.",
+    epidemiologia:
+      "É uma das apresentações neonatais mais precoces e características da fibrose cística, ocorrendo em uma proporção significativa de recém-nascidos com essa doença; todo caso de íleo meconial deve motivar investigação para fibrose cística mesmo quando o rastreamento neonatal foi negativo.",
+    fisiopatologia:
+      "Na fibrose cística, a disfunção do canal de cloro CFTR leva à secreção de muco intestinal anormalmente espesso e desidratado; esse mecônio de consistência anormal se impacta no íleo terminal, causando obstrução mecânica proximal com distensão de alças intestinais a montante, podendo em casos graves levar a volvo, atresia intestinal secundária ou perfuração intrauterina com peritonite meconial.",
+    classificacao:
+      "Classificado em íleo meconial simples (obstrução isolada, sem complicações) e complicado (associado a volvo, atresia intestinal, perfuração ou peritonite meconial intrauterina), distinção com implicação direta na abordagem terapêutica (conservadora versus cirúrgica).",
+    quadroClinico: [
+      "Distensão abdominal progressiva nas primeiras 24-48 horas de vida",
+      "Ausência de eliminação de mecônio",
+      "Vômitos biliosos",
+      "Alças intestinais palpáveis e distendidas ao exame abdominal",
+    ],
+    diagnostico: [
+      "Suspeita clínica baseada em distensão abdominal e ausência de eliminação de mecônio nas primeiras 24-48 horas de vida",
+      "Confirmação radiológica com padrão característico de alças intestinais distendidas com aspecto de 'vidro fosco' (mecônio misturado a ar) no quadrante inferior direito",
+      "Todo caso confirmado deve ser investigado para fibrose cística com teste do suor e/ou análise genética, mesmo com rastreamento neonatal negativo",
+    ],
+    examesComplementares: [
+      "Radiografia de abdome, com padrão característico de 'vidro fosco' e ausência de níveis hidroaéreos proeminentes (diferente de outras obstruções mecânicas)",
+      "Enema contrastado, com valor diagnóstico e terapêutico simultâneo no íleo meconial simples",
+      "Teste do suor, exame de referência para confirmação de fibrose cística após a resolução do quadro agudo",
+    ],
+    diagnosticoDiferencial: [
+      "Doença de Hirschsprung, distinguida pela biópsia retal (ausência de células ganglionares) quando a apresentação clínica é sobreponível",
+      "Atresia intestinal primária (sem relação com fibrose cística), diferenciada pelo padrão radiológico e pela ausência de história familiar/rastreamento sugestivo de fibrose cística",
+      "Enterocolite necrosante, distinguida pelo contexto clínico (recém-nascido em alimentação enteral, sinais sistêmicos de sepse) e pela pneumatose intestinal",
+    ],
+    tratamento: [
+      "Enema contrastado com contraste hiperosmolar, tratamento inicial no íleo meconial simples não complicado, com potencial de resolver a obstrução ao atrair água para o lúmen intestinal e fragmentar o mecônio impactado",
+      "Intervenção cirúrgica (enterotomia com irrigação, ressecção segmentar com ou sem estoma) reservada a casos complicados (volvo, atresia, perfuração) ou falha do enema contrastado",
+      "Investigação e manejo multidisciplinar da fibrose cística subjacente após a resolução da obstrução aguda",
+    ],
+    complicacoes: [
+      "Aguda: volvo intestinal, perfuração com peritonite meconial",
+      "Crônica: manifestações progressivas da fibrose cística subjacente (respiratórias, pancreáticas, nutricionais) ao longo da vida",
+    ],
+    redFlags: [
+      "Sinais de peritonite (distensão abdominal com eritema/endurecimento da parede, instabilidade sistêmica) sugerem perfuração intestinal, exigindo intervenção cirúrgica de emergência",
+      "Calcificações intra-abdominais na radiografia sugerem peritonite meconial intrauterina, indicando perfuração que já ocorreu antes do nascimento",
+    ],
+    prognostico:
+      "Bom para o episódio agudo de obstrução com tratamento apropriado (conservador ou cirúrgico conforme a complexidade); o prognóstico de longo prazo é determinado predominantemente pela gravidade da fibrose cística subjacente, não pelo episódio de íleo meconial em si.",
+    pontosDeProva: [
+      "O íleo meconial está associado à fibrose cística em cerca de 90% dos casos, sendo frequentemente sua primeira manifestação clínica — todo caso exige investigação para fibrose cística",
+      "O enema contrastado tem valor diagnóstico e terapêutico simultâneo no íleo meconial simples não complicado",
+      "Calcificações intra-abdominais na radiografia sugerem peritonite meconial intrauterina, evidência de perfuração ocorrida antes do nascimento",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo, sem eliminação de mecônio em 36 horas de vida, apresenta distensão abdominal progressiva e vômitos biliosos. Radiografia de abdome mostra alças distendidas com aspecto de 'vidro fosco' no quadrante inferior direito, sem níveis hidroaéreos proeminentes.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e a investigação subsequente obrigatória?",
+      raciocinio:
+        "A ausência de eliminação de mecônio associada ao padrão radiológico característico de 'vidro fosco' é compatível com íleo meconial, condição fortemente associada à fibrose cística.",
+      conduta:
+        "Tentar enema contrastado como abordagem inicial diagnóstico-terapêutica no íleo meconial simples, e investigar fibrose cística com teste do suor após a resolução do quadro agudo, independentemente do resultado do rastreamento neonatal.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é predominantemente procedimental (enema contrastado) ou cirúrgico, sem tratamento medicamentoso específico para a obstrução em si.",
+    fontes: [
+      { tema: "Associação com fibrose cística e fisiopatologia da secreção intestinal anormal", fonte: "Nelson Textbook of Pediatrics, 21ª ed." },
+      { tema: "Padrão radiológico e abordagem terapêutica com enema contrastado", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "hipoglicemia-neonatal",
+    nome: "Hipoglicemia neonatal e outros transtornos transitórios do metabolismo",
+    sinonimos: ["Hipoglicemia do recém-nascido"],
+    cid10: "P70",
+    especialidade: "Neonatologia",
+    etiologia: "Metabólica",
+    resumo: "Distúrbio metabólico neonatal comum, decorrente do desequilíbrio entre a produção e o consumo de glicose durante a transição da vida fetal para a neonatal, com risco de lesão neurológica se grave, prolongado ou não reconhecido.",
+    definicao:
+      "Concentração de glicose sérica ou plasmática abaixo do valor considerado seguro para a idade e o contexto clínico do recém-nascido, refletindo um desequilíbrio transitório (ou, mais raramente, persistente) entre a produção endógena de glicose e sua utilização, particularmente relevante durante as primeiras horas de transição metabólica após a interrupção do suprimento contínuo de glicose materno-placentário.",
+    epidemiologia:
+      "Extremamente comum no período neonatal imediato, com maior risco em grupos específicos: recém-nascidos filhos de mãe diabética, pequenos ou grandes para a idade gestacional, pré-termo tardio, e recém-nascidos com estresse perinatal (asfixia, sepse).",
+    fisiopatologia:
+      "Ao nascimento, a interrupção abrupta do suprimento contínuo de glicose materno-placentário exige que o recém-nascido ative rapidamente a glicogenólise e, posteriormente, a gliconeogênese para manter a glicemia; recém-nascidos com reservas de glicogênio reduzidas (pré-termo, restrição de crescimento), hiperinsulinismo transitório (filhos de mãe diabética, pela hiperglicemia materna crônica estimulando a produção fetal de insulina) ou aumento do consumo (estresse perinatal, sepse, hipotermia) têm risco aumentado de não conseguir manter a glicemia dentro de valores seguros nessa fase de transição.",
+    classificacao:
+      "Não há um valor único de corte universalmente aceito como definidor de hipoglicemia neonatal — a abordagem atual prioriza a identificação de grupos de risco para rastreamento direcionado e a definição de limiares operacionais (não necessariamente 'normais') que orientam a intervenção conforme o contexto clínico e a idade em horas de vida.",
+    quadroClinico: [
+      "Frequentemente assintomática, sobretudo em graus leves, reforçando a importância do rastreamento em grupos de risco independentemente de sintomas",
+      "Quando sintomática: tremores, irritabilidade, letargia, hipotonia, recusa alimentar, apneia, convulsões em casos graves",
+    ],
+    diagnostico: [
+      "Rastreamento direcionado da glicemia em recém-nascidos de grupos de risco (filhos de mãe diabética, pequenos/grandes para a idade gestacional, pré-termo tardio, com estresse perinatal), não universal em recém-nascidos saudáveis assintomáticos",
+      "Confirmação laboratorial da glicemia (não apenas por fita reagente) antes de decisões terapêuticas definitivas, especialmente em valores limítrofes",
+    ],
+    examesComplementares: [
+      "Glicemia plasmática laboratorial para confirmação, já que os métodos de triagem à beira do leito têm variabilidade e podem subestimar ou superestimar o valor real",
+      "Investigação adicional (insulina, cortisol, hormônio do crescimento) reservada a hipoglicemia persistente além do período de transição esperado, para excluir causas endócrinas/metabólicas específicas",
+    ],
+    diagnosticoDiferencial: [
+      "Hipoglicemia persistente por hiperinsulinismo congênito ou outros distúrbios endócrinos/metabólicos raros, quando a hipoglicemia não se resolve no período de transição esperado (geralmente até 48-72 horas)",
+      "Sepse neonatal, que pode se apresentar com hipoglicemia associada a outros sinais sistêmicos",
+    ],
+    tratamento: [
+      "Alimentação enteral precoce (leite materno ou fórmula) como primeira medida em recém-nascidos assintomáticos ou levemente sintomáticos de grupos de risco",
+      "Infusão intravenosa de glicose para hipoglicemia sintomática ou refratária à alimentação enteral, com taxa de infusão titulada conforme a resposta glicêmica",
+      "Investigação endócrina/metabólica especializada para hipoglicemia persistente além do período de transição esperado",
+    ],
+    complicacoes: [
+      "Aguda: convulsões hipoglicêmicas em casos graves não tratados",
+      "Crônica: lesão neurológica permanente associada a hipoglicemia grave, prolongada ou recorrente não reconhecida e tratada a tempo, embora a relação exata entre gravidade/duração e dano neurológico ainda seja objeto de pesquisa",
+    ],
+    redFlags: [
+      "Hipoglicemia sintomática (tremores, letargia, convulsões) é sempre uma emergência que exige correção imediata, independentemente do valor exato medido",
+      "Hipoglicemia que persiste além de 48-72 horas de vida ou que exige taxas de infusão de glicose muito altas para manutenção sugere causa endócrina/metabólica específica (ex.: hiperinsulinismo congênito), exigindo investigação especializada",
+    ],
+    prognostico:
+      "Excelente na grande maioria dos casos transitórios com rastreamento direcionado e tratamento oportuno; o risco de sequela neurológica está associado principalmente a hipoglicemia grave, sintomática, prolongada ou recorrente não identificada e tratada a tempo.",
+    pontosDeProva: [
+      "Não há um valor único de corte universalmente aceito como definidor de hipoglicemia neonatal — a abordagem atual é baseada em grupos de risco e limiares operacionais contextuais, não em um número fixo isolado",
+      "O rastreamento deve ser direcionado a grupos de risco específicos (filhos de mãe diabética, PIG/GIG, pré-termo tardio, estresse perinatal), não universal em recém-nascidos saudáveis assintomáticos",
+      "Hipoglicemia persistente além de 48-72 horas de vida foge do padrão transitório esperado e exige investigação para causas endócrinas/metabólicas específicas",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo, grande para a idade gestacional, filho de mãe com diabetes gestacional mal controlado, apresenta tremores e hipotonia nas primeiras 2 horas de vida. Glicemia capilar: 25 mg/dL.",
+      pergunta: "Qual a conduta imediata?",
+      raciocinio:
+        "O recém-nascido grande para a idade gestacional filho de mãe diabética tem hiperinsulinismo transitório esperado pela exposição fetal à hiperglicemia materna crônica, com risco elevado de hipoglicemia sintomática nas primeiras horas de vida.",
+      conduta:
+        "Confirmar a glicemia por método laboratorial, iniciar alimentação enteral imediata e, dada a sintomatologia (tremores, hipotonia), considerar infusão intravenosa de glicose se não houver resposta rápida à alimentação.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento de primeira linha é a alimentação enteral precoce e, quando necessário, infusão intravenosa de glicose — medidas de suporte metabólico, não medicamentos no sentido farmacológico tradicional.",
+    fontes: [
+      { tema: "Fisiopatologia da transição metabólica neonatal e grupos de risco", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Ausência de valor de corte único e abordagem por grupos de risco", fonte: "Adamkin DH, American Academy of Pediatrics, Committee on Fetus and Newborn, Postnatal Glucose Homeostasis in Late-Preterm and Term Infants, Pediatrics, 2011" },
+    ],
+  },
+  {
+    slug: "restricao-crescimento-intrauterino",
+    nome: "Restrição de crescimento intrauterino",
+    sinonimos: ["RCIU", "Crescimento fetal retardado", "Pequeno para a idade gestacional"],
+    cid10: "P05",
+    especialidade: "Neonatologia",
+    etiologia: "Multifatorial",
+    resumo: "Incapacidade do feto de atingir seu potencial de crescimento geneticamente determinado, geralmente por insuficiência placentária, associada a maior risco de morbimortalidade perinatal e de complicações metabólicas de longo prazo.",
+    definicao:
+      "Condição em que o feto não atinge seu potencial de crescimento esperado, tipicamente definida por peso fetal estimado ou circunferência abdominal abaixo do percentil 10 para a idade gestacional, com ou sem sinais adicionais de comprometimento placentário (Doppler anormal), distinguindo-a do conceito mais amplo e menos específico de 'pequeno para a idade gestacional', que inclui também fetos constitucionalmente pequenos e saudáveis.",
+    epidemiologia:
+      "Acomete uma proporção significativa das gestações, sendo uma das principais causas de morbimortalidade perinatal; fatores de risco incluem doença hipertensiva materna, tabagismo, desnutrição materna, infecções congênitas e anomalias placentárias.",
+    fisiopatologia:
+      "A causa mais comum é a insuficiência placentária, na qual a invasão trofoblástica inadequada das artérias espiraladas uterinas (mecanismo compartilhado com a pré-eclâmpsia) resulta em fluxo sanguíneo uteroplacentário reduzido e hipóxia/nutrição fetal crônica insuficiente; o feto responde com redistribuição do fluxo sanguíneo priorizando órgãos nobres (cérebro, coração, adrenais) às custas do crescimento somático geral, padrão conhecido como centralização de fluxo.",
+    classificacao:
+      "Classificada em precoce (diagnosticada antes de 32 semanas, geralmente mais grave e associada a maior comprometimento placentário) e tardia (após 32 semanas, geralmente mais leve); também classificada conforme achados de Doppler (normal versus alterado, incluindo diástole zero/reversa na artéria umbilical, sinal de comprometimento grave).",
+    quadroClinico: [
+      "Altura uterina menor que o esperado para a idade gestacional ao exame obstétrico de rotina",
+      "Peso fetal estimado ou circunferência abdominal abaixo do percentil 10 na ultrassonografia obstétrica",
+      "Oligoidrâmnio frequentemente associado, refletindo a redistribuição de fluxo com redução da perfusão renal fetal",
+      "No recém-nascido: peso ao nascer abaixo do percentil 10 para a idade gestacional, podendo apresentar sinais de desnutrição fetal (pele solta, redução de tecido subcutâneo)",
+    ],
+    diagnostico: [
+      "Diagnóstico ultrassonográfico com peso fetal estimado ou circunferência abdominal abaixo do percentil 10 para a idade gestacional, idealmente com curva de crescimento seriada demonstrando desaceleração",
+      "Avaliação Doppler das artérias umbilical, cerebral média e, quando indicado, do ducto venoso, para estratificação da gravidade e definição da via/momento do parto",
+    ],
+    examesComplementares: [
+      "Ultrassonografia obstétrica seriada com biometria fetal, exame central para diagnóstico e acompanhamento",
+      "Doppler da artéria umbilical, com diástole ausente ou reversa indicando comprometimento placentário grave e maior urgência na definição do momento do parto",
+      "Investigação de causas associadas quando indicado: rastreamento de infecções congênitas, cariótipo fetal em casos com outras anomalias associadas",
+    ],
+    diagnosticoDiferencial: [
+      "Feto constitucionalmente pequeno mas saudável (pequeno para a idade gestacional sem insuficiência placentária), distinguido pelo Doppler normal e pelo crescimento proporcional mantido",
+      "Erro de datação da idade gestacional, que deve sempre ser excluído antes de firmar o diagnóstico",
+      "Restrição de crescimento por anomalia cromossômica ou infecção congênita, quando há achados estruturais associados",
+    ],
+    tratamento: [
+      "Não há tratamento que reverta a restrição de crescimento já estabelecida; o manejo consiste em vigilância fetal intensificada (Doppler seriado, perfil biofísico) e definição do momento ideal do parto, equilibrando os riscos da prematuridade iatrogênica contra os da permanência intraútero",
+      "Ácido acetilsalicílico em baixa dose, iniciado idealmente antes de 16 semanas em gestantes de alto risco identificadas previamente, como estratégia de prevenção (não de tratamento) em gestação subsequente",
+      "Corticosteroide antenatal quando há risco de parto pré-termo iminente, para maturação pulmonar fetal",
+    ],
+    complicacoes: [
+      "Aguda: maior risco de sofrimento fetal intraparto, natimortalidade, necessidade de reanimação neonatal e hipoglicemia neonatal (reservas energéticas reduzidas)",
+      "Crônica: maior risco cardiovascular e metabólico ao longo da vida (hipótese da origem fetal das doenças do adulto), além de possível impacto no neurodesenvolvimento em casos graves e precoces",
+    ],
+    redFlags: [
+      "Diástole ausente ou reversa no Doppler da artéria umbilical indica comprometimento placentário grave, exigindo vigilância intensiva e frequentemente antecipação do parto",
+      "Restrição de crescimento precoce (antes de 32 semanas) e grave associa-se a maior risco de resultados perinatais adversos, exigindo acompanhamento em centro de referência em medicina fetal",
+    ],
+    prognostico:
+      "Variável conforme a gravidade e a idade gestacional ao diagnóstico: casos leves e tardios geralmente têm bom prognóstico com vigilância adequada; casos precoces e graves com Doppler alterado carregam risco significativamente maior de morbimortalidade perinatal.",
+    pontosDeProva: [
+      "A insuficiência placentária por invasão trofoblástica inadequada é o mecanismo fisiopatológico compartilhado entre a restrição de crescimento intrauterino e a pré-eclâmpsia, explicando sua frequente associação clínica",
+      "A diástole ausente ou reversa no Doppler da artéria umbilical é o achado de maior gravidade, sinalizando comprometimento placentário avançado",
+      "O ácido acetilsalicílico em baixa dose iniciado antes de 16 semanas é estratégia de prevenção em gestações subsequentes de alto risco, não tratamento da restrição já estabelecida na gestação atual",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 32 semanas, altura uterina menor que o esperado. Ultrassonografia mostra peso fetal estimado no percentil 3, com Doppler de artéria umbilical mostrando diástole reversa.",
+      pergunta: "Qual é a gravidade do achado e a conduta apropriada?",
+      raciocinio:
+        "O peso fetal no percentil 3 associado a diástole reversa na artéria umbilical indica restrição de crescimento intrauterino grave com comprometimento placentário avançado, achado de alto risco para desfechos perinatais adversos.",
+      conduta:
+        "Encaminhar para acompanhamento em centro de referência em medicina fetal, administrar corticosteroide antenatal para maturação pulmonar dado o risco de parto pré-termo iminente, e definir o momento do parto com base na vigilância fetal intensiva.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "acido-acetilsalicilico", nome: "Ácido acetilsalicílico (AAS)" },
+    ],
+    medicamentosNota:
+      "O AAS em baixa dose é usado como prevenção em gestações subsequentes de alto risco identificado previamente, iniciado antes de 16 semanas — não trata a restrição de crescimento já estabelecida na gestação atual.",
+    fontes: [
+      { tema: "Fisiopatologia da insuficiência placentária e centralização de fluxo fetal", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Classificação por Doppler e prevenção com AAS em gestações de alto risco", fonte: "ACOG Practice Bulletin No. 227, Fetal Growth Restriction, Obstetrics & Gynecology, 2021" },
+    ],
+  },
+  {
+    slug: "prematuridade-complicacoes-baixo-peso-nascer",
+    nome: "Prematuridade e complicações do baixo peso ao nascer",
+    sinonimos: ["Recém-nascido pré-termo", "Baixo peso ao nascer"],
+    cid10: "P07",
+    especialidade: "Neonatologia",
+    etiologia: "Multifatorial",
+    resumo: "Nascimento antes de 37 semanas completas de gestação, com morbimortalidade e necessidade de suporte intensivo inversamente proporcionais à idade gestacional e ao peso ao nascer, exigindo manejo multissistêmico especializado.",
+    definicao:
+      "Nascimento ocorrido antes de 37 semanas completas de gestação, classificado adicionalmente por subcategorias de gravidade crescente conforme a idade gestacional, associado a imaturidade funcional de múltiplos sistemas orgânicos proporcional ao grau de prematuridade.",
+    epidemiologia:
+      "Uma das principais causas de mortalidade neonatal e infantil em todo o mundo; a sobrevida de recém-nascidos extremamente pré-termo (abaixo de 28 semanas) aumentou substancialmente com os avanços em cuidados intensivos neonatais, embora o risco de morbidade significativa permaneça alto nesse grupo.",
+    fisiopatologia:
+      "A interrupção da gestação antes do término da maturação funcional normal dos órgãos fetais resulta em imaturidade proporcional à idade gestacional em múltiplos sistemas: pulmonar (deficiência de surfactante), neurológico (fragilidade da matriz germinativa, risco de hemorragia intraventricular), gastrointestinal (imaturidade da motilidade e da barreira mucosa, risco de enterocolite necrosante), imunológico (menor transferência de imunoglobulinas maternas, maior suscetibilidade a infecções) e termorregulatório (maior relação superfície/peso corporal, tecido adiposo subcutâneo reduzido).",
+    classificacao:
+      "Classificada por idade gestacional em pré-termo tardio (34-36 semanas e 6 dias), moderado (32-33 semanas e 6 dias), muito pré-termo (28-31 semanas e 6 dias) e extremamente pré-termo (abaixo de 28 semanas); classificada também por peso ao nascer em baixo peso (< 2.500 g), muito baixo peso (< 1.500 g) e extremo baixo peso (< 1.000 g).",
+    quadroClinico: [
+      "Sinais físicos de imaturidade proporcionais à idade gestacional: pele fina e gelatinosa, ausência de sulcos plantares, orelhas pouco cartilaginosas, tônus muscular reduzido",
+      "Dificuldades funcionais esperadas conforme a idade gestacional: incapacidade de sucção-deglutição-respiração coordenadas antes de aproximadamente 34 semanas, instabilidade térmica, apneia da prematuridade",
+    ],
+    diagnostico: [
+      "Diagnóstico baseado na idade gestacional confirmada por data da última menstruação e/ou ultrassonografia obstétrica precoce, complementado pelo exame físico de maturidade (escore de Ballard) quando a idade gestacional é incerta",
+    ],
+    examesComplementares: [
+      "Escore de Ballard (ou New Ballard Score), exame físico que estima a idade gestacional com base em critérios físicos e neuromusculares quando a data da última menstruação é incerta ou não confiável",
+      "Rastreamento ultrassonográfico transfontanelar de rotina (hemorragia intraventricular) e oftalmológico (retinopatia da prematuridade) conforme protocolos específicos por idade gestacional",
+    ],
+    diagnosticoDiferencial: [
+      "Restrição de crescimento intrauterino em recém-nascido a termo, que também pode ter baixo peso ao nascer, mas com maturidade funcional correspondente à idade gestacional real (a termo), diferente do pré-termo",
+    ],
+    tratamento: [
+      "Corticosteroide antenatal (betametasona) à gestante em risco de parto pré-termo, intervenção com maior impacto isolado na redução de complicações neonatais (síndrome do desconforto respiratório, hemorragia intraventricular, enterocolite necrosante)",
+      "Sulfato de magnésio para neuroproteção fetal quando o parto pré-termo é iminente antes de 32 semanas, reduzindo o risco de paralisia cerebral",
+      "Suporte multissistêmico especializado em unidade de terapia intensiva neonatal proporcional ao grau de prematuridade: suporte respiratório, nutricional (nutrição parenteral e progressão enteral cuidadosa), térmico e rastreamento das complicações típicas (hemorragia intraventricular, retinopatia da prematuridade, enterocolite necrosante)",
+    ],
+    complicacoes: [
+      "Aguda: síndrome do desconforto respiratório, hemorragia intraventricular, enterocolite necrosante, sepse neonatal, persistência do canal arterial sintomática",
+      "Crônica: displasia broncopulmonar, retinopatia da prematuridade, atraso do neurodesenvolvimento proporcional à gravidade da prematuridade e das complicações agudas associadas",
+    ],
+    redFlags: [
+      "Toda gestante em risco de parto pré-termo antes de 34 semanas deve receber corticosteroide antenatal, intervenção com o maior impacto isolado comprovado na redução de morbimortalidade neonatal — atraso ou omissão representa perda de oportunidade terapêutica significativa",
+      "Recém-nascidos extremamente pré-termo exigem rastreamento sistemático para hemorragia intraventricular e retinopatia da prematuridade, mesmo na ausência de sintomas, dado o alto risco basal dessas complicações nesse grupo",
+    ],
+    prognostico:
+      "Diretamente proporcional à idade gestacional ao nascer: recém-nascidos pré-termo tardios geralmente têm bom prognóstico com suporte mínimo; recém-nascidos extremamente pré-termo, apesar da sobrevida crescente, mantêm risco significativo de morbidade neurológica, respiratória e sensorial de longo prazo.",
+    pontosDeProva: [
+      "O corticosteroide antenatal é a intervenção isolada com maior impacto comprovado na redução de morbimortalidade associada à prematuridade, devendo ser administrado a toda gestante em risco de parto pré-termo antes de 34 semanas",
+      "O sulfato de magnésio para neuroproteção fetal é indicado especificamente quando o parto pré-termo é iminente antes de 32 semanas, reduzindo o risco de paralisia cerebral — indicação distinta de seu uso na pré-eclâmpsia/eclâmpsia",
+      "O escore de Ballard estima a idade gestacional por critérios físicos e neuromusculares quando a data da última menstruação é incerta",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante em trabalho de parto pré-termo com 29 semanas de gestação, sem uso prévio de corticosteroide antenatal, dilatação cervical de 4 cm.",
+      pergunta: "Quais intervenções devem ser priorizadas antes do parto iminente?",
+      raciocinio:
+        "A idade gestacional de 29 semanas com trabalho de parto ativo e iminência de parto pré-termo indica a janela de oportunidade para as duas intervenções com maior impacto comprovado na redução de morbimortalidade neonatal nesse contexto.",
+      conduta:
+        "Administrar corticosteroide antenatal (betametasona) para maturação pulmonar fetal e sulfato de magnésio para neuroproteção fetal, dado que o parto pré-termo iminente ocorre antes de 32 semanas.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "betametasona", nome: "Betametasona (acetato + fosfato dissódico)" },
+      { slug: "sulfato-magnesio", nome: "Sulfato de magnésio" },
+    ],
+    medicamentosNota:
+      "A betametasona (corticosteroide antenatal) reduz complicações respiratórias e outras da prematuridade; o sulfato de magnésio, quando o parto é iminente antes de 32 semanas, oferece neuroproteção fetal específica, reduzindo o risco de paralisia cerebral.",
+    fontes: [
+      { tema: "Fisiopatologia da imaturidade multissistêmica proporcional à idade gestacional", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Classificação por idade gestacional e peso ao nascer, e impacto do corticosteroide antenatal", fonte: "ACOG Committee Opinion No. 713, Antenatal Corticosteroid Therapy for Fetal Maturation, Obstetrics & Gynecology, 2017" },
+    ],
+  },
+  {
+    slug: "convulsoes-neonatais",
+    nome: "Convulsões neonatais",
+    sinonimos: ["Crises epilépticas neonatais"],
+    cid10: "P90",
+    especialidade: "Neonatologia",
+    etiologia: "Multifatorial",
+    resumo: "Emergência neurológica neonatal mais comum, frequentemente eletrográfica sem manifestação clínica evidente, geralmente secundária a uma causa aguda identificável (encefalopatia hipóxico-isquêmica, infecção, distúrbio metabólico) que deve ser investigada e tratada.",
+    definicao:
+      "Descarga elétrica cerebral anormal, excessiva e súbita no período neonatal, que pode se manifestar clinicamente (movimentos motores, alterações autonômicas) ou permanecer eletrográfica (visível apenas ao eletroencefalograma, sem correlato clínico evidente), sendo a emergência neurológica mais frequente nessa faixa etária.",
+    epidemiologia:
+      "Mais comuns em recém-nascidos pré-termo e naqueles com fatores de risco perinatais significativos (asfixia, infecção do sistema nervoso central, hemorragia intracraniana); ao contrário das convulsões da infância e da idade adulta, a grande maioria tem uma causa aguda identificável, sendo verdadeira epilepsia neonatal (predisposição crônica) relativamente incomum.",
+    fisiopatologia:
+      "O cérebro neonatal tem predisposição intrínseca a crises devido a características de desenvolvimento (predomínio relativo de neurotransmissão excitatória sobre inibitória nessa fase, maior densidade de receptores excitatórios), tornando-o mais suscetível a descargas anormais diante de agressões agudas como hipóxia-isquemia, infecção, distúrbios metabólicos (hipoglicemia, hipocalcemia) ou hemorragia intracraniana — diferente das crianças maiores e adultos, nos quais a epilepsia crônica é proporcionalmente mais comum como causa de crise.",
+    classificacao:
+      "A classificação da ILAE para crises neonatais dispensa a divisão tradicional em focal/generalizada (já que as crises neonatais têm início focal por definição fisiopatológica), classificando-as por tipo de manifestação (motora, autonômica, ou eletrográfica-apenas) e reconhecendo explicitamente a categoria de crises eletrográficas sem correlato clínico.",
+    quadroClinico: [
+      "Crises clônicas focais ou multifocais, crises tônicas, crises mioclônicas",
+      "Fenômenos autonômicos sutis (apneia, alterações da frequência cardíaca, desvio ocular) que podem ser a única manifestação clínica",
+      "Crises eletrográficas sem qualquer manifestação clínica visível, achado frequente e que exige monitorização eletroencefalográfica para detecção",
+    ],
+    diagnostico: [
+      "Suspeita clínica diante de movimentos anormais estereotipados e repetitivos ou de fenômenos autonômicos inexplicados no recém-nascido de risco",
+      "Confirmação por eletroencefalograma, exame essencial dado que muitas crises são eletrográficas-apenas ou têm correlato clínico sutil e inespecífico",
+      "Investigação etiológica sistemática (glicemia, eletrólitos, neuroimagem, avaliação infecciosa) em todo caso confirmado, dado que a grande maioria tem causa aguda identificável",
+    ],
+    examesComplementares: [
+      "Eletroencefalograma (idealmente contínuo ou com amplitude integrada), exame de referência para confirmação diagnóstica e para detectar crises eletrográficas sem manifestação clínica",
+      "Glicemia, cálcio, magnésio e eletrólitos, para investigação de causas metabólicas tratáveis",
+      "Neuroimagem (ultrassonografia transfontanelar, ressonância magnética) para investigação de hemorragia, malformação ou lesão hipóxico-isquêmica",
+    ],
+    diagnosticoDiferencial: [
+      "Jitteriness (tremores neonatais benignos), distinguido das convulsões verdadeiras pela ausência de movimentos oculares anormais, pela cessação com contenção suave do membro e pela sensibilidade a estímulo (ao contrário da crise)",
+      "Mioclonia benigna do sono neonatal, quadro autolimitado que ocorre exclusivamente durante o sono e cessa ao despertar",
+    ],
+    tratamento: [
+      "Correção imediata de causas metabólicas identificadas (hipoglicemia, hipocalcemia), quando presentes, antes ou concomitantemente ao anticonvulsivante",
+      "Fenobarbital como anticonvulsivante de primeira linha na maioria dos protocolos neonatais",
+      "Fenitoína como agente de segunda linha para crises refratárias ao fenobarbital",
+      "Tratamento da causa de base identificada (ex.: antibioticoterapia na meningite, hipotermia terapêutica na encefalopatia hipóxico-isquêmica) como componente essencial do manejo",
+    ],
+    complicacoes: [
+      "Aguda: estado de mal epiléptico neonatal quando as crises são prolongadas ou recorrentes sem controle adequado",
+      "Crônica: epilepsia neonatal verdadeira (menos comum, geralmente associada a malformações cerebrais ou síndromes genéticas específicas) e sequelas do neurodesenvolvimento relacionadas à causa de base, mais do que às crises em si",
+    ],
+    redFlags: [
+      "Fenômenos autonômicos sutis (apneia, alterações inexplicadas de frequência cardíaca) em recém-nascido de risco devem levantar suspeita de crise eletrográfica-apenas, justificando eletroencefalograma mesmo sem manifestação motora evidente",
+      "Toda convulsão neonatal exige investigação etiológica sistemática imediata, dado que a maioria reflete uma causa aguda tratável cuja identificação e correção são tão importantes quanto o controle da crise em si",
+    ],
+    prognostico:
+      "Determinado predominantemente pela causa de base, não pela crise em si: encefalopatia hipóxico-isquêmica grave associa-se a pior prognóstico neurológico; causas metabólicas transitórias corrigidas prontamente geralmente têm bom prognóstico.",
+    pontosDeProva: [
+      "A classificação da ILAE para crises neonatais dispensa a divisão focal/generalizada tradicional, já que as crises nessa idade têm início focal por definição, e reconhece explicitamente a categoria eletrográfica-apenas",
+      "Ao contrário das crises em crianças maiores e adultos, a grande maioria das convulsões neonatais tem uma causa aguda identificável, sendo a verdadeira epilepsia neonatal relativamente incomum",
+      "O jitteriness (tremor neonatal benigno) se distingue da crise verdadeira por cessar com contenção suave do membro e não ter movimentos oculares anormais associados",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo com história de encefalopatia hipóxico-isquêmica moderada, em hipotermia terapêutica, apresenta episódios de desvio ocular associado a alterações inexplicadas da frequência cardíaca, sem movimentos motores evidentes.",
+      pergunta: "Qual a hipótese diagnóstica e a conduta apropriada?",
+      raciocinio:
+        "O desvio ocular associado a alterações autonômicas inexplicadas em recém-nascido de alto risco para crises (encefalopatia hipóxico-isquêmica) é sugestivo de convulsão neonatal, possivelmente com componente eletrográfico predominante.",
+      conduta:
+        "Solicitar eletroencefalograma para confirmação diagnóstica, corrigir eventuais distúrbios metabólicos associados (glicemia, cálcio) e iniciar fenobarbital como anticonvulsivante de primeira linha se as crises forem confirmadas.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "fenitoina", nome: "Fenitoína" },
+    ],
+    medicamentosNota:
+      "O fenobarbital, anticonvulsivante de primeira linha na maioria dos protocolos neonatais, ainda não tem ficha própria no site; a fenitoína é usada como agente de segunda linha para crises refratárias ao fenobarbital.",
+    fontes: [
+      { tema: "Fisiopatologia da predisposição neonatal a crises e predomínio de causas agudas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Classificação da ILAE para crises neonatais", fonte: "Pressler RM et al., The ILAE Classification of Seizures and the Epilepsies: Modification for Seizures in the Neonate, Position Paper by the ILAE Task Force on Neonatal Seizures, Epilepsia, 2021" },
+    ],
+  },
 ];

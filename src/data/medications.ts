@@ -1827,6 +1827,7 @@ export const medications: Medication[] = [
       { slug: "crupe-epiglotite", nome: "Laringite obstrutiva aguda (crupe) e epiglotite" },
       { slug: "meningite-bacteriana", nome: "Meningite bacteriana" },
       { slug: "neoplasia-maligna-encefalo", nome: "Neoplasia maligna do encéfalo" },
+      { slug: "displasia-broncopulmonar", nome: "Displasia broncopulmonar" },
     ],
     fontes: [
       { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
@@ -3146,6 +3147,7 @@ export const medications: Medication[] = [
       { slug: "angina-pectoris", nome: "Angina pectoris" },
       { slug: "ait-ataque-isquemico-transitorio", nome: "Ataque isquêmico transitório (AIT)" },
       { slug: "avc-isquemico-infarto-cerebral", nome: "Infarto cerebral (AVC isquêmico)" },
+      { slug: "restricao-crescimento-intrauterino", nome: "Restrição de crescimento intrauterino" },
     ],
     fontes: [
       { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
@@ -3630,6 +3632,7 @@ export const medications: Medication[] = [
       { slug: "pre-eclampsia", nome: "Hipertensão gestacional com proteinúria (pré-eclâmpsia)" },
       { slug: "trabalho-parto-pre-termo", nome: "Trabalho de parto pré-termo" },
       { slug: "estado-de-mal-asmatico", nome: "Estado de mal asmático" },
+      { slug: "prematuridade-complicacoes-baixo-peso-nascer", nome: "Prematuridade e complicações do baixo peso ao nascer" },
     ],
     fontes: [
       { tema: "Mecanismo de ação anticonvulsivante e broncodilatador", fonte: "Goodman & Gilman, 13ª ed." },
@@ -4048,6 +4051,7 @@ export const medications: Medication[] = [
     doencasIndicadas: [
       { slug: "vaginite-vulvite", nome: "Vaginite e vulvite" },
       { slug: "doenca-inflamatoria-pelvica", nome: "Doença inflamatória pélvica (salpingite e ooforite)" },
+      { slug: "enterocolite-necrosante", nome: "Enterocolite necrosante" },
     ],
     fontes: [
       { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
@@ -4896,6 +4900,7 @@ export const medications: Medication[] = [
     doencasIndicadas: [
       { slug: "epilepsia", nome: "Epilepsia" },
       { slug: "estado-de-mal-epileptico", nome: "Estado de mal epiléptico" },
+      { slug: "convulsoes-neonatais", nome: "Convulsões neonatais" },
     ],
     fontes: [
       { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
@@ -6294,6 +6299,8 @@ export const medications: Medication[] = [
     ],
     doencasIndicadas: [
       { slug: "psoriase", nome: "Psoríase" },
+      { slug: "sindrome-desconforto-respiratorio-recem-nascido", nome: "Síndrome do desconforto respiratório do recém-nascido" },
+      { slug: "prematuridade-complicacoes-baixo-peso-nascer", nome: "Prematuridade e complicações do baixo peso ao nascer" },
     ],
     fontes: [
       { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
