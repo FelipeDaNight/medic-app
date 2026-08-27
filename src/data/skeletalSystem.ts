@@ -763,4 +763,249 @@ export const ossos: Osso[] = [
       { tema: "Nomenclatura oficial (Os temporale)", fonte: "Terminologia Anatomica (FIPAT)" },
     ],
   },
+  {
+    slug: "atlas-c1",
+    meshNames: ["Atlas_C1"],
+    nomeOficial: "Atlas (vertebra cervicalis I)",
+    nomeComum: "Atlas (C1)",
+    regiao: "coluna-vertebral",
+    par: false,
+    tipoOsso: "Osso irregular",
+    resumo: "Primeira vértebra cervical, atípica: sustenta o crânio e não possui corpo vertebral nem processo espinhoso.",
+    descricaoAnatomica:
+      "Formado por um arco anterior, um arco posterior e duas massas laterais, sem corpo vertebral verdadeiro. As massas laterais apresentam facetas articulares superiores côncavas, que recebem os côndilos occipitais, e facetas inferiores que se articulam com o áxis.",
+    relacoesAnatomicas: [
+      "Articulação atlanto-occipital (com os côndilos occipitais) — permite flexão/extensão (\"sim\")",
+      "Articulação atlantoaxial (com o áxis) — permite rotação (\"não\")",
+      "Fóvea do dente, na face posterior do arco anterior, articula-se com o processo odontoide do áxis",
+    ],
+    marcosAnatomicos: ["Arco anterior e arco posterior", "Massas laterais", "Fóvea do dente"],
+    correlacaoClinica:
+      "A ausência de corpo vertebral e a arquitetura em anel tornam o atlas suscetível à fratura de Jefferson (fratura por explosão, geralmente por carga axial como em mergulho raso). A frouxidão do ligamento transverso do atlas — que mantém o dente do áxis junto ao arco anterior — pode causar instabilidade atlantoaxial; isso é particularmente relevante na síndrome de Down, em que a frouxidão ligamentar aumenta o risco de subluxação e compressão medular.",
+    doencasRelacionadas: [{ slug: "sindrome-de-down", nome: "Síndrome de Down" }],
+    pontosDeProva: [
+      "O atlas (C1) não tem corpo vertebral nem processo espinhoso — é o único elemento do esqueleto axial com essa configuração.",
+      "Crianças com síndrome de Down devem ser triadas para instabilidade atlantoaxial antes de atividades físicas de impacto, pela frouxidão ligamentar característica.",
+    ],
+    fontes: [
+      { tema: "Osteologia do atlas e articulações craniocervicais", fonte: "Gray's Anatomy for Students, 4ª ed." },
+      { tema: "Nomenclatura oficial (Atlas)", fonte: "Terminologia Anatomica (FIPAT)" },
+    ],
+  },
+  {
+    slug: "axis-c2",
+    meshNames: ["Axis_C2"],
+    nomeOficial: "Axis (vertebra cervicalis II)",
+    nomeComum: "Áxis (C2)",
+    regiao: "coluna-vertebral",
+    par: false,
+    tipoOsso: "Osso irregular",
+    resumo: "Segunda vértebra cervical, atípica: seu processo odontoide serve de pivô para a rotação da cabeça.",
+    descricaoAnatomica:
+      "Apresenta o processo odontoide (dente do áxis), que se projeta verticalmente a partir do corpo e se encaixa na fóvea do arco anterior do atlas, sendo mantido em posição pelo ligamento transverso do atlas. As facetas articulares superiores recebem o atlas; as inferiores articulam-se com C3.",
+    relacoesAnatomicas: [
+      "Processo odontoide: articula-se com a fóvea do dente do atlas",
+      "Ligamento transverso do atlas: estabiliza o dente contra o arco anterior do atlas",
+      "Facetas articulares inferiores: articulação com C3, já com morfologia de vértebra cervical típica",
+    ],
+    marcosAnatomicos: ["Processo odontoide (dente)", "Corpo vertebral"],
+    correlacaoClinica:
+      "Fraturas do processo odontoide (classificação de Anderson-D'Alonzo: tipos I, II e III) são lesões cervicais altas potencialmente instáveis, especialmente no idoso após queda. Ruptura ou frouxidão do ligamento transverso do atlas permite deslocamento posterior do dente em direção ao canal vertebral, com risco de compressão da medula cervical alta/bulbo.",
+    doencasRelacionadas: [],
+    pontosDeProva: [
+      "O processo odontoide do áxis é embriologicamente o corpo vertebral do atlas, incorporado ao áxis durante o desenvolvimento — por isso o atlas não tem corpo próprio.",
+      "Fraturas do odontoide tipo II (na base do processo) têm maior risco de pseudoartrose por menor suprimento sanguíneo nessa região.",
+    ],
+    fontes: [
+      { tema: "Osteologia do áxis, processo odontoide e estabilidade craniocervical", fonte: "Moore's Clinically Oriented Anatomy, 8ª ed." },
+      { tema: "Nomenclatura oficial (Axis)", fonte: "Terminologia Anatomica (FIPAT)" },
+    ],
+  },
+  {
+    slug: "vertebra-cervical-tipica",
+    meshNames: ["Cervical_vertebrae_C3", "Cervical_vertebrae_C4", "Cervical_vertebrae_C5", "Cervical_vertebrae_C6"],
+    nomeOficial: "Vertebrae cervicales (III–VI)",
+    nomeComum: "Vértebra cervical típica (C3–C6)",
+    regiao: "coluna-vertebral",
+    par: false,
+    tipoOsso: "Osso irregular",
+    resumo: "Vértebras cervicais típicas, com corpo pequeno e processos transversos perfurados pelo forame transverso.",
+    descricaoAnatomica:
+      "Corpo pequeno e largo, forame vertebral amplo e triangular (acomoda a medula cervical, relativamente espessa nesse nível). Os processos transversos são perfurados pelo forame transverso, por onde passam a artéria e a veia vertebrais. Os processos espinhosos de C3–C5 são tipicamente bífidos (bifurcados na ponta).",
+    relacoesAnatomicas: [
+      "Forame transverso: trajeto da artéria e veia vertebrais até o forame magno",
+      "Facetas articulares orientadas quase horizontalmente, permitindo grande mobilidade cervical",
+      "Processos espinhosos bífidos (C3–C5), servindo de inserção para os ligamentos nucais",
+    ],
+    marcosAnatomicos: ["Forame transverso", "Processo espinhoso bífido", "Forame vertebral triangular"],
+    correlacaoClinica:
+      "O forame transverso é uma característica exclusiva das vértebras cervicais; osteófitos ou instabilidade nessa região podem comprimir a artéria vertebral. A orientação quase horizontal das facetas articulares confere à coluna cervical a maior amplitude de movimento da coluna, às custas de menor estabilidade intrínseca — por isso é a região mais suscetível a lesões por hiperextensão/hiperflexão (lesão em chicote).",
+    doencasRelacionadas: [],
+    pontosDeProva: [
+      "O forame transverso está presente em todas as vértebras cervicais (C1–C7) e é o marco que as diferencia das demais regiões da coluna.",
+      "A artéria vertebral passa pelo forame transverso de C1 a C6, mas não pelo de C7 na maioria dos indivíduos.",
+    ],
+    fontes: [
+      { tema: "Osteologia das vértebras cervicais típicas", fonte: "Gray's Anatomy for Students, 4ª ed." },
+      { tema: "Nomenclatura oficial (Vertebrae cervicales)", fonte: "Terminologia Anatomica (FIPAT)" },
+    ],
+  },
+  {
+    slug: "vertebra-c7",
+    meshNames: ["Cervical_vertebrae_C7"],
+    nomeOficial: "Vertebra prominens (vertebra cervicalis VII)",
+    nomeComum: "C7 (vértebra proeminente)",
+    regiao: "coluna-vertebral",
+    par: false,
+    tipoOsso: "Osso irregular",
+    resumo: "Vértebra cervical atípica, de transição para a coluna torácica, com processo espinhoso longo e palpável.",
+    descricaoAnatomica:
+      "Diferencia-se das demais cervicais por seu processo espinhoso longo e geralmente não bífido, facilmente palpável na base posterior do pescoço. Seus processos transversos são grandes, e o forame transverso, quando presente, transmite apenas pequenas veias vertebrais (não a artéria vertebral, que entra no forame transverso de C6 na maioria das pessoas).",
+    relacoesAnatomicas: [
+      "Processo espinhoso longo e proeminente — principal marco de superfície para contagem de níveis vertebrais",
+      "Articula-se inferiormente com T1, marcando a transição cervicotorácica",
+    ],
+    marcosAnatomicos: ["Processo espinhoso não bífido, facilmente palpável (\"vertebra prominens\")"],
+    correlacaoClinica:
+      "Por ser facilmente palpável, o processo espinhoso de C7 é o principal ponto de referência de superfície para localizar níveis vertebrais no exame físico e em procedimentos (ex.: punções, bloqueios). Uma costela cervical acessória pode ocasionalmente originar-se do processo transverso de C7, comprimindo o plexo braquial ou a artéria subclávia.",
+    doencasRelacionadas: [],
+    pontosDeProva: [
+      "C7 é chamada \"vertebra prominens\" justamente por seu processo espinhoso ser o primeiro facilmente palpável ao longo da coluna, contando de cima para baixo.",
+      "Ao palpar a base do pescoço, o primeiro processo espinhoso proeminente é geralmente C7 (ocasionalmente T1).",
+    ],
+    fontes: [
+      { tema: "Osteologia de C7 e seu uso como marco de superfície", fonte: "Moore's Clinically Oriented Anatomy, 8ª ed." },
+      { tema: "Nomenclatura oficial (Vertebra prominens)", fonte: "Terminologia Anatomica (FIPAT)" },
+    ],
+  },
+  {
+    slug: "vertebra-toracica",
+    meshNames: [
+      "Thoracic_vertebrae_T1",
+      "Thoracic_vertebrae_T2",
+      "Thoracic_vertebrae_T3",
+      "Thoracic_vertebrae_T4",
+      "Thoracic_vertebrae_T5",
+      "Thoracic_vertebrae_T6",
+      "Thoracic_vertebrae_T7",
+      "Thoracic_vertebrae_T8",
+      "Thoracic_vertebrae_T9",
+      "Thoracic_vertebrae_T10",
+      "Thoracic_vertebrae_T11",
+      "Thoracic_vertebrae_T12",
+    ],
+    nomeOficial: "Vertebrae thoracicae (I–XII)",
+    nomeComum: "Vértebra torácica (T1–T12)",
+    regiao: "coluna-vertebral",
+    par: false,
+    tipoOsso: "Osso irregular",
+    resumo: "Vértebras que se articulam com as costelas, com corpo em forma de coração e forame vertebral circular.",
+    descricaoAnatomica:
+      "Corpo em formato de coração, com fóveas costais (facetas) nas faces laterais para articulação com a cabeça das costelas; a maioria dos processos transversos apresenta fóvea costal transversa para o tubérculo costal (ausente tipicamente em T11 e T12). O forame vertebral é circular e mais estreito que o cervical ou lombar.",
+    relacoesAnatomicas: [
+      "Fóveas costais (corpo): articulação com a cabeça das costelas",
+      "Fóvea costal transversa (processo transverso, exceto em T11–T12): articulação com o tubérculo costal",
+      "Processos espinhosos longos e inclinados para baixo (mais acentuado em T5–T8), sobrepondo-se como telhas",
+    ],
+    marcosAnatomicos: ["Fóveas costais superior e inferior", "Fóvea costal transversa", "Corpo em formato de coração"],
+    correlacaoClinica:
+      "O forame vertebral relativamente estreito na coluna torácica, somado ao suprimento sanguíneo medular mais precário nessa região (zona de bacia hidrográfica entre T4 e T9), torna essa área vulnerável a isquemia medular. Fraturas vertebrais por compressão osteoporótica concentram-se classicamente na transição toracolombar (T11–L2), onde a coluna passa de relativamente rígida (presa pela caixa torácica) para móvel.",
+    doencasRelacionadas: [{ slug: "osteoporose", nome: "Osteoporose" }],
+    pontosDeProva: [
+      "T11 e T12 são vértebras torácicas atípicas: não possuem fóvea costal transversa, pois suas costelas (11ª e 12ª, \"flutuantes\") não se articulam com o processo transverso.",
+      "A transição toracolombar (T11–L2) é o local mais comum de fratura vertebral por compressão, tanto traumática quanto osteoporótica.",
+    ],
+    fontes: [
+      { tema: "Osteologia das vértebras torácicas e articulação costovertebral", fonte: "Gray's Anatomy for Students, 4ª ed." },
+      { tema: "Nomenclatura oficial (Vertebrae thoracicae)", fonte: "Terminologia Anatomica (FIPAT)" },
+    ],
+  },
+  {
+    slug: "vertebra-lombar",
+    meshNames: [
+      "Lumbar_vertebrae_L1",
+      "Lumbar_vertebrae_L2",
+      "Lumbar_vertebrae_L3",
+      "Lumbar_vertebrae_L4",
+      "Lumbar_vertebrae_L5",
+    ],
+    nomeOficial: "Vertebrae lumbales (I–V)",
+    nomeComum: "Vértebra lombar (L1–L5)",
+    regiao: "coluna-vertebral",
+    par: false,
+    tipoOsso: "Osso irregular",
+    resumo: "As maiores vértebras móveis, adaptadas para sustentar a maior parte do peso do tronco.",
+    descricaoAnatomica:
+      "Corpo grande, largo e robusto — maior que nas demais regiões, refletindo a carga de peso que sustentam. Não possuem fóveas costais nem forame transverso. Processos espinhosos curtos, largos e de projeção quase horizontal (diferente do formato afilado torácico).",
+    relacoesAnatomicas: [
+      "Discos intervertebrais espessos entre os corpos, absorvendo a carga axial",
+      "Processos articulares orientados em plano sagital, favorecendo flexão/extensão e limitando rotação",
+      "L5 articula-se inferiormente com o sacro (junção lombossacra)",
+    ],
+    marcosAnatomicos: ["Corpo vertebral grande e reniforme", "Processo espinhoso curto e quadrangular"],
+    correlacaoClinica:
+      "A região lombar, especialmente os níveis L4-L5 e L5-S1, é o local mais comum de hérnia de disco intervertebral e de lombalgia mecânica, pela combinação de grande mobilidade, carga axial elevada e discos intervertebrais espessos sujeitos a degeneração. A junção lombossacra concentra grande parte do estresse mecânico da coluna móvel sobre a pelve fixa.",
+    doencasRelacionadas: [{ slug: "dorsalgia-lombalgia", nome: "Dorsalgia (lombalgia)" }],
+    pontosDeProva: [
+      "L4-L5 e L5-S1 são os níveis mais comuns de hérnia discal lombar, por concentrarem a maior parte da carga mecânica e mobilidade da coluna móvel.",
+      "As vértebras lombares não têm forame transverso nem fóveas costais — características que as diferenciam claramente de cervicais e torácicas.",
+    ],
+    fontes: [
+      { tema: "Osteologia das vértebras lombares e biomecânica da coluna lombar", fonte: "Moore's Clinically Oriented Anatomy, 8ª ed." },
+      { tema: "Nomenclatura oficial (Vertebrae lumbales)", fonte: "Terminologia Anatomica (FIPAT)" },
+    ],
+  },
+  {
+    slug: "sacro",
+    meshNames: ["Sacrum"],
+    nomeOficial: "Os sacrum",
+    nomeComum: "Sacro",
+    regiao: "coluna-vertebral",
+    par: false,
+    tipoOsso: "Osso irregular",
+    resumo: "Osso triangular formado pela fusão de cinco vértebras sacrais, unindo a coluna à pelve.",
+    descricaoAnatomica:
+      "Formado pela fusão de S1–S5. A base (superior) articula-se com L5 no ângulo lombossacro; o ápice (inferior) articula-se com o cóccix. As faces laterais articulam-se com os ossos do quadril nas articulações sacroilíacas. O canal sacral continua o canal vertebral e se abre nos forames sacrais anteriores e posteriores.",
+    relacoesAnatomicas: [
+      "Articulação lombossacra (com L5)",
+      "Articulações sacroilíacas (com os ossos do quadril, direito e esquerdo)",
+      "Articulação sacrococcígea (com o cóccix)",
+    ],
+    marcosAnatomicos: ["Promontório do sacro", "Forames sacrais anteriores e posteriores", "Canal sacral"],
+    correlacaoClinica:
+      "A articulação sacroilíaca é o sítio inicial clássico da espondilite anquilosante (sacroileíte), frequentemente o primeiro achado de imagem (erosão/esclerose na ressonância magnética) em pacientes jovens com dor lombar inflamatória crônica.",
+    doencasRelacionadas: [{ slug: "espondilite-anquilosante", nome: "Espondilite anquilosante" }],
+    pontosDeProva: [
+      "Sacroileíte bilateral em paciente jovem com lombalgia inflamatória (pior em repouso, melhora com movimento) é altamente sugestiva de espondilite anquilosante.",
+      "O promontório do sacro é um marco obstétrico importante, usado para estimar as dimensões da pelve (conjugata diagonal/verdadeira).",
+    ],
+    fontes: [
+      { tema: "Osteologia do sacro e articulação sacroilíaca", fonte: "Gray's Anatomy for Students, 4ª ed." },
+      { tema: "Nomenclatura oficial (Os sacrum)", fonte: "Terminologia Anatomica (FIPAT)" },
+    ],
+  },
+  {
+    slug: "coccix",
+    meshNames: ["Coccyx"],
+    nomeOficial: "Os coccygis",
+    nomeComum: "Cóccix",
+    regiao: "coluna-vertebral",
+    par: false,
+    tipoOsso: "Osso irregular",
+    resumo: "Vestígio da cauda embrionária, formado pela fusão de 3 a 5 pequenos segmentos vertebrais.",
+    descricaoAnatomica:
+      "Estrutura triangular pequena, articulada com o ápice do sacro pela articulação sacrococcígea. Serve de local de inserção para ligamentos pélvicos e para parte do músculo glúteo máximo.",
+    relacoesAnatomicas: ["Articulação sacrococcígea (com o ápice do sacro)", "Inserção de ligamentos pélvicos e fibras do glúteo máximo"],
+    marcosAnatomicos: ["Cornos coccígeos (articulam-se com os cornos sacrais)"],
+    correlacaoClinica:
+      "O cóccix é vulnerável a trauma direto por queda sentada, causando coccidinia (dor coccígea), e pode sofrer fratura ou luxação durante o parto vaginal pela sua proximidade com o canal de parto.",
+    doencasRelacionadas: [],
+    pontosDeProva: [
+      "Coccidinia pós-traumática (queda sentada) é a causa mais comum de dor coccígea isolada, geralmente autolimitada.",
+    ],
+    fontes: [
+      { tema: "Osteologia do cóccix", fonte: "Moore's Clinically Oriented Anatomy, 8ª ed." },
+      { tema: "Nomenclatura oficial (Os coccygis)", fonte: "Terminologia Anatomica (FIPAT)" },
+    ],
+  },
 ];
