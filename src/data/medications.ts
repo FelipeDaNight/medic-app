@@ -499,6 +499,7 @@ export const medications: Medication[] = [
       { slug: "doenca-renal-cronica", nome: "Doença renal crônica" },
       { slug: "aneurisma-dissecao-aorta", nome: "Aneurisma e dissecção da aorta" },
       { slug: "sindrome-nefrotica", nome: "Síndrome nefrótica" },
+      { slug: "doenca-renal-policistica-malformacoes-renais-congenitas", nome: "Doença renal policística e outras malformações renais congênitas" },
     ],
     fontes: [
       { tema: "Mecanismo de ação", fonte: "Goodman & Gilman, 13ª ed." },
@@ -1890,6 +1891,7 @@ export const medications: Medication[] = [
     doencasIndicadas: [
       { slug: "fibrilacao-flutter-atrial", nome: "Fibrilação e flutter atrial" },
       { slug: "insuficiencia-cardiaca", nome: "Insuficiência cardíaca" },
+      { slug: "cardiopatias-congenitas", nome: "Cardiopatias congênitas" },
     ],
     fontes: [
       { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
@@ -2142,6 +2144,7 @@ export const medications: Medication[] = [
       { slug: "insuficiencia-cardiaca", nome: "Insuficiência cardíaca" },
       { slug: "cardiomiopatias", nome: "Cardiomiopatias" },
       { slug: "sindrome-nefrotica", nome: "Síndrome nefrótica" },
+      { slug: "cardiopatias-congenitas", nome: "Cardiopatias congênitas" },
     ],
     fontes: [
       { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },
@@ -5766,6 +5769,7 @@ export const medications: Medication[] = [
     ],
     doencasIndicadas: [
       { slug: "transtornos-menopausa-perimenopausa", nome: "Transtornos da menopausa e da perimenopausa" },
+      { slug: "sindrome-de-turner", nome: "Síndrome de Turner" },
     ],
     fontes: [
       { tema: "Código ATC e forma farmacêutica", fonte: "RENAME 2024, Apêndice A" },

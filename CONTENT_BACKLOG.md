@@ -15,7 +15,7 @@ Fontes:
   está, o único item da lista ainda pendente por esse motivo.
 
 Já documentados com ficha completa (**fora deste backlog**, não repetir):
-- **Doenças (295):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
+- **Doenças (310):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
   · Dengue · COVID-19 · Gastrite · DRGE · Artrite reumatoide · LES · Alzheimer · Anemia
   ferropriva · DRC · Infarto agudo do miocárdio · Angina pectoris · Doença isquêmica
   crônica do coração · Fibrilação e flutter atrial · Parada cardíaca · Febre reumática ·
@@ -123,7 +123,12 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   intracraniana não traumática do recém-nascido · Enterocolite necrosante · Íleo
   meconial e outras obstruções intestinais do recém-nascido · Hipoglicemia neonatal ·
   Restrição de crescimento intrauterino · Prematuridade e complicações do baixo peso
-  ao nascer · Convulsões neonatais
+  ao nascer · Convulsões neonatais · Síndrome de Down · Síndrome de Edwards e síndrome
+  de Patau · Síndrome de Turner · Espinha bífida · Hidrocefalia congênita · Fenda
+  labial e/ou palatina · Cardiopatias congênitas · Displasia do desenvolvimento do
+  quadril · Pé torto congênito · Hipospádias · Criptorquidia · Doença renal
+  policística e outras malformações renais congênitas · Onfalocele e gastrosquise ·
+  Estenose hipertrófica do piloro · Doença de Hirschsprung
 - **Medicamentos (102):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
@@ -565,22 +570,22 @@ politraumatismo, queimaduras e intoxicação exógena).
 13. concluído — Prematuridade e complicações do baixo peso ao nascer (P07)
 14. concluído — Convulsões neonatais (P90)
 
-### Lote 23 — Genética Médica / Malformações Congênitas (15)
-1. pendente — Síndrome de Down (Q90)
-2. pendente — Síndrome de Edwards e síndrome de Patau (Q91)
-3. pendente — Síndrome de Turner (Q96)
-4. pendente — Espinha bífida (Q05)
-5. pendente — Hidrocefalia congênita (Q03) *(distinta da hidrocefalia adquirida, G91, já fichada em Neurologia)*
-6. pendente — Fenda labial e/ou palatina (Q35+Q36+Q37)
-7. pendente — Cardiopatias congênitas (Q20-Q28)
-8. pendente — Displasia do desenvolvimento do quadril (Q65)
-9. pendente — Pé torto congênito (Q66)
-10. pendente — Hipospádias (Q54)
-11. pendente — Criptorquidia / testículo não descido (Q53)
-12. pendente — Doença renal policística e outras malformações renais congênitas (Q60+Q61+Q63)
-13. pendente — Onfalocele e gastrosquise (Q79, subgrupo de defeitos da parede abdominal)
-14. pendente — Estenose hipertrófica do piloro (Q40)
-15. pendente — Doença de Hirschsprung (Q43)
+### Lote 23 — Genética Médica / Malformações Congênitas (15) — ✅ CONCLUÍDO
+1. concluído — Síndrome de Down (Q90)
+2. concluído — Síndrome de Edwards e síndrome de Patau (Q91)
+3. concluído — Síndrome de Turner (Q96)
+4. concluído — Espinha bífida (Q05)
+5. concluído — Hidrocefalia congênita (Q03) *(distinta da hidrocefalia adquirida, G91, já fichada em Neurologia)*
+6. concluído — Fenda labial e/ou palatina (Q35+Q36+Q37)
+7. concluído — Cardiopatias congênitas (Q20-Q28)
+8. concluído — Displasia do desenvolvimento do quadril (Q65)
+9. concluído — Pé torto congênito (Q66)
+10. concluído — Hipospádias (Q54)
+11. concluído — Criptorquidia / testículo não descido (Q53)
+12. concluído — Doença renal policística e outras malformações renais congênitas (Q60+Q61+Q63)
+13. concluído — Onfalocele e gastrosquise (Q79, subgrupo de defeitos da parede abdominal)
+14. concluído — Estenose hipertrófica do piloro (Q40)
+15. concluído — Doença de Hirschsprung (Q43)
 
 ### Lote 24 — Ortopedia (15)
 1. pendente — Artrite séptica (M00)
@@ -634,11 +639,11 @@ politraumatismo, queimaduras e intoxicação exógena).
 14. pendente — Piodermite gangrenosa (L88)
 15. pendente — Fotodermatoses agudas / queimadura solar (L55+L56)
 
-**Total: 61 doenças pendentes em 4 lotes** (Lote 22 — Pediatria/Neonatologia, 14 itens —
-concluído; restam Genética Médica, Ortopedia, Traumatologia e Dermatologia 2). Todos os
-6 lotes numerados do backlog de medicamentos já estão concluídos (ver seção 2 abaixo).
-**Próxima prioridade de doenças: Lote 23 — Genética Médica / Malformações Congênitas
-(15 itens).**
+**Total: 46 doenças pendentes em 3 lotes** (Lotes 22-23 — Pediatria/Neonatologia e
+Genética Médica/Malformações Congênitas, 29 itens — concluídos; restam Ortopedia,
+Traumatologia e Dermatologia 2). Todos os 6 lotes numerados do backlog de medicamentos
+já estão concluídos (ver seção 2 abaixo). **Próxima prioridade de doenças: Lote 24 —
+Ortopedia (15 itens).**
 
 ---
 

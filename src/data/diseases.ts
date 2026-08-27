@@ -21901,4 +21901,1076 @@ export const diseases: Disease[] = [
       { tema: "Classificação da ILAE para crises neonatais", fonte: "Pressler RM et al., The ILAE Classification of Seizures and the Epilepsies: Modification for Seizures in the Neonate, Position Paper by the ILAE Task Force on Neonatal Seizures, Epilepsia, 2021" },
     ],
   },
+  {
+    slug: "sindrome-de-down",
+    nome: "Síndrome de Down",
+    sinonimos: ["Trissomia do 21", "Trissomia 21"],
+    cid10: "Q90",
+    especialidade: "Genética Médica",
+    etiologia: "Genética",
+    resumo: "Síndrome cromossômica mais comum, causada pela presença de um cromossomo 21 extra, associada a deficiência intelectual, características fenotípicas típicas e maior risco de malformações cardíacas e outras comorbidades.",
+    definicao:
+      "Síndrome cromossômica causada pela presença de material genético extra do cromossomo 21 (trissomia completa, translocação ou mosaicismo), resultando em um fenótipo característico que inclui deficiência intelectual de grau variável, traços faciais típicos e risco aumentado de malformações e comorbidades associadas em múltiplos sistemas.",
+    epidemiologia:
+      "A síndrome cromossômica mais comum em nascidos vivos, com incidência que aumenta progressivamente com a idade materna avançada; a grande maioria dos casos (cerca de 95%) resulta de trissomia livre por não disjunção meiótica, sendo translocação e mosaicismo formas menos comuns.",
+    fisiopatologia:
+      "A cópia extra de genes do cromossomo 21 (trissomia livre, translocação robertsoniana envolvendo o cromossomo 21, ou mosaicismo com duas linhagens celulares) causa um efeito de dosagem gênica que altera a expressão de múltiplos genes durante o desenvolvimento, resultando no fenótipo característico multissistêmico; a forma por translocação pode ser herdada de um dos pais portador assintomático de translocação balanceada, com implicação direta no risco de recorrência e na indicação de aconselhamento genético.",
+    classificacao:
+      "Classificada por mecanismo citogenético em trissomia livre (não disjunção, cerca de 95% dos casos), translocação robertsoniana (cerca de 4%, com risco de recorrência aumentado se um dos pais for portador) e mosaicismo (cerca de 1%, geralmente com fenótipo mais leve).",
+    quadroClinico: [
+      "Hipotonia neonatal, frequentemente o primeiro sinal clínico notado",
+      "Traços faciais característicos: fissuras palpebrais oblíquas para cima, prega epicântica, face achatada, língua protrusa, orelhas pequenas e de implantação baixa",
+      "Prega palmar única (prega simiesca) e clinodactilia do quinto dedo",
+      "Deficiência intelectual de grau variável, geralmente leve a moderada",
+      "Baixa estatura e hipotonia persistente ao longo da infância",
+    ],
+    diagnostico: [
+      "Suspeita clínica ao nascimento pelo fenótipo característico, confirmada por cariótipo (padrão-ouro), que também define o mecanismo citogenético (trissomia livre, translocação ou mosaicismo)",
+      "Rastreamento pré-natal (translucência nucal e marcadores bioquímicos no primeiro trimestre, teste pré-natal não invasivo por DNA fetal livre) seguido de confirmação diagnóstica invasiva (amniocentese ou biópsia de vilo corial) quando indicado",
+    ],
+    examesComplementares: [
+      "Cariótipo, exame de confirmação diagnóstica e de definição do mecanismo citogenético, com implicação direta no aconselhamento genético sobre risco de recorrência",
+      "Ecocardiograma em todo recém-nascido diagnosticado, dado o alto risco de cardiopatia congênita associada (defeito do septo atrioventricular como a mais característica)",
+      "Rastreamento de hipotireoidismo congênito/adquirido e de problemas auditivos e visuais, conforme protocolo de acompanhamento específico da síndrome",
+    ],
+    diagnosticoDiferencial: [
+      "Outras trissomias autossômicas (Edwards, Patau), distinguidas pelo fenótipo e pela gravidade das malformações associadas, geralmente mais graves",
+      "Hipotireoidismo congênito isolado, que pode compartilhar hipotonia neonatal, mas sem os demais achados fenotípicos característicos",
+    ],
+    tratamento: [
+      "Não há tratamento curativo; o manejo é de suporte multidisciplinar, com estimulação precoce do desenvolvimento neuropsicomotor",
+      "Correção cirúrgica de malformações cardíacas congênitas associadas, quando presentes",
+      "Acompanhamento programático ao longo da vida (cardiológico, endócrino, oftalmológico, audiológico) conforme diretriz de supervisão de saúde específica da síndrome",
+    ],
+    complicacoes: [
+      "Aguda: complicações da cardiopatia congênita associada quando não corrigida oportunamente",
+      "Crônica: hipotireoidismo, doença celíaca, apneia obstrutiva do sono, perda auditiva, catarata, risco aumentado de leucemia na infância e de doença de Alzheimer de início precoce na vida adulta",
+    ],
+    redFlags: [
+      "Todo recém-nascido com diagnóstico de síndrome de Down deve ser submetido a ecocardiograma, dado o alto risco de cardiopatia congênita associada, frequentemente assintomática ao nascimento",
+      "Sinais de instabilidade da coluna cervical (subluxação atlantoaxial) devem ser investigados antes de atividades físicas de risco ou procedimentos que exijam manipulação cervical",
+    ],
+    prognostico:
+      "A expectativa de vida aumentou substancialmente com os avanços em cuidados cardíacos e clínicos, podendo se aproximar da população geral em muitos casos; o grau de deficiência intelectual e a presença/gravidade de malformações associadas (especialmente cardíacas) são os principais determinantes do prognóstico funcional.",
+    pontosDeProva: [
+      "O defeito do septo atrioventricular é a cardiopatia congênita mais característica e frequente associada à síndrome de Down, justificando o ecocardiograma obrigatório em todo caso diagnosticado",
+      "A forma por translocação robertsoniana, ao contrário da trissomia livre, pode ser herdada de um dos pais portador balanceado, com implicação direta no risco de recorrência em gestações futuras",
+      "O acompanhamento programático ao longo da vida (cardíaco, tireoidiano, auditivo, oftalmológico) é essencial, dado o risco aumentado de múltiplas comorbidades associadas",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo, mãe de 41 anos, apresenta hipotonia acentuada, fissuras palpebrais oblíquas para cima, prega palmar única bilateral e prega epicântica.",
+      pergunta: "Qual é a hipótese diagnóstica e a investigação prioritária?",
+      raciocinio:
+        "O conjunto de achados fenotípicos (hipotonia, fissuras palpebrais oblíquas, prega palmar única, prega epicântica) associado à idade materna avançada é altamente sugestivo de síndrome de Down.",
+      conduta:
+        "Solicitar cariótipo para confirmação diagnóstica e definição do mecanismo citogenético, e ecocardiograma para rastreamento de cardiopatia congênita associada, mesmo na ausência de sopro audível ao exame físico inicial.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso específico para a síndrome em si; o manejo farmacológico é dirigido às comorbidades associadas (ex.: levotiroxina se houver hipotireoidismo), individualizado conforme cada caso.",
+    fontes: [
+      { tema: "Fisiopatologia da trissomia do 21 e mecanismos citogenéticos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Rastreamento pré-natal e diagnóstico por cariótipo", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Acompanhamento programático multissistêmico ao longo da vida", fonte: "Bull MJ et al., Health Supervision for Children and Adolescents With Down Syndrome, American Academy of Pediatrics, Pediatrics, 2022" },
+    ],
+  },
+  {
+    slug: "sindrome-edwards-patau",
+    nome: "Síndrome de Edwards e síndrome de Patau",
+    sinonimos: ["Trissomia do 18", "Trissomia do 13"],
+    cid10: "Q91",
+    especialidade: "Genética Médica",
+    etiologia: "Genética",
+    resumo: "Trissomias autossômicas graves (cromossomos 18 e 13, respectivamente), associadas a malformações múltiplas severas e mortalidade muito elevada no primeiro ano de vida, sendo a segunda e a terceira trissomias autossômicas mais comuns.",
+    definicao:
+      "Síndromes cromossômicas causadas pela presença de material genético extra do cromossomo 18 (síndrome de Edwards) ou do cromossomo 13 (síndrome de Patau), associadas a malformações estruturais múltiplas e graves em praticamente todos os sistemas orgânicos, com prognóstico substancialmente mais reservado que a trissomia do 21.",
+    epidemiologia:
+      "São, respectivamente, a segunda e a terceira trissomias autossômicas mais comuns em nascidos vivos, embora a prevalência global (incluindo perdas gestacionais) seja consideravelmente maior, dada a elevada taxa de perda fetal espontânea; associadas a idade materna avançada, de forma semelhante à síndrome de Down.",
+    fisiopatologia:
+      "O efeito de dosagem gênica da cópia extra dos cromossomos 18 ou 13 compromete gravemente a organogênese em múltiplos sistemas durante o desenvolvimento embrionário, resultando em malformações estruturais major (cardíacas, do sistema nervoso central, renais) que, em conjunto, explicam a mortalidade muito elevada observada nos primeiros meses de vida.",
+    classificacao:
+      "Classificadas, como as demais trissomias, por mecanismo citogenético em trissomia livre (a mais comum), translocação e mosaicismo, este último geralmente associado a fenótipo mais brando e sobrevida mais prolongada.",
+    quadroClinico: [
+      "Síndrome de Edwards: occipúcio proeminente, micrognatia, orelhas de implantação baixa, punhos cerrados com sobreposição característica dos dedos, pés em 'mata-borrão' (rocker-bottom), restrição de crescimento intrauterino grave",
+      "Síndrome de Patau: microftalmia ou anoftalmia, fenda labial e/ou palatina, polidactilia pós-axial, holoprosencefalia em casos graves, defeitos do couro cabeludo",
+      "Malformações cardíacas e renais graves associadas em ambas as síndromes, frequentemente múltiplas",
+    ],
+    diagnostico: [
+      "Suspeita pré-natal por ultrassonografia (múltiplas malformações estruturais associadas a restrição de crescimento grave) e/ou rastreamento bioquímico/genético não invasivo, com confirmação por cariótipo fetal ou neonatal",
+      "Diagnóstico pós-natal pela combinação do fenótipo característico com confirmação citogenética",
+    ],
+    examesComplementares: [
+      "Cariótipo, exame de confirmação diagnóstica definitiva",
+      "Ecocardiograma e ultrassonografia renal para caracterização completa das malformações associadas, essenciais para o planejamento de cuidados e para a discussão de prognóstico com a família",
+    ],
+    diagnosticoDiferencial: [
+      "Síndrome de Down, distinguida pela gravidade e pelo tipo de malformações associadas, geralmente mais leves e com sobrevida muito mais prolongada",
+      "Outras síndromes malformativas múltiplas raras, quando o cariótipo não confirma trissomia dos cromossomos 18 ou 13",
+    ],
+    tratamento: [
+      "Não há tratamento curativo; a abordagem terapêutica exige decisão compartilhada e individualizada com a família, ponderando cuidados intensivos versus cuidados paliativos, dado o prognóstico geralmente reservado",
+      "Correção cirúrgica de malformações específicas pode ser considerada em casos selecionados, conforme a gravidade global do quadro e a decisão familiar informada",
+      "Suporte multidisciplinar e cuidados paliativos como componente central do manejo na maioria dos casos",
+    ],
+    complicacoes: [
+      "Aguda: insuficiência cardíaca por cardiopatia congênita complexa, apneia central",
+      "Crônica: nos sobreviventes além do primeiro ano (minoria), deficiência intelectual profunda e limitações funcionais graves",
+    ],
+    redFlags: [
+      "O diagnóstico pré-natal de múltiplas malformações estruturais graves associadas a restrição de crescimento intrauterino acentuada deve motivar aconselhamento genético especializado e discussão antecipada com a família sobre prognóstico e opções de cuidado",
+    ],
+    prognostico:
+      "Reservado, com mortalidade muito elevada no primeiro ano de vida (a maioria dos casos não sobrevive além dos primeiros meses); uma pequena proporção de sobreviventes, geralmente com formas em mosaico, pode alcançar sobrevida mais prolongada, mas com deficiência intelectual profunda e limitações funcionais significativas.",
+    pontosDeProva: [
+      "Punhos cerrados com sobreposição característica dos dedos e pés em 'mata-borrão' são achados clássicos da síndrome de Edwards (trissomia do 18)",
+      "Holoprosencefalia, microftalmia/anoftalmia e polidactilia pós-axial são achados clássicos da síndrome de Patau (trissomia do 13)",
+      "Ambas as síndromes têm mortalidade muito elevada no primeiro ano de vida, ao contrário da síndrome de Down — distinção prognóstica central entre as trissomias autossômicas",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido com restrição de crescimento intrauterino grave apresenta occipúcio proeminente, micrognatia, orelhas de implantação baixa e punhos cerrados com os dedos sobrepostos de forma característica.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável?",
+      raciocinio:
+        "O conjunto de achados (occipúcio proeminente, micrognatia, punhos cerrados com sobreposição característica dos dedos) associado a restrição de crescimento intrauterino grave é altamente sugestivo de síndrome de Edwards (trissomia do 18).",
+      conduta:
+        "Confirmar o diagnóstico por cariótipo, realizar ecocardiograma e ultrassonografia renal para caracterização completa das malformações associadas, e iniciar discussão compartilhada com a família sobre prognóstico e plano de cuidados.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso específico; o manejo é predominantemente de suporte e cuidados paliativos, individualizado conforme a decisão familiar e a gravidade das malformações associadas.",
+    fontes: [
+      { tema: "Fisiopatologia da trissomia do 18 e do 13 e achados fenotípicos característicos", fonte: "Cereda A, Carey JC, The Trisomy 18 Syndrome, Orphanet Journal of Rare Diseases, 2012" },
+      { tema: "Diagnóstico pré-natal e confirmação citogenética", fonte: "Williams Obstetrics/Gynecology" },
+    ],
+  },
+  {
+    slug: "sindrome-de-turner",
+    nome: "Síndrome de Turner",
+    sinonimos: ["Monossomia do X", "45,X"],
+    cid10: "Q96",
+    especialidade: "Genética Médica",
+    etiologia: "Genética",
+    resumo: "Distúrbio cromossômico que acomete indivíduos do sexo feminino, causado pela ausência total ou parcial de um dos cromossomos X, associado a baixa estatura, disgenesia gonadal e risco aumentado de malformações cardiovasculares.",
+    definicao:
+      "Distúrbio cromossômico caracterizado pela ausência completa ou parcial de um dos dois cromossomos X em indivíduos fenotipicamente femininos, resultando em um espectro clínico que inclui baixa estatura, disgenesia gonadal com insuficiência ovariana primária, e risco aumentado de malformações cardiovasculares e renais.",
+    epidemiologia:
+      "Acomete uma proporção significativa de nascidos vivos do sexo feminino, embora a grande maioria das concepções com monossomia do X termine em perda gestacional espontânea; não há associação estabelecida com idade materna avançada, ao contrário das trissomias autossômicas.",
+    fisiopatologia:
+      "A haploinsuficiência de genes localizados no cromossomo X (e em alguns casos no pseudoautossômico) compromete o desenvolvimento normal em múltiplos sistemas; a disgenesia gonadal resulta de degeneração acelerada dos oócitos e folículos ovarianos já durante a vida fetal, levando a insuficiência ovariana primária estabelecida antes ou logo após a puberdade na maioria dos casos.",
+    classificacao:
+      "Classificada por cariótipo em monossomia completa (45,X, a forma clássica), mosaicismo (ex.: 45,X/46,XX, geralmente com fenótipo mais brando) e variantes estruturais do cromossomo X (deleções parciais, isocromossomos), com correlação variável entre o cariótipo específico e a gravidade do fenótipo.",
+    quadroClinico: [
+      "Baixa estatura, achado praticamente universal e frequentemente o motivo de investigação inicial",
+      "Pescoço alado (pterígio cervical) e linha de implantação capilar posterior baixa",
+      "Tórax largo com mamilos afastados ('em escudo')",
+      "Amenorreia primária e ausência ou regressão do desenvolvimento puberal por insuficiência ovariana primária",
+      "Linfedema congênito de mãos e pés, mais evidente ao nascimento",
+    ],
+    diagnostico: [
+      "Suspeita clínica por baixa estatura desproporcional associada a outros achados fenotípicos (pescoço alado, linfedema neonatal) ou por atraso puberal/amenorreia primária em adolescentes",
+      "Confirmação por cariótipo, exame de referência que também define o subtipo citogenético",
+    ],
+    examesComplementares: [
+      "Cariótipo, exame de confirmação diagnóstica",
+      "Ecocardiograma e angiorressonância de aorta, dado o risco aumentado de malformações cardiovasculares (válvula aórtica bicúspide, coarctação da aorta) e de dissecção de aorta ao longo da vida",
+      "Ultrassonografia renal, pelo risco aumentado de malformações renais associadas",
+      "Perfil hormonal (FSH elevado, estradiol baixo) confirmando a insuficiência ovariana primária",
+    ],
+    diagnosticoDiferencial: [
+      "Outras causas de baixa estatura e de atraso puberal/amenorreia primária, distinguidas pelo cariótipo normal e pela ausência dos demais achados fenotípicos característicos",
+      "Deficiência isolada de hormônio do crescimento, quando a baixa estatura não é acompanhada de outros achados sindrômicos",
+    ],
+    tratamento: [
+      "Hormônio do crescimento recombinante, iniciado precocemente na infância, para otimização da estatura final",
+      "Terapia de reposição hormonal com estrogênio, iniciada na idade puberal apropriada, para indução e manutenção do desenvolvimento puberal e da saúde óssea",
+      "Monitorização cardiovascular ao longo da vida, dado o risco aumentado de malformações e de dissecção de aorta",
+    ],
+    complicacoes: [
+      "Aguda: dissecção de aorta, complicação rara mas potencialmente fatal, com risco aumentado pela associação com válvula aórtica bicúspide e coarctação",
+      "Crônica: osteoporose por insuficiência ovariana primária não tratada, otite média recorrente e perda auditiva, hipotireoidismo autoimune, infertilidade",
+    ],
+    redFlags: [
+      "Toda paciente com síndrome de Turner deve ter monitorização cardiovascular ao longo da vida, dado o risco aumentado de dissecção de aorta, complicação potencialmente fatal associada a malformações cardíacas de base",
+      "Atraso puberal ou amenorreia primária em adolescente com baixa estatura deve levantar suspeita e motivar investigação cromossômica",
+    ],
+    prognostico:
+      "Bom em termos de expectativa de vida com acompanhamento cardiovascular adequado; a estatura final e o desenvolvimento puberal podem ser otimizados com hormônio do crescimento e terapia de reposição hormonal iniciados oportunamente, embora a infertilidade por insuficiência ovariana primária afete a grande maioria das pacientes.",
+    pontosDeProva: [
+      "A síndrome de Turner é uma causa clássica de amenorreia primária com FSH elevado (hipogonadismo hipergonadotrófico), refletindo a insuficiência ovariana primária por disgenesia gonadal",
+      "O risco de dissecção de aorta exige monitorização cardiovascular ao longo de toda a vida, não apenas na infância",
+      "O hormônio do crescimento deve ser iniciado precocemente na infância, antes do fechamento das epífises, para otimizar a estatura final",
+    ],
+    casoClinico: {
+      vinheta:
+        "Adolescente de 15 anos, altura no percentil 3, sem desenvolvimento de caracteres sexuais secundários, apresenta pescoço com prega cutânea lateral e tórax largo com mamilos afastados.",
+      pergunta: "Qual é a hipótese diagnóstica e a investigação prioritária?",
+      raciocinio:
+        "A combinação de baixa estatura, ausência de desenvolvimento puberal e achados fenotípicos característicos (pescoço alado, tórax em escudo) é altamente sugestiva de síndrome de Turner.",
+      conduta:
+        "Solicitar cariótipo para confirmação diagnóstica, dosar FSH e estradiol para confirmar a insuficiência ovariana primária, e realizar ecocardiograma para rastreamento de malformações cardiovasculares associadas.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "estrogenios-conjugados", nome: "Estrogênios conjugados" },
+    ],
+    medicamentosNota:
+      "Os estrogênios conjugados (ou outra formulação de estrogênio) são usados para indução e manutenção do desenvolvimento puberal e da saúde óssea, iniciados na idade puberal apropriada. O hormônio do crescimento recombinante, usado precocemente na infância para otimização da estatura, ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia da disgenesia gonadal e haploinsuficiência do cromossomo X", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Monitorização cardiovascular, terapia de reposição hormonal e acompanhamento ao longo da vida", fonte: "Gravholt CH, Backeljauw PF et al., Clinical Practice Guidelines for the Care of Girls and Women With Turner Syndrome, International Turner Syndrome Consensus Group, European Journal of Endocrinology, 2024" },
+    ],
+  },
+  {
+    slug: "espinha-bifida",
+    nome: "Espinha bífida",
+    sinonimos: ["Disrafismo espinhal", "Mielomeningocele"],
+    cid10: "Q05",
+    especialidade: "Genética Médica",
+    etiologia: "Multifatorial",
+    resumo: "Malformação congênita por fechamento incompleto do tubo neural na região da coluna vertebral, variando de formas ocultas assintomáticas até mielomeningocele com exposição da medula espinhal e déficits neurológicos graves.",
+    definicao:
+      "Defeito congênito do tubo neural caracterizado pelo fechamento incompleto de uma ou mais vértebras e das estruturas neurais subjacentes durante o desenvolvimento embrionário precoce, com espectro de gravidade que vai da espinha bífida oculta (assintomática, achado incidental) até a mielomeningocele (forma aberta, com exposição do tecido neural e déficits neurológicos significativos).",
+    epidemiologia:
+      "Uma das malformações congênitas mais comuns do sistema nervoso central; a incidência diminuiu substancialmente em países com fortificação obrigatória de alimentos com ácido fólico e suplementação periconcepcional recomendada, refletindo o papel causal da deficiência de folato.",
+    fisiopatologia:
+      "O tubo neural normalmente se fecha completamente por volta da quarta semana de gestação; a deficiência de ácido fólico materno no período periconcepcional é o principal fator de risco modificável identificado, interferindo nos processos de metilação do DNA e proliferação celular necessários para o fechamento completo do tubo neural; outros fatores de risco incluem uso materno de ácido valproico, diabetes materna mal controlada e história familiar prévia de defeito do tubo neural.",
+    classificacao:
+      "Classificada em espinha bífida oculta (defeito ósseo vertebral isolado, sem exposição neural, geralmente assintomática), meningocele (herniação apenas das meninges através do defeito ósseo, sem envolvimento neural direto) e mielomeningocele (forma mais grave, com herniação e exposição da medula espinhal e das raízes nervosas, associada a déficits neurológicos significativos).",
+    quadroClinico: [
+      "Espinha bífida oculta: geralmente assintomática, podendo apresentar sinais cutâneos suprajacentes (tufo piloso, hemangioma, covinha sacral) que sugerem o diagnóstico",
+      "Mielomeningocele: massa visível na linha média da coluna ao nascimento, com déficit motor e sensitivo dos membros inferiores proporcional ao nível da lesão, disfunção vesical e intestinal neurogênica",
+      "Hidrocefalia associada frequentemente presente na mielomeningocele, geralmente por malformação de Chiari tipo II associada",
+    ],
+    diagnostico: [
+      "Rastreamento pré-natal por dosagem de alfafetoproteína sérica materna elevada e confirmação por ultrassonografia obstétrica detalhada, capaz de identificar o defeito e suas características",
+      "Diagnóstico pós-natal evidente ao exame físico nas formas abertas (mielomeningocele); formas ocultas podem ser identificadas incidentalmente por sinais cutâneos suprajacentes ou por exame de imagem realizado por outro motivo",
+    ],
+    examesComplementares: [
+      "Alfafetoproteína sérica materna, elevada nos defeitos abertos do tubo neural, usada como rastreamento no segundo trimestre",
+      "Ultrassonografia obstétrica detalhada e, quando indicado, ressonância magnética fetal, para caracterização completa do defeito e de malformações associadas (hidrocefalia, malformação de Chiari II)",
+      "Ressonância magnética da coluna e do encéfalo no período pós-natal para planejamento cirúrgico e avaliação de hidrocefalia associada",
+    ],
+    diagnosticoDiferencial: [
+      "Outras massas congênitas da linha média posterior (teratoma sacrococcígeo, lipoma), distinguidas por características de imagem específicas",
+      "Anencefalia e outros defeitos do tubo neural craniais, que compartilham a mesma origem fisiopatológica mas afetam segmento distinto do tubo neural",
+    ],
+    tratamento: [
+      "Suplementação periconcepcional universal de ácido fólico em mulheres em idade fértil, principal medida preventiva, com dose aumentada em gestações subsequentes após um caso prévio",
+      "Fechamento cirúrgico da mielomeningocele, idealmente nas primeiras 24-72 horas de vida para reduzir o risco de infecção e de lesão neurológica adicional; cirurgia fetal intraútero é opção em centros especializados para casos selecionados, podendo reduzir a necessidade de derivação para hidrocefalia",
+      "Manejo multidisciplinar ao longo da vida das disfunções neurogênicas associadas (vesical, intestinal, ortopédica)",
+    ],
+    complicacoes: [
+      "Aguda: infecção do sistema nervoso central (meningite) quando o defeito aberto não é fechado prontamente",
+      "Crônica: hidrocefalia (frequentemente exigindo derivação ventriculoperitoneal), disfunção vesical e intestinal neurogênica com risco de dano renal secundário, deformidades ortopédicas dos membros inferiores",
+    ],
+    redFlags: [
+      "Mielomeningocele aberta ao nascimento exige proteção da lesão exposta e fechamento cirúrgico precoce (idealmente nas primeiras 24-72 horas) para reduzir o risco de infecção do sistema nervoso central",
+      "Sinais de disfunção vesical neurogênica não reconhecidos e não tratados podem levar a dano renal progressivo, exigindo cateterismo intermitente e acompanhamento urológico sistemático",
+    ],
+    prognostico:
+      "Variável conforme o nível e a extensão da lesão: espinha bífida oculta geralmente não tem impacto funcional; mielomeningocele está associada a graus variáveis de déficit motor, disfunção vesical/intestinal e comprometimento cognitivo (este último mais relacionado à gravidade da hidrocefalia associada), mas a maioria dos indivíduos com manejo multidisciplinar adequado alcança sobrevida prolongada com boa qualidade de vida.",
+    pontosDeProva: [
+      "A suplementação periconcepcional de ácido fólico é a principal medida preventiva com eficácia comprovada, reduzindo significativamente a incidência de defeitos do tubo neural",
+      "Sinais cutâneos suprajacentes à linha média da coluna (tufo piloso, hemangioma, covinha sacral) em recém-nascido assintomático devem levantar suspeita de espinha bífida oculta e motivar investigação de imagem",
+      "A malformação de Chiari tipo II é a causa mais comum de hidrocefalia associada à mielomeningocele, não uma coincidência isolada",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo apresenta massa cística na linha média da região lombar, com tecido neural visível na base, associada a paralisia flácida dos membros inferiores e ausência de reflexos nos pés.",
+      pergunta: "Qual é o diagnóstico e a conduta imediata?",
+      raciocinio:
+        "A massa na linha média lombar com tecido neural exposto associada a déficit motor dos membros inferiores confirma mielomeningocele, a forma mais grave de espinha bífida.",
+      conduta:
+        "Proteger a lesão exposta com curativo estéril não aderente, posicionar o recém-nascido em decúbito ventral, encaminhar para fechamento cirúrgico precoce (idealmente nas primeiras 24-72 horas) e investigar hidrocefalia associada com neuroimagem.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O ácido fólico, usado como suplementação preventiva periconcepcional (não como tratamento da malformação já estabelecida), ainda não tem ficha própria como suplemento isolado no site. O tratamento da malformação estabelecida é cirúrgico.",
+    fontes: [
+      { tema: "Fisiopatologia do fechamento do tubo neural e fatores de risco", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Suplementação de ácido fólico como medida preventiva", fonte: "Centers for Disease Control and Prevention, Recommendations for the Use of Folic Acid to Reduce the Number of Cases of Spina Bifida and Other Neural Tube Defects, MMWR, 1992" },
+    ],
+  },
+  {
+    slug: "hidrocefalia-congenita",
+    nome: "Hidrocefalia congênita",
+    sinonimos: ["Hidrocefalia fetal"],
+    cid10: "Q03",
+    especialidade: "Genética Médica",
+    etiologia: "Genética",
+    resumo: "Acúmulo excessivo de líquido cefalorraquidiano nos ventrículos cerebrais presente desde a vida fetal ou o período neonatal, causado por malformações congênitas específicas que obstruem ou alteram a circulação liquórica, distinta da hidrocefalia adquirida.",
+    definicao:
+      "Dilatação ventricular cerebral por acúmulo excessivo de líquido cefalorraquidiano de origem congênita, presente já na vida fetal ou manifesta no período neonatal, causada por malformações estruturais específicas (estenose do aqueduto cerebral, malformação de Dandy-Walker, entre outras) que comprometem a circulação ou a reabsorção liquórica — distinta da hidrocefalia adquirida por causas pós-natais como hemorragia ou infecção.",
+    epidemiologia:
+      "Uma das malformações congênitas do sistema nervoso central mais comuns identificadas por ultrassonografia pré-natal; a estenose do aqueduto cerebral é uma das causas congênitas mais frequentes, podendo ser esporádica ou, mais raramente, ligada ao cromossomo X.",
+    fisiopatologia:
+      "A obstrução congênita da circulação liquórica normal (mais comumente no aqueduto cerebral, via estreita que conecta o terceiro e o quarto ventrículos) ou malformações que alteram a anatomia da fossa posterior (malformação de Dandy-Walker, com hipoplasia do vermis cerebelar e dilatação cística do quarto ventrículo) resultam em acúmulo progressivo de líquido cefalorraquidiano nos ventrículos proximais à obstrução, com aumento da pressão intracraniana e compressão progressiva do parênquima cerebral circundante.",
+    classificacao:
+      "Classificada por mecanismo em obstrutiva (não comunicante, por obstrução física ao longo do trajeto liquórico, como na estenose do aqueduto) e comunicante (por reabsorção liquórica deficiente, menos comum na forma congênita isolada); também classificada pela malformação estrutural associada quando identificável (estenose do aqueduto, malformação de Dandy-Walker, entre outras).",
+    quadroClinico: [
+      "Aumento progressivo do perímetro cefálico, frequentemente identificado já na vida fetal por ultrassonografia seriada",
+      "Fontanela anterior abaulada e tensa, suturas cranianas diastasadas ao nascimento",
+      "Sinal do 'sol poente' (desvio do olhar para baixo com esclera visível acima da íris) em casos avançados",
+      "Irritabilidade, vômitos e, em casos graves, rebaixamento do nível de consciência",
+    ],
+    diagnostico: [
+      "Diagnóstico pré-natal por ultrassonografia obstétrica seriada, demonstrando dilatação ventricular progressiva, complementada por ressonância magnética fetal para caracterização da malformação subjacente",
+      "Diagnóstico pós-natal por ultrassonografia transfontanelar ou ressonância magnética, demonstrando dilatação ventricular e permitindo identificar o nível e a causa da obstrução",
+    ],
+    examesComplementares: [
+      "Ultrassonografia transfontanelar, exame inicial de triagem no período neonatal",
+      "Ressonância magnética encefálica, exame de escolha para caracterização detalhada da malformação estrutural subjacente e planejamento cirúrgico",
+    ],
+    diagnosticoDiferencial: [
+      "Macrocrania familiar benigna, distinguida pela ausência de dilatação ventricular verdadeira e pelo padrão de crescimento cefálico estável acompanhando a curva de percentil",
+      "Hidrocefalia adquirida (pós-hemorrágica, pós-infecciosa), distinguida pela ausência da malformação estrutural congênita e pelo contexto clínico de evento causal pós-natal identificável",
+    ],
+    tratamento: [
+      "Derivação ventriculoperitoneal, tratamento cirúrgico definitivo mais comum, desviando o excesso de líquido cefalorraquidiano para a cavidade peritoneal",
+      "Ventriculostomia endoscópica do terceiro ventrículo, alternativa cirúrgica em casos selecionados (particularmente na estenose do aqueduto), evitando a necessidade de dispositivo de derivação permanente",
+      "Acompanhamento neurológico e do desenvolvimento a longo prazo, dado o risco de comprometimento cognitivo proporcional à gravidade e à duração da hipertensão intracraniana não tratada",
+    ],
+    complicacoes: [
+      "Aguda: herniação cerebral por hipertensão intracraniana grave não tratada, disfunção aguda de derivação (obstrução, infecção)",
+      "Crônica: atraso do neurodesenvolvimento proporcional à gravidade e à precocidade do tratamento, necessidade de revisões cirúrgicas repetidas da derivação ao longo da vida",
+    ],
+    redFlags: [
+      "Sinais de disfunção aguda de derivação ventriculoperitoneal (cefaleia, vômitos, letargia, abaulamento de fontanela em lactentes) constituem emergência neurocirúrgica, exigindo avaliação e intervenção imediatas",
+      "Aumento do perímetro cefálico cruzando percentis de forma acelerada, mesmo sem outros sintomas, deve motivar investigação de imagem prioritária",
+    ],
+    prognostico:
+      "Variável conforme a causa subjacente, a gravidade e a precocidade do tratamento: com derivação oportuna e acompanhamento adequado, muitos pacientes têm desenvolvimento neurológico satisfatório, embora exista risco de necessidade de revisões cirúrgicas múltiplas da derivação ao longo da vida.",
+    pontosDeProva: [
+      "A estenose do aqueduto cerebral é uma das causas congênitas mais frequentes de hidrocefalia obstrutiva, podendo ser esporádica ou, mais raramente, ligada ao cromossomo X",
+      "A malformação de Dandy-Walker associa hipoplasia do vermis cerebelar a dilatação cística do quarto ventrículo, sendo causa importante de hidrocefalia congênita",
+      "Disfunção de derivação ventriculoperitoneal é uma emergência neurocirúrgica que deve ser sempre considerada em paciente com derivação prévia que apresenta sinais de hipertensão intracraniana",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido apresenta perímetro cefálico acima do percentil 97, fontanela anterior abaulada e tensa, e sinal do 'sol poente' ao exame oftalmológico. Ultrassonografia transfontanelar mostra dilatação acentuada dos ventrículos laterais e terceiro ventrículo, com quarto ventrículo de tamanho normal.",
+      pergunta: "Qual é a localização provável da obstrução e a conduta subsequente?",
+      raciocinio:
+        "A dilatação dos ventrículos laterais e do terceiro ventrículo com quarto ventrículo de tamanho normal sugere obstrução ao nível do aqueduto cerebral, achado compatível com estenose do aqueduto.",
+      conduta:
+        "Solicitar ressonância magnética encefálica para caracterização detalhada da obstrução e encaminhar para avaliação neurocirúrgica, considerando ventriculostomia endoscópica do terceiro ventrículo ou derivação ventriculoperitoneal conforme a anatomia específica.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é predominantemente cirúrgico (derivação ventriculoperitoneal ou ventriculostomia endoscópica); não há tratamento medicamentoso definitivo para a hidrocefalia congênita estabelecida.",
+    fontes: [
+      { tema: "Fisiopatologia da circulação liquórica e mecanismos obstrutivos congênitos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Malformações estruturais associadas e abordagem cirúrgica", fonte: "Nelson Textbook of Pediatrics, 21ª ed." },
+    ],
+  },
+  {
+    slug: "fenda-labial-palatina",
+    nome: "Fenda labial e/ou palatina",
+    sinonimos: ["Lábio leporino", "Fissura labiopalatina"],
+    cid10: "Q35",
+    especialidade: "Genética Médica",
+    etiologia: "Multifatorial",
+    resumo: "Malformação congênita por fusão incompleta dos processos faciais embrionários durante o desenvolvimento, resultando em fenda do lábio superior e/ou do palato, com impacto funcional na alimentação, na fala e na audição.",
+    definicao:
+      "Malformação congênita craniofacial resultante da fusão incompleta dos processos faciais embrionários (processos nasais mediais e maxilares para o lábio; processos palatinos para o palato) durante as primeiras semanas de gestação, podendo acometer o lábio, o palato, ou ambos, de forma isolada ou associada a outras malformações em síndromes genéticas reconhecíveis.",
+    epidemiologia:
+      "Uma das malformações craniofacaiais congênitas mais comuns; a maioria dos casos é não sindrômica (isolada), com etiologia multifatorial envolvendo predisposição genética e fatores ambientais (tabagismo materno, uso de determinados anticonvulsivantes, deficiência de ácido fólico), enquanto uma minoria está associada a síndromes genéticas reconhecíveis.",
+    fisiopatologia:
+      "O lábio superior se forma pela fusão dos processos nasais mediais com os processos maxilares por volta da 4ª a 7ª semana de gestação; o palato se forma posteriormente, pela fusão dos processos palatinos laterais entre si e com o septo nasal, completando-se por volta da 12ª semana; a falha nesses processos de fusão, por fatores genéticos e/ou ambientais que interferem na migração e proliferação celular local, resulta na fenda, cuja extensão determina se acomete apenas o lábio, apenas o palato, ou ambos.",
+    classificacao:
+      "Classificada por localização anatômica em fenda labial isolada, fenda palatina isolada, e fenda labiopalatina combinada; também classificada por lateralidade (unilateral ou bilateral) e por completude (completa, estendendo-se até a base do nariz/palato duro, ou incompleta).",
+    quadroClinico: [
+      "Fenda visível no lábio superior, variando de incisura leve até fenda completa estendendo-se ao assoalho nasal",
+      "Fenda do palato duro e/ou mole, visível ao exame da cavidade oral, podendo ser submucosa (não visível diretamente) em casos sutis",
+      "Dificuldade de sucção e alimentação, mais pronunciada quando há fenda palatina, pela incapacidade de gerar pressão negativa intraoral adequada",
+    ],
+    diagnostico: [
+      "Diagnóstico pré-natal possível por ultrassonografia obstétrica de rotina, especialmente para fenda labial, a partir do segundo trimestre",
+      "Diagnóstico pós-natal evidente ao exame físico do recém-nascido",
+      "Avaliação para exclusão de síndromes genéticas associadas quando há outras malformações concomitantes, incluindo aconselhamento genético",
+    ],
+    examesComplementares: [
+      "Ultrassonografia obstétrica para rastreamento pré-natal, com melhor sensibilidade para fenda labial que para fenda palatina isolada",
+      "Avaliação auditiva sistemática, dado o risco aumentado de otite média recorrente e disfunção da tuba auditiva associada à fenda palatina",
+    ],
+    diagnosticoDiferencial: [
+      "Fendas faciais atípicas raras (fendas faciais transversas ou oblíquas), distinguidas pela localização anatômica distinta",
+      "Síndromes genéticas com fenda labiopalatina como parte de um espectro malformativo mais amplo, que devem ser consideradas quando há outras anomalias associadas",
+    ],
+    tratamento: [
+      "Correção cirúrgica estagiada: reparo do lábio geralmente entre 3 e 6 meses de idade, e reparo do palato geralmente entre 9 e 18 meses, seguindo protocolos específicos de cada centro especializado",
+      "Suporte especializado à alimentação no período neonatal, incluindo uso de mamadeiras e bicos adaptados para compensar a incapacidade de sucção efetiva",
+      "Acompanhamento multidisciplinar de longo prazo (fonoaudiologia, otorrinolaringologia, ortodontia) para manejo das sequelas funcionais associadas",
+    ],
+    complicacoes: [
+      "Aguda: dificuldade de ganho ponderal por alimentação ineficiente antes da correção cirúrgica",
+      "Crônica: otite média recorrente e perda auditiva condutiva (pela disfunção da tuba auditiva associada à fenda palatina), alterações da fala (hipernasalidade), problemas ortodônticos e dentários",
+    ],
+    redFlags: [
+      "Dificuldade significativa de ganho ponderal no período neonatal exige suporte especializado à alimentação antes mesmo da correção cirúrgica, para evitar desnutrição no período de espera",
+      "Presença de outras malformações associadas deve motivar investigação para síndromes genéticas reconhecíveis e aconselhamento genético para a família",
+    ],
+    prognostico:
+      "Excelente com correção cirúrgica adequada e acompanhamento multidisciplinar, com a maioria das crianças alcançando fala, alimentação e aparência facial satisfatórias; o prognóstico é mais reservado quando a fenda faz parte de uma síndrome genética com outras malformações associadas.",
+    pontosDeProva: [
+      "A fenda labial e a fenda palatina têm origens embriológicas distintas (fusão dos processos faciais versus fusão dos processos palatinos), explicando por que podem ocorrer isoladamente ou em conjunto",
+      "A correção cirúrgica é estagiada, com reparo do lábio tipicamente antes do reparo do palato, seguindo cronogramas específicos de cada centro",
+      "A disfunção da tuba auditiva associada à fenda palatina explica o risco aumentado de otite média recorrente e perda auditiva condutiva nessa população",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo apresenta fenda unilateral completa do lábio superior estendendo-se até a base do nariz, associada a fenda do palato duro e mole. Apresenta dificuldade significativa de sucção ao seio materno.",
+      pergunta: "Qual a conduta inicial prioritária?",
+      raciocinio:
+        "A fenda labiopalatina completa compromete a capacidade de gerar pressão negativa intraoral necessária para a sucção efetiva, justificando suporte especializado imediato à alimentação antes mesmo da correção cirúrgica definitiva.",
+      conduta:
+        "Iniciar suporte especializado à alimentação com mamadeiras e bicos adaptados, encaminhar para equipe multidisciplinar de fenda labiopalatina, e planejar o reparo cirúrgico estagiado do lábio e, posteriormente, do palato.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é predominantemente cirúrgico e de suporte especializado à alimentação; não há tratamento medicamentoso específico para a malformação em si.",
+    fontes: [
+      { tema: "Embriologia da fusão labial e palatina e fatores de risco", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Cronograma de correção cirúrgica estagiada e manejo multidisciplinar", fonte: "Nelson Textbook of Pediatrics, 21ª ed." },
+    ],
+  },
+  {
+    slug: "cardiopatias-congenitas",
+    nome: "Cardiopatias congênitas",
+    sinonimos: ["Malformações cardíacas congênitas"],
+    cid10: "Q20",
+    especialidade: "Genética Médica",
+    etiologia: "Multifatorial",
+    resumo: "Malformações estruturais do coração e dos grandes vasos presentes desde o nascimento, variando de defeitos simples e bem tolerados a lesões complexas ductus-dependentes que constituem emergências neonatais.",
+    definicao:
+      "Grupo heterogêneo de malformações estruturais do coração e/ou dos grandes vasos originadas durante a organogênese cardíaca embrionária, com apresentação clínica que varia de assintomática (defeitos pequenos, bem tolerados) até choque cardiogênico grave nos primeiros dias de vida (lesões complexas dependentes da permeabilidade do canal arterial).",
+    epidemiologia:
+      "As malformações congênitas major mais comuns, com etiologia multifatorial envolvendo predisposição genética (incluindo associação com síndromes cromossômicas como a síndrome de Down) e fatores ambientais (diabetes materno, certas infecções congênitas, exposição a teratógenos).",
+    fisiopatologia:
+      "Erros durante etapas específicas da organogênese cardíaca embrionária (septação atrial e ventricular, formação e alinhamento dos grandes vasos, desenvolvimento valvar) resultam em defeitos estruturais variados; didaticamente classificadas em acianóticas (shunt esquerda-direita, como comunicação interatrial e interventricular, ou lesões obstrutivas sem shunt, como coarctação da aorta) e cianóticas (shunt direita-esquerda ou mistura de sangue, como tetralogia de Fallot e transposição das grandes artérias), sendo as lesões cianóticas complexas frequentemente dependentes da persistência do canal arterial para manutenção do fluxo pulmonar ou sistêmico adequado nos primeiros dias de vida.",
+    classificacao:
+      "Classificadas funcionalmente em acianóticas (comunicação interatrial, comunicação interventricular, persistência do canal arterial, coarctação da aorta) e cianóticas (tetralogia de Fallot, transposição das grandes artérias, atresia tricúspide, entre outras), distinção com implicação direta na apresentação clínica e na urgência do manejo inicial.",
+    quadroClinico: [
+      "Cianose central desde as primeiras horas de vida nas lesões cianóticas complexas, frequentemente sem sopro audível proeminente",
+      "Sinais de insuficiência cardíaca (taquipneia, dificuldade de ganho ponderal, sudorese às mamadas) nas lesões com shunt esquerda-direita significativo",
+      "Sopro cardíaco à ausculta, achado variável conforme o tipo e a magnitude do defeito",
+      "Colapso cardiovascular agudo ao redor do 2º ao 5º dia de vida nas lesões ductus-dependentes, coincidindo com o fechamento fisiológico do canal arterial",
+    ],
+    diagnostico: [
+      "Rastreamento neonatal universal por oximetria de pulso antes da alta hospitalar, capaz de identificar cardiopatias congênitas críticas mesmo em recém-nascidos assintomáticos e sem sopro audível",
+      "Confirmação por ecocardiograma, exame de referência para caracterização anatômica completa do defeito",
+    ],
+    examesComplementares: [
+      "Oximetria de pulso pré e pós-ductal, exame de rastreamento universal recomendado antes da alta hospitalar, com resultado anormal exigindo ecocardiograma confirmatório",
+      "Ecocardiograma, exame de escolha para diagnóstico anatômico definitivo e planejamento terapêutico",
+      "Radiografia de tórax, com padrões característicos sugestivos de determinadas lesões (ex.: coração em 'bota' na tetralogia de Fallot)",
+    ],
+    diagnosticoDiferencial: [
+      "Hipertensão pulmonar persistente do recém-nascido, que também causa cianose e hipoxemia, mas sem malformação estrutural cardíaca subjacente",
+      "Doenças pulmonares neonatais primárias (síndrome de aspiração meconial, síndrome do desconforto respiratório), distinguidas pelo ecocardiograma normal",
+    ],
+    tratamento: [
+      "Infusão de prostaglandina E1 para manter a permeabilidade do canal arterial em lesões ductus-dependentes, medida que estabiliza o recém-nascido até a correção cirúrgica definitiva",
+      "Correção cirúrgica ou intervenção por cateterismo, definitiva ou paliativa conforme a complexidade da lesão e a idade do paciente",
+      "Suporte clínico da insuficiência cardíaca associada (diuréticos, digitálicos) em lesões com shunt esquerda-direita significativo antes da correção definitiva",
+    ],
+    complicacoes: [
+      "Aguda: colapso cardiovascular por fechamento do canal arterial em lesões ductus-dependentes não reconhecidas antes da alta hospitalar",
+      "Crônica: insuficiência cardíaca progressiva, hipertensão pulmonar secundária ao shunt esquerda-direita não corrigido (síndrome de Eisenmenger em casos extremos), endocardite infecciosa",
+    ],
+    redFlags: [
+      "Cianose central em recém-nascido sem sopro audível proeminente não exclui cardiopatia congênita crítica — a oximetria de pulso é o rastreamento adequado, não a ausculta isolada",
+      "Colapso cardiovascular súbito entre o 2º e o 5º dia de vida deve levantar suspeita imediata de lesão ductus-dependente com fechamento do canal arterial, exigindo infusão de prostaglandina E1 de emergência",
+    ],
+    prognostico:
+      "Variável conforme a complexidade da lesão: defeitos simples (comunicação interatrial pequena, por exemplo) podem ter resolução espontânea ou excelente prognóstico com correção eletiva; lesões complexas exigem correção cirúrgica estagiada e acompanhamento cardiológico ao longo da vida, com prognóstico substancialmente melhorado pelos avanços em cirurgia cardíaca pediátrica.",
+    pontosDeProva: [
+      "O rastreamento neonatal universal por oximetria de pulso identifica cardiopatias congênitas críticas mesmo na ausência de cianose visível ou sopro audível, sendo mais sensível que o exame físico isolado",
+      "Lesões ductus-dependentes podem se apresentar com colapso cardiovascular súbito ao redor do 2º ao 5º dia de vida, coincidindo com o fechamento fisiológico do canal arterial",
+      "A prostaglandina E1 mantém a permeabilidade do canal arterial, sendo medida de estabilização essencial em lesões ductus-dependentes até a correção definitiva",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo, aparentemente saudável ao nascimento, apresenta cianose progressiva e taquipneia no 3º dia de vida, sem sopro cardíaco audível à ausculta.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "A cianose de início no 3º dia de vida, coincidindo com o período esperado de fechamento fisiológico do canal arterial, é altamente sugestiva de cardiopatia congênita cianótica ductus-dependente, mesmo na ausência de sopro audível.",
+      conduta:
+        "Iniciar infusão de prostaglandina E1 para manter a permeabilidade do canal arterial, solicitar ecocardiograma de urgência para caracterização anatômica da lesão, e encaminhar para centro de referência em cardiologia pediátrica.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "furosemida", nome: "Furosemida" },
+      { slug: "digoxina", nome: "Digoxina" },
+    ],
+    medicamentosSecaoTitulo: "Suporte clínico em lesões acianóticas com shunt esquerda-direita e sobrecarga de volume (não se aplica às lesões cianóticas ductus-dependentes)",
+    medicamentosNota:
+      "Furosemida e digoxina tratam a insuficiência cardíaca por sobrecarga de volume nas lesões acianóticas com shunt esquerda-direita significativo (ex.: comunicação interventricular grande), como ponte até a correção cirúrgica — não se aplicam às lesões cianóticas ductus-dependentes. Nestas, a conduta de estabilização é a infusão de prostaglandina E1 para manter o canal arterial pérvio, medicamento que ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia da organogênese cardíaca e classificação acianótica/cianótica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Rastreamento neonatal universal por oximetria de pulso", fonte: "American Academy of Pediatrics, Endorsement of Health and Human Services Recommendation for Pulse Oximetry Screening for Critical Congenital Heart Disease, Pediatrics, 2012" },
+    ],
+  },
+  {
+    slug: "displasia-desenvolvimento-quadril",
+    nome: "Displasia do desenvolvimento do quadril",
+    sinonimos: ["DDQ", "Luxação congênita do quadril"],
+    cid10: "Q65",
+    especialidade: "Genética Médica",
+    etiologia: "Multifatorial",
+    resumo: "Espectro de anormalidades do desenvolvimento da articulação do quadril, desde instabilidade leve até luxação franca, com detecção precoce essencial para tratamento conservador eficaz e prevenção de sequelas ortopédicas permanentes.",
+    definicao:
+      "Espectro de anormalidades anatômicas da articulação coxofemoral em desenvolvimento, incluindo desde instabilidade leve (cabeça femoral que entra e sai do acetábulo) até subluxação e luxação franca, associadas a formação acetabular inadequada, sendo o termo preferido atual em substituição a 'luxação congênita do quadril' por refletir melhor a natureza evolutiva e nem sempre presente ao nascimento da condição.",
+    epidemiologia:
+      "Mais comum em recém-nascidos do sexo feminino, em apresentação pélvica, com história familiar positiva, e associada a condições que restringem o movimento fetal intraútero (oligoidrâmnio, primeira gestação); o quadril esquerdo é acometido mais frequentemente que o direito.",
+    fisiopatologia:
+      "O desenvolvimento normal do acetábulo depende do estímulo mecânico fornecido pela presença estável da cabeça femoral em seu interior durante a vida fetal e os primeiros meses de vida; fatores que promovem frouxidão ligamentar (hormônios maternos, predisposição genética) combinados com posicionamento fetal desfavorável (apresentação pélvica, restrição de espaço intrauterino) predispõem à instabilidade da articulação, que, se não identificada e tratada precocemente, resulta em desenvolvimento acetabular displásico progressivo.",
+    classificacao:
+      "Classificada clinicamente por gravidade crescente em instabilidade (quadril reduzido mas capaz de subluxar/luxar ao exame), subluxação (contato parcial entre a cabeça femoral e o acetábulo) e luxação (perda completa do contato articular normal), com graduação adicional por ultrassonografia (classificação de Graf) em lactentes.",
+    quadroClinico: [
+      "Assintomática ao nascimento na maioria dos casos, sendo detectada apenas pelo exame físico direcionado de triagem",
+      "Manobras de Ortolani (reduz um quadril luxado) e Barlow (luxa um quadril instável) positivas ao exame do recém-nascido",
+      "Em crianças maiores não diagnosticadas precocemente: assimetria de pregas cutâneas dos membros inferiores, discrepância de comprimento dos membros, claudicação ao início da marcha",
+    ],
+    diagnostico: [
+      "Exame físico de triagem sistemático em todo recém-nascido (manobras de Ortolani e Barlow), repetido em consultas subsequentes de puericultura",
+      "Ultrassonografia do quadril, exame de escolha para confirmação e graduação em lactentes até cerca de 4-6 meses de idade (antes da ossificação significativa da cabeça femoral)",
+      "Radiografia de quadril, exame de escolha após os 4-6 meses de idade, quando a ossificação já permite avaliação radiográfica adequada",
+    ],
+    examesComplementares: [
+      "Ultrassonografia do quadril (classificação de Graf), exame de escolha em lactentes jovens, permitindo avaliação da morfologia acetabular e do grau de cobertura da cabeça femoral",
+      "Radiografia de bacia, exame de escolha em crianças após os 4-6 meses de idade",
+    ],
+    diagnosticoDiferencial: [
+      "Frouxidão ligamentar generalizada benigna do recém-nascido, sem displasia acetabular verdadeira, distinguida pela ultrassonografia normal",
+      "Outras causas de claudicação ou assimetria de marcha em crianças maiores (doença de Legg-Calvé-Perthes, epifisiólise), consideradas quando o diagnóstico não é feito no período de triagem neonatal",
+    ],
+    tratamento: [
+      "Suspensório de Pavlik, tratamento de primeira linha em lactentes diagnosticados antes dos 6 meses de idade, mantendo o quadril em posição de flexão e abdução para promover a redução e o desenvolvimento acetabular normal",
+      "Redução fechada com imobilização em gesso (spica), quando o suspensório de Pavlik falha ou o diagnóstico é feito em idade mais avançada",
+      "Redução cirúrgica aberta, reservada a casos diagnosticados tardiamente ou refratários a métodos conservadores",
+    ],
+    complicacoes: [
+      "Aguda: necrose avascular da cabeça femoral, complicação relacionada ao próprio tratamento (posicionamento excessivamente forçado), exigindo monitorização durante o uso do suspensório de Pavlik",
+      "Crônica: osteoartrose precoce do quadril na vida adulta quando o diagnóstico e o tratamento são tardios ou inadequados",
+    ],
+    redFlags: [
+      "Manobras de Ortolani ou Barlow positivas ao exame neonatal exigem encaminhamento e confirmação ultrassonográfica prontos, dado que o tratamento conservador é significativamente mais eficaz quanto mais precocemente iniciado",
+      "Assimetria de pregas cutâneas dos membros inferiores ou discrepância de comprimento em lactente que passou pela triagem neonatal sem diagnóstico deve motivar reavaliação e investigação de imagem",
+    ],
+    prognostico:
+      "Excelente quando diagnosticada e tratada precocemente (antes dos 6 meses de idade), com a grande maioria alcançando desenvolvimento normal do quadril; o prognóstico piora progressivamente com o atraso diagnóstico, podendo exigir intervenções cirúrgicas mais invasivas e associar-se a osteoartrose precoce na vida adulta.",
+    pontosDeProva: [
+      "O termo 'displasia do desenvolvimento do quadril' substituiu 'luxação congênita do quadril' por refletir melhor a natureza evolutiva da condição, que nem sempre está presente como luxação franca ao nascimento",
+      "O suspensório de Pavlik é o tratamento de primeira linha em lactentes diagnosticados antes dos 6 meses, com eficácia significativamente maior quanto mais precoce o início",
+      "A necrose avascular da cabeça femoral é uma complicação relacionada ao próprio tratamento, exigindo monitorização durante o uso do suspensório de Pavlik",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascida do sexo feminino, primeira gestação, parto pélvico, apresenta manobra de Barlow positiva no quadril esquerdo ao exame de triagem neonatal, sem outros achados anormais.",
+      pergunta: "Qual a conduta diagnóstica e terapêutica apropriada?",
+      raciocinio:
+        "A manobra de Barlow positiva em recém-nascida com fatores de risco conhecidos (sexo feminino, primeira gestação, apresentação pélvica) confirma instabilidade do quadril, achado compatível com displasia do desenvolvimento do quadril.",
+      conduta:
+        "Confirmar o diagnóstico e a gravidade por ultrassonografia do quadril, e iniciar tratamento com suspensório de Pavlik, mantendo o quadril em posição de flexão e abdução para promover a redução e o desenvolvimento acetabular normal.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é ortopédico (suspensório de Pavlik, imobilização ou cirurgia), sem tratamento medicamentoso específico.",
+    fontes: [
+      { tema: "Fisiopatologia do desenvolvimento acetabular e fatores de risco", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Triagem por exame físico e critérios de encaminhamento", fonte: "American Academy of Pediatrics, Evaluation and Referral for Developmental Dysplasia of the Hip in Infants, Pediatrics, 2016" },
+    ],
+  },
+  {
+    slug: "pe-torto-congenito",
+    nome: "Pé torto congênito",
+    sinonimos: ["Pé equinovaro congênito", "Talipes equinovaro"],
+    cid10: "Q66",
+    especialidade: "Genética Médica",
+    etiologia: "Multifatorial",
+    resumo: "Deformidade congênita do pé caracterizada por equino, varo, adução e cavo, tratada preferencialmente pelo método de Ponseti, com excelentes resultados funcionais quando iniciado precocemente.",
+    definicao:
+      "Deformidade congênita complexa do pé caracterizada pela combinação de quatro componentes — equino (flexão plantar do tornozelo), varo (inversão do calcanhar), adução do antepé e cavo (arco plantar aumentado) — presente ao nascimento, podendo ser isolada (idiopática, a forma mais comum) ou associada a síndromes genéticas ou condições neuromusculares subjacentes.",
+    epidemiologia:
+      "Uma das deformidades ortopédicas congênitas mais comuns, mais frequente no sexo masculino, bilateral em aproximadamente metade dos casos; a forma idiopática isolada é a mais comum, mas deve-se sempre avaliar a possibilidade de associação com espinha bífida ou outras condições neuromusculares.",
+    fisiopatologia:
+      "A etiologia exata da forma idiopática permanece incompletamente elucidada, envolvendo provavelmente fatores genéticos (com padrão de herança multifatorial e recorrência familiar aumentada) e possível restrição de espaço intrauterino; anatomicamente, há desalinhamento das articulações do tarso associado a encurtamento de tendões e ligamentos posteromediais do pé e da perna.",
+    classificacao:
+      "Classificado em idiopático (isolado, sem outras anomalias associadas, a forma mais comum) e não idiopático (associado a condições neuromusculares como mielomeningocele/espinha bífida, artrogripose, ou síndromes genéticas), distinção relevante pois a forma não idiopática tende a ser mais rígida e menos responsiva ao tratamento conservador padrão.",
+    quadroClinico: [
+      "Pé fixo em posição de equino, varo, adução do antepé e cavo, visível e geralmente rígido (não corrigível passivamente por completo) ao exame ao nascimento",
+      "Panturrilha e pé menores no lado afetado quando unilateral",
+      "Ausência de outras anomalias associadas na forma idiopática, o que deve ser confirmado por exame físico geral cuidadoso",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico ao exame físico do recém-nascido, pela deformidade característica e sua rigidez à correção passiva",
+      "Avaliação cuidadosa para excluir associação com espinha bífida ou outras condições neuromusculares subjacentes, dado o impacto no prognóstico e na resposta ao tratamento",
+    ],
+    examesComplementares: [
+      "Diagnóstico é predominantemente clínico; exames de imagem (radiografia) têm papel limitado no período neonatal e são reservados a casos de dúvida diagnóstica ou para acompanhamento durante o tratamento",
+    ],
+    diagnosticoDiferencial: [
+      "Metatarso aduzido isolado, deformidade mais leve e flexível, sem o componente de equino característico do pé torto verdadeiro",
+      "Pé torto postural (posicional), causado por posicionamento intrauterino, geralmente flexível e corrigível passivamente, sem necessidade do tratamento estruturado do pé torto verdadeiro",
+    ],
+    tratamento: [
+      "Método de Ponseti, tratamento de primeira linha, consistindo em manipulação seriada e gessos correspondentes trocados semanalmente, seguido de tenotomia percutânea do tendão de Aquiles na maioria dos casos e uso de órtese de manutenção (barra de Dennis-Browne) por período prolongado após a correção",
+      "Cirurgia extensa de partes moles, reservada a casos refratários ao método de Ponseti ou de apresentação muito tardia",
+    ],
+    complicacoes: [
+      "Aguda: irritação cutânea e complicações relacionadas ao uso prolongado de gesso, quando o método de Ponseti não é adequadamente monitorizado",
+      "Crônica: recidiva da deformidade, mais comum quando há não adesão ao uso da órtese de manutenção após a correção inicial",
+    ],
+    redFlags: [
+      "A ausência de adesão ao uso da órtese de manutenção após a correção inicial é a causa mais comum de recidiva, exigindo orientação enfática e acompanhamento próximo da família",
+      "Pé torto associado a outras anomalias neuromusculares tende a ser mais rígido e menos responsivo ao método de Ponseti padrão, exigindo abordagem individualizada",
+    ],
+    prognostico:
+      "Excelente na forma idiopática tratada pelo método de Ponseti iniciado precocemente, com a grande maioria das crianças alcançando um pé funcional, indolor e com boa mobilidade; formas associadas a condições neuromusculares subjacentes têm prognóstico mais reservado e maior taxa de recidiva.",
+    pontosDeProva: [
+      "O método de Ponseti (manipulação seriada com gessos, tenotomia percutânea e órtese de manutenção) é o tratamento de primeira linha, substituindo amplamente a cirurgia extensa de partes moles usada no passado",
+      "A não adesão ao uso da órtese de manutenção após a correção inicial é a principal causa de recidiva, mais do que falha da técnica de correção em si",
+      "É essencial avaliar cuidadosamente a associação com espinha bífida ou outras condições neuromusculares, pois altera o prognóstico e a resposta ao tratamento conservador padrão",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo apresenta ambos os pés fixos em posição de flexão plantar, inversão do calcanhar e adução do antepé, com rigidez importante à tentativa de correção passiva. Exame neurológico e da coluna vertebral são normais.",
+      pergunta: "Qual é o diagnóstico e o tratamento de primeira linha?",
+      raciocinio:
+        "A deformidade bilateral característica (equino, varo, adução, cavo) rígida à correção passiva, na ausência de outras anomalias associadas, confirma pé torto congênito idiopático bilateral.",
+      conduta:
+        "Iniciar o método de Ponseti o mais precocemente possível, com manipulação seriada e trocas semanais de gesso, planejando tenotomia percutânea do tendão de Aquiles conforme a evolução e uso subsequente de órtese de manutenção.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é ortopédico (método de Ponseti), sem tratamento medicamentoso específico.",
+    fontes: [
+      { tema: "Fisiopatologia e classificação idiopática versus não idiopática", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Método de Ponseti e uso de órtese de manutenção", fonte: "Nelson Textbook of Pediatrics, 21ª ed." },
+    ],
+  },
+  {
+    slug: "hipospadias",
+    nome: "Hipospádias",
+    sinonimos: [],
+    cid10: "Q54",
+    especialidade: "Genética Médica",
+    etiologia: "Genética",
+    resumo: "Malformação congênita do pênis caracterizada pela abertura do meato uretral em posição ventral anômala, decorrente de fusão incompleta das prega uretrais durante o desenvolvimento embrionário masculino.",
+    definicao:
+      "Malformação congênita do pênis masculino caracterizada pela localização anômala do meato uretral na face ventral do pênis (em vez de sua posição normal na extremidade da glande), frequentemente associada a curvatura ventral do pênis (encurvamento) e a um prepúcio displásico com excesso dorsal e deficiência ventral.",
+    epidemiologia:
+      "Uma das malformações congênitas do trato geniturinário masculino mais comuns; a grande maioria dos casos é isolada, mas formas mais graves (proximais) têm associação aumentada com outras anomalias geniturinárias, incluindo criptorquidia, justificando investigação adicional nesses casos.",
+    fisiopatologia:
+      "O desenvolvimento normal da uretra peniana masculina depende da fusão completa das pregas uretrais ao longo da face ventral do pênis em desenvolvimento, processo dependente de estimulação androgênica adequada; a interrupção desse processo de fusão, por fatores genéticos ou por deficiência/resistência androgênica relativa durante uma janela crítica do desenvolvimento, resulta na abertura ectópica do meato em posição mais proximal que a normal.",
+    classificacao:
+      "Classificada pela localização anatômica do meato uretral em distal (glandar, coronal ou subcoronal, formas mais comuns e mais leves), média (peniana) e proximal (penoscrotal, escrotal ou perineal, formas mais graves e mais frequentemente associadas a outras anomalias geniturinárias e a curvatura peniana significativa).",
+    quadroClinico: [
+      "Meato uretral em posição ventral anômala, visível ao exame físico do recém-nascido",
+      "Prepúcio displásico, com aspecto de 'capuz' pelo excesso de tecido dorsal e deficiência ventral",
+      "Curvatura ventral do pênis (encurvamento), mais pronunciada nas formas proximais",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico evidente ao exame físico do recém-nascido, com classificação da gravidade conforme a localização do meato",
+      "Investigação adicional (avaliação para desordens do desenvolvimento sexual) indicada quando há hipospádias proximal associada a criptorquidia bilateral ou outras anomalias genitais ambíguas",
+    ],
+    examesComplementares: [
+      "Exame físico detalhado, principal ferramenta diagnóstica e de classificação",
+      "Ultrassonografia pélvica/geniturinária e avaliação endócrina quando há hipospádias proximal associada a criptorquidia ou genitália ambígua, para investigação de desordens do desenvolvimento sexual",
+    ],
+    diagnosticoDiferencial: [
+      "Epispádias, malformação distinta com abertura uretral na face dorsal do pênis, geralmente associada a extrofia vesical",
+      "Desordens do desenvolvimento sexual, quando a hipospádias proximal está associada a genitália ambígua ou criptorquidia bilateral",
+    ],
+    tratamento: [
+      "Correção cirúrgica eletiva, geralmente realizada entre 6 e 18 meses de idade, com técnica variando conforme a gravidade e a localização do meato",
+      "Circuncisão neonatal deve ser evitada até a correção cirúrgica definitiva, dado que o prepúcio é frequentemente utilizado como tecido doador na cirurgia reconstrutiva",
+    ],
+    complicacoes: [
+      "Aguda: complicações cirúrgicas imediatas (sangramento, infecção)",
+      "Crônica: fístula uretrocutânea e estenose do meato, complicações pós-operatórias relativamente comuns que podem exigir revisão cirúrgica adicional",
+    ],
+    redFlags: [
+      "A circuncisão neonatal deve ser evitada em todo recém-nascido com hipospádias, dado que o prepúcio é frequentemente necessário como tecido doador na cirurgia reconstrutiva posterior",
+      "Hipospádias proximal associada a criptorquidia bilateral ou genitália ambígua exige investigação para desordens do desenvolvimento sexual antes de qualquer decisão cirúrgica",
+    ],
+    prognostico:
+      "Excelente na maioria dos casos com correção cirúrgica adequada, permitindo função urinária e sexual normal na vida adulta; formas proximais mais graves têm maior taxa de complicações pós-operatórias e podem exigir múltiplas revisões cirúrgicas.",
+    pontosDeProva: [
+      "A circuncisão neonatal deve ser evitada em todo caso de hipospádias, pois o prepúcio é tecido doador importante na cirurgia reconstrutiva — orientação prática frequentemente cobrada",
+      "Hipospádias proximal associada a criptorquidia bilateral deve levantar suspeita de desordem do desenvolvimento sexual, exigindo investigação antes de qualquer intervenção",
+      "A gravidade é classificada pela localização anatômica do meato (distal, média, proximal), com implicação direta na complexidade cirúrgica e no risco de anomalias associadas",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido do sexo masculino apresenta meato uretral localizado na face ventral do pênis, na região penoscrotal, associado a criptorquidia bilateral e prepúcio displásico.",
+      pergunta: "Qual é a conduta apropriada antes de decisões cirúrgicas?",
+      raciocinio:
+        "A combinação de hipospádias proximal (penoscrotal) com criptorquidia bilateral levanta suspeita de desordem do desenvolvimento sexual subjacente, exigindo investigação antes de qualquer planejamento cirúrgico definitivo.",
+      conduta:
+        "Encaminhar para avaliação endócrina e genética especializada, incluindo cariótipo e avaliação hormonal, antes de definir o plano cirúrgico, e orientar a família para evitar circuncisão neonatal dado o uso futuro do prepúcio na reconstrução.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é cirúrgico; não há tratamento medicamentoso específico para a malformação em si.",
+    fontes: [
+      { tema: "Embriologia da formação uretral masculina e classificação por localização do meato", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Manejo cirúrgico e orientação sobre circuncisão neonatal", fonte: "Nelson Textbook of Pediatrics, 21ª ed." },
+    ],
+  },
+  {
+    slug: "criptorquidia",
+    nome: "Criptorquidia",
+    sinonimos: ["Testículo não descido"],
+    cid10: "Q53",
+    especialidade: "Genética Médica",
+    etiologia: "Multifatorial",
+    resumo: "Ausência de um ou ambos os testículos na bolsa escrotal por falha da descida testicular normal durante o desenvolvimento fetal, associada a maior risco de infertilidade e de neoplasia testicular se não corrigida oportunamente.",
+    definicao:
+      "Ausência de um ou ambos os testículos na posição escrotal normal, por interrupção do processo de descida testicular fisiológica (da cavidade abdominal, através do canal inguinal, até o escroto) que ocorre normalmente durante o terceiro trimestre da gestação, sendo o distúrbio genital congênito mais comum identificado ao nascimento em meninos.",
+    epidemiologia:
+      "Mais comum em recém-nascidos pré-termo (pela descida testicular ocorrer predominantemente no terceiro trimestre) que em recém-nascidos a termo; uma proporção significativa dos casos identificados ao nascimento resolve espontaneamente nos primeiros meses de vida pela descida completa tardia, reduzindo a prevalência real na idade em que o tratamento é geralmente considerado.",
+    fisiopatologia:
+      "A descida testicular normal ocorre em duas fases dependentes de diferentes sinalizações hormonais: a fase transabdominal (dependente do hormônio antimülleriano e de fatores locais) e a fase inguinoescrotal (dependente de andrógenos); a interrupção desse processo, por fatores anatômicos, hormonais ou genéticos, resulta na retenção do testículo em algum ponto do seu trajeto normal (intra-abdominal, inguinal, ou pré-escrotal alto).",
+    classificacao:
+      "Classificada por localização do testículo não descido em intra-abdominal, inguinal (a mais comum) e pré-escrotal alto; também classificada em palpável (testículo localizado ao exame, mas fora da posição escrotal normal) e não palpável (testículo intra-abdominal ou ausente/atrófico), distinção com implicação direta na abordagem diagnóstica e cirúrgica.",
+    quadroClinico: [
+      "Bolsa escrotal vazia ou hipoplásica no lado afetado, achado ao exame físico do recém-nascido",
+      "Testículo pode ser palpável no trajeto inguinal (forma mais comum) ou não palpável, sugerindo localização intra-abdominal ou ausência/atrofia testicular",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico pelo exame físico cuidadoso, incluindo tentativa de palpação ao longo de todo o trajeto inguinal",
+      "Distinção fundamental entre testículo criptorquídico verdadeiro e testículo retrátil (que pode ser manualmente trazido até o escroto e permanece ali temporariamente, uma variante normal que não requer tratamento)",
+    ],
+    examesComplementares: [
+      "Exame físico cuidadoso, principal ferramenta diagnóstica; exames de imagem (ultrassonografia) têm valor limitado para localizar testículos não palpáveis e não são rotineiramente recomendados para essa finalidade",
+      "Laparoscopia diagnóstica, exame de escolha quando o testículo não é palpável ao exame físico, permitindo tanto o diagnóstico da localização quanto o tratamento cirúrgico no mesmo procedimento",
+    ],
+    diagnosticoDiferencial: [
+      "Testículo retrátil, variante normal em que o testículo pode ser manualmente trazido e mantido no escroto, não exigindo intervenção",
+      "Anorquia (ausência congênita bilateral dos testículos), condição rara distinta que exige avaliação hormonal específica",
+    ],
+    tratamento: [
+      "Orquidopexia (fixação cirúrgica do testículo na posição escrotal), tratamento de escolha, recomendada idealmente entre 6 e 18 meses de idade, mais precocemente do que se pensava anteriormente, visando otimizar o potencial de fertilidade futura",
+      "Terapia hormonal com gonadotrofina coriônica humana, opção com eficácia limitada e uso mais restrito atualmente, reservada a situações específicas",
+    ],
+    complicacoes: [
+      "Aguda: torção testicular, risco discretamente aumentado no testículo criptorquídico em comparação ao testículo em posição escrotal normal",
+      "Crônica: infertilidade (mais pronunciada em casos bilaterais e quando a correção é tardia) e risco aumentado de neoplasia testicular na vida adulta, mesmo após a correção cirúrgica, exigindo autoexame testicular orientado a partir da puberdade",
+    ],
+    redFlags: [
+      "A orquidopexia deve ser realizada idealmente entre 6 e 18 meses de idade, mais precocemente do que se recomendava no passado, dado que o dano germinativo progressivo ao testículo criptorquídico começa já no primeiro ano de vida",
+      "Testículo criptorquídico bilateral associado a outras anomalias genitais deve motivar investigação para desordens do desenvolvimento sexual",
+    ],
+    prognostico:
+      "Bom com correção cirúrgica oportuna, embora o risco de infertilidade (especialmente em casos bilaterais) e de neoplasia testicular na vida adulta permaneça discretamente aumentado mesmo após a orquidopexia bem-sucedida, justificando acompanhamento e orientação de autoexame a longo prazo.",
+    pontosDeProva: [
+      "A orquidopexia é atualmente recomendada mais precocemente (6 a 18 meses) do que no passado, pela evidência de dano germinativo progressivo já no primeiro ano de vida",
+      "O testículo retrátil é uma variante normal que deve ser diferenciada da criptorquidia verdadeira, pois não requer intervenção cirúrgica",
+      "O risco de neoplasia testicular permanece discretamente aumentado mesmo após correção cirúrgica bem-sucedida, justificando orientação de autoexame testicular a partir da puberdade",
+    ],
+    casoClinico: {
+      vinheta:
+        "Lactente de 8 meses, nascido pré-termo, apresenta bolsa escrotal direita vazia desde o nascimento. Ao exame, palpa-se estrutura compatível com testículo no trajeto inguinal direito, que não pode ser trazida e mantida na posição escrotal.",
+      pergunta: "Qual é o diagnóstico e a conduta terapêutica apropriada?",
+      raciocinio:
+        "A ausência do testículo na bolsa escrotal desde o nascimento, com testículo palpável no trajeto inguinal que não pode ser mantido na posição escrotal, confirma criptorquidia verdadeira (não testículo retrátil).",
+      conduta:
+        "Encaminhar para orquidopexia, procedimento cirúrgico recomendado idealmente entre 6 e 18 meses de idade para otimizar o potencial de fertilidade futura e permitir monitorização adequada do testículo.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "A orquidopexia (correção cirúrgica) é o tratamento de escolha; a terapia hormonal com gonadotrofina coriônica humana tem eficácia limitada e uso mais restrito, e ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia da descida testicular e suas duas fases hormonais", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Idade recomendada para orquidopexia e distinção de testículo retrátil", fonte: "Kolon TF et al., Evaluation and Treatment of Cryptorchidism: AUA Guideline, Journal of Urology, 2014" },
+    ],
+  },
+  {
+    slug: "doenca-renal-policistica-malformacoes-renais-congenitas",
+    nome: "Doença renal policística e outras malformações renais congênitas",
+    sinonimos: ["Rim policístico congênito", "Doença renal policística autossômica recessiva"],
+    cid10: "Q61",
+    especialidade: "Genética Médica",
+    etiologia: "Genética",
+    resumo: "Doença renal cística hereditária que se manifesta na infância, causada por mutações no gene PKHD1, com espectro que varia de formas neonatais graves com oligoidrâmnio grave até formas mais leves diagnosticadas na infância tardia.",
+    definicao:
+      "Doença renal cística hereditária de padrão autossômico recessivo, causada por mutações no gene PKHD1, caracterizada por dilatação cística fusiforme dos ductos coletores renais associada a fibrose hepática congênita, com apresentação clínica que varia de forma perinatal grave (frequentemente fatal) até formas mais leves diagnosticadas na infância ou adolescência.",
+    epidemiologia:
+      "Doença rara, mas é a principal causa de doença renal cística hereditária sintomática no período neonatal e na infância, distinta da forma autossômica dominante do adulto (mais comum na população geral, mas de manifestação tipicamente tardia).",
+    fisiopatologia:
+      "Mutações no gene PKHD1, que codifica a fibrocistina/poliductina, proteína envolvida na diferenciação normal dos ductos coletores e dos ductos biliares, resultam em dilatação cística fusiforme (não esférica, ao contrário da forma autossômica dominante) dos ductos coletores renais, com preservação da arquitetura renal geral mas perda progressiva de néfrons funcionais; a mesma mutação also causa fibrose hepática congênita por displasia ductal biliar, explicando o acometimento combinado renal e hepático característico da doença.",
+    classificacao:
+      "Classificada clinicamente por idade de apresentação em forma perinatal (a mais grave, com oligoidrâmnio grave e sequência de Potter, frequentemente fatal no período neonatal por hipoplasia pulmonar), forma neonatal/infantil (menos grave, mas ainda com insuficiência renal progressiva) e forma juvenil (diagnosticada mais tardiamente, com predomínio relativo de manifestações hepáticas de hipertensão portal).",
+    quadroClinico: [
+      "Forma perinatal: oligoidrâmnio grave (por redução acentuada da produção de urina fetal), rins aumentados bilateralmente e hiperecogênicos à ultrassonografia, hipoplasia pulmonar secundária ao oligoidrâmnio (sequência de Potter)",
+      "Formas mais tardias: hipertensão arterial de difícil controle, insuficiência renal progressiva, hepatomegalia e sinais de hipertensão portal (varizes esofágicas, esplenomegalia) por fibrose hepática congênita associada",
+    ],
+    diagnostico: [
+      "Diagnóstico pré-natal por ultrassonografia obstétrica, demonstrando rins aumentados e hiperecogênicos associados a oligoidrâmnio, nos casos de forma perinatal grave",
+      "Diagnóstico pós-natal por ultrassonografia renal e hepática, associada a história familiar compatível com padrão de herança autossômica recessiva; confirmação por análise genética molecular do gene PKHD1 quando disponível",
+    ],
+    examesComplementares: [
+      "Ultrassonografia renal, demonstrando rins aumentados e hiperecogênicos bilateralmente, com preservação da diferenciação corticomedular na maioria dos casos ao contrário de outras doenças renais císticas",
+      "Ultrassonografia hepática, para avaliação da fibrose hepática congênita e de sinais de hipertensão portal associados",
+      "Função renal seriada, para monitorização da progressão da doença renal crônica",
+    ],
+    diagnosticoDiferencial: [
+      "Doença renal policística autossômica dominante do adulto, distinguida pelo padrão de herança, pela idade de apresentação tipicamente tardia e pela morfologia cística tipicamente esférica (não fusiforme)",
+      "Displasia renal multicística, malformação renal distinta e geralmente unilateral, sem o padrão de herança familiar e sem o acometimento hepático característico",
+    ],
+    tratamento: [
+      "Não há tratamento curativo específico; o manejo é de suporte multidisciplinar, incluindo controle rigoroso da hipertensão arterial e manejo da insuficiência renal progressiva",
+      "Suporte respiratório intensivo no período neonatal em casos com hipoplasia pulmonar associada à forma perinatal grave",
+      "Manejo da hipertensão portal e de suas complicações (varizes esofágicas) nas formas com fibrose hepática mais proeminente",
+      "Diálise e transplante renal (e, em casos selecionados com fibrose hepática grave, transplante combinado fígado-rim) para doença renal em estágio terminal",
+    ],
+    complicacoes: [
+      "Aguda: insuficiência respiratória grave por hipoplasia pulmonar na forma perinatal, frequentemente fatal nas primeiras horas/dias de vida",
+      "Crônica: doença renal crônica progressiva até estágio terminal, hipertensão portal com risco de sangramento por varizes esofágicas, hipertensão arterial de difícil controle",
+    ],
+    redFlags: [
+      "Oligoidrâmnio grave associado a rins fetais aumentados e hiperecogênicos exige aconselhamento antenatal cuidadoso com a família sobre o prognóstico grave associado à hipoplasia pulmonar esperada",
+      "Sinais de hipertensão portal (esplenomegalia, varizes esofágicas) em criança com doença renal policística conhecida devem motivar vigilância endoscópica e manejo especializado, dado o risco de sangramento significativo",
+    ],
+    prognostico:
+      "Reservado na forma perinatal grave, com mortalidade neonatal elevada por hipoplasia pulmonar; nos sobreviventes do período neonatal e nas formas de apresentação mais tardia, a sobrevida a longo prazo melhorou substancialmente com diálise e transplante renal, embora a função renal e hepática exijam acompanhamento especializado contínuo ao longo da vida.",
+    pontosDeProva: [
+      "A doença renal policística autossômica recessiva é causada por mutações no gene PKHD1, distinta geneticamente da forma autossômica dominante do adulto (genes PKD1/PKD2)",
+      "A dilatação cística é fusiforme (não esférica) nos ductos coletores, e a mesma mutação causa fibrose hepática congênita associada, explicando o acometimento combinado renal e hepático característico",
+      "A forma perinatal grave é frequentemente fatal por hipoplasia pulmonar secundária ao oligoidrâmnio grave (sequência de Potter), não pela insuficiência renal em si",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 32 semanas, ultrassonografia mostra rins fetais bilateralmente aumentados e hiperecogênicos, associados a oligoidrâmnio grave. História de um irmão anterior falecido no período neonatal por insuficiência respiratória.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e a implicação prognóstica?",
+      raciocinio:
+        "Os rins aumentados e hiperecogênicos associados a oligoidrâmnio grave, somados à história familiar de óbito neonatal por insuficiência respiratória (sugestivo de hipoplasia pulmonar em um irmão previamente afetado), são compatíveis com doença renal policística autossômica recessiva na forma perinatal grave, condição com padrão de herança autossômica recessiva.",
+      conduta:
+        "Realizar aconselhamento genético para a família, incluindo discussão sobre o prognóstico grave esperado (risco elevado de hipoplasia pulmonar fatal) e sobre a possibilidade de confirmação por análise molecular do gene PKHD1.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "losartana-potassica", nome: "Losartana potássica" },
+    ],
+    medicamentosNota:
+      "A losartana é usada no controle da hipertensão arterial associada, frequentemente de difícil controle nessa doença; não há tratamento medicamentoso que module a progressão da doença cística em si.",
+    fontes: [
+      { tema: "Fisiopatologia da mutação do gene PKHD1 e acometimento renal-hepático combinado", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Classificação por idade de apresentação e manejo multidisciplinar", fonte: "Guay-Woodford LM et al., Consensus Expert Recommendations for the Diagnosis and Management of Autosomal Recessive Polycystic Kidney Disease: Report of an International Conference, Journal of Pediatrics, 2014" },
+    ],
+  },
+  {
+    slug: "onfalocele-gastrosquise",
+    nome: "Onfalocele e gastrosquise",
+    sinonimos: ["Defeitos da parede abdominal"],
+    cid10: "Q79",
+    especialidade: "Genética Médica",
+    etiologia: "Multifatorial",
+    resumo: "Defeitos congênitos da parede abdominal anterior com exteriorização de vísceras, distinguidos pela presença ou ausência de saco peritoneal de cobertura e pela associação com outras malformações, com implicações diretas no manejo e no prognóstico.",
+    definicao:
+      "Grupo de defeitos congênitos da parede abdominal anterior caracterizados pela exteriorização de vísceras abdominais para fora da cavidade, incluindo a onfalocele (herniação através do anel umbilical, coberta por um saco peritoneal, frequentemente associada a outras malformações e anomalias cromossômicas) e a gastrosquise (defeito paraumbilical, tipicamente à direita do cordão umbilical, sem saco de cobertura, geralmente isolada).",
+    epidemiologia:
+      "Ambos são defeitos congênitos relativamente raros; a onfalocele está fortemente associada a anomalias cromossômicas e outras malformações estruturais (até metade dos casos), enquanto a gastrosquise é tipicamente isolada e mais associada a mães jovens, refletindo prováveis diferenças na fisiopatologia entre as duas condições.",
+    fisiopatologia:
+      "A onfalocele resulta da falha de retorno completo do intestino médio à cavidade abdominal após a herniação fisiológica normal que ocorre durante o desenvolvimento embrionário precoce, permanecendo coberto pelo âmnio e peritônio (daí o saco de cobertura); a gastrosquise resulta de um defeito na parede abdominal lateral ao anel umbilical, com teoria mais aceita envolvendo uma falha vascular localizada (interrupção da artéria onfalomesentérica direita) durante o desenvolvimento, sem relação com o processo de retorno intestinal normal — daí a ausência de saco de cobertura e a menor associação com anomalias cromossômicas.",
+    classificacao:
+      "Diferenciadas principalmente pela presença (onfalocele) ou ausência (gastrosquise) de saco peritoneal de cobertura, pela localização do defeito em relação ao cordão umbilical (central na onfalocele, paraumbilical tipicamente à direita na gastrosquise), e pela frequência de anomalias associadas (alta na onfalocele, baixa na gastrosquise).",
+    quadroClinico: [
+      "Onfalocele: massa central coberta por membrana translúcida (âmnio/peritônio) contendo alças intestinais e, frequentemente, fígado, com o cordão umbilical inserido no ápice do saco",
+      "Gastrosquise: alças intestinais exteriorizadas sem cobertura membranosa, tipicamente à direita de um cordão umbilical de inserção normal, com alças frequentemente edemaciadas e com aspecto inflamatório pela exposição direta ao líquido amniótico",
+    ],
+    diagnostico: [
+      "Diagnóstico pré-natal por ultrassonografia obstétrica de rotina, geralmente no primeiro ou segundo trimestre, com alta sensibilidade para ambas as condições",
+      "Investigação adicional para anomalias cromossômicas e estruturais associadas obrigatória quando há onfalocele, dada a alta frequência de associação",
+    ],
+    examesComplementares: [
+      "Ultrassonografia obstétrica detalhada, com avaliação cuidadosa de anomalias associadas, especialmente cardíacas, na onfalocele",
+      "Cariótipo fetal, fortemente recomendado quando há onfalocele, dada a associação com trissomias e outras anomalias cromossômicas",
+      "Alfafetoproteína sérica materna elevada, achado inespecífico mas frequentemente presente em ambas as condições",
+    ],
+    diagnosticoDiferencial: [
+      "Hérnia umbilical fisiológica do cordão (hérnia fisiológica do intestino médio, resolvida espontaneamente até a 12ª semana de gestação), distinguida pelo momento e pelo tamanho do defeito",
+      "Extrofia de cloaca e outras malformações complexas da parede abdominal inferior, distinguidas pela localização e pela associação com anomalias geniturinárias específicas",
+    ],
+    tratamento: [
+      "Planejamento do parto em centro com suporte cirúrgico neonatal imediato disponível, essencial para ambas as condições",
+      "Onfalocele: fechamento cirúrgico primário quando o defeito é pequeno e permite redução sem tensão excessiva; fechamento estagiado (com uso de silo) quando o defeito é grande ou há desproporção entre o conteúdo herniado e a cavidade abdominal",
+      "Gastrosquise: proteção imediata das alças expostas (envoltório estéril, evitando perda de calor e líquido) e redução cirúrgica, primária ou estagiada com silo, geralmente nas primeiras horas de vida",
+    ],
+    complicacoes: [
+      "Aguda: hipotermia e perda hídrica significativa pela exposição das vísceras (mais pronunciada na gastrosquise, pela ausência de saco de cobertura), síndrome compartimental abdominal se o fechamento for realizado sob tensão excessiva",
+      "Crônica: disfunção de motilidade intestinal prolongada, mais comum na gastrosquise pela exposição direta e inflamação intestinal induzida pelo líquido amniótico; síndrome do intestino curto em casos com atresia intestinal associada",
+    ],
+    redFlags: [
+      "Vísceras expostas na gastrosquise devem ser protegidas imediatamente após o nascimento (envoltório estéril não aderente, posicionamento adequado) para minimizar perda de calor, líquido e o risco de comprometimento vascular das alças",
+      "Toda onfalocele exige investigação cromossômica e estrutural completa antes do planejamento cirúrgico definitivo, dada a alta frequência de anomalias associadas que podem alterar significativamente o prognóstico geral",
+    ],
+    prognostico:
+      "Na gastrosquise isolada, o prognóstico é geralmente bom após a correção cirúrgica, embora a disfunção intestinal transitória possa prolongar a necessidade de nutrição parenteral; na onfalocele, o prognóstico depende predominantemente das anomalias associadas (cromossômicas, cardíacas) mais do que do defeito da parede abdominal em si.",
+    pontosDeProva: [
+      "A presença de saco de cobertura (onfalocele) versus sua ausência (gastrosquise) é a principal distinção diagnóstica e reflete mecanismos fisiopatológicos completamente distintos",
+      "A onfalocele tem associação muito mais forte com anomalias cromossômicas e estruturais, exigindo investigação cromossômica obrigatória, ao contrário da gastrosquise, tipicamente isolada",
+      "A gastrosquise está mais associada a mães jovens e a exposição intestinal direta ao líquido amniótico, o que explica a inflamação e a disfunção de motilidade intestinal frequentemente observadas após o nascimento",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo, mãe de 19 anos sem comorbidades, apresenta alças intestinais exteriorizadas sem cobertura membranosa, localizadas à direita de um cordão umbilical de inserção normal, com aspecto edemaciado.",
+      pergunta: "Qual é o diagnóstico e a conduta imediata?",
+      raciocinio:
+        "A exteriorização de alças intestinais sem saco de cobertura, paraumbilical à direita, em mãe jovem, é característica de gastrosquise, condição tipicamente isolada.",
+      conduta:
+        "Proteger imediatamente as alças expostas com envoltório estéril não aderente para minimizar perda de calor e líquido, posicionar adequadamente o recém-nascido, e encaminhar para correção cirúrgica (primária ou estagiada com silo) nas primeiras horas de vida.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é cirúrgico e de suporte intensivo neonatal; não há tratamento medicamentoso específico para o defeito da parede abdominal em si.",
+    fontes: [
+      { tema: "Fisiopatologia distinta da onfalocele e da gastrosquise e associação com anomalias cromossômicas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Manejo cirúrgico neonatal imediato", fonte: "Nelson Textbook of Pediatrics, 21ª ed." },
+    ],
+  },
+  {
+    slug: "estenose-hipertrofica-piloro",
+    nome: "Estenose hipertrófica do piloro",
+    sinonimos: ["EHP"],
+    cid10: "Q40",
+    especialidade: "Genética Médica",
+    etiologia: "Multifatorial",
+    resumo: "Hipertrofia progressiva da musculatura pilórica que causa obstrução mecânica da saída gástrica, classicamente manifesta entre a terceira e a sexta semana de vida com vômitos não biliosos em jato e alcalose metabólica hipoclorêmica.",
+    definicao:
+      "Hipertrofia e hiperplasia progressivas da camada muscular circular do piloro, causando estreitamento e alongamento progressivos do canal pilórico com obstrução mecânica da saída gástrica, tipicamente manifesta entre a terceira e a sexta semana de vida em lactentes previamente saudáveis.",
+    epidemiologia:
+      "Mais comum em lactentes do sexo masculino, primogênitos, com maior incidência em determinados grupos étnicos; a etiologia exata permanece incompletamente elucidada, com provável componente genético (maior risco em irmãos e filhos de pais afetados) e ambiental combinados.",
+    fisiopatologia:
+      "A hipertrofia e hiperplasia progressivas das fibras musculares circulares do piloro, por mecanismo ainda não completamente elucidado (possivelmente relacionado a deficiência local de óxido nítrico sintase e alteração da inervação entérica pilórica), resultam em estreitamento e alongamento do canal pilórico ('oliva pilórica' palpável), causando obstrução mecânica progressiva da saída gástrica; os vômitos repetidos de conteúdo gástrico (rico em ácido clorídrico e pobre em bile, dado que a obstrução é proximal à ampola de Vater) resultam em perda de hidrogênio, cloreto e potássio, gerando a alcalose metabólica hipoclorêmica e hipocalêmica característica.",
+    classificacao:
+      "Não há um sistema de estadiamento formal amplamente usado; a gravidade é avaliada pela intensidade da desidratação e do distúrbio hidroeletrolítico associado no momento do diagnóstico.",
+    quadroClinico: [
+      "Vômitos não biliosos em jato, progressivos em frequência e volume, tipicamente iniciando entre a 3ª e a 6ª semana de vida",
+      "Lactente com fome persistente e disposto a mamar novamente logo após o episódio de vômito ('lactente faminto')",
+      "Perda ou estagnação ponderal progressiva com a persistência dos vômitos não tratados",
+      "'Oliva pilórica' palpável no quadrante superior direito/epigástrio em lactente calmo, achado clássico quando presente",
+      "Ondas peristálticas visíveis no abdome superior logo após a mamada, em casos mais avançados",
+    ],
+    diagnostico: [
+      "Suspeita clínica pelo padrão característico de vômitos não biliosos em jato de início entre a 3ª e a 6ª semana de vida, associado à palpação da 'oliva pilórica' quando presente",
+      "Confirmação por ultrassonografia abdominal, exame de escolha, demonstrando espessamento e alongamento característicos do canal pilórico",
+    ],
+    examesComplementares: [
+      "Ultrassonografia abdominal, exame de escolha para confirmação diagnóstica, com critérios de espessura muscular e comprimento do canal pilórico bem estabelecidos",
+      "Gasometria venosa e eletrólitos, demonstrando o padrão característico de alcalose metabólica hipoclorêmica e hipocalêmica, essencial para guiar a correção pré-operatória",
+    ],
+    diagnosticoDiferencial: [
+      "Refluxo gastroesofágico do lactente, distinguido pela ausência de vômitos em jato verdadeiros e pela ausência dos achados ultrassonográficos característicos",
+      "Erros inatos do metabolismo e outras causas de vômitos persistentes no lactente, consideradas quando a ultrassonografia não confirma a hipertrofia pilórica",
+      "Outras causas de obstrução da saída gástrica (membrana antral, má rotação intestinal), distinguidas por achados de imagem específicos",
+    ],
+    tratamento: [
+      "Correção pré-operatória cuidadosa da desidratação e do distúrbio hidroeletrolítico (alcalose metabólica hipoclorêmica e hipocalêmica) antes de qualquer intervenção cirúrgica, etapa essencial e nunca dispensável",
+      "Piloromiotomia (incisão longitudinal da camada muscular hipertrofiada do piloro, preservando a mucosa), tratamento cirúrgico definitivo e curativo, realizado somente após a correção metabólica adequada",
+    ],
+    complicacoes: [
+      "Aguda: desidratação grave e distúrbio hidroeletrolítico significativo (alcalose metabólica, hipocalemia) se o diagnóstico for tardio; perfuração da mucosa duodenal, complicação cirúrgica rara durante a piloromiotomia",
+      "Crônica: excelente evolução após a correção cirúrgica, sem sequelas significativas de longo prazo na grande maioria dos casos",
+    ],
+    redFlags: [
+      "A cirurgia nunca deve ser realizada antes da correção completa da alcalose metabólica e da desidratação, pelo risco significativo de complicações anestésicas e respiratórias (apneia pós-operatória) associadas à alcalose não corrigida",
+      "Vômitos biliosos (esverdeados) não são característicos da estenose hipertrófica do piloro e devem levantar suspeita de outras causas de obstrução intestinal mais distal, como má rotação com volvo",
+    ],
+    prognostico:
+      "Excelente após a piloromiotomia, com resolução completa dos sintomas e sem sequelas de longo prazo na grande maioria dos casos, desde que a correção metabólica pré-operatória tenha sido adequada.",
+    pontosDeProva: [
+      "Os vômitos são caracteristicamente não biliosos, pois a obstrução é proximal à ampola de Vater — vômitos biliosos devem afastar essa hipótese e sugerir obstrução mais distal",
+      "A alcalose metabólica hipoclorêmica e hipocalêmica resulta da perda de ácido gástrico pelos vômitos repetidos, e sua correção completa é pré-requisito obrigatório antes da cirurgia",
+      "A 'oliva pilórica' palpável no quadrante superior direito é o achado clássico ao exame físico, embora sua ausência não exclua o diagnóstico, exigindo confirmação ultrassonográfica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Lactente de 5 semanas de vida, sexo masculino, primogênito, apresenta vômitos não biliosos em jato progressivos há 1 semana, com fome persistente após os episódios e perda ponderal. Ao exame, palpa-se massa oval no quadrante superior direito do abdome.",
+      pergunta: "Qual é o diagnóstico mais provável e a conduta apropriada?",
+      raciocinio:
+        "O padrão característico de vômitos não biliosos em jato de início entre a 3ª e a 6ª semana de vida, associado a fome persistente e à palpação da 'oliva pilórica', é altamente sugestivo de estenose hipertrófica do piloro.",
+      conduta:
+        "Confirmar o diagnóstico por ultrassonografia abdominal, corrigir cuidadosamente a desidratação e o distúrbio hidroeletrolítico (alcalose metabólica hipoclorêmica) antes de qualquer intervenção, e encaminhar para piloromiotomia após a estabilização metabólica completa.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento definitivo é cirúrgico (piloromiotomia); a correção hidroeletrolítica pré-operatória (reposição de líquidos e eletrólitos) é medida de suporte essencial, não um tratamento medicamentoso específico da doença.",
+    fontes: [
+      { tema: "Fisiopatologia da hipertrofia pilórica e mecanismo da alcalose metabólica hipoclorêmica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Diagnóstico ultrassonográfico e necessidade de correção pré-operatória", fonte: "Nelson Textbook of Pediatrics, 21ª ed." },
+    ],
+  },
+  {
+    slug: "doenca-de-hirschsprung",
+    nome: "Doença de Hirschsprung",
+    sinonimos: ["Megacólon congênito", "Megacólon agangliônico"],
+    cid10: "Q43",
+    especialidade: "Genética Médica",
+    etiologia: "Genética",
+    resumo: "Obstrução intestinal funcional congênita causada pela ausência de células ganglionares parassimpáticas em um segmento distal do intestino, mais comumente o retossigmoide, causando um estado de contração tônica persistente e obstrução funcional.",
+    definicao:
+      "Malformação congênita do sistema nervoso entérico caracterizada pela ausência de células ganglionares parassimpáticas (aganglionose) em um segmento contíguo do intestino, iniciando-se sempre no esfíncter anal interno e estendendo-se proximalmente por extensão variável, resultando em um segmento afetado que permanece em contração tônica persistente e causa obstrução funcional do trânsito intestinal.",
+    epidemiologia:
+      "Mais comum no sexo masculino, com a forma clássica (retossigmoide) representando a grande maioria dos casos; associada a diversas síndromes genéticas, mais notavelmente a síndrome de Down, que tem risco significativamente aumentado de doença de Hirschsprung associada.",
+    fisiopatologia:
+      "Durante o desenvolvimento embrionário normal, células da crista neural migram craniocaudalmente ao longo do intestino em formação, diferenciando-se em células ganglionares dos plexos mioentérico e submucoso; a interrupção dessa migração antes de completar todo o trajeto até o ânus resulta em um segmento distal aganglionar, que permanece incapaz de relaxar (perdendo a inibição neural normal) e gera obstrução funcional, com dilatação secundária do segmento proximal normalmente inervado (megacólon) pela obstrução crônica a jusante.",
+    classificacao:
+      "Classificada pela extensão do segmento aganglionar em doença de segmento curto (retossigmoide, a mais comum, representando a grande maioria dos casos), segmento longo (estendendo-se além do sigmoide) e aganglionose colônica total (acometendo todo o cólon, forma mais rara e grave).",
+    quadroClinico: [
+      "Atraso na eliminação do mecônio além de 48 horas de vida, achado altamente sugestivo em recém-nascidos",
+      "Distensão abdominal progressiva e vômitos, sinais de obstrução intestinal funcional",
+      "Em casos diagnosticados mais tardiamente: constipação crônica grave desde o nascimento, resistente a medidas habituais, com episódios de suboclusão intestinal recorrente",
+      "Enterocolite associada à doença de Hirschsprung, complicação potencialmente grave que pode ocorrer antes ou depois da correção cirúrgica",
+    ],
+    diagnostico: [
+      "Suspeita clínica pela combinação de atraso na eliminação de mecônio além de 48 horas associado a distensão abdominal e vômitos, ou por constipação crônica grave de início neonatal em crianças maiores",
+      "Biópsia retal, exame padrão-ouro para confirmação diagnóstica, demonstrando ausência de células ganglionares e hipertrofia de fibras nervosas colinérgicas no segmento afetado",
+    ],
+    examesComplementares: [
+      "Enema contrastado, demonstrando a zona de transição característica entre o segmento aganglionar estreitado e o segmento proximal dilatado, achado de apoio mas não definitivo",
+      "Biópsia retal por sucção, exame de confirmação diagnóstica definitiva, com análise histopatológica e, quando disponível, coloração para acetilcolinesterase",
+      "Manometria anorretal, demonstrando ausência do reflexo inibitório retoanal normal, achado de apoio complementar",
+    ],
+    diagnosticoDiferencial: [
+      "Íleo meconial e outras obstruções intestinais mecânicas do recém-nascido, distinguidas pela biópsia retal normal e por achados radiológicos específicos",
+      "Constipação funcional da infância, distinguida pela ausência de sintomas desde o período neonatal e pela biópsia retal normal quando realizada",
+      "Síndrome do cólon esquerdo pequeno (transitória, associada a diabetes materno), que se resolve espontaneamente e não apresenta aganglionose à biópsia",
+    ],
+    tratamento: [
+      "Descompressão intestinal inicial (lavagens retais, colostomia de descarga em casos selecionados) para estabilização antes da correção cirúrgica definitiva",
+      "Cirurgia de abaixamento (pull-through), tratamento definitivo, removendo o segmento aganglionar e conectando o intestino normalmente inervado ao ânus, com diversas técnicas cirúrgicas disponíveis",
+      "Vigilância e tratamento prontos da enterocolite associada à doença de Hirschsprung, complicação potencialmente grave que exige reconhecimento precoce",
+    ],
+    complicacoes: [
+      "Aguda: enterocolite associada à doença de Hirschsprung, complicação potencialmente grave e com risco de sepse, podendo ocorrer antes ou depois da correção cirúrgica",
+      "Crônica: incontinência fecal e constipação persistente pós-operatória em uma proporção de pacientes, exigindo acompanhamento e manejo especializado de longo prazo",
+    ],
+    redFlags: [
+      "Atraso na eliminação de mecônio além de 48 horas de vida em recém-nascido a termo deve sempre motivar investigação para doença de Hirschsprung antes de ser atribuído a outras causas menos específicas",
+      "Sinais de enterocolite associada à doença de Hirschsprung (distensão abdominal, febre, diarreia explosiva, instabilidade sistêmica) constituem emergência que exige reconhecimento e tratamento imediatos, dado o risco de sepse",
+    ],
+    prognostico:
+      "Bom na maioria dos casos após a cirurgia de abaixamento, com a maioria das crianças alcançando continência fecal satisfatória, embora uma proporção mantenha algum grau de disfunção intestinal (constipação ou incontinência) exigindo manejo especializado contínuo.",
+    pontosDeProva: [
+      "O segmento aganglionar começa sempre no esfíncter anal interno e se estende proximalmente por extensão variável — nunca há um segmento aganglionar 'isolado' mais proximal sem acometimento do reto distal",
+      "A biópsia retal por sucção é o exame padrão-ouro para confirmação diagnóstica, demonstrando ausência de células ganglionares",
+      "A associação com síndrome de Down é significativamente aumentada, devendo motivar rastreamento em pacientes com essa síndrome que apresentem constipação grave ou atraso na eliminação de mecônio",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo, sem eliminação de mecônio em 60 horas de vida, apresenta distensão abdominal progressiva e recusa alimentar. Ao toque retal, há eliminação explosiva de fezes e gases após a retirada do dedo.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e o exame confirmatório?",
+      raciocinio:
+        "O atraso significativo na eliminação de mecônio associado a distensão abdominal e à eliminação explosiva de fezes ao toque retal (sinal característico) é altamente sugestivo de doença de Hirschsprung.",
+      conduta:
+        "Solicitar enema contrastado para identificar a zona de transição e confirmar o diagnóstico por biópsia retal por sucção, exame padrão-ouro, antes de planejar a cirurgia de abaixamento definitiva.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento definitivo é cirúrgico (cirurgia de abaixamento); não há tratamento medicamentoso específico para a aganglionose em si.",
+    fontes: [
+      { tema: "Fisiopatologia da migração das células da crista neural e aganglionose", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Diagnóstico por biópsia retal e manejo da enterocolite associada", fonte: "Gosain A, Frykman PK et al., Guidelines for the Diagnosis and Management of Hirschsprung-Associated Enterocolitis, American Pediatric Surgical Association Hirschsprung Disease Interest Group, Pediatric Surgery International, 2017" },
+    ],
+  },
 ];
