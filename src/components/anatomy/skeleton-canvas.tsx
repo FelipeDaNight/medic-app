@@ -1,0 +1,126 @@
+"use client";
+
+import { Suspense, useEffect, useRef } from "react";
+import { Canvas, useThree, type ThreeEvent } from "@react-three/fiber";
+import { OrbitControls, useGLTF } from "@react-three/drei";
+import type { OrbitControls as OrbitControlsImpl } from "three-stdlib";
+import * as THREE from "three";
+import { SKELETON_MODEL_URL } from "@/data/skeletalSystem";
+
+useGLTF.setDecoderPath("/draco/");
+useGLTF.preload(SKELETON_MODEL_URL);
+
+const HIGHLIGHT_COLOR = new THREE.Color("#2bb3a1");
+const DIMMED_OPACITY = 0.12;
+
+interface SkeletonModelProps {
+  visibleMeshNames: Set<string> | null;
+  selectedMeshName: string | null;
+  onSelect: (meshName: string) => void;
+  controlsRef: React.RefObject<OrbitControlsImpl | null>;
+}
+
+function SkeletonModel({ visibleMeshNames, selectedMeshName, onSelect, controlsRef }: SkeletonModelProps) {
+  const { scene } = useGLTF(SKELETON_MODEL_URL);
+  const camera = useThree((state) => state.camera);
+
+  useEffect(() => {
+    scene.traverse((obj) => {
+      if (!(obj instanceof THREE.Mesh)) return;
+      if (!obj.userData.cloned) {
+        obj.material = (obj.material as THREE.MeshStandardMaterial).clone();
+        obj.userData.cloned = true;
+      }
+      const material = obj.material as THREE.MeshStandardMaterial;
+      const isVisible = !visibleMeshNames || visibleMeshNames.has(obj.name);
+      material.transparent = !isVisible;
+      material.opacity = isVisible ? 1 : DIMMED_OPACITY;
+      material.depthWrite = isVisible;
+      material.emissive.copy(obj.name === selectedMeshName ? HIGHLIGHT_COLOR : new THREE.Color(0x000000));
+    });
+  }, [scene, visibleMeshNames, selectedMeshName]);
+
+  // Frame the camera on the region's own bounds whenever the region (not the
+  // selection) changes, so switching regions actually brings that body part
+  // into view instead of leaving a fixed whole-body camera. Three.js's
+  // camera is an imperative scene-graph object, not React state — mutating
+  // it in place (position, near/far, projection matrix) is the normal way
+  // to move it, which is what the disabled rule below is objecting to.
+  /* eslint-disable react-hooks/immutability */
+  useEffect(() => {
+    const box = new THREE.Box3();
+    let found = false;
+    scene.traverse((obj) => {
+      if (!(obj instanceof THREE.Mesh)) return;
+      if (visibleMeshNames && !visibleMeshNames.has(obj.name)) return;
+      box.expandByObject(obj);
+      found = true;
+    });
+    if (!found) return;
+
+    const size = box.getSize(new THREE.Vector3());
+    const center = box.getCenter(new THREE.Vector3());
+    const maxDim = Math.max(size.x, size.y, size.z) || 1;
+    const distance = maxDim * 1.7;
+
+    camera.position.set(center.x, center.y, center.z + distance);
+    if (camera instanceof THREE.PerspectiveCamera) {
+      camera.near = Math.max(maxDim / 100, 0.01);
+      camera.far = maxDim * 50;
+      camera.updateProjectionMatrix();
+    }
+
+    const controls = controlsRef.current;
+    if (controls) {
+      controls.target.copy(center);
+      controls.update();
+    }
+  }, [scene, visibleMeshNames, camera, controlsRef]);
+  /* eslint-enable react-hooks/immutability */
+
+  function handleClick(event: ThreeEvent<MouseEvent>) {
+    event.stopPropagation();
+    const mesh = event.object;
+    if (!(mesh instanceof THREE.Mesh)) return;
+    if (visibleMeshNames && !visibleMeshNames.has(mesh.name)) return;
+    onSelect(mesh.name);
+  }
+
+  return <primitive object={scene} onClick={handleClick} />;
+}
+
+function Loading() {
+  return (
+    <mesh>
+      <sphereGeometry args={[0.001]} />
+    </mesh>
+  );
+}
+
+interface SkeletonCanvasProps {
+  visibleMeshNames: Set<string> | null;
+  selectedMeshName: string | null;
+  onSelect: (meshName: string) => void;
+}
+
+export function SkeletonCanvas({ visibleMeshNames, selectedMeshName, onSelect }: SkeletonCanvasProps) {
+  const controlsRef = useRef<OrbitControlsImpl | null>(null);
+
+  return (
+    <Canvas camera={{ position: [0, 0.2, 2.6], fov: 40, near: 0.01, far: 50 }} dpr={[1, 2]}>
+      <color attach="background" args={["transparent"]} />
+      <hemisphereLight args={["#ffffff", "#7a8494", 1]} />
+      <directionalLight position={[2, 3, 2]} intensity={1.1} />
+      <directionalLight position={[-2, -1, -2]} intensity={0.4} />
+      <Suspense fallback={<Loading />}>
+        <SkeletonModel
+          visibleMeshNames={visibleMeshNames}
+          selectedMeshName={selectedMeshName}
+          onSelect={onSelect}
+          controlsRef={controlsRef}
+        />
+      </Suspense>
+      <OrbitControls ref={controlsRef} makeDefault minDistance={0.05} maxDistance={8} enableDamping />
+    </Canvas>
+  );
+}

@@ -102,6 +102,48 @@ export interface Disease {
   fontes: FonteTema[];
 }
 
+export const REGIOES_ESQUELETO = [
+  "cranio",
+  "denticao",
+  "coluna-vertebral",
+  "torax",
+  "cintura-escapular-braco",
+  "antebraco-mao",
+  "cintura-pelvica-coxa",
+  "perna-pe",
+] as const;
+
+export type RegiaoEsqueleto = (typeof REGIOES_ESQUELETO)[number];
+
+export const TIPOS_OSSO = [
+  "Osso longo",
+  "Osso curto",
+  "Osso chato",
+  "Osso irregular",
+  "Osso sesamoide",
+  "Osso pneumático",
+] as const;
+
+export type TipoOsso = (typeof TIPOS_OSSO)[number];
+
+export interface Osso {
+  slug: string;
+  meshNames: string[];
+  nomeOficial: string;
+  nomeComum: string;
+  regiao: RegiaoEsqueleto;
+  par: boolean;
+  tipoOsso: TipoOsso;
+  resumo: string;
+  descricaoAnatomica: string;
+  relacoesAnatomicas: string[];
+  marcosAnatomicos: string[];
+  correlacaoClinica: string;
+  doencasRelacionadas: RelatedLink[];
+  pontosDeProva: string[];
+  fontes: FonteTema[];
+}
+
 export interface ClinicalUpdate {
   slug: string;
   titulo: string;

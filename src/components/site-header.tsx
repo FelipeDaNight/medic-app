@@ -13,6 +13,7 @@ const NAV_LINKS = [
   { href: "/atualizacoes", label: "Atualizações" },
   { href: "/medicamentos", label: "Medicamentos" },
   { href: "/doencas", label: "Doenças" },
+  { href: "/anatomia/esqueleto", label: "Anatomia 3D" },
 ];
 
 function cx(...classes: (string | false | undefined)[]) {
