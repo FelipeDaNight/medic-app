@@ -23,6 +23,7 @@ interface SkeletonModelProps {
 function SkeletonModel({ visibleMeshNames, selectedMeshName, onSelect, controlsRef }: SkeletonModelProps) {
   const { scene } = useGLTF(SKELETON_MODEL_URL);
   const camera = useThree((state) => state.camera);
+  const invalidate = useThree((state) => state.invalidate);
 
   useEffect(() => {
     scene.traverse((obj) => {
@@ -38,7 +39,8 @@ function SkeletonModel({ visibleMeshNames, selectedMeshName, onSelect, controlsR
       material.depthWrite = isVisible;
       material.emissive.copy(obj.name === selectedMeshName ? HIGHLIGHT_COLOR : new THREE.Color(0x000000));
     });
-  }, [scene, visibleMeshNames, selectedMeshName]);
+    invalidate();
+  }, [scene, visibleMeshNames, selectedMeshName, invalidate]);
 
   // Frame the camera on the region's own bounds whenever the region (not the
   // selection) changes, so switching regions actually brings that body part
@@ -75,7 +77,8 @@ function SkeletonModel({ visibleMeshNames, selectedMeshName, onSelect, controlsR
       controls.target.copy(center);
       controls.update();
     }
-  }, [scene, visibleMeshNames, camera, controlsRef]);
+    invalidate();
+  }, [scene, visibleMeshNames, camera, controlsRef, invalidate]);
   /* eslint-enable react-hooks/immutability */
 
   function handleClick(event: ThreeEvent<MouseEvent>) {
@@ -107,8 +110,12 @@ export function SkeletonCanvas({ visibleMeshNames, selectedMeshName, onSelect }:
   const controlsRef = useRef<OrbitControlsImpl | null>(null);
 
   return (
-    <Canvas camera={{ position: [0, 0.2, 2.6], fov: 40, near: 0.01, far: 50 }} dpr={[1, 2]}>
-      <color attach="background" args={["transparent"]} />
+    <Canvas
+      camera={{ position: [0, 0.2, 2.6], fov: 40, near: 0.01, far: 50 }}
+      dpr={[1, 2]}
+      gl={{ alpha: true }}
+      frameloop="demand"
+    >
       <hemisphereLight args={["#ffffff", "#7a8494", 1]} />
       <directionalLight position={[2, 3, 2]} intensity={1.1} />
       <directionalLight position={[-2, -1, -2]} intensity={0.4} />
