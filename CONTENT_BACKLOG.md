@@ -15,7 +15,7 @@ Fontes:
   está, o único item da lista ainda pendente por esse motivo.
 
 Já documentados com ficha completa (**fora deste backlog**, não repetir):
-- **Doenças (281):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
+- **Doenças (310):** HAS · IC · DM2 · Hipotireoidismo · Asma · PAC · Tuberculose pulmonar
   · Dengue · COVID-19 · Gastrite · DRGE · Artrite reumatoide · LES · Alzheimer · Anemia
   ferropriva · DRC · Infarto agudo do miocárdio · Angina pectoris · Doença isquêmica
   crônica do coração · Fibrilação e flutter atrial · Parada cardíaca · Febre reumática ·
@@ -116,8 +116,20 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   atópica · Melanoma maligno da pele · Outras neoplasias malignas da pele
   (basocelular e espinocelular) · Impetigo · Celulite e flegmão ·
   Urticária · Pênfigo · Dermatite seborreica · Dermatite alérgica de
-  contato · Abscesso cutâneo, furúnculo e antraz
-- **Medicamentos (58):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
+  contato · Abscesso cutâneo, furúnculo e antraz · Asfixia perinatal · Síndrome do
+  desconforto respiratório do recém-nascido · Síndrome de aspiração meconial ·
+  Displasia broncopulmonar · Sepse neonatal · Doença hemolítica do feto e do
+  recém-nascido · Kernicterus e icterícia neonatal patológica · Hemorragia
+  intracraniana não traumática do recém-nascido · Enterocolite necrosante · Íleo
+  meconial e outras obstruções intestinais do recém-nascido · Hipoglicemia neonatal ·
+  Restrição de crescimento intrauterino · Prematuridade e complicações do baixo peso
+  ao nascer · Convulsões neonatais · Síndrome de Down · Síndrome de Edwards e síndrome
+  de Patau · Síndrome de Turner · Espinha bífida · Hidrocefalia congênita · Fenda
+  labial e/ou palatina · Cardiopatias congênitas · Displasia do desenvolvimento do
+  quadril · Pé torto congênito · Hipospádias · Criptorquidia · Doença renal
+  policística e outras malformações renais congênitas · Onfalocele e gastrosquise ·
+  Estenose hipertrófica do piloro · Doença de Hirschsprung
+- **Medicamentos (102):** Paracetamol · Dipirona · Ibuprofeno · Amoxicilina ·
   Amoxicilina+Clavulanato · Azitromicina · Omeprazol · Losartana · Captopril · Metformina
   · Sinvastatina · Prednisona · Salbutamol · Diazepam · Varfarina · Insulina NPH ·
   Enalapril · Budesonida inalatória · Espironolactona · Carvedilol · Dapagliflozina ·
@@ -131,7 +143,18 @@ Já documentados com ficha completa (**fora deste backlog**, não repetir):
   valsartana sódica hidratada · Ácido acetilsalicílico (AAS) · Glibenclamida ·
   Gliclazida · Propiltiouracila · Tiamazol (metimazol) · Succinato sódico de
   hidrocortisona · Fosfato sódico de prednisolona · Insulina análoga (ação
-  prolongada/rápida) · Sulfato de magnésio
+  prolongada/rápida) · Sulfato de magnésio · Brometo de ipratrópio · Fosfato de
+  oseltamivir · Ceftriaxona · Benzilpenicilina benzatina · Sulfametoxazol +
+  trimetoprima · Fluconazol · Metronidazol · Claritromicina · Ciprofloxacino ·
+  Cloridrato de doxiciclina · Aciclovir · Ivermectina · Albendazol · Cloridrato de
+  clindamicina · Sulfato de morfina · Mesalazina · Cloridrato de ondansetrona ·
+  Cianocobalamina · Carbamazepina · Ácido valproico · Fenitoína · Clonazepam ·
+  Levodopa + benserazida/carbidopa · Cloridrato de amitriptilina · Cloridrato de
+  fluoxetina · Haloperidol · Risperidona · Carbonato de lítio · Cloridrato de
+  clorpromazina · Olanzapina · Clobazam · Alopurinol · Cloridrato de naloxona ·
+  Flumazenil · Estrogênios conjugados · Etinilestradiol + levonorgestrel ·
+  Levonorgestrel isolado · Misoprostol · Finasterida · Citrato de sildenafila ·
+  Cetoconazol · Permetrina · Acetato de hidrocortisona tópica · Betametasona
 
 ---
 
@@ -506,16 +529,121 @@ agrupadas em uma única ficha.
 10. concluído — Dermatite alérgica de contato (L23)
 11. concluído — Abscesso cutâneo, furúnculo e antraz (L02)
 
-**Total: 0 doenças pendentes — todos os 21 lotes concluídos, 281 doenças
-fichadas.** Oftalmologia, Neurologia, Hematologia, Nefrologia+Urologia,
-Psiquiatria, Otorrinolaringologia, Ginecologia/Obstetrícia e Dermatologia
-estão todas fechadas por completo. **Não há próximo lote de doenças
-pendente no backlog atual** — qualquer novo lote exigirá extrair novas
-categorias CID-10 de `cid10-index.ts` (especialidades ainda não
-mapeadas: Cardiologia/Pneumologia/Gastroenterologia/etc. restantes fora
-dos lotes já listados, ou expansão de especialidades já fechadas para
-CID-10 mais raros) seguindo a mesma metodologia usada para Oftalmologia,
-ORL e GO.**
+**Situação após os 21 lotes originais: 281 doenças fichadas, 0 pendentes.** Oftalmologia,
+Neurologia, Hematologia, Nefrologia+Urologia, Psiquiatria, Otorrinolaringologia,
+Ginecologia/Obstetrícia e Dermatologia estavam todas fechadas por completo.
+
+### ⭐ NOVO MAPEAMENTO — Pediatria/Neonatologia, Genética Médica, Ortopedia,
+### Traumatologia e Dermatologia 2 (75, em 5 lotes)
+
+A pedido do usuário, mapeadas cinco novas especialidades ainda não cobertas por nenhum
+lote anterior, contra os capítulos "Algumas afecções originadas no período perinatal"
+(P00-P96), "Malformações congênitas, deformidades e anomalias cromossômicas" (Q00-Q99),
+"Doenças do sistema osteomuscular e do tecido conjuntivo" (M00-M99, categorias
+ortopédicas/mecânicas ainda não usadas pela Reumatologia no Lote 6), "Lesões,
+envenenamento e algumas outras consequências de causas externas" (S00-T98) e as
+categorias L* de "Doenças da pele" ainda não fichadas na Dermatologia do Lote 21, todos
+de `src/data/cid10-index.ts`. Mesmo critério de sempre: exclusão de categorias
+puramente administrativas/cruzadas ("em doenças classificadas em outra parte", "não
+classificado em outra parte" sem conteúdo clínico distinto) e agrupamento de códigos
+de lateralidade/subsítio muito estreitos (ex.: fraturas por segmento anatômico, várias
+categorias de malformação cardíaca) em uma única ficha por entidade clínica, como já
+feito em Oftalmologia/Neurologia/ORL/GO. S00-T98 é o capítulo mais extenso do CID-10
+(centenas de categorias de 3 caracteres, majoritariamente combinações de
+lateralidade/tipo de fratura); o Lote 25 abaixo não pretende esgotá-lo, só cobrir as
+entidades de maior valor curricular (uma fratura/luxação por grande segmento anatômico,
+politraumatismo, queimaduras e intoxicação exógena).
+
+### Lote 22 — Pediatria/Neonatologia (14) — ✅ CONCLUÍDO
+1. concluído — Asfixia perinatal (P21)
+2. concluído — Síndrome do desconforto respiratório do recém-nascido / doença da membrana hialina (P22)
+3. concluído — Síndrome de aspiração meconial (P24)
+4. concluído — Displasia broncopulmonar / doença respiratória crônica do RN (P27)
+5. concluído — Sepse neonatal (P36)
+6. concluído — Doença hemolítica do feto e do recém-nascido / incompatibilidade Rh e ABO (P55)
+7. concluído — Kernicterus e icterícia neonatal patológica (P57+P58+P59)
+8. concluído — Hemorragia intracraniana não traumática do RN / hemorragia peri-intraventricular do prematuro (P52)
+9. concluído — Enterocolite necrosante (P77)
+10. concluído — Íleo meconial e outras obstruções intestinais do RN (P75+P76)
+11. concluído — Hipoglicemia neonatal e outros transtornos transitórios do metabolismo (P70)
+12. concluído — Restrição de crescimento intrauterino (P05)
+13. concluído — Prematuridade e complicações do baixo peso ao nascer (P07)
+14. concluído — Convulsões neonatais (P90)
+
+### Lote 23 — Genética Médica / Malformações Congênitas (15) — ✅ CONCLUÍDO
+1. concluído — Síndrome de Down (Q90)
+2. concluído — Síndrome de Edwards e síndrome de Patau (Q91)
+3. concluído — Síndrome de Turner (Q96)
+4. concluído — Espinha bífida (Q05)
+5. concluído — Hidrocefalia congênita (Q03) *(distinta da hidrocefalia adquirida, G91, já fichada em Neurologia)*
+6. concluído — Fenda labial e/ou palatina (Q35+Q36+Q37)
+7. concluído — Cardiopatias congênitas (Q20-Q28)
+8. concluído — Displasia do desenvolvimento do quadril (Q65)
+9. concluído — Pé torto congênito (Q66)
+10. concluído — Hipospádias (Q54)
+11. concluído — Criptorquidia / testículo não descido (Q53)
+12. concluído — Doença renal policística e outras malformações renais congênitas (Q60+Q61+Q63)
+13. concluído — Onfalocele e gastrosquise (Q79, subgrupo de defeitos da parede abdominal)
+14. concluído — Estenose hipertrófica do piloro (Q40)
+15. concluído — Doença de Hirschsprung (Q43)
+
+### Lote 24 — Ortopedia (15)
+1. pendente — Artrite séptica (M00)
+2. pendente — Escoliose (M41)
+3. pendente — Espondilose e estenose do canal vertebral (M47+M48)
+4. pendente — Hérnia de disco cervical (M50)
+5. pendente — Hérnia de disco lombar (M51)
+6. pendente — Osteomielite (M86)
+7. pendente — Osteonecrose (M87)
+8. pendente — Doença de Paget óssea (M88)
+9. pendente — Síndrome do manguito rotador e capsulite adesiva do ombro (M75)
+10. pendente — Epicondilites e fasciíte plantar (M77)
+11. pendente — Bursites (M70+M71)
+12. pendente — Tenossinovites e dedo em gatilho (M65+M67)
+13. pendente — Osteoporose com fratura patológica (M80)
+14. pendente — Deformidades adquiridas dos dedos e membros / hálux valgo, geno valgo-varo (M20+M21)
+15. pendente — Fibromialgia e outros transtornos de tecidos moles (M79)
+
+### Lote 25 — Traumatologia (16)
+1. pendente — Traumatismo cranioencefálico (S06)
+2. pendente — Fratura de crânio e ossos da face (S02)
+3. pendente — Traumatismo da coluna cervical / fratura e luxação (S12+S13)
+4. pendente — Fratura de costelas, esterno e coluna torácica (S22)
+5. pendente — Fratura da coluna lombar e da pelve (S32)
+6. pendente — Fratura do ombro e do braço (S42)
+7. pendente — Luxação do ombro (S43)
+8. pendente — Fratura do antebraço (S52)
+9. pendente — Fratura do punho e da mão (S62)
+10. pendente — Fratura do fêmur (S72)
+11. pendente — Fratura da perna, incluindo tornozelo (S82)
+12. pendente — Lesões do joelho / entorse e luxação (S83)
+13. pendente — Fratura do pé, exceto tornozelo (S92)
+14. pendente — Politraumatismo (T00-T07)
+15. pendente — Queimaduras (T20-T32)
+16. pendente — Intoxicação exógena por medicamentos e substâncias biológicas (T36-T50)
+
+### Lote 26 — Dermatologia 2 (15)
+1. pendente — Penfigoide bolhoso (L12)
+2. pendente — Eritema polimorfo / eritema multiforme (L51)
+3. pendente — Eritema nodoso (L52)
+4. pendente — Acne (L70)
+5. pendente — Rosácea (L71)
+6. pendente — Vitiligo (L80)
+7. pendente — Alopecia areata (L63)
+8. pendente — Alopecia androgenética (L64)
+9. pendente — Líquen plano (L43)
+10. pendente — Pitiríase rósea (L42)
+11. pendente — Dermatite de contato irritativa e das fraldas (L22+L24)
+12. pendente — Úlcera de decúbito / lesão por pressão (L89)
+13. pendente — Úlcera venosa de membros inferiores (L97)
+14. pendente — Piodermite gangrenosa (L88)
+15. pendente — Fotodermatoses agudas / queimadura solar (L55+L56)
+
+**Total: 46 doenças pendentes em 3 lotes** (Lotes 22-23 — Pediatria/Neonatologia e
+Genética Médica/Malformações Congênitas, 29 itens — concluídos; restam Ortopedia,
+Traumatologia e Dermatologia 2). Todos os 6 lotes numerados do backlog de medicamentos
+já estão concluídos (ver seção 2 abaixo). **Próxima prioridade de doenças: Lote 24 —
+Ortopedia (15 itens).**
 
 ---
 
@@ -563,78 +691,84 @@ consta" e a Ocitocina, que depende do Apêndice B.
 14. concluído — Insulina análoga de ação prolongada / de ação rápida (A10AE / A10AB)
 15. concluído — Sulfato de magnésio (A06AD04 uso oral; A12CC02 / B05XA05 uso injetável)
 
-### Lote 3 — Sistema respiratório + Anti-infecciosos (15) — ✅ todos revalidados
-1. pendente — Brometo de ipratrópio (R03BB01)
-2. pendente — Fosfato de oseltamivir (J05AH02)
-3. pendente — Ceftriaxona (J01DD04)
-4. pendente — Benzilpenicilina benzatina (J01CE08) — **código corrigido**: era J01CR02 por engano (esse é o código da amoxicilina + clavulanato, já documentada)
-5. pendente — Sulfametoxazol + trimetoprima (J01EE01)
-6. pendente — Fluconazol (J02AC01)
-7. pendente — Metronidazol (J01XD01) — apresentação sistêmica; gel vaginal (G01AF01) já citado como uso ginecológico
-8. pendente — Claritromicina (J01FA09)
-9. pendente — Ciprofloxacino (J01MA02)
-10. pendente — Cloridrato de doxiciclina (J01AA02) — **código corrigido**: era J01FF01 por engano (esse é o código da cloridrato de clindamicina, item novo abaixo)
-11. pendente — Aciclovir — ✅ **confirmado, duas apresentações**: sistêmica (200/250mg, comprimido/injetável, Básico, J05AB01) e tópica (creme 5%, Básico, D06BB03)
-12. pendente — Ivermectina (P02CF01)
-13. pendente — Albendazol (P02CA03)
+### Lote 3 — Sistema respiratório + Anti-infecciosos (15) — ✅ CONCLUÍDO
+1. concluído — Brometo de ipratrópio (R03BB01)
+2. concluído — Fosfato de oseltamivir (J05AH02)
+3. concluído — Ceftriaxona (J01DD04)
+4. concluído — Benzilpenicilina benzatina (J01CE08) — **código corrigido**: era J01CR02 por engano (esse é o código da amoxicilina + clavulanato, já documentada)
+5. concluído — Sulfametoxazol + trimetoprima (J01EE01)
+6. concluído — Fluconazol (J02AC01)
+7. concluído — Metronidazol (J01XD01) — apresentação sistêmica; gel vaginal (G01AF01) já citado como uso ginecológico
+8. concluído — Claritromicina (J01FA09)
+9. concluído — Ciprofloxacino (J01MA02)
+10. concluído — Cloridrato de doxiciclina (J01AA02) — **código corrigido**: era J01FF01 por engano (esse é o código da cloridrato de clindamicina, item novo abaixo)
+11. concluído — Aciclovir — ✅ **confirmado, duas apresentações**: sistêmica (200/250mg, comprimido/injetável, Básico, J05AB01) e tópica (creme 5%, Básico, D06BB03)
+12. concluído — Ivermectina (P02CF01)
+13. concluído — Albendazol (P02CA03)
 14. pendente — Mebendazol — ⛔ **não consta na RENAME 2024** (ausente da seção P completa, 20 itens verificados). Albendazol (P02CA03, item 13 acima) é o antiparasitário de amplo espectro presente no lugar.
 15. concluído — Sulfato de hidroxicloroquina (P01BA02) — já cruza com Reumatologia (LES/AR já fichados)
-16. pendente — Cloridrato de clindamicina (J01FF01) — item novo, achado na revalidação (ATC que eu tinha atribuído por engano à doxiciclina)
-17. pendente — Sulfato de morfina (N02AA01) — item novo, achado na revalidação; opioide de referência, alto valor curricular (dor, cuidados paliativos, EAP)
+16. concluído — Cloridrato de clindamicina (J01FF01) — item novo, achado na revalidação (ATC que eu tinha atribuído por engano à doxiciclina)
+17. concluído — Sulfato de morfina (N02AA01) — item novo, achado na revalidação; opioide de referência, alto valor curricular (dor, cuidados paliativos, EAP)
 
-### Lote 4 — Trato alimentar/digestivo + Sistema nervoso (13) — ✅ todos revalidados
-1. pendente — Mesalazina (A07EC02)
-2. pendente — Cloridrato de ondansetrona (A04AA01)
+### Lote 4 — Trato alimentar/digestivo + Sistema nervoso (13) — ✅ CONCLUÍDO
+1. concluído — Mesalazina (A07EC02)
+2. concluído — Cloridrato de ondansetrona (A04AA01)
 3. concluído — Sulfato ferroso (B03AA07) — já cruza com Anemia ferropriva (doença já fichada)
-4. pendente — Cianocobalamina / vitamina B12 (B03BA01)
+4. concluído — Cianocobalamina / vitamina B12 (B03BA01)
 5. pendente — Loperamida — ⛔ **não consta na RENAME 2024** (não aparece em nenhuma seção A-V verificada). Não há antidiarreico antimotilidade (classe opioide-símile) na lista — a abordagem de primeira linha da RENAME/SUS para diarreia aguda é reposição hidroeletrolítica com sais para reidratação oral (A07CA, já confirmado na tabela), não um substituto farmacológico direto.
 6. pendente — Domperidona — ⛔ **não consta na RENAME 2024** (não aparece em nenhuma seção A-V verificada). Cloridrato de metoclopramida (A03FA01, já confirmado) é o antiemético/procinético presente no lugar.
-7. pendente — Carbamazepina (N03AF01)
-8. pendente — Ácido valproico (N03AG01)
-9. pendente — Fenitoína (N03AB02) — ✅ **confirmado**
-10. pendente — Clonazepam (N03AE01) — ✅ **confirmado**
-11. pendente — Levodopa + benserazida ou + carbidopa (N04BA02) — ✅ **confirmado**, duas combinações com o mesmo ATC
+7. concluído — Carbamazepina (N03AF01)
+8. concluído — Ácido valproico (N03AG01)
+9. concluído — Fenitoína (N03AB02) — ✅ **confirmado**
+10. concluído — Clonazepam (N03AE01) — ✅ **confirmado**
+11. concluído — Levodopa + benserazida ou + carbidopa (N04BA02) — ✅ **confirmado**, duas combinações com o mesmo ATC
 12. pendente — Sumatriptana — ⛔ **não consta na RENAME 2024** (nenhum triptano na seção N completa). Não há classe de abortivo específico para enxaqueca na lista — a RENAME cobre a crise só com analgésicos gerais já presentes (dipirona, paracetamol, AAS).
-13. pendente — Cloridrato de amitriptilina (N06AA09) — ✅ **confirmado**
+13. concluído — Cloridrato de amitriptilina (N06AA09) — ✅ **confirmado**
 
-### Lote 5 — Sistema nervoso restante + Sistema musculoesquelético (11) — ✅ todos revalidados
-1. pendente — Cloridrato de fluoxetina (N06AB03) — **código corrigido**: era N06DA02 por engano (esse é o código da cloridrato de donepezila, droga distinta para Alzheimer)
+### Lote 5 — Sistema nervoso restante + Sistema musculoesquelético (11) — ✅ CONCLUÍDO
+1. concluído — Cloridrato de fluoxetina (N06AB03) — **código corrigido**: era N06DA02 por engano (esse é o código da cloridrato de donepezila, droga distinta para Alzheimer)
 2. pendente — Sertralina — ⛔ **não consta na RENAME 2024** (ausente da seção N completa, 55+ itens verificados). Cloridrato de fluoxetina (item 1 acima) é o ISRS presente na lista.
-3. pendente — Haloperidol (N05AD01) — nome ajustado: a RENAME 2024 lista "haloperidol" (comprimido, injetável, gotas orais), não especificamente a forma decanoato de depósito
-4. pendente — Risperidona (N05AX08)
-5. pendente — Carbonato de lítio (N05AN01)
-6. pendente — Cloridrato de clorpromazina (N05AA01)
-7. pendente — Olanzapina (N05AH03) — **código corrigido**: era N07BA01 por engano (esse é o código da nicotina, adesivo/goma para cessação de tabagismo)
-8. pendente — Clobazam (N05BA09)
+3. concluído — Haloperidol (N05AD01) — nome ajustado: a RENAME 2024 lista "haloperidol" (comprimido, injetável, gotas orais), não especificamente a forma decanoato de depósito
+4. concluído — Risperidona (N05AX08)
+5. concluído — Carbonato de lítio (N05AN01)
+6. concluído — Cloridrato de clorpromazina (N05AA01)
+7. concluído — Olanzapina (N05AH03) — **código corrigido**: era N07BA01 por engano (esse é o código da nicotina, adesivo/goma para cessação de tabagismo)
+8. concluído — Clobazam (N05BA09)
 9. pendente — Colchicina — ⛔ **não consta na RENAME 2024** (ausente da seção M completa, 14 itens verificados)
-10. pendente — Alopurinol (M04AA01, 100/300mg comprimido, Básico)
+10. concluído — Alopurinol (M04AA01, 100/300mg comprimido, Básico)
 11. concluído — Metotrexato (L04AX03, 25mg/mL solução injetável e 2,5mg comprimido, Especializado) — já cruza com AR/LES (doenças já fichadas)
-12. pendente — Cloridrato de naloxona (V03AB15) — item novo, achado na revalidação; antídoto de opioides, alto valor curricular (emergência/toxicologia)
-13. pendente — Flumazenil (V03AB25) — item novo, achado na revalidação; antídoto de benzodiazepínicos, alto valor curricular (emergência/toxicologia)
+12. concluído — Cloridrato de naloxona (V03AB15) — item novo, achado na revalidação; antídoto de opioides, alto valor curricular (emergência/toxicologia)
+13. concluído — Flumazenil (V03AB25) — item novo, achado na revalidação; antídoto de benzodiazepínicos, alto valor curricular (emergência/toxicologia)
 
 *(Removido "Metildigoxina" do lote anterior — redundante com digoxina, já coberta acima; não é item distinto de alto valor curricular.)*
 
-### Lote 6 — Sistema geniturinário / hormônios + Dermatológicos (13) — ✅ revalidados (exceto ocitocina, que depende do Apêndice B)
-1. pendente — Estrogênios conjugados (G03CA57)
-2. pendente — Etinilestradiol + levonorgestrel (G03AA07) — **código corrigido**: era G03CA57 por engano (esse é o código dos estrogênios conjugados, item 1)
-3. pendente — Levonorgestrel isolado (G03AC03) — item novo, contracepção de emergência
-4. pendente — Misoprostol (G02AD06)
+### Lote 6 — Sistema geniturinário / hormônios + Dermatológicos (13) — ✅ CONCLUÍDO (exceto ocitocina, que depende do Apêndice B)
+1. concluído — Estrogênios conjugados (G03CA57)
+2. concluído — Etinilestradiol + levonorgestrel (G03AA07) — **código corrigido**: era G03CA57 por engano (esse é o código dos estrogênios conjugados, item 1)
+3. concluído — Levonorgestrel isolado (G03AC03) — item novo, contracepção de emergência
+4. concluído — Misoprostol (G02AD06)
 5. pendente — Ocitocina — ⚠ confirmado ausente em **todo o Apêndice A** (letras A-V, revisado por completo); só resolve com o Apêndice B (Anexos por financiamento, págs. 122-224, ainda não obtido). Único item da lista nessa situação.
-6. pendente — Finasterida (G04CB01)
-7. pendente — Citrato de sildenafila (G04BE03) — código confirmado, antes não constava
-8. pendente — Cetoconazol (D01AC08)
+6. concluído — Finasterida (G04CB01)
+7. concluído — Citrato de sildenafila (G04BE03) — código confirmado, antes não constava
+8. concluído — Cetoconazol (D01AC08)
 9. pendente — Clotrimazol — ⛔ **não consta na RENAME 2024** (ausente das seções D e G, ambas revisadas por completo). Nitrato de miconazol e cetoconazol (já confirmados acima) são os antifúngicos tópicos presentes na lista.
-10. pendente — Permetrina (P03AC04, 10mg/g e 50mg/g loção, Básico)
-11. pendente — Acetato de hidrocortisona tópica (D07AA02)
-12. pendente — Betametasona / acetato + fosfato dissódico (H02AB01)
+10. concluído — Permetrina (P03AC04, 10mg/g e 50mg/g loção, Básico)
+11. concluído — Acetato de hidrocortisona tópica (D07AA02)
+12. concluído — Betametasona / acetato + fosfato dissódico (H02AB01)
 13. concluído — Levotiroxina sódica (H03AA01) — já usada no Hipotireoidismo e Tireoidite (doenças já fichadas)
 
-**Total: 59 medicamentos pendentes em 4 lotes** (Lotes 1-2 — Sistema cardiovascular e
-Cardiovascular restante/trombolíticos/Endocrinologia, 30 itens — concluídos; 89
-medicamentos totais no backlog original, 82 originais + 4 itens novos achados durante a
-revalidação: cloridrato de clindamicina, sulfato de morfina, cloridrato de naloxona,
-flumazenil + 3 itens novos abaixo: donepezila, memantina, esquema RIPE). **Próxima
-prioridade: Lote 3 (Sistema respiratório + Anti-infecciosos, 15 itens).**
+**Situação após os 6 lotes: todos os lotes numerados do backlog original de
+medicamentos estão concluídos** (Lotes 1-6, 74 itens documentados neste ciclo de
+lotes). Não há mais nenhum lote pendente para documentar — os únicos itens do
+backlog original ainda em aberto são casos especiais, não um lote a seguir:
+**Ocitocina** (⚠ confirmada ausente em todo o Apêndice A, depende do Apêndice B da
+RENAME 2024, ainda não obtido) e os **7 itens ⛔ "não consta na RENAME 2024"**
+(Loperamida, Domperidona, Mebendazol, Sumatriptana, Sertralina, Colchicina,
+Clotrimazol — cada um com equivalente terapêutico já documentado anotado). **Próxima
+prioridade: qualquer trabalho futuro em medicamentos exigirá mapear uma nova
+categoria/classe terapêutica do zero contra a RENAME 2024, ou seguir para os 5 lotes
+de doenças mapeados (Pediatria/Neonatologia, Genética Médica, Ortopedia,
+Traumatologia, Dermatologia 2 — ver seção 1 acima).**
 
 ### Itens adicionados fora da ordem dos lotes — ✅ concluídos e revalidados
 Priorizados a pedido do usuário por já fecharem vínculos cruzados que existiam do lado

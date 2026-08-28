@@ -413,6 +413,7 @@ export const diseases: Disease[] = [
       { slug: "salbutamol", nome: "Salbutamol" },
       { slug: "prednisona", nome: "Prednisona" },
       { slug: "fosfato-sodico-prednisolona", nome: "Fosfato sódico de prednisolona" },
+      { slug: "brometo-de-ipratropio", nome: "Brometo de ipratrópio" },
     ],
     fontes: [
       { tema: "Classificação de gravidade/controle e algoritmo terapêutico", fonte: "GINA (Global Initiative for Asthma), 2024" },
@@ -494,6 +495,7 @@ export const diseases: Disease[] = [
       { slug: "amoxicilina", nome: "Amoxicilina" },
       { slug: "amoxicilina-clavulanato", nome: "Amoxicilina + Clavulanato" },
       { slug: "azitromicina", nome: "Azitromicina" },
+      { slug: "claritromicina", nome: "Claritromicina" },
     ],
     fontes: [
       { tema: "Escore CURB-65 e estratificação de gravidade", fonte: "fonte pendente" },
@@ -1373,6 +1375,7 @@ export const diseases: Disease[] = [
       { slug: "estreptoquinase", nome: "Estreptoquinase" },
       { slug: "alteplase", nome: "Alteplase" },
       { slug: "acido-acetilsalicilico", nome: "Ácido acetilsalicílico (AAS)" },
+      { slug: "sulfato-de-morfina", nome: "Sulfato de morfina" },
     ],
     medicamentosSecaoTitulo: "Medicamentos de manutenção/prevenção secundária",
     medicamentosNota:
@@ -1774,11 +1777,14 @@ export const diseases: Disease[] = [
       conduta:
         "Confirmar infecção estreptocócica prévia com ASLO, solicitar ecocardiograma para caracterizar a cardite, iniciar antibioticoterapia para erradicação do estreptococo e anti-inflamatório, e programar profilaxia secundária prolongada.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "benzilpenicilina-benzatina", nome: "Benzilpenicilina benzatina" },
+    ],
+    medicamentosNota:
+      "A penicilina benzatina é usada tanto na erradicação do estreptococo na fase aguda quanto na profilaxia secundária prolongada com doses regulares a cada 21-28 dias.",
     fontes: [
       { tema: "Fisiopatologia (mimetismo molecular)", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Critérios de Jones revisados", fonte: "Critérios de Jones revisados (American Heart Association, 2015)" },
-      { tema: "Penicilina benzatina no tratamento e profilaxia secundária (ainda sem ficha própria de medicamento no site)", fonte: "fonte pendente" },
     ],
   },
   {
@@ -2776,11 +2782,14 @@ export const diseases: Disease[] = [
       conduta:
         "Confirmar hipercortisolismo com pelo menos dois testes de rastreamento (cortisol livre urinário de 24h, teste de supressão com dexametasona overnight ou cortisol salivar noturno) e, se confirmado, dosar ACTH sérico para direcionar a investigação etiológica.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cetoconazol", nome: "Cetoconazol" },
+    ],
+    medicamentosNota:
+      "O tratamento definitivo é cirúrgico (remoção do tumor causador); o cetoconazol sistêmico é usado como inibidor da esteroidogênese quando a cirurgia não é possível, não é curativa, ou enquanto se aguarda seu efeito.",
     fontes: [
       { tema: "Classificação ACTH-dependente/independente e fisiopatologia", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Critérios diagnósticos bioquímicos", fonte: "Endocrine Society Clinical Practice Guideline for Cushing's Syndrome, 2008" },
-      { tema: "Inibidores da esteroidogênese no tratamento (ainda sem fichas próprias no site)", fonte: "fonte pendente" },
     ],
   },
   {
@@ -3362,6 +3371,7 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "salbutamol", nome: "Salbutamol" },
+      { slug: "brometo-de-ipratropio", nome: "Brometo de ipratrópio" },
     ],
     medicamentosSecaoTitulo: "Medicamento de alívio (resgate)",
     medicamentosNota:
@@ -4454,7 +4464,12 @@ export const diseases: Disease[] = [
       conduta:
         "Repetir a investigação com teste de 4ª geração (Ag/Ac combinado) ou carga viral, dada a alta suspeita clínica de síndrome retroviral aguda apesar do teste convencional negativo, e orientar sobre reteste em algumas semanas se persistir a suspeita.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "sulfametoxazol-trimetoprima", nome: "Sulfametoxazol + trimetoprima" },
+      { slug: "fluconazol", nome: "Fluconazol" },
+    ],
+    medicamentosNota:
+      "Sulfametoxazol-trimetoprima e fluconazol são usados na profilaxia e no tratamento de infecções oportunistas (pneumonia por Pneumocystis jirovecii e candidíase mucocutânea, respectivamente) em pacientes com HIV/AIDS; a terapia antirretroviral combinada em si, o tratamento central da infecção pelo HIV, ainda não tem fichas próprias no site.",
     fontes: [
       { tema: "Fisiopatologia e ciclo de replicação viral", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Estadiamento CDC e critérios de AIDS", fonte: "CDC, Revised Surveillance Case Definition for HIV Infection, 2014" },
@@ -4525,11 +4540,15 @@ export const diseases: Disease[] = [
       conduta:
         "Confirmar com teste treponêmico e não treponêmico (VDRL/RPR com titulação), tratar com penicilina benzatina em dose única, testar para HIV e outras ISTs, e orientar seguimento sorológico e tratamento de parceiros.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "benzilpenicilina-benzatina", nome: "Benzilpenicilina benzatina" },
+      { slug: "cloridrato-de-doxiciclina", nome: "Cloridrato de doxiciclina" },
+    ],
+    medicamentosNota:
+      "A penicilina benzatina é o tratamento de escolha em todos os estágios da sífilis, inclusive na gestação (sem alternativa equivalente); a doxiciclina é opção apenas para pacientes não gestantes com alergia confirmada à penicilina.",
     fontes: [
       { tema: "Fisiopatologia e classificação por estágios", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Critérios sorológicos e resposta ao tratamento (queda de titulação)", fonte: "CDC Sexually Transmitted Infections Treatment Guidelines, 2021" },
-      { tema: "Penicilina benzatina no tratamento (ainda sem ficha própria no site)", fonte: "fonte pendente" },
     ],
   },
   {
@@ -4815,11 +4834,15 @@ export const diseases: Disease[] = [
       conduta:
         "Iniciar antibioticoterapia precocemente (doxiciclina, se ambulatorial e sem sinais de gravidade), solicitar exames para avaliar função renal, hepática e coagulação, e reavaliar de perto sinais de progressão para a forma ictérica grave (doença de Weil).",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cloridrato-de-doxiciclina", nome: "Cloridrato de doxiciclina" },
+      { slug: "ceftriaxona", nome: "Ceftriaxona" },
+    ],
+    medicamentosNota:
+      "A doxiciclina é a primeira linha para a forma leve ambulatorial; a ceftriaxona é usada na forma grave (doença de Weil), internada. A penicilina cristalina intravenosa, alternativa clássica na forma grave, ainda não tem ficha própria no site.",
     fontes: [
       { tema: "Fisiopatologia e fases da doença", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Formas clínicas e critérios de gravidade", fonte: "Guia de Vigilância em Saúde, Ministério da Saúde" },
-      { tema: "Doxiciclina/penicilina/ceftriaxona no tratamento (ainda sem fichas próprias no site com essa indicação)", fonte: "fonte pendente" },
     ],
   },
   {
@@ -5032,11 +5055,11 @@ export const diseases: Disease[] = [
         "Colher hemoculturas e realizar punção lombar imediatamente, iniciar antibioticoterapia empírica intravenosa sem demora (associada a dexametasona antes ou junto da primeira dose), e ajustar o esquema conforme resultado do Gram/cultura do líquido cefalorraquidiano.",
     },
     medicamentosPrimeiraLinha: [
+      { slug: "ceftriaxona", nome: "Ceftriaxona" },
       { slug: "dexametasona", nome: "Dexametasona" },
     ],
-    medicamentosSecaoTitulo: "Medicamento adjuvante (não substitui o antibiótico)",
     medicamentosNota:
-      "A dexametasona é adjuvante — administrada antes ou junto da primeira dose de antibiótico para reduzir complicações neurológicas, principalmente na meningite pneumocócica. A antibioticoterapia empírica (ceftriaxona ± vancomicina), que é o tratamento central e não pode ser substituída pelo corticosteroide, ainda não tem ficha própria no site.",
+      "A ceftriaxona é o antibiótico empírico central (associada a vancomicina em contextos de resistência, ainda sem ficha própria no site); a dexametasona é adjuvante, administrada antes ou junto da primeira dose de antibiótico para reduzir complicações neurológicas, principalmente na meningite pneumocócica — não substitui o antibiótico.",
     fontes: [
       { tema: "Fisiopatologia e agentes etiológicos por faixa etária", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Critérios liquóricos e indicação de tomografia antes da punção lombar", fonte: "IDSA Practice Guidelines for the Management of Bacterial Meningitis, 2004" },
@@ -5106,11 +5129,15 @@ export const diseases: Disease[] = [
       conduta:
         "Iniciar antibioticoterapia empírica de amplo espectro imediatamente, colher hemoculturas sem atrasar o antibiótico, iniciar ressuscitação volêmica com cristaloides, e considerar vasopressor (norepinefrina) se a hipotensão persistir apesar de fluidos adequados.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "ceftriaxona", nome: "Ceftriaxona" },
+    ],
+    medicamentosNota:
+      "A ceftriaxona é uma das opções de antibioticoterapia empírica de amplo espectro, ajustada conforme o foco suspeito e o perfil de resistência local; a norepinefrina, vasopressor de escolha no choque séptico refratário a fluidos, ainda não tem ficha própria no site.",
     fontes: [
       { tema: "Definições de sepse e choque séptico (Sepsis-3)", fonte: "Singer M et al., The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3), JAMA, 2016" },
       { tema: "Pacotes de tratamento precoce (antibiótico, fluidos, lactato)", fonte: "Surviving Sepsis Campaign: International Guidelines, 2021" },
-      { tema: "Antibioticoterapia empírica e vasopressores (ainda sem fichas próprias no site com essa indicação)", fonte: "fonte pendente" },
+      { tema: "Vasopressor de escolha no choque séptico refratário a fluidos (ainda sem ficha própria no site)", fonte: "fonte pendente" },
     ],
   },
   {
@@ -5681,7 +5708,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "omeprazol", nome: "Omeprazol" },
+      { slug: "claritromicina", nome: "Claritromicina" },
     ],
+    medicamentosNota:
+      "A claritromicina é componente da terapia tríplice de erradicação do H. pylori, associada ao omeprazol e à amoxicilina (ou metronidazol em alérgicos).",
     fontes: [
       { tema: "Fisiopatologia por H. pylori e AINEs", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Classificação de Forrest", fonte: "Forrest JA et al., classificação endoscópica de úlceras sangrantes" },
@@ -5975,11 +6005,14 @@ export const diseases: Disease[] = [
       conduta:
         "Iniciar hidratação venosa vigorosa, analgesia adequada e jejum inicial com reintrodução precoce da alimentação conforme tolerância, e planejar colecistectomia durante a mesma internação, dada a etiologia biliar identificada.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "sulfato-de-morfina", nome: "Sulfato de morfina" },
+    ],
+    medicamentosNota:
+      "A morfina é usada para analgesia da dor intensa da pancreatite aguda; a hidratação venosa vigorosa, e não a analgesia, é a intervenção com maior impacto no desfecho.",
     fontes: [
       { tema: "Critérios diagnósticos e classificação de Atlanta revisada", fonte: "Classificação de Atlanta Revisada, 2012 (Banks PA et al.)" },
       { tema: "Fisiopatologia da ativação enzimática prematura", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
-      { tema: "Analgesia específica no tratamento (ainda sem ficha própria no site com essa indicação)", fonte: "fonte pendente" },
     ],
   },
   {
@@ -6267,11 +6300,11 @@ export const diseases: Disease[] = [
         "Iniciar mesalazina como base do tratamento para indução e manutenção de remissão, avaliar necessidade de corticosteroide se a atividade for moderada a grave, e solicitar avaliação de enzimas canaliculares para rastreamento de colangite esclerosante primária associada.",
     },
     medicamentosPrimeiraLinha: [
+      { slug: "mesalazina", nome: "Mesalazina" },
       { slug: "prednisona", nome: "Prednisona" },
     ],
-    medicamentosSecaoTitulo: "Medicamento de indução de remissão (crise aguda)",
     medicamentosNota:
-      "A prednisona é usada para indução de remissão em surtos moderados a graves, não como terapia de manutenção prolongada. A manutenção de longo prazo é feita com mesalazina (aminossalicilato) e, em casos refratários, imunossupressores/terapia biológica, evitando corticoide crônico pela toxicidade — ainda sem fichas próprias no site.",
+      "A mesalazina é a primeira linha de indução e manutenção na doença leve a moderada. A prednisona é usada para indução de remissão em surtos moderados a graves, não como terapia de manutenção prolongada; em casos refratários, imunossupressores/terapia biológica (ainda sem ficha própria no site) evitam o corticoide crônico pela toxicidade.",
     fontes: [
       { tema: "Fisiopatologia e classificação de Montreal", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Associação com colangite esclerosante primária", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
@@ -6712,10 +6745,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "ibuprofeno", nome: "Ibuprofeno" },
+      { slug: "alopurinol", nome: "Alopurinol" },
     ],
-    medicamentosSecaoTitulo: "Medicamento para a crise aguda",
     medicamentosNota:
-      "O ibuprofeno (ou outro AINE) é usado no tratamento da crise aguda de gota. A terapia hipouricemiante de manutenção (ex.: alopurinol), indicada em gota recorrente/tofácea e iniciada somente após resolução da crise, ainda não tem ficha própria no site.",
+      "O ibuprofeno (ou outro AINE) é usado no tratamento da crise aguda de gota. O alopurinol é a terapia hipouricemiante de manutenção de primeira linha, indicada em gota recorrente/tofácea e iniciada somente após resolução completa da crise — nunca durante o episódio agudo.",
     fontes: [
       { tema: "Fisiopatologia e papel do inflamassoma NLRP3", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Estágios da doença e critérios ACR/EULAR 2015", fonte: "ACR/EULAR Classification Criteria for Gout, 2015" },
@@ -9888,7 +9921,15 @@ export const diseases: Disease[] = [
       conduta:
         "Solicitar eletroencefalograma e ressonância magnética de crânio para investigar etiologia e apoiar a classificação do tipo de epilepsia; se confirmada crise não provocada com risco significativo de recorrência, iniciar fármaco antiepiléptico apropriado ao tipo de crise identificado.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "carbamazepina", nome: "Carbamazepina" },
+      { slug: "acido-valproico", nome: "Ácido valproico" },
+      { slug: "fenitoina", nome: "Fenitoína" },
+      { slug: "clonazepam", nome: "Clonazepam" },
+      { slug: "clobazam", nome: "Clobazam" },
+    ],
+    medicamentosNota:
+      "A carbamazepina é primeira linha para crises focais; o ácido valproico é primeira linha para crises generalizadas em pacientes sem potencial reprodutivo; a fenitoína e o clonazepam são usados como alternativas de manutenção ou adjuvantes conforme o tipo de crise; o clobazam é usado como terapia adjuvante em epilepsias refratárias, incluindo síndromes graves da infância como Lennox-Gastaut.",
     fontes: [
       { tema: "Definição operacional, classificação de crises e conduta terapêutica", fonte: "International League Against Epilepsy (ILAE), Classificação de Crises Epilépticas e Epilepsias, 2017" },
       { tema: "Risco de morte súbita inesperada na epilepsia (SUDEP)", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
@@ -9963,7 +10004,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "diazepam", nome: "Diazepam" },
+      { slug: "fenitoina", nome: "Fenitoína" },
     ],
+    medicamentosNota:
+      "O diazepam (ou outro benzodiazepínico) é a primeira linha imediata; a fenitoína é o agente de segunda linha padrão quando as crises persistem apesar do benzodiazepínico.",
     fontes: [
       { tema: "Definição operacional, fisiopatologia e sequência terapêutica escalonada", fonte: "American Epilepsy Society, Guideline for the Evaluation and Management of Status Epilepticus" },
       { tema: "Diazepam intravenoso como benzodiazepínico de primeira linha", fonte: "Goodman & Gilman, 13ª ed." },
@@ -10036,10 +10080,10 @@ export const diseases: Disease[] = [
     medicamentosPrimeiraLinha: [
       { slug: "ibuprofeno", nome: "Ibuprofeno" },
       { slug: "cloridrato-propranolol", nome: "Cloridrato de propranolol" },
+      { slug: "cloridrato-de-amitriptilina", nome: "Cloridrato de amitriptilina" },
     ],
-    medicamentosSecaoTitulo: "Medicamento abortivo para crises leves a moderadas",
     medicamentosNota:
-      "O ibuprofeno cobre o tratamento abortivo de crises leves a moderadas. Crises moderadas a graves ou refratárias têm no triptano a primeira linha específica, e o tratamento profilático (betabloqueador, anticonvulsivante, anti-CGRP) ainda não tem ficha própria no site.",
+      "O ibuprofeno cobre o tratamento abortivo de crises leves a moderadas (crises moderadas a graves ou refratárias têm no triptano a primeira linha específica, ainda sem ficha própria no site). Propranolol e amitriptilina são opções de profilaxia para enxaqueca episódica frequente, em doses baixas no caso da amitriptilina.",
     fontes: [
       { tema: "Fisiopatologia neurovascular e mecanismo da aura (depressão alastrante cortical)", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Classificação e critérios diagnósticos", fonte: "International Classification of Headache Disorders (ICHD-3), International Headache Society" },
@@ -10111,7 +10155,11 @@ export const diseases: Disease[] = [
       conduta:
         "Confirmar o diagnóstico clinicamente, avaliando a presença de rigidez associada e excluindo sinais de alarme para parkinsonismo atípico; iniciar tratamento sintomático (levodopa ou, em pacientes mais jovens, considerar inicialmente agonista dopaminérgico ou inibidor da MAO-B) e encaminhar para acompanhamento multiprofissional (fisioterapia, fonoaudiologia).",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "levodopa-benserazida-carbidopa", nome: "Levodopa + benserazida ou + carbidopa" },
+    ],
+    medicamentosNota:
+      "É a terapia sintomática motora mais eficaz disponível, especialmente em pacientes mais idosos ou com sintomas mais incapacitantes; agonistas dopaminérgicos, alternativa com menor risco de discinesia em pacientes mais jovens, ainda não têm ficha própria no site.",
     fontes: [
       { tema: "Fisiopatologia (perda dopaminérgica, corpos de Lewy) e critérios diagnósticos clínicos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Sintomas não motores prodrômicos e classificação por subtipo motor", fonte: "fonte pendente" },
@@ -10707,9 +10755,11 @@ export const diseases: Disease[] = [
       conduta:
         "Solicitar hemograma completo com esfregaço e dosagem sérica de vitamina B12; se limítrofe, complementar com ácido metilmalônico. Confirmada a deficiência, iniciar reposição de B12, preferencialmente por via intramuscular nas fases iniciais dado o quadro neurológico já estabelecido.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cianocobalamina", nome: "Cianocobalamina (vitamina B12)" },
+    ],
     medicamentosNota:
-      "O tratamento de primeira linha é a reposição de vitamina B12 (cianocobalamina), ainda sem ficha própria no site — consta como item pendente no backlog de medicamentos.",
+      "O tratamento de primeira linha é a reposição de vitamina B12 (cianocobalamina), por via intramuscular quando a causa é má absorção confirmada ou oral em altas doses.",
     fontes: [
       { tema: "Fisiopatologia (papel da B12 na síntese de DNA e mielina) e manifestações neurológicas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Ácido metilmalônico como marcador de deficiência tecidual e risco de mascaramento pelo ácido fólico isolado", fonte: "Goodman & Gilman, 13ª ed." },
@@ -12081,10 +12131,11 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "ibuprofeno", nome: "Ibuprofeno" },
+      { slug: "sulfato-de-morfina", nome: "Sulfato de morfina" },
     ],
-    medicamentosSecaoTitulo: "Analgesia de primeira linha na crise dolorosa (não trata o cálculo causador)",
+    medicamentosSecaoTitulo: "Analgesia da crise dolorosa (não trata o cálculo causador)",
     medicamentosNota:
-      "O ibuprofeno (representante dos anti-inflamatórios não esteroidais) controla a dor da crise, mas não substitui o tratamento definitivo do cálculo causador, abordado na ficha de nefrolitíase.",
+      "O ibuprofeno (representante dos anti-inflamatórios não esteroidais) é a analgesia de primeira linha; a morfina é reservada para dor não controlada com o AINE isolado ou quando este é contraindicado. Nenhum dos dois substitui o tratamento definitivo do cálculo causador, abordado na ficha de nefrolitíase.",
     fontes: [
       { tema: "Fisiopatologia da dor por distensão capsular e papel das prostaglandinas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Anti-inflamatório não esteroidal como analgesia de primeira linha, com eficácia comparável ou superior a opioides", fonte: "Goodman & Gilman, 13ª ed." },
@@ -12158,9 +12209,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "mesilato-doxazosina", nome: "Mesilato de doxazosina" },
+      { slug: "finasterida", nome: "Finasterida" },
     ],
     medicamentosNota:
-      "A doxazosina é uma opção de alfabloqueador para alívio sintomático inicial; o inibidor da 5-alfa-redutase (finasterida), mais indicado em próstatas significativamente aumentadas, ainda não tem ficha própria no site.",
+      "A doxazosina (alfabloqueador) alivia os sintomas rapidamente atuando no componente dinâmico (tônus muscular); a finasterida reduz o volume prostático ao longo de meses, mais indicada em próstatas significativamente aumentadas, podendo ser associada ao alfabloqueador.",
     fontes: [
       { tema: "Fisiopatologia (componentes estático e dinâmico da obstrução) e mecanismo dos dois grupos farmacológicos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Escore Internacional de Sintomas Prostáticos (IPSS)", fonte: "fonte pendente" },
@@ -12233,9 +12285,12 @@ export const diseases: Disease[] = [
       conduta:
         "Iniciar antibioticoterapia empírica de curta duração conforme o padrão local de sensibilidade, sem necessidade de urocultura de rotina neste cenário não complicado.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "sulfametoxazol-trimetoprima", nome: "Sulfametoxazol + trimetoprima" },
+      { slug: "ciprofloxacino", nome: "Ciprofloxacino" },
+    ],
     medicamentosNota:
-      "Os antibióticos de primeira linha para cistite não complicada (nitrofurantoína, sulfametoxazol-trimetoprima, fosfomicina) ainda não têm ficha própria no site.",
+      "Sulfametoxazol-trimetoprima é opção de primeira linha para cistite não complicada onde a resistência local é baixa; o ciprofloxacino é reservado para pielonefrite/ITU complicada. Nitrofurantoína e fosfomicina, também de primeira linha para cistite simples, ainda não têm ficha própria no site.",
     fontes: [
       { tema: "Epidemiologia (predomínio em mulheres) e principais agentes etiológicos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Distinção entre infecção urinária complicada e não complicada", fonte: "fonte pendente" },
@@ -12609,9 +12664,12 @@ export const diseases: Disease[] = [
       conduta:
         "Avaliar detalhadamente o risco de suicídio (ideação, plano, intenção), investigar história de episódio maníaco/hipomaníaco prévio, solicitar TSH para excluir causa orgânica, e iniciar psicoterapia associada a antidepressivo conforme a gravidade.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cloridrato-de-fluoxetina", nome: "Cloridrato de fluoxetina" },
+      { slug: "cloridrato-de-amitriptilina", nome: "Cloridrato de amitriptilina" },
+    ],
     medicamentosNota:
-      "O antidepressivo de primeira linha (inibidor seletivo da recaptação de serotonina, ex.: fluoxetina) ainda não tem ficha própria no site.",
+      "A fluoxetina (ISRS) é o antidepressivo de primeira linha, com perfil de segurança mais favorável. A amitriptilina (tricíclico) é opção quando há insônia e dor associadas, mas seu perfil de efeitos colaterais e risco em superdosagem a tornam menos usada como primeira escolha atualmente.",
     fontes: [
       { tema: "Critérios diagnósticos DSM-5/CID-11 e fisiopatologia monoaminérgica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Risco de virada maníaca com antidepressivo isolado em bipolar não diagnosticado", fonte: "fonte pendente" },
@@ -12681,9 +12739,11 @@ export const diseases: Disease[] = [
       conduta:
         "Reavaliar a resposta aos tratamentos prévios para orientar a escolha do antidepressivo atual, associar psicoterapia, e planejar tratamento de manutenção estendido após a remissão dado o histórico de três episódios.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cloridrato-de-fluoxetina", nome: "Cloridrato de fluoxetina" },
+    ],
     medicamentosNota:
-      "O antidepressivo de primeira linha ainda não tem ficha própria no site; a conduta segue os mesmos princípios farmacológicos do episódio depressivo isolado, com ênfase adicional no tratamento de manutenção prolongado.",
+      "A fluoxetina (ISRS) é o antidepressivo de primeira linha, seguindo os mesmos princípios farmacológicos do episódio depressivo isolado, com ênfase adicional no tratamento de manutenção prolongado.",
     fontes: [
       { tema: "Risco progressivo de recorrência e indicação de tratamento de manutenção", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Critérios diagnósticos para episódios recorrentes (DSM-5/CID-11)", fonte: "fonte pendente" },
@@ -12740,6 +12800,7 @@ export const diseases: Disease[] = [
       "Sintomas psicóticos ou agitação grave durante episódio maníaco podem exigir internação involuntária para segurança do paciente e de terceiros",
       "Estado misto (sintomas maníacos e depressivos simultâneos) associa-se a risco de suicídio particularmente elevado e exige atenção redobrada",
       "Introdução de antidepressivo em monoterapia em paciente bipolar não reconhecido pode precipitar virada maníaca ou ciclagem rápida",
+      "Ácido valproico é contraindicado em mulheres em idade fértil salvo ausência de alternativa terapêutica eficaz, pelo alto risco teratogênico (incluindo defeitos do tubo neural, síndrome do valproato fetal) e de comprometimento do neurodesenvolvimento — exige programa de prevenção de gravidez com contracepção eficaz obrigatória quando o uso for indispensável",
     ],
     prognostico:
       "É um transtorno crônico e recorrente na grande maioria dos casos, mas com tratamento adequado (estabilizador de humor de manutenção), muitos pacientes alcançam períodos prolongados de estabilidade; a não adesão ao tratamento de manutenção é fator de risco importante para recaída.",
@@ -12747,6 +12808,7 @@ export const diseases: Disease[] = [
       "A distinção entre tipo I (mania completa) e tipo II (hipomania, sem mania completa) tem implicação terapêutica e é frequentemente cobrada",
       "O antidepressivo nunca deve ser usado em monoterapia no transtorno bipolar, pelo risco de precipitar virada maníaca — deve sempre ser associado a um estabilizador de humor",
       "A hipomania causa menos prejuízo funcional e não inclui sintomas psicóticos, ao contrário da mania completa — distinção central para diferenciar tipo I de tipo II",
+      "O ácido valproico é contraindicado em mulheres em idade fértil salvo ausência de alternativa terapêutica eficaz, pelo alto risco teratogênico — um dos avisos de segurança mais cobrados de toda a psicofarmacologia, exigindo contracepção eficaz obrigatória quando o uso for indispensável",
     ],
     casoClinico: {
       vinheta:
@@ -12757,9 +12819,15 @@ export const diseases: Disease[] = [
       conduta:
         "Iniciar estabilizador de humor como base do tratamento, associando antipsicótico se houver agitação significativa, e avaliar necessidade de internação diante do comportamento de risco (gastos impulsivos).",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "acido-valproico", nome: "Ácido valproico" },
+      { slug: "carbonato-de-litio", nome: "Carbonato de lítio" },
+      { slug: "risperidona", nome: "Risperidona" },
+      { slug: "olanzapina", nome: "Olanzapina" },
+      { slug: "haloperidol", nome: "Haloperidol" },
+    ],
     medicamentosNota:
-      "O estabilizador de humor de primeira linha (lítio, ácido valproico) ainda não tem ficha própria no site.",
+      "O ácido valproico e o lítio são os estabilizadores de humor de primeira linha; o lítio é o único com efeito antissuicida comprovado. Antipsicóticos (risperidona, olanzapina, haloperidol) são frequentemente associados no manejo agudo de episódio maníaco, sobretudo com agitação ou sintomas psicóticos. IMPORTANTE: o ácido valproico é contraindicado em mulheres em idade fértil salvo ausência de alternativa terapêutica eficaz, pelo alto risco teratogênico (defeitos do tubo neural, síndrome do valproato fetal) e de comprometimento do neurodesenvolvimento — nessa população, o lítio é preferido.",
     fontes: [
       { tema: "Critérios diagnósticos de mania/hipomania e distinção entre tipo I e II", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Risco de virada maníaca com antidepressivo em monoterapia", fonte: "fonte pendente" },
@@ -12832,9 +12900,14 @@ export const diseases: Disease[] = [
       conduta:
         "Excluir causa orgânica e uso de substâncias com investigação apropriada; iniciar antipsicótico como base do tratamento, associado a intervenções psicossociais e suporte familiar.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "risperidona", nome: "Risperidona" },
+      { slug: "olanzapina", nome: "Olanzapina" },
+      { slug: "haloperidol", nome: "Haloperidol" },
+      { slug: "cloridrato-de-clorpromazina", nome: "Cloridrato de clorpromazina" },
+    ],
     medicamentosNota:
-      "O antipsicótico de primeira linha (ex.: risperidona, haloperidol) ainda não tem ficha própria no site.",
+      "Não há preferência formal entre antipsicóticos de primeira geração (haloperidol, clorpromazina) e segunda geração (risperidona, olanzapina) — a escolha é guiada pelo perfil de efeitos colaterais, disponibilidade de formulação e características do paciente, não pela geração do fármaco.",
     fontes: [
       { tema: "Critérios diagnósticos DSM-5/CID-11 e hipótese dopaminérgica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Clozapina na esquizofrenia refratária e risco de agranulocitose", fonte: "Goodman & Gilman, 13ª ed." },
@@ -12902,9 +12975,11 @@ export const diseases: Disease[] = [
       conduta:
         "Indicar terapia cognitivo-comportamental com exposição gradual como tratamento de primeira linha, considerando associação de inibidor seletivo da recaptação de serotonina se houver prejuízo funcional significativo.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cloridrato-de-fluoxetina", nome: "Cloridrato de fluoxetina" },
+    ],
     medicamentosNota:
-      "O tratamento de primeira linha é a terapia cognitivo-comportamental de exposição, não farmacológica; quando indicado, o inibidor seletivo da recaptação de serotonina ainda não tem ficha própria no site.",
+      "O tratamento não farmacológico de primeira linha é a terapia cognitivo-comportamental de exposição; quando indicado farmacologicamente, a fluoxetina (ISRS) é a primeira escolha.",
     fontes: [
       { tema: "Classificação por subtipo e fisiopatologia dos circuitos de medo", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Terapia de exposição como tratamento de primeira linha", fonte: "fonte pendente" },
@@ -12975,11 +13050,12 @@ export const diseases: Disease[] = [
         "Excluir causas orgânicas (eletrocardiograma, TSH) antes de confirmar o diagnóstico; iniciar inibidor seletivo da recaptação de serotonina associado a terapia cognitivo-comportamental, considerando benzodiazepínico por curto período enquanto o antidepressivo atinge efeito pleno.",
     },
     medicamentosPrimeiraLinha: [
+      { slug: "cloridrato-de-fluoxetina", nome: "Cloridrato de fluoxetina" },
       { slug: "diazepam", nome: "Diazepam" },
+      { slug: "clonazepam", nome: "Clonazepam" },
     ],
-    medicamentosSecaoTitulo: "Alívio sintomático de curto prazo enquanto o antidepressivo (tratamento definitivo) atinge efeito pleno",
     medicamentosNota:
-      "O diazepam não é o tratamento definitivo — o inibidor seletivo da recaptação de serotonina, ainda sem ficha própria no site, é a primeira linha farmacológica real. O diazepam serve apenas como ponte de curto prazo, pelo risco de dependência com uso prolongado.",
+      "A fluoxetina (ISRS) é a primeira linha farmacológica real, em dose geralmente mais alta que a antidepressiva. O diazepam serve como ponte de curto prazo enquanto o antidepressivo atinge efeito pleno; o clonazepam, pela meia-vida mais longa, é reservado ao transtorno do pânico refratário ao antidepressivo. Ambos os benzodiazepínicos carregam risco de dependência com uso prolongado.",
     fontes: [
       { tema: "Fisiopatologia (circuitos de medo, hipersensibilidade respiratória no pânico) e critérios diagnósticos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Antidepressivo como tratamento definitivo e benzodiazepínico apenas como ponte de curto prazo", fonte: "Goodman & Gilman, 13ª ed." },
@@ -13050,9 +13126,11 @@ export const diseases: Disease[] = [
       conduta:
         "Indicar terapia cognitivo-comportamental com exposição e prevenção de resposta, associada a inibidor seletivo da recaptação de serotonina em dose adequada (tipicamente mais alta que na depressão), com expectativa de resposta mais tardia.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cloridrato-de-fluoxetina", nome: "Cloridrato de fluoxetina" },
+    ],
     medicamentosNota:
-      "O inibidor seletivo da recaptação de serotonina em dose alta é o tratamento farmacológico de primeira linha, ainda sem ficha própria no site.",
+      "A fluoxetina (ISRS) em dose alta é o tratamento farmacológico de primeira linha, com resposta terapêutica mais tardia que na depressão.",
     fontes: [
       { tema: "Fisiopatologia (circuitos córtico-estriado-talâmico-corticais) e critérios diagnósticos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Necessidade de doses mais altas de ISRS e resposta terapêutica mais tardia que na depressão", fonte: "Goodman & Gilman, 13ª ed." },
@@ -13423,9 +13501,11 @@ export const diseases: Disease[] = [
       conduta:
         "Aplicar o Confusion Assessment Method para confirmar o diagnóstico, investigar amplamente possíveis causas (infecção, distúrbio metabólico, efeito medicamentoso, dor não controlada), e implementar medidas não farmacológicas de suporte, reservando antipsicótico em dose baixa apenas para agitação grave refratária.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "haloperidol", nome: "Haloperidol" },
+    ],
     medicamentosNota:
-      "O tratamento central é a identificação e correção da causa de base, não um medicamento específico; quando necessário para agitação grave refratária, o antipsicótico em dose baixa ainda não tem ficha própria no site, e benzodiazepínicos devem ser evitados neste contexto (exceto quando a causa é abstinência de álcool/sedativos).",
+      "O tratamento central é a identificação e correção da causa de base, não um medicamento específico; o haloperidol em dose baixa é usado apenas para agitação grave refratária a medidas não farmacológicas. Benzodiazepínicos devem ser evitados neste contexto (exceto quando a causa é abstinência de álcool/sedativos), pois podem piorar a confusão.",
     fontes: [
       { tema: "Fisiopatologia (desequilíbrio colinérgico-dopaminérgico) e distinção de demência", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Confusion Assessment Method (CAM) e contraindicação de benzodiazepínicos fora do contexto de abstinência", fonte: "fonte pendente" },
@@ -16306,9 +16386,13 @@ export const diseases: Disease[] = [
       conduta:
         "Excluir gravidez com teste imediato; coletar amostra para NAAT de Chlamydia/gonococo; iniciar antibioticoterapia empírica de amplo espectro sem aguardar resultado laboratorial, dado o risco de sequelas tubárias com o atraso terapêutico.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "ceftriaxona", nome: "Ceftriaxona" },
+      { slug: "cloridrato-de-doxiciclina", nome: "Cloridrato de doxiciclina" },
+      { slug: "metronidazol", nome: "Metronidazol" },
+    ],
     medicamentosNota:
-      "O esquema antibiótico empírico de amplo espectro recomendado (associando cobertura para Chlamydia, gonococo e anaeróbios) ainda não tem seus componentes individuais documentados como ficha própria no site.",
+      "O esquema antibiótico empírico de amplo espectro combina os três componentes: ceftriaxona (cobertura para gonococo), doxiciclina (cobertura para Chlamydia) e metronidazol (cobertura para anaeróbios).",
     fontes: [
       { tema: "Fisiopatologia da ascensão polimicrobiana e dano tubário ciliar", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
       { tema: "Síndrome de Fitz-Hugh-Curtis e critérios mínimos de diagnóstico clínico", fonte: "CDC Sexually Transmitted Infections Treatment Guidelines, 2021" },
@@ -16524,9 +16608,12 @@ export const diseases: Disease[] = [
       conduta:
         "Prescrever metronidazol oral; parceiro sexual não requer tratamento rotineiro nessa condição.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "fluconazol", nome: "Fluconazol" },
+      { slug: "metronidazol", nome: "Metronidazol" },
+    ],
     medicamentosNota:
-      "Os antifúngicos tópicos, o fluconazol e o metronidazol, medicamentos de escolha para as três etiologias, ainda não têm suas fichas próprias documentadas no site.",
+      "Fluconazol é a opção oral de dose única para candidíase vulvovaginal; metronidazol é usado tanto na vaginose bacteriana quanto na tricomoníase. Os antifúngicos tópicos, também de primeira linha para candidíase, ainda não têm ficha própria no site.",
     fontes: [
       { tema: "Critérios de Amsel e fisiopatologia diferencial das três etiologias", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Esquemas terapêuticos de primeira linha para cada etiologia", fonte: "CDC Sexually Transmitted Infections Treatment Guidelines, 2021" },
@@ -16601,10 +16688,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "ibuprofeno", nome: "Ibuprofeno" },
+      { slug: "etinilestradiol-levonorgestrel", nome: "Etinilestradiol + levonorgestrel" },
     ],
-    medicamentosSecaoTitulo: "Analgesia sintomática (tratamento hormonal supressivo é a base terapêutica)",
     medicamentosNota:
-      "Os contraceptivos hormonais combinados, progestagênios e análogos do GnRH, base do tratamento supressivo, ainda não têm suas fichas próprias documentadas no site; o ibuprofeno oferece apenas alívio sintomático da dor associada.",
+      "O contraceptivo hormonal combinado contínuo é uma das opções de tratamento hormonal supressivo, base terapêutica da endometriose; progestagênios isolados e análogos do GnRH, outras opções supressivas, ainda não têm ficha própria no site. O ibuprofeno oferece apenas alívio sintomático da dor associada.",
     fontes: [
       { tema: "Fisiopatologia da menstruação retrógrada e classificação topográfica", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Estratégias terapêuticas hormonais e cirúrgicas conforme objetivo reprodutivo", fonte: "ACOG Practice Bulletin No. 114, Management of Endometriosis" },
@@ -17192,10 +17279,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "ibuprofeno", nome: "Ibuprofeno" },
+      { slug: "etinilestradiol-levonorgestrel", nome: "Etinilestradiol + levonorgestrel" },
     ],
-    medicamentosSecaoTitulo: "Redução do volume de sangramento (tratamento hormonal dirigido à causa é frequentemente necessário em associação)",
     medicamentosNota:
-      "Os contraceptivos hormonais combinados e o sistema intrauterino liberador de levonorgestrel, opções eficazes de controle do sangramento, ainda não têm suas fichas próprias documentadas no site.",
+      "O ibuprofeno reduz o volume de sangramento; o contraceptivo hormonal combinado é opção eficaz de controle do sangramento por regularização do ciclo. O sistema intrauterino liberador de levonorgestrel, outra opção eficaz, ainda não tem ficha própria documentada no site.",
     fontes: [
       { tema: "Sistema de classificação PALM-COEIN da FIGO", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Indicação de biópsia endometrial por idade/fator de risco e opções terapêuticas por etiologia", fonte: "ACOG Practice Bulletin No. 128, Diagnosis of Abnormal Uterine Bleeding in Reproductive-Aged Women, 2012" },
@@ -17266,9 +17353,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "ibuprofeno", nome: "Ibuprofeno" },
+      { slug: "etinilestradiol-levonorgestrel", nome: "Etinilestradiol + levonorgestrel" },
     ],
     medicamentosNota:
-      "Os contraceptivos hormonais combinados (segunda linha para dismenorreia) e os ISRS (primeira linha para o transtorno disfórico pré-menstrual) ainda não têm suas fichas próprias documentadas no site.",
+      "O ibuprofeno (AINE) é a primeira linha para a crise de dismenorreia; o contraceptivo oral combinado é a segunda linha, indicado quando a contracepção também é desejada ou os AINEs isolados são insuficientes. Os ISRS, primeira linha para o transtorno disfórico pré-menstrual, ainda não têm ficha própria documentada no site.",
     fontes: [
       { tema: "Fisiopatologia prostaglandínica da dismenorreia primária e mecanismo dos AINEs", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Critérios diagnósticos do transtorno disfórico pré-menstrual e tratamento com ISRS", fonte: "ACOG Clinical Practice Guideline No. 7, Management of Premenstrual Disorders, 2023" },
@@ -17482,9 +17570,11 @@ export const diseases: Disease[] = [
       conduta:
         "Avaliar contraindicações individuais e, na ausência delas, considerar terapia hormonal (estrogênio associado a progestagênio, dado o útero intacto) para controle dos sintomas vasomotores, com reavaliação periódica do risco-benefício.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "estrogenios-conjugados", nome: "Estrogênios conjugados" },
+    ],
     medicamentosNota:
-      "A terapia hormonal sistêmica e o estrogênio vaginal tópico, tratamentos de escolha, ainda não têm suas fichas próprias documentadas no site.",
+      "Os estrogênios conjugados (sistêmicos ou em formulação vaginal de baixa dose para atrofia local) são o tratamento mais eficaz para os sintomas vasomotores e a atrofia urogenital, sempre associados a um progestagênio em mulheres com útero intacto.",
     fontes: [
       { tema: "Fisiopatologia do esgotamento folicular e classificação da transição menopausal", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Indicações e individualização de risco-benefício da terapia hormonal", fonte: "The North American Menopause Society, The 2022 Hormone Therapy Position Statement" },
@@ -18198,9 +18288,11 @@ export const diseases: Disease[] = [
       conduta:
         "Orientar repouso relativo e acompanhamento clínico/ultrassonográfico seriado; verificar tipagem sanguínea Rh e administrar imunoglobulina anti-D se Rh negativo.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "misoprostol", nome: "Misoprostol" },
+    ],
     medicamentosNota:
-      "O misoprostol (tratamento médico) e a imunoglobulina anti-D (profilaxia de aloimunização) ainda não têm suas fichas próprias documentadas no site.",
+      "O misoprostol é a opção de tratamento médico do abortamento incompleto/retido, alternativa ao esvaziamento cirúrgico. A imunoglobulina anti-D (profilaxia de aloimunização em gestantes Rh-negativas) ainda não tem ficha própria documentada no site.",
     fontes: [
       { tema: "Classificação clínica por estágio e papel central das anomalias cromossômicas", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Opções de manejo (expectante, médico, cirúrgico) e indicação de imunoglobulina anti-D", fonte: "ACOG Practice Bulletin No. 200, Early Pregnancy Loss, 2018" },
@@ -18633,9 +18725,11 @@ export const diseases: Disease[] = [
       conduta:
         "Iniciar reposição hidroeletrolítica intravenosa e antieméticos apropriados para a gestação; avaliar eletrólitos, cetonúria e função tireoidiana; considerar ultrassonografia para exclusão de gestação múltipla ou mola hidatiforme.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cloridrato-de-ondansetrona", nome: "Cloridrato de ondansetrona" },
+    ],
     medicamentosNota:
-      "Os antieméticos seguros na gestação (piridoxina/doxilamina, antagonistas de dopamina/serotonina) ainda não têm suas fichas próprias documentadas no site.",
+      "A ondansetrona é reservada a casos refratários às medidas de primeira linha (piridoxina/doxilamina, prometazina), que ainda não têm ficha própria no site.",
     fontes: [
       { tema: "Fisiopatologia hormonal (beta-hCG/estrogênio) e fatores de risco associados", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Critérios diagnósticos, escalonamento terapêutico e risco de encefalopatia de Wernicke", fonte: "ACOG Practice Bulletin No. 189, Nausea and Vomiting of Pregnancy, 2018" },
@@ -19760,9 +19854,11 @@ export const diseases: Disease[] = [
       conduta:
         "Realizar massagem uterina bimanual e administrar ocitocina imediatamente; se resposta inadequada, escalonar para uterotônicos de segunda linha e, se ainda refratário, para medidas mecânicas (tamponamento com balão) ou cirúrgicas.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "misoprostol", nome: "Misoprostol" },
+    ],
     medicamentosNota:
-      "Os agentes uterotônicos (ocitocina, ergometrina, misoprostol, carbetocina) e o ácido tranexâmico ainda não têm suas fichas próprias documentadas no site.",
+      "O misoprostol é uterotônico alternativo quando a ocitocina intravenosa (primeira linha, ainda sem ficha própria no site) não está disponível ou como adjuvante em resposta inadequada. Ergometrina, carbetocina e o ácido tranexâmico, outras opções do manejo escalonado, também ainda não têm fichas próprias documentadas no site.",
     fontes: [
       { tema: "Mnemônico dos 4 Ts e organização etiológica da hemorragia pós-parto", fonte: "Williams Obstetrics/Gynecology" },
       { tema: "Definição atualizada, quantificação objetiva e manejo escalonado", fonte: "ACOG Practice Bulletin No. 183, Postpartum Hemorrhage, 2017" },
@@ -20046,9 +20142,11 @@ export const diseases: Disease[] = [
       conduta:
         "Confirmar o diagnóstico clinicamente; iniciar tratamento tópico de primeira linha (corticosteroide tópico/análogo de vitamina D); investigar ativamente sintomas articulares em cada consulta de seguimento.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "betametasona", nome: "Betametasona (acetato + fosfato dissódico)" },
+    ],
     medicamentosNota:
-      "Os corticosteroides tópicos, análogos da vitamina D e agentes sistêmicos/biológicos, tratamentos de primeira linha conforme a gravidade, ainda não têm suas fichas próprias documentadas no site.",
+      "A betametasona tópica de alta potência é a primeira linha para placas em áreas não intertriginosas; análogos da vitamina D e agentes sistêmicos/biológicos, outras opções conforme a gravidade e a extensão, ainda não têm ficha própria no site.",
     fontes: [
       { tema: "Fisiopatologia do eixo IL-23/Th17 e classificação clínica", fonte: "Robbins & Cotran, Patologia Básica" },
       { tema: "Escalonamento terapêutico e rastreamento de artrite psoriásica associada", fonte: "AAD-NPF Guidelines of Care for the Management of Psoriasis and Psoriatic Arthritis, 2019" },
@@ -20119,9 +20217,11 @@ export const diseases: Disease[] = [
       conduta:
         "Iniciar hidratação cutânea intensiva e regular com emolientes como medida de base; prescrever corticosteroide tópico de potência apropriada para as exacerbações; orientar a família sobre a natureza crônica e recidivante da condição.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "acetato-de-hidrocortisona-topica", nome: "Acetato de hidrocortisona tópica" },
+    ],
     medicamentosNota:
-      "Os emolientes, corticosteroides tópicos, inibidores tópicos de calcineurina e agentes biológicos (dupilumabe) ainda não têm suas fichas próprias documentadas no site.",
+      "A hidrocortisona tópica de baixa potência é preferida para face e dobras cutâneas; casos mais extensos ou refratários usam corticosteroides de maior potência, inibidores tópicos de calcineurina e agentes biológicos (dupilumabe), ainda sem ficha própria no site. Emolientes são a base do cuidado contínuo em todos os casos.",
     fontes: [
       { tema: "Fisiopatologia da disfunção de barreira (filagrina) e desregulação Th2", fonte: "Robbins & Cotran, Patologia Básica" },
       { tema: "Escalonamento terapêutico e reconhecimento de complicações infecciosas (eczema herpético)", fonte: "AAD Guidelines of Care for the Management of Atopic Dermatitis, 2014" },
@@ -20409,9 +20509,10 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "amoxicilina-clavulanato", nome: "Amoxicilina + Clavulanato" },
+      { slug: "cloridrato-de-clindamicina", nome: "Cloridrato de clindamicina" },
     ],
     medicamentosNota:
-      "A amoxicilina + clavulanato é opção razoável para celulite não purulenta leve a moderada; esquemas com cobertura específica para Staphylococcus aureus resistente à meticilina, quando indicados, ainda não têm ficha própria documentada no site.",
+      "A amoxicilina + clavulanato é opção razoável para celulite não purulenta leve a moderada; a clindamicina é opção em pacientes alérgicos a beta-lactâmicos ou quando há suspeita de MRSA comunitário.",
     fontes: [
       { tema: "Fisiopatologia e distinção entre celulite e erisipela por profundidade de acometimento", fonte: "Robbins & Cotran, Patologia Básica" },
       { tema: "Classificação purulenta versus não purulenta e escolha antibiótica empírica", fonte: "IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections, 2014" },
@@ -20625,9 +20726,12 @@ export const diseases: Disease[] = [
       conduta:
         "Prescrever antifúngico tópico (cetoconazol em xampu/creme) como tratamento de primeira linha; associar corticosteroide tópico de baixa potência em curso curto para as exacerbações mais inflamatórias.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "cetoconazol", nome: "Cetoconazol" },
+      { slug: "acetato-de-hidrocortisona-topica", nome: "Acetato de hidrocortisona tópica" },
+    ],
     medicamentosNota:
-      "Os antifúngicos tópicos (cetoconazol) e os corticosteroides tópicos de baixa potência, tratamentos de primeira linha, ainda não têm suas fichas próprias documentadas no site.",
+      "O cetoconazol tópico (xampu ou creme) é o antifúngico de primeira linha; a hidrocortisona tópica de baixa potência é opção adjuvante para controle rápido da inflamação em exacerbações.",
     fontes: [
       { tema: "Papel da Malassezia e fisiopatologia da resposta inflamatória cutânea", fonte: "Robbins & Cotran, Patologia Básica" },
       { tema: "Associação com imunossupressão/HIV e tratamento antifúngico tópico de primeira linha", fonte: "American Family Physician, Diagnosis and Treatment of Seborrheic Dermatitis, 2015" },
@@ -20695,9 +20799,11 @@ export const diseases: Disease[] = [
       conduta:
         "Orientar a suspensão do uso do relógio (evitação do alérgeno suspeito); prescrever corticosteroide tópico para as lesões; considerar teste de contato (patch test) para confirmação do alérgeno específico se houver recorrência com outros itens metálicos.",
     },
-    medicamentosPrimeiraLinha: [],
+    medicamentosPrimeiraLinha: [
+      { slug: "acetato-de-hidrocortisona-topica", nome: "Acetato de hidrocortisona tópica" },
+    ],
     medicamentosNota:
-      "Os corticosteroides tópicos, tratamento de primeira linha, ainda não têm ficha própria documentada no site.",
+      "A hidrocortisona tópica de baixa potência é a primeira linha para lesões leves ou em pele fina; casos mais extensos ou refratários podem exigir corticosteroide tópico de maior potência.",
     fontes: [
       { tema: "Fisiopatologia da hipersensibilidade tipo IV (sensibilização e eliciação)", fonte: "Robbins & Cotran, Patologia Básica" },
       { tema: "Papel do teste de contato (patch test) e alérgenos mais comuns (níquel)", fonte: "North American Contact Dermatitis Group Patch Test Results, 2021-2022" },
@@ -20768,6 +20874,7 @@ export const diseases: Disease[] = [
     },
     medicamentosPrimeiraLinha: [
       { slug: "amoxicilina-clavulanato", nome: "Amoxicilina + Clavulanato" },
+      { slug: "cloridrato-de-clindamicina", nome: "Cloridrato de clindamicina" },
     ],
     medicamentosSecaoTitulo: "Antibioticoterapia adjuvante à drenagem quando indicada (drenagem é o tratamento primário)",
     medicamentosNota:
@@ -20775,6 +20882,2095 @@ export const diseases: Disease[] = [
     fontes: [
       { tema: "Fisiopatologia da infecção pilossebácea e classificação furúnculo/antraz/abscesso", fonte: "Robbins & Cotran, Patologia Básica" },
       { tema: "Indicação de drenagem como tratamento primário e critérios para antibioticoterapia adjuvante", fonte: "IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections, 2014" },
+    ],
+  },
+  {
+    slug: "asfixia-perinatal",
+    nome: "Asfixia perinatal",
+    sinonimos: ["Hipóxia intraparto", "Encefalopatia hipóxico-isquêmica neonatal"],
+    cid10: "P21",
+    especialidade: "Neonatologia",
+    etiologia: "Multifatorial",
+    resumo: "Comprometimento das trocas gasosas fetais durante o trabalho de parto ou o parto, levando a hipoxemia, hipercapnia e acidose, com risco de encefalopatia hipóxico-isquêmica e lesão neurológica permanente.",
+    definicao:
+      "Evento agudo de comprometimento da oxigenação e perfusão fetal/neonatal durante o período periparto, caracterizado por hipoxemia, hipercapnia e acidose metabólica, que pode evoluir para encefalopatia hipóxico-isquêmica e disfunção de múltiplos órgãos quando grave ou prolongado.",
+    epidemiologia:
+      "Uma das principais causas de mortalidade neonatal e de encefalopatia neonatal em todo o mundo, com incidência maior em países de baixa e média renda pela menor disponibilidade de monitorização fetal intraparto e de cuidados obstétricos de emergência.",
+    fisiopatologia:
+      "A interrupção ou redução da troca gasosa placentária ou pulmonar leva a hipoxemia e acidose progressivas; a redistribuição do fluxo sanguíneo fetal prioriza cérebro, coração e adrenais às custas de outros órgãos (fenômeno de centralização), mas quando a agressão é grave ou prolongada, esse mecanismo compensatório falha, resultando em lesão neuronal por excitotoxicidade, estresse oxidativo e apoptose, tipicamente com um padrão de lesão em dois tempos (lesão primária seguida de lesão de reperfusão secundária horas depois).",
+    classificacao:
+      "A gravidade da encefalopatia hipóxico-isquêmica resultante é classificada pelos critérios de Sarnat e Sarnat em leve, moderada e grave, com base no nível de consciência, tônus muscular, reflexos primitivos e função autonômica.",
+    quadroClinico: [
+      "Escore de Apgar baixo persistente (geralmente ≤ 5 aos 5 e 10 minutos)",
+      "Necessidade de reanimação neonatal prolongada na sala de parto",
+      "Acidose metabólica grave em gasometria de cordão umbilical (pH < 7,0, déficit de base acentuado)",
+      "Sinais de encefalopatia nas primeiras horas de vida: alteração do nível de consciência, hipotonia ou hipertonia, reflexos primitivos anormais, convulsões",
+      "Disfunção de múltiplos órgãos associada em casos graves (renal, hepática, cardíaca, hematológica)",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado na combinação de evento hipóxico intraparto identificável, gasometria de cordão com acidose metabólica grave, Apgar baixo persistente e sinais de encefalopatia neonatal nas primeiras horas de vida",
+      "Classificação da gravidade da encefalopatia pelos critérios de Sarnat e Sarnat, que orienta a decisão de neuroproteção com hipotermia terapêutica",
+    ],
+    examesComplementares: [
+      "Gasometria de cordão umbilical (pH < 7,0 e déficit de base ≥ 12 mmol/L sugerem acidose metabólica grave compatível com evento hipóxico significativo)",
+      "Eletroencefalograma de amplitude integrada (aEEG) para monitorização contínua da atividade cerebral e triagem para hipotermia terapêutica",
+      "Ressonância magnética cerebral, idealmente entre o 4º e o 10º dia de vida, para caracterizar o padrão e a extensão da lesão e auxiliar no prognóstico neurológico",
+    ],
+    diagnosticoDiferencial: [
+      "Encefalopatias neonatais de outras causas (metabólica, infecciosa, malformativa), que exigem investigação específica quando a história de evento hipóxico intraparto não é clara",
+      "Distúrbios metabólicos neonatais (hipoglicemia, distúrbios eletrolíticos) que podem mimetizar ou coexistir com encefalopatia hipóxico-isquêmica",
+    ],
+    tratamento: [
+      "Hipotermia terapêutica (resfriamento corporal total ou seletivo da cabeça a 33,5-34,5°C), iniciada até 6 horas de vida e mantida por 72 horas, em recém-nascidos ≥ 36 semanas com encefalopatia hipóxico-isquêmica moderada a grave — única intervenção com neuroproteção comprovada",
+      "Suporte respiratório, hemodinâmico e correção de distúrbios metabólicos (glicemia, eletrólitos) conforme necessidade",
+      "Tratamento anticonvulsivante quando há convulsões clínicas ou eletrográficas associadas",
+    ],
+    complicacoes: [
+      "Aguda: disfunção de múltiplos órgãos (renal, hepática, cardíaca), convulsões neonatais, coagulopatia",
+      "Crônica: paralisia cerebral, deficiência intelectual, epilepsia e outras sequelas neurológicas permanentes, proporcionais à gravidade da encefalopatia inicial",
+    ],
+    redFlags: [
+      "Encefalopatia moderada a grave (critérios de Sarnat) exige início da hipotermia terapêutica o mais precocemente possível, idealmente até 6 horas de vida — a eficácia neuroprotetora diminui com o atraso",
+      "Convulsões neonatais associadas indicam maior gravidade da lesão e exigem tratamento anticonvulsivante e monitorização eletroencefalográfica contínua",
+    ],
+    prognostico:
+      "Proporcional à gravidade da encefalopatia inicial: encefalopatia leve geralmente tem bom prognóstico neurológico; encefalopatia grave associa-se a mortalidade elevada e sequelas neurológicas significativas nos sobreviventes. A hipotermia terapêutica reduz significativamente o risco combinado de morte ou incapacidade neurológica grave na encefalopatia moderada a grave.",
+    pontosDeProva: [
+      "A hipotermia terapêutica é a única intervenção com neuroproteção comprovada na encefalopatia hipóxico-isquêmica moderada a grave, devendo ser iniciada até 6 horas de vida",
+      "A lesão neuronal ocorre em dois tempos — uma lesão primária durante o evento hipóxico e uma lesão de reperfusão secundária horas depois — e é essa janela entre as duas fases que a hipotermia terapêutica visa interromper",
+      "Os critérios de Sarnat e Sarnat classificam a gravidade da encefalopatia e orientam diretamente a decisão de hipotermia terapêutica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo, parto complicado por descolamento prematuro de placenta, nasce com Apgar 2 no 1º minuto e 4 no 5º minuto, necessitando reanimação prolongada. Gasometria de cordão: pH 6,9, déficit de base 18 mmol/L. Nas primeiras horas de vida, apresenta hipotonia importante e reflexos primitivos ausentes.",
+      pergunta: "Qual a intervenção terapêutica prioritária a ser iniciada?",
+      raciocinio:
+        "O evento hipóxico intraparto identificável (descolamento prematuro de placenta), a acidose metabólica grave na gasometria de cordão e os sinais clínicos de encefalopatia (hipotonia, reflexos ausentes) confirmam encefalopatia hipóxico-isquêmica moderada a grave.",
+      conduta:
+        "Iniciar hipotermia terapêutica o mais precocemente possível, idealmente antes de 6 horas de vida, com monitorização eletroencefalográfica contínua e suporte multissistêmico.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento central é a hipotermia terapêutica, uma intervenção física (não medicamentosa); anticonvulsivantes são usados apenas quando há convulsões associadas, individualizados conforme o quadro.",
+    fontes: [
+      { tema: "Fisiopatologia da lesão em dois tempos e mecanismo de neuroproteção da hipotermia", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Critérios de Sarnat e Sarnat e indicação de hipotermia terapêutica", fonte: "American Academy of Pediatrics, Committee on Fetus and Newborn, Hypothermia and Neonatal Encephalopathy, Pediatrics, 2014" },
+    ],
+  },
+  {
+    slug: "sindrome-desconforto-respiratorio-recem-nascido",
+    nome: "Síndrome do desconforto respiratório do recém-nascido",
+    sinonimos: ["Doença da membrana hialina", "SDR neonatal"],
+    cid10: "P22",
+    especialidade: "Neonatologia",
+    etiologia: "Metabólica",
+    resumo: "Insuficiência respiratória do recém-nascido pré-termo causada pela deficiência de surfactante pulmonar, levando a colapso alveolar progressivo, sendo uma das principais causas de morbidade respiratória neonatal.",
+    definicao:
+      "Doença respiratória do recém-nascido pré-termo causada pela produção insuficiente de surfactante pulmonar pelos pneumócitos tipo II imaturos, resultando em aumento da tensão superficial alveolar, colapso alveolar progressivo (atelectasia) e formação de membranas hialinas nos alvéolos.",
+    epidemiologia:
+      "Incidência inversamente proporcional à idade gestacional, acometendo a maioria dos recém-nascidos abaixo de 28 semanas e reduzindo progressivamente com o avanço da maturidade pulmonar; fatores de risco adicionais incluem diabetes materno e asfixia perinatal.",
+    fisiopatologia:
+      "A deficiência de surfactante (mistura de fosfolipídios e proteínas que reduz a tensão superficial alveolar) leva ao colabamento alveolar progressivo ao final da expiração, exigindo esforço respiratório crescente para reexpandir os alvéolos a cada respiração; a lesão epitelial resultante, somada ao edema, leva à formação de membranas hialinas (material proteico e restos celulares) que revestem os alvéolos e bronquíolos terminais, agravando ainda mais a troca gasosa.",
+    classificacao:
+      "A gravidade radiológica é classificada em graus de I a IV, desde infiltrado reticulogranular fino (grau I) até opacificação pulmonar completa com broncogramas aéreos proeminentes ('pulmão branco', grau IV).",
+    quadroClinico: [
+      "Taquipneia, gemido expiratório, batimento de asa de nariz e retrações intercostais/subcostais, com início nas primeiras horas de vida",
+      "Cianose progressiva em ar ambiente",
+      "Piora progressiva nas primeiras 48-72 horas sem tratamento, seguida de melhora gradual à medida que a produção endógena de surfactante aumenta",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico-radiológico em recém-nascido pré-termo com desconforto respiratório progressivo desde as primeiras horas de vida",
+      "Radiografia de tórax com padrão reticulogranular difuso ('vidro moído') e broncogramas aéreos, graduada de I a IV conforme a gravidade",
+    ],
+    examesComplementares: [
+      "Radiografia de tórax, exame de escolha para confirmação diagnóstica e graduação da gravidade",
+      "Gasometria arterial demonstrando hipoxemia e, em casos avançados, acidose respiratória por hipoventilação alveolar",
+    ],
+    diagnosticoDiferencial: [
+      "Taquipneia transitória do recém-nascido (quadro mais leve e autolimitado, por retardo na absorção do líquido pulmonar fetal)",
+      "Pneumonia congênita e sepse neonatal precoce, que podem ter apresentação radiológica semelhante",
+      "Síndrome de aspiração meconial, distinguida pela história de líquido amniótico meconial e padrão radiológico de infiltrados grosseiros e hiperinsuflação",
+    ],
+    tratamento: [
+      "Corticosteroide antenatal (betametasona) administrado à gestante em risco de parto pré-termo, principal medida preventiva, acelerando a maturação pulmonar fetal e reduzindo a incidência e a gravidade da SDR",
+      "Reposição de surfactante exógeno por via traqueal no recém-nascido afetado, reduzindo a mortalidade e as complicações respiratórias",
+      "Suporte ventilatório não invasivo (CPAP) como estratégia inicial preferida, reservando a ventilação mecânica invasiva para casos refratários",
+    ],
+    complicacoes: [
+      "Aguda: pneumotórax, hemorragia pulmonar, persistência do canal arterial sintomática",
+      "Crônica: displasia broncopulmonar, especialmente em recém-nascidos extremamente pré-termo com curso prolongado de suporte ventilatório e oxigenoterapia",
+    ],
+    redFlags: [
+      "Piora respiratória abrupta com assimetria de ausculta e desvio do mediastino sugere pneumotórax, complicação súbita e potencialmente fatal que exige drenagem torácica de emergência",
+      "Deterioração respiratória e hemodinâmica com sangue nas secreções traqueais sugere hemorragia pulmonar, emergência que exige suporte intensivo imediato",
+    ],
+    prognostico:
+      "Excelente na maioria dos casos com tratamento adequado (corticosteroide antenatal, surfactante, suporte ventilatório), com resolução gradual em dias; a gravidade e o risco de complicações crônicas (displasia broncopulmonar) aumentam quanto menor a idade gestacional ao nascer.",
+    pontosDeProva: [
+      "O corticosteroide antenatal (betametasona) administrado à gestante é a principal medida preventiva, acelerando a maturação pulmonar fetal antes do nascimento",
+      "A reposição de surfactante exógeno reduz diretamente a mortalidade e as complicações respiratórias no recém-nascido já afetado",
+      "O padrão radiológico reticulogranular difuso com broncogramas aéreos é característico, podendo evoluir para opacificação completa ('pulmão branco') nos casos mais graves",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido pré-termo de 29 semanas, cuja mãe não recebeu corticosteroide antenatal por trabalho de parto muito rápido, desenvolve taquipneia, gemido e retrações intercostais nas primeiras 2 horas de vida. Radiografia de tórax mostra padrão reticulogranular difuso com broncogramas aéreos.",
+      pergunta: "Qual é o diagnóstico e a conduta terapêutica imediata?",
+      raciocinio:
+        "A prematuridade extrema, o início precoce do desconforto respiratório e o padrão radiológico reticulogranular com broncogramas aéreos são característicos da síndrome do desconforto respiratório por deficiência de surfactante.",
+      conduta:
+        "Administrar surfactante exógeno por via traqueal e iniciar suporte ventilatório não invasivo (CPAP) como estratégia inicial, reservando ventilação mecânica invasiva para falha do suporte não invasivo.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "betametasona", nome: "Betametasona (acetato + fosfato dissódico)" },
+    ],
+    medicamentosNota:
+      "A betametasona é administrada à gestante antes do parto (corticosteroide antenatal) para acelerar a maturação pulmonar fetal, principal medida preventiva. O surfactante exógeno, tratamento central após o nascimento do recém-nascido afetado, ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia da deficiência de surfactante e formação de membranas hialinas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Graduação radiológica (graus I-IV)", fonte: "fonte pendente" },
+      { tema: "Corticosteroide antenatal como principal medida preventiva", fonte: "ACOG Committee Opinion No. 713, Antenatal Corticosteroid Therapy for Fetal Maturation, Obstetrics & Gynecology, 2017" },
+    ],
+  },
+  {
+    slug: "sindrome-aspiracao-meconial",
+    nome: "Síndrome de aspiração meconial",
+    sinonimos: ["SAM"],
+    cid10: "P24",
+    especialidade: "Neonatologia",
+    etiologia: "Multifatorial",
+    resumo: "Insuficiência respiratória do recém-nascido causada pela aspiração de líquido amniótico meconial antes, durante ou logo após o parto, com obstrução de vias aéreas, inflamação química e risco de hipertensão pulmonar persistente.",
+    definicao:
+      "Doença respiratória do recém-nascido, tipicamente a termo ou pós-termo, causada pela aspiração de mecônio presente no líquido amniótico para as vias aéreas antes, durante ou imediatamente após o nascimento, resultando em obstrução mecânica das vias aéreas, pneumonite química e inativação do surfactante.",
+    epidemiologia:
+      "Ocorre quase exclusivamente em recém-nascidos a termo ou pós-termo, já que a eliminação de mecônio intraútero geralmente reflete maturidade do trato gastrointestinal fetal; sofrimento fetal e hipóxia intraparto são fatores predisponentes para a eliminação de mecônio antes do parto.",
+    fisiopatologia:
+      "O mecônio aspirado causa obstrução mecânica de vias aéreas de calibre variável (obstrução completa causando atelectasia distal, obstrução parcial causando efeito valvular com aprisionamento aéreo e hiperinsuflação regional), além de inativar o surfactante e desencadear uma pneumonite química intensa; casos graves frequentemente evoluem com hipertensão pulmonar persistente do recém-nascido, secundária tanto à hipóxia quanto a alterações estruturais da vasculatura pulmonar associadas ao sofrimento fetal crônico.",
+    classificacao:
+      "Não há um sistema de estadiamento formal amplamente usado; a gravidade é avaliada clinicamente pelo grau de desconforto respiratório, necessidade de suporte ventilatório e presença de hipertensão pulmonar persistente associada.",
+    quadroClinico: [
+      "História de líquido amniótico meconial (espesso, tipo 'sopa de ervilha') e recém-nascido deprimido ao nascer",
+      "Desconforto respiratório de início precoce: taquipneia, retrações, gemido, cianose",
+      "Tórax hiperinsuflado ('em barril') à ausculta e ao exame físico, pelo aprisionamento aéreo",
+      "Sinais de hipertensão pulmonar persistente em casos graves: hipoxemia desproporcional ao grau de doença parenquimatosa, labilidade na saturação de oxigênio",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico baseado na história de líquido amniótico meconial associada a desconforto respiratório neonatal precoce",
+      "Radiografia de tórax com infiltrados grosseiros e assimétricos, associados a áreas de hiperinsuflação e, por vezes, pneumotórax",
+    ],
+    examesComplementares: [
+      "Radiografia de tórax, demonstrando infiltrados irregulares e hiperinsuflação, achado de apoio ao diagnóstico",
+      "Ecocardiograma quando há suspeita de hipertensão pulmonar persistente associada, para avaliar a pressão da artéria pulmonar e excluir cardiopatia congênita",
+      "Gasometria arterial para quantificar a gravidade da hipoxemia e guiar o suporte respiratório",
+    ],
+    diagnosticoDiferencial: [
+      "Síndrome do desconforto respiratório por deficiência de surfactante, distinguida pela prematuridade e pelo padrão radiológico reticulogranular difuso",
+      "Pneumonia/sepse neonatal precoce, que pode coexistir e deve sempre ser considerada e investigada",
+      "Taquipneia transitória do recém-nascido, quadro mais leve e autolimitado",
+    ],
+    tratamento: [
+      "Suporte respiratório individualizado conforme a gravidade, desde oxigenoterapia suplementar até ventilação mecânica invasiva",
+      "Surfactante exógeno em casos moderados a graves, para compensar a inativação do surfactante endógeno pelo mecônio",
+      "Óxido nítrico inalatório e, em casos refratários, oxigenação por membrana extracorpórea (ECMO), reservados para hipertensão pulmonar persistente grave com hipoxemia refratária",
+    ],
+    complicacoes: [
+      "Aguda: pneumotórax (frequente, pelo mecanismo valvular de aprisionamento aéreo), hipertensão pulmonar persistente do recém-nascido, insuficiência respiratória grave",
+      "Crônica: doença pulmonar crônica residual em casos graves, embora a maioria dos sobreviventes tenha boa recuperação pulmonar",
+    ],
+    redFlags: [
+      "Hipoxemia desproporcional ao grau de doença parenquimatosa visível na radiografia sugere hipertensão pulmonar persistente associada, exigindo avaliação ecocardiográfica e manejo específico",
+      "Piora respiratória súbita com assimetria torácica sugere pneumotórax, complicação frequente nessa condição que exige drenagem torácica de emergência",
+    ],
+    prognostico:
+      "Variável conforme a gravidade: casos leves a moderados geralmente evoluem bem com suporte respiratório; casos graves com hipertensão pulmonar persistente associada têm risco significativo de mortalidade e podem exigir ECMO.",
+    pontosDeProva: [
+      "Ocorre quase exclusivamente em recém-nascidos a termo ou pós-termo, ao contrário da síndrome do desconforto respiratório por deficiência de surfactante, tipicamente do pré-termo",
+      "O aprisionamento aéreo por obstrução valvular parcial das vias aéreas explica o padrão de hiperinsuflação característico, distinto do colapso alveolar da deficiência de surfactante",
+      "A hipertensão pulmonar persistente é a complicação mais temida, podendo exigir óxido nítrico inalatório ou ECMO em casos refratários",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido pós-termo (41 semanas), líquido amniótico meconial espesso, nasce deprimido e desenvolve taquipneia, retrações e cianose nas primeiras horas de vida, com tórax hiperinsuflado à ausculta.",
+      pergunta: "Qual é o diagnóstico mais provável e a conduta inicial?",
+      raciocinio:
+        "A história de líquido amniótico meconial espesso associada a desconforto respiratório precoce e tórax hiperinsuflado é característica de síndrome de aspiração meconial.",
+      conduta:
+        "Fornecer suporte respiratório conforme a gravidade, solicitar radiografia de tórax e monitorizar sinais de hipertensão pulmonar persistente, com ecocardiograma se houver hipoxemia desproporcional.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é predominantemente de suporte respiratório; surfactante exógeno, óxido nítrico inalatório e os antibióticos empíricos frequentemente associados (dada a dificuldade de excluir pneumonia concomitante) ainda não têm fichas próprias no site.",
+    fontes: [
+      { tema: "Fisiopatologia da obstrução valvular e pneumonite química", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Manejo na sala de parto e abordagem respiratória", fonte: "American Academy of Pediatrics, Appropriate Management of the Nonvigorous Meconium-Stained Newborn, NeoReviews, 2022" },
+    ],
+  },
+  {
+    slug: "displasia-broncopulmonar",
+    nome: "Displasia broncopulmonar",
+    sinonimos: ["Doença pulmonar crônica do recém-nascido", "DBP"],
+    cid10: "P27",
+    especialidade: "Neonatologia",
+    etiologia: "Multifatorial",
+    resumo: "Doença pulmonar crônica do recém-nascido pré-termo, resultante da interrupção do desenvolvimento alveolar normal por lesão pulmonar precoce (ventilação mecânica, oxigenoterapia, infecção), definida pela necessidade de oxigênio suplementar prolongada.",
+    definicao:
+      "Doença pulmonar crônica que acomete recém-nascidos pré-termo, definida operacionalmente pela necessidade de oxigênio suplementar por pelo menos 28 dias de vida (com graduação adicional conforme a necessidade de suporte respiratório na 36ª semana de idade pós-menstrual), refletindo uma interrupção do desenvolvimento alveolar e vascular pulmonar normal.",
+    epidemiologia:
+      "Incidência inversamente proporcional à idade gestacional e ao peso ao nascer, acometendo principalmente recém-nascidos extremamente pré-termo (abaixo de 28 semanas); tornou-se relativamente mais comum com o aumento da sobrevida de recém-nascidos extremamente pré-termo, embora sua forma tenha mudado (a forma 'nova' da DBP reflete mais interrupção do desenvolvimento alveolar do que a fibrose/lesão de vias aéreas da forma clássica descrita originalmente).",
+    fisiopatologia:
+      "A combinação de imaturidade pulmonar extrema, lesão por ventilação mecânica (barotrauma/volutrauma), toxicidade pelo oxigênio suplementar e inflamação (infecção, corioamnionite) interrompe a fase sacular/alveolar normal do desenvolvimento pulmonar, resultando em alvéolos maiores e em menor número (simplificação alveolar) e desenvolvimento vascular pulmonar anormal, ao contrário da fibrose e lesão de vias aéreas mais proeminentes descritas na forma clássica original da doença.",
+    classificacao:
+      "Classificada pela gravidade conforme a necessidade de suporte respiratório avaliada na 36ª semana de idade pós-menstrual (ou na alta, o que ocorrer primeiro): leve (ar ambiente), moderada (necessidade de oxigênio suplementar em baixa concentração) e grave (necessidade de oxigênio em alta concentração ou suporte ventilatório).",
+    quadroClinico: [
+      "Necessidade persistente de oxigênio suplementar além de 28 dias de vida em recém-nascido pré-termo",
+      "Taquipneia crônica, retrações e desconforto respiratório persistente",
+      "Dificuldade de ganho ponderal pelo aumento do gasto energético do trabalho respiratório",
+      "Episódios recorrentes de exacerbação respiratória, frequentemente desencadeados por infecções virais",
+    ],
+    diagnostico: [
+      "Diagnóstico definido pela necessidade de oxigênio suplementar por pelo menos 28 dias de vida em recém-nascido pré-termo, com graduação da gravidade conforme o suporte respiratório necessário na 36ª semana de idade pós-menstrual",
+    ],
+    examesComplementares: [
+      "Radiografia de tórax, demonstrando padrão variável de hiperinsuflação, áreas de atelectasia e opacidades intersticiais, com achados menos característicos que na forma clássica original da doença",
+      "Ecocardiograma para rastreamento de hipertensão pulmonar associada, complicação relevante em casos graves",
+    ],
+    diagnosticoDiferencial: [
+      "Outras causas de necessidade prolongada de oxigênio no pré-termo (persistência do canal arterial sintomática, infecção pulmonar recorrente)",
+      "Fibrose cística e outras doenças pulmonares crônicas raras da infância, quando o quadro não se resolve conforme o esperado",
+    ],
+    tratamento: [
+      "Prevenção é a estratégia mais eficaz: corticosteroide antenatal, uso criterioso de ventilação mecânica e oxigênio suplementar (visando a menor exposição necessária), e surfactante exógeno quando indicado",
+      "Diuréticos para controle de sintomas em casos com componente de sobrecarga hídrica pulmonar",
+      "Corticosteroide sistêmico pós-natal (dexametasona), reservado a casos selecionados de doença grave para facilitar a extubação, pesando o benefício respiratório contra riscos neurológicos documentados com uso precoce/doses altas",
+    ],
+    complicacoes: [
+      "Aguda: exacerbações respiratórias agudas, frequentemente desencadeadas por infecções virais (ex.: vírus sincicial respiratório)",
+      "Crônica: hipertensão pulmonar, hiper-reatividade de vias aéreas persistente até a infância, maior risco de re-hospitalização por doença respiratória nos primeiros anos de vida",
+    ],
+    redFlags: [
+      "Sinais de hipertensão pulmonar (piora da hipoxemia, sinais de sobrecarga do ventrículo direito) exigem avaliação ecocardiográfica e manejo específico, dado o impacto significativo no prognóstico",
+      "Exacerbação respiratória aguda por infecção viral em lactente com DBP exige atenção redobrada pelo risco de descompensação respiratória grave",
+    ],
+    prognostico:
+      "Variável conforme a gravidade: a maioria das crianças apresenta melhora progressiva da função pulmonar ao longo da infância, mas casos graves podem ter hiper-reatividade de vias aéreas e maior suscetibilidade a infecções respiratórias por anos, além de risco aumentado de hipertensão pulmonar.",
+    pontosDeProva: [
+      "A 'nova' displasia broncopulmonar reflete principalmente interrupção do desenvolvimento alveolar (simplificação alveolar), diferente da fibrose e lesão de vias aéreas mais proeminentes na forma clássica original descrita antes da era do surfactante",
+      "A prevenção (corticosteroide antenatal, ventilação e oxigenoterapia criteriosas) é mais eficaz que qualquer tratamento disponível após o estabelecimento da doença",
+      "O corticosteroide sistêmico pós-natal deve ser reservado a casos selecionados de doença grave, pesando o benefício respiratório contra riscos neurológicos documentados, especialmente com uso precoce em altas doses",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido pré-termo extremo (26 semanas), em ventilação mecânica desde o nascimento por síndrome do desconforto respiratório grave, ainda necessita de oxigênio suplementar aos 30 dias de vida, com radiografia de tórax mostrando áreas de hiperinsuflação e atelectasia intercaladas.",
+      pergunta: "Qual é o diagnóstico e como classificar sua gravidade?",
+      raciocinio:
+        "A necessidade de oxigênio suplementar além de 28 dias de vida em um recém-nascido pré-termo extremo confirma o diagnóstico de displasia broncopulmonar; a gravidade será definida pelo suporte respiratório necessário na 36ª semana de idade pós-menstrual.",
+      conduta:
+        "Reavaliar a necessidade de suporte respiratório na 36ª semana de idade pós-menstrual para classificar a gravidade, otimizar a nutrição para favorecer o crescimento pulmonar, e considerar diuréticos ou corticosteroide sistêmico em casos selecionados de doença grave.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "dexametasona", nome: "Dexametasona" },
+    ],
+    medicamentosNota:
+      "A dexametasona sistêmica é reservada a casos selecionados de doença grave para facilitar a extubação, pesando o benefício respiratório contra riscos neurológicos documentados. Diuréticos, usados para controle sintomático, ainda não têm ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia da 'nova' DBP (simplificação alveolar) versus forma clássica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Definição, graduação de gravidade e uso criterioso de corticosteroide sistêmico pós-natal", fonte: "American Academy of Pediatrics, Committee on Fetus and Newborn, Postnatal Corticosteroids to Prevent or Treat Chronic Lung Disease Following Preterm Birth, Pediatrics, 2022" },
+    ],
+  },
+  {
+    slug: "sepse-neonatal",
+    nome: "Sepse neonatal",
+    sinonimos: ["Septicemia bacteriana do recém-nascido", "Sepse neonatal precoce e tardia"],
+    cid10: "P36",
+    especialidade: "Neonatologia",
+    etiologia: "Bacteriana",
+    resumo: "Infecção bacteriana sistêmica do recém-nascido, classificada em precoce (transmissão materna perinatal) e tardia (adquirida no ambiente pós-natal), com quadro clínico frequentemente inespecífico e alto risco de deterioração rápida.",
+    definicao:
+      "Síndrome clínica de infecção bacteriana sistêmica no recém-nascido, classificada como precoce (até 72 horas de vida, geralmente por transmissão vertical de patógenos do trato genital materno) ou tardia (após 72 horas, geralmente por patógenos adquiridos no ambiente hospitalar ou domiciliar).",
+    epidemiologia:
+      "A sepse precoce está associada a fatores de risco obstétricos (colonização materna por Streptococcus agalactiae do grupo B, ruptura prolongada de membranas, corioamnionite); a sepse tardia é mais comum em recém-nascidos pré-termo internados em UTI neonatal, associada a dispositivos invasivos (cateteres, ventilação mecânica).",
+    fisiopatologia:
+      "Na sepse precoce, a bactéria coloniza o trato genital materno e ascende ou é adquirida durante a passagem pelo canal de parto, invadindo a corrente sanguínea de um recém-nascido cujo sistema imunológico ainda é imaturo (menor transferência de imunoglobulinas maternas e menor capacidade de resposta inflamatória regulada, especialmente no pré-termo); na sepse tardia, a via de entrada é frequentemente cutânea, respiratória ou por dispositivo invasivo, refletindo o ambiente de cuidado intensivo.",
+    classificacao:
+      "Classificada por tempo de início em precoce (até 72 horas de vida, embora alguns protocolos usem o corte de 7 dias) e tardia (após esse período), distinção com implicações diretas na escolha do esquema antibiótico empírico, dados os patógenos tipicamente envolvidos em cada categoria.",
+    quadroClinico: [
+      "Sinais frequentemente inespecíficos: instabilidade térmica (hipotermia mais que febre no recém-nascido), letargia, irritabilidade, recusa alimentar",
+      "Desconforto respiratório, apneia",
+      "Instabilidade hemodinâmica (taquicardia, má perfusão periférica, hipotensão em casos avançados)",
+      "Distensão abdominal, icterícia atípica (precoce ou com padrão colestático)",
+    ],
+    diagnostico: [
+      "Diagnóstico baseado em fatores de risco (obstétricos na sepse precoce, dispositivos invasivos na tardia), quadro clínico compatível e confirmação por hemocultura, exame padrão-ouro",
+      "Uso de calculadoras de risco baseadas em fatores perinatais e evolução clínica para orientar a decisão de investigação e antibioticoterapia empírica na sepse precoce em recém-nascidos ≥ 35 semanas",
+    ],
+    examesComplementares: [
+      "Hemocultura antes do início da antibioticoterapia, exame de referência para confirmação diagnóstica",
+      "Hemograma completo com relação neutrófilo imaturo/total, marcador de apoio mas com baixo valor preditivo isolado",
+      "Proteína C-reativa seriada, útil para monitorização da resposta terapêutica mais do que para o diagnóstico inicial isolado",
+      "Punção lombar quando há suspeita de meningite associada, dada a alta taxa de coexistência",
+    ],
+    diagnosticoDiferencial: [
+      "Taquipneia transitória e outras causas não infecciosas de desconforto respiratório neonatal",
+      "Erros inatos do metabolismo, que podem mimetizar sepse com letargia, recusa alimentar e instabilidade metabólica",
+      "Cardiopatias congênitas ductus-dependentes, que podem se apresentar com choque nos primeiros dias de vida de forma semelhante à sepse",
+    ],
+    tratamento: [
+      "Antibioticoterapia empírica de amplo espectro iniciada prontamente após a coleta de culturas, sem aguardar confirmação laboratorial diante de suspeita clínica significativa",
+      "Esquema empírico da sepse precoce dirigido aos patógenos típicos dessa transmissão (Streptococcus agalactiae, Escherichia coli), tipicamente combinação de ampicilina com aminoglicosídeo",
+      "Ajuste do esquema conforme o resultado da cultura e do antibiograma, com duração total guiada pelo foco identificado e pela resposta clínica",
+    ],
+    complicacoes: [
+      "Aguda: choque séptico, coagulação intravascular disseminada, meningite associada",
+      "Crônica: sequelas neurológicas quando há meningite concomitante, maior risco em recém-nascidos pré-termo extremos",
+    ],
+    redFlags: [
+      "Qualquer recém-nascido com fatores de risco obstétricos relevantes (colonização materna por estreptococo do grupo B sem profilaxia adequada, corioamnionite) associados a sinais clínicos, mesmo sutis, exige investigação e antibioticoterapia empírica prontas",
+      "Instabilidade hemodinâmica ou respiratória em recém-nascido, mesmo sem outros sinais floridos, deve levantar suspeita de sepse dada a apresentação frequentemente inespecífica nessa faixa etária",
+    ],
+    prognostico:
+      "Bom com diagnóstico e tratamento antibiótico precoces na maioria dos casos; a mortalidade e o risco de sequelas neurológicas aumentam significativamente quando há meningite associada ou atraso no início do tratamento, sendo maiores em recém-nascidos pré-termo extremos.",
+    pontosDeProva: [
+      "A apresentação clínica da sepse neonatal é frequentemente inespecífica (instabilidade térmica, letargia, recusa alimentar), exigindo alto índice de suspeição baseado em fatores de risco perinatais",
+      "A hemocultura é o exame padrão-ouro e deve ser sempre coletada antes do início da antibioticoterapia empírica",
+      "O esquema antibiótico empírico difere entre sepse precoce (dirigida a estreptococo do grupo B e E. coli) e tardia (dirigida também a patógenos hospitalares, incluindo estafilococos)",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo, mãe com colonização por Streptococcus agalactiae sem profilaxia intraparto adequada, apresenta com 18 horas de vida letargia, recusa alimentar e instabilidade térmica.",
+      pergunta: "Qual a conduta diagnóstica e terapêutica imediata?",
+      raciocinio:
+        "A ausência de profilaxia intraparto adequada em mãe colonizada por estreptococo do grupo B, associada a sinais clínicos inespecíficos nas primeiras 24 horas de vida, é altamente sugestiva de sepse neonatal precoce.",
+      conduta:
+        "Coletar hemocultura e iniciar antibioticoterapia empírica de amplo espectro sem demora, dirigida aos patógenos típicos da sepse precoce, ajustando conforme a evolução clínica e o resultado das culturas.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O esquema antibiótico empírico padrão (ampicilina associada a um aminoglicosídeo) ainda não tem seus componentes individuais documentados como ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia e fatores de risco perinatais", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Calculadoras de risco, abordagem diagnóstica e esquema antibiótico empírico", fonte: "Puopolo KM et al., Management of Neonates Born at ≥35 0/7 Weeks' Gestation With Suspected or Proven Early-Onset Bacterial Sepsis, American Academy of Pediatrics, Pediatrics, 2018" },
+    ],
+  },
+  {
+    slug: "doenca-hemolitica-feto-recem-nascido",
+    nome: "Doença hemolítica do feto e do recém-nascido",
+    sinonimos: ["Eritroblastose fetal", "Incompatibilidade Rh", "Incompatibilidade ABO"],
+    cid10: "P55",
+    especialidade: "Neonatologia",
+    etiologia: "Autoimune",
+    resumo: "Hemólise fetal e neonatal causada pela passagem transplacentária de anticorpos maternos contra antígenos eritrocitários fetais herdados do pai, classicamente por incompatibilidade Rh(D) ou ABO, podendo causar anemia fetal grave e hidropisia.",
+    definicao:
+      "Distúrbio hemolítico do feto e do recém-nascido causado pela aloimunização materna contra antígenos presentes nas hemácias fetais (mas ausentes nas da mãe), com produção de anticorpos IgG que atravessam a placenta e destroem as hemácias fetais, sendo as incompatibilidades Rh(D) e ABO as causas clássicas mais relevantes.",
+    epidemiologia:
+      "A incompatibilidade Rh(D) tornou-se muito menos comum e menos grave com a introdução da profilaxia com imunoglobulina anti-D em gestantes Rh-negativas não sensibilizadas; a incompatibilidade ABO é mais comum, mas tipicamente causa doença hemolítica mais leve.",
+    fisiopatologia:
+      "Quando hemácias fetais Rh-positivas ou de grupo sanguíneo incompatível entram na circulação materna (durante a gestação, no parto, ou em eventos de sangramento feto-materno), uma mãe Rh-negativa ou com incompatibilidade ABO pode desenvolver anticorpos IgG contra esses antígenos; em gestações subsequentes (na incompatibilidade Rh) ou mesmo na primeira gestação (na incompatibilidade ABO, por anticorpos naturais preexistentes), esses anticorpos atravessam a placenta e se ligam às hemácias fetais, causando hemólise extravascular mediada pelo sistema reticuloendotelial fetal.",
+    classificacao:
+      "Classificada pelo antígeno envolvido (Rh(D), ABO, ou antígenos eritrocitários menores) e pela gravidade clínica, que varia de hemólise leve e icterícia neonatal até anemia fetal grave com hidropisia fetal (edema generalizado por insuficiência cardíaca de alto débito e hipoalbuminemia).",
+    quadroClinico: [
+      "Anemia fetal, detectável por Doppler de artéria cerebral média (aumento da velocidade de pico sistólico) em casos de aloimunização significativa",
+      "Hidropisia fetal em casos graves: ascite, derrame pleural/pericárdico, edema subcutâneo generalizado",
+      "No recém-nascido: icterícia de início precoce (nas primeiras 24 horas de vida, sinal de alarme), anemia, hepatoesplenomegalia",
+    ],
+    diagnostico: [
+      "Rastreamento pré-natal universal do tipo sanguíneo e Rh materno, com pesquisa de anticorpos irregulares (teste de Coombs indireto) em gestantes Rh-negativas",
+      "Doppler de artéria cerebral média fetal para rastreamento não invasivo de anemia fetal em gestações aloimunizadas com títulos de anticorpos significativos",
+      "Teste de Coombs direto no recém-nascido, confirmando a presença de anticorpos maternos ligados às hemácias fetais",
+    ],
+    examesComplementares: [
+      "Teste de Coombs indireto materno (rastreamento de anticorpos irregulares) e teste de Coombs direto no recém-nascido (confirmação diagnóstica)",
+      "Doppler de artéria cerebral média fetal, com velocidade de pico sistólico elevada sugerindo anemia fetal significativa, guiando a decisão de investigação invasiva ou transfusão intrauterina",
+      "Bilirrubina sérica seriada no recém-nascido para monitorização da hemólise e guiar a fototerapia",
+    ],
+    diagnosticoDiferencial: [
+      "Outras causas de anemia hemolítica neonatal não imune (deficiência de G6PD, esferocitose hereditária)",
+      "Outras causas de hidropisia fetal não imune (cardiopatias congênitas, infecções congênitas, anomalias cromossômicas)",
+    ],
+    tratamento: [
+      "Profilaxia com imunoglobulina anti-D em gestantes Rh-negativas não sensibilizadas, na 28ª semana de gestação e após qualquer evento de sangramento feto-materno potencial, prevenindo a sensibilização primária",
+      "Transfusão intrauterina de concentrado de hemácias em casos de anemia fetal grave confirmada, procedimento que pode ser repetido conforme a necessidade até o parto",
+      "No recém-nascido afetado: fototerapia para controle da hiperbilirrubinemia e, em casos graves, exsanguineotransfusão",
+    ],
+    complicacoes: [
+      "Aguda: hidropisia fetal (insuficiência cardíaca de alto débito fetal), kernicterus por hiperbilirrubinemia neonatal não tratada adequadamente",
+      "Crônica: sequelas neurológicas do kernicterus quando a hiperbilirrubinemia grave não é tratada a tempo",
+    ],
+    redFlags: [
+      "Icterícia neonatal de início nas primeiras 24 horas de vida é sempre patológica e exige investigação imediata, sendo um sinal característico de doença hemolítica",
+      "Sinais ecográficos de hidropisia fetal em gestação aloimunizada exigem avaliação urgente da necessidade de transfusão intrauterina",
+    ],
+    prognostico:
+      "Excelente com profilaxia adequada (imunoglobulina anti-D) e monitorização apropriada das gestações de risco; casos não identificados ou não tratados podem evoluir com anemia fetal grave, hidropisia e óbito fetal, ou kernicterus no recém-nascido.",
+    pontosDeProva: [
+      "A profilaxia com imunoglobulina anti-D em gestantes Rh-negativas não sensibilizadas é a intervenção que mais reduziu a incidência e a gravidade da doença hemolítica por incompatibilidade Rh",
+      "O Doppler de artéria cerebral média fetal substituiu métodos invasivos como triagem não invasiva de anemia fetal em gestações aloimunizadas",
+      "Icterícia neonatal nas primeiras 24 horas de vida é sempre patológica, ao contrário da icterícia fisiológica que surge após esse período",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante Rh-negativa, segunda gestação, sem uso de imunoglobulina anti-D na gestação anterior, apresenta título de anticorpos anti-D positivo e crescente na atual gestação. Doppler de artéria cerebral média fetal mostra velocidade de pico sistólico elevada.",
+      pergunta: "Qual é a interpretação do achado e a conduta apropriada?",
+      raciocinio:
+        "O título crescente de anticorpos anti-D associado à velocidade de pico sistólico elevada no Doppler de artéria cerebral média é altamente sugestivo de anemia fetal significativa por aloimunização Rh.",
+      conduta:
+        "Encaminhar para avaliação em centro de referência em medicina fetal, com consideração de cordocentese para confirmação e eventual transfusão intrauterina conforme a gravidade da anemia fetal.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "A imunoglobulina anti-D (profilaxia da sensibilização) e a transfusão intrauterina/exsanguineotransfusão (tratamento da doença estabelecida) ainda não têm fichas próprias documentadas no site.",
+    fontes: [
+      { tema: "Fisiopatologia da aloimunização e mecanismo da hemólise", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Rastreamento, Doppler de artéria cerebral média e indicação de transfusão intrauterina", fonte: "ACOG Practice Bulletin No. 192, Management of Alloimmunization During Pregnancy, Obstetrics & Gynecology, 2018" },
+    ],
+  },
+  {
+    slug: "kernicterus-ictericia-neonatal-patologica",
+    nome: "Kernicterus e icterícia neonatal patológica",
+    sinonimos: ["Encefalopatia bilirrubínica", "Hiperbilirrubinemia neonatal grave"],
+    cid10: "P57",
+    especialidade: "Neonatologia",
+    etiologia: "Metabólica",
+    resumo: "Hiperbilirrubinemia neonatal patológica que, quando grave e não tratada, pode causar depósito de bilirrubina não conjugada nos núcleos da base (kernicterus), lesão neurológica permanente evitável com tratamento oportuno.",
+    definicao:
+      "Espectro que vai da icterícia neonatal patológica (elevação da bilirrubina além dos limites esperados para a idade em horas de vida e fatores de risco) até o kernicterus, encefalopatia bilirrubínica crônica causada pelo depósito de bilirrubina não conjugada livre nos núcleos da base e no tronco cerebral quando os níveis séricos ultrapassam a capacidade de ligação à albumina e a barreira hematoencefálica.",
+    epidemiologia:
+      "A icterícia neonatal é extremamente comum, acometendo a maioria dos recém-nascidos em algum grau; o kernicterus tornou-se raro em países com rastreamento e tratamento adequados, mas permanece uma causa evitável de lesão neurológica quando o rastreamento falha ou o acesso ao tratamento é tardio.",
+    fisiopatologia:
+      "A bilirrubina não conjugada, produzida em excesso pela maior massa eritrocitária e menor meia-vida das hemácias fetais associada à imaturidade da conjugação hepática (atividade reduzida da glicuronosiltransferase), circula ligada à albumina; quando a produção excede a capacidade de conjugação e excreção, ou quando a fração livre (não ligada à albumina) aumenta por hipoalbuminemia, acidose, ou deslocamento por fármacos, a bilirrubina não conjugada atravessa a barreira hematoencefálica e se deposita nos núcleos da base, causando neurotoxicidade.",
+    classificacao:
+      "A conduta é guiada por nomogramas horário-específicos que estratificam o risco conforme o nível de bilirrubina sérica total e a idade em horas de vida, definindo limiares para fototerapia e para exsanguineotransfusão conforme fatores de risco associados (prematuridade, hemólise, sepse).",
+    quadroClinico: [
+      "Icterícia visível progredindo em direção céfalo-caudal conforme o nível de bilirrubina aumenta",
+      "Fase aguda do kernicterus: letargia, hipotonia, sucção fraca, podendo evoluir para hipertonia, opistótono e choro agudo característico",
+      "Kernicterus crônico (sequela): coreoatetose, perda auditiva neurossensorial, paralisia do olhar para cima, displasia dentária",
+    ],
+    diagnostico: [
+      "Rastreamento universal da bilirrubina (transcutânea ou sérica) antes da alta hospitalar, plotada em nomograma horário-específico para estratificação de risco",
+      "Identificação de fatores de risco para hiperbilirrubinemia grave: incompatibilidade sanguínea, prematuridade, cefaloematoma, amamentação exclusiva com perda de peso excessiva",
+    ],
+    examesComplementares: [
+      "Bilirrubina sérica total e frações, com o valor interpretado sempre em relação à idade em horas de vida usando o nomograma apropriado, não um ponto de corte fixo",
+      "Teste de Coombs direto e tipagem sanguínea quando há suspeita de doença hemolítica associada",
+    ],
+    diagnosticoDiferencial: [
+      "Icterícia fisiológica do recém-nascido (início após 24 horas de vida, resolução espontânea, sem outros sinais de doença)",
+      "Icterícia do leite materno e da amamentação, quadros benignos que exigem principalmente otimização da amamentação, não necessariamente sua suspensão",
+      "Colestase neonatal (icterícia com predomínio de bilirrubina direta), que exige investigação etiológica completamente distinta",
+    ],
+    tratamento: [
+      "Fototerapia, tratamento de primeira linha, convertendo a bilirrubina não conjugada em isômeros hidrossolúveis excretáveis sem necessidade de conjugação hepática, com limiar de início definido pelo nomograma específico por idade em horas e fatores de risco",
+      "Exsanguineotransfusão, reservada a hiperbilirrubinemia grave refratária à fototerapia intensiva ou com sinais de encefalopatia bilirrubínica aguda",
+      "Otimização da amamentação e hidratação, medida de suporte relevante especialmente na icterícia associada a aleitamento inadequado",
+    ],
+    complicacoes: [
+      "Aguda: encefalopatia bilirrubínica aguda (letargia, hipotonia evoluindo para hipertonia e opistótono)",
+      "Crônica: kernicterus estabelecido, com coreoatetose, perda auditiva neurossensorial e outras sequelas neurológicas permanentes",
+    ],
+    redFlags: [
+      "Icterícia nas primeiras 24 horas de vida é sempre patológica e exige investigação e tratamento imediatos, nunca observação isolada",
+      "Sinais de encefalopatia bilirrubínica aguda (letargia progressiva, hipotonia, sucção fraca) em recém-nascido ictérico exigem tratamento de emergência, incluindo consideração de exsanguineotransfusão",
+    ],
+    prognostico:
+      "Excelente com rastreamento e tratamento oportunos (fototerapia); o kernicterus estabelecido causa sequelas neurológicas permanentes e é considerado evento evitável quando o rastreamento e o tratamento seguem os protocolos recomendados.",
+    pontosDeProva: [
+      "A interpretação do nível de bilirrubina sérica deve sempre considerar a idade em horas de vida usando o nomograma apropriado, nunca um ponto de corte fixo isolado",
+      "Icterícia nas primeiras 24 horas de vida é sempre patológica, distinguindo-se da icterícia fisiológica que surge após esse período",
+      "O kernicterus é considerado um evento evitável quando o rastreamento universal e o tratamento oportuno com fototerapia são seguidos adequadamente",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo, 5 dias de vida, em aleitamento materno exclusivo com dificuldade de pega, apresenta icterícia progressiva até a região abdominal, letargia leve e perda ponderal de 9% em relação ao peso de nascimento.",
+      pergunta: "Qual é a conduta diagnóstica e terapêutica apropriada?",
+      raciocinio:
+        "A icterícia progressiva associada a perda ponderal excessiva e dificuldade de amamentação sugere hiperbilirrubinemia significativa relacionada à ingesta inadequada, exigindo dosagem de bilirrubina e avaliação segundo o nomograma horário-específico.",
+      conduta:
+        "Dosar bilirrubina sérica total, plotar no nomograma apropriado para a idade em horas de vida, iniciar fototerapia se indicado pelo limiar de risco, e otimizar a amamentação com suporte especializado.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento central (fototerapia e, em casos graves, exsanguineotransfusão) é físico, não medicamentoso.",
+    fontes: [
+      { tema: "Fisiopatologia do depósito de bilirrubina não conjugada e neurotoxicidade", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Nomogramas horário-específicos e limiares para fototerapia/exsanguineotransfusão", fonte: "Kemper AR et al., Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation, American Academy of Pediatrics, Pediatrics, 2022" },
+    ],
+  },
+  {
+    slug: "hemorragia-intracraniana-nao-traumatica-rn",
+    nome: "Hemorragia intracraniana não traumática do recém-nascido",
+    sinonimos: ["Hemorragia peri-intraventricular do prematuro", "HPIV"],
+    cid10: "P52",
+    especialidade: "Neonatologia",
+    etiologia: "Traumática",
+    resumo: "Sangramento na matriz germinativa subependimária e nos ventrículos cerebrais, característico do recém-nascido pré-termo, decorrente da fragilidade vascular dessa região associada a flutuações do fluxo sanguíneo cerebral.",
+    definicao:
+      "Sangramento originado na matriz germinativa subependimária, região altamente vascularizada e frágil presente no cérebro fetal/neonatal em desenvolvimento, que pode se estender para os ventrículos laterais (hemorragia intraventricular) e, em casos graves, para o parênquima cerebral adjacente, sendo característico do recém-nascido pré-termo pela imaturidade vascular dessa região.",
+    epidemiologia:
+      "Incidência inversamente proporcional à idade gestacional, sendo rara em recém-nascidos a termo e significativamente mais comum quanto mais extrema a prematuridade, acometendo uma proporção substancial de recém-nascidos abaixo de 28 semanas.",
+    fisiopatologia:
+      "A matriz germinativa subependimária é uma região de vascularização rica mas estruturalmente frágil (vasos com parede fina, sem suporte de tecido conjuntivo adequado), que involui espontaneamente por volta de 34 semanas de gestação; no pré-termo, flutuações do fluxo sanguíneo cerebral (por instabilidade hemodinâmica, ventilação mecânica, pneumotórax, ou manipulação excessiva) associadas a essa fragilidade vascular intrínseca predispõem à ruptura e ao sangramento, que pode se estender para o sistema ventricular e, em casos graves, causar infarto hemorrágico do parênquima periventricular adjacente.",
+    classificacao:
+      "Classificada pelos critérios de Papile em graus de I a IV por ultrassonografia craniana: grau I (hemorragia restrita à matriz germinativa), grau II (hemorragia intraventricular sem dilatação ventricular), grau III (hemorragia intraventricular com dilatação ventricular) e grau IV (hemorragia intraventricular associada a infarto hemorrágico do parênquima periventricular).",
+    quadroClinico: [
+      "Frequentemente assintomática em graus leves, detectada apenas pelo rastreamento ultrassonográfico de rotina no pré-termo",
+      "Em casos mais graves: deterioração clínica aguda com queda do hematócrito, abaulamento de fontanela, alteração do nível de consciência, convulsões, instabilidade cardiorrespiratória",
+    ],
+    diagnostico: [
+      "Rastreamento ultrassonográfico transfontanelar de rotina em todo recém-nascido pré-termo abaixo de determinada idade gestacional (tipicamente 32 semanas), independentemente de sintomas",
+      "Classificação pelos critérios de Papile conforme os achados ultrassonográficos",
+    ],
+    examesComplementares: [
+      "Ultrassonografia transfontanelar, exame de escolha para rastreamento e classificação, repetida seriadamente conforme o protocolo da unidade neonatal",
+      "Ressonância magnética cerebral em casos selecionados para avaliação mais detalhada de lesão parenquimatosa e prognóstico",
+    ],
+    diagnosticoDiferencial: [
+      "Hemorragia intracraniana de causa traumática (relacionada a parto), distinguida pela história de trauma obstétrico e pela localização tipicamente extra-axial",
+      "Malformações vasculares cerebrais congênitas, causa rara de sangramento intracraniano neonatal",
+    ],
+    tratamento: [
+      "Não há tratamento específico para reverter o sangramento já ocorrido; o manejo é de suporte, com estabilização hemodinâmica e respiratória para prevenir extensão do sangramento",
+      "Monitorização seriada por ultrassonografia para detecção precoce de hidrocefalia pós-hemorrágica, complicação que pode exigir intervenção neurocirúrgica (derivação ventricular)",
+      "Prevenção como estratégia central: minimizar flutuações do fluxo sanguíneo cerebral (manuseio cuidadoso, estabilidade hemodinâmica), corticosteroide antenatal quando há risco de parto pré-termo",
+    ],
+    complicacoes: [
+      "Aguda: extensão do sangramento, hidrocefalia pós-hemorrágica aguda por obstrução da drenagem liquórica",
+      "Crônica: paralisia cerebral, atraso do neurodesenvolvimento e outras sequelas neurológicas, com risco proporcional ao grau da hemorragia — significativamente maior nos graus III e IV",
+    ],
+    redFlags: [
+      "Queda aguda e inexplicada do hematócrito associada a deterioração clínica em recém-nascido pré-termo deve levantar suspeita de hemorragia intracraniana significativa",
+      "Aumento progressivo do perímetro cefálico ou abaulamento de fontanela após hemorragia conhecida sugere hidrocefalia pós-hemorrágica, exigindo avaliação neurocirúrgica",
+    ],
+    prognostico:
+      "Excelente nos graus I e II, com a maioria evoluindo sem sequelas significativas; os graus III e IV, especialmente quando há infarto hemorrágico parenquimatoso associado, carregam risco substancialmente maior de paralisia cerebral e atraso do neurodesenvolvimento.",
+    pontosDeProva: [
+      "A matriz germinativa subependimária, região de origem do sangramento, involui espontaneamente por volta de 34 semanas — por isso a hemorragia peri-intraventricular é rara em recém-nascidos a termo",
+      "A classificação de Papile (graus I a IV) por ultrassonografia craniana orienta diretamente o prognóstico neurológico esperado",
+      "A hidrocefalia pós-hemorrágica é uma complicação importante a ser monitorizada, podendo exigir derivação neurocirúrgica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido pré-termo de 26 semanas, em ventilação mecânica, apresenta queda aguda do hematócrito no 3º dia de vida associada a episódio de instabilidade hemodinâmica. Ultrassonografia transfontanelar mostra sangramento intraventricular com dilatação ventricular associada.",
+      pergunta: "Qual é a classificação do achado e a conduta de monitorização subsequente?",
+      raciocinio:
+        "A hemorragia intraventricular com dilatação ventricular corresponde ao grau III da classificação de Papile, achado que exige monitorização seriada para detecção precoce de hidrocefalia pós-hemorrágica progressiva.",
+      conduta:
+        "Realizar ultrassonografias transfontanelares seriadas para monitorizar o tamanho ventricular, avaliar sinais clínicos de hipertensão intracraniana, e encaminhar para avaliação neurocirúrgica se houver progressão para hidrocefalia sintomática.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso específico para reverter a hemorragia já ocorrida; o manejo é de suporte e, quando indicado, cirúrgico (derivação ventricular).",
+    fontes: [
+      { tema: "Fisiopatologia da fragilidade da matriz germinativa e fatores predisponentes", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Classificação de Papile por ultrassonografia craniana", fonte: "Papile LA et al., Incidence and Evolution of Subependymal and Intraventricular Hemorrhage: A Study of Infants With Birth Weights Less Than 1,500 gm, Journal of Pediatrics, 1978" },
+    ],
+  },
+  {
+    slug: "enterocolite-necrosante",
+    nome: "Enterocolite necrosante",
+    sinonimos: ["ECN", "NEC"],
+    cid10: "P77",
+    especialidade: "Neonatologia",
+    etiologia: "Multifatorial",
+    resumo: "Emergência gastrointestinal do recém-nascido pré-termo caracterizada por necrose isquêmico-inflamatória da parede intestinal, podendo evoluir rapidamente para perfuração e sepse, uma das principais causas de morbimortalidade na UTI neonatal.",
+    definicao:
+      "Doença inflamatória e isquêmica adquirida do trato gastrointestinal do recém-nascido, predominantemente pré-termo, caracterizada por necrose da parede intestinal (mais comumente íleo terminal e cólon proximal) que pode progredir para perfuração intestinal e sepse, sendo uma das emergências cirúrgicas neonatais mais graves.",
+    epidemiologia:
+      "Incidência inversamente proporcional à idade gestacional e ao peso ao nascer, acometendo predominantemente recém-nascidos pré-termo em unidades de terapia intensiva neonatal; casos em recém-nascidos a termo são raros e geralmente associados a outra condição predisponente (cardiopatia congênita, policitemia).",
+    fisiopatologia:
+      "A combinação de imaturidade da barreira mucosa intestinal, colonização bacteriana anormal da microbiota intestinal, isquemia intestinal (por instabilidade hemodinâmica ou fluxo sanguíneo mesentérico alterado) e alimentação enteral (que fornece substrato para a proliferação bacteriana translocada) desencadeia uma cascata inflamatória exacerbada que causa necrose da parede intestinal, podendo progredir para perfuração, peritonite e sepse.",
+    classificacao:
+      "Classificada pelos critérios modificados de Bell em estágio I (suspeita), estágio II (definida, com pneumatose intestinal radiológica) e estágio III (avançada, com perfuração/peritonite), cada um subdividido em A e B conforme a gravidade dos sinais sistêmicos e radiológicos — classificação que orienta diretamente a conduta terapêutica.",
+    quadroClinico: [
+      "Distensão abdominal progressiva, resíduo gástrico aumentado e bilioso, vômitos",
+      "Sangue nas fezes (visível ou oculto)",
+      "Sinais sistêmicos de gravidade variável: instabilidade térmica, apneia, letargia, evoluindo para choque em casos avançados",
+      "Eritema e endurecimento da parede abdominal em casos avançados, sinal de peritonite",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico-radiológico baseado nos critérios modificados de Bell, combinando sinais sistêmicos, intestinais e radiológicos",
+      "Pneumatose intestinal (ar na parede intestinal) na radiografia de abdome, achado radiológico característico e definidor do estágio II",
+    ],
+    examesComplementares: [
+      "Radiografia de abdome seriada, demonstrando pneumatose intestinal (estágio II) ou pneumoperitônio (estágio III, indicando perfuração)",
+      "Hemograma e proteína C-reativa para avaliação da resposta inflamatória sistêmica e monitorização evolutiva",
+      "Gasometria e lactato sérico para avaliação da perfusão e da gravidade sistêmica",
+    ],
+    diagnosticoDiferencial: [
+      "Sepse neonatal isolada sem acometimento intestinal primário",
+      "Íleo meconial e outras obstruções intestinais mecânicas do recém-nascido, distinguidas pela ausência de pneumatose intestinal e pelo padrão radiológico específico",
+      "Perfuração intestinal isolada espontânea, entidade distinta que ocorre sem o pródromo inflamatório típico da ECN",
+    ],
+    tratamento: [
+      "Suspensão da dieta enteral e descompressão gástrica por sonda, medida inicial em qualquer estágio de suspeita",
+      "Antibioticoterapia empírica de amplo espectro cobrindo Gram-negativos e anaeróbios, com o metronidazol como componente frequente do esquema combinado nessa cobertura",
+      "Suporte hemodinâmico e nutricional (nutrição parenteral durante o repouso intestinal)",
+      "Intervenção cirúrgica (ressecção do segmento necrótico, com ou sem estoma) reservada a perfuração confirmada (estágio III) ou deterioração clínica refratária ao tratamento clínico",
+    ],
+    complicacoes: [
+      "Aguda: perfuração intestinal, peritonite, choque séptico, coagulação intravascular disseminada",
+      "Crônica: estenose intestinal cicatricial (complicação tardia comum, mesmo após tratamento bem-sucedido), síndrome do intestino curto em casos que exigem ressecção extensa",
+    ],
+    redFlags: [
+      "Eritema e endurecimento da parede abdominal, associados a instabilidade sistêmica, sugerem perfuração/peritonite e exigem avaliação cirúrgica de emergência",
+      "Pneumoperitônio na radiografia de abdome confirma perfuração intestinal, indicação absoluta de intervenção cirúrgica",
+    ],
+    prognostico:
+      "Variável conforme o estágio: casos em estágio I frequentemente resolvem com tratamento clínico; estágios avançados com necessidade cirúrgica carregam mortalidade significativa e risco de sequelas gastrointestinais e nutricionais de longo prazo, incluindo síndrome do intestino curto.",
+    pontosDeProva: [
+      "A pneumatose intestinal na radiografia de abdome é o achado radiológico característico que define o estágio II dos critérios modificados de Bell",
+      "O esquema antibiótico empírico deve cobrir Gram-negativos e anaeróbios, refletindo a fisiopatologia de translocação bacteriana da microbiota intestinal",
+      "A estenose intestinal cicatricial é uma complicação tardia relativamente comum mesmo após tratamento clínico bem-sucedido, exigindo seguimento",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido pré-termo de 28 semanas, em alimentação enteral progressiva, desenvolve distensão abdominal progressiva, resíduo gástrico bilioso e sangue nas fezes no 12º dia de vida. Radiografia de abdome mostra pneumatose intestinal.",
+      pergunta: "Qual é o diagnóstico, o estágio e a conduta inicial?",
+      raciocinio:
+        "A tríade de distensão abdominal, resíduo bilioso e sangue nas fezes associada a pneumatose intestinal radiológica confirma enterocolite necrosante em estágio II dos critérios modificados de Bell.",
+      conduta:
+        "Suspender a dieta enteral, iniciar descompressão gástrica e antibioticoterapia empírica de amplo espectro com cobertura para anaeróbios, e monitorizar radiológica e clinicamente para sinais de progressão para perfuração.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "metronidazol", nome: "Metronidazol" },
+    ],
+    medicamentosNota:
+      "O metronidazol é componente frequente do esquema antibiótico combinado, cobrindo a fração anaeróbia; os demais componentes típicos (ampicilina e um aminoglicosídeo ou cefalosporina de amplo espectro) ainda não têm ficha própria com essa indicação específica no site.",
+    fontes: [
+      { tema: "Fisiopatologia multifatorial e critérios modificados de Bell", fonte: "Walsh MC, Kliegman RM, Necrotizing Enterocolitis: Treatment Based on Staging Criteria, Pediatric Clinics of North America, 1986" },
+      { tema: "Pneumatose intestinal como achado radiológico definidor", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "ileo-meconial-obstrucoes-intestinais-rn",
+    nome: "Íleo meconial e outras obstruções intestinais do recém-nascido",
+    sinonimos: ["Íleo meconial", "Obstrução intestinal neonatal"],
+    cid10: "P75",
+    especialidade: "Neonatologia",
+    etiologia: "Genética",
+    resumo: "Obstrução intestinal neonatal causada pela impactação de mecônio anormalmente espesso no íleo distal, fortemente associada à fibrose cística, sendo frequentemente sua primeira manifestação clínica.",
+    definicao:
+      "Obstrução mecânica do íleo terminal por mecônio anormalmente viscoso e espesso, incapaz de progredir normalmente pelo trato intestinal, condição fortemente associada à fibrose cística (presente em cerca de 90% dos casos de íleo meconial), refletindo a disfunção das secreções exócrinas característica dessa doença.",
+    epidemiologia:
+      "É uma das apresentações neonatais mais precoces e características da fibrose cística, ocorrendo em uma proporção significativa de recém-nascidos com essa doença; todo caso de íleo meconial deve motivar investigação para fibrose cística mesmo quando o rastreamento neonatal foi negativo.",
+    fisiopatologia:
+      "Na fibrose cística, a disfunção do canal de cloro CFTR leva à secreção de muco intestinal anormalmente espesso e desidratado; esse mecônio de consistência anormal se impacta no íleo terminal, causando obstrução mecânica proximal com distensão de alças intestinais a montante, podendo em casos graves levar a volvo, atresia intestinal secundária ou perfuração intrauterina com peritonite meconial.",
+    classificacao:
+      "Classificado em íleo meconial simples (obstrução isolada, sem complicações) e complicado (associado a volvo, atresia intestinal, perfuração ou peritonite meconial intrauterina), distinção com implicação direta na abordagem terapêutica (conservadora versus cirúrgica).",
+    quadroClinico: [
+      "Distensão abdominal progressiva nas primeiras 24-48 horas de vida",
+      "Ausência de eliminação de mecônio",
+      "Vômitos biliosos",
+      "Alças intestinais palpáveis e distendidas ao exame abdominal",
+    ],
+    diagnostico: [
+      "Suspeita clínica baseada em distensão abdominal e ausência de eliminação de mecônio nas primeiras 24-48 horas de vida",
+      "Confirmação radiológica com padrão característico de alças intestinais distendidas com aspecto de 'vidro fosco' (mecônio misturado a ar) no quadrante inferior direito",
+      "Todo caso confirmado deve ser investigado para fibrose cística com teste do suor e/ou análise genética, mesmo com rastreamento neonatal negativo",
+    ],
+    examesComplementares: [
+      "Radiografia de abdome, com padrão característico de 'vidro fosco' e ausência de níveis hidroaéreos proeminentes (diferente de outras obstruções mecânicas)",
+      "Enema contrastado, com valor diagnóstico e terapêutico simultâneo no íleo meconial simples",
+      "Teste do suor, exame de referência para confirmação de fibrose cística após a resolução do quadro agudo",
+    ],
+    diagnosticoDiferencial: [
+      "Doença de Hirschsprung, distinguida pela biópsia retal (ausência de células ganglionares) quando a apresentação clínica é sobreponível",
+      "Atresia intestinal primária (sem relação com fibrose cística), diferenciada pelo padrão radiológico e pela ausência de história familiar/rastreamento sugestivo de fibrose cística",
+      "Enterocolite necrosante, distinguida pelo contexto clínico (recém-nascido em alimentação enteral, sinais sistêmicos de sepse) e pela pneumatose intestinal",
+    ],
+    tratamento: [
+      "Enema contrastado com contraste hiperosmolar, tratamento inicial no íleo meconial simples não complicado, com potencial de resolver a obstrução ao atrair água para o lúmen intestinal e fragmentar o mecônio impactado",
+      "Intervenção cirúrgica (enterotomia com irrigação, ressecção segmentar com ou sem estoma) reservada a casos complicados (volvo, atresia, perfuração) ou falha do enema contrastado",
+      "Investigação e manejo multidisciplinar da fibrose cística subjacente após a resolução da obstrução aguda",
+    ],
+    complicacoes: [
+      "Aguda: volvo intestinal, perfuração com peritonite meconial",
+      "Crônica: manifestações progressivas da fibrose cística subjacente (respiratórias, pancreáticas, nutricionais) ao longo da vida",
+    ],
+    redFlags: [
+      "Sinais de peritonite (distensão abdominal com eritema/endurecimento da parede, instabilidade sistêmica) sugerem perfuração intestinal, exigindo intervenção cirúrgica de emergência",
+      "Calcificações intra-abdominais na radiografia sugerem peritonite meconial intrauterina, indicando perfuração que já ocorreu antes do nascimento",
+    ],
+    prognostico:
+      "Bom para o episódio agudo de obstrução com tratamento apropriado (conservador ou cirúrgico conforme a complexidade); o prognóstico de longo prazo é determinado predominantemente pela gravidade da fibrose cística subjacente, não pelo episódio de íleo meconial em si.",
+    pontosDeProva: [
+      "O íleo meconial está associado à fibrose cística em cerca de 90% dos casos, sendo frequentemente sua primeira manifestação clínica — todo caso exige investigação para fibrose cística",
+      "O enema contrastado tem valor diagnóstico e terapêutico simultâneo no íleo meconial simples não complicado",
+      "Calcificações intra-abdominais na radiografia sugerem peritonite meconial intrauterina, evidência de perfuração ocorrida antes do nascimento",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo, sem eliminação de mecônio em 36 horas de vida, apresenta distensão abdominal progressiva e vômitos biliosos. Radiografia de abdome mostra alças distendidas com aspecto de 'vidro fosco' no quadrante inferior direito, sem níveis hidroaéreos proeminentes.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e a investigação subsequente obrigatória?",
+      raciocinio:
+        "A ausência de eliminação de mecônio associada ao padrão radiológico característico de 'vidro fosco' é compatível com íleo meconial, condição fortemente associada à fibrose cística.",
+      conduta:
+        "Tentar enema contrastado como abordagem inicial diagnóstico-terapêutica no íleo meconial simples, e investigar fibrose cística com teste do suor após a resolução do quadro agudo, independentemente do resultado do rastreamento neonatal.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é predominantemente procedimental (enema contrastado) ou cirúrgico, sem tratamento medicamentoso específico para a obstrução em si.",
+    fontes: [
+      { tema: "Associação com fibrose cística e fisiopatologia da secreção intestinal anormal", fonte: "Nelson Textbook of Pediatrics, 21ª ed." },
+      { tema: "Padrão radiológico e abordagem terapêutica com enema contrastado", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+    ],
+  },
+  {
+    slug: "hipoglicemia-neonatal",
+    nome: "Hipoglicemia neonatal e outros transtornos transitórios do metabolismo",
+    sinonimos: ["Hipoglicemia do recém-nascido"],
+    cid10: "P70",
+    especialidade: "Neonatologia",
+    etiologia: "Metabólica",
+    resumo: "Distúrbio metabólico neonatal comum, decorrente do desequilíbrio entre a produção e o consumo de glicose durante a transição da vida fetal para a neonatal, com risco de lesão neurológica se grave, prolongado ou não reconhecido.",
+    definicao:
+      "Concentração de glicose sérica ou plasmática abaixo do valor considerado seguro para a idade e o contexto clínico do recém-nascido, refletindo um desequilíbrio transitório (ou, mais raramente, persistente) entre a produção endógena de glicose e sua utilização, particularmente relevante durante as primeiras horas de transição metabólica após a interrupção do suprimento contínuo de glicose materno-placentário.",
+    epidemiologia:
+      "Extremamente comum no período neonatal imediato, com maior risco em grupos específicos: recém-nascidos filhos de mãe diabética, pequenos ou grandes para a idade gestacional, pré-termo tardio, e recém-nascidos com estresse perinatal (asfixia, sepse).",
+    fisiopatologia:
+      "Ao nascimento, a interrupção abrupta do suprimento contínuo de glicose materno-placentário exige que o recém-nascido ative rapidamente a glicogenólise e, posteriormente, a gliconeogênese para manter a glicemia; recém-nascidos com reservas de glicogênio reduzidas (pré-termo, restrição de crescimento), hiperinsulinismo transitório (filhos de mãe diabética, pela hiperglicemia materna crônica estimulando a produção fetal de insulina) ou aumento do consumo (estresse perinatal, sepse, hipotermia) têm risco aumentado de não conseguir manter a glicemia dentro de valores seguros nessa fase de transição.",
+    classificacao:
+      "Não há um valor único de corte universalmente aceito como definidor de hipoglicemia neonatal — a abordagem atual prioriza a identificação de grupos de risco para rastreamento direcionado e a definição de limiares operacionais (não necessariamente 'normais') que orientam a intervenção conforme o contexto clínico e a idade em horas de vida.",
+    quadroClinico: [
+      "Frequentemente assintomática, sobretudo em graus leves, reforçando a importância do rastreamento em grupos de risco independentemente de sintomas",
+      "Quando sintomática: tremores, irritabilidade, letargia, hipotonia, recusa alimentar, apneia, convulsões em casos graves",
+    ],
+    diagnostico: [
+      "Rastreamento direcionado da glicemia em recém-nascidos de grupos de risco (filhos de mãe diabética, pequenos/grandes para a idade gestacional, pré-termo tardio, com estresse perinatal), não universal em recém-nascidos saudáveis assintomáticos",
+      "Confirmação laboratorial da glicemia (não apenas por fita reagente) antes de decisões terapêuticas definitivas, especialmente em valores limítrofes",
+    ],
+    examesComplementares: [
+      "Glicemia plasmática laboratorial para confirmação, já que os métodos de triagem à beira do leito têm variabilidade e podem subestimar ou superestimar o valor real",
+      "Investigação adicional (insulina, cortisol, hormônio do crescimento) reservada a hipoglicemia persistente além do período de transição esperado, para excluir causas endócrinas/metabólicas específicas",
+    ],
+    diagnosticoDiferencial: [
+      "Hipoglicemia persistente por hiperinsulinismo congênito ou outros distúrbios endócrinos/metabólicos raros, quando a hipoglicemia não se resolve no período de transição esperado (geralmente até 48-72 horas)",
+      "Sepse neonatal, que pode se apresentar com hipoglicemia associada a outros sinais sistêmicos",
+    ],
+    tratamento: [
+      "Alimentação enteral precoce (leite materno ou fórmula) como primeira medida em recém-nascidos assintomáticos ou levemente sintomáticos de grupos de risco",
+      "Infusão intravenosa de glicose para hipoglicemia sintomática ou refratária à alimentação enteral, com taxa de infusão titulada conforme a resposta glicêmica",
+      "Investigação endócrina/metabólica especializada para hipoglicemia persistente além do período de transição esperado",
+    ],
+    complicacoes: [
+      "Aguda: convulsões hipoglicêmicas em casos graves não tratados",
+      "Crônica: lesão neurológica permanente associada a hipoglicemia grave, prolongada ou recorrente não reconhecida e tratada a tempo, embora a relação exata entre gravidade/duração e dano neurológico ainda seja objeto de pesquisa",
+    ],
+    redFlags: [
+      "Hipoglicemia sintomática (tremores, letargia, convulsões) é sempre uma emergência que exige correção imediata, independentemente do valor exato medido",
+      "Hipoglicemia que persiste além de 48-72 horas de vida ou que exige taxas de infusão de glicose muito altas para manutenção sugere causa endócrina/metabólica específica (ex.: hiperinsulinismo congênito), exigindo investigação especializada",
+    ],
+    prognostico:
+      "Excelente na grande maioria dos casos transitórios com rastreamento direcionado e tratamento oportuno; o risco de sequela neurológica está associado principalmente a hipoglicemia grave, sintomática, prolongada ou recorrente não identificada e tratada a tempo.",
+    pontosDeProva: [
+      "Não há um valor único de corte universalmente aceito como definidor de hipoglicemia neonatal — a abordagem atual é baseada em grupos de risco e limiares operacionais contextuais, não em um número fixo isolado",
+      "O rastreamento deve ser direcionado a grupos de risco específicos (filhos de mãe diabética, PIG/GIG, pré-termo tardio, estresse perinatal), não universal em recém-nascidos saudáveis assintomáticos",
+      "Hipoglicemia persistente além de 48-72 horas de vida foge do padrão transitório esperado e exige investigação para causas endócrinas/metabólicas específicas",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo, grande para a idade gestacional, filho de mãe com diabetes gestacional mal controlado, apresenta tremores e hipotonia nas primeiras 2 horas de vida. Glicemia capilar: 25 mg/dL.",
+      pergunta: "Qual a conduta imediata?",
+      raciocinio:
+        "O recém-nascido grande para a idade gestacional filho de mãe diabética tem hiperinsulinismo transitório esperado pela exposição fetal à hiperglicemia materna crônica, com risco elevado de hipoglicemia sintomática nas primeiras horas de vida.",
+      conduta:
+        "Confirmar a glicemia por método laboratorial, iniciar alimentação enteral imediata e, dada a sintomatologia (tremores, hipotonia), considerar infusão intravenosa de glicose se não houver resposta rápida à alimentação.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento de primeira linha é a alimentação enteral precoce e, quando necessário, infusão intravenosa de glicose — medidas de suporte metabólico, não medicamentos no sentido farmacológico tradicional.",
+    fontes: [
+      { tema: "Fisiopatologia da transição metabólica neonatal e grupos de risco", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Ausência de valor de corte único e abordagem por grupos de risco", fonte: "Adamkin DH, American Academy of Pediatrics, Committee on Fetus and Newborn, Postnatal Glucose Homeostasis in Late-Preterm and Term Infants, Pediatrics, 2011" },
+    ],
+  },
+  {
+    slug: "restricao-crescimento-intrauterino",
+    nome: "Restrição de crescimento intrauterino",
+    sinonimos: ["RCIU", "Crescimento fetal retardado", "Pequeno para a idade gestacional"],
+    cid10: "P05",
+    especialidade: "Neonatologia",
+    etiologia: "Multifatorial",
+    resumo: "Incapacidade do feto de atingir seu potencial de crescimento geneticamente determinado, geralmente por insuficiência placentária, associada a maior risco de morbimortalidade perinatal e de complicações metabólicas de longo prazo.",
+    definicao:
+      "Condição em que o feto não atinge seu potencial de crescimento esperado, tipicamente definida por peso fetal estimado ou circunferência abdominal abaixo do percentil 10 para a idade gestacional, com ou sem sinais adicionais de comprometimento placentário (Doppler anormal), distinguindo-a do conceito mais amplo e menos específico de 'pequeno para a idade gestacional', que inclui também fetos constitucionalmente pequenos e saudáveis.",
+    epidemiologia:
+      "Acomete uma proporção significativa das gestações, sendo uma das principais causas de morbimortalidade perinatal; fatores de risco incluem doença hipertensiva materna, tabagismo, desnutrição materna, infecções congênitas e anomalias placentárias.",
+    fisiopatologia:
+      "A causa mais comum é a insuficiência placentária, na qual a invasão trofoblástica inadequada das artérias espiraladas uterinas (mecanismo compartilhado com a pré-eclâmpsia) resulta em fluxo sanguíneo uteroplacentário reduzido e hipóxia/nutrição fetal crônica insuficiente; o feto responde com redistribuição do fluxo sanguíneo priorizando órgãos nobres (cérebro, coração, adrenais) às custas do crescimento somático geral, padrão conhecido como centralização de fluxo.",
+    classificacao:
+      "Classificada em precoce (diagnosticada antes de 32 semanas, geralmente mais grave e associada a maior comprometimento placentário) e tardia (após 32 semanas, geralmente mais leve); também classificada conforme achados de Doppler (normal versus alterado, incluindo diástole zero/reversa na artéria umbilical, sinal de comprometimento grave).",
+    quadroClinico: [
+      "Altura uterina menor que o esperado para a idade gestacional ao exame obstétrico de rotina",
+      "Peso fetal estimado ou circunferência abdominal abaixo do percentil 10 na ultrassonografia obstétrica",
+      "Oligoidrâmnio frequentemente associado, refletindo a redistribuição de fluxo com redução da perfusão renal fetal",
+      "No recém-nascido: peso ao nascer abaixo do percentil 10 para a idade gestacional, podendo apresentar sinais de desnutrição fetal (pele solta, redução de tecido subcutâneo)",
+    ],
+    diagnostico: [
+      "Diagnóstico ultrassonográfico com peso fetal estimado ou circunferência abdominal abaixo do percentil 10 para a idade gestacional, idealmente com curva de crescimento seriada demonstrando desaceleração",
+      "Avaliação Doppler das artérias umbilical, cerebral média e, quando indicado, do ducto venoso, para estratificação da gravidade e definição da via/momento do parto",
+    ],
+    examesComplementares: [
+      "Ultrassonografia obstétrica seriada com biometria fetal, exame central para diagnóstico e acompanhamento",
+      "Doppler da artéria umbilical, com diástole ausente ou reversa indicando comprometimento placentário grave e maior urgência na definição do momento do parto",
+      "Investigação de causas associadas quando indicado: rastreamento de infecções congênitas, cariótipo fetal em casos com outras anomalias associadas",
+    ],
+    diagnosticoDiferencial: [
+      "Feto constitucionalmente pequeno mas saudável (pequeno para a idade gestacional sem insuficiência placentária), distinguido pelo Doppler normal e pelo crescimento proporcional mantido",
+      "Erro de datação da idade gestacional, que deve sempre ser excluído antes de firmar o diagnóstico",
+      "Restrição de crescimento por anomalia cromossômica ou infecção congênita, quando há achados estruturais associados",
+    ],
+    tratamento: [
+      "Não há tratamento que reverta a restrição de crescimento já estabelecida; o manejo consiste em vigilância fetal intensificada (Doppler seriado, perfil biofísico) e definição do momento ideal do parto, equilibrando os riscos da prematuridade iatrogênica contra os da permanência intraútero",
+      "Ácido acetilsalicílico em baixa dose, iniciado idealmente antes de 16 semanas em gestantes de alto risco identificadas previamente, como estratégia de prevenção (não de tratamento) em gestação subsequente",
+      "Corticosteroide antenatal quando há risco de parto pré-termo iminente, para maturação pulmonar fetal",
+    ],
+    complicacoes: [
+      "Aguda: maior risco de sofrimento fetal intraparto, natimortalidade, necessidade de reanimação neonatal e hipoglicemia neonatal (reservas energéticas reduzidas)",
+      "Crônica: maior risco cardiovascular e metabólico ao longo da vida (hipótese da origem fetal das doenças do adulto), além de possível impacto no neurodesenvolvimento em casos graves e precoces",
+    ],
+    redFlags: [
+      "Diástole ausente ou reversa no Doppler da artéria umbilical indica comprometimento placentário grave, exigindo vigilância intensiva e frequentemente antecipação do parto",
+      "Restrição de crescimento precoce (antes de 32 semanas) e grave associa-se a maior risco de resultados perinatais adversos, exigindo acompanhamento em centro de referência em medicina fetal",
+    ],
+    prognostico:
+      "Variável conforme a gravidade e a idade gestacional ao diagnóstico: casos leves e tardios geralmente têm bom prognóstico com vigilância adequada; casos precoces e graves com Doppler alterado carregam risco significativamente maior de morbimortalidade perinatal.",
+    pontosDeProva: [
+      "A insuficiência placentária por invasão trofoblástica inadequada é o mecanismo fisiopatológico compartilhado entre a restrição de crescimento intrauterino e a pré-eclâmpsia, explicando sua frequente associação clínica",
+      "A diástole ausente ou reversa no Doppler da artéria umbilical é o achado de maior gravidade, sinalizando comprometimento placentário avançado",
+      "O ácido acetilsalicílico em baixa dose iniciado antes de 16 semanas é estratégia de prevenção em gestações subsequentes de alto risco, não tratamento da restrição já estabelecida na gestação atual",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 32 semanas, altura uterina menor que o esperado. Ultrassonografia mostra peso fetal estimado no percentil 3, com Doppler de artéria umbilical mostrando diástole reversa.",
+      pergunta: "Qual é a gravidade do achado e a conduta apropriada?",
+      raciocinio:
+        "O peso fetal no percentil 3 associado a diástole reversa na artéria umbilical indica restrição de crescimento intrauterino grave com comprometimento placentário avançado, achado de alto risco para desfechos perinatais adversos.",
+      conduta:
+        "Encaminhar para acompanhamento em centro de referência em medicina fetal, administrar corticosteroide antenatal para maturação pulmonar dado o risco de parto pré-termo iminente, e definir o momento do parto com base na vigilância fetal intensiva.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "acido-acetilsalicilico", nome: "Ácido acetilsalicílico (AAS)" },
+    ],
+    medicamentosNota:
+      "O AAS em baixa dose é usado como prevenção em gestações subsequentes de alto risco identificado previamente, iniciado antes de 16 semanas — não trata a restrição de crescimento já estabelecida na gestação atual.",
+    fontes: [
+      { tema: "Fisiopatologia da insuficiência placentária e centralização de fluxo fetal", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Classificação por Doppler e prevenção com AAS em gestações de alto risco", fonte: "ACOG Practice Bulletin No. 227, Fetal Growth Restriction, Obstetrics & Gynecology, 2021" },
+    ],
+  },
+  {
+    slug: "prematuridade-complicacoes-baixo-peso-nascer",
+    nome: "Prematuridade e complicações do baixo peso ao nascer",
+    sinonimos: ["Recém-nascido pré-termo", "Baixo peso ao nascer"],
+    cid10: "P07",
+    especialidade: "Neonatologia",
+    etiologia: "Multifatorial",
+    resumo: "Nascimento antes de 37 semanas completas de gestação, com morbimortalidade e necessidade de suporte intensivo inversamente proporcionais à idade gestacional e ao peso ao nascer, exigindo manejo multissistêmico especializado.",
+    definicao:
+      "Nascimento ocorrido antes de 37 semanas completas de gestação, classificado adicionalmente por subcategorias de gravidade crescente conforme a idade gestacional, associado a imaturidade funcional de múltiplos sistemas orgânicos proporcional ao grau de prematuridade.",
+    epidemiologia:
+      "Uma das principais causas de mortalidade neonatal e infantil em todo o mundo; a sobrevida de recém-nascidos extremamente pré-termo (abaixo de 28 semanas) aumentou substancialmente com os avanços em cuidados intensivos neonatais, embora o risco de morbidade significativa permaneça alto nesse grupo.",
+    fisiopatologia:
+      "A interrupção da gestação antes do término da maturação funcional normal dos órgãos fetais resulta em imaturidade proporcional à idade gestacional em múltiplos sistemas: pulmonar (deficiência de surfactante), neurológico (fragilidade da matriz germinativa, risco de hemorragia intraventricular), gastrointestinal (imaturidade da motilidade e da barreira mucosa, risco de enterocolite necrosante), imunológico (menor transferência de imunoglobulinas maternas, maior suscetibilidade a infecções) e termorregulatório (maior relação superfície/peso corporal, tecido adiposo subcutâneo reduzido).",
+    classificacao:
+      "Classificada por idade gestacional em pré-termo tardio (34-36 semanas e 6 dias), moderado (32-33 semanas e 6 dias), muito pré-termo (28-31 semanas e 6 dias) e extremamente pré-termo (abaixo de 28 semanas); classificada também por peso ao nascer em baixo peso (< 2.500 g), muito baixo peso (< 1.500 g) e extremo baixo peso (< 1.000 g).",
+    quadroClinico: [
+      "Sinais físicos de imaturidade proporcionais à idade gestacional: pele fina e gelatinosa, ausência de sulcos plantares, orelhas pouco cartilaginosas, tônus muscular reduzido",
+      "Dificuldades funcionais esperadas conforme a idade gestacional: incapacidade de sucção-deglutição-respiração coordenadas antes de aproximadamente 34 semanas, instabilidade térmica, apneia da prematuridade",
+    ],
+    diagnostico: [
+      "Diagnóstico baseado na idade gestacional confirmada por data da última menstruação e/ou ultrassonografia obstétrica precoce, complementado pelo exame físico de maturidade (escore de Ballard) quando a idade gestacional é incerta",
+    ],
+    examesComplementares: [
+      "Escore de Ballard (ou New Ballard Score), exame físico que estima a idade gestacional com base em critérios físicos e neuromusculares quando a data da última menstruação é incerta ou não confiável",
+      "Rastreamento ultrassonográfico transfontanelar de rotina (hemorragia intraventricular) e oftalmológico (retinopatia da prematuridade) conforme protocolos específicos por idade gestacional",
+    ],
+    diagnosticoDiferencial: [
+      "Restrição de crescimento intrauterino em recém-nascido a termo, que também pode ter baixo peso ao nascer, mas com maturidade funcional correspondente à idade gestacional real (a termo), diferente do pré-termo",
+    ],
+    tratamento: [
+      "Corticosteroide antenatal (betametasona) à gestante em risco de parto pré-termo, intervenção com maior impacto isolado na redução de complicações neonatais (síndrome do desconforto respiratório, hemorragia intraventricular, enterocolite necrosante)",
+      "Sulfato de magnésio para neuroproteção fetal quando o parto pré-termo é iminente antes de 32 semanas, reduzindo o risco de paralisia cerebral",
+      "Suporte multissistêmico especializado em unidade de terapia intensiva neonatal proporcional ao grau de prematuridade: suporte respiratório, nutricional (nutrição parenteral e progressão enteral cuidadosa), térmico e rastreamento das complicações típicas (hemorragia intraventricular, retinopatia da prematuridade, enterocolite necrosante)",
+    ],
+    complicacoes: [
+      "Aguda: síndrome do desconforto respiratório, hemorragia intraventricular, enterocolite necrosante, sepse neonatal, persistência do canal arterial sintomática",
+      "Crônica: displasia broncopulmonar, retinopatia da prematuridade, atraso do neurodesenvolvimento proporcional à gravidade da prematuridade e das complicações agudas associadas",
+    ],
+    redFlags: [
+      "Toda gestante em risco de parto pré-termo antes de 34 semanas deve receber corticosteroide antenatal, intervenção com o maior impacto isolado comprovado na redução de morbimortalidade neonatal — atraso ou omissão representa perda de oportunidade terapêutica significativa",
+      "Recém-nascidos extremamente pré-termo exigem rastreamento sistemático para hemorragia intraventricular e retinopatia da prematuridade, mesmo na ausência de sintomas, dado o alto risco basal dessas complicações nesse grupo",
+    ],
+    prognostico:
+      "Diretamente proporcional à idade gestacional ao nascer: recém-nascidos pré-termo tardios geralmente têm bom prognóstico com suporte mínimo; recém-nascidos extremamente pré-termo, apesar da sobrevida crescente, mantêm risco significativo de morbidade neurológica, respiratória e sensorial de longo prazo.",
+    pontosDeProva: [
+      "O corticosteroide antenatal é a intervenção isolada com maior impacto comprovado na redução de morbimortalidade associada à prematuridade, devendo ser administrado a toda gestante em risco de parto pré-termo antes de 34 semanas",
+      "O sulfato de magnésio para neuroproteção fetal é indicado especificamente quando o parto pré-termo é iminente antes de 32 semanas, reduzindo o risco de paralisia cerebral — indicação distinta de seu uso na pré-eclâmpsia/eclâmpsia",
+      "O escore de Ballard estima a idade gestacional por critérios físicos e neuromusculares quando a data da última menstruação é incerta",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante em trabalho de parto pré-termo com 29 semanas de gestação, sem uso prévio de corticosteroide antenatal, dilatação cervical de 4 cm.",
+      pergunta: "Quais intervenções devem ser priorizadas antes do parto iminente?",
+      raciocinio:
+        "A idade gestacional de 29 semanas com trabalho de parto ativo e iminência de parto pré-termo indica a janela de oportunidade para as duas intervenções com maior impacto comprovado na redução de morbimortalidade neonatal nesse contexto.",
+      conduta:
+        "Administrar corticosteroide antenatal (betametasona) para maturação pulmonar fetal e sulfato de magnésio para neuroproteção fetal, dado que o parto pré-termo iminente ocorre antes de 32 semanas.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "betametasona", nome: "Betametasona (acetato + fosfato dissódico)" },
+      { slug: "sulfato-magnesio", nome: "Sulfato de magnésio" },
+    ],
+    medicamentosNota:
+      "A betametasona (corticosteroide antenatal) reduz complicações respiratórias e outras da prematuridade; o sulfato de magnésio, quando o parto é iminente antes de 32 semanas, oferece neuroproteção fetal específica, reduzindo o risco de paralisia cerebral.",
+    fontes: [
+      { tema: "Fisiopatologia da imaturidade multissistêmica proporcional à idade gestacional", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Classificação por idade gestacional e peso ao nascer, e impacto do corticosteroide antenatal", fonte: "ACOG Committee Opinion No. 713, Antenatal Corticosteroid Therapy for Fetal Maturation, Obstetrics & Gynecology, 2017" },
+    ],
+  },
+  {
+    slug: "convulsoes-neonatais",
+    nome: "Convulsões neonatais",
+    sinonimos: ["Crises epilépticas neonatais"],
+    cid10: "P90",
+    especialidade: "Neonatologia",
+    etiologia: "Multifatorial",
+    resumo: "Emergência neurológica neonatal mais comum, frequentemente eletrográfica sem manifestação clínica evidente, geralmente secundária a uma causa aguda identificável (encefalopatia hipóxico-isquêmica, infecção, distúrbio metabólico) que deve ser investigada e tratada.",
+    definicao:
+      "Descarga elétrica cerebral anormal, excessiva e súbita no período neonatal, que pode se manifestar clinicamente (movimentos motores, alterações autonômicas) ou permanecer eletrográfica (visível apenas ao eletroencefalograma, sem correlato clínico evidente), sendo a emergência neurológica mais frequente nessa faixa etária.",
+    epidemiologia:
+      "Mais comuns em recém-nascidos pré-termo e naqueles com fatores de risco perinatais significativos (asfixia, infecção do sistema nervoso central, hemorragia intracraniana); ao contrário das convulsões da infância e da idade adulta, a grande maioria tem uma causa aguda identificável, sendo verdadeira epilepsia neonatal (predisposição crônica) relativamente incomum.",
+    fisiopatologia:
+      "O cérebro neonatal tem predisposição intrínseca a crises devido a características de desenvolvimento (predomínio relativo de neurotransmissão excitatória sobre inibitória nessa fase, maior densidade de receptores excitatórios), tornando-o mais suscetível a descargas anormais diante de agressões agudas como hipóxia-isquemia, infecção, distúrbios metabólicos (hipoglicemia, hipocalcemia) ou hemorragia intracraniana — diferente das crianças maiores e adultos, nos quais a epilepsia crônica é proporcionalmente mais comum como causa de crise.",
+    classificacao:
+      "A classificação da ILAE para crises neonatais dispensa a divisão tradicional em focal/generalizada (já que as crises neonatais têm início focal por definição fisiopatológica), classificando-as por tipo de manifestação (motora, autonômica, ou eletrográfica-apenas) e reconhecendo explicitamente a categoria de crises eletrográficas sem correlato clínico.",
+    quadroClinico: [
+      "Crises clônicas focais ou multifocais, crises tônicas, crises mioclônicas",
+      "Fenômenos autonômicos sutis (apneia, alterações da frequência cardíaca, desvio ocular) que podem ser a única manifestação clínica",
+      "Crises eletrográficas sem qualquer manifestação clínica visível, achado frequente e que exige monitorização eletroencefalográfica para detecção",
+    ],
+    diagnostico: [
+      "Suspeita clínica diante de movimentos anormais estereotipados e repetitivos ou de fenômenos autonômicos inexplicados no recém-nascido de risco",
+      "Confirmação por eletroencefalograma, exame essencial dado que muitas crises são eletrográficas-apenas ou têm correlato clínico sutil e inespecífico",
+      "Investigação etiológica sistemática (glicemia, eletrólitos, neuroimagem, avaliação infecciosa) em todo caso confirmado, dado que a grande maioria tem causa aguda identificável",
+    ],
+    examesComplementares: [
+      "Eletroencefalograma (idealmente contínuo ou com amplitude integrada), exame de referência para confirmação diagnóstica e para detectar crises eletrográficas sem manifestação clínica",
+      "Glicemia, cálcio, magnésio e eletrólitos, para investigação de causas metabólicas tratáveis",
+      "Neuroimagem (ultrassonografia transfontanelar, ressonância magnética) para investigação de hemorragia, malformação ou lesão hipóxico-isquêmica",
+    ],
+    diagnosticoDiferencial: [
+      "Jitteriness (tremores neonatais benignos), distinguido das convulsões verdadeiras pela ausência de movimentos oculares anormais, pela cessação com contenção suave do membro e pela sensibilidade a estímulo (ao contrário da crise)",
+      "Mioclonia benigna do sono neonatal, quadro autolimitado que ocorre exclusivamente durante o sono e cessa ao despertar",
+    ],
+    tratamento: [
+      "Correção imediata de causas metabólicas identificadas (hipoglicemia, hipocalcemia), quando presentes, antes ou concomitantemente ao anticonvulsivante",
+      "Fenobarbital como anticonvulsivante de primeira linha na maioria dos protocolos neonatais",
+      "Fenitoína como agente de segunda linha para crises refratárias ao fenobarbital",
+      "Tratamento da causa de base identificada (ex.: antibioticoterapia na meningite, hipotermia terapêutica na encefalopatia hipóxico-isquêmica) como componente essencial do manejo",
+    ],
+    complicacoes: [
+      "Aguda: estado de mal epiléptico neonatal quando as crises são prolongadas ou recorrentes sem controle adequado",
+      "Crônica: epilepsia neonatal verdadeira (menos comum, geralmente associada a malformações cerebrais ou síndromes genéticas específicas) e sequelas do neurodesenvolvimento relacionadas à causa de base, mais do que às crises em si",
+    ],
+    redFlags: [
+      "Fenômenos autonômicos sutis (apneia, alterações inexplicadas de frequência cardíaca) em recém-nascido de risco devem levantar suspeita de crise eletrográfica-apenas, justificando eletroencefalograma mesmo sem manifestação motora evidente",
+      "Toda convulsão neonatal exige investigação etiológica sistemática imediata, dado que a maioria reflete uma causa aguda tratável cuja identificação e correção são tão importantes quanto o controle da crise em si",
+    ],
+    prognostico:
+      "Determinado predominantemente pela causa de base, não pela crise em si: encefalopatia hipóxico-isquêmica grave associa-se a pior prognóstico neurológico; causas metabólicas transitórias corrigidas prontamente geralmente têm bom prognóstico.",
+    pontosDeProva: [
+      "A classificação da ILAE para crises neonatais dispensa a divisão focal/generalizada tradicional, já que as crises nessa idade têm início focal por definição, e reconhece explicitamente a categoria eletrográfica-apenas",
+      "Ao contrário das crises em crianças maiores e adultos, a grande maioria das convulsões neonatais tem uma causa aguda identificável, sendo a verdadeira epilepsia neonatal relativamente incomum",
+      "O jitteriness (tremor neonatal benigno) se distingue da crise verdadeira por cessar com contenção suave do membro e não ter movimentos oculares anormais associados",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo com história de encefalopatia hipóxico-isquêmica moderada, em hipotermia terapêutica, apresenta episódios de desvio ocular associado a alterações inexplicadas da frequência cardíaca, sem movimentos motores evidentes.",
+      pergunta: "Qual a hipótese diagnóstica e a conduta apropriada?",
+      raciocinio:
+        "O desvio ocular associado a alterações autonômicas inexplicadas em recém-nascido de alto risco para crises (encefalopatia hipóxico-isquêmica) é sugestivo de convulsão neonatal, possivelmente com componente eletrográfico predominante.",
+      conduta:
+        "Solicitar eletroencefalograma para confirmação diagnóstica, corrigir eventuais distúrbios metabólicos associados (glicemia, cálcio) e iniciar fenobarbital como anticonvulsivante de primeira linha se as crises forem confirmadas.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "fenitoina", nome: "Fenitoína" },
+    ],
+    medicamentosNota:
+      "O fenobarbital, anticonvulsivante de primeira linha na maioria dos protocolos neonatais, ainda não tem ficha própria no site; a fenitoína é usada como agente de segunda linha para crises refratárias ao fenobarbital.",
+    fontes: [
+      { tema: "Fisiopatologia da predisposição neonatal a crises e predomínio de causas agudas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Classificação da ILAE para crises neonatais", fonte: "Pressler RM et al., The ILAE Classification of Seizures and the Epilepsies: Modification for Seizures in the Neonate, Position Paper by the ILAE Task Force on Neonatal Seizures, Epilepsia, 2021" },
+    ],
+  },
+  {
+    slug: "sindrome-de-down",
+    nome: "Síndrome de Down",
+    sinonimos: ["Trissomia do 21", "Trissomia 21"],
+    cid10: "Q90",
+    especialidade: "Genética Médica",
+    etiologia: "Genética",
+    resumo: "Síndrome cromossômica mais comum, causada pela presença de um cromossomo 21 extra, associada a deficiência intelectual, características fenotípicas típicas e maior risco de malformações cardíacas e outras comorbidades.",
+    definicao:
+      "Síndrome cromossômica causada pela presença de material genético extra do cromossomo 21 (trissomia completa, translocação ou mosaicismo), resultando em um fenótipo característico que inclui deficiência intelectual de grau variável, traços faciais típicos e risco aumentado de malformações e comorbidades associadas em múltiplos sistemas.",
+    epidemiologia:
+      "A síndrome cromossômica mais comum em nascidos vivos, com incidência que aumenta progressivamente com a idade materna avançada; a grande maioria dos casos (cerca de 95%) resulta de trissomia livre por não disjunção meiótica, sendo translocação e mosaicismo formas menos comuns.",
+    fisiopatologia:
+      "A cópia extra de genes do cromossomo 21 (trissomia livre, translocação robertsoniana envolvendo o cromossomo 21, ou mosaicismo com duas linhagens celulares) causa um efeito de dosagem gênica que altera a expressão de múltiplos genes durante o desenvolvimento, resultando no fenótipo característico multissistêmico; a forma por translocação pode ser herdada de um dos pais portador assintomático de translocação balanceada, com implicação direta no risco de recorrência e na indicação de aconselhamento genético.",
+    classificacao:
+      "Classificada por mecanismo citogenético em trissomia livre (não disjunção, cerca de 95% dos casos), translocação robertsoniana (cerca de 4%, com risco de recorrência aumentado se um dos pais for portador) e mosaicismo (cerca de 1%, geralmente com fenótipo mais leve).",
+    quadroClinico: [
+      "Hipotonia neonatal, frequentemente o primeiro sinal clínico notado",
+      "Traços faciais característicos: fissuras palpebrais oblíquas para cima, prega epicântica, face achatada, língua protrusa, orelhas pequenas e de implantação baixa",
+      "Prega palmar única (prega simiesca) e clinodactilia do quinto dedo",
+      "Deficiência intelectual de grau variável, geralmente leve a moderada",
+      "Baixa estatura e hipotonia persistente ao longo da infância",
+    ],
+    diagnostico: [
+      "Suspeita clínica ao nascimento pelo fenótipo característico, confirmada por cariótipo (padrão-ouro), que também define o mecanismo citogenético (trissomia livre, translocação ou mosaicismo)",
+      "Rastreamento pré-natal (translucência nucal e marcadores bioquímicos no primeiro trimestre, teste pré-natal não invasivo por DNA fetal livre) seguido de confirmação diagnóstica invasiva (amniocentese ou biópsia de vilo corial) quando indicado",
+    ],
+    examesComplementares: [
+      "Cariótipo, exame de confirmação diagnóstica e de definição do mecanismo citogenético, com implicação direta no aconselhamento genético sobre risco de recorrência",
+      "Ecocardiograma em todo recém-nascido diagnosticado, dado o alto risco de cardiopatia congênita associada (defeito do septo atrioventricular como a mais característica)",
+      "Rastreamento de hipotireoidismo congênito/adquirido e de problemas auditivos e visuais, conforme protocolo de acompanhamento específico da síndrome",
+    ],
+    diagnosticoDiferencial: [
+      "Outras trissomias autossômicas (Edwards, Patau), distinguidas pelo fenótipo e pela gravidade das malformações associadas, geralmente mais graves",
+      "Hipotireoidismo congênito isolado, que pode compartilhar hipotonia neonatal, mas sem os demais achados fenotípicos característicos",
+    ],
+    tratamento: [
+      "Não há tratamento curativo; o manejo é de suporte multidisciplinar, com estimulação precoce do desenvolvimento neuropsicomotor",
+      "Correção cirúrgica de malformações cardíacas congênitas associadas, quando presentes",
+      "Acompanhamento programático ao longo da vida (cardiológico, endócrino, oftalmológico, audiológico) conforme diretriz de supervisão de saúde específica da síndrome",
+    ],
+    complicacoes: [
+      "Aguda: complicações da cardiopatia congênita associada quando não corrigida oportunamente",
+      "Crônica: hipotireoidismo, doença celíaca, apneia obstrutiva do sono, perda auditiva, catarata, risco aumentado de leucemia na infância e de doença de Alzheimer de início precoce na vida adulta",
+    ],
+    redFlags: [
+      "Todo recém-nascido com diagnóstico de síndrome de Down deve ser submetido a ecocardiograma, dado o alto risco de cardiopatia congênita associada, frequentemente assintomática ao nascimento",
+      "Sinais de instabilidade da coluna cervical (subluxação atlantoaxial) devem ser investigados antes de atividades físicas de risco ou procedimentos que exijam manipulação cervical",
+    ],
+    prognostico:
+      "A expectativa de vida aumentou substancialmente com os avanços em cuidados cardíacos e clínicos, podendo se aproximar da população geral em muitos casos; o grau de deficiência intelectual e a presença/gravidade de malformações associadas (especialmente cardíacas) são os principais determinantes do prognóstico funcional.",
+    pontosDeProva: [
+      "O defeito do septo atrioventricular é a cardiopatia congênita mais característica e frequente associada à síndrome de Down, justificando o ecocardiograma obrigatório em todo caso diagnosticado",
+      "A forma por translocação robertsoniana, ao contrário da trissomia livre, pode ser herdada de um dos pais portador balanceado, com implicação direta no risco de recorrência em gestações futuras",
+      "O acompanhamento programático ao longo da vida (cardíaco, tireoidiano, auditivo, oftalmológico) é essencial, dado o risco aumentado de múltiplas comorbidades associadas",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo, mãe de 41 anos, apresenta hipotonia acentuada, fissuras palpebrais oblíquas para cima, prega palmar única bilateral e prega epicântica.",
+      pergunta: "Qual é a hipótese diagnóstica e a investigação prioritária?",
+      raciocinio:
+        "O conjunto de achados fenotípicos (hipotonia, fissuras palpebrais oblíquas, prega palmar única, prega epicântica) associado à idade materna avançada é altamente sugestivo de síndrome de Down.",
+      conduta:
+        "Solicitar cariótipo para confirmação diagnóstica e definição do mecanismo citogenético, e ecocardiograma para rastreamento de cardiopatia congênita associada, mesmo na ausência de sopro audível ao exame físico inicial.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso específico para a síndrome em si; o manejo farmacológico é dirigido às comorbidades associadas (ex.: levotiroxina se houver hipotireoidismo), individualizado conforme cada caso.",
+    fontes: [
+      { tema: "Fisiopatologia da trissomia do 21 e mecanismos citogenéticos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Rastreamento pré-natal e diagnóstico por cariótipo", fonte: "Williams Obstetrics/Gynecology" },
+      { tema: "Acompanhamento programático multissistêmico ao longo da vida", fonte: "Bull MJ et al., Health Supervision for Children and Adolescents With Down Syndrome, American Academy of Pediatrics, Pediatrics, 2022" },
+    ],
+  },
+  {
+    slug: "sindrome-edwards-patau",
+    nome: "Síndrome de Edwards e síndrome de Patau",
+    sinonimos: ["Trissomia do 18", "Trissomia do 13"],
+    cid10: "Q91",
+    especialidade: "Genética Médica",
+    etiologia: "Genética",
+    resumo: "Trissomias autossômicas graves (cromossomos 18 e 13, respectivamente), associadas a malformações múltiplas severas e mortalidade muito elevada no primeiro ano de vida, sendo a segunda e a terceira trissomias autossômicas mais comuns.",
+    definicao:
+      "Síndromes cromossômicas causadas pela presença de material genético extra do cromossomo 18 (síndrome de Edwards) ou do cromossomo 13 (síndrome de Patau), associadas a malformações estruturais múltiplas e graves em praticamente todos os sistemas orgânicos, com prognóstico substancialmente mais reservado que a trissomia do 21.",
+    epidemiologia:
+      "São, respectivamente, a segunda e a terceira trissomias autossômicas mais comuns em nascidos vivos, embora a prevalência global (incluindo perdas gestacionais) seja consideravelmente maior, dada a elevada taxa de perda fetal espontânea; associadas a idade materna avançada, de forma semelhante à síndrome de Down.",
+    fisiopatologia:
+      "O efeito de dosagem gênica da cópia extra dos cromossomos 18 ou 13 compromete gravemente a organogênese em múltiplos sistemas durante o desenvolvimento embrionário, resultando em malformações estruturais major (cardíacas, do sistema nervoso central, renais) que, em conjunto, explicam a mortalidade muito elevada observada nos primeiros meses de vida.",
+    classificacao:
+      "Classificadas, como as demais trissomias, por mecanismo citogenético em trissomia livre (a mais comum), translocação e mosaicismo, este último geralmente associado a fenótipo mais brando e sobrevida mais prolongada.",
+    quadroClinico: [
+      "Síndrome de Edwards: occipúcio proeminente, micrognatia, orelhas de implantação baixa, punhos cerrados com sobreposição característica dos dedos, pés em 'mata-borrão' (rocker-bottom), restrição de crescimento intrauterino grave",
+      "Síndrome de Patau: microftalmia ou anoftalmia, fenda labial e/ou palatina, polidactilia pós-axial, holoprosencefalia em casos graves, defeitos do couro cabeludo",
+      "Malformações cardíacas e renais graves associadas em ambas as síndromes, frequentemente múltiplas",
+    ],
+    diagnostico: [
+      "Suspeita pré-natal por ultrassonografia (múltiplas malformações estruturais associadas a restrição de crescimento grave) e/ou rastreamento bioquímico/genético não invasivo, com confirmação por cariótipo fetal ou neonatal",
+      "Diagnóstico pós-natal pela combinação do fenótipo característico com confirmação citogenética",
+    ],
+    examesComplementares: [
+      "Cariótipo, exame de confirmação diagnóstica definitiva",
+      "Ecocardiograma e ultrassonografia renal para caracterização completa das malformações associadas, essenciais para o planejamento de cuidados e para a discussão de prognóstico com a família",
+    ],
+    diagnosticoDiferencial: [
+      "Síndrome de Down, distinguida pela gravidade e pelo tipo de malformações associadas, geralmente mais leves e com sobrevida muito mais prolongada",
+      "Outras síndromes malformativas múltiplas raras, quando o cariótipo não confirma trissomia dos cromossomos 18 ou 13",
+    ],
+    tratamento: [
+      "Não há tratamento curativo; a abordagem terapêutica exige decisão compartilhada e individualizada com a família, ponderando cuidados intensivos versus cuidados paliativos, dado o prognóstico geralmente reservado",
+      "Correção cirúrgica de malformações específicas pode ser considerada em casos selecionados, conforme a gravidade global do quadro e a decisão familiar informada",
+      "Suporte multidisciplinar e cuidados paliativos como componente central do manejo na maioria dos casos",
+    ],
+    complicacoes: [
+      "Aguda: insuficiência cardíaca por cardiopatia congênita complexa, apneia central",
+      "Crônica: nos sobreviventes além do primeiro ano (minoria), deficiência intelectual profunda e limitações funcionais graves",
+    ],
+    redFlags: [
+      "O diagnóstico pré-natal de múltiplas malformações estruturais graves associadas a restrição de crescimento intrauterino acentuada deve motivar aconselhamento genético especializado e discussão antecipada com a família sobre prognóstico e opções de cuidado",
+    ],
+    prognostico:
+      "Reservado, com mortalidade muito elevada no primeiro ano de vida (a maioria dos casos não sobrevive além dos primeiros meses); uma pequena proporção de sobreviventes, geralmente com formas em mosaico, pode alcançar sobrevida mais prolongada, mas com deficiência intelectual profunda e limitações funcionais significativas.",
+    pontosDeProva: [
+      "Punhos cerrados com sobreposição característica dos dedos e pés em 'mata-borrão' são achados clássicos da síndrome de Edwards (trissomia do 18)",
+      "Holoprosencefalia, microftalmia/anoftalmia e polidactilia pós-axial são achados clássicos da síndrome de Patau (trissomia do 13)",
+      "Ambas as síndromes têm mortalidade muito elevada no primeiro ano de vida, ao contrário da síndrome de Down — distinção prognóstica central entre as trissomias autossômicas",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido com restrição de crescimento intrauterino grave apresenta occipúcio proeminente, micrognatia, orelhas de implantação baixa e punhos cerrados com os dedos sobrepostos de forma característica.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável?",
+      raciocinio:
+        "O conjunto de achados (occipúcio proeminente, micrognatia, punhos cerrados com sobreposição característica dos dedos) associado a restrição de crescimento intrauterino grave é altamente sugestivo de síndrome de Edwards (trissomia do 18).",
+      conduta:
+        "Confirmar o diagnóstico por cariótipo, realizar ecocardiograma e ultrassonografia renal para caracterização completa das malformações associadas, e iniciar discussão compartilhada com a família sobre prognóstico e plano de cuidados.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "Não há tratamento medicamentoso específico; o manejo é predominantemente de suporte e cuidados paliativos, individualizado conforme a decisão familiar e a gravidade das malformações associadas.",
+    fontes: [
+      { tema: "Fisiopatologia da trissomia do 18 e do 13 e achados fenotípicos característicos", fonte: "Cereda A, Carey JC, The Trisomy 18 Syndrome, Orphanet Journal of Rare Diseases, 2012" },
+      { tema: "Diagnóstico pré-natal e confirmação citogenética", fonte: "Williams Obstetrics/Gynecology" },
+    ],
+  },
+  {
+    slug: "sindrome-de-turner",
+    nome: "Síndrome de Turner",
+    sinonimos: ["Monossomia do X", "45,X"],
+    cid10: "Q96",
+    especialidade: "Genética Médica",
+    etiologia: "Genética",
+    resumo: "Distúrbio cromossômico que acomete indivíduos do sexo feminino, causado pela ausência total ou parcial de um dos cromossomos X, associado a baixa estatura, disgenesia gonadal e risco aumentado de malformações cardiovasculares.",
+    definicao:
+      "Distúrbio cromossômico caracterizado pela ausência completa ou parcial de um dos dois cromossomos X em indivíduos fenotipicamente femininos, resultando em um espectro clínico que inclui baixa estatura, disgenesia gonadal com insuficiência ovariana primária, e risco aumentado de malformações cardiovasculares e renais.",
+    epidemiologia:
+      "Acomete uma proporção significativa de nascidos vivos do sexo feminino, embora a grande maioria das concepções com monossomia do X termine em perda gestacional espontânea; não há associação estabelecida com idade materna avançada, ao contrário das trissomias autossômicas.",
+    fisiopatologia:
+      "A haploinsuficiência de genes localizados no cromossomo X (e em alguns casos no pseudoautossômico) compromete o desenvolvimento normal em múltiplos sistemas; a disgenesia gonadal resulta de degeneração acelerada dos oócitos e folículos ovarianos já durante a vida fetal, levando a insuficiência ovariana primária estabelecida antes ou logo após a puberdade na maioria dos casos.",
+    classificacao:
+      "Classificada por cariótipo em monossomia completa (45,X, a forma clássica), mosaicismo (ex.: 45,X/46,XX, geralmente com fenótipo mais brando) e variantes estruturais do cromossomo X (deleções parciais, isocromossomos), com correlação variável entre o cariótipo específico e a gravidade do fenótipo.",
+    quadroClinico: [
+      "Baixa estatura, achado praticamente universal e frequentemente o motivo de investigação inicial",
+      "Pescoço alado (pterígio cervical) e linha de implantação capilar posterior baixa",
+      "Tórax largo com mamilos afastados ('em escudo')",
+      "Amenorreia primária e ausência ou regressão do desenvolvimento puberal por insuficiência ovariana primária",
+      "Linfedema congênito de mãos e pés, mais evidente ao nascimento",
+    ],
+    diagnostico: [
+      "Suspeita clínica por baixa estatura desproporcional associada a outros achados fenotípicos (pescoço alado, linfedema neonatal) ou por atraso puberal/amenorreia primária em adolescentes",
+      "Confirmação por cariótipo, exame de referência que também define o subtipo citogenético",
+    ],
+    examesComplementares: [
+      "Cariótipo, exame de confirmação diagnóstica",
+      "Ecocardiograma e angiorressonância de aorta, dado o risco aumentado de malformações cardiovasculares (válvula aórtica bicúspide, coarctação da aorta) e de dissecção de aorta ao longo da vida",
+      "Ultrassonografia renal, pelo risco aumentado de malformações renais associadas",
+      "Perfil hormonal (FSH elevado, estradiol baixo) confirmando a insuficiência ovariana primária",
+    ],
+    diagnosticoDiferencial: [
+      "Outras causas de baixa estatura e de atraso puberal/amenorreia primária, distinguidas pelo cariótipo normal e pela ausência dos demais achados fenotípicos característicos",
+      "Deficiência isolada de hormônio do crescimento, quando a baixa estatura não é acompanhada de outros achados sindrômicos",
+    ],
+    tratamento: [
+      "Hormônio do crescimento recombinante, iniciado precocemente na infância, para otimização da estatura final",
+      "Terapia de reposição hormonal com estrogênio, iniciada na idade puberal apropriada, para indução e manutenção do desenvolvimento puberal e da saúde óssea",
+      "Monitorização cardiovascular ao longo da vida, dado o risco aumentado de malformações e de dissecção de aorta",
+    ],
+    complicacoes: [
+      "Aguda: dissecção de aorta, complicação rara mas potencialmente fatal, com risco aumentado pela associação com válvula aórtica bicúspide e coarctação",
+      "Crônica: osteoporose por insuficiência ovariana primária não tratada, otite média recorrente e perda auditiva, hipotireoidismo autoimune, infertilidade",
+    ],
+    redFlags: [
+      "Toda paciente com síndrome de Turner deve ter monitorização cardiovascular ao longo da vida, dado o risco aumentado de dissecção de aorta, complicação potencialmente fatal associada a malformações cardíacas de base",
+      "Atraso puberal ou amenorreia primária em adolescente com baixa estatura deve levantar suspeita e motivar investigação cromossômica",
+    ],
+    prognostico:
+      "Bom em termos de expectativa de vida com acompanhamento cardiovascular adequado; a estatura final e o desenvolvimento puberal podem ser otimizados com hormônio do crescimento e terapia de reposição hormonal iniciados oportunamente, embora a infertilidade por insuficiência ovariana primária afete a grande maioria das pacientes.",
+    pontosDeProva: [
+      "A síndrome de Turner é uma causa clássica de amenorreia primária com FSH elevado (hipogonadismo hipergonadotrófico), refletindo a insuficiência ovariana primária por disgenesia gonadal",
+      "O risco de dissecção de aorta exige monitorização cardiovascular ao longo de toda a vida, não apenas na infância",
+      "O hormônio do crescimento deve ser iniciado precocemente na infância, antes do fechamento das epífises, para otimizar a estatura final",
+    ],
+    casoClinico: {
+      vinheta:
+        "Adolescente de 15 anos, altura no percentil 3, sem desenvolvimento de caracteres sexuais secundários, apresenta pescoço com prega cutânea lateral e tórax largo com mamilos afastados.",
+      pergunta: "Qual é a hipótese diagnóstica e a investigação prioritária?",
+      raciocinio:
+        "A combinação de baixa estatura, ausência de desenvolvimento puberal e achados fenotípicos característicos (pescoço alado, tórax em escudo) é altamente sugestiva de síndrome de Turner.",
+      conduta:
+        "Solicitar cariótipo para confirmação diagnóstica, dosar FSH e estradiol para confirmar a insuficiência ovariana primária, e realizar ecocardiograma para rastreamento de malformações cardiovasculares associadas.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "estrogenios-conjugados", nome: "Estrogênios conjugados" },
+    ],
+    medicamentosNota:
+      "Os estrogênios conjugados (ou outra formulação de estrogênio) são usados para indução e manutenção do desenvolvimento puberal e da saúde óssea, iniciados na idade puberal apropriada. O hormônio do crescimento recombinante, usado precocemente na infância para otimização da estatura, ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia da disgenesia gonadal e haploinsuficiência do cromossomo X", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Monitorização cardiovascular, terapia de reposição hormonal e acompanhamento ao longo da vida", fonte: "Gravholt CH, Backeljauw PF et al., Clinical Practice Guidelines for the Care of Girls and Women With Turner Syndrome, International Turner Syndrome Consensus Group, European Journal of Endocrinology, 2024" },
+    ],
+  },
+  {
+    slug: "espinha-bifida",
+    nome: "Espinha bífida",
+    sinonimos: ["Disrafismo espinhal", "Mielomeningocele"],
+    cid10: "Q05",
+    especialidade: "Genética Médica",
+    etiologia: "Multifatorial",
+    resumo: "Malformação congênita por fechamento incompleto do tubo neural na região da coluna vertebral, variando de formas ocultas assintomáticas até mielomeningocele com exposição da medula espinhal e déficits neurológicos graves.",
+    definicao:
+      "Defeito congênito do tubo neural caracterizado pelo fechamento incompleto de uma ou mais vértebras e das estruturas neurais subjacentes durante o desenvolvimento embrionário precoce, com espectro de gravidade que vai da espinha bífida oculta (assintomática, achado incidental) até a mielomeningocele (forma aberta, com exposição do tecido neural e déficits neurológicos significativos).",
+    epidemiologia:
+      "Uma das malformações congênitas mais comuns do sistema nervoso central; a incidência diminuiu substancialmente em países com fortificação obrigatória de alimentos com ácido fólico e suplementação periconcepcional recomendada, refletindo o papel causal da deficiência de folato.",
+    fisiopatologia:
+      "O tubo neural normalmente se fecha completamente por volta da quarta semana de gestação; a deficiência de ácido fólico materno no período periconcepcional é o principal fator de risco modificável identificado, interferindo nos processos de metilação do DNA e proliferação celular necessários para o fechamento completo do tubo neural; outros fatores de risco incluem uso materno de ácido valproico, diabetes materna mal controlada e história familiar prévia de defeito do tubo neural.",
+    classificacao:
+      "Classificada em espinha bífida oculta (defeito ósseo vertebral isolado, sem exposição neural, geralmente assintomática), meningocele (herniação apenas das meninges através do defeito ósseo, sem envolvimento neural direto) e mielomeningocele (forma mais grave, com herniação e exposição da medula espinhal e das raízes nervosas, associada a déficits neurológicos significativos).",
+    quadroClinico: [
+      "Espinha bífida oculta: geralmente assintomática, podendo apresentar sinais cutâneos suprajacentes (tufo piloso, hemangioma, covinha sacral) que sugerem o diagnóstico",
+      "Mielomeningocele: massa visível na linha média da coluna ao nascimento, com déficit motor e sensitivo dos membros inferiores proporcional ao nível da lesão, disfunção vesical e intestinal neurogênica",
+      "Hidrocefalia associada frequentemente presente na mielomeningocele, geralmente por malformação de Chiari tipo II associada",
+    ],
+    diagnostico: [
+      "Rastreamento pré-natal por dosagem de alfafetoproteína sérica materna elevada e confirmação por ultrassonografia obstétrica detalhada, capaz de identificar o defeito e suas características",
+      "Diagnóstico pós-natal evidente ao exame físico nas formas abertas (mielomeningocele); formas ocultas podem ser identificadas incidentalmente por sinais cutâneos suprajacentes ou por exame de imagem realizado por outro motivo",
+    ],
+    examesComplementares: [
+      "Alfafetoproteína sérica materna, elevada nos defeitos abertos do tubo neural, usada como rastreamento no segundo trimestre",
+      "Ultrassonografia obstétrica detalhada e, quando indicado, ressonância magnética fetal, para caracterização completa do defeito e de malformações associadas (hidrocefalia, malformação de Chiari II)",
+      "Ressonância magnética da coluna e do encéfalo no período pós-natal para planejamento cirúrgico e avaliação de hidrocefalia associada",
+    ],
+    diagnosticoDiferencial: [
+      "Outras massas congênitas da linha média posterior (teratoma sacrococcígeo, lipoma), distinguidas por características de imagem específicas",
+      "Anencefalia e outros defeitos do tubo neural craniais, que compartilham a mesma origem fisiopatológica mas afetam segmento distinto do tubo neural",
+    ],
+    tratamento: [
+      "Suplementação periconcepcional universal de ácido fólico em mulheres em idade fértil, principal medida preventiva, com dose aumentada em gestações subsequentes após um caso prévio",
+      "Fechamento cirúrgico da mielomeningocele, idealmente nas primeiras 24-72 horas de vida para reduzir o risco de infecção e de lesão neurológica adicional; cirurgia fetal intraútero é opção em centros especializados para casos selecionados, podendo reduzir a necessidade de derivação para hidrocefalia",
+      "Manejo multidisciplinar ao longo da vida das disfunções neurogênicas associadas (vesical, intestinal, ortopédica)",
+    ],
+    complicacoes: [
+      "Aguda: infecção do sistema nervoso central (meningite) quando o defeito aberto não é fechado prontamente",
+      "Crônica: hidrocefalia (frequentemente exigindo derivação ventriculoperitoneal), disfunção vesical e intestinal neurogênica com risco de dano renal secundário, deformidades ortopédicas dos membros inferiores",
+    ],
+    redFlags: [
+      "Mielomeningocele aberta ao nascimento exige proteção da lesão exposta e fechamento cirúrgico precoce (idealmente nas primeiras 24-72 horas) para reduzir o risco de infecção do sistema nervoso central",
+      "Sinais de disfunção vesical neurogênica não reconhecidos e não tratados podem levar a dano renal progressivo, exigindo cateterismo intermitente e acompanhamento urológico sistemático",
+    ],
+    prognostico:
+      "Variável conforme o nível e a extensão da lesão: espinha bífida oculta geralmente não tem impacto funcional; mielomeningocele está associada a graus variáveis de déficit motor, disfunção vesical/intestinal e comprometimento cognitivo (este último mais relacionado à gravidade da hidrocefalia associada), mas a maioria dos indivíduos com manejo multidisciplinar adequado alcança sobrevida prolongada com boa qualidade de vida.",
+    pontosDeProva: [
+      "A suplementação periconcepcional de ácido fólico é a principal medida preventiva com eficácia comprovada, reduzindo significativamente a incidência de defeitos do tubo neural",
+      "Sinais cutâneos suprajacentes à linha média da coluna (tufo piloso, hemangioma, covinha sacral) em recém-nascido assintomático devem levantar suspeita de espinha bífida oculta e motivar investigação de imagem",
+      "A malformação de Chiari tipo II é a causa mais comum de hidrocefalia associada à mielomeningocele, não uma coincidência isolada",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo apresenta massa cística na linha média da região lombar, com tecido neural visível na base, associada a paralisia flácida dos membros inferiores e ausência de reflexos nos pés.",
+      pergunta: "Qual é o diagnóstico e a conduta imediata?",
+      raciocinio:
+        "A massa na linha média lombar com tecido neural exposto associada a déficit motor dos membros inferiores confirma mielomeningocele, a forma mais grave de espinha bífida.",
+      conduta:
+        "Proteger a lesão exposta com curativo estéril não aderente, posicionar o recém-nascido em decúbito ventral, encaminhar para fechamento cirúrgico precoce (idealmente nas primeiras 24-72 horas) e investigar hidrocefalia associada com neuroimagem.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O ácido fólico, usado como suplementação preventiva periconcepcional (não como tratamento da malformação já estabelecida), ainda não tem ficha própria como suplemento isolado no site. O tratamento da malformação estabelecida é cirúrgico.",
+    fontes: [
+      { tema: "Fisiopatologia do fechamento do tubo neural e fatores de risco", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Suplementação de ácido fólico como medida preventiva", fonte: "Centers for Disease Control and Prevention, Recommendations for the Use of Folic Acid to Reduce the Number of Cases of Spina Bifida and Other Neural Tube Defects, MMWR, 1992" },
+    ],
+  },
+  {
+    slug: "hidrocefalia-congenita",
+    nome: "Hidrocefalia congênita",
+    sinonimos: ["Hidrocefalia fetal"],
+    cid10: "Q03",
+    especialidade: "Genética Médica",
+    etiologia: "Genética",
+    resumo: "Acúmulo excessivo de líquido cefalorraquidiano nos ventrículos cerebrais presente desde a vida fetal ou o período neonatal, causado por malformações congênitas específicas que obstruem ou alteram a circulação liquórica, distinta da hidrocefalia adquirida.",
+    definicao:
+      "Dilatação ventricular cerebral por acúmulo excessivo de líquido cefalorraquidiano de origem congênita, presente já na vida fetal ou manifesta no período neonatal, causada por malformações estruturais específicas (estenose do aqueduto cerebral, malformação de Dandy-Walker, entre outras) que comprometem a circulação ou a reabsorção liquórica — distinta da hidrocefalia adquirida por causas pós-natais como hemorragia ou infecção.",
+    epidemiologia:
+      "Uma das malformações congênitas do sistema nervoso central mais comuns identificadas por ultrassonografia pré-natal; a estenose do aqueduto cerebral é uma das causas congênitas mais frequentes, podendo ser esporádica ou, mais raramente, ligada ao cromossomo X.",
+    fisiopatologia:
+      "A obstrução congênita da circulação liquórica normal (mais comumente no aqueduto cerebral, via estreita que conecta o terceiro e o quarto ventrículos) ou malformações que alteram a anatomia da fossa posterior (malformação de Dandy-Walker, com hipoplasia do vermis cerebelar e dilatação cística do quarto ventrículo) resultam em acúmulo progressivo de líquido cefalorraquidiano nos ventrículos proximais à obstrução, com aumento da pressão intracraniana e compressão progressiva do parênquima cerebral circundante.",
+    classificacao:
+      "Classificada por mecanismo em obstrutiva (não comunicante, por obstrução física ao longo do trajeto liquórico, como na estenose do aqueduto) e comunicante (por reabsorção liquórica deficiente, menos comum na forma congênita isolada); também classificada pela malformação estrutural associada quando identificável (estenose do aqueduto, malformação de Dandy-Walker, entre outras).",
+    quadroClinico: [
+      "Aumento progressivo do perímetro cefálico, frequentemente identificado já na vida fetal por ultrassonografia seriada",
+      "Fontanela anterior abaulada e tensa, suturas cranianas diastasadas ao nascimento",
+      "Sinal do 'sol poente' (desvio do olhar para baixo com esclera visível acima da íris) em casos avançados",
+      "Irritabilidade, vômitos e, em casos graves, rebaixamento do nível de consciência",
+    ],
+    diagnostico: [
+      "Diagnóstico pré-natal por ultrassonografia obstétrica seriada, demonstrando dilatação ventricular progressiva, complementada por ressonância magnética fetal para caracterização da malformação subjacente",
+      "Diagnóstico pós-natal por ultrassonografia transfontanelar ou ressonância magnética, demonstrando dilatação ventricular e permitindo identificar o nível e a causa da obstrução",
+    ],
+    examesComplementares: [
+      "Ultrassonografia transfontanelar, exame inicial de triagem no período neonatal",
+      "Ressonância magnética encefálica, exame de escolha para caracterização detalhada da malformação estrutural subjacente e planejamento cirúrgico",
+    ],
+    diagnosticoDiferencial: [
+      "Macrocrania familiar benigna, distinguida pela ausência de dilatação ventricular verdadeira e pelo padrão de crescimento cefálico estável acompanhando a curva de percentil",
+      "Hidrocefalia adquirida (pós-hemorrágica, pós-infecciosa), distinguida pela ausência da malformação estrutural congênita e pelo contexto clínico de evento causal pós-natal identificável",
+    ],
+    tratamento: [
+      "Derivação ventriculoperitoneal, tratamento cirúrgico definitivo mais comum, desviando o excesso de líquido cefalorraquidiano para a cavidade peritoneal",
+      "Ventriculostomia endoscópica do terceiro ventrículo, alternativa cirúrgica em casos selecionados (particularmente na estenose do aqueduto), evitando a necessidade de dispositivo de derivação permanente",
+      "Acompanhamento neurológico e do desenvolvimento a longo prazo, dado o risco de comprometimento cognitivo proporcional à gravidade e à duração da hipertensão intracraniana não tratada",
+    ],
+    complicacoes: [
+      "Aguda: herniação cerebral por hipertensão intracraniana grave não tratada, disfunção aguda de derivação (obstrução, infecção)",
+      "Crônica: atraso do neurodesenvolvimento proporcional à gravidade e à precocidade do tratamento, necessidade de revisões cirúrgicas repetidas da derivação ao longo da vida",
+    ],
+    redFlags: [
+      "Sinais de disfunção aguda de derivação ventriculoperitoneal (cefaleia, vômitos, letargia, abaulamento de fontanela em lactentes) constituem emergência neurocirúrgica, exigindo avaliação e intervenção imediatas",
+      "Aumento do perímetro cefálico cruzando percentis de forma acelerada, mesmo sem outros sintomas, deve motivar investigação de imagem prioritária",
+    ],
+    prognostico:
+      "Variável conforme a causa subjacente, a gravidade e a precocidade do tratamento: com derivação oportuna e acompanhamento adequado, muitos pacientes têm desenvolvimento neurológico satisfatório, embora exista risco de necessidade de revisões cirúrgicas múltiplas da derivação ao longo da vida.",
+    pontosDeProva: [
+      "A estenose do aqueduto cerebral é uma das causas congênitas mais frequentes de hidrocefalia obstrutiva, podendo ser esporádica ou, mais raramente, ligada ao cromossomo X",
+      "A malformação de Dandy-Walker associa hipoplasia do vermis cerebelar a dilatação cística do quarto ventrículo, sendo causa importante de hidrocefalia congênita",
+      "Disfunção de derivação ventriculoperitoneal é uma emergência neurocirúrgica que deve ser sempre considerada em paciente com derivação prévia que apresenta sinais de hipertensão intracraniana",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido apresenta perímetro cefálico acima do percentil 97, fontanela anterior abaulada e tensa, e sinal do 'sol poente' ao exame oftalmológico. Ultrassonografia transfontanelar mostra dilatação acentuada dos ventrículos laterais e terceiro ventrículo, com quarto ventrículo de tamanho normal.",
+      pergunta: "Qual é a localização provável da obstrução e a conduta subsequente?",
+      raciocinio:
+        "A dilatação dos ventrículos laterais e do terceiro ventrículo com quarto ventrículo de tamanho normal sugere obstrução ao nível do aqueduto cerebral, achado compatível com estenose do aqueduto.",
+      conduta:
+        "Solicitar ressonância magnética encefálica para caracterização detalhada da obstrução e encaminhar para avaliação neurocirúrgica, considerando ventriculostomia endoscópica do terceiro ventrículo ou derivação ventriculoperitoneal conforme a anatomia específica.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é predominantemente cirúrgico (derivação ventriculoperitoneal ou ventriculostomia endoscópica); não há tratamento medicamentoso definitivo para a hidrocefalia congênita estabelecida.",
+    fontes: [
+      { tema: "Fisiopatologia da circulação liquórica e mecanismos obstrutivos congênitos", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Malformações estruturais associadas e abordagem cirúrgica", fonte: "Nelson Textbook of Pediatrics, 21ª ed." },
+    ],
+  },
+  {
+    slug: "fenda-labial-palatina",
+    nome: "Fenda labial e/ou palatina",
+    sinonimos: ["Lábio leporino", "Fissura labiopalatina"],
+    cid10: "Q35",
+    especialidade: "Genética Médica",
+    etiologia: "Multifatorial",
+    resumo: "Malformação congênita por fusão incompleta dos processos faciais embrionários durante o desenvolvimento, resultando em fenda do lábio superior e/ou do palato, com impacto funcional na alimentação, na fala e na audição.",
+    definicao:
+      "Malformação congênita craniofacial resultante da fusão incompleta dos processos faciais embrionários (processos nasais mediais e maxilares para o lábio; processos palatinos para o palato) durante as primeiras semanas de gestação, podendo acometer o lábio, o palato, ou ambos, de forma isolada ou associada a outras malformações em síndromes genéticas reconhecíveis.",
+    epidemiologia:
+      "Uma das malformações craniofacaiais congênitas mais comuns; a maioria dos casos é não sindrômica (isolada), com etiologia multifatorial envolvendo predisposição genética e fatores ambientais (tabagismo materno, uso de determinados anticonvulsivantes, deficiência de ácido fólico), enquanto uma minoria está associada a síndromes genéticas reconhecíveis.",
+    fisiopatologia:
+      "O lábio superior se forma pela fusão dos processos nasais mediais com os processos maxilares por volta da 4ª a 7ª semana de gestação; o palato se forma posteriormente, pela fusão dos processos palatinos laterais entre si e com o septo nasal, completando-se por volta da 12ª semana; a falha nesses processos de fusão, por fatores genéticos e/ou ambientais que interferem na migração e proliferação celular local, resulta na fenda, cuja extensão determina se acomete apenas o lábio, apenas o palato, ou ambos.",
+    classificacao:
+      "Classificada por localização anatômica em fenda labial isolada, fenda palatina isolada, e fenda labiopalatina combinada; também classificada por lateralidade (unilateral ou bilateral) e por completude (completa, estendendo-se até a base do nariz/palato duro, ou incompleta).",
+    quadroClinico: [
+      "Fenda visível no lábio superior, variando de incisura leve até fenda completa estendendo-se ao assoalho nasal",
+      "Fenda do palato duro e/ou mole, visível ao exame da cavidade oral, podendo ser submucosa (não visível diretamente) em casos sutis",
+      "Dificuldade de sucção e alimentação, mais pronunciada quando há fenda palatina, pela incapacidade de gerar pressão negativa intraoral adequada",
+    ],
+    diagnostico: [
+      "Diagnóstico pré-natal possível por ultrassonografia obstétrica de rotina, especialmente para fenda labial, a partir do segundo trimestre",
+      "Diagnóstico pós-natal evidente ao exame físico do recém-nascido",
+      "Avaliação para exclusão de síndromes genéticas associadas quando há outras malformações concomitantes, incluindo aconselhamento genético",
+    ],
+    examesComplementares: [
+      "Ultrassonografia obstétrica para rastreamento pré-natal, com melhor sensibilidade para fenda labial que para fenda palatina isolada",
+      "Avaliação auditiva sistemática, dado o risco aumentado de otite média recorrente e disfunção da tuba auditiva associada à fenda palatina",
+    ],
+    diagnosticoDiferencial: [
+      "Fendas faciais atípicas raras (fendas faciais transversas ou oblíquas), distinguidas pela localização anatômica distinta",
+      "Síndromes genéticas com fenda labiopalatina como parte de um espectro malformativo mais amplo, que devem ser consideradas quando há outras anomalias associadas",
+    ],
+    tratamento: [
+      "Correção cirúrgica estagiada: reparo do lábio geralmente entre 3 e 6 meses de idade, e reparo do palato geralmente entre 9 e 18 meses, seguindo protocolos específicos de cada centro especializado",
+      "Suporte especializado à alimentação no período neonatal, incluindo uso de mamadeiras e bicos adaptados para compensar a incapacidade de sucção efetiva",
+      "Acompanhamento multidisciplinar de longo prazo (fonoaudiologia, otorrinolaringologia, ortodontia) para manejo das sequelas funcionais associadas",
+    ],
+    complicacoes: [
+      "Aguda: dificuldade de ganho ponderal por alimentação ineficiente antes da correção cirúrgica",
+      "Crônica: otite média recorrente e perda auditiva condutiva (pela disfunção da tuba auditiva associada à fenda palatina), alterações da fala (hipernasalidade), problemas ortodônticos e dentários",
+    ],
+    redFlags: [
+      "Dificuldade significativa de ganho ponderal no período neonatal exige suporte especializado à alimentação antes mesmo da correção cirúrgica, para evitar desnutrição no período de espera",
+      "Presença de outras malformações associadas deve motivar investigação para síndromes genéticas reconhecíveis e aconselhamento genético para a família",
+    ],
+    prognostico:
+      "Excelente com correção cirúrgica adequada e acompanhamento multidisciplinar, com a maioria das crianças alcançando fala, alimentação e aparência facial satisfatórias; o prognóstico é mais reservado quando a fenda faz parte de uma síndrome genética com outras malformações associadas.",
+    pontosDeProva: [
+      "A fenda labial e a fenda palatina têm origens embriológicas distintas (fusão dos processos faciais versus fusão dos processos palatinos), explicando por que podem ocorrer isoladamente ou em conjunto",
+      "A correção cirúrgica é estagiada, com reparo do lábio tipicamente antes do reparo do palato, seguindo cronogramas específicos de cada centro",
+      "A disfunção da tuba auditiva associada à fenda palatina explica o risco aumentado de otite média recorrente e perda auditiva condutiva nessa população",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo apresenta fenda unilateral completa do lábio superior estendendo-se até a base do nariz, associada a fenda do palato duro e mole. Apresenta dificuldade significativa de sucção ao seio materno.",
+      pergunta: "Qual a conduta inicial prioritária?",
+      raciocinio:
+        "A fenda labiopalatina completa compromete a capacidade de gerar pressão negativa intraoral necessária para a sucção efetiva, justificando suporte especializado imediato à alimentação antes mesmo da correção cirúrgica definitiva.",
+      conduta:
+        "Iniciar suporte especializado à alimentação com mamadeiras e bicos adaptados, encaminhar para equipe multidisciplinar de fenda labiopalatina, e planejar o reparo cirúrgico estagiado do lábio e, posteriormente, do palato.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é predominantemente cirúrgico e de suporte especializado à alimentação; não há tratamento medicamentoso específico para a malformação em si.",
+    fontes: [
+      { tema: "Embriologia da fusão labial e palatina e fatores de risco", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Cronograma de correção cirúrgica estagiada e manejo multidisciplinar", fonte: "Nelson Textbook of Pediatrics, 21ª ed." },
+    ],
+  },
+  {
+    slug: "cardiopatias-congenitas",
+    nome: "Cardiopatias congênitas",
+    sinonimos: ["Malformações cardíacas congênitas"],
+    cid10: "Q20",
+    especialidade: "Genética Médica",
+    etiologia: "Multifatorial",
+    resumo: "Malformações estruturais do coração e dos grandes vasos presentes desde o nascimento, variando de defeitos simples e bem tolerados a lesões complexas ductus-dependentes que constituem emergências neonatais.",
+    definicao:
+      "Grupo heterogêneo de malformações estruturais do coração e/ou dos grandes vasos originadas durante a organogênese cardíaca embrionária, com apresentação clínica que varia de assintomática (defeitos pequenos, bem tolerados) até choque cardiogênico grave nos primeiros dias de vida (lesões complexas dependentes da permeabilidade do canal arterial).",
+    epidemiologia:
+      "As malformações congênitas major mais comuns, com etiologia multifatorial envolvendo predisposição genética (incluindo associação com síndromes cromossômicas como a síndrome de Down) e fatores ambientais (diabetes materno, certas infecções congênitas, exposição a teratógenos).",
+    fisiopatologia:
+      "Erros durante etapas específicas da organogênese cardíaca embrionária (septação atrial e ventricular, formação e alinhamento dos grandes vasos, desenvolvimento valvar) resultam em defeitos estruturais variados; didaticamente classificadas em acianóticas (shunt esquerda-direita, como comunicação interatrial e interventricular, ou lesões obstrutivas sem shunt, como coarctação da aorta) e cianóticas (shunt direita-esquerda ou mistura de sangue, como tetralogia de Fallot e transposição das grandes artérias), sendo as lesões cianóticas complexas frequentemente dependentes da persistência do canal arterial para manutenção do fluxo pulmonar ou sistêmico adequado nos primeiros dias de vida.",
+    classificacao:
+      "Classificadas funcionalmente em acianóticas (comunicação interatrial, comunicação interventricular, persistência do canal arterial, coarctação da aorta) e cianóticas (tetralogia de Fallot, transposição das grandes artérias, atresia tricúspide, entre outras), distinção com implicação direta na apresentação clínica e na urgência do manejo inicial.",
+    quadroClinico: [
+      "Cianose central desde as primeiras horas de vida nas lesões cianóticas complexas, frequentemente sem sopro audível proeminente",
+      "Sinais de insuficiência cardíaca (taquipneia, dificuldade de ganho ponderal, sudorese às mamadas) nas lesões com shunt esquerda-direita significativo",
+      "Sopro cardíaco à ausculta, achado variável conforme o tipo e a magnitude do defeito",
+      "Colapso cardiovascular agudo ao redor do 2º ao 5º dia de vida nas lesões ductus-dependentes, coincidindo com o fechamento fisiológico do canal arterial",
+    ],
+    diagnostico: [
+      "Rastreamento neonatal universal por oximetria de pulso antes da alta hospitalar, capaz de identificar cardiopatias congênitas críticas mesmo em recém-nascidos assintomáticos e sem sopro audível",
+      "Confirmação por ecocardiograma, exame de referência para caracterização anatômica completa do defeito",
+    ],
+    examesComplementares: [
+      "Oximetria de pulso pré e pós-ductal, exame de rastreamento universal recomendado antes da alta hospitalar, com resultado anormal exigindo ecocardiograma confirmatório",
+      "Ecocardiograma, exame de escolha para diagnóstico anatômico definitivo e planejamento terapêutico",
+      "Radiografia de tórax, com padrões característicos sugestivos de determinadas lesões (ex.: coração em 'bota' na tetralogia de Fallot)",
+    ],
+    diagnosticoDiferencial: [
+      "Hipertensão pulmonar persistente do recém-nascido, que também causa cianose e hipoxemia, mas sem malformação estrutural cardíaca subjacente",
+      "Doenças pulmonares neonatais primárias (síndrome de aspiração meconial, síndrome do desconforto respiratório), distinguidas pelo ecocardiograma normal",
+    ],
+    tratamento: [
+      "Infusão de prostaglandina E1 para manter a permeabilidade do canal arterial em lesões ductus-dependentes, medida que estabiliza o recém-nascido até a correção cirúrgica definitiva",
+      "Correção cirúrgica ou intervenção por cateterismo, definitiva ou paliativa conforme a complexidade da lesão e a idade do paciente",
+      "Suporte clínico da insuficiência cardíaca associada (diuréticos, digitálicos) em lesões com shunt esquerda-direita significativo antes da correção definitiva",
+    ],
+    complicacoes: [
+      "Aguda: colapso cardiovascular por fechamento do canal arterial em lesões ductus-dependentes não reconhecidas antes da alta hospitalar",
+      "Crônica: insuficiência cardíaca progressiva, hipertensão pulmonar secundária ao shunt esquerda-direita não corrigido (síndrome de Eisenmenger em casos extremos), endocardite infecciosa",
+    ],
+    redFlags: [
+      "Cianose central em recém-nascido sem sopro audível proeminente não exclui cardiopatia congênita crítica — a oximetria de pulso é o rastreamento adequado, não a ausculta isolada",
+      "Colapso cardiovascular súbito entre o 2º e o 5º dia de vida deve levantar suspeita imediata de lesão ductus-dependente com fechamento do canal arterial, exigindo infusão de prostaglandina E1 de emergência",
+    ],
+    prognostico:
+      "Variável conforme a complexidade da lesão: defeitos simples (comunicação interatrial pequena, por exemplo) podem ter resolução espontânea ou excelente prognóstico com correção eletiva; lesões complexas exigem correção cirúrgica estagiada e acompanhamento cardiológico ao longo da vida, com prognóstico substancialmente melhorado pelos avanços em cirurgia cardíaca pediátrica.",
+    pontosDeProva: [
+      "O rastreamento neonatal universal por oximetria de pulso identifica cardiopatias congênitas críticas mesmo na ausência de cianose visível ou sopro audível, sendo mais sensível que o exame físico isolado",
+      "Lesões ductus-dependentes podem se apresentar com colapso cardiovascular súbito ao redor do 2º ao 5º dia de vida, coincidindo com o fechamento fisiológico do canal arterial",
+      "A prostaglandina E1 mantém a permeabilidade do canal arterial, sendo medida de estabilização essencial em lesões ductus-dependentes até a correção definitiva",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo, aparentemente saudável ao nascimento, apresenta cianose progressiva e taquipneia no 3º dia de vida, sem sopro cardíaco audível à ausculta.",
+      pergunta: "Qual a hipótese diagnóstica mais provável e a conduta imediata?",
+      raciocinio:
+        "A cianose de início no 3º dia de vida, coincidindo com o período esperado de fechamento fisiológico do canal arterial, é altamente sugestiva de cardiopatia congênita cianótica ductus-dependente, mesmo na ausência de sopro audível.",
+      conduta:
+        "Iniciar infusão de prostaglandina E1 para manter a permeabilidade do canal arterial, solicitar ecocardiograma de urgência para caracterização anatômica da lesão, e encaminhar para centro de referência em cardiologia pediátrica.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "furosemida", nome: "Furosemida" },
+      { slug: "digoxina", nome: "Digoxina" },
+    ],
+    medicamentosSecaoTitulo: "Suporte clínico em lesões acianóticas com shunt esquerda-direita e sobrecarga de volume (não se aplica às lesões cianóticas ductus-dependentes)",
+    medicamentosNota:
+      "Furosemida e digoxina tratam a insuficiência cardíaca por sobrecarga de volume nas lesões acianóticas com shunt esquerda-direita significativo (ex.: comunicação interventricular grande), como ponte até a correção cirúrgica — não se aplicam às lesões cianóticas ductus-dependentes. Nestas, a conduta de estabilização é a infusão de prostaglandina E1 para manter o canal arterial pérvio, medicamento que ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia da organogênese cardíaca e classificação acianótica/cianótica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Rastreamento neonatal universal por oximetria de pulso", fonte: "American Academy of Pediatrics, Endorsement of Health and Human Services Recommendation for Pulse Oximetry Screening for Critical Congenital Heart Disease, Pediatrics, 2012" },
+    ],
+  },
+  {
+    slug: "displasia-desenvolvimento-quadril",
+    nome: "Displasia do desenvolvimento do quadril",
+    sinonimos: ["DDQ", "Luxação congênita do quadril"],
+    cid10: "Q65",
+    especialidade: "Genética Médica",
+    etiologia: "Multifatorial",
+    resumo: "Espectro de anormalidades do desenvolvimento da articulação do quadril, desde instabilidade leve até luxação franca, com detecção precoce essencial para tratamento conservador eficaz e prevenção de sequelas ortopédicas permanentes.",
+    definicao:
+      "Espectro de anormalidades anatômicas da articulação coxofemoral em desenvolvimento, incluindo desde instabilidade leve (cabeça femoral que entra e sai do acetábulo) até subluxação e luxação franca, associadas a formação acetabular inadequada, sendo o termo preferido atual em substituição a 'luxação congênita do quadril' por refletir melhor a natureza evolutiva e nem sempre presente ao nascimento da condição.",
+    epidemiologia:
+      "Mais comum em recém-nascidos do sexo feminino, em apresentação pélvica, com história familiar positiva, e associada a condições que restringem o movimento fetal intraútero (oligoidrâmnio, primeira gestação); o quadril esquerdo é acometido mais frequentemente que o direito.",
+    fisiopatologia:
+      "O desenvolvimento normal do acetábulo depende do estímulo mecânico fornecido pela presença estável da cabeça femoral em seu interior durante a vida fetal e os primeiros meses de vida; fatores que promovem frouxidão ligamentar (hormônios maternos, predisposição genética) combinados com posicionamento fetal desfavorável (apresentação pélvica, restrição de espaço intrauterino) predispõem à instabilidade da articulação, que, se não identificada e tratada precocemente, resulta em desenvolvimento acetabular displásico progressivo.",
+    classificacao:
+      "Classificada clinicamente por gravidade crescente em instabilidade (quadril reduzido mas capaz de subluxar/luxar ao exame), subluxação (contato parcial entre a cabeça femoral e o acetábulo) e luxação (perda completa do contato articular normal), com graduação adicional por ultrassonografia (classificação de Graf) em lactentes.",
+    quadroClinico: [
+      "Assintomática ao nascimento na maioria dos casos, sendo detectada apenas pelo exame físico direcionado de triagem",
+      "Manobras de Ortolani (reduz um quadril luxado) e Barlow (luxa um quadril instável) positivas ao exame do recém-nascido",
+      "Em crianças maiores não diagnosticadas precocemente: assimetria de pregas cutâneas dos membros inferiores, discrepância de comprimento dos membros, claudicação ao início da marcha",
+    ],
+    diagnostico: [
+      "Exame físico de triagem sistemático em todo recém-nascido (manobras de Ortolani e Barlow), repetido em consultas subsequentes de puericultura",
+      "Ultrassonografia do quadril, exame de escolha para confirmação e graduação em lactentes até cerca de 4-6 meses de idade (antes da ossificação significativa da cabeça femoral)",
+      "Radiografia de quadril, exame de escolha após os 4-6 meses de idade, quando a ossificação já permite avaliação radiográfica adequada",
+    ],
+    examesComplementares: [
+      "Ultrassonografia do quadril (classificação de Graf), exame de escolha em lactentes jovens, permitindo avaliação da morfologia acetabular e do grau de cobertura da cabeça femoral",
+      "Radiografia de bacia, exame de escolha em crianças após os 4-6 meses de idade",
+    ],
+    diagnosticoDiferencial: [
+      "Frouxidão ligamentar generalizada benigna do recém-nascido, sem displasia acetabular verdadeira, distinguida pela ultrassonografia normal",
+      "Outras causas de claudicação ou assimetria de marcha em crianças maiores (doença de Legg-Calvé-Perthes, epifisiólise), consideradas quando o diagnóstico não é feito no período de triagem neonatal",
+    ],
+    tratamento: [
+      "Suspensório de Pavlik, tratamento de primeira linha em lactentes diagnosticados antes dos 6 meses de idade, mantendo o quadril em posição de flexão e abdução para promover a redução e o desenvolvimento acetabular normal",
+      "Redução fechada com imobilização em gesso (spica), quando o suspensório de Pavlik falha ou o diagnóstico é feito em idade mais avançada",
+      "Redução cirúrgica aberta, reservada a casos diagnosticados tardiamente ou refratários a métodos conservadores",
+    ],
+    complicacoes: [
+      "Aguda: necrose avascular da cabeça femoral, complicação relacionada ao próprio tratamento (posicionamento excessivamente forçado), exigindo monitorização durante o uso do suspensório de Pavlik",
+      "Crônica: osteoartrose precoce do quadril na vida adulta quando o diagnóstico e o tratamento são tardios ou inadequados",
+    ],
+    redFlags: [
+      "Manobras de Ortolani ou Barlow positivas ao exame neonatal exigem encaminhamento e confirmação ultrassonográfica prontos, dado que o tratamento conservador é significativamente mais eficaz quanto mais precocemente iniciado",
+      "Assimetria de pregas cutâneas dos membros inferiores ou discrepância de comprimento em lactente que passou pela triagem neonatal sem diagnóstico deve motivar reavaliação e investigação de imagem",
+    ],
+    prognostico:
+      "Excelente quando diagnosticada e tratada precocemente (antes dos 6 meses de idade), com a grande maioria alcançando desenvolvimento normal do quadril; o prognóstico piora progressivamente com o atraso diagnóstico, podendo exigir intervenções cirúrgicas mais invasivas e associar-se a osteoartrose precoce na vida adulta.",
+    pontosDeProva: [
+      "O termo 'displasia do desenvolvimento do quadril' substituiu 'luxação congênita do quadril' por refletir melhor a natureza evolutiva da condição, que nem sempre está presente como luxação franca ao nascimento",
+      "O suspensório de Pavlik é o tratamento de primeira linha em lactentes diagnosticados antes dos 6 meses, com eficácia significativamente maior quanto mais precoce o início",
+      "A necrose avascular da cabeça femoral é uma complicação relacionada ao próprio tratamento, exigindo monitorização durante o uso do suspensório de Pavlik",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascida do sexo feminino, primeira gestação, parto pélvico, apresenta manobra de Barlow positiva no quadril esquerdo ao exame de triagem neonatal, sem outros achados anormais.",
+      pergunta: "Qual a conduta diagnóstica e terapêutica apropriada?",
+      raciocinio:
+        "A manobra de Barlow positiva em recém-nascida com fatores de risco conhecidos (sexo feminino, primeira gestação, apresentação pélvica) confirma instabilidade do quadril, achado compatível com displasia do desenvolvimento do quadril.",
+      conduta:
+        "Confirmar o diagnóstico e a gravidade por ultrassonografia do quadril, e iniciar tratamento com suspensório de Pavlik, mantendo o quadril em posição de flexão e abdução para promover a redução e o desenvolvimento acetabular normal.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é ortopédico (suspensório de Pavlik, imobilização ou cirurgia), sem tratamento medicamentoso específico.",
+    fontes: [
+      { tema: "Fisiopatologia do desenvolvimento acetabular e fatores de risco", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Triagem por exame físico e critérios de encaminhamento", fonte: "American Academy of Pediatrics, Evaluation and Referral for Developmental Dysplasia of the Hip in Infants, Pediatrics, 2016" },
+    ],
+  },
+  {
+    slug: "pe-torto-congenito",
+    nome: "Pé torto congênito",
+    sinonimos: ["Pé equinovaro congênito", "Talipes equinovaro"],
+    cid10: "Q66",
+    especialidade: "Genética Médica",
+    etiologia: "Multifatorial",
+    resumo: "Deformidade congênita do pé caracterizada por equino, varo, adução e cavo, tratada preferencialmente pelo método de Ponseti, com excelentes resultados funcionais quando iniciado precocemente.",
+    definicao:
+      "Deformidade congênita complexa do pé caracterizada pela combinação de quatro componentes — equino (flexão plantar do tornozelo), varo (inversão do calcanhar), adução do antepé e cavo (arco plantar aumentado) — presente ao nascimento, podendo ser isolada (idiopática, a forma mais comum) ou associada a síndromes genéticas ou condições neuromusculares subjacentes.",
+    epidemiologia:
+      "Uma das deformidades ortopédicas congênitas mais comuns, mais frequente no sexo masculino, bilateral em aproximadamente metade dos casos; a forma idiopática isolada é a mais comum, mas deve-se sempre avaliar a possibilidade de associação com espinha bífida ou outras condições neuromusculares.",
+    fisiopatologia:
+      "A etiologia exata da forma idiopática permanece incompletamente elucidada, envolvendo provavelmente fatores genéticos (com padrão de herança multifatorial e recorrência familiar aumentada) e possível restrição de espaço intrauterino; anatomicamente, há desalinhamento das articulações do tarso associado a encurtamento de tendões e ligamentos posteromediais do pé e da perna.",
+    classificacao:
+      "Classificado em idiopático (isolado, sem outras anomalias associadas, a forma mais comum) e não idiopático (associado a condições neuromusculares como mielomeningocele/espinha bífida, artrogripose, ou síndromes genéticas), distinção relevante pois a forma não idiopática tende a ser mais rígida e menos responsiva ao tratamento conservador padrão.",
+    quadroClinico: [
+      "Pé fixo em posição de equino, varo, adução do antepé e cavo, visível e geralmente rígido (não corrigível passivamente por completo) ao exame ao nascimento",
+      "Panturrilha e pé menores no lado afetado quando unilateral",
+      "Ausência de outras anomalias associadas na forma idiopática, o que deve ser confirmado por exame físico geral cuidadoso",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico ao exame físico do recém-nascido, pela deformidade característica e sua rigidez à correção passiva",
+      "Avaliação cuidadosa para excluir associação com espinha bífida ou outras condições neuromusculares subjacentes, dado o impacto no prognóstico e na resposta ao tratamento",
+    ],
+    examesComplementares: [
+      "Diagnóstico é predominantemente clínico; exames de imagem (radiografia) têm papel limitado no período neonatal e são reservados a casos de dúvida diagnóstica ou para acompanhamento durante o tratamento",
+    ],
+    diagnosticoDiferencial: [
+      "Metatarso aduzido isolado, deformidade mais leve e flexível, sem o componente de equino característico do pé torto verdadeiro",
+      "Pé torto postural (posicional), causado por posicionamento intrauterino, geralmente flexível e corrigível passivamente, sem necessidade do tratamento estruturado do pé torto verdadeiro",
+    ],
+    tratamento: [
+      "Método de Ponseti, tratamento de primeira linha, consistindo em manipulação seriada e gessos correspondentes trocados semanalmente, seguido de tenotomia percutânea do tendão de Aquiles na maioria dos casos e uso de órtese de manutenção (barra de Dennis-Browne) por período prolongado após a correção",
+      "Cirurgia extensa de partes moles, reservada a casos refratários ao método de Ponseti ou de apresentação muito tardia",
+    ],
+    complicacoes: [
+      "Aguda: irritação cutânea e complicações relacionadas ao uso prolongado de gesso, quando o método de Ponseti não é adequadamente monitorizado",
+      "Crônica: recidiva da deformidade, mais comum quando há não adesão ao uso da órtese de manutenção após a correção inicial",
+    ],
+    redFlags: [
+      "A ausência de adesão ao uso da órtese de manutenção após a correção inicial é a causa mais comum de recidiva, exigindo orientação enfática e acompanhamento próximo da família",
+      "Pé torto associado a outras anomalias neuromusculares tende a ser mais rígido e menos responsivo ao método de Ponseti padrão, exigindo abordagem individualizada",
+    ],
+    prognostico:
+      "Excelente na forma idiopática tratada pelo método de Ponseti iniciado precocemente, com a grande maioria das crianças alcançando um pé funcional, indolor e com boa mobilidade; formas associadas a condições neuromusculares subjacentes têm prognóstico mais reservado e maior taxa de recidiva.",
+    pontosDeProva: [
+      "O método de Ponseti (manipulação seriada com gessos, tenotomia percutânea e órtese de manutenção) é o tratamento de primeira linha, substituindo amplamente a cirurgia extensa de partes moles usada no passado",
+      "A não adesão ao uso da órtese de manutenção após a correção inicial é a principal causa de recidiva, mais do que falha da técnica de correção em si",
+      "É essencial avaliar cuidadosamente a associação com espinha bífida ou outras condições neuromusculares, pois altera o prognóstico e a resposta ao tratamento conservador padrão",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo apresenta ambos os pés fixos em posição de flexão plantar, inversão do calcanhar e adução do antepé, com rigidez importante à tentativa de correção passiva. Exame neurológico e da coluna vertebral são normais.",
+      pergunta: "Qual é o diagnóstico e o tratamento de primeira linha?",
+      raciocinio:
+        "A deformidade bilateral característica (equino, varo, adução, cavo) rígida à correção passiva, na ausência de outras anomalias associadas, confirma pé torto congênito idiopático bilateral.",
+      conduta:
+        "Iniciar o método de Ponseti o mais precocemente possível, com manipulação seriada e trocas semanais de gesso, planejando tenotomia percutânea do tendão de Aquiles conforme a evolução e uso subsequente de órtese de manutenção.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é ortopédico (método de Ponseti), sem tratamento medicamentoso específico.",
+    fontes: [
+      { tema: "Fisiopatologia e classificação idiopática versus não idiopática", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Método de Ponseti e uso de órtese de manutenção", fonte: "Nelson Textbook of Pediatrics, 21ª ed." },
+    ],
+  },
+  {
+    slug: "hipospadias",
+    nome: "Hipospádias",
+    sinonimos: [],
+    cid10: "Q54",
+    especialidade: "Genética Médica",
+    etiologia: "Genética",
+    resumo: "Malformação congênita do pênis caracterizada pela abertura do meato uretral em posição ventral anômala, decorrente de fusão incompleta das prega uretrais durante o desenvolvimento embrionário masculino.",
+    definicao:
+      "Malformação congênita do pênis masculino caracterizada pela localização anômala do meato uretral na face ventral do pênis (em vez de sua posição normal na extremidade da glande), frequentemente associada a curvatura ventral do pênis (encurvamento) e a um prepúcio displásico com excesso dorsal e deficiência ventral.",
+    epidemiologia:
+      "Uma das malformações congênitas do trato geniturinário masculino mais comuns; a grande maioria dos casos é isolada, mas formas mais graves (proximais) têm associação aumentada com outras anomalias geniturinárias, incluindo criptorquidia, justificando investigação adicional nesses casos.",
+    fisiopatologia:
+      "O desenvolvimento normal da uretra peniana masculina depende da fusão completa das pregas uretrais ao longo da face ventral do pênis em desenvolvimento, processo dependente de estimulação androgênica adequada; a interrupção desse processo de fusão, por fatores genéticos ou por deficiência/resistência androgênica relativa durante uma janela crítica do desenvolvimento, resulta na abertura ectópica do meato em posição mais proximal que a normal.",
+    classificacao:
+      "Classificada pela localização anatômica do meato uretral em distal (glandar, coronal ou subcoronal, formas mais comuns e mais leves), média (peniana) e proximal (penoscrotal, escrotal ou perineal, formas mais graves e mais frequentemente associadas a outras anomalias geniturinárias e a curvatura peniana significativa).",
+    quadroClinico: [
+      "Meato uretral em posição ventral anômala, visível ao exame físico do recém-nascido",
+      "Prepúcio displásico, com aspecto de 'capuz' pelo excesso de tecido dorsal e deficiência ventral",
+      "Curvatura ventral do pênis (encurvamento), mais pronunciada nas formas proximais",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico evidente ao exame físico do recém-nascido, com classificação da gravidade conforme a localização do meato",
+      "Investigação adicional (avaliação para desordens do desenvolvimento sexual) indicada quando há hipospádias proximal associada a criptorquidia bilateral ou outras anomalias genitais ambíguas",
+    ],
+    examesComplementares: [
+      "Exame físico detalhado, principal ferramenta diagnóstica e de classificação",
+      "Ultrassonografia pélvica/geniturinária e avaliação endócrina quando há hipospádias proximal associada a criptorquidia ou genitália ambígua, para investigação de desordens do desenvolvimento sexual",
+    ],
+    diagnosticoDiferencial: [
+      "Epispádias, malformação distinta com abertura uretral na face dorsal do pênis, geralmente associada a extrofia vesical",
+      "Desordens do desenvolvimento sexual, quando a hipospádias proximal está associada a genitália ambígua ou criptorquidia bilateral",
+    ],
+    tratamento: [
+      "Correção cirúrgica eletiva, geralmente realizada entre 6 e 18 meses de idade, com técnica variando conforme a gravidade e a localização do meato",
+      "Circuncisão neonatal deve ser evitada até a correção cirúrgica definitiva, dado que o prepúcio é frequentemente utilizado como tecido doador na cirurgia reconstrutiva",
+    ],
+    complicacoes: [
+      "Aguda: complicações cirúrgicas imediatas (sangramento, infecção)",
+      "Crônica: fístula uretrocutânea e estenose do meato, complicações pós-operatórias relativamente comuns que podem exigir revisão cirúrgica adicional",
+    ],
+    redFlags: [
+      "A circuncisão neonatal deve ser evitada em todo recém-nascido com hipospádias, dado que o prepúcio é frequentemente necessário como tecido doador na cirurgia reconstrutiva posterior",
+      "Hipospádias proximal associada a criptorquidia bilateral ou genitália ambígua exige investigação para desordens do desenvolvimento sexual antes de qualquer decisão cirúrgica",
+    ],
+    prognostico:
+      "Excelente na maioria dos casos com correção cirúrgica adequada, permitindo função urinária e sexual normal na vida adulta; formas proximais mais graves têm maior taxa de complicações pós-operatórias e podem exigir múltiplas revisões cirúrgicas.",
+    pontosDeProva: [
+      "A circuncisão neonatal deve ser evitada em todo caso de hipospádias, pois o prepúcio é tecido doador importante na cirurgia reconstrutiva — orientação prática frequentemente cobrada",
+      "Hipospádias proximal associada a criptorquidia bilateral deve levantar suspeita de desordem do desenvolvimento sexual, exigindo investigação antes de qualquer intervenção",
+      "A gravidade é classificada pela localização anatômica do meato (distal, média, proximal), com implicação direta na complexidade cirúrgica e no risco de anomalias associadas",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido do sexo masculino apresenta meato uretral localizado na face ventral do pênis, na região penoscrotal, associado a criptorquidia bilateral e prepúcio displásico.",
+      pergunta: "Qual é a conduta apropriada antes de decisões cirúrgicas?",
+      raciocinio:
+        "A combinação de hipospádias proximal (penoscrotal) com criptorquidia bilateral levanta suspeita de desordem do desenvolvimento sexual subjacente, exigindo investigação antes de qualquer planejamento cirúrgico definitivo.",
+      conduta:
+        "Encaminhar para avaliação endócrina e genética especializada, incluindo cariótipo e avaliação hormonal, antes de definir o plano cirúrgico, e orientar a família para evitar circuncisão neonatal dado o uso futuro do prepúcio na reconstrução.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é cirúrgico; não há tratamento medicamentoso específico para a malformação em si.",
+    fontes: [
+      { tema: "Embriologia da formação uretral masculina e classificação por localização do meato", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Manejo cirúrgico e orientação sobre circuncisão neonatal", fonte: "Nelson Textbook of Pediatrics, 21ª ed." },
+    ],
+  },
+  {
+    slug: "criptorquidia",
+    nome: "Criptorquidia",
+    sinonimos: ["Testículo não descido"],
+    cid10: "Q53",
+    especialidade: "Genética Médica",
+    etiologia: "Multifatorial",
+    resumo: "Ausência de um ou ambos os testículos na bolsa escrotal por falha da descida testicular normal durante o desenvolvimento fetal, associada a maior risco de infertilidade e de neoplasia testicular se não corrigida oportunamente.",
+    definicao:
+      "Ausência de um ou ambos os testículos na posição escrotal normal, por interrupção do processo de descida testicular fisiológica (da cavidade abdominal, através do canal inguinal, até o escroto) que ocorre normalmente durante o terceiro trimestre da gestação, sendo o distúrbio genital congênito mais comum identificado ao nascimento em meninos.",
+    epidemiologia:
+      "Mais comum em recém-nascidos pré-termo (pela descida testicular ocorrer predominantemente no terceiro trimestre) que em recém-nascidos a termo; uma proporção significativa dos casos identificados ao nascimento resolve espontaneamente nos primeiros meses de vida pela descida completa tardia, reduzindo a prevalência real na idade em que o tratamento é geralmente considerado.",
+    fisiopatologia:
+      "A descida testicular normal ocorre em duas fases dependentes de diferentes sinalizações hormonais: a fase transabdominal (dependente do hormônio antimülleriano e de fatores locais) e a fase inguinoescrotal (dependente de andrógenos); a interrupção desse processo, por fatores anatômicos, hormonais ou genéticos, resulta na retenção do testículo em algum ponto do seu trajeto normal (intra-abdominal, inguinal, ou pré-escrotal alto).",
+    classificacao:
+      "Classificada por localização do testículo não descido em intra-abdominal, inguinal (a mais comum) e pré-escrotal alto; também classificada em palpável (testículo localizado ao exame, mas fora da posição escrotal normal) e não palpável (testículo intra-abdominal ou ausente/atrófico), distinção com implicação direta na abordagem diagnóstica e cirúrgica.",
+    quadroClinico: [
+      "Bolsa escrotal vazia ou hipoplásica no lado afetado, achado ao exame físico do recém-nascido",
+      "Testículo pode ser palpável no trajeto inguinal (forma mais comum) ou não palpável, sugerindo localização intra-abdominal ou ausência/atrofia testicular",
+    ],
+    diagnostico: [
+      "Diagnóstico clínico pelo exame físico cuidadoso, incluindo tentativa de palpação ao longo de todo o trajeto inguinal",
+      "Distinção fundamental entre testículo criptorquídico verdadeiro e testículo retrátil (que pode ser manualmente trazido até o escroto e permanece ali temporariamente, uma variante normal que não requer tratamento)",
+    ],
+    examesComplementares: [
+      "Exame físico cuidadoso, principal ferramenta diagnóstica; exames de imagem (ultrassonografia) têm valor limitado para localizar testículos não palpáveis e não são rotineiramente recomendados para essa finalidade",
+      "Laparoscopia diagnóstica, exame de escolha quando o testículo não é palpável ao exame físico, permitindo tanto o diagnóstico da localização quanto o tratamento cirúrgico no mesmo procedimento",
+    ],
+    diagnosticoDiferencial: [
+      "Testículo retrátil, variante normal em que o testículo pode ser manualmente trazido e mantido no escroto, não exigindo intervenção",
+      "Anorquia (ausência congênita bilateral dos testículos), condição rara distinta que exige avaliação hormonal específica",
+    ],
+    tratamento: [
+      "Orquidopexia (fixação cirúrgica do testículo na posição escrotal), tratamento de escolha, recomendada idealmente entre 6 e 18 meses de idade, mais precocemente do que se pensava anteriormente, visando otimizar o potencial de fertilidade futura",
+      "Terapia hormonal com gonadotrofina coriônica humana, opção com eficácia limitada e uso mais restrito atualmente, reservada a situações específicas",
+    ],
+    complicacoes: [
+      "Aguda: torção testicular, risco discretamente aumentado no testículo criptorquídico em comparação ao testículo em posição escrotal normal",
+      "Crônica: infertilidade (mais pronunciada em casos bilaterais e quando a correção é tardia) e risco aumentado de neoplasia testicular na vida adulta, mesmo após a correção cirúrgica, exigindo autoexame testicular orientado a partir da puberdade",
+    ],
+    redFlags: [
+      "A orquidopexia deve ser realizada idealmente entre 6 e 18 meses de idade, mais precocemente do que se recomendava no passado, dado que o dano germinativo progressivo ao testículo criptorquídico começa já no primeiro ano de vida",
+      "Testículo criptorquídico bilateral associado a outras anomalias genitais deve motivar investigação para desordens do desenvolvimento sexual",
+    ],
+    prognostico:
+      "Bom com correção cirúrgica oportuna, embora o risco de infertilidade (especialmente em casos bilaterais) e de neoplasia testicular na vida adulta permaneça discretamente aumentado mesmo após a orquidopexia bem-sucedida, justificando acompanhamento e orientação de autoexame a longo prazo.",
+    pontosDeProva: [
+      "A orquidopexia é atualmente recomendada mais precocemente (6 a 18 meses) do que no passado, pela evidência de dano germinativo progressivo já no primeiro ano de vida",
+      "O testículo retrátil é uma variante normal que deve ser diferenciada da criptorquidia verdadeira, pois não requer intervenção cirúrgica",
+      "O risco de neoplasia testicular permanece discretamente aumentado mesmo após correção cirúrgica bem-sucedida, justificando orientação de autoexame testicular a partir da puberdade",
+    ],
+    casoClinico: {
+      vinheta:
+        "Lactente de 8 meses, nascido pré-termo, apresenta bolsa escrotal direita vazia desde o nascimento. Ao exame, palpa-se estrutura compatível com testículo no trajeto inguinal direito, que não pode ser trazida e mantida na posição escrotal.",
+      pergunta: "Qual é o diagnóstico e a conduta terapêutica apropriada?",
+      raciocinio:
+        "A ausência do testículo na bolsa escrotal desde o nascimento, com testículo palpável no trajeto inguinal que não pode ser mantido na posição escrotal, confirma criptorquidia verdadeira (não testículo retrátil).",
+      conduta:
+        "Encaminhar para orquidopexia, procedimento cirúrgico recomendado idealmente entre 6 e 18 meses de idade para otimizar o potencial de fertilidade futura e permitir monitorização adequada do testículo.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "A orquidopexia (correção cirúrgica) é o tratamento de escolha; a terapia hormonal com gonadotrofina coriônica humana tem eficácia limitada e uso mais restrito, e ainda não tem ficha própria no site.",
+    fontes: [
+      { tema: "Fisiopatologia da descida testicular e suas duas fases hormonais", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Idade recomendada para orquidopexia e distinção de testículo retrátil", fonte: "Kolon TF et al., Evaluation and Treatment of Cryptorchidism: AUA Guideline, Journal of Urology, 2014" },
+    ],
+  },
+  {
+    slug: "doenca-renal-policistica-malformacoes-renais-congenitas",
+    nome: "Doença renal policística e outras malformações renais congênitas",
+    sinonimos: ["Rim policístico congênito", "Doença renal policística autossômica recessiva"],
+    cid10: "Q61",
+    especialidade: "Genética Médica",
+    etiologia: "Genética",
+    resumo: "Doença renal cística hereditária que se manifesta na infância, causada por mutações no gene PKHD1, com espectro que varia de formas neonatais graves com oligoidrâmnio grave até formas mais leves diagnosticadas na infância tardia.",
+    definicao:
+      "Doença renal cística hereditária de padrão autossômico recessivo, causada por mutações no gene PKHD1, caracterizada por dilatação cística fusiforme dos ductos coletores renais associada a fibrose hepática congênita, com apresentação clínica que varia de forma perinatal grave (frequentemente fatal) até formas mais leves diagnosticadas na infância ou adolescência.",
+    epidemiologia:
+      "Doença rara, mas é a principal causa de doença renal cística hereditária sintomática no período neonatal e na infância, distinta da forma autossômica dominante do adulto (mais comum na população geral, mas de manifestação tipicamente tardia).",
+    fisiopatologia:
+      "Mutações no gene PKHD1, que codifica a fibrocistina/poliductina, proteína envolvida na diferenciação normal dos ductos coletores e dos ductos biliares, resultam em dilatação cística fusiforme (não esférica, ao contrário da forma autossômica dominante) dos ductos coletores renais, com preservação da arquitetura renal geral mas perda progressiva de néfrons funcionais; a mesma mutação also causa fibrose hepática congênita por displasia ductal biliar, explicando o acometimento combinado renal e hepático característico da doença.",
+    classificacao:
+      "Classificada clinicamente por idade de apresentação em forma perinatal (a mais grave, com oligoidrâmnio grave e sequência de Potter, frequentemente fatal no período neonatal por hipoplasia pulmonar), forma neonatal/infantil (menos grave, mas ainda com insuficiência renal progressiva) e forma juvenil (diagnosticada mais tardiamente, com predomínio relativo de manifestações hepáticas de hipertensão portal).",
+    quadroClinico: [
+      "Forma perinatal: oligoidrâmnio grave (por redução acentuada da produção de urina fetal), rins aumentados bilateralmente e hiperecogênicos à ultrassonografia, hipoplasia pulmonar secundária ao oligoidrâmnio (sequência de Potter)",
+      "Formas mais tardias: hipertensão arterial de difícil controle, insuficiência renal progressiva, hepatomegalia e sinais de hipertensão portal (varizes esofágicas, esplenomegalia) por fibrose hepática congênita associada",
+    ],
+    diagnostico: [
+      "Diagnóstico pré-natal por ultrassonografia obstétrica, demonstrando rins aumentados e hiperecogênicos associados a oligoidrâmnio, nos casos de forma perinatal grave",
+      "Diagnóstico pós-natal por ultrassonografia renal e hepática, associada a história familiar compatível com padrão de herança autossômica recessiva; confirmação por análise genética molecular do gene PKHD1 quando disponível",
+    ],
+    examesComplementares: [
+      "Ultrassonografia renal, demonstrando rins aumentados e hiperecogênicos bilateralmente, com preservação da diferenciação corticomedular na maioria dos casos ao contrário de outras doenças renais císticas",
+      "Ultrassonografia hepática, para avaliação da fibrose hepática congênita e de sinais de hipertensão portal associados",
+      "Função renal seriada, para monitorização da progressão da doença renal crônica",
+    ],
+    diagnosticoDiferencial: [
+      "Doença renal policística autossômica dominante do adulto, distinguida pelo padrão de herança, pela idade de apresentação tipicamente tardia e pela morfologia cística tipicamente esférica (não fusiforme)",
+      "Displasia renal multicística, malformação renal distinta e geralmente unilateral, sem o padrão de herança familiar e sem o acometimento hepático característico",
+    ],
+    tratamento: [
+      "Não há tratamento curativo específico; o manejo é de suporte multidisciplinar, incluindo controle rigoroso da hipertensão arterial e manejo da insuficiência renal progressiva",
+      "Suporte respiratório intensivo no período neonatal em casos com hipoplasia pulmonar associada à forma perinatal grave",
+      "Manejo da hipertensão portal e de suas complicações (varizes esofágicas) nas formas com fibrose hepática mais proeminente",
+      "Diálise e transplante renal (e, em casos selecionados com fibrose hepática grave, transplante combinado fígado-rim) para doença renal em estágio terminal",
+    ],
+    complicacoes: [
+      "Aguda: insuficiência respiratória grave por hipoplasia pulmonar na forma perinatal, frequentemente fatal nas primeiras horas/dias de vida",
+      "Crônica: doença renal crônica progressiva até estágio terminal, hipertensão portal com risco de sangramento por varizes esofágicas, hipertensão arterial de difícil controle",
+    ],
+    redFlags: [
+      "Oligoidrâmnio grave associado a rins fetais aumentados e hiperecogênicos exige aconselhamento antenatal cuidadoso com a família sobre o prognóstico grave associado à hipoplasia pulmonar esperada",
+      "Sinais de hipertensão portal (esplenomegalia, varizes esofágicas) em criança com doença renal policística conhecida devem motivar vigilância endoscópica e manejo especializado, dado o risco de sangramento significativo",
+    ],
+    prognostico:
+      "Reservado na forma perinatal grave, com mortalidade neonatal elevada por hipoplasia pulmonar; nos sobreviventes do período neonatal e nas formas de apresentação mais tardia, a sobrevida a longo prazo melhorou substancialmente com diálise e transplante renal, embora a função renal e hepática exijam acompanhamento especializado contínuo ao longo da vida.",
+    pontosDeProva: [
+      "A doença renal policística autossômica recessiva é causada por mutações no gene PKHD1, distinta geneticamente da forma autossômica dominante do adulto (genes PKD1/PKD2)",
+      "A dilatação cística é fusiforme (não esférica) nos ductos coletores, e a mesma mutação causa fibrose hepática congênita associada, explicando o acometimento combinado renal e hepático característico",
+      "A forma perinatal grave é frequentemente fatal por hipoplasia pulmonar secundária ao oligoidrâmnio grave (sequência de Potter), não pela insuficiência renal em si",
+    ],
+    casoClinico: {
+      vinheta:
+        "Gestante, 32 semanas, ultrassonografia mostra rins fetais bilateralmente aumentados e hiperecogênicos, associados a oligoidrâmnio grave. História de um irmão anterior falecido no período neonatal por insuficiência respiratória.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e a implicação prognóstica?",
+      raciocinio:
+        "Os rins aumentados e hiperecogênicos associados a oligoidrâmnio grave, somados à história familiar de óbito neonatal por insuficiência respiratória (sugestivo de hipoplasia pulmonar em um irmão previamente afetado), são compatíveis com doença renal policística autossômica recessiva na forma perinatal grave, condição com padrão de herança autossômica recessiva.",
+      conduta:
+        "Realizar aconselhamento genético para a família, incluindo discussão sobre o prognóstico grave esperado (risco elevado de hipoplasia pulmonar fatal) e sobre a possibilidade de confirmação por análise molecular do gene PKHD1.",
+    },
+    medicamentosPrimeiraLinha: [
+      { slug: "losartana-potassica", nome: "Losartana potássica" },
+    ],
+    medicamentosNota:
+      "A losartana é usada no controle da hipertensão arterial associada, frequentemente de difícil controle nessa doença; não há tratamento medicamentoso que module a progressão da doença cística em si.",
+    fontes: [
+      { tema: "Fisiopatologia da mutação do gene PKHD1 e acometimento renal-hepático combinado", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Classificação por idade de apresentação e manejo multidisciplinar", fonte: "Guay-Woodford LM et al., Consensus Expert Recommendations for the Diagnosis and Management of Autosomal Recessive Polycystic Kidney Disease: Report of an International Conference, Journal of Pediatrics, 2014" },
+    ],
+  },
+  {
+    slug: "onfalocele-gastrosquise",
+    nome: "Onfalocele e gastrosquise",
+    sinonimos: ["Defeitos da parede abdominal"],
+    cid10: "Q79",
+    especialidade: "Genética Médica",
+    etiologia: "Multifatorial",
+    resumo: "Defeitos congênitos da parede abdominal anterior com exteriorização de vísceras, distinguidos pela presença ou ausência de saco peritoneal de cobertura e pela associação com outras malformações, com implicações diretas no manejo e no prognóstico.",
+    definicao:
+      "Grupo de defeitos congênitos da parede abdominal anterior caracterizados pela exteriorização de vísceras abdominais para fora da cavidade, incluindo a onfalocele (herniação através do anel umbilical, coberta por um saco peritoneal, frequentemente associada a outras malformações e anomalias cromossômicas) e a gastrosquise (defeito paraumbilical, tipicamente à direita do cordão umbilical, sem saco de cobertura, geralmente isolada).",
+    epidemiologia:
+      "Ambos são defeitos congênitos relativamente raros; a onfalocele está fortemente associada a anomalias cromossômicas e outras malformações estruturais (até metade dos casos), enquanto a gastrosquise é tipicamente isolada e mais associada a mães jovens, refletindo prováveis diferenças na fisiopatologia entre as duas condições.",
+    fisiopatologia:
+      "A onfalocele resulta da falha de retorno completo do intestino médio à cavidade abdominal após a herniação fisiológica normal que ocorre durante o desenvolvimento embrionário precoce, permanecendo coberto pelo âmnio e peritônio (daí o saco de cobertura); a gastrosquise resulta de um defeito na parede abdominal lateral ao anel umbilical, com teoria mais aceita envolvendo uma falha vascular localizada (interrupção da artéria onfalomesentérica direita) durante o desenvolvimento, sem relação com o processo de retorno intestinal normal — daí a ausência de saco de cobertura e a menor associação com anomalias cromossômicas.",
+    classificacao:
+      "Diferenciadas principalmente pela presença (onfalocele) ou ausência (gastrosquise) de saco peritoneal de cobertura, pela localização do defeito em relação ao cordão umbilical (central na onfalocele, paraumbilical tipicamente à direita na gastrosquise), e pela frequência de anomalias associadas (alta na onfalocele, baixa na gastrosquise).",
+    quadroClinico: [
+      "Onfalocele: massa central coberta por membrana translúcida (âmnio/peritônio) contendo alças intestinais e, frequentemente, fígado, com o cordão umbilical inserido no ápice do saco",
+      "Gastrosquise: alças intestinais exteriorizadas sem cobertura membranosa, tipicamente à direita de um cordão umbilical de inserção normal, com alças frequentemente edemaciadas e com aspecto inflamatório pela exposição direta ao líquido amniótico",
+    ],
+    diagnostico: [
+      "Diagnóstico pré-natal por ultrassonografia obstétrica de rotina, geralmente no primeiro ou segundo trimestre, com alta sensibilidade para ambas as condições",
+      "Investigação adicional para anomalias cromossômicas e estruturais associadas obrigatória quando há onfalocele, dada a alta frequência de associação",
+    ],
+    examesComplementares: [
+      "Ultrassonografia obstétrica detalhada, com avaliação cuidadosa de anomalias associadas, especialmente cardíacas, na onfalocele",
+      "Cariótipo fetal, fortemente recomendado quando há onfalocele, dada a associação com trissomias e outras anomalias cromossômicas",
+      "Alfafetoproteína sérica materna elevada, achado inespecífico mas frequentemente presente em ambas as condições",
+    ],
+    diagnosticoDiferencial: [
+      "Hérnia umbilical fisiológica do cordão (hérnia fisiológica do intestino médio, resolvida espontaneamente até a 12ª semana de gestação), distinguida pelo momento e pelo tamanho do defeito",
+      "Extrofia de cloaca e outras malformações complexas da parede abdominal inferior, distinguidas pela localização e pela associação com anomalias geniturinárias específicas",
+    ],
+    tratamento: [
+      "Planejamento do parto em centro com suporte cirúrgico neonatal imediato disponível, essencial para ambas as condições",
+      "Onfalocele: fechamento cirúrgico primário quando o defeito é pequeno e permite redução sem tensão excessiva; fechamento estagiado (com uso de silo) quando o defeito é grande ou há desproporção entre o conteúdo herniado e a cavidade abdominal",
+      "Gastrosquise: proteção imediata das alças expostas (envoltório estéril, evitando perda de calor e líquido) e redução cirúrgica, primária ou estagiada com silo, geralmente nas primeiras horas de vida",
+    ],
+    complicacoes: [
+      "Aguda: hipotermia e perda hídrica significativa pela exposição das vísceras (mais pronunciada na gastrosquise, pela ausência de saco de cobertura), síndrome compartimental abdominal se o fechamento for realizado sob tensão excessiva",
+      "Crônica: disfunção de motilidade intestinal prolongada, mais comum na gastrosquise pela exposição direta e inflamação intestinal induzida pelo líquido amniótico; síndrome do intestino curto em casos com atresia intestinal associada",
+    ],
+    redFlags: [
+      "Vísceras expostas na gastrosquise devem ser protegidas imediatamente após o nascimento (envoltório estéril não aderente, posicionamento adequado) para minimizar perda de calor, líquido e o risco de comprometimento vascular das alças",
+      "Toda onfalocele exige investigação cromossômica e estrutural completa antes do planejamento cirúrgico definitivo, dada a alta frequência de anomalias associadas que podem alterar significativamente o prognóstico geral",
+    ],
+    prognostico:
+      "Na gastrosquise isolada, o prognóstico é geralmente bom após a correção cirúrgica, embora a disfunção intestinal transitória possa prolongar a necessidade de nutrição parenteral; na onfalocele, o prognóstico depende predominantemente das anomalias associadas (cromossômicas, cardíacas) mais do que do defeito da parede abdominal em si.",
+    pontosDeProva: [
+      "A presença de saco de cobertura (onfalocele) versus sua ausência (gastrosquise) é a principal distinção diagnóstica e reflete mecanismos fisiopatológicos completamente distintos",
+      "A onfalocele tem associação muito mais forte com anomalias cromossômicas e estruturais, exigindo investigação cromossômica obrigatória, ao contrário da gastrosquise, tipicamente isolada",
+      "A gastrosquise está mais associada a mães jovens e a exposição intestinal direta ao líquido amniótico, o que explica a inflamação e a disfunção de motilidade intestinal frequentemente observadas após o nascimento",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo, mãe de 19 anos sem comorbidades, apresenta alças intestinais exteriorizadas sem cobertura membranosa, localizadas à direita de um cordão umbilical de inserção normal, com aspecto edemaciado.",
+      pergunta: "Qual é o diagnóstico e a conduta imediata?",
+      raciocinio:
+        "A exteriorização de alças intestinais sem saco de cobertura, paraumbilical à direita, em mãe jovem, é característica de gastrosquise, condição tipicamente isolada.",
+      conduta:
+        "Proteger imediatamente as alças expostas com envoltório estéril não aderente para minimizar perda de calor e líquido, posicionar adequadamente o recém-nascido, e encaminhar para correção cirúrgica (primária ou estagiada com silo) nas primeiras horas de vida.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento é cirúrgico e de suporte intensivo neonatal; não há tratamento medicamentoso específico para o defeito da parede abdominal em si.",
+    fontes: [
+      { tema: "Fisiopatologia distinta da onfalocele e da gastrosquise e associação com anomalias cromossômicas", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Manejo cirúrgico neonatal imediato", fonte: "Nelson Textbook of Pediatrics, 21ª ed." },
+    ],
+  },
+  {
+    slug: "estenose-hipertrofica-piloro",
+    nome: "Estenose hipertrófica do piloro",
+    sinonimos: ["EHP"],
+    cid10: "Q40",
+    especialidade: "Genética Médica",
+    etiologia: "Multifatorial",
+    resumo: "Hipertrofia progressiva da musculatura pilórica que causa obstrução mecânica da saída gástrica, classicamente manifesta entre a terceira e a sexta semana de vida com vômitos não biliosos em jato e alcalose metabólica hipoclorêmica.",
+    definicao:
+      "Hipertrofia e hiperplasia progressivas da camada muscular circular do piloro, causando estreitamento e alongamento progressivos do canal pilórico com obstrução mecânica da saída gástrica, tipicamente manifesta entre a terceira e a sexta semana de vida em lactentes previamente saudáveis.",
+    epidemiologia:
+      "Mais comum em lactentes do sexo masculino, primogênitos, com maior incidência em determinados grupos étnicos; a etiologia exata permanece incompletamente elucidada, com provável componente genético (maior risco em irmãos e filhos de pais afetados) e ambiental combinados.",
+    fisiopatologia:
+      "A hipertrofia e hiperplasia progressivas das fibras musculares circulares do piloro, por mecanismo ainda não completamente elucidado (possivelmente relacionado a deficiência local de óxido nítrico sintase e alteração da inervação entérica pilórica), resultam em estreitamento e alongamento do canal pilórico ('oliva pilórica' palpável), causando obstrução mecânica progressiva da saída gástrica; os vômitos repetidos de conteúdo gástrico (rico em ácido clorídrico e pobre em bile, dado que a obstrução é proximal à ampola de Vater) resultam em perda de hidrogênio, cloreto e potássio, gerando a alcalose metabólica hipoclorêmica e hipocalêmica característica.",
+    classificacao:
+      "Não há um sistema de estadiamento formal amplamente usado; a gravidade é avaliada pela intensidade da desidratação e do distúrbio hidroeletrolítico associado no momento do diagnóstico.",
+    quadroClinico: [
+      "Vômitos não biliosos em jato, progressivos em frequência e volume, tipicamente iniciando entre a 3ª e a 6ª semana de vida",
+      "Lactente com fome persistente e disposto a mamar novamente logo após o episódio de vômito ('lactente faminto')",
+      "Perda ou estagnação ponderal progressiva com a persistência dos vômitos não tratados",
+      "'Oliva pilórica' palpável no quadrante superior direito/epigástrio em lactente calmo, achado clássico quando presente",
+      "Ondas peristálticas visíveis no abdome superior logo após a mamada, em casos mais avançados",
+    ],
+    diagnostico: [
+      "Suspeita clínica pelo padrão característico de vômitos não biliosos em jato de início entre a 3ª e a 6ª semana de vida, associado à palpação da 'oliva pilórica' quando presente",
+      "Confirmação por ultrassonografia abdominal, exame de escolha, demonstrando espessamento e alongamento característicos do canal pilórico",
+    ],
+    examesComplementares: [
+      "Ultrassonografia abdominal, exame de escolha para confirmação diagnóstica, com critérios de espessura muscular e comprimento do canal pilórico bem estabelecidos",
+      "Gasometria venosa e eletrólitos, demonstrando o padrão característico de alcalose metabólica hipoclorêmica e hipocalêmica, essencial para guiar a correção pré-operatória",
+    ],
+    diagnosticoDiferencial: [
+      "Refluxo gastroesofágico do lactente, distinguido pela ausência de vômitos em jato verdadeiros e pela ausência dos achados ultrassonográficos característicos",
+      "Erros inatos do metabolismo e outras causas de vômitos persistentes no lactente, consideradas quando a ultrassonografia não confirma a hipertrofia pilórica",
+      "Outras causas de obstrução da saída gástrica (membrana antral, má rotação intestinal), distinguidas por achados de imagem específicos",
+    ],
+    tratamento: [
+      "Correção pré-operatória cuidadosa da desidratação e do distúrbio hidroeletrolítico (alcalose metabólica hipoclorêmica e hipocalêmica) antes de qualquer intervenção cirúrgica, etapa essencial e nunca dispensável",
+      "Piloromiotomia (incisão longitudinal da camada muscular hipertrofiada do piloro, preservando a mucosa), tratamento cirúrgico definitivo e curativo, realizado somente após a correção metabólica adequada",
+    ],
+    complicacoes: [
+      "Aguda: desidratação grave e distúrbio hidroeletrolítico significativo (alcalose metabólica, hipocalemia) se o diagnóstico for tardio; perfuração da mucosa duodenal, complicação cirúrgica rara durante a piloromiotomia",
+      "Crônica: excelente evolução após a correção cirúrgica, sem sequelas significativas de longo prazo na grande maioria dos casos",
+    ],
+    redFlags: [
+      "A cirurgia nunca deve ser realizada antes da correção completa da alcalose metabólica e da desidratação, pelo risco significativo de complicações anestésicas e respiratórias (apneia pós-operatória) associadas à alcalose não corrigida",
+      "Vômitos biliosos (esverdeados) não são característicos da estenose hipertrófica do piloro e devem levantar suspeita de outras causas de obstrução intestinal mais distal, como má rotação com volvo",
+    ],
+    prognostico:
+      "Excelente após a piloromiotomia, com resolução completa dos sintomas e sem sequelas de longo prazo na grande maioria dos casos, desde que a correção metabólica pré-operatória tenha sido adequada.",
+    pontosDeProva: [
+      "Os vômitos são caracteristicamente não biliosos, pois a obstrução é proximal à ampola de Vater — vômitos biliosos devem afastar essa hipótese e sugerir obstrução mais distal",
+      "A alcalose metabólica hipoclorêmica e hipocalêmica resulta da perda de ácido gástrico pelos vômitos repetidos, e sua correção completa é pré-requisito obrigatório antes da cirurgia",
+      "A 'oliva pilórica' palpável no quadrante superior direito é o achado clássico ao exame físico, embora sua ausência não exclua o diagnóstico, exigindo confirmação ultrassonográfica",
+    ],
+    casoClinico: {
+      vinheta:
+        "Lactente de 5 semanas de vida, sexo masculino, primogênito, apresenta vômitos não biliosos em jato progressivos há 1 semana, com fome persistente após os episódios e perda ponderal. Ao exame, palpa-se massa oval no quadrante superior direito do abdome.",
+      pergunta: "Qual é o diagnóstico mais provável e a conduta apropriada?",
+      raciocinio:
+        "O padrão característico de vômitos não biliosos em jato de início entre a 3ª e a 6ª semana de vida, associado a fome persistente e à palpação da 'oliva pilórica', é altamente sugestivo de estenose hipertrófica do piloro.",
+      conduta:
+        "Confirmar o diagnóstico por ultrassonografia abdominal, corrigir cuidadosamente a desidratação e o distúrbio hidroeletrolítico (alcalose metabólica hipoclorêmica) antes de qualquer intervenção, e encaminhar para piloromiotomia após a estabilização metabólica completa.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento definitivo é cirúrgico (piloromiotomia); a correção hidroeletrolítica pré-operatória (reposição de líquidos e eletrólitos) é medida de suporte essencial, não um tratamento medicamentoso específico da doença.",
+    fontes: [
+      { tema: "Fisiopatologia da hipertrofia pilórica e mecanismo da alcalose metabólica hipoclorêmica", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Diagnóstico ultrassonográfico e necessidade de correção pré-operatória", fonte: "Nelson Textbook of Pediatrics, 21ª ed." },
+    ],
+  },
+  {
+    slug: "doenca-de-hirschsprung",
+    nome: "Doença de Hirschsprung",
+    sinonimos: ["Megacólon congênito", "Megacólon agangliônico"],
+    cid10: "Q43",
+    especialidade: "Genética Médica",
+    etiologia: "Genética",
+    resumo: "Obstrução intestinal funcional congênita causada pela ausência de células ganglionares parassimpáticas em um segmento distal do intestino, mais comumente o retossigmoide, causando um estado de contração tônica persistente e obstrução funcional.",
+    definicao:
+      "Malformação congênita do sistema nervoso entérico caracterizada pela ausência de células ganglionares parassimpáticas (aganglionose) em um segmento contíguo do intestino, iniciando-se sempre no esfíncter anal interno e estendendo-se proximalmente por extensão variável, resultando em um segmento afetado que permanece em contração tônica persistente e causa obstrução funcional do trânsito intestinal.",
+    epidemiologia:
+      "Mais comum no sexo masculino, com a forma clássica (retossigmoide) representando a grande maioria dos casos; associada a diversas síndromes genéticas, mais notavelmente a síndrome de Down, que tem risco significativamente aumentado de doença de Hirschsprung associada.",
+    fisiopatologia:
+      "Durante o desenvolvimento embrionário normal, células da crista neural migram craniocaudalmente ao longo do intestino em formação, diferenciando-se em células ganglionares dos plexos mioentérico e submucoso; a interrupção dessa migração antes de completar todo o trajeto até o ânus resulta em um segmento distal aganglionar, que permanece incapaz de relaxar (perdendo a inibição neural normal) e gera obstrução funcional, com dilatação secundária do segmento proximal normalmente inervado (megacólon) pela obstrução crônica a jusante.",
+    classificacao:
+      "Classificada pela extensão do segmento aganglionar em doença de segmento curto (retossigmoide, a mais comum, representando a grande maioria dos casos), segmento longo (estendendo-se além do sigmoide) e aganglionose colônica total (acometendo todo o cólon, forma mais rara e grave).",
+    quadroClinico: [
+      "Atraso na eliminação do mecônio além de 48 horas de vida, achado altamente sugestivo em recém-nascidos",
+      "Distensão abdominal progressiva e vômitos, sinais de obstrução intestinal funcional",
+      "Em casos diagnosticados mais tardiamente: constipação crônica grave desde o nascimento, resistente a medidas habituais, com episódios de suboclusão intestinal recorrente",
+      "Enterocolite associada à doença de Hirschsprung, complicação potencialmente grave que pode ocorrer antes ou depois da correção cirúrgica",
+    ],
+    diagnostico: [
+      "Suspeita clínica pela combinação de atraso na eliminação de mecônio além de 48 horas associado a distensão abdominal e vômitos, ou por constipação crônica grave de início neonatal em crianças maiores",
+      "Biópsia retal, exame padrão-ouro para confirmação diagnóstica, demonstrando ausência de células ganglionares e hipertrofia de fibras nervosas colinérgicas no segmento afetado",
+    ],
+    examesComplementares: [
+      "Enema contrastado, demonstrando a zona de transição característica entre o segmento aganglionar estreitado e o segmento proximal dilatado, achado de apoio mas não definitivo",
+      "Biópsia retal por sucção, exame de confirmação diagnóstica definitiva, com análise histopatológica e, quando disponível, coloração para acetilcolinesterase",
+      "Manometria anorretal, demonstrando ausência do reflexo inibitório retoanal normal, achado de apoio complementar",
+    ],
+    diagnosticoDiferencial: [
+      "Íleo meconial e outras obstruções intestinais mecânicas do recém-nascido, distinguidas pela biópsia retal normal e por achados radiológicos específicos",
+      "Constipação funcional da infância, distinguida pela ausência de sintomas desde o período neonatal e pela biópsia retal normal quando realizada",
+      "Síndrome do cólon esquerdo pequeno (transitória, associada a diabetes materno), que se resolve espontaneamente e não apresenta aganglionose à biópsia",
+    ],
+    tratamento: [
+      "Descompressão intestinal inicial (lavagens retais, colostomia de descarga em casos selecionados) para estabilização antes da correção cirúrgica definitiva",
+      "Cirurgia de abaixamento (pull-through), tratamento definitivo, removendo o segmento aganglionar e conectando o intestino normalmente inervado ao ânus, com diversas técnicas cirúrgicas disponíveis",
+      "Vigilância e tratamento prontos da enterocolite associada à doença de Hirschsprung, complicação potencialmente grave que exige reconhecimento precoce",
+    ],
+    complicacoes: [
+      "Aguda: enterocolite associada à doença de Hirschsprung, complicação potencialmente grave e com risco de sepse, podendo ocorrer antes ou depois da correção cirúrgica",
+      "Crônica: incontinência fecal e constipação persistente pós-operatória em uma proporção de pacientes, exigindo acompanhamento e manejo especializado de longo prazo",
+    ],
+    redFlags: [
+      "Atraso na eliminação de mecônio além de 48 horas de vida em recém-nascido a termo deve sempre motivar investigação para doença de Hirschsprung antes de ser atribuído a outras causas menos específicas",
+      "Sinais de enterocolite associada à doença de Hirschsprung (distensão abdominal, febre, diarreia explosiva, instabilidade sistêmica) constituem emergência que exige reconhecimento e tratamento imediatos, dado o risco de sepse",
+    ],
+    prognostico:
+      "Bom na maioria dos casos após a cirurgia de abaixamento, com a maioria das crianças alcançando continência fecal satisfatória, embora uma proporção mantenha algum grau de disfunção intestinal (constipação ou incontinência) exigindo manejo especializado contínuo.",
+    pontosDeProva: [
+      "O segmento aganglionar começa sempre no esfíncter anal interno e se estende proximalmente por extensão variável — nunca há um segmento aganglionar 'isolado' mais proximal sem acometimento do reto distal",
+      "A biópsia retal por sucção é o exame padrão-ouro para confirmação diagnóstica, demonstrando ausência de células ganglionares",
+      "A associação com síndrome de Down é significativamente aumentada, devendo motivar rastreamento em pacientes com essa síndrome que apresentem constipação grave ou atraso na eliminação de mecônio",
+    ],
+    casoClinico: {
+      vinheta:
+        "Recém-nascido a termo, sem eliminação de mecônio em 60 horas de vida, apresenta distensão abdominal progressiva e recusa alimentar. Ao toque retal, há eliminação explosiva de fezes e gases após a retirada do dedo.",
+      pergunta: "Qual é a hipótese diagnóstica mais provável e o exame confirmatório?",
+      raciocinio:
+        "O atraso significativo na eliminação de mecônio associado a distensão abdominal e à eliminação explosiva de fezes ao toque retal (sinal característico) é altamente sugestivo de doença de Hirschsprung.",
+      conduta:
+        "Solicitar enema contrastado para identificar a zona de transição e confirmar o diagnóstico por biópsia retal por sucção, exame padrão-ouro, antes de planejar a cirurgia de abaixamento definitiva.",
+    },
+    medicamentosPrimeiraLinha: [],
+    medicamentosNota:
+      "O tratamento definitivo é cirúrgico (cirurgia de abaixamento); não há tratamento medicamentoso específico para a aganglionose em si.",
+    fontes: [
+      { tema: "Fisiopatologia da migração das células da crista neural e aganglionose", fonte: "Harrison's Principles of Internal Medicine, 21ª ed." },
+      { tema: "Diagnóstico por biópsia retal e manejo da enterocolite associada", fonte: "Gosain A, Frykman PK et al., Guidelines for the Diagnosis and Management of Hirschsprung-Associated Enterocolitis, American Pediatric Surgical Association Hirschsprung Disease Interest Group, Pediatric Surgery International, 2017" },
     ],
   },
 ];
